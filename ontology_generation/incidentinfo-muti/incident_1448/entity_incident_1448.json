@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EmotionDetectionAI",
+      "中文名称": "情绪检测AI",
+      "英文名称": "Emotion Detection AI",
+      "来源": "Network Rail and Amazon AI cameras to monitor railway passengers' emotions"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Network Rail ‘secretly used AI to read passengers’ emotions’"
+    },
+    "Stakeholder": {
+      "id": "RailwayPassengers",
+      "中文名称": "铁路乘客",
+      "英文名称": "Railway Passengers",
+      "来源": "Amazon-Powered AI Cameras Used to Detect Emotions of Unwitting UK Train Passengers"
+    },
+    "AIOperator": {
+      "id": "NetworkRail",
+      "中文名称": "铁路网络公司",
+      "英文名称": "Network Rail",
+      "来源": "Network Rail and Amazon AI cameras to monitor railway passengers' emotions"
+    },
+    "AIProvider": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon-Powered AI Cameras Used to Detect Emotions of Unwitting UK Train Passengers"
+    },
+    "Impact": {
+      "id": "EmotionalPrivacyInvasion",
+      "中文名称": "情感隐私侵犯",
+      "英文名称": "Emotional Privacy Invasion",
+      "来源": "Network Rail ‘secretly used AI to read passengers’ emotions’"
+    },
+    "Purpose": {
+      "id": "PassengerEmotionMonitoring",
+      "中文名称": "乘客情绪监控",
+      "英文名称": "Passenger Emotion Monitoring",
+      "来源": "Network Rail and Amazon AI cameras to monitor railway passengers' emotions"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通",
+      "英文名称": "Public Transportation",
+      "来源": "Amazon-Powered AI Cameras Used to Detect Emotions of Unwitting UK Train Passengers"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别",
+      "英文名称": "Facial Recognition",
+      "来源": "Amazon-Powered AI Cameras Used to Detect Emotions of Unwitting UK Train Passengers"
+    },
+    "RiskSource": {
+      "id": "CovertSurveillance",
+      "中文名称": "隐蔽监控",
+      "英文名称": "Covert Surveillance",
+      "来源": "Network Rail ‘secretly used AI to read passengers’ emotions’"
+    },
+    "Consequence": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Loss of Personal Privacy",
+      "来源": "Amazon-Powered AI Cameras Used to Detect Emotions of Unwitting UK Train Passengers"
+    }
+  }
+}

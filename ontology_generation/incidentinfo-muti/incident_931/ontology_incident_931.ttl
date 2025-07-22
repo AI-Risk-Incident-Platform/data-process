@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NHKMultilingualSubtitleService rdf:type airo:AISystem ;
+    rdfs:label "NHK多语言字幕服务"@zh ;
+    rdfs:label "NHK Multilingual Subtitle Service"@en ;
+    airo:hasRisk ex:PoliticalSensitivityRisk ;
+    airo:hasCapability ex:MultilingualLiveSubtitleGeneration ;
+    airo:hasStakeholder ex:NHK ;
+    airo:isAppliedWithinDomain ex:MediaBroadcasting .
+
+ex:PoliticalSensitivityRisk rdf:type airo:Risk ;
+    rdfs:label "政治敏感性风险"@zh ;
+    rdfs:label "Political Sensitivity Risk"@en ;
+    airo:hasConsequence ex:ServiceTermination ;
+    airo:isRiskSourceFor ex:TerritorialNamingDispute .
+
+ex:ServiceTermination rdf:type airo:Consequence ;
+    rdfs:label "服务终止后果"@zh ;
+    rdfs:label "Service Termination Consequence"@en ;
+    airo:hasImpact ex:InternationalRelationsImpact .
+
+ex:MultilingualLiveSubtitleGeneration rdf:type airo:AICapability ;
+    rdfs:label "多语言实时字幕生成能力"@zh ;
+    rdfs:label "Multilingual Live Subtitle Generation Capability"@en .
+
+ex:NHK rdf:type airo:Stakeholder ;
+    rdfs:label "NHK"@zh ;
+    rdfs:label "NHK"@en .
+
+ex:InternationalRelationsImpact rdf:type airo:Impact ;
+    rdfs:label "国际关系影响"@zh ;
+    rdfs:label "International Relations Impact"@en ;
+    airo:hasImpactOnStakeholder ex:NHK .
+
+ex:MediaBroadcasting rdf:type airo:Domain ;
+    rdfs:label "媒体广播领域"@zh ;
+    rdfs:label "Media Broadcasting Domain"@en .
+
+ex:TerritorialNamingDispute rdf:type airo:RiskSource ;
+    rdfs:label "领土命名争议风险源"@zh ;
+    rdfs:label "Territorial Naming Dispute Risk Source"@en .

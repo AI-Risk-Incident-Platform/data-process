@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeObamaVideoGenerator rdf:type airo:AISystem ;
+    rdfs:label "Fake Obama Video Generator"@en ;
+    rdfs:label "伪造奥巴马视频生成器"@zh ;
+    airo:hasRisk ex:MisinformationPropagationRisk ;
+    airo:usesTechnique ex:LipSyncingAI ;
+    airo:hasPurpose ex:DemonstratingDeepfakeTechnology ;
+    airo:isAppliedWithinDomain ex:MediaAndEntertainment ;
+    airo:hasStakeholder ex:PublicFigures .
+
+ex:MisinformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicTrustErosion .
+
+ex:LipSyncingAI rdf:type airo:AITechnique ;
+    rdfs:label "Lip-Syncing AI Technique"@en ;
+    rdfs:label "唇语同步AI技术"@zh .
+
+ex:PublicFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Consequence ;
+    rdfs:label "Public Trust Erosion Consequence"@en ;
+    rdfs:label "公众信任侵蚀后果"@zh ;
+    airo:hasImpact ex:SocialMediaManipulation .
+
+ex:DemonstratingDeepfakeTechnology rdf:type airo:Purpose ;
+    rdfs:label "Demonstrating Deepfake Technology Purpose"@en ;
+    rdfs:label "展示深度伪造技术的目的"@zh .
+
+ex:MediaAndEntertainment rdf:type airo:Domain ;
+    rdfs:label "Media and Entertainment Domain"@en ;
+    rdfs:label "媒体与娱乐领域"@zh .
+
+ex:SocialMediaManipulation rdf:type airo:Impact ;
+    rdfs:label "Social Media Manipulation Impact"@en ;
+    rdfs:label "社交媒体操纵影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicFigures .

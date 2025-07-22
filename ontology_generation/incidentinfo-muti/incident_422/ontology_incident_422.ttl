@@ -1,0 +1,80 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HSBCVoiceRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "HSBC Voice Recognition System"@en ;
+    rdfs:label "汇丰银行语音识别系统"@zh ;
+    airo:hasRisk ex:VoiceSpoofingRisk ;
+    airo:hasCapability ex:VoiceAuthentication ;
+    airo:hasPurpose ex:SecureBankingAuthentication ;
+    airo:hasStakeholder ex:HSBCBank ;
+    airo:hasAISubject ex:BankCustomers ;
+    airo:isAppliedWithinDomain ex:BankingSecurity ;
+    airo:usesTechnique ex:VoiceBiometrics ;
+    airo:hasVulnerability ex:VoiceImpersonation .
+
+ex:VoiceSpoofingRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Spoofing Risk"@en ;
+    rdfs:label "语音欺骗风险"@zh ;
+    airo:hasConsequence ex:SecurityBreach ;
+    airo:isRiskSourceFor ex:BiometricSpoofing , ex:VoiceReplication .
+
+ex:SecurityBreach rdf:type airo:Consequence ;
+    rdfs:label "Security Breach Consequence"@en ;
+    rdfs:label "安全漏洞后果"@zh ;
+    airo:hasImpact ex:FinancialFraud .
+
+ex:VoiceAuthentication rdf:type airo:AICapability ;
+    rdfs:label "Voice Authentication Capability"@en ;
+    rdfs:label "语音认证能力"@zh .
+
+ex:HSBCBank rdf:type airo:Stakeholder ;
+    rdfs:label "HSBC Bank"@en ;
+    rdfs:label "汇丰银行"@zh .
+
+ex:BankCustomers rdf:type airo:AISubject ;
+    rdfs:label "Bank Customers"@en ;
+    rdfs:label "银行客户"@zh .
+
+ex:FinancialFraud rdf:type airo:Impact ;
+    rdfs:label "Financial Fraud Impact"@en ;
+    rdfs:label "金融欺诈影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HSBCBank , ex:BankCustomers .
+
+ex:SecureBankingAuthentication rdf:type airo:Purpose ;
+    rdfs:label "Secure Banking Authentication Purpose"@en ;
+    rdfs:label "安全银行认证目的"@zh .
+
+ex:BankingSecurity rdf:type airo:Domain ;
+    rdfs:label "Banking Security Domain"@en ;
+    rdfs:label "银行安全领域"@zh .
+
+ex:VoiceBiometrics rdf:type airo:AITechnique ;
+    rdfs:label "Voice Biometrics Technique"@en ;
+    rdfs:label "语音生物识别技术"@zh .
+
+ex:VoiceImpersonation rdf:type airo:Vulnerability ;
+    rdfs:label "Voice Impersonation Vulnerability"@en ;
+    rdfs:label "语音模仿漏洞"@zh .
+
+ex:BiometricSpoofing rdf:type airo:Threat ;
+    rdfs:label "Biometric Spoofing Threat"@en ;
+    rdfs:label "生物识别欺骗威胁"@zh .
+
+ex:VoiceReplication rdf:type airo:RiskSource ;
+    rdfs:label "Voice Replication Risk Source"@en ;
+    rdfs:label "语音复制风险源"@zh ;
+    airo:exploitsVulnerability ex:VoiceImpersonation .
+
+ex:BiometricAuthenticationFailure rdf:type airo:RiskConcept ;
+    rdfs:label "Biometric Authentication Failure Risk Concept"@en ;
+    rdfs:label "生物识别认证失败风险概念"@zh .

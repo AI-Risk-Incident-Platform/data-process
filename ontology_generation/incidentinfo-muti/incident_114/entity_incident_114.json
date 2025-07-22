@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HealthcareDecisionAlgorithm",
+      "中文名称": "医疗决策算法",
+      "英文名称": "Healthcare Decision Algorithm",
+      "来源": "What Happens When An Algorithm Cuts Your Health Care"
+    },
+    "Risk": {
+      "id": "MedicalRacismRisk",
+      "中文名称": "医疗种族主义风险",
+      "英文名称": "Medical Racism Risk",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "Consequence": {
+      "id": "HealthCareDisparity",
+      "中文名称": "医疗保健差异",
+      "英文名称": "Health Care Disparity",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "Impact": {
+      "id": "ReducedAccessToCare",
+      "中文名称": "减少获得医疗服务的机会",
+      "英文名称": "Reduced Access to Care",
+      "来源": "What Happens When An Algorithm Cuts Your Health Care"
+    },
+    "Stakeholder": {
+      "id": "Patients",
+      "中文名称": "患者",
+      "英文名称": "Patients",
+      "来源": "What Happens When An Algorithm Cuts Your Health Care"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    }
+  }
+}

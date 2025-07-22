@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasAICapability ex:TextGeneration ;
+    airo:hasPurpose ex:InformationGeneration ;
+    airo:hasStakeholder ex:Children ;
+    airo:isAppliedWithinDomain ex:PublicHealth .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:HarmfulBeliefsAboutGunSafety ;
+    airo:isRiskSourceFor ex:InaccurateDataGeneration .
+
+ex:HarmfulBeliefsAboutGunSafety rdf:type airo:Consequence ;
+    rdfs:label "Harmful Beliefs About Gun Safety Consequence"@en ;
+    rdfs:label "关于枪支安全的有害信念后果"@zh ;
+    airo:hasImpact ex:PotentialHarmToChildren .
+
+ex:TextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .
+
+ex:Children rdf:type airo:Stakeholder ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:PotentialHarmToChildren rdf:type airo:Impact ;
+    rdfs:label "Potential Harm to Children Impact"@en ;
+    rdfs:label "对儿童的潜在伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Children .
+
+ex:InformationGeneration rdf:type airo:Purpose ;
+    rdfs:label "Information Generation Purpose"@en ;
+    rdfs:label "信息生成目的"@zh .
+
+ex:PublicHealth rdf:type airo:Domain ;
+    rdfs:label "Public Health Domain"@en ;
+    rdfs:label "公共卫生领域"@zh .
+
+ex:InaccurateDataGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Data Generation Risk Source"@en ;
+    rdfs:label "不准确数据生成风险源"@zh .

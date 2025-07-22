@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Google researchers find personal information can be accessed through ChatGPT queries"
+    },
+    "Risk": {
+      "id": "TrainingDataLeakageRisk",
+      "中文名称": "训练数据泄露风险",
+      "英文名称": "Training Data Leakage Risk",
+      "来源": "Extracting Training Data from ChatGPT"
+    },
+    "Consequence": {
+      "id": "PersonalInformationExposure",
+      "中文名称": "个人信息暴露后果",
+      "英文名称": "Personal Information Exposure Consequence",
+      "来源": "Google researchers find personal information can be accessed through ChatGPT queries"
+    },
+    "AITechnique": {
+      "id": "PromptInjectionAttack",
+      "中文名称": "提示注入攻击技术",
+      "英文名称": "Prompt Injection Attack Technique",
+      "来源": "Google Researchers’ Attack Prompts ChatGPT to Reveal Its Training Data"
+    },
+    "Stakeholder": {
+      "id": "GoogleResearchers",
+      "中文名称": "谷歌研究人员",
+      "英文名称": "Google Researchers",
+      "来源": "Google researchers find personal information can be accessed through ChatGPT queries"
+    },
+    "RiskSource": {
+      "id": "VulnerableQueryResponseMechanism",
+      "中文名称": "脆弱的查询响应机制风险源",
+      "英文名称": "Vulnerable Query Response Mechanism Risk Source",
+      "来源": "Google researchers find personal information can be accessed through ChatGPT queries"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Google researchers find personal information can be accessed through ChatGPT queries"
+    }
+  }
+}

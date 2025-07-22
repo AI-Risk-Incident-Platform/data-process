@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITradingSystem",
+      "中文名称": "AI交易系统",
+      "英文名称": "AI Trading System",
+      "来源": "Trades by robot cost Hong Kong businessman $20mn"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "Consequence": {
+      "id": "SignificantFinancialLoss",
+      "中文名称": "重大财务损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "Stakeholder": {
+      "id": "HongKongBusinessman",
+      "中文名称": "香港商人",
+      "英文名称": "Hong Kong Businessman",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "AIOperator": {
+      "id": "Tyndaris",
+      "中文名称": "Tyndaris公司",
+      "英文名称": "Tyndaris",
+      "来源": "Tyndaris v VWM"
+    },
+    "Impact": {
+      "id": "InvestorFinancialDamage",
+      "中文名称": "投资者财务损害影响",
+      "英文名称": "Investor Financial Loss",
+      "来源": "Investor Sues After an AI's Automated Trades Cost Him $20 Million"
+    },
+    "Purpose": {
+      "id": "AutomatedInvestmentTrading",
+      "中文名称": "自动化投资交易目的",
+      "英文名称": "Automated Investment Trading Purpose",
+      "来源": "AI-powered investments"
+    },
+    "Domain": {
+      "id": "FinancialInvestment",
+      "中文名称": "金融投资领域",
+      "英文名称": "Financial Investment Domain",
+      "来源": "AI-powered investments"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicTradingError",
+      "中文名称": "算法交易错误风险源",
+      "英文名称": "Algorithmic Trading Error Risk Source",
+      "来源": "AI's Automated Trades Cost Him $20 Million"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITradingSystem",
+      "中文名称": "AI交易系统",
+      "英文名称": "AI Trading System",
+      "来源": "Trades by robot cost Hong Kong businessman $20mn"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "Consequence": {
+      "id": "SignificantFinancialLoss",
+      "中文名称": "重大财务损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "Stakeholder": {
+      "id": "HongKongBusinessman",
+      "中文名称": "香港商人",
+      "英文名称": "Hong Kong Businessman",
+      "来源": "cost Hong Kong businessman $20mn"
+    },
+    "AIOperator": {
+      "id": "Tyndaris",
+      "中文名称": "Tyndaris公司",
+      "英文名称": "Tyndaris",
+      "来源": "Tyndaris v VWM"
+    },
+    "Impact": {
+      "id": "InvestorFinancialDamage",
+      "中文名称": "投资者财务损害影响",
+      "英文名称": "Investor Financial Loss",
+      "来源": "Investor Sues After an AI's Automated Trades Cost Him $20 Million"
+    },
+    "Purpose": {
+      "id": "AutomatedInvestmentTrading",
+      "中文名称": "自动化投资交易目的",
+      "英文名称": "Automated Investment Trading Purpose",
+      "来源": "AI-powered investments"
+    },
+    "Domain": {
+      "id": "FinancialInvestment",
+      "中文名称": "金融投资领域",
+      "英文名称": "Financial Investment Domain",
+      "来源": "AI-powered investments"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicTradingError",
+      "中文名称": "算法交易错误风险源",
+      "英文名称": "Algorithmic Trading Error Risk Source",
+      "来源": "AI's Automated Trades Cost Him $20 Million"
+    }
+  }
+}

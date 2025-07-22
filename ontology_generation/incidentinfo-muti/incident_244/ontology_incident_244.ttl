@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChessRobot rdf:type airo:AISystem ;
+    rdfs:label "Chess Robot"@en ;
+    rdfs:label "国际象棋机器人"@zh ;
+    airo:hasRisk ex:PhysicalHarmRisk ;
+    airo:hasAISubject ex:ChildChessPlayer ;
+    airo:isAppliedWithinDomain ex:ChessGame ;
+    airo:hasStakeholder ex:HumanPlayer .
+
+ex:PhysicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Harm Risk"@en ;
+    rdfs:label "人身伤害风险"@zh ;
+    airo:hasConsequence ex:FingerInjury .
+
+ex:FingerInjury rdf:type airo:Consequence ;
+    rdfs:label "Finger Injury Consequence"@en ;
+    rdfs:label "手指受伤后果"@zh ;
+    airo:hasImpact ex:PhysicalTrauma .
+
+ex:ChildChessPlayer rdf:type airo:AISubject ;
+    rdfs:label "Child Chess Player"@en ;
+    rdfs:label "儿童棋手"@zh .
+
+ex:PhysicalTrauma rdf:type airo:Impact ;
+    rdfs:label "Physical Trauma Impact"@en ;
+    rdfs:label "身体创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HumanPlayer .
+
+ex:ChessGame rdf:type airo:Domain ;
+    rdfs:label "Chess Game Domain"@en ;
+    rdfs:label "国际象棋游戏领域"@zh .
+
+ex:HumanPlayer rdf:type airo:Stakeholder ;
+    rdfs:label "Human Player"@en ;
+    rdfs:label "人类玩家"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    rdfs:label "Deepfake Video System"@en ;
+    airo:hasRisk ex:DisinformationCampaignRisk ;
+    airo:hasAISubject ex:OlenaZelenska ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:RussianDisinformationCampaign .
+
+ex:DisinformationCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息宣传风险"@zh ;
+    rdfs:label "Disinformation Campaign Risk"@en ;
+    airo:hasConsequence ex:FalseClaimDissemination ;
+    airo:isRiskSourceFor ex:JohnDouganFalseClaims .
+
+ex:RussianDisinformationCampaign rdf:type airo:Stakeholder ;
+    rdfs:label "俄罗斯虚假信息宣传"@zh ;
+    rdfs:label "Russian Disinformation Campaign"@en .
+
+ex:OlenaZelenska rdf:type airo:AISubject ;
+    rdfs:label "奥莱娜·泽连斯卡"@zh ;
+    rdfs:label "Olena Zelenska"@en .
+
+ex:FalseClaimDissemination rdf:type airo:Consequence ;
+    rdfs:label "虚假声明传播后果"@zh ;
+    rdfs:label "False Claim Dissemination Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:OlenaZelenska .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:JohnDouganFalseClaims rdf:type airo:RiskSource ;
+    rdfs:label "约翰·杜根虚假声明风险源"@zh ;
+    rdfs:label "John Dougan False Claims Risk Source"@en .

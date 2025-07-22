@@ -1,0 +1,244 @@
+{
+  "Inappropriate Content Risk": [
+    [
+      "Content Censorship Risk",
+      0.7722415106439401
+    ],
+    [
+      "Content Risk Management",
+      0.714425622333996
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.6815927018595395
+    ],
+    [
+      "Alt-Right Content Amplification Risk",
+      0.6333042055317988
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.5225826947511268
+    ]
+  ],
+  "Algorithmic Bias in Sentiment Analysis Risk": [
+    [
+      "Gender Bias in Word Embeddings Risk",
+      0.6789246669549254
+    ],
+    [
+      "Gender Bias in Search Results Risk",
+      0.6592133766304105
+    ],
+    [
+      "Racial Bias in Facial Recognition Risk",
+      0.6507292200796548
+    ],
+    [
+      "Racial Bias in Sentencing Risk",
+      0.628304867915182
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.5619908068397844
+    ]
+  ],
+  "Content Censorship Risk": [
+    [
+      "Inappropriate Content Risk",
+      0.7722415106439401
+    ],
+    [
+      "Content Risk Management",
+      0.7000694588830233
+    ],
+    [
+      "Alt-Right Content Amplification Risk",
+      0.6201320124546056
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.5025545609390296
+    ],
+    [
+      "Gender Bias in Search Results Risk",
+      0.49306700804193926
+    ]
+  ],
+  "Racial Bias in Facial Recognition Risk": [
+    [
+      "Racial Bias in Sentencing Risk",
+      0.7294323502018495
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.6507292200796548
+    ],
+    [
+      "Gender Bias in Search Results Risk",
+      0.5881828725735675
+    ],
+    [
+      "Gender Bias in Word Embeddings Risk",
+      0.5758071478037232
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.45414751839189305
+    ]
+  ],
+  "Alt-Right Content Amplification Risk": [
+    [
+      "Inappropriate Content Risk",
+      0.6333042055317988
+    ],
+    [
+      "Content Censorship Risk",
+      0.6201320124546056
+    ],
+    [
+      "Content Risk Management",
+      0.5118857138227902
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.4983118685948442
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.4649016591785592
+    ]
+  ],
+  "Gender Bias in Word Embeddings Risk": [
+    [
+      "Gender Bias in Search Results Risk",
+      0.7096481293948638
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.6789246669549254
+    ],
+    [
+      "Racial Bias in Facial Recognition Risk",
+      0.5758071478037232
+    ],
+    [
+      "Racial Bias in Sentencing Risk",
+      0.5069818202966784
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.44440858173553455
+    ]
+  ],
+  "Unfair Work Scheduling Risk": [
+    [
+      "Inappropriate Emotional Response Risk",
+      0.4882936251513377
+    ],
+    [
+      "Inappropriate Content Risk",
+      0.4689608611735877
+    ],
+    [
+      "Racial Bias in Sentencing Risk",
+      0.4539772045167214
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.45031088600069724
+    ],
+    [
+      "Racial Bias in Facial Recognition Risk",
+      0.4470478634725106
+    ]
+  ],
+  "Inappropriate Emotional Response Risk": [
+    [
+      "Inappropriate Content Risk",
+      0.6815927018595395
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.5619908068397844
+    ],
+    [
+      "Unfair Work Scheduling Risk",
+      0.4882936251513377
+    ],
+    [
+      "Gender Bias in Search Results Risk",
+      0.4681852565442801
+    ],
+    [
+      "Alt-Right Content Amplification Risk",
+      0.4649016591785592
+    ]
+  ],
+  "Racial Bias in Sentencing Risk": [
+    [
+      "Racial Bias in Facial Recognition Risk",
+      0.7294323502018495
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.628304867915182
+    ],
+    [
+      "Gender Bias in Search Results Risk",
+      0.5191155513149385
+    ],
+    [
+      "Gender Bias in Word Embeddings Risk",
+      0.5069818202966784
+    ],
+    [
+      "Unfair Work Scheduling Risk",
+      0.4539772045167214
+    ]
+  ],
+  "Gender Bias in Search Results Risk": [
+    [
+      "Gender Bias in Word Embeddings Risk",
+      0.7096481293948638
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.6592133766304105
+    ],
+    [
+      "Racial Bias in Facial Recognition Risk",
+      0.5881828725735675
+    ],
+    [
+      "Racial Bias in Sentencing Risk",
+      0.5191155513149385
+    ],
+    [
+      "Inappropriate Content Risk",
+      0.5000105032490779
+    ]
+  ],
+  "Content Risk Management": [
+    [
+      "Inappropriate Content Risk",
+      0.714425622333996
+    ],
+    [
+      "Content Censorship Risk",
+      0.7000694588830233
+    ],
+    [
+      "Alt-Right Content Amplification Risk",
+      0.5118857138227902
+    ],
+    [
+      "Algorithmic Bias in Sentiment Analysis Risk",
+      0.5051226732054764
+    ],
+    [
+      "Inappropriate Emotional Response Risk",
+      0.4626562842420583
+    ]
+  ]
+}

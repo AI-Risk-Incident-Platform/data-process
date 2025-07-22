@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "AISubject": {
+      "id": "LGBTQIndividuals",
+      "中文名称": "LGBTQ+个体",
+      "英文名称": "LGBTQ+ People",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Stakeholder": {
+      "id": "TransgenderYouTubers",
+      "中文名称": "跨性别YouTuber",
+      "英文名称": "YouTube Creators",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "RiskSource": {
+      "id": "UnconsentedDataCollection",
+      "中文名称": "未经同意的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Prominent facial recognition researcher scraped videos of trans people, left dataset exposed"
+    },
+    "Consequence": {
+      "id": "TargetedIdentification",
+      "中文名称": "针对性识别后果",
+      "英文名称": "Targeted Identification Consequence",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Impact": {
+      "id": "CommunitySafetyThreat",
+      "中文名称": "社群安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "AITechnique": {
+      "id": "BiometricDataAnalysis",
+      "中文名称": "生物特征数据分析技术",
+      "英文名称": "Biometric Data Analysis Technique",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Vulnerability": {
+      "id": "ExposedDataset",
+      "中文名称": "数据集暴露漏洞",
+      "英文名称": "Exposed Dataset Vulnerability",
+      "来源": "Prominent facial recognition researcher scraped videos of trans people, left dataset exposed"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "AISubject": {
+      "id": "LGBTQIndividuals",
+      "中文名称": "LGBTQ+个体",
+      "英文名称": "LGBTQ+ People",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Stakeholder": {
+      "id": "TransgenderYouTubers",
+      "中文名称": "跨性别YouTuber",
+      "英文名称": "YouTube Creators",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "RiskSource": {
+      "id": "UnconsentedDataCollection",
+      "中文名称": "未经同意的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Prominent facial recognition researcher scraped videos of trans people, left dataset exposed"
+    },
+    "Consequence": {
+      "id": "TargetedIdentification",
+      "中文名称": "针对性识别后果",
+      "英文名称": "Targeted Identification Consequence",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Impact": {
+      "id": "CommunitySafetyThreat",
+      "中文名称": "社群安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "AITechnique": {
+      "id": "BiometricDataAnalysis",
+      "中文名称": "生物特征数据分析技术",
+      "英文名称": "Biometric Data Analysis Technique",
+      "来源": "How a flawed biometrics research project singled out LGBTQ+ individuals"
+    },
+    "Vulnerability": {
+      "id": "ExposedDataset",
+      "中文名称": "数据集暴露漏洞",
+      "英文名称": "Exposed Dataset Vulnerability",
+      "来源": "Prominent facial recognition researcher scraped videos of trans people, left dataset exposed"
+    }
+  }
+}

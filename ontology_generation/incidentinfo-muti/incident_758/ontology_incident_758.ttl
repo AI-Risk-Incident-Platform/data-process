@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbot rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbot"@en ;
+    rdfs:label "AI聊天机器人"@zh ;
+    airo:hasRisk ex:ElectionMisinformationRisk ;
+    airo:hasStakeholder ex:USStates ;
+    airo:isDeployedBy ex:ElonMusk .
+
+ex:ElectionMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Election Misinformation Risk"@en ;
+    rdfs:label "选举错误信息风险"@zh ;
+    airo:hasConsequence ex:FalseElectionInfoSpread ;
+    airo:isRiskSourceFor ex:ChatbotAlgorithmFlaws .
+
+ex:USStates rdf:type airo:Stakeholder ;
+    rdfs:label "US States"@en ;
+    rdfs:label "美国各州"@zh .
+
+ex:ElonMusk rdf:type airo:AIOperator ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:FalseElectionInfoSpread rdf:type airo:Consequence ;
+    rdfs:label "False Election Info Spread Consequence"@en ;
+    rdfs:label "虚假选举信息传播后果"@zh ;
+    airo:hasImpactOnStakeholder ex:USStates .
+
+ex:ChatbotAlgorithmFlaws rdf:type airo:RiskSource ;
+    rdfs:label "Chatbot Algorithm Flaws Risk Source"@en ;
+    rdfs:label "聊天机器人算法缺陷风险源"@zh .

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAI rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI"@en ;
+    rdfs:label "微软AI"@zh ;
+    airo:hasRisk ex:UnauthorizedUseOfAcademicWorkRisk ;
+    airo:isDeployedBy ex:TaylorAndFrancis ;
+    airo:hasStakeholder ex:AcademicAuthors .
+
+ex:UnauthorizedUseOfAcademicWorkRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Use of Academic Work Risk"@en ;
+    rdfs:label "学术作品未经授权使用风险"@zh ;
+    airo:hasConsequence ex:AcademicIntegrityUndermined .
+
+ex:AcademicAuthors rdf:type airo:Stakeholder ;
+    rdfs:label "Academic Authors"@en ;
+    rdfs:label "学术作者"@zh .
+
+ex:TaylorAndFrancis rdf:type airo:AIOperator ;
+    rdfs:label "Taylor & Francis"@en ;
+    rdfs:label "泰勒与弗朗西斯"@zh .
+
+ex:AcademicIntegrityUndermined rdf:type airo:Impact ;
+    rdfs:label "Academic Integrity Undermined"@en ;
+    rdfs:label "学术诚信受损"@zh ;
+    airo:hasImpactOnStakeholder ex:AcademicAuthors .

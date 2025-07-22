@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutonomousVehicleBrakingSystem rdf:type airo:AISystem ;
+    rdfs:label "Autonomous Vehicle Braking System"@en ;
+    rdfs:label "自动驾驶车辆制动系统"@zh ;
+    airo:hasRisk ex:SuddenBrakingRisk ;
+    airo:hasCapability ex:ObstacleDetectionAndResponse ;
+    airo:hasStakeholder ex:VehiclePassengers .
+
+ex:SuddenBrakingRisk rdf:type airo:Risk ;
+    rdfs:label "Sudden Braking Risk"@en ;
+    rdfs:label "突然制动风险"@zh ;
+    airo:hasImpact ex:PassengerDiscomfortOrInjury .
+
+ex:ObstacleDetectionAndResponse rdf:type airo:AICapability ;
+    rdfs:label "Obstacle Detection and Response Capability"@en ;
+    rdfs:label "障碍物检测与响应能力"@zh .
+
+ex:VehiclePassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Vehicle Passengers"@en ;
+    rdfs:label "车辆乘客"@zh .
+
+ex:PassengerDiscomfortOrInjury rdf:type airo:Impact ;
+    rdfs:label "Passenger Discomfort or Injury Impact"@en ;
+    rdfs:label "乘客不适或受伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VehiclePassengers .

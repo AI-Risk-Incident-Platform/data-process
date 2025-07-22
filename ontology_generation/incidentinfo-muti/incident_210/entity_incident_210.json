@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaSecuritySystem",
+      "中文名称": "Meta安全系统",
+      "英文名称": "Meta Security System",
+      "来源": "Meta says it's shut down a pro-Russian disinformation network, warns of a social media hacking operation"
+    },
+    "Risk": {
+      "id": "SocialMediaHackingRisk",
+      "中文名称": "社交媒体黑客风险",
+      "英文名称": "Social Media Hacking Risk",
+      "来源": "warns of a social media hacking operation"
+    },
+    "Consequence": {
+      "id": "DisinformationSpread",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Disinformation Spread Consequence",
+      "来源": "shut down a pro-Russian disinformation network"
+    },
+    "Stakeholder": {
+      "id": "MetaCompany",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta Company",
+      "来源": "Meta says it's shut down"
+    },
+    "AIOperator": {
+      "id": "MetaSecurityTeam",
+      "中文名称": "Meta安全团队",
+      "英文名称": "Meta Security Team",
+      "来源": "Updates on Our Security Work in Ukraine"
+    },
+    "Threat": {
+      "id": "ProRussianHackers",
+      "中文名称": "亲俄黑客威胁",
+      "英文名称": "Pro-Russian Hackers Threat",
+      "来源": "shut down a pro-Russian disinformation network"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "warns of a social media hacking operation"
+    }
+  }
+}

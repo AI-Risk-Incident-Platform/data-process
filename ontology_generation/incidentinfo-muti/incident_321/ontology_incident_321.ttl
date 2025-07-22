@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAIGeneratedProfilePhotoDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook AI生成头像检测系统"@zh ;
+    rdfs:label "Facebook AI-Generated Profile Photo Detection System"@en ;
+    airo:hasRisk ex:DeceptiveAccountCreationRisk ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:usesTechnique ex:ImageGenerationAI ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:DeceptiveAccountCreationRisk rdf:type airo:Risk ;
+    rdfs:label "欺骗性账户创建风险"@zh ;
+    rdfs:label "Deceptive Account Creation Risk"@en ;
+    airo:hasConsequence ex:PlatformManipulation ;
+    airo:isRiskSourceFor ex:AIProfilePhotoGeneration .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Inc."@en .
+
+ex:AIProfilePhotoGeneration rdf:type airo:RiskSource ;
+    rdfs:label "AI生成头像风险源"@zh ;
+    rdfs:label "AI Profile Photo Generation Risk Source"@en .
+
+ex:PlatformManipulation rdf:type airo:Consequence ;
+    rdfs:label "平台操纵后果"@zh ;
+    rdfs:label "Platform Manipulation Consequence"@en ;
+    airo:hasImpact ex:TrustErosionInSocialMedia .
+
+ex:TrustErosionInSocialMedia rdf:type airo:Impact ;
+    rdfs:label "社交媒体信任度下降影响"@zh ;
+    rdfs:label "Trust Erosion in Social Media Impact"@en ;
+    airo:hasImpactOnStakeholder ex:FacebookInc .
+
+ex:ImageGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "图像生成AI技术"@zh ;
+    rdfs:label "Image Generation AI Technique"@en .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platforms Domain"@en .

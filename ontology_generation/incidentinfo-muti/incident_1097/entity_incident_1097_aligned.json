@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Risk": {
+      "id": "SpontaneousCombustionRisk",
+      "中文名称": "自燃风险",
+      "英文名称": "Spontaneous Combustion Risk",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Hazard": {
+      "id": "BatteryMalfunction",
+      "中文名称": "电池故障危害",
+      "英文名称": "Battery Malfunction Hazard",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Impact": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流配送领域",
+      "英文名称": "Logistics",
+      "来源": "Delivery robot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Risk": {
+      "id": "SpontaneousCombustionRisk",
+      "中文名称": "自燃风险",
+      "英文名称": "Spontaneous Combustion Risk",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Hazard": {
+      "id": "BatteryMalfunction",
+      "中文名称": "电池故障危害",
+      "英文名称": "Battery Malfunction Hazard",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Impact": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Delivery robot spontaneously bursts into flames in California"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流配送领域",
+      "英文名称": "Logistics",
+      "来源": "Delivery robot"
+    }
+  }
+}

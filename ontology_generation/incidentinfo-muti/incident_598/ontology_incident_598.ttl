@@ -1,0 +1,76 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAudioSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造音频系统"@zh ;
+    rdfs:label "Deepfake Audio System"@en ;
+    airo:hasRisk ex:PoliticalSmearCampaignRisk ;
+    airo:usesTechnique ex:AudioDeepfakeTechnology ;
+    airo:hasPurpose ex:PoliticalDisinformation ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigning ;
+    airo:hasAISubject ex:OppositionLeader ;
+    airo:hasStakeholder ex:PoliticalFigures .
+
+ex:PoliticalSmearCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "政治诽谤活动风险"@zh ;
+    rdfs:label "Political Smear Campaign Risk"@en ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:MaliciousActor ;
+    airo:isRiskSourceFor ex:ElectionInterference .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "声誉损害后果"@zh ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:AudioDeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "音频深度伪造技术"@zh ;
+    rdfs:label "Audio Deepfake Technology"@en .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "政治人物"@zh ;
+    rdfs:label "Political Figures"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .
+
+ex:PoliticalDisinformation rdf:type airo:Purpose ;
+    rdfs:label "政治虚假信息目的"@zh ;
+    rdfs:label "Political Disinformation Purpose"@en .
+
+ex:PoliticalCampaigning rdf:type airo:Domain ;
+    rdfs:label "政治竞选领域"@zh ;
+    rdfs:label "Political Campaigning Domain"@en .
+
+ex:OppositionLeader rdf:type airo:AISubject ;
+    rdfs:label "反对党领袖"@zh ;
+    rdfs:label "Opposition Leader"@en .
+
+ex:MaliciousActor rdf:type airo:RiskSource ;
+    rdfs:label "恶意行为者风险源"@zh ;
+    rdfs:label "Malicious Actor Risk Source"@en ;
+    airo:exploitsVulnerability ex:PublicFigureVoiceImpersonation .
+
+ex:ElectionInterference rdf:type airo:Threat ;
+    rdfs:label "选举干预威胁"@zh ;
+    rdfs:label "Election Interference Threat"@en ;
+    airo:exploitsVulnerability ex:PublicFigureVoiceImpersonation .
+
+ex:PublicFigureVoiceImpersonation rdf:type airo:Vulnerability ;
+    rdfs:label "公众人物声音模仿漏洞"@zh ;
+    rdfs:label "Public Figure Voice Impersonation Vulnerability"@en .
+
+ex:PoliticalSmearCampaignRisk rdf:type airo:Misuse ;
+    rdfs:label "政治诽谤活动风险"@zh ;
+    rdfs:label "Political Smear Campaign Risk"@en .

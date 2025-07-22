@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GeminiAIChatbot",
+      "中文名称": "Gemini AI聊天机器人",
+      "英文名称": "Gemini AI Chatbot",
+      "来源": "Google suspends Gemini AI chatbot's ability to generate pictures of people"
+    },
+    "Risk": {
+      "id": "DiversityRepresentationErrorRisk",
+      "中文名称": "多样性表现错误风险",
+      "英文名称": "Diversity Representation Error Risk",
+      "来源": "Google pauses Gemini’s ability to generate AI images of people after diversity errors"
+    },
+    "Consequence": {
+      "id": "PublicControversy",
+      "中文名称": "公众争议后果",
+      "英文名称": "Public Controversy Consequence",
+      "来源": "Google Mired in Controversy Over AI Chatbot Push"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google suspends Gemini AI chatbot's ability to generate pictures of people"
+    },
+    "AICapability": {
+      "id": "HumanImageGeneration",
+      "中文名称": "人类图像生成能力",
+      "英文名称": "Human Image Generation Capability",
+      "来源": "Google suspends Gemini AI chatbot's ability to generate pictures of people"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInDiversityRepresentation",
+      "中文名称": "多样性表现中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Diversity Representation Risk Source",
+      "来源": "Google pauses Gemini’s ability to generate AI images of people after diversity errors"
+    }
+  }
+}

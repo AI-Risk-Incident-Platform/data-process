@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SurveillanceAIForEventDetection",
+      "中文名称": "用于事件检测的监控AI",
+      "英文名称": "Surveillance AI for Event Detection",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    },
+    "Stakeholder": {
+      "id": "SuresnesMunicipalGovernment",
+      "中文名称": "Suresnes市政府",
+      "英文名称": "Suresnes Municipal Government",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "AISubject": {
+      "id": "SuresnesResidents",
+      "中文名称": "Suresnes居民",
+      "英文名称": "Suresnes Residents",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Purpose": {
+      "id": "DetectAbnormalEvents",
+      "中文名称": "检测异常事件",
+      "英文名称": "Detect Abnormal Events",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Impact": {
+      "id": "ResidentPrivacyCompromise",
+      "中文名称": "居民隐私受损",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SurveillanceAIForEventDetection",
+      "中文名称": "用于事件检测的监控AI",
+      "英文名称": "Surveillance AI for Event Detection",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    },
+    "Stakeholder": {
+      "id": "SuresnesMunicipalGovernment",
+      "中文名称": "Suresnes市政府",
+      "英文名称": "Suresnes Municipal Government",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "AISubject": {
+      "id": "SuresnesResidents",
+      "中文名称": "Suresnes居民",
+      "英文名称": "Suresnes Residents",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Purpose": {
+      "id": "DetectAbnormalEvents",
+      "中文名称": "检测异常事件",
+      "英文名称": "Detect Abnormal Events",
+      "来源": "A Suresnes, la mairie veut utiliser l'IA pour repérer les événements anormaux"
+    },
+    "Impact": {
+      "id": "ResidentPrivacyCompromise",
+      "中文名称": "居民隐私受损",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Les Suresnois·es : nouveaux cobayes de la technopolice"
+    }
+  }
+}

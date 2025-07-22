@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GirlsOnlyAppWithGenderScreeningAI",
+      "中文名称": "仅限女孩的性别筛查AI应用",
+      "英文名称": "Girls-Only App with Gender Screening AI",
+      "来源": "This girls-only app uses AI to screen a user’s gender"
+    },
+    "Risk": {
+      "id": "GenderDiscriminationRisk",
+      "中文名称": "性别歧视风险",
+      "英文名称": "Gender Discrimination Risk",
+      "来源": "what could go wrong?"
+    },
+    "AICapability": {
+      "id": "GenderRecognitionCapability",
+      "中文名称": "性别识别能力",
+      "英文名称": "Gender Recognition Capability",
+      "来源": "uses AI to screen a user’s gender"
+    },
+    "Purpose": {
+      "id": "CreateFemaleOnlySocialSpace",
+      "中文名称": "创建女性专属社交空间",
+      "英文名称": "Create Female-Only Social Space",
+      "来源": "This girls-only app"
+    },
+    "RiskSource": {
+      "id": "GenderScreeningAlgorithm",
+      "中文名称": "性别筛查算法",
+      "英文名称": "Gender Screening Algorithm",
+      "来源": "uses AI to screen a user’s gender"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GirlsOnlyAppWithGenderScreeningAI",
+      "中文名称": "仅限女孩的性别筛查AI应用",
+      "英文名称": "Girls-Only App with Gender Screening AI",
+      "来源": "This girls-only app uses AI to screen a user’s gender"
+    },
+    "Risk": {
+      "id": "GenderDiscriminationRisk",
+      "中文名称": "性别歧视风险",
+      "英文名称": "Gender Discrimination Risk",
+      "来源": "what could go wrong?"
+    },
+    "AICapability": {
+      "id": "GenderRecognitionCapability",
+      "中文名称": "性别识别能力",
+      "英文名称": "Gender Recognition Capability",
+      "来源": "uses AI to screen a user’s gender"
+    },
+    "Purpose": {
+      "id": "CreateFemaleOnlySocialSpace",
+      "中文名称": "创建女性专属社交空间",
+      "英文名称": "Create Female-Only Social Space",
+      "来源": "This girls-only app"
+    },
+    "RiskSource": {
+      "id": "GenderScreeningAlgorithm",
+      "中文名称": "性别筛查算法",
+      "英文名称": "Gender Screening Algorithm",
+      "来源": "uses AI to screen a user’s gender"
+    }
+  }
+}

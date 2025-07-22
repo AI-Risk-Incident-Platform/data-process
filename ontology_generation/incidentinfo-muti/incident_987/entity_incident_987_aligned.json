@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVideo",
+      "中文名称": "AI视频",
+      "英文名称": "AI Video",
+      "来源": "Dominican Republic rebukes Spanish opposition party over 'vicious' AI video"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'vicious' AI video"
+    },
+    "Stakeholder": {
+      "id": "SpanishOppositionParty",
+      "中文名称": "西班牙反对党",
+      "英文名称": "Spanish Opposition Party",
+      "来源": "Spanish opposition party"
+    },
+    "Impact": {
+      "id": "PoliticalTensions",
+      "中文名称": "政治紧张",
+      "英文名称": "Political Tensions",
+      "来源": "Dominican Republic rebukes"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigning",
+      "中文名称": "政治竞选",
+      "英文名称": "Political Campaigning",
+      "来源": "opposition party"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIVideo",
+      "中文名称": "AI视频",
+      "英文名称": "AI Video",
+      "来源": "Dominican Republic rebukes Spanish opposition party over 'vicious' AI video"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'vicious' AI video"
+    },
+    "Stakeholder": {
+      "id": "SpanishOppositionParty",
+      "中文名称": "西班牙反对党",
+      "英文名称": "Spanish Opposition Party",
+      "来源": "Spanish opposition party"
+    },
+    "Impact": {
+      "id": "PoliticalTensions",
+      "中文名称": "政治紧张",
+      "英文名称": "Political Tensions",
+      "来源": "Dominican Republic rebukes"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigning",
+      "中文名称": "政治竞选",
+      "英文名称": "Political Campaigning",
+      "来源": "opposition party"
+    }
+  }
+}

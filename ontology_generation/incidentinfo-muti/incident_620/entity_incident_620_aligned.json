@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFactoryRobot",
+      "中文名称": "特斯拉工厂机器人",
+      "英文名称": "Tesla Factory Robot",
+      "来源": "Tesla robot ATTACKS an engineer at company's Texas factory during violent malfunction"
+    },
+    "Risk": {
+      "id": "RobotAttackRisk",
+      "中文名称": "机器人攻击风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "leaving 'trail of blood' and forcing workers to hit emergency shutdown button"
+    },
+    "Consequence": {
+      "id": "EngineerInjury",
+      "中文名称": "工程师受伤后果",
+      "英文名称": "Engineer Injury Consequence",
+      "来源": "leaving 'trail of blood'"
+    },
+    "Impact": {
+      "id": "WorkerSafetyThreat",
+      "中文名称": "工人安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "forcing workers to hit emergency shutdown button"
+    },
+    "Stakeholder": {
+      "id": "TeslaEngineers",
+      "中文名称": "特斯拉工程师",
+      "英文名称": "Tesla Staff",
+      "来源": "Tesla engineer attacked by robot at company's Giga Texas factory"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障风险源",
+      "英文名称": "Robot Risk Source",
+      "来源": "during violent malfunction"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "at company's Texas factory"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Domain",
+      "来源": "at company's Texas factory"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFactoryRobot",
+      "中文名称": "特斯拉工厂机器人",
+      "英文名称": "Tesla Factory Robot",
+      "来源": "Tesla robot ATTACKS an engineer at company's Texas factory during violent malfunction"
+    },
+    "Risk": {
+      "id": "RobotAttackRisk",
+      "中文名称": "机器人攻击风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "leaving 'trail of blood' and forcing workers to hit emergency shutdown button"
+    },
+    "Consequence": {
+      "id": "EngineerInjury",
+      "中文名称": "工程师受伤后果",
+      "英文名称": "Engineer Injury Consequence",
+      "来源": "leaving 'trail of blood'"
+    },
+    "Impact": {
+      "id": "WorkerSafetyThreat",
+      "中文名称": "工人安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "forcing workers to hit emergency shutdown button"
+    },
+    "Stakeholder": {
+      "id": "TeslaEngineers",
+      "中文名称": "特斯拉工程师",
+      "英文名称": "Tesla Staff",
+      "来源": "Tesla engineer attacked by robot at company's Giga Texas factory"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障风险源",
+      "英文名称": "Robot Risk Source",
+      "来源": "during violent malfunction"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "at company's Texas factory"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Domain",
+      "来源": "at company's Texas factory"
+    }
+  }
+}

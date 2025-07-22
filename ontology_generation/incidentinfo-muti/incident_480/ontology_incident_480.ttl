@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System"@en ;
+    airo:hasRisk ex:WrongfulIdentificationRisk ;
+    airo:hasAISubject ex:Khadeer .
+
+ex:WrongfulIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "错误识别风险"@zh ;
+    rdfs:label "Wrongful Identification Risk"@en ;
+    airo:hasConsequence ex:CustodialDeath ;
+    airo:isRiskSourceFor ex:CCTVIdentification .
+
+ex:CustodialDeath rdf:type airo:Consequence ;
+    rdfs:label "羁押死亡后果"@zh ;
+    rdfs:label "Custodial Death Consequence"@en ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:Khadeer rdf:type airo:AISubject ;
+    rdfs:label "Khadeer"@zh ;
+    rdfs:label "Khadeer"@en .
+
+ex:CCTVIdentification rdf:type airo:RiskSource ;
+    rdfs:label "监控摄像头识别"@zh ;
+    rdfs:label "CCTV Identification"@en .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "生命损失影响"@zh ;
+    rdfs:label "Loss of Life Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Khadeer .

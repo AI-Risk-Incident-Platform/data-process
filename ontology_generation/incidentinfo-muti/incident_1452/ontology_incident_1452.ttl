@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeAutoCaptioningSystem rdf:type airo:AISystem ;
+    rdfs:label "YouTube Auto Captioning System"@en ;
+    rdfs:label "YouTube自动字幕系统"@zh ;
+    airo:hasRisk ex:InappropriateContentExposureRisk ;
+    airo:hasCapability ex:AutomaticSpeechRecognition ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:hasPurpose ex:AccessibilityForHearingImpaired ;
+    airo:hasStakeholder ex:ChildrenUnder13 ;
+    airo:isAppliedWithinDomain ex:OnlineVideoPlatforms ;
+    airo:usesTechnique ex:NeuralNetworkBasedSpeechToText .
+
+ex:InappropriateContentExposureRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Exposure Risk"@en ;
+    rdfs:label "不当内容暴露风险"@zh ;
+    airo:hasConsequence ex:ChildrenExposedToExplicitLanguage ;
+    airo:isRiskSourceFor ex:AlgorithmicErrorInSpeechRecognition .
+
+ex:ChildrenExposedToExplicitLanguage rdf:type airo:Consequence ;
+    rdfs:label "Children Exposed to Explicit Language Consequence"@en ;
+    rdfs:label "儿童接触不当语言后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToChildren .
+
+ex:AutomaticSpeechRecognition rdf:type airo:AICapability ;
+    rdfs:label "Automatic Speech Recognition Capability"@en ;
+    rdfs:label "自动语音识别能力"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:ChildrenUnder13 rdf:type airo:Stakeholder ;
+    rdfs:label "Children Under 13"@en ;
+    rdfs:label "13岁以下儿童"@zh .
+
+ex:PsychologicalHarmToChildren rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Children Impact"@en ;
+    rdfs:label "对儿童心理伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildrenUnder13 .
+
+ex:AccessibilityForHearingImpaired rdf:type airo:Purpose ;
+    rdfs:label "Accessibility for Hearing Impaired Purpose"@en ;
+    rdfs:label "为听力障碍者提供无障碍服务的目的"@zh .
+
+ex:OnlineVideoPlatforms rdf:type airo:Domain ;
+    rdfs:label "Online Video Platforms Domain"@en ;
+    rdfs:label "在线视频平台领域"@zh .
+
+ex:NeuralNetworkBasedSpeechToText rdf:type airo:AITechnique ;
+    rdfs:label "Neural Network Based Speech to Text Technique"@en ;
+    rdfs:label "基于神经网络的语音转文字技术"@zh .
+
+ex:AlgorithmicErrorInSpeechRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error in Speech Recognition Risk Source"@en ;
+    rdfs:label "语音识别中的算法错误风险源"@zh ;
+    airo:hasVulnerability ex:InadequateContentFiltering ;
+    airo:isRiskSourceFor ex:MisclassificationOfSpeechContent ;
+    airo:isRiskSourceFor ex:UnfilteredUserGeneratedContent .
+
+ex:InadequateContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Filtering Vulnerability"@en ;
+    rdfs:label "内容过滤不足的脆弱性"@zh .
+
+ex:MisclassificationOfSpeechContent rdf:type airo:Threat ;
+    rdfs:label "Misclassification of Speech Content Threat"@en ;
+    rdfs:label "语音内容错误分类的威胁"@zh .
+
+ex:UnfilteredUserGeneratedContent rdf:type airo:Hazard ;
+    rdfs:label "Unfiltered User Generated Content Hazard"@en ;
+    rdfs:label "未过滤用户生成内容的危害"@zh .
+
+ex:ChildSafetyInDigitalPlatforms rdf:type airo:RiskConcept ;
+    rdfs:label "Child Safety in Digital Platforms Risk Concept"@en ;
+    rdfs:label "数字平台中的儿童安全风险概念"@zh .

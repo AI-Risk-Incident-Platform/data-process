@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedVoiceSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Voice System"@en ;
+    rdfs:label "AI生成语音系统"@zh ;
+    airo:hasRisk ex:BankAccountSecurityRisk ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology .
+
+ex:BankAccountSecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Bank Account Security Risk"@en ;
+    rdfs:label "银行账户安全风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedAccountAccess .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:UnauthorizedAccountAccess rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Account Access"@en ;
+    rdfs:label "未经授权的账户访问"@zh ;
+    airo:hasImpact ex:FinancialSecurityThreat .
+
+ex:FinancialSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Financial Security Threat"@en ;
+    rdfs:label "金融安全威胁"@zh .

@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IntelligentDrivingSystem rdf:type airo:AISystem ;
+    rdfs:label "Intelligent Driving System"@en ;
+    rdfs:label "智能驾驶系统"@zh ;
+    airo:hasRisk ex:SafetyBoundaryBlurringRisk ;
+    airo:hasVulnerability ex:OverTrustInTechnology .
+
+ex:SafetyBoundaryBlurringRisk rdf:type airo:Risk ;
+    rdfs:label "Safety Boundary Blurring Risk"@en ;
+    rdfs:label "安全边界模糊风险"@zh ;
+    airo:isRiskSourceFor ex:ExaggeratedMarketing .
+
+ex:ExaggeratedMarketing rdf:type airo:RiskSource ;
+    rdfs:label "Exaggerated Marketing"@en ;
+    rdfs:label "夸张营销"@zh .
+
+ex:OverTrustInTechnology rdf:type airo:Vulnerability ;
+    rdfs:label "Over Trust in Technology"@en ;
+    rdfs:label "对技术过度信任"@zh .

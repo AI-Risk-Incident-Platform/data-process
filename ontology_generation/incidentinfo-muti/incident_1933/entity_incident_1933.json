@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseDriverlessCars",
+      "中文名称": "Cruise无人驾驶汽车",
+      "英文名称": "Cruise Driverless Cars",
+      "来源": "Cruise knew its driverless cars endangered children"
+    },
+    "Risk": {
+      "id": "EndangeringChildrenRisk",
+      "中文名称": "危及儿童风险",
+      "英文名称": "Endangering Children Risk",
+      "来源": "Cruise knew its driverless cars endangered children"
+    },
+    "RiskSource": {
+      "id": "DetectionIssues",
+      "中文名称": "检测问题",
+      "英文名称": "Detection Issues",
+      "来源": "Cruise Kept Driverless Cars on the Road Despite Issues Detecting Children"
+    },
+    "Consequence": {
+      "id": "ChildEndangerment",
+      "中文名称": "儿童危险",
+      "英文名称": "Child Endangerment",
+      "来源": "Cruise knew its driverless cars endangered children"
+    },
+    "AIOperator": {
+      "id": "Cruise",
+      "中文名称": "Cruise公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise knew its driverless cars endangered children"
+    },
+    "AICapability": {
+      "id": "ChildDetection",
+      "中文名称": "儿童检测能力",
+      "英文名称": "Child Detection Capability",
+      "来源": "Cruise Kept Driverless Cars on the Road Despite Issues Detecting Children"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicles Domain",
+      "来源": "Cruise knew its driverless cars endangered children"
+    }
+  }
+}

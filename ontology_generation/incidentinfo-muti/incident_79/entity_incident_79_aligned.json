@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleInstantSearch",
+      "中文名称": "Google即时搜索",
+      "英文名称": "Google Search",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Risk": {
+      "id": "AntiSemiticSearchResultsRisk",
+      "中文名称": "反犹太主义搜索结果风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstGoogle",
+      "中文名称": "对谷歌的法律诉讼后果",
+      "英文名称": "Legal Action Against Google Consequence",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Stakeholder": {
+      "id": "JewishCommunityInFrance",
+      "中文名称": "法国犹太社区",
+      "英文名称": "Jewish Community in France Stakeholder",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    },
+    "AIOperator": {
+      "id": "GoogleFrance",
+      "中文名称": "谷歌法国",
+      "英文名称": "Google France Operator",
+      "来源": "Deal reached in Google France autocorrect battle"
+    },
+    "RiskSource": {
+      "id": "AutocompleteAlgorithmBias",
+      "中文名称": "自动完成算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstJewishCommunity",
+      "中文名称": "对犹太社区的歧视影响",
+      "英文名称": "Anti - Jewish Impact",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Purpose": {
+      "id": "SearchQueryPrediction",
+      "中文名称": "搜索查询预测目的",
+      "英文名称": "Search Query Prediction Purpose",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Domain": {
+      "id": "SearchEngineTechnology",
+      "中文名称": "搜索引擎技术领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "AITechnique": {
+      "id": "AutocompleteAlgorithm",
+      "中文名称": "自动完成算法技术",
+      "英文名称": "Search Prediction Algorithm",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleInstantSearch",
+      "中文名称": "Google即时搜索",
+      "英文名称": "Google Search",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Risk": {
+      "id": "AntiSemiticSearchResultsRisk",
+      "中文名称": "反犹太主义搜索结果风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstGoogle",
+      "中文名称": "对谷歌的法律诉讼后果",
+      "英文名称": "Legal Action Against Google Consequence",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Stakeholder": {
+      "id": "JewishCommunityInFrance",
+      "中文名称": "法国犹太社区",
+      "英文名称": "Jewish Community in France Stakeholder",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    },
+    "AIOperator": {
+      "id": "GoogleFrance",
+      "中文名称": "谷歌法国",
+      "英文名称": "Google France Operator",
+      "来源": "Deal reached in Google France autocorrect battle"
+    },
+    "RiskSource": {
+      "id": "AutocompleteAlgorithmBias",
+      "中文名称": "自动完成算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstJewishCommunity",
+      "中文名称": "对犹太社区的歧视影响",
+      "英文名称": "Anti - Jewish Impact",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Purpose": {
+      "id": "SearchQueryPrediction",
+      "中文名称": "搜索查询预测目的",
+      "英文名称": "Search Query Prediction Purpose",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "Domain": {
+      "id": "SearchEngineTechnology",
+      "中文名称": "搜索引擎技术领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France"
+    },
+    "AITechnique": {
+      "id": "AutocompleteAlgorithm",
+      "中文名称": "自动完成算法技术",
+      "英文名称": "Search Prediction Algorithm",
+      "来源": "Google Sued Over 'Jewish' Search Suggestions"
+    }
+  }
+}

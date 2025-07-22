@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutonomousDroneSystem rdf:type airo:AISystem ;
+    rdfs:label "Autonomous Drone System"@en ;
+    rdfs:label "自主无人机系统"@zh ;
+    airo:hasRisk ex:AutonomousWeaponRisk ;
+    airo:hasStakeholder ex:MilitaryPersonnel .
+
+ex:AutonomousWeaponRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Weapon Risk"@en ;
+    rdfs:label "自主武器风险"@zh ;
+    airo:hasConsequence ex:HumanCasualties .
+
+ex:MilitaryPersonnel rdf:type airo:Stakeholder ;
+    rdfs:label "Military Personnel"@en ;
+    rdfs:label "军事人员"@zh .
+
+ex:HumanCasualties rdf:type airo:Consequence ;
+    rdfs:label "Human Casualties"@en ;
+    rdfs:label "人员伤亡"@zh ;
+    airo:hasImpact ex:ThreatToHumanSafety .
+
+ex:ThreatToHumanSafety rdf:type airo:Impact ;
+    rdfs:label "Threat to Human Safety"@en ;
+    rdfs:label "对人类安全的威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:MilitaryPersonnel .

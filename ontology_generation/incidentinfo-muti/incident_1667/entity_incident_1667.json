@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForTrainingPhotos",
+      "中文名称": "用于训练照片的AI",
+      "英文名称": "AI for Training Photos",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "then slapped him with an invoice"
+    },
+    "Stakeholder": {
+      "id": "Photographer",
+      "中文名称": "摄影师",
+      "英文名称": "Photographer",
+      "来源": "photographer’s photos"
+    },
+    "AIOperator": {
+      "id": "Laion",
+      "中文名称": "Laion",
+      "英文名称": "Laion",
+      "来源": "Laion droht Kneschke"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfPhotos",
+      "中文名称": "未经授权使用照片",
+      "英文名称": "Unauthorized Use of Photos",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Consequence": {
+      "id": "LegalDispute",
+      "中文名称": "法律纠纷",
+      "英文名称": "Legal Dispute",
+      "来源": "then slapped him with an invoice"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss",
+      "来源": "then slapped him with an invoice"
+    }
+  }
+}

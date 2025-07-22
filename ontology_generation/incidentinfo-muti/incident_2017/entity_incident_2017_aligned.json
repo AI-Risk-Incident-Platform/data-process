@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxis",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise robotaxis blocked traffic for hours on this San Francisco street"
+    },
+    "Risk": {
+      "id": "TrafficDisruptionRisk",
+      "中文名称": "交通中断风险",
+      "英文名称": "Traffic Disruption Risk",
+      "来源": "Cruise’s driverless cars block traffic for nearly two hours in San Francisco"
+    },
+    "Consequence": {
+      "id": "UrbanTrafficCongestion",
+      "中文名称": "城市交通拥堵后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "blocked San Francisco traffic for hours"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise’s driverless cars"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "blocked traffic on San Francisco street"
+    },
+    "Impact": {
+      "id": "PublicTransportationDisruption",
+      "中文名称": "公共交通中断影响",
+      "英文名称": "Public Transport Disruption Impact",
+      "来源": "blocked traffic for nearly two hours"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseRobotaxis",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise robotaxis blocked traffic for hours on this San Francisco street"
+    },
+    "Risk": {
+      "id": "TrafficDisruptionRisk",
+      "中文名称": "交通中断风险",
+      "英文名称": "Traffic Disruption Risk",
+      "来源": "Cruise’s driverless cars block traffic for nearly two hours in San Francisco"
+    },
+    "Consequence": {
+      "id": "UrbanTrafficCongestion",
+      "中文名称": "城市交通拥堵后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "blocked San Francisco traffic for hours"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise’s driverless cars"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "blocked traffic on San Francisco street"
+    },
+    "Impact": {
+      "id": "PublicTransportationDisruption",
+      "中文名称": "公共交通中断影响",
+      "英文名称": "Public Transport Disruption Impact",
+      "来源": "blocked traffic for nearly two hours"
+    }
+  }
+}

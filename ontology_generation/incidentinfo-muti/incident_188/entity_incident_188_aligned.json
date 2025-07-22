@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AirbnbTrustworthinessAlgorithm",
+      "中文名称": "Airbnb信任度算法",
+      "英文名称": "Airbnb Trust System",
+      "来源": "Airbnb's secret 'Trustworthiness' scores"
+    },
+    "Risk": {
+      "id": "UnfairUserBanningRisk",
+      "中文名称": "不公平用户封禁风险",
+      "英文名称": "Unfair User Banning Risk",
+      "来源": "Airbnb using an algorithm to ban users from the platform"
+    },
+    "Stakeholder": {
+      "id": "EPICOrganization",
+      "中文名称": "EPIC组织",
+      "英文名称": "EPIC Group",
+      "来源": "EPIC Files Complaint with FTC about Airbnb's Secret 'Trustworthiness' Scores"
+    },
+    "AIOperator": {
+      "id": "AirbnbCompany",
+      "中文名称": "Airbnb公司",
+      "英文名称": "Airbnb",
+      "来源": "Airbnb blasted for using algorithm that judges if users are 'trustworthy'"
+    },
+    "Consequence": {
+      "id": "UserAccountTermination",
+      "中文名称": "用户账户终止后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "ban users from the platform"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Airbnb blasted for using algorithm"
+    },
+    "Purpose": {
+      "id": "UserTrustworthinessAssessment",
+      "中文名称": "用户可信度评估目的",
+      "英文名称": "User Trustworthiness Assessment Purpose",
+      "来源": "algorithm that judges if users are 'trustworthy'"
+    },
+    "RiskSource": {
+      "id": "OpaqueScoringSystem",
+      "中文名称": "不透明评分系统风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Airbnb's Secret 'Trustworthiness' Scores"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AirbnbTrustworthinessAlgorithm",
+      "中文名称": "Airbnb信任度算法",
+      "英文名称": "Airbnb Trust System",
+      "来源": "Airbnb's secret 'Trustworthiness' scores"
+    },
+    "Risk": {
+      "id": "UnfairUserBanningRisk",
+      "中文名称": "不公平用户封禁风险",
+      "英文名称": "Unfair User Banning Risk",
+      "来源": "Airbnb using an algorithm to ban users from the platform"
+    },
+    "Stakeholder": {
+      "id": "EPICOrganization",
+      "中文名称": "EPIC组织",
+      "英文名称": "EPIC Group",
+      "来源": "EPIC Files Complaint with FTC about Airbnb's Secret 'Trustworthiness' Scores"
+    },
+    "AIOperator": {
+      "id": "AirbnbCompany",
+      "中文名称": "Airbnb公司",
+      "英文名称": "Airbnb",
+      "来源": "Airbnb blasted for using algorithm that judges if users are 'trustworthy'"
+    },
+    "Consequence": {
+      "id": "UserAccountTermination",
+      "中文名称": "用户账户终止后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "ban users from the platform"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Airbnb blasted for using algorithm"
+    },
+    "Purpose": {
+      "id": "UserTrustworthinessAssessment",
+      "中文名称": "用户可信度评估目的",
+      "英文名称": "User Trustworthiness Assessment Purpose",
+      "来源": "algorithm that judges if users are 'trustworthy'"
+    },
+    "RiskSource": {
+      "id": "OpaqueScoringSystem",
+      "中文名称": "不透明评分系统风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Airbnb's Secret 'Trustworthiness' Scores"
+    }
+  }
+}

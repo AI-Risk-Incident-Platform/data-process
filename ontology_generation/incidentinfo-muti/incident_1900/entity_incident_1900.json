@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPhotoGenerators",
+      "中文名称": "AI照片生成器",
+      "英文名称": "AI Photo Generators",
+      "来源": "Top AI photo generators produce misleading election-related images, study finds"
+    },
+    "Risk": {
+      "id": "MisleadingElectionImagesRisk",
+      "中文名称": "误导性选举图像风险",
+      "英文名称": "Misleading Election Images Risk",
+      "来源": "Top AI photo generators produce misleading election-related images, study finds"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "produce misleading election-related images"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "AI photo generators"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "election-related images"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁影响",
+      "英文名称": "Election Integrity Threat Impact",
+      "来源": "misleading election-related images"
+    },
+    "RiskSource": {
+      "id": "UnverifiedImageGeneration",
+      "中文名称": "未经验证的图像生成风险源",
+      "英文名称": "Unverified Image Generation Risk Source",
+      "来源": "produce misleading election-related images"
+    }
+  }
+}

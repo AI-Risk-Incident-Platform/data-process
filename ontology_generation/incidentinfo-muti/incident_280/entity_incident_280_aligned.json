@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokRecommendationAlgorithm",
+      "中文名称": "TikTok推荐算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Risk": {
+      "id": "HarmfulContentPromotionRisk",
+      "中文名称": "有害内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Consequence": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "AICapability": {
+      "id": "ContentPersonalizationAlgorithm",
+      "中文名称": "内容个性化算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "AIOperator": {
+      "id": "ByteDance",
+      "中文名称": "字节跳动",
+      "英文名称": "ByteDance",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsersWithMentalHealthIssues",
+      "中文名称": "有心理健康问题的TikTok用户",
+      "英文名称": "TikTok Users with Mental Health Issues Stakeholder",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "AISubject": {
+      "id": "VulnerableTeenagers",
+      "中文名称": "易受影响的青少年",
+      "英文名称": "Vulnerable Teens",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "Impact": {
+      "id": "IncreasedSelfHarmBehavior",
+      "中文名称": "自残行为增加的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "Purpose": {
+      "id": "UserEngagementMaximization",
+      "中文名称": "用户参与度最大化的目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedRecommendation",
+      "中文名称": "基于深度学习的推荐技术",
+      "英文名称": "Deep Learning Recommendation Technique",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasTowardsExtremeContent",
+      "中文名称": "算法偏向极端内容的脆弱性",
+      "英文名称": "Algorithmic Bias Towards Extreme Content Vulnerability",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Threat": {
+      "id": "ProliferationOfHarmfulContent",
+      "中文名称": "有害内容扩散的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Hazard": {
+      "id": "UnmoderatedUserGeneratedContent",
+      "中文名称": "未经审核的用户生成内容危害",
+      "英文名称": "Unverified Content Hazard",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "RiskConcept": {
+      "id": "AlgorithmicAmplificationOfHarmfulBehavior",
+      "中文名称": "有害行为的算法放大",
+      "英文名称": "Algorithmic Amplification of Harmful Behavior Risk Concept",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokRecommendationAlgorithm",
+      "中文名称": "TikTok推荐算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Risk": {
+      "id": "HarmfulContentPromotionRisk",
+      "中文名称": "有害内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Consequence": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "AICapability": {
+      "id": "ContentPersonalizationAlgorithm",
+      "中文名称": "内容个性化算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "AIOperator": {
+      "id": "ByteDance",
+      "中文名称": "字节跳动",
+      "英文名称": "ByteDance",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsersWithMentalHealthIssues",
+      "中文名称": "有心理健康问题的TikTok用户",
+      "英文名称": "TikTok Users with Mental Health Issues Stakeholder",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "AISubject": {
+      "id": "VulnerableTeenagers",
+      "中文名称": "易受影响的青少年",
+      "英文名称": "Vulnerable Teens",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "Impact": {
+      "id": "IncreasedSelfHarmBehavior",
+      "中文名称": "自残行为增加的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    },
+    "Purpose": {
+      "id": "UserEngagementMaximization",
+      "中文名称": "用户参与度最大化的目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedRecommendation",
+      "中文名称": "基于深度学习的推荐技术",
+      "英文名称": "Deep Learning Recommendation Technique",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasTowardsExtremeContent",
+      "中文名称": "算法偏向极端内容的脆弱性",
+      "英文名称": "Algorithmic Bias Towards Extreme Content Vulnerability",
+      "来源": "It's almost impossible to avoid triggering content on TikTok"
+    },
+    "Threat": {
+      "id": "ProliferationOfHarmfulContent",
+      "中文名称": "有害内容扩散的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "Hazard": {
+      "id": "UnmoderatedUserGeneratedContent",
+      "中文名称": "未经审核的用户生成内容危害",
+      "英文名称": "Unverified Content Hazard",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "TikTok Is Filled With Pro-Eating Disorder Content, Despite Its Own Rules"
+    },
+    "RiskConcept": {
+      "id": "AlgorithmicAmplificationOfHarmfulBehavior",
+      "中文名称": "有害行为的算法放大",
+      "英文名称": "Algorithmic Amplification of Harmful Behavior Risk Concept",
+      "来源": "TikTok self-harm study results 'every parent's nightmare'"
+    }
+  }
+}

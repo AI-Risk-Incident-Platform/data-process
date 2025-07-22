@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DisinformationAI",
+      "中文名称": "虚假信息AI系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "China sows disinformation about Hawaii fires using new techniques"
+    },
+    "Risk": {
+      "id": "DisinformationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China sows disinformation about Hawaii fires using new techniques"
+    },
+    "AITechnique": {
+      "id": "NewDisinformationTechniques",
+      "中文名称": "新型虚假信息传播技术",
+      "英文名称": "Disinformation Techniques",
+      "来源": "using new techniques"
+    },
+    "Stakeholder": {
+      "id": "ChineseGovernment",
+      "中文名称": "中国政府",
+      "英文名称": "Chinese Government",
+      "来源": "China sows disinformation"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "sows disinformation about Hawaii fires"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DisinformationAI",
+      "中文名称": "虚假信息AI系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "China sows disinformation about Hawaii fires using new techniques"
+    },
+    "Risk": {
+      "id": "DisinformationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China sows disinformation about Hawaii fires using new techniques"
+    },
+    "AITechnique": {
+      "id": "NewDisinformationTechniques",
+      "中文名称": "新型虚假信息传播技术",
+      "英文名称": "Disinformation Techniques",
+      "来源": "using new techniques"
+    },
+    "Stakeholder": {
+      "id": "ChineseGovernment",
+      "中文名称": "中国政府",
+      "英文名称": "Chinese Government",
+      "来源": "China sows disinformation"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "sows disinformation about Hawaii fires"
+    }
+  }
+}

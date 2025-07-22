@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlpacaChatbot",
+      "中文名称": "Alpaca聊天机器人",
+      "英文名称": "Alpaca Chatbot",
+      "来源": "Stanford pulls Alpaca chatbot citing hallucinations, costs, and safety concerns"
+    },
+    "Risk": {
+      "id": "SafetyConcernsRisk",
+      "中文名称": "安全担忧风险",
+      "英文名称": "Safety Concerns Risk",
+      "来源": "Stanford pulls Alpaca chatbot citing hallucinations, costs, and safety concerns"
+    },
+    "Consequence": {
+      "id": "SystemShutdownConsequence",
+      "中文名称": "系统关闭后果",
+      "英文名称": "System Shutdown Consequence",
+      "来源": "Stanford Pulls Down ChatGPT Clone After Safety Concerns"
+    },
+    "AICapability": {
+      "id": "ChatbotConversationCapability",
+      "中文名称": "聊天机器人对话能力",
+      "英文名称": "Chatbot Conversation Capability",
+      "来源": "Stanford pulls Alpaca chatbot citing hallucinations, costs, and safety concerns"
+    },
+    "Stakeholder": {
+      "id": "StanfordUniversity",
+      "中文名称": "斯坦福大学",
+      "英文名称": "Stanford University",
+      "来源": "Stanford Pulls Down ChatGPT Clone After Safety Concerns"
+    },
+    "RiskSource": {
+      "id": "HallucinationsRiskSource",
+      "中文名称": "幻觉风险源",
+      "英文名称": "Hallucinations Risk Source",
+      "来源": "Stanford pulls Alpaca chatbot citing hallucinations, costs, and safety concerns"
+    },
+    "Impact": {
+      "id": "ResearchDisruptionImpact",
+      "中文名称": "研究中断影响",
+      "英文名称": "Research Disruption Impact",
+      "来源": "Why did Stanford take down its Alpaca AI chatbot?"
+    }
+  }
+}

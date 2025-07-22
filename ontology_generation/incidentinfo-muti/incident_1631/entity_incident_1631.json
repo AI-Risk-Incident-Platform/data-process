@@ -1,0 +1,88 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeKidsApp",
+      "中文名称": "YouTube儿童应用",
+      "英文名称": "YouTube Kids App",
+      "来源": "How content creators use AI to misinform young children on YouTube – Report"
+    },
+    "Risk": {
+      "id": "InappropriateContentRisk",
+      "中文名称": "不当内容风险",
+      "英文名称": "Inappropriate Content Risk",
+      "来源": "AI used to target kids with disinformation"
+    },
+    "AICapability": {
+      "id": "ContentFilteringAlgorithm",
+      "中文名称": "内容过滤算法",
+      "英文名称": "Content Filtering Algorithm",
+      "来源": "Bad science: AI used to target kids with disinformation on YouTube"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "How content creators use AI to misinform young children on YouTube – Report"
+    },
+    "RiskSource": {
+      "id": "MisinformationContent",
+      "中文名称": "虚假信息内容",
+      "英文名称": "Misinformation Content",
+      "来源": "AI used to target kids with disinformation"
+    },
+    "Consequence": {
+      "id": "ChildMisinformationExposure",
+      "中文名称": "儿童接触虚假信息后果",
+      "英文名称": "Child Misinformation Exposure Consequence",
+      "来源": "Bad science: AI used to target kids with disinformation on YouTube"
+    },
+    "Impact": {
+      "id": "CognitiveDevelopmentImpact",
+      "中文名称": "认知发展影响",
+      "英文名称": "Cognitive Development Impact",
+      "来源": "How content creators use AI to misinform young children on YouTube – Report"
+    },
+    "Purpose": {
+      "id": "ChildEntertainmentPlatform",
+      "中文名称": "儿童娱乐平台目的",
+      "英文名称": "Child Entertainment Platform Purpose",
+      "来源": "YouTube Kids App"
+    },
+    "Domain": {
+      "id": "OnlineVideoPlatform",
+      "中文名称": "在线视频平台领域",
+      "英文名称": "Online Video Platform Domain",
+      "来源": "YouTube content"
+    },
+    "AITechnique": {
+      "id": "RecommendationAlgorithm",
+      "中文名称": "推荐算法技术",
+      "英文名称": "Recommendation Algorithm Technique",
+      "来源": "AI used to target kids with disinformation"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentVerification",
+      "中文名称": "内容验证缺失漏洞",
+      "英文名称": "Lack of Content Verification Vulnerability",
+      "来源": "Bad science: AI used to target kids with disinformation on YouTube"
+    },
+    "Threat": {
+      "id": "TargetedDisinformationCampaign",
+      "中文名称": "定向虚假信息传播威胁",
+      "英文名称": "Targeted Disinformation Campaign Threat",
+      "来源": "AI used to target kids with disinformation"
+    },
+    "Hazard": {
+      "id": "UnverifiedUserGeneratedContent",
+      "中文名称": "未经核实的用户生成内容危害",
+      "英文名称": "Unverified User-Generated Content Hazard",
+      "来源": "How content creators use AI to misinform young children on YouTube – Report"
+    },
+    "RiskConcept": {
+      "id": "ChildTargetedDisinformation",
+      "中文名称": "针对儿童的虚假信息风险概念",
+      "英文名称": "Child-Targeted Disinformation Risk Concept",
+      "来源": "AI used to target kids with disinformation"
+    }
+  }
+}

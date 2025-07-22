@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Flipagram",
+      "中文名称": "Flipagram",
+      "英文名称": "Flipagram",
+      "来源": "TikTok owner ByteDance accused of scraping content from Instagram and Snapchat for its older app Flipagram"
+    },
+    "Risk": {
+      "id": "ContentScrapingRisk",
+      "中文名称": "内容抓取风险",
+      "英文名称": "Content Scraping Risk",
+      "来源": "ByteDance Made Fake Accounts With Content Scraped From Instagram and Snapchat"
+    },
+    "Stakeholder": {
+      "id": "ByteDance",
+      "中文名称": "字节跳动",
+      "英文名称": "ByteDance",
+      "来源": "TikTok's parent ByteDance made fake accounts scraping content from Instagram, Snapchat and other platforms"
+    },
+    "AIOperator": {
+      "id": "ByteDance",
+      "中文名称": "字节跳动",
+      "英文名称": "ByteDance",
+      "来源": "TikTok owner ByteDance accused of scraping content from Instagram and Snapchat"
+    },
+    "Consequence": {
+      "id": "IntellectualPropertyViolation",
+      "中文名称": "知识产权侵犯后果",
+      "英文名称": "Intellectual Property Violation Consequence",
+      "来源": "scraping content from Instagram and Snapchat"
+    },
+    "Impact": {
+      "id": "PlatformCompetitionDistortion",
+      "中文名称": "平台竞争扭曲影响",
+      "英文名称": "Platform Competition Distortion Impact",
+      "来源": "made fake accounts scraping content from Instagram, Snapchat and other platforms"
+    },
+    "RiskSource": {
+      "id": "FakeAccountsCreation",
+      "中文名称": "虚假账户创建风险源",
+      "英文名称": "Fake Accounts Creation Risk Source",
+      "来源": "ByteDance Made Fake Accounts With Content Scraped From Instagram and Snapchat"
+    },
+    "Misuse": {
+      "id": "UnauthorizedContentScraping",
+      "中文名称": "未经授权内容抓取滥用",
+      "英文名称": "Unauthorized Content Scraping Misuse",
+      "来源": "scraping content from Instagram and Snapchat"
+    }
+  }
+}

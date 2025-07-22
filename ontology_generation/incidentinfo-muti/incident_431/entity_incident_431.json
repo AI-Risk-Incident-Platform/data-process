@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DetroitFacialRecognitionSystem",
+      "中文名称": "底特律面部识别系统",
+      "英文名称": "Detroit Facial Recognition System",
+      "来源": "Controversial Detroit facial recognition got him arrested for a crime he didn’t commit"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "Wrongful Arrest Risk",
+      "来源": "Faulty Facial Recognition Led to His Arrest—Now He’s Suing"
+    },
+    "Consequence": {
+      "id": "WrongfulArrestConsequence",
+      "中文名称": "错误逮捕后果",
+      "英文名称": "Wrongful Arrest Consequence",
+      "来源": "Wrongful arrest exposes racial bias in facial recognition technology"
+    },
+    "Impact": {
+      "id": "RacialBiasImpact",
+      "中文名称": "种族偏见影响",
+      "英文名称": "Racial Bias Impact",
+      "来源": "Wrongful arrest exposes racial bias in facial recognition technology"
+    },
+    "Stakeholder": {
+      "id": "ArrestedIndividual",
+      "中文名称": "被逮捕个人",
+      "英文名称": "Arrested Individual",
+      "来源": "Controversial Detroit facial recognition got him arrested for a crime he didn’t commit"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Faulty Facial Recognition Led to His Arrest—Now He’s Suing"
+    },
+    "RiskSource": {
+      "id": "FaultyRecognitionAlgorithm",
+      "中文名称": "错误识别算法风险源",
+      "英文名称": "Faulty Recognition Algorithm Risk Source",
+      "来源": "Faulty Facial Recognition Led to His Arrest—Now He’s Suing"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "Controversial Detroit facial recognition got him arrested for a crime he didn’t commit"
+    }
+  }
+}

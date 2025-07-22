@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ArmedRobotDog",
+      "中文名称": "武装机器狗",
+      "英文名称": "Armed Robot Dog",
+      "来源": "They’re putting guns on robot dogs now"
+    },
+    "Risk": {
+      "id": "LethalAutonomousWeaponRisk",
+      "中文名称": "致命自主武器风险",
+      "英文名称": "Lethal Autonomous Weapon Risk",
+      "来源": "Robot Dogs Just Got A Lethal, Dystopian Upgrade"
+    },
+    "Consequence": {
+      "id": "IncreasedLethalityInConflictZones",
+      "中文名称": "冲突地区杀伤力增加后果",
+      "英文名称": "Increased Lethality in Conflict Zones Consequence",
+      "来源": "Uh Oh, They Strapped a Sniper Rifle to a Robot Dog"
+    },
+    "AICapability": {
+      "id": "AutonomousTargetingCapability",
+      "中文名称": "自主目标识别能力",
+      "英文名称": "Autonomous Targeting Capability",
+      "来源": "They’re putting guns on robot dogs now"
+    },
+    "Stakeholder": {
+      "id": "MilitaryOrganizations",
+      "中文名称": "军事组织",
+      "英文名称": "Military Organizations",
+      "来源": "Robot Dogs Just Got A Lethal, Dystopian Upgrade"
+    },
+    "Impact": {
+      "id": "CivilianCasualties",
+      "中文名称": "平民伤亡影响",
+      "英文名称": "Civilian Casualties Impact",
+      "来源": "Uh Oh, They Strapped a Sniper Rifle to a Robot Dog"
+    },
+    "Purpose": {
+      "id": "MilitaryCombatOperations",
+      "中文名称": "军事作战行动目的",
+      "英文名称": "Military Combat Operations Purpose",
+      "来源": "They’re putting guns on robot dogs now"
+    },
+    "Domain": {
+      "id": "DefenseTechnology",
+      "中文名称": "国防技术领域",
+      "英文名称": "Defense Technology Domain",
+      "来源": "Robot Dogs Just Got A Lethal, Dystopian Upgrade"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForTargetRecognition",
+      "中文名称": "目标识别计算机视觉技术",
+      "英文名称": "Computer Vision for Target Recognition Technique",
+      "来源": "Uh Oh, They Strapped a Sniper Rifle to a Robot Dog"
+    },
+    "RiskSource": {
+      "id": "WeaponizationOfRobotics",
+      "中文名称": "机器人武器化风险源",
+      "英文名称": "Weaponization of Robotics Risk Source",
+      "来源": "They’re putting guns on robot dogs now"
+    }
+  }
+}

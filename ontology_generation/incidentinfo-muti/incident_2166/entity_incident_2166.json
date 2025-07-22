@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DoorDashAlgorithm",
+      "中文名称": "DoorDash算法",
+      "英文名称": "DoorDash Algorithm",
+      "来源": "Organized DoorDash Drivers’ #DeclineNow Strategy Is Driving Up Their Pay"
+    },
+    "Risk": {
+      "id": "AlgorithmManipulationRisk",
+      "中文名称": "算法操纵风险",
+      "英文名称": "Algorithm Manipulation Risk",
+      "来源": "Mehr Geld durch Stornierung: Wie US-Lieferanten den Algorithmus austricksen"
+    },
+    "Stakeholder": {
+      "id": "DoorDashDrivers",
+      "中文名称": "DoorDash司机",
+      "英文名称": "DoorDash Drivers",
+      "来源": "Organized DoorDash Drivers’ #DeclineNow Strategy Is Driving Up Their Pay"
+    },
+    "AIOperator": {
+      "id": "DoorDash",
+      "中文名称": "DoorDash",
+      "英文名称": "DoorDash",
+      "来源": "Organized DoorDash Drivers’ #DeclineNow Strategy Is Driving Up Their Pay"
+    },
+    "Consequence": {
+      "id": "IncreasedPayForDrivers",
+      "中文名称": "司机收入增加",
+      "英文名称": "Increased Pay for Drivers",
+      "来源": "Organized DoorDash Drivers’ #DeclineNow Strategy Is Driving Up Their Pay"
+    },
+    "RiskSource": {
+      "id": "OrderCancellationStrategy",
+      "中文名称": "订单取消策略",
+      "英文名称": "Order Cancellation Strategy",
+      "来源": "Mehr Geld durch Stornierung: Wie US-Lieferanten den Algorithmus austricksen"
+    },
+    "Purpose": {
+      "id": "DriverPaymentDetermination",
+      "中文名称": "司机薪酬确定",
+      "英文名称": "Driver Payment Determination",
+      "来源": "What if gig workers could train the algorithms that determine their pay?"
+    },
+    "Domain": {
+      "id": "GigEconomy",
+      "中文名称": "零工经济",
+      "英文名称": "Gig Economy",
+      "来源": "What if gig workers could train the algorithms that determine their pay?"
+    }
+  }
+}

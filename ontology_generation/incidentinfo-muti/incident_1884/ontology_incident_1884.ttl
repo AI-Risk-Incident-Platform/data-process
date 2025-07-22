@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:Worldcoin rdf:type airo:AISystem ;
+    rdfs:label "Worldcoin"@en ;
+    rdfs:label "Worldcoin"@zh ;
+    airo:hasRisk ex:BiometricDataCollectionRisk ;
+    airo:isDeployedBy ex:SamAltman ;
+    airo:hasStakeholder ex:PortugueseDataRegulator .
+
+ex:BiometricDataCollectionRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Data Collection Risk"@en ;
+    rdfs:label "生物特征数据收集风险"@zh ;
+    airo:hasConsequence ex:RegulatoryBan ;
+    airo:isRiskSourceFor ex:BiometricDataCollection .
+
+ex:PortugueseDataRegulator rdf:type airo:Stakeholder ;
+    rdfs:label "Portuguese Data Regulator"@en ;
+    rdfs:label "葡萄牙数据监管机构"@zh .
+
+ex:SamAltman rdf:type airo:AIOperator ;
+    rdfs:label "Sam Altman"@en ;
+    rdfs:label "山姆·奥特曼"@zh .
+
+ex:BiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Biometric Data Collection"@en ;
+    rdfs:label "生物特征数据收集"@zh .
+
+ex:RegulatoryBan rdf:type airo:Consequence ;
+    rdfs:label "Regulatory Ban"@en ;
+    rdfs:label "监管禁令"@zh .

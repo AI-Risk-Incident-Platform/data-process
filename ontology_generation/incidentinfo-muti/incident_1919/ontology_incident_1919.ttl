@@ -1,0 +1,87 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:InappropriateContentGenerationRisk ;
+    airo:hasCapability ex:TextGeneration ;
+    airo:hasStakeholder ex:ContentConsumers ;
+    airo:hasAISubject ex:UsersInteractingWithChatGPT ;
+    airo:hasPurpose ex:ConversationalAI ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:LargeLanguageModel .
+
+ex:InappropriateContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Generation Risk"@en ;
+    rdfs:label "不当内容生成风险"@zh ;
+    airo:hasConsequence ex:ExposureToHarmfulContent ;
+    airo:isRiskSourceFor ex:UserPromptingForInappropriateContent ;
+    airo:isRiskSourceFor ex:UnfilteredContentGeneration ;
+    airo:isRiskSourceFor ex:MisuseForHarmfulContent .
+
+ex:ExposureToHarmfulContent rdf:type airo:Consequence ;
+    rdfs:label "Exposure to Harmful Content Consequence"@en ;
+    rdfs:label "接触有害内容后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:TextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .
+
+ex:ContentConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "Content Consumers"@en ;
+    rdfs:label "内容消费者"@zh .
+
+ex:UsersInteractingWithChatGPT rdf:type airo:AISubject ;
+    rdfs:label "Users Interacting with ChatGPT"@en ;
+    rdfs:label "与ChatGPT交互的用户"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ContentConsumers .
+
+ex:ConversationalAI rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Purpose"@en ;
+    rdfs:label "对话式AI目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:UserPromptingForInappropriateContent rdf:type airo:RiskSource ;
+    rdfs:label "User Prompting for Inappropriate Content Risk Source"@en ;
+    rdfs:label "用户诱导不当内容风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFiltering .
+
+ex:UnfilteredContentGeneration rdf:type airo:Hazard ;
+    rdfs:label "Unfiltered Content Generation Hazard"@en ;
+    rdfs:label "未过滤内容生成危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFiltering .
+
+ex:MisuseForHarmfulContent rdf:type airo:Threat ;
+    rdfs:label "Misuse for Harmful Content Threat"@en ;
+    rdfs:label "有害内容误用威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFiltering .
+
+ex:LackOfContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering Vulnerability"@en ;
+    rdfs:label "缺乏内容过滤的脆弱性"@zh .
+
+ex:EthicalChallengesInAIResponses rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in AI Responses Risk Concept"@en ;
+    rdfs:label "AI回应中的伦理挑战"@zh .

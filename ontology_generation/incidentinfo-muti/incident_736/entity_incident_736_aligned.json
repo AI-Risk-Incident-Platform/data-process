@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DWPAlgorithm",
+      "中文名称": "DWP算法",
+      "英文名称": "DWP Algorithm",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Risk": {
+      "id": "WrongfulFraudFlaggingRisk",
+      "中文名称": "错误欺诈标记风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    },
+    "Consequence": {
+      "id": "UnjustSuspicionOfFraud",
+      "中文名称": "不公正的欺诈嫌疑后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "AISubject": {
+      "id": "BenefitsClaimants",
+      "中文名称": "福利申请人",
+      "英文名称": "Benefit Recipients",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Impact": {
+      "id": "ReputationDamageToClaimants",
+      "中文名称": "申请人声誉损害影响",
+      "英文名称": "Reputation Damage to Claimants Impact",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "Purpose": {
+      "id": "FraudDetectionInBenefitsSystem",
+      "中文名称": "福利系统中的欺诈检测目的",
+      "英文名称": "Welfare Fraud Detection",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Domain": {
+      "id": "SocialWelfareSystem",
+      "中文名称": "社会福利系统领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicFalsePositives",
+      "中文名称": "算法假阳性风险源",
+      "英文名称": "Algorithmic False Positives Risk Source",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DWPAlgorithm",
+      "中文名称": "DWP算法",
+      "英文名称": "DWP Algorithm",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Risk": {
+      "id": "WrongfulFraudFlaggingRisk",
+      "中文名称": "错误欺诈标记风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    },
+    "Consequence": {
+      "id": "UnjustSuspicionOfFraud",
+      "中文名称": "不公正的欺诈嫌疑后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "AISubject": {
+      "id": "BenefitsClaimants",
+      "中文名称": "福利申请人",
+      "英文名称": "Benefit Recipients",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Impact": {
+      "id": "ReputationDamageToClaimants",
+      "中文名称": "申请人声誉损害影响",
+      "英文名称": "Reputation Damage to Claimants Impact",
+      "来源": "DWP wrongly suspects hundreds of thousands of benefits claimants of fraud"
+    },
+    "Purpose": {
+      "id": "FraudDetectionInBenefitsSystem",
+      "中文名称": "福利系统中的欺诈检测目的",
+      "英文名称": "Welfare Fraud Detection",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Domain": {
+      "id": "SocialWelfareSystem",
+      "中文名称": "社会福利系统领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicFalsePositives",
+      "中文名称": "算法假阳性风险源",
+      "英文名称": "Algorithmic False Positives Risk Source",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    }
+  }
+}

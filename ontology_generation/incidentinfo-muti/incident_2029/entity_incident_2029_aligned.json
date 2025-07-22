@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IntelligentDrivingSystem",
+      "中文名称": "智能驾驶系统",
+      "英文名称": "Intelligent Driving System",
+      "来源": "智能驾驶的安全边界不应被模糊"
+    },
+    "Risk": {
+      "id": "SafetyBoundaryBlurringRisk",
+      "中文名称": "安全边界模糊风险",
+      "英文名称": "Safety Boundary Blurring Risk",
+      "来源": "智能驾驶的安全边界不应被模糊"
+    },
+    "RiskSource": {
+      "id": "ExaggeratedMarketing",
+      "中文名称": "夸张营销",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "夸张营销与过度信任都需警惕"
+    },
+    "Vulnerability": {
+      "id": "OverTrustInTechnology",
+      "中文名称": "对技术过度信任",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "夸张营销与过度信任都需警惕"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "IntelligentDrivingSystem",
+      "中文名称": "智能驾驶系统",
+      "英文名称": "Intelligent Driving System",
+      "来源": "智能驾驶的安全边界不应被模糊"
+    },
+    "Risk": {
+      "id": "SafetyBoundaryBlurringRisk",
+      "中文名称": "安全边界模糊风险",
+      "英文名称": "Safety Boundary Blurring Risk",
+      "来源": "智能驾驶的安全边界不应被模糊"
+    },
+    "RiskSource": {
+      "id": "ExaggeratedMarketing",
+      "中文名称": "夸张营销",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "夸张营销与过度信任都需警惕"
+    },
+    "Vulnerability": {
+      "id": "OverTrustInTechnology",
+      "中文名称": "对技术过度信任",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "夸张营销与过度信任都需警惕"
+    }
+  }
+}

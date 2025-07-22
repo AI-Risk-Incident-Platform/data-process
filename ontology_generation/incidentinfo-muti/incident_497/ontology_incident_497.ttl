@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedImagesSystem rdf:type airo:AISystem ;
+    rdfs:label "AI生成图像系统"@zh ;
+    rdfs:label "AI Generated Images System"@en ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PoliticalManipulation ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    airo:hasConsequence ex:PublicConfusion ;
+    airo:isRiskSourceFor ex:LackOfContentVerification .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "公众困惑后果"@zh ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    airo:hasImpact ex:ErosionOfTrustInMedia .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "社交媒体用户"@zh ;
+    rdfs:label "Social Media Users"@en .
+
+ex:ErosionOfTrustInMedia rdf:type airo:Impact ;
+    rdfs:label "媒体信任度下降影响"@zh ;
+    rdfs:label "Erosion of Trust in Media Impact"@en ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "政治操纵目的"@zh ;
+    rdfs:label "Political Manipulation Purpose"@en .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platforms Domain"@en .
+
+ex:LackOfContentVerification rdf:type airo:RiskSource ;
+    rdfs:label "内容验证缺失风险源"@zh ;
+    rdfs:label "Lack of Content Verification Risk Source"@en .

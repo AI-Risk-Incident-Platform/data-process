@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UniversalCreditSystem rdf:type airo:AISystem ;
+    rdfs:label "Universal Credit System"@en ;
+    rdfs:label "通用信用系统"@zh ;
+    airo:hasRisk ex:DiscriminationRiskAgainstSingleMothers ;
+    airo:hasStakeholder ex:SingleMothers ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystemDomain .
+
+ex:DiscriminationRiskAgainstSingleMothers rdf:type airo:Risk ;
+    rdfs:label "Discrimination Risk Against Single Mothers"@en ;
+    rdfs:label "针对单身母亲的歧视风险"@zh ;
+    airo:hasConsequence ex:FinancialHardshipForSingleMothers .
+
+ex:SingleMothers rdf:type airo:Stakeholder ;
+    rdfs:label "Single Mothers"@en ;
+    rdfs:label "单身母亲"@zh .
+
+ex:FinancialHardshipForSingleMothers rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship for Single Mothers Impact"@en ;
+    rdfs:label "单身母亲经济困难的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SingleMothers .
+
+ex:SocialWelfareSystemDomain rdf:type airo:Domain ;
+    rdfs:label "Social Welfare System Domain"@en ;
+    rdfs:label "社会福利系统领域"@zh .

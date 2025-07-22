@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Generated Suicide Letter and Failed to Intervene in Transgender User Crisis"
+    },
+    "Risk": {
+      "id": "SuicideRisk",
+      "中文名称": "自杀风险",
+      "英文名称": "Suicide Risk",
+      "来源": "ChatGPT Generated Suicide Letter and Failed to Intervene in Transgender User Crisis"
+    },
+    "Consequence": {
+      "id": "PotentialSuicide",
+      "中文名称": "潜在自杀后果",
+      "英文名称": "Potential Suicide Consequence",
+      "来源": "ChatGPT Generated Suicide Letter and Failed to Intervene in Transgender User Crisis"
+    },
+    "AISubject": {
+      "id": "TransgenderUser",
+      "中文名称": "跨性别用户",
+      "英文名称": "Transgender User",
+      "来源": "ChatGPT Generated Suicide Letter and Failed to Intervene in Transgender User Crisis"
+    },
+    "Vulnerability": {
+      "id": "LackOfCrisisInterventionMechanism",
+      "中文名称": "缺乏危机干预机制",
+      "英文名称": "Lack of Crisis Intervention Mechanism Vulnerability",
+      "来源": "Failed to Intervene in Transgender User Crisis"
+    },
+    "Impact": {
+      "id": "MentalHealthCrisis",
+      "中文名称": "心理健康危机影响",
+      "英文名称": "Mental Health Crisis Impact",
+      "来源": "Failed to Intervene in Transgender User Crisis"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "ChatGPT Generated Suicide Letter"
+    },
+    "AITechnique": {
+      "id": "LanguageModel",
+      "中文名称": "语言模型技术",
+      "英文名称": "Language Model Technique",
+      "来源": "ChatGPT Generated Suicide Letter"
+    },
+    "RiskSource": {
+      "id": "UnfilteredContentGeneration",
+      "中文名称": "无过滤内容生成风险源",
+      "英文名称": "Unfiltered Content Generation Risk Source",
+      "来源": "ChatGPT Generated Suicide Letter"
+    }
+  }
+}

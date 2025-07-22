@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Grok AI Chatbot"@en ;
+    rdfs:label "Grok AI聊天机器人"@zh ;
+    airo:hasRisk ex:FakeNewsGenerationRisk ;
+    airo:hasStakeholder ex:XPlatform ;
+    airo:isDeployedBy ex:ElonMusk .
+
+ex:FakeNewsGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake News Generation Risk"@en ;
+    rdfs:label "虚假新闻生成风险"@zh ;
+    airo:isRiskSourceFor ex:UncheckedAutomation ;
+    airo:hasConsequence ex:MisinformationSpread .
+
+ex:XPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "X Platform"@en ;
+    rdfs:label "X平台"@zh .
+
+ex:ElonMusk rdf:type airo:AIOperator ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "错误信息传播后果"@zh ;
+    airo:hasImpact ex:PublicConfusion .
+
+ex:PublicConfusion rdf:type airo:Impact ;
+    rdfs:label "Public Confusion Impact"@en ;
+    rdfs:label "公众困惑影响"@zh ;
+    airo:hasImpactOnStakeholder ex:XPlatform .
+
+ex:UncheckedAutomation rdf:type airo:RiskSource ;
+    rdfs:label "Unchecked Automation Risk Source"@en ;
+    rdfs:label "未受监管的自动化风险源"@zh .

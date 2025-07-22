@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTLegalResearchTool rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Legal Research Tool"@en ;
+    rdfs:label "ChatGPT法律研究工具"@zh ;
+    airo:hasRisk ex:FakeLegalCitationsRisk ;
+    airo:hasPurpose ex:LegalResearchAssistance ;
+    airo:isAppliedWithinDomain ex:LegalServices ;
+    airo:hasStakeholder ex:FederalCourtSystem ;
+    airo:isDeployedBy ex:LawFirmUsingChatGPT .
+
+ex:FakeLegalCitationsRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Legal Citations Risk"@en ;
+    rdfs:label "虚假法律引用风险"@zh ;
+    airo:hasConsequence ex:LegalCaseCompromise ;
+    airo:isRiskSourceFor ex:UnverifiedLegalCitationGeneration .
+
+ex:LegalCaseCompromise rdf:type airo:Consequence ;
+    rdfs:label "Legal Case Compromise Consequence"@en ;
+    rdfs:label "法律案件受损后果"@zh ;
+    airo:hasImpact ex:JudicialSystemIntegrityUndermined .
+
+ex:LawFirmUsingChatGPT rdf:type airo:AIOperator ;
+    rdfs:label "Law Firm Using ChatGPT"@en ;
+    rdfs:label "使用ChatGPT的律师事务所"@zh .
+
+ex:FederalCourtSystem rdf:type airo:Stakeholder ;
+    rdfs:label "Federal Court System"@en ;
+    rdfs:label "联邦法院系统"@zh .
+
+ex:JudicialSystemIntegrityUndermined rdf:type airo:Impact ;
+    rdfs:label "Judicial System Integrity Undermined Impact"@en ;
+    rdfs:label "司法系统诚信受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FederalCourtSystem .
+
+ex:LegalResearchAssistance rdf:type airo:Purpose ;
+    rdfs:label "Legal Research Assistance Purpose"@en ;
+    rdfs:label "法律研究辅助目的"@zh .
+
+ex:LegalServices rdf:type airo:Domain ;
+    rdfs:label "Legal Services Domain"@en ;
+    rdfs:label "法律服务领域"@zh .
+
+ex:UnverifiedLegalCitationGeneration rdf:type airo:Misuse ;
+    rdfs:label "Unverified Legal Citation Generation Misuse"@en ;
+    rdfs:label "未经验证的法律引用生成滥用"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SunoGenerativeAIMusicPlatform",
+      "中文名称": "Suno生成式AI音乐平台",
+      "英文名称": "AI Music Generator",
+      "来源": "标题中提到的Suno公司及其生成式AI音乐平台"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GEMA起诉Suno，指控其生成式AI必须尊重版权法"
+    },
+    "Stakeholder": {
+      "id": "GEMA",
+      "中文名称": "德国音乐版权协会",
+      "英文名称": "German Music Copyright Assoc.",
+      "来源": "GEMA作为原告方起诉Suno"
+    },
+    "AIOperator": {
+      "id": "SunoInc",
+      "中文名称": "Suno公司",
+      "英文名称": "Suno Inc.",
+      "来源": "作为被告方的AI平台运营商"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "涉及音乐版权和生成式AI音乐创作"
+    },
+    "RiskSource": {
+      "id": "UnlicensedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GEMA要求Suno支付许可费"
+    },
+    "Consequence": {
+      "id": "LegalLiability",
+      "中文名称": "法律责任",
+      "英文名称": "Legal Liability",
+      "来源": "Suno面临500万美元估值的法律诉讼"
+    },
+    "Impact": {
+      "id": "FinancialPenalties",
+      "中文名称": "经济处罚",
+      "英文名称": "Financial Penalties",
+      "来源": "诉讼可能导致重大经济损失"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SunoGenerativeAIMusicPlatform",
+      "中文名称": "Suno生成式AI音乐平台",
+      "英文名称": "AI Music Generator",
+      "来源": "标题中提到的Suno公司及其生成式AI音乐平台"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GEMA起诉Suno，指控其生成式AI必须尊重版权法"
+    },
+    "Stakeholder": {
+      "id": "GEMA",
+      "中文名称": "德国音乐版权协会",
+      "英文名称": "German Music Copyright Assoc.",
+      "来源": "GEMA作为原告方起诉Suno"
+    },
+    "AIOperator": {
+      "id": "SunoInc",
+      "中文名称": "Suno公司",
+      "英文名称": "Suno Inc.",
+      "来源": "作为被告方的AI平台运营商"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "涉及音乐版权和生成式AI音乐创作"
+    },
+    "RiskSource": {
+      "id": "UnlicensedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GEMA要求Suno支付许可费"
+    },
+    "Consequence": {
+      "id": "LegalLiability",
+      "中文名称": "法律责任",
+      "英文名称": "Legal Liability",
+      "来源": "Suno面临500万美元估值的法律诉讼"
+    },
+    "Impact": {
+      "id": "FinancialPenalties",
+      "中文名称": "经济处罚",
+      "英文名称": "Financial Penalties",
+      "来源": "诉讼可能导致重大经济损失"
+    }
+  }
+}

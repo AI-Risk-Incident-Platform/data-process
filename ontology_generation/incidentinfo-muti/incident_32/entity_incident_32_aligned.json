@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "人脸识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的'Facial Recognition'"
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻描述中商业女性因公交广告上的人脸被误识别为闯红灯"
+    },
+    "Consequence": {
+      "id": "IncorrectJaywalkingCitation",
+      "中文名称": "错误闯红灯处罚后果",
+      "英文名称": "Traffic Violation Consequence",
+      "来源": "新闻标题和描述中提到的错误识别导致'jaywalking'指控"
+    },
+    "AISubject": {
+      "id": "BusinesswomanInAdvertisement",
+      "中文名称": "广告中的商业女性",
+      "英文名称": "Businesswoman in Advertisement",
+      "来源": "新闻描述中'her face was on a bus'"
+    },
+    "Stakeholder": {
+      "id": "TrafficManagementAuthority",
+      "中文名称": "交通管理部门",
+      "英文名称": "Traffic Regulators",
+      "来源": "可以推断使用该系统进行交通违规监测的机构"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "商业人士被错误指控可能带来的声誉影响"
+    },
+    "Vulnerability": {
+      "id": "StaticImageMisclassification",
+      "中文名称": "静态图像误分类漏洞",
+      "英文名称": "Static Image Misclassification Vulnerability",
+      "来源": "系统无法区分真实行人和广告图像中的人脸"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法",
+      "英文名称": "Image Recognition Technique",
+      "来源": "人脸识别系统使用的核心技术"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "人脸识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的'Facial Recognition'"
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻描述中商业女性因公交广告上的人脸被误识别为闯红灯"
+    },
+    "Consequence": {
+      "id": "IncorrectJaywalkingCitation",
+      "中文名称": "错误闯红灯处罚后果",
+      "英文名称": "Traffic Violation Consequence",
+      "来源": "新闻标题和描述中提到的错误识别导致'jaywalking'指控"
+    },
+    "AISubject": {
+      "id": "BusinesswomanInAdvertisement",
+      "中文名称": "广告中的商业女性",
+      "英文名称": "Businesswoman in Advertisement",
+      "来源": "新闻描述中'her face was on a bus'"
+    },
+    "Stakeholder": {
+      "id": "TrafficManagementAuthority",
+      "中文名称": "交通管理部门",
+      "英文名称": "Traffic Regulators",
+      "来源": "可以推断使用该系统进行交通违规监测的机构"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "商业人士被错误指控可能带来的声誉影响"
+    },
+    "Vulnerability": {
+      "id": "StaticImageMisclassification",
+      "中文名称": "静态图像误分类漏洞",
+      "英文名称": "Static Image Misclassification Vulnerability",
+      "来源": "系统无法区分真实行人和广告图像中的人脸"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法",
+      "英文名称": "Image Recognition Technique",
+      "来源": "人脸识别系统使用的核心技术"
+    }
+  }
+}

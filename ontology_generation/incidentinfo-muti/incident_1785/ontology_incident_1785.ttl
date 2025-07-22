@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonBuyBoxAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Buy Box Algorithm"@en ;
+    rdfs:label "亚马逊购买框算法"@zh ;
+    airo:hasRisk ex:MarketDominanceRisk ;
+    airo:hasCapability ex:SellerSelectionAlgorithm ;
+    airo:isAppliedWithinDomain ex:ECommercePlatform ;
+    airo:hasStakeholder ex:ThirdPartySellers .
+
+ex:MarketDominanceRisk rdf:type airo:Risk ;
+    rdfs:label "Market Dominance Risk"@en ;
+    rdfs:label "市场支配地位风险"@zh ;
+    airo:hasImpact ex:ReducedMarketCompetition .
+
+ex:ECommercePlatform rdf:type airo:Domain ;
+    rdfs:label "E-Commerce Platform Domain"@en ;
+    rdfs:label "电子商务平台领域"@zh .
+
+ex:SellerSelectionAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Seller Selection Algorithm Capability"@en ;
+    rdfs:label "卖家选择算法能力"@zh .
+
+ex:ThirdPartySellers rdf:type airo:Stakeholder ;
+    rdfs:label "Third Party Sellers"@en ;
+    rdfs:label "第三方卖家"@zh .
+
+ex:ReducedMarketCompetition rdf:type airo:Impact ;
+    rdfs:label "Reduced Market Competition Impact"@en ;
+    rdfs:label "市场竞争减少的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ThirdPartySellers .

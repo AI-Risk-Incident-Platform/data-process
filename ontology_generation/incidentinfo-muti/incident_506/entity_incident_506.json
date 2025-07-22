@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake posing grave danger as scamming tool"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "Nở rộ chiêu thức ghép mặt, giả giọng để mượn tiền bằng ứng dụng Deepfake"
+    },
+    "AICapability": {
+      "id": "FaceAndVoiceSynthesis",
+      "中文名称": "面部和语音合成能力",
+      "英文名称": "Face and Voice Synthesis Capability",
+      "来源": "ghép mặt, giả giọng (face swapping and voice cloning)"
+    },
+    "Misuse": {
+      "id": "ScammingThroughIdentityImpersonation",
+      "中文名称": "通过身份冒充进行诈骗",
+      "英文名称": "Scamming Through Identity Impersonation",
+      "来源": "mượn tiền bằng ứng dụng Deepfake (borrowing money using Deepfake application)"
+    },
+    "Impact": {
+      "id": "FinancialLossForVictims",
+      "中文名称": "受害者经济损失",
+      "英文名称": "Financial Loss for Victims",
+      "来源": "posing grave danger as scamming tool"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "mượn tiền (borrowing money)"
+    }
+  }
+}

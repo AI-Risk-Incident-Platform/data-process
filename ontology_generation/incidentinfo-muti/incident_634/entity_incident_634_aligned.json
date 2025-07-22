@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCallSystem",
+      "中文名称": "深度伪造视频通话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Finance worker pays out $25 million after video call with deepfake ‘chief financial officer’"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Company Loses Millions After Employee Duped By Video Call Deepfakes"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "Stakeholder": {
+      "id": "FinanceWorker",
+      "中文名称": "财务工作人员",
+      "英文名称": "Finance Worker",
+      "来源": "Finance worker pays out $25 million"
+    },
+    "AISubject": {
+      "id": "Company",
+      "中文名称": "公司",
+      "英文名称": "Company",
+      "来源": "Company Loses Millions"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断",
+      "英文名称": "Operational Disruption",
+      "来源": "Company Loses Millions"
+    },
+    "Purpose": {
+      "id": "Impersonation",
+      "中文名称": "冒充",
+      "英文名称": "Impersonation",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务",
+      "英文名称": "Financial Domain",
+      "来源": "Finance worker pays out $25 million"
+    },
+    "RiskSource": {
+      "id": "SocialEngineering",
+      "中文名称": "社会工程学",
+      "英文名称": "Social Engineering",
+      "来源": "Employee Duped By Video Call Deepfakes"
+    },
+    "Vulnerability": {
+      "id": "HumanTrustInVideoCalls",
+      "中文名称": "人类对视频通话的信任",
+      "英文名称": "Human Trust in Video Calls",
+      "来源": "Employee Duped By Video Call Deepfakes"
+    },
+    "Threat": {
+      "id": "CybercriminalActivity",
+      "中文名称": "网络犯罪活动",
+      "英文名称": "Cyber Threat",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    },
+    "Hazard": {
+      "id": "AdvancedAIAbuse",
+      "中文名称": "高级AI滥用",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "RiskConcept": {
+      "id": "EmergingAIFraudTechniques",
+      "中文名称": "新兴AI欺诈技术",
+      "英文名称": "AI Fraud Risks",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCallSystem",
+      "中文名称": "深度伪造视频通话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Finance worker pays out $25 million after video call with deepfake ‘chief financial officer’"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Company Loses Millions After Employee Duped By Video Call Deepfakes"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "Stakeholder": {
+      "id": "FinanceWorker",
+      "中文名称": "财务工作人员",
+      "英文名称": "Finance Worker",
+      "来源": "Finance worker pays out $25 million"
+    },
+    "AISubject": {
+      "id": "Company",
+      "中文名称": "公司",
+      "英文名称": "Company",
+      "来源": "Company Loses Millions"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断",
+      "英文名称": "Operational Disruption",
+      "来源": "Company Loses Millions"
+    },
+    "Purpose": {
+      "id": "Impersonation",
+      "中文名称": "冒充",
+      "英文名称": "Impersonation",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务",
+      "英文名称": "Financial Domain",
+      "来源": "Finance worker pays out $25 million"
+    },
+    "RiskSource": {
+      "id": "SocialEngineering",
+      "中文名称": "社会工程学",
+      "英文名称": "Social Engineering",
+      "来源": "Employee Duped By Video Call Deepfakes"
+    },
+    "Vulnerability": {
+      "id": "HumanTrustInVideoCalls",
+      "中文名称": "人类对视频通话的信任",
+      "英文名称": "Human Trust in Video Calls",
+      "来源": "Employee Duped By Video Call Deepfakes"
+    },
+    "Threat": {
+      "id": "CybercriminalActivity",
+      "中文名称": "网络犯罪活动",
+      "英文名称": "Cyber Threat",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    },
+    "Hazard": {
+      "id": "AdvancedAIAbuse",
+      "中文名称": "高级AI滥用",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "video call with deepfake ‘chief financial officer’"
+    },
+    "RiskConcept": {
+      "id": "EmergingAIFraudTechniques",
+      "中文名称": "新兴AI欺诈技术",
+      "英文名称": "AI Fraud Risks",
+      "来源": "Deepfake CFO tricks Hong Kong biz out of $25 million"
+    }
+  }
+}

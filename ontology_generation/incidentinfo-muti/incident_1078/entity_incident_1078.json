@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlexaVoiceAssistant",
+      "中文名称": "Alexa语音助手",
+      "英文名称": "Alexa Voice Assistant",
+      "来源": "Amazon confirms it retains your Alexa voice recordings indefinitely"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Amazon confirms it holds on to Alexa data even if you delete audio files"
+    },
+    "Consequence": {
+      "id": "IndefiniteDataRetention",
+      "中文名称": "数据无限期保留后果",
+      "英文名称": "Indefinite Data Retention Consequence",
+      "来源": "Amazon confirms it retains your Alexa voice recordings indefinitely"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon responds to a U.S. senator's inquiry"
+    },
+    "Stakeholder": {
+      "id": "USSenator",
+      "中文名称": "美国参议员",
+      "英文名称": "U.S. Senator",
+      "来源": "Amazon responds to a U.S. senator's inquiry"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧影响",
+      "英文名称": "User Privacy Concerns Impact",
+      "来源": "Amazon confirms it holds on to Alexa data even if you delete audio files"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantService",
+      "中文名称": "语音助手服务目的",
+      "英文名称": "Voice Assistant Service Purpose",
+      "来源": "Amazon Alexa voice recordings"
+    },
+    "Domain": {
+      "id": "SmartHomeTechnology",
+      "中文名称": "智能家居技术领域",
+      "英文名称": "Smart Home Technology Domain",
+      "来源": "Alexa voice assistant usage context"
+    },
+    "RiskSource": {
+      "id": "DataRetentionPolicy",
+      "中文名称": "数据保留政策风险源",
+      "英文名称": "Data Retention Policy Risk Source",
+      "来源": "Amazon confirms it retains your Alexa voice recordings indefinitely"
+    },
+    "Vulnerability": {
+      "id": "UserDataControlLimitation",
+      "中文名称": "用户数据控制限制漏洞",
+      "英文名称": "User Data Control Limitation Vulnerability",
+      "来源": "Amazon confirms it holds on to Alexa data even if you delete audio files"
+    }
+  }
+}

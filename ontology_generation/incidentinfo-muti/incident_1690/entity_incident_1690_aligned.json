@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Risk": {
+      "id": "StereotypeExaggerationRisk",
+      "中文名称": "刻板印象夸大风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfHarmfulStereotypes",
+      "中文名称": "强化有害刻板印象的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationImpact",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Understanding the Biases Embedded Within Artificial Intelligence"
+    },
+    "AITechnique": {
+      "id": "DeepLearningGeneration",
+      "中文名称": "深度学习生成技术",
+      "英文名称": "Deep Learning Generation",
+      "来源": "Generative AI exaggerates stereotypes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Risk": {
+      "id": "StereotypeExaggerationRisk",
+      "中文名称": "刻板印象夸大风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfHarmfulStereotypes",
+      "中文名称": "强化有害刻板印象的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationImpact",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Generative AI exaggerates stereotypes"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Understanding the Biases Embedded Within Artificial Intelligence"
+    },
+    "AITechnique": {
+      "id": "DeepLearningGeneration",
+      "中文名称": "深度学习生成技术",
+      "英文名称": "Deep Learning Generation",
+      "来源": "Generative AI exaggerates stereotypes"
+    }
+  }
+}

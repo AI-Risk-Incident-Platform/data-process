@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIArtGenerator",
+      "中文名称": "AI艺术生成器",
+      "英文名称": "AI Image Generator",
+      "来源": "Illustrator discovers her art was used to train an AI art generator"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfArtworkRisk",
+      "中文名称": "未经授权使用艺术作品风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    },
+    "Stakeholder": {
+      "id": "Illustrator",
+      "中文名称": "插画师",
+      "英文名称": "Illustrators",
+      "来源": "Illustrator discovers her art was used to train an AI art generator"
+    },
+    "AIOperator": {
+      "id": "RedditUser",
+      "中文名称": "Reddit用户",
+      "英文名称": "Reddit User",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    },
+    "Consequence": {
+      "id": "ArtisticStyleReplication",
+      "中文名称": "艺术风格复制后果",
+      "英文名称": "Artistic Style Reproduction Outcome",
+      "来源": "Reddit user trains AI to imitate an illustrator"
+    },
+    "Impact": {
+      "id": "LossOfArtisticControl",
+      "中文名称": "艺术控制权丧失影响",
+      "英文名称": "Free Speech Suppression",
+      "来源": "I don't really care if you think this is right or wrong"
+    },
+    "Misuse": {
+      "id": "UnauthorizedTrainingDataUsage",
+      "中文名称": "未经授权的训练数据使用",
+      "英文名称": "Unauthorized Training Data Usage",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIArtGenerator",
+      "中文名称": "AI艺术生成器",
+      "英文名称": "AI Image Generator",
+      "来源": "Illustrator discovers her art was used to train an AI art generator"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfArtworkRisk",
+      "中文名称": "未经授权使用艺术作品风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    },
+    "Stakeholder": {
+      "id": "Illustrator",
+      "中文名称": "插画师",
+      "英文名称": "Illustrators",
+      "来源": "Illustrator discovers her art was used to train an AI art generator"
+    },
+    "AIOperator": {
+      "id": "RedditUser",
+      "中文名称": "Reddit用户",
+      "英文名称": "Reddit User",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    },
+    "Consequence": {
+      "id": "ArtisticStyleReplication",
+      "中文名称": "艺术风格复制后果",
+      "英文名称": "Artistic Style Reproduction Outcome",
+      "来源": "Reddit user trains AI to imitate an illustrator"
+    },
+    "Impact": {
+      "id": "LossOfArtisticControl",
+      "中文名称": "艺术控制权丧失影响",
+      "英文名称": "Free Speech Suppression",
+      "来源": "I don't really care if you think this is right or wrong"
+    },
+    "Misuse": {
+      "id": "UnauthorizedTrainingDataUsage",
+      "中文名称": "未经授权的训练数据使用",
+      "英文名称": "Unauthorized Training Data Usage",
+      "来源": "Reddit user trains AI to imitate an illustrator, without asking her permission"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaLlamaAI",
+      "中文名称": "Meta Llama AI",
+      "英文名称": "Meta Llama AI",
+      "来源": "Meta's Llama team the OK to train on copyrighted works"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "trained on copyrighted works"
+    },
+    "RiskSource": {
+      "id": "PiracyDatabase",
+      "中文名称": "盗版数据库",
+      "英文名称": "Piracy Database",
+      "来源": "trained its AI models on contentious trove of maybe-pirated content"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta",
+      "英文名称": "Meta",
+      "来源": "Meta trained its AI models"
+    },
+    "Stakeholder": {
+      "id": "CopyrightHolders",
+      "中文名称": "版权持有者",
+      "英文名称": "Copyright Holders",
+      "来源": "trained on copyrighted works"
+    },
+    "Consequence": {
+      "id": "LegalLiability",
+      "中文名称": "法律责任",
+      "英文名称": "Legal Liability",
+      "来源": "newly unredacted court docs reveal"
+    },
+    "Misuse": {
+      "id": "UnauthorizedDataUse",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Use",
+      "来源": "trained on a notorious piracy database"
+    }
+  }
+}

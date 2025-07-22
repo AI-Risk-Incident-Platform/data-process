@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAISearchEngine",
+      "中文名称": "谷歌AI搜索引擎",
+      "英文名称": "Google AI Search",
+      "来源": "Google's AI search engine results now direct users to shady websites"
+    },
+    "Risk": {
+      "id": "MalwareAndScamPromotionRisk",
+      "中文名称": "恶意软件和诈骗推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's new AI search results promotes sites pushing malware, scams"
+    },
+    "Consequence": {
+      "id": "UserDirectedToMaliciousSites",
+      "中文名称": "用户被引导至恶意网站后果",
+      "英文名称": "Malicious Attack Consequence",
+      "来源": "Google's AI Search Caught Pushing Users to Download Malware"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google's AI search engine results"
+    },
+    "Stakeholder": {
+      "id": "SearchEngineUsers",
+      "中文名称": "搜索引擎用户",
+      "英文名称": "Online Information Seekers",
+      "来源": "direct users to shady websites"
+    },
+    "Impact": {
+      "id": "CybersecurityThreatToUsers",
+      "中文名称": "用户网络安全威胁影响",
+      "英文名称": "Cyber Threat Impact",
+      "来源": "promotes sites pushing malware, scams"
+    },
+    "Purpose": {
+      "id": "EnhancedSearchExperience",
+      "中文名称": "增强搜索体验目的",
+      "英文名称": "Enhanced Search Purpose",
+      "来源": "Google's AI search engine"
+    },
+    "Domain": {
+      "id": "WebSearchServices",
+      "中文名称": "网络搜索服务领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "AI search engine results"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "results now direct users to shady websites"
+    },
+    "Threat": {
+      "id": "MalwareDistributionThroughSearchResults",
+      "中文名称": "通过搜索结果分发恶意软件的威胁",
+      "英文名称": "Malware Distribution Through Search Results Threat",
+      "来源": "Google's AI Search Caught Pushing Users to Download Malware"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAISearchEngine",
+      "中文名称": "谷歌AI搜索引擎",
+      "英文名称": "Google AI Search",
+      "来源": "Google's AI search engine results now direct users to shady websites"
+    },
+    "Risk": {
+      "id": "MalwareAndScamPromotionRisk",
+      "中文名称": "恶意软件和诈骗推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's new AI search results promotes sites pushing malware, scams"
+    },
+    "Consequence": {
+      "id": "UserDirectedToMaliciousSites",
+      "中文名称": "用户被引导至恶意网站后果",
+      "英文名称": "Malicious Attack Consequence",
+      "来源": "Google's AI Search Caught Pushing Users to Download Malware"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google's AI search engine results"
+    },
+    "Stakeholder": {
+      "id": "SearchEngineUsers",
+      "中文名称": "搜索引擎用户",
+      "英文名称": "Online Information Seekers",
+      "来源": "direct users to shady websites"
+    },
+    "Impact": {
+      "id": "CybersecurityThreatToUsers",
+      "中文名称": "用户网络安全威胁影响",
+      "英文名称": "Cyber Threat Impact",
+      "来源": "promotes sites pushing malware, scams"
+    },
+    "Purpose": {
+      "id": "EnhancedSearchExperience",
+      "中文名称": "增强搜索体验目的",
+      "英文名称": "Enhanced Search Purpose",
+      "来源": "Google's AI search engine"
+    },
+    "Domain": {
+      "id": "WebSearchServices",
+      "中文名称": "网络搜索服务领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "AI search engine results"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "results now direct users to shady websites"
+    },
+    "Threat": {
+      "id": "MalwareDistributionThroughSearchResults",
+      "中文名称": "通过搜索结果分发恶意软件的威胁",
+      "英文名称": "Malware Distribution Through Search Results Threat",
+      "来源": "Google's AI Search Caught Pushing Users to Download Malware"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "Risk": {
+      "id": "UnintendedPurchaseRisk",
+      "中文名称": "意外购买风险",
+      "英文名称": "Unintended Purchase Risk",
+      "来源": "Amazon TV Ad Triggers Echo Dot to Order Cat Food"
+    },
+    "Consequence": {
+      "id": "CustomerAnger",
+      "中文名称": "顾客愤怒",
+      "英文名称": "Customer Discontent",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "AICapability": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音命令处理能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "RiskSource": {
+      "id": "TVAdvertAudioInterference",
+      "中文名称": "电视广告音频干扰",
+      "英文名称": "TV Advert Audio Interference",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon TV Ad Triggers Echo Dot to Order Cat Food"
+    },
+    "Purpose": {
+      "id": "VoiceControlledShopping",
+      "中文名称": "语音控制购物",
+      "英文名称": "Voice Controlled Shopping",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备",
+      "英文名称": "Smart Home Devices",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "Risk": {
+      "id": "UnintendedPurchaseRisk",
+      "中文名称": "意外购买风险",
+      "英文名称": "Unintended Purchase Risk",
+      "来源": "Amazon TV Ad Triggers Echo Dot to Order Cat Food"
+    },
+    "Consequence": {
+      "id": "CustomerAnger",
+      "中文名称": "顾客愤怒",
+      "英文名称": "Customer Discontent",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "AICapability": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音命令处理能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "RiskSource": {
+      "id": "TVAdvertAudioInterference",
+      "中文名称": "电视广告音频干扰",
+      "英文名称": "TV Advert Audio Interference",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Customer angry after Amazon Alexa orders cat food from advert"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon TV Ad Triggers Echo Dot to Order Cat Food"
+    },
+    "Purpose": {
+      "id": "VoiceControlledShopping",
+      "中文名称": "语音控制购物",
+      "英文名称": "Voice Controlled Shopping",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备",
+      "英文名称": "Smart Home Devices",
+      "来源": "Amazon Echo smart speaker accidentally orders cat food after overhearing it on a TV advert"
+    }
+  }
+}

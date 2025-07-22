@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramRecommendationAlgorithm",
+      "中文名称": "Instagram推荐算法",
+      "英文名称": "Instagram Recommendation Algorithm",
+      "来源": "新闻标题中提到的Instagram平台"
+    },
+    "Risk": {
+      "id": "ChildExploitationRisk",
+      "中文名称": "儿童剥削风险",
+      "英文名称": "Child Exploitation Risk",
+      "来源": "新闻标题'珠宝广告引发对5岁儿童的性交易邀约'"
+    },
+    "Stakeholder": {
+      "id": "UnderageInfluencer",
+      "中文名称": "未成年影响者",
+      "英文名称": "Underage Influencer",
+      "来源": "新闻标题'影响者是一名年轻少女'"
+    },
+    "AISubject": {
+      "id": "ChildUsers",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "新闻标题中提到的5岁儿童"
+    },
+    "Impact": {
+      "id": "ChildSafetyThreat",
+      "中文名称": "儿童安全威胁",
+      "英文名称": "Child Safety Threat",
+      "来源": "新闻标题中提到的性交易邀约"
+    },
+    "RiskSource": {
+      "id": "AdultMaleAudience",
+      "中文名称": "成年男性受众",
+      "英文名称": "Adult Male Audience",
+      "来源": "新闻标题'观众92%是成年男性'"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Platform",
+      "来源": "Instagram平台性质"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceCloningAI",
+      "中文名称": "语音克隆AI",
+      "英文名称": "Voice Cloning AI",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "Risk": {
+      "id": "VoiceImpersonationFraud",
+      "中文名称": "语音冒充欺诈风险",
+      "英文名称": "Voice Impersonation Fraud Risk",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "AITechnique": {
+      "id": "DeepLearningVoiceSynthesis",
+      "中文名称": "深度学习语音合成技术",
+      "英文名称": "Deep Learning Voice Synthesis Technique",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "Stakeholder": {
+      "id": "TelecomCompanies",
+      "中文名称": "电信公司",
+      "英文名称": "Telecom Companies",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "AISubject": {
+      "id": "PhoneUsers",
+      "中文名称": "电话用户",
+      "英文名称": "Phone Users",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    },
+    "RiskSource": {
+      "id": "AIEnabledScams",
+      "中文名称": "AI驱动的诈骗风险源",
+      "英文名称": "AI-Enabled Scams Risk Source",
+      "来源": "The Panicked Voice on the Phone Sounded Like Her Daughter. It Wasn’t."
+    }
+  }
+}

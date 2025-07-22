@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IBMFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "IBM Facial Recognition System"@en ;
+    rdfs:label "IBM面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:IBM ;
+    airo:hasStakeholder ex:FlickrUsers ;
+    airo:usesTechnique ex:FacialRecognitionTraining .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:LegalTroubleInIllinois ;
+    airo:isRiskSourceFor ex:UnauthorizedDataUsage .
+
+ex:FlickrUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Flickr Users"@en ;
+    rdfs:label "Flickr用户"@zh .
+
+ex:IBM rdf:type airo:AIOperator ;
+    rdfs:label "IBM"@en ;
+    rdfs:label "IBM公司"@zh .
+
+ex:UnauthorizedDataUsage rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Usage"@en ;
+    rdfs:label "未经授权的数据使用"@zh .
+
+ex:LegalTroubleInIllinois rdf:type airo:Consequence ;
+    rdfs:label "Legal Trouble in Illinois"@en ;
+    rdfs:label "伊利诺伊州的法律纠纷"@zh .
+
+ex:FacialRecognitionTraining rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Training"@en ;
+    rdfs:label "面部识别训练技术"@zh .

@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningTechnology rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh ;
+    airo:hasRisk ex:MisinformationPropagationRisk ;
+    airo:isAppliedWithinDomain ex:CivilWarConflict ;
+    airo:usesTechnique ex:DeepLearningBasedVoiceSynthesis .
+
+ex:MisinformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:isRiskSourceFor ex:PotentialForDeceptiveAudioContent ;
+    airo:hasImpact ex:EscalationOfArmedConflict .
+
+ex:CivilWarConflict rdf:type airo:Domain ;
+    rdfs:label "Civil War Conflict Domain"@en ;
+    rdfs:label "内战冲突领域"@zh .
+
+ex:DeepLearningBasedVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Voice Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的语音合成技术"@zh .
+
+ex:PotentialForDeceptiveAudioContent rdf:type airo:RiskSource ;
+    rdfs:label "Potential for Deceptive Audio Content Risk Source"@en ;
+    rdfs:label "欺骗性音频内容的潜在风险源"@zh .
+
+ex:EscalationOfArmedConflict rdf:type airo:Impact ;
+    rdfs:label "Escalation of Armed Conflict Impact"@en ;
+    rdfs:label "武装冲突升级的影响"@zh .

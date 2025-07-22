@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Chatbot",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "Risk": {
+      "id": "FactualErrorRisk",
+      "中文名称": "事实错误风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Bard advert shows new AI search tool making a factual error"
+    },
+    "Consequence": {
+      "id": "MarketImpact",
+      "中文名称": "市场影响",
+      "英文名称": "Market Impact",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "Stakeholder": {
+      "id": "Alphabet",
+      "中文名称": "Alphabet公司",
+      "英文名称": "Google",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "AICapability": {
+      "id": "SearchTool",
+      "中文名称": "搜索工具",
+      "英文名称": "Search Tool",
+      "来源": "Google Bard advert shows new AI search tool making a factual error"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Chatbot",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "Risk": {
+      "id": "FactualErrorRisk",
+      "中文名称": "事实错误风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Bard advert shows new AI search tool making a factual error"
+    },
+    "Consequence": {
+      "id": "MarketImpact",
+      "中文名称": "市场影响",
+      "英文名称": "Market Impact",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "Stakeholder": {
+      "id": "Alphabet",
+      "中文名称": "Alphabet公司",
+      "英文名称": "Google",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "AICapability": {
+      "id": "SearchTool",
+      "中文名称": "搜索工具",
+      "英文名称": "Search Tool",
+      "来源": "Google Bard advert shows new AI search tool making a factual error"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Generation System"@en ;
+    rdfs:label "深度伪造视频生成系统"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping ;
+    airo:hasPurpose ex:DeceptiveContentCreation ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:hasStakeholder ex:PublicFigures .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:MaliciousContentCreators .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh .
+
+ex:PublicFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicFigures .
+
+ex:DeceptiveContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Content Creation Purpose"@en ;
+    rdfs:label "欺骗性内容创建目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:MaliciousContentCreators rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creators Risk Source"@en ;
+    rdfs:label "恶意内容创作者风险源"@zh .

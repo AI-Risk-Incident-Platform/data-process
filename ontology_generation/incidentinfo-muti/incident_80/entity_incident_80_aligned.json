@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LiveFacialRecognitionSystem",
+      "中文名称": "实时面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Live facial recognition is tracking kids suspected of being criminals"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Live facial recognition is tracking kids suspected of being criminals"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Live facial recognition is tracking kids"
+    },
+    "Impact": {
+      "id": "PsychologicalImpactOnChildren",
+      "中文名称": "对儿童的心理影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "tracking kids suspected of being criminals"
+    },
+    "RiskSource": {
+      "id": "Misidentification",
+      "中文名称": "错误识别",
+      "英文名称": "Misidentification",
+      "来源": "kids suspected of being criminals"
+    },
+    "AICapability": {
+      "id": "RealTimeFacialRecognition",
+      "中文名称": "实时面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Live facial recognition"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "tracking kids suspected of being criminals"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LiveFacialRecognitionSystem",
+      "中文名称": "实时面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Live facial recognition is tracking kids suspected of being criminals"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Live facial recognition is tracking kids suspected of being criminals"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Live facial recognition is tracking kids"
+    },
+    "Impact": {
+      "id": "PsychologicalImpactOnChildren",
+      "中文名称": "对儿童的心理影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "tracking kids suspected of being criminals"
+    },
+    "RiskSource": {
+      "id": "Misidentification",
+      "中文名称": "错误识别",
+      "英文名称": "Misidentification",
+      "来源": "kids suspected of being criminals"
+    },
+    "AICapability": {
+      "id": "RealTimeFacialRecognition",
+      "中文名称": "实时面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Live facial recognition"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "tracking kids suspected of being criminals"
+    }
+  }
+}

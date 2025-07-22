@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberFacialRecognitionSystem",
+      "中文名称": "Uber面部识别系统",
+      "英文名称": "Uber Facial Recognition System",
+      "来源": "Uber drivers claim they were fired after company's identification software failed to recognise their faces"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Facial Recognition Risk",
+      "来源": "Unions launch legal action against Uber over alleged racist algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairTerminationOfEmployment",
+      "中文名称": "不公平终止雇佣关系的后果",
+      "英文名称": "Unfair Termination of Employment Consequence",
+      "来源": "Uber drivers claim they were fired after company's identification software failed to recognise their faces"
+    },
+    "Stakeholder": {
+      "id": "UberDrivers",
+      "中文名称": "Uber司机",
+      "英文名称": "Uber Drivers",
+      "来源": "Uber drivers claim they were fired after company's identification software failed to recognise their faces"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "Uber科技公司",
+      "英文名称": "Uber Technologies Inc.",
+      "来源": "Unions launch legal action against Uber over alleged racist algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorityGroups",
+      "中文名称": "对少数群体的歧视影响",
+      "英文名称": "Discrimination Against Minority Groups Impact",
+      "来源": "Unions launch legal action against Uber over alleged racist algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Unions launch legal action against Uber over alleged racist algorithm"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Uber drivers claim they were fired after company's identification software failed to recognise their faces"
+    }
+  }
+}

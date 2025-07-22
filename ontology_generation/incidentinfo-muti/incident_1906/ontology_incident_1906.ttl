@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT4DeveloperTool rdf:type airo:AISystem ;
+    rdfs:label "GPT-4 Developer Tool"@en ;
+    rdfs:label "GPT-4开发者工具"@zh ;
+    airo:hasRisk ex:WebsiteAutoHijackingRisk ;
+    airo:hasCapability ex:AutomatedWebsiteHacking ;
+    airo:usesTechnique ex:LargeLanguageModelWeaponization .
+
+ex:WebsiteAutoHijackingRisk rdf:type airo:Risk ;
+    rdfs:label "Website Auto-Hijacking Risk"@en ;
+    rdfs:label "网站自动劫持风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedWebsiteAccess ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAIAPIs ;
+    airo:hasThreat ex:AIEnabledCyberAttackThreat .
+
+ex:AutomatedWebsiteHacking rdf:type airo:AICapability ;
+    rdfs:label "Automated Website Hacking Capability"@en ;
+    rdfs:label "自动化网站入侵能力"@zh .
+
+ex:LargeLanguageModelWeaponization rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Weaponization Technique"@en ;
+    rdfs:label "大型语言模型武器化技术"@zh .
+
+ex:AIEnabledCyberAttackThreat rdf:type airo:Threat ;
+    rdfs:label "AI-Enabled Cyber Attack Threat"@en ;
+    rdfs:label "AI驱动的网络攻击威胁"@zh .
+
+ex:UnauthorizedWebsiteAccess rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Website Access Consequence"@en ;
+    rdfs:label "未经授权的网站访问后果"@zh ;
+    airo:hasImpact ex:DataSecurityBreachImpact .
+
+ex:DataSecurityBreachImpact rdf:type airo:Impact ;
+    rdfs:label "Data Security Breach Impact"@en ;
+    rdfs:label "数据安全漏洞影响"@zh .
+
+ex:MaliciousUseOfAIAPIs rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of AI APIs Risk Source"@en ;
+    rdfs:label "恶意使用AI接口风险源"@zh .

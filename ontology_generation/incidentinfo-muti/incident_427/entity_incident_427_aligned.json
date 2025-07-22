@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CoupangSearchAlgorithm",
+      "中文名称": "Coupang搜索算法",
+      "英文名称": "Coupang Search Algorithm",
+      "来源": "Coupang investigated by FTC over accusations of meddling with algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmManipulationRisk",
+      "中文名称": "算法操纵风险",
+      "英文名称": "Algorithm Manipulation Risk",
+      "来源": "Coupang faces probe over alleged manipulation of search algorithms"
+    },
+    "Stakeholder": {
+      "id": "FederalTradeCommission",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "Coupang investigated by FTC over accusations of meddling with algorithms"
+    },
+    "RiskSource": {
+      "id": "AlgorithmTampering",
+      "中文名称": "算法篡改",
+      "英文名称": "Algorithm Tampering",
+      "来源": "Coupang probed by FTC for alleged tampering of algorithm on its platform"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台",
+      "英文名称": "E-Commerce Platform",
+      "来源": "Coupang's platform algorithm manipulation case"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CoupangSearchAlgorithm",
+      "中文名称": "Coupang搜索算法",
+      "英文名称": "Coupang Search Algorithm",
+      "来源": "Coupang investigated by FTC over accusations of meddling with algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmManipulationRisk",
+      "中文名称": "算法操纵风险",
+      "英文名称": "Algorithm Manipulation Risk",
+      "来源": "Coupang faces probe over alleged manipulation of search algorithms"
+    },
+    "Stakeholder": {
+      "id": "FederalTradeCommission",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "Coupang investigated by FTC over accusations of meddling with algorithms"
+    },
+    "RiskSource": {
+      "id": "AlgorithmTampering",
+      "中文名称": "算法篡改",
+      "英文名称": "Algorithm Tampering",
+      "来源": "Coupang probed by FTC for alleged tampering of algorithm on its platform"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台",
+      "英文名称": "E-Commerce Platform",
+      "来源": "Coupang's platform algorithm manipulation case"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT - 3 rdf:type airo:AISystem ;
+    rdfs:label "GPT-3"@en ;
+    rdfs:label "GPT - 3"@zh ;
+    airo:hasRisk ex:TrainingDataCopyrightRisk ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:AuthorsAndPublishers .
+
+ex:TrainingDataCopyrightRisk rdf:type airo:Risk ;
+    rdfs:label "Training Data Copyright Risk"@en ;
+    rdfs:label "训练数据版权风险"@zh ;
+    airo:isRiskSourceFor ex:Books3Dataset ;
+    airo:hasConsequence ex:LegalDisputes .
+
+ex:Books3Dataset rdf:type airo:RiskSource ;
+    rdfs:label "Books3 Dataset"@en ;
+    rdfs:label "Books3数据集"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model"@en ;
+    rdfs:label "大语言模型"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing"@en ;
+    rdfs:label "自然语言处理"@zh .
+
+ex:LegalDisputes rdf:type airo:Consequence ;
+    rdfs:label "Legal Disputes"@en ;
+    rdfs:label "法律纠纷"@zh ;
+    airo:hasImpact ex:AIResearchSlowdown .
+
+ex:AIResearchSlowdown rdf:type airo:Impact ;
+    rdfs:label "AI Research Slowdown"@en ;
+    rdfs:label "AI研究放缓"@zh ;
+    airo:hasImpactOnStakeholder ex:AuthorsAndPublishers .
+
+ex:AuthorsAndPublishers rdf:type airo:Stakeholder ;
+    rdfs:label "Authors and Publishers"@en ;
+    rdfs:label "作者和出版商"@zh .
+
+ex:OpenAI rdf:type airo:AIDeveloper ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .

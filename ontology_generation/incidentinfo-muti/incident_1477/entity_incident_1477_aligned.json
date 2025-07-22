@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Jammable",
+      "中文名称": "Jammable",
+      "英文名称": "Jammable",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    },
+    "Risk": {
+      "id": "LegalActionRisk",
+      "中文名称": "法律诉讼风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Now it faces legal action from the UK’s music industry"
+    },
+    "Stakeholder": {
+      "id": "BPI",
+      "中文名称": "英国唱片业协会",
+      "英文名称": "BPI",
+      "来源": "UK body BPI threatens action against AI music covers firm Jammable"
+    },
+    "AIOperator": {
+      "id": "Voicify",
+      "中文名称": "Voicify",
+      "英文名称": "Voicify",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Purpose": {
+      "id": "VocalCloning",
+      "中文名称": "声音克隆",
+      "英文名称": "Voice Cloning",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    },
+    "AITechnique": {
+      "id": "DeepfakeModel",
+      "中文名称": "深度伪造模型",
+      "英文名称": "Deepfake Technology",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Consequence": {
+      "id": "LegalConsequences",
+      "中文名称": "法律后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Now it faces legal action from the UK’s music industry"
+    },
+    "Impact": {
+      "id": "MusicIndustryConflict",
+      "中文名称": "音乐产业冲突",
+      "英文名称": "Music Industry Conflict",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "Jammable",
+      "中文名称": "Jammable",
+      "英文名称": "Jammable",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    },
+    "Risk": {
+      "id": "LegalActionRisk",
+      "中文名称": "法律诉讼风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Now it faces legal action from the UK’s music industry"
+    },
+    "Stakeholder": {
+      "id": "BPI",
+      "中文名称": "英国唱片业协会",
+      "英文名称": "BPI",
+      "来源": "UK body BPI threatens action against AI music covers firm Jammable"
+    },
+    "AIOperator": {
+      "id": "Voicify",
+      "中文名称": "Voicify",
+      "英文名称": "Voicify",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Purpose": {
+      "id": "VocalCloning",
+      "中文名称": "声音克隆",
+      "英文名称": "Voice Cloning",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    },
+    "AITechnique": {
+      "id": "DeepfakeModel",
+      "中文名称": "深度伪造模型",
+      "英文名称": "Deepfake Technology",
+      "来源": "AI vocal cloning app Voicify offers 3,000 deepfake models to replicate artists’ voices"
+    },
+    "Consequence": {
+      "id": "LegalConsequences",
+      "中文名称": "法律后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Now it faces legal action from the UK’s music industry"
+    },
+    "Impact": {
+      "id": "MusicIndustryConflict",
+      "中文名称": "音乐产业冲突",
+      "英文名称": "Music Industry Conflict",
+      "来源": "The BPI’s recent action against Jammable highlights the conflict between music rights holders and generative AI providers"
+    }
+  }
+}

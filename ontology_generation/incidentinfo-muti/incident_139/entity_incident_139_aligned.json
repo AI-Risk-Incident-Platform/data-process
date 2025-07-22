@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShoppingMallRobot",
+      "中文名称": "商场机器人",
+      "英文名称": "Shopping Mall Robot",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToPassengers",
+      "中文名称": "对乘客造成身体伤害的风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Consequence": {
+      "id": "PassengersInjured",
+      "中文名称": "乘客受伤的后果",
+      "英文名称": "Passenger Injury Consequence",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Impact": {
+      "id": "PhysicalInjury",
+      "中文名称": "身体伤害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "AISubject": {
+      "id": "MallVisitors",
+      "中文名称": "商场访客",
+      "英文名称": "Mall Visitors",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "RiskSource": {
+      "id": "EscalatorFall",
+      "中文名称": "从扶梯上跌落的风险源",
+      "英文名称": "Escalator Fall Risk Source",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShoppingMallRobot",
+      "中文名称": "商场机器人",
+      "英文名称": "Shopping Mall Robot",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToPassengers",
+      "中文名称": "对乘客造成身体伤害的风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Consequence": {
+      "id": "PassengersInjured",
+      "中文名称": "乘客受伤的后果",
+      "英文名称": "Passenger Injury Consequence",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "Impact": {
+      "id": "PhysicalInjury",
+      "中文名称": "身体伤害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "AISubject": {
+      "id": "MallVisitors",
+      "中文名称": "商场访客",
+      "英文名称": "Mall Visitors",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    },
+    "RiskSource": {
+      "id": "EscalatorFall",
+      "中文名称": "从扶梯上跌落的风险源",
+      "英文名称": "Escalator Fall Risk Source",
+      "来源": "Shopping mall robot fell off the escalator and knocked down passengers"
+    }
+  }
+}

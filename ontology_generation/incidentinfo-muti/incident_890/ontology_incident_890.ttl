@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAdScamSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造广告诈骗系统"@zh ;
+    rdfs:label "Deepfake Ad Scam System"@en ;
+    airo:hasRisk ex:MedicalMisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:DeceptiveAdvertising ;
+    airo:hasStakeholder ex:MedicalProfessionals ;
+    airo:hasAISubject ex:PatientsWithChronicConditions ;
+    airo:isAppliedWithinDomain ex:HealthcareAdvertising .
+
+ex:MedicalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "医疗错误信息风险"@zh ;
+    rdfs:label "Medical Misinformation Risk"@en ;
+    airo:hasConsequence ex:PatientHealthRisk ;
+    airo:isRiskSourceFor ex:AIgeneratedMisinformation .
+
+ex:PatientHealthRisk rdf:type airo:Consequence ;
+    rdfs:label "患者健康风险后果"@zh ;
+    rdfs:label "Patient Health Risk Consequence"@en ;
+    airo:hasImpact ex:WorseningHealthConditions .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造图像生成技术"@zh ;
+    rdfs:label "Deepfake Image Generation Technique"@en .
+
+ex:MedicalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "医疗专业人员"@zh ;
+    rdfs:label "Medical Professionals"@en .
+
+ex:PatientsWithChronicConditions rdf:type airo:AISubject ;
+    rdfs:label "慢性病患者"@zh ;
+    rdfs:label "Patients with Chronic Conditions"@en .
+
+ex:WorseningHealthConditions rdf:type airo:Impact ;
+    rdfs:label "健康状况恶化影响"@zh ;
+    rdfs:label "Worsening Health Conditions Impact"@en ;
+    airo:hasImpactOnStakeholder ex:PatientsWithChronicConditions .
+
+ex:DeceptiveAdvertising rdf:type airo:Purpose ;
+    rdfs:label "欺骗性广告目的"@zh ;
+    rdfs:label "Deceptive Advertising Purpose"@en .
+
+ex:HealthcareAdvertising rdf:type airo:Domain ;
+    rdfs:label "医疗保健广告领域"@zh ;
+    rdfs:label "Healthcare Advertising Domain"@en .
+
+ex:AIgeneratedMisinformation rdf:type airo:RiskSource ;
+    rdfs:label "AI生成错误信息风险源"@zh ;
+    rdfs:label "AI-generated Misinformation Risk Source"@en .

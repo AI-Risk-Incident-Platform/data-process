@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SocialCardSystem",
+      "中文名称": "社会卡系统",
+      "英文名称": "Social Card System",
+      "来源": "Serbia’s ‘Social Card’ Leaves Society’s Weakest Exposed"
+    },
+    "Risk": {
+      "id": "AlgorithmicDiscriminationRisk",
+      "中文名称": "算法歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Serbia, algorithmic discrimination rehearsals"
+    },
+    "Consequence": {
+      "id": "ExposureOfVulnerableGroups",
+      "中文名称": "弱势群体暴露后果",
+      "英文名称": "Exposure of Vulnerable Groups Consequence",
+      "来源": "Leaves Society’s Weakest Exposed"
+    },
+    "Stakeholder": {
+      "id": "VulnerableCitizens",
+      "中文名称": "弱势公民",
+      "英文名称": "Vulnerable Citizens",
+      "来源": "Society’s Weakest"
+    },
+    "Domain": {
+      "id": "SocialWelfare",
+      "中文名称": "社会福利领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "Social Card"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SocialCardSystem",
+      "中文名称": "社会卡系统",
+      "英文名称": "Social Card System",
+      "来源": "Serbia’s ‘Social Card’ Leaves Society’s Weakest Exposed"
+    },
+    "Risk": {
+      "id": "AlgorithmicDiscriminationRisk",
+      "中文名称": "算法歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Serbia, algorithmic discrimination rehearsals"
+    },
+    "Consequence": {
+      "id": "ExposureOfVulnerableGroups",
+      "中文名称": "弱势群体暴露后果",
+      "英文名称": "Exposure of Vulnerable Groups Consequence",
+      "来源": "Leaves Society’s Weakest Exposed"
+    },
+    "Stakeholder": {
+      "id": "VulnerableCitizens",
+      "中文名称": "弱势公民",
+      "英文名称": "Vulnerable Citizens",
+      "来源": "Society’s Weakest"
+    },
+    "Domain": {
+      "id": "SocialWelfare",
+      "中文名称": "社会福利领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "Social Card"
+    }
+  }
+}

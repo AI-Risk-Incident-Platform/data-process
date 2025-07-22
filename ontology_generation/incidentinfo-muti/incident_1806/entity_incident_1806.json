@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberDriverRatingSystem",
+      "中文名称": "优步司机评分系统",
+      "英文名称": "Uber Driver Rating System",
+      "来源": "Uber Fires Drivers Based On 'Racially Biased' Star Rating System"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationRisk",
+      "中文名称": "种族歧视风险",
+      "英文名称": "Racial Discrimination Risk",
+      "来源": "A Former Driver Is Suing Uber for Racial Discrimination"
+    },
+    "Stakeholder": {
+      "id": "UberDrivers",
+      "中文名称": "优步司机",
+      "英文名称": "Uber Drivers",
+      "来源": "A Former Driver Is Suing Uber for Racial Discrimination"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber Technologies Inc.",
+      "来源": "Uber Fires Drivers Based On 'Racially Biased' Star Rating System"
+    },
+    "Consequence": {
+      "id": "UnfairTermination",
+      "中文名称": "不公平解雇后果",
+      "英文名称": "Unfair Termination Consequence",
+      "来源": "Uber Fires Drivers Based On 'Racially Biased' Star Rating System"
+    },
+    "Impact": {
+      "id": "EconomicHardship",
+      "中文名称": "经济困难影响",
+      "英文名称": "Economic Hardship Impact",
+      "来源": "A Former Driver Is Suing Uber for Racial Discrimination"
+    },
+    "RiskSource": {
+      "id": "BiasedRatingAlgorithm",
+      "中文名称": "有偏见的评分算法风险源",
+      "英文名称": "Biased Rating Algorithm Risk Source",
+      "来源": "Uber Fires Drivers Based On 'Racially Biased' Star Rating System"
+    },
+    "Domain": {
+      "id": "RideHailingServices",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Ride-Hailing Services Domain",
+      "来源": "Uber Fires Drivers Based On 'Racially Biased' Star Rating System"
+    }
+  }
+}

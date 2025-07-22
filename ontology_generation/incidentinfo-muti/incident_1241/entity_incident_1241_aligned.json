@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VirtualResurrectionAI",
+      "中文名称": "虚拟复活AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "China is using AI to raise the dead, and give people one last chance to say goodbye"
+    },
+    "Risk": {
+      "id": "EthicalControversyRisk",
+      "中文名称": "伦理争议风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Dead chat: Shanghai man uses AI technology to ‘resurrect’ late grandmother by creating virtual version to talk to, triggering controversy in China"
+    },
+    "Purpose": {
+      "id": "EmotionalClosure",
+      "中文名称": "情感慰藉目的",
+      "英文名称": "Emotional Closure Purpose",
+      "来源": "give people one last chance to say goodbye"
+    },
+    "AISubject": {
+      "id": "BereavedFamilyMembers",
+      "中文名称": "丧亲家庭成员",
+      "英文名称": "Victim Families",
+      "来源": "Shanghai man uses AI technology to ‘resurrect’ late grandmother"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "triggering controversy in China"
+    },
+    "Stakeholder": {
+      "id": "ChinesePublic",
+      "中文名称": "中国公众",
+      "英文名称": "Chinese People",
+      "来源": "triggering controversy in China"
+    },
+    "Consequence": {
+      "id": "SocialControversy",
+      "中文名称": "社会争议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Man 'reviving' grandmother with AI sparks heated debate"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VirtualResurrectionAI",
+      "中文名称": "虚拟复活AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "China is using AI to raise the dead, and give people one last chance to say goodbye"
+    },
+    "Risk": {
+      "id": "EthicalControversyRisk",
+      "中文名称": "伦理争议风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Dead chat: Shanghai man uses AI technology to ‘resurrect’ late grandmother by creating virtual version to talk to, triggering controversy in China"
+    },
+    "Purpose": {
+      "id": "EmotionalClosure",
+      "中文名称": "情感慰藉目的",
+      "英文名称": "Emotional Closure Purpose",
+      "来源": "give people one last chance to say goodbye"
+    },
+    "AISubject": {
+      "id": "BereavedFamilyMembers",
+      "中文名称": "丧亲家庭成员",
+      "英文名称": "Victim Families",
+      "来源": "Shanghai man uses AI technology to ‘resurrect’ late grandmother"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "triggering controversy in China"
+    },
+    "Stakeholder": {
+      "id": "ChinesePublic",
+      "中文名称": "中国公众",
+      "英文名称": "Chinese People",
+      "来源": "triggering controversy in China"
+    },
+    "Consequence": {
+      "id": "SocialControversy",
+      "中文名称": "社会争议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Man 'reviving' grandmother with AI sparks heated debate"
+    }
+  }
+}

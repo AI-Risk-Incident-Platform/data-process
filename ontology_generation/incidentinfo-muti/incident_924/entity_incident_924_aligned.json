@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceScamSystem",
+      "中文名称": "AI语音诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Italian police freeze cash from AI-voice scam that targeted business leaders"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Imprenditori truffati con il nome di Crosetto"
+    },
+    "Stakeholder": {
+      "id": "BusinessLeaders",
+      "中文名称": "商业领袖",
+      "英文名称": "Business Leaders",
+      "来源": "AI-voice scam that targeted business leaders"
+    },
+    "AIOperator": {
+      "id": "ScamOrganizers",
+      "中文名称": "诈骗组织者",
+      "英文名称": "Fraudsters",
+      "来源": "Truffa del finto Crosetto, è caccia ai soldi"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Italian police freeze cash from AI-voice scam"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIVoiceScamSystem",
+      "中文名称": "AI语音诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Italian police freeze cash from AI-voice scam that targeted business leaders"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Imprenditori truffati con il nome di Crosetto"
+    },
+    "Stakeholder": {
+      "id": "BusinessLeaders",
+      "中文名称": "商业领袖",
+      "英文名称": "Business Leaders",
+      "来源": "AI-voice scam that targeted business leaders"
+    },
+    "AIOperator": {
+      "id": "ScamOrganizers",
+      "中文名称": "诈骗组织者",
+      "英文名称": "Fraudsters",
+      "来源": "Truffa del finto Crosetto, è caccia ai soldi"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Italian police freeze cash from AI-voice scam"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ServiceaideDatabase",
+      "中文名称": "Serviceaide数据库",
+      "英文名称": "Serviceaide Database",
+      "来源": "Unsecured Serviceaide Database Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "Risk": {
+      "id": "HealthDataLeakRisk",
+      "中文名称": "健康数据泄露风险",
+      "英文名称": "Health Data Privacy Risk",
+      "来源": "Agentic AI Tech Firm Says Health Data Leak Affects 483,000"
+    },
+    "Consequence": {
+      "id": "PatientDataExposure",
+      "中文名称": "患者数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "Stakeholder": {
+      "id": "CatholicHealthPatients",
+      "中文名称": "天主教健康患者",
+      "英文名称": "Catholic Health Patients",
+      "来源": "Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "AIOperator": {
+      "id": "ServiceaideInc",
+      "中文名称": "Serviceaide公司",
+      "英文名称": "Serviceaide Inc.",
+      "来源": "SERVICEAIDE, INC Notice of Data Security Event May 5, 2025"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Health Data Leak Affects 483,000"
+    },
+    "RiskSource": {
+      "id": "UnsecuredDatabase",
+      "中文名称": "未受保护的数据库风险源",
+      "英文名称": "Unsecured Database Risk",
+      "来源": "Unsecured Serviceaide Database"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ServiceaideDatabase",
+      "中文名称": "Serviceaide数据库",
+      "英文名称": "Serviceaide Database",
+      "来源": "Unsecured Serviceaide Database Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "Risk": {
+      "id": "HealthDataLeakRisk",
+      "中文名称": "健康数据泄露风险",
+      "英文名称": "Health Data Privacy Risk",
+      "来源": "Agentic AI Tech Firm Says Health Data Leak Affects 483,000"
+    },
+    "Consequence": {
+      "id": "PatientDataExposure",
+      "中文名称": "患者数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "Stakeholder": {
+      "id": "CatholicHealthPatients",
+      "中文名称": "天主教健康患者",
+      "英文名称": "Catholic Health Patients",
+      "来源": "Exposed Data of 483,000 Catholic Health Patients"
+    },
+    "AIOperator": {
+      "id": "ServiceaideInc",
+      "中文名称": "Serviceaide公司",
+      "英文名称": "Serviceaide Inc.",
+      "来源": "SERVICEAIDE, INC Notice of Data Security Event May 5, 2025"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Health Data Leak Affects 483,000"
+    },
+    "RiskSource": {
+      "id": "UnsecuredDatabase",
+      "中文名称": "未受保护的数据库风险源",
+      "英文名称": "Unsecured Database Risk",
+      "来源": "Unsecured Serviceaide Database"
+    }
+  }
+}

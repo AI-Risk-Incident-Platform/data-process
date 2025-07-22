@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AirbnbTrustworthinessAlgorithm",
+      "中文名称": "Airbnb信任度评估算法",
+      "英文名称": "Airbnb Trust System",
+      "来源": "‘secretive algorithm’ that judges if users are ‘trustworthy’"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInUserTrustAssessment",
+      "中文名称": "用户信任评估中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in User Trust Assessment Risk",
+      "来源": "‘secretive algorithm’ that judges if users are ‘trustworthy’"
+    },
+    "Stakeholder": {
+      "id": "AirbnbUsers",
+      "中文名称": "Airbnb用户",
+      "英文名称": "Airbnb Users",
+      "来源": "judges if users are ‘trustworthy’"
+    },
+    "AIOperator": {
+      "id": "AirbnbInc",
+      "中文名称": "Airbnb公司",
+      "英文名称": "Airbnb",
+      "来源": "Airbnb for using ‘secretive algorithm’"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInAlgorithmicDecisionMaking",
+      "中文名称": "算法决策中缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "‘secretive algorithm’"
+    },
+    "Consequence": {
+      "id": "UnfairUserTreatment",
+      "中文名称": "不公平用户待遇后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "judges if users are ‘trustworthy’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AirbnbTrustworthinessAlgorithm",
+      "中文名称": "Airbnb信任度评估算法",
+      "英文名称": "Airbnb Trust System",
+      "来源": "‘secretive algorithm’ that judges if users are ‘trustworthy’"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInUserTrustAssessment",
+      "中文名称": "用户信任评估中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in User Trust Assessment Risk",
+      "来源": "‘secretive algorithm’ that judges if users are ‘trustworthy’"
+    },
+    "Stakeholder": {
+      "id": "AirbnbUsers",
+      "中文名称": "Airbnb用户",
+      "英文名称": "Airbnb Users",
+      "来源": "judges if users are ‘trustworthy’"
+    },
+    "AIOperator": {
+      "id": "AirbnbInc",
+      "中文名称": "Airbnb公司",
+      "英文名称": "Airbnb",
+      "来源": "Airbnb for using ‘secretive algorithm’"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInAlgorithmicDecisionMaking",
+      "中文名称": "算法决策中缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "‘secretive algorithm’"
+    },
+    "Consequence": {
+      "id": "UnfairUserTreatment",
+      "中文名称": "不公平用户待遇后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "judges if users are ‘trustworthy’"
+    }
+  }
+}

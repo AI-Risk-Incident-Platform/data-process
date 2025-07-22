@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIImageGenerators",
+      "中文名称": "AI图像生成器",
+      "英文名称": "AI Image Generators",
+      "来源": "AI Image Generators Routinely Display Gender and Cultural Bias"
+    },
+    "Risk": {
+      "id": "GenderAndCulturalBiasRisk",
+      "中文名称": "性别和文化偏见风险",
+      "英文名称": "Gender and Cultural Bias Risk",
+      "来源": "AI Image Generators Routinely Display Gender and Cultural Bias"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfStereotypes",
+      "中文名称": "强化刻板印象后果",
+      "英文名称": "Reinforcement of Stereotypes Consequence",
+      "来源": "Humans Are Biased. Generative AI Is Even Worse"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "AI Image Generators Routinely Display Gender and Cultural Bias"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Humans Are Biased. Generative AI Is Even Worse"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationImpact",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Social Discrimination Impact",
+      "来源": "AI Image Generators Routinely Display Gender and Cultural Bias"
+    }
+  }
+}

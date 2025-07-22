@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LumaDreamMachine rdf:type airo:AISystem ;
+    rdfs:label "Luma Dream Machine"@en ;
+    rdfs:label "Luma梦想机器"@zh ;
+    airo:hasRisk ex:IntellectualPropertyInfringementRisk ;
+    airo:hasCapability ex:VideoGenerationFromTextPrompts ;
+    airo:hasPurpose ex:CreativeContentGeneration ;
+    airo:isDeployedBy ex:LumaLabs ;
+    airo:hasStakeholder ex:DisneyCorporation ;
+    airo:isAppliedWithinDomain ex:DigitalMediaAndEntertainment .
+
+ex:IntellectualPropertyInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Intellectual Property Infringement Risk"@en ;
+    rdfs:label "知识产权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalActionFromCopyrightHolders ;
+    airo:isRiskSourceFor ex:UnlicensedUseOfCopyrightedCharacters .
+
+ex:LegalActionFromCopyrightHolders rdf:type airo:Consequence ;
+    rdfs:label "Legal Action From Copyright Holders Consequence"@en ;
+    rdfs:label "版权方采取法律行动的后果"@zh ;
+    airo:hasImpact ex:ReputationalDamageToAICompany .
+
+ex:LumaLabs rdf:type airo:AIOperator ;
+    rdfs:label "Luma Labs"@en ;
+    rdfs:label "Luma实验室"@zh .
+
+ex:DisneyCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "Disney Corporation"@en ;
+    rdfs:label "迪士尼公司"@zh .
+
+ex:VideoGenerationFromTextPrompts rdf:type airo:AICapability ;
+    rdfs:label "Video Generation From Text Prompts Capability"@en ;
+    rdfs:label "根据文本提示生成视频的能力"@zh .
+
+ex:CreativeContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Content Generation Purpose"@en ;
+    rdfs:label "创意内容生成的目的"@zh .
+
+ex:DigitalMediaAndEntertainment rdf:type airo:Domain ;
+    rdfs:label "Digital Media And Entertainment Domain"@en ;
+    rdfs:label "数字媒体与娱乐领域"@zh .
+
+ex:UnlicensedUseOfCopyrightedCharacters rdf:type airo:RiskSource ;
+    rdfs:label "Unlicensed Use Of Copyrighted Characters Risk Source"@en ;
+    rdfs:label "未经授权使用受版权保护角色的风险源"@zh .
+
+ex:ReputationalDamageToAICompany rdf:type airo:Impact ;
+    rdfs:label "Reputational Damage To AI Company Impact"@en ;
+    rdfs:label "对AI公司声誉损害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DisneyCorporation .

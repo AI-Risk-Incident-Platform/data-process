@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonJustWalkOutSystem rdf:type airo:AISystem ;
+    rdfs:label "Amazon Just Walk Out System"@en ;
+    rdfs:label "亚马逊Just Walk Out系统"@zh ;
+    airo:hasRisk ex:PotentialTheftRisk ;
+    airo:isAppliedWithinDomain ex:RetailGrocery ;
+    airo:hasCapability ex:AutomatedCheckout ;
+    airo:hasStakeholder ex:AmazonCustomers .
+
+ex:PotentialTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Theft Risk"@en ;
+    rdfs:label "潜在盗窃风险"@zh .
+
+ex:RetailGrocery rdf:type airo:Domain ;
+    rdfs:label "Retail Grocery"@en ;
+    rdfs:label "零售杂货"@zh .
+
+ex:AutomatedCheckout rdf:type airo:AICapability ;
+    rdfs:label "Automated Checkout Capability"@en ;
+    rdfs:label "自动结账能力"@zh .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Customers"@en ;
+    rdfs:label "亚马逊客户"@zh .

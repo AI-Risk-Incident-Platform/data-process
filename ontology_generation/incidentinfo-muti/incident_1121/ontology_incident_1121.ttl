@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UKPoliceAICustodialDecisionSystem rdf:type airo:AISystem ;
+    rdfs:label "UK Police AI Custodial Decision System"@en ;
+    rdfs:label "英国警方AI拘留决策系统"@zh ;
+    airo:hasRisk ex:DiscriminationAgainstPoorRisk ;
+    airo:hasStakeholder ex:UKPolice ;
+    airo:hasAISubject ex:CriminalSuspects ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:DiscriminationAgainstPoorRisk rdf:type airo:Risk ;
+    rdfs:label "Discrimination Against Poor Risk"@en ;
+    rdfs:label "对贫困人群歧视风险"@zh ;
+    airo:hasImpact ex:UnfairTreatmentOfPoor .
+
+ex:UKPolice rdf:type airo:Stakeholder ;
+    rdfs:label "UK Police"@en ;
+    rdfs:label "英国警方"@zh .
+
+ex:CriminalSuspects rdf:type airo:AISubject ;
+    rdfs:label "Criminal Suspects"@en ;
+    rdfs:label "犯罪嫌疑人"@zh .
+
+ex:UnfairTreatmentOfPoor rdf:type airo:Impact ;
+    rdfs:label "Unfair Treatment of Poor Impact"@en ;
+    rdfs:label "对贫困人群不公正待遇影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UKPolice .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .

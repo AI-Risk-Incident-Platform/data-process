@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JustWalkOutGroceryCheckouts rdf:type airo:AISystem ;
+    rdfs:label "Just Walk Out Grocery Checkouts"@en ;
+    rdfs:label "Just Walk Out无收银员结账系统"@zh ;
+    airo:hasRisk ex:MisrepresentationOfAICapabilities ;
+    airo:hasPurpose ex:AutomatedGroceryCheckout ;
+    airo:isAppliedWithinDomain ex:RetailTechnology ;
+    airo:hasStakeholder ex:IndianVirtualCashiers ;
+    airo:isDeployedBy ex:Amazon .
+
+ex:MisrepresentationOfAICapabilities rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation of AI Capabilities Risk"@en ;
+    rdfs:label "AI能力虚假宣传风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception ;
+    airo:isRiskSourceFor ex:HumanLaborDisguisedAsAI .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:IndianVirtualCashiers rdf:type airo:Stakeholder ;
+    rdfs:label "Indian Virtual Cashiers"@en ;
+    rdfs:label "印度虚拟收银员"@zh .
+
+ex:AutomatedGroceryCheckout rdf:type airo:Purpose ;
+    rdfs:label "Automated Grocery Checkout"@en ;
+    rdfs:label "自动化杂货店结账"@zh .
+
+ex:RetailTechnology rdf:type airo:Domain ;
+    rdfs:label "Retail Technology Domain"@en ;
+    rdfs:label "零售技术领域"@zh .
+
+ex:HumanLaborDisguisedAsAI rdf:type airo:RiskSource ;
+    rdfs:label "Human Labor Disguised as AI Risk Source"@en ;
+    rdfs:label "伪装成AI的人力劳动风险源"@zh .
+
+ex:ConsumerDeception rdf:type airo:Consequence ;
+    rdfs:label "Consumer Deception Consequence"@en ;
+    rdfs:label "消费者欺骗后果"@zh ;
+    airo:hasImpact ex:LossOfTrustInAITechnology .
+
+ex:LossOfTrustInAITechnology rdf:type airo:Impact ;
+    rdfs:label "Loss of Trust in AI Technology Impact"@en ;
+    rdfs:label "对AI技术信任丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndianVirtualCashiers .

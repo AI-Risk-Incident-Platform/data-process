@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIInterviewGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Interview Generation System"@en ;
+    rdfs:label "AI采访生成系统"@zh ;
+    airo:hasRisk ex:ReputationDamageRisk ;
+    airo:hasStakeholder ex:Rapper ;
+    airo:isDeployedBy ex:Benzinga .
+
+ex:ReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Reputation Damage Risk"@en ;
+    rdfs:label "声誉损害风险"@zh ;
+    airo:hasConsequence ex:FalseInformationDissemination ;
+    airo:isRiskSourceFor ex:FabricatedInterviewPublication .
+
+ex:FalseInformationDissemination rdf:type airo:Consequence ;
+    rdfs:label "False Information Dissemination Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Rapper .
+
+ex:Rapper rdf:type airo:Stakeholder ;
+    rdfs:label "Rapper"@en ;
+    rdfs:label "说唱歌手"@zh .
+
+ex:Benzinga rdf:type airo:AIOperator ;
+    rdfs:label "Benzinga News Outlet"@en ;
+    rdfs:label "Benzinga新闻机构"@zh .
+
+ex:FabricatedInterviewPublication rdf:type airo:Misuse ;
+    rdfs:label "Fabricated Interview Publication Misuse"@en ;
+    rdfs:label "伪造采访发布"@zh .

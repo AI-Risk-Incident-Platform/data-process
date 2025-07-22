@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleReimagineTool rdf:type airo:AISystem ;
+    rdfs:label "Google Reimagine Tool"@en ;
+    rdfs:label "谷歌Reimagine工具"@zh ;
+    airo:hasRisk ex:ImageFabricationRisk ;
+    airo:hasCapability ex:ImageEditingAndCreation ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasStakeholder ex:PhotoEditorsAndCreators ;
+    airo:hasAISubject ex:DigitalImages ;
+    airo:hasPurpose ex:CreativeImageEditing ;
+    airo:isAppliedWithinDomain ex:DigitalMedia ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks .
+
+ex:ImageFabricationRisk rdf:type airo:Risk ;
+    rdfs:label "Image Fabrication Risk"@en ;
+    rdfs:label "图像伪造风险"@zh ;
+    airo:hasConsequence ex:MisleadingContentCreation ;
+    airo:isRiskSourceFor ex:LackOfContentRestrictions .
+
+ex:MisleadingContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Misleading Content Creation Consequence"@en ;
+    rdfs:label "误导性内容创作后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:ImageEditingAndCreation rdf:type airo:AICapability ;
+    rdfs:label "Image Editing and Creation Capability"@en ;
+    rdfs:label "图像编辑与创作能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:PhotoEditorsAndCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Photo Editors and Creators"@en ;
+    rdfs:label "照片编辑者与创作者"@zh .
+
+ex:DigitalImages rdf:type airo:AISubject ;
+    rdfs:label "Digital Images"@en ;
+    rdfs:label "数字图像"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PhotoEditorsAndCreators .
+
+ex:CreativeImageEditing rdf:type airo:Purpose ;
+    rdfs:label "Creative Image Editing Purpose"@en ;
+    rdfs:label "创意图像编辑目的"@zh .
+
+ex:DigitalMedia rdf:type airo:Domain ;
+    rdfs:label "Digital Media Domain"@en ;
+    rdfs:label "数字媒体领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:EasyToolAccessibility rdf:type airo:Vulnerability ;
+    rdfs:label "Easy Tool Accessibility Vulnerability"@en ;
+    rdfs:label "工具易获取性脆弱性"@zh ;
+    airo:isVulnerabilityFor ex:GoogleReimagineTool .
+
+ex:DisinformationCampaigns rdf:type airo:Threat ;
+    rdfs:label "Disinformation Campaigns Threat"@en ;
+    rdfs:label "虚假信息活动威胁"@zh ;
+    airo:isRiskSourceFor ex:ImageFabricationRisk .
+
+ex:UnrestrictedContentGeneration rdf:type airo:Hazard ;
+    rdfs:label "Unrestricted Content Generation Hazard"@en ;
+    rdfs:label "无限制内容生成危害"@zh ;
+    airo:isRiskSourceFor ex:ImageFabricationRisk .
+
+ex:LackOfContentRestrictions rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Restrictions Risk Source"@en ;
+    rdfs:label "内容限制缺失风险源"@zh ;
+    airo:exploitsVulnerability ex:EasyToolAccessibility .
+
+ex:EthicalConcernsInAIEditingTools rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in AI Editing Tools Risk Concept"@en ;
+    rdfs:label "AI编辑工具中的伦理问题"@zh .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ReplikaAICompanion rdf:type airo:AISystem ;
+    rdfs:label "Replika AI Companion"@en ;
+    rdfs:label "Replika AI伴侣"@zh ;
+    airo:hasRisk ex:EmotionalDistressFromAIBehaviorChange ;
+    airo:hasCapability ex:ConversationalAIWithEmotionalAttachment ;
+    airo:hasPurpose ex:ProvidingEmotionalSupportCompanionship ;
+    airo:hasStakeholder ex:AICompanionUsers ;
+    airo:isDeployedBy ex:ReplikaCompany .
+
+ex:EmotionalDistressFromAIBehaviorChange rdf:type airo:Risk ;
+    rdfs:label "Emotional Distress from AI Behavior Change Risk"@en ;
+    rdfs:label "AI行为改变导致的情感困扰风险"@zh ;
+    airo:hasConsequence ex:UserHeartbreakAndEmotionalCrisis ;
+    airo:isRiskSourceFor ex:SoftwareUpdateChangingAIBehavior .
+
+ex:UserHeartbreakAndEmotionalCrisis rdf:type airo:Consequence ;
+    rdfs:label "User Heartbreak and Emotional Crisis Consequence"@en ;
+    rdfs:label "用户心碎和情感危机后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToVulnerableUsers .
+
+ex:ConversationalAIWithEmotionalAttachment rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI with Emotional Attachment Capability"@en ;
+    rdfs:label "具有情感依恋的对话AI能力"@zh .
+
+ex:AICompanionUsers rdf:type airo:Stakeholder ;
+    rdfs:label "AI Companion Users"@en ;
+    rdfs:label "AI伴侣使用者"@zh .
+
+ex:ReplikaCompany rdf:type airo:AIOperator ;
+    rdfs:label "Replika Company"@en ;
+    rdfs:label "Replika公司"@zh .
+
+ex:PsychologicalHarmToVulnerableUsers rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Vulnerable Users Impact"@en ;
+    rdfs:label "对脆弱用户的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AICompanionUsers .
+
+ex:ProvidingEmotionalSupportCompanionship rdf:type airo:Purpose ;
+    rdfs:label "Providing Emotional Support and Companionship Purpose"@en ;
+    rdfs:label "提供情感支持和陪伴的目的"@zh .
+
+ex:SoftwareUpdateChangingAIBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Software Update Changing AI Behavior Risk Source"@en ;
+    rdfs:label "改变AI行为的软件更新风险源"@zh ;
+    airo:exploitsVulnerability ex:UserDependenceOnAIForEmotionalNeeds .
+
+ex:UserDependenceOnAIForEmotionalNeeds rdf:type airo:Vulnerability ;
+    rdfs:label "User Dependence on AI for Emotional Needs Vulnerability"@en ;
+    rdfs:label "用户依赖AI满足情感需求的脆弱性"@zh .

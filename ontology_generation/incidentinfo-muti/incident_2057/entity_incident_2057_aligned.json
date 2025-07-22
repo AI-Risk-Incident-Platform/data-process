@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iPhoneMoodDetectionSystem",
+      "中文名称": "iPhone情绪检测系统",
+      "英文名称": "iPhone Mood Detection System",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "Risk": {
+      "id": "FlawedMoodDetectionTechnologyRisk",
+      "中文名称": "情绪检测技术缺陷风险",
+      "英文名称": "Flawed Mood Detection Technology Risk",
+      "来源": "Critics say the tech is flawed"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "AITechnique": {
+      "id": "MoodDetectionAlgorithm",
+      "中文名称": "情绪检测算法",
+      "英文名称": "Mood Detection Algorithm",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "Domain": {
+      "id": "MentalHealthMonitoring",
+      "中文名称": "心理健康监测领域",
+      "英文名称": "Mental Health Monitoring Domain",
+      "来源": "mood detection"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "iPhoneMoodDetectionSystem",
+      "中文名称": "iPhone情绪检测系统",
+      "英文名称": "iPhone Mood Detection System",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "Risk": {
+      "id": "FlawedMoodDetectionTechnologyRisk",
+      "中文名称": "情绪检测技术缺陷风险",
+      "英文名称": "Flawed Mood Detection Technology Risk",
+      "来源": "Critics say the tech is flawed"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "AITechnique": {
+      "id": "MoodDetectionAlgorithm",
+      "中文名称": "情绪检测算法",
+      "英文名称": "Mood Detection Algorithm",
+      "来源": "Apple is studying mood detection using iPhone data."
+    },
+    "Domain": {
+      "id": "MentalHealthMonitoring",
+      "中文名称": "心理健康监测领域",
+      "英文名称": "Mental Health Monitoring Domain",
+      "来源": "mood detection"
+    }
+  }
+}

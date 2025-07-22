@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TinyImagesAITrainingDataset rdf:type airo:AISystem ;
+    rdfs:label "Tiny Images AI Training Dataset"@en ;
+    rdfs:label "Tiny Images AI训练数据集"@zh ;
+    airo:hasRisk ex:RacistAndMisogynisticContentRisk ;
+    airo:hasCapability ex:ImageRecognitionTraining ;
+    airo:isDeployedBy ex:MITAndNYU ;
+    airo:hasStakeholder ex:AIResearchCommunity ;
+    airo:hasPurpose ex:AIModelTraining ;
+    airo:isAppliedWithinDomain ex:ComputerVision ;
+    airo:usesTechnique ex:DatasetTraining ;
+    airo:hasVulnerability ex:BiasedTrainingData .
+
+ex:RacistAndMisogynisticContentRisk rdf:type airo:Risk ;
+    rdfs:label "Racist and Misogynistic Content Risk"@en ;
+    rdfs:label "种族主义和性别歧视内容风险"@zh ;
+    airo:hasConsequence ex:BiasInAIOutputs ;
+    airo:isRiskSourceFor ex:OffensiveLabeling .
+
+ex:BiasInAIOutputs rdf:type airo:Consequence ;
+    rdfs:label "Bias in AI Outputs Consequence"@en ;
+    rdfs:label "AI输出中的偏见后果"@zh ;
+    airo:hasImpact ex:DiscriminatoryAIBehavior .
+
+ex:ImageRecognitionTraining rdf:type airo:AICapability ;
+    rdfs:label "Image Recognition Training Capability"@en ;
+    rdfs:label "图像识别训练能力"@zh .
+
+ex:MITAndNYU rdf:type airo:AIOperator ;
+    rdfs:label "MIT and NYU"@en ;
+    rdfs:label "MIT和NYU"@zh .
+
+ex:AIResearchCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "AI Research Community"@en ;
+    rdfs:label "AI研究社区"@zh .
+
+ex:DiscriminatoryAIBehavior rdf:type airo:Impact ;
+    rdfs:label "Discriminatory AI Behavior Impact"@en ;
+    rdfs:label "歧视性AI行为的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AIResearchCommunity .
+
+ex:AIModelTraining rdf:type airo:Purpose ;
+    rdfs:label "AI Model Training Purpose"@en ;
+    rdfs:label "AI模型训练的目的"@zh .
+
+ex:ComputerVision rdf:type airo:Domain ;
+    rdfs:label "Computer Vision Domain"@en ;
+    rdfs:label "计算机视觉领域"@zh .
+
+ex:DatasetTraining rdf:type airo:AITechnique ;
+    rdfs:label "Dataset Training Technique"@en ;
+    rdfs:label "数据集训练技术"@zh .
+
+ex:BiasedTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "Biased Training Data Vulnerability"@en ;
+    rdfs:label "偏见训练数据的脆弱性"@zh .
+
+ex:OffensiveLabeling rdf:type airo:RiskSource ;
+    rdfs:label "Offensive Labeling Risk Source"@en ;
+    rdfs:label "冒犯性标注的风险源"@zh .

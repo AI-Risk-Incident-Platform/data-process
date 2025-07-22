@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoOfMLKJr rdf:type airo:AISystem ;
+    rdfs:label "马丁·路德·金深度伪造视频"@zh ;
+    rdfs:label "Deepfake Video of MLK Jr."@en ;
+    airo:hasRisk ex:MisinformationAndReputationDamageRisk ;
+    airo:hasAISubject ex:HistoricalFigureMLKJr ;
+    airo:hasPurpose ex:PoliticalEndorsementFabrication ;
+    airo:usesTechnique ex:DeepfakeSynthesisTechnology ;
+    airo:isAppliedWithinDomain ex:PoliticalCommunication ;
+    airo:hasStakeholder ex:MLKJrFamily .
+
+ex:MisinformationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息和声誉损害风险"@zh ;
+    rdfs:label "Misinformation and Reputation Damage Risk"@en ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:PoliticalMisinformationCampaign .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "公众误导后果"@zh ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    airo:hasImpact ex:ReputationDamageToHistoricalFigure .
+
+ex:ReputationDamageToHistoricalFigure rdf:type airo:Impact ;
+    rdfs:label "历史人物声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage to Historical Figure Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MLKJrFamily .
+
+ex:MLKJrFamily rdf:type airo:Stakeholder ;
+    rdfs:label "马丁·路德·金家人"@zh ;
+    rdfs:label "MLK Jr. Family"@en .
+
+ex:HistoricalFigureMLKJr rdf:type airo:AISubject ;
+    rdfs:label "历史人物马丁·路德·金"@zh ;
+    rdfs:label "Historical Figure MLK Jr."@en .
+
+ex:PoliticalEndorsementFabrication rdf:type airo:Purpose ;
+    rdfs:label "政治背书伪造目的"@zh ;
+    rdfs:label "Political Endorsement Fabrication Purpose"@en .
+
+ex:DeepfakeSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造合成技术"@zh ;
+    rdfs:label "Deepfake Synthesis Technology"@en .
+
+ex:PoliticalMisinformationCampaign rdf:type airo:RiskSource ;
+    rdfs:label "政治虚假信息活动风险源"@zh ;
+    rdfs:label "Political Misinformation Campaign Risk Source"@en .
+
+ex:PoliticalCommunication rdf:type airo:Domain ;
+    rdfs:label "政治传播领域"@zh ;
+    rdfs:label "Political Communication Domain"@en .

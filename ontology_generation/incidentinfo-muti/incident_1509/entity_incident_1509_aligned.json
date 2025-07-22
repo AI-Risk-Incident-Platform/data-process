@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GeminiAI",
+      "中文名称": "Gemini AI",
+      "英文名称": "Gemini AI",
+      "来源": "Google's new AI Gemini"
+    },
+    "Risk": {
+      "id": "BiasInAIOutput",
+      "中文名称": "AI输出中的偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "accused of refusing to acknowledge the existence of white people"
+    },
+    "Consequence": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google faces criticism for Gemini AI being 'woke'"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google to fix AI picture bot after 'woke' criticism"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google faces criticism for Gemini AI being 'woke'"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "accused of refusing to acknowledge the existence of white people"
+    },
+    "AICapability": {
+      "id": "ImageGeneration",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Google to fix AI picture bot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GeminiAI",
+      "中文名称": "Gemini AI",
+      "英文名称": "Gemini AI",
+      "来源": "Google's new AI Gemini"
+    },
+    "Risk": {
+      "id": "BiasInAIOutput",
+      "中文名称": "AI输出中的偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "accused of refusing to acknowledge the existence of white people"
+    },
+    "Consequence": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google faces criticism for Gemini AI being 'woke'"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google to fix AI picture bot after 'woke' criticism"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google faces criticism for Gemini AI being 'woke'"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "accused of refusing to acknowledge the existence of white people"
+    },
+    "AICapability": {
+      "id": "ImageGeneration",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Google to fix AI picture bot"
+    }
+  }
+}

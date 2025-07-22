@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "人脸识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial recognition false match leads to wrongful arrest"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "Wrongful Arrest Risk",
+      "来源": "Facial recognition leads to Detroit man being wrongfully arrested"
+    },
+    "Consequence": {
+      "id": "WrongfulArrest",
+      "中文名称": "错误逮捕后果",
+      "英文名称": "Wrongful Arrest Consequence",
+      "来源": "Detroit PD Now Linked To Two Bogus Arrests Stemming From Facial Recognition False Positives"
+    },
+    "AIOperator": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "Detroit PD Now Linked To Two Bogus Arrests Stemming From Facial Recognition False Positives"
+    },
+    "Stakeholder": {
+      "id": "ACLU",
+      "中文名称": "美国公民自由联盟",
+      "英文名称": "American Civil Liberties Union",
+      "来源": "Facial recognition leads to Detroit man being wrongfully arrested: ACLU"
+    },
+    "AISubject": {
+      "id": "DetroitMan",
+      "中文名称": "底特律男子",
+      "英文名称": "Detroit Man",
+      "来源": "Facial recognition leads to Detroit man being wrongfully arrested"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Civil Rights Violation Impact",
+      "来源": "Facial recognition leads to Detroit man being wrongfully arrested"
+    },
+    "RiskSource": {
+      "id": "FalsePositiveMatch",
+      "中文名称": "误报匹配风险源",
+      "英文名称": "False Positive Match Risk Source",
+      "来源": "Facial recognition false match leads to wrongful arrest"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "人脸识别中的算法偏见脆弱性",
+      "英文名称": "Algorithmic Bias in Facial Recognition Vulnerability",
+      "来源": "Facial recognition false match leads to wrongful arrest"
+    }
+  }
+}

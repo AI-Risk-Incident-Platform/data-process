@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Temporary policy: ChatGPT is banned"
+    },
+    "Risk": {
+      "id": "MisuseOfAIInContentGeneration",
+      "中文名称": "AI内容生成滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Stakeholder": {
+      "id": "StackOverflow",
+      "中文名称": "Stack Overflow",
+      "英文名称": "Stack Overflow",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Consequence": {
+      "id": "InaccurateOrMisleadingContent",
+      "中文名称": "不准确或误导性内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Why is Everyone Bashing ChatGPT?"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Temporary policy: ChatGPT is banned"
+    },
+    "Risk": {
+      "id": "MisuseOfAIInContentGeneration",
+      "中文名称": "AI内容生成滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Stakeholder": {
+      "id": "StackOverflow",
+      "中文名称": "Stack Overflow",
+      "英文名称": "Stack Overflow",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Consequence": {
+      "id": "InaccurateOrMisleadingContent",
+      "中文名称": "不准确或误导性内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Why is Everyone Bashing ChatGPT?"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    }
+  }
+}

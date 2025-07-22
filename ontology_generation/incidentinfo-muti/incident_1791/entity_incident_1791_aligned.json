@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdDeliverySystem",
+      "中文名称": "Facebook广告投放系统",
+      "英文名称": "Facebook Ad System",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "Risk": {
+      "id": "GenderBiasInJobAds",
+      "中文名称": "招聘广告中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryJobOpportunities",
+      "中文名称": "歧视性就业机会后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Facebook job ads skewing by gender in way that may be illegal, study says"
+    },
+    "AICapability": {
+      "id": "TargetedAdDelivery",
+      "中文名称": "定向广告投放能力",
+      "英文名称": "Ad Targeting Capability",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "Stakeholder": {
+      "id": "FemaleJobSeekers",
+      "中文名称": "女性求职者",
+      "英文名称": "Female Job Seekers",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    },
+    "Impact": {
+      "id": "GenderDiscriminationInEmployment",
+      "中文名称": "就业中的性别歧视影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "Facebook job ads skewing by gender in way that may be illegal, study says"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicTargeting",
+      "中文名称": "有偏见的算法定向风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookAdDeliverySystem",
+      "中文名称": "Facebook广告投放系统",
+      "英文名称": "Facebook Ad System",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "Risk": {
+      "id": "GenderBiasInJobAds",
+      "中文名称": "招聘广告中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryJobOpportunities",
+      "中文名称": "歧视性就业机会后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Facebook job ads skewing by gender in way that may be illegal, study says"
+    },
+    "AICapability": {
+      "id": "TargetedAdDelivery",
+      "中文名称": "定向广告投放能力",
+      "英文名称": "Ad Targeting Capability",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "Stakeholder": {
+      "id": "FemaleJobSeekers",
+      "中文名称": "女性求职者",
+      "英文名称": "Female Job Seekers",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    },
+    "Impact": {
+      "id": "GenderDiscriminationInEmployment",
+      "中文名称": "就业中的性别歧视影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "Facebook job ads skewing by gender in way that may be illegal, study says"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Facebook’s ad delivery system still has gender bias, new study finds"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicTargeting",
+      "中文名称": "有偏见的算法定向风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Facebook’s ad algorithms are still excluding women from seeing jobs"
+    }
+  }
+}

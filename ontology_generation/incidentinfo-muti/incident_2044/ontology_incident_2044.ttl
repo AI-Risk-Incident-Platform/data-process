@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ProjectMorpheus rdf:type airo:AISystem ;
+    rdfs:label "Project Morpheus"@en ;
+    rdfs:label "Project Morpheus"@zh ;
+    airo:hasRisk ex:DeepfakeMisuseRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PhotoEditingEnhancement ;
+    airo:hasStakeholder ex:Adobe .
+
+ex:DeepfakeMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Deepfake Misuse Risk"@en ;
+    rdfs:label "深度伪造滥用风险"@zh ;
+    airo:hasConsequence ex:PotentialMisinformationSpread ;
+    airo:isRiskSourceFor ex:LackOfClearUsageGuidelines .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:Adobe rdf:type airo:Stakeholder ;
+    rdfs:label "Adobe"@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:PhotoEditingEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Photo Editing Enhancement"@en ;
+    rdfs:label "照片编辑增强"@zh .
+
+ex:LackOfClearUsageGuidelines rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Clear Usage Guidelines"@en ;
+    rdfs:label "缺乏明确使用指南"@zh .
+
+ex:PotentialMisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Potential Misinformation Spread"@en ;
+    rdfs:label "潜在虚假信息传播"@zh ;
+    airo:hasImpact ex:TrustErosionInDigitalMedia .
+
+ex:TrustErosionInDigitalMedia rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Digital Media"@en ;
+    rdfs:label "数字媒体信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:Adobe .

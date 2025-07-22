@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIAsylumDecisionSystem",
+      "中文名称": "AI庇护决策系统",
+      "英文名称": "AI Asylum Decision System",
+      "来源": "Darmanin laisse l'intelligence artificielle juger le droit d'asile"
+    },
+    "Risk": {
+      "id": "UnfairAsylumDecisionRisk",
+      "中文名称": "不公平庇护决策风险",
+      "英文名称": "Unfair Asylum Decision Risk",
+      "来源": "l'intelligence artificielle juger le droit d'asile"
+    },
+    "Domain": {
+      "id": "ImmigrationAndAsylum",
+      "中文名称": "移民和庇护领域",
+      "英文名称": "Immigration and Asylum Domain",
+      "来源": "droit d'asile"
+    },
+    "Purpose": {
+      "id": "AutomateAsylumDecisionMaking",
+      "中文名称": "自动化庇护决策目的",
+      "英文名称": "Automate Asylum Decision Making Purpose",
+      "来源": "laisse l'intelligence artificielle juger le droit d'asile"
+    },
+    "AISubject": {
+      "id": "AsylumApplicants",
+      "中文名称": "庇护申请人",
+      "英文名称": "Asylum Applicants",
+      "来源": "droit d'asile"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingBeta rdf:type airo:AISystem ;
+    rdfs:label "特斯拉全自动驾驶测试版"@zh ;
+    rdfs:label "Tesla Full Self-Driving Beta"@en ;
+    airo:hasRisk ex:AutonomousVehicleCrashRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TeslaVehicleOwner ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving ;
+    airo:usesTechnique ex:BetaTesting .
+
+ex:AutonomousVehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Crash Risk"@en ;
+    airo:hasConsequence ex:VehicleSevereDamage .
+
+ex:VehicleSevereDamage rdf:type airo:Consequence ;
+    rdfs:label "车辆严重损坏后果"@zh ;
+    rdfs:label "Vehicle Severe Damage Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:TeslaVehicleOwner .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:TeslaVehicleOwner rdf:type airo:Stakeholder ;
+    rdfs:label "特斯拉车主"@zh ;
+    rdfs:label "Tesla Vehicle Owner"@en .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "自动驾驶领域"@zh ;
+    rdfs:label "Autonomous Driving Domain"@en .
+
+ex:BetaTesting rdf:type airo:AITechnique ;
+    rdfs:label "Beta测试技术"@zh ;
+    rdfs:label "Beta Testing Technique"@en .

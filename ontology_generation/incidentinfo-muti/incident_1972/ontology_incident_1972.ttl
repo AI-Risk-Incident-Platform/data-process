@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BoldGlamourFilter rdf:type airo:AISystem ;
+    rdfs:label "Bold Glamour Filter"@en ;
+    rdfs:label "Bold Glamour滤镜"@zh ;
+    airo:hasRisk ex:LackOfTransparencyRisk ;
+    airo:hasStakeholder ex:TikTokPlatform ;
+    airo:hasCapability ex:FacialModificationCapability ;
+    airo:hasPurpose ex:BeautyEnhancementPurpose .
+
+ex:LackOfTransparencyRisk rdf:type airo:Risk ;
+    rdfs:label "Lack of Transparency Risk"@en ;
+    rdfs:label "透明度缺失风险"@zh .
+
+ex:TikTokPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Platform"@en ;
+    rdfs:label "TikTok平台"@zh .
+
+ex:FacialModificationCapability rdf:type airo:AICapability ;
+    rdfs:label "Facial Modification Capability"@en ;
+    rdfs:label "面部修饰能力"@zh .
+
+ex:BeautyEnhancementPurpose rdf:type airo:Purpose ;
+    rdfs:label "Beauty Enhancement Purpose"@en ;
+    rdfs:label "美颜增强目的"@zh .

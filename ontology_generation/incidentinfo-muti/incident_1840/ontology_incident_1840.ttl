@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildrenBookIllustrationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Children Book Illustration System"@en ;
+    rdfs:label "AI儿童书籍插图系统"@zh ;
+    airo:hasRisk ex:BacklashForUsingAIInCreativeWorks ;
+    airo:hasPurpose ex:CreatingChildrenBookIllustrations ;
+    airo:isDeployedBy ex:MarkZuckerberg ;
+    airo:hasStakeholder ex:ArtistsAndCreativeProfessionals ;
+    airo:isAppliedWithinDomain ex:PublishingAndCreativeIndustries .
+
+ex:BacklashForUsingAIInCreativeWorks rdf:type airo:Risk ;
+    rdfs:label "Backlash for Using AI in Creative Works Risk"@en ;
+    rdfs:label "在创意作品中使用AI引发的反弹风险"@zh ;
+    airo:hasConsequence ex:PotentialJobDisplacementForArtists .
+
+ex:ArtistsAndCreativeProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "Artists and Creative Professionals"@en ;
+    rdfs:label "艺术家和创意专业人士"@zh .
+
+ex:MarkZuckerberg rdf:type airo:AIOperator ;
+    rdfs:label "Mark Zuckerberg"@en ;
+    rdfs:label "马克·扎克伯格"@zh .
+
+ex:CreatingChildrenBookIllustrations rdf:type airo:Purpose ;
+    rdfs:label "Creating Children Book Illustrations"@en ;
+    rdfs:label "创作儿童书籍插图"@zh .
+
+ex:PublishingAndCreativeIndustries rdf:type airo:Domain ;
+    rdfs:label "Publishing and Creative Industries"@en ;
+    rdfs:label "出版和创意产业"@zh .
+
+ex:PotentialJobDisplacementForArtists rdf:type airo:Impact ;
+    rdfs:label "Potential Job Displacement for Artists Impact"@en ;
+    rdfs:label "艺术家潜在失业影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ArtistsAndCreativeProfessionals .

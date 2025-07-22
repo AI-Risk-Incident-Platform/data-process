@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAI",
+      "中文名称": "Meta人工智能",
+      "英文名称": "Meta AI",
+      "来源": "Meta's AI claimed the Trump assassination attempt didn't happen."
+    },
+    "Risk": {
+      "id": "AIHallucinationRisk",
+      "中文名称": "AI幻觉风险",
+      "英文名称": "AI Hallucination Risk",
+      "来源": "Meta addresses AI hallucination as chatbot says Trump shooting didn’t happen"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "Meta's AI claimed the Trump assassination attempt didn't happen."
+    },
+    "AIOperator": {
+      "id": "MetaCompany",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta Company",
+      "来源": "Meta blames hallucinations after its AI said Trump rally shooting didn’t happen"
+    },
+    "RiskSource": {
+      "id": "AIHallucination",
+      "中文名称": "AI幻觉风险源",
+      "英文名称": "AI Hallucination Risk Source",
+      "来源": "The company is blaming 'hallucinations.'"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Public Confusion Impact",
+      "来源": "Meta's AI claimed the Trump assassination attempt didn't happen."
+    }
+  }
+}

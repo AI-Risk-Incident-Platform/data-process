@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:McDonaldsAIOrderingSystem rdf:type airo:AISystem ;
+    rdfs:label "McDonald's AI Ordering System"@en ;
+    rdfs:label "麦当劳AI点餐系统"@zh ;
+    airo:hasRisk ex:OrderingSystemFailureRisk ;
+    airo:hasCapability ex:AutomatedDriveThruOrdering ;
+    airo:hasPurpose ex:AutomatedFastFoodService ;
+    airo:hasStakeholder ex:McDonaldsCustomers ;
+    airo:isDeployedBy ex:McDonaldsCorporation ;
+    airo:isAppliedWithinDomain ex:FastFoodIndustry .
+
+ex:OrderingSystemFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Ordering System Failure Risk"@en ;
+    rdfs:label "点餐系统故障风险"@zh ;
+    airo:hasConsequence ex:CustomerDissatisfaction ;
+    airo:isRiskSourceFor ex:AIOrderingSystemErrors .
+
+ex:CustomerDissatisfaction rdf:type airo:Consequence ;
+    rdfs:label "Customer Dissatisfaction Consequence"@en ;
+    rdfs:label "顾客不满后果"@zh ;
+    airo:hasImpact ex:NegativeBrandPerception .
+
+ex:AutomatedDriveThruOrdering rdf:type airo:AICapability ;
+    rdfs:label "Automated Drive-Thru Ordering Capability"@en ;
+    rdfs:label "自动得来速点餐能力"@zh .
+
+ex:McDonaldsCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "McDonald's Customers"@en ;
+    rdfs:label "麦当劳顾客"@zh .
+
+ex:McDonaldsCorporation rdf:type airo:AIOperator ;
+    rdfs:label "McDonald's Corporation"@en ;
+    rdfs:label "麦当劳公司"@zh .
+
+ex:NegativeBrandPerception rdf:type airo:Impact ;
+    rdfs:label "Negative Brand Perception Impact"@en ;
+    rdfs:label "品牌负面认知影响"@zh ;
+    airo:hasImpactOnStakeholder ex:McDonaldsCustomers .
+
+ex:AutomatedFastFoodService rdf:type airo:Purpose ;
+    rdfs:label "Automated Fast Food Service Purpose"@en ;
+    rdfs:label "自动化快餐服务目的"@zh .
+
+ex:FastFoodIndustry rdf:type airo:Domain ;
+    rdfs:label "Fast Food Industry Domain"@en ;
+    rdfs:label "快餐行业领域"@zh .
+
+ex:AIOrderingSystemErrors rdf:type airo:RiskSource ;
+    rdfs:label "AI Ordering System Errors Risk Source"@en ;
+    rdfs:label "AI点餐系统错误风险源"@zh .

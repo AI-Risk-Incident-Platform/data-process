@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonProductRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Amazon Product Recommendation System"@en ;
+    rdfs:label "亚马逊产品推荐系统"@zh ;
+    airo:hasRisk ex:DangerousProductCombinationRisk .
+
+ex:DangerousProductCombinationRisk rdf:type airo:Risk ;
+    rdfs:label "Dangerous Product Combination Risk"@en ;
+    rdfs:label "危险产品组合风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicRecommendationOfHazardousMaterials ;
+    airo:hasConsequence ex:PotentialForHarmfulUse .
+
+ex:AlgorithmicRecommendationOfHazardousMaterials rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Recommendation of Hazardous Materials"@en ;
+    rdfs:label "危险材料的算法推荐"@zh .
+
+ex:PotentialForHarmfulUse rdf:type airo:Consequence ;
+    rdfs:label "Potential for Harmful Use Consequence"@en ;
+    rdfs:label "潜在有害使用后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh .

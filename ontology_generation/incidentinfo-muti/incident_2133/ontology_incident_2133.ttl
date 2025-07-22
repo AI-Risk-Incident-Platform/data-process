@@ -1,0 +1,59 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechForUighurs rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Tech for Uighurs"@en ;
+    rdfs:label "针对维吾尔族的面部识别技术"@zh ;
+    airo:hasRisk ex:EthicalAndPrivacyRisk ;
+    airo:hasStakeholder ex:AmazonPartnerInChina ;
+    airo:hasAISubject ex:UighurMinorityGroup ;
+    airo:hasPurpose ex:EthnicGroupTracking ;
+    airo:isAppliedWithinDomain ex:SurveillanceTechnology ;
+    airo:usesTechnique ex:FacialRecognitionAlgorithm .
+
+ex:EthicalAndPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical and Privacy Risk"@en ;
+    rdfs:label "伦理与隐私风险"@zh ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "Consequence of Ethical and Privacy Risk"@en ;
+                          rdfs:label "伦理与隐私风险后果"@zh ;
+                          airo:hasImpact ex:PrivacyViolationAndDiscrimination ] ;
+    airo:isRiskSourceFor ex:EthnicProfilingTechnology .
+
+ex:AmazonPartnerInChina rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Partner in China"@en ;
+    rdfs:label "亚马逊中国合作伙伴"@zh .
+
+ex:UighurMinorityGroup rdf:type airo:AISubject ;
+    rdfs:label "Uighur Minority Group"@en ;
+    rdfs:label "维吾尔族少数民族群体"@zh .
+
+ex:PrivacyViolationAndDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation and Discrimination Impact"@en ;
+    rdfs:label "隐私侵犯与歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UighurMinorityGroup .
+
+ex:EthnicGroupTracking rdf:type airo:Purpose ;
+    rdfs:label "Ethnic Group Tracking Purpose"@en ;
+    rdfs:label "民族群体追踪目的"@zh .
+
+ex:SurveillanceTechnology rdf:type airo:Domain ;
+    rdfs:label "Surveillance Technology Domain"@en ;
+    rdfs:label "监控技术领域"@zh .
+
+ex:FacialRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Algorithm Technique"@en ;
+    rdfs:label "面部识别算法技术"@zh .
+
+ex:EthnicProfilingTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Ethnic Profiling Technology Risk Source"@en ;
+    rdfs:label "种族特征分析技术风险源"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAISora",
+      "中文名称": "OpenAI的Sora",
+      "英文名称": "Sora Video Tool",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Risk": {
+      "id": "DiscriminatoryBiasRisk",
+      "中文名称": "歧视性偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Consequence": {
+      "id": "HarmfulStereotypesPerpetuation",
+      "中文名称": "有害刻板印象延续后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationAmplification",
+      "中文名称": "社会歧视放大影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "AISubject": {
+      "id": "MarginalizedGroups",
+      "中文名称": "边缘化群体",
+      "英文名称": "Marginalized Groups",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAISora",
+      "中文名称": "OpenAI的Sora",
+      "英文名称": "Sora Video Tool",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Risk": {
+      "id": "DiscriminatoryBiasRisk",
+      "中文名称": "歧视性偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Consequence": {
+      "id": "HarmfulStereotypesPerpetuation",
+      "中文名称": "有害刻板印象延续后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationAmplification",
+      "中文名称": "社会歧视放大影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    },
+    "AISubject": {
+      "id": "MarginalizedGroups",
+      "中文名称": "边缘化群体",
+      "英文名称": "Marginalized Groups",
+      "来源": "OpenAI’s Sora Is Plagued by Sexist, Racist, and Ableist Biases"
+    }
+  }
+}

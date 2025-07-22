@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "标题中提到的AI chatbot"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misinformation Risk",
+      "来源": "律师提交由AI生成的虚假案例"
+    },
+    "Consequence": {
+      "id": "LegalProceedingsDisruption",
+      "中文名称": "法律程序中断后果",
+      "英文名称": "Legal Proceedings Disruption Consequence",
+      "来源": "在离婚法庭上使用虚假案例法"
+    },
+    "Stakeholder": {
+      "id": "BcLawyer",
+      "中文名称": "BC省律师",
+      "英文名称": "B.C. Lawyer",
+      "来源": "标题中提到的B.C.律师"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT的开发者"
+    },
+    "Impact": {
+      "id": "LegalSystemIntegrityUndermined",
+      "中文名称": "法律系统完整性受损影响",
+      "英文名称": "Legal System Integrity Undermined Impact",
+      "来源": "虚假案例法对法律系统的潜在影响"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Research Assistance Purpose",
+      "来源": "律师使用AI工具进行法律研究"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal Services Domain",
+      "来源": "事件发生在法律服务和法庭环境中"
+    },
+    "RiskSource": {
+      "id": "HallucinatedCaseLaw",
+      "中文名称": "虚构案例法风险源",
+      "英文名称": "Hallucinated Case Law Risk Source",
+      "来源": "AI生成的虚假法律案例"
+    },
+    "Vulnerability": {
+      "id": "LackOfLegalDomainVerification",
+      "中文名称": "缺乏法律领域验证的脆弱性",
+      "英文名称": "Lack of Legal Domain Verification Vulnerability",
+      "来源": "AI系统未验证生成的法律信息的准确性"
+    }
+  }
+}

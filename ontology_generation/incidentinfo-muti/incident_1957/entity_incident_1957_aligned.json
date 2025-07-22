@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content to 13-year-olds"
+    },
+    "Risk": {
+      "id": "ExposureToExtremistContentRisk",
+      "中文名称": "接触极端内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content to 13-year-olds"
+    },
+    "AISubject": {
+      "id": "Teenagers",
+      "中文名称": "青少年",
+      "英文名称": "Teenagers",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthEffects",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicRecommendationSystem",
+      "中文名称": "算法推荐系统风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content"
+    },
+    "Stakeholder": {
+      "id": "TikTokCompany",
+      "中文名称": "TikTok公司",
+      "英文名称": "ByteDance",
+      "来源": "TikTok's algorithm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "pushing out extremist and violent content"
+    },
+    "Purpose": {
+      "id": "UserEngagement",
+      "中文名称": "用户参与目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "algorithm is pushing out content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "TikTok's algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content to 13-year-olds"
+    },
+    "Risk": {
+      "id": "ExposureToExtremistContentRisk",
+      "中文名称": "接触极端内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content to 13-year-olds"
+    },
+    "AISubject": {
+      "id": "Teenagers",
+      "中文名称": "青少年",
+      "英文名称": "Teenagers",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthEffects",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "pushing out extremist and violent content to 13-year-olds"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicRecommendationSystem",
+      "中文名称": "算法推荐系统风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "TikTok's algorithm is pushing out extremist and violent content"
+    },
+    "Stakeholder": {
+      "id": "TikTokCompany",
+      "中文名称": "TikTok公司",
+      "英文名称": "ByteDance",
+      "来源": "TikTok's algorithm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "pushing out extremist and violent content"
+    },
+    "Purpose": {
+      "id": "UserEngagement",
+      "中文名称": "用户参与目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "algorithm is pushing out content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "TikTok's algorithm"
+    }
+  }
+}

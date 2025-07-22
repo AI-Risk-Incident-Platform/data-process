@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAlteredKeithHaringPainting rdf:type airo:AISystem ;
+    rdfs:label "AI Altered Keith Haring Painting"@en ;
+    rdfs:label "AI修改的基思·哈林画作"@zh ;
+    airo:hasRisk ex:ArtisticIntegrityRisk ;
+    airo:isAppliedWithinDomain ex:ArtAndCulture .
+
+ex:ArtisticIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Artistic Integrity Risk"@en ;
+    rdfs:label "艺术完整性风险"@zh ;
+    airo:hasConsequence ex:LossOfOriginalMeaning .
+
+ex:LossOfOriginalMeaning rdf:type airo:Consequence ;
+    rdfs:label "Loss of Original Meaning"@en ;
+    rdfs:label "原始意义丧失"@zh ;
+    airo:hasImpact ex:PublicOutrage .
+
+ex:PublicOutrage rdf:type airo:Impact ;
+    rdfs:label "Public Outrage"@en ;
+    rdfs:label "公众愤怒"@zh .
+
+ex:ArtAndCulture rdf:type airo:Domain ;
+    rdfs:label "Art and Culture"@en ;
+    rdfs:label "艺术与文化"@zh .

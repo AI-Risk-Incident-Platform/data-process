@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BlackboxWelfareFraudDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "黑箱福利欺诈检测系统"@zh ;
+    rdfs:label "Blackbox Welfare Fraud Detection System"@en ;
+    airo:hasRisk ex:HumanRightsBreachRisk ;
+    airo:hasPurpose ex:WelfareFraudDetectionPurpose ;
+    airo:isDeployedBy ex:DutchGovernment ;
+    airo:hasStakeholder ex:DutchCourt .
+
+ex:HumanRightsBreachRisk rdf:type airo:Risk ;
+    rdfs:label "人权侵犯风险"@zh ;
+    rdfs:label "Human Rights Breach Risk"@en ;
+    airo:isRiskSourceFor ex:LackOfTransparencyRiskSource ;
+    airo:hasConsequence ex:UnjustAccusationsConsequence .
+
+ex:DutchCourt rdf:type airo:Stakeholder ;
+    rdfs:label "荷兰法院"@zh ;
+    rdfs:label "Dutch Court"@en .
+
+ex:DutchGovernment rdf:type airo:AIOperator ;
+    rdfs:label "荷兰政府"@zh ;
+    rdfs:label "Dutch Government"@en .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:DutchCourt .
+
+ex:WelfareFraudDetectionPurpose rdf:type airo:Purpose ;
+    rdfs:label "福利欺诈检测目的"@zh ;
+    rdfs:label "Welfare Fraud Detection Purpose"@en .
+
+ex:LackOfTransparencyRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "缺乏透明度风险源"@zh ;
+    rdfs:label "Lack of Transparency Risk Source"@en .
+
+ex:UnjustAccusationsConsequence rdf:type airo:Consequence ;
+    rdfs:label "不公正指控后果"@zh ;
+    rdfs:label "Unjust Accusations Consequence"@en ;
+    airo:hasImpact ex:PrivacyViolationImpact .

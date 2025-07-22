@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PovertyReductionAlgorithm",
+      "中文名称": "减贫算法",
+      "英文名称": "Poverty Reduction Algorithm",
+      "来源": "An algorithm intended to reduce poverty might disqualify people in need"
+    },
+    "Risk": {
+      "id": "ExclusionOfNeedyPeopleRisk",
+      "中文名称": "排除需要帮助人群的风险",
+      "英文名称": "Welfare Targeting Exclusion Risk",
+      "来源": "An Algorithm Aimed To Help Jordan's Poor. It Excluded Some In Need"
+    },
+    "Consequence": {
+      "id": "DenialOfAssistance",
+      "中文名称": "援助被拒绝的后果",
+      "英文名称": "Denial of Assistance Consequence",
+      "来源": "Automated Neglect"
+    },
+    "AISubject": {
+      "id": "JordanPoorPopulation",
+      "中文名称": "约旦贫困人口",
+      "英文名称": "Jordan's Poor",
+      "来源": "An Algorithm Aimed To Help Jordan's Poor"
+    },
+    "Impact": {
+      "id": "IncreasedPovertyLevels",
+      "中文名称": "贫困水平加剧的影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "Automated Neglect"
+    },
+    "Purpose": {
+      "id": "PovertyAlleviation",
+      "中文名称": "扶贫目的",
+      "英文名称": "Poverty Alleviation Purpose",
+      "来源": "An algorithm intended to reduce poverty"
+    },
+    "Domain": {
+      "id": "SocialWelfare",
+      "中文名称": "社会福利领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "An algorithm intended to reduce poverty"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标识别中的算法偏差风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "It Excluded Some In Need"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PovertyReductionAlgorithm",
+      "中文名称": "减贫算法",
+      "英文名称": "Poverty Reduction Algorithm",
+      "来源": "An algorithm intended to reduce poverty might disqualify people in need"
+    },
+    "Risk": {
+      "id": "ExclusionOfNeedyPeopleRisk",
+      "中文名称": "排除需要帮助人群的风险",
+      "英文名称": "Welfare Targeting Exclusion Risk",
+      "来源": "An Algorithm Aimed To Help Jordan's Poor. It Excluded Some In Need"
+    },
+    "Consequence": {
+      "id": "DenialOfAssistance",
+      "中文名称": "援助被拒绝的后果",
+      "英文名称": "Denial of Assistance Consequence",
+      "来源": "Automated Neglect"
+    },
+    "AISubject": {
+      "id": "JordanPoorPopulation",
+      "中文名称": "约旦贫困人口",
+      "英文名称": "Jordan's Poor",
+      "来源": "An Algorithm Aimed To Help Jordan's Poor"
+    },
+    "Impact": {
+      "id": "IncreasedPovertyLevels",
+      "中文名称": "贫困水平加剧的影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "Automated Neglect"
+    },
+    "Purpose": {
+      "id": "PovertyAlleviation",
+      "中文名称": "扶贫目的",
+      "英文名称": "Poverty Alleviation Purpose",
+      "来源": "An algorithm intended to reduce poverty"
+    },
+    "Domain": {
+      "id": "SocialWelfare",
+      "中文名称": "社会福利领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "An algorithm intended to reduce poverty"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标识别中的算法偏差风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "It Excluded Some In Need"
+    }
+  }
+}

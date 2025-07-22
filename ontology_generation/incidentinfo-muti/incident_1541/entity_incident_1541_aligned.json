@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Stakeholder": {
+      "id": "NewYorkCityPublicSchools",
+      "中文名称": "纽约市公立学校",
+      "英文名称": "New York Schools",
+      "来源": "New York City public schools remove ChatGPT ban"
+    },
+    "Consequence": {
+      "id": "PotentialCheatingInAcademicWork",
+      "中文名称": "学术作品潜在作弊后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "RiskControl": {
+      "id": "ChatGPTBan",
+      "中文名称": "ChatGPT禁令",
+      "英文名称": "ChatGPT Ban",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Purpose": {
+      "id": "EssayWritingAndPromptAnswering",
+      "中文名称": "论文写作和提示回答目的",
+      "英文名称": "Academic & Educational Support",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Impact": {
+      "id": "EducationalSystemDisruption",
+      "中文名称": "教育系统中断影响",
+      "英文名称": "Educational Negative Impact",
+      "来源": "New York City's public schools reverse their ban on ChatGPT — admitting it had been 'knee-jerk fear'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Stakeholder": {
+      "id": "NewYorkCityPublicSchools",
+      "中文名称": "纽约市公立学校",
+      "英文名称": "New York Schools",
+      "来源": "New York City public schools remove ChatGPT ban"
+    },
+    "Consequence": {
+      "id": "PotentialCheatingInAcademicWork",
+      "中文名称": "学术作品潜在作弊后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "RiskControl": {
+      "id": "ChatGPTBan",
+      "中文名称": "ChatGPT禁令",
+      "英文名称": "ChatGPT Ban",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Purpose": {
+      "id": "EssayWritingAndPromptAnswering",
+      "中文名称": "论文写作和提示回答目的",
+      "英文名称": "Academic & Educational Support",
+      "来源": "New York City schools ban AI chatbot that writes essays and answers prompts"
+    },
+    "Impact": {
+      "id": "EducationalSystemDisruption",
+      "中文名称": "教育系统中断影响",
+      "英文名称": "Educational Negative Impact",
+      "来源": "New York City's public schools reverse their ban on ChatGPT — admitting it had been 'knee-jerk fear'"
+    }
+  }
+}

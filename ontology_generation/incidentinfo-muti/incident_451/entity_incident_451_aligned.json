@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EmotionReadingTechnology",
+      "中文名称": "情绪识别技术",
+      "英文名称": "Emotion Reading Technology",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "Risk": {
+      "id": "RacialBiasInEmotionRecognition",
+      "中文名称": "情绪识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Emotion Recognition Risk",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "AISubject": {
+      "id": "IndividualsOfDifferentRaces",
+      "中文名称": "不同种族的个体",
+      "英文名称": "Individuals of Different Races",
+      "来源": "Racial Influence on Automated Perceptions of Emotions"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Racial Influence on Automated Perceptions of Emotions"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "EmotionReadingTechnology",
+      "中文名称": "情绪识别技术",
+      "英文名称": "Emotion Reading Technology",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "Risk": {
+      "id": "RacialBiasInEmotionRecognition",
+      "中文名称": "情绪识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Emotion Recognition Risk",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "AISubject": {
+      "id": "IndividualsOfDifferentRaces",
+      "中文名称": "不同种族的个体",
+      "英文名称": "Individuals of Different Races",
+      "来源": "Racial Influence on Automated Perceptions of Emotions"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Emotion-reading tech fails the racial bias test"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Racial Influence on Automated Perceptions of Emotions"
+    }
+  }
+}

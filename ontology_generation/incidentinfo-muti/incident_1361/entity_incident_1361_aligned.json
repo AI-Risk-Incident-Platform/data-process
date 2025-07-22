@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DWPHousingBenefitFraudDetectionAlgorithm",
+      "中文名称": "DWP住房福利欺诈检测算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    },
+    "Risk": {
+      "id": "FalseFraudAccusationRisk",
+      "中文名称": "虚假欺诈指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DWP bot wrongly flags 200,000 for housing benefit fraud"
+    },
+    "Consequence": {
+      "id": "UnjustifiedBenefitSuspension",
+      "中文名称": "不公正福利暂停后果",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "wrongly flags 200,000 people for housing benefit fraud"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForInnocentClaimants",
+      "中文名称": "无辜申请人财务困难影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "AISubject": {
+      "id": "HousingBenefitClaimants",
+      "中文名称": "住房福利申请人",
+      "英文名称": "Housing Benefit Claimants",
+      "来源": "flags 200,000 people for housing benefit fraud"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicErrorInFraudDetection",
+      "中文名称": "欺诈检测中的算法错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "Domain": {
+      "id": "SocialWelfareAdministration",
+      "中文名称": "社会福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "housing benefit fraud"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DWPHousingBenefitFraudDetectionAlgorithm",
+      "中文名称": "DWP住房福利欺诈检测算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "DWP algorithm 'wrongly flags' 200,000 people for fraud"
+    },
+    "Risk": {
+      "id": "FalseFraudAccusationRisk",
+      "中文名称": "虚假欺诈指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DWP bot wrongly flags 200,000 for housing benefit fraud"
+    },
+    "Consequence": {
+      "id": "UnjustifiedBenefitSuspension",
+      "中文名称": "不公正福利暂停后果",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "wrongly flags 200,000 people for housing benefit fraud"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForInnocentClaimants",
+      "中文名称": "无辜申请人财务困难影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "AISubject": {
+      "id": "HousingBenefitClaimants",
+      "中文名称": "住房福利申请人",
+      "英文名称": "Housing Benefit Claimants",
+      "来源": "flags 200,000 people for housing benefit fraud"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicErrorInFraudDetection",
+      "中文名称": "欺诈检测中的算法错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "Domain": {
+      "id": "SocialWelfareAdministration",
+      "中文名称": "社会福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "housing benefit fraud"
+    }
+  }
+}

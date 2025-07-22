@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VGGFace",
+      "中文名称": "VGG人脸识别系统",
+      "英文名称": "VGG Face Recognition System",
+      "来源": "新闻标题中提到的VGG Face"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "人脸识别系统通常涉及的隐私问题"
+    },
+    "AICapability": {
+      "id": "FaceRecognition",
+      "中文名称": "人脸识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "VGG Face作为人脸识别系统的核心功能"
+    },
+    "AITechnique": {
+      "id": "DeepLearning",
+      "中文名称": "深度学习技术",
+      "英文名称": "Deep Learning Technique",
+      "来源": "VGG Face基于深度学习技术"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "人脸识别系统的主要应用目的"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VGGFace",
+      "中文名称": "VGG人脸识别系统",
+      "英文名称": "VGG Face Recognition System",
+      "来源": "新闻标题中提到的VGG Face"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "人脸识别系统通常涉及的隐私问题"
+    },
+    "AICapability": {
+      "id": "FaceRecognition",
+      "中文名称": "人脸识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "VGG Face作为人脸识别系统的核心功能"
+    },
+    "AITechnique": {
+      "id": "DeepLearning",
+      "中文名称": "深度学习技术",
+      "英文名称": "Deep Learning Technique",
+      "来源": "VGG Face基于深度学习技术"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "人脸识别系统的主要应用目的"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionCriminalityPredictionSystem",
+      "中文名称": "面部识别犯罪预测系统",
+      "英文名称": "Facial Recognition Criminality Prediction System",
+      "来源": "Researchers still foolishly think AI can predict criminality by looking at photos"
+    },
+    "Risk": {
+      "id": "RacialBiasInCriminalityPrediction",
+      "中文名称": "犯罪预测中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Over 1,000 Experts Call Out \"Racially Biased\" AI Designed To Predict Crime Based On Your Face"
+    },
+    "AITechnique": {
+      "id": "FacialFeatureAnalysis",
+      "中文名称": "面部特征分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "AI can predict criminality by looking at photos"
+    },
+    "Stakeholder": {
+      "id": "ResearchScientists",
+      "中文名称": "研究科学家",
+      "英文名称": "Researchers",
+      "来源": "Researchers still foolishly think AI can predict criminality"
+    },
+    "AISubject": {
+      "id": "IndividualsBeingAssessed",
+      "中文名称": "被评估个体",
+      "英文名称": "Test Takers",
+      "来源": "AI Designed To Predict Crime Based On Your Face"
+    },
+    "Impact": {
+      "id": "DiscriminatoryLawEnforcement",
+      "中文名称": "歧视性执法影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "\"Racially Biased\" AI Designed To Predict Crime"
+    },
+    "Purpose": {
+      "id": "CriminalBehaviorPrediction",
+      "中文名称": "犯罪行为预测目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "AI Designed To Predict Crime Based On Your Face"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "\"Racially Biased\" AI Designed To Predict Crime"
+    },
+    "Consequence": {
+      "id": "UnjustProfiling",
+      "中文名称": "不公正画像后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "AI can predict criminality by looking at photos"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionCriminalityPredictionSystem",
+      "中文名称": "面部识别犯罪预测系统",
+      "英文名称": "Facial Recognition Criminality Prediction System",
+      "来源": "Researchers still foolishly think AI can predict criminality by looking at photos"
+    },
+    "Risk": {
+      "id": "RacialBiasInCriminalityPrediction",
+      "中文名称": "犯罪预测中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Over 1,000 Experts Call Out \"Racially Biased\" AI Designed To Predict Crime Based On Your Face"
+    },
+    "AITechnique": {
+      "id": "FacialFeatureAnalysis",
+      "中文名称": "面部特征分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "AI can predict criminality by looking at photos"
+    },
+    "Stakeholder": {
+      "id": "ResearchScientists",
+      "中文名称": "研究科学家",
+      "英文名称": "Researchers",
+      "来源": "Researchers still foolishly think AI can predict criminality"
+    },
+    "AISubject": {
+      "id": "IndividualsBeingAssessed",
+      "中文名称": "被评估个体",
+      "英文名称": "Test Takers",
+      "来源": "AI Designed To Predict Crime Based On Your Face"
+    },
+    "Impact": {
+      "id": "DiscriminatoryLawEnforcement",
+      "中文名称": "歧视性执法影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "\"Racially Biased\" AI Designed To Predict Crime"
+    },
+    "Purpose": {
+      "id": "CriminalBehaviorPrediction",
+      "中文名称": "犯罪行为预测目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "AI Designed To Predict Crime Based On Your Face"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "\"Racially Biased\" AI Designed To Predict Crime"
+    },
+    "Consequence": {
+      "id": "UnjustProfiling",
+      "中文名称": "不公正画像后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "AI can predict criminality by looking at photos"
+    }
+  }
+}

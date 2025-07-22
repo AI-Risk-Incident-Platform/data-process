@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICourtSentencingSystem",
+      "中文名称": "AI法庭量刑系统",
+      "英文名称": "AI Court Sentencing System",
+      "来源": "Artificial Intelligence to be applied in Sarawak courts"
+    },
+    "Risk": {
+      "id": "UnjustSentencingRisk",
+      "中文名称": "不公正量刑风险",
+      "英文名称": "Unjust Sentencing Risk",
+      "来源": "Lawyers rebel over use of AI to sentence rapists and drug dealers in Malaysia"
+    },
+    "Stakeholder": {
+      "id": "MalaysianLawyers",
+      "中文名称": "马来西亚律师",
+      "英文名称": "Malaysian Lawyers",
+      "来源": "Lawyers rebel over use of AI to sentence rapists and drug dealers in Malaysia"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Judicial System",
+      "来源": "As Malaysia tests AI court sentencing, some lawyers fear for justice"
+    },
+    "Purpose": {
+      "id": "AutomatedSentencingDecision",
+      "中文名称": "自动化量刑决策",
+      "英文名称": "Automated Sentencing Decision",
+      "来源": "Artificial Intelligence to be applied in Sarawak courts"
+    },
+    "Consequence": {
+      "id": "PotentialMiscarriageOfJustice",
+      "中文名称": "潜在司法不公后果",
+      "英文名称": "Potential Miscarriage of Justice Consequence",
+      "来源": "As Malaysia tests AI court sentencing, some lawyers fear for justice"
+    },
+    "Impact": {
+      "id": "ErosionOfPublicTrustInJudicialSystem",
+      "中文名称": "削弱公众对司法系统信任的影响",
+      "英文名称": "Erosion of Public Trust in Judicial System Impact",
+      "来源": "As Malaysia tests AI court sentencing, some lawyers fear for justice"
+    },
+    "AISubject": {
+      "id": "CriminalDefendants",
+      "中文名称": "刑事被告",
+      "英文名称": "Criminal Defendants",
+      "来源": "Lawyers rebel over use of AI to sentence rapists and drug dealers in Malaysia"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanJudgmentInSentencing",
+      "中文名称": "量刑中缺乏人类判断的风险源",
+      "英文名称": "Lack of Human Judgment in Sentencing Risk Source",
+      "来源": "As Malaysia tests AI court sentencing, some lawyers fear for justice"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingImageCreator",
+      "中文名称": "必应图像生成器",
+      "英文名称": "Bing Image Creator",
+      "来源": "Microsoft Adjusts Bing Image Creator Following Disney Complaint"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Microsoft's Bing can't stop people from generating Mickey Mouse"
+    },
+    "Stakeholder": {
+      "id": "Disney",
+      "中文名称": "迪士尼",
+      "英文名称": "Disney",
+      "来源": "Microsoft Adjusts Bing Image Creator Following Disney Complaint"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft Cracks Down on Disney Logos in AI-Generated Social Media Posts"
+    },
+    "RiskControl": {
+      "id": "ContentModerationAdjustment",
+      "中文名称": "内容审核调整",
+      "英文名称": "Content Moderation Adjustment",
+      "来源": "Microsoft Adjusts Bing Image Creator Following Disney Complaint"
+    },
+    "Misuse": {
+      "id": "UnauthorizedCharacterGeneration",
+      "中文名称": "未经授权的角色生成",
+      "英文名称": "Unauthorized Character Generation",
+      "来源": "Microsoft's Bing can't stop people from generating Mickey Mouse"
+    },
+    "Domain": {
+      "id": "SocialMediaContentCreation",
+      "中文名称": "社交媒体内容创作",
+      "英文名称": "Social Media Content Creation",
+      "来源": "Microsoft Cracks Down on Disney Logos in AI-Generated Social Media Posts"
+    }
+  }
+}

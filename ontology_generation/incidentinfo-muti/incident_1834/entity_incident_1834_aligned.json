@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LLMAgent",
+      "中文名称": "LLM代理",
+      "英文名称": "LLM Agent",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "Risk": {
+      "id": "ImproperToolUseRisk",
+      "中文名称": "工具不当使用风险",
+      "英文名称": "Improper Tool Use Risk",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "AICapability": {
+      "id": "ToolIntegrationCapability",
+      "中文名称": "工具集成能力",
+      "英文名称": "Tool Integration Capability",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "RiskSource": {
+      "id": "PromptInjectionAttack",
+      "中文名称": "提示注入攻击",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "Consequence": {
+      "id": "UnauthorizedToolExecution",
+      "中文名称": "未经授权的工具执行",
+      "英文名称": "Unauthorized Tool Execution",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LLMAgent",
+      "中文名称": "LLM代理",
+      "英文名称": "LLM Agent",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "Risk": {
+      "id": "ImproperToolUseRisk",
+      "中文名称": "工具不当使用风险",
+      "英文名称": "Improper Tool Use Risk",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "AICapability": {
+      "id": "ToolIntegrationCapability",
+      "中文名称": "工具集成能力",
+      "英文名称": "Tool Integration Capability",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "RiskSource": {
+      "id": "PromptInjectionAttack",
+      "中文名称": "提示注入攻击",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    },
+    "Consequence": {
+      "id": "UnauthorizedToolExecution",
+      "中文名称": "未经授权的工具执行",
+      "英文名称": "Unauthorized Tool Execution",
+      "来源": "Imprompter: Tricking LLM Agents into Improper Tool Use"
+    }
+  }
+}

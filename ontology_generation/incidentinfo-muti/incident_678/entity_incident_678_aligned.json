@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Risk": {
+      "id": "PrivacyComplianceRisk",
+      "中文名称": "隐私合规风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Stakeholder": {
+      "id": "EuropeanUnion",
+      "中文名称": "欧盟",
+      "英文名称": "European Union",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT's 'hallucinations' have OpenAI under scrutiny in Europe"
+    },
+    "RiskSource": {
+      "id": "HallucinationBehavior",
+      "中文名称": "幻觉行为风险源",
+      "英文名称": "Hallucination Risk Source",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Impact": {
+      "id": "RegulatoryScrutiny",
+      "中文名称": "监管审查影响",
+      "英文名称": "Regulatory Scrutiny Impact",
+      "来源": "ChatGPT's 'hallucinations' have OpenAI under scrutiny in Europe"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Risk": {
+      "id": "PrivacyComplianceRisk",
+      "中文名称": "隐私合规风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Stakeholder": {
+      "id": "EuropeanUnion",
+      "中文名称": "欧盟",
+      "英文名称": "European Union",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT's 'hallucinations' have OpenAI under scrutiny in Europe"
+    },
+    "RiskSource": {
+      "id": "HallucinationBehavior",
+      "中文名称": "幻觉行为风险源",
+      "英文名称": "Hallucination Risk Source",
+      "来源": "ChatGPT’s hallucinations draw EU privacy complaint"
+    },
+    "Impact": {
+      "id": "RegulatoryScrutiny",
+      "中文名称": "监管审查影响",
+      "英文名称": "Regulatory Scrutiny Impact",
+      "来源": "ChatGPT's 'hallucinations' have OpenAI under scrutiny in Europe"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasRisk",
+      "中文名称": "算法偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "There’s something strange about TikTok recommendations"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "There’s something strange about TikTok recommendations"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Impact": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasRisk",
+      "中文名称": "算法偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "There’s something strange about TikTok recommendations"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "There’s something strange about TikTok recommendations"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    },
+    "Impact": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Is TikTok’s algorithm actually pretty racist?"
+    }
+  }
+}

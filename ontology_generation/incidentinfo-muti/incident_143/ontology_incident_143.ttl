@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RemoteTestingSoftware rdf:type airo:AISystem ;
+    rdfs:label "Remote Testing Software"@en ;
+    rdfs:label "远程考试软件"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:UniversityOfIllinois ;
+    airo:hasAISubject ex:Students .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolationImpact .
+
+ex:UniversityOfIllinois rdf:type airo:Stakeholder ;
+    rdfs:label "University of Illinois"@en ;
+    rdfs:label "伊利诺伊大学"@zh .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Students .

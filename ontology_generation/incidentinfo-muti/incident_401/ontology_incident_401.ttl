@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberServiceAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Uber Service Algorithm"@en ;
+    rdfs:label "优步服务算法"@zh ;
+    airo:hasRisk ex:RacialBiasInServiceAllocation ;
+    airo:hasStakeholder ex:MinorityCommunities ;
+    airo:isAppliedWithinDomain ex:RideHailingServices .
+
+ex:RacialBiasInServiceAllocation rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Service Allocation Risk"@en ;
+    rdfs:label "服务分配中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:UnequalServiceAccess ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:UnequalServiceAccess rdf:type airo:Consequence ;
+    rdfs:label "Unequal Service Access Consequence"@en ;
+    rdfs:label "服务获取不平等后果"@zh ;
+    airo:hasImpact ex:DiscriminationAgainstMinorities .
+
+ex:DiscriminationAgainstMinorities rdf:type airo:Impact ;
+    rdfs:label "Discrimination Against Minorities Impact"@en ;
+    rdfs:label "对少数族裔的歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MinorityCommunities .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:MinorityCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "Minority Communities"@en ;
+    rdfs:label "少数族裔社区"@zh .
+
+ex:RideHailingServices rdf:type airo:Domain ;
+    rdfs:label "Ride-Hailing Services Domain"@en ;
+    rdfs:label "网约车服务领域"@zh .

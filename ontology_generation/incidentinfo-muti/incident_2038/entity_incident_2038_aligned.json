@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PonyAiDriverlessSystem",
+      "中文名称": "小马智行无人驾驶系统",
+      "英文名称": "Pony.ai Driverless System",
+      "来源": "Pony.ai suspension of driverless pilot in California"
+    },
+    "Risk": {
+      "id": "DriverlessTestingSafetyRisk",
+      "中文名称": "无人驾驶测试安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    },
+    "AIOperator": {
+      "id": "PonyAi",
+      "中文名称": "小马智行",
+      "英文名称": "Pony.ai",
+      "来源": "Pony.ai suspension of driverless pilot in California"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California suspends Pony.ai's driverless testing permit"
+    },
+    "Consequence": {
+      "id": "TestingPermitSuspension",
+      "中文名称": "测试许可暂停后果",
+      "英文名称": "Testing Permit Suspension Consequence",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶车辆测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "California suspends Pony.ai's driverless testing permit"
+    },
+    "RiskSource": {
+      "id": "SmallCrashIncident",
+      "中文名称": "小型碰撞事故风险源",
+      "英文名称": "Small Crash Incident Risk Source",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PonyAiDriverlessSystem",
+      "中文名称": "小马智行无人驾驶系统",
+      "英文名称": "Pony.ai Driverless System",
+      "来源": "Pony.ai suspension of driverless pilot in California"
+    },
+    "Risk": {
+      "id": "DriverlessTestingSafetyRisk",
+      "中文名称": "无人驾驶测试安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    },
+    "AIOperator": {
+      "id": "PonyAi",
+      "中文名称": "小马智行",
+      "英文名称": "Pony.ai",
+      "来源": "Pony.ai suspension of driverless pilot in California"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California suspends Pony.ai's driverless testing permit"
+    },
+    "Consequence": {
+      "id": "TestingPermitSuspension",
+      "中文名称": "测试许可暂停后果",
+      "英文名称": "Testing Permit Suspension Consequence",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶车辆测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "California suspends Pony.ai's driverless testing permit"
+    },
+    "RiskSource": {
+      "id": "SmallCrashIncident",
+      "中文名称": "小型碰撞事故风险源",
+      "英文名称": "Small Crash Incident Risk Source",
+      "来源": "California DMV Suspends Pony.ai Driverless Testing Permit After Small Crash"
+    }
+  }
+}

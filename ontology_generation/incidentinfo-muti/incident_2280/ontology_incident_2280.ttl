@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleFatalityRisk ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving ;
+    airo:hasPurpose ex:AutonomousDrivingAssistance ;
+    airo:hasStakeholder ex:TeslaInc .
+
+ex:AutonomousVehicleFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆致命风险"@zh ;
+    rdfs:label "Autonomous Vehicle Fatality Risk"@en ;
+    airo:hasConsequence ex:PedestrianFatality .
+
+ex:PedestrianFatality rdf:type airo:Consequence ;
+    rdfs:label "行人死亡后果"@zh ;
+    rdfs:label "Pedestrian Fatality Consequence"@en ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "人员死亡影响"@zh ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TeslaInc .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "自动驾驶领域"@zh ;
+    rdfs:label "Autonomous Driving Domain"@en .
+
+ex:AutonomousDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "自动驾驶辅助目的"@zh ;
+    rdfs:label "Autonomous Driving Assistance Purpose"@en .

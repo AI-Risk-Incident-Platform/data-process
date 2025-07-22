@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramCommentAI",
+      "中文名称": "Instagram评论AI",
+      "英文名称": "Instagram Comment AI",
+      "来源": "新闻标题中提到的Alexis Mac Allister在Instagram上的评论"
+    },
+    "Risk": {
+      "id": "InappropriateContentRisk",
+      "中文名称": "不当内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题中提到的\"X-rated message\"和\"Racy Instagram Comment\""
+    },
+    "Stakeholder": {
+      "id": "AlexisMacAllister",
+      "中文名称": "亚历克西斯·麦卡利斯特",
+      "英文名称": "Alexis Mac Allister",
+      "来源": "新闻标题中提到的Alexis Mac Allister"
+    },
+    "AISubject": {
+      "id": "CamilaMayan",
+      "中文名称": "卡米拉·马扬",
+      "英文名称": "Camila Mayan",
+      "来源": "新闻标题中提到的Alexis Mac Allister的妻子Camila Mayan"
+    },
+    "Impact": {
+      "id": "PublicScandal",
+      "中文名称": "公众丑闻",
+      "英文名称": "Public Scandal",
+      "来源": "新闻标题中提到的\"goes viral\""
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "InstagramCommentAI",
+      "中文名称": "Instagram评论AI",
+      "英文名称": "Instagram Comment AI",
+      "来源": "新闻标题中提到的Alexis Mac Allister在Instagram上的评论"
+    },
+    "Risk": {
+      "id": "InappropriateContentRisk",
+      "中文名称": "不当内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题中提到的\"X-rated message\"和\"Racy Instagram Comment\""
+    },
+    "Stakeholder": {
+      "id": "AlexisMacAllister",
+      "中文名称": "亚历克西斯·麦卡利斯特",
+      "英文名称": "Alexis Mac Allister",
+      "来源": "新闻标题中提到的Alexis Mac Allister"
+    },
+    "AISubject": {
+      "id": "CamilaMayan",
+      "中文名称": "卡米拉·马扬",
+      "英文名称": "Camila Mayan",
+      "来源": "新闻标题中提到的Alexis Mac Allister的妻子Camila Mayan"
+    },
+    "Impact": {
+      "id": "PublicScandal",
+      "中文名称": "公众丑闻",
+      "英文名称": "Public Scandal",
+      "来源": "新闻标题中提到的\"goes viral\""
+    }
+  }
+}

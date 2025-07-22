@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAIResearchSystem rdf:type airo:AISystem ;
+    rdfs:label "Google AI Research System"@en ;
+    rdfs:label "谷歌AI研究系统"@zh ;
+    airo:hasRisk ex:EthicalAIResearchSuppressionRisk ;
+    airo:hasStakeholder ex:GoogleAIEthicsResearcher ;
+    airo:isDeployedBy ex:GoogleLLC .
+
+ex:EthicalAIResearchSuppressionRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical AI Research Suppression Risk"@en ;
+    rdfs:label "伦理AI研究压制风险"@zh ;
+    airo:isRiskSourceFor ex:CorporateCensorshipOfResearch ;
+    airo:hasConsequence ex:LossOfDiversePerspectivesInAI .
+
+ex:GoogleAIEthicsResearcher rdf:type airo:Stakeholder ;
+    rdfs:label "Google AI Ethics Researcher"@en ;
+    rdfs:label "谷歌AI伦理研究员"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:ResearchCommunityBacklash rdf:type airo:Impact ;
+    rdfs:label "Research Community Backlash Impact"@en ;
+    rdfs:label "研究界强烈反对的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoogleAIEthicsResearcher .
+
+ex:LossOfDiversePerspectivesInAI rdf:type airo:Consequence ;
+    rdfs:label "Loss of Diverse Perspectives in AI Consequence"@en ;
+    rdfs:label "AI领域多样性视角丧失的后果"@zh ;
+    airo:hasImpact ex:ResearchCommunityBacklash .
+
+ex:CorporateCensorshipOfResearch rdf:type airo:RiskSource ;
+    rdfs:label "Corporate Censorship of Research Risk Source"@en ;
+    rdfs:label "企业对研究的审查风险源"@zh .

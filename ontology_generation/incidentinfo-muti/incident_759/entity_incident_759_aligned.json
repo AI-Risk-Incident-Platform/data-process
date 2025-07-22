@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Stakeholder": {
+      "id": "AmericanPublic",
+      "中文名称": "美国公众",
+      "英文名称": "American Public",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Consequence": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "舆论操纵后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Stakeholder": {
+      "id": "AmericanPublic",
+      "中文名称": "美国公众",
+      "英文名称": "American Public",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Consequence": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "舆论操纵后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Foreign TikTok Networks Are Pushing Political Lies to Americans"
+    }
+  }
+}

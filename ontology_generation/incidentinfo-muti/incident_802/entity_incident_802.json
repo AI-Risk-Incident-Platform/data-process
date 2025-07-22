@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeCallSystem",
+      "中文名称": "深度伪造通话系统",
+      "英文名称": "Deepfake Call System",
+      "来源": "Senator targeted in deepfake call with ‘malign actor’ posing as Ukrainian"
+    },
+    "Risk": {
+      "id": "PoliticalDeceptionRisk",
+      "中文名称": "政治欺骗风险",
+      "英文名称": "Political Deception Risk",
+      "来源": "‘malign actor’ posing as Ukrainian"
+    },
+    "Stakeholder": {
+      "id": "ForeignRelationsChair",
+      "中文名称": "外交关系委员会主席",
+      "英文名称": "Foreign Relations Chair",
+      "来源": "Foreign Relations chair targeted in sophisticated deepfake operation"
+    },
+    "AISubject": {
+      "id": "Senator",
+      "中文名称": "参议员",
+      "英文名称": "Senator",
+      "来源": "Senator targeted in deepfake call"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis Technology",
+      "来源": "sophisticated deepfake operation"
+    },
+    "Purpose": {
+      "id": "PoliticalDeception",
+      "中文名称": "政治欺骗",
+      "英文名称": "Political Deception",
+      "来源": "‘malign actor’ posing as Ukrainian official"
+    },
+    "Impact": {
+      "id": "TrustErosionInPoliticalCommunication",
+      "中文名称": "政治沟通信任侵蚀",
+      "英文名称": "Trust Erosion in Political Communication",
+      "来源": "targeted in deepfake call"
+    },
+    "RiskSource": {
+      "id": "MalignActor",
+      "中文名称": "恶意行为者",
+      "英文名称": "Malign Actor",
+      "来源": "‘malign actor’ posing as Ukrainian"
+    }
+  }
+}

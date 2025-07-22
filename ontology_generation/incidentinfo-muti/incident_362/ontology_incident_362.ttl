@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BlueWolfFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Blue Wolf Facial Recognition System"@en ;
+    rdfs:label "蓝狼面部识别系统"@zh ;
+    airo:hasRisk ex:MassSurveillanceRisk ;
+    airo:isDeployedBy ex:IsraeliArmy ;
+    airo:hasAISubject ex:PalestiniansInWestBank ;
+    airo:isAppliedWithinDomain ex:MilitarySurveillance ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:MassSurveillanceRisk rdf:type airo:Risk ;
+    rdfs:label "Mass Surveillance Risk"@en ;
+    rdfs:label "大规模监控风险"@zh ;
+    airo:hasConsequence ex:CivilLibertiesErosion .
+
+ex:IsraeliArmy rdf:type airo:AIOperator ;
+    rdfs:label "Israeli Army"@en ;
+    rdfs:label "以色列军队"@zh .
+
+ex:PalestiniansInWestBank rdf:type airo:AISubject ;
+    rdfs:label "Palestinians in West Bank"@en ;
+    rdfs:label "西岸巴勒斯坦人"@zh .
+
+ex:MilitarySurveillance rdf:type airo:Domain ;
+    rdfs:label "Military Surveillance Domain"@en ;
+    rdfs:label "军事监控领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:CivilLibertiesErosion rdf:type airo:Consequence ;
+    rdfs:label "Civil Liberties Erosion Consequence"@en ;
+    rdfs:label "公民自由侵蚀后果"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PalestiniansInWestBank .

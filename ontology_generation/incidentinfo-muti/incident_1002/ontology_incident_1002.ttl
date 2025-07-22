@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeChildPornCreationTool rdf:type airo:AISystem ;
+    rdfs:label "深度伪造儿童色情制作工具"@zh ;
+    rdfs:label "Deepfake Child Porn Creation Tool"@en ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:isDeployedBy ex:EdinburgDPSSergeant ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:IllegalContentCreation ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:isAppliedWithinDomain ex:LawEnforcementAndChildProtection .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "儿童剥削风险"@zh ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    airo:hasConsequence ex:ChildVictimization ;
+    airo:isRiskSourceFor ex:MisuseOfDeepfakeTechnology .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "执法机构"@zh ;
+    rdfs:label "Law Enforcement Agencies"@en .
+
+ex:EdinburgDPSSergeant rdf:type airo:AIOperator ;
+    rdfs:label "爱丁堡DPS警官"@zh ;
+    rdfs:label "Edinburg DPS Sergeant"@en .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:ChildVictimization rdf:type airo:Consequence ;
+    rdfs:label "儿童受害后果"@zh ;
+    rdfs:label "Child Victimization Consequence"@en ;
+    airo:hasImpact ex:PsychologicalHarmToChildren .
+
+ex:PsychologicalHarmToChildren rdf:type airo:Impact ;
+    rdfs:label "对儿童的心理伤害影响"@zh ;
+    rdfs:label "Psychological Harm to Children Impact"@en ;
+    airo:hasImpactOnStakeholder ex:LawEnforcementAgencies .
+
+ex:MisuseOfDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "深度伪造技术的滥用风险源"@zh ;
+    rdfs:label "Misuse of Deepfake Technology Risk Source"@en .
+
+ex:IllegalContentCreation rdf:type airo:Purpose ;
+    rdfs:label "非法内容制作目的"@zh ;
+    rdfs:label "Illegal Content Creation Purpose"@en .
+
+ex:LawEnforcementAndChildProtection rdf:type airo:Domain ;
+    rdfs:label "执法与儿童保护领域"@zh ;
+    rdfs:label "Law Enforcement and Child Protection Domain"@en .

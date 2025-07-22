@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PoliceRobot",
+      "中文名称": "警察机器人",
+      "英文名称": "Police Robot",
+      "来源": "标题中提到的'RoboCop'和'Police robot'"
+    },
+    "Risk": {
+      "id": "IneffectivePublicServiceRisk",
+      "中文名称": "公共服务失效风险",
+      "英文名称": "Ineffective Public Service Risk",
+      "来源": "机器人忽视犯罪报告并唱歌的行为"
+    },
+    "Consequence": {
+      "id": "FailureToReportCrime",
+      "中文名称": "未能报告犯罪的后果",
+      "英文名称": "Failure to Report Crime Consequence",
+      "来源": "机器人忽视了一名试图报告犯罪的女性"
+    },
+    "Stakeholder": {
+      "id": "CrimeVictim",
+      "中文名称": "犯罪受害者",
+      "英文名称": "Crime Victim",
+      "来源": "试图报告犯罪的女性"
+    },
+    "AIOperator": {
+      "id": "CaliforniaPoliceDepartment",
+      "中文名称": "加州警察局",
+      "英文名称": "California Police Department",
+      "来源": "标题中提到的'California's First Robotic Police Officer'"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "机器人未能履行其预期职责"
+    },
+    "Purpose": {
+      "id": "PublicSafetyAssistance",
+      "中文名称": "公共安全协助的目的",
+      "英文名称": "Public Safety Assistance Purpose",
+      "来源": "作为警察机器人，其预期目的是协助公共安全"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "机器人被部署在警察部门"
+    },
+    "Misuse": {
+      "id": "InappropriateBehavior",
+      "中文名称": "不当行为",
+      "英文名称": "Inappropriate Behavior Misuse",
+      "来源": "机器人忽视报告并唱歌的行为"
+    }
+  }
+}

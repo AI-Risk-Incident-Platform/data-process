@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CNAFAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "CNAF Algorithm"@en ;
+    rdfs:label "CNAF算法"@zh ;
+    airo:hasRisk ex:DiscriminationAgainstPoorFamilies ;
+    airo:hasAISubject ex:PoorBenefitRecipients ;
+    airo:hasStakeholder ex:ATDQuartMonde ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystem .
+
+ex:DiscriminationAgainstPoorFamilies rdf:type airo:Risk ;
+    rdfs:label "Discrimination Against Poor Families Risk"@en ;
+    rdfs:label "对贫困家庭的歧视风险"@zh ;
+    airo:hasConsequence ex:UnfairBenefitDistribution ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasAgainstPoor .
+
+ex:UnfairBenefitDistribution rdf:type airo:Consequence ;
+    rdfs:label "Unfair Benefit Distribution Consequence"@en ;
+    rdfs:label "福利分配不公后果"@zh ;
+    airo:hasImpact ex:SocialExclusion .
+
+ex:ATDQuartMonde rdf:type airo:Stakeholder ;
+    rdfs:label "ATD Quart Monde"@en ;
+    rdfs:label "第四世界运动组织"@zh .
+
+ex:PoorBenefitRecipients rdf:type airo:AISubject ;
+    rdfs:label "Poor Benefit Recipients"@en ;
+    rdfs:label "贫困福利领取者"@zh .
+
+ex:SocialExclusion rdf:type airo:Impact ;
+    rdfs:label "Social Exclusion Impact"@en ;
+    rdfs:label "社会排斥影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoorBenefitRecipients .
+
+ex:SocialWelfareSystem rdf:type airo:Domain ;
+    rdfs:label "Social Welfare System Domain"@en ;
+    rdfs:label "社会福利系统领域"@zh .
+
+ex:AlgorithmicBiasAgainstPoor rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Against Poor Risk Source"@en ;
+    rdfs:label "针对贫困人群的算法偏见风险源"@zh .

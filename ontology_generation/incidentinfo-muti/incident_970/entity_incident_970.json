@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeNewsGenerationSystem",
+      "中文名称": "虚假新闻生成系统",
+      "英文名称": "Fake News Generation System",
+      "来源": "Russia Targets Harris with Rhino-Shooting Hoax and Fake Website"
+    },
+    "Risk": {
+      "id": "PoliticalDisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "Political Disinformation Risk",
+      "来源": "Putin's pro-Trump trolls accuse Harris of poaching rhinos"
+    },
+    "Stakeholder": {
+      "id": "RussianTrolls",
+      "中文名称": "俄罗斯网络水军",
+      "英文名称": "Russian Trolls",
+      "来源": "Putin's pro-Trump trolls accuse Harris of poaching rhinos"
+    },
+    "AISubject": {
+      "id": "PoliticalCandidate",
+      "中文名称": "政治候选人",
+      "英文名称": "Political Candidate",
+      "来源": "Russia Targets Harris with Rhino-Shooting Hoax and Fake Website"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Reputation Damage",
+      "来源": "Russia Targets Harris with Rhino-Shooting Hoax and Fake Website"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵",
+      "英文名称": "Political Manipulation",
+      "来源": "Putin's pro-Trump trolls accuse Harris of poaching rhinos"
+    },
+    "RiskSource": {
+      "id": "StateSponsoredDisinformation",
+      "中文名称": "国家支持的虚假信息",
+      "英文名称": "State-Sponsored Disinformation",
+      "来源": "Russia Targets Harris with Rhino-Shooting Hoax and Fake Website"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗",
+      "英文名称": "Public Deception",
+      "来源": "Putin's pro-Trump trolls accuse Harris of poaching rhinos"
+    }
+  }
+}

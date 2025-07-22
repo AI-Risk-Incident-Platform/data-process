@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SmartCCTVNetworks rdf:type airo:AISystem ;
+    rdfs:label "Smart CCTV Networks"@en ;
+    rdfs:label "智能闭路电视网络"@zh ;
+    airo:hasRisk ex:AI-PoweredApartheidRisk ;
+    airo:hasCapability ex:FacialRecognition ;
+    airo:hasPurpose ex:PublicSurveillance ;
+    airo:isAppliedWithinDomain ex:PublicSecurity ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:hasStakeholder ex:SouthAfricanCitizens .
+
+ex:AI-PoweredApartheidRisk rdf:type airo:Risk ;
+    rdfs:label "AI-Powered Apartheid Risk"@en ;
+    rdfs:label "AI驱动的种族隔离风险"@zh ;
+    airo:hasConsequence ex:SocialDiscrimination .
+
+ex:SocialDiscrimination rdf:type airo:Consequence ;
+    rdfs:label "Social Discrimination Consequence"@en ;
+    rdfs:label "社会歧视后果"@zh ;
+    airo:hasImpact ex:HumanRightsViolation .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .
+
+ex:SouthAfricanCitizens rdf:type airo:Stakeholder ;
+    rdfs:label "South African Citizens"@en ;
+    rdfs:label "南非公民"@zh .
+
+ex:HumanRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Human Rights Violation Impact"@en ;
+    rdfs:label "人权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SouthAfricanCitizens .
+
+ex:PublicSurveillance rdf:type airo:Purpose ;
+    rdfs:label "Public Surveillance Purpose"@en ;
+    rdfs:label "公共监控目的"@zh .
+
+ex:PublicSecurity rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .

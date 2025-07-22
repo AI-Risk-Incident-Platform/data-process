@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleContentModerationAI",
+      "中文名称": "谷歌内容审核AI",
+      "英文名称": "Google Content AI",
+      "来源": "Google AI flags dad's photos of child's groin infection after phone share with doctors"
+    },
+    "Risk": {
+      "id": "MedicalImageMisclassificationRisk",
+      "中文名称": "医疗图像误分类风险",
+      "英文名称": "Medical Image Misclassification Risk",
+      "来源": "Google refuses to reinstate man’s account after he took medical images of son’s groin"
+    },
+    "Consequence": {
+      "id": "AccountTermination",
+      "中文名称": "账户终止后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "Google bans father over medical photos of child’s groin"
+    },
+    "AISubject": {
+      "id": "ParentSharingMedicalImages",
+      "中文名称": "分享医疗图像的父母",
+      "英文名称": "Parent Sharing Medical Images",
+      "来源": "Google AI flags dad's photos of child's groin infection after phone share with doctors"
+    },
+    "Stakeholder": {
+      "id": "MedicalProfessionals",
+      "中文名称": "医疗专业人员",
+      "英文名称": "Medical Providers",
+      "来源": "after phone share with doctors"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google AI flags dad's photos"
+    },
+    "RiskSource": {
+      "id": "SensitiveBodyPartDetection",
+      "中文名称": "敏感身体部位检测",
+      "英文名称": "Nudity Detection Risk Source",
+      "来源": "photos of child's groin infection"
+    },
+    "Impact": {
+      "id": "HealthcareCommunicationDisruption",
+      "中文名称": "医疗沟通中断影响",
+      "英文名称": "Healthcare Communication Disruption Impact",
+      "来源": "after phone share with doctors"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleContentModerationAI",
+      "中文名称": "谷歌内容审核AI",
+      "英文名称": "Google Content AI",
+      "来源": "Google AI flags dad's photos of child's groin infection after phone share with doctors"
+    },
+    "Risk": {
+      "id": "MedicalImageMisclassificationRisk",
+      "中文名称": "医疗图像误分类风险",
+      "英文名称": "Medical Image Misclassification Risk",
+      "来源": "Google refuses to reinstate man’s account after he took medical images of son’s groin"
+    },
+    "Consequence": {
+      "id": "AccountTermination",
+      "中文名称": "账户终止后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "Google bans father over medical photos of child’s groin"
+    },
+    "AISubject": {
+      "id": "ParentSharingMedicalImages",
+      "中文名称": "分享医疗图像的父母",
+      "英文名称": "Parent Sharing Medical Images",
+      "来源": "Google AI flags dad's photos of child's groin infection after phone share with doctors"
+    },
+    "Stakeholder": {
+      "id": "MedicalProfessionals",
+      "中文名称": "医疗专业人员",
+      "英文名称": "Medical Providers",
+      "来源": "after phone share with doctors"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google AI flags dad's photos"
+    },
+    "RiskSource": {
+      "id": "SensitiveBodyPartDetection",
+      "中文名称": "敏感身体部位检测",
+      "英文名称": "Nudity Detection Risk Source",
+      "来源": "photos of child's groin infection"
+    },
+    "Impact": {
+      "id": "HealthcareCommunicationDisruption",
+      "中文名称": "医疗沟通中断影响",
+      "英文名称": "Healthcare Communication Disruption Impact",
+      "来源": "after phone share with doctors"
+    }
+  }
+}

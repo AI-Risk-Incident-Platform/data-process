@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramHashtagAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram Hashtag Algorithm"@en ;
+    rdfs:label "Instagram标签算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInPoliticalContent ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:hasStakeholder ex:PoliticalCandidates ;
+    airo:hasPurpose ex:ContentVisibilityManagement ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:HashtagFilteringAlgorithm ;
+    airo:hasVulnerability ex:AlgorithmicTransparencyDeficit .
+
+ex:AlgorithmicBiasInPoliticalContent rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Political Content Risk"@en ;
+    rdfs:label "政治内容中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnequalPoliticalExposure .
+
+ex:UnequalPoliticalExposure rdf:type airo:Consequence ;
+    rdfs:label "Unequal Political Exposure Consequence"@en ;
+    rdfs:label "政治曝光不平等后果"@zh ;
+    airo:hasImpact ex:CampaignEffectivenessDisparity .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:PoliticalCandidates rdf:type airo:Stakeholder ;
+    rdfs:label "Political Candidates"@en ;
+    rdfs:label "政治候选人"@zh .
+
+ex:CampaignEffectivenessDisparity rdf:type airo:Impact ;
+    rdfs:label "Campaign Effectiveness Disparity Impact"@en ;
+    rdfs:label "竞选效果差异影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalCandidates .
+
+ex:ContentVisibilityManagement rdf:type airo:Purpose ;
+    rdfs:label "Content Visibility Management Purpose"@en ;
+    rdfs:label "内容可见性管理目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:HashtagFilteringAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Hashtag Filtering Algorithm Technique"@en ;
+    rdfs:label "标签过滤算法技术"@zh .
+
+ex:AlgorithmicTransparencyDeficit rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Transparency Deficit Vulnerability"@en ;
+    rdfs:label "算法透明度不足脆弱性"@zh .

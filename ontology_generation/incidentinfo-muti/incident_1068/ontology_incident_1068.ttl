@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSurveillanceSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Surveillance System"@en ;
+    rdfs:label "面部识别监控系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:NewOrleansPoliceDepartment ;
+    airo:hasAISubject ex:NewOrleansCitizens ;
+    airo:hasPurpose ex:CrimeSuspectMonitoring ;
+    airo:usesTechnique ex:RealTimeFacialRecognition .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:MassSurveillance ;
+    airo:isRiskSourceFor ex:SecretMonitoringProgram .
+
+ex:NewOrleansPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "New Orleans Police Department"@en ;
+    rdfs:label "新奥尔良警察局"@zh .
+
+ex:NewOrleansCitizens rdf:type airo:AISubject ;
+    rdfs:label "New Orleans Citizens"@en ;
+    rdfs:label "新奥尔良市民"@zh .
+
+ex:CrimeSuspectMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Crime Suspect Monitoring"@en ;
+    rdfs:label "犯罪嫌疑监控"@zh .
+
+ex:MassSurveillance rdf:type airo:Consequence ;
+    rdfs:label "Mass Surveillance Consequence"@en ;
+    rdfs:label "大规模监控后果"@zh ;
+    airo:hasImpact ex:CivilLibertiesErosion .
+
+ex:CivilLibertiesErosion rdf:type airo:Impact ;
+    rdfs:label "Civil Liberties Erosion Impact"@en ;
+    rdfs:label "公民自由侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewOrleansCitizens .
+
+ex:RealTimeFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Facial Recognition Technique"@en ;
+    rdfs:label "实时面部识别技术"@zh .
+
+ex:SecretMonitoringProgram rdf:type airo:RiskSource ;
+    rdfs:label "Secret Monitoring Program Risk Source"@en ;
+    rdfs:label "秘密监控计划风险源"@zh .

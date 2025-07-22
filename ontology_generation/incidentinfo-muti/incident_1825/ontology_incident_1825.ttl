@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ApplePhotoAnalysisAI rdf:type airo:AISystem ;
+    rdfs:label "苹果照片分析AI"@zh ;
+    rdfs:label "Apple Photo Analysis AI"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:AppleInc ;
+    airo:hasPurpose ex:LandmarkIdentification ;
+    airo:isAppliedWithinDomain ex:PersonalPhotoManagement ;
+    airo:hasStakeholder ex:AppleUsers .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:AutomaticOptInFeature ;
+    airo:hasConsequence ex:PersonalDataExposure .
+
+ex:AppleUsers rdf:type airo:Stakeholder ;
+    rdfs:label "苹果用户"@zh ;
+    rdfs:label "Apple Users"@en .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "苹果公司"@zh ;
+    rdfs:label "Apple Inc."@en .
+
+ex:LandmarkIdentification rdf:type airo:Purpose ;
+    rdfs:label "地标识别"@zh ;
+    rdfs:label "Landmark Identification"@en .
+
+ex:PersonalPhotoManagement rdf:type airo:Domain ;
+    rdfs:label "个人照片管理"@zh ;
+    rdfs:label "Personal Photo Management"@en .
+
+ex:AutomaticOptInFeature rdf:type airo:RiskSource ;
+    rdfs:label "自动选择加入功能"@zh ;
+    rdfs:label "Automatic Opt-In Feature"@en .
+
+ex:PersonalDataExposure rdf:type airo:Impact ;
+    rdfs:label "个人数据暴露"@zh ;
+    rdfs:label "Personal Data Exposure"@en ;
+    airo:hasImpactOnStakeholder ex:AppleUsers .

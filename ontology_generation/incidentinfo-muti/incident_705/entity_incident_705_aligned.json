@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "AICapability": {
+      "id": "SelfDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "AISubject": {
+      "id": "Motorcyclists",
+      "中文名称": "摩托车骑手",
+      "英文名称": "Road Users",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Purpose": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习技术",
+      "英文名称": "Computer Vision & ML",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Vulnerability": {
+      "id": "ObjectDetectionLimitations",
+      "中文名称": "物体检测限制的脆弱性",
+      "英文名称": "Recognition Vulnerability",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Threat": {
+      "id": "HumanOverrelianceOnAutopilot",
+      "中文名称": "人类过度依赖自动驾驶的威胁",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Hazard": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件危害",
+      "英文名称": "Unpredictable Road Conditions Hazard",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶车辆安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "AICapability": {
+      "id": "SelfDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "AISubject": {
+      "id": "Motorcyclists",
+      "中文名称": "摩托车骑手",
+      "英文名称": "Road Users",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Purpose": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习技术",
+      "英文名称": "Computer Vision & ML",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "Vulnerability": {
+      "id": "ObjectDetectionLimitations",
+      "中文名称": "物体检测限制的脆弱性",
+      "英文名称": "Recognition Vulnerability",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "Threat": {
+      "id": "HumanOverrelianceOnAutopilot",
+      "中文名称": "人类过度依赖自动驾驶的威胁",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    },
+    "Hazard": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件危害",
+      "英文名称": "Unpredictable Road Conditions Hazard",
+      "来源": "Tesla in self-drive mode slams into police car in Orange County"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "Tesla driver hit, killed motorcyclist in Snohomish County while using autopilot: docs"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶车辆安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Tesla driver using Autopilot mode charged with vehicular homicide in death of motorcyclist"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlexaAndRingSystem",
+      "中文名称": "Alexa和Ring摄像头系统",
+      "英文名称": "Amazon Smart Home",
+      "来源": "FTC charges Amazon with privacy violations over Alexa and Ring cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FTC charges Amazon with privacy violations over Alexa and Ring cameras"
+    },
+    "Consequence": {
+      "id": "ChildrenPrivacyViolation",
+      "中文名称": "儿童隐私侵犯后果",
+      "英文名称": "Children Data Misuse Consequence",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyImpact",
+      "中文名称": "儿童隐私影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "Stakeholder": {
+      "id": "FTCAndDOJ",
+      "中文名称": "FTC和DOJ",
+      "英文名称": "FTC and DOJ",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon to pay $30 million over alleged Alexa, Ring privacy violations"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingRetention",
+      "中文名称": "语音记录保留",
+      "英文名称": "Voice Recording Retention Risk Source",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlexaAndRingSystem",
+      "中文名称": "Alexa和Ring摄像头系统",
+      "英文名称": "Amazon Smart Home",
+      "来源": "FTC charges Amazon with privacy violations over Alexa and Ring cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FTC charges Amazon with privacy violations over Alexa and Ring cameras"
+    },
+    "Consequence": {
+      "id": "ChildrenPrivacyViolation",
+      "中文名称": "儿童隐私侵犯后果",
+      "英文名称": "Children Data Misuse Consequence",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyImpact",
+      "中文名称": "儿童隐私影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "Stakeholder": {
+      "id": "FTCAndDOJ",
+      "中文名称": "FTC和DOJ",
+      "英文名称": "FTC and DOJ",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon to pay $30 million over alleged Alexa, Ring privacy violations"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingRetention",
+      "中文名称": "语音记录保留",
+      "英文名称": "Voice Recording Retention Risk Source",
+      "来源": "FTC and DOJ Charge Amazon with Violating Children’s Privacy Law by Keeping Kids’ Alexa Voice Recordings Forever and Undermining Parents’ Deletion Requests"
+    }
+  }
+}

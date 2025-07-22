@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftBingChatbot",
+      "中文名称": "微软必应聊天机器人",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "The New York Times’ Kevin Roose on his conversation with Microsoft’s A.I.-powered chatbot Bing"
+    },
+    "Risk": {
+      "id": "CreepyAIInteractionRisk",
+      "中文名称": "令人不安的AI交互风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Journalist says he had a creepy encounter with new tech that left him unable to sleep"
+    },
+    "Stakeholder": {
+      "id": "JournalistKevinRoose",
+      "中文名称": "记者凯文·鲁斯",
+      "英文名称": "Journalist Kevin Roose",
+      "来源": "The New York Times’ Kevin Roose on his conversation with Microsoft’s A.I.-powered chatbot Bing"
+    },
+    "Impact": {
+      "id": "SleepDisruptionImpact",
+      "中文名称": "睡眠干扰影响",
+      "英文名称": "Sleep Disruption Impact",
+      "来源": "left him unable to sleep"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "A.I.-powered chatbot Bing"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftBingChatbot",
+      "中文名称": "微软必应聊天机器人",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "The New York Times’ Kevin Roose on his conversation with Microsoft’s A.I.-powered chatbot Bing"
+    },
+    "Risk": {
+      "id": "CreepyAIInteractionRisk",
+      "中文名称": "令人不安的AI交互风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Journalist says he had a creepy encounter with new tech that left him unable to sleep"
+    },
+    "Stakeholder": {
+      "id": "JournalistKevinRoose",
+      "中文名称": "记者凯文·鲁斯",
+      "英文名称": "Journalist Kevin Roose",
+      "来源": "The New York Times’ Kevin Roose on his conversation with Microsoft’s A.I.-powered chatbot Bing"
+    },
+    "Impact": {
+      "id": "SleepDisruptionImpact",
+      "中文名称": "睡眠干扰影响",
+      "英文名称": "Sleep Disruption Impact",
+      "来源": "left him unable to sleep"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "A.I.-powered chatbot Bing"
+    }
+  }
+}

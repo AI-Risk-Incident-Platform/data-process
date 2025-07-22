@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iBorderCtrl",
+      "中文名称": "iBorderCtrl自动边境安全系统",
+      "英文名称": "iBorderCtrl Automated Border Security System",
+      "来源": "iBorderCtrl: Automated Border Security System"
+    },
+    "Risk": {
+      "id": "BorderSecurityRisk",
+      "中文名称": "边境安全风险",
+      "英文名称": "Border Security Risk",
+      "来源": "Automated Border Security System"
+    },
+    "Domain": {
+      "id": "BorderSecurity",
+      "中文名称": "边境安全领域",
+      "英文名称": "Border Security Domain",
+      "来源": "Automated Border Security System"
+    },
+    "Purpose": {
+      "id": "AutomatedBorderControl",
+      "中文名称": "自动化边境控制目的",
+      "英文名称": "Automated Border Control Purpose",
+      "来源": "Automated Border Security System"
+    },
+    "AICapability": {
+      "id": "AutomatedSecurityScreening",
+      "中文名称": "自动化安全筛查能力",
+      "英文名称": "Automated Security Screening Capability",
+      "来源": "Automated Border Security System"
+    }
+  }
+}

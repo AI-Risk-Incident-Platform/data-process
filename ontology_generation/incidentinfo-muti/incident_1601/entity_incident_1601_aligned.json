@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ImageBasedAITools",
+      "中文名称": "基于图像的AI工具",
+      "英文名称": "Image-Based AI Tools",
+      "来源": "Image-Based AI Tools Can Help Sow Mistrust in Elections, Report Finds"
+    },
+    "Risk": {
+      "id": "ElectionMistrustRisk",
+      "中文名称": "选举不信任风险",
+      "英文名称": "Election Mistrust Risk",
+      "来源": "Image-Based AI Tools Can Help Sow Mistrust in Elections"
+    },
+    "Consequence": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Can Help Sow Mistrust in Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "in Elections"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ImageBasedAITools",
+      "中文名称": "基于图像的AI工具",
+      "英文名称": "Image-Based AI Tools",
+      "来源": "Image-Based AI Tools Can Help Sow Mistrust in Elections, Report Finds"
+    },
+    "Risk": {
+      "id": "ElectionMistrustRisk",
+      "中文名称": "选举不信任风险",
+      "英文名称": "Election Mistrust Risk",
+      "来源": "Image-Based AI Tools Can Help Sow Mistrust in Elections"
+    },
+    "Consequence": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Can Help Sow Mistrust in Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "in Elections"
+    }
+  }
+}

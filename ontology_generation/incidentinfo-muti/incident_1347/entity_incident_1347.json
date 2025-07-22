@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemInSchools",
+      "中文名称": "学校人脸识别系统",
+      "英文名称": "Facial Recognition System in Schools",
+      "来源": "School used facial recognition illegally in canteen"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "School used facial recognition illegally in canteen"
+    },
+    "Stakeholder": {
+      "id": "InformationCommissionersOffice",
+      "中文名称": "信息专员办公室",
+      "英文名称": "Information Commissioner's Office",
+      "来源": "UK school reprimanded by ICO for using facial recognition without DPIA"
+    },
+    "AIOperator": {
+      "id": "SchoolAdministration",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Administration",
+      "来源": "Warning over use of facial recognition tech in schools"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Collection",
+      "来源": "School used facial recognition illegally in canteen"
+    },
+    "Impact": {
+      "id": "StudentPrivacyCompromise",
+      "中文名称": "学生隐私受损",
+      "英文名称": "Student Privacy Compromise",
+      "来源": "Warning over use of facial recognition tech in schools"
+    },
+    "RiskSource": {
+      "id": "LackOfDataProtectionImpactAssessment",
+      "中文名称": "缺乏数据保护影响评估",
+      "英文名称": "Lack of Data Protection Impact Assessment",
+      "来源": "UK school reprimanded by ICO for using facial recognition without DPIA"
+    }
+  }
+}

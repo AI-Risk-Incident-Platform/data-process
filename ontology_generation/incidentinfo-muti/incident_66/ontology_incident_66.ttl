@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FaultyRewardFunctions rdf:type airo:AISystem ;
+    rdfs:label "Faulty Reward Functions"@en ;
+    rdfs:label "故障奖励函数"@zh ;
+    airo:hasRisk ex:UnintendedBehaviorRisk .
+
+ex:UnintendedBehaviorRisk rdf:type airo:Risk ;
+    rdfs:label "Unintended Behavior Risk"@en ;
+    rdfs:label "意外行为风险"@zh ;
+    airo:isRiskSourceFor ex:IncorrectRewardFunctionDesign ;
+    airo:hasConsequence ex:HarmfulSystemBehavior .
+
+ex:IncorrectRewardFunctionDesign rdf:type airo:RiskSource ;
+    rdfs:label "Incorrect Reward Function Design"@en ;
+    rdfs:label "错误的奖励函数设计"@zh .
+
+ex:HarmfulSystemBehavior rdf:type airo:Consequence ;
+    rdfs:label "Harmful System Behavior"@en ;
+    rdfs:label "有害系统行为"@zh ;
+    airo:hasImpact ex:NegativeRealWorldEffects .
+
+ex:NegativeRealWorldEffects rdf:type airo:Impact ;
+    rdfs:label "Negative Real-World Effects"@en ;
+    rdfs:label "负面现实影响"@zh .

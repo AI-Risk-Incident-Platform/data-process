@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:MisidentificationRisk ;
+    airo:hasStakeholder ex:BlackTeen ;
+    airo:hasStakeholder ex:RollerRinkManagement ;
+    airo:isAppliedWithinDomain ex:RetailSecurity .
+
+ex:MisidentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Misidentification Risk"@en ;
+    rdfs:label "错误识别风险"@zh ;
+    airo:hasConsequence ex:UnfairExclusion ;
+    airo:isRiskSourceFor ex:AlgorithmicBias .
+
+ex:UnfairExclusion rdf:type airo:Consequence ;
+    rdfs:label "Unfair Exclusion Consequence"@en ;
+    rdfs:label "不公平排斥后果"@zh ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress Impact"@en ;
+    rdfs:label "情绪困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackTeen .
+
+ex:BlackTeen rdf:type airo:Stakeholder ;
+    rdfs:label "Black Teen"@en ;
+    rdfs:label "黑人青少年"@zh .
+
+ex:RollerRinkManagement rdf:type airo:AIOperator ;
+    rdfs:label "Roller Rink Management"@en ;
+    rdfs:label "溜冰场管理部门"@zh .
+
+ex:AlgorithmicBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Risk Source"@en ;
+    rdfs:label "算法偏见风险源"@zh ;
+    airo:isRiskSourceFor ex:MisidentificationRisk .
+
+ex:RetailSecurity rdf:type airo:Domain ;
+    rdfs:label "Retail Security Domain"@en ;
+    rdfs:label "零售安全领域"@zh .

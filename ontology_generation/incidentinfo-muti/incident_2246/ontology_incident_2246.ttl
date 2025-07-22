@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleHackingRisk ;
+    airo:hasCapability ex:AutonomousDriving ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:hasStakeholder ex:TeslaOwners ;
+    airo:hasVulnerability ex:SensorManipulation .
+
+ex:AutonomousVehicleHackingRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Hacking Risk"@en ;
+    rdfs:label "自动驾驶车辆被黑客攻击风险"@zh ;
+    airo:hasConsequence ex:UnintendedLaneChange ;
+    airo:isRiskSourceFor ex:MaliciousHackers .
+
+ex:UnintendedLaneChange rdf:type airo:Consequence ;
+    rdfs:label "Unintended Lane Change Consequence"@en ;
+    rdfs:label "非预期变道后果"@zh ;
+    airo:hasImpact ex:TrafficSafetyThreat .
+
+ex:AutonomousDriving rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Driving Capability"@en ;
+    rdfs:label "自动驾驶能力"@zh .
+
+ex:TeslaOwners rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Owners"@en ;
+    rdfs:label "特斯拉车主"@zh ;
+    airo:hasImpactOnStakeholder ex:TrafficSafetyThreat .
+
+ex:MaliciousHackers rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Hackers Risk Source"@en ;
+    rdfs:label "恶意黑客风险源"@zh .
+
+ex:TrafficSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Traffic Safety Threat Impact"@en ;
+    rdfs:label "交通安全威胁影响"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .
+
+ex:SensorManipulation rdf:type airo:Vulnerability ;
+    rdfs:label "Sensor Manipulation Vulnerability"@en ;
+    rdfs:label "传感器操纵漏洞"@zh .

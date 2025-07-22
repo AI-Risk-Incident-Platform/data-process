@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    },
+    "Risk": {
+      "id": "ExploitationOfLowWageWorkers",
+      "中文名称": "低薪工人剥削风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Stakeholder": {
+      "id": "Sama",
+      "中文名称": "Sama公司",
+      "英文名称": "Sama",
+      "来源": "Sama Cancelled OpenAI's ChatGPT Contract 8 Months Earlier"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToContentModerators",
+      "中文名称": "内容审核员心理伤害影响",
+      "英文名称": "Psychological Harm to Content Moderators Impact",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "RiskSource": {
+      "id": "LowWageContentModeration",
+      "中文名称": "低薪内容审核风险源",
+      "英文名称": "Low-Wage Content Moderation Risk Source",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    },
+    "Consequence": {
+      "id": "UnethicalLaborPractices",
+      "中文名称": "不道德劳动实践后果",
+      "英文名称": "Labor Exploitation Consequence",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Purpose": {
+      "id": "ContentSafetyImprovement",
+      "中文名称": "内容安全改进目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    },
+    "Risk": {
+      "id": "ExploitationOfLowWageWorkers",
+      "中文名称": "低薪工人剥削风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Stakeholder": {
+      "id": "Sama",
+      "中文名称": "Sama公司",
+      "英文名称": "Sama",
+      "来源": "Sama Cancelled OpenAI's ChatGPT Contract 8 Months Earlier"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToContentModerators",
+      "中文名称": "内容审核员心理伤害影响",
+      "英文名称": "Psychological Harm to Content Moderators Impact",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "RiskSource": {
+      "id": "LowWageContentModeration",
+      "中文名称": "低薪内容审核风险源",
+      "英文名称": "Low-Wage Content Moderation Risk Source",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    },
+    "Consequence": {
+      "id": "UnethicalLaborPractices",
+      "中文名称": "不道德劳动实践后果",
+      "英文名称": "Labor Exploitation Consequence",
+      "来源": "OpenAI Apparently Paid People in the Developing World $2/Hour to Look at the Most Disturbing Content Imaginable"
+    },
+    "Purpose": {
+      "id": "ContentSafetyImprovement",
+      "中文名称": "内容安全改进目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Exclusive: The $2 Per Hour Workers Who Made ChatGPT Safer"
+    }
+  }
+}

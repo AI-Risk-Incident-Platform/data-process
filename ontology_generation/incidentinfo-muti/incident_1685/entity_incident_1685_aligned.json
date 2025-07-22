@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VisaApplicationScreeningAlgorithm",
+      "中文名称": "签证申请筛选算法",
+      "英文名称": "Visa Application Algorithm",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    },
+    "Risk": {
+      "id": "RacialBiasInVisaScreening",
+      "中文名称": "签证筛选中的种族偏见风险",
+      "英文名称": "Immigration Bias Risk",
+      "来源": "Netherlands scores visa applicants using racist algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairRejectionOfVisaApplicants",
+      "中文名称": "签证申请人不公平拒签后果",
+      "英文名称": "Unfair Rejection of Visa Applicants Consequence",
+      "来源": "Netherlands pulling fraud on visa applicants, uses biased algorithm to screen out unwanted people"
+    },
+    "Stakeholder": {
+      "id": "VisaApplicantsFromCertainCountries",
+      "中文名称": "特定国家签证申请人",
+      "英文名称": "Visa Applicants from Certain Countries",
+      "来源": "Netherlands scores visa applicants using racist algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstCertainNationalities",
+      "中文名称": "对特定国籍歧视的影响",
+      "英文名称": "Discrimination Against Certain Nationalities Impact",
+      "来源": "Netherlands pulling fraud on visa applicants, uses biased algorithm to screen out unwanted people"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingDataInAlgorithm",
+      "中文名称": "算法中偏见训练数据的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    },
+    "Domain": {
+      "id": "ImmigrationAndBorderControl",
+      "中文名称": "移民与边境管控领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VisaApplicationScreeningAlgorithm",
+      "中文名称": "签证申请筛选算法",
+      "英文名称": "Visa Application Algorithm",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    },
+    "Risk": {
+      "id": "RacialBiasInVisaScreening",
+      "中文名称": "签证筛选中的种族偏见风险",
+      "英文名称": "Immigration Bias Risk",
+      "来源": "Netherlands scores visa applicants using racist algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairRejectionOfVisaApplicants",
+      "中文名称": "签证申请人不公平拒签后果",
+      "英文名称": "Unfair Rejection of Visa Applicants Consequence",
+      "来源": "Netherlands pulling fraud on visa applicants, uses biased algorithm to screen out unwanted people"
+    },
+    "Stakeholder": {
+      "id": "VisaApplicantsFromCertainCountries",
+      "中文名称": "特定国家签证申请人",
+      "英文名称": "Visa Applicants from Certain Countries",
+      "来源": "Netherlands scores visa applicants using racist algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstCertainNationalities",
+      "中文名称": "对特定国籍歧视的影响",
+      "英文名称": "Discrimination Against Certain Nationalities Impact",
+      "来源": "Netherlands pulling fraud on visa applicants, uses biased algorithm to screen out unwanted people"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingDataInAlgorithm",
+      "中文名称": "算法中偏见训练数据的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    },
+    "Domain": {
+      "id": "ImmigrationAndBorderControl",
+      "中文名称": "移民与边境管控领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Netherlands uses potentially biased algorithm for visa applications"
+    }
+  }
+}

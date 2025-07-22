@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIChatGPT",
+      "中文名称": "OpenAI ChatGPT",
+      "英文名称": "OpenAI ChatGPT",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Eight US newspapers sue OpenAI and Microsoft for copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "NewYorkTimes",
+      "中文名称": "纽约时报",
+      "英文名称": "New York Times",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "Eight US newspapers sue OpenAI and Microsoft for copyright infringement"
+    },
+    "Domain": {
+      "id": "MediaPublishing",
+      "中文名称": "媒体出版领域",
+      "英文名称": "Media Publishing Domain",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation Purpose",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    }
+  }
+}

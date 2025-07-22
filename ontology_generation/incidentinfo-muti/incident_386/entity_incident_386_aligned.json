@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Risk": {
+      "id": "ExtremistContentPropagationRisk",
+      "中文名称": "极端主义内容传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Under-Moderated, Unhinged and Ubiquitous: Al-Shabaab and the Islamic State Networks on Facebook"
+    },
+    "Consequence": {
+      "id": "TerroristRecruitmentAndRadicalization",
+      "中文名称": "恐怖分子招募和激进化后果",
+      "英文名称": "Terrorist Recruitment Consequence",
+      "来源": "Why Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    },
+    "AICapability": {
+      "id": "MultilingualContentAnalysis",
+      "中文名称": "多语言内容分析能力",
+      "英文名称": "Multilingual Content Analysis Capability",
+      "来源": "Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    },
+    "Stakeholder": {
+      "id": "EastAfricanCommunities",
+      "中文名称": "东非社区",
+      "英文名称": "East African Communities",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Under-Moderated, Unhinged and Ubiquitous: Al-Shabaab and the Islamic State Networks on Facebook"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModerationAlgorithms",
+      "中文名称": "内容审核算法不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Impact": {
+      "id": "RegionalSecurityThreat",
+      "中文名称": "地区安全威胁影响",
+      "英文名称": "Regional Security Threat Impact",
+      "来源": "Why Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Risk": {
+      "id": "ExtremistContentPropagationRisk",
+      "中文名称": "极端主义内容传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Under-Moderated, Unhinged and Ubiquitous: Al-Shabaab and the Islamic State Networks on Facebook"
+    },
+    "Consequence": {
+      "id": "TerroristRecruitmentAndRadicalization",
+      "中文名称": "恐怖分子招募和激进化后果",
+      "英文名称": "Terrorist Recruitment Consequence",
+      "来源": "Why Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    },
+    "AICapability": {
+      "id": "MultilingualContentAnalysis",
+      "中文名称": "多语言内容分析能力",
+      "英文名称": "Multilingual Content Analysis Capability",
+      "来源": "Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    },
+    "Stakeholder": {
+      "id": "EastAfricanCommunities",
+      "中文名称": "东非社区",
+      "英文名称": "East African Communities",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Under-Moderated, Unhinged and Ubiquitous: Al-Shabaab and the Islamic State Networks on Facebook"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModerationAlgorithms",
+      "中文名称": "内容审核算法不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Study: Facebook fails to catch East Africa extremist content"
+    },
+    "Impact": {
+      "id": "RegionalSecurityThreat",
+      "中文名称": "地区安全威胁影响",
+      "英文名称": "Regional Security Threat Impact",
+      "来源": "Why Al-Shabaab and Islamic State Pages and Profiles in East African Languages Continue to Plague Facebook"
+    }
+  }
+}

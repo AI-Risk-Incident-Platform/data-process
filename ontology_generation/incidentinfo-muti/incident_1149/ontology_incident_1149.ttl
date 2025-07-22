@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    rdfs:label "Amazon Alexa"@en ;
+    airo:hasRisk ex:UnintendedPurchaseRisk ;
+    airo:hasAICapability ex:VoiceCommandProcessing ;
+    airo:hasStakeholder ex:AmazonCustomers ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasPurpose ex:VoiceControlledShoppingAssistant ;
+    airo:isAppliedWithinDomain ex:SmartHomeDevices ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasVulnerability ex:VoiceCommandMisinterpretation .
+
+ex:UnintendedPurchaseRisk rdf:type airo:Risk ;
+    rdfs:label "意外购买风险"@zh ;
+    rdfs:label "Unintended Purchase Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedPurchases ;
+    airo:isRiskSourceFor ex:AmbientVoiceTriggers .
+
+ex:UnauthorizedPurchases rdf:type airo:Consequence ;
+    rdfs:label "未经授权的购买"@zh ;
+    rdfs:label "Unauthorized Purchases"@en ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:VoiceCommandProcessing rdf:type airo:AICapability ;
+    rdfs:label "语音命令处理能力"@zh ;
+    rdfs:label "Voice Command Processing Capability"@en .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊客户"@zh ;
+    rdfs:label "Amazon Customers"@en .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊"@zh ;
+    rdfs:label "Amazon"@en .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "经济损失"@zh ;
+    rdfs:label "Financial Loss"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .
+
+ex:VoiceControlledShoppingAssistant rdf:type airo:Purpose ;
+    rdfs:label "语音控制购物助手"@zh ;
+    rdfs:label "Voice Controlled Shopping Assistant"@en .
+
+ex:SmartHomeDevices rdf:type airo:Domain ;
+    rdfs:label "智能家居设备"@zh ;
+    rdfs:label "Smart Home Devices"@en .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "自然语言处理技术"@zh ;
+    rdfs:label "Natural Language Processing Technique"@en .
+
+ex:VoiceCommandMisinterpretation rdf:type airo:Vulnerability ;
+    rdfs:label "语音命令误解漏洞"@zh ;
+    rdfs:label "Voice Command Misinterpretation Vulnerability"@en .
+
+ex:AmbientVoiceTriggers rdf:type airo:RiskSource ;
+    rdfs:label "环境语音触发"@zh ;
+    rdfs:label "Ambient Voice Triggers"@en .

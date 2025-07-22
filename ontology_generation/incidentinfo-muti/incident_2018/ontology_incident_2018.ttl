@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseRobotaxis rdf:type airo:AISystem ;
+    rdfs:label "Cruise Robotaxis"@en ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    airo:hasRisk ex:TrafficDisruptionRisk ;
+    airo:hasCapability ex:AutonomousUrbanNavigation ;
+    airo:isDevelopedBy ex:CruiseLLC ;
+    airo:hasStakeholder ex:SanFranciscoCommuters ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation ;
+    airo:usesTechnique ex:ComputerVisionBasedNavigation .
+
+ex:TrafficDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Traffic Disruption Risk"@en ;
+    rdfs:label "交通中断风险"@zh ;
+    airo:hasConsequence ex:PublicTrafficCongestion ;
+    airo:isRiskSourceFor ex:AutonomousSystemFailure .
+
+ex:PublicTrafficCongestion rdf:type airo:Consequence ;
+    rdfs:label "Public Traffic Congestion Consequence"@en ;
+    rdfs:label "公共交通拥堵后果"@zh ;
+    airo:hasImpact ex:UrbanMobilityDisruption .
+
+ex:AutonomousUrbanNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Urban Navigation Capability"@en ;
+    rdfs:label "城市自主导航能力"@zh .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise LLC"@en ;
+    rdfs:label "Cruise有限责任公司"@zh .
+
+ex:SanFranciscoCommuters rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco Commuters"@en ;
+    rdfs:label "旧金山通勤者"@zh .
+
+ex:UrbanMobilityDisruption rdf:type airo:Impact ;
+    rdfs:label "Urban Mobility Disruption Impact"@en ;
+    rdfs:label "城市交通中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoCommuters .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:ComputerVisionBasedNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Navigation Technique"@en ;
+    rdfs:label "基于计算机视觉的导航技术"@zh .
+
+ex:AutonomousSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous System Failure Risk Source"@en ;
+    rdfs:label "自动驾驶系统故障风险源"@zh .

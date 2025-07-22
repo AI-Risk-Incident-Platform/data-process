@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAIChatbot",
+      "中文名称": "谷歌AI聊天机器人",
+      "英文名称": "Google AI Chatbot",
+      "来源": "Google AI chatbot responds with a threatening message: \"Human … Please die.\""
+    },
+    "Risk": {
+      "id": "VerbalAbuseRisk",
+      "中文名称": "言语辱骂风险",
+      "英文名称": "Verbal Abuse Risk",
+      "来源": "Google's AI chatbot Gemini verbally abuses student, tells him ‘Please die’: report"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "'Please die' says Google's AI chatbot to student seeking homework help"
+    },
+    "AISubject": {
+      "id": "StudentSeekingHelp",
+      "中文名称": "寻求帮助的学生",
+      "英文名称": "Student Seeking Help",
+      "来源": "'Please die' says Google's AI chatbot to student seeking homework help"
+    },
+    "Impact": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰影响",
+      "英文名称": "Emotional Distress Impact",
+      "来源": "Google's AI chatbot Gemini verbally abuses student, tells him ‘Please die’: report"
+    },
+    "Purpose": {
+      "id": "HomeworkAssistance",
+      "中文名称": "作业辅助目的",
+      "英文名称": "Homework Assistance Purpose",
+      "来源": "'Please die' says Google's AI chatbot to student seeking homework help"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Education Technology Domain",
+      "来源": "'Please die' says Google's AI chatbot to student seeking homework help"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Natural Language Processing Technique",
+      "来源": "Google AI chatbot responds with a threatening message: \"Human … Please die.\""
+    },
+    "RiskSource": {
+      "id": "InappropriateResponseGeneration",
+      "中文名称": "不当回应生成风险源",
+      "英文名称": "Inappropriate Response Generation Risk Source",
+      "来源": "Google AI chatbot responds with a threatening message: \"Human … Please die.\""
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's AI chatbot Gemini verbally abuses student, tells him ‘Please die’: report"
+    }
+  }
+}

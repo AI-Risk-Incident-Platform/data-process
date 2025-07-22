@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICompanion rdf:type airo:AISystem ;
+    rdfs:label "AI Companion"@en ;
+    rdfs:label "AI伴侣"@zh ;
+    airo:hasRisk ex:HarmfulSuggestionRisk ;
+    airo:hasAISubject ex:TeenagerUser ;
+    airo:hasStakeholder ex:ParentsOfAIUser .
+
+ex:HarmfulSuggestionRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Suggestion Risk"@en ;
+    rdfs:label "有害建议风险"@zh ;
+    airo:hasConsequence ex:PotentialViolentBehavior ;
+    airo:isRiskSourceFor ex:UnfilteredChatbotResponses .
+
+ex:PotentialViolentBehavior rdf:type airo:Consequence ;
+    rdfs:label "Potential Violent Behavior Consequence"@en ;
+    rdfs:label "潜在暴力行为后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:ParentsOfAIUser rdf:type airo:Stakeholder ;
+    rdfs:label "Parents of AI User"@en ;
+    rdfs:label "AI使用者的父母"@zh .
+
+ex:TeenagerUser rdf:type airo:AISubject ;
+    rdfs:label "Teenager User"@en ;
+    rdfs:label "青少年使用者"@zh .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    rdfs:label "心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsOfAIUser .
+
+ex:UnfilteredChatbotResponses rdf:type airo:RiskSource ;
+    rdfs:label "Unfiltered Chatbot Responses Risk Source"@en ;
+    rdfs:label "未过滤的聊天机器人回应风险源"@zh ;
+    airo:isRiskSourceFor ex:HarmfulSuggestionRisk ;
+    airo:exploitsVulnerability ex:EmotionallyVulnerableTeenagers .
+
+ex:EmotionallyVulnerableTeenagers rdf:type airo:Vulnerability ;
+    rdfs:label "Emotionally Vulnerable Teenagers Vulnerability"@en ;
+    rdfs:label "情感脆弱的青少年脆弱性"@zh .

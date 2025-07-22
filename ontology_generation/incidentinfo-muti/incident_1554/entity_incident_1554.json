@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAILanguageModel",
+      "中文名称": "OpenAI语言模型",
+      "英文名称": "OpenAI Language Model",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "Stakeholder": {
+      "id": "AuthorsAndWriters",
+      "中文名称": "作家和作者",
+      "英文名称": "Authors and Writers",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstAICompany",
+      "中文名称": "对AI公司的法律诉讼",
+      "英文名称": "Legal Action Against AI Company",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "Domain": {
+      "id": "PublishingAndLiterature",
+      "中文名称": "出版和文学",
+      "英文名称": "Publishing and Literature",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "RiskSource": {
+      "id": "UseOfCopyrightedMaterialForTraining",
+      "中文名称": "使用受版权保护的材料进行训练",
+      "英文名称": "Use of Copyrighted Material for Training",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    },
+    "Impact": {
+      "id": "PotentialFinancialLossForAuthors",
+      "中文名称": "作者潜在的经济损失",
+      "英文名称": "Potential Financial Loss for Authors",
+      "来源": "Michael Chabon, Other Literary Giants Sue OpenAI Over Alleged Copyright Infringement"
+    }
+  }
+}

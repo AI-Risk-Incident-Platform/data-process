@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FunkSecRansomware rdf:type airo:AISystem ;
+    rdfs:label "FunkSec Ransomware"@en ;
+    rdfs:label "FunkSec勒索软件"@zh ;
+    airo:hasRisk ex:CyberSecurityThreatFromAIRansomware ;
+    airo:usesTechnique ex:AIMalwareDevelopment ;
+    airo:hasStakeholder ex:CheckPointResearch .
+
+ex:CyberSecurityThreatFromAIRansomware rdf:type airo:Risk ;
+    rdfs:label "Cyber Security Threat from AI Ransomware"@en ;
+    rdfs:label "AI勒索软件带来的网络安全威胁"@zh ;
+    airo:isRiskSourceFor ex:AmateurRansomwareGroup .
+
+ex:CheckPointResearch rdf:type airo:Stakeholder ;
+    rdfs:label "Check Point Research"@en ;
+    rdfs:label "Check Point研究团队"@zh .
+
+ex:AIMalwareDevelopment rdf:type airo:AITechnique ;
+    rdfs:label "AI Malware Development Technique"@en ;
+    rdfs:label "AI恶意软件开发技术"@zh .
+
+ex:AmateurRansomwareGroup rdf:type airo:RiskSource ;
+    rdfs:label "Amateur Ransomware Group"@en ;
+    rdfs:label "业余勒索软件组织"@zh .

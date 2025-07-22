@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTInHealthcare rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT in Healthcare"@en ;
+    rdfs:label "医疗保健中的ChatGPT"@zh ;
+    airo:hasRisk ex:InaccurateMedicalNotesRisk ;
+    airo:hasStakeholder ex:AustralianMedicalAssociation ;
+    airo:isDeployedBy ex:DoctorsUsingChatGPT ;
+    airo:isAppliedWithinDomain ex:Healthcare .
+
+ex:InaccurateMedicalNotesRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Medical Notes Risk"@en ;
+    rdfs:label "不准确医疗记录风险"@zh ;
+    airo:hasConsequence ex:PotentialPatientHarm ;
+    airo:isRiskSourceFor ex:UnregulatedAIUseInHealthcare .
+
+ex:AustralianMedicalAssociation rdf:type airo:Stakeholder ;
+    rdfs:label "Australian Medical Association"@en ;
+    rdfs:label "澳大利亚医学协会"@zh .
+
+ex:DoctorsUsingChatGPT rdf:type airo:AIOperator ;
+    rdfs:label "Doctors Using ChatGPT"@en ;
+    rdfs:label "使用ChatGPT的医生"@zh .
+
+ex:UnregulatedAIUseInHealthcare rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Use in Healthcare"@en ;
+    rdfs:label "医疗保健中未受监管的AI使用"@zh .
+
+ex:PotentialPatientHarm rdf:type airo:Consequence ;
+    rdfs:label "Potential Patient Harm"@en ;
+    rdfs:label "潜在患者伤害"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare"@en ;
+    rdfs:label "医疗保健"@zh .

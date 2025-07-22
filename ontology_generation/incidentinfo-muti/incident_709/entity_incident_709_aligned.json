@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla’s Autopilot feature was involved in 13 fatal crashes"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "U.S. Regulators Tie Tesla’s Autopilot to More than a Dozen Fatalities, Hundreds of Crashes"
+    },
+    "Consequence": {
+      "id": "FatalCrashes",
+      "中文名称": "致命车祸后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla Autopilot feature was involved in 13 fatal crashes"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "More than a Dozen Fatalities"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "Tesla Autopilot is being investigated by NHTSA"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s Autopilot feature"
+    },
+    "RiskSource": {
+      "id": "FirstResponderVehicleCollisions",
+      "中文名称": "应急车辆碰撞风险源",
+      "英文名称": "First Responder Vehicle Collisions Risk Source",
+      "来源": "11 crashes involving first responder vehicles"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Autonomous vehicle technology"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla’s Autopilot feature was involved in 13 fatal crashes"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "U.S. Regulators Tie Tesla’s Autopilot to More than a Dozen Fatalities, Hundreds of Crashes"
+    },
+    "Consequence": {
+      "id": "FatalCrashes",
+      "中文名称": "致命车祸后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla Autopilot feature was involved in 13 fatal crashes"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "More than a Dozen Fatalities"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "Tesla Autopilot is being investigated by NHTSA"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s Autopilot feature"
+    },
+    "RiskSource": {
+      "id": "FirstResponderVehicleCollisions",
+      "中文名称": "应急车辆碰撞风险源",
+      "英文名称": "First Responder Vehicle Collisions Risk Source",
+      "来源": "11 crashes involving first responder vehicles"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Autonomous vehicle technology"
+    }
+  }
+}

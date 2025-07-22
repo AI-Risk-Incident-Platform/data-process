@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AdDeliveryAlgorithm",
+      "中文名称": "广告投放算法",
+      "英文名称": "Ad Delivery Algorithm",
+      "来源": "Ad Delivery Algorithms: The Hidden Arbiters of Political Messaging"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "Political Bias Risk",
+      "来源": "The Hidden Arbiters of Political Messaging"
+    },
+    "Domain": {
+      "id": "PoliticalAdvertising",
+      "中文名称": "政治广告领域",
+      "英文名称": "Political Advertising Domain",
+      "来源": "The Hidden Arbiters of Political Messaging"
+    },
+    "Purpose": {
+      "id": "TargetedPoliticalMessaging",
+      "中文名称": "定向政治信息投放目的",
+      "英文名称": "Targeted Political Messaging Purpose",
+      "来源": "The Hidden Arbiters of Political Messaging"
+    },
+    "Impact": {
+      "id": "PoliticalOpinionManipulation",
+      "中文名称": "政治观点操纵影响",
+      "英文名称": "Political Opinion Manipulation Impact",
+      "来源": "The Hidden Arbiters of Political Messaging"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAdTargeting",
+      "中文名称": "广告定向中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Ad Targeting Risk Source",
+      "来源": "The Hidden Arbiters of Political Messaging"
+    }
+  }
+}

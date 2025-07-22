@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BingImageCreator rdf:type airo:AISystem ;
+    rdfs:label "必应图像生成器"@zh ;
+    rdfs:label "Bing Image Creator"@en ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:hasStakeholder ex:Disney ;
+    airo:isAppliedWithinDomain ex:SocialMediaContentCreation .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "版权侵权风险"@zh ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedCharacterGeneration ;
+    airo:hasRiskControl ex:ContentModerationAdjustment .
+
+ex:Disney rdf:type airo:Stakeholder ;
+    rdfs:label "迪士尼"@zh ;
+    rdfs:label "Disney"@en .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "微软"@zh ;
+    rdfs:label "Microsoft"@en .
+
+ex:ContentModerationAdjustment rdf:type airo:RiskControl ;
+    rdfs:label "内容审核调整"@zh ;
+    rdfs:label "Content Moderation Adjustment"@en ;
+    airo:mitigatesRiskConcept ex:CopyrightInfringementRisk .
+
+ex:UnauthorizedCharacterGeneration rdf:type airo:Misuse ;
+    rdfs:label "未经授权的角色生成"@zh ;
+    rdfs:label "Unauthorized Character Generation"@en ;
+    airo:hasImpactOnStakeholder ex:Disney .
+
+ex:SocialMediaContentCreation rdf:type airo:Domain ;
+    rdfs:label "社交媒体内容创作"@zh ;
+    rdfs:label "Social Media Content Creation"@en .

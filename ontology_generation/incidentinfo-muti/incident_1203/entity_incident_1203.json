@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGunDetectionSystem",
+      "中文名称": "AI枪支检测系统",
+      "英文名称": "AI Gun Detection System",
+      "来源": "AI weapon detection system at Antioch High School failed to detect gun in Nashville shooting"
+    },
+    "Risk": {
+      "id": "FailureToDetectWeaponsRisk",
+      "中文名称": "未能检测武器的风险",
+      "英文名称": "Failure to Detect Weapons Risk",
+      "来源": "failed to detect gun in Nashville shooting"
+    },
+    "Consequence": {
+      "id": "FatalSchoolShooting",
+      "中文名称": "致命校园枪击后果",
+      "英文名称": "Fatal School Shooting Consequence",
+      "来源": "Fatal School Shooting"
+    },
+    "Stakeholder": {
+      "id": "AntiochHighSchool",
+      "中文名称": "安提阿高中",
+      "英文名称": "Antioch High School",
+      "来源": "AI weapon detection system at Antioch High School"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Fatal School Shooting"
+    },
+    "Domain": {
+      "id": "SchoolSecurity",
+      "中文名称": "校园安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "School's $1 Million AI Gun Detection System"
+    },
+    "RiskSource": {
+      "id": "SystemFailure",
+      "中文名称": "系统故障风险源",
+      "英文名称": "System Failure Risk Source",
+      "来源": "failed to detect gun"
+    }
+  }
+}

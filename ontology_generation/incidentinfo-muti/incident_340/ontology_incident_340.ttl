@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICarRepairSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Car Repair System"@en ;
+    rdfs:label "AI汽车维修系统"@zh ;
+    airo:hasRisk ex:BodyShopOwnersUnhappinessRisk ;
+    airo:hasStakeholder ex:BodyShopOwners ;
+    airo:isAppliedWithinDomain ex:AutomotiveRepairIndustry .
+
+ex:BodyShopOwnersUnhappinessRisk rdf:type airo:Risk ;
+    rdfs:label "Body Shop Owners Unhappiness Risk"@en ;
+    rdfs:label "车身修理厂主不满风险"@zh ;
+    airo:hasConsequence ex:PotentialJobDisplacement .
+
+ex:BodyShopOwners rdf:type airo:Stakeholder ;
+    rdfs:label "Body Shop Owners"@en ;
+    rdfs:label "车身修理厂主"@zh .
+
+ex:AutomotiveRepairIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Repair Industry"@en ;
+    rdfs:label "汽车维修行业"@zh .
+
+ex:PotentialJobDisplacement rdf:type airo:Impact ;
+    rdfs:label "Potential Job Displacement Impact"@en ;
+    rdfs:label "潜在工作替代影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BodyShopOwners .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonFlexDriverTerminationAlgorithm",
+      "中文名称": "亚马逊Flex司机终止算法",
+      "英文名称": "Amazon Flex Driver Termination Algorithm",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "Risk": {
+      "id": "UnjustTerminationOfContractWorkers",
+      "中文名称": "合同工不公正终止风险",
+      "英文名称": "Unjust Termination of Contract Workers Risk",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "Stakeholder": {
+      "id": "AmazonFlexDeliveryDrivers",
+      "中文名称": "亚马逊Flex送货司机",
+      "英文名称": "Amazon Flex Delivery Drivers",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon Inc.",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "Consequence": {
+      "id": "LossOfIncomeForContractWorkers",
+      "中文名称": "合同工收入损失后果",
+      "英文名称": "Loss of Income for Contract Workers Consequence",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForDrivers",
+      "中文名称": "司机经济困难影响",
+      "英文名称": "Financial Hardship for Drivers Impact",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanOversight",
+      "中文名称": "无人监督的自动化决策风险源",
+      "英文名称": "Automated Decision Making Without Human Oversight Risk Source",
+      "来源": "Amazon algorithms fire Flex delivery drivers"
+    }
+  }
+}

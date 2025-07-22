@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseRobotaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    rdfs:label "Cruise Robotaxi"@en ;
+    airo:hasRisk ex:EmergencyResponseInterferenceRisk ;
+    airo:isDeployedBy ex:CruiseLLC ;
+    airo:hasStakeholder ex:SanFranciscoPoliceDepartment ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTransportation .
+
+ex:EmergencyResponseInterferenceRisk rdf:type airo:Risk ;
+    rdfs:label "紧急响应干扰风险"@zh ;
+    rdfs:label "Emergency Response Interference Risk"@en ;
+    airo:hasConsequence ex:DelayedEmergencyResponse ;
+    airo:isRiskSourceFor ex:VehicleStallInEmergencyScenario .
+
+ex:DelayedEmergencyResponse rdf:type airo:Consequence ;
+    rdfs:label "紧急响应延迟后果"@zh ;
+    rdfs:label "Delayed Emergency Response Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyCompromise .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise有限责任公司"@zh ;
+    rdfs:label "Cruise LLC"@en .
+
+ex:SanFranciscoPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "旧金山警察局"@zh ;
+    rdfs:label "San Francisco Police Department"@en .
+
+ex:PublicSafetyCompromise rdf:type airo:Impact ;
+    rdfs:label "公共安全受损影响"@zh ;
+    rdfs:label "Public Safety Compromise Impact"@en ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoPoliceDepartment .
+
+ex:AutonomousVehicleTransportation rdf:type airo:Domain ;
+    rdfs:label "自动驾驶交通领域"@zh ;
+    rdfs:label "Autonomous Vehicle Transportation Domain"@en .
+
+ex:VehicleStallInEmergencyScenario rdf:type airo:RiskSource ;
+    rdfs:label "紧急情况下车辆停滞风险源"@zh ;
+    rdfs:label "Vehicle Stall in Emergency Scenario Risk Source"@en .

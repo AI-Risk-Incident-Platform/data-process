@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SextortionSchemeAI",
+      "中文名称": "性勒索诈骗AI系统",
+      "英文名称": "Sextortion Scheme AI System",
+      "来源": "'The enemy has upgraded': Parents devastated after sextortion scheme leads to KY teen's death"
+    },
+    "Risk": {
+      "id": "SextortionRisk",
+      "中文名称": "性勒索风险",
+      "英文名称": "Sextortion Risk",
+      "来源": "'The enemy has upgraded': Parents devastated after sextortion scheme leads to KY teen's death"
+    },
+    "Consequence": {
+      "id": "TeenDeath",
+      "中文名称": "青少年死亡后果",
+      "英文名称": "Teen Death Consequence",
+      "来源": "sextortion scheme leads to KY teen's death"
+    },
+    "Impact": {
+      "id": "FamilyDevastation",
+      "中文名称": "家庭崩溃影响",
+      "英文名称": "Family Devastation Impact",
+      "来源": "Parents devastated after sextortion scheme"
+    },
+    "Stakeholder": {
+      "id": "VictimFamily",
+      "中文名称": "受害者家庭",
+      "英文名称": "Victim Family",
+      "来源": "Parents devastated after sextortion scheme"
+    },
+    "AISubject": {
+      "id": "TeenVictim",
+      "中文名称": "青少年受害者",
+      "英文名称": "Teen Victim",
+      "来源": "sextortion scheme leads to KY teen's death"
+    },
+    "RiskSource": {
+      "id": "OnlinePredators",
+      "中文名称": "网络捕食者",
+      "英文名称": "Online Predators",
+      "来源": "'The enemy has upgraded'"
+    }
+  }
+}

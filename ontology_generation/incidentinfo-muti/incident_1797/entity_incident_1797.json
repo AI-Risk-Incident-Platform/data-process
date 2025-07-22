@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeChatFacialRecognitionSystem",
+      "中文名称": "微信人脸识别系统",
+      "英文名称": "WeChat Facial Recognition System",
+      "来源": "人脸识别被破解 登录微信就能转账"
+    },
+    "Risk": {
+      "id": "FacialRecognitionSpoofingRisk",
+      "中文名称": "人脸识别欺骗风险",
+      "英文名称": "Facial Recognition Spoofing Risk",
+      "来源": "诈骗团伙将照片做成能眨眼的小动图"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "人脸识别被破解"
+    },
+    "Stakeholder": {
+      "id": "WeChatUsers",
+      "中文名称": "微信用户",
+      "英文名称": "WeChat Users",
+      "来源": "登录微信就能转账"
+    },
+    "RiskSource": {
+      "id": "AnimatedFaceGIFs",
+      "中文名称": "动态人脸GIF",
+      "英文名称": "Animated Face GIFs",
+      "来源": "诈骗团伙将照片做成能眨眼的小动图"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccountAccess",
+      "中文名称": "未经授权的账户访问",
+      "英文名称": "Unauthorized Account Access",
+      "来源": "登录微信就能转账"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss",
+      "来源": "登录微信就能转账"
+    },
+    "Purpose": {
+      "id": "AccountSecurityAuthentication",
+      "中文名称": "账户安全认证",
+      "英文名称": "Account Security Authentication",
+      "来源": "人脸识别被破解 登录微信就能转账"
+    },
+    "Domain": {
+      "id": "MobilePayment",
+      "中文名称": "移动支付",
+      "英文名称": "Mobile Payment",
+      "来源": "登录微信就能转账"
+    }
+  }
+}

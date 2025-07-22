@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIFakesDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Fakes Detection System"@en ;
+    rdfs:label "AI伪造检测系统"@zh ;
+    airo:hasRisk ex:FailureToDetectAIFakesRisk ;
+    airo:isAppliedWithinDomain ex:PoliticalElections ;
+    airo:hasAISubject ex:VotersInGlobalSouth .
+
+ex:FailureToDetectAIFakesRisk rdf:type airo:Risk ;
+    rdfs:label "Failure to Detect AI Fakes Risk"@en ;
+    rdfs:label "未能检测AI伪造的风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "错误信息传播的后果"@zh ;
+    airo:hasImpact ex:ElectionIntegrityThreat .
+
+ex:ElectionIntegrityThreat rdf:type airo:Impact ;
+    rdfs:label "Election Integrity Threat Impact"@en ;
+    rdfs:label "选举诚信威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VotersInGlobalSouth .
+
+ex:PoliticalElections rdf:type airo:Domain ;
+    rdfs:label "Political Elections Domain"@en ;
+    rdfs:label "政治选举领域"@zh .
+
+ex:VotersInGlobalSouth rdf:type airo:AISubject ;
+    rdfs:label "Voters in Global South"@en ;
+    rdfs:label "全球南方选民"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonVoiceCloningAI",
+      "中文名称": "亚马逊语音克隆AI",
+      "英文名称": "Amazon Voice Cloning AI",
+      "来源": "Amazon accused of using AI to clone actors' voices in Road House remake starring Jake Gyllenhaal"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Road House reboot is accused of copyright infringement — and AI voice cloning"
+    },
+    "Stakeholder": {
+      "id": "Actors",
+      "中文名称": "演员",
+      "英文名称": "Actors",
+      "来源": "Amazon accused of using AI to clone actors' voices"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI to clone actors' voices"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedVoiceReplication",
+      "中文名称": "未经授权的语音复制",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "accused of using AI to clone actors' voices"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonVoiceCloningAI",
+      "中文名称": "亚马逊语音克隆AI",
+      "英文名称": "Amazon Voice Cloning AI",
+      "来源": "Amazon accused of using AI to clone actors' voices in Road House remake starring Jake Gyllenhaal"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Road House reboot is accused of copyright infringement — and AI voice cloning"
+    },
+    "Stakeholder": {
+      "id": "Actors",
+      "中文名称": "演员",
+      "英文名称": "Actors",
+      "来源": "Amazon accused of using AI to clone actors' voices"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI to clone actors' voices"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedVoiceReplication",
+      "中文名称": "未经授权的语音复制",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "accused of using AI to clone actors' voices"
+    }
+  }
+}

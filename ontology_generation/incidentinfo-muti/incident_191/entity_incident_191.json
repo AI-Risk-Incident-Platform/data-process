@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VioGenSystem",
+      "中文名称": "VioGén系统",
+      "英文名称": "VioGén System",
+      "来源": "In Spain, the VioGén algorithm attempts to forecast gender violence"
+    },
+    "Risk": {
+      "id": "GenderViolencePredictionRisk",
+      "中文名称": "性别暴力预测风险",
+      "英文名称": "Gender Violence Prediction Risk",
+      "来源": "The VioGén algorithm attempts to forecast gender violence"
+    },
+    "AICapability": {
+      "id": "ViolenceRiskAssessment",
+      "中文名称": "暴力风险评估能力",
+      "英文名称": "Violence Risk Assessment Capability",
+      "来源": "Validation and Calibration of the Spanish Police Intimate Partner Violence Risk Assessment System (VioGén)"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "Spanish Police Intimate Partner Violence Risk Assessment System"
+    },
+    "Purpose": {
+      "id": "PreventGenderViolence",
+      "中文名称": "预防性别暴力的目的",
+      "英文名称": "Prevent Gender Violence Purpose",
+      "来源": "The VioGén algorithm attempts to forecast gender violence"
+    }
+  }
+}

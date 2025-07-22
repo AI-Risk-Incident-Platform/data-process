@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonPricingAlgorithm",
+      "中文名称": "亚马逊定价算法",
+      "英文名称": "Amazon Pricing Algorithm",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingErrorRisk",
+      "中文名称": "算法定价错误风险",
+      "英文名称": "Algorithmic Pricing Risk",
+      "来源": "Amazon’s $23,698,655.93 book about flies"
+    },
+    "RiskSource": {
+      "id": "AutomatedPricingSystem",
+      "中文名称": "自动化定价系统",
+      "英文名称": "Automated Pricing System",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    },
+    "Consequence": {
+      "id": "AbsurdProductPricing",
+      "中文名称": "荒谬的产品定价后果",
+      "英文名称": "Absurd Product Pricing Consequence",
+      "来源": "Amazon’s $23,698,655.93 book about flies"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonPricingAlgorithm",
+      "中文名称": "亚马逊定价算法",
+      "英文名称": "Amazon Pricing Algorithm",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingErrorRisk",
+      "中文名称": "算法定价错误风险",
+      "英文名称": "Algorithmic Pricing Risk",
+      "来源": "Amazon’s $23,698,655.93 book about flies"
+    },
+    "RiskSource": {
+      "id": "AutomatedPricingSystem",
+      "中文名称": "自动化定价系统",
+      "英文名称": "Automated Pricing System",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    },
+    "Consequence": {
+      "id": "AbsurdProductPricing",
+      "中文名称": "荒谬的产品定价后果",
+      "英文名称": "Absurd Product Pricing Consequence",
+      "来源": "Amazon’s $23,698,655.93 book about flies"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "How A Book About Flies Came To Be Priced $24 Million On Amazon"
+    }
+  }
+}

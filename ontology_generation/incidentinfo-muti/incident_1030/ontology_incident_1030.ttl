@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Generation System"@en ;
+    rdfs:label "深度伪造视频生成系统"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:usesTechnique ex:DeepLearningBasedVideoManipulation ;
+    airo:hasPurpose ex:CreatingFalseNewsForManipulation ;
+    airo:hasStakeholder ex:KenyanTVStation ;
+    airo:hasAISubject ex:DoctorCriticizingPharmaceuticalFirms ;
+    airo:isAppliedWithinDomain ex:MediaAndInformationDissemination .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicPanicAndMisinformation ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfakeTechnology .
+
+ex:PublicPanicAndMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Panic and Misinformation Consequence"@en ;
+    rdfs:label "公众恐慌和虚假信息后果"@zh ;
+    airo:hasImpact ex:ReputationDamageToIndividuals .
+
+ex:DeepLearningBasedVideoManipulation rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Video Manipulation Technique"@en ;
+    rdfs:label "基于深度学习的视频操纵技术"@zh .
+
+ex:KenyanTVStation rdf:type airo:Stakeholder ;
+    rdfs:label "Kenyan TV Station"@en ;
+    rdfs:label "肯尼亚电视台"@zh .
+
+ex:DoctorCriticizingPharmaceuticalFirms rdf:type airo:AISubject ;
+    rdfs:label "Doctor Criticizing Pharmaceutical Firms"@en ;
+    rdfs:label "批评制药公司的医生"@zh .
+
+ex:ReputationDamageToIndividuals rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage to Individuals Impact"@en ;
+    rdfs:label "个人名誉损害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DoctorCriticizingPharmaceuticalFirms .
+
+ex:CreatingFalseNewsForManipulation rdf:type airo:Purpose ;
+    rdfs:label "Creating False News for Manipulation Purpose"@en ;
+    rdfs:label "制造虚假新闻进行操纵的目的"@zh .
+
+ex:MediaAndInformationDissemination rdf:type airo:Domain ;
+    rdfs:label "Media and Information Dissemination Domain"@en ;
+    rdfs:label "媒体和信息传播领域"@zh .
+
+ex:MaliciousUseOfDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of Deepfake Technology Risk Source"@en ;
+    rdfs:label "深度伪造技术的恶意使用风险源"@zh .

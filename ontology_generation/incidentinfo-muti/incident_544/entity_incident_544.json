@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FastFoodJobApplicationChatbots",
+      "中文名称": "快餐工作申请聊天机器人",
+      "英文名称": "Fast Food Job Application Chatbots",
+      "来源": "I applied to McDonald's and 4 other fast food jobs, but the chatbots and automated process made it impossible for me to get hired"
+    },
+    "Risk": {
+      "id": "AutomatedHiringProcessExclusionRisk",
+      "中文名称": "自动化招聘流程排除风险",
+      "英文名称": "Automated Hiring Process Exclusion Risk",
+      "来源": "the chatbots and automated process made it impossible for me to get hired"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "I applied to McDonald's and 4 other fast food jobs"
+    },
+    "AIOperator": {
+      "id": "FastFoodCompanies",
+      "中文名称": "快餐公司",
+      "英文名称": "Fast Food Companies",
+      "来源": "McDonald's and 4 other fast food jobs"
+    },
+    "Consequence": {
+      "id": "ExclusionFromEmploymentOpportunities",
+      "中文名称": "就业机会排除后果",
+      "英文名称": "Exclusion From Employment Opportunities Consequence",
+      "来源": "made it impossible for me to get hired"
+    },
+    "Domain": {
+      "id": "FastFoodIndustry",
+      "中文名称": "快餐行业",
+      "英文名称": "Fast Food Industry Domain",
+      "来源": "McDonald's and 4 other fast food jobs"
+    }
+  }
+}

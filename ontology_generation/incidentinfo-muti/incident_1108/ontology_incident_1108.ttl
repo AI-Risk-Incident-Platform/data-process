@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SogouSyntheticAnchor rdf:type airo:AISystem ;
+    rdfs:label "Sogou Synthetic Anchor"@en ;
+    rdfs:label "搜狗合成主播"@zh ;
+    airo:hasRisk ex:LimitedHumanActivityReplacementRisk ;
+    airo:hasCapability ex:NewsBroadcastingCapability ;
+    airo:hasStakeholder ex:ChinaStateNewsAgency ;
+    airo:isAppliedWithinDomain ex:MediaBroadcasting .
+
+ex:LimitedHumanActivityReplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Limited Human Activity Replacement Risk"@en ;
+    rdfs:label "有限的人类活动替代风险"@zh .
+
+ex:NewsBroadcastingCapability rdf:type airo:AICapability ;
+    rdfs:label "News Broadcasting Capability"@en ;
+    rdfs:label "新闻播报能力"@zh .
+
+ex:ChinaStateNewsAgency rdf:type airo:Stakeholder ;
+    rdfs:label "China State News Agency"@en ;
+    rdfs:label "中国国家通讯社"@zh .
+
+ex:MediaBroadcasting rdf:type airo:Domain ;
+    rdfs:label "Media Broadcasting Domain"@en ;
+    rdfs:label "媒体广播领域"@zh .

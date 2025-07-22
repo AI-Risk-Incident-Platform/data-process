@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:InappropriateUseOfAIInSensitiveSituations ;
+    airo:hasStakeholder ex:VanderbiltUniversity ;
+    airo:isDeployedBy ex:VanderbiltUniversityStaff ;
+    airo:hasPurpose ex:AddressingTragicEventCommunication ;
+    airo:isAppliedWithinDomain ex:HigherEducation .
+
+ex:InappropriateUseOfAIInSensitiveSituations rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Use of AI in Sensitive Situations Risk"@en ;
+    rdfs:label "在敏感情境中不当使用AI的风险"@zh ;
+    airo:hasConsequence ex:PublicOutcryAndReputationDamage ;
+    airo:isRiskSourceFor ex:AutomatingSensitiveHumanCommunication .
+
+ex:VanderbiltUniversity rdf:type airo:Stakeholder ;
+    rdfs:label "Vanderbilt University"@en ;
+    rdfs:label "范德堡大学"@zh .
+
+ex:VanderbiltUniversityStaff rdf:type airo:AIOperator ;
+    rdfs:label "Vanderbilt University Staff"@en ;
+    rdfs:label "范德堡大学工作人员"@zh .
+
+ex:PublicOutcryAndReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Public Outcry and Reputation Damage Consequence"@en ;
+    rdfs:label "公众抗议和声誉损害的后果"@zh ;
+    airo:hasImpact ex:LossOfTrustInInstitution .
+
+ex:LossOfTrustInInstitution rdf:type airo:Impact ;
+    rdfs:label "Loss of Trust in Institution Impact"@en ;
+    rdfs:label "机构信任丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VanderbiltUniversity .
+
+ex:AddressingTragicEventCommunication rdf:type airo:Purpose ;
+    rdfs:label "Addressing Tragic Event Communication Purpose"@en ;
+    rdfs:label "处理悲剧事件沟通的目的"@zh .
+
+ex:HigherEducation rdf:type airo:Domain ;
+    rdfs:label "Higher Education Domain"@en ;
+    rdfs:label "高等教育领域"@zh .
+
+ex:AutomatingSensitiveHumanCommunication rdf:type airo:Misuse ;
+    rdfs:label "Automating Sensitive Human Communication Misuse"@en ;
+    rdfs:label "自动化敏感人际沟通的滥用"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SextortionSchemeAISystem rdf:type airo:AISystem ;
+    rdfs:label "Sextortion Scheme AI System"@en ;
+    rdfs:label "性勒索诈骗AI系统"@zh ;
+    airo:hasRisk ex:SextortionRisk ;
+    airo:hasAISubject ex:TeenVictim ;
+    airo:hasStakeholder ex:VictimFamily .
+
+ex:SextortionRisk rdf:type airo:Risk ;
+    rdfs:label "Sextortion Risk"@en ;
+    rdfs:label "性勒索风险"@zh ;
+    airo:hasConsequence ex:TeenDeath ;
+    airo:isRiskSourceFor ex:OnlinePredators .
+
+ex:TeenDeath rdf:type airo:Consequence ;
+    rdfs:label "Teen Death Consequence"@en ;
+    rdfs:label "青少年死亡后果"@zh ;
+    airo:hasImpact ex:FamilyDevastation .
+
+ex:FamilyDevastation rdf:type airo:Impact ;
+    rdfs:label "Family Devastation Impact"@en ;
+    rdfs:label "家庭崩溃影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VictimFamily .
+
+ex:VictimFamily rdf:type airo:Stakeholder ;
+    rdfs:label "Victim Family"@en ;
+    rdfs:label "受害者家庭"@zh .
+
+ex:TeenVictim rdf:type airo:AISubject ;
+    rdfs:label "Teen Victim"@en ;
+    rdfs:label "青少年受害者"@zh .
+
+ex:OnlinePredators rdf:type airo:RiskSource ;
+    rdfs:label "Online Predators"@en ;
+    rdfs:label "网络捕食者"@zh .

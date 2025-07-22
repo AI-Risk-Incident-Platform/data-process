@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAlgorithm",
+      "中文名称": "Facebook算法",
+      "英文名称": "Facebook Algorithm",
+      "来源": "New evidence of Facebook’s sexist algorithm"
+    },
+    "Risk": {
+      "id": "SexistAlgorithmRisk",
+      "中文名称": "性别歧视算法风险",
+      "英文名称": "Sexist Algorithm Risk",
+      "来源": "New evidence of Facebook’s sexist algorithm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Content Recommendation Capability",
+      "来源": "Facebook’s algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "sexist algorithm"
+    },
+    "Impact": {
+      "id": "GenderDiscrimination",
+      "中文名称": "性别歧视影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "sexist algorithm"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Facebook’s algorithm"
+    },
+    "Domain": {
+      "id": "SocialMedia",
+      "中文名称": "社交媒体领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook’s algorithm"
+    }
+  }
+}

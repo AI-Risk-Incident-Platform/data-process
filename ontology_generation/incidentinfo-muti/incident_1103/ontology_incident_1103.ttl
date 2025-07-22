@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemForJaywalking rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System for Jaywalking"@en ;
+    rdfs:label "用于识别乱穿马路的人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:Jaywalkers ;
+    airo:hasCapability ex:FacialRecognitionForPublicSurveillance ;
+    airo:hasPurpose ex:TrafficViolationEnforcement ;
+    airo:hasStakeholder ex:ChineseGovernment ;
+    airo:isAppliedWithinDomain ex:PublicSafetyAndTrafficManagement ;
+    airo:usesTechnique ex:RealTimeFacialRecognition .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:MassSurveillanceImplementation ;
+    airo:hasImpact ex:PublicPrivacyConcerns .
+
+ex:FacialRecognitionForPublicSurveillance rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Public Surveillance Capability"@en ;
+    rdfs:label "用于公共监控的人脸识别能力"@zh .
+
+ex:ChineseGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Government"@en ;
+    rdfs:label "中国政府"@zh .
+
+ex:Jaywalkers rdf:type airo:AISubject ;
+    rdfs:label "Jaywalkers"@en ;
+    rdfs:label "乱穿马路者"@zh .
+
+ex:PublicPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Privacy Concerns Impact"@en ;
+    rdfs:label "公众隐私担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Jaywalkers .
+
+ex:TrafficViolationEnforcement rdf:type airo:Purpose ;
+    rdfs:label "Traffic Violation Enforcement Purpose"@en ;
+    rdfs:label "交通违规执法的目的"@zh .
+
+ex:PublicSafetyAndTrafficManagement rdf:type airo:Domain ;
+    rdfs:label "Public Safety and Traffic Management Domain"@en ;
+    rdfs:label "公共安全与交通管理领域"@zh .
+
+ex:RealTimeFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Facial Recognition Technique"@en ;
+    rdfs:label "实时人脸识别技术"@zh .
+
+ex:MassSurveillanceImplementation rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Implementation Risk Source"@en ;
+    rdfs:label "大规模监控实施的风险源"@zh .

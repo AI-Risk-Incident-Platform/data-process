@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CCTVFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "CCTV Facial Recognition System"@en ;
+    rdfs:label "CCTV面部识别系统"@zh ;
+    airo:hasRisk ex:RacialProfilingRisk ;
+    airo:isDeployedBy ex:ChineseFirm ;
+    airo:hasStakeholder ex:NHS .
+
+ex:RacialProfilingRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Profiling Risk"@en ;
+    rdfs:label "种族分析风险"@zh ;
+    airo:hasConsequence ex:DiscriminationImpact .
+
+ex:NHS rdf:type airo:Stakeholder ;
+    rdfs:label "NHS"@en ;
+    rdfs:label "英国国家医疗服务体系"@zh .
+
+ex:ChineseFirm rdf:type airo:AIOperator ;
+    rdfs:label "Chinese Firm"@en ;
+    rdfs:label "中国公司"@zh .
+
+ex:DiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "Discrimination Impact"@en ;
+    rdfs:label "歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NHS .

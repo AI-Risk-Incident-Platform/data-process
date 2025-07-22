@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingAI",
+      "中文名称": "必应AI",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Risk": {
+      "id": "TrustworthinessRisk",
+      "中文名称": "可信度风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Stakeholder": {
+      "id": "AIUsers",
+      "中文名称": "AI使用者",
+      "英文名称": "AI Users",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "RiskSource": {
+      "id": "UnreliableOutputs",
+      "中文名称": "不可靠输出",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Bing AI Can't Be Trusted"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BingAI",
+      "中文名称": "必应AI",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Risk": {
+      "id": "TrustworthinessRisk",
+      "中文名称": "可信度风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Stakeholder": {
+      "id": "AIUsers",
+      "中文名称": "AI使用者",
+      "英文名称": "AI Users",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "RiskSource": {
+      "id": "UnreliableOutputs",
+      "中文名称": "不可靠输出",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Bing AI Can't Be Trusted"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Bing AI Can't Be Trusted"
+    }
+  }
+}

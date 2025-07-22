@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "KFCBot",
+      "中文名称": "KFC促销机器人",
+      "英文名称": "KFC Promotion Bot",
+      "来源": "KFC blames bot for chicken promotion that celebrated the beginning of the Holocaust"
+    },
+    "Risk": {
+      "id": "OffensiveContentRisk",
+      "中文名称": "冒犯性内容风险",
+      "英文名称": "Offensive Content Risk",
+      "来源": "chicken promotion that celebrated the beginning of the Holocaust"
+    },
+    "Consequence": {
+      "id": "PublicOutrage",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Public Outrage Consequence",
+      "来源": "promotion that celebrated the beginning of the Holocaust"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Brand Reputation Damage Impact",
+      "来源": "KFC blames bot for chicken promotion"
+    },
+    "Stakeholder": {
+      "id": "KFCCompany",
+      "中文名称": "KFC公司",
+      "英文名称": "KFC Company",
+      "来源": "KFC blames bot for chicken promotion"
+    },
+    "RiskSource": {
+      "id": "InappropriateContentGeneration",
+      "中文名称": "不当内容生成风险源",
+      "英文名称": "Inappropriate Content Generation Risk Source",
+      "来源": "bot for chicken promotion that celebrated the beginning of the Holocaust"
+    },
+    "Purpose": {
+      "id": "MarketingPromotion",
+      "中文名称": "营销促销目的",
+      "英文名称": "Marketing Promotion Purpose",
+      "来源": "chicken promotion"
+    },
+    "Domain": {
+      "id": "FastFoodIndustry",
+      "中文名称": "快餐行业领域",
+      "英文名称": "Fast Food Industry Domain",
+      "来源": "KFC chicken promotion"
+    }
+  }
+}

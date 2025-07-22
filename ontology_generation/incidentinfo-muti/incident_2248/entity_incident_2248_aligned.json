@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RobocallSystem",
+      "中文名称": "机器人骚扰电话系统",
+      "英文名称": "Robocall System",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "AICapability": {
+      "id": "MassCallingCapability",
+      "中文名称": "大规模呼叫能力",
+      "英文名称": "Mass Calling Capability",
+      "来源": "机器人出场后，骚扰电话半年飙6倍"
+    },
+    "AISubject": {
+      "id": "PhoneUsers",
+      "中文名称": "电话用户",
+      "英文名称": "Phone Users",
+      "来源": "骚扰电话另一端是什么"
+    },
+    "Impact": {
+      "id": "UserPrivacyViolation",
+      "中文名称": "用户隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "RiskSource": {
+      "id": "UnregulatedCallingTechnology",
+      "中文名称": "未受监管的呼叫技术风险源",
+      "英文名称": "Unregulated Calling Technology Risk Source",
+      "来源": "When AI Encounters AI: Can AI Stop The Harm Of Robocalls?"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "“智能”骚扰电话 手段翻新"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RobocallSystem",
+      "中文名称": "机器人骚扰电话系统",
+      "英文名称": "Robocall System",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "AICapability": {
+      "id": "MassCallingCapability",
+      "中文名称": "大规模呼叫能力",
+      "英文名称": "Mass Calling Capability",
+      "来源": "机器人出场后，骚扰电话半年飙6倍"
+    },
+    "AISubject": {
+      "id": "PhoneUsers",
+      "中文名称": "电话用户",
+      "英文名称": "Phone Users",
+      "来源": "骚扰电话另一端是什么"
+    },
+    "Impact": {
+      "id": "UserPrivacyViolation",
+      "中文名称": "用户隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "“智能”骚扰电话 手段翻新 机器人拨打骚扰电话"
+    },
+    "RiskSource": {
+      "id": "UnregulatedCallingTechnology",
+      "中文名称": "未受监管的呼叫技术风险源",
+      "英文名称": "Unregulated Calling Technology Risk Source",
+      "来源": "When AI Encounters AI: Can AI Stop The Harm Of Robocalls?"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "“智能”骚扰电话 手段翻新"
+    }
+  }
+}

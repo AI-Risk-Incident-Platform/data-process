@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AnthropicAI rdf:type airo:AISystem ;
+    rdfs:label "Anthropic AI"@en ;
+    rdfs:label "Anthropic AI"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasStakeholder ex:UniversalMusicGroup ;
+    airo:hasCapability ex:LyricsGenerationCapability ;
+    airo:isAppliedWithinDomain ex:MusicIndustry .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalActionConsequence .
+
+ex:UniversalMusicGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Universal Music Group"@en ;
+    rdfs:label "环球音乐集团"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:LegalActionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Consequence"@en ;
+    rdfs:label "法律诉讼后果"@zh ;
+    airo:hasImpactOnStakeholder ex:UniversalMusicGroup .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Industry"@en ;
+    rdfs:label "音乐产业"@zh .
+
+ex:LyricsGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Lyrics Generation Capability"@en ;
+    rdfs:label "歌词生成能力"@zh .

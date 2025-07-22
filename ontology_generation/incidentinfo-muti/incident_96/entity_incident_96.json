@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdvertisingAlgorithm",
+      "中文名称": "Facebook广告算法",
+      "英文名称": "Facebook Advertising Algorithm",
+      "来源": "HUD charges Facebook with enabling housing discrimination"
+    },
+    "Risk": {
+      "id": "HousingDiscriminationRisk",
+      "中文名称": "住房歧视风险",
+      "英文名称": "Housing Discrimination Risk",
+      "来源": "HUD charges Facebook with enabling housing discrimination"
+    },
+    "Stakeholder": {
+      "id": "HUD",
+      "中文名称": "美国住房和城市发展部",
+      "英文名称": "U.S. Department of Housing and Urban Development",
+      "来源": "HUD charges Facebook with enabling housing discrimination"
+    },
+    "AIOperator": {
+      "id": "MetaPlatforms",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms",
+      "来源": "Justice Department Secures Groundbreaking Settlement Agreement with Meta Platforms, Formerly Known as Facebook"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryAdvertisingPractices",
+      "中文名称": "歧视性广告行为后果",
+      "英文名称": "Discriminatory Advertising Practices Consequence",
+      "来源": "Justice Department Secures Groundbreaking Settlement Agreement with Meta Platforms to Resolve Allegations of Discriminatory Advertising"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Online Advertising Domain",
+      "来源": "HUD v. Facebook"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "定向投放中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Targeting Risk Source",
+      "来源": "HUD charges Facebook with enabling housing discrimination"
+    }
+  }
+}

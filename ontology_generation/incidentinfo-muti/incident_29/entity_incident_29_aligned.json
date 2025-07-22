@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Alexa switches on and decides to have a party so loud the police came"
+    },
+    "Risk": {
+      "id": "UnintendedActivationRisk",
+      "中文名称": "意外激活风险",
+      "英文名称": "Unintended Activation Risk",
+      "来源": "Alexa switches on and decides to have a party so loud the police came"
+    },
+    "Consequence": {
+      "id": "NoiseDisturbance",
+      "中文名称": "噪音干扰后果",
+      "英文名称": "Noise Disturbance Consequence",
+      "来源": "so loud the police came"
+    },
+    "Impact": {
+      "id": "PublicDisturbance",
+      "中文名称": "公共干扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "so loud the police came"
+    },
+    "AICapability": {
+      "id": "VoiceActivation",
+      "中文名称": "语音激活能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Alexa switches on"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon Alexa"
+    },
+    "Stakeholder": {
+      "id": "Police",
+      "中文名称": "警方",
+      "英文名称": "Police",
+      "来源": "so loud the police came"
+    },
+    "RiskSource": {
+      "id": "FalseVoiceCommand",
+      "中文名称": "错误语音指令风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Alexa switches on and decides to have a party"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Alexa switches on and decides to have a party so loud the police came"
+    },
+    "Risk": {
+      "id": "UnintendedActivationRisk",
+      "中文名称": "意外激活风险",
+      "英文名称": "Unintended Activation Risk",
+      "来源": "Alexa switches on and decides to have a party so loud the police came"
+    },
+    "Consequence": {
+      "id": "NoiseDisturbance",
+      "中文名称": "噪音干扰后果",
+      "英文名称": "Noise Disturbance Consequence",
+      "来源": "so loud the police came"
+    },
+    "Impact": {
+      "id": "PublicDisturbance",
+      "中文名称": "公共干扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "so loud the police came"
+    },
+    "AICapability": {
+      "id": "VoiceActivation",
+      "中文名称": "语音激活能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Alexa switches on"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon Alexa"
+    },
+    "Stakeholder": {
+      "id": "Police",
+      "中文名称": "警方",
+      "英文名称": "Police",
+      "来源": "so loud the police came"
+    },
+    "RiskSource": {
+      "id": "FalseVoiceCommand",
+      "中文名称": "错误语音指令风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Alexa switches on and decides to have a party"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "新闻标题中提到的'Generative AI'"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "Stakeholder": {
+      "id": "Authors",
+      "中文名称": "作者",
+      "英文名称": "Authors",
+      "来源": "新闻标题'Revealed: The Authors Whose Pirated Books Are Powering Generative AI'"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta",
+      "英文名称": "Meta",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "RiskSource": {
+      "id": "PiratedBooks",
+      "中文名称": "盗版书籍",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "新闻标题'Revealed: The Authors Whose Pirated Books Are Powering Generative AI'"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "Misuse": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "两则新闻标题中隐含的使用未经授权材料的行为"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "新闻标题中提到的'Generative AI'"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "Stakeholder": {
+      "id": "Authors",
+      "中文名称": "作者",
+      "英文名称": "Authors",
+      "来源": "新闻标题'Revealed: The Authors Whose Pirated Books Are Powering Generative AI'"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta",
+      "英文名称": "Meta",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "RiskSource": {
+      "id": "PiratedBooks",
+      "中文名称": "盗版书籍",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "新闻标题'Revealed: The Authors Whose Pirated Books Are Powering Generative AI'"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "新闻标题'Sarah Silverman is suing OpenAI and Meta for copyright infringement'"
+    },
+    "Misuse": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "两则新闻标题中隐含的使用未经授权材料的行为"
+    }
+  }
+}

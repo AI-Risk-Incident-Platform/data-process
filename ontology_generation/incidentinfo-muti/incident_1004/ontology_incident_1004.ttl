@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:VoiceImpersonationFraud ;
+    airo:usesTechnique ex:DeepLearningVoiceSynthesis ;
+    airo:hasStakeholder ex:TelecomCompanies ;
+    airo:hasAISubject ex:PhoneUsers .
+
+ex:VoiceImpersonationFraud rdf:type airo:Risk ;
+    rdfs:label "Voice Impersonation Fraud Risk"@en ;
+    rdfs:label "语音冒充欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:AIEnabledScams .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TelecomCompanies , ex:PhoneUsers .
+
+ex:DeepLearningVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Voice Synthesis Technique"@en ;
+    rdfs:label "深度学习语音合成技术"@zh .
+
+ex:TelecomCompanies rdf:type airo:Stakeholder ;
+    rdfs:label "Telecom Companies"@en ;
+    rdfs:label "电信公司"@zh .
+
+ex:PhoneUsers rdf:type airo:AISubject ;
+    rdfs:label "Phone Users"@en ;
+    rdfs:label "电话用户"@zh .
+
+ex:AIEnabledScams rdf:type airo:RiskSource ;
+    rdfs:label "AI-Enabled Scams Risk Source"@en ;
+    rdfs:label "AI驱动的诈骗风险源"@zh .

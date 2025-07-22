@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceGenerator",
+      "中文名称": "AI语音生成器",
+      "英文名称": "AI Voice Generator",
+      "来源": "Actors Sue AI Voice Generator for Unauthorized Use of Their Voices"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceUseRisk",
+      "中文名称": "未经授权使用声音风险",
+      "英文名称": "Unauthorized Voice Use Risk",
+      "来源": "Voiceover Actors Sue AI Startup Lovo for Stealing Their Voices ‘Without Permission or Proper Compensation’"
+    },
+    "Stakeholder": {
+      "id": "VoiceoverActors",
+      "中文名称": "配音演员",
+      "英文名称": "Voiceover Actors",
+      "来源": "Voiceover Actors Sue AI Startup Lovo for Stealing Their Voices ‘Without Permission or Proper Compensation’"
+    },
+    "AIOperator": {
+      "id": "Lovo",
+      "中文名称": "Lovo公司",
+      "英文名称": "Lovo",
+      "来源": "Voiceover Actors Sue AI Startup Lovo for Stealing Their Voices ‘Without Permission or Proper Compensation’"
+    },
+    "Consequence": {
+      "id": "EconomicLossForActors",
+      "中文名称": "演员经济损失后果",
+      "英文名称": "Economic Loss for Actors Consequence",
+      "来源": "‘Without Permission or Proper Compensation’"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "职业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "What Do You Do When A.I. Takes Your Voice?"
+    },
+    "RiskSource": {
+      "id": "VoiceDataMisuse",
+      "中文名称": "声音数据滥用风险源",
+      "英文名称": "Voice Data Misuse Risk Source",
+      "来源": "Stealing Their Voices ‘Without Permission or Proper Compensation’"
+    },
+    "Purpose": {
+      "id": "VoiceSynthesisForCommercialUse",
+      "中文名称": "商业用途语音合成的目的",
+      "英文名称": "Voice Synthesis for Commercial Use Purpose",
+      "来源": "implied by commercial lawsuit context"
+    }
+  }
+}

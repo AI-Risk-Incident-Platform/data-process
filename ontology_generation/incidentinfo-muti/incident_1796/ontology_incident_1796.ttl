@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BankFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Bank Facial Recognition System"@en ;
+    rdfs:label "银行人脸识别系统"@zh ;
+    airo:hasRisk ex:LackOfHumanityInAIServices ;
+    airo:hasAISubject ex:ElderlyBankCustomer ;
+    airo:hasStakeholder ex:BankServiceProvider ;
+    airo:hasPurpose ex:IdentityVerificationForBankingServices ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:usesTechnique ex:FacialBiometricRecognition ;
+    airo:hasVulnerability ex:InaccessibleInterfaceForSpecialGroups .
+
+ex:LackOfHumanityInAIServices rdf:type airo:Risk ;
+    rdfs:label "Lack of Humanity in AI Services Risk"@en ;
+    rdfs:label "AI服务中人文关怀缺失风险"@zh ;
+    airo:hasConsequence ex:PhysicalDiscomfortForElderly ;
+    airo:isRiskSourceFor ex:RigidImplementationOfAISystems .
+
+ex:ElderlyBankCustomer rdf:type airo:AISubject ;
+    rdfs:label "Elderly Bank Customer"@en ;
+    rdfs:label "老年银行客户"@zh .
+
+ex:BankServiceProvider rdf:type airo:Stakeholder ;
+    rdfs:label "Bank Service Provider"@en ;
+    rdfs:label "银行服务提供方"@zh .
+
+ex:PhysicalDiscomfortForElderly rdf:type airo:Consequence ;
+    rdfs:label "Physical Discomfort for Elderly Consequence"@en ;
+    rdfs:label "老年人身体不适后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BankServiceProvider .
+
+ex:IdentityVerificationForBankingServices rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification for Banking Services Purpose"@en ;
+    rdfs:label "银行服务身份验证目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:FacialBiometricRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Facial Biometric Recognition Technique"@en ;
+    rdfs:label "面部生物特征识别技术"@zh .
+
+ex:InaccessibleInterfaceForSpecialGroups rdf:type airo:Vulnerability ;
+    rdfs:label "Inaccessible Interface for Special Groups Vulnerability"@en ;
+    rdfs:label "特殊群体使用界面障碍脆弱性"@zh .
+
+ex:RigidImplementationOfAISystems rdf:type airo:RiskSource ;
+    rdfs:label "Rigid Implementation of AI Systems Risk Source"@en ;
+    rdfs:label "AI系统僵化实施风险源"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CourtAlgorithmicDecisionMakingSystem",
+      "中文名称": "法庭算法决策系统",
+      "英文名称": "Court Algorithmic Decision Making System",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInJudicialSystem",
+      "中文名称": "司法系统中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Judicial System Risk",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Judicial System Domain",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Purpose": {
+      "id": "ImprovingCourtFairness",
+      "中文名称": "提高法庭公平性的目的",
+      "英文名称": "Improving Court Fairness Purpose",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Consequence": {
+      "id": "UnfairJudicialOutcomes",
+      "中文名称": "不公正司法结果的后果",
+      "英文名称": "Unfair Judicial Outcomes Consequence",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Impact": {
+      "id": "ErosionOfPublicTrustInJusticeSystem",
+      "中文名称": "公众对司法系统信任度降低的影响",
+      "英文名称": "Erosion of Public Trust in Justice System Impact",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据的风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystemParticipants",
+      "中文名称": "司法系统参与者",
+      "英文名称": "Judicial System Participants",
+      "来源": "Algorithms Should’ve Made Courts More Fair. What Went Wrong?"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WeaponsDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Weapons Detection AI"@en ;
+    rdfs:label "武器检测AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:isAppliedWithinDomain ex:PublicSafety ;
+    airo:hasCapability ex:GunDetection ;
+    airo:isDevelopedBy ex:SecurityAgencies ;
+    airo:hasPurpose ex:PublicSafetyEnhancement ;
+    airo:usesTechnique ex:ComputerVision .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:LossOfPrivacy ;
+    airo:isRiskSourceFor ex:MassSurveillance .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety"@en ;
+    rdfs:label "公共安全"@zh .
+
+ex:GunDetection rdf:type airo:AICapability ;
+    rdfs:label "Gun Detection Capability"@en ;
+    rdfs:label "枪支检测能力"@zh .
+
+ex:MassSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance"@en ;
+    rdfs:label "大规模监控"@zh ;
+    airo:hasVulnerability ex:FalsePositives ;
+    airo:hasThreat ex:Misidentification ;
+    airo:hasHazard ex:UnreliableDetection .
+
+ex:LossOfPrivacy rdf:type airo:Consequence ;
+    rdfs:label "Loss of Privacy"@en ;
+    rdfs:label "隐私丧失"@zh ;
+    airo:hasImpact ex:CivilLibertiesErosion .
+
+ex:CivilLibertiesErosion rdf:type airo:Impact ;
+    rdfs:label "Civil Liberties Erosion"@en ;
+    rdfs:label "公民自由侵蚀"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:SecurityAgencies rdf:type airo:AIOperator ;
+    rdfs:label "Security Agencies"@en ;
+    rdfs:label "安全机构"@zh .
+
+ex:PublicSafetyEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Public Safety Enhancement"@en ;
+    rdfs:label "公共安全增强"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision"@en ;
+    rdfs:label "计算机视觉"@zh .
+
+ex:FalsePositives rdf:type airo:Vulnerability ;
+    rdfs:label "False Positives Vulnerability"@en ;
+    rdfs:label "误报漏洞"@zh .
+
+ex:Misidentification rdf:type airo:Threat ;
+    rdfs:label "Misidentification Threat"@en ;
+    rdfs:label "错误识别威胁"@zh .
+
+ex:UnreliableDetection rdf:type airo:Hazard ;
+    rdfs:label "Unreliable Detection Hazard"@en ;
+    rdfs:label "不可靠检测危害"@zh .
+
+ex:EthicalConcernsInSurveillanceAI rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Surveillance AI"@en ;
+    rdfs:label "监控AI中的伦理问题"@zh .

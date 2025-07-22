@@ -1,0 +1,49 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BingMicrosoftCopilot rdf:type airo:AISystem ;
+    rdfs:label "Bing Microsoft Copilot"@en ;
+    rdfs:label "必应微软Copilot"@zh ;
+    airo:hasRisk ex:HarmfulMedicalAdviceRisk ;
+    airo:isAppliedWithinDomain ex:MedicalAdvice ;
+    airo:hasStakeholder ex:Microsoft ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:isProvidedBy ex:Microsoft .
+
+ex:HarmfulMedicalAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Medical Advice Risk"@en ;
+    rdfs:label "有害医疗建议风险"@zh ;
+    airo:hasConsequence ex:SevereHarmToUsers ;
+    airo:isRiskSourceFor ex:InaccurateMedicalInformation .
+
+ex:SevereHarmToUsers rdf:type airo:Consequence ;
+    rdfs:label "Severe Harm to Users"@en ;
+    rdfs:label "对用户的严重伤害"@zh ;
+    airo:hasImpact ex:UserHealthRisk .
+
+ex:MedicalAdvice rdf:type airo:Domain ;
+    rdfs:label "Medical Advice"@en ;
+    rdfs:label "医疗建议"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:InaccurateMedicalInformation rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Medical Information"@en ;
+    rdfs:label "不准确的医疗信息"@zh .
+
+ex:UserHealthRisk rdf:type airo:Impact ;
+    rdfs:label "User Health Risk"@en ;
+    rdfs:label "用户健康风险"@zh ;
+    airo:hasImpactOnStakeholder ex:Microsoft .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceReplicationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Replication System"@en ;
+    rdfs:label "AI语音复制系统"@zh ;
+    airo:hasRisk ex:VoiceActorJobDisplacementRisk ;
+    airo:hasAISubject ex:ProfessionalVoiceActors ;
+    airo:hasCapability ex:VoiceReplicationAndSynthesis ;
+    airo:isAppliedWithinDomain ex:VideoGameIndustryDomain ;
+    airo:hasStakeholder ex:VoiceActorsUnion .
+
+ex:VoiceActorJobDisplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Actor Job Displacement Risk"@en ;
+    rdfs:label "配音演员工作替代风险"@zh ;
+    airo:hasConsequence ex:EconomicHardshipForVoiceActors ;
+    airo:isRiskSourceFor ex:NSFWVoiceMods .
+
+ex:VoiceActorsUnion rdf:type airo:Stakeholder ;
+    rdfs:label "Voice Actors Union"@en ;
+    rdfs:label "配音演员工会"@zh .
+
+ex:ProfessionalVoiceActors rdf:type airo:AISubject ;
+    rdfs:label "Professional Voice Actors"@en ;
+    rdfs:label "职业配音演员"@zh .
+
+ex:EconomicHardshipForVoiceActors rdf:type airo:Impact ;
+    rdfs:label "Economic Hardship for Voice Actors Impact"@en ;
+    rdfs:label "配音演员经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VoiceActorsUnion .
+
+ex:NSFWVoiceMods rdf:type airo:Misuse ;
+    rdfs:label "NSFW Voice Mods Misuse"@en ;
+    rdfs:label "NSFW语音模组滥用"@zh .
+
+ex:VoiceReplicationAndSynthesis rdf:type airo:AICapability ;
+    rdfs:label "Voice Replication and Synthesis Capability"@en ;
+    rdfs:label "语音复制与合成能力"@zh .
+
+ex:VideoGameIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Video Game Industry Domain"@en ;
+    rdfs:label "视频游戏产业领域"@zh .

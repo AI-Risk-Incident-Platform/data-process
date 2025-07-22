@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeJournalistCreationAI rdf:type airo:AISystem ;
+    rdfs:label "虚假记者生成AI"@zh ;
+    rdfs:label "Fake Journalist Creation AI"@en ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:isAppliedWithinDomain ex:MediaIndustry ;
+    airo:hasStakeholder ex:MediaConsumers .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息风险"@zh ;
+    rdfs:label "Misinformation Risk"@en ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:MediaConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "媒体消费者"@zh ;
+    rdfs:label "Media Consumers"@en .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "公众欺骗"@zh ;
+    rdfs:label "Public Deception"@en ;
+    airo:hasImpact ex:TrustErosionInMedia .
+
+ex:TrustErosionInMedia rdf:type airo:Impact ;
+    rdfs:label "媒体信任度下降"@zh ;
+    rdfs:label "Trust Erosion in Media"@en ;
+    airo:hasImpactOnStakeholder ex:MediaConsumers .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "内容生成"@zh ;
+    rdfs:label "Content Generation"@en .
+
+ex:MediaIndustry rdf:type airo:Domain ;
+    rdfs:label "媒体行业"@zh ;
+    rdfs:label "Media Industry"@en .

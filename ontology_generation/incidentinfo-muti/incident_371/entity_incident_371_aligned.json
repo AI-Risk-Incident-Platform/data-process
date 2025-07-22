@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TuSimpleSelfDrivingTruck",
+      "中文名称": "TuSimple自动驾驶卡车",
+      "英文名称": "TuSimple Self-Driving Truck",
+      "来源": "TuSimple reportedly tried to pass off a self-driving truck crash as 'human error'"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousTruckOperation",
+      "中文名称": "自动驾驶卡车运营中的安全风险",
+      "英文名称": "Safety Risk in Autonomous Truck Operation",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Consequence": {
+      "id": "VehicleCrash",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "RiskSource": {
+      "id": "SystemFailureOrHumanErrorMisrepresentation",
+      "中文名称": "系统故障或人为错误误报风险源",
+      "英文名称": "System Failure or Human Error Misrepresentation Risk Source",
+      "来源": "TuSimple reportedly tried to pass off a self-driving truck crash as 'human error'"
+    },
+    "Stakeholder": {
+      "id": "TuSimpleCompany",
+      "中文名称": "TuSimple公司",
+      "英文名称": "TuSimple Company",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通运输领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearningForAutonomousDriving",
+      "中文名称": "用于自动驾驶的计算机视觉和机器学习技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TuSimpleSelfDrivingTruck",
+      "中文名称": "TuSimple自动驾驶卡车",
+      "英文名称": "TuSimple Self-Driving Truck",
+      "来源": "TuSimple reportedly tried to pass off a self-driving truck crash as 'human error'"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousTruckOperation",
+      "中文名称": "自动驾驶卡车运营中的安全风险",
+      "英文名称": "Safety Risk in Autonomous Truck Operation",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Consequence": {
+      "id": "VehicleCrash",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "RiskSource": {
+      "id": "SystemFailureOrHumanErrorMisrepresentation",
+      "中文名称": "系统故障或人为错误误报风险源",
+      "英文名称": "System Failure or Human Error Misrepresentation Risk Source",
+      "来源": "TuSimple reportedly tried to pass off a self-driving truck crash as 'human error'"
+    },
+    "Stakeholder": {
+      "id": "TuSimpleCompany",
+      "中文名称": "TuSimple公司",
+      "英文名称": "TuSimple Company",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通运输领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearningForAutonomousDriving",
+      "中文名称": "用于自动驾驶的计算机视觉和机器学习技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Self-Driving Truck Accident Draws Attention to Safety at TuSimple"
+    }
+  }
+}

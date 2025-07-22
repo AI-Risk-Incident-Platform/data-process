@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakePornGenerationSystem",
+      "中文名称": "深度伪造色情生成系统",
+      "英文名称": "Deepfake Porn Generation System",
+      "来源": "通过标题和案例描述推断出的AI系统"
+    },
+    "Risk": {
+      "id": "NonConsensualDeepfakePornDistributionRisk",
+      "中文名称": "非自愿深度伪造色情传播风险",
+      "英文名称": "Non-Consensual Deepfake Porn Distribution Risk",
+      "来源": "通过标题和案例描述推断出的风险"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "受害者心理伤害后果",
+      "英文名称": "Psychological Harm to Victims Consequence",
+      "来源": "通过案例描述推断出的后果"
+    },
+    "Stakeholder": {
+      "id": "VictimsOfDeepfakePorn",
+      "中文名称": "深度伪造色情受害者",
+      "英文名称": "Victims of Deepfake Porn",
+      "来源": "标题中提到的教师和Hannah等受害者"
+    },
+    "AIOperator": {
+      "id": "AndrewHayler",
+      "中文名称": "安德鲁·海勒",
+      "英文名称": "Andrew Hayler",
+      "来源": "标题'Sydney bartender Andrew Hayler jailed after sharing digitally altered images of women on porn site'"
+    },
+    "AITechnique": {
+      "id": "DeepfakeImageGeneration",
+      "中文名称": "深度伪造图像生成技术",
+      "英文名称": "Deepfake Image Generation Technique",
+      "来源": "通过案例描述推断出的AI技术"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "通过案例描述推断出的影响"
+    },
+    "Purpose": {
+      "id": "CreatingNonConsensualPornographicContent",
+      "中文名称": "创建非自愿色情内容的目的",
+      "英文名称": "Creating Non-Consensual Pornographic Content Purpose",
+      "来源": "通过案例描述推断出的目的"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfDeepfakeTechnology",
+      "中文名称": "深度伪造技术的恶意使用风险源",
+      "英文名称": "Malicious Use of Deepfake Technology Risk Source",
+      "来源": "通过案例描述推断出的风险源"
+    }
+  }
+}

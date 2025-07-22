@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla death smash probe: Neither driver nor autopilot saw the truck"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "Tesla Bears Some Blame for Self-Driving Crash Death, Feds Say"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal Traffic Accident Consequence",
+      "来源": "Tesla death smash probe: Neither driver nor autopilot saw the truck"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA Says Tesla Autopilot Not at Fault for Joshua Brown's Crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Bears Some Blame for Self-Driving Crash Death, Feds Say"
+    },
+    "RiskSource": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制风险源",
+      "英文名称": "Sensor Limitations Risk Source",
+      "来源": "Neither driver nor autopilot saw the truck"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Tesla Bears Some Blame for Self-Driving Crash Death, Feds Say"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Self-Driving Crash Death"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForObjectDetection",
+      "中文名称": "用于物体检测的计算机视觉技术",
+      "英文名称": "Computer Vision for Object Detection Technique",
+      "来源": "Neither driver nor autopilot saw the truck"
+    },
+    "Vulnerability": {
+      "id": "HumanMachineMonitoringGap",
+      "中文名称": "人机监控间隙的脆弱性",
+      "英文名称": "Human-Machine Monitoring Gap Vulnerability",
+      "来源": "Neither driver nor autopilot saw the truck"
+    }
+  }
+}

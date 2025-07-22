@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PedestrianSpeedingReportingApp",
+      "中文名称": "行人举报超速应用",
+      "英文名称": "Pedestrian Speeding Reporting App",
+      "来源": "Concerns over new AI app that lets pedestrians shop drivers for speeding"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Concerns over new AI app that lets pedestrians shop drivers for speeding"
+    },
+    "Stakeholder": {
+      "id": "Pedestrians",
+      "中文名称": "行人",
+      "英文名称": "Pedestrians",
+      "来源": "lets pedestrians shop drivers for speeding"
+    },
+    "AISubject": {
+      "id": "Drivers",
+      "中文名称": "驾驶员",
+      "英文名称": "Drivers",
+      "来源": "lets pedestrians shop drivers for speeding"
+    },
+    "Purpose": {
+      "id": "TrafficViolationReporting",
+      "中文名称": "交通违规举报",
+      "英文名称": "Traffic Violation Reporting",
+      "来源": "lets pedestrians shop drivers for speeding"
+    }
+  }
+}

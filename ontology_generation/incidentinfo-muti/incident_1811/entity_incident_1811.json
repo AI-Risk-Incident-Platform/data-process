@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Suit alleges Amazon's Alexa violates laws by recording children's voices without consent"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "recording children's voices without consent"
+    },
+    "Consequence": {
+      "id": "UnauthorizedVoiceRecording",
+      "中文名称": "未经授权的语音记录后果",
+      "英文名称": "Unauthorized Voice Recording Consequence",
+      "来源": "recording children's voices without consent"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyViolation",
+      "中文名称": "儿童隐私侵犯影响",
+      "英文名称": "Children Privacy Violation Impact",
+      "来源": "recording children's voices without consent"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "recording children's voices"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's Alexa"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingWithoutConsent",
+      "中文名称": "未经同意的语音记录风险源",
+      "英文名称": "Voice Recording Without Consent Risk Source",
+      "来源": "recording children's voices without consent"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Devices Domain",
+      "来源": "Amazon's Alexa"
+    }
+  }
+}

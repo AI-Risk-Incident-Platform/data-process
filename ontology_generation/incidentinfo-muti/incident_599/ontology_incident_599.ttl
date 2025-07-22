@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RussianAIInformationWarfareSystem rdf:type airo:AISystem ;
+    rdfs:label "Russian AI Information Warfare System"@en ;
+    rdfs:label "俄罗斯AI信息战系统"@zh ;
+    airo:hasRisk ex:InformationWarfareRisk ;
+    airo:isAppliedWithinDomain ex:MilitaryConflict ;
+    airo:hasPurpose ex:UndermineUSSupportForUkraine ;
+    airo:hasCapability ex:DisinformationPropagation ;
+    airo:hasStakeholder ex:RussianGovernment ;
+    airo:isDeployedBy ex:RussianMilitary .
+
+ex:InformationWarfareRisk rdf:type airo:Risk ;
+    rdfs:label "Information Warfare Risk"@en ;
+    rdfs:label "信息战风险"@zh ;
+    airo:hasConsequence ex:ErosionOfDemocraticProcesses ;
+    airo:isRiskSourceFor ex:AIEnhancedPropaganda .
+
+ex:MilitaryConflict rdf:type airo:Domain ;
+    rdfs:label "Military Conflict Domain"@en ;
+    rdfs:label "军事冲突领域"@zh .
+
+ex:UndermineUSSupportForUkraine rdf:type airo:Purpose ;
+    rdfs:label "Undermine US Support for Ukraine Purpose"@en ;
+    rdfs:label "削弱美国对乌克兰支持的目的"@zh .
+
+ex:DisinformationPropagation rdf:type airo:AICapability ;
+    rdfs:label "Disinformation Propagation Capability"@en ;
+    rdfs:label "虚假信息传播能力"@zh .
+
+ex:RussianGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Russian Government"@en ;
+    rdfs:label "俄罗斯政府"@zh .
+
+ex:RussianMilitary rdf:type airo:AIOperator ;
+    rdfs:label "Russian Military"@en ;
+    rdfs:label "俄罗斯军方"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "舆论操纵的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RussianGovernment .
+
+ex:ErosionOfDemocraticProcesses rdf:type airo:Consequence ;
+    rdfs:label "Erosion of Democratic Processes Consequence"@en ;
+    rdfs:label "民主进程侵蚀的后果"@zh ;
+    airo:hasImpact ex:PublicOpinionManipulation .
+
+ex:AIEnhancedPropaganda rdf:type airo:RiskSource ;
+    rdfs:label "AI-Enhanced Propaganda Risk Source"@en ;
+    rdfs:label "AI增强宣传的风险源"@zh .

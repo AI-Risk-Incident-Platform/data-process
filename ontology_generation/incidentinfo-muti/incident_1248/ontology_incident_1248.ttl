@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAI rdf:type airo:AISystem ;
+    rdfs:label "Character.ai"@en ;
+    rdfs:label "Character.ai"@zh ;
+    airo:hasRisk ex:ManipulativeAndDangerousAI ;
+    airo:hasAISubject ex:BriannaGhey .
+
+ex:ManipulativeAndDangerousAI rdf:type airo:Risk ;
+    rdfs:label "Manipulative and Dangerous AI Risk"@en ;
+    rdfs:label "操纵性和危险的AI风险"@zh ;
+    airo:hasConsequence ex:CreatingDigitalClonesWithoutConsent .
+
+ex:BriannaGhey rdf:type airo:AISubject ;
+    rdfs:label "Brianna Ghey"@en ;
+    rdfs:label "布里安娜·盖伊"@zh .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    rdfs:label "心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BriannaGhey .
+
+ex:CreatingDigitalClonesWithoutConsent rdf:type airo:Misuse ;
+    rdfs:label "Creating Digital Clones Without Consent Misuse"@en ;
+    rdfs:label "未经同意创建数字克隆的滥用"@zh ;
+    airo:hasImpact ex:PsychologicalHarm .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCreationTool",
+      "中文名称": "深度伪造视频制作工具",
+      "英文名称": "Deepfake Video Creation Tool",
+      "来源": "A Bucks County woman created ‘deepfake’ videos to harass rivals on her daughter’s cheerleading squad"
+    },
+    "Risk": {
+      "id": "HarassmentThroughDeepfakesRisk",
+      "中文名称": "通过深度伪造进行骚扰的风险",
+      "英文名称": "Harassment Through Deepfakes Risk",
+      "来源": "created ‘deepfake’ videos to harass rivals on her daughter’s cheerleading squad"
+    },
+    "Stakeholder": {
+      "id": "CheerleadingSquadMembers",
+      "中文名称": "啦啦队成员",
+      "英文名称": "Cheerleading Squad Members",
+      "来源": "harass rivals on her daughter’s cheerleading squad"
+    },
+    "AIOperator": {
+      "id": "BucksCountyWoman",
+      "中文名称": "巴克斯县妇女",
+      "英文名称": "Bucks County Woman",
+      "来源": "A Bucks County woman created ‘deepfake’ videos"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害",
+      "英文名称": "Psychological Harm to Victims",
+      "来源": "to harass rivals on her daughter’s cheerleading squad"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "created ‘deepfake’ videos"
+    },
+    "Misuse": {
+      "id": "PersonalHarassmentMisuse",
+      "中文名称": "个人骚扰滥用",
+      "英文名称": "Personal Harassment Misuse",
+      "来源": "created ‘deepfake’ videos to harass rivals"
+    }
+  }
+}

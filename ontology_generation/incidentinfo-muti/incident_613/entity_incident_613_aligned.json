@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SportsIllustratedAIWriters",
+      "中文名称": "体育画报AI作者",
+      "英文名称": "Sports Illustrated AI Writers",
+      "来源": "Sports Illustrated Published Articles by Fake, AI-Generated Writers"
+    },
+    "Risk": {
+      "id": "MisrepresentationRisk",
+      "中文名称": "虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Published Articles by Fake, AI-Generated Writers"
+    },
+    "Stakeholder": {
+      "id": "RossLevinsohn",
+      "中文名称": "罗斯·莱文索恩",
+      "英文名称": "Ross Levinsohn",
+      "来源": "Sports Illustrated publisher fires CEO Ross Levinsohn after AI scandal"
+    },
+    "Consequence": {
+      "id": "CEOJobLoss",
+      "中文名称": "CEO职位丢失后果",
+      "英文名称": "CEO Job Loss Consequence",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    },
+    "AIOperator": {
+      "id": "SportsIllustratedPublisher",
+      "中文名称": "体育画报出版商",
+      "英文名称": "Sports Illustrated Publisher",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SportsIllustratedAIWriters",
+      "中文名称": "体育画报AI作者",
+      "英文名称": "Sports Illustrated AI Writers",
+      "来源": "Sports Illustrated Published Articles by Fake, AI-Generated Writers"
+    },
+    "Risk": {
+      "id": "MisrepresentationRisk",
+      "中文名称": "虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Published Articles by Fake, AI-Generated Writers"
+    },
+    "Stakeholder": {
+      "id": "RossLevinsohn",
+      "中文名称": "罗斯·莱文索恩",
+      "英文名称": "Ross Levinsohn",
+      "来源": "Sports Illustrated publisher fires CEO Ross Levinsohn after AI scandal"
+    },
+    "Consequence": {
+      "id": "CEOJobLoss",
+      "中文名称": "CEO职位丢失后果",
+      "英文名称": "CEO Job Loss Consequence",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    },
+    "AIOperator": {
+      "id": "SportsIllustratedPublisher",
+      "中文名称": "体育画报出版商",
+      "英文名称": "Sports Illustrated Publisher",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Sports Illustrated publisher fires CEO after AI debacle"
+    }
+  }
+}

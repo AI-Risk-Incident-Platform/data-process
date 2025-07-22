@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:iPhoneFaceIDSystem rdf:type airo:AISystem ;
+    rdfs:label "iPhone Face ID System"@en ;
+    rdfs:label "iPhone面部识别系统"@zh ;
+    airo:hasRisk ex:FacialRecognitionFailureRisk ;
+    airo:hasAISubject ex:iPhoneUsers ;
+    airo:hasCapability ex:FacialRecognition .
+
+ex:FacialRecognitionFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Facial Recognition Failure Risk"@en ;
+    rdfs:label "面部识别失败风险"@zh ;
+    airo:hasConsequence ex:UserInconvenience .
+
+ex:iPhoneUsers rdf:type airo:AISubject ;
+    rdfs:label "iPhone Users"@en ;
+    rdfs:label "iPhone用户"@zh .
+
+ex:UserInconvenience rdf:type airo:Consequence ;
+    rdfs:label "User Inconvenience"@en ;
+    rdfs:label "用户不便"@zh .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .

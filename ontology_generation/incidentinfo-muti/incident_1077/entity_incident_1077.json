@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonProductivityMonitoringAI",
+      "中文名称": "亚马逊生产力监控AI",
+      "英文名称": "Amazon Productivity Monitoring AI",
+      "来源": "Amazon Used An AI to Automatically Fire Low-Productivity Workers"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "Unfair Termination Risk",
+      "来源": "Amazon uses Artificial Intelligence to fire warehouse workers"
+    },
+    "Stakeholder": {
+      "id": "AmazonWarehouseWorkers",
+      "中文名称": "亚马逊仓库工人",
+      "英文名称": "Amazon Warehouse Workers",
+      "来源": "Amazon uses Artificial Intelligence to fire warehouse workers"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon Inc.",
+      "来源": "Amazon Used An AI to Automatically Fire Low-Productivity Workers"
+    },
+    "Impact": {
+      "id": "JobLossImpact",
+      "中文名称": "失业影响",
+      "英文名称": "Job Loss Impact",
+      "来源": "Amazon uses Artificial Intelligence to fire warehouse workers"
+    },
+    "Purpose": {
+      "id": "WorkforceProductivityOptimization",
+      "中文名称": "劳动力生产力优化",
+      "英文名称": "Workforce Productivity Optimization",
+      "来源": "Amazon Used An AI to Automatically Fire Low-Productivity Workers"
+    },
+    "Domain": {
+      "id": "WarehouseOperations",
+      "中文名称": "仓库运营",
+      "英文名称": "Warehouse Operations",
+      "来源": "Amazon uses Artificial Intelligence to fire warehouse workers"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanOversight",
+      "中文名称": "无人工监督的自动化决策",
+      "英文名称": "Automated Decision Making Without Human Oversight",
+      "来源": "Amazon Used An AI to Automatically Fire Low-Productivity Workers"
+    }
+  }
+}

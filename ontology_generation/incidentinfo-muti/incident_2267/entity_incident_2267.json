@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HospitalFollowUpCareAlgorithm",
+      "中文名称": "医院随访护理算法",
+      "英文名称": "Hospital Follow-Up Care Algorithm",
+      "来源": "Widely used algorithm for follow-up care in hospitals is racially biased, study finds"
+    },
+    "Risk": {
+      "id": "RacialBiasInHealthcareAI",
+      "中文名称": "医疗AI中的种族偏见风险",
+      "英文名称": "Racial Bias in Healthcare AI Risk",
+      "来源": "Widely used algorithm for follow-up care in hospitals is racially biased, study finds"
+    },
+    "AICapability": {
+      "id": "PatientRiskAssessment",
+      "中文名称": "患者风险评估能力",
+      "英文名称": "Patient Risk Assessment Capability",
+      "来源": "algorithm for follow-up care in hospitals"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "algorithm for follow-up care in hospitals"
+    },
+    "Impact": {
+      "id": "UnequalAccessToHealthcare",
+      "中文名称": "医疗资源获取不平等影响",
+      "英文名称": "Unequal Access to Healthcare Impact",
+      "来源": "racially biased algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "racially biased algorithm"
+    },
+    "Consequence": {
+      "id": "DisparitiesInMedicalCare",
+      "中文名称": "医疗护理差异后果",
+      "英文名称": "Disparities in Medical Care Consequence",
+      "来源": "racially biased algorithm"
+    },
+    "AISubject": {
+      "id": "HospitalPatients",
+      "中文名称": "医院患者",
+      "英文名称": "Hospital Patients",
+      "来源": "algorithm for follow-up care in hospitals"
+    }
+  }
+}

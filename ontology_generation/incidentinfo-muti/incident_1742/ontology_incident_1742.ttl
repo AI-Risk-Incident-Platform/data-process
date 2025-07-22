@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "TikTok Algorithm"@en ;
+    rdfs:label "TikTok算法"@zh ;
+    airo:hasRisk ex:SelfHarmContentPromotionRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm .
+
+ex:SelfHarmContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "Self-Harm Content Promotion Risk"@en ;
+    rdfs:label "自残内容推广风险"@zh ;
+    airo:hasConsequence ex:NormalizationOfSelfHarmBehavior ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasTowardsSensitiveContent .
+
+ex:NormalizationOfSelfHarmBehavior rdf:type airo:Consequence ;
+    rdfs:label "Normalization of Self-Harm Behavior Consequence"@en ;
+    rdfs:label "自残行为正常化后果"@zh ;
+    airo:hasImpact ex:MentalHealthDeterioration .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en ;
+    rdfs:label "内容推荐算法能力"@zh .
+
+ex:MentalHealthDeterioration rdf:type airo:Impact ;
+    rdfs:label "Mental Health Deterioration Impact"@en ;
+    rdfs:label "心理健康恶化影响"@zh .
+
+ex:AlgorithmicBiasTowardsSensitiveContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Towards Sensitive Content Risk Source"@en ;
+    rdfs:label "算法对敏感内容的偏向风险源"@zh .

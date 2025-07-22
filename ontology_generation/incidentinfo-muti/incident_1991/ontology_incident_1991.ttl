@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialExpressionRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Expression Recognition System"@en ;
+    rdfs:label "面部表情识别系统"@zh ;
+    airo:hasRisk ex:BiasInFacialExpressionDataSets ;
+    airo:usesTechnique ex:FacialExpressionAnalysis .
+
+ex:BiasInFacialExpressionDataSets rdf:type airo:Risk ;
+    rdfs:label "Bias in Facial Expression Data Sets Risk"@en ;
+    rdfs:label "面部表情数据集中的偏见风险"@zh ;
+    airo:isRiskSourceFor ex:SystematicRacismInDataEncoding ;
+    airo:hasConsequence ex:DiscriminatoryOutcomes .
+
+ex:SystematicRacismInDataEncoding rdf:type airo:RiskSource ;
+    rdfs:label "Systematic Racism in Data Encoding Risk Source"@en ;
+    rdfs:label "数据编码中的系统性种族主义风险源"@zh .
+
+ex:FacialExpressionAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Facial Expression Analysis Technique"@en ;
+    rdfs:label "面部表情分析技术"@zh .
+
+ex:DiscriminatoryOutcomes rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Outcomes Impact"@en ;
+    rdfs:label "歧视性结果的影响"@zh .

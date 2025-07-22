@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceAssistants rdf:type airo:AISystem ;
+    rdfs:label "语音助手"@zh ;
+    rdfs:label "Voice Assistants"@en ;
+    airo:hasRisk ex:GenderStereotypeReinforcement ;
+    airo:isDeployedBy ex:AmazonAndApple ;
+    airo:hasStakeholder ex:UnitedNations .
+
+ex:GenderStereotypeReinforcement rdf:type airo:Risk ;
+    rdfs:label "性别刻板印象强化风险"@zh ;
+    rdfs:label "Gender Stereotype Reinforcement Risk"@en ;
+    airo:hasConsequence ex:HarmfulGenderStereotypes ;
+    airo:isRiskSourceFor ex:FemaleVoiceDefaultSetting .
+
+ex:HarmfulGenderStereotypes rdf:type airo:Consequence ;
+    rdfs:label "有害性别刻板印象后果"@zh ;
+    rdfs:label "Harmful Gender Stereotypes Consequence"@en ;
+    airo:hasImpact ex:MisogynyEncouragement .
+
+ex:MisogynyEncouragement rdf:type airo:Impact ;
+    rdfs:label "鼓励厌女症的影响"@zh ;
+    rdfs:label "Misogyny Encouragement Impact"@en ;
+    airo:hasImpactOnStakeholder ex:UnitedNations .
+
+ex:UnitedNations rdf:type airo:Stakeholder ;
+    rdfs:label "联合国"@zh ;
+    rdfs:label "United Nations"@en .
+
+ex:AmazonAndApple rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊和苹果"@zh ;
+    rdfs:label "Amazon and Apple"@en .
+
+ex:FemaleVoiceDefaultSetting rdf:type airo:RiskSource ;
+    rdfs:label "女性声音默认设置风险源"@zh ;
+    rdfs:label "Female Voice Default Setting Risk Source"@en .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CourtSentencingAlgorithm",
+      "中文名称": "法院量刑算法",
+      "英文名称": "Court Sentencing Algorithm",
+      "来源": "U.S. Courts Are Using Algorithms Riddled With Racism to Hand Out Sentences"
+    },
+    "Risk": {
+      "id": "RacialBiasInSentencing",
+      "中文名称": "量刑中的种族偏见风险",
+      "英文名称": "Racial Bias in Sentencing Risk",
+      "来源": "U.S. Courts Are Using Algorithms Riddled With Racism to Hand Out Sentences"
+    },
+    "Consequence": {
+      "id": "DiscriminatorySentencingOutcomes",
+      "中文名称": "歧视性量刑结果后果",
+      "英文名称": "Discriminatory Sentencing Outcomes Consequence",
+      "来源": "Even algorithms are biased against black men"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Yes, artificial intelligence can be racist"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Yes, artificial intelligence can be racist"
+    },
+    "AISubject": {
+      "id": "BlackDefendants",
+      "中文名称": "黑人被告",
+      "英文名称": "Black Defendants",
+      "来源": "Even algorithms are biased against black men"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Judicial System Domain",
+      "来源": "U.S. Courts Are Using Algorithms Riddled With Racism to Hand Out Sentences"
+    },
+    "Purpose": {
+      "id": "SentencingDecisionSupport",
+      "中文名称": "量刑决策支持目的",
+      "英文名称": "Sentencing Decision Support Purpose",
+      "来源": "U.S. Courts Are Using Algorithms Riddled With Racism to Hand Out Sentences"
+    }
+  }
+}

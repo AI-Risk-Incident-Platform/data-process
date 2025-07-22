@@ -1,0 +1,54 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredictivePolicingSystemForChildren rdf:type airo:AISystem ;
+    rdfs:label "Predictive Policing System for Children"@en ;
+    rdfs:label "儿童预测性警务系统"@zh ;
+    airo:hasRisk ex:ChildHarassmentRisk ;
+    airo:hasAISubject ex:ChildrenUnderSurveillance ;
+    airo:hasPurpose ex:CrimePreventionForChildren ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasStakeholder ex:PascoCountySheriffOffice .
+
+ex:ChildHarassmentRisk rdf:type airo:Risk ;
+    rdfs:label "Child Harassment Risk"@en ;
+    rdfs:label "儿童骚扰风险"@zh ;
+    airo:isRiskSourceFor ex:OverlyAggressiveSurveillanceTactics ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "Consequence leading to Privacy Violation for Children"@en ;
+                          rdfs:label "导致儿童隐私侵犯的后果"@zh ;
+                          airo:hasImpact ex:PrivacyViolationForChildren ] .
+
+ex:PascoCountySheriffOffice rdf:type airo:Stakeholder ;
+    rdfs:label "Pasco County Sheriff Office"@en ;
+    rdfs:label "帕斯科县警长办公室"@zh .
+
+ex:ChildrenUnderSurveillance rdf:type airo:AISubject ;
+    rdfs:label "Children Under Surveillance"@en ;
+    rdfs:label "受监视儿童"@zh .
+
+ex:PrivacyViolationForChildren rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation for Children Impact"@en ;
+    rdfs:label "儿童隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildrenUnderSurveillance .
+
+ex:CrimePreventionForChildren rdf:type airo:Purpose ;
+    rdfs:label "Crime Prevention for Children Purpose"@en ;
+    rdfs:label "儿童犯罪预防目的"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:OverlyAggressiveSurveillanceTactics rdf:type airo:RiskSource ;
+    rdfs:label "Overly Aggressive Surveillance Tactics Risk Source"@en ;
+    rdfs:label "过度激进监视策略风险源"@zh .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchAlgorithm",
+      "中文名称": "谷歌搜索算法",
+      "英文名称": "Google Search Algorithm",
+      "来源": "A Google search for ‘Jewish baby strollers’ yields anti-Semitic images."
+    },
+    "Risk": {
+      "id": "AntiSemiticContentRisk",
+      "中文名称": "反犹太内容风险",
+      "英文名称": "Anti-Semitic Content Risk",
+      "来源": "An extremist campaign may be to blame."
+    },
+    "Stakeholder": {
+      "id": "JewishCommunity",
+      "中文名称": "犹太社区",
+      "英文名称": "Jewish Community",
+      "来源": "Jewish baby strollers"
+    },
+    "RiskSource": {
+      "id": "ExtremistCampaign",
+      "中文名称": "极端主义活动",
+      "英文名称": "Extremist Campaign",
+      "来源": "An extremist campaign may be to blame."
+    },
+    "Impact": {
+      "id": "AntiSemiticPropaganda",
+      "中文名称": "反犹太宣传影响",
+      "英文名称": "Anti-Semitic Propaganda Impact",
+      "来源": "yields anti-Semitic images"
+    }
+  }
+}

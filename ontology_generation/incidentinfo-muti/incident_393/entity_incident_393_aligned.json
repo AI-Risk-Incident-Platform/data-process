@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAIDemo",
+      "中文名称": "Meta AI演示",
+      "英文名称": "Meta AI Demo",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Risk": {
+      "id": "RacistAndInaccurateOutputRisk",
+      "中文名称": "种族歧视和不准确输出风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Consequence": {
+      "id": "PublicationOfRacistScientificLiterature",
+      "中文名称": "发表种族歧视科学文献的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Impact": {
+      "id": "HarmToScientificCommunityReputation",
+      "中文名称": "损害科学界声誉的影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "RiskSource": {
+      "id": "BiasInTrainingData",
+      "中文名称": "训练数据中的偏见风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Why Meta's latest large language model survived only three days online"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAIDemo",
+      "中文名称": "Meta AI演示",
+      "英文名称": "Meta AI Demo",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Risk": {
+      "id": "RacistAndInaccurateOutputRisk",
+      "中文名称": "种族歧视和不准确输出风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Consequence": {
+      "id": "PublicationOfRacistScientificLiterature",
+      "中文名称": "发表种族歧视科学文献的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "Impact": {
+      "id": "HarmToScientificCommunityReputation",
+      "中文名称": "损害科学界声誉的影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "RiskSource": {
+      "id": "BiasInTrainingData",
+      "中文名称": "训练数据中的偏见风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "New Meta AI demo writes racist and inaccurate scientific literature, gets pulled"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Why Meta's latest large language model survived only three days online"
+    }
+  }
+}

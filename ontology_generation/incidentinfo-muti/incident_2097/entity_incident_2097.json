@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftSurveillanceSystem",
+      "中文名称": "微软监控系统",
+      "英文名称": "Microsoft Surveillance System",
+      "来源": "Microsoft needs to stop selling surveillance to the NYPD"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Microsoft needs to stop selling surveillance to the NYPD"
+    },
+    "Stakeholder": {
+      "id": "NYPD",
+      "中文名称": "纽约警察局",
+      "英文名称": "New York Police Department",
+      "来源": "Microsoft needs to stop selling surveillance to the NYPD"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft needs to stop selling surveillance to the NYPD"
+    },
+    "Impact": {
+      "id": "CivilLibertiesInfringement",
+      "中文名称": "公民自由权侵犯",
+      "英文名称": "Civil Liberties Infringement",
+      "来源": "Microsoft needs to stop selling surveillance to the NYPD"
+    }
+  }
+}

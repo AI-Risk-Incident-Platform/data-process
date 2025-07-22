@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "OpenAI Is Faulted by Media for Using Articles to Train ChatGPT"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "After artists and coders, news outlets up against OpenAI for using their articles to train ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Publishers",
+      "来源": "Major news publishers block the bots as ChatGPT starts taking live news"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI Is Faulted by Media for Using Articles to Train ChatGPT"
+    },
+    "Consequence": {
+      "id": "ContentBlocking",
+      "中文名称": "内容屏蔽",
+      "英文名称": "Content Blocking",
+      "来源": "Major news publishers block the bots as ChatGPT starts taking live news"
+    },
+    "AITechnique": {
+      "id": "TextDataTraining",
+      "中文名称": "文本数据训练",
+      "英文名称": "Text Data Training",
+      "来源": "OpenAI Is Faulted by Media for Using Articles to Train ChatGPT"
+    },
+    "Purpose": {
+      "id": "LanguageModelTraining",
+      "中文名称": "语言模型训练",
+      "英文名称": "Language Model Training",
+      "来源": "OpenAI Is Faulted by Media for Using Articles to Train ChatGPT"
+    },
+    "Domain": {
+      "id": "MediaAndPublishing",
+      "中文名称": "媒体与出版",
+      "英文名称": "Media and Publishing",
+      "来源": "After artists and coders, news outlets up against OpenAI for using their articles to train ChatGPT"
+    }
+  }
+}

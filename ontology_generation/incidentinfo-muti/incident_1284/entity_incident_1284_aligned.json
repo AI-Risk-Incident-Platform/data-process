@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGirlfriendApps",
+      "中文名称": "AI女友应用",
+      "英文名称": "AI Chatbot",
+      "来源": "AI girlfriends will only break your heart, privacy experts warn"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "‘AI Girlfriends’ Are a Privacy Nightmare"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "Stealing hearts, data and privacy: Why you should be careful of AI partners"
+    },
+    "Stakeholder": {
+      "id": "PrivacyExperts",
+      "中文名称": "隐私专家",
+      "英文名称": "Privacy Experts",
+      "来源": "AI girlfriends will only break your heart, privacy experts warn"
+    },
+    "Impact": {
+      "id": "EmotionalHarm",
+      "中文名称": "情感伤害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI girlfriends will only break your heart"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGirlfriendApps",
+      "中文名称": "AI女友应用",
+      "英文名称": "AI Chatbot",
+      "来源": "AI girlfriends will only break your heart, privacy experts warn"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "‘AI Girlfriends’ Are a Privacy Nightmare"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "Stealing hearts, data and privacy: Why you should be careful of AI partners"
+    },
+    "Stakeholder": {
+      "id": "PrivacyExperts",
+      "中文名称": "隐私专家",
+      "英文名称": "Privacy Experts",
+      "来源": "AI girlfriends will only break your heart, privacy experts warn"
+    },
+    "Impact": {
+      "id": "EmotionalHarm",
+      "中文名称": "情感伤害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI girlfriends will only break your heart"
+    }
+  }
+}

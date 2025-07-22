@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAIAdTools",
+      "中文名称": "Meta AI广告工具",
+      "英文名称": "Meta AI Ad Tools",
+      "来源": "Meta's 'set it and forget it' AI ad tools"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "资金损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "blowing through cash"
+    },
+    "RiskSource": {
+      "id": "AutomatedAdOptimization",
+      "中文名称": "自动化广告优化",
+      "英文名称": "Automated Ad Optimization",
+      "来源": "'set it and forget it' AI ad tools"
+    },
+    "Consequence": {
+      "id": "InefficientAdSpending",
+      "中文名称": "广告支出低效",
+      "英文名称": "Wasted Ad Spend",
+      "来源": "blowing through cash"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Meta's"
+    },
+    "Domain": {
+      "id": "DigitalAdvertising",
+      "中文名称": "数字广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "AI ad tools"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAIAdTools",
+      "中文名称": "Meta AI广告工具",
+      "英文名称": "Meta AI Ad Tools",
+      "来源": "Meta's 'set it and forget it' AI ad tools"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "资金损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "blowing through cash"
+    },
+    "RiskSource": {
+      "id": "AutomatedAdOptimization",
+      "中文名称": "自动化广告优化",
+      "英文名称": "Automated Ad Optimization",
+      "来源": "'set it and forget it' AI ad tools"
+    },
+    "Consequence": {
+      "id": "InefficientAdSpending",
+      "中文名称": "广告支出低效",
+      "英文名称": "Wasted Ad Spend",
+      "来源": "blowing through cash"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Meta's"
+    },
+    "Domain": {
+      "id": "DigitalAdvertising",
+      "中文名称": "数字广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "AI ad tools"
+    }
+  }
+}

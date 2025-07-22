@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IBMFacialRecognitionSystem",
+      "中文名称": "IBM面部识别系统",
+      "英文名称": "IBM Facial Recognition System",
+      "来源": "IBM used Flickr photos for facial-recognition project"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "IBM didn’t inform people when it used their Flickr photos for facial recognition training"
+    },
+    "Stakeholder": {
+      "id": "FlickrUsers",
+      "中文名称": "Flickr用户",
+      "英文名称": "Flickr Users",
+      "来源": "IBM didn’t inform people when it used their Flickr photos for facial recognition training"
+    },
+    "AIOperator": {
+      "id": "IBM",
+      "中文名称": "IBM公司",
+      "英文名称": "IBM",
+      "来源": "IBM used Flickr photos for facial-recognition project"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "IBM didn’t inform people when it used their Flickr photos for facial recognition training"
+    },
+    "Consequence": {
+      "id": "LegalTroubleInIllinois",
+      "中文名称": "伊利诺伊州的法律纠纷",
+      "英文名称": "Legal Trouble in Illinois",
+      "来源": "Little grouse on the prairie: IBM's AI facial-recognition training dataset gets it in trouble... in Illinois"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTraining",
+      "中文名称": "面部识别训练技术",
+      "英文名称": "Facial Recognition Training",
+      "来源": "IBM used Flickr photos for facial-recognition project"
+    }
+  }
+}

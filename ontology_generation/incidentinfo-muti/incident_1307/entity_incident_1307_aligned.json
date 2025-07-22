@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceApp",
+      "中文名称": "FaceApp",
+      "英文名称": "FaceApp",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FaceApp sparks myths and privacy fears"
+    },
+    "Stakeholder": {
+      "id": "FaceAppUsers",
+      "中文名称": "FaceApp用户",
+      "英文名称": "FaceApp Users",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "RiskSource": {
+      "id": "DataStorageWithoutPermission",
+      "中文名称": "未经许可的数据存储",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "FaceApp sparks myths and privacy fears"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaceApp",
+      "中文名称": "FaceApp",
+      "英文名称": "FaceApp",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FaceApp sparks myths and privacy fears"
+    },
+    "Stakeholder": {
+      "id": "FaceAppUsers",
+      "中文名称": "FaceApp用户",
+      "英文名称": "FaceApp Users",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "RiskSource": {
+      "id": "DataStorageWithoutPermission",
+      "中文名称": "未经许可的数据存储",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "FaceApp denies storing users' photographs without permission"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "FaceApp sparks myths and privacy fears"
+    }
+  }
+}

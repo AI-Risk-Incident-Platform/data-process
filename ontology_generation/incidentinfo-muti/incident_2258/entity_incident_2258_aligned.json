@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionInSchools",
+      "中文名称": "学校面部识别系统",
+      "英文名称": "School Facial Recognition System",
+      "来源": "Facial recognition in US schools"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    },
+    "Stakeholder": {
+      "id": "NewYorkSchoolDistrict",
+      "中文名称": "纽约学区",
+      "英文名称": "New York Schools",
+      "来源": "A school district in New York wants to use facial recognition"
+    },
+    "RiskSource": {
+      "id": "MisrepresentationOfTechnologyAccuracy",
+      "中文名称": "技术准确性的虚假陈述风险源",
+      "英文名称": "Misrepresentation of Technology Accuracy Risk Source",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    },
+    "Impact": {
+      "id": "DiscriminatorySurveillance",
+      "中文名称": "歧视性监控的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionInSchools",
+      "中文名称": "学校面部识别系统",
+      "英文名称": "School Facial Recognition System",
+      "来源": "Facial recognition in US schools"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    },
+    "Stakeholder": {
+      "id": "NewYorkSchoolDistrict",
+      "中文名称": "纽约学区",
+      "英文名称": "New York Schools",
+      "来源": "A school district in New York wants to use facial recognition"
+    },
+    "RiskSource": {
+      "id": "MisrepresentationOfTechnologyAccuracy",
+      "中文名称": "技术准确性的虚假陈述风险源",
+      "英文名称": "Misrepresentation of Technology Accuracy Risk Source",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    },
+    "Impact": {
+      "id": "DiscriminatorySurveillance",
+      "中文名称": "歧视性监控的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Facial Recognition Company Lied to School District About its Racist Tech"
+    }
+  }
+}

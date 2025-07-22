@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车",
+      "英文名称": "Autonomous Vehicles",
+      "来源": "Autonomous vehicles fooled by drones that project too-quick-for-humans road-signs"
+    },
+    "Risk": {
+      "id": "RoadSignSpoofingRisk",
+      "中文名称": "道路标志欺骗风险",
+      "英文名称": "Road Sign Spoofing Risk",
+      "来源": "Autonomous vehicles fooled by drones that project too-quick-for-humans road-signs"
+    },
+    "RiskSource": {
+      "id": "DroneProjectedRoadSigns",
+      "中文名称": "无人机投射道路标志",
+      "英文名称": "Drone Projected Road Signs",
+      "来源": "drones that project too-quick-for-humans road-signs"
+    },
+    "Consequence": {
+      "id": "VehicleMisinterpretation",
+      "中文名称": "车辆误判后果",
+      "英文名称": "Vehicle Misinterpretation Consequence",
+      "来源": "Autonomous vehicles fooled by drones"
+    },
+    "AICapability": {
+      "id": "RoadSignRecognition",
+      "中文名称": "道路标志识别能力",
+      "英文名称": "Road Sign Recognition Capability",
+      "来源": "Autonomous vehicles fooled by drones that project too-quick-for-humans road-signs"
+    },
+    "Vulnerability": {
+      "id": "HumanPerceptionLimitation",
+      "中文名称": "人类感知限制的脆弱性",
+      "英文名称": "Human Perception Limitation Vulnerability",
+      "来源": "too-quick-for-humans road-signs"
+    },
+    "Threat": {
+      "id": "DroneBasedSpoofingAttack",
+      "中文名称": "基于无人机的欺骗攻击威胁",
+      "英文名称": "Drone-based Spoofing Attack Threat",
+      "来源": "drones that project too-quick-for-humans road-signs"
+    }
+  }
+}

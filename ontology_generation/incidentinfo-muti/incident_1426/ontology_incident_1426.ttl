@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonDeliveryDrones rdf:type airo:AISystem ;
+    rdfs:label "Amazon Delivery Drones"@en ;
+    rdfs:label "亚马逊送货无人机"@zh ;
+    airo:hasRisk ex:RogueRobotAttackRisk ;
+    airo:hasCapability ex:AutonomousDelivery ;
+    airo:isAppliedWithinDomain ex:FoodDelivery ;
+    airo:hasPurpose ex:GroceryDeliveryService ;
+    airo:isDeployedBy ex:AmazonUK .
+
+ex:RogueRobotAttackRisk rdf:type airo:Risk ;
+    rdfs:label "Rogue Robot Attack Risk"@en ;
+    rdfs:label "机器人失控攻击风险"@zh ;
+    airo:hasConsequence ex:PhysicalHarmToHumans .
+
+ex:AutonomousDelivery rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Delivery Capability"@en ;
+    rdfs:label "自主送货能力"@zh .
+
+ex:FoodDelivery rdf:type airo:Domain ;
+    rdfs:label "Food Delivery Domain"@en ;
+    rdfs:label "食品配送领域"@zh .
+
+ex:GroceryDeliveryService rdf:type airo:Purpose ;
+    rdfs:label "Grocery Delivery Service Purpose"@en ;
+    rdfs:label "杂货配送服务目的"@zh .
+
+ex:PhysicalHarmToHumans rdf:type airo:Impact ;
+    rdfs:label "Physical Harm to Humans Impact"@en ;
+    rdfs:label "对人类造成身体伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonUK .
+
+ex:AmazonUK rdf:type airo:AIOperator ;
+    rdfs:label "Amazon UK"@en ;
+    rdfs:label "亚马逊英国"@zh .

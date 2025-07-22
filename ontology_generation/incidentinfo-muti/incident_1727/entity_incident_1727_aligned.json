@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "JustEatDeliveryAI",
+      "中文名称": "Just Eat配送AI系统",
+      "英文名称": "Just Eat Delivery AI System",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Just Eat couriers fired by AI, report finds"
+    },
+    "Consequence": {
+      "id": "CourierJobLoss",
+      "中文名称": "快递员失业后果",
+      "英文名称": "Courier Job Loss Consequence",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "AIOperator": {
+      "id": "JustEatUK",
+      "中文名称": "Just Eat英国公司",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Stakeholder": {
+      "id": "DeliveryCouriers",
+      "中文名称": "配送员",
+      "英文名称": "Delivery Personnel",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForCouriers",
+      "中文名称": "快递员经济困难影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策风险源",
+      "英文名称": "Automated Decision - No Human Oversight Risk Source",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "JustEatDeliveryAI",
+      "中文名称": "Just Eat配送AI系统",
+      "英文名称": "Just Eat Delivery AI System",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Just Eat couriers fired by AI, report finds"
+    },
+    "Consequence": {
+      "id": "CourierJobLoss",
+      "中文名称": "快递员失业后果",
+      "英文名称": "Courier Job Loss Consequence",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "AIOperator": {
+      "id": "JustEatUK",
+      "中文名称": "Just Eat英国公司",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Stakeholder": {
+      "id": "DeliveryCouriers",
+      "中文名称": "配送员",
+      "英文名称": "Delivery Personnel",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForCouriers",
+      "中文名称": "快递员经济困难影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Just Eat UK couriers ‘deactivated for minor overpayments’"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策风险源",
+      "英文名称": "Automated Decision - No Human Oversight Risk Source",
+      "来源": "Fired by AI? Just Eat UK couriers ‘deactivated for minor overpayments’"
+    }
+  }
+}

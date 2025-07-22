@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "Risk": {
+      "id": "GenderBiasInRecommendationLetters",
+      "中文名称": "推荐信中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "Impact": {
+      "id": "GenderDiscrimination",
+      "中文名称": "性别歧视影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "Risk": {
+      "id": "GenderBiasInRecommendationLetters",
+      "中文名称": "推荐信中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "Impact": {
+      "id": "GenderDiscrimination",
+      "中文名称": "性别歧视影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Replicates Gender Bias in Recommendation Letters"
+    }
+  }
+}

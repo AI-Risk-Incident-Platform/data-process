@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MallSecurityRobot",
+      "中文名称": "商场安保机器人",
+      "英文名称": "Mall Security Robot",
+      "来源": "Crime-fighting robot hits, rolls over child at Silicon Valley mall"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToChildrenRisk",
+      "中文名称": "对儿童造成身体伤害的风险",
+      "英文名称": "Child Risk",
+      "来源": "300-pound mall robot runs over toddler"
+    },
+    "Consequence": {
+      "id": "ChildInjury",
+      "中文名称": "儿童受伤后果",
+      "英文名称": "Child Injury Consequence",
+      "来源": "hits, rolls over child at Silicon Valley mall"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Mall security bot knocks down toddler"
+    },
+    "Stakeholder": {
+      "id": "MallVisitors",
+      "中文名称": "商场访客",
+      "英文名称": "Mall Visitors",
+      "来源": "hits, rolls over child at Silicon Valley mall"
+    },
+    "AIOperator": {
+      "id": "MallSecurity",
+      "中文名称": "商场安保部门",
+      "英文名称": "Mall Security",
+      "来源": "Mall security bot knocks down toddler"
+    },
+    "Hazard": {
+      "id": "HeavyRobotInPublicSpace",
+      "中文名称": "公共场所重型机器人的危害",
+      "英文名称": "Heavy Robot in Public Space Hazard",
+      "来源": "300-pound mall robot runs over toddler"
+    },
+    "RiskSource": {
+      "id": "LackOfSafetyMechanisms",
+      "中文名称": "缺乏安全机制的风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "breaks Asimov's first law of robotics"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MallSecurityRobot",
+      "中文名称": "商场安保机器人",
+      "英文名称": "Mall Security Robot",
+      "来源": "Crime-fighting robot hits, rolls over child at Silicon Valley mall"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToChildrenRisk",
+      "中文名称": "对儿童造成身体伤害的风险",
+      "英文名称": "Child Risk",
+      "来源": "300-pound mall robot runs over toddler"
+    },
+    "Consequence": {
+      "id": "ChildInjury",
+      "中文名称": "儿童受伤后果",
+      "英文名称": "Child Injury Consequence",
+      "来源": "hits, rolls over child at Silicon Valley mall"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Mall security bot knocks down toddler"
+    },
+    "Stakeholder": {
+      "id": "MallVisitors",
+      "中文名称": "商场访客",
+      "英文名称": "Mall Visitors",
+      "来源": "hits, rolls over child at Silicon Valley mall"
+    },
+    "AIOperator": {
+      "id": "MallSecurity",
+      "中文名称": "商场安保部门",
+      "英文名称": "Mall Security",
+      "来源": "Mall security bot knocks down toddler"
+    },
+    "Hazard": {
+      "id": "HeavyRobotInPublicSpace",
+      "中文名称": "公共场所重型机器人的危害",
+      "英文名称": "Heavy Robot in Public Space Hazard",
+      "来源": "300-pound mall robot runs over toddler"
+    },
+    "RiskSource": {
+      "id": "LackOfSafetyMechanisms",
+      "中文名称": "缺乏安全机制的风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "breaks Asimov's first law of robotics"
+    }
+  }
+}

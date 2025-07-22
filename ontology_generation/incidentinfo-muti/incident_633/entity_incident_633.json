@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NineNetworkAI",
+      "中文名称": "九号网络AI",
+      "英文名称": "Nine Network AI",
+      "来源": "Nine Network's AI Alters Lawmaker's Image Inappropriately"
+    },
+    "Risk": {
+      "id": "InappropriateImageAlterationRisk",
+      "中文名称": "不当图像修改风险",
+      "英文名称": "Inappropriate Image Alteration Risk",
+      "来源": "Nine Network's AI Alters Lawmaker's Image Inappropriately"
+    },
+    "Consequence": {
+      "id": "PublicOutrage",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Public Outrage Consequence",
+      "来源": "Photoshop outrage after image of MP's body doctored by Nine News"
+    },
+    "AITechnique": {
+      "id": "ImageEditingAI",
+      "中文名称": "图像编辑AI技术",
+      "英文名称": "Image Editing AI Technique",
+      "来源": "News Outlet Blames Photoshop for Making Australian Lawmaker’s Photo More Revealing"
+    },
+    "Stakeholder": {
+      "id": "AustralianLawmaker",
+      "中文名称": "澳大利亚立法者",
+      "英文名称": "Australian Lawmaker",
+      "来源": "News Outlet Blames Photoshop for Making Australian Lawmaker’s Photo More Revealing"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "Photoshop outrage after image of MP's body doctored by Nine News"
+    },
+    "RiskSource": {
+      "id": "AIInappropriateUse",
+      "中文名称": "AI不当使用风险源",
+      "英文名称": "AI Inappropriate Use Risk Source",
+      "来源": "Nine Network's AI Alters Lawmaker's Image Inappropriately"
+    }
+  }
+}

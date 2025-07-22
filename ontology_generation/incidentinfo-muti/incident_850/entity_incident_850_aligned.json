@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Certain names make ChatGPT grind to a halt, and we know why"
+    },
+    "Risk": {
+      "id": "NameProcessingFailureRisk",
+      "中文名称": "名称处理失败风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Why Wouldn’t ChatGPT Say This Dead Professor’s Name?"
+    },
+    "Consequence": {
+      "id": "SystemHalt",
+      "中文名称": "系统停止",
+      "英文名称": "System Halt",
+      "来源": "Certain names make ChatGPT grind to a halt"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "The Mystery of Why ChatGPT Couldn’t Say the Name ‘David Mayer’"
+    },
+    "RiskSource": {
+      "id": "SpecificNameInput",
+      "中文名称": "特定名称输入",
+      "英文名称": "Specific Name Input",
+      "来源": "Certain names make ChatGPT grind to a halt"
+    },
+    "Impact": {
+      "id": "UserExperienceDisruption",
+      "中文名称": "用户体验中断",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why Wouldn’t ChatGPT Say This Dead Professor’s Name?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Certain names make ChatGPT grind to a halt, and we know why"
+    },
+    "Risk": {
+      "id": "NameProcessingFailureRisk",
+      "中文名称": "名称处理失败风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Why Wouldn’t ChatGPT Say This Dead Professor’s Name?"
+    },
+    "Consequence": {
+      "id": "SystemHalt",
+      "中文名称": "系统停止",
+      "英文名称": "System Halt",
+      "来源": "Certain names make ChatGPT grind to a halt"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "The Mystery of Why ChatGPT Couldn’t Say the Name ‘David Mayer’"
+    },
+    "RiskSource": {
+      "id": "SpecificNameInput",
+      "中文名称": "特定名称输入",
+      "英文名称": "Specific Name Input",
+      "来源": "Certain names make ChatGPT grind to a halt"
+    },
+    "Impact": {
+      "id": "UserExperienceDisruption",
+      "中文名称": "用户体验中断",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why Wouldn’t ChatGPT Say This Dead Professor’s Name?"
+    }
+  }
+}

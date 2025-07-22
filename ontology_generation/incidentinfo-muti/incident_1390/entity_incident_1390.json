@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftFaceRecognitionDataset",
+      "中文名称": "微软人脸识别数据集",
+      "英文名称": "Microsoft Face Recognition Dataset",
+      "来源": "Microsoft quietly deletes largest public face recognition data set"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Microsoft quietly deletes largest public face recognition data set"
+    },
+    "Stakeholder": {
+      "id": "DukeUniversityStudents",
+      "中文名称": "杜克大学学生",
+      "英文名称": "Duke University Students",
+      "来源": "A Duke study recorded thousands of students' faces. Now they're being used all over the world"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfFacialData",
+      "中文名称": "面部数据未经授权使用的后果",
+      "英文名称": "Unauthorized Use of Facial Data Consequence",
+      "来源": "Facial recognition datasets are being widely used despite being taken down due to ethical concerns"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失的影响",
+      "英文名称": "Loss of Personal Privacy Impact",
+      "来源": "Facial recognition datasets are being widely used despite being taken down due to ethical concerns"
+    },
+    "RiskSource": {
+      "id": "LackOfConsentInDataCollection",
+      "中文名称": "数据收集中缺乏同意的风险源",
+      "英文名称": "Lack of Consent in Data Collection Risk Source",
+      "来源": "A Duke study recorded thousands of students' faces. Now they're being used all over the world"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Microsoft quietly deletes largest public face recognition data set"
+    },
+    "AISubject": {
+      "id": "IndividualsInFacialDatasets",
+      "中文名称": "面部数据集中的个人",
+      "英文名称": "Individuals in Facial Datasets",
+      "来源": "A Duke study recorded thousands of students' faces. Now they're being used all over the world"
+    },
+    "Vulnerability": {
+      "id": "EthicalOversightGaps",
+      "中文名称": "伦理监督缺失的脆弱性",
+      "英文名称": "Ethical Oversight Gaps Vulnerability",
+      "来源": "Facial recognition datasets are being widely used despite being taken down due to ethical concerns"
+    }
+  }
+}

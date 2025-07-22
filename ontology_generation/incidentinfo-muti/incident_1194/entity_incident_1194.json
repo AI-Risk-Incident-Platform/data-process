@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepSeek",
+      "中文名称": "深度求索",
+      "英文名称": "DeepSeek",
+      "来源": "OpenAI says DeepSeek may have 'inapproriately' used its data"
+    },
+    "Risk": {
+      "id": "DataMisuseRisk",
+      "中文名称": "数据滥用风险",
+      "英文名称": "Data Misuse Risk",
+      "来源": "OpenAI says DeepSeek may have 'inapproriately' used its data"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI says DeepSeek may have 'inapproriately' used its data"
+    },
+    "RiskSource": {
+      "id": "InappropriateDataUsage",
+      "中文名称": "不当数据使用",
+      "英文名称": "Inappropriate Data Usage",
+      "来源": "OpenAI says DeepSeek may have 'inapproriately' used its data"
+    }
+  }
+}

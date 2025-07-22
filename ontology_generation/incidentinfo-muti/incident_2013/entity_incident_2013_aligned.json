@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DALLEImageGenerationSystem",
+      "中文名称": "DALL-E图像生成系统",
+      "英文名称": "OpenAI Models",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Risk": {
+      "id": "LegalIssuesInAIArtGeneration",
+      "中文名称": "AI艺术生成中的法律问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringementPotential",
+      "中文名称": "潜在版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AICapability": {
+      "id": "PhotorealisticFaceGeneration",
+      "中文名称": "照片级真实感人脸生成能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Stakeholder": {
+      "id": "GettyImages",
+      "中文名称": "盖蒂图片社",
+      "英文名称": "Getty Images",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AISubject": {
+      "id": "DigitalArtCreators",
+      "中文名称": "数字艺术创作者",
+      "英文名称": "Digital Art Creators",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Impact": {
+      "id": "CreativeIndustryDisruption",
+      "中文名称": "创意产业颠覆影响",
+      "英文名称": "Creative Industry Impact",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Purpose": {
+      "id": "DigitalArtCreation",
+      "中文名称": "数字艺术创作目的",
+      "英文名称": "Content Generation",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Domain": {
+      "id": "DigitalArtMarket",
+      "中文名称": "数字艺术市场领域",
+      "英文名称": "Digital Art Market",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataCopyrightAmbiguity",
+      "中文名称": "训练数据版权模糊性脆弱性",
+      "英文名称": "Training Data Copyright Ambiguity Vulnerability",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Threat": {
+      "id": "UnauthorizedStyleReplication",
+      "中文名称": "未经授权的风格复制威胁",
+      "英文名称": "Unauthorized Style Replication Threat",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Hazard": {
+      "id": "MisattributionOfAIArt",
+      "中文名称": "AI艺术错误归属危害",
+      "英文名称": "Misattribution of AI Art Hazard",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "RiskSource": {
+      "id": "LackOfClearLegalFrameworks",
+      "中文名称": "缺乏明确法律框架风险源",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "RiskConcept": {
+      "id": "IntellectualPropertyChallengesInAIArt",
+      "中文名称": "AI艺术中的知识产权挑战",
+      "英文名称": "Intellectual Property Challenges in AI Art Risk Concept",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DALLEImageGenerationSystem",
+      "中文名称": "DALL-E图像生成系统",
+      "英文名称": "OpenAI Models",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Risk": {
+      "id": "LegalIssuesInAIArtGeneration",
+      "中文名称": "AI艺术生成中的法律问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringementPotential",
+      "中文名称": "潜在版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AICapability": {
+      "id": "PhotorealisticFaceGeneration",
+      "中文名称": "照片级真实感人脸生成能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Stakeholder": {
+      "id": "GettyImages",
+      "中文名称": "盖蒂图片社",
+      "英文名称": "Getty Images",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AISubject": {
+      "id": "DigitalArtCreators",
+      "中文名称": "数字艺术创作者",
+      "英文名称": "Digital Art Creators",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Impact": {
+      "id": "CreativeIndustryDisruption",
+      "中文名称": "创意产业颠覆影响",
+      "英文名称": "Creative Industry Impact",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Purpose": {
+      "id": "DigitalArtCreation",
+      "中文名称": "数字艺术创作目的",
+      "英文名称": "Content Generation",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Domain": {
+      "id": "DigitalArtMarket",
+      "中文名称": "数字艺术市场领域",
+      "英文名称": "Digital Art Market",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataCopyrightAmbiguity",
+      "中文名称": "训练数据版权模糊性脆弱性",
+      "英文名称": "Training Data Copyright Ambiguity Vulnerability",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Threat": {
+      "id": "UnauthorizedStyleReplication",
+      "中文名称": "未经授权的风格复制威胁",
+      "英文名称": "Unauthorized Style Replication Threat",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "Hazard": {
+      "id": "MisattributionOfAIArt",
+      "中文名称": "AI艺术错误归属危害",
+      "英文名称": "Misattribution of AI Art Hazard",
+      "来源": "DALL-E Is Now Generating Realistic Faces of Fake People"
+    },
+    "RiskSource": {
+      "id": "LackOfClearLegalFrameworks",
+      "中文名称": "缺乏明确法律框架风险源",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Commercial image-generating AI raises all sorts of thorny legal issues"
+    },
+    "RiskConcept": {
+      "id": "IntellectualPropertyChallengesInAIArt",
+      "中文名称": "AI艺术中的知识产权挑战",
+      "英文名称": "Intellectual Property Challenges in AI Art Risk Concept",
+      "来源": "Getty Images bans AI-generated content over fears of legal challenges"
+    }
+  }
+}

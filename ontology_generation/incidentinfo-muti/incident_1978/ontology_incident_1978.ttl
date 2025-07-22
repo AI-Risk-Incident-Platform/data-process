@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Art Generator"@en ;
+    rdfs:label "AI艺术生成器"@zh ;
+    airo:hasRisk ex:UnauthorizedUseOfArtworkRisk ;
+    airo:hasStakeholder ex:Illustrator ;
+    airo:isDeployedBy ex:RedditUser .
+
+ex:UnauthorizedUseOfArtworkRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Use of Artwork Risk"@en ;
+    rdfs:label "未经授权使用艺术作品风险"@zh ;
+    airo:hasConsequence ex:ArtisticStyleReplication ;
+    airo:hasRiskControl ex:UnauthorizedTrainingDataUsage .
+
+ex:Illustrator rdf:type airo:Stakeholder ;
+    rdfs:label "Illustrator"@en ;
+    rdfs:label "插画师"@zh .
+
+ex:RedditUser rdf:type airo:AIOperator ;
+    rdfs:label "Reddit User"@en ;
+    rdfs:label "Reddit用户"@zh .
+
+ex:ArtisticStyleReplication rdf:type airo:Consequence ;
+    rdfs:label "Artistic Style Replication Consequence"@en ;
+    rdfs:label "艺术风格复制后果"@zh ;
+    airo:hasImpact ex:LossOfArtisticControl .
+
+ex:LossOfArtisticControl rdf:type airo:Impact ;
+    rdfs:label "Loss of Artistic Control Impact"@en ;
+    rdfs:label "艺术控制权丧失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Illustrator .
+
+ex:UnauthorizedTrainingDataUsage rdf:type airo:Misuse ;
+    rdfs:label "Unauthorized Training Data Usage"@en ;
+    rdfs:label "未经授权的训练数据使用"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedUseOfArtworkRisk .

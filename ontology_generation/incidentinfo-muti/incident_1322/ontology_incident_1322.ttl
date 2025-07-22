@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VioGénAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "VioGén Algorithm"@en ;
+    rdfs:label "VioGén算法"@zh ;
+    airo:hasRisk ex:GenderViolencePredictionFailureRisk ;
+    airo:hasCapability ex:GenderViolenceRiskAssessment ;
+    airo:hasPurpose ex:PreventGenderViolence ;
+    airo:hasStakeholder ex:GenderViolenceVictims ;
+    airo:isAppliedWithinDomain ex:GenderViolencePrevention .
+
+ex:GenderViolencePredictionFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Violence Prediction Failure Risk"@en ;
+    rdfs:label "性别暴力预测失败风险"@zh ;
+    airo:hasConsequence ex:VictimsRightsViolation ;
+    airo:isRiskSourceFor ex:FalseObjectivityPerception ;
+    airo:hasVulnerability ex:AlgorithmicBiasInGenderCases .
+
+ex:VictimsRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "Victims Rights Violation Consequence"@en ;
+    rdfs:label "受害者权利侵犯后果"@zh ;
+    airo:hasImpact ex:IncreasedDangerForVictims .
+
+ex:GenderViolenceRiskAssessment rdf:type airo:AICapability ;
+    rdfs:label "Gender Violence Risk Assessment Capability"@en ;
+    rdfs:label "性别暴力风险评估能力"@zh .
+
+ex:GenderViolenceVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Gender Violence Victims"@en ;
+    rdfs:label "性别暴力受害者"@zh .
+
+ex:IncreasedDangerForVictims rdf:type airo:Impact ;
+    rdfs:label "Increased Danger for Victims Impact"@en ;
+    rdfs:label "受害者危险增加的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GenderViolenceVictims .
+
+ex:PreventGenderViolence rdf:type airo:Purpose ;
+    rdfs:label "Prevent Gender Violence Purpose"@en ;
+    rdfs:label "预防性别暴力的目的"@zh .
+
+ex:GenderViolencePrevention rdf:type airo:Domain ;
+    rdfs:label "Gender Violence Prevention Domain"@en ;
+    rdfs:label "性别暴力预防领域"@zh .
+
+ex:AlgorithmicBiasInGenderCases rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Bias in Gender Cases Vulnerability"@en ;
+    rdfs:label "性别案件中的算法偏见脆弱性"@zh .
+
+ex:FalseObjectivityPerception rdf:type airo:RiskSource ;
+    rdfs:label "False Objectivity Perception Risk Source"@en ;
+    rdfs:label "虚假客观性感知风险源"@zh .

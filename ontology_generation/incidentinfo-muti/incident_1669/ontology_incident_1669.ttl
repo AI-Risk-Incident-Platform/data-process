@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIBookGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Book Generation System"@en ;
+    rdfs:label "AI书籍生成系统"@zh ;
+    airo:hasRisk ex:UnauthorizedAIBookPublicationRisk ;
+    airo:hasStakeholder ex:AuthorsAffectedByAIBookGeneration ;
+    airo:isDeployedBy ex:AmazonMarketplace ;
+    airo:isAppliedWithinDomain ex:PublishingIndustry .
+
+ex:UnauthorizedAIBookPublicationRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized AI Book Publication Risk"@en ;
+    rdfs:label "未经授权的AI书籍出版风险"@zh ;
+    airo:hasConsequence ex:ReputationDamageToAuthors ;
+    airo:isRiskSourceFor ex:LackOfAIBookVerificationMechanisms .
+
+ex:AuthorsAffectedByAIBookGeneration rdf:type airo:Stakeholder ;
+    rdfs:label "Authors Affected by AI Book Generation"@en ;
+    rdfs:label "受AI书籍生成影响的作者"@zh .
+
+ex:AmazonMarketplace rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Marketplace"@en ;
+    rdfs:label "亚马逊市场"@zh .
+
+ex:ReputationDamageToAuthors rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage to Authors Consequence"@en ;
+    rdfs:label "作者声誉受损后果"@zh ;
+    airo:hasImpact ex:LossOfAuthorControlOverPublishedWorks .
+
+ex:LossOfAuthorControlOverPublishedWorks rdf:type airo:Impact ;
+    rdfs:label "Loss of Author Control Over Published Works Impact"@en ;
+    rdfs:label "作者对出版作品控制权丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AuthorsAffectedByAIBookGeneration .
+
+ex:PublishingIndustry rdf:type airo:Domain ;
+    rdfs:label "Publishing Industry Domain"@en ;
+    rdfs:label "出版行业"@zh .
+
+ex:LackOfAIBookVerificationMechanisms rdf:type airo:RiskSource ;
+    rdfs:label "Lack of AI Book Verification Mechanisms Risk Source"@en ;
+    rdfs:label "缺乏AI书籍验证机制的风险源"@zh .

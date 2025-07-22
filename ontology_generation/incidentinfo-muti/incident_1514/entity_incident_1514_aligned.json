@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Wife of Tesla employee who died in what may have been the first Full Self-Driving crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla self-driving killed hans von ohain colorado drunk"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人员死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "A report suggests Tesla's Full Self-Driving system may have been involved in a deadly 2022 crash"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployees",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Wife of Tesla employee who died in what may have been the first Full Self-Driving crash"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla self-driving killed hans von ohain colorado drunk"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Wife of Tesla employee who died in what may have been the first Full Self-Driving crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla self-driving killed hans von ohain colorado drunk"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人员死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "A report suggests Tesla's Full Self-Driving system may have been involved in a deadly 2022 crash"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployees",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Wife of Tesla employee who died in what may have been the first Full Self-Driving crash"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla self-driving killed hans von ohain colorado drunk"
+    }
+  }
+}

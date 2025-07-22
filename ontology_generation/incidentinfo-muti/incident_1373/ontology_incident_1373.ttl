@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ProsecraftAI rdf:type airo:AISystem ;
+    rdfs:label "Prosecraft AI"@en ;
+    rdfs:label "Prosecraft AI"@zh ;
+    airo:hasRisk ex:DataTheftRisk ;
+    airo:hasStakeholder ex:Authors .
+
+ex:DataTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Data Theft Risk"@en ;
+    rdfs:label "数据盗窃风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedDataCollection ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "数据盗窃后果"@zh ;
+                          rdfs:label "Consequence of Data Theft"@en ;
+                          airo:hasImpact ex:AuthorAnger
+                        ] .
+
+ex:Authors rdf:type airo:Stakeholder ;
+    rdfs:label "Authors"@en ;
+    rdfs:label "作者"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Collection"@en ;
+    rdfs:label "未经授权的数据收集"@zh .
+
+ex:AuthorAnger rdf:type airo:Impact ;
+    rdfs:label "Author Anger"@en ;
+    rdfs:label "作者愤怒"@zh ;
+    airo:hasImpactOnStakeholder ex:Authors .

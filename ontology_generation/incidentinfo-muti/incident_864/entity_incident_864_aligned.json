@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokContentModerationSystem",
+      "中文名称": "TikTok内容审核系统",
+      "英文名称": "TikTok Content Moderation System",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    },
+    "Risk": {
+      "id": "HarmfulContentExposureRisk",
+      "中文名称": "有害内容暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "Consequence": {
+      "id": "SuicideCases",
+      "中文名称": "自杀案例后果",
+      "英文名称": "Suicide Consequence",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "Stakeholder": {
+      "id": "FrenchFamilies",
+      "中文名称": "法国家庭",
+      "英文名称": "French Families",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "AIOperator": {
+      "id": "TikTokCompany",
+      "中文名称": "TikTok公司",
+      "英文名称": "ByteDance",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    },
+    "Impact": {
+      "id": "MentalHealthDamage",
+      "中文名称": "心理健康损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokContentModerationSystem",
+      "中文名称": "TikTok内容审核系统",
+      "英文名称": "TikTok Content Moderation System",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    },
+    "Risk": {
+      "id": "HarmfulContentExposureRisk",
+      "中文名称": "有害内容暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "Consequence": {
+      "id": "SuicideCases",
+      "中文名称": "自杀案例后果",
+      "英文名称": "Suicide Consequence",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "Stakeholder": {
+      "id": "FrenchFamilies",
+      "中文名称": "法国家庭",
+      "英文名称": "French Families",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "AIOperator": {
+      "id": "TikTokCompany",
+      "中文名称": "TikTok公司",
+      "英文名称": "ByteDance",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    },
+    "Impact": {
+      "id": "MentalHealthDamage",
+      "中文名称": "心理健康损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Seven French families sue TikTok over harmful content that allegedly led to suicides"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "French families sue TikTok over alleged failure to remove harmful content"
+    }
+  }
+}

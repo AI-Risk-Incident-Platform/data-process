@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIDebater",
+      "中文名称": "AI辩论者",
+      "英文名称": "AI Debater",
+      "来源": "Am I arguing with a machine? AI debaters highlight need for transparency"
+    },
+    "Risk": {
+      "id": "LackOfTransparencyRisk",
+      "中文名称": "缺乏透明度风险",
+      "英文名称": "Lack of Transparency Risk",
+      "来源": "AI debaters highlight need for transparency"
+    },
+    "Stakeholder": {
+      "id": "AIUser",
+      "中文名称": "AI使用者",
+      "英文名称": "AI User",
+      "来源": "Am I arguing with a machine?"
+    },
+    "RiskSource": {
+      "id": "OpaqueDecisionMakingProcess",
+      "中文名称": "不透明的决策过程",
+      "英文名称": "Opaque Decision Making Process",
+      "来源": "AI debaters highlight need for transparency"
+    },
+    "Consequence": {
+      "id": "UncertaintyInHumanAIIntegration",
+      "中文名称": "人机交互中的不确定性",
+      "英文名称": "Uncertainty in Human-AI Integration",
+      "来源": "Am I arguing with a machine?"
+    }
+  }
+}

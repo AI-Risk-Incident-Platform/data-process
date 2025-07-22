@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Meta AI Chatbot"@en ;
+    rdfs:label "Meta AI聊天机器人"@zh ;
+    airo:hasRisk ex:FalseInformationRisk ;
+    airo:hasAICapability ex:NaturalLanguageGeneration ;
+    airo:hasStakeholder ex:USPoliticians .
+
+ex:FalseInformationRisk rdf:type airo:Risk ;
+    rdfs:label "False Information Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:InaccurateTrainingData .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpactOnStakeholder ex:USPoliticians .
+
+ex:NaturalLanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:USPoliticians rdf:type airo:Stakeholder ;
+    rdfs:label "US Politicians"@en ;
+    rdfs:label "美国政客"@zh .
+
+ex:InaccurateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Training Data Risk Source"@en ;
+    rdfs:label "不准确的训练数据风险源"@zh .

@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookNudityDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook Nudity Detection AI"@en ;
+    rdfs:label "Facebook裸体检测AI"@zh ;
+    airo:hasRisk ex:ContentMisclassificationRisk ;
+    airo:hasCapability ex:ImageContentClassification ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasPurpose ex:ContentModerationForSocialMedia ;
+    airo:hasStakeholder ex:AdvertisersUsingFacebookPlatform ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:ComputerVisionBasedClassification .
+
+ex:ContentMisclassificationRisk rdf:type airo:Risk ;
+    rdfs:label "Content Misclassification Risk"@en ;
+    rdfs:label "内容误分类风险"@zh ;
+    airo:hasConsequence ex:InappropriateContentBlocking ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInContentDetection .
+
+ex:InappropriateContentBlocking rdf:type airo:Consequence ;
+    rdfs:label "Inappropriate Content Blocking Consequence"@en ;
+    rdfs:label "不当内容屏蔽后果"@zh ;
+    airo:hasImpact ex:BusinessDisruptionForAdvertisers .
+
+ex:ImageContentClassification rdf:type airo:AICapability ;
+    rdfs:label "Image Content Classification Capability"@en ;
+    rdfs:label "图像内容分类能力"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:AdvertisersUsingFacebookPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "Advertisers Using Facebook Platform"@en ;
+    rdfs:label "使用Facebook平台的广告商"@zh .
+
+ex:BusinessDisruptionForAdvertisers rdf:type airo:Impact ;
+    rdfs:label "Business Disruption for Advertisers Impact"@en ;
+    rdfs:label "广告商业务中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AdvertisersUsingFacebookPlatform .
+
+ex:ContentModerationForSocialMedia rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation for Social Media Purpose"@en ;
+    rdfs:label "社交媒体内容审核目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:ComputerVisionBasedClassification rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Classification Technique"@en ;
+    rdfs:label "基于计算机视觉的分类技术"@zh .
+
+ex:LimitedImageContextUnderstanding rdf:type airo:Vulnerability ;
+    rdfs:label "Limited Image Context Understanding Vulnerability"@en ;
+    rdfs:label "有限图像上下文理解漏洞"@zh .
+
+ex:AlgorithmicBiasInContentDetection rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Content Detection Risk Source"@en ;
+    rdfs:label "内容检测中的算法偏差风险源"@zh ;
+    airo:exploitsVulnerability ex:LimitedImageContextUnderstanding .

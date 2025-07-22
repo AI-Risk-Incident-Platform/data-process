@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Art Generation System"@en ;
+    rdfs:label "AI艺术生成系统"@zh ;
+    airo:hasRisk ex:ArtisticPlagiarismRisk ;
+    airo:hasAISubject ex:FamousArtworks ;
+    airo:isAppliedWithinDomain ex:ArtAndCulture ;
+    airo:hasPurpose ex:ArtisticCreationAssistance ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:Artists .
+
+ex:ArtisticPlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Artistic Plagiarism Risk"@en ;
+    rdfs:label "艺术抄袭风险"@zh ;
+    airo:hasConsequence ex:DiminishedArtisticValue ;
+    airo:isRiskSourceFor ex:UnethicalUseOfAITools .
+
+ex:Artists rdf:type airo:Stakeholder ;
+    rdfs:label "Artists"@en ;
+    rdfs:label "艺术家"@zh .
+
+ex:FamousArtworks rdf:type airo:AISubject ;
+    rdfs:label "Famous Artworks"@en ;
+    rdfs:label "著名艺术品"@zh .
+
+ex:ArtAndCulture rdf:type airo:Domain ;
+    rdfs:label "Art and Culture Domain"@en ;
+    rdfs:label "艺术与文化领域"@zh .
+
+ex:DiminishedArtisticValue rdf:type airo:Consequence ;
+    rdfs:label "Diminished Artistic Value Consequence"@en ;
+    rdfs:label "艺术价值贬低后果"@zh ;
+    airo:hasImpact ex:DevaluationOfOriginalArtworks .
+
+ex:DevaluationOfOriginalArtworks rdf:type airo:Impact ;
+    rdfs:label "Devaluation of Original Artworks Impact"@en ;
+    rdfs:label "原作贬值影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Artists .
+
+ex:ArtisticCreationAssistance rdf:type airo:Purpose ;
+    rdfs:label "Artistic Creation Assistance Purpose"@en ;
+    rdfs:label "艺术创作辅助目的"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:UnethicalUseOfAITools rdf:type airo:RiskSource ;
+    rdfs:label "Unethical Use of AI Tools Risk Source"@en ;
+    rdfs:label "AI工具的不道德使用风险源"@zh .

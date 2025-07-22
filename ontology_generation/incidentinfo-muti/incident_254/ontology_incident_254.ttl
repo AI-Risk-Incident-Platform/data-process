@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TaserDroneSystem rdf:type airo:AISystem ;
+    rdfs:label "泰瑟电击无人机系统"@zh ;
+    rdfs:label "Taser Drone System"@en ;
+    airo:hasRisk ex:EthicalConcernsInArmedDrones ;
+    airo:hasPurpose ex:PreventSchoolShootings ;
+    airo:isAppliedWithinDomain ex:SchoolSecurity ;
+    airo:hasStakeholder ex:EthicsBoardMembers ;
+    airo:isDeployedBy ex:Axon .
+
+ex:EthicalConcernsInArmedDrones rdf:type airo:Risk ;
+    rdfs:label "武装无人机的伦理担忧风险"@zh ;
+    rdfs:label "Ethical Concerns in Armed Drones Risk"@en ;
+    airo:hasConsequence ex:EthicalBoardResignations .
+
+ex:EthicsBoardMembers rdf:type airo:Stakeholder ;
+    rdfs:label "伦理委员会成员"@zh ;
+    rdfs:label "Ethics Board Members"@en .
+
+ex:Axon rdf:type airo:AIOperator ;
+    rdfs:label "Axon公司"@zh ;
+    rdfs:label "Axon"@en .
+
+ex:PreventSchoolShootings rdf:type airo:Purpose ;
+    rdfs:label "预防校园枪击事件"@zh ;
+    rdfs:label "Prevent School Shootings"@en .
+
+ex:SchoolSecurity rdf:type airo:Domain ;
+    rdfs:label "校园安全领域"@zh ;
+    rdfs:label "School Security Domain"@en .
+
+ex:EthicalBoardResignations rdf:type airo:Consequence ;
+    rdfs:label "伦理委员会成员辞职后果"@zh ;
+    rdfs:label "Ethical Board Resignations Consequence"@en ;
+    airo:hasImpact ex:ProjectCancellation .
+
+ex:ProjectCancellation rdf:type airo:Impact ;
+    rdfs:label "项目取消的影响"@zh ;
+    rdfs:label "Project Cancellation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:EthicsBoardMembers .

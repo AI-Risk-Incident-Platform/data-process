@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HPRoboCop rdf:type airo:AISystem ;
+    rdfs:label "HP RoboCop"@en ;
+    rdfs:label "HP机器人警察"@zh ;
+    airo:hasRisk ex:PublicSafetyRisk ;
+    airo:hasCapability ex:PublicSafetyMonitoring ;
+    airo:isDeployedBy ex:HuntingtonParkPoliceDepartment ;
+    airo:hasPurpose ex:PublicSafetyEnhancement ;
+    airo:hasStakeholder ex:LocalCommunityMembers ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasVulnerability ex:CommunicationSystemFailure .
+
+ex:PublicSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Public Safety Risk"@en ;
+    rdfs:label "公共安全风险"@zh ;
+    airo:hasConsequence ex:EmergencyResponseFailure .
+
+ex:EmergencyResponseFailure rdf:type airo:Consequence ;
+    rdfs:label "Emergency Response Failure Consequence"@en ;
+    rdfs:label "紧急响应失败后果"@zh ;
+    airo:hasImpact ex:ReducedPublicTrustInAI .
+
+ex:PublicSafetyMonitoring rdf:type airo:AICapability ;
+    rdfs:label "Public Safety Monitoring Capability"@en ;
+    rdfs:label "公共安全监控能力"@zh .
+
+ex:HuntingtonParkPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "Huntington Park Police Department"@en ;
+    rdfs:label "亨廷顿公园警察局"@zh .
+
+ex:LocalCommunityMembers rdf:type airo:Stakeholder ;
+    rdfs:label "Local Community Members"@en ;
+    rdfs:label "当地社区居民"@zh .
+
+ex:PublicSafetyEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Public Safety Enhancement Purpose"@en ;
+    rdfs:label "增强公共安全的目的"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:CommunicationSystemFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Communication System Failure Vulnerability"@en ;
+    rdfs:label "通信系统故障的脆弱性"@zh .
+
+ex:ReducedPublicTrustInAI rdf:type airo:Impact ;
+    rdfs:label "Reduced Public Trust in AI Impact"@en ;
+    rdfs:label "公众对AI信任度降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LocalCommunityMembers .

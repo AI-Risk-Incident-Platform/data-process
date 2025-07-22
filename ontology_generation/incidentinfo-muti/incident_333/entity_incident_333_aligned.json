@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShamMarriageDetectionAlgorithm",
+      "中文名称": "虚假婚姻检测算法",
+      "英文名称": "Sham Marriage Detection",
+      "来源": "Home Office algorithm to detect sham marriages"
+    },
+    "Risk": {
+      "id": "BuiltInDiscriminationRisk",
+      "中文名称": "内置歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Home Office algorithm to detect sham marriages may contain built-in discrimination"
+    },
+    "Stakeholder": {
+      "id": "HomeOffice",
+      "中文名称": "英国内政部",
+      "英文名称": "Home Office",
+      "来源": "Home Office refuses to explain secret sham marriage algorithm"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparency",
+      "中文名称": "缺乏透明度",
+      "英文名称": "Lack of Transparency",
+      "来源": "Home Office refuses to explain secret sham marriage algorithm"
+    },
+    "Impact": {
+      "id": "PotentialDiscriminatoryOutcomes",
+      "中文名称": "潜在歧视性结果",
+      "英文名称": "Discrimination Impact",
+      "来源": "Home Office algorithm to detect sham marriages may contain built-in discrimination"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShamMarriageDetectionAlgorithm",
+      "中文名称": "虚假婚姻检测算法",
+      "英文名称": "Sham Marriage Detection",
+      "来源": "Home Office algorithm to detect sham marriages"
+    },
+    "Risk": {
+      "id": "BuiltInDiscriminationRisk",
+      "中文名称": "内置歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Home Office algorithm to detect sham marriages may contain built-in discrimination"
+    },
+    "Stakeholder": {
+      "id": "HomeOffice",
+      "中文名称": "英国内政部",
+      "英文名称": "Home Office",
+      "来源": "Home Office refuses to explain secret sham marriage algorithm"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparency",
+      "中文名称": "缺乏透明度",
+      "英文名称": "Lack of Transparency",
+      "来源": "Home Office refuses to explain secret sham marriage algorithm"
+    },
+    "Impact": {
+      "id": "PotentialDiscriminatoryOutcomes",
+      "中文名称": "潜在歧视性结果",
+      "英文名称": "Discrimination Impact",
+      "来源": "Home Office algorithm to detect sham marriages may contain built-in discrimination"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "NHTSA probes Tesla Autopilot crash that killed three people"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "NHTSA probes Tesla Autopilot crash that killed three people"
+    },
+    "Consequence": {
+      "id": "FatalAccident",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "crash that killed three people"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla's Autopilot feature under scrutiny"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA probes Tesla Autopilot crash"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "crash that killed three people"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla's Autopilot feature"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Autopilot may be involved"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "NHTSA probes Tesla Autopilot crash that killed three people"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "NHTSA probes Tesla Autopilot crash that killed three people"
+    },
+    "Consequence": {
+      "id": "FatalAccident",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "crash that killed three people"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla's Autopilot feature under scrutiny"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA probes Tesla Autopilot crash"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "crash that killed three people"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla's Autopilot feature"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Autopilot may be involved"
+    }
+  }
+}

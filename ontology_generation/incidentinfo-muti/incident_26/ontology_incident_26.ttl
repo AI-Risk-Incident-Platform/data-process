@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFactoryAutomationSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Factory Automation System"@en ;
+    rdfs:label "特斯拉工厂自动化系统"@zh ;
+    airo:hasRisk ex:OverAutomationRisk ;
+    airo:isDeployedBy ex:TeslaManufacturingTeam ;
+    airo:isAppliedWithinDomain ex:AutomotiveManufacturing ;
+    airo:hasStakeholder ex:TeslaInc .
+
+ex:OverAutomationRisk rdf:type airo:Risk ;
+    rdfs:label "Over Automation Risk"@en ;
+    rdfs:label "过度自动化风险"@zh ;
+    airo:hasConsequence ex:ProductionDelays ;
+    airo:isRiskSourceFor ex:HumanUnderestimation .
+
+ex:ProductionDelays rdf:type airo:Consequence ;
+    rdfs:label "Production Delays Consequence"@en ;
+    rdfs:label "生产延误后果"@zh ;
+    airo:hasImpact ex:EconomicLoss .
+
+ex:TeslaInc rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:EconomicLoss rdf:type airo:Impact ;
+    rdfs:label "Economic Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeslaInc .
+
+ex:HumanUnderestimation rdf:type airo:RiskSource ;
+    rdfs:label "Human Underestimation Risk Source"@en ;
+    rdfs:label "人类能力低估风险源"@zh .
+
+ex:TeslaManufacturingTeam rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Manufacturing Team"@en ;
+    rdfs:label "特斯拉制造团队"@zh .
+
+ex:AutomotiveManufacturing rdf:type airo:Domain ;
+    rdfs:label "Automotive Manufacturing Domain"@en ;
+    rdfs:label "汽车制造领域"@zh .

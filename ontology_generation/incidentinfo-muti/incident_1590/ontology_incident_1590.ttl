@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BardAndChatGPT rdf:type airo:AISystem ;
+    rdfs:label "Bard and ChatGPT"@en ;
+    rdfs:label "Bard和ChatGPT"@zh ;
+    airo:hasRisk ex:SafetyRuleBypassRisk ;
+    airo:hasAICapability ex:NaturalLanguageGeneration ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasPurpose ex:ConversationalAIAssistant ;
+    airo:hasStakeholder ex:AIResearchers ;
+    airo:hasVulnerability ex:SafetyGuardrailWeakness .
+
+ex:SafetyRuleBypassRisk rdf:type airo:Risk ;
+    rdfs:label "Safety Rule Bypass Risk"@en ;
+    rdfs:label "安全规则绕过风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmfulContentGeneration ;
+    airo:isRiskSourceFor ex:PromptEngineeringExploits .
+
+ex:PotentialHarmfulContentGeneration rdf:type airo:Consequence ;
+    rdfs:label "Potential Harmful Content Generation Consequence"@en ;
+    rdfs:label "潜在有害内容生成后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:NaturalLanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:AIResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "AI Researchers"@en ;
+    rdfs:label "AI研究人员"@zh .
+
+ex:PromptEngineeringExploits rdf:type airo:RiskSource ;
+    rdfs:label "Prompt Engineering Exploits Risk Source"@en ;
+    rdfs:label "提示工程利用风险源"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AIResearchers .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:SafetyGuardrailWeakness rdf:type airo:Vulnerability ;
+    rdfs:label "Safety Guardrail Weakness Vulnerability"@en ;
+    rdfs:label "安全护栏弱点脆弱性"@zh .
+
+ex:ConversationalAIAssistant rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Assistant Purpose"@en ;
+    rdfs:label "对话式AI助手目的"@zh .

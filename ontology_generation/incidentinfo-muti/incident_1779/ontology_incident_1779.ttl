@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OcadoWarehouseRobots rdf:type airo:AISystem ;
+    rdfs:label "Ocado Warehouse Robots"@en ;
+    rdfs:label "Ocado仓库机器人"@zh ;
+    airo:hasRisk ex:FirefightingInterferenceRisk ;
+    airo:isAppliedWithinDomain ex:WarehouseAutomation ;
+    airo:hasStakeholder ex:Firefighters .
+
+ex:FirefightingInterferenceRisk rdf:type airo:Risk ;
+    rdfs:label "Firefighting Interference Risk"@en ;
+    rdfs:label "消防干扰风险"@zh ;
+    airo:hasConsequence ex:DelayedEmergencyResponse .
+
+ex:DelayedEmergencyResponse rdf:type airo:Consequence ;
+    rdfs:label "Delayed Emergency Response Consequence"@en ;
+    rdfs:label "紧急响应延迟后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Firefighters .
+
+ex:Firefighters rdf:type airo:Stakeholder ;
+    rdfs:label "Firefighters"@en ;
+    rdfs:label "消防员"@zh .
+
+ex:WarehouseAutomation rdf:type airo:Domain ;
+    rdfs:label "Warehouse Automation Domain"@en ;
+    rdfs:label "仓库自动化领域"@zh .

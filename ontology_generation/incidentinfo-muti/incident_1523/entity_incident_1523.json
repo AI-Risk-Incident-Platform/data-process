@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Philly sheriff's team blames ChatGPT after fake, flattering headlines appeared on campaign website"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "fake, flattering headlines appeared on campaign website"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗后果",
+      "英文名称": "Public Deception Consequence",
+      "来源": "fake, flattering headlines appeared on campaign website"
+    },
+    "Stakeholder": {
+      "id": "PhillySheriffCampaign",
+      "中文名称": "费城警长竞选团队",
+      "英文名称": "Philly Sheriff Campaign",
+      "来源": "Philly sheriff's team blames ChatGPT"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT is developed by OpenAI"
+    },
+    "Impact": {
+      "id": "CredibilityDamage",
+      "中文名称": "信誉损害影响",
+      "英文名称": "Credibility Damage Impact",
+      "来源": "Embattled Sheriff Caught Posting AI-Generated Headlines About How She's Awesome"
+    },
+    "Purpose": {
+      "id": "CampaignPromotion",
+      "中文名称": "竞选宣传目的",
+      "英文名称": "Campaign Promotion Purpose",
+      "来源": "flattering headlines appeared on campaign website"
+    },
+    "RiskSource": {
+      "id": "AIHallucination",
+      "中文名称": "AI幻觉风险源",
+      "英文名称": "AI Hallucination Risk Source",
+      "来源": "fake, flattering headlines appeared on campaign website"
+    },
+    "Misuse": {
+      "id": "PoliticalMisuseOfAI",
+      "中文名称": "AI政治滥用",
+      "英文名称": "Political Misuse of AI",
+      "来源": "Embattled Sheriff Caught Posting AI-Generated Headlines About How She's Awesome"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LensaAI rdf:type airo:AISystem ;
+    rdfs:label "Lensa AI"@en ;
+    rdfs:label "Lensa AI"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIArt ;
+    airo:hasStakeholder ex:Artists .
+
+ex:EthicalConcernsInAIArt rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Art Risk"@en ;
+    rdfs:label "AI艺术中的伦理问题风险"@zh ;
+    airo:isRiskSourceFor ex:AIArtCreationWithoutArtistConsent ;
+    airo:hasConsequence ex:PotentialArtisticCopyrightInfringement .
+
+ex:Artists rdf:type airo:Stakeholder ;
+    rdfs:label "Artists"@en ;
+    rdfs:label "艺术家"@zh .
+
+ex:AIArtCreationWithoutArtistConsent rdf:type airo:RiskSource ;
+    rdfs:label "AI Art Creation Without Artist Consent Risk Source"@en ;
+    rdfs:label "未经艺术家同意的AI艺术创作风险源"@zh .
+
+ex:PotentialArtisticCopyrightInfringement rdf:type airo:Impact ;
+    rdfs:label "Potential Artistic Copyright Infringement Impact"@en ;
+    rdfs:label "潜在的艺术版权侵权影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Artists .

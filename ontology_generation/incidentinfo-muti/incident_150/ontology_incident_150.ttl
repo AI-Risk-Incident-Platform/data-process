@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingTech rdf:type airo:AISystem ;
+    rdfs:label "Tesla Full Self-Driving Tech"@en ;
+    rdfs:label "特斯拉全自动驾驶技术"@zh ;
+    airo:hasRisk ex:MisinterpretationRisk ;
+    airo:hasCapability ex:ObjectRecognition ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving ;
+    airo:usesTechnique ex:ComputerVision .
+
+ex:MisinterpretationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinterpretation Risk"@en ;
+    rdfs:label "误判风险"@zh ;
+    airo:hasConsequence ex:TrafficSafetyHazard ;
+    airo:isRiskSourceFor ex:VisualSimilarity .
+
+ex:ObjectRecognition rdf:type airo:AICapability ;
+    rdfs:label "Object Recognition Capability"@en ;
+    rdfs:label "物体识别能力"@zh .
+
+ex:VisualSimilarity rdf:type airo:RiskSource ;
+    rdfs:label "Visual Similarity Risk Source"@en ;
+    rdfs:label "视觉相似性风险源"@zh .
+
+ex:TrafficSafetyHazard rdf:type airo:Consequence ;
+    rdfs:label "Traffic Safety Hazard Consequence"@en ;
+    rdfs:label "交通安全隐患后果"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "Autonomous Driving Domain"@en ;
+    rdfs:label "自动驾驶领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .

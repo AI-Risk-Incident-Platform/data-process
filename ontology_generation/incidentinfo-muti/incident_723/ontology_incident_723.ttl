@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseRobotaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    rdfs:label "Cruise Robotaxi"@en ;
+    airo:hasRisk ex:PedestrianSafetyRisk ;
+    airo:isDeployedBy ex:GeneralMotors ;
+    airo:hasStakeholder ex:CaliforniaRegulatoryAgency ;
+    airo:isAppliedWithinDomain ex:AutonomousTransportation .
+
+ex:PedestrianSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "行人安全风险"@zh ;
+    rdfs:label "Pedestrian Safety Risk"@en ;
+    airo:hasConsequence ex:PhysicalInjuryToPedestrian ;
+    airo:isRiskSourceFor ex:AutonomousVehicleMalfunction .
+
+ex:PhysicalInjuryToPedestrian rdf:type airo:Consequence ;
+    rdfs:label "行人身体伤害后果"@zh ;
+    rdfs:label "Physical Injury to Pedestrian Consequence"@en ;
+    airo:hasImpact ex:LegalSettlementImpact .
+
+ex:CaliforniaRegulatoryAgency rdf:type airo:Stakeholder ;
+    rdfs:label "加州监管机构"@zh ;
+    rdfs:label "California Regulatory Agency"@en .
+
+ex:GeneralMotors rdf:type airo:AIOperator ;
+    rdfs:label "通用汽车"@zh ;
+    rdfs:label "General Motors"@en .
+
+ex:LegalSettlementImpact rdf:type airo:Impact ;
+    rdfs:label "法律和解影响"@zh ;
+    rdfs:label "Legal Settlement Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CaliforniaRegulatoryAgency .
+
+ex:AutonomousVehicleMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "自动驾驶车辆故障风险源"@zh ;
+    rdfs:label "Autonomous Vehicle Malfunction Risk Source"@en .
+
+ex:AutonomousTransportation rdf:type airo:Domain ;
+    rdfs:label "自动驾驶交通领域"@zh ;
+    rdfs:label "Autonomous Transportation Domain"@en .

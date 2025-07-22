@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAI rdf:type airo:AISystem ;
+    rdfs:label "Generative AI"@en ;
+    rdfs:label "生成式AI"@zh ;
+    airo:hasRisk ex:ImproperUseOfGenerativeAIRisk ;
+    airo:hasStakeholder ex:AIEndUsers .
+
+ex:ImproperUseOfGenerativeAIRisk rdf:type airo:Risk ;
+    rdfs:label "Improper Use of Generative AI Risk"@en ;
+    rdfs:label "生成式AI不当使用风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfUsageGuidelines ;
+    airo:hasConsequence ex:PotentialHarmFromMisuse .
+
+ex:LackOfUsageGuidelines rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Usage Guidelines"@en ;
+    rdfs:label "使用指南缺失"@zh .
+
+ex:AIEndUsers rdf:type airo:Stakeholder ;
+    rdfs:label "AI End Users"@en ;
+    rdfs:label "AI终端用户"@zh .
+
+ex:PotentialHarmFromMisuse rdf:type airo:Impact ;
+    rdfs:label "Potential Harm from Misuse"@en ;
+    rdfs:label "滥用潜在危害"@zh ;
+    airo:hasImpactOnStakeholder ex:AIEndUsers .

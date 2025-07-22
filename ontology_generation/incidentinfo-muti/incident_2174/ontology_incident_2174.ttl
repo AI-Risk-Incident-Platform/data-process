@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "人脸识别系统"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasAICapability ex:BiometricAuthentication ;
+    airo:hasPurpose ex:SecureAuthentication ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:usesTechnique ex:DeepLearningBasedRecognition ;
+    airo:hasAISubject ex:SleepingVictim ;
+    airo:hasStakeholder ex:PropertyBuyers ;
+    airo:isDeployedBy ex:RealEstateAgency .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:MaliciousUseOfBiometrics .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:PropertyLoss .
+
+ex:BiometricAuthentication rdf:type airo:AICapability ;
+    rdfs:label "Biometric Authentication Capability"@en ;
+    rdfs:label "生物特征认证能力"@zh .
+
+ex:RealEstateAgency rdf:type airo:AIOperator ;
+    rdfs:label "Real Estate Agency"@en ;
+    rdfs:label "房地产中介"@zh .
+
+ex:PropertyBuyers rdf:type airo:Stakeholder ;
+    rdfs:label "Property Buyers"@en ;
+    rdfs:label "购房者"@zh .
+
+ex:SleepingVictim rdf:type airo:AISubject ;
+    rdfs:label "Sleeping Victim"@en ;
+    rdfs:label "睡眠中的受害者"@zh .
+
+ex:PropertyLoss rdf:type airo:Impact ;
+    rdfs:label "Property Loss Impact"@en ;
+    rdfs:label "财产损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PropertyBuyers .
+
+ex:SecureAuthentication rdf:type airo:Purpose ;
+    rdfs:label "Secure Authentication Purpose"@en ;
+    rdfs:label "安全认证目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:DeepLearningBasedRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Recognition Technique"@en ;
+    rdfs:label "基于深度学习的识别技术"@zh .
+
+ex:MaliciousUseOfBiometrics rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of Biometrics Risk Source"@en ;
+    rdfs:label "恶意使用生物特征的风险源"@zh ;
+    airo:exploitsVulnerability ex:UnconsciousAuthentication ;
+    airo:isThreatenedBy ex:PhysicalAccessToDevice ;
+    airo:isHazardousTo ex:LackOfLivenessDetection .
+
+ex:UnconsciousAuthentication rdf:type airo:Vulnerability ;
+    rdfs:label "Unconscious Authentication Vulnerability"@en ;
+    rdfs:label "无意识认证的脆弱性"@zh .
+
+ex:PhysicalAccessToDevice rdf:type airo:Threat ;
+    rdfs:label "Physical Access to Device Threat"@en ;
+    rdfs:label "物理接触设备的威胁"@zh .
+
+ex:LackOfLivenessDetection rdf:type airo:Hazard ;
+    rdfs:label "Lack of Liveness Detection Hazard"@en ;
+    rdfs:label "缺乏活体检测的危害"@zh .

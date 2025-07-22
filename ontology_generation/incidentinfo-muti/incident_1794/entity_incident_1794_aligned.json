@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TrafficMonitoringAI",
+      "中文名称": "交通监控AI",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "Driver fined for scratching face after camera thought he was on the phone"
+    },
+    "Risk": {
+      "id": "FalsePositiveDetectionRisk",
+      "中文名称": "误判检测风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Motorist's face itch nets traffic fine"
+    },
+    "Consequence": {
+      "id": "UnjustTrafficFine",
+      "中文名称": "不公正交通罚款后果",
+      "英文名称": "Traffic Violation Consequence",
+      "来源": "Driver fined for scratching face after camera thought he was on the phone"
+    },
+    "AICapability": {
+      "id": "ImageRecognitionForDriverMonitoring",
+      "中文名称": "驾驶员监控图像识别能力",
+      "英文名称": "Image Recognition for Driver Monitoring Capability",
+      "来源": "camera thought he was on the phone"
+    },
+    "AISubject": {
+      "id": "Motorists",
+      "中文名称": "机动车驾驶员",
+      "英文名称": "Drivers",
+      "来源": "Motorist's face itch nets traffic fine"
+    },
+    "Impact": {
+      "id": "FinancialPenaltyImpact",
+      "中文名称": "经济处罚影响",
+      "英文名称": "Financial Penalty Impact",
+      "来源": "nets traffic fine"
+    },
+    "RiskSource": {
+      "id": "FacialGestureMisinterpretation",
+      "中文名称": "面部动作误判风险源",
+      "英文名称": "Facial Gesture Misinterpretation Risk Source",
+      "来源": "scratching face after camera thought he was on the phone"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TrafficMonitoringAI",
+      "中文名称": "交通监控AI",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "Driver fined for scratching face after camera thought he was on the phone"
+    },
+    "Risk": {
+      "id": "FalsePositiveDetectionRisk",
+      "中文名称": "误判检测风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Motorist's face itch nets traffic fine"
+    },
+    "Consequence": {
+      "id": "UnjustTrafficFine",
+      "中文名称": "不公正交通罚款后果",
+      "英文名称": "Traffic Violation Consequence",
+      "来源": "Driver fined for scratching face after camera thought he was on the phone"
+    },
+    "AICapability": {
+      "id": "ImageRecognitionForDriverMonitoring",
+      "中文名称": "驾驶员监控图像识别能力",
+      "英文名称": "Image Recognition for Driver Monitoring Capability",
+      "来源": "camera thought he was on the phone"
+    },
+    "AISubject": {
+      "id": "Motorists",
+      "中文名称": "机动车驾驶员",
+      "英文名称": "Drivers",
+      "来源": "Motorist's face itch nets traffic fine"
+    },
+    "Impact": {
+      "id": "FinancialPenaltyImpact",
+      "中文名称": "经济处罚影响",
+      "英文名称": "Financial Penalty Impact",
+      "来源": "nets traffic fine"
+    },
+    "RiskSource": {
+      "id": "FacialGestureMisinterpretation",
+      "中文名称": "面部动作误判风险源",
+      "英文名称": "Facial Gesture Misinterpretation Risk Source",
+      "来源": "scratching face after camera thought he was on the phone"
+    }
+  }
+}

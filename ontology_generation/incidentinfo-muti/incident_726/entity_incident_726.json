@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT4o",
+      "中文名称": "GPT-4o",
+      "英文名称": "GPT-4o",
+      "来源": "GPT-4o’s Chinese token-training data is polluted by spam and porn websites"
+    },
+    "Risk": {
+      "id": "DataPollutionRisk",
+      "中文名称": "数据污染风险",
+      "英文名称": "Data Pollution Risk",
+      "来源": "Chinese token-training data is polluted by spam and porn websites"
+    },
+    "RiskSource": {
+      "id": "SpamAndPornWebsites",
+      "中文名称": "垃圾邮件和色情网站",
+      "英文名称": "Spam and Porn Websites",
+      "来源": "polluted by spam and porn websites"
+    },
+    "Consequence": {
+      "id": "ModelBiasAndInaccuracy",
+      "中文名称": "模型偏见和不准确性",
+      "英文名称": "Model Bias and Inaccuracy",
+      "来源": "Chinese token-training data is polluted"
+    },
+    "AITechnique": {
+      "id": "TokenTraining",
+      "中文名称": "令牌训练",
+      "英文名称": "Token Training",
+      "来源": "Chinese token-training data"
+    }
+  }
+}

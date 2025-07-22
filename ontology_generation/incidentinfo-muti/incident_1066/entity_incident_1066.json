@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedLegalBriefs",
+      "中文名称": "AI生成法律简报",
+      "英文名称": "AI Generated Legal Briefs",
+      "来源": "Judge Sanctions Law Firms $31,000 for Error-Filled AI-Generated Brief"
+    },
+    "Risk": {
+      "id": "LegalDocumentInaccuracyRisk",
+      "中文名称": "法律文件不准确风险",
+      "英文名称": "Legal Document Inaccuracy Risk",
+      "来源": "Error-Filled AI-Generated Brief"
+    },
+    "Consequence": {
+      "id": "FinancialPenaltyConsequence",
+      "中文名称": "经济处罚后果",
+      "英文名称": "Financial Penalty Consequence",
+      "来源": "Judge Sanctions Law Firms $31,000"
+    },
+    "Stakeholder": {
+      "id": "LawFirmsUsingAI",
+      "中文名称": "使用AI的律师事务所",
+      "英文名称": "Law Firms Using AI",
+      "来源": "Judge Sanctions Law Firms $31,000"
+    },
+    "AITechnique": {
+      "id": "LegalDocumentGenerationAI",
+      "中文名称": "法律文件生成AI技术",
+      "英文名称": "Legal Document Generation AI Technique",
+      "来源": "AI-Generated Brief"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "专业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "Judge Sanctions Law Firms $31,000 for Error-Filled AI-Generated Brief"
+    }
+  }
+}

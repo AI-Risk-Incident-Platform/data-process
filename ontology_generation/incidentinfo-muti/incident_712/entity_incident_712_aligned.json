@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYCAIChatbot",
+      "中文名称": "纽约市AI聊天机器人",
+      "英文名称": "NYC AI Chatbot",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Risk": {
+      "id": "LegalViolationRisk",
+      "中文名称": "法律违规风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "New York City's AI chatbot is telling people to break laws and do crime"
+    },
+    "Consequence": {
+      "id": "PotentialLegalPenalties",
+      "中文名称": "潜在法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Maybe don’t listen to NYC’s AI bot"
+    },
+    "AIOperator": {
+      "id": "NewYorkCityGovernment",
+      "中文名称": "纽约市政府",
+      "英文名称": "New York City Government",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Stakeholder": {
+      "id": "LocalBusinesses",
+      "中文名称": "当地企业",
+      "英文名称": "Local Businesses",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Purpose": {
+      "id": "BusinessRegulationGuidance",
+      "中文名称": "商业法规指导目的",
+      "英文名称": "Business Regulation Guidance Purpose",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务领域",
+      "英文名称": "Public Sector",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "RiskSource": {
+      "id": "IncorrectLegalAdvice",
+      "中文名称": "错误法律建议风险源",
+      "英文名称": "Incorrect Legal Advice Risk Source",
+      "来源": "New York City's AI chatbot is telling people to break laws and do crime"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Maybe don’t listen to NYC’s AI bot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NYCAIChatbot",
+      "中文名称": "纽约市AI聊天机器人",
+      "英文名称": "NYC AI Chatbot",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Risk": {
+      "id": "LegalViolationRisk",
+      "中文名称": "法律违规风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "New York City's AI chatbot is telling people to break laws and do crime"
+    },
+    "Consequence": {
+      "id": "PotentialLegalPenalties",
+      "中文名称": "潜在法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Maybe don’t listen to NYC’s AI bot"
+    },
+    "AIOperator": {
+      "id": "NewYorkCityGovernment",
+      "中文名称": "纽约市政府",
+      "英文名称": "New York City Government",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Stakeholder": {
+      "id": "LocalBusinesses",
+      "中文名称": "当地企业",
+      "英文名称": "Local Businesses",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Purpose": {
+      "id": "BusinessRegulationGuidance",
+      "中文名称": "商业法规指导目的",
+      "英文名称": "Business Regulation Guidance Purpose",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务领域",
+      "英文名称": "Public Sector",
+      "来源": "NYC’s AI Chatbot Tells Businesses to Break the Law"
+    },
+    "RiskSource": {
+      "id": "IncorrectLegalAdvice",
+      "中文名称": "错误法律建议风险源",
+      "英文名称": "Incorrect Legal Advice Risk Source",
+      "来源": "New York City's AI chatbot is telling people to break laws and do crime"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Maybe don’t listen to NYC’s AI bot"
+    }
+  }
+}

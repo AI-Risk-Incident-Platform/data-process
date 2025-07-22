@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StarshipRoboticsDeliveryRobot",
+      "中文名称": "Starship Robotics送货机器人",
+      "英文名称": "Starship Robotics Delivery Robot",
+      "来源": "Anatomy of an AI Incident: The Starship Robotics Delivery Robot"
+    },
+    "Risk": {
+      "id": "DeliveryRobotSafetyRisk",
+      "中文名称": "送货机器人安全风险",
+      "英文名称": "Delivery Robot Safety Risk",
+      "来源": "Anatomy of an AI Incident: The Starship Robotics Delivery Robot"
+    },
+    "AIOperator": {
+      "id": "StarshipTechnologies",
+      "中文名称": "Starship Technologies公司",
+      "英文名称": "Starship Technologies",
+      "来源": "Starship Robotics is a delivery robot developed by Starship Technologies"
+    },
+    "Domain": {
+      "id": "LastMileDelivery",
+      "中文名称": "最后一公里配送领域",
+      "英文名称": "Last Mile Delivery Domain",
+      "来源": "delivery robot designed for last-mile delivery services"
+    },
+    "Purpose": {
+      "id": "AutonomousPackageDelivery",
+      "中文名称": "自主包裹配送目的",
+      "英文名称": "Autonomous Package Delivery Purpose",
+      "来源": "robot designed to autonomously deliver packages"
+    }
+  }
+}

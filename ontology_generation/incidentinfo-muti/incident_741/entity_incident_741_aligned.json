@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GeminiAI",
+      "中文名称": "Gemini AI",
+      "英文名称": "Gemini AI",
+      "来源": "Google's Gemini AI caught scanning Google Drive hosted PDF files without permission"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "caught scanning Google Drive hosted PDF files without permission"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's Gemini AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问",
+      "英文名称": "Unauthorized Data Access",
+      "来源": "scanning Google Drive hosted PDF files without permission"
+    },
+    "RiskSource": {
+      "id": "LackOfUserControl",
+      "中文名称": "缺乏用户控制",
+      "英文名称": "Lack of User Control",
+      "来源": "user complains feature can't be disabled"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "user complains feature can't be disabled"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GeminiAI",
+      "中文名称": "Gemini AI",
+      "英文名称": "Gemini AI",
+      "来源": "Google's Gemini AI caught scanning Google Drive hosted PDF files without permission"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "caught scanning Google Drive hosted PDF files without permission"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's Gemini AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问",
+      "英文名称": "Unauthorized Data Access",
+      "来源": "scanning Google Drive hosted PDF files without permission"
+    },
+    "RiskSource": {
+      "id": "LackOfUserControl",
+      "中文名称": "缺乏用户控制",
+      "英文名称": "Lack of User Control",
+      "来源": "user complains feature can't be disabled"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "user complains feature can't be disabled"
+    }
+  }
+}

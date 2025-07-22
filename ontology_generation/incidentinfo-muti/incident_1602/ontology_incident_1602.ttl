@@ -1,0 +1,43 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdobeAI rdf:type airo:AISystem ;
+    rdfs:label "Adobe AI"@en ;
+    rdfs:label "Adobe AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:isDeployedBy ex:Adobe ;
+    airo:isAppliedWithinDomain ex:MediaAndJournalism ;
+    airo:hasStakeholder ex:Adobe .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:SpreadOfFakeNews ;
+    airo:hasRiskSource ex:CommercialExploitationOfFakeImages .
+
+ex:SpreadOfFakeNews rdf:type airo:Consequence ;
+    rdfs:label "Spread of Fake News Consequence"@en ;
+    rdfs:label "虚假新闻传播后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Adobe .
+
+ex:Adobe rdf:type airo:AIOperator ;
+    rdfs:label "Adobe"@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:MediaAndJournalism rdf:type airo:Domain ;
+    rdfs:label "Media and Journalism Domain"@en ;
+    rdfs:label "媒体与新闻领域"@zh .
+
+ex:CommercialExploitationOfFakeImages rdf:type airo:Misuse ;
+    rdfs:label "Commercial Exploitation of Fake Images Misuse"@en ;
+    rdfs:label "虚假图像商业利用滥用"@zh ;
+    airo:isRiskSourceFor ex:MisinformationRisk .

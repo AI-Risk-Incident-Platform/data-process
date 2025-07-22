@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacePaySystem",
+      "中文名称": "面部支付系统",
+      "英文名称": "Face Pay System",
+      "来源": "Moscow metro’s ‘Face Pay’ system part of Orwellian surveillance, say critics"
+    },
+    "Risk": {
+      "id": "OrwellianSurveillanceRisk",
+      "中文名称": "奥威尔式监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Moscow metro’s ‘Face Pay’ system part of Orwellian surveillance, say critics"
+    },
+    "Stakeholder": {
+      "id": "Critics",
+      "中文名称": "批评者",
+      "英文名称": "Critics",
+      "来源": "say critics"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Orwellian surveillance"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通",
+      "英文名称": "Public Transportation",
+      "来源": "Moscow metro"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacePaySystem",
+      "中文名称": "面部支付系统",
+      "英文名称": "Face Pay System",
+      "来源": "Moscow metro’s ‘Face Pay’ system part of Orwellian surveillance, say critics"
+    },
+    "Risk": {
+      "id": "OrwellianSurveillanceRisk",
+      "中文名称": "奥威尔式监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Moscow metro’s ‘Face Pay’ system part of Orwellian surveillance, say critics"
+    },
+    "Stakeholder": {
+      "id": "Critics",
+      "中文名称": "批评者",
+      "英文名称": "Critics",
+      "来源": "say critics"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Orwellian surveillance"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通",
+      "英文名称": "Public Transportation",
+      "来源": "Moscow metro"
+    }
+  }
+}

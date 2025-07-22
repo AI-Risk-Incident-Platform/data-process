@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeanPhillipsCampaignBot rdf:type airo:AISystem ;
+    rdfs:label "迪恩·菲利普斯竞选机器人"@zh ;
+    rdfs:label "Dean Phillips Campaign Bot"@en ;
+    airo:hasRisk ex:PoliticalMisinformationRisk ;
+    airo:hasPurpose ex:PoliticalCampaignAssistance ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaignDomain ;
+    airo:hasStakeholder ex:OpenAI ;
+    airo:isDeployedBy ex:BotDeveloper .
+
+ex:PoliticalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "政治虚假信息风险"@zh ;
+    rdfs:label "Political Misinformation Risk"@en ;
+    airo:isRiskSourceFor ex:BotImpersonation ;
+    airo:hasConsequence ex:PublicDeceptionConsequence .
+
+ex:OpenAI rdf:type airo:Stakeholder ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:BotDeveloper rdf:type airo:AIOperator ;
+    rdfs:label "机器人开发者"@zh ;
+    rdfs:label "Bot Developer"@en .
+
+ex:PoliticalCampaignAssistance rdf:type airo:Purpose ;
+    rdfs:label "政治竞选辅助"@zh ;
+    rdfs:label "Political Campaign Assistance"@en .
+
+ex:PoliticalCampaignDomain rdf:type airo:Domain ;
+    rdfs:label "政治竞选领域"@zh ;
+    rdfs:label "Political Campaign Domain"@en .
+
+ex:BotImpersonation rdf:type airo:RiskSource ;
+    rdfs:label "机器人冒充"@zh ;
+    rdfs:label "Bot Impersonation"@en .
+
+ex:PublicDeceptionConsequence rdf:type airo:Consequence ;
+    rdfs:label "公众欺骗后果"@zh ;
+    rdfs:label "Public Deception Consequence"@en .

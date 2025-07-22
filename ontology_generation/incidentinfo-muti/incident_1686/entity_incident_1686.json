@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TwitterAlgorithm",
+      "中文名称": "推特算法",
+      "英文名称": "Twitter Algorithm",
+      "来源": "Twitter's internal data shows its algorithm amplifies right-wing political content"
+    },
+    "Risk": {
+      "id": "PoliticalContentAmplificationBias",
+      "中文名称": "政治内容放大偏见风险",
+      "英文名称": "Political Content Amplification Bias Risk",
+      "来源": "Twitter admits its algorithms amplify right-wing politicians and news content"
+    },
+    "Consequence": {
+      "id": "PoliticalPolarization",
+      "中文名称": "政治两极分化后果",
+      "英文名称": "Political Polarization Consequence",
+      "来源": "Twitter Reveals Algorithm Amplified Right-Wing Content, Despite Claims of Liberal Bias"
+    },
+    "AICapability": {
+      "id": "ContentAmplification",
+      "中文名称": "内容放大能力",
+      "英文名称": "Content Amplification Capability",
+      "来源": "Twitter's internal data shows its algorithm amplifies right-wing political content"
+    },
+    "Stakeholder": {
+      "id": "RightWingPoliticians",
+      "中文名称": "右翼政客",
+      "英文名称": "Right-Wing Politicians",
+      "来源": "Twitter admits its algorithms amplify right-wing politicians and news content"
+    },
+    "AIOperator": {
+      "id": "TwitterInc",
+      "中文名称": "推特公司",
+      "英文名称": "Twitter Inc.",
+      "来源": "Twitter's internal data shows its algorithm amplifies right-wing political content"
+    },
+    "Impact": {
+      "id": "PublicDiscourseDistortion",
+      "中文名称": "公共话语扭曲影响",
+      "英文名称": "Public Discourse Distortion Impact",
+      "来源": "Twitter Reveals Algorithm Amplified Right-Wing Content, Despite Claims of Liberal Bias"
+    },
+    "Purpose": {
+      "id": "UserEngagementMaximization",
+      "中文名称": "用户参与度最大化目的",
+      "英文名称": "User Engagement Maximization Purpose",
+      "来源": "Twitter's algorithm is designed to maximize user engagement"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "Twitter is a social media platform"
+    },
+    "AITechnique": {
+      "id": "RecommendationAlgorithm",
+      "中文名称": "推荐算法技术",
+      "英文名称": "Recommendation Algorithm Technique",
+      "来源": "Twitter's algorithm uses recommendation techniques to amplify content"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTrainingData",
+      "中文名称": "训练数据中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Training Data Risk Source",
+      "来源": "The algorithm may have been trained on biased data"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITrainingDataSystem",
+      "中文名称": "AI训练数据系统",
+      "英文名称": "AI Training Data System",
+      "来源": "A weird phrase is plaguing scientific papers – and we traced it back to a glitch in AI training data"
+    },
+    "Risk": {
+      "id": "DataContaminationRisk",
+      "中文名称": "数据污染风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A weird phrase is plaguing scientific papers – and we traced it back to a glitch in AI training data"
+    },
+    "Consequence": {
+      "id": "ScientificPaperContamination",
+      "中文名称": "科学论文污染后果",
+      "英文名称": "Scientific Paper Consequence",
+      "来源": "A weird phrase is plaguing scientific papers"
+    },
+    "RiskSource": {
+      "id": "GlitchInTrainingData",
+      "中文名称": "训练数据中的故障风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "traced it back to a glitch in AI training data"
+    },
+    "Stakeholder": {
+      "id": "ElsevierPublisher",
+      "中文名称": "爱思唯尔出版商",
+      "英文名称": "Elsevier Publisher",
+      "来源": "Elsevier defends its use"
+    },
+    "AISubject": {
+      "id": "ScientificPapers",
+      "中文名称": "科学论文",
+      "英文名称": "Scientific Papers",
+      "来源": "A weird phrase is plaguing scientific papers"
+    },
+    "Impact": {
+      "id": "AcademicIntegrityCompromise",
+      "中文名称": "学术诚信受损影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "A weird phrase is plaguing scientific papers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITrainingDataSystem",
+      "中文名称": "AI训练数据系统",
+      "英文名称": "AI Training Data System",
+      "来源": "A weird phrase is plaguing scientific papers – and we traced it back to a glitch in AI training data"
+    },
+    "Risk": {
+      "id": "DataContaminationRisk",
+      "中文名称": "数据污染风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A weird phrase is plaguing scientific papers – and we traced it back to a glitch in AI training data"
+    },
+    "Consequence": {
+      "id": "ScientificPaperContamination",
+      "中文名称": "科学论文污染后果",
+      "英文名称": "Scientific Paper Consequence",
+      "来源": "A weird phrase is plaguing scientific papers"
+    },
+    "RiskSource": {
+      "id": "GlitchInTrainingData",
+      "中文名称": "训练数据中的故障风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "traced it back to a glitch in AI training data"
+    },
+    "Stakeholder": {
+      "id": "ElsevierPublisher",
+      "中文名称": "爱思唯尔出版商",
+      "英文名称": "Elsevier Publisher",
+      "来源": "Elsevier defends its use"
+    },
+    "AISubject": {
+      "id": "ScientificPapers",
+      "中文名称": "科学论文",
+      "英文名称": "Scientific Papers",
+      "来源": "A weird phrase is plaguing scientific papers"
+    },
+    "Impact": {
+      "id": "AcademicIntegrityCompromise",
+      "中文名称": "学术诚信受损影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "A weird phrase is plaguing scientific papers"
+    }
+  }
+}

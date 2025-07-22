@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchAI rdf:type airo:AISystem ;
+    rdfs:label "Google Search AI"@en ;
+    rdfs:label "谷歌搜索AI"@zh ;
+    airo:hasRisk ex:InappropriateParentingAdviceRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:hasStakeholder ex:ParentsOfToddlers ;
+    airo:hasPurpose ex:ProvidingParentingAdvice .
+
+ex:InappropriateParentingAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Parenting Advice Risk"@en ;
+    rdfs:label "不当育儿建议风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToChildDevelopment ;
+    airo:isRiskSourceFor ex:UnverifiedOnlineContent .
+
+ex:PotentialHarmToChildDevelopment rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Child Development Consequence"@en ;
+    rdfs:label "对儿童发展的潜在危害后果"@zh ;
+    airo:hasImpact ex:ChildHealthAndSafetyConcerns .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en ;
+    rdfs:label "内容推荐算法能力"@zh .
+
+ex:ParentsOfToddlers rdf:type airo:Stakeholder ;
+    rdfs:label "Parents of Toddlers"@en ;
+    rdfs:label "幼儿父母"@zh .
+
+ex:ChildHealthAndSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Child Health and Safety Concerns Impact"@en ;
+    rdfs:label "儿童健康与安全问题影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsOfToddlers .
+
+ex:UnverifiedOnlineContent rdf:type airo:RiskSource ;
+    rdfs:label "Unverified Online Content Risk Source"@en ;
+    rdfs:label "未经核实的在线内容风险源"@zh .
+
+ex:ProvidingParentingAdvice rdf:type airo:Purpose ;
+    rdfs:label "Providing Parenting Advice Purpose"@en ;
+    rdfs:label "提供育儿建议的目的"@zh .

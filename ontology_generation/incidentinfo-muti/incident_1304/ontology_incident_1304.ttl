@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Grok Image Generation System"@en ;
+    rdfs:label "Grok图像生成系统"@zh ;
+    airo:hasRisk ex:InappropriateContentGenerationRisk ;
+    airo:isDevelopedBy ex:XCorporation ;
+    airo:hasPurpose ex:EntertainmentImageGeneration ;
+    airo:usesTechnique ex:DeepfakeGeneration ;
+    airo:hasStakeholder ex:PublicFigures .
+
+ex:InappropriateContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Generation Risk"@en ;
+    rdfs:label "不当内容生成风险"@zh ;
+    airo:hasConsequence ex:OffensiveImageCreation ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:OffensiveImageCreation rdf:type airo:Consequence ;
+    rdfs:label "Offensive Image Creation Consequence"@en ;
+    rdfs:label "冒犯性图像生成后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:XCorporation rdf:type airo:AIOperator ;
+    rdfs:label "X Corporation"@en ;
+    rdfs:label "X公司"@zh .
+
+ex:PublicFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核缺失风险源"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicFigures .
+
+ex:EntertainmentImageGeneration rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Image Generation Purpose"@en ;
+    rdfs:label "娱乐图像生成目的"@zh .
+
+ex:DeepfakeGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Generation Technique"@en ;
+    rdfs:label "深度伪造生成技术"@zh .

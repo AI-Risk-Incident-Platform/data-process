@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BaiduAutonomousDrivingSystem rdf:type airo:AISystem ;
+    rdfs:label "百度自动驾驶系统"@zh ;
+    rdfs:label "Baidu Autonomous Driving System"@en ;
+    airo:hasRisk ex:PedestrianCollisionRisk ;
+    airo:isDeployedBy ex:Baidu ;
+    airo:hasStakeholder ex:Pedestrian ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving .
+
+ex:PedestrianCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "行人碰撞风险"@zh ;
+    rdfs:label "Pedestrian Collision Risk"@en ;
+    airo:isRiskSourceFor ex:JaywalkingBehavior ;
+    airo:hasConsequence ex:PhysicalInjuryToPedestrian .
+
+ex:PhysicalInjuryToPedestrian rdf:type airo:Consequence ;
+    rdfs:label "行人身体伤害后果"@zh ;
+    rdfs:label "Physical Injury to Pedestrian Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:Baidu rdf:type airo:AIOperator ;
+    rdfs:label "百度"@zh ;
+    rdfs:label "Baidu"@en .
+
+ex:Pedestrian rdf:type airo:Stakeholder ;
+    rdfs:label "行人"@zh ;
+    rdfs:label "Pedestrian"@en ;
+    airo:hasImpactOnStakeholder ex:PublicSafetyConcern .
+
+ex:JaywalkingBehavior rdf:type airo:RiskSource ;
+    rdfs:label "乱穿马路行为风险源"@zh ;
+    rdfs:label "Jaywalking Behavior Risk Source"@en .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "自动驾驶领域"@zh ;
+    rdfs:label "Autonomous Driving Domain"@en .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    rdfs:label "Public Safety Concern Impact"@en .

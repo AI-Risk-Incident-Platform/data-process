@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClearviewAI",
+      "中文名称": "Clearview AI",
+      "英文名称": "Clearview AI",
+      "来源": "Clearview AI Offered Free Trials To Police Around The World"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartments",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Clearview AI Offered Free Trials To Police Around The World"
+    },
+    "AIOperator": {
+      "id": "FinnishPolice",
+      "中文名称": "芬兰警察",
+      "英文名称": "Finnish Police",
+      "来源": "Finnish police denied, then admitted using controversial facial recognition app"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别",
+      "英文名称": "Facial Recognition",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "RiskSource": {
+      "id": "LackOfRegulation",
+      "中文名称": "缺乏监管",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Finnish police denied, then admitted using controversial facial recognition app"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ClearviewAI",
+      "中文名称": "Clearview AI",
+      "英文名称": "Clearview AI",
+      "来源": "Clearview AI Offered Free Trials To Police Around The World"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartments",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Clearview AI Offered Free Trials To Police Around The World"
+    },
+    "AIOperator": {
+      "id": "FinnishPolice",
+      "中文名称": "芬兰警察",
+      "英文名称": "Finnish Police",
+      "来源": "Finnish police denied, then admitted using controversial facial recognition app"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别",
+      "英文名称": "Facial Recognition",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Testing of facial recognition software by NBI reported to Data Protection Ombudsman"
+    },
+    "RiskSource": {
+      "id": "LackOfRegulation",
+      "中文名称": "缺乏监管",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Finnish police denied, then admitted using controversial facial recognition app"
+    }
+  }
+}

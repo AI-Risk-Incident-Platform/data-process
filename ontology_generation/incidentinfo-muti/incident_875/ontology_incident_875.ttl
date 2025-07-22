@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedVideosOfDoctors rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Videos of Doctors"@en ;
+    rdfs:label "AI生成的医生视频"@zh ;
+    airo:hasRisk ex:MisleadingHealthAdviceRisk ;
+    airo:hasAISubject ex:PublicHealthConsumers ;
+    airo:usesTechnique ex:DeepfakeVideoGeneration ;
+    airo:hasStakeholder ex:Scammers ;
+    airo:isAppliedWithinDomain ex:HealthcareMarketing .
+
+ex:MisleadingHealthAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Health Advice Risk"@en ;
+    rdfs:label "误导性健康建议风险"@zh ;
+    airo:hasConsequence ex:FraudulentMarketingOfHealthProducts ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:Scammers rdf:type airo:Stakeholder ;
+    rdfs:label "Scammers"@en ;
+    rdfs:label "诈骗者"@zh .
+
+ex:PublicHealthConsumers rdf:type airo:AISubject ;
+    rdfs:label "Public Health Consumers"@en ;
+    rdfs:label "公共卫生消费者"@zh .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "Public Health Threat"@en ;
+    rdfs:label "公共健康威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicHealthConsumers .
+
+ex:DeepfakeVideoGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Video Generation Technique"@en ;
+    rdfs:label "深度伪造视频生成技术"@zh .
+
+ex:HealthcareMarketing rdf:type airo:Domain ;
+    rdfs:label "Healthcare Marketing Domain"@en ;
+    rdfs:label "医疗保健营销领域"@zh .
+
+ex:FraudulentMarketingOfHealthProducts rdf:type airo:Misuse ;
+    rdfs:label "Fraudulent Marketing of Health Products"@en ;
+    rdfs:label "健康产品的欺诈性营销"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RadishRunAutonomousTaxi",
+      "中文名称": "萝卜快跑无人驾驶出租车",
+      "英文名称": "Radish Run Autonomous Taxi",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Consequence": {
+      "id": "VehicleDamage",
+      "中文名称": "车辆损坏后果",
+      "英文名称": "Vehicle Damage Consequence",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "AIOperator": {
+      "id": "RadishRunOfficial",
+      "中文名称": "萝卜快跑官方",
+      "英文名称": "Radish Run Official",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通运输领域",
+      "英文名称": "Transportation Domain",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RadishRunAutonomousTaxi",
+      "中文名称": "萝卜快跑无人驾驶出租车",
+      "英文名称": "Radish Run Autonomous Taxi",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Consequence": {
+      "id": "VehicleDamage",
+      "中文名称": "车辆损坏后果",
+      "英文名称": "Vehicle Damage Consequence",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "AIOperator": {
+      "id": "RadishRunOfficial",
+      "中文名称": "萝卜快跑官方",
+      "英文名称": "Radish Run Official",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通运输领域",
+      "英文名称": "Transportation Domain",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "“萝卜快跑”无人驾驶出租车发生碰撞事故！官方回应"
+    }
+  }
+}

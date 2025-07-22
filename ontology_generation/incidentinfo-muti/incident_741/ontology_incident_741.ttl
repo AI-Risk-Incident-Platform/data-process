@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GeminiAI rdf:type airo:AISystem ;
+    rdfs:label "Gemini AI"@en ;
+    rdfs:label "Gemini AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:Google ;
+    airo:isDeployedBy ex:Google .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataAccess ;
+    airo:isRiskSourceFor ex:LackOfUserControl .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:UnauthorizedDataAccess rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Access"@en ;
+    rdfs:label "未经授权的数据访问"@zh ;
+    airo:hasImpact ex:UserPrivacyConcerns .
+
+ex:LackOfUserControl rdf:type airo:RiskSource ;
+    rdfs:label "Lack of User Control"@en ;
+    rdfs:label "缺乏用户控制"@zh .
+
+ex:UserPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "User Privacy Concerns"@en ;
+    rdfs:label "用户隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:Google .

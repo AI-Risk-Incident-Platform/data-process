@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NvidiaVideoAI rdf:type airo:AISystem ;
+    rdfs:label "Nvidia Video AI"@en ;
+    rdfs:label "Nvidia视频AI"@zh ;
+    airo:hasRisk ex:DataScrapingEthicalConcerns ;
+    airo:hasStakeholder ex:NvidiaEmployees ;
+    airo:isDevelopedBy ex:NvidiaCorporation .
+
+ex:DataScrapingEthicalConcerns rdf:type airo:Risk ;
+    rdfs:label "Data Scraping Ethical Concerns Risk"@en ;
+    rdfs:label "数据抓取伦理问题风险"@zh ;
+    airo:hasConsequence ex:PotentialCopyrightViolation ;
+    airo:isRiskSourceFor ex:UnauthorizedDataScraping .
+
+ex:NvidiaEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Nvidia Employees"@en ;
+    rdfs:label "Nvidia员工"@zh .
+
+ex:NvidiaCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Nvidia Corporation"@en ;
+    rdfs:label "Nvidia公司"@zh .
+
+ex:UnauthorizedDataScraping rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Scraping Risk Source"@en ;
+    rdfs:label "未经授权的数据抓取风险源"@zh .
+
+ex:PotentialCopyrightViolation rdf:type airo:Consequence ;
+    rdfs:label "Potential Copyright Violation Consequence"@en ;
+    rdfs:label "潜在版权侵犯后果"@zh .

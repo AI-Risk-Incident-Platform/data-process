@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftCopilot rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Copilot"@en ;
+    rdfs:label "微软Copilot"@zh ;
+    airo:hasRisk ex:AutomatedPhishingRisk ;
+    airo:hasAICapability ex:AutomatedContentGeneration ;
+    airo:isProvidedBy ex:Microsoft .
+
+ex:AutomatedPhishingRisk rdf:type airo:Risk ;
+    rdfs:label "Automated Phishing Risk"@en ;
+    rdfs:label "自动化钓鱼风险"@zh ;
+    airo:hasConsequence ex:IncreasedPhishingAttacks ;
+    airo:isRiskSourceFor ex:AIWeaponization ;
+    airo:isRiskSourceFor ex:PhishingThreat .
+
+ex:AIWeaponization rdf:type airo:RiskSource ;
+    rdfs:label "AI Weaponization"@en ;
+    rdfs:label "AI武器化"@zh .
+
+ex:PhishingThreat rdf:type airo:Threat ;
+    rdfs:label "Phishing Threat"@en ;
+    rdfs:label "钓鱼威胁"@zh .
+
+ex:IncreasedPhishingAttacks rdf:type airo:Consequence ;
+    rdfs:label "Increased Phishing Attacks"@en ;
+    rdfs:label "钓鱼攻击增加"@zh ;
+    airo:hasImpact ex:SecurityBreach .
+
+ex:AutomatedContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Generation"@en ;
+    rdfs:label "自动化内容生成"@zh .
+
+ex:Microsoft rdf:type airo:AIProvider ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:SecurityBreach rdf:type airo:Impact ;
+    rdfs:label "Security Breach"@en ;
+    rdfs:label "安全漏洞"@zh .

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LatticeAIHRSystem rdf:type airo:AISystem ;
+    rdfs:label "Lattice AI HR System"@en ;
+    rdfs:label "Lattice人力资源AI系统"@zh ;
+    airo:hasRisk ex:AIInclusionInOrgChartRisk ;
+    airo:hasStakeholder ex:LatticeCompany .
+
+ex:AIInclusionInOrgChartRisk rdf:type airo:Risk ;
+    rdfs:label "AI Inclusion in Org Chart Risk"@en ;
+    rdfs:label "组织架构中纳入AI的风险"@zh ;
+    airo:hasConsequence ex:NegativeReception ;
+    airo:isRiskSourceFor ex:TreatingAIAsHumanEmployees .
+
+ex:LatticeCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Lattice Company"@en ;
+    rdfs:label "Lattice公司"@zh .
+
+ex:TreatingAIAsHumanEmployees rdf:type airo:Misuse ;
+    rdfs:label "Treating AI as Human Employees Misuse"@en ;
+    rdfs:label "将AI视为人类员工的滥用"@zh .
+
+ex:NegativeReception rdf:type airo:Consequence ;
+    rdfs:label "Negative Reception Consequence"@en ;
+    rdfs:label "负面反响后果"@zh .

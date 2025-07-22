@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OnlineProctoringBiometricsSystem",
+      "中文名称": "在线监考生物识别系统",
+      "英文名称": "Online Proctoring Biometrics System",
+      "来源": "Online proctoring biometrics fails to meet Canada's legal threshold of consent: report"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Consequence": {
+      "id": "StudentPrivacyCompromise",
+      "中文名称": "学生隐私泄露后果",
+      "英文名称": "Student Privacy Loss Consequence",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Stakeholder": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "AIOperator": {
+      "id": "OnlineProctoringSoftwareProviders",
+      "中文名称": "在线监考软件提供商",
+      "英文名称": "Online Proctoring Software Providers",
+      "来源": "Online Test Proctoring Software and Social Control: Is the Legal Framework for Personal Information and AI Protective Enough in Canada?"
+    },
+    "Impact": {
+      "id": "LegalNonCompliance",
+      "中文名称": "法律不合规影响",
+      "英文名称": "Legal Non-Compliance Impact",
+      "来源": "Online proctoring biometrics fails to meet Canada's legal threshold of consent: report"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityAssurance",
+      "中文名称": "学术诚信保障目的",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "RiskSource": {
+      "id": "InadequateLegalFramework",
+      "中文名称": "法律框架不足风险源",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Online Test Proctoring Software and Social Control: Is the Legal Framework for Personal Information and AI Protective Enough in Canada?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OnlineProctoringBiometricsSystem",
+      "中文名称": "在线监考生物识别系统",
+      "英文名称": "Online Proctoring Biometrics System",
+      "来源": "Online proctoring biometrics fails to meet Canada's legal threshold of consent: report"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Consequence": {
+      "id": "StudentPrivacyCompromise",
+      "中文名称": "学生隐私泄露后果",
+      "英文名称": "Student Privacy Loss Consequence",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Stakeholder": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "AIOperator": {
+      "id": "OnlineProctoringSoftwareProviders",
+      "中文名称": "在线监考软件提供商",
+      "英文名称": "Online Proctoring Software Providers",
+      "来源": "Online Test Proctoring Software and Social Control: Is the Legal Framework for Personal Information and AI Protective Enough in Canada?"
+    },
+    "Impact": {
+      "id": "LegalNonCompliance",
+      "中文名称": "法律不合规影响",
+      "英文名称": "Legal Non-Compliance Impact",
+      "来源": "Online proctoring biometrics fails to meet Canada's legal threshold of consent: report"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityAssurance",
+      "中文名称": "学术诚信保障目的",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Online exam proctoring software during the pandemic: The quest to minimize student privacy risks"
+    },
+    "RiskSource": {
+      "id": "InadequateLegalFramework",
+      "中文名称": "法律框架不足风险源",
+      "英文名称": "Legal Deficiency Risk Source",
+      "来源": "Online Test Proctoring Software and Social Control: Is the Legal Framework for Personal Information and AI Protective Enough in Canada?"
+    }
+  }
+}

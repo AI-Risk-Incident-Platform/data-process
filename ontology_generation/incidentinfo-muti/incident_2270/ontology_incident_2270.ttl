@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PrivateSurveillanceSystem rdf:type airo:AISystem ;
+    rdfs:label "Private Surveillance System"@en ;
+    rdfs:label "私人监控系统"@zh ;
+    airo:hasRisk ex:DigitalApartheidRisk ;
+    airo:hasStakeholder ex:SouthAfricanCitizens ;
+    airo:isAppliedWithinDomain ex:PublicSecurityDomain .
+
+ex:DigitalApartheidRisk rdf:type airo:Risk ;
+    rdfs:label "Digital Apartheid Risk"@en ;
+    rdfs:label "数字种族隔离风险"@zh ;
+    airo:hasConsequence ex:SocialInequalityImpact .
+
+ex:SocialInequalityImpact rdf:type airo:Impact ;
+    rdfs:label "Social Inequality Impact"@en ;
+    rdfs:label "社会不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SouthAfricanCitizens .
+
+ex:SouthAfricanCitizens rdf:type airo:Stakeholder ;
+    rdfs:label "South African Citizens"@en ;
+    rdfs:label "南非公民"@zh .
+
+ex:PublicSecurityDomain rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .

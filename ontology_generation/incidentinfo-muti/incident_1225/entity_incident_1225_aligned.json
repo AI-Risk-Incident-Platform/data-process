@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UKBenefitsFraudDetectionAI",
+      "中文名称": "英国福利欺诈检测AI系统",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "UK’s AI system for welfare fraud detection faces criticism over bias and transparency"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInWelfareSystem",
+      "中文名称": "福利系统中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Welfare System Risk",
+      "来源": "Revealed: AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Consequence": {
+      "id": "UnfairTargetingOfBenefitClaimants",
+      "中文名称": "福利申请人被不公平针对的后果",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "英国就业与养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP criticised for lack of transparency around automation and AI use"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInAIAlgorithm",
+      "中文名称": "AI算法缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "DWP criticised for lack of transparency around automation and AI use"
+    },
+    "Impact": {
+      "id": "PublicTrustErosionInWelfareSystem",
+      "中文名称": "公众对福利系统信任度下降的影响",
+      "英文名称": "Public Trust Erosion in Welfare System Impact",
+      "来源": "AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Domain": {
+      "id": "SocialWelfareAdministration",
+      "中文名称": "社会福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "UK’s AI system for welfare fraud detection"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UKBenefitsFraudDetectionAI",
+      "中文名称": "英国福利欺诈检测AI系统",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "UK’s AI system for welfare fraud detection faces criticism over bias and transparency"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInWelfareSystem",
+      "中文名称": "福利系统中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Welfare System Risk",
+      "来源": "Revealed: AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Consequence": {
+      "id": "UnfairTargetingOfBenefitClaimants",
+      "中文名称": "福利申请人被不公平针对的后果",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Stakeholder": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "英国就业与养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP criticised for lack of transparency around automation and AI use"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInAIAlgorithm",
+      "中文名称": "AI算法缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "DWP criticised for lack of transparency around automation and AI use"
+    },
+    "Impact": {
+      "id": "PublicTrustErosionInWelfareSystem",
+      "中文名称": "公众对福利系统信任度下降的影响",
+      "英文名称": "Public Trust Erosion in Welfare System Impact",
+      "来源": "AI Bias in UK Benefits Fraud Detection Sparks Outrage"
+    },
+    "Domain": {
+      "id": "SocialWelfareAdministration",
+      "中文名称": "社会福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "UK’s AI system for welfare fraud detection"
+    }
+  }
+}

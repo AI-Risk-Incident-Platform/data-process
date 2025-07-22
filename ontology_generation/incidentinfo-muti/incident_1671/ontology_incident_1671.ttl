@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BraveBrowser rdf:type airo:AISystem ;
+    rdfs:label "Brave Browser"@en ;
+    rdfs:label "Brave浏览器"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDeployedBy ex:BraveSoftwareInc ;
+    airo:hasStakeholder ex:DataCopyrightHolders ;
+    airo:isAppliedWithinDomain ex:WebBrowserAndAITrainingData .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalLiabilityForCopyrightViolation ;
+    airo:isRiskSourceFor ex:UnauthorizedCommercialUseOfCopyrightedData .
+
+ex:DataCopyrightHolders rdf:type airo:Stakeholder ;
+    rdfs:label "Data Copyright Holders"@en ;
+    rdfs:label "数据版权持有者"@zh .
+
+ex:BraveSoftwareInc rdf:type airo:AIOperator ;
+    rdfs:label "Brave Software Inc."@en ;
+    rdfs:label "Brave软件公司"@zh .
+
+ex:LegalLiabilityForCopyrightViolation rdf:type airo:Consequence ;
+    rdfs:label "Legal Liability for Copyright Violation Consequence"@en ;
+    rdfs:label "版权违规的法律责任后果"@zh ;
+    airo:hasImpactOnStakeholder ex:DataCopyrightHolders .
+
+ex:WebBrowserAndAITrainingData rdf:type airo:Domain ;
+    rdfs:label "Web Browser and AI Training Data Domain"@en ;
+    rdfs:label "网页浏览器与AI训练数据领域"@zh .
+
+ex:UnauthorizedCommercialUseOfCopyrightedData rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Commercial Use of Copyrighted Data Risk Source"@en ;
+    rdfs:label "未经授权商业使用版权数据的风险源"@zh .

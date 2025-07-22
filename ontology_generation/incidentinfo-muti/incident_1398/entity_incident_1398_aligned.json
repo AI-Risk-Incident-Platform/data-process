@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleConversationalAI",
+      "中文名称": "谷歌对话AI",
+      "英文名称": "Google Conversational Tech",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "Purpose": {
+      "id": "ImproveConversation",
+      "中文名称": "改进对话",
+      "英文名称": "Improve Conversation",
+      "来源": "to improve AI's conversation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleConversationalAI",
+      "中文名称": "谷歌对话AI",
+      "英文名称": "Google Conversational Tech",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google swallows 11,000 novels to improve AI's conversation"
+    },
+    "Purpose": {
+      "id": "ImproveConversation",
+      "中文名称": "改进对话",
+      "英文名称": "Improve Conversation",
+      "来源": "to improve AI's conversation"
+    }
+  }
+}

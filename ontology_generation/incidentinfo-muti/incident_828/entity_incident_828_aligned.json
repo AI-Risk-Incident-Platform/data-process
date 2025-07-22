@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWeaponsScanner",
+      "中文名称": "AI武器扫描仪",
+      "英文名称": "AI Weapon Scanner",
+      "来源": "AI-powered weapons scanners used in NYC subway"
+    },
+    "Risk": {
+      "id": "IneffectiveDetectionRisk",
+      "中文名称": "检测无效风险",
+      "英文名称": "Ineffective Detection Risk",
+      "来源": "found zero guns in one month test"
+    },
+    "AIOperator": {
+      "id": "Evolv",
+      "中文名称": "Evolv公司",
+      "英文名称": "Evolv",
+      "来源": "FTC Orders 'Gun Detection' Tech Maker Evolv To Stop Overstating Effectiveness Of Its Glorified Metal Detectors"
+    },
+    "RiskSource": {
+      "id": "OverstatedEffectiveness",
+      "中文名称": "夸大有效性风险源",
+      "英文名称": "Overstated Effectiveness Risk Source",
+      "来源": "FTC Orders 'Gun Detection' Tech Maker Evolv To Stop Overstating Effectiveness Of Its Glorified Metal Detectors"
+    },
+    "Consequence": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "found zero guns in one month test"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIWeaponsScanner",
+      "中文名称": "AI武器扫描仪",
+      "英文名称": "AI Weapon Scanner",
+      "来源": "AI-powered weapons scanners used in NYC subway"
+    },
+    "Risk": {
+      "id": "IneffectiveDetectionRisk",
+      "中文名称": "检测无效风险",
+      "英文名称": "Ineffective Detection Risk",
+      "来源": "found zero guns in one month test"
+    },
+    "AIOperator": {
+      "id": "Evolv",
+      "中文名称": "Evolv公司",
+      "英文名称": "Evolv",
+      "来源": "FTC Orders 'Gun Detection' Tech Maker Evolv To Stop Overstating Effectiveness Of Its Glorified Metal Detectors"
+    },
+    "RiskSource": {
+      "id": "OverstatedEffectiveness",
+      "中文名称": "夸大有效性风险源",
+      "英文名称": "Overstated Effectiveness Risk Source",
+      "来源": "FTC Orders 'Gun Detection' Tech Maker Evolv To Stop Overstating Effectiveness Of Its Glorified Metal Detectors"
+    },
+    "Consequence": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "found zero guns in one month test"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSmartLockers",
+      "中文名称": "面部识别智能储物柜",
+      "英文名称": "Facial Recognition Smart Lockers",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Risk": {
+      "id": "SecurityVulnerabilityRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Stakeholder": {
+      "id": "FourthGradeStudents",
+      "中文名称": "四年级学生",
+      "英文名称": "Fourth Grade Students",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Vulnerability": {
+      "id": "WeakAuthenticationMechanism",
+      "中文名称": "弱认证机制",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSmartLockers",
+      "中文名称": "面部识别智能储物柜",
+      "英文名称": "Facial Recognition Smart Lockers",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Risk": {
+      "id": "SecurityVulnerabilityRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Stakeholder": {
+      "id": "FourthGradeStudents",
+      "中文名称": "四年级学生",
+      "英文名称": "Fourth Grade Students",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    },
+    "Vulnerability": {
+      "id": "WeakAuthenticationMechanism",
+      "中文名称": "弱认证机制",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Facial-Recognition Smart Lockers Hacked by Fourth-Graders"
+    }
+  }
+}

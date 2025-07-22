@@ -1,0 +1,67 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSearchSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Search System"@en ;
+    rdfs:label "面部识别搜索系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:HighAccuracyFacialRecognition ;
+    airo:hasAISubject ex:IndividualsWithOnlinePhotos ;
+    airo:hasPurpose ex:OnlineFaceSearch ;
+    airo:isAppliedWithinDomain ex:OnlineSearchAndIdentification ;
+    airo:usesTechnique ex:DeepLearningBasedFacialRecognition ;
+    airo:hasVulnerability ex:PubliclyAvailablePersonalPhotos ;
+    airo:hasStakeholder ex:GeneralPublic .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:PublicInternetPhotoDatabases ;
+    airo:hasConsequence ex:LossOfPersonalPrivacy .
+
+ex:HighAccuracyFacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "High Accuracy Facial Recognition Capability"@en ;
+    rdfs:label "高精度面部识别能力"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:IndividualsWithOnlinePhotos rdf:type airo:AISubject ;
+    rdfs:label "Individuals With Online Photos"@en ;
+    rdfs:label "有在线照片的个人"@zh .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Privacy Impact"@en ;
+    rdfs:label "个人隐私丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:OnlineFaceSearch rdf:type airo:Purpose ;
+    rdfs:label "Online Face Search Purpose"@en ;
+    rdfs:label "在线人脸搜索的目的"@zh .
+
+ex:OnlineSearchAndIdentification rdf:type airo:Domain ;
+    rdfs:label "Online Search and Identification Domain"@en ;
+    rdfs:label "在线搜索与识别领域"@zh .
+
+ex:DeepLearningBasedFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Facial Recognition Technique"@en ;
+    rdfs:label "基于深度学习的面部识别技术"@zh .
+
+ex:PubliclyAvailablePersonalPhotos rdf:type airo:Vulnerability ;
+    rdfs:label "Publicly Available Personal Photos Vulnerability"@en ;
+    rdfs:label "公开可用的个人照片的脆弱性"@zh .
+
+ex:PublicInternetPhotoDatabases rdf:type airo:RiskSource ;
+    rdfs:label "Public Internet Photo Databases Risk Source"@en ;
+    rdfs:label "公共互联网照片数据库的风险源"@zh ;
+    airo:exploitsVulnerability ex:PubliclyAvailablePersonalPhotos .

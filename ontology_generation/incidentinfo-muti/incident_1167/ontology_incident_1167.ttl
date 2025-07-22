@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FindFaceApp rdf:type airo:AISystem ;
+    rdfs:label "FindFace应用"@zh ;
+    rdfs:label "FindFace App"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:GeneralPublic .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:PersonalPrivacyExposure ;
+    airo:isRiskSourceFor ex:PublicPhotoDatabases .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "公众"@zh ;
+    rdfs:label "General Public"@en .
+
+ex:FacialRecognitionTechnology rdf:type airo:AICapability ;
+    rdfs:label "面部识别技术"@zh ;
+    rdfs:label "Facial Recognition Technology"@en .
+
+ex:PublicPhotoDatabases rdf:type airo:RiskSource ;
+    rdfs:label "公共照片数据库"@zh ;
+    rdfs:label "Public Photo Databases"@en .
+
+ex:PersonalPrivacyExposure rdf:type airo:Consequence ;
+    rdfs:label "个人隐私暴露"@zh ;
+    rdfs:label "Personal Privacy Exposure"@en ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "心理困扰"@zh ;
+    rdfs:label "Psychological Distress"@en ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .

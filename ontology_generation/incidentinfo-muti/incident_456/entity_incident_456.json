@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingTaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Self-Driving Taxi",
+      "来源": "Firefighters smashed the window of a driverless Cruise taxi to stop it running over their hoses"
+    },
+    "Risk": {
+      "id": "OperationalInterferenceRisk",
+      "中文名称": "操作干扰风险",
+      "英文名称": "Operational Interference Risk",
+      "来源": "Firefighters smashed the window of a driverless Cruise taxi to stop it running over their hoses"
+    },
+    "Stakeholder": {
+      "id": "Firefighters",
+      "中文名称": "消防员",
+      "英文名称": "Firefighters",
+      "来源": "Firefighters smashed the window of a driverless Cruise taxi to stop it running over their hoses"
+    },
+    "Consequence": {
+      "id": "EmergencyServiceDisruption",
+      "中文名称": "紧急服务中断后果",
+      "英文名称": "Emergency Service Disruption Consequence",
+      "来源": "to stop it running over their hoses"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise LLC",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "driverless Cruise taxi"
+    },
+    "RiskSource": {
+      "id": "LackOfEmergencyProtocols",
+      "中文名称": "缺乏紧急协议的风险源",
+      "英文名称": "Lack of Emergency Protocols Risk Source",
+      "来源": "to stop it running over their hoses"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损的影响",
+      "英文名称": "Public Safety Compromise Impact",
+      "来源": "to stop it running over their hoses"
+    }
+  }
+}

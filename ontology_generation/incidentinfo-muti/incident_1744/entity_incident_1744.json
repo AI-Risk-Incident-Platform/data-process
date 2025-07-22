@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProjectNessieAlgorithm",
+      "中文名称": "Project Nessie算法",
+      "英文名称": "Project Nessie Algorithm",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "Risk": {
+      "id": "PriceGougingRisk",
+      "中文名称": "价格欺诈风险",
+      "英文名称": "Price Gouging Risk",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "Consequence": {
+      "id": "ConsumerFinancialLoss",
+      "中文名称": "消费者财务损失",
+      "英文名称": "Consumer Financial Loss",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "Impact": {
+      "id": "MarketTrustErosion",
+      "中文名称": "市场信任侵蚀",
+      "英文名称": "Market Trust Erosion",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPricingManipulation",
+      "中文名称": "算法定价操纵",
+      "英文名称": "Algorithmic Pricing Manipulation",
+      "来源": "Amazon accused of price gouging with Project Nessie algorithm"
+    }
+  }
+}

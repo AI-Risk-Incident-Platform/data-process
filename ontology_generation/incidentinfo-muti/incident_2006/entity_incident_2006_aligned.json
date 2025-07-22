@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FNMeka",
+      "中文名称": "FN Meka",
+      "英文名称": "FN Meka",
+      "来源": "AI rapper FN Meka"
+    },
+    "Risk": {
+      "id": "CulturalAppropriationRisk",
+      "中文名称": "文化挪用风险",
+      "英文名称": "Cultural Risk",
+      "来源": "controversial AI rapper"
+    },
+    "Stakeholder": {
+      "id": "CapitolRecords",
+      "中文名称": "国会唱片",
+      "英文名称": "Capitol Records",
+      "来源": "FN Meka and Capitol Records"
+    },
+    "AIOperator": {
+      "id": "FactoryNew",
+      "中文名称": "Factory New",
+      "英文名称": "Factory New",
+      "来源": "the actual artist behind FN Meka"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "AI rapper signed to Capitol Records"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FNMeka",
+      "中文名称": "FN Meka",
+      "英文名称": "FN Meka",
+      "来源": "AI rapper FN Meka"
+    },
+    "Risk": {
+      "id": "CulturalAppropriationRisk",
+      "中文名称": "文化挪用风险",
+      "英文名称": "Cultural Risk",
+      "来源": "controversial AI rapper"
+    },
+    "Stakeholder": {
+      "id": "CapitolRecords",
+      "中文名称": "国会唱片",
+      "英文名称": "Capitol Records",
+      "来源": "FN Meka and Capitol Records"
+    },
+    "AIOperator": {
+      "id": "FactoryNew",
+      "中文名称": "Factory New",
+      "英文名称": "Factory New",
+      "来源": "the actual artist behind FN Meka"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "AI rapper signed to Capitol Records"
+    }
+  }
+}

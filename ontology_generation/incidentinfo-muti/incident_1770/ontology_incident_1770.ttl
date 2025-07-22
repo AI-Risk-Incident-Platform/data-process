@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonRoutingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Routing Algorithm"@en ;
+    rdfs:label "亚马逊路由算法"@zh ;
+    airo:hasRisk ex:DriverSafetyRisk ;
+    airo:isDevelopedBy ex:Amazon ;
+    airo:hasPurpose ex:CostSaving ;
+    airo:isAppliedWithinDomain ex:Logistics .
+
+ex:DriverSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Driver Safety Risk"@en ;
+    rdfs:label "驾驶员安全风险"@zh ;
+    airo:hasConsequence ex:IncreasedTrafficAccidents .
+
+ex:IncreasedTrafficAccidents rdf:type airo:Consequence ;
+    rdfs:label "Increased Traffic Accidents"@en ;
+    rdfs:label "交通事故增加"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:CostSaving rdf:type airo:Purpose ;
+    rdfs:label "Cost Saving"@en ;
+    rdfs:label "节约成本"@zh .
+
+ex:Logistics rdf:type airo:Domain ;
+    rdfs:label "Logistics"@en ;
+    rdfs:label "物流"@zh .

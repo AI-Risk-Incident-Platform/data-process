@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAIDemo rdf:type airo:AISystem ;
+    rdfs:label "Meta AI Demo"@en ;
+    rdfs:label "Meta AI演示"@zh ;
+    airo:hasRisk ex:RacistAndInaccurateOutputRisk ;
+    airo:isDevelopedBy ex:Meta ;
+    airo:usesTechnique ex:LargeLanguageModelTechnique .
+
+ex:RacistAndInaccurateOutputRisk rdf:type airo:Risk ;
+    rdfs:label "Racist and Inaccurate Output Risk"@en ;
+    rdfs:label "种族歧视和不准确输出风险"@zh ;
+    airo:hasConsequence ex:PublicationOfRacistScientificLiterature ;
+    airo:isRiskSourceFor ex:BiasInTrainingDataRiskSource .
+
+ex:PublicationOfRacistScientificLiterature rdf:type airo:Consequence ;
+    rdfs:label "Publication of Racist Scientific Literature Consequence"@en ;
+    rdfs:label "发表种族歧视科学文献的后果"@zh ;
+    airo:hasImpact ex:HarmToScientificCommunityReputationImpact .
+
+ex:HarmToScientificCommunityReputationImpact rdf:type airo:Impact ;
+    rdfs:label "Harm to Scientific Community Reputation Impact"@en ;
+    rdfs:label "损害科学界声誉的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Meta .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:BiasInTrainingDataRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Bias in Training Data Risk Source"@en ;
+    rdfs:label "训练数据中的偏见风险源"@zh .
+
+ex:LargeLanguageModelTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .

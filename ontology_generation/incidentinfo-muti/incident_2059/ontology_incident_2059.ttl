@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RecidivismRiskScoringSystem rdf:type airo:AISystem ;
+    rdfs:label "Recidivism Risk Scoring System"@en ;
+    rdfs:label "累犯风险评分系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInJudicialSystem ;
+    airo:hasStakeholder ex:JudicialOfficials ;
+    airo:isAppliedWithinDomain ex:CriminalJusticeSystemDomain .
+
+ex:AlgorithmicBiasInJudicialSystem rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Judicial System Risk"@en ;
+    rdfs:label "司法系统中的算法偏见风险"@zh ;
+    airo:hasImpact ex:DiscriminatorySentencingOutcomesImpact .
+
+ex:JudicialOfficials rdf:type airo:Stakeholder ;
+    rdfs:label "Judicial Officials"@en ;
+    rdfs:label "司法官员"@zh .
+
+ex:DiscriminatorySentencingOutcomesImpact rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Sentencing Outcomes Impact"@en ;
+    rdfs:label "歧视性判决结果的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JudicialOfficials .
+
+ex:CriminalJusticeSystemDomain rdf:type airo:Domain ;
+    rdfs:label "Criminal Justice System Domain"@en ;
+    rdfs:label "刑事司法系统领域"@zh .

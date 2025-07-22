@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITextDetectionTools",
+      "中文名称": "AI文本检测工具",
+      "英文名称": "AI Text Detection Tools",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Risk": {
+      "id": "FailureToDetectAIWriting",
+      "中文名称": "无法检测AI写作的风险",
+      "英文名称": "Failure to Detect AI Writing Risk",
+      "来源": "Tools to Detect AI-Generated Content Just Don't Work"
+    },
+    "Consequence": {
+      "id": "MisclassificationOfAIAndHumanWriting",
+      "中文名称": "AI与人类写作误分类的后果",
+      "英文名称": "Misclassification of AI and Human Writing Consequence",
+      "来源": "Additional Challenges to Detecting AI Writing"
+    },
+    "AICapability": {
+      "id": "ContentAuthentication",
+      "中文名称": "内容认证能力",
+      "英文名称": "Info Verification Capability",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Stakeholder": {
+      "id": "AcademicResearchers",
+      "中文名称": "学术研究者",
+      "英文名称": "Researchers",
+      "来源": "Researchers: Tools to Detect AI-Generated Content Just Don't Work"
+    },
+    "RiskSource": {
+      "id": "EaseOfFoolingDetectionAlgorithms",
+      "中文名称": "欺骗检测算法的简易性风险源",
+      "英文名称": "Ease of Fooling Detection Algorithms Risk Source",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Impact": {
+      "id": "LossOfTrustInContentAuthenticity",
+      "中文名称": "内容真实性信任丧失的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Tools to Detect AI-Generated Content Just Don't Work"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITextDetectionTools",
+      "中文名称": "AI文本检测工具",
+      "英文名称": "AI Text Detection Tools",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Risk": {
+      "id": "FailureToDetectAIWriting",
+      "中文名称": "无法检测AI写作的风险",
+      "英文名称": "Failure to Detect AI Writing Risk",
+      "来源": "Tools to Detect AI-Generated Content Just Don't Work"
+    },
+    "Consequence": {
+      "id": "MisclassificationOfAIAndHumanWriting",
+      "中文名称": "AI与人类写作误分类的后果",
+      "英文名称": "Misclassification of AI and Human Writing Consequence",
+      "来源": "Additional Challenges to Detecting AI Writing"
+    },
+    "AICapability": {
+      "id": "ContentAuthentication",
+      "中文名称": "内容认证能力",
+      "英文名称": "Info Verification Capability",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Stakeholder": {
+      "id": "AcademicResearchers",
+      "中文名称": "学术研究者",
+      "英文名称": "Researchers",
+      "来源": "Researchers: Tools to Detect AI-Generated Content Just Don't Work"
+    },
+    "RiskSource": {
+      "id": "EaseOfFoolingDetectionAlgorithms",
+      "中文名称": "欺骗检测算法的简易性风险源",
+      "英文名称": "Ease of Fooling Detection Algorithms Risk Source",
+      "来源": "AI-text detection tools are really easy to fool"
+    },
+    "Impact": {
+      "id": "LossOfTrustInContentAuthenticity",
+      "中文名称": "内容真实性信任丧失的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Tools to Detect AI-Generated Content Just Don't Work"
+    }
+  }
+}

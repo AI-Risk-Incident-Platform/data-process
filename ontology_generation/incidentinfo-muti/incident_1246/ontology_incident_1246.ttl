@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAISimpleQA rdf:type airo:AISystem ;
+    rdfs:label "OpenAI SimpleQA"@en ;
+    rdfs:label "OpenAI简单问答系统"@zh ;
+    airo:hasRisk ex:FactualInaccuracyRisk ;
+    airo:hasCapability ex:QuestionAnswering ;
+    airo:isProvidedBy ex:OpenAI ;
+    airo:hasPurpose ex:FactualAccuracyTesting .
+
+ex:FactualInaccuracyRisk rdf:type airo:Risk ;
+    rdfs:label "Factual Inaccuracy Risk"@en ;
+    rdfs:label "事实准确性风险"@zh ;
+    airo:hasConsequence ex:MisinformationPropagation ;
+    airo:isRiskSourceFor ex:ModelOverconfidence .
+
+ex:MisinformationPropagation rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Propagation Consequence"@en ;
+    rdfs:label "错误信息传播后果"@zh .
+
+ex:QuestionAnswering rdf:type airo:AICapability ;
+    rdfs:label "Question Answering Capability"@en ;
+    rdfs:label "问答能力"@zh .
+
+ex:OpenAI rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:FactualAccuracyTesting rdf:type airo:Purpose ;
+    rdfs:label "Factual Accuracy Testing Purpose"@en ;
+    rdfs:label "事实准确性测试目的"@zh .
+
+ex:ModelOverconfidence rdf:type airo:RiskSource ;
+    rdfs:label "Model Overconfidence Risk Source"@en ;
+    rdfs:label "模型过度自信风险源"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FalloutTVShowArtworkAI rdf:type airo:AISystem ;
+    rdfs:label "《辐射》电视剧AI生成艺术作品"@zh ;
+    rdfs:label "Fallout TV Show AI-Generated Artwork"@en ;
+    airo:hasRisk ex:LowQualityAIArtRisk ;
+    airo:usesTechnique ex:ImageGenerationAI ;
+    airo:hasStakeholder ex:AmazonStudios .
+
+ex:LowQualityAIArtRisk rdf:type airo:Risk ;
+    rdfs:label "低质量AI艺术风险"@zh ;
+    rdfs:label "Low Quality AI Art Risk"@en ;
+    airo:hasConsequence ex:NegativeFanReaction .
+
+ex:NegativeFanReaction rdf:type airo:Consequence ;
+    rdfs:label "粉丝负面反应后果"@zh ;
+    rdfs:label "Negative Fan Reaction Consequence"@en ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:ImageGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "图像生成AI技术"@zh ;
+    rdfs:label "Image Generation AI Technique"@en .
+
+ex:AmazonStudios rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊工作室"@zh ;
+    rdfs:label "Amazon Studios"@en .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    rdfs:label "Brand Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonStudios .

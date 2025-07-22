@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:iBorderCtrl rdf:type airo:AISystem ;
+    rdfs:label "iBorderCtrl Automated Border Security System"@en ;
+    rdfs:label "iBorderCtrl自动边境安全系统"@zh ;
+    airo:hasRisk ex:BorderSecurityRisk ;
+    airo:isAppliedWithinDomain ex:BorderSecurity ;
+    airo:hasPurpose ex:AutomatedBorderControl ;
+    airo:hasCapability ex:AutomatedSecurityScreening .
+
+ex:BorderSecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Border Security Risk"@en ;
+    rdfs:label "边境安全风险"@zh .
+
+ex:BorderSecurity rdf:type airo:Domain ;
+    rdfs:label "Border Security Domain"@en ;
+    rdfs:label "边境安全领域"@zh .
+
+ex:AutomatedBorderControl rdf:type airo:Purpose ;
+    rdfs:label "Automated Border Control Purpose"@en ;
+    rdfs:label "自动化边境控制目的"@zh .
+
+ex:AutomatedSecurityScreening rdf:type airo:AICapability ;
+    rdfs:label "Automated Security Screening Capability"@en ;
+    rdfs:label "自动化安全筛查能力"@zh .

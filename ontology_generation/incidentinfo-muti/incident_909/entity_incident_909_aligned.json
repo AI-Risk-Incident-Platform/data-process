@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeNewsVideoCreationAI",
+      "中文名称": "虚假新闻视频生成AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Risk": {
+      "id": "BlackmailRisk",
+      "中文名称": "敲诈勒索风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Misuse": {
+      "id": "AIForBlackmail",
+      "中文名称": "用于敲诈勒索的AI滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Consequence": {
+      "id": "VictimBlackmail",
+      "中文名称": "受害者被敲诈后果",
+      "英文名称": "Blackmail Victim Consequence",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeNewsVideoCreationAI",
+      "中文名称": "虚假新闻视频生成AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Risk": {
+      "id": "BlackmailRisk",
+      "中文名称": "敲诈勒索风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Misuse": {
+      "id": "AIForBlackmail",
+      "中文名称": "用于敲诈勒索的AI滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Consequence": {
+      "id": "VictimBlackmail",
+      "中文名称": "受害者被敲诈后果",
+      "英文名称": "Blackmail Victim Consequence",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Scammers Are Creating Fake News Videos to Blackmail Victims"
+    }
+  }
+}

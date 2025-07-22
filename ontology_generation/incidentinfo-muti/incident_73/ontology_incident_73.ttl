@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "Self-Driving Car"@en ;
+    rdfs:label "自动驾驶汽车"@zh ;
+    airo:hasRisk ex:SensorBlindnessInWinter ;
+    airo:hasCapability ex:WinterEnvironmentPerception .
+
+ex:SensorBlindnessInWinter rdf:type airo:Risk ;
+    rdfs:label "Sensor Blindness in Winter Risk"@en ;
+    rdfs:label "冬季传感器失效风险"@zh ;
+    airo:hasConsequence ex:ReducedDrivingPerformance ;
+    airo:isRiskSourceFor ex:SnowCoveredRoads .
+
+ex:ReducedDrivingPerformance rdf:type airo:Consequence ;
+    rdfs:label "Reduced Driving Performance Consequence"@en ;
+    rdfs:label "驾驶性能下降后果"@zh .
+
+ex:WinterEnvironmentPerception rdf:type airo:AICapability ;
+    rdfs:label "Winter Environment Perception Capability"@en ;
+    rdfs:label "冬季环境感知能力"@zh .
+
+ex:SnowCoveredRoads rdf:type airo:RiskSource ;
+    rdfs:label "Snow Covered Roads Risk Source"@en ;
+    rdfs:label "积雪道路风险源"@zh ;
+    airo:exploitsVulnerability ex:SensorPerformanceInExtremeWeather .
+
+ex:SensorPerformanceInExtremeWeather rdf:type airo:Vulnerability ;
+    rdfs:label "Sensor Performance in Extreme Weather Vulnerability"@en ;
+    rdfs:label "极端天气下传感器性能脆弱性"@zh .

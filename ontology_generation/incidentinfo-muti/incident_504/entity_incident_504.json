@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT sometimes makes up facts."
+    },
+    "Risk": {
+      "id": "FactFabricationRisk",
+      "中文名称": "事实捏造风险",
+      "英文名称": "Fact Fabrication Risk",
+      "来源": "ChatGPT sometimes makes up facts."
+    },
+    "Consequence": {
+      "id": "LegalImplications",
+      "中文名称": "法律影响后果",
+      "英文名称": "Legal Implications Consequence",
+      "来源": "For one law prof, it went too far."
+    },
+    "Stakeholder": {
+      "id": "LawProfessor",
+      "中文名称": "法律教授",
+      "英文名称": "Law Professor",
+      "来源": "For one law prof, it went too far."
+    },
+    "RiskSource": {
+      "id": "InaccurateInformationGeneration",
+      "中文名称": "不准确信息生成风险源",
+      "英文名称": "Inaccurate Information Generation Risk Source",
+      "来源": "ChatGPT sometimes makes up facts."
+    }
+  }
+}

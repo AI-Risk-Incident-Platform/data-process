@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAIForPhotography rdf:type airo:AISystem ;
+    rdfs:label "Generative AI for Photography"@en ;
+    rdfs:label "生成式AI摄影"@zh ;
+    airo:hasRisk ex:LossOfTrustInPhotojournalism ;
+    airo:hasCapability ex:RealisticImageGeneration ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:PhotojournalismAudience ;
+    airo:isAppliedWithinDomain ex:Photojournalism .
+
+ex:LossOfTrustInPhotojournalism rdf:type airo:Risk ;
+    rdfs:label "Loss of Trust in Photojournalism Risk"@en ;
+    rdfs:label "新闻摄影信任丧失风险"@zh ;
+    airo:hasConsequence ex:CredibilityDamageToPhotographer .
+
+ex:RealisticImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Realistic Image Generation Capability"@en ;
+    rdfs:label "真实感图像生成能力"@zh .
+
+ex:PhotojournalismAudience rdf:type airo:Stakeholder ;
+    rdfs:label "Photojournalism Audience"@en ;
+    rdfs:label "新闻摄影观众"@zh .
+
+ex:CredibilityDamageToPhotographer rdf:type airo:Consequence ;
+    rdfs:label "Credibility Damage to Photographer Consequence"@en ;
+    rdfs:label "摄影师信誉受损后果"@zh ;
+    airo:hasImpact ex:ErosionOfTrustInMedia .
+
+ex:Photojournalism rdf:type airo:Domain ;
+    rdfs:label "Photojournalism Domain"@en ;
+    rdfs:label "新闻摄影领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:ErosionOfTrustInMedia rdf:type airo:Impact ;
+    rdfs:label "Erosion of Trust in Media Impact"@en ;
+    rdfs:label "媒体信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PhotojournalismAudience .

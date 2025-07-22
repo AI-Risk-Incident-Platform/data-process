@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GooglePixelFingerprintScanner rdf:type airo:AISystem ;
+    rdfs:label "Google Pixel Fingerprint Scanner"@en ;
+    rdfs:label "谷歌Pixel指纹扫描仪"@zh ;
+    airo:hasRisk ex:UnauthorizedAccessRisk ;
+    airo:hasAICapability ex:BiometricAuthentication ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasPurpose ex:DeviceSecurityProtection ;
+    airo:hasStakeholder ex:SmartphoneUsers ;
+    airo:hasAISubject ex:DeviceOwners ;
+    airo:usesTechnique ex:FingerprintRecognition ;
+    airo:isAppliedWithinDomain ex:MobileDeviceSecurity .
+
+ex:UnauthorizedAccessRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Access Risk"@en ;
+    rdfs:label "未经授权访问风险"@zh ;
+    airo:hasConsequence ex:PrivacySecurityBreach ;
+    airo:isRiskSourceFor ex:FaultyBiometricAlgorithm .
+
+ex:PrivacySecurityBreach rdf:type airo:Consequence ;
+    rdfs:label "Privacy Security Breach"@en ;
+    rdfs:label "隐私安全漏洞"@zh ;
+    airo:hasImpact ex:PersonalDataExposure .
+
+ex:BiometricAuthentication rdf:type airo:AICapability ;
+    rdfs:label "Biometric Authentication Capability"@en ;
+    rdfs:label "生物特征认证能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:SmartphoneUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Smartphone Users"@en ;
+    rdfs:label "智能手机用户"@zh .
+
+ex:DeviceOwners rdf:type airo:AISubject ;
+    rdfs:label "Device Owners"@en ;
+    rdfs:label "设备所有者"@zh .
+
+ex:PersonalDataExposure rdf:type airo:Impact ;
+    rdfs:label "Personal Data Exposure Impact"@en ;
+    rdfs:label "个人数据暴露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SmartphoneUsers .
+
+ex:DeviceSecurityProtection rdf:type airo:Purpose ;
+    rdfs:label "Device Security Protection Purpose"@en ;
+    rdfs:label "设备安全保护目的"@zh .
+
+ex:MobileDeviceSecurity rdf:type airo:Domain ;
+    rdfs:label "Mobile Device Security Domain"@en ;
+    rdfs:label "移动设备安全领域"@zh .
+
+ex:FingerprintRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Fingerprint Recognition Technique"@en ;
+    rdfs:label "指纹识别技术"@zh .
+
+ex:FalseAcceptanceVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "False Acceptance Vulnerability"@en ;
+    rdfs:label "错误接受漏洞"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedAccessRisk .
+
+ex:UnauthorizedAccessThreat rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Access Threat"@en ;
+    rdfs:label "未经授权访问威胁"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedAccessRisk .
+
+ex:BiometricSpoofingHazard rdf:type airo:Hazard ;
+    rdfs:label "Biometric Spoofing Hazard"@en ;
+    rdfs:label "生物特征欺骗危害"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedAccessRisk .
+
+ex:FaultyBiometricAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Faulty Biometric Algorithm Risk Source"@en ;
+    rdfs:label "故障生物特征算法风险源"@zh ;
+    airo:exploitsVulnerability ex:FalseAcceptanceVulnerability .
+
+ex:BiometricSecurityFailure rdf:type airo:RiskConcept ;
+    rdfs:label "Biometric Security Failure Risk Concept"@en ;
+    rdfs:label "生物特征安全失败"@zh .

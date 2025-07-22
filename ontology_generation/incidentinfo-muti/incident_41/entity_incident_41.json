@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ElectricElves",
+      "中文名称": "电子精灵",
+      "英文名称": "Electric Elves",
+      "来源": "Electric Elves: What Went Wrong and Why"
+    },
+    "Risk": {
+      "id": "SystemFailureRisk",
+      "中文名称": "系统故障风险",
+      "英文名称": "System Failure Risk",
+      "来源": "Electric Elves: What Went Wrong and Why"
+    },
+    "RiskSource": {
+      "id": "SoftwareBug",
+      "中文名称": "软件缺陷",
+      "英文名称": "Software Bug",
+      "来源": "Electric Elves: What Went Wrong and Why"
+    },
+    "Consequence": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断",
+      "英文名称": "Service Disruption",
+      "来源": "Electric Elves: What Went Wrong and Why"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断",
+      "英文名称": "Operational Disruption",
+      "来源": "Electric Elves: What Went Wrong and Why"
+    }
+  }
+}

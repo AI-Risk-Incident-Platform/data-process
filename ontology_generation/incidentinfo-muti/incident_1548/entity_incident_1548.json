@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT is making up fake Guardian articles"
+    },
+    "Risk": {
+      "id": "FakeContentGenerationRisk",
+      "中文名称": "虚假内容生成风险",
+      "英文名称": "Fake Content Generation Risk",
+      "来源": "ChatGPT is making up fake Guardian articles"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "ChatGPT is making up fake Guardian articles"
+    },
+    "Stakeholder": {
+      "id": "GuardianPublication",
+      "中文名称": "卫报出版方",
+      "英文名称": "Guardian Publication",
+      "来源": "Fake 'Guardian' article attributed to ChatGPT, publication forms AI working group"
+    },
+    "RiskControl": {
+      "id": "AIWorkingGroupFormation",
+      "中文名称": "AI工作组组建管控",
+      "英文名称": "AI Working Group Formation RiskControl",
+      "来源": "publication forms AI working group"
+    },
+    "Domain": {
+      "id": "MediaPublishing",
+      "中文名称": "媒体出版领域",
+      "英文名称": "Media Publishing Domain",
+      "来源": "Fake 'Guardian' article attributed to ChatGPT"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCrashRisk ;
+    airo:isDevelopedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:NTSB ;
+    airo:hasPurpose ex:AutonomousDriving ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:AutonomousVehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Crash Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:FatalCrashConsequence ;
+    airo:isRiskSourceFor ex:DriverAbsence ;
+    airo:hasVulnerability ex:SystemOverreliance .
+
+ex:FatalCrashConsequence rdf:type airo:Consequence ;
+    rdfs:label "Fatal Crash Consequence"@en ;
+    rdfs:label "致命碰撞后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:NTSB rdf:type airo:Stakeholder ;
+    rdfs:label "National Transportation Safety Board"@en ;
+    rdfs:label "美国国家运输安全委员会"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:NTSB .
+
+ex:AutonomousDriving rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Driving"@en ;
+    rdfs:label "自动驾驶"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry"@en ;
+    rdfs:label "汽车工业"@zh .
+
+ex:DriverAbsence rdf:type airo:RiskSource ;
+    rdfs:label "Driver Absence"@en ;
+    rdfs:label "驾驶员缺失"@zh .
+
+ex:SystemOverreliance rdf:type airo:Vulnerability ;
+    rdfs:label "System Overreliance"@en ;
+    rdfs:label "系统过度依赖"@zh .

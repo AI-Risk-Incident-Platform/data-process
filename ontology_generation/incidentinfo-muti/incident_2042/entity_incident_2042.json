@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IDFFacialRecognitionSystem",
+      "中文名称": "以色列国防军面部识别系统",
+      "英文名称": "IDF Facial Recognition System",
+      "来源": "IDF building facial recognition database of Palestinians in Hebron"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Israel uses new surveillance technology to distance itself from the occupation"
+    },
+    "AISubject": {
+      "id": "PalestiniansInHebron",
+      "中文名称": "希伯伦的巴勒斯坦人",
+      "英文名称": "Palestinians in Hebron",
+      "来源": "IDF building facial recognition database of Palestinians in Hebron"
+    },
+    "Stakeholder": {
+      "id": "IsraelDefenseForces",
+      "中文名称": "以色列国防军",
+      "英文名称": "Israel Defense Forces",
+      "来源": "IDF's facial recognition tech in West Bank probed"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "IDF's facial recognition tech in West Bank probed"
+    },
+    "Impact": {
+      "id": "SurveillanceImpact",
+      "中文名称": "监控影响",
+      "英文名称": "Surveillance Impact",
+      "来源": "Israel uses new surveillance technology to distance itself from the occupation"
+    },
+    "Domain": {
+      "id": "MilitarySurveillance",
+      "中文名称": "军事监控领域",
+      "英文名称": "Military Surveillance Domain",
+      "来源": "IDF's facial recognition tech in West Bank probed"
+    }
+  }
+}

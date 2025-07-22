@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MilitaryAIApplications rdf:type airo:AISystem ;
+    rdfs:label "Military AI Applications"@en ;
+    rdfs:label "军事AI应用"@zh ;
+    airo:hasRisk ex:FriendOrFoeSystemFailureRisk ;
+    airo:hasCapability ex:TargetIdentificationCapability ;
+    airo:hasStakeholder ex:MilitaryPersonnel ;
+    airo:isAppliedWithinDomain ex:MilitaryDefense ;
+    airo:usesTechnique ex:PatternRecognition .
+
+ex:FriendOrFoeSystemFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Friend or Foe System Failure Risk"@en ;
+    rdfs:label "敌我识别系统故障风险"@zh ;
+    airo:hasConsequence ex:FriendlyFireIncident ;
+    airo:isRiskSourceFor ex:SystemIdentificationError .
+
+ex:FriendlyFireIncident rdf:type airo:Consequence ;
+    rdfs:label "Friendly Fire Incident"@en ;
+    rdfs:label "友军误伤事件"@zh ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:TargetIdentificationCapability rdf:type airo:AICapability ;
+    rdfs:label "Target Identification Capability"@en ;
+    rdfs:label "目标识别能力"@zh .
+
+ex:MilitaryPersonnel rdf:type airo:Stakeholder ;
+    rdfs:label "Military Personnel"@en ;
+    rdfs:label "军事人员"@zh ;
+    airo:hasImpactOnStakeholder ex:LossOfLife .
+
+ex:SystemIdentificationError rdf:type airo:RiskSource ;
+    rdfs:label "System Identification Error"@en ;
+    rdfs:label "系统识别错误"@zh .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Life"@en ;
+    rdfs:label "生命损失"@zh .
+
+ex:MilitaryDefense rdf:type airo:Domain ;
+    rdfs:label "Military Defense"@en ;
+    rdfs:label "军事防御"@zh .
+
+ex:PatternRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Pattern Recognition"@en ;
+    rdfs:label "模式识别"@zh .

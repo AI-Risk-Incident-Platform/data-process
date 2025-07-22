@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeNewsSystem",
+      "中文名称": "深度伪造新闻系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "Deepfake newsreaders pump out pro-China news"
+    },
+    "Risk": {
+      "id": "DisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The People Onscreen Are Fake. The Disinformation Is Real."
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Research: Deepfake 'News Anchors' in Pro-China Footage"
+    },
+    "Purpose": {
+      "id": "PropagandaDissemination",
+      "中文名称": "宣传传播",
+      "英文名称": "Propaganda",
+      "来源": "Deepfake newsreaders pump out pro-China news"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "舆论操纵",
+      "英文名称": "Public Discourse Manipulation",
+      "来源": "The People Onscreen Are Fake. The Disinformation Is Real."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeNewsSystem",
+      "中文名称": "深度伪造新闻系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "Deepfake newsreaders pump out pro-China news"
+    },
+    "Risk": {
+      "id": "DisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The People Onscreen Are Fake. The Disinformation Is Real."
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Research: Deepfake 'News Anchors' in Pro-China Footage"
+    },
+    "Purpose": {
+      "id": "PropagandaDissemination",
+      "中文名称": "宣传传播",
+      "英文名称": "Propaganda",
+      "来源": "Deepfake newsreaders pump out pro-China news"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "舆论操纵",
+      "英文名称": "Public Discourse Manipulation",
+      "来源": "The People Onscreen Are Fake. The Disinformation Is Real."
+    }
+  }
+}

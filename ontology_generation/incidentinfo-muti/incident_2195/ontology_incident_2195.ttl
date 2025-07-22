@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemInComo rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System in Como"@en ;
+    rdfs:label "科莫市面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:FacialRecognitionCapability ;
+    airo:isAppliedWithinDomain ex:PublicSurveillance ;
+    airo:hasStakeholder ex:ComoCityGovernment .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:ComoCityGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Como City Government"@en ;
+    rdfs:label "科莫市政府"@zh .
+
+ex:FacialRecognitionCapability rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .
+
+ex:PublicSurveillance rdf:type airo:Domain ;
+    rdfs:label "Public Surveillance Domain"@en ;
+    rdfs:label "公共监控领域"@zh .

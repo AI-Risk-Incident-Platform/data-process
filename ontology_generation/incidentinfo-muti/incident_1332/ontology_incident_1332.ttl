@@ -1,0 +1,83 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:HealthProductScamRisk ;
+    airo:hasAICapability ex:CelebrityImageSynthesis ;
+    airo:hasAISubject ex:CelebrityFigures ;
+    airo:hasPurpose ex:FraudulentMarketing ;
+    airo:isAppliedWithinDomain ex:OnlineHealthProducts ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:SocialMediaUsers .
+
+ex:HealthProductScamRisk rdf:type airo:Risk ;
+    rdfs:label "Health Product Scam Risk"@en ;
+    rdfs:label "健康产品诈骗风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception ;
+    airo:isRiskSourceFor ex:MaliciousContentCreators ;
+    airo:isRiskSourceFor ex:DigitalIdentityTheft ;
+    airo:isRiskSourceFor ex:UnregulatedAIApplications .
+
+ex:ConsumerDeception rdf:type airo:Consequence ;
+    rdfs:label "Consumer Deception Consequence"@en ;
+    rdfs:label "消费者欺骗后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:CelebrityImageSynthesis rdf:type airo:AICapability ;
+    rdfs:label "Celebrity Image Synthesis Capability"@en ;
+    rdfs:label "名人图像合成能力"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:CelebrityFigures rdf:type airo:AISubject ;
+    rdfs:label "Celebrity Figures"@en ;
+    rdfs:label "名人形象"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:FraudulentMarketing rdf:type airo:Purpose ;
+    rdfs:label "Fraudulent Marketing Purpose"@en ;
+    rdfs:label "欺诈营销目的"@zh .
+
+ex:OnlineHealthProducts rdf:type airo:Domain ;
+    rdfs:label "Online Health Products Domain"@en ;
+    rdfs:label "在线健康产品领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:MaliciousContentCreators rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creators Risk Source"@en ;
+    rdfs:label "恶意内容创作者风险源"@zh ;
+    airo:exploitsVulnerability ex:PublicTrustInCelebrities .
+
+ex:DigitalIdentityTheft rdf:type airo:Threat ;
+    rdfs:label "Digital Identity Theft Threat"@en ;
+    rdfs:label "数字身份盗窃威胁"@zh ;
+    airo:exploitsVulnerability ex:PublicTrustInCelebrities .
+
+ex:UnregulatedAIApplications rdf:type airo:Hazard ;
+    rdfs:label "Unregulated AI Applications Hazard"@en ;
+    rdfs:label "未受监管的AI应用危害"@zh ;
+    airo:exploitsVulnerability ex:PublicTrustInCelebrities .
+
+ex:PublicTrustInCelebrities rdf:type airo:Vulnerability ;
+    rdfs:label "Public Trust in Celebrities Vulnerability"@en ;
+    rdfs:label "公众对名人信任的脆弱性"@zh .

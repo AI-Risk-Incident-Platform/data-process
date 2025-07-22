@@ -1,0 +1,76 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaSmartSummonSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Smart Summon System"@en ;
+    rdfs:label "特斯拉智能召唤系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasCapability ex:AutonomousParkingAndSummoning ;
+    airo:isDevelopedBy ex:TeslaInc ;
+    airo:hasPurpose ex:ConvenientVehicleRetrieval ;
+    airo:hasStakeholder ex:PrivateJetOwner ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicles ;
+    airo:usesTechnique ex:ComputerVisionAndSensorFusion .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:PropertyDamage ;
+    airo:isRiskSourceFor ex:AutonomousSystemMisjudgment .
+
+ex:PropertyDamage rdf:type airo:Consequence ;
+    rdfs:label "Property Damage Consequence"@en ;
+    rdfs:label "财产损失后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:AutonomousParkingAndSummoning rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Parking and Summoning Capability"@en ;
+    rdfs:label "自主停车和召唤能力"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:PrivateJetOwner rdf:type airo:Stakeholder ;
+    rdfs:label "Private Jet Owner"@en ;
+    rdfs:label "私人飞机所有者"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PrivateJetOwner .
+
+ex:ConvenientVehicleRetrieval rdf:type airo:Purpose ;
+    rdfs:label "Convenient Vehicle Retrieval Purpose"@en ;
+    rdfs:label "便捷车辆取回目的"@zh .
+
+ex:AutonomousVehicles rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicles Domain"@en ;
+    rdfs:label "自动驾驶车辆领域"@zh .
+
+ex:ComputerVisionAndSensorFusion rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision and Sensor Fusion Technique"@en ;
+    rdfs:label "计算机视觉和传感器融合技术"@zh .
+
+ex:AutonomousSystemMisjudgment rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous System Misjudgment Risk Source"@en ;
+    rdfs:label "自主系统误判风险源"@zh ;
+    airo:exploitsVulnerability ex:ObstacleDetectionLimitations ;
+    airo:isRiskSourceFor ex:LargeStationaryObjects .
+
+ex:ObstacleDetectionLimitations rdf:type airo:Vulnerability ;
+    rdfs:label "Obstacle Detection Limitations Vulnerability"@en ;
+    rdfs:label "障碍物检测限制的脆弱性"@zh .
+
+ex:LargeStationaryObjects rdf:type airo:Threat ;
+    rdfs:label "Large Stationary Objects Threat"@en ;
+    rdfs:label "大型静止物体威胁"@zh .

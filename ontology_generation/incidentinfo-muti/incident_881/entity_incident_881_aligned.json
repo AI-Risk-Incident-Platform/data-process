@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Man who exploded Tesla Cybertruck outside Trump hotel in Las Vegas used generative AI"
+    },
+    "Risk": {
+      "id": "MisuseOfGenerativeAIForViolentActs",
+      "中文名称": "生成式AI被用于暴力行为的风险",
+      "英文名称": "Misuse of Generative AI for Violent Acts Risk",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast: police"
+    },
+    "Consequence": {
+      "id": "PhysicalDamageFromExplosion",
+      "中文名称": "爆炸造成的物理损害后果",
+      "英文名称": "Physical Damage from Explosion Consequence",
+      "来源": "Man who exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "AICapability": {
+      "id": "PlanningAndExecutionAssistance",
+      "中文名称": "计划与执行辅助能力",
+      "英文名称": "Planning and Execution Assistance Capability",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast"
+    },
+    "AIOperator": {
+      "id": "MatthewLivelsberger",
+      "中文名称": "马修·利弗斯伯格",
+      "英文名称": "Matthew Livelsberger",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast: police"
+    },
+    "Stakeholder": {
+      "id": "LasVegasPoliceDepartment",
+      "中文名称": "拉斯维加斯警察局",
+      "英文名称": "Las Vegas Police Department",
+      "来源": "Las Vegas police release ChatGPT logs from the suspect in the Cybertruck explosion"
+    },
+    "AISubject": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "Purpose": {
+      "id": "ViolentActPlanning",
+      "中文名称": "暴力行为策划的目的",
+      "英文名称": "Violent Act Planning Purpose",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "AITechnique": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Las Vegas police release ChatGPT logs from the suspect in the Cybertruck explosion"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFilteringForViolentPlans",
+      "中文名称": "缺乏暴力计划内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Threat": {
+      "id": "TerroristUseOfGenerativeAI",
+      "中文名称": "恐怖分子使用生成式AI的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Hazard": {
+      "id": "UnrestrictedAccessToGenerativeAI",
+      "中文名称": "无限制访问生成式AI的危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "RiskSource": {
+      "id": "OpenAccessToGenerativeAITools",
+      "中文名称": "生成式AI工具的开放访问风险源",
+      "英文名称": "Open Access to Generative AI Tools Risk Source",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInGenerativeAIAccess",
+      "中文名称": "生成式AI访问中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "used Generative AI in planning truck blast"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Man who exploded Tesla Cybertruck outside Trump hotel in Las Vegas used generative AI"
+    },
+    "Risk": {
+      "id": "MisuseOfGenerativeAIForViolentActs",
+      "中文名称": "生成式AI被用于暴力行为的风险",
+      "英文名称": "Misuse of Generative AI for Violent Acts Risk",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast: police"
+    },
+    "Consequence": {
+      "id": "PhysicalDamageFromExplosion",
+      "中文名称": "爆炸造成的物理损害后果",
+      "英文名称": "Physical Damage from Explosion Consequence",
+      "来源": "Man who exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "AICapability": {
+      "id": "PlanningAndExecutionAssistance",
+      "中文名称": "计划与执行辅助能力",
+      "英文名称": "Planning and Execution Assistance Capability",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast"
+    },
+    "AIOperator": {
+      "id": "MatthewLivelsberger",
+      "中文名称": "马修·利弗斯伯格",
+      "英文名称": "Matthew Livelsberger",
+      "来源": "Matthew Livelsberger used Generative AI in planning truck blast: police"
+    },
+    "Stakeholder": {
+      "id": "LasVegasPoliceDepartment",
+      "中文名称": "拉斯维加斯警察局",
+      "英文名称": "Las Vegas Police Department",
+      "来源": "Las Vegas police release ChatGPT logs from the suspect in the Cybertruck explosion"
+    },
+    "AISubject": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "Purpose": {
+      "id": "ViolentActPlanning",
+      "中文名称": "暴力行为策划的目的",
+      "英文名称": "Violent Act Planning Purpose",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "exploded Tesla Cybertruck outside Trump hotel in Las Vegas"
+    },
+    "AITechnique": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Las Vegas police release ChatGPT logs from the suspect in the Cybertruck explosion"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFilteringForViolentPlans",
+      "中文名称": "缺乏暴力计划内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Threat": {
+      "id": "TerroristUseOfGenerativeAI",
+      "中文名称": "恐怖分子使用生成式AI的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "Hazard": {
+      "id": "UnrestrictedAccessToGenerativeAI",
+      "中文名称": "无限制访问生成式AI的危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "RiskSource": {
+      "id": "OpenAccessToGenerativeAITools",
+      "中文名称": "生成式AI工具的开放访问风险源",
+      "英文名称": "Open Access to Generative AI Tools Risk Source",
+      "来源": "used Generative AI in planning truck blast"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInGenerativeAIAccess",
+      "中文名称": "生成式AI访问中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "used Generative AI in planning truck blast"
+    }
+  }
+}

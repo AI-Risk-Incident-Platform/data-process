@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeRobocallSystem",
+      "中文名称": "深度伪造自动电话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Political consultant who admitted deepfaking Biden's voice is indicted, fined $6 million"
+    },
+    "Consequence": {
+      "id": "VoterDeception",
+      "中文名称": "选民欺骗后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Stakeholder": {
+      "id": "NewHampshireVoters",
+      "中文名称": "新罕布什尔州选民",
+      "英文名称": "New Hampshire Voters",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "AIOperator": {
+      "id": "PoliticalConsultant",
+      "中文名称": "政治顾问",
+      "英文名称": "Political Consultant",
+      "来源": "Political consultant who admitted deepfaking Biden's voice is indicted, fined $6 million"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "RiskSource": {
+      "id": "AIEnabledDisinformation",
+      "中文名称": "AI驱动的虚假信息风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeRobocallSystem",
+      "中文名称": "深度伪造自动电话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Political consultant who admitted deepfaking Biden's voice is indicted, fined $6 million"
+    },
+    "Consequence": {
+      "id": "VoterDeception",
+      "中文名称": "选民欺骗后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Stakeholder": {
+      "id": "NewHampshireVoters",
+      "中文名称": "新罕布什尔州选民",
+      "英文名称": "New Hampshire Voters",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "AIOperator": {
+      "id": "PoliticalConsultant",
+      "中文名称": "政治顾问",
+      "英文名称": "Political Consultant",
+      "来源": "Political consultant who admitted deepfaking Biden's voice is indicted, fined $6 million"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "New Hampshire voters sue Biden deepfake robocall creators"
+    },
+    "RiskSource": {
+      "id": "AIEnabledDisinformation",
+      "中文名称": "AI驱动的虚假信息风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Democratic operative admits to commissioning fake Biden robocall that used AI"
+    }
+  }
+}

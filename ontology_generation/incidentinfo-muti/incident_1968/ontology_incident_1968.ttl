@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasPurpose ex:AutonomousDrivingAssistance ;
+    airo:isAppliedWithinDomain ex:AutomotiveTransportation ;
+    airo:hasStakeholder ex:NHTSA ;
+    airo:isDeployedBy ex:TeslaInc .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:FatalCollisionWithEmergencyVehicle ;
+    airo:isRiskSourceFor ex:StationaryObjectDetectionFailure .
+
+ex:FatalCollisionWithEmergencyVehicle rdf:type airo:Consequence ;
+    rdfs:label "Fatal Collision with Emergency Vehicle Consequence"@en ;
+    rdfs:label "与应急车辆致命碰撞后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:NHTSA rdf:type airo:Stakeholder ;
+    rdfs:label "National Highway Traffic Safety Administration"@en ;
+    rdfs:label "美国国家公路交通安全管理局"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "人员死亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NHTSA .
+
+ex:AutonomousDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Driving Assistance Purpose"@en ;
+    rdfs:label "自动驾驶辅助目的"@zh .
+
+ex:AutomotiveTransportation rdf:type airo:Domain ;
+    rdfs:label "Automotive Transportation Domain"@en ;
+    rdfs:label "汽车交通领域"@zh .
+
+ex:StationaryObjectDetectionFailure rdf:type airo:RiskSource ;
+    rdfs:label "Stationary Object Detection Failure Risk Source"@en ;
+    rdfs:label "静止物体检测失败风险源"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SurveillanceSoftware rdf:type airo:AISystem ;
+    rdfs:label "Surveillance Software"@en ;
+    rdfs:label "监控软件"@zh ;
+    airo:hasRisk ex:CivilSocietySuppressionRisk ;
+    airo:isDeployedBy ex:IsraeliCompany ;
+    airo:hasStakeholder ex:JournalistsAndActivists ;
+    airo:isAppliedWithinDomain ex:GovernmentSurveillance .
+
+ex:CivilSocietySuppressionRisk rdf:type airo:Risk ;
+    rdfs:label "Civil Society Suppression Risk"@en ;
+    rdfs:label "公民社会压制风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation .
+
+ex:JournalistsAndActivists rdf:type airo:Stakeholder ;
+    rdfs:label "Journalists and Activists"@en ;
+    rdfs:label "记者和活动家"@zh .
+
+ex:IsraeliCompany rdf:type airo:AIOperator ;
+    rdfs:label "Israeli Company"@en ;
+    rdfs:label "以色列公司"@zh .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh ;
+    airo:hasImpact ex:SuppressionOfFreeSpeech .
+
+ex:SuppressionOfFreeSpeech rdf:type airo:Impact ;
+    rdfs:label "Suppression of Free Speech"@en ;
+    rdfs:label "言论自由压制"@zh ;
+    airo:hasImpactOnStakeholder ex:JournalistsAndActivists .
+
+ex:GovernmentSurveillance rdf:type airo:Domain ;
+    rdfs:label "Government Surveillance"@en ;
+    rdfs:label "政府监控"@zh .

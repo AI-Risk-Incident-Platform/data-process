@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BostonDynamicsRobotDog",
+      "中文名称": "波士顿动力机器狗",
+      "英文名称": "Boston Dynamics Robot Dog",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Honolulu PD Is Using Boston Dynamics’ Robot Dog To Check The Temperature Of Homeless People"
+    },
+    "Stakeholder": {
+      "id": "HomelessPeople",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless",
+      "来源": "HPD defends use of pricey robot dog taking temperatures at homeless program"
+    },
+    "AIOperator": {
+      "id": "HonoluluPoliceDepartment",
+      "中文名称": "檀香山警察局",
+      "英文名称": "Honolulu Police Department",
+      "来源": "HPD defends use of pricey robot dog taking temperatures at homeless program"
+    },
+    "Purpose": {
+      "id": "COVID19Monitoring",
+      "中文名称": "COVID-19监测",
+      "英文名称": "COVID-19 Tracking",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生",
+      "英文名称": "Public Health",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Honolulu PD Is Using Boston Dynamics’ Robot Dog To Check The Temperature Of Homeless People"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BostonDynamicsRobotDog",
+      "中文名称": "波士顿动力机器狗",
+      "英文名称": "Boston Dynamics Robot Dog",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Honolulu PD Is Using Boston Dynamics’ Robot Dog To Check The Temperature Of Homeless People"
+    },
+    "Stakeholder": {
+      "id": "HomelessPeople",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless",
+      "来源": "HPD defends use of pricey robot dog taking temperatures at homeless program"
+    },
+    "AIOperator": {
+      "id": "HonoluluPoliceDepartment",
+      "中文名称": "檀香山警察局",
+      "英文名称": "Honolulu Police Department",
+      "来源": "HPD defends use of pricey robot dog taking temperatures at homeless program"
+    },
+    "Purpose": {
+      "id": "COVID19Monitoring",
+      "中文名称": "COVID-19监测",
+      "英文名称": "COVID-19 Tracking",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生",
+      "英文名称": "Public Health",
+      "来源": "Hawaii Using Robot Dog to Patrol Homeless Community for Signs of COVID-19"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Honolulu PD Is Using Boston Dynamics’ Robot Dog To Check The Temperature Of Homeless People"
+    }
+  }
+}

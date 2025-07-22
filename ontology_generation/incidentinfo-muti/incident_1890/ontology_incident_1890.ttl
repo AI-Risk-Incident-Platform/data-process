@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomatedSurveillanceSystemInGreekCamps rdf:type airo:AISystem ;
+    rdfs:label "Automated Surveillance System in Greek Camps"@en ;
+    rdfs:label "希腊难民营部分自动化监控系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRiskForAsylumSeekers ;
+    airo:hasAISubject ex:AsylumSeekersInGreekCamps ;
+    airo:hasStakeholder ex:GreekDataProtectionAuthority ;
+    airo:isAppliedWithinDomain ex:RefugeeCampManagement ;
+    airo:hasPurpose ex:EnhancingCampSecurity .
+
+ex:PrivacyViolationRiskForAsylumSeekers rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk for Asylum Seekers"@en ;
+    rdfs:label "寻求庇护者隐私侵犯风险"@zh .
+
+ex:GreekDataProtectionAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "Greek Data Protection Authority"@en ;
+    rdfs:label "希腊数据保护机构"@zh .
+
+ex:AsylumSeekersInGreekCamps rdf:type airo:AISubject ;
+    rdfs:label "Asylum Seekers in Greek Camps"@en ;
+    rdfs:label "希腊难民营中的寻求庇护者"@zh .
+
+ex:RefugeeCampManagement rdf:type airo:Domain ;
+    rdfs:label "Refugee Camp Management Domain"@en ;
+    rdfs:label "难民营管理领域"@zh .
+
+ex:EnhancingCampSecurity rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Camp Security Purpose"@en ;
+    rdfs:label "加强营地安全的目的"@zh .

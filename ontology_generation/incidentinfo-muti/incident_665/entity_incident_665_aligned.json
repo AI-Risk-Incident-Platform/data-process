@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SupermarketFacialRecognitionSystem",
+      "中文名称": "超市面部识别系统",
+      "英文名称": "Supermarket Facial Recognition System",
+      "来源": "Supermarket facial recognition trial: Rotorua mother's \"discrimination\" ordeal"
+    },
+    "Risk": {
+      "id": "DiscriminationRisk",
+      "中文名称": "歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Māori woman mistaken as thief by supermarket AI not surprising, experts say"
+    },
+    "Consequence": {
+      "id": "FalseAccusation",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "Māori woman mistaken as thief by supermarket AI"
+    },
+    "AISubject": {
+      "id": "MaoriWoman",
+      "中文名称": "毛利女性",
+      "英文名称": "Maori Woman",
+      "来源": "Māori woman mistaken as thief by supermarket AI"
+    },
+    "Stakeholder": {
+      "id": "Supermarket",
+      "中文名称": "超市",
+      "英文名称": "Supermarket",
+      "来源": "Supermarket facial recognition trial"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "Rotorua mother's \"discrimination\" ordeal"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Māori woman mistaken as thief by supermarket AI not surprising, experts say"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SupermarketFacialRecognitionSystem",
+      "中文名称": "超市面部识别系统",
+      "英文名称": "Supermarket Facial Recognition System",
+      "来源": "Supermarket facial recognition trial: Rotorua mother's \"discrimination\" ordeal"
+    },
+    "Risk": {
+      "id": "DiscriminationRisk",
+      "中文名称": "歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Māori woman mistaken as thief by supermarket AI not surprising, experts say"
+    },
+    "Consequence": {
+      "id": "FalseAccusation",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "Māori woman mistaken as thief by supermarket AI"
+    },
+    "AISubject": {
+      "id": "MaoriWoman",
+      "中文名称": "毛利女性",
+      "英文名称": "Maori Woman",
+      "来源": "Māori woman mistaken as thief by supermarket AI"
+    },
+    "Stakeholder": {
+      "id": "Supermarket",
+      "中文名称": "超市",
+      "英文名称": "Supermarket",
+      "来源": "Supermarket facial recognition trial"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "Rotorua mother's \"discrimination\" ordeal"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Māori woman mistaken as thief by supermarket AI not surprising, experts say"
+    }
+  }
+}

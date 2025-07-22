@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Mauricio Macri denounces deepfake AI videos spread by pro-Milei trolls on election day"
+    },
+    "Risk": {
+      "id": "PoliticalDisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cuentas libertarias reproducen fake news y un video falso de Mauricio Macri a horas de la elección"
+    },
+    "Stakeholder": {
+      "id": "ProMileiTrolls",
+      "中文名称": "支持Milei的网络水军",
+      "英文名称": "Pro-Milei Trolls",
+      "来源": "deepfake AI videos spread by pro-Milei trolls on election day"
+    },
+    "AISubject": {
+      "id": "MauricioMacri",
+      "中文名称": "Mauricio Macri",
+      "英文名称": "Mauricio Macri",
+      "来源": "video falso de Mauricio Macri"
+    },
+    "Consequence": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "a horas de la elección"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "deepfake AI videos"
+    },
+    "Domain": {
+      "id": "PoliticalCampaign",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "on election day"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "reproducen fake news"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Mauricio Macri denounces deepfake AI videos spread by pro-Milei trolls on election day"
+    },
+    "Risk": {
+      "id": "PoliticalDisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cuentas libertarias reproducen fake news y un video falso de Mauricio Macri a horas de la elección"
+    },
+    "Stakeholder": {
+      "id": "ProMileiTrolls",
+      "中文名称": "支持Milei的网络水军",
+      "英文名称": "Pro-Milei Trolls",
+      "来源": "deepfake AI videos spread by pro-Milei trolls on election day"
+    },
+    "AISubject": {
+      "id": "MauricioMacri",
+      "中文名称": "Mauricio Macri",
+      "英文名称": "Mauricio Macri",
+      "来源": "video falso de Mauricio Macri"
+    },
+    "Consequence": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "a horas de la elección"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "deepfake AI videos"
+    },
+    "Domain": {
+      "id": "PoliticalCampaign",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "on election day"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "reproducen fake news"
+    }
+  }
+}

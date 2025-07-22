@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIRecreationOfRobinWilliams rdf:type airo:AISystem ;
+    rdfs:label "AI Recreation of Robin Williams"@en ;
+    rdfs:label "罗宾·威廉姆斯的AI重现"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIRecreation ;
+    airo:hasStakeholder ex:RobinWilliamsDaughter .
+
+ex:EthicalConcernsInAIRecreation rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Recreation Risk"@en ;
+    rdfs:label "AI重现中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedRecreationOfDeceasedCelebrities ;
+    airo:hasImpact ex:EmotionalDistressToFamilyMembers .
+
+ex:RobinWilliamsDaughter rdf:type airo:Stakeholder ;
+    rdfs:label "Robin Williams's Daughter"@en ;
+    rdfs:label "罗宾·威廉姆斯的女儿"@zh .
+
+ex:EmotionalDistressToFamilyMembers rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Family Members Impact"@en ;
+    rdfs:label "对家庭成员的情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RobinWilliamsDaughter .
+
+ex:UnauthorizedRecreationOfDeceasedCelebrities rdf:type airo:Misuse ;
+    rdfs:label "Unauthorized Recreation of Deceased Celebrities Misuse"@en ;
+    rdfs:label "未经授权重现已故名人"@zh ;
+    airo:isRiskSourceFor ex:EthicalConcernsInAIRecreation .

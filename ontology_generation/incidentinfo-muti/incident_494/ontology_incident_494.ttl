@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:NonConsensualDeepfakePornography ;
+    airo:hasAISubject ex:CollegeStudentVictim ;
+    airo:usesTechnique ex:FaceSwappingAI ;
+    airo:hasStakeholder ex:SocialMediaPlatformsHostingContent .
+
+ex:NonConsensualDeepfakePornography rdf:type airo:Risk ;
+    rdfs:label "非自愿深度伪造色情内容风险"@zh ;
+    rdfs:label "Non-Consensual Deepfake Pornography Risk"@en ;
+    airo:hasConsequence ex:PsychologicalHarmToVictim ;
+    airo:isRiskSourceFor ex:MaliciousContentCreators .
+
+ex:PsychologicalHarmToVictim rdf:type airo:Consequence ;
+    rdfs:label "对受害者的心理伤害后果"@zh ;
+    rdfs:label "Psychological Harm to Victim Consequence"@en ;
+    airo:hasImpact ex:ReputationDamageAndEmotionalDistress .
+
+ex:CollegeStudentVictim rdf:type airo:AISubject ;
+    rdfs:label "大学生受害者"@zh ;
+    rdfs:label "College Student Victim"@en .
+
+ex:ReputationDamageAndEmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "名誉损害和情绪困扰的影响"@zh ;
+    rdfs:label "Reputation Damage and Emotional Distress Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CollegeStudentVictim .
+
+ex:FaceSwappingAI rdf:type airo:AITechnique ;
+    rdfs:label "面部替换AI技术"@zh ;
+    rdfs:label "Face Swapping AI Technique"@en .
+
+ex:MaliciousContentCreators rdf:type airo:RiskSource ;
+    rdfs:label "恶意内容创作者风险源"@zh ;
+    rdfs:label "Malicious Content Creators Risk Source"@en .
+
+ex:SocialMediaPlatformsHostingContent rdf:type airo:Stakeholder ;
+    rdfs:label "托管内容的社交媒体平台利益相关者"@zh ;
+    rdfs:label "Social Media Platforms Hosting Content Stakeholder"@en .

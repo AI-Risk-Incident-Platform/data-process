@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WebsiteAISystem",
+      "中文名称": "网站AI系统",
+      "英文名称": "Website AI System",
+      "来源": "This Company Tapped AI for Its Website—and Landed in Court"
+    },
+    "Risk": {
+      "id": "LegalRiskFromAIUsage",
+      "中文名称": "AI使用法律风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Landing in court due to AI usage on website"
+    },
+    "Stakeholder": {
+      "id": "CompanyUsingAI",
+      "中文名称": "使用AI的公司",
+      "英文名称": "Company Using AI",
+      "来源": "This Company Tapped AI for Its Website"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Landing in court"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WebsiteAISystem",
+      "中文名称": "网站AI系统",
+      "英文名称": "Website AI System",
+      "来源": "This Company Tapped AI for Its Website—and Landed in Court"
+    },
+    "Risk": {
+      "id": "LegalRiskFromAIUsage",
+      "中文名称": "AI使用法律风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Landing in court due to AI usage on website"
+    },
+    "Stakeholder": {
+      "id": "CompanyUsingAI",
+      "中文名称": "使用AI的公司",
+      "英文名称": "Company Using AI",
+      "来源": "This Company Tapped AI for Its Website"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Landing in court"
+    }
+  }
+}

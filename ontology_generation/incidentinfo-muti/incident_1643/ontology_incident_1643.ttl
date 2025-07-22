@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI Recommendation System"@en ;
+    rdfs:label "微软AI推荐系统"@zh ;
+    airo:hasRisk ex:InappropriateRecommendationRisk ;
+    airo:isDevelopedBy ex:MicrosoftCorporation ;
+    airo:hasPurpose ex:TouristAttractionRecommendation ;
+    airo:hasStakeholder ex:OttawaFoodBank .
+
+ex:InappropriateRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Recommendation Risk"@en ;
+    rdfs:label "不当推荐风险"@zh ;
+    airo:hasConsequence ex:PublicMisunderstanding ;
+    airo:isRiskSourceFor ex:AlgorithmTrainingDataBias .
+
+ex:PublicMisunderstanding rdf:type airo:Consequence ;
+    rdfs:label "Public Misunderstanding Consequence"@en ;
+    rdfs:label "公众误解后果"@zh ;
+    airo:hasImpact ex:CharityOrganizationReputationDamage .
+
+ex:OttawaFoodBank rdf:type airo:Stakeholder ;
+    rdfs:label "Ottawa Food Bank"@en ;
+    rdfs:label "渥太华食品银行"@zh .
+
+ex:MicrosoftCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:CharityOrganizationReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Charity Organization Reputation Damage Impact"@en ;
+    rdfs:label "慈善组织声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OttawaFoodBank .
+
+ex:TouristAttractionRecommendation rdf:type airo:Purpose ;
+    rdfs:label "Tourist Attraction Recommendation Purpose"@en ;
+    rdfs:label "旅游景点推荐目的"@zh .
+
+ex:AlgorithmTrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithm Training Data Bias Risk Source"@en ;
+    rdfs:label "算法训练数据偏差风险源"@zh .

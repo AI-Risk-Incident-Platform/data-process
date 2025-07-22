@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICameraSystem",
+      "中文名称": "AI摄像头系统",
+      "英文名称": "AI Camera System",
+      "来源": "Kerala: Keltron had highlighted huge income in fines while pitching for AI cameras"
+    },
+    "Risk": {
+      "id": "InaccurateSpeedDetectionRisk",
+      "中文名称": "速度检测不准确风险",
+      "英文名称": "Inaccurate Speed Detection Risk",
+      "来源": "AI camera detected that a bike was driven at a speed of 1240 km per hour on a Kerala road"
+    },
+    "Consequence": {
+      "id": "UnjustFines",
+      "中文名称": "不公正罚款后果",
+      "英文名称": "Unjust Fines Consequence",
+      "来源": "Kerala: Keltron had highlighted huge income in fines while pitching for AI cameras"
+    },
+    "Stakeholder": {
+      "id": "KeralaGovernment",
+      "中文名称": "喀拉拉邦政府",
+      "英文名称": "Kerala Government",
+      "来源": "'No answers from CM': Kerala LoP slams CM Vijayan over 'AI camera scam'"
+    },
+    "AIOperator": {
+      "id": "Keltron",
+      "中文名称": "Keltron公司",
+      "英文名称": "Keltron",
+      "来源": "Kerala: Keltron had highlighted huge income in fines while pitching for AI cameras"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任丧失影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "'No answers from CM': Kerala LoP slams CM Vijayan over 'AI camera scam'"
+    },
+    "Domain": {
+      "id": "TrafficMonitoring",
+      "中文名称": "交通监控领域",
+      "英文名称": "Traffic Monitoring Domain",
+      "来源": "AI camera detected that a bike was driven at a speed of 1240 km per hour on a Kerala road"
+    },
+    "RiskSource": {
+      "id": "FaultyAlgorithm",
+      "中文名称": "故障算法风险源",
+      "英文名称": "Faulty Algorithm Risk Source",
+      "来源": "AI camera detected that a bike was driven at a speed of 1240 km per hour on a Kerala road"
+    }
+  }
+}

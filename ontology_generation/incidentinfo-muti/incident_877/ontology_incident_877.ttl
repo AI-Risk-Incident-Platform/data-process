@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FableBookApp rdf:type airo:AISystem ;
+    rdfs:label "Fable Book App"@en ;
+    rdfs:label "Fable图书应用"@zh ;
+    airo:hasRisk ex:OffensiveContentGenerationRisk ;
+    airo:hasCapability ex:AutomatedContentSummarization ;
+    airo:hasStakeholder ex:BookAppUsers .
+
+ex:OffensiveContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Offensive Content Generation Risk"@en ;
+    rdfs:label "冒犯性内容生成风险"@zh ;
+    airo:hasConsequence ex:PublicControversy ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:PublicControversy rdf:type airo:Consequence ;
+    rdfs:label "Public Controversy Consequence"@en ;
+    rdfs:label "公众争议后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:AutomatedContentSummarization rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Summarization Capability"@en ;
+    rdfs:label "自动内容摘要能力"@zh .
+
+ex:BookAppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Book App Users"@en ;
+    rdfs:label "图书应用用户"@zh ;
+    airo:hasImpactOnStakeholder ex:ReputationDamage .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh ;
+    airo:isRiskSourceFor ex:OffensiveContentGenerationRisk .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh .

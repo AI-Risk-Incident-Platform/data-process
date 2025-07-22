@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla on autopilot crashes a police car"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "Tesla on autopilot crashes into Michigan cop’s patrol car"
+    },
+    "Consequence": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失后果",
+      "英文名称": "Property Damage Consequence",
+      "来源": "Tesla on autopilot crashes a police car"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "Tesla faces second NHTSA probe in Michigan this month"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla faces second NHTSA probe in Michigan this month"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla on autopilot crashes a police car"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot System Failure Risk Source",
+      "来源": "Tesla on autopilot crashes into Michigan cop’s patrol car"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "Tesla on autopilot crashes into Michigan cop’s patrol car"
+    }
+  }
+}

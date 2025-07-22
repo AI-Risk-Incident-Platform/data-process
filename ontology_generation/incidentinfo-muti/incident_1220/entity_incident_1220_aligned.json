@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IntelliVisionFacialRecognitionSystem",
+      "中文名称": "IntelliVision面部识别系统",
+      "英文名称": "IntelliVision Facial Recognition System",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    },
+    "Risk": {
+      "id": "DeceptiveAccuracyAndBiasClaimsRisk",
+      "中文名称": "欺骗性准确性和偏见声明风险",
+      "英文名称": "Deceptive Accuracy and Bias Claims Risk",
+      "来源": "The FTC is cracking down on a firm that claims its AI-powered face recognition tech has 'zero' bias"
+    },
+    "Stakeholder": {
+      "id": "FederalTradeCommission",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    },
+    "RiskSource": {
+      "id": "MisleadingMarketingClaims",
+      "中文名称": "误导性营销声明",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "IntelliVision censured for misleading biometric accuracy and bias claims by FTC"
+    },
+    "Impact": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗",
+      "英文名称": "Consumer Deception",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "IntelliVisionFacialRecognitionSystem",
+      "中文名称": "IntelliVision面部识别系统",
+      "英文名称": "IntelliVision Facial Recognition System",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    },
+    "Risk": {
+      "id": "DeceptiveAccuracyAndBiasClaimsRisk",
+      "中文名称": "欺骗性准确性和偏见声明风险",
+      "英文名称": "Deceptive Accuracy and Bias Claims Risk",
+      "来源": "The FTC is cracking down on a firm that claims its AI-powered face recognition tech has 'zero' bias"
+    },
+    "Stakeholder": {
+      "id": "FederalTradeCommission",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    },
+    "RiskSource": {
+      "id": "MisleadingMarketingClaims",
+      "中文名称": "误导性营销声明",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "IntelliVision censured for misleading biometric accuracy and bias claims by FTC"
+    },
+    "Impact": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗",
+      "英文名称": "Consumer Deception",
+      "来源": "FTC Settles with IntelliVision Over Deceptive Facial Recognition Claims"
+    }
+  }
+}

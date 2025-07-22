@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MSGFacialRecognitionSystem",
+      "中文名称": "MSG面部识别系统",
+      "英文名称": "MSG Facial Recognition System",
+      "来源": "MSG Facial-Recognition Tech Gets Lawyer Kicked Out of Radio City Show"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Attorney says facial recognition got her kicked out of a Rockettes show"
+    },
+    "Stakeholder": {
+      "id": "Lawyers",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    },
+    "AIOperator": {
+      "id": "MadisonSquareGarden",
+      "中文名称": "麦迪逊广场花园",
+      "英文名称": "Madison Square Garden",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    },
+    "Consequence": {
+      "id": "UnjustExclusion",
+      "中文名称": "不公正排除后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "Attorney says facial recognition got her kicked out of a Rockettes show"
+    },
+    "Impact": {
+      "id": "ProfessionalDiscrimination",
+      "中文名称": "职业歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MSGFacialRecognitionSystem",
+      "中文名称": "MSG面部识别系统",
+      "英文名称": "MSG Facial Recognition System",
+      "来源": "MSG Facial-Recognition Tech Gets Lawyer Kicked Out of Radio City Show"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Attorney says facial recognition got her kicked out of a Rockettes show"
+    },
+    "Stakeholder": {
+      "id": "Lawyers",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    },
+    "AIOperator": {
+      "id": "MadisonSquareGarden",
+      "中文名称": "麦迪逊广场花园",
+      "英文名称": "Madison Square Garden",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    },
+    "Consequence": {
+      "id": "UnjustExclusion",
+      "中文名称": "不公正排除后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "Attorney says facial recognition got her kicked out of a Rockettes show"
+    },
+    "Impact": {
+      "id": "ProfessionalDiscrimination",
+      "中文名称": "职业歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Madison Square Garden Uses Face Scanners to Remove Lawyers"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:ExtremistContentPropagationRisk ;
+    airo:hasCapability ex:MultilingualContentAnalysis ;
+    airo:hasStakeholder ex:EastAfricanCommunities ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:ExtremistContentPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Extremist Content Propagation Risk"@en ;
+    rdfs:label "极端主义内容传播风险"@zh ;
+    airo:hasConsequence ex:TerroristRecruitmentAndRadicalization ;
+    airo:isRiskSourceFor ex:InadequateContentModerationAlgorithms .
+
+ex:TerroristRecruitmentAndRadicalization rdf:type airo:Consequence ;
+    rdfs:label "Terrorist Recruitment and Radicalization Consequence"@en ;
+    rdfs:label "恐怖分子招募和激进化后果"@zh ;
+    airo:hasImpact ex:RegionalSecurityThreat .
+
+ex:MultilingualContentAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Multilingual Content Analysis Capability"@en ;
+    rdfs:label "多语言内容分析能力"@zh .
+
+ex:EastAfricanCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "East African Communities"@en ;
+    rdfs:label "东非社区"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:InadequateContentModerationAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Moderation Algorithms Risk Source"@en ;
+    rdfs:label "内容审核算法不足风险源"@zh .
+
+ex:RegionalSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Regional Security Threat Impact"@en ;
+    rdfs:label "地区安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EastAfricanCommunities .

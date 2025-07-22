@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh ;
+    airo:hasRisk ex:FalseArrestRisk ;
+    airo:hasAISubject ex:PregnantWoman ;
+    airo:hasStakeholder ex:DetroitPoliceDepartment ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:FalseArrestRisk rdf:type airo:Risk ;
+    rdfs:label "False Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:LegalAndEmotionalDistress ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition .
+
+ex:LegalAndEmotionalDistress rdf:type airo:Consequence ;
+    rdfs:label "Legal and Emotional Distress Consequence"@en ;
+    rdfs:label "法律和情感困扰后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PregnantWoman rdf:type airo:AISubject ;
+    rdfs:label "Pregnant Woman"@en ;
+    rdfs:label "孕妇"@zh .
+
+ex:DetroitPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Detroit Police Department"@en ;
+    rdfs:label "底特律警察局"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DetroitPoliceDepartment .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中的算法偏见风险源"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .

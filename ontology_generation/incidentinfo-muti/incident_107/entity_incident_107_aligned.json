@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CaliforniaEquityAlgorithm",
+      "中文名称": "加州公平算法",
+      "英文名称": "California Equity Algorithm",
+      "来源": "California's “Equity” Algorithm Could Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "Risk": {
+      "id": "VaccineSupplyDisparityRisk",
+      "中文名称": "疫苗供应不均风险",
+      "英文名称": "Vaccine Allocation & Health Risk",
+      "来源": "Could Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "Consequence": {
+      "id": "VulnerablePopulationLeftWithoutVaccine",
+      "中文名称": "弱势群体无法获得疫苗的后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "AISubject": {
+      "id": "StrugglingCalifornians",
+      "中文名称": "生活困难的加州居民",
+      "英文名称": "Struggling Californians",
+      "来源": "2 Million Struggling Californians"
+    },
+    "Impact": {
+      "id": "PublicHealthInequity",
+      "中文名称": "公共卫生不平等的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CaliforniaEquityAlgorithm",
+      "中文名称": "加州公平算法",
+      "英文名称": "California Equity Algorithm",
+      "来源": "California's “Equity” Algorithm Could Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "Risk": {
+      "id": "VaccineSupplyDisparityRisk",
+      "中文名称": "疫苗供应不均风险",
+      "英文名称": "Vaccine Allocation & Health Risk",
+      "来源": "Could Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "Consequence": {
+      "id": "VulnerablePopulationLeftWithoutVaccine",
+      "中文名称": "弱势群体无法获得疫苗的后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    },
+    "AISubject": {
+      "id": "StrugglingCalifornians",
+      "中文名称": "生活困难的加州居民",
+      "英文名称": "Struggling Californians",
+      "来源": "2 Million Struggling Californians"
+    },
+    "Impact": {
+      "id": "PublicHealthInequity",
+      "中文名称": "公共卫生不平等的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Leave 2 Million Struggling Californians Without Additional Vaccine Supply"
+    }
+  }
+}

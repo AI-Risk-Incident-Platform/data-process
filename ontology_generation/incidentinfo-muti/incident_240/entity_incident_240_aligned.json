@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedFacesForScams",
+      "中文名称": "用于诈骗的AI生成面孔",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "AITechnique": {
+      "id": "FaceGenerationTechnology",
+      "中文名称": "人脸生成技术",
+      "英文名称": "Face Synthesis",
+      "来源": "AI-generated faces"
+    },
+    "Stakeholder": {
+      "id": "BostonLawFirm",
+      "中文名称": "波士顿律师事务所",
+      "英文名称": "Boston Law Firm",
+      "来源": "pose as a Boston law firm"
+    },
+    "Misuse": {
+      "id": "ImpersonationForScams",
+      "中文名称": "冒充诈骗",
+      "英文名称": "Impersonation Scams",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedFacesForScams",
+      "中文名称": "用于诈骗的AI生成面孔",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "AITechnique": {
+      "id": "FaceGenerationTechnology",
+      "中文名称": "人脸生成技术",
+      "英文名称": "Face Synthesis",
+      "来源": "AI-generated faces"
+    },
+    "Stakeholder": {
+      "id": "BostonLawFirm",
+      "中文名称": "波士顿律师事务所",
+      "英文名称": "Boston Law Firm",
+      "来源": "pose as a Boston law firm"
+    },
+    "Misuse": {
+      "id": "ImpersonationForScams",
+      "中文名称": "冒充诈骗",
+      "英文名称": "Impersonation Scams",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scammers used AI-generated faces to pose as a Boston law firm"
+    }
+  }
+}

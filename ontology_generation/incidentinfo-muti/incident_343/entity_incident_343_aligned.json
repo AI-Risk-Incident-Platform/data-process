@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "YouTube algorithm pushed election fraud claims to Trump supporters"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "pushed election fraud claims to Trump supporters"
+    },
+    "Consequence": {
+      "id": "PublicPerceptionDistortion",
+      "中文名称": "公众认知扭曲后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Public Perception of the Legitimacy of President Biden"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationCapability",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "algorithm pushed election fraud claims"
+    },
+    "Stakeholder": {
+      "id": "TrumpSupporters",
+      "中文名称": "特朗普支持者",
+      "英文名称": "Trump Supporters",
+      "来源": "pushed election fraud claims to Trump supporters"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Public Perception of the Legitimacy of President Biden"
+    },
+    "Purpose": {
+      "id": "UserEngagementMaximization",
+      "中文名称": "用户参与度最大化目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "algorithm pushed election fraud claims"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "YouTube algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsControversialContent",
+      "中文名称": "算法对争议内容的偏好风险源",
+      "英文名称": "Algorithmic Bias Risk Source for Sensitive/Controversial Content",
+      "来源": "pushed election fraud claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "YouTube algorithm pushed election fraud claims to Trump supporters"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "pushed election fraud claims to Trump supporters"
+    },
+    "Consequence": {
+      "id": "PublicPerceptionDistortion",
+      "中文名称": "公众认知扭曲后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Public Perception of the Legitimacy of President Biden"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationCapability",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "algorithm pushed election fraud claims"
+    },
+    "Stakeholder": {
+      "id": "TrumpSupporters",
+      "中文名称": "特朗普支持者",
+      "英文名称": "Trump Supporters",
+      "来源": "pushed election fraud claims to Trump supporters"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Public Perception of the Legitimacy of President Biden"
+    },
+    "Purpose": {
+      "id": "UserEngagementMaximization",
+      "中文名称": "用户参与度最大化目的",
+      "英文名称": "User Engagement Purpose",
+      "来源": "algorithm pushed election fraud claims"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "YouTube algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsControversialContent",
+      "中文名称": "算法对争议内容的偏好风险源",
+      "英文名称": "Algorithmic Bias Risk Source for Sensitive/Controversial Content",
+      "来源": "pushed election fraud claims"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Bard",
+      "来源": "Google Bard admits to being politically bias"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "Political Bias Risk",
+      "来源": "Google Bard admits to being politically bias"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Bard"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Content Generation Capability",
+      "来源": "Google Bard"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播影响",
+      "英文名称": "Misinformation Spread Impact",
+      "来源": "political bias"
+    }
+  }
+}

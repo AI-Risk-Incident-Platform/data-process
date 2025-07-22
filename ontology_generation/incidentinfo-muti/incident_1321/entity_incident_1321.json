@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VisaApplicationAlgorithm",
+      "中文名称": "签证申请算法",
+      "英文名称": "Visa Application Algorithm",
+      "来源": "The Home Office is using algorithms to sort visa applicants"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "Discriminatory Algorithm Risk",
+      "来源": "they have a history of 'discriminatory' failures"
+    },
+    "Stakeholder": {
+      "id": "HomeOffice",
+      "中文名称": "内政部",
+      "英文名称": "Home Office",
+      "来源": "Home Office under fire for using secretive visa algorithm"
+    },
+    "AIOperator": {
+      "id": "HomeOfficeVisaDepartment",
+      "中文名称": "内政部签证部门",
+      "英文名称": "Home Office Visa Department",
+      "来源": "The Home Office is using algorithms to sort visa applicants"
+    },
+    "AISubject": {
+      "id": "VisaApplicants",
+      "中文名称": "签证申请人",
+      "英文名称": "Visa Applicants",
+      "来源": "The Home Office is using algorithms to sort visa applicants"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果",
+      "英文名称": "Discriminatory Outcomes",
+      "来源": "they have a history of 'discriminatory' failures"
+    },
+    "Domain": {
+      "id": "ImmigrationSystem",
+      "中文名称": "移民系统",
+      "英文名称": "Immigration System",
+      "来源": "The Home Office is using algorithms to sort visa applicants"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmTransparency",
+      "中文名称": "算法缺乏透明度",
+      "英文名称": "Lack of Algorithm Transparency",
+      "来源": "Home Office under fire for using secretive visa algorithm"
+    }
+  }
+}

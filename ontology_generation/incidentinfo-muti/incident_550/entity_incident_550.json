@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIChatbot",
+      "中文名称": "OpenAI聊天机器人",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Lawsuit says OpenAI violated US authors' copyrights to train AI chatbot"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Authors file a lawsuit against OpenAI for unlawfully ‘ingesting’ their books"
+    },
+    "Stakeholder": {
+      "id": "USAuthors",
+      "中文名称": "美国作者",
+      "英文名称": "US Authors",
+      "来源": "Lawsuit says OpenAI violated US authors' copyrights"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "Authors file a lawsuit against OpenAI for unlawfully ‘ingesting’ their books"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "Authors file a lawsuit against OpenAI"
+    },
+    "Purpose": {
+      "id": "AITrainingPurpose",
+      "中文名称": "AI训练目的",
+      "英文名称": "AI Training Purpose",
+      "来源": "Lawsuit says OpenAI violated US authors' copyrights to train AI chatbot"
+    },
+    "RiskSource": {
+      "id": "UnlawfulDataIngestion",
+      "中文名称": "非法数据摄取",
+      "英文名称": "Unlawful Data Ingestion",
+      "来源": "Authors file a lawsuit against OpenAI for unlawfully ‘ingesting’ their books"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberFacialRecognitionSystem",
+      "中文名称": "Uber面部识别系统",
+      "英文名称": "Uber Face Recognition",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Risk": {
+      "id": "DriverAccountLockoutRisk",
+      "中文名称": "司机账户锁定风险",
+      "英文名称": "Driver Account Lockout Risk",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Consequence": {
+      "id": "DriverAccountAccessDenial",
+      "中文名称": "司机账户访问被拒后果",
+      "英文名称": "Driver Account Access Denial Consequence",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "AISubject": {
+      "id": "IndianDrivers",
+      "中文名称": "印度司机",
+      "英文名称": "Indian Drivers",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Stakeholder": {
+      "id": "UberCompany",
+      "中文名称": "Uber公司",
+      "英文名称": "Uber Company",
+      "来源": "Uber denies the issue with their facial recognition system"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionSystemFailure",
+      "中文名称": "面部识别系统故障风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Hyderabad driver says Uber app locked him out after shaving head"
+    },
+    "Impact": {
+      "id": "DriverIncomeLoss",
+      "中文名称": "司机收入损失影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Locked out drivers cannot access their accounts to work"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberFacialRecognitionSystem",
+      "中文名称": "Uber面部识别系统",
+      "英文名称": "Uber Face Recognition",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Risk": {
+      "id": "DriverAccountLockoutRisk",
+      "中文名称": "司机账户锁定风险",
+      "英文名称": "Driver Account Lockout Risk",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Consequence": {
+      "id": "DriverAccountAccessDenial",
+      "中文名称": "司机账户访问被拒后果",
+      "英文名称": "Driver Account Access Denial Consequence",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "AISubject": {
+      "id": "IndianDrivers",
+      "中文名称": "印度司机",
+      "英文名称": "Indian Drivers",
+      "来源": "Uber’s facial recognition is locking Indian drivers out of their accounts"
+    },
+    "Stakeholder": {
+      "id": "UberCompany",
+      "中文名称": "Uber公司",
+      "英文名称": "Uber Company",
+      "来源": "Uber denies the issue with their facial recognition system"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionSystemFailure",
+      "中文名称": "面部识别系统故障风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Hyderabad driver says Uber app locked him out after shaving head"
+    },
+    "Impact": {
+      "id": "DriverIncomeLoss",
+      "中文名称": "司机收入损失影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Locked out drivers cannot access their accounts to work"
+    }
+  }
+}

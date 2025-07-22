@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Facial Recognition System"@en ;
+    rdfs:label "Facebook面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:AutomaticFaceTagging ;
+    airo:hasStakeholder ex:FacebookUsers ;
+    airo:isDeployedBy ex:MetaPlatformsInc ;
+    airo:hasPurpose ex:PhotoTaggingConvenience ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:DeepLearningBasedFacialRecognition .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:FinancialPenalty ;
+    airo:isRiskSourceFor ex:AutomaticFacialDataCollection .
+
+ex:FinancialPenalty rdf:type airo:Consequence ;
+    rdfs:label "Financial Penalty Consequence"@en ;
+    rdfs:label "经济处罚后果"@zh ;
+    airo:hasImpact ex:UserPrivacyConcerns .
+
+ex:AutomaticFaceTagging rdf:type airo:AICapability ;
+    rdfs:label "Automatic Face Tagging Capability"@en ;
+    rdfs:label "自动面部标记能力"@zh .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:UserPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "User Privacy Concerns Impact"@en ;
+    rdfs:label "用户隐私担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:PhotoTaggingConvenience rdf:type airo:Purpose ;
+    rdfs:label "Photo Tagging Convenience Purpose"@en ;
+    rdfs:label "照片标记便利性的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:DeepLearningBasedFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Facial Recognition Technique"@en ;
+    rdfs:label "基于深度学习的面部识别技术"@zh .
+
+ex:AutomaticFacialDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Automatic Facial Data Collection Risk Source"@en ;
+    rdfs:label "自动面部数据收集的风险源"@zh .

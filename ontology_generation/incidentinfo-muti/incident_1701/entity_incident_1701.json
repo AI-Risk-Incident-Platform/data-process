@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Canadian Tire stores violated privacy laws with facial recognition technology"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Canadian provincial privacy commissioner chides major retailer for biometrics deployment"
+    },
+    "Consequence": {
+      "id": "LegalNonCompliance",
+      "中文名称": "法律不合规后果",
+      "英文名称": "Legal Non-Compliance Consequence",
+      "来源": "Canadian Tire stores in B.C. broke privacy laws on facial ID technology"
+    },
+    "AIOperator": {
+      "id": "CanadianTire",
+      "中文名称": "加拿大轮胎公司",
+      "英文名称": "Canadian Tire",
+      "来源": "Report finds Canadian Tire stores violated privacy laws"
+    },
+    "Stakeholder": {
+      "id": "PrivacyCommissioner",
+      "中文名称": "隐私专员",
+      "英文名称": "Privacy Commissioner",
+      "来源": "Canadian provincial privacy commissioner chides major retailer"
+    },
+    "Domain": {
+      "id": "RetailSurveillance",
+      "中文名称": "零售监控领域",
+      "英文名称": "Retail Surveillance Domain",
+      "来源": "major retailer for biometrics deployment"
+    },
+    "RiskSource": {
+      "id": "BiometricsDeployment",
+      "中文名称": "生物识别技术部署风险源",
+      "英文名称": "Biometrics Deployment Risk Source",
+      "来源": "chides major retailer for biometrics deployment"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "privacy commissioner chides major retailer"
+    }
+  }
+}

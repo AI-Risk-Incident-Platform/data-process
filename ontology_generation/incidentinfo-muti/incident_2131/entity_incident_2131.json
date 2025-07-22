@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberPayAlgorithm",
+      "中文名称": "Uber薪酬算法",
+      "英文名称": "Uber Pay Algorithm",
+      "来源": "Uber reportedly used an algorithm to pay new hires less"
+    },
+    "Risk": {
+      "id": "GenderPayGapRisk",
+      "中文名称": "性别薪酬差距风险",
+      "英文名称": "Gender Pay Gap Risk",
+      "来源": "reinforcing a gender pay gap"
+    },
+    "Consequence": {
+      "id": "PayDisparityBetweenGenders",
+      "中文名称": "性别间薪酬差异后果",
+      "英文名称": "Pay Disparity Between Genders Consequence",
+      "来源": "reinforcing a gender pay gap"
+    },
+    "AICapability": {
+      "id": "SalaryDeterminationAlgorithm",
+      "中文名称": "薪资确定算法能力",
+      "英文名称": "Salary Determination Algorithm Capability",
+      "来源": "Uber reportedly used an algorithm to pay new hires less"
+    },
+    "Stakeholder": {
+      "id": "UberNewHires",
+      "中文名称": "Uber新员工",
+      "英文名称": "Uber New Hires",
+      "来源": "pay new hires less"
+    },
+    "Impact": {
+      "id": "EconomicInequalityImpact",
+      "中文名称": "经济不平等影响",
+      "英文名称": "Economic Inequality Impact",
+      "来源": "reinforcing a gender pay gap"
+    },
+    "Domain": {
+      "id": "HumanResourcesManagement",
+      "中文名称": "人力资源管理领域",
+      "英文名称": "Human Resources Management Domain",
+      "来源": "pay new hires less"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "有偏见的算法设计风险源",
+      "英文名称": "Biased Algorithm Design Risk Source",
+      "来源": "Uber reportedly used an algorithm to pay new hires less"
+    }
+  }
+}

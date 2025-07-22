@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepNudeApp",
+      "中文名称": "DeepNude应用",
+      "英文名称": "DeepNude App",
+      "来源": "DeepNude deep-nuked: AI photo app stripped clothes from women to render them naked"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "AI photo app stripped clothes from women to render them naked"
+    },
+    "Consequence": {
+      "id": "NonConsensualImageCreation",
+      "中文名称": "非自愿图像创建后果",
+      "英文名称": "Non-Consensual Image Creation Consequence",
+      "来源": "renders women naked without their consent"
+    },
+    "AITechnique": {
+      "id": "DeepfakeImageGeneration",
+      "中文名称": "深度伪造图像生成技术",
+      "英文名称": "Deepfake Image Generation Technique",
+      "来源": "creates nude images of women in seconds"
+    },
+    "Stakeholder": {
+      "id": "WomenSubjects",
+      "中文名称": "女性主体",
+      "英文名称": "Women Subjects",
+      "来源": "stripped clothes from women"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Psychological Harm Impact",
+      "来源": "creates potential for harassment and blackmail"
+    },
+    "Purpose": {
+      "id": "NonConsensualNudityGeneration",
+      "中文名称": "非自愿裸体生成目的",
+      "英文名称": "Non-Consensual Nudity Generation Purpose",
+      "来源": "app's primary function was to create nude images"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAI",
+      "中文名称": "AI恶意使用风险源",
+      "英文名称": "Malicious Use of AI Risk Source",
+      "来源": "vile AI app used for unethical purposes"
+    },
+    "Domain": {
+      "id": "ImageProcessingApplications",
+      "中文名称": "图像处理应用领域",
+      "英文名称": "Image Processing Applications Domain",
+      "来源": "AI photo app for image manipulation"
+    },
+    "Misuse": {
+      "id": "NonConsensualImageCreationMisuse",
+      "中文名称": "非自愿图像创建滥用",
+      "英文名称": "Non-Consensual Image Creation Misuse",
+      "来源": "used to create nude images without consent"
+    }
+  }
+}

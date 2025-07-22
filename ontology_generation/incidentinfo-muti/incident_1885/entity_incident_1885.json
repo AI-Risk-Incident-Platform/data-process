@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SnapchatChatbot",
+      "中文名称": "Snapchat聊天机器人",
+      "英文名称": "Snapchat Chatbot",
+      "来源": "Snachat chatbot offers inappropriate advice for a minor"
+    },
+    "Risk": {
+      "id": "InappropriateAdviceRisk",
+      "中文名称": "不当建议风险",
+      "英文名称": "Inappropriate Advice Risk",
+      "来源": "Snachat chatbot offers inappropriate advice for a minor"
+    },
+    "Stakeholder": {
+      "id": "Minors",
+      "中文名称": "未成年人",
+      "英文名称": "Minors",
+      "来源": "Snachat chatbot offers inappropriate advice for a minor"
+    },
+    "RiskSource": {
+      "id": "ChatbotContentGeneration",
+      "中文名称": "聊天机器人内容生成",
+      "英文名称": "Chatbot Content Generation",
+      "来源": "Snapchat’s AI could be the creepiest chatbot yet"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害",
+      "英文名称": "Psychological Harm",
+      "来源": "Snachat chatbot offers inappropriate advice for a minor"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ToysRUsAICommercial rdf:type airo:AISystem ;
+    rdfs:label "Toys 'R' Us AI-Generated Commercial"@en ;
+    rdfs:label "玩具反斗城AI生成广告"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIGeneratedContent ;
+    airo:usesTechnique ex:SoraVideoGeneration ;
+    airo:isAppliedWithinDomain ex:RetailAdvertising ;
+    airo:hasStakeholder ex:CriticsOfAIGeneratedContent .
+
+ex:EthicalConcernsInAIGeneratedContent rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI-Generated Content Risk"@en ;
+    rdfs:label "AI生成内容中的伦理担忧风险"@zh .
+
+ex:SoraVideoGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Sora Video Generation Technique"@en ;
+    rdfs:label "Sora视频生成技术"@zh .
+
+ex:CriticsOfAIGeneratedContent rdf:type airo:Stakeholder ;
+    rdfs:label "Critics of AI-Generated Content"@en ;
+    rdfs:label "AI生成内容批评者"@zh .
+
+ex:RetailAdvertising rdf:type airo:Domain ;
+    rdfs:label "Retail Advertising Domain"@en ;
+    rdfs:label "零售广告领域"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LicensePlateReaderSystem",
+      "中文名称": "车牌识别系统",
+      "英文名称": "License Plate Recognition",
+      "来源": "License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Risk": {
+      "id": "RacialBiasInVehicleIdentification",
+      "中文名称": "车辆识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Vehicle Identification Risk",
+      "来源": "Cops Terrorize Black Family but Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "AISubject": {
+      "id": "BlackFamily",
+      "中文名称": "黑人家庭",
+      "英文名称": "Black Family",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "Consequence": {
+      "id": "UnjustPoliceHarassment",
+      "中文名称": "不公正的警察骚扰后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "Impact": {
+      "id": "PsychologicalTrauma",
+      "中文名称": "心理创伤影响",
+      "英文名称": "Trauma Impact",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "RiskSource": {
+      "id": "FaultyAlgorithmicIdentification",
+      "中文名称": "错误的算法识别风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Vulnerability": {
+      "id": "OverrelianceOnAutomatedSystems",
+      "中文名称": "过度依赖自动化系统的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LicensePlateReaderSystem",
+      "中文名称": "车牌识别系统",
+      "英文名称": "License Plate Recognition",
+      "来源": "License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Risk": {
+      "id": "RacialBiasInVehicleIdentification",
+      "中文名称": "车辆识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Vehicle Identification Risk",
+      "来源": "Cops Terrorize Black Family but Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "AISubject": {
+      "id": "BlackFamily",
+      "中文名称": "黑人家庭",
+      "英文名称": "Black Family",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "Consequence": {
+      "id": "UnjustPoliceHarassment",
+      "中文名称": "不公正的警察骚扰后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "Impact": {
+      "id": "PsychologicalTrauma",
+      "中文名称": "心理创伤影响",
+      "英文名称": "Trauma Impact",
+      "来源": "Cops Terrorize Black Family"
+    },
+    "RiskSource": {
+      "id": "FaultyAlgorithmicIdentification",
+      "中文名称": "错误的算法识别风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    },
+    "Vulnerability": {
+      "id": "OverrelianceOnAutomatedSystems",
+      "中文名称": "过度依赖自动化系统的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Blame License Plate Reader for Misidentifying 'Stolen' Vehicle"
+    }
+  }
+}

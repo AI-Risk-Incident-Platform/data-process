@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RisCanvi",
+      "中文名称": "RisCanvi风险评估工具",
+      "英文名称": "RisCanvi Risk Assessment Tool",
+      "来源": "Algorithm used in Catalan prisons has substantial deficiencies, audit finds"
+    },
+    "Risk": {
+      "id": "UnreliableRiskAssessment",
+      "中文名称": "不可靠风险评估风险",
+      "英文名称": "Unreliable Risk Assessment Risk",
+      "来源": "Algorithm used in Catalan prisons has substantial deficiencies"
+    },
+    "Domain": {
+      "id": "CriminalJusticeSystem",
+      "中文名称": "刑事司法系统领域",
+      "英文名称": "Criminal Justice System Domain",
+      "来源": "Algorithm used in Catalan prisons"
+    },
+    "AICapability": {
+      "id": "PrisonerRiskEvaluation",
+      "中文名称": "囚犯风险评估能力",
+      "英文名称": "Prisoner Risk Evaluation Capability",
+      "来源": "Algorithm that evaluates the dangerousness of Catalan prisoners"
+    },
+    "Consequence": {
+      "id": "InaccurateRiskClassification",
+      "中文名称": "不准确风险分类后果",
+      "英文名称": "Inaccurate Risk Classification Consequence",
+      "来源": "functions in a 'random' manner"
+    },
+    "Stakeholder": {
+      "id": "CatalanPrisonAdministration",
+      "中文名称": "加泰罗尼亚监狱管理部门",
+      "英文名称": "Catalan Prison Administration Stakeholder",
+      "来源": "Algorithm used in Catalan prisons"
+    },
+    "AISubject": {
+      "id": "CatalanPrisoners",
+      "中文名称": "加泰罗尼亚囚犯",
+      "英文名称": "Catalan Prisoners Subject",
+      "来源": "evaluates the dangerousness of Catalan prisoners"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicDeficiencies",
+      "中文名称": "算法缺陷风险源",
+      "英文名称": "Algorithmic Deficiencies Risk Source",
+      "来源": "has substantial deficiencies"
+    },
+    "Impact": {
+      "id": "PotentialPublicSafetyThreat",
+      "中文名称": "潜在公共安全威胁影响",
+      "英文名称": "Potential Public Safety Threat Impact",
+      "来源": "evaluates the dangerousness of prisoners"
+    }
+  }
+}

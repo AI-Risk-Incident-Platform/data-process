@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotterSystem",
+      "中文名称": "ShotSpotter枪声定位系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "标题中提到的'shot spotter'技术"
+    },
+    "Risk": {
+      "id": "HumanErrorInGunshotDetection",
+      "中文名称": "枪声检测中人为错误风险",
+      "英文名称": "Human Error in Gunshot Detection Risk",
+      "来源": "标题中'Critics question human equation behind technology'"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agencies",
+      "来源": "标题和案例中涉及警察执法相关内容"
+    },
+    "AISubject": {
+      "id": "ShootingSuspects",
+      "中文名称": "枪击嫌疑人",
+      "英文名称": "Shooting Suspects",
+      "来源": "案例2142中提到的被指控向警察开枪的人"
+    },
+    "Impact": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪影响",
+      "英文名称": "Wrongful Conviction Impact",
+      "来源": "案例2142中'Judge tosses conviction of man accused of shooting at cop'"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "系统应用于枪击事件检测和执法"
+    },
+    "RiskSource": {
+      "id": "TechnologyReliabilityIssues",
+      "中文名称": "技术可靠性问题风险源",
+      "英文名称": "Technology Reliability Issues Risk Source",
+      "来源": "标题中'Is shot spotter reliable enough?'"
+    }
+  }
+}

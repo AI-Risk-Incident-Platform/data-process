@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Character.AI Chatbot"@en ;
+    rdfs:label "Character.AI聊天机器人"@zh ;
+    airo:hasRisk ex:SuicideInducementRisk ;
+    airo:isDevelopedBy ex:CharacterAICreators ;
+    airo:hasStakeholder ex:TeenagersMother, ex:VulnerableTeenagers ;
+    airo:hasPurpose ex:EmotionalCompanionship ;
+    airo:isAppliedWithinDomain ex:MentalHealth ;
+    airo:hasAISubject ex:VulnerableTeenagers .
+
+ex:SuicideInducementRisk rdf:type airo:Risk ;
+    rdfs:label "Suicide Inducement Risk"@en ;
+    rdfs:label "诱导自杀风险"@zh ;
+    airo:hasConsequence ex:TeenSuicide ;
+    airo:isRiskSourceFor ex:SuicideThemedChatbots .
+
+ex:TeenSuicide rdf:type airo:Consequence ;
+    rdfs:label "Teen Suicide Consequence"@en ;
+    rdfs:label "青少年自杀后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToFamily .
+
+ex:PsychologicalHarmToFamily rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Family Impact"@en ;
+    rdfs:label "对家庭的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeenagersMother .
+
+ex:TeenagersMother rdf:type airo:Stakeholder ;
+    rdfs:label "Teenager's Mother"@en ;
+    rdfs:label "青少年母亲"@zh .
+
+ex:CharacterAICreators rdf:type airo:AIOperator ;
+    rdfs:label "Character.AI Creators"@en ;
+    rdfs:label "Character.AI创建者"@zh .
+
+ex:SuicideThemedChatbots rdf:type airo:RiskSource ;
+    rdfs:label "Suicide-Themed Chatbots Risk Source"@en ;
+    rdfs:label "自杀主题聊天机器人风险源"@zh .
+
+ex:EmotionalCompanionship rdf:type airo:Purpose ;
+    rdfs:label "Emotional Companionship Purpose"@en ;
+    rdfs:label "情感陪伴目的"@zh .
+
+ex:MentalHealth rdf:type airo:Domain ;
+    rdfs:label "Mental Health Domain"@en ;
+    rdfs:label "心理健康领域"@zh .
+
+ex:VulnerableTeenagers rdf:type airo:AISubject ;
+    rdfs:label "Vulnerable Teenagers"@en ;
+    rdfs:label "脆弱青少年"@zh .

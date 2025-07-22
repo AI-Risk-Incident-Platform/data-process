@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AllstateAutoInsuranceAlgorithm",
+      "中文名称": "Allstate汽车保险算法",
+      "英文名称": "Allstate Auto Insurance Algorithm",
+      "来源": "Allstate's Secret Auto Insurance Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairPricingRisk",
+      "中文名称": "不公平定价风险",
+      "英文名称": "Unfair Pricing Risk",
+      "来源": "How Allstate's Secret Auto Insurance Algorithm Squeezes Big Spenders"
+    },
+    "Stakeholder": {
+      "id": "AutoInsuranceCustomers",
+      "中文名称": "汽车保险客户",
+      "英文名称": "Auto Insurance Customers",
+      "来源": "Squeezes Big Spenders"
+    },
+    "AIOperator": {
+      "id": "AllstateCorporation",
+      "中文名称": "Allstate公司",
+      "英文名称": "Allstate Corporation",
+      "来源": "Allstate's Secret Auto Insurance Algorithm"
+    },
+    "Domain": {
+      "id": "AutoInsuranceIndustry",
+      "中文名称": "汽车保险行业",
+      "英文名称": "Auto Insurance Industry",
+      "来源": "Allstate's Secret Auto Insurance Algorithm"
+    },
+    "Consequence": {
+      "id": "HigherInsurancePremiums",
+      "中文名称": "更高保险费后果",
+      "英文名称": "Higher Insurance Premiums Consequence",
+      "来源": "Squeezes Big Spenders"
+    },
+    "Impact": {
+      "id": "FinancialBurdenOnCustomers",
+      "中文名称": "客户财务负担影响",
+      "英文名称": "Financial Burden on Customers Impact",
+      "来源": "Squeezes Big Spenders"
+    }
+  }
+}

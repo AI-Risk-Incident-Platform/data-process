@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "QuoraAI",
+      "中文名称": "Quora的AI系统",
+      "英文名称": "Quora AI System",
+      "来源": "Quora’s AI says “yes,” and Google is sharing the result"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "错误信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Can you melt eggs? Quora’s AI says “yes,”"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众错误信息后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "Google is sharing the result"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google is sharing the result"
+    },
+    "AIOperator": {
+      "id": "Quora",
+      "中文名称": "Quora",
+      "英文名称": "Quora",
+      "来源": "Quora’s AI says “yes,”"
+    }
+  }
+}

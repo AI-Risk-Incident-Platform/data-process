@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HireVueFacialAnalysisSystem",
+      "中文名称": "HireVue面部分析系统",
+      "英文名称": "HireVue Facial Analysis System",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Risk": {
+      "id": "FacialExpressionAnalysisBiasRisk",
+      "中文名称": "面部表情分析偏见风险",
+      "英文名称": "Facial Expression Bias Risk",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "AITechnique": {
+      "id": "FacialExpressionRecognition",
+      "中文名称": "面部表情识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "AIOperator": {
+      "id": "HireVue",
+      "中文名称": "HireVue公司",
+      "英文名称": "HireVue",
+      "来源": "HireVue drops facial monitoring amid A.I. algorithm audit"
+    },
+    "RiskSource": {
+      "id": "OverblownClaimsAboutEmotionAI",
+      "中文名称": "关于情感AI的夸大宣传",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryHiringPractices",
+      "中文名称": "歧视性招聘行为后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Impact": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Purpose": {
+      "id": "AutomatedCandidateScreening",
+      "中文名称": "自动化候选人筛选目的",
+      "英文名称": "Automated HR Screening Purpose",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HireVueFacialAnalysisSystem",
+      "中文名称": "HireVue面部分析系统",
+      "英文名称": "HireVue Facial Analysis System",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Risk": {
+      "id": "FacialExpressionAnalysisBiasRisk",
+      "中文名称": "面部表情分析偏见风险",
+      "英文名称": "Facial Expression Bias Risk",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "AITechnique": {
+      "id": "FacialExpressionRecognition",
+      "中文名称": "面部表情识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "AIOperator": {
+      "id": "HireVue",
+      "中文名称": "HireVue公司",
+      "英文名称": "HireVue",
+      "来源": "HireVue drops facial monitoring amid A.I. algorithm audit"
+    },
+    "RiskSource": {
+      "id": "OverblownClaimsAboutEmotionAI",
+      "中文名称": "关于情感AI的夸大宣传",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryHiringPractices",
+      "中文名称": "歧视性招聘行为后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Impact": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Emotion AI researchers say overblown claims give their work a bad name"
+    },
+    "Purpose": {
+      "id": "AutomatedCandidateScreening",
+      "中文名称": "自动化候选人筛选目的",
+      "英文名称": "Automated HR Screening Purpose",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "AI Is Now Analyzing Candidates' Facial Expressions During Video Job Interviews"
+    }
+  }
+}

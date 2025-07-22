@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIClosingArgumentDraftingSystem",
+      "中文名称": "AI结案陈词起草系统",
+      "英文名称": "AI Legal Doc Generation",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Risk": {
+      "id": "IneffectiveLegalDefenseRisk",
+      "中文名称": "无效法律辩护风险",
+      "英文名称": "Ineffective Legal Defense Risk",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    },
+    "Stakeholder": {
+      "id": "DefendantPrasMichel",
+      "中文名称": "被告Pras Michel",
+      "英文名称": "Defendant Pras Michel",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "AIOperator": {
+      "id": "DefenseAttorney",
+      "中文名称": "辩护律师",
+      "英文名称": "Defense Attorney",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Consequence": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "Impact": {
+      "id": "LossOfFreedom",
+      "中文名称": "丧失自由的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    },
+    "Purpose": {
+      "id": "LegalDefenseSupport",
+      "中文名称": "法律辩护支持的目的",
+      "英文名称": "Legal Defense Support Purpose",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Domain": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "Misuse": {
+      "id": "OverrelianceOnAIForCriticalLegalTasks",
+      "中文名称": "关键法律任务过度依赖AI的滥用",
+      "英文名称": "Overreliance on AI for Critical Legal Tasks Misuse",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIClosingArgumentDraftingSystem",
+      "中文名称": "AI结案陈词起草系统",
+      "英文名称": "AI Legal Doc Generation",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Risk": {
+      "id": "IneffectiveLegalDefenseRisk",
+      "中文名称": "无效法律辩护风险",
+      "英文名称": "Ineffective Legal Defense Risk",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    },
+    "Stakeholder": {
+      "id": "DefendantPrasMichel",
+      "中文名称": "被告Pras Michel",
+      "英文名称": "Defendant Pras Michel",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "AIOperator": {
+      "id": "DefenseAttorney",
+      "中文名称": "辩护律师",
+      "英文名称": "Defense Attorney",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Consequence": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "Impact": {
+      "id": "LossOfFreedom",
+      "中文名称": "丧失自由的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    },
+    "Purpose": {
+      "id": "LegalDefenseSupport",
+      "中文名称": "法律辩护支持的目的",
+      "英文名称": "Legal Defense Support Purpose",
+      "来源": "Convicted Fugees rapper Pras Michel's lawyer used AI to draft bungled closing argument"
+    },
+    "Domain": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Fugees rapper blames conviction on his lawyer's AI-fueled closing argument"
+    },
+    "Misuse": {
+      "id": "OverrelianceOnAIForCriticalLegalTasks",
+      "中文名称": "关键法律任务过度依赖AI的滥用",
+      "英文名称": "Overreliance on AI for Critical Legal Tasks Misuse",
+      "来源": "Convicted Fugees rapper says ex-lawyer bungled defense with AI closing argument"
+    }
+  }
+}

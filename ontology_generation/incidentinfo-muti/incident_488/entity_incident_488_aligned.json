@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWriter",
+      "中文名称": "AI作家",
+      "英文名称": "AI Content Generator",
+      "来源": "Sci-fi becomes real as renowned magazine closes submissions due to AI writers"
+    },
+    "Risk": {
+      "id": "FloodOfAIWrittenContent",
+      "中文名称": "AI生成内容泛滥风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Sci-fi becomes real as renowned magazine closes submissions due to AI writers"
+    },
+    "Stakeholder": {
+      "id": "ScienceFictionMagazine",
+      "中文名称": "科幻杂志",
+      "英文名称": "Science Fiction Magazine",
+      "来源": "renowned magazine closes submissions due to AI writers"
+    },
+    "Consequence": {
+      "id": "SubmissionClosure",
+      "中文名称": "投稿关闭后果",
+      "英文名称": "Submission Closure Consequence",
+      "来源": "magazine closes submissions due to AI writers"
+    },
+    "Impact": {
+      "id": "ReducedHumanCreativityOpportunities",
+      "中文名称": "人类创作机会减少的影响",
+      "英文名称": "Negative Creativity Impact",
+      "来源": "magazine closes submissions due to AI writers"
+    },
+    "Purpose": {
+      "id": "AutomatedContentCreation",
+      "中文名称": "自动化内容创作的目的",
+      "英文名称": "Content Generation",
+      "来源": "due to AI writers"
+    },
+    "Domain": {
+      "id": "PublishingIndustry",
+      "中文名称": "出版业领域",
+      "英文名称": "Media and Publishing",
+      "来源": "renowned magazine"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIWriter",
+      "中文名称": "AI作家",
+      "英文名称": "AI Content Generator",
+      "来源": "Sci-fi becomes real as renowned magazine closes submissions due to AI writers"
+    },
+    "Risk": {
+      "id": "FloodOfAIWrittenContent",
+      "中文名称": "AI生成内容泛滥风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Sci-fi becomes real as renowned magazine closes submissions due to AI writers"
+    },
+    "Stakeholder": {
+      "id": "ScienceFictionMagazine",
+      "中文名称": "科幻杂志",
+      "英文名称": "Science Fiction Magazine",
+      "来源": "renowned magazine closes submissions due to AI writers"
+    },
+    "Consequence": {
+      "id": "SubmissionClosure",
+      "中文名称": "投稿关闭后果",
+      "英文名称": "Submission Closure Consequence",
+      "来源": "magazine closes submissions due to AI writers"
+    },
+    "Impact": {
+      "id": "ReducedHumanCreativityOpportunities",
+      "中文名称": "人类创作机会减少的影响",
+      "英文名称": "Negative Creativity Impact",
+      "来源": "magazine closes submissions due to AI writers"
+    },
+    "Purpose": {
+      "id": "AutomatedContentCreation",
+      "中文名称": "自动化内容创作的目的",
+      "英文名称": "Content Generation",
+      "来源": "due to AI writers"
+    },
+    "Domain": {
+      "id": "PublishingIndustry",
+      "中文名称": "出版业领域",
+      "英文名称": "Media and Publishing",
+      "来源": "renowned magazine"
+    }
+  }
+}

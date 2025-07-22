@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WikipediaEditingBots rdf:type airo:AISystem ;
+    rdfs:label "维基百科编辑机器人"@zh ;
+    rdfs:label "Wikipedia Editing Bots"@en ;
+    airo:hasRisk ex:BotOnBotEditingWarsRisk ;
+    airo:hasCapability ex:AutomatedContentEditing ;
+    airo:hasPurpose ex:ContentMaintenance ;
+    airo:isAppliedWithinDomain ex:OnlineEncyclopedia ;
+    airo:usesTechnique ex:RuleBasedEditingAlgorithms ;
+    airo:hasStakeholder ex:WikipediaCommunity .
+
+ex:BotOnBotEditingWarsRisk rdf:type airo:Risk ;
+    rdfs:label "机器人间编辑战争风险"@zh ;
+    rdfs:label "Bot-on-Bot Editing Wars Risk"@en ;
+    airo:hasConsequence ex:InformationInconsistency ;
+    airo:isRiskSourceFor ex:ConflictingEditingRules .
+
+ex:InformationInconsistency rdf:type airo:Consequence ;
+    rdfs:label "信息不一致后果"@zh ;
+    rdfs:label "Information Inconsistency Consequence"@en ;
+    airo:hasImpact ex:KnowledgeBaseDegradation .
+
+ex:AutomatedContentEditing rdf:type airo:AICapability ;
+    rdfs:label "自动化内容编辑能力"@zh ;
+    rdfs:label "Automated Content Editing Capability"@en .
+
+ex:WikipediaCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "维基百科社区"@zh ;
+    rdfs:label "Wikipedia Community"@en .
+
+ex:KnowledgeBaseDegradation rdf:type airo:Impact ;
+    rdfs:label "知识库质量下降影响"@zh ;
+    rdfs:label "Knowledge Base Degradation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:WikipediaCommunity .
+
+ex:ContentMaintenance rdf:type airo:Purpose ;
+    rdfs:label "内容维护目的"@zh ;
+    rdfs:label "Content Maintenance Purpose"@en .
+
+ex:OnlineEncyclopedia rdf:type airo:Domain ;
+    rdfs:label "在线百科全书领域"@zh ;
+    rdfs:label "Online Encyclopedia Domain"@en .
+
+ex:RuleBasedEditingAlgorithms rdf:type airo:AITechnique ;
+    rdfs:label "基于规则的编辑算法技术"@zh ;
+    rdfs:label "Rule-Based Editing Algorithms Technique"@en .
+
+ex:ConflictingEditingRules rdf:type airo:RiskSource ;
+    rdfs:label "冲突的编辑规则风险源"@zh ;
+    rdfs:label "Conflicting Editing Rules Risk Source"@en .

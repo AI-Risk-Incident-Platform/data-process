@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NYCTeacherEvaluationSystem rdf:type airo:AISystem ;
+    rdfs:label "NYC Teacher Evaluation System"@en ;
+    rdfs:label "纽约市教师评估系统"@zh ;
+    airo:hasRisk ex:UnfairTeacherEvaluationRisk ;
+    airo:hasAICapability ex:StudentTestScoreAnalysis ;
+    airo:hasPurpose ex:TeacherPerformanceAssessment ;
+    airo:isAppliedWithinDomain ex:EducationEvaluation ;
+    airo:hasStakeholder ex:NYCTeachers .
+
+ex:UnfairTeacherEvaluationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Teacher Evaluation Risk"@en ;
+    rdfs:label "教师评估不公风险"@zh ;
+    airo:hasConsequence ex:TeacherCareerImpact ;
+    airo:isRiskSourceFor ex:IndirectTestScoreUsage .
+
+ex:TeacherCareerImpact rdf:type airo:Consequence ;
+    rdfs:label "Teacher Career Impact Consequence"@en ;
+    rdfs:label "教师职业影响后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationDamage .
+
+ex:StudentTestScoreAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Student Test Score Analysis Capability"@en ;
+    rdfs:label "学生考试成绩分析能力"@zh .
+
+ex:NYCTeachers rdf:type airo:Stakeholder ;
+    rdfs:label "NYC Teachers"@en ;
+    rdfs:label "纽约市教师"@zh .
+
+ex:ProfessionalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Damage Impact"@en ;
+    rdfs:label "职业声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NYCTeachers .
+
+ex:TeacherPerformanceAssessment rdf:type airo:Purpose ;
+    rdfs:label "Teacher Performance Assessment Purpose"@en ;
+    rdfs:label "教师绩效评估目的"@zh .
+
+ex:EducationEvaluation rdf:type airo:Domain ;
+    rdfs:label "Education Evaluation Domain"@en ;
+    rdfs:label "教育评估领域"@zh .
+
+ex:IndirectTestScoreUsage rdf:type airo:RiskSource ;
+    rdfs:label "Indirect Test Score Usage Risk Source"@en ;
+    rdfs:label "间接使用考试成绩风险源"@zh .

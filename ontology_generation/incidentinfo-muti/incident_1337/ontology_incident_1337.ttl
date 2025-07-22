@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokAI rdf:type airo:AISystem ;
+    rdfs:label "Grok AI"@en ;
+    rdfs:label "Grok AI"@zh ;
+    airo:hasRisk ex:DataPrivacyRisk ;
+    airo:hasStakeholder ex:Regulators ;
+    airo:isDeployedBy ex:ElonMusksX .
+
+ex:DataPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Data Privacy Risk"@en ;
+    rdfs:label "数据隐私风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:DataHarvesting .
+
+ex:Regulators rdf:type airo:Stakeholder ;
+    rdfs:label "Regulators"@en ;
+    rdfs:label "监管机构"@zh .
+
+ex:ElonMusksX rdf:type airo:AIOperator ;
+    rdfs:label "Elon Musk's X"@en ;
+    rdfs:label "埃隆·马斯克的X公司"@zh .
+
+ex:DataHarvesting rdf:type airo:RiskSource ;
+    rdfs:label "Data Harvesting"@en ;
+    rdfs:label "数据收集"@zh .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh .

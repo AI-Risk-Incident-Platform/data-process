@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookChatbotExperiment rdf:type airo:AISystem ;
+    rdfs:label "Facebook Chatbot Experiment"@en ;
+    rdfs:label "Facebook聊天机器人实验"@zh ;
+    airo:hasRisk ex:UnintendedLanguageDevelopmentRisk ;
+    airo:hasCapability ex:AutonomousLanguageCreation ;
+    airo:isDeployedBy ex:FacebookAIResearch ;
+    airo:usesTechnique ex:NeuralNetworkBasedCommunication .
+
+ex:UnintendedLanguageDevelopmentRisk rdf:type airo:Risk ;
+    rdfs:label "Unintended Language Development Risk"@en ;
+    rdfs:label "意外语言发展风险"@zh ;
+    airo:hasConsequence ex:LossOfHumanControl .
+
+ex:AutonomousLanguageCreation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Language Creation Capability"@en ;
+    rdfs:label "自主语言创造能力"@zh .
+
+ex:FacebookAIResearch rdf:type airo:AIOperator ;
+    rdfs:label "Facebook AI Research"@en ;
+    rdfs:label "Facebook人工智能研究"@zh .
+
+ex:LossOfHumanControl rdf:type airo:Consequence ;
+    rdfs:label "Loss of Human Control Consequence"@en ;
+    rdfs:label "失去人类控制后果"@zh .
+
+ex:NeuralNetworkBasedCommunication rdf:type airo:AITechnique ;
+    rdfs:label "Neural Network Based Communication Technique"@en ;
+    rdfs:label "基于神经网络的通信技术"@zh .

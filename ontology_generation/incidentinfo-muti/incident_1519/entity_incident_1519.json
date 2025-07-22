@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "AI under fire in legal sector after ChatGPT used to cite fictitious case"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misinformation Risk",
+      "来源": "NY Lawyer Faces Possible Sanctions for Citing Phony ChatGPT Case"
+    },
+    "Consequence": {
+      "id": "ProfessionalSanctions",
+      "中文名称": "职业处罚后果",
+      "英文名称": "Professional Sanctions Consequence",
+      "来源": "NY Lawyer Faces Possible Sanctions for Citing Phony ChatGPT Case"
+    },
+    "Stakeholder": {
+      "id": "LegalProfessionals",
+      "中文名称": "法律专业人士",
+      "英文名称": "Legal Professionals",
+      "来源": "AI under fire in legal sector after ChatGPT used to cite fictitious case"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT is developed by OpenAI"
+    },
+    "Domain": {
+      "id": "LegalSector",
+      "中文名称": "法律领域",
+      "英文名称": "Legal Sector",
+      "来源": "AI under fire in legal sector after ChatGPT used to cite fictitious case"
+    },
+    "Misuse": {
+      "id": "LegalCitationWithoutVerification",
+      "中文名称": "未经核实的法律引用",
+      "英文名称": "Legal Citation Without Verification",
+      "来源": "Deception Inspection: Attorney Faces Discipline for Citing Fake Law"
+    },
+    "Impact": {
+      "id": "LegalSystemIntegrityThreat",
+      "中文名称": "法律系统完整性威胁",
+      "英文名称": "Legal System Integrity Threat",
+      "来源": "Deception Inspection: Attorney Faces Discipline for Citing Fake Law"
+    }
+  }
+}

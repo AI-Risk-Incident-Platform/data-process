@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WhisperSpeechToTextAI rdf:type airo:AISystem ;
+    rdfs:label "Whisper语音转文本AI"@zh ;
+    rdfs:label "Whisper Speech-To-Text AI"@en ;
+    airo:hasRisk ex:ViolentLanguageHallucinationRisk ;
+    airo:hasCapability ex:SpeechRecognition ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:usesTechnique ex:NeuralNetworkBasedSpeechRecognition .
+
+ex:ViolentLanguageHallucinationRisk rdf:type airo:Risk ;
+    rdfs:label "暴力语言幻觉风险"@zh ;
+    rdfs:label "Violent Language Hallucination Risk"@en ;
+    airo:hasConsequence ex:InaccurateTranscription ;
+    airo:isRiskSourceFor ex:ModelHallucination .
+
+ex:InaccurateTranscription rdf:type airo:Consequence ;
+    rdfs:label "不准确转录后果"@zh ;
+    rdfs:label "Inaccurate Transcription Consequence"@en ;
+    airo:hasImpact ex:MisinformationSpread .
+
+ex:SpeechRecognition rdf:type airo:AICapability ;
+    rdfs:label "语音识别能力"@zh ;
+    rdfs:label "Speech Recognition Capability"@en .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@zh ;
+    rdfs:label "OpenAI"@en .
+
+ex:ModelHallucination rdf:type airo:RiskSource ;
+    rdfs:label "模型幻觉风险源"@zh ;
+    rdfs:label "Model Hallucination Risk Source"@en .
+
+ex:MisinformationSpread rdf:type airo:Impact ;
+    rdfs:label "错误信息传播影响"@zh ;
+    rdfs:label "Misinformation Spread Impact"@en .
+
+ex:NeuralNetworkBasedSpeechRecognition rdf:type airo:AITechnique ;
+    rdfs:label "基于神经网络的语音识别技术"@zh ;
+    rdfs:label "Neural Network Based Speech Recognition Technique"@en .

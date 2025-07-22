@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI chatbots are intruding into online communities where people are trying to connect with other humans"
+    },
+    "Risk": {
+      "id": "HumanConnectionDisruptionRisk",
+      "中文名称": "人类社交连接中断风险",
+      "英文名称": "Human Connection Disruption Risk",
+      "来源": "AI chatbots are intruding into online communities where people are trying to connect with other humans"
+    },
+    "Impact": {
+      "id": "ReducedAuthenticHumanInteraction",
+      "中文名称": "真实人类互动减少的影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "intruding into online communities where people are trying to connect with other humans"
+    },
+    "Stakeholder": {
+      "id": "OnlineCommunityMembers",
+      "中文名称": "在线社区成员",
+      "英文名称": "Online Users",
+      "来源": "people are trying to connect with other humans"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI chatbots are intruding into online communities where people are trying to connect with other humans"
+    },
+    "Risk": {
+      "id": "HumanConnectionDisruptionRisk",
+      "中文名称": "人类社交连接中断风险",
+      "英文名称": "Human Connection Disruption Risk",
+      "来源": "AI chatbots are intruding into online communities where people are trying to connect with other humans"
+    },
+    "Impact": {
+      "id": "ReducedAuthenticHumanInteraction",
+      "中文名称": "真实人类互动减少的影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "intruding into online communities where people are trying to connect with other humans"
+    },
+    "Stakeholder": {
+      "id": "OnlineCommunityMembers",
+      "中文名称": "在线社区成员",
+      "英文名称": "Online Users",
+      "来源": "people are trying to connect with other humans"
+    }
+  }
+}

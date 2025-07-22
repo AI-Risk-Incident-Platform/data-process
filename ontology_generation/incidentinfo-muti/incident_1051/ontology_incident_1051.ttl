@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KatyPerryAIMetGalaImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "Katy Perry AI Met Gala Image Generator"@en ;
+    rdfs:label "凯蒂·佩里AI Met Gala图像生成器"@zh ;
+    airo:hasRisk ex:MisleadingDeepfakeContentRisk ;
+    airo:hasCapability ex:HyperRealisticImageGeneration ;
+    airo:hasPurpose ex:EntertainmentContentCreation ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry .
+
+ex:MisleadingDeepfakeContentRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Deepfake Content Risk"@en ;
+    rdfs:label "误导性深度伪造内容风险"@zh ;
+    airo:hasImpact ex:PublicDeception .
+
+ex:HyperRealisticImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Hyper-Realistic Image Generation Capability"@en ;
+    rdfs:label "超现实图像生成能力"@zh .
+
+ex:PublicDeception rdf:type airo:Impact ;
+    rdfs:label "Public Deception Impact"@en ;
+    rdfs:label "公众欺骗影响"@zh .
+
+ex:EntertainmentContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Content Creation Purpose"@en ;
+    rdfs:label "娱乐内容创作目的"@zh .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .

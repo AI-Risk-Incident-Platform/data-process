@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DriverlessTaxi",
+      "中文名称": "无人驾驶出租车",
+      "英文名称": "Driverless Taxi",
+      "来源": "Driverless Taxis Blocked Ambulance in Fatal Accident, San Francisco Fire Dept. Says"
+    },
+    "Risk": {
+      "id": "EmergencyVehicleBlockageRisk",
+      "中文名称": "紧急车辆受阻风险",
+      "英文名称": "Emergency Vehicle Blockage Risk",
+      "来源": "Driverless Taxis Blocked Ambulance in Fatal Accident"
+    },
+    "Consequence": {
+      "id": "DelayedEmergencyResponse",
+      "中文名称": "紧急响应延迟后果",
+      "英文名称": "Delayed Emergency Response Consequence",
+      "来源": "Blocked Ambulance in Fatal Accident"
+    },
+    "Impact": {
+      "id": "PotentialLossOfLife",
+      "中文名称": "潜在生命损失影响",
+      "英文名称": "Potential Loss of Life Impact",
+      "来源": "Fatal Accident"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoFireDepartment",
+      "中文名称": "旧金山消防部门",
+      "英文名称": "San Francisco Fire Department",
+      "来源": "San Francisco Fire Dept. Says"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "Driverless Taxis in San Francisco"
+    }
+  }
+}

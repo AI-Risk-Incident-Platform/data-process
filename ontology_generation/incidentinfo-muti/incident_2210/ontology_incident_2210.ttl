@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PoliticalManipulationRisk ;
+    airo:hasAISubject ex:PublicFigures ;
+    airo:hasPurpose ex:PoliticalPropaganda ;
+    airo:isAppliedWithinDomain ex:MediaAndPolitics ;
+    airo:usesTechnique ex:DeepLearningForImageSynthesis ;
+    airo:hasStakeholder ex:RussianStateMedia .
+
+ex:PoliticalManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Manipulation Risk"@en ;
+    rdfs:label "政治操纵风险"@zh ;
+    airo:hasImpact ex:PublicOpinionManipulation .
+
+ex:RussianStateMedia rdf:type airo:Stakeholder ;
+    rdfs:label "Russian State Media"@en ;
+    rdfs:label "俄罗斯国有媒体"@zh .
+
+ex:PublicFigures rdf:type airo:AISubject ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "公众舆论操纵的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RussianStateMedia .
+
+ex:PoliticalPropaganda rdf:type airo:Purpose ;
+    rdfs:label "Political Propaganda Purpose"@en ;
+    rdfs:label "政治宣传的目的"@zh .
+
+ex:MediaAndPolitics rdf:type airo:Domain ;
+    rdfs:label "Media and Politics Domain"@en ;
+    rdfs:label "媒体与政治领域"@zh .
+
+ex:DeepLearningForImageSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning for Image Synthesis Technique"@en ;
+    rdfs:label "用于图像合成的深度学习技术"@zh .

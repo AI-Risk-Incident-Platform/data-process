@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SocialMediaContentModerationAI rdf:type airo:AISystem ;
+    rdfs:label "社交媒体内容审核AI"@zh ;
+    rdfs:label "Social Media Content Moderation AI"@en ;
+    airo:hasRisk ex:EvidenceRemovalRisk ;
+    airo:hasPurpose ex:ContentModeration ;
+    airo:hasStakeholder ex:SocialMediaPlatforms .
+
+ex:EvidenceRemovalRisk rdf:type airo:Risk ;
+    rdfs:label "证据删除风险"@zh ;
+    rdfs:label "Evidence Removal Risk"@en ;
+    airo:hasConsequence ex:LossOfWarCrimesEvidence ;
+    airo:isRiskSourceFor ex:AutomatedContentRemoval .
+
+ex:LossOfWarCrimesEvidence rdf:type airo:Consequence ;
+    rdfs:label "战争罪证据丢失后果"@zh ;
+    rdfs:label "Loss of War Crimes Evidence Consequence"@en ;
+    airo:hasImpact ex:ImpedimentToJustice .
+
+ex:SocialMediaPlatforms rdf:type airo:Stakeholder ;
+    rdfs:label "社交媒体平台"@zh ;
+    rdfs:label "Social Media Platforms"@en ;
+    airo:hasImpactOnStakeholder ex:ImpedimentToJustice .
+
+ex:ImpedimentToJustice rdf:type airo:Impact ;
+    rdfs:label "阻碍司法公正影响"@zh ;
+    rdfs:label "Impediment to Justice Impact"@en .
+
+ex:ContentModeration rdf:type airo:Purpose ;
+    rdfs:label "内容审核目的"@zh ;
+    rdfs:label "Content Moderation Purpose"@en .
+
+ex:AutomatedContentRemoval rdf:type airo:RiskSource ;
+    rdfs:label "自动内容删除风险源"@zh ;
+    rdfs:label "Automated Content Removal Risk Source"@en .

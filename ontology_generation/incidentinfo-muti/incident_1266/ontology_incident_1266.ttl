@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Detection System"@en ;
+    rdfs:label "AI检测系统"@zh ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasStakeholder ex:Students .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "False Accusation Risk"@en ;
+    rdfs:label "错误指控风险"@zh ;
+    airo:hasConsequence ex:UnfairAcademicConsequence ;
+    airo:isRiskSourceFor ex:InaccurateDetectionAlgorithm .
+
+ex:UnfairAcademicConsequence rdf:type airo:Consequence ;
+    rdfs:label "Unfair Academic Consequence"@en ;
+    rdfs:label "不公平学术后果"@zh ;
+    airo:hasImpact ex:AcademicReputationDamage .
+
+ex:Students rdf:type airo:Stakeholder ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh ;
+    airo:hasImpactOnStakeholder ex:AcademicReputationDamage .
+
+ex:AcademicReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Academic Reputation Damage"@en ;
+    rdfs:label "学术声誉损害"@zh .
+
+ex:InaccurateDetectionAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Detection Algorithm"@en ;
+    rdfs:label "不准确检测算法"@zh .

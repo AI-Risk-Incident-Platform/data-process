@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftDynamics365",
+      "中文名称": "微软Dynamics 365",
+      "英文名称": "Microsoft Dynamics 365",
+      "来源": "Microsoft Dynamics 365 called out for 'worker surveillance'"
+    },
+    "Risk": {
+      "id": "WorkerSurveillanceRisk",
+      "中文名称": "员工监控风险",
+      "英文名称": "Worker Surveillance Risk",
+      "来源": "How a Microsoft App is Powering Employee Surveillance"
+    },
+    "Stakeholder": {
+      "id": "Employees",
+      "中文名称": "员工",
+      "英文名称": "Employees",
+      "来源": "Microsoft Dynamics 365 called out for 'worker surveillance'"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "How a Microsoft App is Powering Employee Surveillance"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "Microsoft Dynamics 365 called out for 'worker surveillance'"
+    }
+  }
+}

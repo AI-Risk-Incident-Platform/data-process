@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的AI voice cloning scam"
+    },
+    "Risk": {
+      "id": "VirtualKidnappingScamRisk",
+      "中文名称": "虚拟绑架诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的virtual kidnapping schemes"
+    },
+    "Stakeholder": {
+      "id": "ScamVictims",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "标题中提到的mother warns"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "母亲警告的行为暗示了心理影响"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "标题中明确提到的AI voice cloning"
+    },
+    "Misuse": {
+      "id": "FraudulentUseOfVoiceCloning",
+      "中文名称": "语音克隆的欺诈性使用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "标题中描述的scam场景"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "绑架诈骗通常会导致经济损失"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的AI voice cloning scam"
+    },
+    "Risk": {
+      "id": "VirtualKidnappingScamRisk",
+      "中文名称": "虚拟绑架诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的virtual kidnapping schemes"
+    },
+    "Stakeholder": {
+      "id": "ScamVictims",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "标题中提到的mother warns"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "母亲警告的行为暗示了心理影响"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "标题中明确提到的AI voice cloning"
+    },
+    "Misuse": {
+      "id": "FraudulentUseOfVoiceCloning",
+      "中文名称": "语音克隆的欺诈性使用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "标题中描述的scam场景"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "绑架诈骗通常会导致经济损失"
+    }
+  }
+}

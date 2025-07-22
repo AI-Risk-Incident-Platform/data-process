@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HPRoboCop",
+      "中文名称": "HP机器人警察",
+      "英文名称": "HP RoboCop",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Risk": {
+      "id": "PublicSafetyRisk",
+      "中文名称": "公共安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    },
+    "Consequence": {
+      "id": "EmergencyResponseFailure",
+      "中文名称": "紧急响应失败后果",
+      "英文名称": "Emergency Response Consequence",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "AICapability": {
+      "id": "PublicSafetyMonitoring",
+      "中文名称": "公共安全监控能力",
+      "英文名称": "Public Safety Monitoring Capability",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "AIOperator": {
+      "id": "HuntingtonParkPoliceDepartment",
+      "中文名称": "亨廷顿公园警察局",
+      "英文名称": "Huntington Park Police Department",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "Stakeholder": {
+      "id": "LocalCommunityMembers",
+      "中文名称": "当地社区居民",
+      "英文名称": "Local Residents",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    },
+    "Purpose": {
+      "id": "PublicSafetyEnhancement",
+      "中文名称": "增强公共安全的目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Vulnerability": {
+      "id": "CommunicationSystemFailure",
+      "中文名称": "通信系统故障的脆弱性",
+      "英文名称": "Communication System Failure Vulnerability",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "Impact": {
+      "id": "ReducedPublicTrustInAI",
+      "中文名称": "公众对AI信任度降低的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HPRoboCop",
+      "中文名称": "HP机器人警察",
+      "英文名称": "HP RoboCop",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Risk": {
+      "id": "PublicSafetyRisk",
+      "中文名称": "公共安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    },
+    "Consequence": {
+      "id": "EmergencyResponseFailure",
+      "中文名称": "紧急响应失败后果",
+      "英文名称": "Emergency Response Consequence",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "AICapability": {
+      "id": "PublicSafetyMonitoring",
+      "中文名称": "公共安全监控能力",
+      "英文名称": "Public Safety Monitoring Capability",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "AIOperator": {
+      "id": "HuntingtonParkPoliceDepartment",
+      "中文名称": "亨廷顿公园警察局",
+      "英文名称": "Huntington Park Police Department",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "Stakeholder": {
+      "id": "LocalCommunityMembers",
+      "中文名称": "当地社区居民",
+      "英文名称": "Local Residents",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    },
+    "Purpose": {
+      "id": "PublicSafetyEnhancement",
+      "中文名称": "增强公共安全的目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "HP RoboCop Shows How Far We Still Have to Go Before AI Could Really Protect Us"
+    },
+    "Vulnerability": {
+      "id": "CommunicationSystemFailure",
+      "中文名称": "通信系统故障的脆弱性",
+      "英文名称": "Communication System Failure Vulnerability",
+      "来源": "Huntington Park's Robocop unable to contact police, will soon get update to enable feature"
+    },
+    "Impact": {
+      "id": "ReducedPublicTrustInAI",
+      "中文名称": "公众对AI信任度降低的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Police Robot Ignores Woman Trying to Call Police"
+    }
+  }
+}

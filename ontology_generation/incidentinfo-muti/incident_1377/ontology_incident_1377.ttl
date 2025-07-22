@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SunoAndUdioAISongGenerators rdf:type airo:AISystem ;
+    rdfs:label "Suno和Udio AI歌曲生成器"@zh ;
+    rdfs:label "Suno and Udio AI Song Generators"@en ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDeployedBy ex:SunoAndUdio ;
+    airo:hasStakeholder ex:MusicLabels ;
+    airo:usesTechnique ex:AIModelTraining ;
+    airo:isAppliedWithinDomain ex:MusicIndustry .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "版权侵权风险"@zh ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    airo:hasConsequence ex:LegalActionConsequence ;
+    airo:isRiskSourceFor ex:UnauthorizedUseOfCopyrightedSongs .
+
+ex:MusicLabels rdf:type airo:Stakeholder ;
+    rdfs:label "音乐唱片公司"@zh ;
+    rdfs:label "Music Labels"@en .
+
+ex:SunoAndUdio rdf:type airo:AIOperator ;
+    rdfs:label "Suno和Udio公司"@zh ;
+    rdfs:label "Suno and Udio"@en .
+
+ex:LegalActionConsequence rdf:type airo:Consequence ;
+    rdfs:label "法律诉讼后果"@zh ;
+    rdfs:label "Legal Action Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:MusicLabels .
+
+ex:AIModelTraining rdf:type airo:AITechnique ;
+    rdfs:label "AI模型训练技术"@zh ;
+    rdfs:label "AI Model Training Technique"@en .
+
+ex:UnauthorizedUseOfCopyrightedSongs rdf:type airo:RiskSource ;
+    rdfs:label "未经授权使用受版权保护歌曲的风险源"@zh ;
+    rdfs:label "Unauthorized Use of Copyrighted Songs Risk Source"@en .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "音乐产业领域"@zh ;
+    rdfs:label "Music Industry Domain"@en .

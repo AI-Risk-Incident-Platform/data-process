@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RealEstateFacialRecognitionSystem",
+      "中文名称": "房地产人脸识别系统",
+      "英文名称": "Real Estate Facial Recognition System",
+      "来源": "拆！南京售楼处人脸识别要“下架”了"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "被售楼处人脸识别拍到，买房多花30万？有人被迫戴头盔看房"
+    },
+    "Consequence": {
+      "id": "PriceDiscrimination",
+      "中文名称": "价格歧视后果",
+      "英文名称": "Price Discrimination Consequence",
+      "来源": "被售楼处人脸识别拍到，买房多花30万？"
+    },
+    "Stakeholder": {
+      "id": "HomeBuyers",
+      "中文名称": "购房者",
+      "英文名称": "Home Buyers",
+      "来源": "有人被迫戴头盔看房"
+    },
+    "AIOperator": {
+      "id": "RealEstateFirms",
+      "中文名称": "房地产公司",
+      "英文名称": "Real Estate Firms",
+      "来源": "Real Estate Firms Secretly Collecting Client Data Via Facial Recognition"
+    },
+    "Purpose": {
+      "id": "CustomerIdentificationAndTracking",
+      "中文名称": "客户识别与追踪目的",
+      "英文名称": "Customer Identification and Tracking Purpose",
+      "来源": "Real Estate Firms Secretly Collecting Client Data Via Facial Recognition"
+    },
+    "Impact": {
+      "id": "ConsumerRightsInfringement",
+      "中文名称": "消费者权益侵害影响",
+      "英文名称": "Consumer Rights Infringement Impact",
+      "来源": "被售楼处人脸识别拍到，买房多花30万？"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "拆！南京售楼处人脸识别要“下架”了"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集风险源",
+      "英文名称": "Unauthorized Data Collection Risk Source",
+      "来源": "Real Estate Firms Secretly Collecting Client Data Via Facial Recognition"
+    },
+    "Domain": {
+      "id": "RealEstateIndustry",
+      "中文名称": "房地产行业领域",
+      "英文名称": "Real Estate Industry Domain",
+      "来源": "拆！南京售楼处人脸识别要“下架”了"
+    }
+  }
+}

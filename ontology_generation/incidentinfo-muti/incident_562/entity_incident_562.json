@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceDeepfakeSystem",
+      "中文名称": "语音深度伪造系统",
+      "英文名称": "Voice Deepfake System",
+      "来源": "Hacker Deepfakes Employee's Voice in Phone Call to Breach IT Company"
+    },
+    "Risk": {
+      "id": "SecurityBreachRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "Security Breach Risk",
+      "来源": "Hacker Deepfakes Employee's Voice in Phone Call to Breach IT Company"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis Technology",
+      "来源": "Deepfakes Employee's Voice"
+    },
+    "RiskSource": {
+      "id": "VoiceImpersonation",
+      "中文名称": "语音冒充",
+      "英文名称": "Voice Impersonation",
+      "来源": "Deepfakes Employee's Voice in Phone Call"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "to Breach IT Company"
+    },
+    "Impact": {
+      "id": "DataSecurityCompromise",
+      "中文名称": "数据安全受损",
+      "英文名称": "Data Security Compromise",
+      "来源": "Breach IT Company"
+    },
+    "Stakeholder": {
+      "id": "ITCompany",
+      "中文名称": "IT公司",
+      "英文名称": "IT Company",
+      "来源": "to Breach IT Company"
+    },
+    "AISubject": {
+      "id": "Employee",
+      "中文名称": "员工",
+      "英文名称": "Employee",
+      "来源": "Employee's Voice"
+    }
+  }
+}

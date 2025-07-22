@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TenantScreeningAlgorithm",
+      "中文名称": "租户筛选算法",
+      "英文名称": "Tenant Screening Algorithm",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Find Out What They’ve Said About You."
+    },
+    "Stakeholder": {
+      "id": "Landlords",
+      "中文名称": "房东",
+      "英文名称": "Landlords",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "AISubject": {
+      "id": "PotentialTenants",
+      "中文名称": "潜在租户",
+      "英文名称": "Potential Tenants",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "Purpose": {
+      "id": "TenantSelection",
+      "中文名称": "租户选择",
+      "英文名称": "Tenant Selection",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "Domain": {
+      "id": "RealEstate",
+      "中文名称": "房地产",
+      "英文名称": "Real Estate",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "RiskSource": {
+      "id": "SecretAlgorithms",
+      "中文名称": "秘密算法",
+      "英文名称": "Secret Algorithms",
+      "来源": "Landlords Use Secret Algorithms to Screen Potential Tenants."
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Personal Data Exposure",
+      "来源": "Find Out What They’ve Said About You."
+    },
+    "Impact": {
+      "id": "Discrimination",
+      "中文名称": "歧视",
+      "英文名称": "Discrimination",
+      "来源": "Find Out What They’ve Said About You."
+    }
+  }
+}

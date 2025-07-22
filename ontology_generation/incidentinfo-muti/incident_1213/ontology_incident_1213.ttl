@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MinionAIGoreVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Minion AI Gore Video Generation System"@en ;
+    rdfs:label "小黄人AI血腥视频生成系统"@zh ;
+    airo:hasRisk ex:HarmfulContentDisseminationRisk ;
+    airo:hasCapability ex:DeepfakeVideoGeneration ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:hasAISubject ex:MinionCharacter ;
+    airo:hasPurpose ex:ShockContentCreation ;
+    airo:isAppliedWithinDomain ex:SocialMediaEntertainment ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:isDeployedBy ex:SocialMediaPlatforms .
+
+ex:HarmfulContentDisseminationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Dissemination Risk"@en ;
+    rdfs:label "有害内容传播风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToViewers ;
+    airo:isRiskSourceFor ex:UnregulatedAIApplications .
+
+ex:PsychologicalHarmToViewers rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Viewers Consequence"@en ;
+    rdfs:label "观众心理伤害后果"@zh ;
+    airo:hasImpact ex:TraumaAndDistress .
+
+ex:DeepfakeVideoGeneration rdf:type airo:AICapability ;
+    rdfs:label "Deepfake Video Generation Capability"@en ;
+    rdfs:label "深度伪造视频生成能力"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:AIOperator ;
+    rdfs:label "Social Media Platforms"@en ;
+    rdfs:label "社交媒体平台"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:MinionCharacter rdf:type airo:AISubject ;
+    rdfs:label "Minion Character"@en ;
+    rdfs:label "小黄人角色"@zh .
+
+ex:TraumaAndDistress rdf:type airo:Impact ;
+    rdfs:label "Trauma and Distress Impact"@en ;
+    rdfs:label "创伤与痛苦影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:ShockContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Shock Content Creation Purpose"@en ;
+    rdfs:label "震惊内容创作目的"@zh .
+
+ex:SocialMediaEntertainment rdf:type airo:Domain ;
+    rdfs:label "Social Media Entertainment Domain"@en ;
+    rdfs:label "社交媒体娱乐领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:LackOfContentModeration rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Moderation Vulnerability"@en ;
+    rdfs:label "内容审核缺失脆弱性"@zh ;
+    airo:isRiskSourceFor ex:HarmfulContentDisseminationRisk .
+
+ex:MaliciousContentCreators rdf:type airo:Threat ;
+    rdfs:label "Malicious Content Creators Threat"@en ;
+    rdfs:label "恶意内容创作者威胁"@zh ;
+    airo:isRiskSourceFor ex:HarmfulContentDisseminationRisk .
+
+ex:GraphicViolenceDepiction rdf:type airo:Hazard ;
+    rdfs:label "Graphic Violence Depiction Hazard"@en ;
+    rdfs:label "暴力画面描绘危害"@zh ;
+    airo:isRiskSourceFor ex:HarmfulContentDisseminationRisk .
+
+ex:UnregulatedAIApplications rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Applications Risk Source"@en ;
+    rdfs:label "未受监管的AI应用风险源"@zh .
+
+ex:EthicalConcernsInAIEntertainment rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in AI Entertainment Risk Concept"@en ;
+    rdfs:label "AI娱乐中的伦理问题"@zh .

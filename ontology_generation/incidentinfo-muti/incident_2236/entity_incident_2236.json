@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CenseAI",
+      "中文名称": "Cense AI",
+      "英文名称": "Cense AI",
+      "来源": "Cense AI, Freepik, and Arbitersports Headline Recent Data Breaches"
+    },
+    "Risk": {
+      "id": "DataBreachRisk",
+      "中文名称": "数据泄露风险",
+      "英文名称": "Data Breach Risk",
+      "来源": "AI Company Exposed 2.5 Million Patient Records Over the Internet"
+    },
+    "Consequence": {
+      "id": "PatientRecordsExposure",
+      "中文名称": "患者记录暴露后果",
+      "英文名称": "Patient Records Exposure Consequence",
+      "来源": "AI firm exposes 2.5 million sensitive medical records online"
+    },
+    "AISubject": {
+      "id": "MedicalPatients",
+      "中文名称": "医疗患者",
+      "英文名称": "Medical Patients",
+      "来源": "2.5 million patient records"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "sensitive medical records online"
+    },
+    "RiskSource": {
+      "id": "InsecureDataStorage",
+      "中文名称": "不安全数据存储风险源",
+      "英文名称": "Insecure Data Storage Risk Source",
+      "来源": "exposed 2.5 million patient records over the internet"
+    }
+  }
+}

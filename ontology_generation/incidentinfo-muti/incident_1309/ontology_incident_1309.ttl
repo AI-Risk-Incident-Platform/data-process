@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RealTimeDeepfakeNeuralNetwork rdf:type airo:AISystem ;
+    rdfs:label "Real-Time Deepfake Neural Network"@en ;
+    rdfs:label "实时深度伪造神经网络"@zh ;
+    airo:hasRisk ex:RealTimeIdentityFraudRisk ;
+    airo:usesTechnique ex:FaceSwappingTechnology ;
+    airo:hasStakeholder ex:VideoConferenceUsers ;
+    airo:isAppliedWithinDomain ex:DigitalCommunicationPlatforms ;
+    airo:hasPurpose ex:RealTimeFaceManipulation .
+
+ex:RealTimeIdentityFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Real-Time Identity Fraud Risk"@en ;
+    rdfs:label "实时身份欺诈风险"@zh ;
+    airo:hasConsequence ex:TrustErosionInDigitalCommunication ;
+    airo:isRiskSourceFor ex:OpenSourceDeepfakeToolAvailability .
+
+ex:FaceSwappingTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Face Swapping Technology"@en ;
+    rdfs:label "面部替换技术"@zh .
+
+ex:VideoConferenceUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Video Conference Users"@en ;
+    rdfs:label "视频会议用户"@zh .
+
+ex:TrustErosionInDigitalCommunication rdf:type airo:Consequence ;
+    rdfs:label "Trust Erosion in Digital Communication Consequence"@en ;
+    rdfs:label "数字通信信任破坏后果"@zh ;
+    airo:hasImpact ex:SocialEngineeringAttackPotential .
+
+ex:OpenSourceDeepfakeToolAvailability rdf:type airo:RiskSource ;
+    rdfs:label "Open-Source Deepfake Tool Availability Risk Source"@en ;
+    rdfs:label "开源深度伪造工具可获得性风险源"@zh .
+
+ex:SocialEngineeringAttackPotential rdf:type airo:Impact ;
+    rdfs:label "Social Engineering Attack Potential Impact"@en ;
+    rdfs:label "社会工程攻击可能性影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VideoConferenceUsers .
+
+ex:DigitalCommunicationPlatforms rdf:type airo:Domain ;
+    rdfs:label "Digital Communication Platforms Domain"@en ;
+    rdfs:label "数字通信平台领域"@zh .
+
+ex:RealTimeFaceManipulation rdf:type airo:Purpose ;
+    rdfs:label "Real-Time Face Manipulation Purpose"@en ;
+    rdfs:label "实时面部操纵目的"@zh .

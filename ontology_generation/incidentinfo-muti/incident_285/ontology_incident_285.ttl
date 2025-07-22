@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation AI"@en ;
+    rdfs:label "Facebook内容审核AI"@zh ;
+    airo:hasRisk ex:ArtCensorshipRisk ;
+    airo:usesTechnique ex:ImageRecognitionAlgorithm ;
+    airo:hasPurpose ex:ContentModerationForCommunityStandards ;
+    airo:isDeployedBy ex:MetaPlatformsInc ;
+    airo:hasStakeholder ex:ArtCommunity ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:ArtCensorshipRisk rdf:type airo:Risk ;
+    rdfs:label "Art Censorship Risk"@en ;
+    rdfs:label "艺术审查风险"@zh ;
+    airo:hasConsequence ex:CulturalHeritageSuppression ;
+    airo:isRiskSourceFor ex:OverlyBroadNudityDetectionRules .
+
+ex:CulturalHeritageSuppression rdf:type airo:Consequence ;
+    rdfs:label "Cultural Heritage Suppression Consequence"@en ;
+    rdfs:label "文化遗产压制后果"@zh ;
+    airo:hasImpact ex:ArtisticExpressionLimitation .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:ArtCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Art Community"@en ;
+    rdfs:label "艺术界"@zh .
+
+ex:ImageRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Image Recognition Algorithm"@en ;
+    rdfs:label "图像识别算法"@zh .
+
+ex:ArtisticExpressionLimitation rdf:type airo:Impact ;
+    rdfs:label "Artistic Expression Limitation Impact"@en ;
+    rdfs:label "艺术表达限制影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ArtCommunity .
+
+ex:ContentModerationForCommunityStandards rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation for Community Standards Purpose"@en ;
+    rdfs:label "社区标准内容审核目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:OverlyBroadNudityDetectionRules rdf:type airo:RiskSource ;
+    rdfs:label "Overly Broad Nudity Detection Rules Risk Source"@en ;
+    rdfs:label "过度宽泛的裸露检测规则风险源"@zh .

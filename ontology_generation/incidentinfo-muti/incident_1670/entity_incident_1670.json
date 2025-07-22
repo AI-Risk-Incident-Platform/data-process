@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationAI",
+      "中文名称": "深度伪造生成AI",
+      "英文名称": "Deepfake Generation AI",
+      "来源": "This AI Company Releases Deepfakes Into the Wild"
+    },
+    "Risk": {
+      "id": "DeepfakeMisuseRisk",
+      "中文名称": "深度伪造滥用风险",
+      "英文名称": "Deepfake Misuse Risk",
+      "来源": "Can It Control Them?"
+    },
+    "Stakeholder": {
+      "id": "AICompany",
+      "中文名称": "AI公司",
+      "英文名称": "AI Company",
+      "来源": "This AI Company Releases Deepfakes Into the Wild"
+    },
+    "RiskSource": {
+      "id": "UncontrolledDeepfakeRelease",
+      "中文名称": "不受控的深度伪造发布",
+      "英文名称": "Uncontrolled Deepfake Release",
+      "来源": "Releases Deepfakes Into the Wild"
+    },
+    "Consequence": {
+      "id": "PotentialMisinformationSpread",
+      "中文名称": "潜在虚假信息传播",
+      "英文名称": "Potential Misinformation Spread",
+      "来源": "Can It Control Them?"
+    }
+  }
+}

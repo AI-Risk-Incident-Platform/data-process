@@ -1,0 +1,88 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeContentModerationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YouTube Content Moderation Algorithm"@en ;
+    rdfs:label "YouTube内容审核算法"@zh ;
+    airo:hasRisk ex:OverlyRestrictiveContentModerationRisk ;
+    airo:hasCapability ex:AutomatedContentClassification ;
+    airo:isDevelopedBy ex:YouTube ;
+    airo:hasPurpose ex:PlatformContentSafety ;
+    airo:hasStakeholder ex:SexTechIndustry ;
+    airo:hasAISubject ex:WomenSexTechPresenters ;
+    airo:isAppliedWithinDomain ex:OnlineVideoPlatforms ;
+    airo:usesTechnique ex:AutomatedModerationSystems .
+
+ex:OverlyRestrictiveContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Overly Restrictive Content Moderation Risk"@en ;
+    rdfs:label "过度限制性内容审核风险"@zh ;
+    airo:hasConsequence ex:LegitimateContentCensorship ;
+    airo:isRiskSourceFor ex:LackOfHumanReview ;
+    airo:isRiskSourceFor ex:ConservativeContentPolicyBias ;
+    airo:isRiskSourceFor ex:OverzealousAutomatedCensorship .
+
+ex:LegitimateContentCensorship rdf:type airo:Consequence ;
+    rdfs:label "Legitimate Content Censorship Consequence"@en ;
+    rdfs:label "合法内容被审查的后果"@zh ;
+    airo:hasImpact ex:IndustryRepresentationSuppression .
+
+ex:AutomatedContentClassification rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Classification Capability"@en ;
+    rdfs:label "自动化内容分类能力"@zh .
+
+ex:YouTube rdf:type airo:AIOperator ;
+    rdfs:label "YouTube"@en ;
+    rdfs:label "YouTube"@zh .
+
+ex:SexTechIndustry rdf:type airo:Stakeholder ;
+    rdfs:label "Sex Tech Industry"@en ;
+    rdfs:label "性科技行业"@zh .
+
+ex:WomenSexTechPresenters rdf:type airo:AISubject ;
+    rdfs:label "Women Sex Tech Presenters"@en ;
+    rdfs:label "女性性科技展示者"@zh .
+
+ex:IndustryRepresentationSuppression rdf:type airo:Impact ;
+    rdfs:label "Industry Representation Suppression Impact"@en ;
+    rdfs:label "行业代表性被压制的后果"@zh ;
+    airo:hasImpactOnStakeholder ex:SexTechIndustry .
+
+ex:PlatformContentSafety rdf:type airo:Purpose ;
+    rdfs:label "Platform Content Safety Purpose"@en ;
+    rdfs:label "平台内容安全的目的"@zh .
+
+ex:OnlineVideoPlatforms rdf:type airo:Domain ;
+    rdfs:label "Online Video Platforms Domain"@en ;
+    rdfs:label "在线视频平台领域"@zh .
+
+ex:AutomatedModerationSystems rdf:type airo:AITechnique ;
+    rdfs:label "Automated Moderation Systems Technique"@en ;
+    rdfs:label "自动化审核系统技术"@zh .
+
+ex:LackOfHumanReview rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Review Risk Source"@en ;
+    rdfs:label "缺乏人工审核的风险源"@zh ;
+    airo:exploitsVulnerability ex:NuancedContentUnderstandingDeficiency .
+
+ex:ConservativeContentPolicyBias rdf:type airo:Hazard ;
+    rdfs:label "Conservative Content Policy Bias Hazard"@en ;
+    rdfs:label "保守内容政策偏见的危害"@zh ;
+    airo:exploitsVulnerability ex:NuancedContentUnderstandingDeficiency .
+
+ex:OverzealousAutomatedCensorship rdf:type airo:Threat ;
+    rdfs:label "Overzealous Automated Censorship Threat"@en ;
+    rdfs:label "过度自动审查的威胁"@zh ;
+    airo:exploitsVulnerability ex:NuancedContentUnderstandingDeficiency .
+
+ex:NuancedContentUnderstandingDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Nuanced Content Understanding Deficiency Vulnerability"@en ;
+    rdfs:label "细微内容理解不足的脆弱性"@zh .

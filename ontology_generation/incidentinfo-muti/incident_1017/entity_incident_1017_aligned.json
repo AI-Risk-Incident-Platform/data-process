@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "No, video is a deepfake"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is Kenyan president William Ruto speaking in French in this clip? No, video is a deepfake"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "No, video is a deepfake"
+    },
+    "Impact": {
+      "id": "PublicFigureReputationDamage",
+      "中文名称": "公众人物声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Is Kenyan president William Ruto speaking in French in this clip?"
+    },
+    "Purpose": {
+      "id": "CreatingDeceptiveContent",
+      "中文名称": "创建欺骗性内容的目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "No, video is a deepfake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "No, video is a deepfake"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is Kenyan president William Ruto speaking in French in this clip? No, video is a deepfake"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "No, video is a deepfake"
+    },
+    "Impact": {
+      "id": "PublicFigureReputationDamage",
+      "中文名称": "公众人物声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Is Kenyan president William Ruto speaking in French in this clip?"
+    },
+    "Purpose": {
+      "id": "CreatingDeceptiveContent",
+      "中文名称": "创建欺骗性内容的目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "No, video is a deepfake"
+    }
+  }
+}

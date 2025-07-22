@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT3",
+      "中文名称": "GPT-3",
+      "英文名称": "GPT-3",
+      "来源": "GPT-3: Lassen sich Menschen von KI-Fake-News beeinflussen?"
+    },
+    "Risk": {
+      "id": "DisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Disinformation Risk",
+      "来源": "AI Can Write Disinformation Now—and Dupe Human Readers"
+    },
+    "Consequence": {
+      "id": "HumanDeception",
+      "中文名称": "人类欺骗后果",
+      "英文名称": "Human Deception Consequence",
+      "来源": "AI Can Write Disinformation Now—and Dupe Human Readers"
+    },
+    "AICapability": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text Generation Capability",
+      "来源": "Can AI write believable misinformation?"
+    },
+    "Stakeholder": {
+      "id": "HumanReaders",
+      "中文名称": "人类读者",
+      "英文名称": "Human Readers",
+      "来源": "AI Can Write Disinformation Now—and Dupe Human Readers"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播影响",
+      "英文名称": "Misinformation Spread Impact",
+      "来源": "Can AI write believable misinformation?"
+    },
+    "Purpose": {
+      "id": "ContentCreation",
+      "中文名称": "内容创作目的",
+      "英文名称": "Content Creation Purpose",
+      "来源": "Can AI write believable misinformation?"
+    },
+    "Domain": {
+      "id": "MediaAndCommunication",
+      "中文名称": "媒体与传播领域",
+      "英文名称": "Media and Communication Domain",
+      "来源": "AI Can Write Disinformation Now—and Dupe Human Readers"
+    },
+    "AITechnique": {
+      "id": "LanguageModeling",
+      "中文名称": "语言建模技术",
+      "英文名称": "Language Modeling Technique",
+      "来源": "GPT-3: Lassen sich Menschen von KI-Fake-News beeinflussen?"
+    },
+    "Vulnerability": {
+      "id": "HumanCredulity",
+      "中文名称": "人类轻信脆弱性",
+      "英文名称": "Human Credulity Vulnerability",
+      "来源": "AI Can Write Disinformation Now—and Dupe Human Readers"
+    },
+    "Threat": {
+      "id": "AIWrittenFakeNews",
+      "中文名称": "AI编写假新闻威胁",
+      "英文名称": "AI-Written Fake News Threat",
+      "来源": "Can AI write believable misinformation?"
+    },
+    "RiskSource": {
+      "id": "AdvancedTextGeneration",
+      "中文名称": "高级文本生成风险源",
+      "英文名称": "Advanced Text Generation Risk Source",
+      "来源": "Can AI write believable misinformation?"
+    }
+  }
+}

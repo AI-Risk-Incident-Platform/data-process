@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla crash driver posted videos of himself riding without hands on wheel"
+    },
+    "Risk": {
+      "id": "AutopilotMisuseRisk",
+      "中文名称": "自动驾驶滥用风险",
+      "英文名称": "Autopilot Misuse Risk",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "Consequence": {
+      "id": "FatalCarCrash",
+      "中文名称": "致命车祸后果",
+      "英文名称": "Fatal Car Crash Consequence",
+      "来源": "Man killed in California Tesla crash previously posted videos in autopilot mode"
+    },
+    "AICapability": {
+      "id": "AutonomousDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla crash driver posted videos of himself riding without hands on wheel"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "Stakeholder": {
+      "id": "TeslaAutopilotUsers",
+      "中文名称": "特斯拉自动驾驶用户",
+      "英文名称": "Tesla Autopilot Users",
+      "来源": "Man killed in California Tesla crash previously posted videos in autopilot mode"
+    },
+    "AISubject": {
+      "id": "TeslaDrivers",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Drivers",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Man killed in California Tesla crash previously posted videos in autopilot mode"
+    },
+    "Purpose": {
+      "id": "AssistedDriving",
+      "中文名称": "辅助驾驶目的",
+      "英文名称": "Assisted Driving Purpose",
+      "来源": "Tesla crash driver posted videos of himself riding without hands on wheel"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习技术",
+      "英文名称": "Computer Vision and Machine Learning Technique",
+      "来源": "Tesla crash driver posted videos of himself riding without hands on wheel"
+    },
+    "Vulnerability": {
+      "id": "OverconfidenceInAutonomousSystems",
+      "中文名称": "对自动驾驶系统过度自信的脆弱性",
+      "英文名称": "Overconfidence in Autonomous Systems Vulnerability",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "Threat": {
+      "id": "HumanMisuseOfAutonomousFeatures",
+      "中文名称": "人类误用自动驾驶功能的威胁",
+      "英文名称": "Human Misuse of Autonomous Features Threat",
+      "来源": "Tesla crash driver posted videos of himself riding without hands on wheel"
+    },
+    "Hazard": {
+      "id": "InadequateDriverMonitoring",
+      "中文名称": "驾驶员监控不足的危害",
+      "英文名称": "Inadequate Driver Monitoring Hazard",
+      "来源": "Man killed in California Tesla crash previously posted videos in autopilot mode"
+    },
+    "RiskSource": {
+      "id": "LackOfProperSafetyMeasures",
+      "中文名称": "缺乏适当安全措施的风险源",
+      "英文名称": "Lack of Proper Safety Measures Risk Source",
+      "来源": "Tesla driver killed in California crash bragged about Autopilot"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶车辆安全问题",
+      "英文名称": "Autonomous Vehicle Safety Concerns Risk Concept",
+      "来源": "Man killed in California Tesla crash previously posted videos in autopilot mode"
+    }
+  }
+}

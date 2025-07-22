@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Trump Promotes A.I. Images to Suggest That Taylor Swift Endorsed Him"
+    },
+    "Risk": {
+      "id": "MisinformationAndPublicDeceptionRisk",
+      "中文名称": "虚假信息和公众欺骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Trump falsely implies Taylor Swift endorses him"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaignTeam",
+      "中文名称": "政治竞选团队",
+      "英文名称": "Political Campaign Team",
+      "来源": "How did Donald Trump end up posting Taylor Swift deepfakes?"
+    },
+    "AISubject": {
+      "id": "CelebrityPublicFigure",
+      "中文名称": "名人公众人物",
+      "英文名称": "Public Figures",
+      "来源": "Taylor Swift deepfakes"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Trump falsely implies Taylor Swift endorses him"
+    },
+    "Purpose": {
+      "id": "PoliticalEndorsementFabrication",
+      "中文名称": "政治背书伪造",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Trump Promotes A.I. Images to Suggest That Taylor Swift Endorsed Him"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Taylor Swift deepfakes"
+    },
+    "Misuse": {
+      "id": "PoliticalMisinformationCampaign",
+      "中文名称": "政治虚假信息活动",
+      "英文名称": "Political Misuse",
+      "来源": "How did Donald Trump end up posting Taylor Swift deepfakes?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Trump Promotes A.I. Images to Suggest That Taylor Swift Endorsed Him"
+    },
+    "Risk": {
+      "id": "MisinformationAndPublicDeceptionRisk",
+      "中文名称": "虚假信息和公众欺骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Trump falsely implies Taylor Swift endorses him"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaignTeam",
+      "中文名称": "政治竞选团队",
+      "英文名称": "Political Campaign Team",
+      "来源": "How did Donald Trump end up posting Taylor Swift deepfakes?"
+    },
+    "AISubject": {
+      "id": "CelebrityPublicFigure",
+      "中文名称": "名人公众人物",
+      "英文名称": "Public Figures",
+      "来源": "Taylor Swift deepfakes"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Trump falsely implies Taylor Swift endorses him"
+    },
+    "Purpose": {
+      "id": "PoliticalEndorsementFabrication",
+      "中文名称": "政治背书伪造",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Trump Promotes A.I. Images to Suggest That Taylor Swift Endorsed Him"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Taylor Swift deepfakes"
+    },
+    "Misuse": {
+      "id": "PoliticalMisinformationCampaign",
+      "中文名称": "政治虚假信息活动",
+      "英文名称": "Political Misuse",
+      "来源": "How did Donald Trump end up posting Taylor Swift deepfakes?"
+    }
+  }
+}

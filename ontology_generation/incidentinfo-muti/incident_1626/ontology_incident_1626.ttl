@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WebcamExamSoftware rdf:type airo:AISystem ;
+    rdfs:label "Webcam Exam Software"@en ;
+    rdfs:label "网络摄像头考试软件"@zh ;
+    airo:hasRisk ex:RacialDiscriminationInFacialRecognition ;
+    airo:hasAICapability ex:FacialRecognitionForExamProctoring ;
+    airo:hasStakeholder ex:StudentsWithDarkerSkinTones ;
+    airo:hasAISubject ex:ExamTakers ;
+    airo:hasPurpose ex:OnlineExamProctoring ;
+    airo:isAppliedWithinDomain ex:EducationTechnology ;
+    airo:usesTechnique ex:FacialRecognitionAlgorithm ;
+    airo:hasVulnerability ex:BiasInTrainingData .
+
+ex:RacialDiscriminationInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Racial Discrimination in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族歧视风险"@zh ;
+    airo:hasConsequence ex:UnfairAcademicEvaluation ;
+    airo:isRiskSourceFor ex:InadequateAlgorithmTesting ;
+    airo:isRiskSourceFor ex:DiscriminatoryTechnology ;
+    airo:isRiskSourceFor ex:RacialBiasInAI .
+
+ex:UnfairAcademicEvaluation rdf:type airo:Consequence ;
+    rdfs:label "Unfair Academic Evaluation Consequence"@en ;
+    rdfs:label "不公平的学术评估后果"@zh ;
+    airo:hasImpact ex:AcademicDisadvantage .
+
+ex:FacialRecognitionForExamProctoring rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Exam Proctoring Capability"@en ;
+    rdfs:label "用于考试监考的面部识别能力"@zh .
+
+ex:StudentsWithDarkerSkinTones rdf:type airo:Stakeholder ;
+    rdfs:label "Students with Darker Skin Tones"@en ;
+    rdfs:label "肤色较深的学生"@zh .
+
+ex:ExamTakers rdf:type airo:AISubject ;
+    rdfs:label "Exam Takers"@en ;
+    rdfs:label "考试参与者"@zh .
+
+ex:AcademicDisadvantage rdf:type airo:Impact ;
+    rdfs:label "Academic Disadvantage Impact"@en ;
+    rdfs:label "学术劣势影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StudentsWithDarkerSkinTones .
+
+ex:OnlineExamProctoring rdf:type airo:Purpose ;
+    rdfs:label "Online Exam Proctoring Purpose"@en ;
+    rdfs:label "在线考试监考的目的"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:FacialRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Algorithm Technique"@en ;
+    rdfs:label "面部识别算法"@zh .
+
+ex:BiasInTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "Bias in Training Data Vulnerability"@en ;
+    rdfs:label "训练数据中的偏见脆弱性"@zh .
+
+ex:DiscriminatoryTechnology rdf:type airo:Threat ;
+    rdfs:label "Discriminatory Technology Threat"@en ;
+    rdfs:label "歧视性技术的威胁"@zh .
+
+ex:RacialBiasInAI rdf:type airo:Hazard ;
+    rdfs:label "Racial Bias in AI Hazard"@en ;
+    rdfs:label "AI中的种族偏见危害"@zh .
+
+ex:InadequateAlgorithmTesting rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Algorithm Testing Risk Source"@en ;
+    rdfs:label "算法测试不足的风险源"@zh .
+
+ex:EthicalIssuesInAIProctoring rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in AI Proctoring Risk Concept"@en ;
+    rdfs:label "AI监考中的伦理问题"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaultyRewardFunctions",
+      "中文名称": "故障奖励函数",
+      "英文名称": "Faulty Reward Functions",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Risk": {
+      "id": "UnintendedBehaviorRisk",
+      "中文名称": "意外行为风险",
+      "英文名称": "Unexpected Response Risk",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "RiskSource": {
+      "id": "IncorrectRewardFunctionDesign",
+      "中文名称": "错误的奖励函数设计",
+      "英文名称": "AI Misbehavior Risk Source",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Consequence": {
+      "id": "HarmfulSystemBehavior",
+      "中文名称": "有害系统行为",
+      "英文名称": "Harmful System Behavior",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Impact": {
+      "id": "NegativeRealWorldEffects",
+      "中文名称": "负面现实影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Faulty Reward Functions in the Wild"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaultyRewardFunctions",
+      "中文名称": "故障奖励函数",
+      "英文名称": "Faulty Reward Functions",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Risk": {
+      "id": "UnintendedBehaviorRisk",
+      "中文名称": "意外行为风险",
+      "英文名称": "Unexpected Response Risk",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "RiskSource": {
+      "id": "IncorrectRewardFunctionDesign",
+      "中文名称": "错误的奖励函数设计",
+      "英文名称": "AI Misbehavior Risk Source",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Consequence": {
+      "id": "HarmfulSystemBehavior",
+      "中文名称": "有害系统行为",
+      "英文名称": "Harmful System Behavior",
+      "来源": "Faulty Reward Functions in the Wild"
+    },
+    "Impact": {
+      "id": "NegativeRealWorldEffects",
+      "中文名称": "负面现实影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Faulty Reward Functions in the Wild"
+    }
+  }
+}

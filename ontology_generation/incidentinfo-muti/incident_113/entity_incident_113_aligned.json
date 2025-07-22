@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionWebsite",
+      "中文名称": "面部识别网站",
+      "英文名称": "Face Recognition Site",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Consequence": {
+      "id": "UnauthorizedSurveillance",
+      "中文名称": "未经授权的监控",
+      "英文名称": "Unauthorized Surveillance",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Impact": {
+      "id": "PersonalSafetyThreat",
+      "中文名称": "人身安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionWebsite",
+      "中文名称": "面部识别网站",
+      "英文名称": "Face Recognition Site",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Consequence": {
+      "id": "UnauthorizedSurveillance",
+      "中文名称": "未经授权的监控",
+      "英文名称": "Unauthorized Surveillance",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    },
+    "Impact": {
+      "id": "PersonalSafetyThreat",
+      "中文名称": "人身安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "This facial recognition website can turn anyone into a cop — or a stalker"
+    }
+  }
+}

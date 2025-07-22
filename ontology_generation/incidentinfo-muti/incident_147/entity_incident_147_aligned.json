@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdReviewSystem",
+      "中文名称": "Facebook广告审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "新闻标题直接提及Facebook广告审核行为"
+    },
+    "Risk": {
+      "id": "UnfairContentModerationRisk",
+      "中文名称": "不公平内容审核风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题暗示存在广告被不合理拒绝的情况"
+    },
+    "Domain": {
+      "id": "SocialMediaAdvertising",
+      "中文名称": "社交媒体广告领域",
+      "英文名称": "Social Media Advertising",
+      "来源": "涉及Facebook平台广告业务"
+    },
+    "Stakeholder": {
+      "id": "FashionBrandAdvertisers",
+      "中文名称": "时尚品牌广告主",
+      "英文名称": "Fashion Brand Advertisers",
+      "来源": "标题明确指向时尚类广告被拒"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "作为Facebook母公司负责系统运营"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookAdReviewSystem",
+      "中文名称": "Facebook广告审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "新闻标题直接提及Facebook广告审核行为"
+    },
+    "Risk": {
+      "id": "UnfairContentModerationRisk",
+      "中文名称": "不公平内容审核风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题暗示存在广告被不合理拒绝的情况"
+    },
+    "Domain": {
+      "id": "SocialMediaAdvertising",
+      "中文名称": "社交媒体广告领域",
+      "英文名称": "Social Media Advertising",
+      "来源": "涉及Facebook平台广告业务"
+    },
+    "Stakeholder": {
+      "id": "FashionBrandAdvertisers",
+      "中文名称": "时尚品牌广告主",
+      "英文名称": "Fashion Brand Advertisers",
+      "来源": "标题明确指向时尚类广告被拒"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "作为Facebook母公司负责系统运营"
+    }
+  }
+}

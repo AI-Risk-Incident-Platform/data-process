@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PainMedicationAISystem",
+      "中文名称": "疼痛药物AI系统",
+      "英文名称": "Pain Medication AI System",
+      "来源": "Artificial Intelligence May Influence Whether You Can Get Pain Medication"
+    },
+    "Risk": {
+      "id": "DenialOfPainMedicationRisk",
+      "中文名称": "拒绝提供止痛药风险",
+      "英文名称": "Denial of Pain Medication Risk",
+      "来源": "The Pain Was Unbearable. So Why Did Doctors Turn Her Away?"
+    },
+    "Consequence": {
+      "id": "PatientSuffering",
+      "中文名称": "患者痛苦后果",
+      "英文名称": "Patient Suffering Consequence",
+      "来源": "The Pain Was Unbearable"
+    },
+    "AICapability": {
+      "id": "AddictionRiskScoring",
+      "中文名称": "成瘾风险评分能力",
+      "英文名称": "Addiction Risk Scoring Capability",
+      "来源": "Say Hello to Your Addiction Risk Score — Courtesy of the Tech Industry"
+    },
+    "Stakeholder": {
+      "id": "PainPatients",
+      "中文名称": "疼痛患者",
+      "英文名称": "Pain Patients",
+      "来源": "The Pain Was Unbearable"
+    },
+    "AISubject": {
+      "id": "MedicalDecisionMaking",
+      "中文名称": "医疗决策",
+      "英文名称": "Medical Decision Making",
+      "来源": "Artificial Intelligence May Influence Whether You Can Get Pain Medication"
+    },
+    "Impact": {
+      "id": "ReducedAccessToPainRelief",
+      "中文名称": "减少获得止痛途径的影响",
+      "英文名称": "Reduced Access to Pain Relief Impact",
+      "来源": "So Why Did Doctors Turn Her Away?"
+    },
+    "Purpose": {
+      "id": "OpioidPrescriptionControl",
+      "中文名称": "阿片类药物处方控制目的",
+      "英文名称": "Opioid Prescription Control Purpose",
+      "来源": "Artificial Intelligence May Influence Whether You Can Get Pain Medication"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Artificial Intelligence May Influence Whether You Can Get Pain Medication"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAddictionAssessment",
+      "中文名称": "成瘾评估中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Addiction Assessment Risk Source",
+      "来源": "Say Hello to Your Addiction Risk Score"
+    }
+  }
+}

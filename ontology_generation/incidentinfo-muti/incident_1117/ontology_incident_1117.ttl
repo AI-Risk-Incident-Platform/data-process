@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CLOiSmartRobot rdf:type airo:AISystem ;
+    rdfs:label "CLOi Smart Robot"@en ;
+    rdfs:label "CLOi智能机器人"@zh ;
+    airo:hasRisk ex:PublicMalfunctionRisk ;
+    airo:hasStakeholder ex:LGExecutives ;
+    airo:isAppliedWithinDomain ex:ConsumerRobotics .
+
+ex:PublicMalfunctionRisk rdf:type airo:Risk ;
+    rdfs:label "Public Malfunction Risk"@en ;
+    rdfs:label "公开场合故障风险"@zh ;
+    airo:hasConsequence ex:CorporateEmbarrassment .
+
+ex:LGExecutives rdf:type airo:Stakeholder ;
+    rdfs:label "LG Executives"@en ;
+    rdfs:label "LG高管"@zh .
+
+ex:CorporateEmbarrassment rdf:type airo:Consequence ;
+    rdfs:label "Corporate Embarrassment Consequence"@en ;
+    rdfs:label "企业形象受损后果"@zh ;
+    airo:hasImpactOnStakeholder ex:LGExecutives .
+
+ex:ConsumerRobotics rdf:type airo:Domain ;
+    rdfs:label "Consumer Robotics Domain"@en ;
+    rdfs:label "消费机器人领域"@zh .

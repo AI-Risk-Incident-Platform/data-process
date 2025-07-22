@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoSelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "Waymo Self-Driving Car"@en ;
+    rdfs:label "Waymo自动驾驶汽车"@zh ;
+    airo:hasRisk ex:TrafficAccidentRisk ;
+    airo:hasAISubject ex:PassengersInWaymo ;
+    airo:hasStakeholder ex:SanFranciscoCyclists ;
+    airo:isDeployedBy ex:Waymo ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation ;
+    airo:hasVulnerability ex:EmergencyExitDifficulty .
+
+ex:TrafficAccidentRisk rdf:type airo:Risk ;
+    rdfs:label "Traffic Accident Risk"@en ;
+    rdfs:label "交通事故风险"@zh ;
+    airo:hasConsequence ex:CyclistInjury ;
+    airo:isRiskSourceFor ex:AutonomousVehicleMalfunction .
+
+ex:CyclistInjury rdf:type airo:Consequence ;
+    rdfs:label "Cyclist Injury Consequence"@en ;
+    rdfs:label "骑行者受伤后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoCyclists .
+
+ex:SanFranciscoCyclists rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco Cyclists"@en ;
+    rdfs:label "旧金山骑行者"@zh .
+
+ex:Waymo rdf:type airo:AIOperator ;
+    rdfs:label "Waymo"@en ;
+    rdfs:label "Waymo公司"@zh .
+
+ex:AutonomousVehicleMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Vehicle Malfunction Risk Source"@en ;
+    rdfs:label "自动驾驶车辆故障风险源"@zh .
+
+ex:PassengersInWaymo rdf:type airo:AISubject ;
+    rdfs:label "Passengers in Waymo"@en ;
+    rdfs:label "Waymo车内乘客"@zh .
+
+ex:EmergencyExitDifficulty rdf:type airo:Vulnerability ;
+    rdfs:label "Emergency Exit Difficulty Vulnerability"@en ;
+    rdfs:label "紧急逃生困难脆弱性"@zh .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .

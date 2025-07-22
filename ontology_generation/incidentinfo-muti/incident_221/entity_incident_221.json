@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeChatTranslationSystem",
+      "中文名称": "微信翻译系统",
+      "英文名称": "WeChat Translation System",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationRisk",
+      "中文名称": "种族歧视风险",
+      "英文名称": "Racial Discrimination Risk",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    },
+    "Consequence": {
+      "id": "OffensiveTranslationOutput",
+      "中文名称": "冒犯性翻译输出",
+      "英文名称": "Offensive Translation Output",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    },
+    "Impact": {
+      "id": "HarmToBlackCommunity",
+      "中文名称": "对黑人社区的伤害",
+      "英文名称": "Harm to Black Community",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    },
+    "AIOperator": {
+      "id": "Tencent",
+      "中文名称": "腾讯",
+      "英文名称": "Tencent",
+      "来源": "WeChat Apologizes for Translating 'Black Foreigner' as N-Word"
+    },
+    "Stakeholder": {
+      "id": "BlackCommunity",
+      "中文名称": "黑人社区",
+      "英文名称": "Black Community",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "WeChat translates 'black foreigner' into racial slur"
+    }
+  }
+}

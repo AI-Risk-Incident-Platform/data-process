@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftRecallFeature",
+      "中文名称": "微软Recall功能",
+      "英文名称": "Microsoft Recall Feature",
+      "来源": "Microsoft's AI Copilot feature that tracks your every PC move"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Recall drawing regulatory scrutiny in the UK — Microsoft's AI Copilot feature a privacy nightmare"
+    },
+    "Stakeholder": {
+      "id": "UKWatchdog",
+      "中文名称": "英国监管机构",
+      "英文名称": "UK Watchdog",
+      "来源": "UK watchdog looking into Microsoft AI taking screenshots"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft being investigated over new 'Recall' AI feature"
+    },
+    "Domain": {
+      "id": "PersonalComputing",
+      "中文名称": "个人计算领域",
+      "英文名称": "Personal Computing Domain",
+      "来源": "feature that tracks your every PC move"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露影响",
+      "英文名称": "User Privacy Compromise Impact",
+      "来源": "Microsoft's AI Copilot feature a privacy nightmare"
+    },
+    "RiskSource": {
+      "id": "ContinuousScreenCapture",
+      "中文名称": "持续屏幕捕捉风险源",
+      "英文名称": "Continuous Screen Capture Risk Source",
+      "来源": "Microsoft AI taking screenshots"
+    },
+    "Consequence": {
+      "id": "RegulatoryInvestigation",
+      "中文名称": "监管调查后果",
+      "英文名称": "Regulatory Investigation Consequence",
+      "来源": "Microsoft being investigated over new 'Recall' AI feature"
+    }
+  }
+}

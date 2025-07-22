@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingTaxi",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Self-Driving Taxi",
+      "来源": "Waymo recalls software after self-driving taxis crash in December"
+    },
+    "Risk": {
+      "id": "VehicleCollisionRisk",
+      "中文名称": "车辆碰撞风险",
+      "英文名称": "Vehicle Collision Risk",
+      "来源": "Waymo issued a recall after two robotaxis crashed into the same pickup truck"
+    },
+    "Consequence": {
+      "id": "SoftwareRecall",
+      "中文名称": "软件召回后果",
+      "英文名称": "Software Recall Consequence",
+      "来源": "Waymo recalls software after self-driving taxis crash in December"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Waymo services driverless car software after Phoenix truck collision"
+    },
+    "RiskSource": {
+      "id": "SoftwareDefect",
+      "中文名称": "软件缺陷风险源",
+      "英文名称": "Software Defect Risk Source",
+      "来源": "Waymo recalls software after self-driving taxis crash in December"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "Waymo issued a recall after two robotaxis crashed into the same pickup truck"
+    }
+  }
+}

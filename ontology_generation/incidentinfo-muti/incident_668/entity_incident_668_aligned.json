@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "India Today uncovers potential deepfake onslaught on 2024 Lok Sabha poll campaigns"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "potential deepfake onslaught on 2024 Lok Sabha poll campaigns"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "2024 Lok Sabha poll campaigns"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "potential deepfake onslaught"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedSynthesis",
+      "中文名称": "基于深度学习的合成技术",
+      "英文名称": "Deep Learning Generation",
+      "来源": "deepfake"
+    },
+    "Stakeholder": {
+      "id": "PoliticalParties",
+      "中文名称": "政党",
+      "英文名称": "Political Parties",
+      "来源": "2024 Lok Sabha poll campaigns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "India Today uncovers potential deepfake onslaught on 2024 Lok Sabha poll campaigns"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "potential deepfake onslaught on 2024 Lok Sabha poll campaigns"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "2024 Lok Sabha poll campaigns"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "potential deepfake onslaught"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedSynthesis",
+      "中文名称": "基于深度学习的合成技术",
+      "英文名称": "Deep Learning Generation",
+      "来源": "deepfake"
+    },
+    "Stakeholder": {
+      "id": "PoliticalParties",
+      "中文名称": "政党",
+      "英文名称": "Political Parties",
+      "来源": "2024 Lok Sabha poll campaigns"
+    }
+  }
+}

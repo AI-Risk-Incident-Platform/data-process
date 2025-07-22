@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TSABodyScannerSystem",
+      "中文名称": "TSA身体扫描系统",
+      "英文名称": "TSA Body Scanner System",
+      "来源": "TSA’s Body Scanners Are Gender Binary. Humans Are Not."
+    },
+    "Risk": {
+      "id": "GenderDiscriminationRisk",
+      "中文名称": "性别歧视风险",
+      "英文名称": "Gender Discrimination Risk",
+      "来源": "TSA’s Body Scanners Are Gender Binary. Humans Are Not."
+    },
+    "AISubject": {
+      "id": "NonBinaryGenderIndividuals",
+      "中文名称": "非二元性别个体",
+      "英文名称": "Non-Binary Gender Individuals",
+      "来源": "TSA’s Body Scanners Are Gender Binary. Humans Are Not."
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰",
+      "英文名称": "Psychological Distress",
+      "来源": "TSA’s Body Scanners Are Gender Binary. Humans Are Not."
+    },
+    "Domain": {
+      "id": "AirportSecurity",
+      "中文名称": "机场安检",
+      "英文名称": "Airport Security",
+      "来源": "TSA’s Body Scanners Are Gender Binary. Humans Are Not."
+    }
+  }
+}

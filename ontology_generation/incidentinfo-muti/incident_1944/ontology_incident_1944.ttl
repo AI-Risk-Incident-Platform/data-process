@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTPoweredTwitterPersonas rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Powered Twitter Personas"@en ;
+    rdfs:label "由ChatGPT驱动的虚假Twitter账号"@zh ;
+    airo:hasRisk ex:MisinformationAndDeceptionRisk ;
+    airo:usesTechnique ex:ChatGPTLanguageModel ;
+    airo:hasStakeholder ex:SocialMediaUsers .
+
+ex:MisinformationAndDeceptionRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation and Deception Risk"@en ;
+    rdfs:label "虚假信息和欺骗风险"@zh ;
+    airo:hasImpact ex:TrustErosionInOnlineInformation .
+
+ex:ChatGPTLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT Language Model Technique"@en ;
+    rdfs:label "ChatGPT语言模型技术"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:TrustErosionInOnlineInformation rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Online Information Impact"@en ;
+    rdfs:label "在线信息信任度降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .

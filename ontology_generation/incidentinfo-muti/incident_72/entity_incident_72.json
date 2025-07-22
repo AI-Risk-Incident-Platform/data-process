@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IndustrialWeldingRobot",
+      "中文名称": "工业焊接机器人",
+      "英文名称": "Industrial Welding Robot",
+      "来源": "Worker killed by robot in welding accident at car parts factory in India"
+    },
+    "Risk": {
+      "id": "IndustrialRobotSafetyRisk",
+      "中文名称": "工业机器人安全风险",
+      "英文名称": "Industrial Robot Safety Risk",
+      "来源": "Worker killed by robot in welding accident at car parts factory in India"
+    },
+    "Consequence": {
+      "id": "WorkerFatality",
+      "中文名称": "工人死亡后果",
+      "英文名称": "Worker Fatality Consequence",
+      "来源": "Worker killed by robot in welding accident at car parts factory in India"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Worker killed by robot in welding accident at car parts factory in India"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Manufacturing Domain",
+      "来源": "car parts factory in India"
+    },
+    "AISubject": {
+      "id": "FactoryWorker",
+      "中文名称": "工厂工人",
+      "英文名称": "Factory Worker",
+      "来源": "Worker killed by robot in welding accident"
+    },
+    "Stakeholder": {
+      "id": "CarPartsManufacturer",
+      "中文名称": "汽车零部件制造商",
+      "英文名称": "Car Parts Manufacturer",
+      "来源": "car parts factory in India"
+    },
+    "Hazard": {
+      "id": "UnsafeRobotOperation",
+      "中文名称": "机器人操作不安全危害",
+      "英文名称": "Unsafe Robot Operation Hazard",
+      "来源": "Worker killed by robot in welding accident"
+    },
+    "RiskSource": {
+      "id": "LackOfSafetyMeasures",
+      "中文名称": "安全措施不足风险源",
+      "英文名称": "Lack of Safety Measures Risk Source",
+      "来源": "Worker killed by robot in welding accident"
+    }
+  }
+}

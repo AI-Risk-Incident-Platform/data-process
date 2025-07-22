@@ -1,0 +1,81 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa"@en ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:VoiceRecordingAndTransmission ;
+    airo:isProvidedBy ex:Amazon ;
+    airo:hasStakeholder ex:EchoUsers ;
+    airo:hasAISubject ex:PrivateConversations ;
+    airo:hasPurpose ex:VoiceAssistantService ;
+    airo:isAppliedWithinDomain ex:SmartHomeDevices ;
+    airo:usesTechnique ex:VoiceRecognitionTechnology ;
+    airo:hasVulnerability ex:AccidentalActivation .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataSharing ;
+    airo:isRiskSourceFor ex:SoftwareBug ;
+    airo:isRiskSourceFor ex:UnauthorizedDataAccess .
+
+ex:UnauthorizedDataSharing rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Sharing Consequence"@en ;
+    rdfs:label "未经授权的数据共享后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyBreach .
+
+ex:VoiceRecordingAndTransmission rdf:type airo:AICapability ;
+    rdfs:label "Voice Recording and Transmission Capability"@en ;
+    rdfs:label "语音录制和传输能力"@zh .
+
+ex:Amazon rdf:type airo:AIProvider ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:EchoUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Echo Users"@en ;
+    rdfs:label "Echo用户"@zh .
+
+ex:PrivateConversations rdf:type airo:AISubject ;
+    rdfs:label "Private Conversations"@en ;
+    rdfs:label "私人对话"@zh .
+
+ex:PersonalPrivacyBreach rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Breach Impact"@en ;
+    rdfs:label "个人隐私泄露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EchoUsers .
+
+ex:VoiceAssistantService rdf:type airo:Purpose ;
+    rdfs:label "Voice Assistant Service Purpose"@en ;
+    rdfs:label "语音助手服务目的"@zh .
+
+ex:SmartHomeDevices rdf:type airo:Domain ;
+    rdfs:label "Smart Home Devices Domain"@en ;
+    rdfs:label "智能家居设备领域"@zh .
+
+ex:VoiceRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Recognition Technology"@en ;
+    rdfs:label "语音识别技术"@zh .
+
+ex:AccidentalActivation rdf:type airo:Vulnerability ;
+    rdfs:label "Accidental Activation Vulnerability"@en ;
+    rdfs:label "意外激活漏洞"@zh .
+
+ex:SoftwareBug rdf:type airo:RiskSource ;
+    rdfs:label "Software Bug Risk Source"@en ;
+    rdfs:label "软件缺陷风险源"@zh .
+
+ex:UnauthorizedDataAccess rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Data Access Threat"@en ;
+    rdfs:label "未经授权的数据访问威胁"@zh .

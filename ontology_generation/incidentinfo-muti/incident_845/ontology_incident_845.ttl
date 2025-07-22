@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDetectors rdf:type airo:AISystem ;
+    rdfs:label "AI检测器"@zh ;
+    rdfs:label "AI Detectors"@en ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasAISubject ex:Students ;
+    airo:hasPurpose ex:CheatingDetection ;
+    airo:isAppliedWithinDomain ex:Education ;
+    airo:usesTechnique ex:TextAnalysis ;
+    airo:hasVulnerability ex:FalsePositiveRate .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "错误指控风险"@zh ;
+    rdfs:label "False Accusation Risk"@en ;
+    airo:hasConsequence ex:AcademicConsequences ;
+    airo:isRiskSourceFor ex:AlgorithmicBias .
+
+ex:AcademicConsequences rdf:type airo:Consequence ;
+    rdfs:label "学术后果"@zh ;
+    rdfs:label "Academic Consequences"@en ;
+    airo:hasImpact ex:AcademicReputationDamage .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "学生"@zh ;
+    rdfs:label "Students"@en .
+
+ex:AcademicReputationDamage rdf:type airo:Impact ;
+    rdfs:label "学术声誉损害"@zh ;
+    rdfs:label "Academic Reputation Damage"@en ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:CheatingDetection rdf:type airo:Purpose ;
+    rdfs:label "作弊检测"@zh ;
+    rdfs:label "Cheating Detection"@en .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "教育"@zh ;
+    rdfs:label "Education"@en .
+
+ex:TextAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "文本分析"@zh ;
+    rdfs:label "Text Analysis"@en .
+
+ex:FalsePositiveRate rdf:type airo:Vulnerability ;
+    rdfs:label "误报率"@zh ;
+    rdfs:label "False Positive Rate"@en .
+
+ex:AlgorithmicBias rdf:type airo:RiskSource ;
+    rdfs:label "算法偏见"@zh ;
+    rdfs:label "Algorithmic Bias"@en .

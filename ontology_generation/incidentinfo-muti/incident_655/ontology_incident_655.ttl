@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAISystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook AI System"@en ;
+    rdfs:label "Facebook人工智能系统"@zh ;
+    airo:hasRisk ex:FinancialScamRisk ;
+    airo:hasStakeholder ex:AmericanUsers .
+
+ex:FinancialScamRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Scam Risk"@en ;
+    rdfs:label "金融诈骗风险"@zh ;
+    airo:hasConsequence ex:LifeSavingsLossConsequence .
+
+ex:AmericanUsers rdf:type airo:Stakeholder ;
+    rdfs:label "American Users"@en ;
+    rdfs:label "美国用户"@zh .
+
+ex:LifeSavingsLossConsequence rdf:type airo:Consequence ;
+    rdfs:label "Life Savings Loss Consequence"@en ;
+    rdfs:label "终身储蓄损失后果"@zh ;
+    airo:hasImpact ex:FinancialRuinImpact .
+
+ex:FinancialRuinImpact rdf:type airo:Impact ;
+    rdfs:label "Financial Ruin Impact"@en ;
+    rdfs:label "财务崩溃影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmericanUsers .

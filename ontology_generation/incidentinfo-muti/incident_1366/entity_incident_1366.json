@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITrainingDataset",
+      "中文名称": "AI训练数据集",
+      "英文名称": "AI Training Dataset",
+      "来源": "Photos of Australian children used in dataset to train AI"
+    },
+    "Risk": {
+      "id": "DeepfakeRisk",
+      "中文名称": "深度伪造风险",
+      "英文名称": "Deepfake Risk",
+      "来源": "Photos of Australian children found in AI training dataset, create deepfake risk"
+    },
+    "AISubject": {
+      "id": "AustralianChildren",
+      "中文名称": "澳大利亚儿童",
+      "英文名称": "Australian Children",
+      "来源": "Photos of Australian children used in dataset to train AI"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "The world's biggest AI models were trained using images of Australian kids, and their families had no idea"
+    },
+    "Stakeholder": {
+      "id": "HumanRightsGroup",
+      "中文名称": "人权组织",
+      "英文名称": "Human Rights Group",
+      "来源": "Human rights group says"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Collection",
+      "来源": "Photos of Australian children used in dataset to train AI"
+    },
+    "Consequence": {
+      "id": "PotentialDeepfakeCreation",
+      "中文名称": "潜在的深度伪造内容制作",
+      "英文名称": "Potential Deepfake Creation",
+      "来源": "Photos of Australian children found in AI training dataset, create deepfake risk"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookFriendRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Friend Recommendation System"@en ;
+    rdfs:label "Facebook好友推荐系统"@zh ;
+    airo:hasRisk ex:PatientPrivacyViolationRisk ;
+    airo:hasCapability ex:SocialNetworkAnalysisForFriendRecommendation ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform ;
+    airo:hasStakeholder ex:PsychiatristAndPatients .
+
+ex:PatientPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Patient Privacy Violation Risk"@en ;
+    rdfs:label "患者隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDisclosureOfPatientRelationships .
+
+ex:UnauthorizedDisclosureOfPatientRelationships rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Disclosure of Patient Relationships Consequence"@en ;
+    rdfs:label "患者关系未经授权的披露后果"@zh ;
+    airo:hasImpact ex:BreachOfDoctorPatientConfidentiality .
+
+ex:BreachOfDoctorPatientConfidentiality rdf:type airo:Impact ;
+    rdfs:label "Breach of Doctor-Patient Confidentiality Impact"@en ;
+    rdfs:label "医患保密协议破坏的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PsychiatristAndPatients .
+
+ex:PsychiatristAndPatients rdf:type airo:Stakeholder ;
+    rdfs:label "Psychiatrist and Patients"@en ;
+    rdfs:label "精神科医生和患者"@zh .
+
+ex:SocialNetworkAnalysisForFriendRecommendation rdf:type airo:AICapability ;
+    rdfs:label "Social Network Analysis for Friend Recommendation Capability"@en ;
+    rdfs:label "社交网络分析用于好友推荐的能力"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

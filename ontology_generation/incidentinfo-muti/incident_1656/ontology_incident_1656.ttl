@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleContentModerationAI rdf:type airo:AISystem ;
+    rdfs:label "Google Content Moderation AI"@en ;
+    rdfs:label "谷歌内容审核AI"@zh ;
+    airo:hasRisk ex:MedicalImageMisclassificationRisk ;
+    airo:hasAISubject ex:ParentSharingMedicalImages ;
+    airo:hasCapability ex:ImageClassification ;
+    airo:hasStakeholder ex:MedicalProfessionals .
+
+ex:MedicalImageMisclassificationRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Image Misclassification Risk"@en ;
+    rdfs:label "医疗图像误分类风险"@zh ;
+    airo:hasConsequence ex:AccountTermination ;
+    airo:isRiskSourceFor ex:SensitiveBodyPartDetection .
+
+ex:AccountTermination rdf:type airo:Consequence ;
+    rdfs:label "Account Termination Consequence"@en ;
+    rdfs:label "账户终止后果"@zh ;
+    airo:hasImpact ex:HealthcareCommunicationDisruption .
+
+ex:ParentSharingMedicalImages rdf:type airo:AISubject ;
+    rdfs:label "Parent Sharing Medical Images"@en ;
+    rdfs:label "分享医疗图像的父母"@zh .
+
+ex:MedicalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "Medical Professionals"@en ;
+    rdfs:label "医疗专业人员"@zh .
+
+ex:ImageClassification rdf:type airo:AICapability ;
+    rdfs:label "Image Classification Capability"@en ;
+    rdfs:label "图像分类能力"@zh .
+
+ex:SensitiveBodyPartDetection rdf:type airo:RiskSource ;
+    rdfs:label "Sensitive Body Part Detection Risk Source"@en ;
+    rdfs:label "敏感身体部位检测"@zh .
+
+ex:HealthcareCommunicationDisruption rdf:type airo:Impact ;
+    rdfs:label "Healthcare Communication Disruption Impact"@en ;
+    rdfs:label "医疗沟通中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalProfessionals .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HomeValueAssessmentAlgorithm",
+      "中文名称": "房屋价值评估算法",
+      "英文名称": "Home Value Assessment Algorithm",
+      "来源": "Dutch city uses algorithm to assess home value"
+    },
+    "Risk": {
+      "id": "AlgorithmicOpacityRisk",
+      "中文名称": "算法不透明风险",
+      "英文名称": "Algorithmic Opacity Risk",
+      "来源": "but has no idea how it works"
+    },
+    "Stakeholder": {
+      "id": "DutchCityGovernment",
+      "中文名称": "荷兰市政府",
+      "英文名称": "Dutch City Government",
+      "来源": "Dutch city uses algorithm to assess home value"
+    },
+    "AIOperator": {
+      "id": "AlgorithmProvider",
+      "中文名称": "算法提供者",
+      "英文名称": "Algorithm Provider",
+      "来源": "Dutch city uses algorithm to assess home value"
+    },
+    "Domain": {
+      "id": "RealEstateValuation",
+      "中文名称": "房地产评估领域",
+      "英文名称": "Real Estate Valuation Domain",
+      "来源": "uses algorithm to assess home value"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmicTransparency",
+      "中文名称": "算法透明度缺失风险源",
+      "英文名称": "Lack of Algorithmic Transparency Risk Source",
+      "来源": "but has no idea how it works"
+    },
+    "Vulnerability": {
+      "id": "GovernmentRelianceOnOpaqueSystems",
+      "中文名称": "政府依赖不透明系统的脆弱性",
+      "英文名称": "Government Reliance on Opaque Systems Vulnerability",
+      "来源": "Dutch city uses algorithm to assess home value, but has no idea how it works"
+    },
+    "Consequence": {
+      "id": "UnfairPropertyAssessments",
+      "中文名称": "不公平房产评估后果",
+      "英文名称": "Unfair Property Assessments Consequence",
+      "来源": "uses algorithm to assess home value, but has no idea how it works"
+    }
+  }
+}

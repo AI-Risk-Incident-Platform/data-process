@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:XiaohongshuAIImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "Xiaohongshu AI Image Generator"@en ;
+    rdfs:label "小红书AI图像生成器"@zh ;
+    airo:hasRisk ex:UnauthorizedUseOfArtisticStyle ;
+    airo:hasStakeholder ex:ChineseArtists ;
+    airo:isDeployedBy ex:XiaohongshuCompany .
+
+ex:UnauthorizedUseOfArtisticStyle rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Use of Artistic Style Risk"@en ;
+    rdfs:label "未经授权使用艺术风格风险"@zh ;
+    airo:hasConsequence ex:ArtisticStyleReproduction ;
+    airo:isRiskSourceFor ex:DataScrapingWithoutConsent .
+
+ex:ChineseArtists rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Artists"@en ;
+    rdfs:label "中国艺术家"@zh .
+
+ex:XiaohongshuCompany rdf:type airo:AIOperator ;
+    rdfs:label "Xiaohongshu Company"@en ;
+    rdfs:label "小红书公司"@zh .
+
+ex:DataScrapingWithoutConsent rdf:type airo:RiskSource ;
+    rdfs:label "Data Scraping Without Consent Risk Source"@en ;
+    rdfs:label "未经同意的数据抓取风险源"@zh .
+
+ex:ArtisticStyleReproduction rdf:type airo:Consequence ;
+    rdfs:label "Artistic Style Reproduction Consequence"@en ;
+    rdfs:label "艺术风格复制后果"@zh ;
+    airo:hasImpact ex:ArtistIncomeLoss .
+
+ex:ArtistIncomeLoss rdf:type airo:Impact ;
+    rdfs:label "Artist Income Loss Impact"@en ;
+    rdfs:label "艺术家收入损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseArtists .

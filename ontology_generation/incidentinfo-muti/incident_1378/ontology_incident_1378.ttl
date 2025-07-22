@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PerplexityAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Perplexity AI Chatbot"@en ;
+    rdfs:label "Perplexity AI聊天机器人"@zh ;
+    airo:hasRisk ex:UnauthorizedWebScrapingRisk ;
+    airo:hasCapability ex:WebContentCrawling ;
+    airo:isDeployedBy ex:PerplexityAI ;
+    airo:hasPurpose ex:ContentAggregation ;
+    airo:hasStakeholder ex:WebPublishers ;
+    airo:isAppliedWithinDomain ex:WebContent ;
+    airo:usesTechnique ex:WebCrawlingAlgorithm ;
+    airo:hasVulnerability ex:LackOfTechnicalProtection .
+
+ex:UnauthorizedWebScrapingRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Web Scraping Risk"@en ;
+    rdfs:label "未经授权的网页抓取风险"@zh ;
+    airo:hasConsequence ex:CopyrightInfringement ;
+    airo:isRiskSourceFor ex:NonComplianceWithWebStandards .
+
+ex:CopyrightInfringement rdf:type airo:Consequence ;
+    rdfs:label "Copyright Infringement Consequence"@en ;
+    rdfs:label "版权侵权后果"@zh ;
+    airo:hasImpact ex:EconomicLossForPublishers .
+
+ex:WebContentCrawling rdf:type airo:AICapability ;
+    rdfs:label "Web Content Crawling Capability"@en ;
+    rdfs:label "网页内容抓取能力"@zh .
+
+ex:PerplexityAI rdf:type airo:AIOperator ;
+    rdfs:label "Perplexity AI Company"@en ;
+    rdfs:label "Perplexity AI公司"@zh .
+
+ex:WebPublishers rdf:type airo:Stakeholder ;
+    rdfs:label "Web Publishers"@en ;
+    rdfs:label "网络出版商"@zh .
+
+ex:EconomicLossForPublishers rdf:type airo:Impact ;
+    rdfs:label "Economic Loss for Publishers Impact"@en ;
+    rdfs:label "出版商经济损失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WebPublishers .
+
+ex:ContentAggregation rdf:type airo:Purpose ;
+    rdfs:label "Content Aggregation Purpose"@en ;
+    rdfs:label "内容聚合的目的"@zh .
+
+ex:WebContent rdf:type airo:Domain ;
+    rdfs:label "Web Content Domain"@en ;
+    rdfs:label "网络内容领域"@zh .
+
+ex:WebCrawlingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Web Crawling Algorithm Technique"@en ;
+    rdfs:label "网络爬虫算法"@zh .
+
+ex:LackOfTechnicalProtection rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Technical Protection Vulnerability"@en ;
+    rdfs:label "缺乏技术保护的脆弱性"@zh .
+
+ex:DataMisappropriation rdf:type airo:Threat ;
+    rdfs:label "Data Misappropriation Threat"@en ;
+    rdfs:label "数据盗用的威胁"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedWebScrapingRisk .
+
+ex:UnethicalDataCollection rdf:type airo:Hazard ;
+    rdfs:label "Unethical Data Collection Hazard"@en ;
+    rdfs:label "不道德数据收集的危害"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedWebScrapingRisk .
+
+ex:NonComplianceWithWebStandards rdf:type airo:RiskSource ;
+    rdfs:label "Non-Compliance with Web Standards Risk Source"@en ;
+    rdfs:label "不遵守网络标准的风险源"@zh .
+
+ex:EthicalIssuesInWebScraping rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Web Scraping Risk Concept"@en ;
+    rdfs:label "网络抓取中的伦理问题"@zh .

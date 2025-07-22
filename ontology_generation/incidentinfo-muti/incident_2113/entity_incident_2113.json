@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition Software",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    },
+    "Purpose": {
+      "id": "TerroristIdentification",
+      "中文名称": "恐怖分子识别",
+      "英文名称": "Terrorist Identification",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全",
+      "英文名称": "Public Security",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    },
+    "Stakeholder": {
+      "id": "GermanGovernment",
+      "中文名称": "德国政府",
+      "英文名称": "German Government",
+      "来源": "Facial recognition software to catch terrorists being tested at Berlin station"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ElisReginaDeepfakeAd rdf:type airo:AISystem ;
+    rdfs:label "Elis Regina Deepfake Ad"@en ;
+    rdfs:label "Elis Regina深度伪造广告"@zh ;
+    airo:hasRisk ex:EthicalConcernsInPosthumousAIResurrection ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:CommercialAdvertising ;
+    airo:hasStakeholder ex:DeceasedSingerFamily ;
+    airo:isAppliedWithinDomain ex:AutomotiveMarketing .
+
+ex:EthicalConcernsInPosthumousAIResurrection rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in Posthumous AI Resurrection Risk"@en ;
+    rdfs:label "死后AI复活的伦理担忧风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfConsentFromDeceased ;
+    airo:hasConsequence ex:PotentialLegalChallenges .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:DeceasedSingerFamily rdf:type airo:Stakeholder ;
+    rdfs:label "Deceased Singer Family"@en ;
+    rdfs:label "已故歌手家属"@zh .
+
+ex:EmotionalDistressToFamily rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Family Impact"@en ;
+    rdfs:label "对家属造成情感困扰的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DeceasedSingerFamily .
+
+ex:CommercialAdvertising rdf:type airo:Purpose ;
+    rdfs:label "Commercial Advertising"@en ;
+    rdfs:label "商业广告"@zh .
+
+ex:AutomotiveMarketing rdf:type airo:Domain ;
+    rdfs:label "Automotive Marketing Domain"@en ;
+    rdfs:label "汽车营销领域"@zh .
+
+ex:LackOfConsentFromDeceased rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Consent from Deceased Risk Source"@en ;
+    rdfs:label "缺乏逝者同意的风险源"@zh .
+
+ex:PotentialLegalChallenges rdf:type airo:Consequence ;
+    rdfs:label "Potential Legal Challenges Consequence"@en ;
+    rdfs:label "潜在法律挑战的后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressToFamily .

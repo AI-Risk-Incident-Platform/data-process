@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Are Australian Research Council reports being written by ChatGPT?"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "Academic Integrity Risk",
+      "来源": "ChatGPT used in peer reviews of Australian Research Council grant applications"
+    },
+    "Stakeholder": {
+      "id": "AustralianResearchCouncil",
+      "中文名称": "澳大利亚研究委员会",
+      "英文名称": "Australian Research Council",
+      "来源": "ChatGPT used in peer reviews of Australian Research Council grant applications"
+    },
+    "Purpose": {
+      "id": "AcademicReportGeneration",
+      "中文名称": "学术报告生成",
+      "英文名称": "Academic Report Generation",
+      "来源": "Are Australian Research Council reports being written by ChatGPT?"
+    },
+    "Domain": {
+      "id": "AcademicResearch",
+      "中文名称": "学术研究",
+      "英文名称": "Academic Research",
+      "来源": "ChatGPT used in peer reviews of Australian Research Council grant applications"
+    },
+    "Consequence": {
+      "id": "CompromisedPeerReviewProcess",
+      "中文名称": "同行评审过程受损",
+      "英文名称": "Compromised Peer Review Process",
+      "来源": "ChatGPT used in peer reviews of Australian Research Council grant applications"
+    },
+    "Impact": {
+      "id": "ReducedResearchQuality",
+      "中文名称": "研究质量下降",
+      "英文名称": "Reduced Research Quality",
+      "来源": "ChatGPT used in peer reviews of Australian Research Council grant applications"
+    }
+  }
+}

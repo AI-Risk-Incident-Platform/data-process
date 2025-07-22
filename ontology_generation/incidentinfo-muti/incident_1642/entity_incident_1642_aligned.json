@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForPersonaReplication",
+      "中文名称": "用于人物形象复制的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的'AI use of his likeness'和'non-permitted use of Anil Kapoor's name, voice, dialogue through AI'"
+    },
+    "Risk": {
+      "id": "UnauthorizedPersonaReplicationRisk",
+      "中文名称": "未经授权的人物形象复制风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'non-permitted use'和'misuse of Anil Kapoor's persona'"
+    },
+    "Stakeholder": {
+      "id": "AnilKapoor",
+      "中文名称": "阿尼尔·卡普尔",
+      "英文名称": "Anil Kapoor",
+      "来源": "所有标题中都提到了Anil Kapoor作为受影响方"
+    },
+    "Consequence": {
+      "id": "PersonalityRightsViolation",
+      "中文名称": "人格权侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题中提到的'non-permitted use'和'misuse'暗示了权利侵犯"
+    },
+    "AIOperator": {
+      "id": "UnauthorizedAIUsers",
+      "中文名称": "未经授权的AI使用者",
+      "英文名称": "Unauthorized AI Users",
+      "来源": "标题中提到的'non-permitted use'和'misuse'暗示了未经授权的使用者"
+    },
+    "Impact": {
+      "id": "ReputationAndEconomicDamage",
+      "中文名称": "声誉和经济损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "法院判决保护其形象权暗示了潜在损害"
+    },
+    "Purpose": {
+      "id": "PersonaReplication",
+      "中文名称": "人物形象复制的目的",
+      "英文名称": "Persona Replication Purpose",
+      "来源": "标题中提到的'use of his likeness'和'persona'"
+    },
+    "Domain": {
+      "id": "EntertainmentIndustry",
+      "中文名称": "娱乐产业领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "涉及演员形象权保护"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "标题中提到的'voice, dialogue through AI'暗示了深度伪造技术"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForPersonaReplication",
+      "中文名称": "用于人物形象复制的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的'AI use of his likeness'和'non-permitted use of Anil Kapoor's name, voice, dialogue through AI'"
+    },
+    "Risk": {
+      "id": "UnauthorizedPersonaReplicationRisk",
+      "中文名称": "未经授权的人物形象复制风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'non-permitted use'和'misuse of Anil Kapoor's persona'"
+    },
+    "Stakeholder": {
+      "id": "AnilKapoor",
+      "中文名称": "阿尼尔·卡普尔",
+      "英文名称": "Anil Kapoor",
+      "来源": "所有标题中都提到了Anil Kapoor作为受影响方"
+    },
+    "Consequence": {
+      "id": "PersonalityRightsViolation",
+      "中文名称": "人格权侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题中提到的'non-permitted use'和'misuse'暗示了权利侵犯"
+    },
+    "AIOperator": {
+      "id": "UnauthorizedAIUsers",
+      "中文名称": "未经授权的AI使用者",
+      "英文名称": "Unauthorized AI Users",
+      "来源": "标题中提到的'non-permitted use'和'misuse'暗示了未经授权的使用者"
+    },
+    "Impact": {
+      "id": "ReputationAndEconomicDamage",
+      "中文名称": "声誉和经济损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "法院判决保护其形象权暗示了潜在损害"
+    },
+    "Purpose": {
+      "id": "PersonaReplication",
+      "中文名称": "人物形象复制的目的",
+      "英文名称": "Persona Replication Purpose",
+      "来源": "标题中提到的'use of his likeness'和'persona'"
+    },
+    "Domain": {
+      "id": "EntertainmentIndustry",
+      "中文名称": "娱乐产业领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "涉及演员形象权保护"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "标题中提到的'voice, dialogue through AI'暗示了深度伪造技术"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook is wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "错误信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Consequence": {
+      "id": "PublicHealthInformationGap",
+      "中文名称": "公共卫生信息缺口后果",
+      "英文名称": "Public Health Information Gap Consequence",
+      "来源": "blocking news articles about the coronavirus pandemic"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "blocking news articles"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook is wrongly blocking news articles"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众错误信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Purpose": {
+      "id": "ContentModerationForPublicSafety",
+      "中文名称": "为公共安全进行内容审核的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "blocking news articles about the coronavirus pandemic"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook is wrongly blocking news articles"
+    },
+    "RiskSource": {
+      "id": "OverzealousContentFiltering",
+      "中文名称": "过度内容过滤的风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "wrongly blocking news articles"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook is wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "错误信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Consequence": {
+      "id": "PublicHealthInformationGap",
+      "中文名称": "公共卫生信息缺口后果",
+      "英文名称": "Public Health Information Gap Consequence",
+      "来源": "blocking news articles about the coronavirus pandemic"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "blocking news articles"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook is wrongly blocking news articles"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众错误信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "wrongly blocking news articles about the coronavirus pandemic"
+    },
+    "Purpose": {
+      "id": "ContentModerationForPublicSafety",
+      "中文名称": "为公共安全进行内容审核的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "blocking news articles about the coronavirus pandemic"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook is wrongly blocking news articles"
+    },
+    "RiskSource": {
+      "id": "OverzealousContentFiltering",
+      "中文名称": "过度内容过滤的风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "wrongly blocking news articles"
+    }
+  }
+}

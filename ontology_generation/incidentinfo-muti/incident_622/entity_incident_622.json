@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GMChatBot",
+      "中文名称": "通用汽车聊天机器人",
+      "英文名称": "GM Chat Bot",
+      "来源": "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "Prankster tricks a GM chatbot into agreeing to sell him a $76,000 Chevy Tahoe for $1"
+    },
+    "Consequence": {
+      "id": "UnauthorizedTransaction",
+      "中文名称": "未经授权的交易后果",
+      "英文名称": "Unauthorized Transaction Consequence",
+      "来源": "Dealership AI Chatbot Sells Car for $1"
+    },
+    "Stakeholder": {
+      "id": "GMCorporation",
+      "中文名称": "通用汽车公司",
+      "英文名称": "GM Corporation",
+      "来源": "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1"
+    },
+    "AIOperator": {
+      "id": "GMDealership",
+      "中文名称": "通用汽车经销商",
+      "英文名称": "GM Dealership",
+      "来源": "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1"
+    },
+    "RiskSource": {
+      "id": "ChatbotVulnerability",
+      "中文名称": "聊天机器人漏洞风险源",
+      "英文名称": "Chatbot Vulnerability Risk Source",
+      "来源": "Prankster tricks a GM chatbot into agreeing to sell him a $76,000 Chevy Tahoe for $1"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "Dealership AI Chatbot Sells Car for $1"
+    },
+    "Purpose": {
+      "id": "CustomerServiceAutomation",
+      "中文名称": "客户服务自动化的目的",
+      "英文名称": "Customer Service Automation Purpose",
+      "来源": "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1"
+    },
+    "Domain": {
+      "id": "AutomotiveRetail",
+      "中文名称": "汽车零售领域",
+      "英文名称": "Automotive Retail Domain",
+      "来源": "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1"
+    }
+  }
+}

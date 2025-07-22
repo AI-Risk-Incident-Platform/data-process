@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChildrenBookIllustrationSystem",
+      "中文名称": "AI儿童书籍插图系统",
+      "英文名称": "AI Children Book Illustration System",
+      "来源": "Mark Zuckerberg Used AI For Kids Book Rather Than Hire An Artist"
+    },
+    "Risk": {
+      "id": "BacklashForUsingAIInCreativeWorks",
+      "中文名称": "在创意作品中使用AI引发的反弹风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Mark Zuckerberg faces backlash for using AI illustrations in children's book"
+    },
+    "Stakeholder": {
+      "id": "ArtistsAndCreativeProfessionals",
+      "中文名称": "艺术家和创意专业人士",
+      "英文名称": "Creators",
+      "来源": "Rather Than Hire An Artist"
+    },
+    "AIOperator": {
+      "id": "MarkZuckerberg",
+      "中文名称": "马克·扎克伯格",
+      "英文名称": "Mark Zuckerberg",
+      "来源": "Mark Zuckerberg Used AI For Kids Book"
+    },
+    "Purpose": {
+      "id": "CreatingChildrenBookIllustrations",
+      "中文名称": "创作儿童书籍插图",
+      "英文名称": "Creating Children Book Illustrations",
+      "来源": "Used AI For Kids Book"
+    },
+    "Domain": {
+      "id": "PublishingAndCreativeIndustries",
+      "中文名称": "出版和创意产业",
+      "英文名称": "Publishing and Creative Industries",
+      "来源": "children's book"
+    },
+    "Impact": {
+      "id": "PotentialJobDisplacementForArtists",
+      "中文名称": "艺术家潜在失业影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Rather Than Hire An Artist"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChildrenBookIllustrationSystem",
+      "中文名称": "AI儿童书籍插图系统",
+      "英文名称": "AI Children Book Illustration System",
+      "来源": "Mark Zuckerberg Used AI For Kids Book Rather Than Hire An Artist"
+    },
+    "Risk": {
+      "id": "BacklashForUsingAIInCreativeWorks",
+      "中文名称": "在创意作品中使用AI引发的反弹风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Mark Zuckerberg faces backlash for using AI illustrations in children's book"
+    },
+    "Stakeholder": {
+      "id": "ArtistsAndCreativeProfessionals",
+      "中文名称": "艺术家和创意专业人士",
+      "英文名称": "Creators",
+      "来源": "Rather Than Hire An Artist"
+    },
+    "AIOperator": {
+      "id": "MarkZuckerberg",
+      "中文名称": "马克·扎克伯格",
+      "英文名称": "Mark Zuckerberg",
+      "来源": "Mark Zuckerberg Used AI For Kids Book"
+    },
+    "Purpose": {
+      "id": "CreatingChildrenBookIllustrations",
+      "中文名称": "创作儿童书籍插图",
+      "英文名称": "Creating Children Book Illustrations",
+      "来源": "Used AI For Kids Book"
+    },
+    "Domain": {
+      "id": "PublishingAndCreativeIndustries",
+      "中文名称": "出版和创意产业",
+      "英文名称": "Publishing and Creative Industries",
+      "来源": "children's book"
+    },
+    "Impact": {
+      "id": "PotentialJobDisplacementForArtists",
+      "中文名称": "艺术家潜在失业影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Rather Than Hire An Artist"
+    }
+  }
+}

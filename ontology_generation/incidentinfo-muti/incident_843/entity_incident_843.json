@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SmartTram",
+      "中文名称": "智能电车",
+      "英文名称": "Smart Tram",
+      "来源": "AI-powered ‘Smart Tram’"
+    },
+    "Risk": {
+      "id": "PedestrianCollisionRisk",
+      "中文名称": "行人碰撞风险",
+      "英文名称": "Pedestrian Collision Risk",
+      "来源": "ploughs into crowd of pedestrians leaving woman trapped under its wheels"
+    },
+    "Consequence": {
+      "id": "PhysicalInjury",
+      "中文名称": "身体伤害",
+      "英文名称": "Physical Injury",
+      "来源": "leaving woman trapped under its wheels"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Public Safety Threat",
+      "来源": "ploughs into crowd of pedestrians"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通",
+      "英文名称": "Public Transportation",
+      "来源": "‘Smart Tram’"
+    }
+  }
+}

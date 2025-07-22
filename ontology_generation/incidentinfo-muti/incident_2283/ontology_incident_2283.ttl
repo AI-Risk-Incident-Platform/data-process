@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ZAODeepfakeApp rdf:type airo:AISystem ;
+    rdfs:label "ZAO Deepfake App"@en ;
+    rdfs:label "ZAO深度伪造应用"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:FacialRecognitionAndSwapping ;
+    airo:hasStakeholder ex:AppUsers ;
+    airo:hasAISubject ex:FacialBiometricData ;
+    airo:hasPurpose ex:EntertainmentFaceSwapping ;
+    airo:isAppliedWithinDomain ex:SocialMediaApplications ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping ;
+    airo:hasVulnerability ex:BiometricDataCollection ;
+    airo:isDeployedBy ex:ZAOCompany .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalDataExposure ;
+    airo:isRiskSourceFor ex:LackOfExplicitConsent ;
+    airo:isRiskSourceFor ex:UnauthorizedDataUsage ;
+    airo:isRiskSourceFor ex:PermanentBiometricStorage .
+
+ex:PersonalDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Exposure Consequence"@en ;
+    rdfs:label "个人数据暴露后果"@zh ;
+    airo:hasImpact ex:IdentityTheftPotential .
+
+ex:FacialRecognitionAndSwapping rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition and Swapping Capability"@en ;
+    rdfs:label "面部识别与替换能力"@zh .
+
+ex:ZAOCompany rdf:type airo:AIOperator ;
+    rdfs:label "ZAO Company"@en ;
+    rdfs:label "ZAO公司"@zh .
+
+ex:AppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "App Users"@en ;
+    rdfs:label "应用用户"@zh .
+
+ex:FacialBiometricData rdf:type airo:AISubject ;
+    rdfs:label "Facial Biometric Data"@en ;
+    rdfs:label "面部生物特征数据"@zh .
+
+ex:IdentityTheftPotential rdf:type airo:Impact ;
+    rdfs:label "Identity Theft Potential Impact"@en ;
+    rdfs:label "身份盗窃潜在影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AppUsers .
+
+ex:EntertainmentFaceSwapping rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Face Swapping Purpose"@en ;
+    rdfs:label "娱乐性面部替换目的"@zh .
+
+ex:SocialMediaApplications rdf:type airo:Domain ;
+    rdfs:label "Social Media Applications Domain"@en ;
+    rdfs:label "社交媒体应用领域"@zh .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en ;
+    rdfs:label "基于深度学习的面部替换技术"@zh .
+
+ex:BiometricDataCollection rdf:type airo:Vulnerability ;
+    rdfs:label "Biometric Data Collection Vulnerability"@en ;
+    rdfs:label "生物特征数据收集漏洞"@zh .
+
+ex:UnauthorizedDataUsage rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Data Usage Threat"@en ;
+    rdfs:label "未经授权的数据使用威胁"@zh .
+
+ex:PermanentBiometricStorage rdf:type airo:Hazard ;
+    rdfs:label "Permanent Biometric Storage Hazard"@en ;
+    rdfs:label "永久性生物特征存储危害"@zh .
+
+ex:LackOfExplicitConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Explicit Consent Risk Source"@en ;
+    rdfs:label "缺乏明确同意的风险源"@zh .
+
+ex:EthicalConcernsInDeepfakeTechnology rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Deepfake Technology Risk Concept"@en ;
+    rdfs:label "深度伪造技术中的伦理问题"@zh .

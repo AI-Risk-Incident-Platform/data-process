@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "Risk": {
+      "id": "DataPrivacyViolationRisk",
+      "中文名称": "数据隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI is being sued for training ChatGPT with 'stolen' personal data"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "OpenAI is being sued for training ChatGPT with 'stolen' personal data"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstAIProvider",
+      "中文名称": "对AI提供者的法律诉讼",
+      "英文名称": "Legal Action Against AI Provider",
+      "来源": "Class Action Complaint"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "Risk": {
+      "id": "DataPrivacyViolationRisk",
+      "中文名称": "数据隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI is being sued for training ChatGPT with 'stolen' personal data"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "OpenAI is being sued for training ChatGPT with 'stolen' personal data"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstAIProvider",
+      "中文名称": "对AI提供者的法律诉讼",
+      "英文名称": "Legal Action Against AI Provider",
+      "来源": "Class Action Complaint"
+    }
+  }
+}

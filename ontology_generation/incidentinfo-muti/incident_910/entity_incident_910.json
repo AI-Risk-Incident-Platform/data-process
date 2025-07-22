@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Video System",
+      "来源": "视频欺诈性邀请投资使用路易斯·苏亚雷斯的图像和声音"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "虚假广告宣传投资平台购买UTE股票"
+    },
+    "Consequence": {
+      "id": "InvestorFinancialLoss",
+      "中文名称": "投资者财务损失后果",
+      "英文名称": "Investor Financial Loss Consequence",
+      "来源": "利用知名乌拉圭足球运动员形象欺骗"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "使用路易斯·苏亚雷斯的图像和声音创建欺诈性视频"
+    },
+    "Stakeholder": {
+      "id": "PotentialInvestors",
+      "中文名称": "潜在投资者",
+      "英文名称": "Potential Investors",
+      "来源": "虚假广告宣传投资平台购买UTE股票"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "利用知名人物形象进行欺诈的新型诈骗模式"
+    }
+  }
+}

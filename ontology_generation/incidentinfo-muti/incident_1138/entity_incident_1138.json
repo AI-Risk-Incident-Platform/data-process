@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WatsonAI",
+      "中文名称": "沃森AI",
+      "英文名称": "Watson AI",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Risk": {
+      "id": "MedicalDiagnosisFailureRisk",
+      "中文名称": "医疗诊断失败风险",
+      "英文名称": "Medical Diagnosis Failure Risk",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Domain": {
+      "id": "HealthcareIT",
+      "中文名称": "医疗保健IT",
+      "英文名称": "Healthcare IT",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Purpose": {
+      "id": "CancerDiagnosisAndTreatment",
+      "中文名称": "癌症诊断与治疗",
+      "英文名称": "Cancer Diagnosis and Treatment",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Consequence": {
+      "id": "IneffectiveMedicalTreatment",
+      "中文名称": "无效医疗治疗",
+      "英文名称": "Ineffective Medical Treatment",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Impact": {
+      "id": "PatientHealthDeterioration",
+      "中文名称": "患者健康状况恶化",
+      "英文名称": "Patient Health Deterioration",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    },
+    "Stakeholder": {
+      "id": "MDAndersonCancerCenter",
+      "中文名称": "MD安德森癌症中心",
+      "英文名称": "MD Anderson Cancer Center",
+      "来源": "Dr. Watson gets benched at University of Texas' MD Anderson"
+    },
+    "RiskSource": {
+      "id": "SystemPerformanceLimitations",
+      "中文名称": "系统性能限制",
+      "英文名称": "System Performance Limitations",
+      "来源": "Watson can't cure cancer ... or all the stuff that breaks IT projects"
+    }
+  }
+}

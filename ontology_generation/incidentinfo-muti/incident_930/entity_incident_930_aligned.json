@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ImageGenerationAI",
+      "中文名称": "图像生成AI",
+      "英文名称": "AI Image Generator",
+      "来源": "crear imágenes de cinco compañeras de colegio desnudas con inteligencia artificial"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "crear imágenes de cinco compañeras de colegio desnudas"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "crear imágenes de cinco compañeras desnudas"
+    },
+    "AISubject": {
+      "id": "SchoolGirls",
+      "中文名称": "女学生",
+      "英文名称": "Girl Students",
+      "来源": "cinco compañeras de colegio"
+    },
+    "Stakeholder": {
+      "id": "SchoolCommunity",
+      "中文名称": "学校社区",
+      "英文名称": "School Community",
+      "来源": "compañeras de colegio"
+    },
+    "Misuse": {
+      "id": "NonConsensualImageCreation",
+      "中文名称": "未经同意的图像创建",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "crear imágenes de cinco compañeras desnudas"
+    },
+    "Impact": {
+      "id": "SocialStigma",
+      "中文名称": "社会污名",
+      "英文名称": "Social Stigma",
+      "来源": "difundirlas"
+    },
+    "AIOperator": {
+      "id": "MinorStudent",
+      "中文名称": "未成年学生",
+      "英文名称": "Minor Student",
+      "来源": "Detenido un menor"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ImageGenerationAI",
+      "中文名称": "图像生成AI",
+      "英文名称": "AI Image Generator",
+      "来源": "crear imágenes de cinco compañeras de colegio desnudas con inteligencia artificial"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "crear imágenes de cinco compañeras de colegio desnudas"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "crear imágenes de cinco compañeras desnudas"
+    },
+    "AISubject": {
+      "id": "SchoolGirls",
+      "中文名称": "女学生",
+      "英文名称": "Girl Students",
+      "来源": "cinco compañeras de colegio"
+    },
+    "Stakeholder": {
+      "id": "SchoolCommunity",
+      "中文名称": "学校社区",
+      "英文名称": "School Community",
+      "来源": "compañeras de colegio"
+    },
+    "Misuse": {
+      "id": "NonConsensualImageCreation",
+      "中文名称": "未经同意的图像创建",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "crear imágenes de cinco compañeras desnudas"
+    },
+    "Impact": {
+      "id": "SocialStigma",
+      "中文名称": "社会污名",
+      "英文名称": "Social Stigma",
+      "来源": "difundirlas"
+    },
+    "AIOperator": {
+      "id": "MinorStudent",
+      "中文名称": "未成年学生",
+      "英文名称": "Minor Student",
+      "来源": "Detenido un menor"
+    }
+  }
+}

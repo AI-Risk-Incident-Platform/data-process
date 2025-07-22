@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonRecruitmentAI",
+      "中文名称": "亚马逊招聘AI",
+      "英文名称": "Amazon AI",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Risk": {
+      "id": "GenderBiasInHiring",
+      "中文名称": "招聘中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstFemaleApplicants",
+      "中文名称": "对女性申请者的歧视后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForResumeScreening",
+      "中文名称": "用于简历筛选的机器学习技术",
+      "英文名称": "Machine Learning for Resume Screening Technique",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Impact": {
+      "id": "ReducedDiversityInWorkforce",
+      "中文名称": "劳动力多样性减少的影响",
+      "英文名称": "Reduced Diversity in Workforce Impact",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonRecruitmentAI",
+      "中文名称": "亚马逊招聘AI",
+      "英文名称": "Amazon AI",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Risk": {
+      "id": "GenderBiasInHiring",
+      "中文名称": "招聘中的性别偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstFemaleApplicants",
+      "中文名称": "对女性申请者的歧视后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForResumeScreening",
+      "中文名称": "用于简历筛选的机器学习技术",
+      "英文名称": "Machine Learning for Resume Screening Technique",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    },
+    "Impact": {
+      "id": "ReducedDiversityInWorkforce",
+      "中文名称": "劳动力多样性减少的影响",
+      "英文名称": "Reduced Diversity in Workforce Impact",
+      "来源": "Amazon scraps 'sexist AI' recruitment tool"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICrimeFightingTool",
+      "中文名称": "AI犯罪打击工具",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Questions arise over the use of an AI crime-fighting tool"
+    },
+    "Risk": {
+      "id": "UnjustLifeSentenceRisk",
+      "中文名称": "不公正终身监禁风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "AI Tool Under Scrutiny After Leading to Life Sentence"
+    },
+    "Consequence": {
+      "id": "LifeImprisonmentConsequence",
+      "中文名称": "终身监禁后果",
+      "英文名称": "Life Imprisonment Consequence",
+      "来源": "Prosecutors used an AI tool to send a man to prison for life"
+    },
+    "Stakeholder": {
+      "id": "ToolCreatorUnderInvestigation",
+      "中文名称": "接受调查的工具创建者",
+      "英文名称": "Tool Creator Under Investigation",
+      "来源": "Now the person who created it is under investigation"
+    },
+    "AIOperator": {
+      "id": "ProsecutorsUsingAITool",
+      "中文名称": "使用AI工具的检察官",
+      "英文名称": "Prosecutors Using AI Tool",
+      "来源": "Prosecutors used an AI tool to send a man to prison for life"
+    },
+    "Impact": {
+      "id": "SeverePersonalLibertyDeprivation",
+      "中文名称": "严重人身自由剥夺影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "send a man to prison for life"
+    },
+    "Purpose": {
+      "id": "CrimePreventionAndPunishment",
+      "中文名称": "犯罪预防与惩罚目的",
+      "英文名称": "Crime Prevention and Punishment Purpose",
+      "来源": "AI crime-fighting tool"
+    },
+    "Domain": {
+      "id": "CriminalJusticeSystem",
+      "中文名称": "刑事司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Prosecutors used an AI tool to send a man to prison"
+    },
+    "RiskSource": {
+      "id": "PotentialBiasInAITool",
+      "中文名称": "AI工具中潜在偏见风险源",
+      "英文名称": "Potential Bias in AI Tool Risk Source",
+      "来源": "AI Tool Under Scrutiny"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AICrimeFightingTool",
+      "中文名称": "AI犯罪打击工具",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Questions arise over the use of an AI crime-fighting tool"
+    },
+    "Risk": {
+      "id": "UnjustLifeSentenceRisk",
+      "中文名称": "不公正终身监禁风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "AI Tool Under Scrutiny After Leading to Life Sentence"
+    },
+    "Consequence": {
+      "id": "LifeImprisonmentConsequence",
+      "中文名称": "终身监禁后果",
+      "英文名称": "Life Imprisonment Consequence",
+      "来源": "Prosecutors used an AI tool to send a man to prison for life"
+    },
+    "Stakeholder": {
+      "id": "ToolCreatorUnderInvestigation",
+      "中文名称": "接受调查的工具创建者",
+      "英文名称": "Tool Creator Under Investigation",
+      "来源": "Now the person who created it is under investigation"
+    },
+    "AIOperator": {
+      "id": "ProsecutorsUsingAITool",
+      "中文名称": "使用AI工具的检察官",
+      "英文名称": "Prosecutors Using AI Tool",
+      "来源": "Prosecutors used an AI tool to send a man to prison for life"
+    },
+    "Impact": {
+      "id": "SeverePersonalLibertyDeprivation",
+      "中文名称": "严重人身自由剥夺影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "send a man to prison for life"
+    },
+    "Purpose": {
+      "id": "CrimePreventionAndPunishment",
+      "中文名称": "犯罪预防与惩罚目的",
+      "英文名称": "Crime Prevention and Punishment Purpose",
+      "来源": "AI crime-fighting tool"
+    },
+    "Domain": {
+      "id": "CriminalJusticeSystem",
+      "中文名称": "刑事司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Prosecutors used an AI tool to send a man to prison"
+    },
+    "RiskSource": {
+      "id": "PotentialBiasInAITool",
+      "中文名称": "AI工具中潜在偏见风险源",
+      "英文名称": "Potential Bias in AI Tool Risk Source",
+      "来源": "AI Tool Under Scrutiny"
+    }
+  }
+}

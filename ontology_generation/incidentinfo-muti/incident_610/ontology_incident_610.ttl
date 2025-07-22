@@ -1,0 +1,60 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPhotoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Photo Generation System"@en ;
+    rdfs:label "AI照片生成系统"@zh ;
+    airo:hasRisk ex:MisleadingContentCreationRisk ;
+    airo:hasCapability ex:PhotorealisticImageGeneration ;
+    airo:hasPurpose ex:CreatingRealisticDigitalArt ;
+    airo:isAppliedWithinDomain ex:DigitalArtAndPhotography ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks .
+
+ex:MisleadingContentCreationRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Content Creation Risk"@en ;
+    rdfs:label "误导性内容创作风险"@zh ;
+    airo:hasConsequence ex:DeceptionInPhotographyCompetitions ;
+    airo:isRiskSourceFor ex:LackOfContentAuthenticationMechanisms .
+
+ex:DeceptionInPhotographyCompetitions rdf:type airo:Consequence ;
+    rdfs:label "Deception in Photography Competitions Consequence"@en ;
+    rdfs:label "摄影比赛中的欺骗后果"@zh ;
+    airo:hasImpact ex:UnderminingTrustInPhotographicArt .
+
+ex:PhotorealisticImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Photorealistic Image Generation Capability"@en ;
+    rdfs:label "照片级真实感图像生成能力"@zh .
+
+ex:UnderminingTrustInPhotographicArt rdf:type airo:Impact ;
+    rdfs:label "Undermining Trust in Photographic Art Impact"@en ;
+    rdfs:label "削弱对摄影艺术信任的影响"@zh .
+
+ex:CreatingRealisticDigitalArt rdf:type airo:Purpose ;
+    rdfs:label "Creating Realistic Digital Art Purpose"@en ;
+    rdfs:label "创建逼真数字艺术的目的"@zh .
+
+ex:DigitalArtAndPhotography rdf:type airo:Domain ;
+    rdfs:label "Digital Art and Photography Domain"@en ;
+    rdfs:label "数字艺术与摄影领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:LackOfContentAuthenticationMechanisms rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Authentication Mechanisms Risk Source"@en ;
+    rdfs:label "缺乏内容认证机制的风险源"@zh ;
+    airo:exploitsVulnerability ex:HumanInabilityToDetectAIgeneratedContent .
+
+ex:HumanInabilityToDetectAIgeneratedContent rdf:type airo:Vulnerability ;
+    rdfs:label "Human Inability to Detect AI-generated Content Vulnerability"@en ;
+    rdfs:label "人类无法识别AI生成内容的脆弱性"@zh .

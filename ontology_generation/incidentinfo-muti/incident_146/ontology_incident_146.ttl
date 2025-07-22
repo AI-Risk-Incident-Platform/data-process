@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram Algorithm"@en ;
+    rdfs:label "Instagram算法"@zh ;
+    airo:hasRisk ex:AlgorithmWeaponizationRisk ;
+    airo:hasStakeholder ex:BeverlyHillsPoliceDepartment ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:hasPurpose ex:ContentModerationAndUserEngagement ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:ContentRecommendationAlgorithm .
+
+ex:AlgorithmWeaponizationRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithm Weaponization Risk"@en ;
+    rdfs:label "算法武器化风险"@zh ;
+    airo:hasConsequence ex:FailedContentSuppression ;
+    airo:isRiskSourceFor ex:IntentionalAlgorithmManipulation .
+
+ex:BeverlyHillsPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Beverly Hills Police Department"@en ;
+    rdfs:label "比佛利山庄警察局"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:ContentModerationAndUserEngagement rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation and User Engagement"@en ;
+    rdfs:label "内容审核和用户参与"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms"@en ;
+    rdfs:label "社交媒体平台"@zh .
+
+ex:IntentionalAlgorithmManipulation rdf:type airo:RiskSource ;
+    rdfs:label "Intentional Algorithm Manipulation"@en ;
+    rdfs:label "故意算法操纵"@zh .
+
+ex:FailedContentSuppression rdf:type airo:Consequence ;
+    rdfs:label "Failed Content Suppression"@en ;
+    rdfs:label "内容压制失败"@zh .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Content Recommendation Algorithm"@en ;
+    rdfs:label "内容推荐算法"@zh .

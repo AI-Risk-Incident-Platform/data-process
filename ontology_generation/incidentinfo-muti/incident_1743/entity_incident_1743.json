@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MachineTranslationAtTheBorder",
+      "中文名称": "边境机器翻译系统",
+      "英文名称": "Machine Translation at the Border System",
+      "来源": "Machine Translation at the Border"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Inaccurate Translation Risk",
+      "来源": "ICE Is Using Busted Translation AI That Can't Understand Detainees"
+    },
+    "Consequence": {
+      "id": "MiscommunicationInAsylumCases",
+      "中文名称": "庇护案件中的沟通错误后果",
+      "英文名称": "Miscommunication in Asylum Cases Consequence",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    },
+    "AICapability": {
+      "id": "LanguageTranslationCapability",
+      "中文名称": "语言翻译能力",
+      "英文名称": "Language Translation Capability",
+      "来源": "Machine Translation at the Border"
+    },
+    "AIOperator": {
+      "id": "USImmigrationAndCustomsEnforcement",
+      "中文名称": "美国移民和海关执法局",
+      "英文名称": "US Immigration and Customs Enforcement",
+      "来源": "ICE Is Using Busted Translation AI That Can't Understand Detainees"
+    },
+    "Stakeholder": {
+      "id": "AsylumSeekers",
+      "中文名称": "寻求庇护者",
+      "英文名称": "Asylum Seekers",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    },
+    "AISubject": {
+      "id": "Detainees",
+      "中文名称": "被拘留者",
+      "英文名称": "Detainees",
+      "来源": "ICE Is Using Busted Translation AI That Can't Understand Detainees"
+    },
+    "Impact": {
+      "id": "DenialOfAsylumDueToMiscommunication",
+      "中文名称": "因沟通错误导致庇护被拒的影响",
+      "英文名称": "Denial of Asylum Due to Miscommunication Impact",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    },
+    "Purpose": {
+      "id": "FacilitatingCommunicationAtBorder",
+      "中文名称": "促进边境沟通的目的",
+      "英文名称": "Facilitating Communication at Border Purpose",
+      "来源": "Machine Translation at the Border"
+    },
+    "Domain": {
+      "id": "ImmigrationAndBorderControl",
+      "中文名称": "移民和边境控制领域",
+      "英文名称": "Immigration and Border Control Domain",
+      "来源": "Machine Translation at the Border"
+    },
+    "AITechnique": {
+      "id": "NeuralMachineTranslation",
+      "中文名称": "神经机器翻译技术",
+      "英文名称": "Neural Machine Translation Technique",
+      "来源": "Machine Translation at the Border"
+    },
+    "Vulnerability": {
+      "id": "LowQualityTrainingData",
+      "中文名称": "低质量训练数据的脆弱性",
+      "英文名称": "Low Quality Training Data Vulnerability",
+      "来源": "ICE Is Using Busted Translation AI That Can't Understand Detainees"
+    },
+    "Threat": {
+      "id": "MisinterpretationOfLegalStatements",
+      "中文名称": "法律陈述被误解的威胁",
+      "英文名称": "Misinterpretation of Legal Statements Threat",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    },
+    "Hazard": {
+      "id": "CulturalAndLinguisticNuances",
+      "中文名称": "文化和语言细微差别的危害",
+      "英文名称": "Cultural and Linguistic Nuances Hazard",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    },
+    "RiskSource": {
+      "id": "InadequateTestingBeforeDeployment",
+      "中文名称": "部署前测试不足的风险源",
+      "英文名称": "Inadequate Testing Before Deployment Risk Source",
+      "来源": "ICE Is Using Busted Translation AI That Can't Understand Detainees"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInBorderAIApplications",
+      "中文名称": "边境AI应用中的伦理问题",
+      "英文名称": "Ethical Issues in Border AI Applications Risk Concept",
+      "来源": "AI's 'insane' translation mistakes endanger US asylum cases"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SovietNuclearWarningSystem rdf:type airo:AISystem ;
+    rdfs:label "Soviet Nuclear Warning System"@en ;
+    rdfs:label "苏联核预警系统"@zh ;
+    airo:hasRisk ex:NuclearFalseAlarmRisk ;
+    airo:hasStakeholder ex:SovietMilitaryOfficer .
+
+ex:NuclearFalseAlarmRisk rdf:type airo:Risk ;
+    rdfs:label "Nuclear False Alarm Risk"@en ;
+    rdfs:label "核误报风险"@zh ;
+    airo:hasConsequence ex:PotentialNuclearWar ;
+    airo:isRiskSourceFor ex:SatelliteSensorMalfunction .
+
+ex:PotentialNuclearWar rdf:type airo:Consequence ;
+    rdfs:label "Potential Nuclear War Consequence"@en ;
+    rdfs:label "潜在核战争后果"@zh ;
+    airo:hasImpact ex:GlobalSecurityThreat .
+
+ex:SovietMilitaryOfficer rdf:type airo:Stakeholder ;
+    rdfs:label "Soviet Military Officer"@en ;
+    rdfs:label "苏联军事官员"@zh .
+
+ex:SatelliteSensorMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "Satellite Sensor Malfunction Risk Source"@en ;
+    rdfs:label "卫星传感器故障风险源"@zh .
+
+ex:GlobalSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Global Security Threat Impact"@en ;
+    rdfs:label "全球安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SovietMilitaryOfficer .

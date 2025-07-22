@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "A Computer Scientist Breaks Down Generative AI’s Hefty Carbon Footprint"
+    },
+    "Risk": {
+      "id": "CarbonFootprintRisk",
+      "中文名称": "碳足迹风险",
+      "英文名称": "Carbon Footprint Risk",
+      "来源": "Training a single AI model can emit as much carbon as five cars in their lifetimes"
+    },
+    "Consequence": {
+      "id": "EnvironmentalImpact",
+      "中文名称": "环境影响后果",
+      "英文名称": "Environmental Impact Consequence",
+      "来源": "How Big is the CO2 Footprint of AI Models? ChatGPT’s Emissions"
+    },
+    "AICapability": {
+      "id": "LargeScaleModelTraining",
+      "中文名称": "大规模模型训练能力",
+      "英文名称": "Large Scale Model Training Capability",
+      "来源": "Training a single AI model can emit as much carbon as five cars in their lifetimes"
+    },
+    "Domain": {
+      "id": "ArtificialIntelligenceResearch",
+      "中文名称": "人工智能研究领域",
+      "英文名称": "Artificial Intelligence Research Domain",
+      "来源": "A Computer Scientist Breaks Down Generative AI’s Hefty Carbon Footprint"
+    },
+    "Impact": {
+      "id": "ClimateChangeContribution",
+      "中文名称": "气候变化影响",
+      "英文名称": "Climate Change Contribution Impact",
+      "来源": "How Big is the CO2 Footprint of AI Models? ChatGPT’s Emissions"
+    }
+  }
+}

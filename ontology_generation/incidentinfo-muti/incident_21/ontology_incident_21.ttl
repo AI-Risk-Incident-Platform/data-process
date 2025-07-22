@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleDriverlessCar rdf:type airo:AISystem ;
+    rdfs:label "Google Driverless Car"@en ;
+    rdfs:label "谷歌无人驾驶汽车"@zh ;
+    airo:hasRisk ex:NearMissRisk ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasStakeholder ex:Delphi .
+
+ex:NearMissRisk rdf:type airo:Risk ;
+    rdfs:label "Near Miss Risk"@en ;
+    rdfs:label "接近碰撞风险"@zh ;
+    airo:hasConsequence ex:PotentialCollision .
+
+ex:Delphi rdf:type airo:Stakeholder ;
+    rdfs:label "Delphi"@en ;
+    rdfs:label "德尔福"@zh .
+
+ex:PotentialCollision rdf:type airo:Consequence ;
+    rdfs:label "Potential Collision Consequence"@en ;
+    rdfs:label "潜在碰撞后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Delphi .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .

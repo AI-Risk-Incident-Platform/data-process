@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GooglePhotosFaceGrouping rdf:type airo:AISystem ;
+    rdfs:label "Google Photos Face Grouping"@en ;
+    rdfs:label "谷歌照片人脸分组功能"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:hasStakeholder ex:IllinoisResidents ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasPurpose ex:PhotoOrganization .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:FinancialCompensation .
+
+ex:FinancialCompensation rdf:type airo:Consequence ;
+    rdfs:label "Financial Compensation Consequence"@en ;
+    rdfs:label "经济赔偿后果"@zh ;
+    airo:hasImpact ex:PrivacyRightsInfringement .
+
+ex:PrivacyRightsInfringement rdf:type airo:Impact ;
+    rdfs:label "Privacy Rights Infringement Impact"@en ;
+    rdfs:label "隐私权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IllinoisResidents .
+
+ex:IllinoisResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Illinois Residents"@en ;
+    rdfs:label "伊利诺伊州居民"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:PhotoOrganization rdf:type airo:Purpose ;
+    rdfs:label "Photo Organization Purpose"@en ;
+    rdfs:label "照片整理目的"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildSexAbuseImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Child Sex Abuse Image Generator"@en ;
+    rdfs:label "AI生成儿童性虐待图像系统"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:hasAISubject ex:Children ;
+    airo:hasStakeholder ex:JBERSoldier .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasConsequence ex:LegalProsecution ;
+    airo:isRiskSourceFor ex:IllegalContentGeneration .
+
+ex:Children rdf:type airo:AISubject ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:JBERSoldier rdf:type airo:Stakeholder ;
+    rdfs:label "JBER Soldier"@en ;
+    rdfs:label "JBER士兵"@zh .
+
+ex:LegalProsecution rdf:type airo:Consequence ;
+    rdfs:label "Legal Prosecution Consequence"@en ;
+    rdfs:label "法律起诉后果"@zh ;
+    airo:hasImpactOnStakeholder ex:JBERSoldier .
+
+ex:IllegalContentGeneration rdf:type airo:Misuse ;
+    rdfs:label "Illegal Content Generation"@en ;
+    rdfs:label "非法内容生成"@zh .

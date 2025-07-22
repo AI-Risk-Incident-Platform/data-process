@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SouthwestAirlinesSchedulingSystem rdf:type airo:AISystem ;
+    rdfs:label "Southwest Airlines Scheduling System"@en ;
+    rdfs:label "西南航空调度系统"@zh ;
+    airo:hasRisk ex:OperationalDisruptionRisk ;
+    airo:isAppliedWithinDomain ex:AirlineIndustry ;
+    airo:hasStakeholder ex:SouthwestAirlinesPassengers .
+
+ex:OperationalDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Operational Disruption Risk"@en ;
+    rdfs:label "运营中断风险"@zh ;
+    airo:hasConsequence ex:FlightCancellations .
+
+ex:FlightCancellations rdf:type airo:Consequence ;
+    rdfs:label "Flight Cancellations Consequence"@en ;
+    rdfs:label "航班取消后果"@zh ;
+    airo:hasImpact ex:PassengerStranding .
+
+ex:PassengerStranding rdf:type airo:Impact ;
+    rdfs:label "Passenger Stranding Impact"@en ;
+    rdfs:label "乘客滞留影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SouthwestAirlinesPassengers .
+
+ex:AirlineIndustry rdf:type airo:Domain ;
+    rdfs:label "Airline Industry Domain"@en ;
+    rdfs:label "航空业领域"@zh .
+
+ex:SouthwestAirlinesPassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Southwest Airlines Passengers"@en ;
+    rdfs:label "西南航空乘客"@zh .

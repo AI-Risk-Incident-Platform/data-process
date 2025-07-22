@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OnlinePassportPhotoChecker",
+      "中文名称": "在线护照照片检查器",
+      "英文名称": "Passport Photo Checker",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Consequence": {
+      "id": "PassportApplicationRejection",
+      "中文名称": "护照申请被拒后果",
+      "英文名称": "Passport Application Rejection Consequence",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "AICapability": {
+      "id": "FacialFeatureDetection",
+      "中文名称": "面部特征检测能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Stakeholder": {
+      "id": "UKGovernment",
+      "中文名称": "英国政府",
+      "英文名称": "UK Government",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedIndividuals",
+      "中文名称": "深色皮肤个体",
+      "英文名称": "Dark-skinned people",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorities",
+      "中文名称": "对少数族裔歧视的影响",
+      "英文名称": "Minority Discrimination Impact",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Purpose": {
+      "id": "AutomatedPassportPhotoVerification",
+      "中文名称": "自动化护照照片验证的目的",
+      "英文名称": "Automated Passport Photo Verification Purpose",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityServices",
+      "中文名称": "政府身份服务领域",
+      "英文名称": "Government Identity Domain",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForFacialAnalysis",
+      "中文名称": "用于面部分析的计算机视觉技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Vulnerability": {
+      "id": "PoorPerformanceOnDarkSkinTones",
+      "中文名称": "对深色肤色表现不佳的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OnlinePassportPhotoChecker",
+      "中文名称": "在线护照照片检查器",
+      "英文名称": "Passport Photo Checker",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Consequence": {
+      "id": "PassportApplicationRejection",
+      "中文名称": "护照申请被拒后果",
+      "英文名称": "Passport Application Rejection Consequence",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "AICapability": {
+      "id": "FacialFeatureDetection",
+      "中文名称": "面部特征检测能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Stakeholder": {
+      "id": "UKGovernment",
+      "中文名称": "英国政府",
+      "英文名称": "UK Government",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedIndividuals",
+      "中文名称": "深色皮肤个体",
+      "英文名称": "Dark-skinned people",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorities",
+      "中文名称": "对少数族裔歧视的影响",
+      "英文名称": "Minority Discrimination Impact",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Purpose": {
+      "id": "AutomatedPassportPhotoVerification",
+      "中文名称": "自动化护照照片验证的目的",
+      "英文名称": "Automated Passport Photo Verification Purpose",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityServices",
+      "中文名称": "政府身份服务领域",
+      "英文名称": "Government Identity Domain",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForFacialAnalysis",
+      "中文名称": "用于面部分析的计算机视觉技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Man's lips mistaken for open mouth by 'racist' online passport checker"
+    },
+    "Vulnerability": {
+      "id": "PoorPerformanceOnDarkSkinTones",
+      "中文名称": "对深色肤色表现不佳的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "UK government launched passport photo checker despite knowing it would fail with dark skin"
+    }
+  }
+}

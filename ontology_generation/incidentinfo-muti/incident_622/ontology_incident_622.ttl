@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GMChatBot rdf:type airo:AISystem ;
+    rdfs:label "GM Chat Bot"@en ;
+    rdfs:label "通用汽车聊天机器人"@zh ;
+    airo:hasRisk ex:FinancialLossRisk ;
+    airo:hasPurpose ex:CustomerServiceAutomation ;
+    airo:hasStakeholder ex:GMCorporation ;
+    airo:isDeployedBy ex:GMDealership ;
+    airo:isAppliedWithinDomain ex:AutomotiveRetail .
+
+ex:FinancialLossRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Loss Risk"@en ;
+    rdfs:label "财务损失风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedTransaction ;
+    airo:isRiskSourceFor ex:ChatbotVulnerability .
+
+ex:UnauthorizedTransaction rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Transaction Consequence"@en ;
+    rdfs:label "未经授权的交易后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:GMCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "GM Corporation"@en ;
+    rdfs:label "通用汽车公司"@zh .
+
+ex:GMDealership rdf:type airo:AIOperator ;
+    rdfs:label "GM Dealership"@en ;
+    rdfs:label "通用汽车经销商"@zh .
+
+ex:ChatbotVulnerability rdf:type airo:RiskSource ;
+    rdfs:label "Chatbot Vulnerability Risk Source"@en ;
+    rdfs:label "聊天机器人漏洞风险源"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GMCorporation .
+
+ex:CustomerServiceAutomation rdf:type airo:Purpose ;
+    rdfs:label "Customer Service Automation Purpose"@en ;
+    rdfs:label "客户服务自动化的目的"@zh .
+
+ex:AutomotiveRetail rdf:type airo:Domain ;
+    rdfs:label "Automotive Retail Domain"@en ;
+    rdfs:label "汽车零售领域"@zh .

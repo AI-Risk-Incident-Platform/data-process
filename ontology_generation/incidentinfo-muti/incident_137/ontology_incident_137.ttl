@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokContentRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "TikTok Content Recommendation System"@en ;
+    rdfs:label "TikTok内容推荐系统"@zh ;
+    airo:hasRisk ex:HarmfulContentDisseminationRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:isDevelopedBy ex:ByteDance ;
+    airo:hasPurpose ex:ContentEngagementMaximization ;
+    airo:hasStakeholder ex:TikTokUsers ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasVulnerability ex:HashtagFilteringWeakness .
+
+ex:HarmfulContentDisseminationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Dissemination Risk"@en ;
+    rdfs:label "有害内容传播风险"@zh ;
+    airo:hasConsequence ex:PromotionOfEatingDisorders ;
+    airo:isRiskSourceFor ex:MisspelledHashtags ;
+    airo:isRiskSourceFor ex:ContentCreatorsCircumventingFilters ;
+    airo:isRiskSourceFor ex:ProAnaContent .
+
+ex:MisspelledHashtags rdf:type airo:RiskSource ;
+    rdfs:label "Misspelled Hashtags"@en ;
+    rdfs:label "拼写错误的标签"@zh .
+
+ex:PromotionOfEatingDisorders rdf:type airo:Consequence ;
+    rdfs:label "Promotion of Eating Disorders Consequence"@en ;
+    rdfs:label "促进饮食失调的后果"@zh ;
+    airo:hasImpact ex:MentalHealthDeterioration .
+
+ex:MentalHealthDeterioration rdf:type airo:Impact ;
+    rdfs:label "Mental Health Deterioration Impact"@en ;
+    rdfs:label "心理健康恶化的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TikTokUsers .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en ;
+    rdfs:label "内容推荐算法能力"@zh .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Users"@en ;
+    rdfs:label "TikTok用户"@zh .
+
+ex:ByteDance rdf:type airo:AIOperator ;
+    rdfs:label "ByteDance"@en ;
+    rdfs:label "字节跳动"@zh .
+
+ex:ContentEngagementMaximization rdf:type airo:Purpose ;
+    rdfs:label "Content Engagement Maximization Purpose"@en ;
+    rdfs:label "内容参与度最大化的目的"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:HashtagFilteringWeakness rdf:type airo:Vulnerability ;
+    rdfs:label "Hashtag Filtering Weakness Vulnerability"@en ;
+    rdfs:label "标签过滤弱点的脆弱性"@zh .
+
+ex:ContentCreatorsCircumventingFilters rdf:type airo:Threat ;
+    rdfs:label "Content Creators Circumventing Filters Threat"@en ;
+    rdfs:label "内容创作者规避过滤器的威胁"@zh .
+
+ex:ProAnaContent rdf:type airo:Hazard ;
+    rdfs:label "Pro-Ana Content Hazard"@en ;
+    rdfs:label "支持厌食症内容的危害"@zh .
+
+ex:AlgorithmicAmplificationOfHarmfulContent rdf:type airo:RiskConcept ;
+    rdfs:label "Algorithmic Amplification of Harmful Content Risk Concept"@en ;
+    rdfs:label "有害内容的算法放大"@zh .

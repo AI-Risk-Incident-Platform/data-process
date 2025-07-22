@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedAnimePosterSystem rdf:type airo:AISystem ;
+    rdfs:label "AI生成动漫海报系统"@zh ;
+    rdfs:label "AI Generated Anime Poster System"@en ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:hasStakeholder ex:AnimeCopyrightHolders ;
+    airo:hasStakeholder ex:AIPosterSellersInJapan ;
+    airo:isAppliedWithinDomain ex:AnimeArtIndustryDomain .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "版权侵权风险"@zh ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    airo:hasConsequence ex:LegalActionAgainstSellersConsequence ;
+    airo:isRiskSourceFor ex:CommercialUseOfAIGeneratedAnimeArtMisuse .
+
+ex:AnimeCopyrightHolders rdf:type airo:Stakeholder ;
+    rdfs:label "动漫版权持有者"@zh ;
+    rdfs:label "Anime Copyright Holders"@en .
+
+ex:AIPosterSellersInJapan rdf:type airo:AIOperator ;
+    rdfs:label "日本AI海报销售者"@zh ;
+    rdfs:label "AI Poster Sellers in Japan"@en .
+
+ex:LegalActionAgainstSellersConsequence rdf:type airo:Consequence ;
+    rdfs:label "对销售者的法律行动后果"@zh ;
+    rdfs:label "Legal Action Against Sellers Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:AnimeCopyrightHolders ;
+    airo:hasImpactOnStakeholder ex:AIPosterSellersInJapan .
+
+ex:AnimeArtIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "动漫艺术产业领域"@zh ;
+    rdfs:label "Anime Art Industry Domain"@en .
+
+ex:CommercialUseOfAIGeneratedAnimeArtMisuse rdf:type airo:Misuse ;
+    rdfs:label "AI生成动漫艺术的商业用途滥用"@zh ;
+    rdfs:label "Commercial Use of AI Generated Anime Art Misuse"@en .

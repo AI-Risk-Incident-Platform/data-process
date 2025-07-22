@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TechConferenceSpeakerManagementSystem",
+      "中文名称": "技术会议演讲者管理系统",
+      "英文名称": "Tech Conference Speaker Management System",
+      "来源": "Tech Conference Listed Woman Who Doesn't Exist on Speaker Lineup"
+    },
+    "Risk": {
+      "id": "FakeSpeakerProfileRisk",
+      "中文名称": "虚假演讲者资料风险",
+      "英文名称": "Fake Speaker Profile Risk",
+      "来源": "‘What a strange tale’: Tech conference canceled after execs flee report of fake women speakers"
+    },
+    "Stakeholder": {
+      "id": "ConferenceOrganizers",
+      "中文名称": "会议组织者",
+      "英文名称": "Conference Organizers",
+      "来源": "This dev conference organizer seems addicted to making up women"
+    },
+    "Consequence": {
+      "id": "ConferenceCancellation",
+      "中文名称": "会议取消后果",
+      "英文名称": "Conference Cancellation Consequence",
+      "来源": "Tech conference canceled after execs flee report of fake women speakers"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "‘What a strange tale’: Tech conference canceled after execs flee report of fake women speakers"
+    }
+  }
+}

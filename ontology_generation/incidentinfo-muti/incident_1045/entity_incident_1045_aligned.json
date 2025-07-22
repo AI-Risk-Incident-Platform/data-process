@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedVideo",
+      "中文名称": "AI生成视频",
+      "英文名称": "AI Video",
+      "来源": "AI-generated video"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "US president Donald Trump did not say he would grant Biafra independence from Nigeria"
+    },
+    "Stakeholder": {
+      "id": "PublicAudience",
+      "中文名称": "公众受众",
+      "英文名称": "Consumers",
+      "来源": "ignore AI-generated video"
+    },
+    "Consequence": {
+      "id": "PoliticalMisinformation",
+      "中文名称": "政治虚假信息后果",
+      "英文名称": "Political Misinformation Consequence",
+      "来源": "US president Donald Trump did not say he would grant Biafra independence from Nigeria"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "ignore AI-generated video"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedVideo",
+      "中文名称": "AI生成视频",
+      "英文名称": "AI Video",
+      "来源": "AI-generated video"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "US president Donald Trump did not say he would grant Biafra independence from Nigeria"
+    },
+    "Stakeholder": {
+      "id": "PublicAudience",
+      "中文名称": "公众受众",
+      "英文名称": "Consumers",
+      "来源": "ignore AI-generated video"
+    },
+    "Consequence": {
+      "id": "PoliticalMisinformation",
+      "中文名称": "政治虚假信息后果",
+      "英文名称": "Political Misinformation Consequence",
+      "来源": "US president Donald Trump did not say he would grant Biafra independence from Nigeria"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "ignore AI-generated video"
+    }
+  }
+}

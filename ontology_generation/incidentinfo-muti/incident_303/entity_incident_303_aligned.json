@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla vehicle in 'Full Self-Driving' beta mode"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "'severely damaged' after crash in California"
+    },
+    "Consequence": {
+      "id": "VehicleSevereDamage",
+      "中文名称": "车辆严重损坏后果",
+      "英文名称": "Vehicle Severe Damage Consequence",
+      "来源": "'severely damaged' after crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla vehicle"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwner",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Owners",
+      "来源": "Tesla owner claims first Full Self-Driving Beta crash"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Full Self-Driving beta mode"
+    },
+    "AITechnique": {
+      "id": "BetaTesting",
+      "中文名称": "Beta测试技术",
+      "英文名称": "Beta Testing Technique",
+      "来源": "Full Self-Driving beta mode"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla vehicle in 'Full Self-Driving' beta mode"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "'severely damaged' after crash in California"
+    },
+    "Consequence": {
+      "id": "VehicleSevereDamage",
+      "中文名称": "车辆严重损坏后果",
+      "英文名称": "Vehicle Severe Damage Consequence",
+      "来源": "'severely damaged' after crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla vehicle"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwner",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Owners",
+      "来源": "Tesla owner claims first Full Self-Driving Beta crash"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Full Self-Driving beta mode"
+    },
+    "AITechnique": {
+      "id": "BetaTesting",
+      "中文名称": "Beta测试技术",
+      "英文名称": "Beta Testing Technique",
+      "来源": "Full Self-Driving beta mode"
+    }
+  }
+}

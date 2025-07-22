@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Video Generation System",
+      "来源": "Ignore deepfake video claiming Kenyan TV station reported on doctor's house being blown up for criticising pharmaceutical firms"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "deepfake video claiming Kenyan TV station reported on doctor's house being blown up"
+    },
+    "Consequence": {
+      "id": "PublicPanicAndMisinformation",
+      "中文名称": "公众恐慌和虚假信息后果",
+      "英文名称": "Public Panic and Misinformation Consequence",
+      "来源": "claiming Kenyan TV station reported on doctor's house being blown up"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoManipulation",
+      "中文名称": "基于深度学习的视频操纵技术",
+      "英文名称": "Deep Learning Based Video Manipulation Technique",
+      "来源": "deepfake video"
+    },
+    "Stakeholder": {
+      "id": "KenyanTVStation",
+      "中文名称": "肯尼亚电视台",
+      "英文名称": "Kenyan TV Station",
+      "来源": "claiming Kenyan TV station reported"
+    },
+    "AISubject": {
+      "id": "DoctorCriticizingPharmaceuticalFirms",
+      "中文名称": "批评制药公司的医生",
+      "英文名称": "Doctor Criticizing Pharmaceutical Firms",
+      "来源": "doctor's house being blown up for criticising pharmaceutical firms"
+    },
+    "Impact": {
+      "id": "ReputationDamageToIndividuals",
+      "中文名称": "个人名誉损害的影响",
+      "英文名称": "Reputation Damage to Individuals Impact",
+      "来源": "doctor's house being blown up for criticising pharmaceutical firms"
+    },
+    "Purpose": {
+      "id": "CreatingFalseNewsForManipulation",
+      "中文名称": "制造虚假新闻进行操纵的目的",
+      "英文名称": "Creating False News for Manipulation Purpose",
+      "来源": "deepfake video claiming Kenyan TV station reported"
+    },
+    "Domain": {
+      "id": "MediaAndInformationDissemination",
+      "中文名称": "媒体和信息传播领域",
+      "英文名称": "Media and Information Dissemination Domain",
+      "来源": "Kenyan TV station reported"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfDeepfakeTechnology",
+      "中文名称": "深度伪造技术的恶意使用风险源",
+      "英文名称": "Malicious Use of Deepfake Technology Risk Source",
+      "来源": "deepfake video claiming Kenyan TV station reported"
+    }
+  }
+}

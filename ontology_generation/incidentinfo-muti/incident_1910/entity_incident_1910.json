@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PimEyesFacialRecognitionSystem",
+      "中文名称": "PimEyes面部识别系统",
+      "英文名称": "PimEyes Facial Recognition System",
+      "来源": "Facial-recognition company PimEyes investigated by German data watchdog"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "PimEyes investigated by German data watchdog"
+    },
+    "Stakeholder": {
+      "id": "GermanDataProtectionAuthority",
+      "中文名称": "德国数据保护机构",
+      "英文名称": "German Data Protection Authority",
+      "来源": "German data watchdog"
+    },
+    "Consequence": {
+      "id": "PotentialFinancialPenalty",
+      "中文名称": "潜在经济处罚后果",
+      "英文名称": "Potential Financial Penalty Consequence",
+      "来源": "PimEyes droht eine Millionenstrafe (PimEyes faces a million-euro fine)"
+    },
+    "AIOperator": {
+      "id": "PimEyesCompany",
+      "中文名称": "PimEyes公司",
+      "英文名称": "PimEyes Company",
+      "来源": "Facial-recognition company PimEyes"
+    },
+    "RiskSource": {
+      "id": "LackOfComplianceWithDataProtectionRegulations",
+      "中文名称": "不符合数据保护法规的风险源",
+      "英文名称": "Lack of Compliance with Data Protection Regulations Risk Source",
+      "来源": "Datenschutzbeauftragter eröffnet Bußgeldverfahren (Data protection officer initiates fine proceedings)"
+    },
+    "Impact": {
+      "id": "ReputationalDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputational Damage Impact",
+      "来源": "PimEyes investigated by German data watchdog"
+    },
+    "Domain": {
+      "id": "BiometricDataProcessing",
+      "中文名称": "生物特征数据处理领域",
+      "英文名称": "Biometric Data Processing Domain",
+      "来源": "Facial-recognition company"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionAndMatching",
+      "中文名称": "面部识别与匹配能力",
+      "英文名称": "Facial Recognition and Matching Capability",
+      "来源": "Facial-recognition company PimEyes"
+    }
+  }
+}

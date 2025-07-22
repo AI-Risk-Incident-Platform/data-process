@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RunwayVideoAI",
+      "中文名称": "Runway视频AI",
+      "英文名称": "Runway Video AI",
+      "来源": "Runway Trained Its Video AI By Scraping Popular Photography YouTubers"
+    },
+    "Risk": {
+      "id": "UnauthorizedDataScrapingRisk",
+      "中文名称": "未经授权的数据抓取风险",
+      "英文名称": "Unauthorized Data Scraping Risk",
+      "来源": "AI video generator slammed after scraping 1700 MKBHD YouTube videos without consent"
+    },
+    "Stakeholder": {
+      "id": "MKBHD",
+      "中文名称": "MKBHD",
+      "英文名称": "MKBHD",
+      "来源": "scraping 1700 MKBHD YouTube videos without consent"
+    },
+    "RiskSource": {
+      "id": "DataScrapingWithoutConsent",
+      "中文名称": "未经同意的数据抓取",
+      "英文名称": "Data Scraping Without Consent",
+      "来源": "scraping 1700 MKBHD YouTube videos without consent"
+    },
+    "Consequence": {
+      "id": "CopyrightViolation",
+      "中文名称": "版权侵犯",
+      "英文名称": "Copyright Violation",
+      "来源": "AI video generator slammed after scraping 1700 MKBHD YouTube videos without consent"
+    },
+    "AITechnique": {
+      "id": "VideoGenerationAI",
+      "中文名称": "视频生成AI技术",
+      "英文名称": "Video Generation AI Technique",
+      "来源": "Runway Trained Its Video AI By Scraping Popular Photography YouTubers"
+    },
+    "Domain": {
+      "id": "VideoContentCreation",
+      "中文名称": "视频内容创作领域",
+      "英文名称": "Video Content Creation Domain",
+      "来源": "Runway Trained Its Video AI By Scraping Popular Photography YouTubers"
+    }
+  }
+}

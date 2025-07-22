@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HuaweiPura70AIEditingTool",
+      "中文名称": "华为Pura 70系列AI编辑工具",
+      "英文名称": "Huawei Pura 70 Series AI Editing Tool",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Risk": {
+      "id": "UnintentionalClothingRemovalRisk",
+      "中文名称": "非故意衣物移除风险",
+      "英文名称": "Unintentional Clothing Removal Risk",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AICapability": {
+      "id": "ImageEditing",
+      "中文名称": "图像编辑能力",
+      "英文名称": "Image Handling Capability",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AIOperator": {
+      "id": "Huawei",
+      "中文名称": "华为",
+      "英文名称": "Huawei",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Stakeholder": {
+      "id": "SmartphoneUsers",
+      "中文名称": "智能手机用户",
+      "英文名称": "Smartphone Users",
+      "来源": "Pura 70 series AI image editing tool reportedly become issue for users, Huawei responds"
+    },
+    "AISubject": {
+      "id": "EditedImageSubjects",
+      "中文名称": "被编辑图像主体",
+      "英文名称": "Edited Image Subjects",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Pura 70 series AI image editing tool reportedly become issue for users, Huawei responds"
+    },
+    "Purpose": {
+      "id": "PhotoEnhancement",
+      "中文名称": "照片增强目的",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Domain": {
+      "id": "SmartphonePhotography",
+      "中文名称": "智能手机摄影领域",
+      "英文名称": "Smartphone Photography Domain",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AITechnique": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentControl",
+      "中文名称": "内容控制不足的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Threat": {
+      "id": "MisuseOfEditingFeatures",
+      "中文名称": "编辑功能滥用的威胁",
+      "英文名称": "Misuse of Editing Features Threat",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Hazard": {
+      "id": "UnintendedFeatureBehavior",
+      "中文名称": "功能意外行为的危害",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicLimitations",
+      "中文名称": "算法限制的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "RiskConcept": {
+      "id": "EthicalAIUseInPhotography",
+      "中文名称": "摄影中AI伦理使用的风险概念",
+      "英文名称": "Ethical AI Use in Photography Risk Concept",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HuaweiPura70AIEditingTool",
+      "中文名称": "华为Pura 70系列AI编辑工具",
+      "英文名称": "Huawei Pura 70 Series AI Editing Tool",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Risk": {
+      "id": "UnintentionalClothingRemovalRisk",
+      "中文名称": "非故意衣物移除风险",
+      "英文名称": "Unintentional Clothing Removal Risk",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AICapability": {
+      "id": "ImageEditing",
+      "中文名称": "图像编辑能力",
+      "英文名称": "Image Handling Capability",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AIOperator": {
+      "id": "Huawei",
+      "中文名称": "华为",
+      "英文名称": "Huawei",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Stakeholder": {
+      "id": "SmartphoneUsers",
+      "中文名称": "智能手机用户",
+      "英文名称": "Smartphone Users",
+      "来源": "Pura 70 series AI image editing tool reportedly become issue for users, Huawei responds"
+    },
+    "AISubject": {
+      "id": "EditedImageSubjects",
+      "中文名称": "被编辑图像主体",
+      "英文名称": "Edited Image Subjects",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Pura 70 series AI image editing tool reportedly become issue for users, Huawei responds"
+    },
+    "Purpose": {
+      "id": "PhotoEnhancement",
+      "中文名称": "照片增强目的",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Domain": {
+      "id": "SmartphonePhotography",
+      "中文名称": "智能手机摄影领域",
+      "英文名称": "Smartphone Photography Domain",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "AITechnique": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentControl",
+      "中文名称": "内容控制不足的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Threat": {
+      "id": "MisuseOfEditingFeatures",
+      "中文名称": "编辑功能滥用的威胁",
+      "英文名称": "Misuse of Editing Features Threat",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "Hazard": {
+      "id": "UnintendedFeatureBehavior",
+      "中文名称": "功能意外行为的危害",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicLimitations",
+      "中文名称": "算法限制的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    },
+    "RiskConcept": {
+      "id": "EthicalAIUseInPhotography",
+      "中文名称": "摄影中AI伦理使用的风险概念",
+      "英文名称": "Ethical AI Use in Photography Risk Concept",
+      "来源": "Huawei Pura 70 series AI editing tool draws controversy as it can remove clothing unintentionally"
+    }
+  }
+}

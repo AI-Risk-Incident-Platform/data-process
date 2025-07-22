@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAdvertisingApp rdf:type airo:AISystem ;
+    rdfs:label "AI Advertising App"@en ;
+    rdfs:label "AI广告应用"@zh ;
+    airo:hasRisk ex:UnauthorizedUseOfCelebrityLikeness ;
+    airo:hasCapability ex:CelebrityImageCloning ;
+    airo:isDeployedBy ex:UnnamedAICompany ;
+    airo:hasStakeholder ex:ScarlettJohansson ;
+    airo:isAppliedWithinDomain ex:AdvertisingIndustry .
+
+ex:UnauthorizedUseOfCelebrityLikeness rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Use of Celebrity Likeness Risk"@en ;
+    rdfs:label "未经授权使用名人肖像风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfCelebrityConsent ;
+    airo:hasConsequence ex:LegalActionForImageRightsViolation .
+
+ex:ScarlettJohansson rdf:type airo:Stakeholder ;
+    rdfs:label "Scarlett Johansson"@en ;
+    rdfs:label "斯嘉丽·约翰逊"@zh .
+
+ex:UnnamedAICompany rdf:type airo:AIOperator ;
+    rdfs:label "Unnamed AI Company"@en ;
+    rdfs:label "未具名AI公司"@zh .
+
+ex:LegalActionForImageRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "Legal Action for Image Rights Violation Consequence"@en ;
+    rdfs:label "侵犯肖像权的法律诉讼后果"@zh ;
+    airo:hasImpact ex:ReputationDamageToCelebrity .
+
+ex:CelebrityImageCloning rdf:type airo:AICapability ;
+    rdfs:label "Celebrity Image Cloning Capability"@en ;
+    rdfs:label "名人形象克隆能力"@zh .
+
+ex:AdvertisingIndustry rdf:type airo:Domain ;
+    rdfs:label "Advertising Industry Domain"@en ;
+    rdfs:label "广告行业"@zh .
+
+ex:LackOfCelebrityConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Celebrity Consent Risk Source"@en ;
+    rdfs:label "缺乏名人同意的风险源"@zh .
+
+ex:ReputationDamageToCelebrity rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage to Celebrity Impact"@en ;
+    rdfs:label "对名人声誉损害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ScarlettJohansson .

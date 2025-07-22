@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceID",
+      "中文名称": "面容ID",
+      "英文名称": "Facial Recognition",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Risk": {
+      "id": "FaceIDHackingRisk",
+      "中文名称": "面容ID被黑客攻击风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Stakeholder": {
+      "id": "iPhoneXUsers",
+      "中文名称": "iPhone X用户",
+      "英文名称": "iPhone X Users",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "AIOperator": {
+      "id": "Apple",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "We Tried Really Hard To Beat Face ID—and Failed (So Far)"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "We Tried Really Hard To Beat Face ID—and Failed (So Far)"
+    },
+    "Purpose": {
+      "id": "SecureAuthentication",
+      "中文名称": "安全认证",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "RiskSource": {
+      "id": "PotentialSecurityVulnerabilities",
+      "中文名称": "潜在安全漏洞",
+      "英文名称": "Security Deficiencies",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私问题",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaceID",
+      "中文名称": "面容ID",
+      "英文名称": "Facial Recognition",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Risk": {
+      "id": "FaceIDHackingRisk",
+      "中文名称": "面容ID被黑客攻击风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Stakeholder": {
+      "id": "iPhoneXUsers",
+      "中文名称": "iPhone X用户",
+      "英文名称": "iPhone X Users",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "AIOperator": {
+      "id": "Apple",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "We Tried Really Hard To Beat Face ID—and Failed (So Far)"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "We Tried Really Hard To Beat Face ID—and Failed (So Far)"
+    },
+    "Purpose": {
+      "id": "SecureAuthentication",
+      "中文名称": "安全认证",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "RiskSource": {
+      "id": "PotentialSecurityVulnerabilities",
+      "中文名称": "潜在安全漏洞",
+      "英文名称": "Security Deficiencies",
+      "来源": "Hackers Claim to Break Face ID a Week After iPhone X Release"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私问题",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "iPhone's Face ID can be hacked, but here's why nobody needs to panic"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetPoliceFacialRecognitionSystem",
+      "中文名称": "伦敦警察面部识别系统",
+      "英文名称": "Met Police Facial Recognition System",
+      "来源": "Who's watching you from an unmarked van while you shop in London? Cops with facial recog tech"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Who's watching you from an unmarked van while you shop in London?"
+    },
+    "AIOperator": {
+      "id": "MetropolitanPoliceService",
+      "中文名称": "伦敦警察厅",
+      "英文名称": "Metropolitan Police Service",
+      "来源": "The Met Police's facial recognition tests are fatally flawed"
+    },
+    "AISubject": {
+      "id": "LondonShoppers",
+      "中文名称": "伦敦购物者",
+      "英文名称": "London Shoppers",
+      "来源": "Who's watching you from an unmarked van while you shop in London?"
+    },
+    "Consequence": {
+      "id": "PublicDistrust",
+      "中文名称": "公众不信任后果",
+      "英文名称": "Public Distrust Consequence",
+      "来源": "Police Said You Could Skip Public Facial Recognition. They Lied."
+    },
+    "AICapability": {
+      "id": "RealTimeFacialRecognition",
+      "中文名称": "实时面部识别能力",
+      "英文名称": "Real-Time Facial Recognition Capability",
+      "来源": "Who's watching you from an unmarked van while you shop in London?"
+    },
+    "Domain": {
+      "id": "PublicSurveillance",
+      "中文名称": "公共监控领域",
+      "英文名称": "Public Surveillance Domain",
+      "来源": "The Met Police's facial recognition tests are fatally flawed"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Civil Liberties Erosion Impact",
+      "来源": "Police Said You Could Skip Public Facial Recognition. They Lied."
+    },
+    "RiskSource": {
+      "id": "LackOfPublicConsent",
+      "中文名称": "缺乏公众同意的风险源",
+      "英文名称": "Lack of Public Consent Risk Source",
+      "来源": "Police Said You Could Skip Public Facial Recognition. They Lied."
+    },
+    "Vulnerability": {
+      "id": "InaccurateRecognition",
+      "中文名称": "识别不准确的脆弱性",
+      "英文名称": "Inaccurate Recognition Vulnerability",
+      "来源": "The Met Police's facial recognition tests are fatally flawed"
+    }
+  }
+}

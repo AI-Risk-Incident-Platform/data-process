@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Facebook广告算法"@zh ;
+    rdfs:label "Facebook Ad Algorithm"@en ;
+    airo:hasRisk ex:AlgorithmicAmplificationOfViolentContent ;
+    airo:isDeployedBy ex:FacebookAdPlatform ;
+    airo:hasStakeholder ex:FacebookCompany ;
+    airo:isAppliedWithinDomain ex:SocialMediaAdvertising ;
+    airo:usesTechnique ex:ContentBasedTargetingAlgorithm ;
+    airo:hasPurpose ex:MaximizeAdRevenue .
+
+ex:AlgorithmicAmplificationOfViolentContent rdf:type airo:Risk ;
+    rdfs:label "暴力内容算法放大风险"@zh ;
+    rdfs:label "Algorithmic Amplification of Violent Content Risk"@en ;
+    airo:hasConsequence ex:IncreasedExposureToViolentContent .
+
+ex:FacebookCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Company"@en .
+
+ex:FacebookAdPlatform rdf:type airo:AIOperator ;
+    rdfs:label "Facebook广告平台"@zh ;
+    rdfs:label "Facebook Ad Platform"@en .
+
+ex:SocialMediaAdvertising rdf:type airo:Domain ;
+    rdfs:label "社交媒体广告领域"@zh ;
+    rdfs:label "Social Media Advertising Domain"@en .
+
+ex:IncreasedExposureToViolentContent rdf:type airo:Consequence ;
+    rdfs:label "暴力内容曝光增加后果"@zh ;
+    rdfs:label "Increased Exposure to Violent Content Consequence"@en ;
+    airo:hasImpact ex:SocialUnrestAmplification .
+
+ex:SocialUnrestAmplification rdf:type airo:Impact ;
+    rdfs:label "社会动荡放大的影响"@zh ;
+    rdfs:label "Social Unrest Amplification Impact"@en ;
+    airo:hasImpactOnStakeholder ex:FacebookCompany .
+
+ex:MaximizeAdRevenue rdf:type airo:Purpose ;
+    rdfs:label "最大化广告收入的目的"@zh ;
+    rdfs:label "Maximize Ad Revenue Purpose"@en .
+
+ex:ContentBasedTargetingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "基于内容的定向算法技术"@zh ;
+    rdfs:label "Content-Based Targeting Algorithm Technique"@en .

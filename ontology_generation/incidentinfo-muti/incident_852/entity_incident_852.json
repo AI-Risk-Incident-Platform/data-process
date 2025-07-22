@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleMapsNavigationSystem",
+      "中文名称": "谷歌地图导航系统",
+      "英文名称": "Google Maps Navigation System",
+      "来源": "Misled By Google Maps, Car Falls Into River From Bridge, 3 Dead In UP"
+    },
+    "Risk": {
+      "id": "NavigationErrorRisk",
+      "中文名称": "导航错误风险",
+      "英文名称": "Navigation Error Risk",
+      "来源": "Misled By Google Maps, Car Falls Into River From Bridge, 3 Dead In UP"
+    },
+    "Consequence": {
+      "id": "FatalCarAccident",
+      "中文名称": "致命车祸后果",
+      "英文名称": "Fatal Car Accident Consequence",
+      "来源": "3 Dead In UP"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "3 Dead In UP"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google LLC",
+      "来源": "Google Maps faces questions over India car plunge crash"
+    },
+    "Stakeholder": {
+      "id": "IndianRoadUsers",
+      "中文名称": "印度道路使用者",
+      "英文名称": "Indian Road Users",
+      "来源": "Bareilly bridge accident"
+    },
+    "AICapability": {
+      "id": "RoutePlanningAndGuidance",
+      "中文名称": "路线规划与引导能力",
+      "英文名称": "Route Planning and Guidance Capability",
+      "来源": "Google Maps navigation system"
+    },
+    "Domain": {
+      "id": "TransportationNavigation",
+      "中文名称": "交通导航领域",
+      "英文名称": "Transportation Navigation Domain",
+      "来源": "Car navigation system"
+    }
+  }
+}

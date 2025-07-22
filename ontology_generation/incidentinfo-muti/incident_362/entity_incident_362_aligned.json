@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BlueWolfFacialRecognitionSystem",
+      "中文名称": "蓝狼面部识别系统",
+      "英文名称": "Blue Wolf Facial Recognition System",
+      "来源": "Meet Blue Wolf, the app Israel uses to spy on Palestinians in the occupied West Bank"
+    },
+    "Risk": {
+      "id": "MassSurveillanceRisk",
+      "中文名称": "大规模监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program in West Bank"
+    },
+    "AIOperator": {
+      "id": "IsraeliArmy",
+      "中文名称": "以色列军队",
+      "英文名称": "Israeli Forces",
+      "来源": "The Israeli army is using facial recognition to track Palestinians, former soldiers reveal"
+    },
+    "AISubject": {
+      "id": "PalestiniansInWestBank",
+      "中文名称": "西岸巴勒斯坦人",
+      "英文名称": "West Bank Palestinians",
+      "来源": "Meet Blue Wolf, the app Israel uses to spy on Palestinians in the occupied West Bank"
+    },
+    "Domain": {
+      "id": "MilitarySurveillance",
+      "中文名称": "军事监控领域",
+      "英文名称": "Military Surveillance Domain",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program in West Bank"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "The Israeli army is using facial recognition to track Palestinians"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program"
+    },
+    "Consequence": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BlueWolfFacialRecognitionSystem",
+      "中文名称": "蓝狼面部识别系统",
+      "英文名称": "Blue Wolf Facial Recognition System",
+      "来源": "Meet Blue Wolf, the app Israel uses to spy on Palestinians in the occupied West Bank"
+    },
+    "Risk": {
+      "id": "MassSurveillanceRisk",
+      "中文名称": "大规模监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program in West Bank"
+    },
+    "AIOperator": {
+      "id": "IsraeliArmy",
+      "中文名称": "以色列军队",
+      "英文名称": "Israeli Forces",
+      "来源": "The Israeli army is using facial recognition to track Palestinians, former soldiers reveal"
+    },
+    "AISubject": {
+      "id": "PalestiniansInWestBank",
+      "中文名称": "西岸巴勒斯坦人",
+      "英文名称": "West Bank Palestinians",
+      "来源": "Meet Blue Wolf, the app Israel uses to spy on Palestinians in the occupied West Bank"
+    },
+    "Domain": {
+      "id": "MilitarySurveillance",
+      "中文名称": "军事监控领域",
+      "英文名称": "Military Surveillance Domain",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program in West Bank"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "The Israeli army is using facial recognition to track Palestinians"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program"
+    },
+    "Consequence": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Israel escalates surveillance of Palestinians with facial recognition program"
+    }
+  }
+}

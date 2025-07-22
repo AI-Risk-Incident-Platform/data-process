@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeKidsApp",
+      "中文名称": "YouTube儿童应用",
+      "英文名称": "YouTube Kids App",
+      "来源": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’"
+    },
+    "Risk": {
+      "id": "InappropriateContentRisk",
+      "中文名称": "不当内容风险",
+      "英文名称": "Inappropriate Content Risk",
+      "来源": "YouTube Kids app is STILL showing disturbing videos"
+    },
+    "AICapability": {
+      "id": "ContentFilteringAlgorithm",
+      "中文名称": "内容过滤算法",
+      "英文名称": "Content Filtering Algorithm",
+      "来源": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’"
+    },
+    "Purpose": {
+      "id": "ChildFriendlyVideoPlatform",
+      "中文名称": "儿童友好型视频平台",
+      "英文名称": "Child Friendly Video Platform",
+      "来源": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "YouTube Kids app is STILL showing disturbing videos"
+    },
+    "Consequence": {
+      "id": "ExposureToExplicitMaterial",
+      "中文名称": "接触不当材料",
+      "英文名称": "Exposure To Explicit Material",
+      "来源": "Disturbing YouTube Kids video shows Mickey Mouse with gun"
+    },
+    "Impact": {
+      "id": "PsychologicalDistressForChildren",
+      "中文名称": "儿童心理困扰",
+      "英文名称": "Psychological Distress For Children",
+      "来源": "YouTube Kids app is STILL showing disturbing videos"
+    },
+    "RiskSource": {
+      "id": "ViolentCartoons",
+      "中文名称": "暴力卡通",
+      "英文名称": "Violent Cartoons",
+      "来源": "Disturbing YouTube Kids video shows Mickey Mouse with gun"
+    },
+    "RiskControl": {
+      "id": "MachineLearningDetectionSystem",
+      "中文名称": "机器学习检测系统",
+      "英文名称": "Machine Learning Detection System",
+      "来源": "Google’s YouTube Kids App Criticized for ‘Inappropriate Content’"
+    }
+  }
+}

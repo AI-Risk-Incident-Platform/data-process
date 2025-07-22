@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomaticLicensePlateReader rdf:type airo:AISystem ;
+    rdfs:label "自动车牌识别系统"@zh ;
+    rdfs:label "Automatic License Plate Reader"@en ;
+    airo:hasRisk ex:InnocentPersonThreatenedRisk ;
+    airo:hasAICapability ex:LicensePlateRecognition ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:hasAISubject ex:DriverWithMisreadPlate ;
+    airo:hasVulnerability ex:OpticalCharacterRecognitionError .
+
+ex:InnocentPersonThreatenedRisk rdf:type airo:Risk ;
+    rdfs:label "无辜人员受威胁风险"@zh ;
+    rdfs:label "Innocent Person Threatened Risk"@en ;
+    airo:hasConsequence ex:PoliceMistakenlyThreateningInnocentPerson ;
+    airo:isRiskSourceFor ex:LicensePlateMisreading .
+
+ex:PoliceMistakenlyThreateningInnocentPerson rdf:type airo:Consequence ;
+    rdfs:label "警察误威胁无辜人员后果"@zh ;
+    rdfs:label "Police Mistakenly Threatening Innocent Person Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:LicensePlateRecognition rdf:type airo:AICapability ;
+    rdfs:label "车牌识别能力"@zh ;
+    rdfs:label "License Plate Recognition Capability"@en .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "警察部门"@zh ;
+    rdfs:label "Police Department"@en .
+
+ex:DriverWithMisreadPlate rdf:type airo:AISubject ;
+    rdfs:label "车牌被误读的司机"@zh ;
+    rdfs:label "Driver With Misread Plate"@en .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共安全威胁影响"@zh ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartment , ex:DriverWithMisreadPlate .
+
+ex:LicensePlateMisreading rdf:type airo:RiskSource ;
+    rdfs:label "车牌误读风险源"@zh ;
+    rdfs:label "License Plate Misreading Risk Source"@en .
+
+ex:OpticalCharacterRecognitionError rdf:type airo:Vulnerability ;
+    rdfs:label "光学字符识别错误脆弱性"@zh ;
+    rdfs:label "Optical Character Recognition Error Vulnerability"@en .

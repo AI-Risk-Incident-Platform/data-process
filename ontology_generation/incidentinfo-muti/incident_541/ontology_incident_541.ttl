@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PovertyReductionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Poverty Reduction Algorithm"@en ;
+    rdfs:label "减贫算法"@zh ;
+    airo:hasRisk ex:ExclusionOfNeedyPeopleRisk ;
+    airo:hasPurpose ex:PovertyAlleviation ;
+    airo:isAppliedWithinDomain ex:SocialWelfare ;
+    airo:hasAISubject ex:JordanPoorPopulation .
+
+ex:ExclusionOfNeedyPeopleRisk rdf:type airo:Risk ;
+    rdfs:label "Exclusion of Needy People Risk"@en ;
+    rdfs:label "排除需要帮助人群的风险"@zh ;
+    airo:hasConsequence ex:DenialOfAssistance ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInTargeting .
+
+ex:DenialOfAssistance rdf:type airo:Consequence ;
+    rdfs:label "Denial of Assistance Consequence"@en ;
+    rdfs:label "援助被拒绝的后果"@zh ;
+    airo:hasImpact ex:IncreasedPovertyLevels .
+
+ex:JordanPoorPopulation rdf:type airo:AISubject ;
+    rdfs:label "Jordan Poor Population"@en ;
+    rdfs:label "约旦贫困人口"@zh .
+
+ex:IncreasedPovertyLevels rdf:type airo:Impact ;
+    rdfs:label "Increased Poverty Levels Impact"@en ;
+    rdfs:label "贫困水平加剧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JordanPoorPopulation .
+
+ex:PovertyAlleviation rdf:type airo:Purpose ;
+    rdfs:label "Poverty Alleviation Purpose"@en ;
+    rdfs:label "扶贫目的"@zh .
+
+ex:SocialWelfare rdf:type airo:Domain ;
+    rdfs:label "Social Welfare Domain"@en ;
+    rdfs:label "社会福利领域"@zh .
+
+ex:AlgorithmicBiasInTargeting rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Targeting Risk Source"@en ;
+    rdfs:label "目标识别中的算法偏差风险源"@zh .

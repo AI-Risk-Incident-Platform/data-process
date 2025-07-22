@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT wrong over half the time on software questions"
+    },
+    "Risk": {
+      "id": "IncorrectProgrammingAnswersRisk",
+      "中文名称": "编程问题回答错误风险",
+      "英文名称": "Incorrect Programming Answers Risk",
+      "来源": "ChatGPT's odds of getting code questions correct are worse than a coin flip"
+    },
+    "Consequence": {
+      "id": "MisleadingProgrammingGuidance",
+      "中文名称": "误导性编程指导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT Actually Gets Half of Programming Questions Wrong"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发领域",
+      "英文名称": "Software Development",
+      "来源": "ChatGPT wrong over half the time on software questions"
+    },
+    "AICapability": {
+      "id": "ProgrammingQuestionAnswering",
+      "中文名称": "编程问题回答能力",
+      "英文名称": "Programming Question Answering Capability",
+      "来源": "ChatGPT's odds of getting code questions correct are worse than a coin flip"
+    },
+    "Impact": {
+      "id": "ReducedDeveloperProductivity",
+      "中文名称": "开发者生产力下降影响",
+      "英文名称": "Reduced Developer Productivity Impact",
+      "来源": "ChatGPT Actually Gets Half of Programming Questions Wrong"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT wrong over half the time on software questions"
+    },
+    "Risk": {
+      "id": "IncorrectProgrammingAnswersRisk",
+      "中文名称": "编程问题回答错误风险",
+      "英文名称": "Incorrect Programming Answers Risk",
+      "来源": "ChatGPT's odds of getting code questions correct are worse than a coin flip"
+    },
+    "Consequence": {
+      "id": "MisleadingProgrammingGuidance",
+      "中文名称": "误导性编程指导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT Actually Gets Half of Programming Questions Wrong"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发领域",
+      "英文名称": "Software Development",
+      "来源": "ChatGPT wrong over half the time on software questions"
+    },
+    "AICapability": {
+      "id": "ProgrammingQuestionAnswering",
+      "中文名称": "编程问题回答能力",
+      "英文名称": "Programming Question Answering Capability",
+      "来源": "ChatGPT's odds of getting code questions correct are worse than a coin flip"
+    },
+    "Impact": {
+      "id": "ReducedDeveloperProductivity",
+      "中文名称": "开发者生产力下降影响",
+      "英文名称": "Reduced Developer Productivity Impact",
+      "来源": "ChatGPT Actually Gets Half of Programming Questions Wrong"
+    }
+  }
+}

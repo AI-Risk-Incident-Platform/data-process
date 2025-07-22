@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LeavingCertAlgorithm",
+      "中文名称": "毕业证书算法",
+      "英文名称": "Leaving Cert Algorithm",
+      "来源": "Leaving Cert: Why the Government deserves an F for algorithms"
+    },
+    "Risk": {
+      "id": "GradeDisruptionRisk",
+      "中文名称": "成绩混乱风险",
+      "英文名称": "Grade Disruption Risk",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    },
+    "Stakeholder": {
+      "id": "GovernmentEducationDepartment",
+      "中文名称": "政府教育部门",
+      "英文名称": "Government Dept",
+      "来源": "Leaving Cert: Why the Government deserves an F for algorithms"
+    },
+    "Consequence": {
+      "id": "UnfairGradeAssignment",
+      "中文名称": "不公平成绩分配后果",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    },
+    "RiskSource": {
+      "id": "SingleLineOfCodeError",
+      "中文名称": "单行代码错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LeavingCertAlgorithm",
+      "中文名称": "毕业证书算法",
+      "英文名称": "Leaving Cert Algorithm",
+      "来源": "Leaving Cert: Why the Government deserves an F for algorithms"
+    },
+    "Risk": {
+      "id": "GradeDisruptionRisk",
+      "中文名称": "成绩混乱风险",
+      "英文名称": "Grade Disruption Risk",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    },
+    "Stakeholder": {
+      "id": "GovernmentEducationDepartment",
+      "中文名称": "政府教育部门",
+      "英文名称": "Government Dept",
+      "来源": "Leaving Cert: Why the Government deserves an F for algorithms"
+    },
+    "Consequence": {
+      "id": "UnfairGradeAssignment",
+      "中文名称": "不公平成绩分配后果",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    },
+    "RiskSource": {
+      "id": "SingleLineOfCodeError",
+      "中文名称": "单行代码错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Explainer: why has one line of computer code caused such disruption to the Leaving Cert grades?"
+    }
+  }
+}

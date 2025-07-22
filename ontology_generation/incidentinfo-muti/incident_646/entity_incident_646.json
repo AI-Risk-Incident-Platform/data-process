@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Snapchat",
+      "中文名称": "Snapchat",
+      "英文名称": "Snapchat",
+      "来源": "Snapchat isn’t liable for connecting 12-year-old to convicted sex offenders"
+    },
+    "Risk": {
+      "id": "ChildSafetyRisk",
+      "中文名称": "儿童安全风险",
+      "英文名称": "Child Safety Risk",
+      "来源": "connecting 12-year-old to convicted sex offenders"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "connecting 12-year-old to convicted sex offenders"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToChildren",
+      "中文名称": "对儿童的潜在伤害",
+      "英文名称": "Potential Harm to Children",
+      "来源": "connecting 12-year-old to convicted sex offenders"
+    },
+    "RiskSource": {
+      "id": "ConvictedSexOffenders",
+      "中文名称": "已定罪的性犯罪者",
+      "英文名称": "Convicted Sex Offenders",
+      "来源": "connecting 12-year-old to convicted sex offenders"
+    }
+  }
+}

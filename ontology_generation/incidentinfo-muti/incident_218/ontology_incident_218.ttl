@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookPoliticalAdPolicyEnforcementSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook政治广告政策执行系统"@zh ;
+    rdfs:label "Facebook Political Ad Policy Enforcement System"@en ;
+    airo:hasRisk ex:PoliticalAdPolicyEnforcementFailureRisk ;
+    airo:hasStakeholder ex:PoliticalAdvertisers ;
+    airo:isDeployedBy ex:FacebookInc .
+
+ex:PoliticalAdPolicyEnforcementFailureRisk rdf:type airo:Risk ;
+    rdfs:label "政治广告政策执行失败风险"@zh ;
+    rdfs:label "Political Ad Policy Enforcement Failure Risk"@en ;
+    airo:isRiskSourceFor ex:PolicyEnforcementLoopholes ;
+    airo:hasConsequence ex:MisinformationSpread .
+
+ex:PoliticalAdvertisers rdf:type airo:Stakeholder ;
+    rdfs:label "政治广告商"@zh ;
+    rdfs:label "Political Advertisers"@en .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Inc."@en .
+
+ex:PolicyEnforcementLoopholes rdf:type airo:RiskSource ;
+    rdfs:label "政策执行漏洞"@zh ;
+    rdfs:label "Policy Enforcement Loopholes"@en .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "错误信息传播后果"@zh ;
+    rdfs:label "Misinformation Spread Consequence"@en .

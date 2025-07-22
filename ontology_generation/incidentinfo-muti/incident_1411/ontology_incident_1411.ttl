@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PDMPRiskScoreSystem rdf:type airo:AISystem ;
+    rdfs:label "PDMP Risk Score System"@en ;
+    rdfs:label "PDMP风险评分系统"@zh ;
+    airo:hasRisk ex:DiscriminationRiskInPrescriptionMonitoring ;
+    airo:hasPurpose ex:PreventingPrescriptionDrugAbuse ;
+    airo:isAppliedWithinDomain ex:HealthcarePrescriptionMonitoring ;
+    airo:hasStakeholder ex:PatientsRequiringPainMedication .
+
+ex:DiscriminationRiskInPrescriptionMonitoring rdf:type airo:Risk ;
+    rdfs:label "Discrimination Risk in Prescription Monitoring"@en ;
+    rdfs:label "处方监测中的歧视风险"@zh ;
+    airo:hasConsequence ex:UnequalAccessToPainTreatment .
+
+ex:HealthcarePrescriptionMonitoring rdf:type airo:Domain ;
+    rdfs:label "Healthcare Prescription Monitoring Domain"@en ;
+    rdfs:label "医疗保健处方监测领域"@zh .
+
+ex:PreventingPrescriptionDrugAbuse rdf:type airo:Purpose ;
+    rdfs:label "Preventing Prescription Drug Abuse Purpose"@en ;
+    rdfs:label "预防处方药滥用目的"@zh .
+
+ex:PatientsRequiringPainMedication rdf:type airo:Stakeholder ;
+    rdfs:label "Patients Requiring Pain Medication"@en ;
+    rdfs:label "需要止痛药的患者"@zh .
+
+ex:UnequalAccessToPainTreatment rdf:type airo:Consequence ;
+    rdfs:label "Unequal Access to Pain Treatment Consequence"@en ;
+    rdfs:label "疼痛治疗机会不均等后果"@zh ;
+    airo:hasImpact ex:HealthDisparitiesAmongPatientGroups .
+
+ex:HealthDisparitiesAmongPatientGroups rdf:type airo:Impact ;
+    rdfs:label "Health Disparities Among Patient Groups Impact"@en ;
+    rdfs:label "患者群体间健康差异影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PatientsRequiringPainMedication .

@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KZNParkHighTechSecuritySystem rdf:type airo:AISystem ;
+    rdfs:label "KZN公园高科技安全系统"@zh ;
+    rdfs:label "KZN Park High-Tech Security System"@en ;
+    airo:hasRisk ex:WildlifePoachingRisk ;
+    airo:isAppliedWithinDomain ex:WildlifeConservation ;
+    airo:hasStakeholder ex:Poachers .
+
+ex:WildlifePoachingRisk rdf:type airo:Risk ;
+    rdfs:label "野生动物偷猎风险"@zh ;
+    rdfs:label "Wildlife Poaching Risk"@en ;
+    airo:hasConsequence ex:RhinoDeaths ;
+    airo:isRiskSourceFor ex:SecuritySystemEvasion .
+
+ex:RhinoDeaths rdf:type airo:Consequence ;
+    rdfs:label "犀牛死亡后果"@zh ;
+    rdfs:label "Rhino Deaths Consequence"@en ;
+    airo:hasImpact ex:WildlifePopulationDecline .
+
+ex:Poachers rdf:type airo:Stakeholder ;
+    rdfs:label "偷猎者"@zh ;
+    rdfs:label "Poachers"@en .
+
+ex:WildlifePopulationDecline rdf:type airo:Impact ;
+    rdfs:label "野生动物数量下降影响"@zh ;
+    rdfs:label "Wildlife Population Decline Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Poachers .
+
+ex:WildlifeConservation rdf:type airo:Domain ;
+    rdfs:label "野生动物保护领域"@zh ;
+    rdfs:label "Wildlife Conservation Domain"@en .
+
+ex:SecuritySystemEvasion rdf:type airo:RiskSource ;
+    rdfs:label "安全系统规避风险源"@zh ;
+    rdfs:label "Security System Evasion Risk Source"@en ;
+    rdfs:isDefinedBy "Poachers evade KZN park’s high-tech security"@en .

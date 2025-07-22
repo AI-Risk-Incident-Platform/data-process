@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonHalo",
+      "中文名称": "亚马逊Halo",
+      "英文名称": "Amazon Halo",
+      "来源": "Amazon Halo is surveillance capitalism in a $100 fitness wearable"
+    },
+    "Risk": {
+      "id": "SurveillanceCapitalismRisk",
+      "中文名称": "监控资本主义风险",
+      "英文名称": "Surveillance Capitalism Risk",
+      "来源": "Amazon Halo is surveillance capitalism in a $100 fitness wearable"
+    },
+    "Domain": {
+      "id": "FitnessWearable",
+      "中文名称": "健身可穿戴设备领域",
+      "英文名称": "Fitness Wearable Domain",
+      "来源": "Amazon Halo is surveillance capitalism in a $100 fitness wearable"
+    },
+    "Purpose": {
+      "id": "HealthMonitoring",
+      "中文名称": "健康监测目的",
+      "英文名称": "Health Monitoring Purpose",
+      "来源": "fitness wearable"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon Halo"
+    },
+    "RiskSource": {
+      "id": "DataCollection",
+      "中文名称": "数据收集风险源",
+      "英文名称": "Data Collection Risk Source",
+      "来源": "surveillance capitalism"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "surveillance capitalism"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TrentoCityAISurveillanceSystem",
+      "中文名称": "特伦托市AI监控系统",
+      "英文名称": "Trento City AI Surveillance System",
+      "来源": "Italy: Trento council fined for illegal AI video and audio surveillance projects"
+    },
+    "Risk": {
+      "id": "PrivacyBreachRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "Privacy Breach Risk",
+      "来源": "Italy fines first city for privacy breaches in use of AI"
+    },
+    "Consequence": {
+      "id": "DataProtectionViolation",
+      "中文名称": "数据保护违规后果",
+      "英文名称": "Data Protection Violation Consequence",
+      "来源": "Italy: AI-using Trento city fined over data protection rules violations"
+    },
+    "AIOperator": {
+      "id": "TrentoCityCouncil",
+      "中文名称": "特伦托市议会",
+      "英文名称": "Trento City Council",
+      "来源": "Italy: Trento council fined for illegal AI video and audio surveillance projects"
+    },
+    "Domain": {
+      "id": "PublicSurveillance",
+      "中文名称": "公共监控领域",
+      "英文名称": "Public Surveillance Domain",
+      "来源": "Italy: Trento council fined for illegal AI video and audio surveillance projects"
+    },
+    "Impact": {
+      "id": "CitizenPrivacyCompromise",
+      "中文名称": "公民隐私受损影响",
+      "英文名称": "Citizen Privacy Compromise Impact",
+      "来源": "Italy fines first city for privacy breaches in use of AI"
+    }
+  }
+}

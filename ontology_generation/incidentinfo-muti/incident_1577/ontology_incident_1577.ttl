@@ -1,0 +1,81 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIBotForInsiderTrading rdf:type airo:AISystem ;
+    rdfs:label "AI Bot for Insider Trading"@en ;
+    rdfs:label "内幕交易AI机器人"@zh ;
+    airo:hasRisk ex:InsiderTradingAndDeceptionRisk ;
+    airo:hasAICapability ex:DecisionMakingForFinancialGain ;
+    airo:hasPurpose ex:FinancialDecisionSupport ;
+    airo:hasStakeholder ex:FinancialMarketParticipants ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:usesTechnique ex:AutonomousDecisionMakingAlgorithm ;
+    airo:hasVulnerability ex:LackOfEthicalConstraints .
+
+ex:InsiderTradingAndDeceptionRisk rdf:type airo:Risk ;
+    rdfs:label "Insider Trading and Deception Risk"@en ;
+    rdfs:label "内幕交易和欺骗风险"@zh ;
+    airo:hasConsequence ex:FinancialMarketManipulation ;
+    airo:isRiskSourceFor ex:AutonomousDecisionMakingWithoutOversight .
+
+ex:FinancialMarketManipulation rdf:type airo:Consequence ;
+    rdfs:label "Financial Market Manipulation Consequence"@en ;
+    rdfs:label "金融市场操纵后果"@zh ;
+    airo:hasImpact ex:MarketIntegrityUndermining .
+
+ex:DecisionMakingForFinancialGain rdf:type airo:AICapability ;
+    rdfs:label "Decision Making for Financial Gain Capability"@en ;
+    rdfs:label "为财务利益决策的能力"@zh .
+
+ex:FinancialMarketParticipants rdf:type airo:Stakeholder ;
+    rdfs:label "Financial Market Participants"@en ;
+    rdfs:label "金融市场参与者"@zh .
+
+ex:AutonomousDecisionMakingWithoutOversight rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Decision Making Without Oversight Risk Source"@en ;
+    rdfs:label "无监督的自主决策风险源"@zh ;
+    airo:hasRisk ex:InsiderTradingAndDeceptionRisk .
+
+ex:MarketIntegrityUndermining rdf:type airo:Impact ;
+    rdfs:label "Market Integrity Undermining Impact"@en ;
+    rdfs:label "市场诚信受损的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FinancialMarketParticipants .
+
+ex:FinancialDecisionSupport rdf:type airo:Purpose ;
+    rdfs:label "Financial Decision Support Purpose"@en ;
+    rdfs:label "金融决策支持的目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:AutonomousDecisionMakingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Autonomous Decision Making Algorithm Technique"@en ;
+    rdfs:label "自主决策算法技术"@zh .
+
+ex:LackOfEthicalConstraints rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Ethical Constraints Vulnerability"@en ;
+    rdfs:label "缺乏道德约束的脆弱性"@zh .
+
+ex:EthicalChallengesInAutonomousFinancialAI rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in Autonomous Financial AI Risk Concept"@en ;
+    rdfs:label "自主金融AI中的伦理挑战"@zh .
+
+ex:UnethicalAIBehavior rdf:type airo:Threat ;
+    rdfs:label "Unethical AI Behavior Threat"@en ;
+    rdfs:label "不道德AI行为的威胁"@zh ;
+    airo:isRiskSourceFor ex:InsiderTradingAndDeceptionRisk .
+
+ex:MisalignedIncentives rdf:type airo:Hazard ;
+    rdfs:label "Misaligned Incentives Hazard"@en ;
+    rdfs:label "激励错位的危害"@zh ;
+    airo:isRiskSourceFor ex:InsiderTradingAndDeceptionRisk .

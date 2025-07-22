@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Singapore police probing deepfake nude images of sports school students shared within campus"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndReputationDamageRisk",
+      "中文名称": "隐私侵犯和声誉损害风险",
+      "英文名称": "Privacy Violation and Reputation Damage Risk",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "deepfake nude images of sports school students"
+    },
+    "AISubject": {
+      "id": "SportsSchoolStudents",
+      "中文名称": "体育学校学生",
+      "英文名称": "Sports School Students",
+      "来源": "deepfake nude images of sports school students"
+    },
+    "Stakeholder": {
+      "id": "SingaporePolice",
+      "中文名称": "新加坡警方",
+      "英文名称": "Singapore Police",
+      "来源": "Singapore police probing deepfake nude images"
+    },
+    "Impact": {
+      "id": "SocialStigmaAndEmbarrassment",
+      "中文名称": "社会污名和尴尬影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    },
+    "Domain": {
+      "id": "EducationAndSports",
+      "中文名称": "教育和体育领域",
+      "英文名称": "Education and Sports Domain",
+      "来源": "Singapore Sports School students"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageManipulation",
+      "中文名称": "基于深度学习的图像处理技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "deepfake nude images"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfDeepfakeTechnology",
+      "中文名称": "深度伪造技术的恶意使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Singapore police probing deepfake nude images of sports school students shared within campus"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndReputationDamageRisk",
+      "中文名称": "隐私侵犯和声誉损害风险",
+      "英文名称": "Privacy Violation and Reputation Damage Risk",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "deepfake nude images of sports school students"
+    },
+    "AISubject": {
+      "id": "SportsSchoolStudents",
+      "中文名称": "体育学校学生",
+      "英文名称": "Sports School Students",
+      "来源": "deepfake nude images of sports school students"
+    },
+    "Stakeholder": {
+      "id": "SingaporePolice",
+      "中文名称": "新加坡警方",
+      "英文名称": "Singapore Police",
+      "来源": "Singapore police probing deepfake nude images"
+    },
+    "Impact": {
+      "id": "SocialStigmaAndEmbarrassment",
+      "中文名称": "社会污名和尴尬影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    },
+    "Domain": {
+      "id": "EducationAndSports",
+      "中文名称": "教育和体育领域",
+      "英文名称": "Education and Sports Domain",
+      "来源": "Singapore Sports School students"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageManipulation",
+      "中文名称": "基于深度学习的图像处理技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "deepfake nude images"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfDeepfakeTechnology",
+      "中文名称": "深度伪造技术的恶意使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "deepfake nude images of sports school students shared within campus"
+    }
+  }
+}

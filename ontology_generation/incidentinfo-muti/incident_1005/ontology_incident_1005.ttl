@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIReportGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Report Generation System"@en ;
+    rdfs:label "AI报告生成系统"@zh ;
+    airo:hasRisk ex:SchoolClosureRecommendationRisk ;
+    airo:hasStakeholder ex:TromsoCityGovernment ;
+    airo:isAppliedWithinDomain ex:PublicEducationAdministration ;
+    airo:hasPurpose ex:SchoolResourceOptimization ;
+    airo:hasAIOperator ex:MunicipalAIAdministrator .
+
+ex:SchoolClosureRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "School Closure Recommendation Risk"@en ;
+    rdfs:label "学校关闭建议风险"@zh ;
+    airo:hasConsequence ex:EducationalDisruption .
+
+ex:EducationalDisruption rdf:type airo:Consequence ;
+    rdfs:label "Educational Disruption Consequence"@en ;
+    rdfs:label "教育中断后果"@zh ;
+    airo:hasImpactOnStakeholder ex:TromsoCityGovernment .
+
+ex:TromsoCityGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Tromso City Government"@en ;
+    rdfs:label "特罗姆瑟市政府"@zh .
+
+ex:MunicipalAIAdministrator rdf:type airo:AIOperator ;
+    rdfs:label "Municipal AI Administrator"@en ;
+    rdfs:label "市政AI管理员"@zh .
+
+ex:PublicEducationAdministration rdf:type airo:Domain ;
+    rdfs:label "Public Education Administration Domain"@en ;
+    rdfs:label "公共教育管理领域"@zh .
+
+ex:SchoolResourceOptimization rdf:type airo:Purpose ;
+    rdfs:label "School Resource Optimization Purpose"@en ;
+    rdfs:label "学校资源优化目的"@zh .

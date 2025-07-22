@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Police Say They Can Use Facial Recognition, Despite Bans"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Police Say They Can Use Facial Recognition, Despite Bans"
+    },
+    "AISubject": {
+      "id": "CapitolRiotParticipants",
+      "中文名称": "国会大厦骚乱参与者",
+      "英文名称": "Capitol Riot Participants",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Impact": {
+      "id": "PublicExposureOfPersonalIdentity",
+      "中文名称": "个人身份公开曝光的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataPublication",
+      "中文名称": "未经授权的数据发布风险源",
+      "英文名称": "Unauthorized Data Publication Risk Source",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Consequence": {
+      "id": "PotentialLegalAndSocialRepercussions",
+      "中文名称": "潜在法律和社会后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Police Say They Can Use Facial Recognition, Despite Bans"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Police Say They Can Use Facial Recognition, Despite Bans"
+    },
+    "AISubject": {
+      "id": "CapitolRiotParticipants",
+      "中文名称": "国会大厦骚乱参与者",
+      "英文名称": "Capitol Riot Participants",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Impact": {
+      "id": "PublicExposureOfPersonalIdentity",
+      "中文名称": "个人身份公开曝光的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataPublication",
+      "中文名称": "未经授权的数据发布风险源",
+      "英文名称": "Unauthorized Data Publication Risk Source",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    },
+    "Consequence": {
+      "id": "PotentialLegalAndSocialRepercussions",
+      "中文名称": "潜在法律和社会后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "This Site Published Every Face From Parler's Capitol Riot Videos"
+    }
+  }
+}

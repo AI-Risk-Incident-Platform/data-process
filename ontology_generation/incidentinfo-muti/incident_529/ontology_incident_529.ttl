@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITranslationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Translation System"@en ;
+    rdfs:label "AI翻译系统"@zh ;
+    airo:hasRisk ex:InaccurateTranslationRisk ;
+    airo:hasPurpose ex:AssistingLegalTranslationProcess ;
+    airo:hasAISubject ex:AfghanAsylumSeekers ;
+    airo:isAppliedWithinDomain ex:LegalImmigrationSystem .
+
+ex:InaccurateTranslationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Translation Risk"@en ;
+    rdfs:label "翻译不准确风险"@zh ;
+    airo:hasConsequence ex:IncorrectAsylumDecisions ;
+    airo:isRiskSourceFor ex:LanguageModelLimitations .
+
+ex:IncorrectAsylumDecisions rdf:type airo:Consequence ;
+    rdfs:label "Incorrect Asylum Decisions Consequence"@en ;
+    rdfs:label "错误庇护决定后果"@zh ;
+    airo:hasImpact ex:DenialOfAsylumForEligibleApplicants .
+
+ex:DenialOfAsylumForEligibleApplicants rdf:type airo:Impact ;
+    rdfs:label "Denial of Asylum for Eligible Applicants Impact"@en ;
+    rdfs:label "合格申请人被拒绝庇护的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AfghanAsylumSeekers .
+
+ex:LegalImmigrationSystem rdf:type airo:Domain ;
+    rdfs:label "Legal Immigration System Domain"@en ;
+    rdfs:label "法律移民系统领域"@zh .
+
+ex:AfghanAsylumSeekers rdf:type airo:AISubject ;
+    rdfs:label "Afghan Asylum Seekers"@en ;
+    rdfs:label "阿富汗寻求庇护者"@zh .
+
+ex:AssistingLegalTranslationProcess rdf:type airo:Purpose ;
+    rdfs:label "Assisting Legal Translation Process Purpose"@en ;
+    rdfs:label "辅助法律翻译过程的目的"@zh .
+
+ex:LanguageModelLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Language Model Limitations Risk Source"@en ;
+    rdfs:label "语言模型限制的风险源"@zh .

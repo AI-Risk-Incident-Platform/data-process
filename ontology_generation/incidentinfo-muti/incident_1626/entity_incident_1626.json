@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WebcamExamSoftware",
+      "中文名称": "网络摄像头考试软件",
+      "英文名称": "Webcam Exam Software",
+      "来源": "Webcam exam software “discriminatory,” doesn’t recognize darker skin tones, says student"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationInFacialRecognition",
+      "中文名称": "面部识别中的种族歧视风险",
+      "英文名称": "Racial Discrimination in Facial Recognition Risk",
+      "来源": "“discriminatory,” doesn’t recognize darker skin tones"
+    },
+    "Consequence": {
+      "id": "UnfairAcademicEvaluation",
+      "中文名称": "不公平的学术评估后果",
+      "英文名称": "Unfair Academic Evaluation Consequence",
+      "来源": "“discriminatory,” doesn’t recognize darker skin tones"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionForExamProctoring",
+      "中文名称": "用于考试监考的面部识别能力",
+      "英文名称": "Facial Recognition for Exam Proctoring Capability",
+      "来源": "Webcam exam software"
+    },
+    "Stakeholder": {
+      "id": "StudentsWithDarkerSkinTones",
+      "中文名称": "肤色较深的学生",
+      "英文名称": "Students with Darker Skin Tones",
+      "来源": "doesn’t recognize darker skin tones"
+    },
+    "AISubject": {
+      "id": "ExamTakers",
+      "中文名称": "考试参与者",
+      "英文名称": "Exam Takers",
+      "来源": "Webcam exam software"
+    },
+    "Impact": {
+      "id": "AcademicDisadvantage",
+      "中文名称": "学术劣势影响",
+      "英文名称": "Academic Disadvantage Impact",
+      "来源": "“discriminatory,” doesn’t recognize darker skin tones"
+    },
+    "Purpose": {
+      "id": "OnlineExamProctoring",
+      "中文名称": "在线考试监考的目的",
+      "英文名称": "Online Exam Proctoring Purpose",
+      "来源": "Webcam exam software"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Education Technology Domain",
+      "来源": "Webcam exam software"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionAlgorithm",
+      "中文名称": "面部识别算法",
+      "英文名称": "Facial Recognition Algorithm Technique",
+      "来源": "Webcam exam software"
+    },
+    "Vulnerability": {
+      "id": "BiasInTrainingData",
+      "中文名称": "训练数据中的偏见脆弱性",
+      "英文名称": "Bias in Training Data Vulnerability",
+      "来源": "doesn’t recognize darker skin tones"
+    },
+    "Threat": {
+      "id": "DiscriminatoryTechnology",
+      "中文名称": "歧视性技术的威胁",
+      "英文名称": "Discriminatory Technology Threat",
+      "来源": "“discriminatory,” doesn’t recognize darker skin tones"
+    },
+    "Hazard": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见危害",
+      "英文名称": "Racial Bias in AI Hazard",
+      "来源": "doesn’t recognize darker skin tones"
+    },
+    "RiskSource": {
+      "id": "InadequateAlgorithmTesting",
+      "中文名称": "算法测试不足的风险源",
+      "英文名称": "Inadequate Algorithm Testing Risk Source",
+      "来源": "doesn’t recognize darker skin tones"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAIProctoring",
+      "中文名称": "AI监考中的伦理问题",
+      "英文名称": "Ethical Issues in AI Proctoring Risk Concept",
+      "来源": "“discriminatory,” doesn’t recognize darker skin tones"
+    }
+  }
+}

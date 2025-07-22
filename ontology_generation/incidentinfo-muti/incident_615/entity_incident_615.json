@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NavyFederalMortgageApprovalSystem",
+      "中文名称": "海军联邦抵押贷款审批系统",
+      "英文名称": "Navy Federal Mortgage Approval System",
+      "来源": "The nation’s largest credit union rejected more than half its Black conventional mortgage applicants"
+    },
+    "Risk": {
+      "id": "RacialBiasInMortgageApproval",
+      "中文名称": "抵押贷款审批中的种族偏见风险",
+      "英文名称": "Racial Bias in Mortgage Approval Risk",
+      "来源": "rejected more than half its Black conventional mortgage applicants"
+    },
+    "Consequence": {
+      "id": "DisparateImpactOnBlackApplicants",
+      "中文名称": "对黑人申请人的不同影响后果",
+      "英文名称": "Disparate Impact on Black Applicants Consequence",
+      "来源": "rejected more than half its Black conventional mortgage applicants"
+    },
+    "Stakeholder": {
+      "id": "FederalRegulators",
+      "中文名称": "联邦监管机构",
+      "英文名称": "Federal Regulators",
+      "来源": "Lawmakers call on federal regulators to review Navy Federal over mortgage approval disparities"
+    },
+    "AIOperator": {
+      "id": "NavyFederalCreditUnion",
+      "中文名称": "海军联邦信用合作社",
+      "英文名称": "Navy Federal Credit Union",
+      "来源": "The nation’s largest credit union"
+    },
+    "Impact": {
+      "id": "HousingDiscrimination",
+      "中文名称": "住房歧视影响",
+      "英文名称": "Housing Discrimination Impact",
+      "来源": "rejected more than half its Black conventional mortgage applicants"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "conventional mortgage applicants"
+    }
+  }
+}

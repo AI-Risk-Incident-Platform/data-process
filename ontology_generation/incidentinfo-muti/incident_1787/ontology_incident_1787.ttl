@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokBeautyFilter rdf:type airo:AISystem ;
+    rdfs:label "TikTok Beauty Filter"@en ;
+    rdfs:label "TikTok美颜滤镜"@zh ;
+    airo:hasRisk ex:NonConsensualFacialModification ;
+    airo:hasAICapability ex:AutomaticFacialFeatureAdjustment ;
+    airo:hasAIOperator ex:TikTokCompany ;
+    airo:hasStakeholder ex:TikTokContentCreators ;
+    airo:hasAISubject ex:UsersFacialImages ;
+    airo:hasPurpose ex:EnhancingVisualAppeal ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:FacialRecognitionAndModification .
+
+ex:NonConsensualFacialModification rdf:type airo:Risk ;
+    rdfs:label "Non-Consensual Facial Modification Risk"@en ;
+    rdfs:label "未经同意的面部修改风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:AutomaticFilterApplication .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:LossOfPersonalImageControl .
+
+ex:AutomaticFacialFeatureAdjustment rdf:type airo:AICapability ;
+    rdfs:label "Automatic Facial Feature Adjustment Capability"@en ;
+    rdfs:label "自动面部特征调整能力"@zh .
+
+ex:TikTokCompany rdf:type airo:AIOperator ;
+    rdfs:label "TikTok Company"@en ;
+    rdfs:label "TikTok公司"@zh .
+
+ex:TikTokContentCreators rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Content Creators"@en ;
+    rdfs:label "TikTok内容创作者"@zh .
+
+ex:UsersFacialImages rdf:type airo:AISubject ;
+    rdfs:label "Users' Facial Images"@en ;
+    rdfs:label "用户面部图像"@zh .
+
+ex:LossOfPersonalImageControl rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Image Control Impact"@en ;
+    rdfs:label "个人形象控制权丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TikTokContentCreators .
+
+ex:EnhancingVisualAppeal rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Visual Appeal Purpose"@en ;
+    rdfs:label "增强视觉吸引力的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:FacialRecognitionAndModification rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition and Modification Technique"@en ;
+    rdfs:label "面部识别与修改技术"@zh .
+
+ex:AutomaticFilterApplication rdf:type airo:RiskSource ;
+    rdfs:label "Automatic Filter Application Risk Source"@en ;
+    rdfs:label "自动滤镜应用的风险源"@zh ;
+    airo:hasHazard ex:DefaultBeautyFilterSettings ;
+    airo:hasThreat ex:UnauthorizedImageModification ;
+    airo:exploitsVulnerability ex:LackOfUserConsentMechanism .
+
+ex:LackOfUserConsentMechanism rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of User Consent Mechanism Vulnerability"@en ;
+    rdfs:label "缺乏用户同意机制的脆弱性"@zh .
+
+ex:UnauthorizedImageModification rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Image Modification Threat"@en ;
+    rdfs:label "未经授权的图像修改威胁"@zh .
+
+ex:DefaultBeautyFilterSettings rdf:type airo:Hazard ;
+    rdfs:label "Default Beauty Filter Settings Hazard"@en ;
+    rdfs:label "默认美颜滤镜设置的危害"@zh .
+
+ex:EthicalIssuesInAutomatedImageModification rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Automated Image Modification Risk Concept"@en ;
+    rdfs:label "自动图像修改中的伦理问题"@zh .

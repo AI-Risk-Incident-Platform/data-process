@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:ThreatToDemocraticProcesses ;
+    airo:hasStakeholder ex:PoliticalFigures .
+
+ex:ThreatToDemocraticProcesses rdf:type airo:Risk ;
+    rdfs:label "对民主进程的威胁风险"@zh ;
+    rdfs:label "Threat to Democratic Processes Risk"@en ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:PoliticalMisinformation .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "公众误导后果"@zh ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    airo:hasImpact ex:ErosionOfPublicTrust .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "政治人物"@zh ;
+    rdfs:label "Political Figures"@en ;
+    airo:hasImpactOnStakeholder ex:ErosionOfPublicTrust .
+
+ex:ErosionOfPublicTrust rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Erosion of Public Trust Impact"@en .
+
+ex:PoliticalMisinformation rdf:type airo:Misuse ;
+    rdfs:label "政治虚假信息滥用"@zh ;
+    rdfs:label "Political Misinformation Misuse"@en .

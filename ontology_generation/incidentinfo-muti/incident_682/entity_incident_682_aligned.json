@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIBlackVoterImageGenerator",
+      "中文名称": "AI黑人选民图片生成器",
+      "英文名称": "AI Black Voter Image Generator",
+      "来源": "GOP Pollster’s Viral AI Fake Photos Of Republican ‘Black Voters’"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Spotlight Election Misinformation Fears"
+    },
+    "Stakeholder": {
+      "id": "GOPPollster",
+      "中文名称": "共和党民意调查机构",
+      "英文名称": "GOP Pollster",
+      "来源": "GOP Pollster’s Viral AI Fake Photos"
+    },
+    "RiskSource": {
+      "id": "FakePhotosOfBlackVoters",
+      "中文名称": "黑人选民虚假照片",
+      "英文名称": "Fake Photos of Black Voters",
+      "来源": "AI Fake Photos Of Republican ‘Black Voters’"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Election Misinformation Fears"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIBlackVoterImageGenerator",
+      "中文名称": "AI黑人选民图片生成器",
+      "英文名称": "AI Black Voter Image Generator",
+      "来源": "GOP Pollster’s Viral AI Fake Photos Of Republican ‘Black Voters’"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Spotlight Election Misinformation Fears"
+    },
+    "Stakeholder": {
+      "id": "GOPPollster",
+      "中文名称": "共和党民意调查机构",
+      "英文名称": "GOP Pollster",
+      "来源": "GOP Pollster’s Viral AI Fake Photos"
+    },
+    "RiskSource": {
+      "id": "FakePhotosOfBlackVoters",
+      "中文名称": "黑人选民虚假照片",
+      "英文名称": "Fake Photos of Black Voters",
+      "来源": "AI Fake Photos Of Republican ‘Black Voters’"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Election Misinformation Fears"
+    }
+  }
+}

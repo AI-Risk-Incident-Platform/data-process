@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseAutonomousTaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise Autonomous Taxi"@en ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleNonComplianceRisk ;
+    airo:isDeployedBy ex:GMCruise ;
+    airo:hasStakeholder ex:SanFranciscoPoliceDepartment ;
+    airo:isAppliedWithinDomain ex:AutonomousTransportation ;
+    airo:hasPurpose ex:DriverlessTaxiService .
+
+ex:AutonomousVehicleNonComplianceRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Non-Compliance Risk"@en ;
+    rdfs:label "自动驾驶车辆不遵守指令风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfHumanInterventionProtocol ;
+    airo:hasConsequence ex:VehicleFleesFromPolice .
+
+ex:GMCruise rdf:type airo:AIOperator ;
+    rdfs:label "GM Cruise"@en ;
+    rdfs:label "通用汽车Cruise"@zh .
+
+ex:SanFranciscoPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco Police Department"@en ;
+    rdfs:label "旧金山警察局"@zh .
+
+ex:VehicleFleesFromPolice rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Flees From Police Consequence"@en ;
+    rdfs:label "车辆逃离警察后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:AutonomousTransportation rdf:type airo:Domain ;
+    rdfs:label "Autonomous Transportation Domain"@en ;
+    rdfs:label "自动驾驶交通领域"@zh .
+
+ex:DriverlessTaxiService rdf:type airo:Purpose ;
+    rdfs:label "Driverless Taxi Service Purpose"@en ;
+    rdfs:label "无人驾驶出租车服务目的"@zh .
+
+ex:LackOfHumanInterventionProtocol rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Intervention Protocol Risk Source"@en ;
+    rdfs:label "缺乏人工干预协议风险源"@zh .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoPoliceDepartment .

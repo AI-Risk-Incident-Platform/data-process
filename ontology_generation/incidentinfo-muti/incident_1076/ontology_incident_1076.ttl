@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WacomAIArtSystem rdf:type airo:AISystem ;
+    rdfs:label "Wacom AI Art System"@en ;
+    rdfs:label "Wacom AI艺术系统"@zh ;
+    airo:hasRisk ex:CustomerBacklashRisk ;
+    airo:hasStakeholder ex:WacomCustomers ;
+    airo:isDeployedBy ex:WacomCompany .
+
+ex:CustomerBacklashRisk rdf:type airo:Risk ;
+    rdfs:label "Customer Backlash Risk"@en ;
+    rdfs:label "客户反弹风险"@zh ;
+    airo:hasConsequence ex:BrandReputationDamage ;
+    airo:isRiskSourceFor ex:AIGeneratedAdContent .
+
+ex:WacomCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Wacom Customers"@en ;
+    rdfs:label "Wacom客户"@zh .
+
+ex:WacomCompany rdf:type airo:AIOperator ;
+    rdfs:label "Wacom Company"@en ;
+    rdfs:label "Wacom公司"@zh .
+
+ex:BrandReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Brand Reputation Damage Consequence"@en ;
+    rdfs:label "品牌声誉损害后果"@zh ;
+    airo:hasImpact ex:ConsumerTrustErosion .
+
+ex:AIGeneratedAdContent rdf:type airo:RiskSource ;
+    rdfs:label "AI Generated Ad Content Risk Source"@en ;
+    rdfs:label "AI生成广告内容风险源"@zh .
+
+ex:ConsumerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Consumer Trust Erosion Impact"@en ;
+    rdfs:label "消费者信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WacomCustomers .

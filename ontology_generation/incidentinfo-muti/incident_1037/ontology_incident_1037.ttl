@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPersuasionExperimentOnReddit rdf:type airo:AISystem ;
+    rdfs:label "AI Persuasion Experiment on Reddit"@en ;
+    rdfs:label "Reddit上的AI说服实验"@zh ;
+    airo:hasRisk ex:EthicalViolationRisk ;
+    airo:hasStakeholder ex:RedditUsers .
+
+ex:EthicalViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical Violation Risk"@en ;
+    rdfs:label "伦理违规风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUserManipulation ;
+    airo:isRiskSourceFor ex:LackOfInformedConsent .
+
+ex:RedditUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Reddit Users"@en ;
+    rdfs:label "Reddit用户"@zh .
+
+ex:UnauthorizedUserManipulation rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized User Manipulation Consequence"@en ;
+    rdfs:label "未经授权的用户操纵后果"@zh ;
+    airo:hasImpactOnStakeholder ex:RedditUsers .
+
+ex:LackOfInformedConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Informed Consent Risk Source"@en ;
+    rdfs:label "缺乏知情同意的风险源"@zh .

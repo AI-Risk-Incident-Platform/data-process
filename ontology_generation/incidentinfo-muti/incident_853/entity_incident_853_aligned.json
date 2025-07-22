@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIRealEstateFraudSystem",
+      "中文名称": "AI房地产欺诈系统",
+      "英文名称": "AI Real Estate Fraud System",
+      "来源": "Scammers are stealing homes from under their owners' noses. AI is making it scarily easy."
+    },
+    "Risk": {
+      "id": "RealEstateFraudRisk",
+      "中文名称": "房地产欺诈风险",
+      "英文名称": "Real Estate Scam Risk",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "‘It shocked me’: Scammers now using AI deepfakes to fraudulently sell real estate"
+    },
+    "Consequence": {
+      "id": "PropertyTheft",
+      "中文名称": "财产盗窃后果",
+      "英文名称": "Property Theft Consequence",
+      "来源": "Scammers are stealing homes from under their owners' noses."
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "Stakeholder": {
+      "id": "PropertyOwners",
+      "中文名称": "房产所有者",
+      "英文名称": "Property Owners",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "RiskSource": {
+      "id": "AIEnabledFraud",
+      "中文名称": "AI助长欺诈风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers are stealing homes from under their owners' noses. AI is making it scarily easy."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIRealEstateFraudSystem",
+      "中文名称": "AI房地产欺诈系统",
+      "英文名称": "AI Real Estate Fraud System",
+      "来源": "Scammers are stealing homes from under their owners' noses. AI is making it scarily easy."
+    },
+    "Risk": {
+      "id": "RealEstateFraudRisk",
+      "中文名称": "房地产欺诈风险",
+      "英文名称": "Real Estate Scam Risk",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "‘It shocked me’: Scammers now using AI deepfakes to fraudulently sell real estate"
+    },
+    "Consequence": {
+      "id": "PropertyTheft",
+      "中文名称": "财产盗窃后果",
+      "英文名称": "Property Theft Consequence",
+      "来源": "Scammers are stealing homes from under their owners' noses."
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "Stakeholder": {
+      "id": "PropertyOwners",
+      "中文名称": "房产所有者",
+      "英文名称": "Property Owners",
+      "来源": "‘I don’t think any property is safe’: South Florida man says he almost became a victim to AI real estate fraud"
+    },
+    "RiskSource": {
+      "id": "AIEnabledFraud",
+      "中文名称": "AI助长欺诈风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers are stealing homes from under their owners' noses. AI is making it scarily easy."
+    }
+  }
+}

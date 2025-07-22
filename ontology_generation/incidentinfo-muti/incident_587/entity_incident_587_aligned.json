@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTReplicaBook",
+      "中文名称": "ChatGPT复制书籍",
+      "英文名称": "ChatGPT Replica Book",
+      "来源": "He wrote a book on a rare subject. Then a ChatGPT replica appeared on Amazon."
+    },
+    "Risk": {
+      "id": "IntellectualPropertyInfringementRisk",
+      "中文名称": "知识产权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    },
+    "Stakeholder": {
+      "id": "BookAuthor",
+      "中文名称": "书籍作者",
+      "英文名称": "Authors",
+      "来源": "He wrote a book on a rare subject."
+    },
+    "Consequence": {
+      "id": "UnauthorizedContentReproduction",
+      "中文名称": "未经授权的内容复制",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAI",
+      "中文名称": "内容生成AI",
+      "英文名称": "Generative AI Technique",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTReplicaBook",
+      "中文名称": "ChatGPT复制书籍",
+      "英文名称": "ChatGPT Replica Book",
+      "来源": "He wrote a book on a rare subject. Then a ChatGPT replica appeared on Amazon."
+    },
+    "Risk": {
+      "id": "IntellectualPropertyInfringementRisk",
+      "中文名称": "知识产权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    },
+    "Stakeholder": {
+      "id": "BookAuthor",
+      "中文名称": "书籍作者",
+      "英文名称": "Authors",
+      "来源": "He wrote a book on a rare subject."
+    },
+    "Consequence": {
+      "id": "UnauthorizedContentReproduction",
+      "中文名称": "未经授权的内容复制",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAI",
+      "中文名称": "内容生成AI",
+      "英文名称": "Generative AI Technique",
+      "来源": "Then a ChatGPT replica appeared on Amazon."
+    }
+  }
+}

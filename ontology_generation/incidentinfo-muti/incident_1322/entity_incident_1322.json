@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VioGenAlgorithm",
+      "中文名称": "VioGén算法",
+      "英文名称": "VioGén Algorithm",
+      "来源": "Las víctimas denuncian fallos en VioGén, el algoritmo contra la violencia de género"
+    },
+    "Risk": {
+      "id": "GenderViolencePredictionFailureRisk",
+      "中文名称": "性别暴力预测失败风险",
+      "英文名称": "Gender Violence Prediction Failure Risk",
+      "来源": "Spain’s flawed domestic abuse algorithm ban debate heats up"
+    },
+    "Consequence": {
+      "id": "VictimsRightsViolation",
+      "中文名称": "受害者权利侵犯后果",
+      "英文名称": "Victims Rights Violation Consequence",
+      "来源": "Los algoritmos a veces dan una falsa impresión de objetividad que aplasta los derechos de las personas"
+    },
+    "AICapability": {
+      "id": "GenderViolenceRiskAssessment",
+      "中文名称": "性别暴力风险评估能力",
+      "英文名称": "Gender Violence Risk Assessment Capability",
+      "来源": "VioGén, el algoritmo contra la violencia de género"
+    },
+    "Stakeholder": {
+      "id": "GenderViolenceVictims",
+      "中文名称": "性别暴力受害者",
+      "英文名称": "Gender Violence Victims",
+      "来源": "Las víctimas denuncian fallos en VioGén"
+    },
+    "Impact": {
+      "id": "IncreasedDangerForVictims",
+      "中文名称": "受害者危险增加的影响",
+      "英文名称": "Increased Danger for Victims Impact",
+      "来源": "Las víctimas denuncian fallos en VioGén"
+    },
+    "Purpose": {
+      "id": "PreventGenderViolence",
+      "中文名称": "预防性别暴力的目的",
+      "英文名称": "Prevent Gender Violence Purpose",
+      "来源": "VioGén, el algoritmo contra la violencia de género"
+    },
+    "Domain": {
+      "id": "GenderViolencePrevention",
+      "中文名称": "性别暴力预防领域",
+      "英文名称": "Gender Violence Prevention Domain",
+      "来源": "Spain’s domestic abuse algorithm"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInGenderCases",
+      "中文名称": "性别案件中的算法偏见脆弱性",
+      "英文名称": "Algorithmic Bias in Gender Cases Vulnerability",
+      "来源": "Spain’s flawed domestic abuse algorithm"
+    },
+    "RiskSource": {
+      "id": "FalseObjectivityPerception",
+      "中文名称": "虚假客观性感知风险源",
+      "英文名称": "False Objectivity Perception Risk Source",
+      "来源": "Los algoritmos a veces dan una falsa impresión de objetividad"
+    }
+  }
+}

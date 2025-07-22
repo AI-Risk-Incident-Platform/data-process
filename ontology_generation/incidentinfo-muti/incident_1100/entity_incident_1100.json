@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSunglasses",
+      "中文名称": "面部识别太阳镜",
+      "英文名称": "Facial Recognition Sunglasses",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "Stakeholder": {
+      "id": "ChinesePolice",
+      "中文名称": "中国警方",
+      "英文名称": "Chinese Police",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "AISubject": {
+      "id": "TrackedCitizens",
+      "中文名称": "被追踪公民",
+      "英文名称": "Tracked Citizens",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Loss of Personal Privacy",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全",
+      "英文名称": "Public Security",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    },
+    "AITechnique": {
+      "id": "RealTimeFacialRecognition",
+      "中文名称": "实时面部识别",
+      "英文名称": "Real-Time Facial Recognition",
+      "来源": "Chinese police are using facial recognition sunglasses to track citizens"
+    }
+  }
+}

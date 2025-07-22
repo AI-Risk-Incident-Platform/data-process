@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VirtualKidnappingScamSystem rdf:type airo:AISystem ;
+    rdfs:label "Virtual Kidnapping Scam System"@en ;
+    rdfs:label "虚拟绑架诈骗系统"@zh ;
+    airo:hasRisk ex:ParentalExtortionRisk ;
+    airo:hasStakeholder ex:ParentsInWestchesterCounty ;
+    airo:isAppliedWithinDomain ex:SchoolDistrictSecurity .
+
+ex:ParentalExtortionRisk rdf:type airo:Risk ;
+    rdfs:label "Parental Extortion Risk"@en ;
+    rdfs:label "父母敲诈风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistress .
+
+ex:ParentsInWestchesterCounty rdf:type airo:Stakeholder ;
+    rdfs:label "Parents in Westchester County"@en ;
+    rdfs:label "威彻斯特县父母"@zh .
+
+ex:SchoolDistrictSecurity rdf:type airo:Domain ;
+    rdfs:label "School District Security Domain"@en ;
+    rdfs:label "学区安全领域"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsInWestchesterCounty .

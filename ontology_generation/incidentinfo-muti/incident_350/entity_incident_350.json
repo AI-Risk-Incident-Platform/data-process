@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberDismissalAlgorithm",
+      "中文名称": "优步算法解雇系统",
+      "英文名称": "Uber Dismissal Algorithm",
+      "来源": "App Drivers & Couriers Union files ground-breaking legal challenge against Uber’s dismissal of drivers by algorithm in the UK and Portugal"
+    },
+    "Risk": {
+      "id": "UnfairDismissalRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "Unfair Dismissal Risk",
+      "来源": "legal challenge against Uber’s dismissal of drivers by algorithm"
+    },
+    "Stakeholder": {
+      "id": "AppDriversAndCouriersUnion",
+      "中文名称": "应用司机与快递员联盟",
+      "英文名称": "App Drivers & Couriers Union",
+      "来源": "App Drivers & Couriers Union files ground-breaking legal challenge"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber Technologies",
+      "来源": "Uber’s dismissal of drivers by algorithm"
+    },
+    "Consequence": {
+      "id": "LossOfLivelihood",
+      "中文名称": "生计丧失后果",
+      "英文名称": "Loss of Livelihood Consequence",
+      "来源": "dismissal of drivers by algorithm"
+    },
+    "Domain": {
+      "id": "GigEconomy",
+      "中文名称": "零工经济领域",
+      "英文名称": "Gig Economy Domain",
+      "来源": "Uber’s dismissal of drivers by algorithm in the UK and Portugal"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策风险源",
+      "英文名称": "Automated Decision Making Without Human Review Risk Source",
+      "来源": "dismissal of drivers by algorithm"
+    }
+  }
+}

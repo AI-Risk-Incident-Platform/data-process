@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PredictivePolicingSystem",
+      "中文名称": "预测性警务系统",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Predictive Policing: Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "Stakeholder": {
+      "id": "AmnestyInternational",
+      "中文名称": "国际特赦组织",
+      "英文名称": "Amnesty International",
+      "来源": "Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "AISubject": {
+      "id": "EthnicMinorities",
+      "中文名称": "少数族裔",
+      "英文名称": "Ethnic Minorities",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    },
+    "Impact": {
+      "id": "EthnicProfilingImpact",
+      "中文名称": "种族定性影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "The Netherlands Is Becoming a Predictive Policing Hot Spot"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PredictivePolicingSystem",
+      "中文名称": "预测性警务系统",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Predictive Policing: Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "Stakeholder": {
+      "id": "AmnestyInternational",
+      "中文名称": "国际特赦组织",
+      "英文名称": "Amnesty International",
+      "来源": "Amnesty kritisiert Polizei für diskriminierende Algorithmen"
+    },
+    "AISubject": {
+      "id": "EthnicMinorities",
+      "中文名称": "少数族裔",
+      "英文名称": "Ethnic Minorities",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    },
+    "Impact": {
+      "id": "EthnicProfilingImpact",
+      "中文名称": "种族定性影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "The Netherlands Is Becoming a Predictive Policing Hot Spot"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Dutch predictive policing tool ‘designed to ethnically profile,’ study finds"
+    }
+  }
+}

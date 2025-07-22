@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomatedBackgroundCheckSystem rdf:type airo:AISystem ;
+    rdfs:label "Automated Background Check System"@en ;
+    rdfs:label "自动化背景调查系统"@zh ;
+    airo:hasRisk ex:FalsePositiveRisk ;
+    airo:hasAISubject ex:Renters ;
+    airo:hasPurpose ex:TenantBackgroundVerification ;
+    airo:isAppliedWithinDomain ex:HousingRentalMarket ;
+    airo:hasStakeholder ex:TenantScreeningIndustry .
+
+ex:FalsePositiveRisk rdf:type airo:Risk ;
+    rdfs:label "False Positive Risk"@en ;
+    rdfs:label "误报风险"@zh ;
+    airo:hasConsequence ex:TenantScreeningFailure ;
+    airo:isRiskSourceFor ex:FlawedScreeningAlgorithm .
+
+ex:TenantScreeningFailure rdf:type airo:Consequence ;
+    rdfs:label "Tenant Screening Failure Consequence"@en ;
+    rdfs:label "租户筛选失败后果"@zh ;
+    airo:hasImpact ex:HousingAccessDenial .
+
+ex:TenantScreeningIndustry rdf:type airo:Stakeholder ;
+    rdfs:label "Tenant Screening Industry"@en ;
+    rdfs:label "租户筛选行业"@zh .
+
+ex:Renters rdf:type airo:AISubject ;
+    rdfs:label "Renters"@en ;
+    rdfs:label "租户"@zh .
+
+ex:HousingAccessDenial rdf:type airo:Impact ;
+    rdfs:label "Housing Access Denial Impact"@en ;
+    rdfs:label "住房准入被拒影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TenantScreeningIndustry .
+
+ex:TenantBackgroundVerification rdf:type airo:Purpose ;
+    rdfs:label "Tenant Background Verification Purpose"@en ;
+    rdfs:label "租户背景验证目的"@zh .
+
+ex:HousingRentalMarket rdf:type airo:Domain ;
+    rdfs:label "Housing Rental Market Domain"@en ;
+    rdfs:label "住房租赁市场领域"@zh .
+
+ex:FlawedScreeningAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Flawed Screening Algorithm Risk Source"@en ;
+    rdfs:label "有缺陷的筛选算法风险源"@zh .

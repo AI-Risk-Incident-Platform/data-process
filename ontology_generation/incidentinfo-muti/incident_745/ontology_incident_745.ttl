@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PoliceRiskAssessmentAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Police Risk Assessment Algorithm"@en ;
+    rdfs:label "警方风险评估算法"@zh ;
+    airo:hasRisk ex:DomesticViolenceRiskMisclassification ;
+    airo:hasAISubject ex:DomesticViolenceVictim ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:hasVulnerability ex:AlgorithmicBiasInRiskAssessment .
+
+ex:DomesticViolenceRiskMisclassification rdf:type airo:Risk ;
+    rdfs:label "Domestic Violence Risk Misclassification Risk"@en ;
+    rdfs:label "家庭暴力风险误分类风险"@zh ;
+    airo:hasConsequence ex:FatalDomesticViolenceIncident ;
+    airo:isRiskSourceFor ex:InadequateTrainingData .
+
+ex:FatalDomesticViolenceIncident rdf:type airo:Consequence ;
+    rdfs:label "Fatal Domestic Violence Incident Consequence"@en ;
+    rdfs:label "致命家庭暴力事件后果"@zh ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DomesticViolenceVictim ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartment .
+
+ex:DomesticViolenceVictim rdf:type airo:AISubject ;
+    rdfs:label "Domestic Violence Victim"@en ;
+    rdfs:label "家庭暴力受害者"@zh .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Police Department"@en ;
+    rdfs:label "警察部门"@zh .
+
+ex:AlgorithmicBiasInRiskAssessment rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Bias in Risk Assessment Vulnerability"@en ;
+    rdfs:label "风险评估中的算法偏见脆弱性"@zh .
+
+ex:InadequateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Training Data Risk Source"@en ;
+    rdfs:label "训练数据不足风险源"@zh .

@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleHomeMini",
+      "中文名称": "谷歌Home Mini",
+      "英文名称": "Google Home Mini",
+      "来源": "Google's Home Mini needed a software patch to stop some of them from recording everything"
+    },
+    "Risk": {
+      "id": "UnauthorizedRecordingRisk",
+      "中文名称": "未经授权录音风险",
+      "英文名称": "Unauthorized Recording Risk",
+      "来源": "Google's Home Mini needed a software patch to stop some of them from recording everything"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Privacy Violation Consequence",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "AICapability": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音指令处理能力",
+      "英文名称": "Voice Command Processing Capability",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's Home Mini needed a software patch"
+    },
+    "Stakeholder": {
+      "id": "HomeDeviceUsers",
+      "中文名称": "家庭设备使用者",
+      "英文名称": "Home Device Users",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "AISubject": {
+      "id": "PrivateConversations",
+      "中文名称": "私人对话",
+      "英文名称": "Private Conversations",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失影响",
+      "英文名称": "Loss of Personal Privacy Impact",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "Purpose": {
+      "id": "VoiceControlledAssistant",
+      "中文名称": "语音控制助手目的",
+      "英文名称": "Voice Controlled Assistant Purpose",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Devices Domain",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionTechnology",
+      "中文名称": "语音识别技术",
+      "英文名称": "Voice Recognition Technology",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "Vulnerability": {
+      "id": "AccidentalActivation",
+      "中文名称": "意外激活漏洞",
+      "英文名称": "Accidental Activation Vulnerability",
+      "来源": "Google's Home Mini needed a software patch to stop some of them from recording everything"
+    },
+    "Threat": {
+      "id": "ConstantSurveillance",
+      "中文名称": "持续监控威胁",
+      "英文名称": "Constant Surveillance Threat",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "Hazard": {
+      "id": "SensitiveDataCollection",
+      "中文名称": "敏感数据收集危害",
+      "英文名称": "Sensitive Data Collection Hazard",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    },
+    "RiskSource": {
+      "id": "FaultyTouchSensitivity",
+      "中文名称": "触控灵敏度故障风险源",
+      "英文名称": "Faulty Touch Sensitivity Risk Source",
+      "来源": "Google's Home Mini needed a software patch to stop some of them from recording everything"
+    },
+    "RiskConcept": {
+      "id": "SmartDevicePrivacyConcerns",
+      "中文名称": "智能设备隐私问题",
+      "英文名称": "Smart Device Privacy Concerns Risk Concept",
+      "来源": "Google Home Mini: A Personal Assistance Or A Personal Spy In Your Bedroom?"
+    }
+  }
+}

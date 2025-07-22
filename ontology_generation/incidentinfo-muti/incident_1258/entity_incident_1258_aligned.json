@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAIOverview",
+      "中文名称": "谷歌AI概览",
+      "英文名称": "Google AI Overview",
+      "来源": "Study: Google's AI Overview..."
+    },
+    "Risk": {
+      "id": "UnreliableAIResultsRisk",
+      "中文名称": "不可靠AI结果风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Don’t trust Google AI Results"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Study: Google's AI Overview..."
+    },
+    "RiskSource": {
+      "id": "InaccurateInformationGeneration",
+      "中文名称": "不准确信息生成",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Don’t trust Google AI Results"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Don’t trust Google AI Results"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAIOverview",
+      "中文名称": "谷歌AI概览",
+      "英文名称": "Google AI Overview",
+      "来源": "Study: Google's AI Overview..."
+    },
+    "Risk": {
+      "id": "UnreliableAIResultsRisk",
+      "中文名称": "不可靠AI结果风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Don’t trust Google AI Results"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Study: Google's AI Overview..."
+    },
+    "RiskSource": {
+      "id": "InaccurateInformationGeneration",
+      "中文名称": "不准确信息生成",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Don’t trust Google AI Results"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Don’t trust Google AI Results"
+    }
+  }
+}

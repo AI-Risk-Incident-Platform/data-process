@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrandparentScamAI rdf:type airo:AISystem ;
+    rdfs:label "Grandparent Scam AI"@en ;
+    rdfs:label "祖父母诈骗AI"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasStakeholder ex:CanadianScammers ;
+    airo:hasAISubject ex:AmericanGrandparents .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Financial Consequence"@en ;
+        rdfs:label "财务后果"@zh ;
+        airo:hasImpact ex:FinancialLossImpact
+    ] .
+
+ex:CanadianScammers rdf:type airo:Stakeholder ;
+    rdfs:label "Canadian Scammers"@en ;
+    rdfs:label "加拿大诈骗者"@zh .
+
+ex:AmericanGrandparents rdf:type airo:AISubject ;
+    rdfs:label "American Grandparents"@en ;
+    rdfs:label "美国祖父母"@zh .
+
+ex:FinancialLossImpact rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "财务损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmericanGrandparents .

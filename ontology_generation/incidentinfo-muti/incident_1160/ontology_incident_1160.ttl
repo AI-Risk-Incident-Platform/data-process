@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UnemploymentDesignationSystem rdf:type airo:AISystem ;
+    rdfs:label "Unemployment Designation System"@en ;
+    rdfs:label "失业人员指定系统"@zh ;
+    airo:hasRisk ex:PotentialIllegalityRisk ;
+    airo:hasStakeholder ex:DanishDataProtectionAgency ;
+    airo:isAppliedWithinDomain ex:PublicEmploymentServicesDomain .
+
+ex:PotentialIllegalityRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Illegality Risk"@en ;
+    rdfs:label "潜在违法风险"@zh .
+
+ex:DanishDataProtectionAgency rdf:type airo:Stakeholder ;
+    rdfs:label "Danish Data Protection Agency"@en ;
+    rdfs:label "丹麦数据保护局"@zh .
+
+ex:PublicEmploymentServicesDomain rdf:type airo:Domain ;
+    rdfs:label "Public Employment Services Domain"@en ;
+    rdfs:label "公共就业服务领域"@zh .

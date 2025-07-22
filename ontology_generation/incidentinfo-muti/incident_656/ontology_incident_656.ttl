@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideo rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video"@en ;
+    rdfs:label "深度伪造视频"@zh ;
+    airo:hasRisk ex:DisinformationSpread ;
+    airo:hasAISubject ex:UkraineSpyChief ;
+    airo:hasPurpose ex:PoliticalManipulation ;
+    airo:hasStakeholder ex:RussianStateTV .
+
+ex:DisinformationSpread rdf:type airo:Risk ;
+    rdfs:label "Disinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicConfusion ;
+    airo:isRiskSourceFor ex:MaliciousDeepfakeCreation .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    rdfs:label "公众困惑后果"@zh ;
+    airo:hasImpact ex:PoliticalTensions .
+
+ex:PoliticalTensions rdf:type airo:Impact ;
+    rdfs:label "Political Tensions Impact"@en ;
+    rdfs:label "政治紧张影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RussianStateTV .
+
+ex:RussianStateTV rdf:type airo:Stakeholder ;
+    rdfs:label "Russian State TV"@en ;
+    rdfs:label "俄罗斯国家电视台"@zh .
+
+ex:UkraineSpyChief rdf:type airo:AISubject ;
+    rdfs:label "Ukraine Spy Chief"@en ;
+    rdfs:label "乌克兰情报主管"@zh .
+
+ex:MaliciousDeepfakeCreation rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Deepfake Creation Risk Source"@en ;
+    rdfs:label "恶意深度伪造制作风险源"@zh .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "Political Manipulation Purpose"@en ;
+    rdfs:label "政治操纵目的"@zh .

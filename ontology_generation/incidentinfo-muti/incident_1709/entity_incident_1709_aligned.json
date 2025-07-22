@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AILegalCitationSystem",
+      "中文名称": "AI法律引用系统",
+      "英文名称": "AI Legal Citation",
+      "来源": "People are citing non-existent cases and giving rambling statements in court. Judges blame AI"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "Consequence": {
+      "id": "JudicialProcessDisruption",
+      "中文名称": "司法程序中断后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "giving rambling statements in court"
+    },
+    "Stakeholder": {
+      "id": "Judges",
+      "中文名称": "法官",
+      "英文名称": "Judicials",
+      "来源": "Judges blame AI"
+    },
+    "AISubject": {
+      "id": "CourtProceedings",
+      "中文名称": "法庭诉讼",
+      "英文名称": "Court Cases",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "Impact": {
+      "id": "LegalSystemCredibilityErosion",
+      "中文名称": "法律系统可信度受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "People are citing non-existent cases"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "People are citing non-existent cases"
+    },
+    "Domain": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "RiskSource": {
+      "id": "InaccurateLegalDatabase",
+      "中文名称": "不准确法律数据库风险源",
+      "英文名称": "Inaccurate Legal Database Risk Source",
+      "来源": "People are citing non-existent cases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AILegalCitationSystem",
+      "中文名称": "AI法律引用系统",
+      "英文名称": "AI Legal Citation",
+      "来源": "People are citing non-existent cases and giving rambling statements in court. Judges blame AI"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "Consequence": {
+      "id": "JudicialProcessDisruption",
+      "中文名称": "司法程序中断后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "giving rambling statements in court"
+    },
+    "Stakeholder": {
+      "id": "Judges",
+      "中文名称": "法官",
+      "英文名称": "Judicials",
+      "来源": "Judges blame AI"
+    },
+    "AISubject": {
+      "id": "CourtProceedings",
+      "中文名称": "法庭诉讼",
+      "英文名称": "Court Cases",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "Impact": {
+      "id": "LegalSystemCredibilityErosion",
+      "中文名称": "法律系统可信度受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "People are citing non-existent cases"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "People are citing non-existent cases"
+    },
+    "Domain": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    },
+    "RiskSource": {
+      "id": "InaccurateLegalDatabase",
+      "中文名称": "不准确法律数据库风险源",
+      "英文名称": "Inaccurate Legal Database Risk Source",
+      "来源": "People are citing non-existent cases"
+    }
+  }
+}

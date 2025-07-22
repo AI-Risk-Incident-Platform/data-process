@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Porn System"@en ;
+    rdfs:label "深度伪造色情系统"@zh ;
+    airo:hasRisk ex:ReputationHarmRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:SilencingCritics ;
+    airo:hasStakeholder ex:VictimOfDeepfake .
+
+ex:ReputationHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Reputation Harm Risk"@en ;
+    rdfs:label "名誉损害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistress ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:PsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress Consequence"@en ;
+    rdfs:label "心理困扰后果"@zh ;
+    airo:hasImpact ex:SocialStigma .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:VictimOfDeepfake rdf:type airo:Stakeholder ;
+    rdfs:label "Victim of Deepfake"@en ;
+    rdfs:label "深度伪造受害者"@zh .
+
+ex:SocialStigma rdf:type airo:Impact ;
+    rdfs:label "Social Stigma Impact"@en ;
+    rdfs:label "社会污名影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VictimOfDeepfake .
+
+ex:SilencingCritics rdf:type airo:Purpose ;
+    rdfs:label "Silencing Critics Purpose"@en ;
+    rdfs:label "压制批评者目的"@zh .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creation Risk Source"@en ;
+    rdfs:label "恶意内容创作风险源"@zh .

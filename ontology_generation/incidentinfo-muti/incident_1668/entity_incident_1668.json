@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SupermarketAIMealPlannerApp",
+      "中文名称": "超市AI膳食规划应用",
+      "英文名称": "Supermarket AI Meal Planner App",
+      "来源": "Supermarket AI meal planner app suggests recipe that would create chlorine gas"
+    },
+    "Risk": {
+      "id": "ToxicRecipeSuggestionRisk",
+      "中文名称": "有毒食谱建议风险",
+      "英文名称": "Toxic Recipe Suggestion Risk",
+      "来源": "suggests recipe that would create chlorine gas"
+    },
+    "Consequence": {
+      "id": "PotentialPoisoning",
+      "中文名称": "潜在中毒后果",
+      "英文名称": "Potential Poisoning Consequence",
+      "来源": "suggests recipe that would create chlorine gas"
+    },
+    "Impact": {
+      "id": "HealthHazard",
+      "中文名称": "健康危害影响",
+      "英文名称": "Health Hazard Impact",
+      "来源": "suggests recipe that would create chlorine gas"
+    },
+    "Purpose": {
+      "id": "MealPlanningAssistance",
+      "中文名称": "膳食规划辅助目的",
+      "英文名称": "Meal Planning Assistance Purpose",
+      "来源": "Supermarket AI meal planner app"
+    },
+    "Domain": {
+      "id": "RetailFoodServices",
+      "中文名称": "零售食品服务领域",
+      "英文名称": "Retail Food Services Domain",
+      "来源": "Supermarket AI"
+    },
+    "AITechnique": {
+      "id": "RecipeGenerationAlgorithm",
+      "中文名称": "食谱生成算法技术",
+      "英文名称": "Recipe Generation Algorithm Technique",
+      "来源": "AI-powered grocery bot suggests recipe"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyChecks",
+      "中文名称": "安全检测不足风险源",
+      "英文名称": "Inadequate Safety Checks Risk Source",
+      "来源": "suggests recipe that would create chlorine gas"
+    }
+  }
+}

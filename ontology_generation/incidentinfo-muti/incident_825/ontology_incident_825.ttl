@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SantoYSeñaAIInterviewSystem rdf:type airo:AISystem ;
+    rdfs:label "Santo y Seña AI Interview System"@en ;
+    rdfs:label "Santo y Seña AI访谈系统"@zh ;
+    airo:hasRisk ex:MisrepresentationRisk ;
+    airo:usesTechnique ex:ConversationRecreationAI ;
+    airo:hasStakeholder ex:PoliticalFigureOrsi .
+
+ex:MisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation Risk"@en ;
+    rdfs:label "虚假陈述风险"@zh ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:PoliticalFigureOrsi rdf:type airo:Stakeholder ;
+    rdfs:label "Political Figure Orsi"@en ;
+    rdfs:label "政治人物Orsi"@zh .
+
+ex:ConversationRecreationAI rdf:type airo:AITechnique ;
+    rdfs:label "Conversation Recreation AI Technique"@en ;
+    rdfs:label "对话重建AI技术"@zh .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigureOrsi .

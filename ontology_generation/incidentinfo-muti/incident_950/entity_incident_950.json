@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleVoiceDictationSystem",
+      "中文名称": "苹果语音听写系统",
+      "英文名称": "Apple Voice Dictation System",
+      "来源": "Apple is fixing a voice dictation bug that substitutes 'Trump' for 'racist'"
+    },
+    "Risk": {
+      "id": "InappropriateWordSubstitutionRisk",
+      "中文名称": "不当词语替换风险",
+      "英文名称": "Inappropriate Word Substitution Risk",
+      "来源": "voice dictation bug that substitutes 'Trump' for 'racist'"
+    },
+    "RiskSource": {
+      "id": "SoftwareBugInDictationAlgorithm",
+      "中文名称": "听写算法中的软件错误",
+      "英文名称": "Software Bug in Dictation Algorithm",
+      "来源": "voice dictation bug"
+    },
+    "Consequence": {
+      "id": "OffensiveSpeechOutput",
+      "中文名称": "冒犯性语音输出",
+      "英文名称": "Offensive Speech Output",
+      "来源": "substitutes 'Trump' for 'racist'"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple Inc.",
+      "来源": "Apple is fixing"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionTechnology",
+      "中文名称": "语音识别技术",
+      "英文名称": "Voice Recognition Technology",
+      "来源": "voice dictation"
+    }
+  }
+}

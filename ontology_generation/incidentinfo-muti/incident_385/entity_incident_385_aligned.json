@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSecuritySoftware",
+      "中文名称": "面部识别安全软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Co-op facial recognition trial raises privacy concerns"
+    },
+    "Stakeholder": {
+      "id": "PrivacyCampaigners",
+      "中文名称": "隐私活动家",
+      "英文名称": "Privacy Advocates",
+      "来源": "Southern Co-op in face-off with privacy campaigners over security software"
+    },
+    "AIOperator": {
+      "id": "SouthernCoop",
+      "中文名称": "南方合作社",
+      "英文名称": "Southern Co-op",
+      "来源": "Southern Co-op in face-off with privacy campaigners over security software"
+    },
+    "Impact": {
+      "id": "LegalActionThreat",
+      "中文名称": "法律诉讼威胁",
+      "英文名称": "Legal Action Threat",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras threatened with legal action"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全领域",
+      "英文名称": "Retail Security",
+      "来源": "Supermarkets using facial recognition cameras"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Supermarkets using facial recognition cameras"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Co-op facial recognition trial raises privacy concerns"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSecuritySoftware",
+      "中文名称": "面部识别安全软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Co-op facial recognition trial raises privacy concerns"
+    },
+    "Stakeholder": {
+      "id": "PrivacyCampaigners",
+      "中文名称": "隐私活动家",
+      "英文名称": "Privacy Advocates",
+      "来源": "Southern Co-op in face-off with privacy campaigners over security software"
+    },
+    "AIOperator": {
+      "id": "SouthernCoop",
+      "中文名称": "南方合作社",
+      "英文名称": "Southern Co-op",
+      "来源": "Southern Co-op in face-off with privacy campaigners over security software"
+    },
+    "Impact": {
+      "id": "LegalActionThreat",
+      "中文名称": "法律诉讼威胁",
+      "英文名称": "Legal Action Threat",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras threatened with legal action"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全领域",
+      "英文名称": "Retail Security",
+      "来源": "Supermarkets using facial recognition cameras"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Supermarkets using facial recognition cameras"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Co-op facial recognition trial raises privacy concerns"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Supermarkets using 'Orwellian' facial recognition cameras"
+    }
+  }
+}

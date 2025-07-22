@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIControlledCamera",
+      "中文名称": "AI控制摄像机",
+      "英文名称": "AI Camera",
+      "来源": "AI-controlled camera mistakes ref’s bald head for ball"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI mistakes referee’s bald head for football"
+    },
+    "Consequence": {
+      "id": "GameDisruption",
+      "中文名称": "比赛中断后果",
+      "英文名称": "Game Disruption Consequence",
+      "来源": "Soccer match ruined when AI-controlled camera mistakes ref’s bald head for ball"
+    },
+    "AICapability": {
+      "id": "ObjectTracking",
+      "中文名称": "物体追踪能力",
+      "英文名称": "Object Tracking Capability",
+      "来源": "AI-controlled camera tracking system"
+    },
+    "Domain": {
+      "id": "SportsBroadcasting",
+      "中文名称": "体育转播领域",
+      "英文名称": "Sports Media Domain",
+      "来源": "Inverness football game broadcast"
+    },
+    "RiskSource": {
+      "id": "VisualSimilarity",
+      "中文名称": "视觉相似性风险源",
+      "英文名称": "Visual Similarity Risk Source",
+      "来源": "mistakes referee’s bald head for football"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIControlledCamera",
+      "中文名称": "AI控制摄像机",
+      "英文名称": "AI Camera",
+      "来源": "AI-controlled camera mistakes ref’s bald head for ball"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI mistakes referee’s bald head for football"
+    },
+    "Consequence": {
+      "id": "GameDisruption",
+      "中文名称": "比赛中断后果",
+      "英文名称": "Game Disruption Consequence",
+      "来源": "Soccer match ruined when AI-controlled camera mistakes ref’s bald head for ball"
+    },
+    "AICapability": {
+      "id": "ObjectTracking",
+      "中文名称": "物体追踪能力",
+      "英文名称": "Object Tracking Capability",
+      "来源": "AI-controlled camera tracking system"
+    },
+    "Domain": {
+      "id": "SportsBroadcasting",
+      "中文名称": "体育转播领域",
+      "英文名称": "Sports Media Domain",
+      "来源": "Inverness football game broadcast"
+    },
+    "RiskSource": {
+      "id": "VisualSimilarity",
+      "中文名称": "视觉相似性风险源",
+      "英文名称": "Visual Similarity Risk Source",
+      "来源": "mistakes referee’s bald head for football"
+    }
+  }
+}

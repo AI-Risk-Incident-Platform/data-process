@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram算法"@zh ;
+    rdfs:label "Instagram Algorithm"@en ;
+    airo:hasRisk ex:ChildSexAbuseContentPromotionRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:hasAISubject ex:Children ;
+    airo:hasStakeholder ex:ChildSafetyResearchers .
+
+ex:ChildSexAbuseContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "儿童性虐待内容传播风险"@zh ;
+    rdfs:label "Child Sex Abuse Content Promotion Risk"@en ;
+    airo:hasConsequence ex:PedophileNetworkFormation ;
+    airo:isRiskSourceFor ex:AlgorithmicContentPromotion .
+
+ex:PedophileNetworkFormation rdf:type airo:Consequence ;
+    rdfs:label "恋童癖网络形成后果"@zh ;
+    rdfs:label "Pedophile Network Formation Consequence"@en ;
+    airo:hasImpact ex:ChildExploitation .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "内容推荐算法能力"@zh ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en .
+
+ex:ChildSafetyResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "儿童安全研究人员"@zh ;
+    rdfs:label "Child Safety Researchers"@en .
+
+ex:ChildExploitation rdf:type airo:Impact ;
+    rdfs:label "儿童剥削影响"@zh ;
+    rdfs:label "Child Exploitation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ChildSafetyResearchers ;
+    airo:hasImpactOnStakeholder ex:Children .
+
+ex:AlgorithmicContentPromotion rdf:type airo:RiskSource ;
+    rdfs:label "算法内容推广风险源"@zh ;
+    rdfs:label "Algorithmic Content Promotion Risk Source"@en .
+
+ex:Children rdf:type airo:AISubject ;
+    rdfs:label "儿童"@zh ;
+    rdfs:label "Children"@en .

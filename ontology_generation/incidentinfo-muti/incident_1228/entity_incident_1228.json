@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "Major Canadian news outlets sue OpenAI"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Five Canadian news media outlets sue OpenAI for copyright breach"
+    },
+    "Stakeholder": {
+      "id": "CanadianNewsOutlets",
+      "中文名称": "加拿大新闻媒体",
+      "英文名称": "Canadian News Outlets",
+      "来源": "Five Canadian news media outlets sue OpenAI for copyright breach"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "Canadian news publishers sue OpenAI over alleged copyright infringement"
+    },
+    "Domain": {
+      "id": "MediaAndPublishing",
+      "中文名称": "媒体与出版",
+      "英文名称": "Media and Publishing",
+      "来源": "Five Canadian news media outlets sue OpenAI for copyright breach"
+    }
+  }
+}

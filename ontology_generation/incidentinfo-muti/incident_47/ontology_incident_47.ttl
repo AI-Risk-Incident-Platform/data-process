@@ -1,0 +1,62 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIBeautyContestJudgingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Beauty Contest Judging System"@en ;
+    rdfs:label "AI选美比赛评判系统"@zh ;
+    airo:hasRisk ex:RacialBiasInAIJudging ;
+    airo:hasAICapability ex:FacialFeatureAnalysisForBeautyAssessment ;
+    airo:hasAISubject ex:BeautyContestParticipants ;
+    airo:hasPurpose ex:AutomatedBeautyContestJudging ;
+    airo:isAppliedWithinDomain ex:BeautyPageantIndustry .
+
+ex:RacialBiasInAIJudging rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in AI Judging Risk"@en ;
+    rdfs:label "AI评判中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:UnderrepresentationOfDarkSkinContestants ;
+    airo:isRiskSourceFor ex:BiasedTrainingDataInFacialRecognition .
+
+ex:UnderrepresentationOfDarkSkinContestants rdf:type airo:Consequence ;
+    rdfs:label "Underrepresentation of Dark Skin Contestants Consequence"@en ;
+    rdfs:label "深色皮肤参赛者代表性不足后果"@zh ;
+    airo:hasImpact ex:PerpetuationOfRacialStereotypes .
+
+ex:FacialFeatureAnalysisForBeautyAssessment rdf:type airo:AICapability ;
+    rdfs:label "Facial Feature Analysis for Beauty Assessment Capability"@en ;
+    rdfs:label "面部特征分析用于美评估的能力"@zh .
+
+ex:BeautyContestParticipants rdf:type airo:AISubject ;
+    rdfs:label "Beauty Contest Participants"@en ;
+    rdfs:label "选美比赛参与者"@zh .
+
+ex:PerpetuationOfRacialStereotypes rdf:type airo:Impact ;
+    rdfs:label "Perpetuation of Racial Stereotypes Impact"@en ;
+    rdfs:label "种族刻板印象延续的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BeautyContestParticipants .
+
+ex:AutomatedBeautyContestJudging rdf:type airo:Purpose ;
+    rdfs:label "Automated Beauty Contest Judging Purpose"@en ;
+    rdfs:label "自动化选美比赛评判的目的"@zh .
+
+ex:BeautyPageantIndustry rdf:type airo:Domain ;
+    rdfs:label "Beauty Pageant Industry Domain"@en ;
+    rdfs:label "选美比赛行业领域"@zh .
+
+ex:BiasedTrainingDataInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中训练数据偏差的风险源"@zh ;
+    airo:isRiskSourceFor ex:RacialBiasInAIJudging ;
+    airo:isRiskSourceFor ex:EurocentricBeautyStandardsInAI .
+
+ex:EurocentricBeautyStandardsInAI rdf:type airo:Hazard ;
+    rdfs:label "Eurocentric Beauty Standards in AI Hazard"@en ;
+    rdfs:label "AI中欧洲中心主义审美标准的危害"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Full Self-Driving Beta",
+      "来源": "Tesla Fires Employee Who Posted Shocking YouTube Videos About Its Full Self-Driving Beta"
+    },
+    "Risk": {
+      "id": "UnauthorizedDisclosureOfProprietaryTechnologyRisk",
+      "中文名称": "未经授权披露专有技术风险",
+      "英文名称": "Unauthorized Disclosure of Proprietary Technology Risk",
+      "来源": "Tesla fired employee who reviewed its driver assist features on YouTube"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Employee",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla fired employee who reviewed its driver assist features on YouTube"
+    },
+    "Consequence": {
+      "id": "TerminationOfEmployment",
+      "中文名称": "终止雇佣关系后果",
+      "英文名称": "Termination of Employment Consequence",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla Fires Employee Who Posted Shocking YouTube Videos About Its Full Self-Driving Beta"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingTechnologyDevelopment",
+      "中文名称": "自动驾驶技术开发目的",
+      "英文名称": "Autonomous Driving Technology Development Purpose",
+      "来源": "Tesla Fires Employee Who Posted Shocking YouTube Videos About Its Full Self-Driving Beta"
+    },
+    "RiskSource": {
+      "id": "PublicSharingOfConfidentialInformation",
+      "中文名称": "公开分享机密信息风险源",
+      "英文名称": "Public Sharing of Confidential Information Risk Source",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    }
+  }
+}

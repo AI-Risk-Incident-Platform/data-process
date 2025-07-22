@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    },
+    "Risk": {
+      "id": "PoliticalManipulationRisk",
+      "中文名称": "政治操纵风险",
+      "英文名称": "Political Manipulation Risk",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes. Political Candidates Approve"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCandidates",
+      "中文名称": "政治候选人",
+      "英文名称": "Political Candidates",
+      "来源": "Political Candidates Approve"
+    },
+    "AISubject": {
+      "id": "IndianVoters",
+      "中文名称": "印度选民",
+      "英文名称": "Indian Voters",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    },
+    "Risk": {
+      "id": "PoliticalManipulationRisk",
+      "中文名称": "政治操纵风险",
+      "英文名称": "Political Manipulation Risk",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes. Political Candidates Approve"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCandidates",
+      "中文名称": "政治候选人",
+      "英文名称": "Political Candidates",
+      "来源": "Political Candidates Approve"
+    },
+    "AISubject": {
+      "id": "IndianVoters",
+      "中文名称": "印度选民",
+      "英文名称": "Indian Voters",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Indian Voters Are Being Bombarded With Millions of Deepfakes"
+    }
+  }
+}

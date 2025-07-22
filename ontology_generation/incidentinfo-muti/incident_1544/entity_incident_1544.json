@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT creator OpenAI"
+    },
+    "Risk": {
+      "id": "ExploitationOfDataLabelers",
+      "中文名称": "数据标注员剥削风险",
+      "英文名称": "Exploitation of Data Labelers Risk",
+      "来源": "Kenyan data labelers were paid $2 an hour to label child sexual abuse, bestiality, and other horrific content"
+    },
+    "Stakeholder": {
+      "id": "KenyanDataLabelers",
+      "中文名称": "肯尼亚数据标注员",
+      "英文名称": "Kenyan Data Labelers",
+      "来源": "200 Kenyans to perfect ChatGPT—then sacked them"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI Outsourced Data Labeling to Kenyan Workers"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToWorkers",
+      "中文名称": "对工作人员的心理伤害影响",
+      "英文名称": "Psychological Harm to Workers Impact",
+      "来源": "label child sexual abuse, bestiality, and other horrific content"
+    },
+    "RiskSource": {
+      "id": "LowWageLaborOutsourcing",
+      "中文名称": "低工资劳动外包风险源",
+      "英文名称": "Low Wage Labor Outsourcing Risk Source",
+      "来源": "paid $2 an hour to label...then sacked them"
+    },
+    "Consequence": {
+      "id": "WorkerExploitation",
+      "中文名称": "工人剥削后果",
+      "英文名称": "Worker Exploitation Consequence",
+      "来源": "underpaid 200 Kenyans to perfect ChatGPT—then sacked them"
+    }
+  }
+}

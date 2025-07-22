@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FordBlueCruiseSystem",
+      "中文名称": "福特BlueCruise系统",
+      "英文名称": "Ford BlueCruise System",
+      "来源": "Driver in fatal Texas crash was using Ford’s auto driving system, officials say"
+    },
+    "Risk": {
+      "id": "AutonomousDrivingFatalityRisk",
+      "中文名称": "自动驾驶致命风险",
+      "英文名称": "Autonomous Driving Fatality Risk",
+      "来源": "Driver in fatal Texas crash was using Ford’s auto driving system"
+    },
+    "Stakeholder": {
+      "id": "FordMotorCompany",
+      "中文名称": "福特汽车公司",
+      "英文名称": "Ford Motor Company",
+      "来源": "Ford’s hands-free BlueCruise comes under scrutiny after fatal crash"
+    },
+    "AIOperator": {
+      "id": "FordMotorCompanyOperator",
+      "中文名称": "福特汽车公司经营者",
+      "英文名称": "Ford Motor Company Operator",
+      "来源": "Ford’s hands-free BlueCruise comes under scrutiny after fatal crash"
+    },
+    "Consequence": {
+      "id": "FatalCrashConsequence",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal Crash Consequence",
+      "来源": "Driver in fatal Texas crash was using Ford’s auto driving system"
+    },
+    "Impact": {
+      "id": "LossOfLifeImpact",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Driver in fatal Texas crash was using Ford’s auto driving system"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Ford’s hands-free BlueCruise comes under scrutiny after fatal crash"
+    },
+    "AICapability": {
+      "id": "HandsFreeDrivingCapability",
+      "中文名称": "免提驾驶能力",
+      "英文名称": "Hands-Free Driving Capability",
+      "来源": "Ford’s hands-free BlueCruise comes under scrutiny after fatal crash"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ColorizingBlackAndWhitePhotosAI rdf:type airo:AISystem ;
+    rdfs:label "Colorizing Black and White Photos AI"@en ;
+    rdfs:label "黑白照片上色AI"@zh ;
+    airo:hasRisk ex:HistoricalAccuracyDistortionRisk ;
+    airo:usesTechnique ex:DeepLearningBasedColorization ;
+    airo:hasPurpose ex:EnhancingHistoricalPhotographs .
+
+ex:HistoricalAccuracyDistortionRisk rdf:type airo:Risk ;
+    rdfs:label "Historical Accuracy Distortion Risk"@en ;
+    rdfs:label "历史准确性失真风险"@zh ;
+    airo:hasConsequence ex:MisrepresentationOfHistoricalEvents .
+
+ex:DeepLearningBasedColorization rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Colorization Technique"@en ;
+    rdfs:label "基于深度学习的上色技术"@zh .
+
+ex:MisrepresentationOfHistoricalEvents rdf:type airo:Impact ;
+    rdfs:label "Misrepresentation of Historical Events Impact"@en ;
+    rdfs:label "历史事件错误呈现的影响"@zh .
+
+ex:EnhancingHistoricalPhotographs rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Historical Photographs Purpose"@en ;
+    rdfs:label "增强历史照片的目的"@zh .

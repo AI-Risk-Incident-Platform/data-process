@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:HighWaterAndEnergyConsumptionRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessing ;
+    airo:isAppliedWithinDomain ex:NaturalResourceManagement ;
+    airo:hasStakeholder ex:EnvironmentalProtectionAgencies .
+
+ex:HighWaterAndEnergyConsumptionRisk rdf:type airo:Risk ;
+    rdfs:label "High Water and Energy Consumption Risk"@en ;
+    rdfs:label "高水能和能源消耗风险"@zh ;
+    airo:hasConsequence ex:EnvironmentalResourceDepletion ;
+    airo:isRiskSourceFor ex:LargeScaleAIComputingInfrastructure .
+
+ex:EnvironmentalResourceDepletion rdf:type airo:Consequence ;
+    rdfs:label "Environmental Resource Depletion Consequence"@en ;
+    rdfs:label "环境资源枯竭后果"@zh ;
+    airo:hasImpact ex:IncreasedEnvironmentalStress .
+
+ex:IncreasedEnvironmentalStress rdf:type airo:Impact ;
+    rdfs:label "Increased Environmental Stress Impact"@en ;
+    rdfs:label "增加环境压力影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EnvironmentalProtectionAgencies .
+
+ex:NaturalResourceManagement rdf:type airo:Domain ;
+    rdfs:label "Natural Resource Management Domain"@en ;
+    rdfs:label "自然资源管理领域"@zh .
+
+ex:EnvironmentalProtectionAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Environmental Protection Agencies"@en ;
+    rdfs:label "环境保护机构"@zh .
+
+ex:LargeScaleAIComputingInfrastructure rdf:type airo:RiskSource ;
+    rdfs:label "Large-scale AI Computing Infrastructure Risk Source"@en ;
+    rdfs:label "大规模AI计算基础设施风险源"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing Capability"@en ;
+    rdfs:label "自然语言处理能力"@zh .

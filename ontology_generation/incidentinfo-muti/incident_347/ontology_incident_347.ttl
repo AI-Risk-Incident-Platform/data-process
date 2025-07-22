@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT3Bot rdf:type airo:AISystem ;
+    rdfs:label "GPT-3 Bot"@en ;
+    rdfs:label "GPT-3机器人"@zh ;
+    airo:hasRisk ex:PromptInjectionAttackRisk ;
+    airo:usesTechnique ex:PreTrainedLanguageModel ;
+    airo:hasStakeholder ex:TwitterPranksters .
+
+ex:PromptInjectionAttackRisk rdf:type airo:Risk ;
+    rdfs:label "Prompt Injection Attack Risk"@en ;
+    rdfs:label "提示注入攻击风险"@zh ;
+    airo:isRiskSourceFor ex:HandcraftedAdversarialExamples ;
+    airo:hasConsequence ex:SystemDerailment ;
+    airo:hasVulnerability ex:PromptInjectionVulnerability .
+
+ex:PreTrainedLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Pre-Trained Language Model"@en ;
+    rdfs:label "预训练语言模型"@zh .
+
+ex:HandcraftedAdversarialExamples rdf:type airo:RiskSource ;
+    rdfs:label "Handcrafted Adversarial Examples"@en ;
+    rdfs:label "手工制作的对抗性示例"@zh .
+
+ex:TwitterPranksters rdf:type airo:Stakeholder ;
+    rdfs:label "Twitter Pranksters"@en ;
+    rdfs:label "Twitter恶作剧者"@zh .
+
+ex:SystemDerailment rdf:type airo:Consequence ;
+    rdfs:label "System Derailment"@en ;
+    rdfs:label "系统失控"@zh .
+
+ex:PromptInjectionVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Prompt Injection Vulnerability"@en ;
+    rdfs:label "提示注入漏洞"@zh .

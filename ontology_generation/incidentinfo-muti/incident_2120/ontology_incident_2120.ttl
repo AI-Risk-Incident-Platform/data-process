@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepScoreTrustworthinessApp rdf:type airo:AISystem ;
+    rdfs:label "DeepScore Trustworthiness App"@en ;
+    rdfs:label "DeepScore信任度评分应用"@zh ;
+    airo:hasRisk ex:UnreliableTrustworthinessAssessmentRisk ;
+    airo:hasCapability ex:CustomerTrustworthinessScoring ;
+    airo:hasPurpose ex:AssessingCustomerTrustworthiness ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:hasStakeholder ex:LendersAndInsurers .
+
+ex:UnreliableTrustworthinessAssessmentRisk rdf:type airo:Risk ;
+    rdfs:label "Unreliable Trustworthiness Assessment Risk"@en ;
+    rdfs:label "不可靠的信任度评估风险"@zh ;
+    airo:hasConsequence ex:InaccurateCreditDecisions .
+
+ex:CustomerTrustworthinessScoring rdf:type airo:AICapability ;
+    rdfs:label "Customer Trustworthiness Scoring Capability"@en ;
+    rdfs:label "客户信任度评分能力"@zh .
+
+ex:AssessingCustomerTrustworthiness rdf:type airo:Purpose ;
+    rdfs:label "Assessing Customer Trustworthiness Purpose"@en ;
+    rdfs:label "评估客户信任度的目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:LendersAndInsurers rdf:type airo:Stakeholder ;
+    rdfs:label "Lenders and Insurers"@en ;
+    rdfs:label "贷款机构和保险公司"@zh .
+
+ex:InaccurateCreditDecisions rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Credit Decisions Consequence"@en ;
+    rdfs:label "不准确的信贷决策后果"@zh ;
+    airo:hasImpact ex:FinancialDiscrimination .
+
+ex:FinancialDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Financial Discrimination Impact"@en ;
+    rdfs:label "金融歧视影响"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UKVisaStreamingAlgorithm",
+      "中文名称": "英国签证流算法",
+      "英文名称": "UK Visa Streaming Algorithm",
+      "来源": "The use of Artificial Intelligence by the Home Office to stream visa applications"
+    },
+    "Risk": {
+      "id": "BiasInVisaGrantingSystem",
+      "中文名称": "签证发放系统中的偏见风险",
+      "英文名称": "Bias in Visa Granting System Risk",
+      "来源": "AI system for granting UK visas is biased, rights groups claim"
+    },
+    "Stakeholder": {
+      "id": "RightsGroups",
+      "中文名称": "权利组织",
+      "英文名称": "Rights Groups",
+      "来源": "AI system for granting UK visas is biased, rights groups claim"
+    },
+    "AIOperator": {
+      "id": "UKHomeOffice",
+      "中文名称": "英国内政部",
+      "英文名称": "UK Home Office",
+      "来源": "The use of Artificial Intelligence by the Home Office to stream visa applications"
+    },
+    "Impact": {
+      "id": "DiscriminatoryVisaDecisions",
+      "中文名称": "歧视性签证决策的影响",
+      "英文名称": "Discriminatory Visa Decisions Impact",
+      "来源": "UK commits to redesign visa streaming algorithm after challenge to 'racist' tool"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "AI system for granting UK visas is biased, rights groups claim"
+    },
+    "Consequence": {
+      "id": "UnfairTreatmentOfApplicants",
+      "中文名称": "申请人受到不公平待遇的后果",
+      "英文名称": "Unfair Treatment of Applicants Consequence",
+      "来源": "UK commits to redesign visa streaming algorithm after challenge to 'racist' tool"
+    },
+    "Purpose": {
+      "id": "StreamVisaApplications",
+      "中文名称": "分流签证申请的目的",
+      "英文名称": "Stream Visa Applications Purpose",
+      "来源": "The use of Artificial Intelligence by the Home Office to stream visa applications"
+    },
+    "Domain": {
+      "id": "ImmigrationServices",
+      "中文名称": "移民服务领域",
+      "英文名称": "Immigration Services Domain",
+      "来源": "The use of Artificial Intelligence by the Home Office to stream visa applications"
+    }
+  }
+}

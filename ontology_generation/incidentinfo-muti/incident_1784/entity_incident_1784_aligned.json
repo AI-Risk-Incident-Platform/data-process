@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WalgreensFaceScanCameras",
+      "中文名称": "Walgreens面部扫描摄像头",
+      "英文名称": "Walgreens Face Scan Cameras",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Risk": {
+      "id": "BiometricPrivacyRisk",
+      "中文名称": "生物识别隐私风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Stakeholder": {
+      "id": "ClassActionPlaintiffs",
+      "中文名称": "集体诉讼原告",
+      "英文名称": "Class Action Plaintiffs",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    },
+    "AIOperator": {
+      "id": "Walgreens",
+      "中文名称": "Walgreens",
+      "英文名称": "Walgreens",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全",
+      "英文名称": "Retail Security",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WalgreensFaceScanCameras",
+      "中文名称": "Walgreens面部扫描摄像头",
+      "英文名称": "Walgreens Face Scan Cameras",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Risk": {
+      "id": "BiometricPrivacyRisk",
+      "中文名称": "生物识别隐私风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Stakeholder": {
+      "id": "ClassActionPlaintiffs",
+      "中文名称": "集体诉讼原告",
+      "英文名称": "Class Action Plaintiffs",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    },
+    "AIOperator": {
+      "id": "Walgreens",
+      "中文名称": "Walgreens",
+      "英文名称": "Walgreens",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "Walgreens Hit With Biometric Suit Over Face Scan Cameras"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全",
+      "英文名称": "Retail Security",
+      "来源": "Walgreens Facial Recognition Security Cameras Prompt Class Action Lawsuit"
+    }
+  }
+}

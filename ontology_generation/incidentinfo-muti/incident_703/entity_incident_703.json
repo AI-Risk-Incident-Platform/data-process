@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Turkish student arrested for cheating on university entrance examination using ChatGPT"
+    },
+    "Risk": {
+      "id": "AcademicCheatingRisk",
+      "中文名称": "学术作弊风险",
+      "英文名称": "Academic Cheating Risk",
+      "来源": "Turkish student arrested for cheating on university entrance examination using ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "TurkishStudent",
+      "中文名称": "土耳其学生",
+      "英文名称": "Turkish Student",
+      "来源": "Turkish student arrested for cheating on university entrance examination using ChatGPT"
+    },
+    "Consequence": {
+      "id": "LegalArrestConsequence",
+      "中文名称": "法律逮捕后果",
+      "英文名称": "Legal Arrest Consequence",
+      "来源": "Turkish student arrested for cheating on university entrance examination using ChatGPT"
+    },
+    "Misuse": {
+      "id": "ExamCheatingMisuse",
+      "中文名称": "考试作弊滥用",
+      "英文名称": "Exam Cheating Misuse",
+      "来源": "Turkish student creates custom AI device for cheating university exam, gets arrested"
+    },
+    "AITechnique": {
+      "id": "CustomAIDevice",
+      "中文名称": "定制AI设备",
+      "英文名称": "Custom AI Device",
+      "来源": "Turkish student creates custom AI device for cheating university exam, gets arrested"
+    }
+  }
+}

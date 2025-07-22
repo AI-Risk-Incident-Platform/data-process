@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BurgerFlippingRobot",
+      "中文名称": "汉堡翻转机器人",
+      "英文名称": "Burger Flipping Robot",
+      "来源": "Burger-flipping robot takes four-day break immediately after landing new job"
+    },
+    "Risk": {
+      "id": "OperationalFailureRisk",
+      "中文名称": "操作失败风险",
+      "英文名称": "Operational Risk",
+      "来源": "Humans Couldn't Keep Up with This Burger-Flipping Robot, So They Fired It"
+    },
+    "Consequence": {
+      "id": "JobTermination",
+      "中文名称": "工作终止后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "A Burger Chain Added a Burger-Flipping Robot — It Lasted for a Day"
+    },
+    "Stakeholder": {
+      "id": "BurgerChain",
+      "中文名称": "汉堡连锁店",
+      "英文名称": "Burger Chain",
+      "来源": "A Burger Chain Added a Burger-Flipping Robot — It Lasted for a Day"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断影响",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "Humans Couldn't Keep Up with This Burger-Flipping Robot, So They Fired It"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BurgerFlippingRobot",
+      "中文名称": "汉堡翻转机器人",
+      "英文名称": "Burger Flipping Robot",
+      "来源": "Burger-flipping robot takes four-day break immediately after landing new job"
+    },
+    "Risk": {
+      "id": "OperationalFailureRisk",
+      "中文名称": "操作失败风险",
+      "英文名称": "Operational Risk",
+      "来源": "Humans Couldn't Keep Up with This Burger-Flipping Robot, So They Fired It"
+    },
+    "Consequence": {
+      "id": "JobTermination",
+      "中文名称": "工作终止后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "A Burger Chain Added a Burger-Flipping Robot — It Lasted for a Day"
+    },
+    "Stakeholder": {
+      "id": "BurgerChain",
+      "中文名称": "汉堡连锁店",
+      "英文名称": "Burger Chain",
+      "来源": "A Burger Chain Added a Burger-Flipping Robot — It Lasted for a Day"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断影响",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "Humans Couldn't Keep Up with This Burger-Flipping Robot, So They Fired It"
+    }
+  }
+}

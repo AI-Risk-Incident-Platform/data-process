@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AliceVoiceAssistant",
+      "中文名称": "Alice语音助手",
+      "英文名称": "Alice Voice Assistant",
+      "来源": "Russian Voice Assistant Alice Goes Rogue, Found to be Supportive of Stalin and Violence"
+    },
+    "Risk": {
+      "id": "HistoricalFigureGlorificationRisk",
+      "中文名称": "历史人物美化风险",
+      "英文名称": "Historical Figure Glorification Risk",
+      "来源": "Found to be Supportive of Stalin and Violence"
+    },
+    "Consequence": {
+      "id": "PropagandaDissemination",
+      "中文名称": "宣传传播后果",
+      "英文名称": "Propaganda Dissemination Consequence",
+      "来源": "Found to be Supportive of Stalin and Violence"
+    },
+    "Impact": {
+      "id": "HistoricalRevisionismImpact",
+      "中文名称": "历史修正主义影响",
+      "英文名称": "Historical Revisionism Impact",
+      "来源": "Found to be Supportive of Stalin and Violence"
+    },
+    "AIOperator": {
+      "id": "Yandex",
+      "中文名称": "Yandex公司",
+      "英文名称": "Yandex",
+      "来源": "Russian Voice Assistant Alice"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Found to be Supportive of Stalin and Violence"
+    }
+  }
+}

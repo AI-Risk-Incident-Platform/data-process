@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonJustWalkOutSystem",
+      "中文名称": "亚马逊Just Walk Out系统",
+      "英文名称": "Just Walk Out System",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "Risk": {
+      "id": "PotentialTheftRisk",
+      "中文名称": "潜在盗窃风险",
+      "英文名称": "Theft Risk",
+      "来源": "Should I Steal Vegetables from Amazon?"
+    },
+    "Domain": {
+      "id": "RetailGrocery",
+      "中文名称": "零售杂货",
+      "英文名称": "Retail Grocery",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "AICapability": {
+      "id": "AutomatedCheckout",
+      "中文名称": "自动结账能力",
+      "英文名称": "Automated Checkout Capability",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Should I Steal Vegetables from Amazon?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonJustWalkOutSystem",
+      "中文名称": "亚马逊Just Walk Out系统",
+      "英文名称": "Just Walk Out System",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "Risk": {
+      "id": "PotentialTheftRisk",
+      "中文名称": "潜在盗窃风险",
+      "英文名称": "Theft Risk",
+      "来源": "Should I Steal Vegetables from Amazon?"
+    },
+    "Domain": {
+      "id": "RetailGrocery",
+      "中文名称": "零售杂货",
+      "英文名称": "Retail Grocery",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "AICapability": {
+      "id": "AutomatedCheckout",
+      "中文名称": "自动结账能力",
+      "英文名称": "Automated Checkout Capability",
+      "来源": "Amazon Ditches 'Just Walk Out' Checkouts at Its Grocery Stores"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Should I Steal Vegetables from Amazon?"
+    }
+  }
+}

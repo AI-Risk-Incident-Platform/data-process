@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeContentGenerationSystem",
+      "中文名称": "YouTube内容生成系统",
+      "英文名称": "YouTube Content Generation System",
+      "来源": "A \"true crime\" video about a Littleton man's \"secret gay love affair\" with his murderous stepson is going viral. It's fake."
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "YouTube video about a murder in Colorado reached nearly 2 million views. The story is fake."
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "Viral video about Littleton murder is fake, law enforcement says"
+    },
+    "AICapability": {
+      "id": "DeepfakeVideoGeneration",
+      "中文名称": "深度伪造视频生成能力",
+      "英文名称": "Deepfake Video Generation Capability",
+      "来源": "A \"true crime\" video about a Littleton man's \"secret gay love affair\" with his murderous stepson is going viral. It's fake."
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agencies",
+      "来源": "Viral video about Littleton murder is fake, law enforcement says"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "YouTube video about a murder in Colorado reached nearly 2 million views. The story is fake."
+    }
+  }
+}

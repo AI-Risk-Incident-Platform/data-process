@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterGunshotDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter Gunshot Detection System"@en ;
+    rdfs:label "ShotSpotter枪声检测系统"@zh ;
+    airo:hasRisk ex:LegalContemptRisk ;
+    airo:hasStakeholder ex:JudicialSystem ;
+    airo:isAppliedWithinDomain ex:PublicSafetyDomain .
+
+ex:LegalContemptRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Contempt Risk"@en ;
+    rdfs:label "法律藐视风险"@zh ;
+    airo:hasConsequence ex:LegalSanctionsConsequence .
+
+ex:JudicialSystem rdf:type airo:Stakeholder ;
+    rdfs:label "Judicial System"@en ;
+    rdfs:label "司法系统"@zh .
+
+ex:PublicSafetyDomain rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:LegalSanctionsConsequence rdf:type airo:Consequence ;
+    rdfs:label "Legal Sanctions Consequence"@en ;
+    rdfs:label "法律制裁后果"@zh ;
+    airo:hasImpactOnStakeholder ex:JudicialSystem .

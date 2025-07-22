@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomaticTranscriptionSystem",
+      "中文名称": "自动转录系统",
+      "英文名称": "Automatic Transcription System",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Risk": {
+      "id": "TranscriptionErrorRisk",
+      "中文名称": "转录错误风险",
+      "英文名称": "Transcription Error Risk",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Consequence": {
+      "id": "LegalDecisionErrors",
+      "中文名称": "法律决策错误",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Impact": {
+      "id": "JusticeSystemCompromise",
+      "中文名称": "司法系统受损",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomaticTranscriptionSystem",
+      "中文名称": "自动转录系统",
+      "英文名称": "Automatic Transcription System",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Risk": {
+      "id": "TranscriptionErrorRisk",
+      "中文名称": "转录错误风险",
+      "英文名称": "Transcription Error Risk",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Consequence": {
+      "id": "LegalDecisionErrors",
+      "中文名称": "法律决策错误",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    },
+    "Impact": {
+      "id": "JusticeSystemCompromise",
+      "中文名称": "司法系统受损",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The judicial system underestimates the errors of automatic transcription"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UnemploymentDesignationSystem",
+      "中文名称": "失业人员指定系统",
+      "英文名称": "Unemployment Designation System",
+      "来源": "Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Risk": {
+      "id": "PotentialIllegalityRisk",
+      "中文名称": "潜在违法风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Stakeholder": {
+      "id": "Datatilsyn",
+      "中文名称": "丹麦数据保护局",
+      "英文名称": "Danish Data Protection Entity",
+      "来源": "Datatilsyn: Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Domain": {
+      "id": "PublicEmploymentServices",
+      "中文名称": "公共就业服务领域",
+      "英文名称": "Public Employment Services Domain",
+      "来源": "Ny lov om udpegning af ledige"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UnemploymentDesignationSystem",
+      "中文名称": "失业人员指定系统",
+      "英文名称": "Unemployment Designation System",
+      "来源": "Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Risk": {
+      "id": "PotentialIllegalityRisk",
+      "中文名称": "潜在违法风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Stakeholder": {
+      "id": "Datatilsyn",
+      "中文名称": "丹麦数据保护局",
+      "英文名称": "Danish Data Protection Entity",
+      "来源": "Datatilsyn: Ny lov om udpegning af ledige er muligvis ulovlig"
+    },
+    "Domain": {
+      "id": "PublicEmploymentServices",
+      "中文名称": "公共就业服务领域",
+      "英文名称": "Public Employment Services Domain",
+      "来源": "Ny lov om udpegning af ledige"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleAI",
+      "中文名称": "苹果AI",
+      "英文名称": "Apple AI",
+      "来源": "Grandmother gets X-rated message after Apple AI fail"
+    },
+    "Risk": {
+      "id": "InappropriateContentGenerationRisk",
+      "中文名称": "不当内容生成风险",
+      "英文名称": "Inappropriate Content Generation Risk",
+      "来源": "Apple AI Calls Grandma \"A Piece Of S**t\", Asks About Her Sex Life"
+    },
+    "Consequence": {
+      "id": "OffensiveMessageToElderlyUser",
+      "中文名称": "对老年用户的冒犯性信息后果",
+      "英文名称": "Offensive Message to Elderly User Consequence",
+      "来源": "66-year-old woman stunned as AI fills message with profanity, 'been able to have sex'"
+    },
+    "AISubject": {
+      "id": "ElderlyUser",
+      "中文名称": "老年用户",
+      "英文名称": "Elderly User",
+      "来源": "66-year-old woman stunned as AI fills message with profanity"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "66-year-old woman stunned as AI fills message with profanity"
+    },
+    "RiskSource": {
+      "id": "UnfilteredContentGeneration",
+      "中文名称": "未过滤内容生成风险源",
+      "英文名称": "Unfiltered Content Generation Risk Source",
+      "来源": "Apple AI Calls Grandma \"A Piece Of S**t\", Asks About Her Sex Life"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple Inc.",
+      "来源": "Grandmother gets X-rated message after Apple AI fail"
+    }
+  }
+}

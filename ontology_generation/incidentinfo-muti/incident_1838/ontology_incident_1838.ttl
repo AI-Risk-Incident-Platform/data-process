@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIHallucinationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Hallucination System"@en ;
+    rdfs:label "AI幻觉系统"@zh ;
+    airo:hasRisk ex:FabricatedJudicialDecisionsRisk ;
+    airo:hasAISubject ex:CourtCases ;
+    airo:hasAICapability ex:LegalTextGeneration ;
+    airo:hasPurpose ex:LegalResearchAssistance ;
+    airo:isAppliedWithinDomain ex:LegalServices ;
+    airo:usesTechnique ex:NaturalLanguageGeneration ;
+    airo:hasStakeholder ex:LegalProfessionals .
+
+ex:FabricatedJudicialDecisionsRisk rdf:type airo:Risk ;
+    rdfs:label "Fabricated Judicial Decisions Risk"@en ;
+    rdfs:label "伪造司法决策风险"@zh ;
+    airo:hasConsequence ex:LegalSystemUndermined ;
+    airo:isRiskSourceFor ex:UnverifiedAIOutput .
+
+ex:LegalSystemUndermined rdf:type airo:Consequence ;
+    rdfs:label "Legal System Undermined Consequence"@en ;
+    rdfs:label "法律体系被破坏后果"@zh ;
+    airo:hasImpact ex:JudicialSystemIntegrityThreatened .
+
+ex:LegalTextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Legal Text Generation Capability"@en ;
+    rdfs:label "法律文本生成能力"@zh .
+
+ex:LegalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "Legal Professionals"@en ;
+    rdfs:label "法律专业人士"@zh .
+
+ex:CourtCases rdf:type airo:AISubject ;
+    rdfs:label "Court Cases"@en ;
+    rdfs:label "法庭案件"@zh .
+
+ex:JudicialSystemIntegrityThreatened rdf:type airo:Impact ;
+    rdfs:label "Judicial System Integrity Threatened Impact"@en ;
+    rdfs:label "司法系统完整性受威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalProfessionals .
+
+ex:LegalResearchAssistance rdf:type airo:Purpose ;
+    rdfs:label "Legal Research Assistance Purpose"@en ;
+    rdfs:label "法律研究辅助目的"@zh .
+
+ex:LegalServices rdf:type airo:Domain ;
+    rdfs:label "Legal Services Domain"@en ;
+    rdfs:label "法律服务领域"@zh .
+
+ex:NaturalLanguageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:UnverifiedAIOutput rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI Output Risk Source"@en ;
+    rdfs:label "未经验证的AI输出风险源"@zh ;
+    airo:hasHazard ex:InaccurateLegalReferences ;
+    airo:hasThreat ex:MisinformationInLegalSystem ;
+    airo:exploitsVulnerability ex:LackOfFactChecking .
+
+ex:LackOfFactChecking rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Fact Checking Vulnerability"@en ;
+    rdfs:label "缺乏事实核查的脆弱性"@zh .
+
+ex:MisinformationInLegalSystem rdf:type airo:Threat ;
+    rdfs:label "Misinformation in Legal System Threat"@en ;
+    rdfs:label "法律系统中的错误信息威胁"@zh .
+
+ex:InaccurateLegalReferences rdf:type airo:Hazard ;
+    rdfs:label "Inaccurate Legal References Hazard"@en ;
+    rdfs:label "不准确法律引用危害"@zh .
+
+ex:EthicalUseOfAIInLegalContext rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Use of AI in Legal Context Risk Concept"@en ;
+    rdfs:label "法律背景下AI的伦理使用"@zh .

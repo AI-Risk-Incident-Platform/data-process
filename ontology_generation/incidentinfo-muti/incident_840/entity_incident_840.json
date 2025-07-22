@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AILandlordScreeningTool",
+      "中文名称": "AI房东筛选工具",
+      "英文名称": "AI Landlord Screening Tool",
+      "来源": "AI landlord screening tool will stop scoring low-income tenants after discrimination suit"
+    },
+    "Risk": {
+      "id": "DiscriminationAgainstLowIncomeTenants",
+      "中文名称": "对低收入租户的歧视风险",
+      "英文名称": "Discrimination Against Low-Income Tenants Risk",
+      "来源": "AI landlord screening tool will stop scoring low-income tenants after discrimination suit"
+    },
+    "Stakeholder": {
+      "id": "LowIncomeTenants",
+      "中文名称": "低收入租户",
+      "英文名称": "Low-Income Tenants",
+      "来源": "AI landlord screening tool will stop scoring low-income tenants after discrimination suit"
+    },
+    "AIOperator": {
+      "id": "SafeRentSolutions",
+      "中文名称": "SafeRent解决方案公司",
+      "英文名称": "SafeRent Solutions",
+      "来源": "Louis, et al. v. SafeRent Solutions, et al."
+    },
+    "Consequence": {
+      "id": "UnlawfulTenantScreeningPractices",
+      "中文名称": "非法租户筛选行为后果",
+      "英文名称": "Unlawful Tenant Screening Practices Consequence",
+      "来源": "Justice Department Files Statement of Interest in Fair Housing Act Case Alleging Unlawful Algorithm-Based Tenant Screening Practices"
+    },
+    "Domain": {
+      "id": "HousingRentalMarket",
+      "中文名称": "住房租赁市场领域",
+      "英文名称": "Housing Rental Market Domain",
+      "来源": "Justice Department Files Statement of Interest in Fair Housing Act Case Alleging Unlawful Algorithm-Based Tenant Screening Practices"
+    },
+    "Purpose": {
+      "id": "TenantScreeningForLandlords",
+      "中文名称": "为房东筛选租户的目的",
+      "英文名称": "Tenant Screening for Landlords Purpose",
+      "来源": "AI landlord screening tool will stop scoring low-income tenants after discrimination suit"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTenantScoring",
+      "中文名称": "租户评分中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Tenant Scoring Risk Source",
+      "来源": "Justice Department Files Statement of Interest in Fair Housing Act Case Alleging Unlawful Algorithm-Based Tenant Screening Practices"
+    },
+    "Impact": {
+      "id": "FairHousingActViolations",
+      "中文名称": "公平住房法案违规影响",
+      "英文名称": "Fair Housing Act Violations Impact",
+      "来源": "Justice Department Files Statement of Interest in Fair Housing Act Case Alleging Unlawful Algorithm-Based Tenant Screening Practices"
+    }
+  }
+}

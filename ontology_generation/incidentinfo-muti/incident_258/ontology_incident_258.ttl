@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter枪声定位系统"@zh ;
+    rdfs:label "ShotSpotter System"@en ;
+    airo:hasRisk ex:HumanErrorInGunshotDetection ;
+    airo:hasAISubject ex:ShootingSuspects ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:isAppliedWithinDomain ex:PublicSafety .
+
+ex:HumanErrorInGunshotDetection rdf:type airo:Risk ;
+    rdfs:label "枪声检测中人为错误风险"@zh ;
+    rdfs:label "Human Error in Gunshot Detection Risk"@en ;
+    airo:hasConsequence ex:WrongfulConviction ;
+    airo:isRiskSourceFor ex:TechnologyReliabilityIssues .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "执法机构"@zh ;
+    rdfs:label "Law Enforcement Agencies"@en .
+
+ex:ShootingSuspects rdf:type airo:AISubject ;
+    rdfs:label "枪击嫌疑人"@zh ;
+    rdfs:label "Shooting Suspects"@en .
+
+ex:WrongfulConviction rdf:type airo:Impact ;
+    rdfs:label "错误定罪影响"@zh ;
+    rdfs:label "Wrongful Conviction Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ShootingSuspects .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "公共安全领域"@zh ;
+    rdfs:label "Public Safety Domain"@en .
+
+ex:TechnologyReliabilityIssues rdf:type airo:RiskSource ;
+    rdfs:label "技术可靠性问题风险源"@zh ;
+    rdfs:label "Technology Reliability Issues Risk Source"@en .

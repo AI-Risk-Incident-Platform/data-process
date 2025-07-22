@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedDeepfakes",
+      "中文名称": "AI生成深度伪造",
+      "英文名称": "AI Generated Deepfakes",
+      "来源": "FBI warns of increasing use of AI-generated deepfakes in sextortion schemes"
+    },
+    "Risk": {
+      "id": "SextortionRisk",
+      "中文名称": "性勒索风险",
+      "英文名称": "Sextortion Risk",
+      "来源": "FBI warns of increasing use of AI-generated deepfakes in sextortion schemes"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Privacy Violation Consequence",
+      "来源": "Malicious Actors Manipulating Photos and Videos to Create Explicit Content and Sextortion Schemes"
+    },
+    "Stakeholder": {
+      "id": "FBI",
+      "中文名称": "联邦调查局",
+      "英文名称": "FBI",
+      "来源": "FBI warns of increasing use of AI-generated deepfakes in sextortion schemes"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Malicious Actors Manipulating Photos and Videos to Create Explicit Content and Sextortion Schemes"
+    },
+    "RiskSource": {
+      "id": "MaliciousActors",
+      "中文名称": "恶意行为者",
+      "英文名称": "Malicious Actors",
+      "来源": "Malicious Actors Manipulating Photos and Videos to Create Explicit Content and Sextortion Schemes"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Psychological Harm Impact",
+      "来源": "Malicious Actors Manipulating Photos and Videos to Create Explicit Content and Sextortion Schemes"
+    }
+  }
+}

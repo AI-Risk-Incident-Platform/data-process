@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIScamCreationSystem",
+      "中文名称": "AI诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "How AI is being used to create sophisticated scams that leave even experts second-guessing"
+    },
+    "Risk": {
+      "id": "SophisticatedScamRisk",
+      "中文名称": "复杂诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How AI is being used to create sophisticated scams that leave even experts second-guessing"
+    },
+    "AICapability": {
+      "id": "ScamContentGeneration",
+      "中文名称": "诈骗内容生成能力",
+      "英文名称": "Phishing Content Generation",
+      "来源": "How AI is being used to create sophisticated scams"
+    },
+    "Stakeholder": {
+      "id": "PotentialVictims",
+      "中文名称": "潜在受害者",
+      "英文名称": "Potential Victims",
+      "来源": "leave even experts second-guessing"
+    },
+    "RiskSource": {
+      "id": "AIMisuseForFraud",
+      "中文名称": "AI用于欺诈的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "How AI is being used to create sophisticated scams"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss Impact",
+      "来源": "sophisticated scams"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIScamCreationSystem",
+      "中文名称": "AI诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "How AI is being used to create sophisticated scams that leave even experts second-guessing"
+    },
+    "Risk": {
+      "id": "SophisticatedScamRisk",
+      "中文名称": "复杂诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How AI is being used to create sophisticated scams that leave even experts second-guessing"
+    },
+    "AICapability": {
+      "id": "ScamContentGeneration",
+      "中文名称": "诈骗内容生成能力",
+      "英文名称": "Phishing Content Generation",
+      "来源": "How AI is being used to create sophisticated scams"
+    },
+    "Stakeholder": {
+      "id": "PotentialVictims",
+      "中文名称": "潜在受害者",
+      "英文名称": "Potential Victims",
+      "来源": "leave even experts second-guessing"
+    },
+    "RiskSource": {
+      "id": "AIMisuseForFraud",
+      "中文名称": "AI用于欺诈的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "How AI is being used to create sophisticated scams"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss Impact",
+      "来源": "sophisticated scams"
+    }
+  }
+}

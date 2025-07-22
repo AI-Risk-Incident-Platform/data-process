@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "亚马逊推荐算法"@zh ;
+    rdfs:label "Amazon Recommendation Algorithm"@en ;
+    airo:hasRisk ex:ConsumerFinancialExploitationRisk ;
+    airo:hasCapability ex:ProductRecommendationCapability ;
+    airo:hasStakeholder ex:AmazonCustomers ;
+    airo:isDevelopedBy ex:AmazonInc ;
+    airo:hasPurpose ex:MaximizingSalesRevenue ;
+    airo:isAppliedWithinDomain ex:ECommerce ;
+    airo:usesTechnique ex:BehavioralTargetingAlgorithm .
+
+ex:ConsumerFinancialExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "消费者财务剥削风险"@zh ;
+    rdfs:label "Consumer Financial Exploitation Risk"@en ;
+    airo:hasConsequence ex:UnnecessaryConsumerSpending ;
+    airo:isRiskSourceFor ex:AlgorithmicPriceManipulation .
+
+ex:UnnecessaryConsumerSpending rdf:type airo:Consequence ;
+    rdfs:label "不必要的消费者支出后果"@zh ;
+    rdfs:label "Unnecessary Consumer Spending Consequence"@en ;
+    airo:hasImpact ex:FinancialBurdenOnConsumers .
+
+ex:ProductRecommendationCapability rdf:type airo:AICapability ;
+    rdfs:label "产品推荐能力"@zh ;
+    rdfs:label "Product Recommendation Capability"@en .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊顾客"@zh ;
+    rdfs:label "Amazon Customers"@en .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊公司"@zh ;
+    rdfs:label "Amazon Inc."@en .
+
+ex:FinancialBurdenOnConsumers rdf:type airo:Impact ;
+    rdfs:label "消费者财务负担影响"@zh ;
+    rdfs:label "Financial Burden on Consumers Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .
+
+ex:MaximizingSalesRevenue rdf:type airo:Purpose ;
+    rdfs:label "最大化销售收入目的"@zh ;
+    rdfs:label "Maximizing Sales Revenue Purpose"@en .
+
+ex:ECommerce rdf:type airo:Domain ;
+    rdfs:label "电子商务领域"@zh ;
+    rdfs:label "E-Commerce Domain"@en .
+
+ex:BehavioralTargetingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "行为定向算法技术"@zh ;
+    rdfs:label "Behavioral Targeting Algorithm Technique"@en .
+
+ex:AlgorithmicPriceManipulation rdf:type airo:RiskSource ;
+    rdfs:label "算法价格操纵风险源"@zh ;
+    rdfs:label "Algorithmic Price Manipulation Risk Source"@en .

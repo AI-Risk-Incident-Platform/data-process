@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonEchoSmartSpeaker",
+      "中文名称": "亚马逊Echo智能音箱",
+      "英文名称": "Amazon Devices",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "AICapability": {
+      "id": "VoiceDataAnalysisForAdTargeting",
+      "中文名称": "语音数据分析用于广告定向的能力",
+      "英文名称": "Voice Data Analysis for Ad Targeting Capability",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Stakeholder": {
+      "id": "EchoSmartSpeakerUsers",
+      "中文名称": "Echo智能音箱用户",
+      "英文名称": "Echo Users",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Purpose": {
+      "id": "PersonalizedAdTargeting",
+      "中文名称": "个性化广告定向的目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionAndAnalysis",
+      "中文名称": "语音识别与分析技术",
+      "英文名称": "Voice Recognition",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonEchoSmartSpeaker",
+      "中文名称": "亚马逊Echo智能音箱",
+      "英文名称": "Amazon Devices",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "AICapability": {
+      "id": "VoiceDataAnalysisForAdTargeting",
+      "中文名称": "语音数据分析用于广告定向的能力",
+      "英文名称": "Voice Data Analysis for Ad Targeting Capability",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Stakeholder": {
+      "id": "EchoSmartSpeakerUsers",
+      "中文名称": "Echo智能音箱用户",
+      "英文名称": "Echo Users",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "Purpose": {
+      "id": "PersonalizedAdTargeting",
+      "中文名称": "个性化广告定向的目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon Echo voice data used for ad targeting, researchers say"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Study: How Amazon uses Echo smart speaker conversations to target ads"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionAndAnalysis",
+      "中文名称": "语音识别与分析技术",
+      "英文名称": "Voice Recognition",
+      "来源": "Researchers find Amazon uses Alexa voice data to target you with ads"
+    }
+  }
+}

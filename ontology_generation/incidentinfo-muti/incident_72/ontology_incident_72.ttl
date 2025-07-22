@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IndustrialWeldingRobot rdf:type airo:AISystem ;
+    rdfs:label "Industrial Welding Robot"@en ;
+    rdfs:label "工业焊接机器人"@zh ;
+    airo:hasRisk ex:IndustrialRobotSafetyRisk ;
+    airo:isAppliedWithinDomain ex:AutomotiveManufacturing ;
+    airo:hasAISubject ex:FactoryWorker ;
+    airo:hasStakeholder ex:CarPartsManufacturer .
+
+ex:IndustrialRobotSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Industrial Robot Safety Risk"@en ;
+    rdfs:label "工业机器人安全风险"@zh ;
+    airo:hasConsequence ex:WorkerFatality ;
+    airo:isRiskSourceFor ex:LackOfSafetyMeasures .
+
+ex:WorkerFatality rdf:type airo:Consequence ;
+    rdfs:label "Worker Fatality Consequence"@en ;
+    rdfs:label "工人死亡后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "人员生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FactoryWorker .
+
+ex:AutomotiveManufacturing rdf:type airo:Domain ;
+    rdfs:label "Automotive Manufacturing Domain"@en ;
+    rdfs:label "汽车制造领域"@zh .
+
+ex:FactoryWorker rdf:type airo:AISubject ;
+    rdfs:label "Factory Worker"@en ;
+    rdfs:label "工厂工人"@zh .
+
+ex:CarPartsManufacturer rdf:type airo:Stakeholder ;
+    rdfs:label "Car Parts Manufacturer"@en ;
+    rdfs:label "汽车零部件制造商"@zh .
+
+ex:UnsafeRobotOperation rdf:type airo:Hazard ;
+    rdfs:label "Unsafe Robot Operation Hazard"@en ;
+    rdfs:label "机器人操作不安全危害"@zh ;
+    airo:isRiskSourceFor ex:IndustrialRobotSafetyRisk .
+
+ex:LackOfSafetyMeasures rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Safety Measures Risk Source"@en ;
+    rdfs:label "安全措施不足风险源"@zh .

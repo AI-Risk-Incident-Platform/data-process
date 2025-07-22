@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomaticLicensePlateReader",
+      "中文名称": "自动车牌识别系统",
+      "英文名称": "Automatic License Plate Reader",
+      "来源": "Driver Finds Himself Surrounded By Cops With Guns Out After Automatic License Plate Reader Misreads His Plate"
+    },
+    "Risk": {
+      "id": "InnocentPersonThreatenedRisk",
+      "中文名称": "无辜人员受威胁风险",
+      "英文名称": "Innocent Person Threatened Risk",
+      "来源": "Due to license plate reader error, cop approaches innocent man, weapon in hand"
+    },
+    "Consequence": {
+      "id": "PoliceMistakenlyThreateningInnocentPerson",
+      "中文名称": "警察误威胁无辜人员后果",
+      "英文名称": "Police Mistakenly Threatening Innocent Person Consequence",
+      "来源": "Driver Finds Himself Surrounded By Cops With Guns Out After Automatic License Plate Reader Misreads His Plate"
+    },
+    "AICapability": {
+      "id": "LicensePlateRecognition",
+      "中文名称": "车牌识别能力",
+      "英文名称": "License Plate Recognition Capability",
+      "来源": "Automatic License Plate Reader Misreads His Plate"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Department",
+      "来源": "cop approaches innocent man, weapon in hand"
+    },
+    "AISubject": {
+      "id": "DriverWithMisreadPlate",
+      "中文名称": "车牌被误读的司机",
+      "英文名称": "Driver With Misread Plate",
+      "来源": "Driver Finds Himself Surrounded By Cops With Guns Out After Automatic License Plate Reader Misreads His Plate"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "Driver Finds Himself Surrounded By Cops With Guns Out"
+    },
+    "RiskSource": {
+      "id": "LicensePlateMisreading",
+      "中文名称": "车牌误读风险源",
+      "英文名称": "License Plate Misreading Risk Source",
+      "来源": "Automatic License Plate Reader Misreads His Plate"
+    },
+    "Vulnerability": {
+      "id": "OpticalCharacterRecognitionError",
+      "中文名称": "光学字符识别错误脆弱性",
+      "英文名称": "Optical Character Recognition Error Vulnerability",
+      "来源": "Automatic License Plate Reader Misreads His Plate"
+    }
+  }
+}

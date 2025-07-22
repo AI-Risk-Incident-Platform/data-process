@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DataSurveillanceSystem",
+      "中文名称": "数据监控系统",
+      "英文名称": "Data Surveillance System",
+      "来源": "Science and intimacy: the troubling relationship between data surveillance and care"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "the troubling relationship between data surveillance and care"
+    },
+    "Stakeholder": {
+      "id": "IndividualsUnderSurveillance",
+      "中文名称": "被监控个体",
+      "英文名称": "Individuals Under Surveillance",
+      "来源": "the troubling relationship between data surveillance and care"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Loss of Personal Privacy",
+      "来源": "the troubling relationship between data surveillance and care"
+    },
+    "Purpose": {
+      "id": "CareProvision",
+      "中文名称": "护理提供",
+      "英文名称": "Care Provision",
+      "来源": "Science and intimacy: the troubling relationship between data surveillance and care"
+    }
+  }
+}

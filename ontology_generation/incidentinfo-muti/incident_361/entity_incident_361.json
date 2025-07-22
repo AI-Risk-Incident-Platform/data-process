@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ImageAutocompletionAI",
+      "中文名称": "图像自动补全AI",
+      "英文名称": "Image Autocompletion AI",
+      "来源": "An AI saw a cropped photo of AOC. It autocompleted her wearing a bikini."
+    },
+    "Risk": {
+      "id": "InappropriateImageGenerationRisk",
+      "中文名称": "不当图像生成风险",
+      "英文名称": "Inappropriate Image Generation Risk",
+      "来源": "It autocompleted her wearing a bikini."
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfIndividuals",
+      "中文名称": "个人形象歪曲后果",
+      "英文名称": "Misrepresentation of Individuals Consequence",
+      "来源": "It autocompleted her wearing a bikini."
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromPartialInput",
+      "中文名称": "基于部分输入的图像生成能力",
+      "英文名称": "Image Generation from Partial Input Capability",
+      "来源": "An AI saw a cropped photo of AOC. It autocompleted her wearing a bikini."
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetwork",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network Technique",
+      "来源": "It autocompleted her wearing a bikini."
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "It autocompleted her wearing a bikini."
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "It autocompleted her wearing a bikini."
+    }
+  }
+}

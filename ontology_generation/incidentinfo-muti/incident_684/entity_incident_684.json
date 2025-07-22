@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBooks",
+      "中文名称": "谷歌图书",
+      "英文名称": "Google Books",
+      "来源": "Google Books reportedly indexing bad AI-written works"
+    },
+    "Risk": {
+      "id": "LowQualityContentIndexingRisk",
+      "中文名称": "低质量内容索引风险",
+      "英文名称": "Low Quality Content Indexing Risk",
+      "来源": "Google Books is cataloging AI-generated content"
+    },
+    "Consequence": {
+      "id": "InformationPollution",
+      "中文名称": "信息污染后果",
+      "英文名称": "Information Pollution Consequence",
+      "来源": "Report: 'Google Books Indexes AI Trash'"
+    },
+    "AICapability": {
+      "id": "ContentIndexing",
+      "中文名称": "内容索引能力",
+      "英文名称": "Content Indexing Capability",
+      "来源": "Google Books is cataloging AI-generated content"
+    },
+    "Stakeholder": {
+      "id": "BookReaders",
+      "中文名称": "图书读者",
+      "英文名称": "Book Readers",
+      "来源": "Google Books reportedly indexing bad AI-written works"
+    },
+    "RiskSource": {
+      "id": "AIWrittenWorks",
+      "中文名称": "AI写作作品",
+      "英文名称": "AI Written Works",
+      "来源": "Google Books reportedly indexing bad AI-written works"
+    },
+    "Impact": {
+      "id": "ReducedContentReliability",
+      "中文名称": "内容可靠性降低的影响",
+      "英文名称": "Reduced Content Reliability Impact",
+      "来源": "Report: 'Google Books Indexes AI Trash'"
+    }
+  }
+}

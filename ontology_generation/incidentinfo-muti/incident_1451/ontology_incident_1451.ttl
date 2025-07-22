@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PoliticalAI rdf:type airo:AISystem ;
+    rdfs:label "Political AI"@en ;
+    rdfs:label "政治AI"@zh ;
+    airo:hasRisk ex:DemocraticRisk ;
+    airo:isAppliedWithinDomain ex:PoliticalDomain ;
+    airo:hasStakeholder ex:CanadianPublic .
+
+ex:DemocraticRisk rdf:type airo:Risk ;
+    rdfs:label "Democratic Risk"@en ;
+    rdfs:label "民主风险"@zh ;
+    airo:hasConsequence ex:DemocraticErosion .
+
+ex:PoliticalDomain rdf:type airo:Domain ;
+    rdfs:label "Political Domain"@en ;
+    rdfs:label "政治领域"@zh .
+
+ex:DemocraticErosion rdf:type airo:Impact ;
+    rdfs:label "Democratic Erosion"@en ;
+    rdfs:label "民主侵蚀"@zh ;
+    airo:hasImpactOnStakeholder ex:CanadianPublic .
+
+ex:CanadianPublic rdf:type airo:Stakeholder ;
+    rdfs:label "Canadian Public"@en ;
+    rdfs:label "加拿大公众"@zh .

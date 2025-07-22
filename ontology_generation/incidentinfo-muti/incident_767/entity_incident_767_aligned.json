@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakePornSystem",
+      "中文名称": "深度伪造色情系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "新闻标题'I Was The Victim Of A Deepfake Porn Plot Intended To Silence Me'"
+    },
+    "Risk": {
+      "id": "ReputationHarmRisk",
+      "中文名称": "名誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题中提到的'Intended To Silence Me'表明该深度伪造内容旨在损害受害者声誉"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "标题中'Victim'一词表明受害者遭受了心理伤害"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中明确提到的'Deepfake'技术"
+    },
+    "Stakeholder": {
+      "id": "VictimOfDeepfake",
+      "中文名称": "深度伪造受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "标题中'I Was The Victim'表明存在明确的受害者"
+    },
+    "Impact": {
+      "id": "SocialStigma",
+      "中文名称": "社会污名影响",
+      "英文名称": "Social Stigma Impact",
+      "来源": "标题中'Intended To Silence Me'暗示可能造成的社会排斥"
+    },
+    "Purpose": {
+      "id": "SilencingCritics",
+      "中文名称": "压制批评者目的",
+      "英文名称": "Silencing Critics Purpose",
+      "来源": "标题中'Intended To Silence Me'明确指出了使用目的"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "标题中'Plot'一词表明这是有预谋的恶意行为"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakePornSystem",
+      "中文名称": "深度伪造色情系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "新闻标题'I Was The Victim Of A Deepfake Porn Plot Intended To Silence Me'"
+    },
+    "Risk": {
+      "id": "ReputationHarmRisk",
+      "中文名称": "名誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题中提到的'Intended To Silence Me'表明该深度伪造内容旨在损害受害者声誉"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "标题中'Victim'一词表明受害者遭受了心理伤害"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中明确提到的'Deepfake'技术"
+    },
+    "Stakeholder": {
+      "id": "VictimOfDeepfake",
+      "中文名称": "深度伪造受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "标题中'I Was The Victim'表明存在明确的受害者"
+    },
+    "Impact": {
+      "id": "SocialStigma",
+      "中文名称": "社会污名影响",
+      "英文名称": "Social Stigma Impact",
+      "来源": "标题中'Intended To Silence Me'暗示可能造成的社会排斥"
+    },
+    "Purpose": {
+      "id": "SilencingCritics",
+      "中文名称": "压制批评者目的",
+      "英文名称": "Silencing Critics Purpose",
+      "来源": "标题中'Intended To Silence Me'明确指出了使用目的"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "标题中'Plot'一词表明这是有预谋的恶意行为"
+    }
+  }
+}

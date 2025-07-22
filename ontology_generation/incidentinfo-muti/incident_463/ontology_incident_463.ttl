@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTDetectionTool rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Detection Tool"@en ;
+    rdfs:label "ChatGPT检测工具"@zh ;
+    airo:hasRisk ex:FalsePositiveAIIdentification ;
+    airo:usesTechnique ex:TextGenerationDetection .
+
+ex:FalsePositiveAIIdentification rdf:type airo:Risk ;
+    rdfs:label "False Positive AI Identification Risk"@en ;
+    rdfs:label "AI误识别风险"@zh ;
+    airo:hasConsequence ex:MisclassificationOfHumanWork .
+
+ex:MisclassificationOfHumanWork rdf:type airo:Consequence ;
+    rdfs:label "Misclassification of Human Work Consequence"@en ;
+    rdfs:label "人类作品被误分类的后果"@zh ;
+    airo:hasImpact ex:AcademicIntegrityConcerns .
+
+ex:TextGenerationDetection rdf:type airo:AITechnique ;
+    rdfs:label "Text Generation Detection Technique"@en ;
+    rdfs:label "文本生成检测技术"@zh .
+
+ex:AcademicIntegrityConcerns rdf:type airo:Impact ;
+    rdfs:label "Academic Integrity Concerns Impact"@en ;
+    rdfs:label "学术诚信问题的影响"@zh .

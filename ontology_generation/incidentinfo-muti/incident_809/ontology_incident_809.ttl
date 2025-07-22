@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedFakeNudes rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Fake Nudes"@en ;
+    rdfs:label "AI生成虚假裸照"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:SchoolGirls .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:DeepfakeTechnology ;
+    airo:hasVulnerability ex:LackOfLegalRecourse .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Victims"@en ;
+    rdfs:label "受害者心理伤害"@zh ;
+    airo:hasImpact ex:SocialStigma .
+
+ex:SchoolGirls rdf:type airo:AISubject ;
+    rdfs:label "School Girls"@en ;
+    rdfs:label "女学生"@zh .
+
+ex:SocialStigma rdf:type airo:Impact ;
+    rdfs:label "Social Stigma"@en ;
+    rdfs:label "社会污名"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolGirls .
+
+ex:DeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:LackOfLegalRecourse rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Legal Recourse"@en ;
+    rdfs:label "缺乏法律救济"@zh .

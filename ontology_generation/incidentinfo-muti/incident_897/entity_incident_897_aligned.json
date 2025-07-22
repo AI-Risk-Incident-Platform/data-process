@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPhoneScamSystem",
+      "中文名称": "AI电话诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders"
+    },
+    "Risk": {
+      "id": "IdentityImpersonationRisk",
+      "中文名称": "身份冒充风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Even world leaders receive scam calls. Just ask Thailand’s prime minister"
+    },
+    "Stakeholder": {
+      "id": "ThailandPrimeMinister",
+      "中文名称": "泰国总理",
+      "英文名称": "Thailand Prime Minister",
+      "来源": "Even I was almost fooled, says Paetongtarn on AI scam encounter"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders"
+    },
+    "Impact": {
+      "id": "PublicFigureSecurityThreat",
+      "中文名称": "公众人物安全威胁",
+      "英文名称": "Public Figure Security Threat",
+      "来源": "Even world leaders receive scam calls. Just ask Thailand’s prime minister"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPhoneScamSystem",
+      "中文名称": "AI电话诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders"
+    },
+    "Risk": {
+      "id": "IdentityImpersonationRisk",
+      "中文名称": "身份冒充风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Even world leaders receive scam calls. Just ask Thailand’s prime minister"
+    },
+    "Stakeholder": {
+      "id": "ThailandPrimeMinister",
+      "中文名称": "泰国总理",
+      "英文名称": "Thailand Prime Minister",
+      "来源": "Even I was almost fooled, says Paetongtarn on AI scam encounter"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders"
+    },
+    "Impact": {
+      "id": "PublicFigureSecurityThreat",
+      "中文名称": "公众人物安全威胁",
+      "英文名称": "Public Figure Security Threat",
+      "来源": "Even world leaders receive scam calls. Just ask Thailand’s prime minister"
+    }
+  }
+}

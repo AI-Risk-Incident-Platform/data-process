@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedVoiceSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Voice System"@en ;
+    rdfs:label "AI生成语音系统"@zh ;
+    airo:hasRisk ex:MisuseOfAIGeneratedContent ;
+    airo:usesTechnique ex:VoiceSynthesis ;
+    airo:hasPurpose ex:Advertising ;
+    airo:isAppliedWithinDomain ex:MediaAndAdvertising ;
+    airo:hasStakeholder ex:BBCPresenter ;
+    airo:hasStakeholder ex:AdvertisingFirm .
+
+ex:MisuseOfAIGeneratedContent rdf:type airo:Risk ;
+    rdfs:label "Misuse of AI Generated Content Risk"@en ;
+    rdfs:label "AI生成内容滥用风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfPersonalLikeness ;
+    airo:isRiskSourceFor ex:DeceptiveAIGeneratedContent .
+
+ex:UnauthorizedUseOfPersonalLikeness rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Personal Likeness Consequence"@en ;
+    rdfs:label "未经授权使用个人形象后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:BBCPresenter rdf:type airo:Stakeholder ;
+    rdfs:label "BBC Presenter"@en ;
+    rdfs:label "BBC主持人"@zh .
+
+ex:AdvertisingFirm rdf:type airo:AIOperator ;
+    rdfs:label "Advertising Firm"@en ;
+    rdfs:label "广告公司"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BBCPresenter .
+
+ex:Advertising rdf:type airo:Purpose ;
+    rdfs:label "Advertising Purpose"@en ;
+    rdfs:label "广告目的"@zh .
+
+ex:MediaAndAdvertising rdf:type airo:Domain ;
+    rdfs:label "Media and Advertising Domain"@en ;
+    rdfs:label "媒体与广告领域"@zh .
+
+ex:VoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technique"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:DeceptiveAIGeneratedContent rdf:type airo:RiskSource ;
+    rdfs:label "Deceptive AI Generated Content Risk Source"@en ;
+    rdfs:label "欺骗性AI生成内容风险源"@zh .

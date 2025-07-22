@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PimEyesFacialSearchEngine",
+      "中文名称": "PimEyes面部搜索引擎",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    },
+    "Stakeholder": {
+      "id": "UKRegulatoryAuthorities",
+      "中文名称": "英国监管机构",
+      "英文名称": "UK Regulator",
+      "来源": "Complaint filed against PimEyes in UK as facial recognition web search options grow"
+    },
+    "AISubject": {
+      "id": "DeceasedIndividuals",
+      "中文名称": "已故人士",
+      "英文名称": "Deceased Individuals",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People's Photos"
+    },
+    "RiskSource": {
+      "id": "WebCrawlingOfPersonalPhotos",
+      "中文名称": "个人照片的网络爬取",
+      "英文名称": "Web Crawling of Personal Photos",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People's Photos"
+    },
+    "Impact": {
+      "id": "StalkingPotential",
+      "中文名称": "潜在跟踪影响",
+      "英文名称": "Stalking Potential Impact",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PimEyesFacialSearchEngine",
+      "中文名称": "PimEyes面部搜索引擎",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    },
+    "Stakeholder": {
+      "id": "UKRegulatoryAuthorities",
+      "中文名称": "英国监管机构",
+      "英文名称": "UK Regulator",
+      "来源": "Complaint filed against PimEyes in UK as facial recognition web search options grow"
+    },
+    "AISubject": {
+      "id": "DeceasedIndividuals",
+      "中文名称": "已故人士",
+      "英文名称": "Deceased Individuals",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People's Photos"
+    },
+    "RiskSource": {
+      "id": "WebCrawlingOfPersonalPhotos",
+      "中文名称": "个人照片的网络爬取",
+      "英文名称": "Web Crawling of Personal Photos",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People's Photos"
+    },
+    "Impact": {
+      "id": "StalkingPotential",
+      "中文名称": "潜在跟踪影响",
+      "英文名称": "Stalking Potential Impact",
+      "来源": "Stalking fears over PimEyes facial search engine"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIFaceSwappingTechnology",
+      "中文名称": "AI换脸技术",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Risk": {
+      "id": "FraudRiskUsingAIFaceSwapping",
+      "中文名称": "使用AI换脸进行欺诈的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "Consequence": {
+      "id": "IdentityFraud",
+      "中文名称": "身份欺诈后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "Stakeholder": {
+      "id": "HangzhouPublicSecurityBureau",
+      "中文名称": "杭州市公安局",
+      "英文名称": "Hangzhou Public Security Bureau",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIFaceSwappingTechnology",
+      "中文名称": "AI换脸技术",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Risk": {
+      "id": "FraudRiskUsingAIFaceSwapping",
+      "中文名称": "使用AI换脸进行欺诈的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "Consequence": {
+      "id": "IdentityFraud",
+      "中文名称": "身份欺诈后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "Stakeholder": {
+      "id": "HangzhouPublicSecurityBureau",
+      "中文名称": "杭州市公安局",
+      "英文名称": "Hangzhou Public Security Bureau",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "浙江杭州发布夏季治安打击整治行动阶段性战果，包括一起AI换脸案"
+    }
+  }
+}

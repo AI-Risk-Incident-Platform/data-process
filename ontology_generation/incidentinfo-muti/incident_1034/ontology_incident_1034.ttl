@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaDigitalCompanions rdf:type airo:AISystem ;
+    rdfs:label "Meta Digital Companions"@en ;
+    rdfs:label "Meta数字伴侣"@zh ;
+    airo:hasRisk ex:InappropriateContentExposureRisk ;
+    airo:hasAISubject ex:ChildrenUsers ;
+    airo:hasPurpose ex:DigitalCompanionService ;
+    airo:hasStakeholder ex:MetaPlatformsInc .
+
+ex:InappropriateContentExposureRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Exposure Risk"@en ;
+    rdfs:label "不当内容暴露风险"@zh ;
+    airo:hasConsequence ex:ExposureToSexualContent ;
+    airo:isRiskSourceFor ex:UnfilteredConversationalAI .
+
+ex:ChildrenUsers rdf:type airo:AISubject ;
+    rdfs:label "Children Users"@en ;
+    rdfs:label "儿童用户"@zh .
+
+ex:ExposureToSexualContent rdf:type airo:Consequence ;
+    rdfs:label "Exposure to Sexual Content Consequence"@en ;
+    rdfs:label "接触性内容后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToChildren .
+
+ex:PsychologicalHarmToChildren rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Children Impact"@en ;
+    rdfs:label "对儿童心理伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildrenUsers .
+
+ex:MetaPlatformsInc rdf:type airo:Stakeholder ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:DigitalCompanionService rdf:type airo:Purpose ;
+    rdfs:label "Digital Companion Service Purpose"@en ;
+    rdfs:label "数字伴侣服务目的"@zh .
+
+ex:UnfilteredConversationalAI rdf:type airo:RiskSource ;
+    rdfs:label "Unfiltered Conversational AI Risk Source"@en ;
+    rdfs:label "未过滤的对话AI风险源"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YouTube Recommendation Algorithm"@en ;
+    rdfs:label "YouTube推荐算法"@zh ;
+    airo:hasRisk ex:MentalHealthRiskForTeenGirls ;
+    airo:hasAISubject ex:TeenageGirls ;
+    airo:hasStakeholder ex:YouTubePlatform .
+
+ex:MentalHealthRiskForTeenGirls rdf:type airo:Risk ;
+    rdfs:label "Mental Health Risk for Teen Girls"@en ;
+    rdfs:label "青少年女孩心理健康风险"@zh ;
+    airo:hasConsequence ex:ExposureToHarmfulContent ;
+    airo:isRiskSourceFor ex:AlgorithmicContentAmplification .
+
+ex:TeenageGirls rdf:type airo:AISubject ;
+    rdfs:label "Teenage Girls"@en ;
+    rdfs:label "青少年女孩"@zh .
+
+ex:ExposureToHarmfulContent rdf:type airo:Consequence ;
+    rdfs:label "Exposure to Harmful Content Consequence"@en ;
+    rdfs:label "接触有害内容后果"@zh ;
+    airo:hasImpact ex:NegativeMentalHealthImpact .
+
+ex:NegativeMentalHealthImpact rdf:type airo:Impact ;
+    rdfs:label "Negative Mental Health Impact"@en ;
+    rdfs:label "负面心理健康影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeenageGirls .
+
+ex:YouTubePlatform rdf:type airo:Stakeholder ;
+    rdfs:label "YouTube Platform"@en ;
+    rdfs:label "YouTube平台"@zh .
+
+ex:AlgorithmicContentAmplification rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Content Amplification Risk Source"@en ;
+    rdfs:label "算法内容放大风险源"@zh .

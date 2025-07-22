@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WorldcoinBiometricsSystem",
+      "中文名称": "Worldcoin生物识别系统",
+      "英文名称": "Worldcoin Biometrics System",
+      "来源": "South Korea privacy regulator to investigate Worldcoin’s biometrics handling"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns"
+    },
+    "Stakeholder": {
+      "id": "SouthKoreaPrivacyRegulator",
+      "中文名称": "韩国隐私监管机构",
+      "英文名称": "South Korea Privacy Regulator",
+      "来源": "South Korea privacy regulator to investigate Worldcoin’s biometrics handling"
+    },
+    "AISubject": {
+      "id": "BiometricDataSubjects",
+      "中文名称": "生物识别数据主体",
+      "英文名称": "Biometric Data Subjects",
+      "来源": "Worldcoin’s biometrics handling"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露影响",
+      "英文名称": "Personal Data Exposure Impact",
+      "来源": "privacy concerns"
+    },
+    "Domain": {
+      "id": "DigitalIdentityVerification",
+      "中文名称": "数字身份验证领域",
+      "英文名称": "Digital Identity Verification Domain",
+      "来源": "Worldcoin’s biometrics handling"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物识别数据收集风险源",
+      "英文名称": "Biometric Data Collection Risk Source",
+      "来源": "Worldcoin’s biometrics handling"
+    },
+    "Consequence": {
+      "id": "RegulatoryInvestigation",
+      "中文名称": "监管调查后果",
+      "英文名称": "Regulatory Investigation Consequence",
+      "来源": "South Korea's Regulator Launches Investigation into Worldcoin"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAI rdf:type airo:AISystem ;
+    rdfs:label "生成式AI"@zh ;
+    rdfs:label "Generative AI"@en ;
+    airo:hasRisk ex:DataPollutionRisk ;
+    airo:hasCapability ex:LanguageGeneration ;
+    airo:hasPurpose ex:LanguageAnalysis ;
+    airo:hasStakeholder ex:LinguisticResearchers ;
+    airo:isAppliedWithinDomain ex:Linguistics .
+
+ex:DataPollutionRisk rdf:type airo:Risk ;
+    rdfs:label "数据污染风险"@zh ;
+    rdfs:label "Data Pollution Risk"@en ;
+    airo:hasConsequence ex:ProjectShutdown ;
+    airo:isRiskSourceFor ex:AIGeneratedContent .
+
+ex:ProjectShutdown rdf:type airo:Consequence ;
+    rdfs:label "项目关闭后果"@zh ;
+    rdfs:label "Project Shutdown Consequence"@en ;
+    airo:hasImpact ex:ResearchDisruption .
+
+ex:LanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "语言生成能力"@zh ;
+    rdfs:label "Language Generation Capability"@en .
+
+ex:LinguisticResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "语言研究者"@zh ;
+    rdfs:label "Linguistic Researchers"@en .
+
+ex:ResearchDisruption rdf:type airo:Impact ;
+    rdfs:label "研究中断影响"@zh ;
+    rdfs:label "Research Disruption Impact"@en ;
+    airo:hasImpactOnStakeholder ex:LinguisticResearchers .
+
+ex:LanguageAnalysis rdf:type airo:Purpose ;
+    rdfs:label "语言分析目的"@zh ;
+    rdfs:label "Language Analysis Purpose"@en .
+
+ex:Linguistics rdf:type airo:Domain ;
+    rdfs:label "语言学领域"@zh ;
+    rdfs:label "Linguistics Domain"@en .
+
+ex:AIGeneratedContent rdf:type airo:RiskSource ;
+    rdfs:label "AI生成内容风险源"@zh ;
+    rdfs:label "AI Generated Content Risk Source"@en .

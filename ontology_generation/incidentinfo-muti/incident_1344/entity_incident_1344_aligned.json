@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlgorithmicAudioSurveillanceSystem",
+      "中文名称": "算法音频监控系统",
+      "英文名称": "Algorithmic Audio Surveillance System",
+      "来源": "Première victoire contre l’audiosurveillance algorithmique devant la justice"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Stakeholder": {
+      "id": "CityOfOrleans",
+      "中文名称": "奥尔良市",
+      "英文名称": "City of Orleans",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Impact": {
+      "id": "LegalCondemnation",
+      "中文名称": "法律谴责",
+      "英文名称": "Legal Condemnation",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Première victoire contre l’audiosurveillance algorithmique devant la justice"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlgorithmicAudioSurveillanceSystem",
+      "中文名称": "算法音频监控系统",
+      "英文名称": "Algorithmic Audio Surveillance System",
+      "来源": "Première victoire contre l’audiosurveillance algorithmique devant la justice"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Stakeholder": {
+      "id": "CityOfOrleans",
+      "中文名称": "奥尔良市",
+      "英文名称": "City of Orleans",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Impact": {
+      "id": "LegalCondemnation",
+      "中文名称": "法律谴责",
+      "英文名称": "Legal Condemnation",
+      "来源": "Orléans condamnée par la justice pour son audiosurveillance algorithmique"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Première victoire contre l’audiosurveillance algorithmique devant la justice"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PsychologicalHarmFromNonConsensualDeepfakes ;
+    airo:hasAISubject ex:TeenageVictimsOfCyberExploitation ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:hasPurpose ex:CreatingNonConsensualExplicitContent ;
+    airo:hasStakeholder ex:USCongress .
+
+ex:PsychologicalHarmFromNonConsensualDeepfakes rdf:type airo:Risk ;
+    rdfs:label "Psychological Harm from Non-Consensual Deepfakes Risk"@en ;
+    rdfs:label "非自愿深度伪造造成的心理伤害风险"@zh ;
+    airo:hasConsequence ex:EmotionalDistressAndSocialStigma ;
+    airo:isRiskSourceFor ex:EasyAccessToDeepfakeTechnology .
+
+ex:EmotionalDistressAndSocialStigma rdf:type airo:Consequence ;
+    rdfs:label "Emotional Distress and Social Stigma Consequence"@en ;
+    rdfs:label "情绪困扰和社会污名后果"@zh ;
+    airo:hasImpact ex:ViolationOfPersonalPrivacyAndDignity .
+
+ex:TeenageVictimsOfCyberExploitation rdf:type airo:AISubject ;
+    rdfs:label "Teenage Victims of Cyber Exploitation"@en ;
+    rdfs:label "网络剥削青少年受害者"@zh .
+
+ex:ViolationOfPersonalPrivacyAndDignity rdf:type airo:Impact ;
+    rdfs:label "Violation of Personal Privacy and Dignity Impact"@en ;
+    rdfs:label "侵犯个人隐私和尊严的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USCongress .
+
+ex:USCongress rdf:type airo:Stakeholder ;
+    rdfs:label "US Congress"@en ;
+    rdfs:label "美国国会"@zh .
+
+ex:EasyAccessToDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Easy Access to Deepfake Technology Risk Source"@en ;
+    rdfs:label "深度伪造技术易获取风险源"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:CreatingNonConsensualExplicitContent rdf:type airo:Purpose ;
+    rdfs:label "Creating Non-Consensual Explicit Content Purpose"@en ;
+    rdfs:label "创建非自愿色情内容的目的"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentRecommendationSystem",
+      "中文名称": "Facebook内容推荐系统",
+      "英文名称": "Facebook Content Recommendation System",
+      "来源": "Facebook exposed its less digital conversant audience to graphic content"
+    },
+    "Risk": {
+      "id": "ExposureToViolentAndAdultContentRisk",
+      "中文名称": "暴露于暴力和成人内容风险",
+      "英文名称": "Exposure to Violent and Adult Content Risk",
+      "来源": "Facebook's latest scandal: exposing low digitally skilled users to more violent and adult content"
+    },
+    "AISubject": {
+      "id": "LowDigitallySkilledUsers",
+      "中文名称": "数字技能较低的用户",
+      "英文名称": "Low Digitally Skilled Users",
+      "来源": "Facebook's latest scandal: exposing low digitally skilled users to more violent and adult content"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Distress Consequence",
+      "来源": "Why some people see more disturbing content on Facebook than others"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Facebook exposed its less digital conversant audience to graphic content"
+    },
+    "AICapability": {
+      "id": "ContentPersonalizationAlgorithm",
+      "中文名称": "内容个性化算法能力",
+      "英文名称": "Content Personalization Algorithm Capability",
+      "来源": "Why some people see more disturbing content on Facebook than others, according to leaked documents"
+    },
+    "Impact": {
+      "id": "NegativeUserExperience",
+      "中文名称": "负面用户体验影响",
+      "英文名称": "Negative User Experience Impact",
+      "来源": "Facebook's latest scandal: exposing low digitally skilled users to more violent and adult content"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInContentDistribution",
+      "中文名称": "内容分发中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Content Distribution Risk Source",
+      "来源": "Why some people see more disturbing content on Facebook than others"
+    }
+  }
+}

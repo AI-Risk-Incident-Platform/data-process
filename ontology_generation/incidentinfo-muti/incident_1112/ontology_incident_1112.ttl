@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:iFlytekTranslationSystem rdf:type airo:AISystem ;
+    rdfs:label "iFlytek Translation System"@en ;
+    rdfs:label "科大讯飞翻译系统"@zh ;
+    airo:hasRisk ex:MisrepresentationOfAICapabilities ;
+    airo:hasStakeholder ex:ChineseSimultaneousInterpreters ;
+    airo:isDevelopedBy ex:iFlytek ;
+    airo:hasPurpose ex:LanguageTranslationService ;
+    airo:isAppliedWithinDomain ex:LanguageTechnologyIndustry .
+
+ex:MisrepresentationOfAICapabilities rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation of AI Capabilities Risk"@en ;
+    rdfs:label "AI能力虚假陈述风险"@zh ;
+    airo:hasConsequence ex:PublicDistrustInAITechnology ;
+    airo:isRiskSourceFor ex:HumanInvolvementInAIOutput .
+
+ex:ChineseSimultaneousInterpreters rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Simultaneous Interpreters"@en ;
+    rdfs:label "中国同声传译员"@zh .
+
+ex:PublicDistrustInAITechnology rdf:type airo:Consequence ;
+    rdfs:label "Public Distrust in AI Technology Consequence"@en ;
+    rdfs:label "公众对AI技术不信任的后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationDamage .
+
+ex:ProfessionalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Damage Impact"@en ;
+    rdfs:label "专业声誉损害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseSimultaneousInterpreters .
+
+ex:iFlytek rdf:type airo:AIOperator ;
+    rdfs:label "iFlytek"@en ;
+    rdfs:label "科大讯飞"@zh .
+
+ex:HumanInvolvementInAIOutput rdf:type airo:RiskSource ;
+    rdfs:label "Human Involvement in AI Output Risk Source"@en ;
+    rdfs:label "AI输出中人为干预的风险源"@zh .
+
+ex:LanguageTranslationService rdf:type airo:Purpose ;
+    rdfs:label "Language Translation Service Purpose"@en ;
+    rdfs:label "语言翻译服务的目的"@zh .
+
+ex:LanguageTechnologyIndustry rdf:type airo:Domain ;
+    rdfs:label "Language Technology Industry Domain"@en ;
+    rdfs:label "语言技术产业领域"@zh .

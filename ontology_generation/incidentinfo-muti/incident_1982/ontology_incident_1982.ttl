@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtTool rdf:type airo:AISystem ;
+    rdfs:label "AI Art Tool"@en ;
+    rdfs:label "AI艺术工具"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:hasStakeholder ex:FanArtCreator .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:ArtworkTheft ;
+    airo:hasRiskSource ex:UnauthorizedArtReplication .
+
+ex:ArtworkTheft rdf:type airo:Consequence ;
+    rdfs:label "Artwork Theft"@en ;
+    rdfs:label "艺术作品盗窃"@zh ;
+    airo:hasImpact ex:ArtistDisrespect .
+
+ex:ArtistDisrespect rdf:type airo:Impact ;
+    rdfs:label "Artist Disrespect"@en ;
+    rdfs:label "对艺术家的不尊重"@zh ;
+    airo:hasImpactOnStakeholder ex:FanArtCreator .
+
+ex:FanArtCreator rdf:type airo:Stakeholder ;
+    rdfs:label "Fan Art Creator"@en ;
+    rdfs:label "粉丝艺术创作者"@zh .
+
+ex:UnauthorizedArtReplication rdf:type airo:Misuse ;
+    rdfs:label "Unauthorized Art Replication"@en ;
+    rdfs:label "未经授权的艺术复制"@zh ;
+    airo:isRiskSourceFor ex:CopyrightInfringementRisk .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeScamSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Scam System"@en ;
+    rdfs:label "深度伪造诈骗系统"@zh ;
+    airo:hasRisk ex:CelebrityImageMisuseRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasAISubject ex:Consumers ;
+    airo:hasStakeholder ex:Celebrities ;
+    airo:hasPurpose ex:SellProducts .
+
+ex:CelebrityImageMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Celebrity Image Misuse Risk"@en ;
+    rdfs:label "名人形象滥用风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception ;
+    airo:isRiskSourceFor ex:UnauthorizedCelebrityImageUse .
+
+ex:ConsumerDeception rdf:type airo:Consequence ;
+    rdfs:label "Consumer Deception Consequence"@en ;
+    rdfs:label "消费者欺骗后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:Celebrities rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrities"@en ;
+    rdfs:label "名人"@zh .
+
+ex:Consumers rdf:type airo:AISubject ;
+    rdfs:label "Consumers"@en ;
+    rdfs:label "消费者"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Celebrities .
+
+ex:SellProducts rdf:type airo:Purpose ;
+    rdfs:label "Sell Products Purpose"@en ;
+    rdfs:label "销售产品目的"@zh .
+
+ex:UnauthorizedCelebrityImageUse rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Celebrity Image Use Risk Source"@en ;
+    rdfs:label "未经授权的名人形象使用风险源"@zh .

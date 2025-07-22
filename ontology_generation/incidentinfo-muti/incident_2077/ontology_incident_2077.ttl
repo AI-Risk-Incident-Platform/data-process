@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GMSelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "GM Self-Driving Car"@en ;
+    rdfs:label "通用汽车自动驾驶汽车"@zh ;
+    airo:hasRisk ex:TrafficAccidentRisk ;
+    airo:isDeployedBy ex:GeneralMotors ;
+    airo:hasStakeholder ex:InjuredMotorcyclist ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicles .
+
+ex:TrafficAccidentRisk rdf:type airo:Risk ;
+    rdfs:label "Traffic Accident Risk"@en ;
+    rdfs:label "交通事故风险"@zh ;
+    airo:hasConsequence ex:PersonalInjury ;
+    airo:isRiskSourceFor ex:AutonomousDrivingSystemFailure .
+
+ex:InjuredMotorcyclist rdf:type airo:Stakeholder ;
+    rdfs:label "Injured Motorcyclist"@en ;
+    rdfs:label "受伤摩托车手"@zh .
+
+ex:GeneralMotors rdf:type airo:AIOperator ;
+    rdfs:label "General Motors"@en ;
+    rdfs:label "通用汽车"@zh .
+
+ex:PersonalInjury rdf:type airo:Consequence ;
+    rdfs:label "Personal Injury Consequence"@en ;
+    rdfs:label "人身伤害后果"@zh ;
+    airo:hasImpact ex:PhysicalHarm .
+
+ex:PhysicalHarm rdf:type airo:Impact ;
+    rdfs:label "Physical Harm Impact"@en ;
+    rdfs:label "身体伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InjuredMotorcyclist .
+
+ex:AutonomousVehicles rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicles Domain"@en ;
+    rdfs:label "自动驾驶汽车领域"@zh .
+
+ex:AutonomousDrivingSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Driving System Failure Risk Source"@en ;
+    rdfs:label "自动驾驶系统故障风险源"@zh .

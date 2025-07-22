@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleIntelligence rdf:type airo:AISystem ;
+    rdfs:label "Apple Intelligence"@en ;
+    rdfs:label "苹果智能系统"@zh ;
+    airo:hasRisk ex:FakeNewsGenerationRisk ;
+    airo:hasPurpose ex:NewsSummarization ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:isDeployedBy ex:Apple .
+
+ex:FakeNewsGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake News Generation Risk"@en ;
+    rdfs:label "虚假新闻生成风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "错误信息传播后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:BBC rdf:type airo:Stakeholder ;
+    rdfs:label "BBC"@en ;
+    rdfs:label "BBC"@zh ;
+    airo:hasImpactOnStakeholder ex:ReputationDamage .
+
+ex:Apple rdf:type airo:AIOperator ;
+    rdfs:label "Apple"@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh .
+
+ex:NewsSummarization rdf:type airo:Purpose ;
+    rdfs:label "News Summarization Purpose"@en ;
+    rdfs:label "新闻摘要目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error Risk Source"@en ;
+    rdfs:label "算法错误风险源"@zh .

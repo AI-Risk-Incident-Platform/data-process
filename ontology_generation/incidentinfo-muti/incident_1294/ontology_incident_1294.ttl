@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberSurgePricingSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Surge Pricing System"@en ;
+    rdfs:label "Uber动态定价系统"@zh ;
+    airo:hasRisk ex:PriceGougingRisk ;
+    airo:hasPurpose ex:DemandBasedPricing ;
+    airo:hasStakeholder ex:SydneyCommuter ;
+    airo:isAppliedWithinDomain ex:RideSharingServices ;
+    airo:hasStakeholder ex:UberTechnologies .
+
+ex:PriceGougingRisk rdf:type airo:Risk ;
+    rdfs:label "Price Gouging Risk"@en ;
+    rdfs:label "价格欺诈风险"@zh ;
+    airo:hasConsequence ex:ConsumerExploitation ;
+    airo:isRiskSourceFor ex:AlgorithmicPricingFailure .
+
+ex:RideSharingServices rdf:type airo:Domain ;
+    rdfs:label "Ride-Sharing Services Domain"@en ;
+    rdfs:label "共享出行服务领域"@zh .
+
+ex:DemandBasedPricing rdf:type airo:Purpose ;
+    rdfs:label "Demand-Based Pricing Purpose"@en ;
+    rdfs:label "基于需求的定价目的"@zh .
+
+ex:AlgorithmicPricingFailure rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Pricing Failure Risk Source"@en ;
+    rdfs:label "算法定价失效风险源"@zh .
+
+ex:ConsumerExploitation rdf:type airo:Consequence ;
+    rdfs:label "Consumer Exploitation Consequence"@en ;
+    rdfs:label "消费者剥削后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SydneyCommuter .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "Uber科技公司"@zh .
+
+ex:SydneyCommuter rdf:type airo:Stakeholder ;
+    rdfs:label "Sydney Commuter"@en ;
+    rdfs:label "悉尼通勤者"@zh .

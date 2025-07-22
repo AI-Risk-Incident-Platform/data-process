@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HumanaAIClaimDenialSystem",
+      "中文名称": "Humana AI理赔拒绝系统",
+      "英文名称": "Humana AI Claim Denial System",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Risk": {
+      "id": "UnjustClaimDenialRisk",
+      "中文名称": "不公正理赔拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "Consequence": {
+      "id": "PatientCareDenial",
+      "中文名称": "患者护理被拒后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "AICapability": {
+      "id": "AutomatedClaimProcessing",
+      "中文名称": "自动化理赔处理能力",
+      "英文名称": "Automated Claims Processing",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "AIOperator": {
+      "id": "HumanaInc",
+      "中文名称": "Humana公司",
+      "英文名称": "Humana Inc.",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Stakeholder": {
+      "id": "MedicareBeneficiaries",
+      "中文名称": "医疗保险受益人",
+      "英文名称": "Medicare Beneficiaries",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "AISubject": {
+      "id": "HealthcareClaimants",
+      "中文名称": "医疗保健索赔人",
+      "英文名称": "Healthcare Claimants",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Impact": {
+      "id": "HealthRiskFromDeniedCare",
+      "中文名称": "被拒护理导致的健康风险影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Purpose": {
+      "id": "CostReductionThroughAutomation",
+      "中文名称": "通过自动化降低成本的目的",
+      "英文名称": "Cost Reduction",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "AITechnique": {
+      "id": "PredictiveModelingForClaimAssessment",
+      "中文名称": "索赔评估预测建模技术",
+      "英文名称": "Predictive Modeling for Claim Assessment Technique",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Vulnerability": {
+      "id": "HighErrorRateInDecisionMaking",
+      "中文名称": "决策过程中高错误率的脆弱性",
+      "英文名称": "High Error Rate in Decision Making Vulnerability",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Threat": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策威胁",
+      "英文名称": "Automated Decision Making Without Human Review Threat",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingDataOnClaimApprovals",
+      "中文名称": "索赔审批中的偏见训练数据危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "RiskSource": {
+      "id": "FlawedAlgorithmicDecisionProcess",
+      "中文名称": "有缺陷的算法决策过程风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedClaimDenials",
+      "中文名称": "自动化索赔拒绝中的伦理问题",
+      "英文名称": "Ethical Issues in Automated Claim Denials Risk Concept",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HumanaAIClaimDenialSystem",
+      "中文名称": "Humana AI理赔拒绝系统",
+      "英文名称": "Humana AI Claim Denial System",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Risk": {
+      "id": "UnjustClaimDenialRisk",
+      "中文名称": "不公正理赔拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "Consequence": {
+      "id": "PatientCareDenial",
+      "中文名称": "患者护理被拒后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "AICapability": {
+      "id": "AutomatedClaimProcessing",
+      "中文名称": "自动化理赔处理能力",
+      "英文名称": "Automated Claims Processing",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "AIOperator": {
+      "id": "HumanaInc",
+      "中文名称": "Humana公司",
+      "英文名称": "Humana Inc.",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Stakeholder": {
+      "id": "MedicareBeneficiaries",
+      "中文名称": "医疗保险受益人",
+      "英文名称": "Medicare Beneficiaries",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "AISubject": {
+      "id": "HealthcareClaimants",
+      "中文名称": "医疗保健索赔人",
+      "英文名称": "Healthcare Claimants",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Impact": {
+      "id": "HealthRiskFromDeniedCare",
+      "中文名称": "被拒护理导致的健康风险影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Purpose": {
+      "id": "CostReductionThroughAutomation",
+      "中文名称": "通过自动化降低成本的目的",
+      "英文名称": "Cost Reduction",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "AITechnique": {
+      "id": "PredictiveModelingForClaimAssessment",
+      "中文名称": "索赔评估预测建模技术",
+      "英文名称": "Predictive Modeling for Claim Assessment Technique",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "Vulnerability": {
+      "id": "HighErrorRateInDecisionMaking",
+      "中文名称": "决策过程中高错误率的脆弱性",
+      "英文名称": "High Error Rate in Decision Making Vulnerability",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "Threat": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策威胁",
+      "英文名称": "Automated Decision Making Without Human Review Threat",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingDataOnClaimApprovals",
+      "中文名称": "索赔审批中的偏见训练数据危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Humana's Alleged Use of AI to Deny Claims Draws Class Action"
+    },
+    "RiskSource": {
+      "id": "FlawedAlgorithmicDecisionProcess",
+      "中文名称": "有缺陷的算法决策过程风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Humana also using AI tool with 90% error rate to deny care, lawsuit claims"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedClaimDenials",
+      "中文名称": "自动化索赔拒绝中的伦理问题",
+      "英文名称": "Ethical Issues in Automated Claim Denials Risk Concept",
+      "来源": "Class-action suit accuses another Medicare insurer of using AI to deny care"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:SextortionScamsRisk ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:ImageManipulation ;
+    airo:isAppliedWithinDomain ex:DigitalMedia ;
+    airo:hasStakeholder ex:BreeSmith .
+
+ex:SextortionScamsRisk rdf:type airo:Risk ;
+    rdfs:label "Sextortion Scams Risk"@en ;
+    rdfs:label "性勒索诈骗风险"@zh ;
+    airo:isRiskSourceFor ex:MaliciousActors ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:hasRiskControl ex:LegislationAgainstDeepfakes .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "名誉损害后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:BreeSmith rdf:type airo:Stakeholder ;
+    rdfs:label "Bree Smith"@en ;
+    rdfs:label "Bree Smith"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BreeSmith .
+
+ex:ImageManipulation rdf:type airo:Purpose ;
+    rdfs:label "Image Manipulation Purpose"@en ;
+    rdfs:label "图像操纵目的"@zh .
+
+ex:DigitalMedia rdf:type airo:Domain ;
+    rdfs:label "Digital Media Domain"@en ;
+    rdfs:label "数字媒体领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:MaliciousActors rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Actors Risk Source"@en ;
+    rdfs:label "恶意行为者风险源"@zh .
+
+ex:LegislationAgainstDeepfakes rdf:type airo:RiskControl ;
+    rdfs:label "Legislation Against Deepfakes Risk Control"@en ;
+    rdfs:label "反深度伪造立法管控"@zh ;
+    airo:mitigatesRiskConcept ex:SextortionScamsRisk .

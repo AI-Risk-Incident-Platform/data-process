@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IBMSurveillanceSoftware",
+      "中文名称": "IBM监控软件",
+      "英文名称": "IBM Surveillance Software",
+      "来源": "IBM secretly used New York’s CCTV cameras to train its surveillance software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "IBM trained its object recognition software to ID people by skin tone using NYPD data"
+    },
+    "AITechnique": {
+      "id": "ObjectRecognition",
+      "中文名称": "物体识别技术",
+      "英文名称": "Object Recognition Technique",
+      "来源": "IBM trained its object recognition software to ID people by skin tone using NYPD data"
+    },
+    "Stakeholder": {
+      "id": "NYPD",
+      "中文名称": "纽约警察局",
+      "英文名称": "New York Police Department",
+      "来源": "IBM NYPD facial recognition surveillance body camera footage"
+    },
+    "AIOperator": {
+      "id": "IBM",
+      "中文名称": "IBM公司",
+      "英文名称": "IBM Corporation",
+      "来源": "IBM secretly used New York’s CCTV cameras to train its surveillance software"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "IBM secretly used New York’s CCTV cameras to train its surveillance software"
+    },
+    "Consequence": {
+      "id": "BiasedSurveillance",
+      "中文名称": "偏见性监控",
+      "英文名称": "Biased Surveillance",
+      "来源": "IBM trained its object recognition software to ID people by skin tone using NYPD data"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "IBM NYPD facial recognition surveillance body camera footage"
+    }
+  }
+}

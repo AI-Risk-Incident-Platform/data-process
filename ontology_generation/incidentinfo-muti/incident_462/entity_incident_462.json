@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITrainingDataset",
+      "中文名称": "AI训练数据集",
+      "英文名称": "AI Training Dataset",
+      "来源": "Artist finds private medical record photos in popular AI training data set"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "private medical record photos in popular AI training data set"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfSensitiveData",
+      "中文名称": "敏感数据未经授权使用",
+      "英文名称": "Unauthorized Use of Sensitive Data",
+      "来源": "private medical record photos in popular AI training data set"
+    },
+    "AISubject": {
+      "id": "MedicalPatients",
+      "中文名称": "医疗患者",
+      "英文名称": "Medical Patients",
+      "来源": "private medical record photos"
+    },
+    "RiskSource": {
+      "id": "InclusionOfPrivateRecords",
+      "中文名称": "包含私人记录",
+      "英文名称": "Inclusion of Private Records",
+      "来源": "private medical record photos in popular AI training data set"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私泄露",
+      "英文名称": "Personal Privacy Compromise",
+      "来源": "private medical record photos in popular AI training data set"
+    }
+  }
+}

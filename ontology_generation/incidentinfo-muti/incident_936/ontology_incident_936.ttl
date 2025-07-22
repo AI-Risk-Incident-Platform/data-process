@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChineseAISurveillanceTool rdf:type airo:AISystem ;
+    rdfs:label "Chinese AI Surveillance Tool"@en ;
+    rdfs:label "中国AI监控工具"@zh ;
+    airo:hasRisk ex:SocialMediaMonitoringRisk ;
+    airo:hasStakeholder ex:ChineseGovernment ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasPurpose ex:SocialMediaMonitoring ;
+    airo:isAppliedWithinDomain ex:GovernmentSurveillance ;
+    airo:usesTechnique ex:NaturalLanguageProcessing .
+
+ex:SocialMediaMonitoringRisk rdf:type airo:Risk ;
+    rdfs:label "Social Media Monitoring Risk"@en ;
+    rdfs:label "社交媒体监控风险"@zh ;
+    airo:isRiskSourceFor ex:GovernmentInfluenceCampaigns ;
+    airo:hasConsequence ex:SuppressionOfCriticism .
+
+ex:ChineseGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Government"@en ;
+    rdfs:label "中国政府"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:FreedomOfExpressionImpact rdf:type airo:Impact ;
+    rdfs:label "Freedom of Expression Impact"@en ;
+    rdfs:label "言论自由影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseGovernment .
+
+ex:SocialMediaMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Social Media Monitoring"@en ;
+    rdfs:label "社交媒体监控"@zh .
+
+ex:GovernmentSurveillance rdf:type airo:Domain ;
+    rdfs:label "Government Surveillance"@en ;
+    rdfs:label "政府监控"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing"@en ;
+    rdfs:label "自然语言处理"@zh .
+
+ex:GovernmentInfluenceCampaigns rdf:type airo:RiskSource ;
+    rdfs:label "Government Influence Campaigns"@en ;
+    rdfs:label "政府影响力活动"@zh .
+
+ex:SuppressionOfCriticism rdf:type airo:Consequence ;
+    rdfs:label "Suppression of Criticism"@en ;
+    rdfs:label "压制批评"@zh ;
+    airo:hasImpact ex:FreedomOfExpressionImpact .

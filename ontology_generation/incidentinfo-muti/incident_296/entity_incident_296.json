@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TwitterAlgorithm",
+      "中文名称": "推特算法",
+      "英文名称": "Twitter Algorithm",
+      "来源": "Twitter admits bias in algorithm for rightwing politicians and news outlets"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasRisk",
+      "中文名称": "算法偏见风险",
+      "英文名称": "Algorithmic Bias Risk",
+      "来源": "Twitter admits bias in algorithm for rightwing politicians and news outlets"
+    },
+    "Stakeholder": {
+      "id": "RightwingPoliticians",
+      "中文名称": "右翼政客",
+      "英文名称": "Rightwing Politicians",
+      "来源": "Twitter admits bias in algorithm for rightwing politicians and news outlets"
+    },
+    "Consequence": {
+      "id": "PoliticalAmplification",
+      "中文名称": "政治内容放大",
+      "英文名称": "Political Amplification",
+      "来源": "Algorithmic amplification of politics on Twitter"
+    },
+    "Impact": {
+      "id": "PublicDiscourseDistortion",
+      "中文名称": "公共话语扭曲",
+      "英文名称": "Public Discourse Distortion",
+      "来源": "Algorithmic amplification of politics on Twitter"
+    }
+  }
+}

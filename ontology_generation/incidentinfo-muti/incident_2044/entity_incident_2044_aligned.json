@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProjectMorpheus",
+      "中文名称": "Project Morpheus",
+      "英文名称": "Project Morpheus",
+      "来源": "Adobe's New Project Morpheus is a Deepfake Tool"
+    },
+    "Risk": {
+      "id": "DeepfakeMisuseRisk",
+      "中文名称": "深度伪造滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Adobe is toying around with deepfake tech for Photoshop"
+    },
+    "Stakeholder": {
+      "id": "Adobe",
+      "中文名称": "Adobe公司",
+      "英文名称": "Adobe",
+      "来源": "Adobe has built a deepfake tool"
+    },
+    "Purpose": {
+      "id": "PhotoEditingEnhancement",
+      "中文名称": "照片编辑增强",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Adobe is toying around with deepfake tech for Photoshop"
+    },
+    "RiskSource": {
+      "id": "LackOfClearUsageGuidelines",
+      "中文名称": "缺乏明确使用指南",
+      "英文名称": "Lack of Usage Guidelines",
+      "来源": "Adobe has built a deepfake tool, but it doesn't know what to do with it"
+    },
+    "Consequence": {
+      "id": "PotentialMisinformationSpread",
+      "中文名称": "潜在虚假信息传播",
+      "英文名称": "Potential Misinformation Spread",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    },
+    "Impact": {
+      "id": "TrustErosionInDigitalMedia",
+      "中文名称": "数字媒体信任度下降",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ProjectMorpheus",
+      "中文名称": "Project Morpheus",
+      "英文名称": "Project Morpheus",
+      "来源": "Adobe's New Project Morpheus is a Deepfake Tool"
+    },
+    "Risk": {
+      "id": "DeepfakeMisuseRisk",
+      "中文名称": "深度伪造滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Adobe is toying around with deepfake tech for Photoshop"
+    },
+    "Stakeholder": {
+      "id": "Adobe",
+      "中文名称": "Adobe公司",
+      "英文名称": "Adobe",
+      "来源": "Adobe has built a deepfake tool"
+    },
+    "Purpose": {
+      "id": "PhotoEditingEnhancement",
+      "中文名称": "照片编辑增强",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Adobe is toying around with deepfake tech for Photoshop"
+    },
+    "RiskSource": {
+      "id": "LackOfClearUsageGuidelines",
+      "中文名称": "缺乏明确使用指南",
+      "英文名称": "Lack of Usage Guidelines",
+      "来源": "Adobe has built a deepfake tool, but it doesn't know what to do with it"
+    },
+    "Consequence": {
+      "id": "PotentialMisinformationSpread",
+      "中文名称": "潜在虚假信息传播",
+      "英文名称": "Potential Misinformation Spread",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    },
+    "Impact": {
+      "id": "TrustErosionInDigitalMedia",
+      "中文名称": "数字媒体信任度下降",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Experts Claim | Here's Why This Could be a Bad Editing Software"
+    }
+  }
+}

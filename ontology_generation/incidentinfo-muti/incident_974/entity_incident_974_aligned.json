@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedDoctorsOnTikTok",
+      "中文名称": "TikTok上的AI生成医生",
+      "英文名称": "AI-Generated Doctors on TikTok",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "Risk": {
+      "id": "MisinformationAndFraudRisk",
+      "中文名称": "虚假医疗信息与欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-generated 'doctors' are scamming TikTok with fake credentials and bad advice"
+    },
+    "Consequence": {
+      "id": "HealthMisinformationSpread",
+      "中文名称": "健康错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "AICapability": {
+      "id": "HumanLikeAvatarGeneration",
+      "中文名称": "类人形象生成能力",
+      "英文名称": "Human Creation Capability",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "Impact": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI-generated ‘doctors’ are scamming TikTok with fake credentials and bad advice"
+    },
+    "RiskSource": {
+      "id": "FakeCredentialsAndAdvice",
+      "中文名称": "虚假资质与建议风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI-generated 'doctors' are scamming TikTok with fake credentials and bad advice"
+    },
+    "Vulnerability": {
+      "id": "UserTrustInOnlinePersonas",
+      "中文名称": "用户对在线形象的信任脆弱性",
+      "英文名称": "User Trust in Online Personas Vulnerability",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedDoctorsOnTikTok",
+      "中文名称": "TikTok上的AI生成医生",
+      "英文名称": "AI-Generated Doctors on TikTok",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "Risk": {
+      "id": "MisinformationAndFraudRisk",
+      "中文名称": "虚假医疗信息与欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-generated 'doctors' are scamming TikTok with fake credentials and bad advice"
+    },
+    "Consequence": {
+      "id": "HealthMisinformationSpread",
+      "中文名称": "健康错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "AICapability": {
+      "id": "HumanLikeAvatarGeneration",
+      "中文名称": "类人形象生成能力",
+      "英文名称": "Human Creation Capability",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users with fake medical advice"
+    },
+    "Impact": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI-generated ‘doctors’ are scamming TikTok with fake credentials and bad advice"
+    },
+    "RiskSource": {
+      "id": "FakeCredentialsAndAdvice",
+      "中文名称": "虚假资质与建议风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI-generated 'doctors' are scamming TikTok with fake credentials and bad advice"
+    },
+    "Vulnerability": {
+      "id": "UserTrustInOnlinePersonas",
+      "中文名称": "用户对在线形象的信任脆弱性",
+      "英文名称": "User Trust in Online Personas Vulnerability",
+      "来源": "AI-generated ‘doctors’ are duping TikTok users"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionForCOVID19Tracking",
+      "中文名称": "面部识别用于COVID-19追踪",
+      "英文名称": "Facial Recognition for COVID-19 Tracking",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Several local governments in S. Korea are building AIs using CCTV data without subjects' consent"
+    },
+    "Stakeholder": {
+      "id": "LocalGovernmentsInSKorea",
+      "中文名称": "韩国地方政府",
+      "英文名称": "Local Governments in S. Korea",
+      "来源": "Several local governments in S. Korea are building AIs using CCTV data without subjects' consent"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    },
+    "Purpose": {
+      "id": "COVID19CaseTracking",
+      "中文名称": "COVID-19病例追踪",
+      "英文名称": "COVID-19 Tracking",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionForCOVID19Tracking",
+      "中文名称": "面部识别用于COVID-19追踪",
+      "英文名称": "Facial Recognition for COVID-19 Tracking",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Several local governments in S. Korea are building AIs using CCTV data without subjects' consent"
+    },
+    "Stakeholder": {
+      "id": "LocalGovernmentsInSKorea",
+      "中文名称": "韩国地方政府",
+      "英文名称": "Local Governments in S. Korea",
+      "来源": "Several local governments in S. Korea are building AIs using CCTV data without subjects' consent"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    },
+    "Purpose": {
+      "id": "COVID19CaseTracking",
+      "中文名称": "COVID-19病例追踪",
+      "英文名称": "COVID-19 Tracking",
+      "来源": "S. Korea to test AI-powered facial recognition to track COVID-19 cases"
+    }
+  }
+}

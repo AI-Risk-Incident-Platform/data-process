@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornCreationTool rdf:type airo:AISystem ;
+    rdfs:label "深度伪造色情内容制作工具"@zh ;
+    rdfs:label "Deepfake Porn Creation Tool"@en ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamage ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:NonConsensualPornCreation ;
+    airo:hasStakeholder ex:Victim .
+
+ex:PrivacyViolationAndReputationDamage rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯与名誉损害风险"@zh ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    airo:hasConsequence ex:LegalPenalties ;
+    airo:isRiskSourceFor ex:MaliciousIntent .
+
+ex:LegalPenalties rdf:type airo:Consequence ;
+    rdfs:label "法律处罚后果"@zh ;
+    rdfs:label "Legal Penalties Consequence"@en ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:Victim rdf:type airo:Stakeholder ;
+    rdfs:label "受害者"@zh ;
+    rdfs:label "Victim"@en .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "心理伤害影响"@zh ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Victim .
+
+ex:NonConsensualPornCreation rdf:type airo:Purpose ;
+    rdfs:label "非自愿色情内容制作目的"@zh ;
+    rdfs:label "Non-Consensual Porn Creation Purpose"@en .
+
+ex:MaliciousIntent rdf:type airo:RiskSource ;
+    rdfs:label "恶意意图风险源"@zh ;
+    rdfs:label "Malicious Intent Risk Source"@en .

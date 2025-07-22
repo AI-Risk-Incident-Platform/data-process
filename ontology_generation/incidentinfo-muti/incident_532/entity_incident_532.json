@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NJTransitStormModelingSystem",
+      "中文名称": "新泽西交通风暴建模系统",
+      "英文名称": "NJ Transit Storm Modeling System",
+      "来源": "Exclusive: Readying for Sandy, NJ Transit erred in modeling storm"
+    },
+    "Risk": {
+      "id": "InaccurateStormModelingRisk",
+      "中文名称": "风暴建模不准确风险",
+      "英文名称": "Inaccurate Storm Modeling Risk",
+      "来源": "NJ Transit erred in modeling storm"
+    },
+    "Stakeholder": {
+      "id": "NJTransit",
+      "中文名称": "新泽西交通",
+      "英文名称": "NJ Transit",
+      "来源": "NJ Transit erred in modeling storm"
+    },
+    "Consequence": {
+      "id": "TransportationSystemFailure",
+      "中文名称": "交通系统故障后果",
+      "英文名称": "Transportation System Failure Consequence",
+      "来源": "How New Jersey Transit Failed Sandy's Test"
+    },
+    "Impact": {
+      "id": "PublicTransportDisruption",
+      "中文名称": "公共交通中断影响",
+      "英文名称": "Public Transport Disruption Impact",
+      "来源": "How New Jersey Transit Failed Sandy's Test"
+    }
+  }
+}

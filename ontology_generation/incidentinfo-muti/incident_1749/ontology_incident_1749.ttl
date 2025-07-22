@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AISingerStefanieSun rdf:type airo:AISystem ;
+    rdfs:label "AI Singer Stefanie Sun"@en ;
+    rdfs:label "AI歌手孙燕姿"@zh ;
+    airo:hasRisk ex:ScamsUsingAITechnology ;
+    airo:hasPurpose ex:EntertainmentAndContentCreation ;
+    airo:hasStakeholder ex:StefanieSun ;
+    airo:isAppliedWithinDomain ex:MusicAndEntertainmentIndustry .
+
+ex:ScamsUsingAITechnology rdf:type airo:Risk ;
+    rdfs:label "Scams Using AI Technology Risk"@en ;
+    rdfs:label "使用AI技术的诈骗风险"@zh ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:StefanieSun rdf:type airo:Stakeholder ;
+    rdfs:label "Stefanie Sun"@en ;
+    rdfs:label "孙燕姿"@zh .
+
+ex:PublicDeception rdf:type airo:Impact ;
+    rdfs:label "Public Deception Impact"@en ;
+    rdfs:label "公众欺骗的影响"@zh .
+
+ex:EntertainmentAndContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Entertainment and Content Creation Purpose"@en ;
+    rdfs:label "娱乐和内容创作的目的"@zh .
+
+ex:MusicAndEntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Music and Entertainment Industry Domain"@en ;
+    rdfs:label "音乐和娱乐产业领域"@zh .

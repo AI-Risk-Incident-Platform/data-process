@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedContentSystem",
+      "中文名称": "AI生成内容系统",
+      "英文名称": "AI Generated Content System",
+      "来源": "Junk websites filled with AI-generated text"
+    },
+    "Risk": {
+      "id": "ProgrammaticAdRevenueRisk",
+      "中文名称": "程序化广告收入风险",
+      "英文名称": "Programmatic Ad Revenue Risk",
+      "来源": "Junk websites filled with AI-generated text are pulling in money from programmatic ads"
+    },
+    "Stakeholder": {
+      "id": "Advertisers",
+      "中文名称": "广告商",
+      "英文名称": "Advertisers",
+      "来源": "pulling in money from programmatic ads"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告",
+      "英文名称": "Online Advertising",
+      "来源": "programmatic ads"
+    },
+    "Consequence": {
+      "id": "WastedAdSpend",
+      "中文名称": "广告支出浪费",
+      "英文名称": "Wasted Ad Spend",
+      "来源": "pulling in money from programmatic ads"
+    },
+    "Impact": {
+      "id": "EconomicLossForAdvertisers",
+      "中文名称": "广告商经济损失",
+      "英文名称": "Economic Loss for Advertisers",
+      "来源": "pulling in money from programmatic ads"
+    },
+    "RiskSource": {
+      "id": "LowQualityAIGeneratedContent",
+      "中文名称": "低质量AI生成内容",
+      "英文名称": "Low Quality AI Generated Content",
+      "来源": "Junk websites filled with AI-generated text"
+    },
+    "AITechnique": {
+      "id": "TextGenerationAI",
+      "中文名称": "文本生成AI",
+      "英文名称": "Text Generation AI",
+      "来源": "AI-generated text"
+    }
+  }
+}

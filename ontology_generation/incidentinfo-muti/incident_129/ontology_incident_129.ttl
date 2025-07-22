@@ -1,0 +1,62 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MedicalAI rdf:type airo:AISystem ;
+    rdfs:label "Medical AI System"@en ;
+    rdfs:label "医疗AI系统"@zh ;
+    airo:hasRisk ex:MedicalRacismRisk ;
+    airo:hasPurpose ex:ImproveHealthcare ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:usesTechnique ex:MachineLearning ;
+    airo:hasStakeholder ex:HealthcareProviders ;
+    airo:hasRiskControl ex:HumanOversight .
+
+ex:MedicalRacismRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Racism Risk"@en ;
+    rdfs:label "医疗种族主义风险"@zh ;
+    airo:hasConsequence ex:HealthDisparity ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HealthDisparity rdf:type airo:Consequence ;
+    rdfs:label "Health Disparity Consequence"@en ;
+    rdfs:label "健康差异后果"@zh ;
+    airo:hasImpact ex:PatientHarm .
+
+ex:HealthcareProviders rdf:type airo:Stakeholder ;
+    rdfs:label "Healthcare Providers"@en ;
+    rdfs:label "医疗保健提供者"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data"@en ;
+    rdfs:label "有偏见的训练数据"@zh .
+
+ex:PatientHarm rdf:type airo:Impact ;
+    rdfs:label "Patient Harm Impact"@en ;
+    rdfs:label "患者伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HealthcareProviders .
+
+ex:ImproveHealthcare rdf:type airo:Purpose ;
+    rdfs:label "Improve Healthcare"@en ;
+    rdfs:label "改善医疗保健"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:MachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Technique"@en ;
+    rdfs:label "机器学习技术"@zh .
+
+ex:HumanOversight rdf:type airo:RiskControl ;
+    rdfs:label "Human Oversight Control"@en ;
+    rdfs:label "人工监督管控"@zh ;
+    airo:mitigatesRiskConcept ex:MedicalRacismRisk .

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedPhishingScam rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Phishing Scam"@en ;
+    rdfs:label "AI生成的钓鱼诈骗"@zh ;
+    airo:hasRisk ex:CybersecurityRisk ;
+    airo:usesTechnique ex:PhishingContentGeneration .
+
+ex:CybersecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Cybersecurity Risk"@en ;
+    rdfs:label "网络安全风险"@zh ;
+    airo:isRiskSourceFor ex:SophisticatedAITechnology ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:SophisticatedAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Sophisticated AI Technology"@en ;
+    rdfs:label "复杂AI技术"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh .
+
+ex:PhishingContentGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Phishing Content Generation"@en ;
+    rdfs:label "钓鱼内容生成"@zh .

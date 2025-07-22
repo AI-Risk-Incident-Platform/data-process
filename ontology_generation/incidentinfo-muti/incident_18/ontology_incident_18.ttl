@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WazeNavigationApp rdf:type airo:AISystem ;
+    rdfs:label "Waze Navigation App"@en ;
+    rdfs:label "Waze导航应用"@zh ;
+    airo:hasRisk ex:NavigationAppMisguidanceRisk ;
+    airo:hasCapability ex:RealTimeTrafficRouting ;
+    airo:hasStakeholder ex:CaliforniaCommuters ;
+    airo:isAppliedWithinDomain ex:NavigationAndTransportation .
+
+ex:NavigationAppMisguidanceRisk rdf:type airo:Risk ;
+    rdfs:label "Navigation App Misguidance Risk"@en ;
+    rdfs:label "导航应用误导风险"@zh ;
+    airo:hasConsequence ex:DriversEnteringDangerZones ;
+    airo:isRiskSourceFor ex:OutdatedFireBoundaryData .
+
+ex:DriversEnteringDangerZones rdf:type airo:Consequence ;
+    rdfs:label "Drivers Entering Danger Zones Consequence"@en ;
+    rdfs:label "司机进入危险区域后果"@zh ;
+    airo:hasImpact ex:LifeThreateningSituations .
+
+ex:RealTimeTrafficRouting rdf:type airo:AICapability ;
+    rdfs:label "Real-Time Traffic Routing Capability"@en ;
+    rdfs:label "实时交通路线规划能力"@zh .
+
+ex:CaliforniaCommuters rdf:type airo:Stakeholder ;
+    rdfs:label "California Commuters"@en ;
+    rdfs:label "加州通勤者"@zh .
+
+ex:OutdatedFireBoundaryData rdf:type airo:RiskSource ;
+    rdfs:label "Outdated Fire Boundary Data Risk Source"@en ;
+    rdfs:label "过时的火灾边界数据风险源"@zh .
+
+ex:LifeThreateningSituations rdf:type airo:Impact ;
+    rdfs:label "Life-Threatening Situations Impact"@en ;
+    rdfs:label "生命威胁情况影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaCommuters .
+
+ex:NavigationAndTransportation rdf:type airo:Domain ;
+    rdfs:label "Navigation and Transportation Domain"@en ;
+    rdfs:label "导航与交通领域"@zh .

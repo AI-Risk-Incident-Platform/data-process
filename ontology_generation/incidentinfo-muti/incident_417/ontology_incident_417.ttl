@@ -1,0 +1,87 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LensaApp rdf:type airo:AISystem ;
+    rdfs:label "Lensa App"@en ;
+    rdfs:label "Lensa应用"@zh ;
+    airo:hasRisk ex:NonConsensualImageGenerationRisk ;
+    airo:hasAICapability ex:ImageGenerationFromUserPhotos ;
+    airo:hasAISubject ex:UserChildhoodPhotos ;
+    airo:hasPurpose ex:AvatarGeneration ;
+    airo:hasStakeholder ex:AppUsers ;
+    airo:isAppliedWithinDomain ex:SocialMediaApplications ;
+    airo:usesTechnique ex:DeepLearningImageGeneration .
+
+ex:NonConsensualImageGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Non-Consensual Image Generation Risk"@en ;
+    rdfs:label "非自愿图像生成风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:UnfilteredTrainingData ;
+    airo:isRiskSourceFor ex:UnauthorizedImageManipulation ;
+    airo:isRiskSourceFor ex:InappropriateContentGeneration .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AppUsers .
+
+ex:ImageGenerationFromUserPhotos rdf:type airo:AICapability ;
+    rdfs:label "Image Generation from User Photos Capability"@en ;
+    rdfs:label "从用户照片生成图像的能力"@zh .
+
+ex:AppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "App Users"@en ;
+    rdfs:label "应用用户"@zh .
+
+ex:UserChildhoodPhotos rdf:type airo:AISubject ;
+    rdfs:label "User Childhood Photos"@en ;
+    rdfs:label "用户童年照片"@zh .
+
+ex:AvatarGeneration rdf:type airo:Purpose ;
+    rdfs:label "Avatar Generation Purpose"@en ;
+    rdfs:label "头像生成目的"@zh .
+
+ex:SocialMediaApplications rdf:type airo:Domain ;
+    rdfs:label "Social Media Applications Domain"@en ;
+    rdfs:label "社交媒体应用领域"@zh .
+
+ex:DeepLearningImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Image Generation Technique"@en ;
+    rdfs:label "深度学习图像生成技术"@zh .
+
+ex:UnfilteredTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Unfiltered Training Data Risk Source"@en ;
+    rdfs:label "未过滤的训练数据风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentControlMechanisms .
+
+ex:UnauthorizedImageManipulation rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Image Manipulation Threat"@en ;
+    rdfs:label "未经授权的图像操作威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentControlMechanisms .
+
+ex:InappropriateContentGeneration rdf:type airo:Hazard ;
+    rdfs:label "Inappropriate Content Generation Hazard"@en ;
+    rdfs:label "不当内容生成危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentControlMechanisms .
+
+ex:LackOfContentControlMechanisms rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Control Mechanisms Vulnerability"@en ;
+    rdfs:label "缺乏内容控制机制的脆弱性"@zh .
+
+ex:EthicalIssuesInAIArtGeneration rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in AI Art Generation Risk Concept"@en ;
+    rdfs:label "AI艺术生成中的伦理问题"@zh .

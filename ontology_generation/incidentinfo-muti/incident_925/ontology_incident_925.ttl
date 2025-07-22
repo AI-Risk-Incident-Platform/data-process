@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAdvertisementSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造广告系统"@zh ;
+    rdfs:label "Deepfake Advertisement System"@en ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasAISubject ex:Investors ;
+    airo:hasStakeholder ex:Consob .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "金融欺诈风险"@zh ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    airo:hasImpact ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:MisuseOfDeepfake .
+
+ex:Consob rdf:type airo:Stakeholder ;
+    rdfs:label "意大利证券交易委员会"@zh ;
+    rdfs:label "Consob"@en .
+
+ex:Investors rdf:type airo:AISubject ;
+    rdfs:label "投资者"@zh ;
+    rdfs:label "Investors"@en .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "经济损失"@zh ;
+    rdfs:label "Financial Loss"@en ;
+    airo:hasImpactOnStakeholder ex:Investors .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:MisuseOfDeepfake rdf:type airo:RiskSource ;
+    rdfs:label "深度伪造技术滥用"@zh ;
+    rdfs:label "Misuse of Deepfake"@en ;
+    airo:isRiskSourceFor ex:FinancialFraudRisk .

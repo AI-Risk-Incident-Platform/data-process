@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RetrospectiveFacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "Retrospective Facial Recognition Technology"@en ;
+    rdfs:label "回溯性面部识别技术"@zh ;
+    airo:hasRisk ex:EthicalConcernsInFacialRecognition ;
+    airo:hasStakeholder ex:MetropolitanPolice ;
+    airo:isAppliedWithinDomain ex:PublicSafetyAndSurveillance ;
+    airo:hasCapability ex:RetrospectiveIdentification .
+
+ex:EthicalConcernsInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的伦理问题风险"@zh ;
+    airo:isRiskSourceFor ex:MassSurveillanceImplementation ;
+    airo:hasConsequence ex:PrivacyRightsErosion .
+
+ex:MetropolitanPolice rdf:type airo:Stakeholder ;
+    rdfs:label "Metropolitan Police"@en ;
+    rdfs:label "伦敦警察厅"@zh .
+
+ex:PublicSafetyAndSurveillance rdf:type airo:Domain ;
+    rdfs:label "Public Safety and Surveillance Domain"@en ;
+    rdfs:label "公共安全与监控领域"@zh .
+
+ex:RetrospectiveIdentification rdf:type airo:AICapability ;
+    rdfs:label "Retrospective Identification Capability"@en ;
+    rdfs:label "回溯性识别能力"@zh .
+
+ex:MassSurveillanceImplementation rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Implementation Risk Source"@en ;
+    rdfs:label "大规模监控实施风险源"@zh .
+
+ex:PrivacyRightsErosion rdf:type airo:Impact ;
+    rdfs:label "Privacy Rights Erosion Impact"@en ;
+    rdfs:label "隐私权侵蚀的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MetropolitanPolice .

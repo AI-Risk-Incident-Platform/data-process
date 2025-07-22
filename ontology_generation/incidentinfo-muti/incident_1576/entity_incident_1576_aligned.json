@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIUsedInJudicialRuling",
+      "中文名称": "司法裁决中使用的AI",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Risk": {
+      "id": "JudicialDecisionErrors",
+      "中文名称": "司法决策错误风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Consequence": {
+      "id": "LegalJudgmentErrors",
+      "中文名称": "法律判决错误后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "AIOperator": {
+      "id": "BrazilianJudge",
+      "中文名称": "巴西法官",
+      "英文名称": "Brazilian Judge",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统",
+      "英文名称": "Legal System",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "RiskSource": {
+      "id": "AIErrors",
+      "中文名称": "AI错误风险源",
+      "英文名称": "AI Errors Risk Source",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIUsedInJudicialRuling",
+      "中文名称": "司法裁决中使用的AI",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Risk": {
+      "id": "JudicialDecisionErrors",
+      "中文名称": "司法决策错误风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Consequence": {
+      "id": "LegalJudgmentErrors",
+      "中文名称": "法律判决错误后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "AIOperator": {
+      "id": "BrazilianJudge",
+      "中文名称": "巴西法官",
+      "英文名称": "Brazilian Judge",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统",
+      "英文名称": "Legal System",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    },
+    "RiskSource": {
+      "id": "AIErrors",
+      "中文名称": "AI错误风险源",
+      "英文名称": "AI Errors Risk Source",
+      "来源": "Brazil Judge Investigated For AI Errors In Ruling"
+    }
+  }
+}

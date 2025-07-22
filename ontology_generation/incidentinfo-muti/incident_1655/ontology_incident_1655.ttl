@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LiverTransplantAllocationSystem rdf:type airo:AISystem ;
+    rdfs:label "Liver Transplant Allocation System"@en ;
+    rdfs:label "肝脏移植分配系统"@zh ;
+    airo:hasRisk ex:AgeBasedAllocationBiasRisk ;
+    airo:hasPurpose ex:FairOrganAllocationPurpose ;
+    airo:isAppliedWithinDomain ex:MedicalTransplantationDomain ;
+    airo:hasStakeholder ex:YoungLiverDiseasePatients .
+
+ex:AgeBasedAllocationBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Age-Based Allocation Bias Risk"@en ;
+    rdfs:label "基于年龄的分配偏见风险"@zh ;
+    airo:hasConsequence ex:ProlongedWaitingTimeForYoungPatients .
+
+ex:ProlongedWaitingTimeForYoungPatients rdf:type airo:Consequence ;
+    rdfs:label "Prolonged Waiting Time for Young Patients Consequence"@en ;
+    rdfs:label "年轻患者等待时间延长后果"@zh ;
+    airo:hasImpact ex:DeterioratedHealthConditionImpact .
+
+ex:DeterioratedHealthConditionImpact rdf:type airo:Impact ;
+    rdfs:label "Deteriorated Health Condition Impact"@en ;
+    rdfs:label "健康状况恶化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:YoungLiverDiseasePatients .
+
+ex:YoungLiverDiseasePatients rdf:type airo:Stakeholder ;
+    rdfs:label "Young Liver Disease Patients"@en ;
+    rdfs:label "年轻肝病患者"@zh .
+
+ex:FairOrganAllocationPurpose rdf:type airo:Purpose ;
+    rdfs:label "Fair Organ Allocation Purpose"@en ;
+    rdfs:label "公平器官分配目的"@zh .
+
+ex:MedicalTransplantationDomain rdf:type airo:Domain ;
+    rdfs:label "Medical Transplantation Domain"@en ;
+    rdfs:label "医疗移植领域"@zh .

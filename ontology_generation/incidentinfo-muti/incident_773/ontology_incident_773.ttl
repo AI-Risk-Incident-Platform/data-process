@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICommunistDictatorImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Communist Dictator Image Generator"@en ;
+    rdfs:label "AI共产主义独裁者图像生成器"@zh ;
+    airo:hasRisk ex:PoliticalMisrepresentationRisk ;
+    airo:hasAISubject ex:KamalaHarris ;
+    airo:hasStakeholder ex:ElonMusk .
+
+ex:PoliticalMisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Misrepresentation Risk"@en ;
+    rdfs:label "政治错误表述风险"@zh ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Consequence of Political Misrepresentation"@en ;
+        rdfs:label "政治错误表述的后果"@zh ;
+        airo:hasImpact ex:PoliticalReputationDamage
+    ] .
+
+ex:ElonMusk rdf:type airo:Stakeholder ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:KamalaHarris rdf:type airo:AISubject ;
+    rdfs:label "Kamala Harris"@en ;
+    rdfs:label "卡玛拉·哈里斯"@zh .
+
+ex:PoliticalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Political Reputation Damage"@en ;
+    rdfs:label "政治声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:KamalaHarris .

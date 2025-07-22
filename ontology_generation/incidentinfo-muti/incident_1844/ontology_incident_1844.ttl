@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EdinburghAirportParkingPricingAI rdf:type airo:AISystem ;
+    rdfs:label "Edinburgh Airport Parking Pricing AI System"@en ;
+    rdfs:label "爱丁堡机场停车定价AI系统"@zh ;
+    airo:hasRisk ex:UnfairPricingRisk ;
+    airo:hasStakeholder ex:AirportPassengers ;
+    airo:isAppliedWithinDomain ex:AirportParkingServices .
+
+ex:UnfairPricingRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Pricing Risk"@en ;
+    rdfs:label "不公平定价风险"@zh ;
+    airo:hasConsequence ex:FinancialBurdenOnPassengers .
+
+ex:AirportPassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Airport Passengers"@en ;
+    rdfs:label "机场乘客"@zh .
+
+ex:FinancialBurdenOnPassengers rdf:type airo:Consequence ;
+    rdfs:label "Financial Burden on Passengers Consequence"@en ;
+    rdfs:label "乘客财务负担后果"@zh ;
+    airo:hasImpactOnStakeholder ex:AirportPassengers .
+
+ex:AirportParkingServices rdf:type airo:Domain ;
+    rdfs:label "Airport Parking Services Domain"@en ;
+    rdfs:label "机场停车服务领域"@zh .

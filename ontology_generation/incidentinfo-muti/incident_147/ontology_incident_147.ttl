@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdReviewSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Ad Review System"@en ;
+    rdfs:label "Facebook广告审核系统"@zh ;
+    airo:hasRisk ex:UnfairContentModerationRisk ;
+    airo:isAppliedWithinDomain ex:SocialMediaAdvertising ;
+    airo:hasStakeholder ex:FashionBrandAdvertisers ;
+    airo:isDeployedBy ex:MetaPlatformsInc .
+
+ex:UnfairContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Content Moderation Risk"@en ;
+    rdfs:label "不公平内容审核风险"@zh .
+
+ex:SocialMediaAdvertising rdf:type airo:Domain ;
+    rdfs:label "Social Media Advertising Domain"@en ;
+    rdfs:label "社交媒体广告领域"@zh .
+
+ex:FashionBrandAdvertisers rdf:type airo:Stakeholder ;
+    rdfs:label "Fashion Brand Advertisers"@en ;
+    rdfs:label "时尚品牌广告主"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIRumorGenerationSystem",
+      "中文名称": "AI谣言生成系统",
+      "英文名称": "AI Rumor Generation System",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "Risk": {
+      "id": "SocialOrderDisruptionRisk",
+      "中文名称": "社会秩序破坏风险",
+      "英文名称": "Social Order Disruption Risk",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "Stakeholder": {
+      "id": "PublicSecurityOrgans",
+      "中文名称": "公安机关",
+      "英文名称": "Public Security Organs",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "Consequence": {
+      "id": "PublicPanic",
+      "中文名称": "公众恐慌后果",
+      "英文名称": "Public Panic Consequence",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "Impact": {
+      "id": "SocialStabilityThreat",
+      "中文名称": "社会稳定威胁影响",
+      "英文名称": "Social Stability Threat Impact",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "公安机关查处网络谣言｜有图未必有真相 AI造谣要警惕"
+    }
+  }
+}

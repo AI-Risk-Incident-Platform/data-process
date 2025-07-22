@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DiscriminatoryFraudDetectionAlgorithm",
+      "中文名称": "歧视性欺诈检测算法",
+      "英文名称": "Discriminatory Fraud Detection Algorithm",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Risk": {
+      "id": "WrongfulAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "Wrongful Accusation Risk",
+      "来源": "Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Consequence": {
+      "id": "FamiliesWronglyAccused",
+      "中文名称": "家庭被错误指控的后果",
+      "英文名称": "Families Wrongly Accused Consequence",
+      "来源": "Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Impact": {
+      "id": "SocialStigmaAndFinancialHardship",
+      "中文名称": "社会污名和财务困境的影响",
+      "英文名称": "Social Stigma and Financial Hardship Impact",
+      "来源": "Wrongly Accused Thousands of Families of Fraud"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFraudDetection",
+      "中文名称": "欺诈检测中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Fraud Detection Risk Source",
+      "来源": "Discriminatory Algorithm"
+    },
+    "AISubject": {
+      "id": "FamiliesAccusedOfFraud",
+      "中文名称": "被指控欺诈的家庭",
+      "英文名称": "Families Accused of Fraud",
+      "来源": "Wrongly Accused Thousands of Families of Fraud"
+    }
+  }
+}

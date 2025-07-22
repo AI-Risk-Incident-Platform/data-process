@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MidjourneyAI",
+      "中文名称": "Midjourney AI",
+      "英文名称": "Midjourney AI",
+      "来源": "Database of 16,000 Artists Used to Train Midjourney AI"
+    },
+    "Risk": {
+      "id": "ArtistsDataPrivacyRisk",
+      "中文名称": "艺术家数据隐私风险",
+      "英文名称": "Artists Data Privacy Risk",
+      "来源": "Database of 16,000 Artists Used to Train Midjourney AI, Including 6-Year-Old Child, Garners Criticism"
+    },
+    "AISubject": {
+      "id": "ArtistsInTrainingData",
+      "中文名称": "训练数据中的艺术家",
+      "英文名称": "Artists in Training Data",
+      "来源": "Database of 16,000 Artists Used to Train Midjourney AI"
+    },
+    "RiskSource": {
+      "id": "PublicDatabaseLeak",
+      "中文名称": "公共数据库泄露",
+      "英文名称": "Public Database Leak",
+      "来源": "Database of Artists Used to Train AI Leaks to the Public"
+    },
+    "Impact": {
+      "id": "ArtistsPrivacyViolation",
+      "中文名称": "艺术家隐私侵犯",
+      "英文名称": "Artists Privacy Violation",
+      "来源": "Database of 16,000 Artists Used to Train Midjourney AI, Including 6-Year-Old Child, Garners Criticism"
+    },
+    "Stakeholder": {
+      "id": "ArtCommunity",
+      "中文名称": "艺术社区",
+      "英文名称": "Art Community",
+      "来源": "Leaked Midjourney artist database could be a moment of reckoning for AI art"
+    }
+  }
+}

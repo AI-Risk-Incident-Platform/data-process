@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation System",
+      "来源": "Facebook labelled content from October 20 incident ‘false’"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Facebook labelled content from October 20 incident ‘false’"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaUsers",
+      "中文名称": "社交媒体用户",
+      "英文名称": "Social Media Users",
+      "来源": "content from October 20 incident"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook labelled content"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误信后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "labelled content from October 20 incident ‘false’"
+    },
+    "Impact": {
+      "id": "SocialUnrest",
+      "中文名称": "社会动荡影响",
+      "英文名称": "Social Unrest Impact",
+      "来源": "content from October 20 incident"
+    }
+  }
+}

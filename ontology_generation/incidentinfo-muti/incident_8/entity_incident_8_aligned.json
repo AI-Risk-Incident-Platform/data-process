@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GooglePhotosFacialRecognition",
+      "中文名称": "谷歌照片面部识别系统",
+      "英文名称": "Google Photos",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Consequence": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Stakeholder": {
+      "id": "AfricanAmericanUsers",
+      "中文名称": "非裔美国用户",
+      "英文名称": "African American Users",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "AISubject": {
+      "id": "BlackIndividuals",
+      "中文名称": "黑人个体",
+      "英文名称": "Black Individuals",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Purpose": {
+      "id": "PhotoOrganization",
+      "中文名称": "照片组织目的",
+      "英文名称": "Photo Organization Purpose",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Domain": {
+      "id": "ConsumerPhotography",
+      "中文名称": "消费者摄影领域",
+      "英文名称": "Consumer Photography Domain",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AITechnique": {
+      "id": "DeepLearning",
+      "中文名称": "深度学习技术",
+      "英文名称": "Deep Learning Technique",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Vulnerability": {
+      "id": "LackOfDiverseTrainingData",
+      "中文名称": "缺乏多样化训练数据的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "Threat": {
+      "id": "AlgorithmicRacialBias",
+      "中文名称": "算法种族偏见威胁",
+      "英文名称": "Algorithmic Bias Threat",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "RiskSource": {
+      "id": "InsufficientTestingOnDiversePopulations",
+      "中文名称": "对不同人群测试不足的风险源",
+      "英文名称": "Insufficient Testing on Diverse Populations Risk Source",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInFacialRecognition",
+      "中文名称": "面部识别中的伦理问题",
+      "英文名称": "Ethical Facial & Biometric Recognition Risk",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GooglePhotosFacialRecognition",
+      "中文名称": "谷歌照片面部识别系统",
+      "英文名称": "Google Photos",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Consequence": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Stakeholder": {
+      "id": "AfricanAmericanUsers",
+      "中文名称": "非裔美国用户",
+      "英文名称": "African American Users",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "AISubject": {
+      "id": "BlackIndividuals",
+      "中文名称": "黑人个体",
+      "英文名称": "Black Individuals",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Purpose": {
+      "id": "PhotoOrganization",
+      "中文名称": "照片组织目的",
+      "英文名称": "Photo Organization Purpose",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "Domain": {
+      "id": "ConsumerPhotography",
+      "中文名称": "消费者摄影领域",
+      "英文名称": "Consumer Photography Domain",
+      "来源": "Google Photos app tags black Jacky Alcine and friend as GORILLAS"
+    },
+    "AITechnique": {
+      "id": "DeepLearning",
+      "中文名称": "深度学习技术",
+      "英文名称": "Deep Learning Technique",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Vulnerability": {
+      "id": "LackOfDiverseTrainingData",
+      "中文名称": "缺乏多样化训练数据的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "Threat": {
+      "id": "AlgorithmicRacialBias",
+      "中文名称": "算法种族偏见威胁",
+      "英文名称": "Algorithmic Bias Threat",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "RiskSource": {
+      "id": "InsufficientTestingOnDiversePopulations",
+      "中文名称": "对不同人群测试不足的风险源",
+      "英文名称": "Insufficient Testing on Diverse Populations Risk Source",
+      "来源": "When It Comes to Gorillas, Google Photos Remains Blind"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInFacialRecognition",
+      "中文名称": "面部识别中的伦理问题",
+      "英文名称": "Ethical Facial & Biometric Recognition Risk",
+      "来源": "Google Photos Tags Two African-Americans As Gorillas Through Facial Recognition Software"
+    }
+  }
+}

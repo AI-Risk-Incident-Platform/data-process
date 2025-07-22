@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FirstAISoftwareEngineer rdf:type airo:AISystem ;
+    rdfs:label "First AI Software Engineer"@en ;
+    rdfs:label "首个AI软件工程师"@zh ;
+    airo:hasRisk ex:PoorTaskPerformanceRisk ;
+    airo:hasCapability ex:SoftwareEngineeringTasks ;
+    airo:hasStakeholder ex:SoftwareTesters .
+
+ex:PoorTaskPerformanceRisk rdf:type airo:Risk ;
+    rdfs:label "Poor Task Performance Risk"@en ;
+    rdfs:label "任务执行不力风险"@zh ;
+    airo:hasConsequence ex:TaskFailure .
+
+ex:TaskFailure rdf:type airo:Consequence ;
+    rdfs:label "Task Failure Consequence"@en ;
+    rdfs:label "任务失败后果"@zh .
+
+ex:SoftwareEngineeringTasks rdf:type airo:AICapability ;
+    rdfs:label "Software Engineering Tasks Capability"@en ;
+    rdfs:label "软件工程任务能力"@zh .
+
+ex:SoftwareTesters rdf:type airo:Stakeholder ;
+    rdfs:label "Software Testers"@en ;
+    rdfs:label "软件测试人员"@zh .

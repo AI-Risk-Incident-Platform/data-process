@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:CitizensUsingBiometricData ;
+    airo:usesTechnique ex:BiometricIdentification ;
+    airo:isAppliedWithinDomain ex:LegalAndSecurity ;
+    airo:hasStakeholder ex:HangzhouCourt .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:PersonalPrivacyCompromise .
+
+ex:HangzhouCourt rdf:type airo:Stakeholder ;
+    rdfs:label "Hangzhou Court"@en ;
+    rdfs:label "杭州法院"@zh .
+
+ex:CitizensUsingBiometricData rdf:type airo:AISubject ;
+    rdfs:label "Citizens Using Biometric Data"@en ;
+    rdfs:label "使用生物识别数据的公民"@zh .
+
+ex:PersonalPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Compromise Impact"@en ;
+    rdfs:label "个人隐私泄露的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CitizensUsingBiometricData .
+
+ex:LegalAndSecurity rdf:type airo:Domain ;
+    rdfs:label "Legal and Security Domain"@en ;
+    rdfs:label "法律与安全领域"@zh .
+
+ex:BiometricIdentification rdf:type airo:AITechnique ;
+    rdfs:label "Biometric Identification Technique"@en ;
+    rdfs:label "生物识别技术"@zh .

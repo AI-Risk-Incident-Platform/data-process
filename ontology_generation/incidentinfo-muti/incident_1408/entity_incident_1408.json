@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EventbriteRecommendationSystem",
+      "中文名称": "Eventbrite推荐系统",
+      "英文名称": "Eventbrite Recommendation System",
+      "来源": "Eventbrite Promoted Illegal Opioid Sales to People Searching for Addiction Recovery Help"
+    },
+    "Risk": {
+      "id": "IllegalContentPromotionRisk",
+      "中文名称": "非法内容推广风险",
+      "英文名称": "Illegal Content Promotion Risk",
+      "来源": "Eventbrite Promoted Illegal Opioid Sales to People Searching for Addiction Recovery Help"
+    },
+    "Consequence": {
+      "id": "HarmToAddictionRecoverySeekers",
+      "中文名称": "对寻求戒毒者造成伤害",
+      "英文名称": "Harm to Addiction Recovery Seekers",
+      "来源": "Eventbrite Promoted Illegal Opioid Sales to People Searching for Addiction Recovery Help"
+    },
+    "AISubject": {
+      "id": "AddictionRecoverySeekers",
+      "中文名称": "寻求戒毒者",
+      "英文名称": "Addiction Recovery Seekers",
+      "来源": "People Searching for Addiction Recovery Help"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足",
+      "英文名称": "Inadequate Content Moderation",
+      "来源": "Eventbrite Promoted Illegal Opioid Sales"
+    },
+    "Impact": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁",
+      "英文名称": "Public Health Threat",
+      "来源": "Promoted Illegal Opioid Sales"
+    }
+  }
+}

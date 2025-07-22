@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GooglePatientRecordsMiningSystem rdf:type airo:AISystem ;
+    rdfs:label "谷歌患者记录挖掘系统"@zh ;
+    rdfs:label "Google Patient Records Mining System"@en ;
+    airo:hasRisk ex:PatientPrivacyRisk ;
+    airo:isDeployedBy ex:Google ;
+    airo:hasStakeholder ex:HCAHealthcare ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:hasPurpose ex:AlgorithmDevelopment .
+
+ex:PatientPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "患者隐私风险"@zh ;
+    rdfs:label "Patient Privacy Risk"@en ;
+    airo:isRiskSourceFor ex:DataSharingAgreement ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:hasRiskControl ex:PrivacyLawUpdate .
+
+ex:HCAHealthcare rdf:type airo:Stakeholder ;
+    rdfs:label "HCA医疗集团"@zh ;
+    rdfs:label "HCA Healthcare"@en .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "谷歌"@zh ;
+    rdfs:label "Google"@en .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "医疗健康领域"@zh ;
+    rdfs:label "Healthcare Domain"@en .
+
+ex:AlgorithmDevelopment rdf:type airo:Purpose ;
+    rdfs:label "算法开发目的"@zh ;
+    rdfs:label "Algorithm Development Purpose"@en .
+
+ex:DataSharingAgreement rdf:type airo:RiskSource ;
+    rdfs:label "数据共享协议风险源"@zh ;
+    rdfs:label "Data Sharing Agreement Risk Source"@en .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    rdfs:label "Privacy Violation Impact"@en .
+
+ex:PrivacyLawUpdate rdf:type airo:RiskControl ;
+    rdfs:label "隐私法更新管控"@zh ;
+    rdfs:label "Privacy Law Update Control"@en .

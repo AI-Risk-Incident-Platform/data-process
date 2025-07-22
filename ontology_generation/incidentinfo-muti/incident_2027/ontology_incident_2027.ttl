@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAvatarSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Avatar System"@en ;
+    rdfs:label "深度伪造虚拟形象系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:FacialSynthesis ;
+    airo:hasPurpose ex:PoliticalPromotion ;
+    airo:hasStakeholder ex:PoliticalCampaigns ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:FacialSynthesis rdf:type airo:AICapability ;
+    rdfs:label "Facial Synthesis Capability"@en ;
+    rdfs:label "面部合成能力"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Stakeholder ;
+    rdfs:label "Political Campaigns"@en ;
+    rdfs:label "政治竞选活动"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion"@en ;
+    rdfs:label "公众信任侵蚀"@zh .
+
+ex:PoliticalPromotion rdf:type airo:Purpose ;
+    rdfs:label "Political Promotion"@en ;
+    rdfs:label "政治宣传"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks"@en ;
+    rdfs:label "生成对抗网络"@zh .

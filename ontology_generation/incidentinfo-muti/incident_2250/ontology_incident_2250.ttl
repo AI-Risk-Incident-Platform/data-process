@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedFacesSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Faces System"@en ;
+    rdfs:label "AI生成人脸系统"@zh ;
+    airo:hasRisk ex:DiversityMisrepresentationRisk ;
+    airo:hasPurpose ex:DiversityRepresentation ;
+    airo:isAppliedWithinDomain ex:StockPhotography ;
+    airo:hasCapability ex:FacialImageGeneration ;
+    airo:hasStakeholder ex:PhotographyIndustry .
+
+ex:DiversityMisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Diversity Misrepresentation Risk"@en ;
+    rdfs:label "多样性误表示风险"@zh ;
+    airo:hasConsequence ex:IndustryDisruption ;
+    airo:isRiskSourceFor ex:ArtificialDiversityRepresentation .
+
+ex:DiversityRepresentation rdf:type airo:Purpose ;
+    rdfs:label "Diversity Representation"@en ;
+    rdfs:label "多样性表示"@zh .
+
+ex:StockPhotography rdf:type airo:Domain ;
+    rdfs:label "Stock Photography"@en ;
+    rdfs:label "库存摄影"@zh .
+
+ex:FacialImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Facial Image Generation"@en ;
+    rdfs:label "面部图像生成"@zh .
+
+ex:PhotographyIndustry rdf:type airo:Stakeholder ;
+    rdfs:label "Photography Industry"@en ;
+    rdfs:label "摄影行业"@zh .
+
+ex:IndustryDisruption rdf:type airo:Impact ;
+    rdfs:label "Industry Disruption"@en ;
+    rdfs:label "行业颠覆"@zh ;
+    airo:hasImpactOnStakeholder ex:PhotographyIndustry .
+
+ex:ArtificialDiversityRepresentation rdf:type airo:RiskSource ;
+    rdfs:label "Artificial Diversity Representation"@en ;
+    rdfs:label "人工多样性表示"@zh .

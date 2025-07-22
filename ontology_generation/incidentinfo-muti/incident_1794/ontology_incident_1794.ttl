@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TrafficMonitoringAI rdf:type airo:AISystem ;
+    rdfs:label "Traffic Monitoring AI"@en ;
+    rdfs:label "交通监控AI"@zh ;
+    airo:hasRisk ex:FalsePositiveDetectionRisk ;
+    airo:hasAISubject ex:Motorists ;
+    airo:hasCapability ex:ImageRecognitionForDriverMonitoring .
+
+ex:FalsePositiveDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "False Positive Detection Risk"@en ;
+    rdfs:label "误判检测风险"@zh ;
+    airo:hasConsequence ex:UnjustTrafficFine ;
+    airo:isRiskSourceFor ex:FacialGestureMisinterpretation .
+
+ex:UnjustTrafficFine rdf:type airo:Consequence ;
+    rdfs:label "Unjust Traffic Fine Consequence"@en ;
+    rdfs:label "不公正交通罚款后果"@zh ;
+    airo:hasImpact ex:FinancialPenaltyImpact .
+
+ex:ImageRecognitionForDriverMonitoring rdf:type airo:AICapability ;
+    rdfs:label "Image Recognition for Driver Monitoring Capability"@en ;
+    rdfs:label "驾驶员监控图像识别能力"@zh .
+
+ex:Motorists rdf:type airo:AISubject ;
+    rdfs:label "Motorists"@en ;
+    rdfs:label "机动车驾驶员"@zh .
+
+ex:FinancialPenaltyImpact rdf:type airo:Impact ;
+    rdfs:label "Financial Penalty Impact"@en ;
+    rdfs:label "经济处罚影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Motorists .
+
+ex:FacialGestureMisinterpretation rdf:type airo:RiskSource ;
+    rdfs:label "Facial Gesture Misinterpretation Risk Source"@en ;
+    rdfs:label "面部动作误判风险源"@zh .

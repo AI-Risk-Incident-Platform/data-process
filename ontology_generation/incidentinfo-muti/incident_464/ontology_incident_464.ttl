@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleBardChatbot rdf:type airo:AISystem ;
+    rdfs:label "Google Bard Chatbot"@en ;
+    rdfs:label "谷歌Bard聊天机器人"@zh ;
+    airo:hasRisk ex:FinancialLossRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessing ;
+    airo:isAppliedWithinDomain ex:AIChatbotMarket ;
+    airo:hasStakeholder ex:AlphabetInvestors .
+
+ex:FinancialLossRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Loss Risk"@en ;
+    rdfs:label "财务损失风险"@zh ;
+    airo:hasConsequence ex:StockPriceDecline ;
+    airo:isRiskSourceFor ex:InaccurateAIResponse .
+
+ex:StockPriceDecline rdf:type airo:Consequence ;
+    rdfs:label "Stock Price Decline Consequence"@en ;
+    rdfs:label "股价下跌后果"@zh ;
+    airo:hasImpact ex:MarketConfidenceErosion .
+
+ex:AlphabetInvestors rdf:type airo:Stakeholder ;
+    rdfs:label "Alphabet Investors"@en ;
+    rdfs:label "Alphabet投资者"@zh .
+
+ex:MarketConfidenceErosion rdf:type airo:Impact ;
+    rdfs:label "Market Confidence Erosion Impact"@en ;
+    rdfs:label "市场信心侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AlphabetInvestors .
+
+ex:AIChatbotMarket rdf:type airo:Domain ;
+    rdfs:label "AI Chatbot Market Domain"@en ;
+    rdfs:label "AI聊天机器人市场领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing Capability"@en ;
+    rdfs:label "自然语言处理能力"@zh .
+
+ex:InaccurateAIResponse rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate AI Response Risk Source"@en ;
+    rdfs:label "AI响应不准确风险源"@zh .

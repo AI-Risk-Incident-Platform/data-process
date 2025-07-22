@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIArticleGenerationSystem",
+      "中文名称": "AI文章生成系统",
+      "英文名称": "AI Article Generation System",
+      "来源": "Police AI-generated article local"
+    },
+    "Risk": {
+      "id": "FakeNewsGenerationRisk",
+      "中文名称": "虚假新闻生成风险",
+      "英文名称": "Fake News Generation Risk",
+      "来源": "News story about deadly Christmas shooting in N.J. is fake, made with AI, police say"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "News story about deadly Christmas shooting in N.J. is fake"
+    },
+    "Stakeholder": {
+      "id": "LocalPoliceDepartment",
+      "中文名称": "当地警察部门",
+      "英文名称": "Local Police Department",
+      "来源": "police say"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "News story about deadly Christmas shooting in N.J. is fake"
+    }
+  }
+}

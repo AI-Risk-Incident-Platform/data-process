@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BankrateAIArticleGenerator rdf:type airo:AISystem ;
+    rdfs:label "Bankrate AI Article Generator"@en ;
+    rdfs:label "Bankrate AI文章生成器"@zh ;
+    airo:hasRisk ex:InaccurateFinancialInformationRisk ;
+    airo:isDeployedBy ex:Bankrate ;
+    airo:hasStakeholder ex:BankrateReaders ;
+    airo:isAppliedWithinDomain ex:FinancialInformationServicesDomain .
+
+ex:InaccurateFinancialInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Financial Information Risk"@en ;
+    rdfs:label "不准确金融信息风险"@zh ;
+    airo:hasConsequence ex:MisleadingFinancialAdvice ;
+    airo:isRiskSourceFor ex:UnverifiedAIOutput .
+
+ex:MisleadingFinancialAdvice rdf:type airo:Consequence ;
+    rdfs:label "Misleading Financial Advice Consequence"@en ;
+    rdfs:label "误导性金融建议后果"@zh ;
+    airo:hasImpact ex:FinancialLossForReaders .
+
+ex:FinancialLossForReaders rdf:type airo:Impact ;
+    rdfs:label "Financial Loss for Readers Impact"@en ;
+    rdfs:label "读者经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BankrateReaders .
+
+ex:BankrateReaders rdf:type airo:Stakeholder ;
+    rdfs:label "Bankrate Readers"@en ;
+    rdfs:label "Bankrate读者"@zh .
+
+ex:Bankrate rdf:type airo:AIOperator ;
+    rdfs:label "Bankrate"@en ;
+    rdfs:label "Bankrate"@zh .
+
+ex:UnverifiedAIOutput rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI Output Risk Source"@en ;
+    rdfs:label "未经验证的AI输出风险源"@zh .
+
+ex:FinancialInformationServicesDomain rdf:type airo:Domain ;
+    rdfs:label "Financial Information Services Domain"@en ;
+    rdfs:label "金融信息服务领域"@zh .

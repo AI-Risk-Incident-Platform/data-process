@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceID",
+      "中文名称": "面容ID",
+      "英文名称": "Face ID",
+      "来源": "Siblings Manage To ‘Trick’ Face ID Into Unlocking The iPhone X"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial Recognition Failure Risk",
+      "来源": "Face ID Appears to Fail at Telling Apart Brothers Who Aren't Twins in New Videos"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问后果",
+      "英文名称": "Unauthorized Access Consequence",
+      "来源": "Siblings Manage To ‘Trick’ Face ID Into Unlocking The iPhone X"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Face ID Appears to Fail at Telling Apart Brothers Who Aren't Twins in New Videos"
+    },
+    "Vulnerability": {
+      "id": "SimilarFacialFeatures",
+      "中文名称": "相似面部特征脆弱性",
+      "英文名称": "Similar Facial Features Vulnerability",
+      "来源": "Video of Face ID failing to tell brothers apart is actually misleading"
+    },
+    "RiskSource": {
+      "id": "GeneticSimilarity",
+      "中文名称": "基因相似性风险源",
+      "英文名称": "Genetic Similarity Risk Source",
+      "来源": "Face ID Appears to Fail at Telling Apart Brothers Who Aren't Twins in New Videos"
+    }
+  }
+}

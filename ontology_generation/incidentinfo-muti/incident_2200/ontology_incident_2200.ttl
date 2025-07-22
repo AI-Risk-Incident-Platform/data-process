@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "人脸识别系统"@zh ;
+    airo:hasRisk ex:WrongfulArrestRisk ;
+    airo:hasStakeholder ex:ACLU ;
+    airo:hasAISubject ex:DetroitMan ;
+    airo:isDeployedBy ex:DetroitPoliceDepartment ;
+    airo:hasVulnerability ex:AlgorithmicBiasInFacialRecognition .
+
+ex:WrongfulArrestRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:WrongfulArrest ;
+    airo:isRiskSourceFor ex:FalsePositiveMatch .
+
+ex:WrongfulArrest rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Arrest Consequence"@en ;
+    rdfs:label "错误逮捕后果"@zh ;
+    airo:hasImpact ex:CivilRightsViolation .
+
+ex:DetroitPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "Detroit Police Department"@en ;
+    rdfs:label "底特律警察局"@zh .
+
+ex:ACLU rdf:type airo:Stakeholder ;
+    rdfs:label "American Civil Liberties Union"@en ;
+    rdfs:label "美国公民自由联盟"@zh .
+
+ex:DetroitMan rdf:type airo:AISubject ;
+    rdfs:label "Detroit Man"@en ;
+    rdfs:label "底特律男子"@zh .
+
+ex:CivilRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Civil Rights Violation Impact"@en ;
+    rdfs:label "公民权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DetroitMan .
+
+ex:FalsePositiveMatch rdf:type airo:RiskSource ;
+    rdfs:label "False Positive Match Risk Source"@en ;
+    rdfs:label "误报匹配风险源"@zh .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Vulnerability"@en ;
+    rdfs:label "人脸识别中的算法偏见脆弱性"@zh .

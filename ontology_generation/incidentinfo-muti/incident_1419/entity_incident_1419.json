@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HoodlineAIJournalists",
+      "中文名称": "Hoodline AI记者",
+      "英文名称": "Hoodline AI Journalists",
+      "来源": "Hoodline’s AI Journalists of Color, exposed."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "AI Fake Reporters Make It Harder for Readers to Tell Truth From Fiction"
+    },
+    "Consequence": {
+      "id": "ReaderConfusion",
+      "中文名称": "读者困惑",
+      "英文名称": "Reader Confusion",
+      "来源": "AI Fake Reporters Make It Harder for Readers to Tell Truth From Fiction"
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAI",
+      "中文名称": "内容生成AI",
+      "英文名称": "Content Generation AI",
+      "来源": "Hoodline Caught Using AI-Generated Writers to Make AI-Generated Articles"
+    },
+    "Stakeholder": {
+      "id": "NewsReaders",
+      "中文名称": "新闻读者",
+      "英文名称": "News Readers",
+      "来源": "AI Fake Reporters Make It Harder for Readers to Tell Truth From Fiction"
+    },
+    "AIOperator": {
+      "id": "Hoodline",
+      "中文名称": "Hoodline",
+      "英文名称": "Hoodline",
+      "来源": "Hoodline Caught Using AI-Generated Writers to Make AI-Generated Articles"
+    },
+    "Impact": {
+      "id": "TrustErosionInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Trust Erosion in Media",
+      "来源": "AI Fake Reporters Make It Harder for Readers to Tell Truth From Fiction"
+    },
+    "Purpose": {
+      "id": "AutomatedContentProduction",
+      "中文名称": "自动化内容生产",
+      "英文名称": "Automated Content Production",
+      "来源": "Hoodline Caught Using AI-Generated Writers to Make AI-Generated Articles"
+    },
+    "Domain": {
+      "id": "Journalism",
+      "中文名称": "新闻业",
+      "英文名称": "Journalism",
+      "来源": "Hoodline’s AI Journalists of Color, exposed."
+    },
+    "RiskSource": {
+      "id": "UndisclosedAIUsage",
+      "中文名称": "未披露的AI使用",
+      "英文名称": "Undisclosed AI Usage",
+      "来源": "Hoodline Caught Using AI-Generated Writers to Make AI-Generated Articles"
+    }
+  }
+}

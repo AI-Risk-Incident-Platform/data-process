@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "How online communities are using AI chatbots for harmful behavior"
+    },
+    "Risk": {
+      "id": "HarmfulBehaviorFacilitationRisk",
+      "中文名称": "有害行为促进风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Anorexia coaches, self-harm buddies and sexualized minors"
+    },
+    "Consequence": {
+      "id": "PromotionOfSelfHarm",
+      "中文名称": "促进自残行为后果",
+      "英文名称": "Self-Harm Promotion Consequence",
+      "来源": "self-harm buddies"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Anorexia coaches, self-harm buddies"
+    },
+    "AISubject": {
+      "id": "VulnerableMinors",
+      "中文名称": "弱势未成年人",
+      "英文名称": "Vulnerable Teens",
+      "来源": "sexualized minors"
+    },
+    "Misuse": {
+      "id": "ChatbotMisuseForHarmfulCommunities",
+      "中文名称": "聊天机器人被有害社区滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "How online communities are using AI chatbots for harmful behavior"
+    },
+    "RiskSource": {
+      "id": "UnmoderatedOnlineCommunities",
+      "中文名称": "未受监管的在线社区风险源",
+      "英文名称": "Unmoderated Online Communities Risk Source",
+      "来源": "How online communities are using AI chatbots"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "How online communities are using AI chatbots for harmful behavior"
+    },
+    "Risk": {
+      "id": "HarmfulBehaviorFacilitationRisk",
+      "中文名称": "有害行为促进风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Anorexia coaches, self-harm buddies and sexualized minors"
+    },
+    "Consequence": {
+      "id": "PromotionOfSelfHarm",
+      "中文名称": "促进自残行为后果",
+      "英文名称": "Self-Harm Promotion Consequence",
+      "来源": "self-harm buddies"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Anorexia coaches, self-harm buddies"
+    },
+    "AISubject": {
+      "id": "VulnerableMinors",
+      "中文名称": "弱势未成年人",
+      "英文名称": "Vulnerable Teens",
+      "来源": "sexualized minors"
+    },
+    "Misuse": {
+      "id": "ChatbotMisuseForHarmfulCommunities",
+      "中文名称": "聊天机器人被有害社区滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "How online communities are using AI chatbots for harmful behavior"
+    },
+    "RiskSource": {
+      "id": "UnmoderatedOnlineCommunities",
+      "中文名称": "未受监管的在线社区风险源",
+      "英文名称": "Unmoderated Online Communities Risk Source",
+      "来源": "How online communities are using AI chatbots"
+    }
+  }
+}

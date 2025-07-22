@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeAudioOfSadiqKhan",
+      "中文名称": "萨迪克·汗的深度伪造音频",
+      "英文名称": "Deepfake Audio of Sadiq Khan",
+      "来源": "Faked audio purported to show Sadiq Khan dismissing Armistice Day"
+    },
+    "Risk": {
+      "id": "PublicDisorderRisk",
+      "中文名称": "公共秩序混乱风险",
+      "英文名称": "Public Disorder Risk",
+      "来源": "Sadiq Khan says fake AI audio of him nearly led to serious disorder"
+    },
+    "Consequence": {
+      "id": "PotentialSocialUnrest",
+      "中文名称": "潜在社会动荡后果",
+      "英文名称": "Potential Social Unrest Consequence",
+      "来源": "nearly led to serious disorder"
+    },
+    "Stakeholder": {
+      "id": "FarRightGroups",
+      "中文名称": "极右翼团体",
+      "英文名称": "Far-Right Groups",
+      "来源": "Met investigating deepfake video of Sadiq Khan shared by far-right groups"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "deepfake video of Sadiq Khan"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "fake AI audio of him nearly led to serious disorder"
+    },
+    "RiskSource": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵风险源",
+      "英文名称": "Political Manipulation Risk Source",
+      "来源": "shared by far-right groups"
+    }
+  }
+}

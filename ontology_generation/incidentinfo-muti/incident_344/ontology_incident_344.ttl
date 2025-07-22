@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GunDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Gun Detection AI"@en ;
+    rdfs:label "枪支检测AI"@zh ;
+    airo:hasRisk ex:SchoolSafetyRisk ;
+    airo:isDeployedBy ex:AIScannerProvider ;
+    airo:hasStakeholder ex:SchoolAdministrators ;
+    airo:hasImpactOnEntity ex:ReducedSchoolSafety .
+
+ex:SchoolSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "School Safety Risk"@en ;
+    rdfs:label "学校安全风险"@zh ;
+    airo:hasConsequence ex:ReducedSchoolSafety .
+
+ex:SchoolAdministrators rdf:type airo:Stakeholder ;
+    rdfs:label "School Administrators"@en ;
+    rdfs:label "学校管理者"@zh .
+
+ex:AIScannerProvider rdf:type airo:AIOperator ;
+    rdfs:label "AI Scanner Provider"@en ;
+    rdfs:label "AI扫描仪提供商"@zh .
+
+ex:ReducedSchoolSafety rdf:type airo:Impact ;
+    rdfs:label "Reduced School Safety"@en ;
+    rdfs:label "学校安全性降低"@zh .

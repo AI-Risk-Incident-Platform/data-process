@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HabsoraAISystem",
+      "中文名称": "Habsora AI系统",
+      "英文名称": "Habsora AI System",
+      "来源": "Israel’s AI system for target selection has generated ‘mass assassination factory’ in Gaza"
+    },
+    "Risk": {
+      "id": "CivilianCasualtyRisk",
+      "中文名称": "平民伤亡风险",
+      "英文名称": "Civilian Casualty Risk",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "Consequence": {
+      "id": "MassCivilianCasualties",
+      "中文名称": "大规模平民伤亡后果",
+      "英文名称": "Civilian Casualties Consequence",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "AICapability": {
+      "id": "AutomatedTargetSelection",
+      "中文名称": "自动化目标选择能力",
+      "英文名称": "Automated/Autonomous Targeting Capability",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "AIOperator": {
+      "id": "IsraeliMilitary",
+      "中文名称": "以色列军方",
+      "英文名称": "Israeli Forces",
+      "来源": "Israel’s AI system for target selection"
+    },
+    "Stakeholder": {
+      "id": "PalestinianCivilians",
+      "中文名称": "巴勒斯坦平民",
+      "英文名称": "Palestinian Civilians",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "AISubject": {
+      "id": "GazaResidents",
+      "中文名称": "加沙居民",
+      "英文名称": "Gaza Civilians",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Impact": {
+      "id": "HumanitarianCrisis",
+      "中文名称": "人道主义危机影响",
+      "英文名称": "Humanitarian Crisis Impact",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Purpose": {
+      "id": "MilitaryTargetSelection",
+      "中文名称": "军事目标选择目的",
+      "英文名称": "Military Target Selection Purpose",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "Domain": {
+      "id": "MilitaryOperations",
+      "中文名称": "军事行动领域",
+      "英文名称": "Military Operations",
+      "来源": "Israel’s AI system for target selection"
+    },
+    "AITechnique": {
+      "id": "PredictiveAnalytics",
+      "中文名称": "预测分析技术",
+      "英文名称": "Predictive Tech",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标选择中的算法偏见脆弱性",
+      "英文名称": "Algorithmic Bias in Targeting Vulnerability",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    },
+    "Threat": {
+      "id": "IndiscriminateKilling",
+      "中文名称": "无差别杀戮威胁",
+      "英文名称": "Civilian Killing Threat",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Hazard": {
+      "id": "AutomatedDecisionMakingInWarfare",
+      "中文名称": "战争中的自动化决策危害",
+      "英文名称": "Military AI Decision Hazard",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanOversight",
+      "中文名称": "缺乏人类监督的风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HabsoraAISystem",
+      "中文名称": "Habsora AI系统",
+      "英文名称": "Habsora AI System",
+      "来源": "Israel’s AI system for target selection has generated ‘mass assassination factory’ in Gaza"
+    },
+    "Risk": {
+      "id": "CivilianCasualtyRisk",
+      "中文名称": "平民伤亡风险",
+      "英文名称": "Civilian Casualty Risk",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "Consequence": {
+      "id": "MassCivilianCasualties",
+      "中文名称": "大规模平民伤亡后果",
+      "英文名称": "Civilian Casualties Consequence",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "AICapability": {
+      "id": "AutomatedTargetSelection",
+      "中文名称": "自动化目标选择能力",
+      "英文名称": "Automated/Autonomous Targeting Capability",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "AIOperator": {
+      "id": "IsraeliMilitary",
+      "中文名称": "以色列军方",
+      "英文名称": "Israeli Forces",
+      "来源": "Israel’s AI system for target selection"
+    },
+    "Stakeholder": {
+      "id": "PalestinianCivilians",
+      "中文名称": "巴勒斯坦平民",
+      "英文名称": "Palestinian Civilians",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "AISubject": {
+      "id": "GazaResidents",
+      "中文名称": "加沙居民",
+      "英文名称": "Gaza Civilians",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Impact": {
+      "id": "HumanitarianCrisis",
+      "中文名称": "人道主义危机影响",
+      "英文名称": "Humanitarian Crisis Impact",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Purpose": {
+      "id": "MilitaryTargetSelection",
+      "中文名称": "军事目标选择目的",
+      "英文名称": "Military Target Selection Purpose",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "Domain": {
+      "id": "MilitaryOperations",
+      "中文名称": "军事行动领域",
+      "英文名称": "Military Operations",
+      "来源": "Israel’s AI system for target selection"
+    },
+    "AITechnique": {
+      "id": "PredictiveAnalytics",
+      "中文名称": "预测分析技术",
+      "英文名称": "Predictive Tech",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标选择中的算法偏见脆弱性",
+      "英文名称": "Algorithmic Bias in Targeting Vulnerability",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    },
+    "Threat": {
+      "id": "IndiscriminateKilling",
+      "中文名称": "无差别杀戮威胁",
+      "英文名称": "Civilian Killing Threat",
+      "来源": "‘mass assassination factory’ in Gaza"
+    },
+    "Hazard": {
+      "id": "AutomatedDecisionMakingInWarfare",
+      "中文名称": "战争中的自动化决策危害",
+      "英文名称": "Military AI Decision Hazard",
+      "来源": "How Israel uses AI to select bombing targets"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanOversight",
+      "中文名称": "缺乏人类监督的风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "How the AI 'Habsora' system masks random killing with maths"
+    }
+  }
+}

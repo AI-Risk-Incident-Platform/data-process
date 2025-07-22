@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonBuyBoxAlgorithm",
+      "中文名称": "亚马逊Buy Box算法",
+      "英文名称": "Amazon Buy Box Algorithm",
+      "来源": "Amazon reportedly sued for favoring pricier goods with algorithm"
+    },
+    "Risk": {
+      "id": "ConsumerOverchargingRisk",
+      "中文名称": "消费者被多收费风险",
+      "英文名称": "Price Manipulation Risk",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm, fresh lawsuit claims"
+    },
+    "Stakeholder": {
+      "id": "AmazonShoppers",
+      "中文名称": "亚马逊购物者",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon reportedly sued for favoring pricier goods with algorithm"
+    },
+    "Consequence": {
+      "id": "FinancialLossToConsumers",
+      "中文名称": "消费者经济损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "fresh lawsuit claims"
+    },
+    "Purpose": {
+      "id": "ProductRecommendationSystem",
+      "中文名称": "产品推荐系统的目的",
+      "英文名称": "Product Recommendation Purpose",
+      "来源": "favoring pricier goods with algorithm"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon Buy Box algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPriceBias",
+      "中文名称": "算法价格偏见的风险源",
+      "英文名称": "Algorithmic Price Bias Risk Source",
+      "来源": "favoring pricier goods with algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonBuyBoxAlgorithm",
+      "中文名称": "亚马逊Buy Box算法",
+      "英文名称": "Amazon Buy Box Algorithm",
+      "来源": "Amazon reportedly sued for favoring pricier goods with algorithm"
+    },
+    "Risk": {
+      "id": "ConsumerOverchargingRisk",
+      "中文名称": "消费者被多收费风险",
+      "英文名称": "Price Manipulation Risk",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm, fresh lawsuit claims"
+    },
+    "Stakeholder": {
+      "id": "AmazonShoppers",
+      "中文名称": "亚马逊购物者",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon reportedly sued for favoring pricier goods with algorithm"
+    },
+    "Consequence": {
+      "id": "FinancialLossToConsumers",
+      "中文名称": "消费者经济损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon overcharges shoppers with Buy Box algorithm"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "fresh lawsuit claims"
+    },
+    "Purpose": {
+      "id": "ProductRecommendationSystem",
+      "中文名称": "产品推荐系统的目的",
+      "英文名称": "Product Recommendation Purpose",
+      "来源": "favoring pricier goods with algorithm"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon Buy Box algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPriceBias",
+      "中文名称": "算法价格偏见的风险源",
+      "英文名称": "Algorithmic Price Bias Risk Source",
+      "来源": "favoring pricier goods with algorithm"
+    }
+  }
+}

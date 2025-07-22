@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla confirms 'Autopilot' engaged in fatal crash in China"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "Two Years On, A Father Is Still Fighting Tesla Over Autopilot And His Son's Fatal Crash"
+    },
+    "Consequence": {
+      "id": "FatalCrashConsequence",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal Crash Consequence",
+      "来源": "Autopilot Cited in Death of Chinese Tesla Driver"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla confirms 'Autopilot' engaged in fatal crash in China"
+    },
+    "Stakeholder": {
+      "id": "CrashVictimFamily",
+      "中文名称": "事故受害者家属",
+      "英文名称": "Crash Victim Family",
+      "来源": "Two Years On, A Father Is Still Fighting Tesla Over Autopilot And His Son's Fatal Crash"
+    },
+    "Impact": {
+      "id": "LossOfLifeImpact",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Autopilot Cited in Death of Chinese Tesla Driver"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleIndustry",
+      "中文名称": "自动驾驶汽车行业",
+      "英文名称": "Autonomous Vehicle Industry",
+      "来源": "Tesla confirms 'Autopilot' engaged in fatal crash in China"
+    },
+    "RiskSource": {
+      "id": "SystemOverrelianceRiskSource",
+      "中文名称": "系统过度依赖风险源",
+      "英文名称": "System Overreliance Risk Source",
+      "来源": "Two Years On, A Father Is Still Fighting Tesla Over Autopilot And His Son's Fatal Crash"
+    }
+  }
+}

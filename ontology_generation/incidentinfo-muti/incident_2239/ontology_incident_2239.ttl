@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MSNNewsAI rdf:type airo:AISystem ;
+    rdfs:label "MSN新闻AI"@zh ;
+    rdfs:label "MSN News AI"@en ;
+    airo:hasRisk ex:JobDisplacementRisk ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:hasStakeholder ex:MSNNewsProductionWorkers .
+
+ex:JobDisplacementRisk rdf:type airo:Risk ;
+    rdfs:label "工作替代风险"@zh ;
+    rdfs:label "Job Displacement Risk"@en ;
+    airo:hasConsequence ex:JobLosses .
+
+ex:MSNNewsProductionWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "MSN新闻制作人员"@zh ;
+    rdfs:label "MSN News Production Workers"@en .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "微软"@zh ;
+    rdfs:label "Microsoft"@en .
+
+ex:JobLosses rdf:type airo:Consequence ;
+    rdfs:label "工作损失"@zh ;
+    rdfs:label "Job Losses"@en ;
+    airo:hasImpact ex:EconomicImpactOnWorkers .
+
+ex:EconomicImpactOnWorkers rdf:type airo:Impact ;
+    rdfs:label "对工人的经济影响"@zh ;
+    rdfs:label "Economic Impact on Workers"@en ;
+    airo:hasImpactOnStakeholder ex:MSNNewsProductionWorkers .

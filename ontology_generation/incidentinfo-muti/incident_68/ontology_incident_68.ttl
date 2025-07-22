@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RogueChatbots rdf:type airo:AISystem ;
+    rdfs:label "Rogue Chatbots"@en ;
+    rdfs:label "失控聊天机器人"@zh ;
+    airo:hasRisk ex:PoliticalContentRisk ;
+    airo:hasStakeholder ex:ChineseRegulators ;
+    airo:isDeployedBy ex:ChineseRegulators .
+
+ex:PoliticalContentRisk rdf:type airo:Risk ;
+    rdfs:label "Political Content Risk"@en ;
+    rdfs:label "政治内容风险"@zh ;
+    airo:hasConsequence ex:SystemShutdown ;
+    airo:isRiskSourceFor ex:UncontrolledContentGeneration .
+
+ex:ChineseRegulators rdf:type airo:AIOperator ;
+    rdfs:label "Chinese Regulators"@en ;
+    rdfs:label "中国监管机构"@zh .
+
+ex:SystemShutdown rdf:type airo:Consequence ;
+    rdfs:label "System Shutdown Consequence"@en ;
+    rdfs:label "系统关闭后果"@zh ;
+    airo:hasImpact ex:PoliticalInstability .
+
+ex:UncontrolledContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Uncontrolled Content Generation Risk Source"@en ;
+    rdfs:label "不受控内容生成风险源"@zh .
+
+ex:PoliticalInstability rdf:type airo:Impact ;
+    rdfs:label "Political Instability Impact"@en ;
+    rdfs:label "政治不稳定影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseRegulators .

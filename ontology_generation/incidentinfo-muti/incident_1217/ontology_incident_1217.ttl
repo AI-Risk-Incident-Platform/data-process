@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepSeekV3 rdf:type airo:AISystem ;
+    rdfs:label "DeepSeek V3"@en ;
+    rdfs:label "DeepSeek V3"@zh ;
+    airo:hasRisk ex:ModelIdentityMisrepresentationRisk ;
+    airo:hasCapability ex:LargeLanguageModelCapability ;
+    airo:hasStakeholder ex:AIUsers .
+
+ex:ModelIdentityMisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Model Identity Misrepresentation Risk"@en ;
+    rdfs:label "模型身份误认风险"@zh ;
+    airo:hasConsequence ex:UserConfusion ;
+    airo:isRiskSourceFor ex:ModelSelfIdentificationError .
+
+ex:UserConfusion rdf:type airo:Consequence ;
+    rdfs:label "User Confusion Consequence"@en ;
+    rdfs:label "用户混淆后果"@zh .
+
+ex:LargeLanguageModelCapability rdf:type airo:AICapability ;
+    rdfs:label "Large Language Model Capability"@en ;
+    rdfs:label "大语言模型能力"@zh .
+
+ex:AIUsers rdf:type airo:Stakeholder ;
+    rdfs:label "AI Users"@en ;
+    rdfs:label "AI使用者"@zh .
+
+ex:ModelSelfIdentificationError rdf:type airo:RiskSource ;
+    rdfs:label "Model Self-Identification Error Risk Source"@en ;
+    rdfs:label "模型自我识别错误风险源"@zh .

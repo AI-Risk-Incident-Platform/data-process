@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChildAbusePredictionProgram",
+      "中文名称": "儿童虐待预测程序",
+      "英文名称": "Child Abuse Prediction Program",
+      "来源": "Illinois Ends Child Abuse Prediction Program"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInChildWelfare",
+      "中文名称": "儿童福利中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Child Welfare Risk",
+      "来源": "Can an Algorithm Tell When Kids Are in Danger?"
+    },
+    "Stakeholder": {
+      "id": "IllinoisChildWelfareDepartment",
+      "中文名称": "伊利诺伊州儿童福利部门",
+      "英文名称": "Illinois Child Welfare Department",
+      "来源": "Illinois child welfare to end use of predictive program"
+    },
+    "Domain": {
+      "id": "ChildProtectionServices",
+      "中文名称": "儿童保护服务领域",
+      "英文名称": "Child Protection Services Domain",
+      "来源": "Illinois Ends Child Abuse Prediction Program"
+    },
+    "Purpose": {
+      "id": "IdentifyingAtRiskChildren",
+      "中文名称": "识别高危儿童的目的",
+      "英文名称": "Identifying At-Risk Children Purpose",
+      "来源": "Can an Algorithm Tell When Kids Are in Danger?"
+    },
+    "Consequence": {
+      "id": "UnjustChildRemoval",
+      "中文名称": "不公正儿童移除后果",
+      "英文名称": "Unjust Child Removal Consequence",
+      "来源": "Illinois Ends Child Abuse Prediction Program"
+    },
+    "Impact": {
+      "id": "FamilyDisruption",
+      "中文名称": "家庭破裂的影响",
+      "英文名称": "Family Disruption Impact",
+      "来源": "Illinois child welfare to end use of predictive program"
+    },
+    "RiskSource": {
+      "id": "BiasedHistoricalData",
+      "中文名称": "有偏见的历史数据风险源",
+      "英文名称": "Biased Historical Data Risk Source",
+      "来源": "Can an Algorithm Tell When Kids Are in Danger?"
+    }
+  }
+}

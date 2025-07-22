@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdobeFirefly rdf:type airo:AISystem ;
+    rdfs:label "Adobe Firefly"@en ;
+    rdfs:label "Adobe Firefly"@zh ;
+    airo:hasRisk ex:HistoricalInaccuracyRisk ;
+    airo:hasAICapability ex:ImageGenerationCapability ;
+    airo:hasStakeholder ex:Adobe ;
+    airo:hasPurpose ex:CreativeImageGeneration ;
+    airo:isAppliedWithinDomain ex:CreativeDesign ;
+    airo:usesTechnique ex:GenerativeAdversarialNetwork .
+
+ex:HistoricalInaccuracyRisk rdf:type airo:Risk ;
+    rdfs:label "Historical Inaccuracy Risk"@en ;
+    rdfs:label "历史不准确风险"@zh ;
+    airo:hasConsequence ex:MisrepresentationOfHistoricalFigures ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:MisrepresentationOfHistoricalFigures rdf:type airo:Consequence ;
+    rdfs:label "Misrepresentation of Historical Figures Consequence"@en ;
+    rdfs:label "历史人物错误表征后果"@zh ;
+    airo:hasImpact ex:CulturalMisrepresentationImpact .
+
+ex:ImageGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Image Generation Capability"@en ;
+    rdfs:label "图像生成能力"@zh .
+
+ex:Adobe rdf:type airo:Stakeholder ;
+    rdfs:label "Adobe"@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:CulturalMisrepresentationImpact rdf:type airo:Impact ;
+    rdfs:label "Cultural Misrepresentation Impact"@en ;
+    rdfs:label "文化错误表征影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Adobe .
+
+ex:CreativeImageGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Image Generation Purpose"@en ;
+    rdfs:label "创意图像生成目的"@zh .
+
+ex:CreativeDesign rdf:type airo:Domain ;
+    rdfs:label "Creative Design Domain"@en ;
+    rdfs:label "创意设计领域"@zh .
+
+ex:GenerativeAdversarialNetwork rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Network Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxiSystem",
+      "中文名称": "Cruise自动驾驶出租车系统",
+      "英文名称": "Cruise Robotaxi System",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Risk": {
+      "id": "EmergencyResponseInterferenceRisk",
+      "中文名称": "干扰应急响应风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "San Francisco police back the fire chief's complaint about robotaxis interfering with first responders"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "San Francisco police back the fire chief's complaint"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "robotaxis interfering with first responders"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "robotaxis operating in urban environment"
+    },
+    "Consequence": {
+      "id": "EmergencyServiceDisruption",
+      "中文名称": "紧急服务中断后果",
+      "英文名称": "Emergency Service Disruption Consequence",
+      "来源": "interfering with first responders"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleBehavior",
+      "中文名称": "自动驾驶车辆行为风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "robotaxis interfering with first responders"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseRobotaxiSystem",
+      "中文名称": "Cruise自动驾驶出租车系统",
+      "英文名称": "Cruise Robotaxi System",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Risk": {
+      "id": "EmergencyResponseInterferenceRisk",
+      "中文名称": "干扰应急响应风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "San Francisco police back the fire chief's complaint about robotaxis interfering with first responders"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "San Francisco police back the fire chief's complaint"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "robotaxis interfering with first responders"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "robotaxis operating in urban environment"
+    },
+    "Consequence": {
+      "id": "EmergencyServiceDisruption",
+      "中文名称": "紧急服务中断后果",
+      "英文名称": "Emergency Service Disruption Consequence",
+      "来源": "interfering with first responders"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleBehavior",
+      "中文名称": "自动驾驶车辆行为风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "robotaxis interfering with first responders"
+    }
+  }
+}

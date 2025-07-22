@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Risk": {
+      "id": "InaccurateBugReportsRisk",
+      "中文名称": "不准确的漏洞报告风险",
+      "英文名称": "Inaccurate Bug Reports Risk",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Consequence": {
+      "id": "WastedResourcesOnFalseBugReports",
+      "中文名称": "浪费资源在虚假漏洞报告上的后果",
+      "英文名称": "Wasted Resources on False Bug Reports Consequence",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForBugReportGeneration",
+      "中文名称": "自然语言处理用于生成漏洞报告的能力",
+      "英文名称": "Natural Language Processing for Bug Report Generation Capability",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Stakeholder": {
+      "id": "ImmunefiPlatform",
+      "中文名称": "Immunefi平台",
+      "英文名称": "Immunefi Platform",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AISubject": {
+      "id": "BugReportRecipients",
+      "中文名称": "漏洞报告接收者",
+      "英文名称": "Bug Report Recipients",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Impact": {
+      "id": "ReducedTrustInAutomatedBugReporting",
+      "中文名称": "降低对自动化漏洞报告的信任的影响",
+      "英文名称": "Automated Reporting Trust Reduction",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Purpose": {
+      "id": "AutomatedBugReportGeneration",
+      "中文名称": "自动化漏洞报告生成的目的",
+      "英文名称": "Automated Bug Report Generation Purpose",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AITechnique": {
+      "id": "GenerativePreTrainedTransformer",
+      "中文名称": "生成式预训练变换器技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Vulnerability": {
+      "id": "LackOfTechnicalVerificationInGeneratedReports",
+      "中文名称": "生成报告中缺乏技术验证的脆弱性",
+      "英文名称": "Lack of Technical Verification in Generated Reports Vulnerability",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Threat": {
+      "id": "FloodingBugReportingSystemsWithFalsePositives",
+      "中文名称": "用假阳性淹没漏洞报告系统的威胁",
+      "英文名称": "Flooding Bug Reporting Systems with False Positives Threat",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Hazard": {
+      "id": "OverconfidenceInAIReportAccuracy",
+      "中文名称": "过度相信AI报告准确性的危害",
+      "英文名称": "AI Over - trust Hazard",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIReportGeneration",
+      "中文名称": "未经验证的AI报告生成的风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAIReportGeneration",
+      "中文名称": "AI报告生成中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Risk": {
+      "id": "InaccurateBugReportsRisk",
+      "中文名称": "不准确的漏洞报告风险",
+      "英文名称": "Inaccurate Bug Reports Risk",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Consequence": {
+      "id": "WastedResourcesOnFalseBugReports",
+      "中文名称": "浪费资源在虚假漏洞报告上的后果",
+      "英文名称": "Wasted Resources on False Bug Reports Consequence",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForBugReportGeneration",
+      "中文名称": "自然语言处理用于生成漏洞报告的能力",
+      "英文名称": "Natural Language Processing for Bug Report Generation Capability",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Stakeholder": {
+      "id": "ImmunefiPlatform",
+      "中文名称": "Immunefi平台",
+      "英文名称": "Immunefi Platform",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AISubject": {
+      "id": "BugReportRecipients",
+      "中文名称": "漏洞报告接收者",
+      "英文名称": "Bug Report Recipients",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Impact": {
+      "id": "ReducedTrustInAutomatedBugReporting",
+      "中文名称": "降低对自动化漏洞报告的信任的影响",
+      "英文名称": "Automated Reporting Trust Reduction",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Purpose": {
+      "id": "AutomatedBugReportGeneration",
+      "中文名称": "自动化漏洞报告生成的目的",
+      "英文名称": "Automated Bug Report Generation Purpose",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "AITechnique": {
+      "id": "GenerativePreTrainedTransformer",
+      "中文名称": "生成式预训练变换器技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "Vulnerability": {
+      "id": "LackOfTechnicalVerificationInGeneratedReports",
+      "中文名称": "生成报告中缺乏技术验证的脆弱性",
+      "英文名称": "Lack of Technical Verification in Generated Reports Vulnerability",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Threat": {
+      "id": "FloodingBugReportingSystemsWithFalsePositives",
+      "中文名称": "用假阳性淹没漏洞报告系统的威胁",
+      "英文名称": "Flooding Bug Reporting Systems with False Positives Threat",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "Hazard": {
+      "id": "OverconfidenceInAIReportAccuracy",
+      "中文名称": "过度相信AI报告准确性的危害",
+      "英文名称": "AI Over - trust Hazard",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIReportGeneration",
+      "中文名称": "未经验证的AI报告生成的风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Crypto White Hat Platform Immunefi Banned 15 ChatGPT-Generated Bug Reports. Here's Why"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAIReportGeneration",
+      "中文名称": "AI报告生成中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "ChatGPT Can Do a Lot, but It Can’t Help You With White Hat Reports"
+    }
+  }
+}

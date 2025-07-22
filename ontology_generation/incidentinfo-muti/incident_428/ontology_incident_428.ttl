@@ -1,0 +1,94 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleMisuseRisk ;
+    airo:hasPurpose ex:DriverAssistanceSystem ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning ;
+    airo:hasStakeholder ex:GermanTrafficPolice ;
+    airo:hasAISubject ex:TeslaDriver ;
+    airo:isDevelopedBy ex:TeslaInc .
+
+ex:AutonomousVehicleMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶汽车滥用风险"@zh ;
+    rdfs:label "Autonomous Vehicle Misuse Risk"@en ;
+    airo:hasConsequence ex:PoliceChaseOnAutobahn ;
+    airo:isRiskSourceFor ex:DriverNegligence ;
+    airo:isRiskSourceFor ex:ImproperUseOfAutonomousFeatures ;
+    airo:isRiskSourceFor ex:UnattendedVehicleOperation .
+
+ex:DriverSleepingWhileAutopilotEngaged rdf:type airo:Misuse ;
+    rdfs:label "驾驶员在自动驾驶开启时睡觉"@zh ;
+    rdfs:label "Driver Sleeping While Autopilot Engaged"@en ;
+    airo:hasRisk ex:AutonomousVehicleMisuseRisk .
+
+ex:PoliceChaseOnAutobahn rdf:type airo:Consequence ;
+    rdfs:label "高速公路警车追逐"@zh ;
+    rdfs:label "Police Chase on Autobahn"@en ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:GermanTrafficPolice rdf:type airo:Stakeholder ;
+    rdfs:label "德国交通警察"@zh ;
+    rdfs:label "German Traffic Police"@en ;
+    airo:hasImpactOnStakeholder ex:PublicSafetyThreat .
+
+ex:TeslaDriver rdf:type airo:AISubject ;
+    rdfs:label "特斯拉驾驶员"@zh ;
+    rdfs:label "Tesla Driver"@en .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共安全威胁"@zh ;
+    rdfs:label "Public Safety Threat"@en .
+
+ex:DriverAssistanceSystem rdf:type airo:Purpose ;
+    rdfs:label "驾驶辅助系统"@zh ;
+    rdfs:label "Driver Assistance System"@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业"@zh ;
+    rdfs:label "Automotive Industry"@en .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "计算机视觉与机器学习"@zh ;
+    rdfs:label "Computer Vision and Machine Learning"@en .
+
+ex:HumanRelianceOnAutonomousSystems rdf:type airo:Vulnerability ;
+    rdfs:label "人类对自动驾驶系统的依赖"@zh ;
+    rdfs:label "Human Reliance on Autonomous Systems"@en ;
+    airo:isRiskSourceFor ex:DriverNegligence .
+
+ex:ImproperUseOfAutonomousFeatures rdf:type airo:Threat ;
+    rdfs:label "自动驾驶功能不当使用"@zh ;
+    rdfs:label "Improper Use of Autonomous Features"@en ;
+    airo:isRiskSourceFor ex:AutonomousVehicleMisuseRisk .
+
+ex:UnattendedVehicleOperation rdf:type airo:Hazard ;
+    rdfs:label "无人监管的车辆操作"@zh ;
+    rdfs:label "Unattended Vehicle Operation"@en ;
+    airo:isRiskSourceFor ex:AutonomousVehicleMisuseRisk .
+
+ex:DriverNegligence rdf:type airo:RiskSource ;
+    rdfs:label "驾驶员疏忽"@zh ;
+    rdfs:label "Driver Negligence"@en ;
+    airo:isRiskSourceFor ex:AutonomousVehicleMisuseRisk .
+
+ex:AutonomousVehicleSafetyConcerns rdf:type airo:RiskConcept ;
+    rdfs:label "自动驾驶汽车安全问题"@zh ;
+    rdfs:label "Autonomous Vehicle Safety Concerns"@en ;
+    airo:hasRisk ex:AutonomousVehicleMisuseRisk .

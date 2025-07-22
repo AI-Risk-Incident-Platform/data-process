@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYPDRobotDog",
+      "中文名称": "纽约警察局机器狗",
+      "英文名称": "NYPD Robot Dog",
+      "来源": "N.Y.P.D. Robot Dog’s Run Is Cut Short After Fierce Backlash"
+    },
+    "Risk": {
+      "id": "PublicBacklashRisk",
+      "中文名称": "公众强烈反对风险",
+      "英文名称": "Public Backlash Risk",
+      "来源": "N.Y.P.D. Robot Dog’s Run Is Cut Short After Fierce Backlash"
+    },
+    "Stakeholder": {
+      "id": "NewYorkPoliceDepartment",
+      "中文名称": "纽约警察局",
+      "英文名称": "New York Police Department",
+      "来源": "N.Y.P.D. Robot Dog"
+    },
+    "Impact": {
+      "id": "EarlyTerminationOfDeployment",
+      "中文名称": "部署提前终止的影响",
+      "英文名称": "Early Termination of Deployment Impact",
+      "来源": "Run Is Cut Short"
+    },
+    "RiskSource": {
+      "id": "PublicConcernsOverSurveillance",
+      "中文名称": "公众对监控的担忧风险源",
+      "英文名称": "Public Concerns Over Surveillance Risk Source",
+      "来源": "Fierce Backlash"
+    }
+  }
+}

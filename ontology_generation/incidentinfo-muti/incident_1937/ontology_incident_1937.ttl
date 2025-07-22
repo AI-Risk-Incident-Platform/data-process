@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:CelebrityVoiceMisuseRisk ;
+    airo:isDevelopedBy ex:VoiceCloningStartup ;
+    airo:hasStakeholder ex:4ChanUsers ;
+    airo:hasImpactOnEntity ex:CelebrityReputationDamage .
+
+ex:CelebrityVoiceMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Celebrity Voice Misuse Risk"@en ;
+    rdfs:label "名人语音滥用风险"@zh ;
+    airo:hasConsequence ex:OffensiveContentCreation ;
+    airo:isRiskSourceFor ex:AnonymousOnlineCommunities ;
+    airo:hasRiskControl ex:ExtraSafeguardsImplementation ;
+    airo:hasRisk ex:CelebrityVoiceDeepfakeAbuse .
+
+ex:4ChanUsers rdf:type airo:Stakeholder ;
+    rdfs:label "4Chan Users"@en ;
+    rdfs:label "4Chan用户"@zh .
+
+ex:VoiceCloningStartup rdf:type airo:AIOperator ;
+    rdfs:label "Voice Cloning Startup"@en ;
+    rdfs:label "语音克隆初创公司"@zh .
+
+ex:OffensiveContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Offensive Content Creation Consequence"@en ;
+    rdfs:label "冒犯性内容创作后果"@zh ;
+    airo:hasImpact ex:CelebrityReputationDamage .
+
+ex:CelebrityReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Celebrity Reputation Damage Impact"@en ;
+    rdfs:label "名人声誉损害影响"@zh .
+
+ex:AnonymousOnlineCommunities rdf:type airo:RiskSource ;
+    rdfs:label "Anonymous Online Communities Risk Source"@en ;
+    rdfs:label "匿名在线社区风险源"@zh .
+
+ex:CelebrityVoiceDeepfakeAbuse rdf:type airo:Misuse ;
+    rdfs:label "Celebrity Voice Deepfake Abuse"@en ;
+    rdfs:label "名人语音深度伪造滥用"@zh .
+
+ex:ExtraSafeguardsImplementation rdf:type airo:RiskControl ;
+    rdfs:label "Extra Safeguards Implementation"@en ;
+    rdfs:label "额外保障措施实施"@zh .

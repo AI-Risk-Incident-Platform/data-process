@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IBMWatsonForOncology",
+      "中文名称": "IBM Watson肿瘤治疗系统",
+      "英文名称": "IBM Watson for Oncology System",
+      "来源": "IBM Watson delivered 'unsafe and inaccurate' cancer recommendations"
+    },
+    "Risk": {
+      "id": "UnsafeCancerTreatmentRecommendationsRisk",
+      "中文名称": "不安全癌症治疗建议风险",
+      "英文名称": "Unsafe Cancer Treatment Recommendations Risk",
+      "来源": "IBM Watson supercomputer recommended 'unsafe and incorrect' cancer treatments"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToCancerPatients",
+      "中文名称": "对癌症患者的潜在伤害后果",
+      "英文名称": "Potential Harm to Cancer Patients Consequence",
+      "来源": "delivered 'unsafe and inaccurate' cancer recommendations"
+    },
+    "AICapability": {
+      "id": "CancerTreatmentRecommendationCapability",
+      "中文名称": "癌症治疗建议能力",
+      "英文名称": "Cancer Treatment Recommendation Capability",
+      "来源": "recommended cancer treatments"
+    },
+    "AIOperator": {
+      "id": "IBM",
+      "中文名称": "IBM公司",
+      "英文名称": "IBM Corporation",
+      "来源": "IBM Watson"
+    },
+    "Stakeholder": {
+      "id": "CancerPatients",
+      "中文名称": "癌症患者",
+      "英文名称": "Cancer Patients",
+      "来源": "cancer treatments"
+    },
+    "Impact": {
+      "id": "PatientSafetyCompromise",
+      "中文名称": "患者安全受损影响",
+      "英文名称": "Patient Safety Compromise Impact",
+      "来源": "unsafe and incorrect' cancer treatments"
+    },
+    "Purpose": {
+      "id": "AssistingOncologistsInTreatmentDecisions",
+      "中文名称": "辅助肿瘤学家治疗决策目的",
+      "英文名称": "Assisting Oncologists in Treatment Decisions Purpose",
+      "来源": "cancer treatment recommendations"
+    },
+    "Domain": {
+      "id": "MedicalOncology",
+      "中文名称": "医学肿瘤学领域",
+      "英文名称": "Medical Oncology Domain",
+      "来源": "cancer treatments"
+    },
+    "RiskSource": {
+      "id": "InaccurateTrainingData",
+      "中文名称": "不准确训练数据风险源",
+      "英文名称": "Inaccurate Training Data Risk Source",
+      "来源": "unsafe and inaccurate' recommendations"
+    }
+  }
+}

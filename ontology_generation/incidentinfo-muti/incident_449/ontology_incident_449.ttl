@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:InaccurateBugReportsRisk ;
+    airo:hasAICapability ex:NaturalLanguageProcessingForBugReportGeneration ;
+    airo:hasPurpose ex:AutomatedBugReportGeneration ;
+    airo:isAppliedWithinDomain ex:Cybersecurity ;
+    airo:usesTechnique ex:GenerativePreTrainedTransformer ;
+    airo:hasAISubject ex:BugReportRecipients ;
+    airo:hasStakeholder ex:ImmunefiPlatform .
+
+ex:InaccurateBugReportsRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Bug Reports Risk"@en ;
+    rdfs:label "不准确的漏洞报告风险"@zh ;
+    airo:hasConsequence ex:WastedResourcesOnFalseBugReports ;
+    airo:isRiskSourceFor ex:UnverifiedAIReportGeneration .
+
+ex:WastedResourcesOnFalseBugReports rdf:type airo:Consequence ;
+    rdfs:label "Wasted Resources on False Bug Reports Consequence"@en ;
+    rdfs:label "浪费资源在虚假漏洞报告上的后果"@zh ;
+    airo:hasImpact ex:ReducedTrustInAutomatedBugReporting .
+
+ex:NaturalLanguageProcessingForBugReportGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Bug Report Generation Capability"@en ;
+    rdfs:label "自然语言处理用于生成漏洞报告的能力"@zh .
+
+ex:ImmunefiPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "Immunefi Platform"@en ;
+    rdfs:label "Immunefi平台"@zh .
+
+ex:BugReportRecipients rdf:type airo:AISubject ;
+    rdfs:label "Bug Report Recipients"@en ;
+    rdfs:label "漏洞报告接收者"@zh .
+
+ex:ReducedTrustInAutomatedBugReporting rdf:type airo:Impact ;
+    rdfs:label "Reduced Trust in Automated Bug Reporting Impact"@en ;
+    rdfs:label "降低对自动化漏洞报告的信任的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ImmunefiPlatform .
+
+ex:AutomatedBugReportGeneration rdf:type airo:Purpose ;
+    rdfs:label "Automated Bug Report Generation Purpose"@en ;
+    rdfs:label "自动化漏洞报告生成的目的"@zh .
+
+ex:Cybersecurity rdf:type airo:Domain ;
+    rdfs:label "Cybersecurity"@en ;
+    rdfs:label "网络安全领域"@zh .
+
+ex:GenerativePreTrainedTransformer rdf:type airo:AITechnique ;
+    rdfs:label "Generative Pre-trained Transformer Technique"@en ;
+    rdfs:label "生成式预训练变换器技术"@zh .
+
+ex:UnverifiedAIReportGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI Report Generation Risk Source"@en ;
+    rdfs:label "未经验证的AI报告生成的风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfTechnicalVerificationInGeneratedReports ;
+    airo:hasHazard ex:OverconfidenceInAIReportAccuracy ;
+    airo:hasThreat ex:FloodingBugReportingSystemsWithFalsePositives .
+
+ex:LackOfTechnicalVerificationInGeneratedReports rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Technical Verification in Generated Reports Vulnerability"@en ;
+    rdfs:label "生成报告中缺乏技术验证的脆弱性"@zh .
+
+ex:OverconfidenceInAIReportAccuracy rdf:type airo:Hazard ;
+    rdfs:label "Overconfidence in AI Report Accuracy Hazard"@en ;
+    rdfs:label "过度相信AI报告准确性的危害"@zh .
+
+ex:FloodingBugReportingSystemsWithFalsePositives rdf:type airo:Threat ;
+    rdfs:label "Flooding Bug Reporting Systems with False Positives Threat"@en ;
+    rdfs:label "用假阳性淹没漏洞报告系统的威胁"@zh .
+
+ex:EthicalChallengesInAIReportGeneration rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in AI Report Generation Risk Concept"@en ;
+    rdfs:label "AI报告生成中的伦理挑战"@zh ;
+    airo:isRelatedToRisk ex:InaccurateBugReportsRisk .

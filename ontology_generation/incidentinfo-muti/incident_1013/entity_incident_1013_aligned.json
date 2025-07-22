@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIImageGenerator",
+      "中文名称": "OpenAI图像生成器",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI's New Image Generator Is Incredible for Creating Fraudulent Documents"
+    },
+    "Risk": {
+      "id": "FraudulentDocumentCreationRisk",
+      "中文名称": "伪造文件创建风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "Is Incredible for Creating Fraudulent Documents"
+    },
+    "RiskSource": {
+      "id": "HighFidelityImageGenerationCapability",
+      "中文名称": "高保真图像生成能力",
+      "英文名称": "High-Fidelity Image Generation Capability",
+      "来源": "OpenAI's New Image Generator Is Incredible"
+    },
+    "Consequence": {
+      "id": "DocumentFraud",
+      "中文名称": "文件欺诈后果",
+      "英文名称": "Document Fraud Consequence",
+      "来源": "Creating Fraudulent Documents"
+    },
+    "AICapability": {
+      "id": "RealisticImageGeneration",
+      "中文名称": "逼真图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "OpenAI's New Image Generator Is Incredible"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's New Image Generator"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Image Generator"
+    },
+    "Domain": {
+      "id": "DigitalContentCreation",
+      "中文名称": "数字内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "Creating Fraudulent Documents"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIImageGenerator",
+      "中文名称": "OpenAI图像生成器",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI's New Image Generator Is Incredible for Creating Fraudulent Documents"
+    },
+    "Risk": {
+      "id": "FraudulentDocumentCreationRisk",
+      "中文名称": "伪造文件创建风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "Is Incredible for Creating Fraudulent Documents"
+    },
+    "RiskSource": {
+      "id": "HighFidelityImageGenerationCapability",
+      "中文名称": "高保真图像生成能力",
+      "英文名称": "High-Fidelity Image Generation Capability",
+      "来源": "OpenAI's New Image Generator Is Incredible"
+    },
+    "Consequence": {
+      "id": "DocumentFraud",
+      "中文名称": "文件欺诈后果",
+      "英文名称": "Document Fraud Consequence",
+      "来源": "Creating Fraudulent Documents"
+    },
+    "AICapability": {
+      "id": "RealisticImageGeneration",
+      "中文名称": "逼真图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "OpenAI's New Image Generator Is Incredible"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's New Image Generator"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Image Generator"
+    },
+    "Domain": {
+      "id": "DigitalContentCreation",
+      "中文名称": "数字内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "Creating Fraudulent Documents"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForImpersonation",
+      "中文名称": "用于冒充的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Risk": {
+      "id": "BusinessImpersonationRisk",
+      "中文名称": "商业冒充风险",
+      "英文名称": "Corporate Impersonation Risk",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Stakeholder": {
+      "id": "SmallBusinesses",
+      "中文名称": "小型企业",
+      "英文名称": "Small Businesses",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "AICapability": {
+      "id": "IdentityImpersonation",
+      "中文名称": "身份冒充能力",
+      "英文名称": "Identity Impersonation Capability",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Impact": {
+      "id": "EconomicLossForBusinesses",
+      "中文名称": "企业经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "RiskSource": {
+      "id": "MaliciousAIUse",
+      "中文名称": "恶意使用AI风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForImpersonation",
+      "中文名称": "用于冒充的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Risk": {
+      "id": "BusinessImpersonationRisk",
+      "中文名称": "商业冒充风险",
+      "英文名称": "Corporate Impersonation Risk",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Stakeholder": {
+      "id": "SmallBusinesses",
+      "中文名称": "小型企业",
+      "英文名称": "Small Businesses",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "AICapability": {
+      "id": "IdentityImpersonation",
+      "中文名称": "身份冒充能力",
+      "英文名称": "Identity Impersonation Capability",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "Impact": {
+      "id": "EconomicLossForBusinesses",
+      "中文名称": "企业经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    },
+    "RiskSource": {
+      "id": "MaliciousAIUse",
+      "中文名称": "恶意使用AI风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers' New Way of Targeting Small Businesses: Impersonating Them"
+    }
+  }
+}

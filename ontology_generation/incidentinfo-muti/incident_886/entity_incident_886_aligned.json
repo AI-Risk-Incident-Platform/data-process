@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VirtualKidnappingScamSystem",
+      "中文名称": "虚拟绑架诈骗系统",
+      "英文名称": "Virtual Kidnapping Scam System",
+      "来源": "标题中提到的'Virtual kidnapping scam'"
+    },
+    "Risk": {
+      "id": "ParentalExtortionRisk",
+      "中文名称": "父母敲诈风险",
+      "英文名称": "Parental Extortion Risk",
+      "来源": "标题中提到的'kidnapping scam targeting parents'"
+    },
+    "Stakeholder": {
+      "id": "ParentsInWestchesterCounty",
+      "中文名称": "威彻斯特县父母",
+      "英文名称": "Parents in Westchester County",
+      "来源": "标题中提到的'parents in Westchester County'"
+    },
+    "Domain": {
+      "id": "SchoolDistrictSecurity",
+      "中文名称": "学区安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "标题中提到的'Peekskill school district'"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "虚拟绑架诈骗对父母造成的心理影响"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VirtualKidnappingScamSystem",
+      "中文名称": "虚拟绑架诈骗系统",
+      "英文名称": "Virtual Kidnapping Scam System",
+      "来源": "标题中提到的'Virtual kidnapping scam'"
+    },
+    "Risk": {
+      "id": "ParentalExtortionRisk",
+      "中文名称": "父母敲诈风险",
+      "英文名称": "Parental Extortion Risk",
+      "来源": "标题中提到的'kidnapping scam targeting parents'"
+    },
+    "Stakeholder": {
+      "id": "ParentsInWestchesterCounty",
+      "中文名称": "威彻斯特县父母",
+      "英文名称": "Parents in Westchester County",
+      "来源": "标题中提到的'parents in Westchester County'"
+    },
+    "Domain": {
+      "id": "SchoolDistrictSecurity",
+      "中文名称": "学区安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "标题中提到的'Peekskill school district'"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "虚拟绑架诈骗对父母造成的心理影响"
+    }
+  }
+}

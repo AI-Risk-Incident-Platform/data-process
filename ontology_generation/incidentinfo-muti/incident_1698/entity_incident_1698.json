@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWeaponScanner",
+      "中文名称": "AI武器扫描仪",
+      "英文名称": "AI Weapon Scanner",
+      "来源": "AI scanner used in hundreds of US schools misses knives"
+    },
+    "Risk": {
+      "id": "SecurityFailureRisk",
+      "中文名称": "安全失效风险",
+      "英文名称": "Security Failure Risk",
+      "来源": "AI scanner used to detect weapons in hundreds of US schools 'fails to find knives'"
+    },
+    "Consequence": {
+      "id": "SchoolSecurityCompromise",
+      "中文名称": "学校安全受损后果",
+      "英文名称": "School Security Compromise Consequence",
+      "来源": "AI weapon scanner fails in school knife attack raising security concerns"
+    },
+    "Domain": {
+      "id": "EducationSecurity",
+      "中文名称": "教育安全领域",
+      "英文名称": "Education Security Domain",
+      "来源": "used in hundreds of US schools"
+    },
+    "Purpose": {
+      "id": "WeaponDetection",
+      "中文名称": "武器检测目的",
+      "英文名称": "Weapon Detection Purpose",
+      "来源": "AI scanner used to detect weapons"
+    },
+    "AICapability": {
+      "id": "ObjectRecognition",
+      "中文名称": "物体识别能力",
+      "英文名称": "Object Recognition Capability",
+      "来源": "scanner used to detect weapons"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "raising security concerns"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicLimitations",
+      "中文名称": "算法限制风险源",
+      "英文名称": "Algorithmic Limitations Risk Source",
+      "来源": "fails to find knives"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministrations",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Administrations",
+      "来源": "used in hundreds of US schools"
+    }
+  }
+}

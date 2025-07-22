@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "LiP presents false citations to court after asking ChatGPT"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misinformation Risk",
+      "来源": "Australian lawyer caught using ChatGPT filed court documents referencing ‘non-existent’ cases"
+    },
+    "Consequence": {
+      "id": "FalseLegalCitations",
+      "中文名称": "虚假法律引用后果",
+      "英文名称": "False Legal Citations Consequence",
+      "来源": "LiP presents false citations to court after asking ChatGPT"
+    },
+    "AICapability": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text Generation Capability",
+      "来源": "Please, Please Stop Using ChatGPT If You’re Not Checking Cites"
+    },
+    "Stakeholder": {
+      "id": "LegalProfessionals",
+      "中文名称": "法律专业人士",
+      "英文名称": "Legal Professionals",
+      "来源": "Australian lawyer caught using ChatGPT filed court documents referencing ‘non-existent’ cases"
+    },
+    "Impact": {
+      "id": "JudicialSystemIntegrityCompromise",
+      "中文名称": "司法系统完整性受损影响",
+      "英文名称": "Judicial System Integrity Compromise Impact",
+      "来源": "LiP presents false citations to court after asking ChatGPT"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Research Assistance Purpose",
+      "来源": "Please, Please Stop Using ChatGPT If You’re Not Checking Cites"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal Services Domain",
+      "来源": "Australian lawyer caught using ChatGPT filed court documents referencing ‘non-existent’ cases"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIOutputs",
+      "中文名称": "未经验证的AI输出风险源",
+      "英文名称": "Unverified AI Outputs Risk Source",
+      "来源": "Please, Please Stop Using ChatGPT If You’re Not Checking Cites"
+    },
+    "Vulnerability": {
+      "id": "OverrelianceOnAIWithoutVerification",
+      "中文名称": "未经核实的AI过度依赖脆弱性",
+      "英文名称": "Overreliance on AI Without Verification Vulnerability",
+      "来源": "Australian lawyer caught using ChatGPT filed court documents referencing ‘non-existent’ cases"
+    }
+  }
+}

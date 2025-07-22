@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TaxDepartmentFacialRecognitionSystem",
+      "中文名称": "税务部门人脸识别系统",
+      "英文名称": "Tax Department Facial Recognition System",
+      "来源": "Pair accused of turning photos into vids to crack tax dept facial recognition system in China"
+    },
+    "Risk": {
+      "id": "FacialRecognitionSystemCrackingRisk",
+      "中文名称": "人脸识别系统破解风险",
+      "英文名称": "Facial Recognition System Cracking Risk",
+      "来源": "“人脸识别破解术”成黑产业，护“脸”亟须查缺补漏"
+    },
+    "RiskSource": {
+      "id": "PhotoToVideoConversionTechnique",
+      "中文名称": "照片转视频技术",
+      "英文名称": "Photo to Video Conversion Technique",
+      "来源": "Pair accused of turning photos into vids to crack tax dept facial recognition system in China"
+    },
+    "Stakeholder": {
+      "id": "TaxDepartment",
+      "中文名称": "税务部门",
+      "英文名称": "Tax Department",
+      "来源": "Pair accused of turning photos into vids to crack tax dept facial recognition system in China"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "“人脸识别破解术”成黑产业，护“脸”亟须查缺补漏"
+    },
+    "Consequence": {
+      "id": "SystemSecurityBreach",
+      "中文名称": "系统安全漏洞后果",
+      "英文名称": "System Security Breach Consequence",
+      "来源": "“人脸识别破解术”成黑产业，护“脸”亟须查缺补漏"
+    }
+  }
+}

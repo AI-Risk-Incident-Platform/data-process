@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakePornographyGenerationAI rdf:type airo:AISystem ;
+    rdfs:label "Fake Pornography Generation AI"@en ;
+    rdfs:label "伪造色情内容生成AI"@zh ;
+    airo:hasRisk ex:ReputationHarmRisk ;
+    airo:hasAISubject ex:FemalePoliticians ;
+    airo:usesTechnique ex:DeepfakeTechnology .
+
+ex:ReputationHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Reputation Harm Risk"@en ;
+    rdfs:label "名誉损害风险"@zh ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation ;
+    airo:hasImpact ex:PersonalReputationDamage .
+
+ex:FemalePoliticians rdf:type airo:AISubject ;
+    rdfs:label "Female Politicians"@en ;
+    rdfs:label "女性政治家"@zh .
+
+ex:PersonalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Personal Reputation Damage"@en ;
+    rdfs:label "个人名誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:FemalePoliticians .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creation"@en ;
+    rdfs:label "恶意内容创作"@zh .

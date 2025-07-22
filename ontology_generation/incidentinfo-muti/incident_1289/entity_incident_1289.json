@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DutchLanguageAIDataset",
+      "中文名称": "荷兰语AI数据集",
+      "英文名称": "Dutch Language AI Dataset",
+      "来源": "Copyright group takes down Dutch language AI dataset"
+    },
+    "Risk": {
+      "id": "IllegalUseOfCopyrightedDataRisk",
+      "中文名称": "非法使用版权数据风险",
+      "英文名称": "Illegal Use of Copyrighted Data Risk",
+      "来源": "Dutch foundation takes down dataset illegally used for training AI"
+    },
+    "Stakeholder": {
+      "id": "CopyrightGroup",
+      "中文名称": "版权组织",
+      "英文名称": "Copyright Group",
+      "来源": "Copyright group takes down Dutch language AI dataset"
+    },
+    "AIOperator": {
+      "id": "DutchFoundation",
+      "中文名称": "荷兰基金会",
+      "英文名称": "Dutch Foundation",
+      "来源": "Dutch foundation takes down dataset illegally used for training AI"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "Dutch foundation takes down dataset illegally used for training AI"
+    },
+    "Consequence": {
+      "id": "DatasetRemoval",
+      "中文名称": "数据集下架",
+      "英文名称": "Dataset Removal",
+      "来源": "Dutch foundation takes down dataset illegally used for training AI"
+    }
+  }
+}

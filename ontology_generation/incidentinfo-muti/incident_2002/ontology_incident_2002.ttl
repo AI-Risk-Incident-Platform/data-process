@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MaskedFaceNetDataset rdf:type airo:AISystem ;
+    rdfs:label "MaskedFace-Net Dataset"@en ;
+    rdfs:label "MaskedFace-Net数据集"@zh ;
+    airo:hasRisk ex:PrivacyRiskFromFacialData ;
+    airo:usesTechnique ex:DeepLearningForFaceMaskDetection ;
+    airo:hasPurpose ex:COVID19PandemicResponse ;
+    airo:isAppliedWithinDomain ex:PublicHealthMonitoring .
+
+ex:PrivacyRiskFromFacialData rdf:type airo:Risk ;
+    rdfs:label "Privacy Risk from Facial Data"@en ;
+    rdfs:label "面部数据隐私风险"@zh .
+
+ex:DeepLearningForFaceMaskDetection rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning for Face Mask Detection Technique"@en ;
+    rdfs:label "用于口罩检测的深度学习技术"@zh .
+
+ex:COVID19PandemicResponse rdf:type airo:Purpose ;
+    rdfs:label "COVID-19 Pandemic Response Purpose"@en ;
+    rdfs:label "COVID-19疫情应对目的"@zh .
+
+ex:PublicHealthMonitoring rdf:type airo:Domain ;
+    rdfs:label "Public Health Monitoring Domain"@en ;
+    rdfs:label "公共卫生监测领域"@zh .

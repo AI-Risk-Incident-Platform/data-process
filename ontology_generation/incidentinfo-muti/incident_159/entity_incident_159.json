@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FederalPrisonerEarlyReleaseTool",
+      "中文名称": "联邦囚犯提前释放工具",
+      "英文名称": "Federal Prisoner Early Release Tool",
+      "来源": "Flaws plague a tool meant to help low-risk federal prisoners win early release"
+    },
+    "Risk": {
+      "id": "InaccurateRiskAssessmentRisk",
+      "中文名称": "风险评估不准确风险",
+      "英文名称": "Inaccurate Risk Assessment Risk",
+      "来源": "Flaws plague a tool meant to help low-risk federal prisoners win early release"
+    },
+    "AISubject": {
+      "id": "LowRiskFederalPrisoners",
+      "中文名称": "低风险联邦囚犯",
+      "英文名称": "Low-Risk Federal Prisoners",
+      "来源": "a tool meant to help low-risk federal prisoners win early release"
+    },
+    "Purpose": {
+      "id": "AssistingEarlyReleaseDecisions",
+      "中文名称": "辅助提前释放决策",
+      "英文名称": "Assisting Early Release Decisions",
+      "来源": "a tool meant to help low-risk federal prisoners win early release"
+    },
+    "Domain": {
+      "id": "CriminalJusticeSystem",
+      "中文名称": "刑事司法系统",
+      "英文名称": "Criminal Justice System",
+      "来源": "federal prisoners"
+    },
+    "Consequence": {
+      "id": "IncorrectEarlyReleaseDecisions",
+      "中文名称": "错误的提前释放决策",
+      "英文名称": "Incorrect Early Release Decisions",
+      "来源": "Flaws plague a tool meant to help low-risk federal prisoners win early release"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Public Safety Threat",
+      "来源": "Flaws plague a tool meant to help low-risk federal prisoners win early release"
+    }
+  }
+}

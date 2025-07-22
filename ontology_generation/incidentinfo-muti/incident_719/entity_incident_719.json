@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPriest",
+      "中文名称": "AI牧师",
+      "英文名称": "AI Priest",
+      "来源": "Catholic Group Defrocks AI Priest After It Gave Strange Answers"
+    },
+    "Risk": {
+      "id": "StrangeAnswersRisk",
+      "中文名称": "奇怪回答风险",
+      "英文名称": "Strange Answers Risk",
+      "来源": "After It Gave Strange Answers"
+    },
+    "Stakeholder": {
+      "id": "CatholicGroup",
+      "中文名称": "天主教团体",
+      "英文名称": "Catholic Group",
+      "来源": "Catholic Group Defrocks AI Priest"
+    },
+    "Consequence": {
+      "id": "Defrocking",
+      "中文名称": "解除职务后果",
+      "英文名称": "Defrocking Consequence",
+      "来源": "Catholic Group Defrocks AI Priest"
+    },
+    "Purpose": {
+      "id": "ReligiousGuidance",
+      "中文名称": "宗教指导目的",
+      "英文名称": "Religious Guidance Purpose",
+      "来源": "AI Priest"
+    },
+    "Domain": {
+      "id": "ReligiousServices",
+      "中文名称": "宗教服务领域",
+      "英文名称": "Religious Services Domain",
+      "来源": "AI Priest"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "Gonzalez v. Google LLC案件涉及YouTube的推荐算法"
+    },
+    "Risk": {
+      "id": "TerrorismContentPromotionRisk",
+      "中文名称": "恐怖主义内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Supreme Court To Decide Whether YouTube Can Be Sued For Abetting Terrorism"
+    },
+    "Stakeholder": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "Gonzalez v. Google LLC案件中的被告"
+    },
+    "AIOperator": {
+      "id": "YouTubePlatform",
+      "中文名称": "YouTube平台",
+      "英文名称": "YouTube",
+      "来源": "作为内容推荐算法的运营方"
+    },
+    "Consequence": {
+      "id": "TerroristRecruitmentFacilitation",
+      "中文名称": "恐怖分子招募便利化后果",
+      "英文名称": "Terrorist Recruitment Consequence",
+      "来源": "被指控通过算法推荐助长恐怖主义内容传播"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "恐怖主义内容传播对公共安全的影响"
+    },
+    "AITechnique": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法技术",
+      "英文名称": "Recommendation Algorithm",
+      "来源": "YouTube使用的核心AI技术"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicAmplificationOfExtremistContent",
+      "中文名称": "极端内容算法放大风险源",
+      "英文名称": "Algorithmic Content Amplification Risk Source",
+      "来源": "算法可能放大极端主义内容的传播"
+    },
+    "Domain": {
+      "id": "OnlineVideoPlatform",
+      "中文名称": "在线视频平台领域",
+      "英文名称": "Online Content Domain",
+      "来源": "YouTube作为在线视频平台的业务领域"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "Gonzalez v. Google LLC案件涉及YouTube的推荐算法"
+    },
+    "Risk": {
+      "id": "TerrorismContentPromotionRisk",
+      "中文名称": "恐怖主义内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Supreme Court To Decide Whether YouTube Can Be Sued For Abetting Terrorism"
+    },
+    "Stakeholder": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "Gonzalez v. Google LLC案件中的被告"
+    },
+    "AIOperator": {
+      "id": "YouTubePlatform",
+      "中文名称": "YouTube平台",
+      "英文名称": "YouTube",
+      "来源": "作为内容推荐算法的运营方"
+    },
+    "Consequence": {
+      "id": "TerroristRecruitmentFacilitation",
+      "中文名称": "恐怖分子招募便利化后果",
+      "英文名称": "Terrorist Recruitment Consequence",
+      "来源": "被指控通过算法推荐助长恐怖主义内容传播"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "恐怖主义内容传播对公共安全的影响"
+    },
+    "AITechnique": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法技术",
+      "英文名称": "Recommendation Algorithm",
+      "来源": "YouTube使用的核心AI技术"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicAmplificationOfExtremistContent",
+      "中文名称": "极端内容算法放大风险源",
+      "英文名称": "Algorithmic Content Amplification Risk Source",
+      "来源": "算法可能放大极端主义内容的传播"
+    },
+    "Domain": {
+      "id": "OnlineVideoPlatform",
+      "中文名称": "在线视频平台领域",
+      "英文名称": "Online Content Domain",
+      "来源": "YouTube作为在线视频平台的业务领域"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAIChatGPT rdf:type airo:AISystem ;
+    rdfs:label "OpenAI ChatGPT"@en ;
+    rdfs:label "OpenAI ChatGPT"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:hasStakeholder ex:CenterForInvestigativeReporting ;
+    airo:hasStakeholder ex:Microsoft ;
+    airo:isAppliedWithinDomain ex:NewsMediaIndustry .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalActionConsequence ;
+    airo:isRiskSourceFor ex:ContentScrapingWithoutPermission .
+
+ex:CenterForInvestigativeReporting rdf:type airo:Stakeholder ;
+    rdfs:label "Center for Investigative Reporting"@en ;
+    rdfs:label "调查报道中心"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:LegalActionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Consequence"@en ;
+    rdfs:label "法律诉讼后果"@zh ;
+    airo:hasImpactOnStakeholder ex:CenterForInvestigativeReporting ;
+    airo:hasImpactOnStakeholder ex:Microsoft .
+
+ex:NewsMediaIndustry rdf:type airo:Domain ;
+    rdfs:label "News Media Industry"@en ;
+    rdfs:label "新闻媒体行业"@zh .
+
+ex:ContentScrapingWithoutPermission rdf:type airo:RiskSource ;
+    rdfs:label "Content Scraping Without Permission"@en ;
+    rdfs:label "未经许可的内容抓取"@zh .

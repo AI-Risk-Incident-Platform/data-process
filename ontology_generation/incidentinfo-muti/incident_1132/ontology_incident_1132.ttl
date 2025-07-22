@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MattelAIBabysitter rdf:type airo:AISystem ;
+    rdfs:label "Mattel AI Babysitter"@en ;
+    rdfs:label "美泰AI保姆"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:ChildcareAssistance ;
+    airo:isDeployedBy ex:Mattel ;
+    airo:hasStakeholder ex:ParentsAndChildren ;
+    airo:isAppliedWithinDomain ex:ConsumerElectronics .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:ParentsAndChildren rdf:type airo:Stakeholder ;
+    rdfs:label "Parents and Children"@en ;
+    rdfs:label "父母和儿童"@zh .
+
+ex:Mattel rdf:type airo:AIOperator ;
+    rdfs:label "Mattel"@en ;
+    rdfs:label "美泰"@zh .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns"@en ;
+    rdfs:label "隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsAndChildren .
+
+ex:ChildcareAssistance rdf:type airo:Purpose ;
+    rdfs:label "Childcare Assistance"@en ;
+    rdfs:label "儿童照护辅助"@zh .
+
+ex:ConsumerElectronics rdf:type airo:Domain ;
+    rdfs:label "Consumer Electronics"@en ;
+    rdfs:label "消费电子"@zh .

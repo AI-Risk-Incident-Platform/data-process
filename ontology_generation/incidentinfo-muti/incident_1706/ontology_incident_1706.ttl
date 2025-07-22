@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedImageSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Image System"@en ;
+    rdfs:label "AI生成图像系统"@zh ;
+    airo:hasRisk ex:MisrepresentationRisk ;
+    airo:hasPurpose ex:ProtestDocumentation ;
+    airo:hasStakeholder ex:AmnestyInternational ;
+    airo:isAppliedWithinDomain ex:HumanRightsAdvocacy .
+
+ex:MisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation Risk"@en ;
+    rdfs:label "虚假呈现风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众强烈反对后果"@zh ;
+    airo:hasImpact ex:CredibilityDamage .
+
+ex:AmnestyInternational rdf:type airo:Stakeholder ;
+    rdfs:label "Amnesty International"@en ;
+    rdfs:label "国际特赦组织"@zh .
+
+ex:CredibilityDamage rdf:type airo:Impact ;
+    rdfs:label "Credibility Damage Impact"@en ;
+    rdfs:label "信誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmnestyInternational .
+
+ex:ProtestDocumentation rdf:type airo:Purpose ;
+    rdfs:label "Protest Documentation Purpose"@en ;
+    rdfs:label "抗议活动记录目的"@zh .
+
+ex:HumanRightsAdvocacy rdf:type airo:Domain ;
+    rdfs:label "Human Rights Advocacy Domain"@en ;
+    rdfs:label "人权倡导领域"@zh .

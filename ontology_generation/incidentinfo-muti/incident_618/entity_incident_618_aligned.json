@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIAndMicrosoftAI",
+      "中文名称": "OpenAI和微软AI",
+      "英文名称": "OpenAI and Microsoft AI",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "Stakeholder": {
+      "id": "NewYorkTimes",
+      "中文名称": "纽约时报",
+      "英文名称": "New York Times",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "Consequence": {
+      "id": "LegalActionAndFinancialPenalties",
+      "中文名称": "法律诉讼和财务处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Domain": {
+      "id": "MediaAndPublishing",
+      "中文名称": "媒体和出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "Purpose": {
+      "id": "AITrainingAndDevelopment",
+      "中文名称": "AI训练和开发目的",
+      "英文名称": "AI Training",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIAndMicrosoftAI",
+      "中文名称": "OpenAI和微软AI",
+      "英文名称": "OpenAI and Microsoft AI",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "Stakeholder": {
+      "id": "NewYorkTimes",
+      "中文名称": "纽约时报",
+      "英文名称": "New York Times",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "Consequence": {
+      "id": "LegalActionAndFinancialPenalties",
+      "中文名称": "法律诉讼和财务处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "New York Times sues Microsoft and OpenAI for ‘billions’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    },
+    "Domain": {
+      "id": "MediaAndPublishing",
+      "中文名称": "媒体和出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "Purpose": {
+      "id": "AITrainingAndDevelopment",
+      "中文名称": "AI训练和开发目的",
+      "英文名称": "AI Training",
+      "来源": "New York Times sues OpenAI, Microsoft for using articles to train AI"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "The Times Sues OpenAI and Microsoft Over A.I.’s Use of Copyrighted Work"
+    }
+  }
+}

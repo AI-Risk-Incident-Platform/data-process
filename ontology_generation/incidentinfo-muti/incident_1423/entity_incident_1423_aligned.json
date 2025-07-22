@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "Risk": {
+      "id": "DataMisuseRisk",
+      "中文名称": "数据滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "StackOverflowUsers",
+      "中文名称": "Stack Overflow用户",
+      "英文名称": "Stack Overflow Users",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "Consequence": {
+      "id": "ContentRemoval",
+      "中文名称": "内容移除后果",
+      "英文名称": "Content Removal Consequence",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    },
+    "Impact": {
+      "id": "CommunityTrustErosion",
+      "中文名称": "社区信任侵蚀影响",
+      "英文名称": "Community Trust Erosion Impact",
+      "来源": "Stack Overflow simply bans folks who don't want their advice used to train AI"
+    },
+    "RiskSource": {
+      "id": "LackOfUserConsent",
+      "中文名称": "缺乏用户同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "Risk": {
+      "id": "DataMisuseRisk",
+      "中文名称": "数据滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "StackOverflowUsers",
+      "中文名称": "Stack Overflow用户",
+      "英文名称": "Stack Overflow Users",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Stack Overflow users sabotage their posts after OpenAI deal"
+    },
+    "Consequence": {
+      "id": "ContentRemoval",
+      "中文名称": "内容移除后果",
+      "英文名称": "Content Removal Consequence",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    },
+    "Impact": {
+      "id": "CommunityTrustErosion",
+      "中文名称": "社区信任侵蚀影响",
+      "英文名称": "Community Trust Erosion Impact",
+      "来源": "Stack Overflow simply bans folks who don't want their advice used to train AI"
+    },
+    "RiskSource": {
+      "id": "LackOfUserConsent",
+      "中文名称": "缺乏用户同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "users banned for deleting answers to prevent them being used to train ChatGPT"
+    }
+  }
+}

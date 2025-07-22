@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepSeekAI",
+      "中文名称": "DeepSeek AI",
+      "英文名称": "DeepSeek AI",
+      "来源": "DeepSeek Data Exposure a Warning for AI Security in 2025"
+    },
+    "Risk": {
+      "id": "DataExposureRisk",
+      "中文名称": "数据暴露风险",
+      "英文名称": "Data Exposure Risk",
+      "来源": "DeepSeek Data Exposure a Warning for AI Security in 2025"
+    },
+    "Consequence": {
+      "id": "DataLeakage",
+      "中文名称": "数据泄露",
+      "英文名称": "Data Leakage",
+      "来源": "DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked"
+    },
+    "RiskSource": {
+      "id": "InsufficientSecurityMeasures",
+      "中文名称": "安全措施不足",
+      "英文名称": "Insufficient Security Measures",
+      "来源": "OWASP Warns of Growing Data Exposure Risk from AI in New Top 10 List for LLMs"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked"
+    }
+  }
+}

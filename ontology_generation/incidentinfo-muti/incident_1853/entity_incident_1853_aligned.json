@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TurnitinAIDetectionSystem",
+      "中文名称": "Turnitin AI检测系统",
+      "英文名称": "Turnitin AI Detection System",
+      "来源": "Plagiarism-sniffing Turnitin tries to find AI writing by students"
+    },
+    "Risk": {
+      "id": "FalsePositiveAIWritingDetection",
+      "中文名称": "AI写作误检风险",
+      "英文名称": "False Positive AI Writing Detection Risk",
+      "来源": "Software Schools Use to Detect Cheating Is Flagging Real Essays as AI Generated"
+    },
+    "Consequence": {
+      "id": "UnfairAcademicAccusations",
+      "中文名称": "不公正学术指控后果",
+      "英文名称": "Unfair Academic Accusations Consequence",
+      "来源": "Flagging Real Essays as AI Generated"
+    },
+    "Stakeholder": {
+      "id": "EducationalInstitutions",
+      "中文名称": "教育机构",
+      "英文名称": "Ed Institutions",
+      "来源": "Software Schools Use to Detect Cheating"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "find AI writing by students"
+    },
+    "Impact": {
+      "id": "AcademicIntegrityUndermined",
+      "中文名称": "学术诚信受损影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "Flagging Real Essays as AI Generated"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityPreservation",
+      "中文名称": "维护学术诚信目的",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Plagiarism-sniffing Turnitin tries to find AI writing by students"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Software Schools Use to Detect Cheating"
+    },
+    "RiskSource": {
+      "id": "ImperfectDetectionAlgorithms",
+      "中文名称": "不完善的检测算法风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "with mixed grades"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TurnitinAIDetectionSystem",
+      "中文名称": "Turnitin AI检测系统",
+      "英文名称": "Turnitin AI Detection System",
+      "来源": "Plagiarism-sniffing Turnitin tries to find AI writing by students"
+    },
+    "Risk": {
+      "id": "FalsePositiveAIWritingDetection",
+      "中文名称": "AI写作误检风险",
+      "英文名称": "False Positive AI Writing Detection Risk",
+      "来源": "Software Schools Use to Detect Cheating Is Flagging Real Essays as AI Generated"
+    },
+    "Consequence": {
+      "id": "UnfairAcademicAccusations",
+      "中文名称": "不公正学术指控后果",
+      "英文名称": "Unfair Academic Accusations Consequence",
+      "来源": "Flagging Real Essays as AI Generated"
+    },
+    "Stakeholder": {
+      "id": "EducationalInstitutions",
+      "中文名称": "教育机构",
+      "英文名称": "Ed Institutions",
+      "来源": "Software Schools Use to Detect Cheating"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "find AI writing by students"
+    },
+    "Impact": {
+      "id": "AcademicIntegrityUndermined",
+      "中文名称": "学术诚信受损影响",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "Flagging Real Essays as AI Generated"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityPreservation",
+      "中文名称": "维护学术诚信目的",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Plagiarism-sniffing Turnitin tries to find AI writing by students"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Software Schools Use to Detect Cheating"
+    },
+    "RiskSource": {
+      "id": "ImperfectDetectionAlgorithms",
+      "中文名称": "不完善的检测算法风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "with mixed grades"
+    }
+  }
+}

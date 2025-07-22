@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleHomeMini rdf:type airo:AISystem ;
+    rdfs:label "Google Home Mini"@en ;
+    rdfs:label "谷歌Home Mini"@zh ;
+    airo:hasRisk ex:UnauthorizedRecordingRisk ;
+    airo:hasAICapability ex:VoiceCommandProcessing ;
+    airo:isDeployedBy ex:Google ;
+    airo:hasStakeholder ex:HomeDeviceUsers ;
+    airo:hasAISubject ex:PrivateConversations ;
+    airo:hasPurpose ex:VoiceControlledAssistant ;
+    airo:isAppliedWithinDomain ex:SmartHomeDevices ;
+    airo:usesTechnique ex:VoiceRecognitionTechnology .
+
+ex:UnauthorizedRecordingRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Recording Risk"@en ;
+    rdfs:label "未经授权录音风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:FaultyTouchSensitivity .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:LossOfPersonalPrivacy .
+
+ex:VoiceCommandProcessing rdf:type airo:AICapability ;
+    rdfs:label "Voice Command Processing Capability"@en ;
+    rdfs:label "语音指令处理能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:HomeDeviceUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Home Device Users"@en ;
+    rdfs:label "家庭设备使用者"@zh .
+
+ex:PrivateConversations rdf:type airo:AISubject ;
+    rdfs:label "Private Conversations"@en ;
+    rdfs:label "私人对话"@zh .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Privacy Impact"@en ;
+    rdfs:label "个人隐私丧失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HomeDeviceUsers .
+
+ex:VoiceControlledAssistant rdf:type airo:Purpose ;
+    rdfs:label "Voice Controlled Assistant Purpose"@en ;
+    rdfs:label "语音控制助手目的"@zh .
+
+ex:SmartHomeDevices rdf:type airo:Domain ;
+    rdfs:label "Smart Home Devices Domain"@en ;
+    rdfs:label "智能家居设备领域"@zh .
+
+ex:VoiceRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Recognition Technology"@en ;
+    rdfs:label "语音识别技术"@zh .
+
+ex:FaultyTouchSensitivity rdf:type airo:RiskSource ;
+    rdfs:label "Faulty Touch Sensitivity Risk Source"@en ;
+    rdfs:label "触控灵敏度故障风险源"@zh ;
+    airo:exploitsVulnerability ex:AccidentalActivation .
+
+ex:AccidentalActivation rdf:type airo:Vulnerability ;
+    rdfs:label "Accidental Activation Vulnerability"@en ;
+    rdfs:label "意外激活漏洞"@zh .
+
+ex:ConstantSurveillance rdf:type airo:Threat ;
+    rdfs:label "Constant Surveillance Threat"@en ;
+    rdfs:label "持续监控威胁"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedRecordingRisk .
+
+ex:SensitiveDataCollection rdf:type airo:Hazard ;
+    rdfs:label "Sensitive Data Collection Hazard"@en ;
+    rdfs:label "敏感数据收集危害"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedRecordingRisk .
+
+ex:SmartDevicePrivacyConcerns rdf:type airo:RiskConcept ;
+    rdfs:label "Smart Device Privacy Concerns Risk Concept"@en ;
+    rdfs:label "智能设备隐私问题"@zh .

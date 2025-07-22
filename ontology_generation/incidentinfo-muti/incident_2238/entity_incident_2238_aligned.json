@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SepsisPredictionAlgorithm",
+      "中文名称": "败血症预测算法",
+      "英文名称": "Sepsis Prediction Algorithm",
+      "来源": "A popular algorithm to predict sepsis misses most cases and sends frequent false alarms, study finds"
+    },
+    "Risk": {
+      "id": "InaccurateSepsisPredictionRisk",
+      "中文名称": "败血症预测不准确风险",
+      "英文名称": "Medical Risk",
+      "来源": "misses most cases and sends frequent false alarms"
+    },
+    "Consequence": {
+      "id": "MissedDiagnosisOfSepsisCases",
+      "中文名称": "败血症病例漏诊后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "misses most cases"
+    },
+    "Impact": {
+      "id": "PatientSafetyThreat",
+      "中文名称": "患者安全威胁影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "predicts deadly infections is often flawed"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicInaccuracy",
+      "中文名称": "算法不准确性风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "is often flawed"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SepsisPredictionAlgorithm",
+      "中文名称": "败血症预测算法",
+      "英文名称": "Sepsis Prediction Algorithm",
+      "来源": "A popular algorithm to predict sepsis misses most cases and sends frequent false alarms, study finds"
+    },
+    "Risk": {
+      "id": "InaccurateSepsisPredictionRisk",
+      "中文名称": "败血症预测不准确风险",
+      "英文名称": "Medical Risk",
+      "来源": "misses most cases and sends frequent false alarms"
+    },
+    "Consequence": {
+      "id": "MissedDiagnosisOfSepsisCases",
+      "中文名称": "败血症病例漏诊后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "misses most cases"
+    },
+    "Impact": {
+      "id": "PatientSafetyThreat",
+      "中文名称": "患者安全威胁影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "predicts deadly infections is often flawed"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicInaccuracy",
+      "中文名称": "算法不准确性风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "is often flawed"
+    }
+  }
+}

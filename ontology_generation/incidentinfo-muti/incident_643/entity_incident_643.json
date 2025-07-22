@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Video System",
+      "来源": "Deepfake about alleged assassination attempt on Macron in Kyiv circulating on social network X"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "Deepfake about alleged assassination attempt on Macron in Kyiv circulating on social network X"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑后果",
+      "英文名称": "Public Confusion Consequence",
+      "来源": "No, France 24 did not report that Kyiv planned to 'assassinate' French President"
+    },
+    "Impact": {
+      "id": "PoliticalTension",
+      "中文名称": "政治紧张影响",
+      "英文名称": "Political Tension Impact",
+      "来源": "Deepfake about alleged assassination attempt on Macron in Kyiv circulating on social network X"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Generation Technique",
+      "来源": "Truth or Fake - FRANCE 24 journalist impersonated in new deepfake video"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatformX",
+      "中文名称": "社交媒体平台X",
+      "英文名称": "Social Media Platform X",
+      "来源": "Deepfake about alleged assassination attempt on Macron in Kyiv circulating on social network X"
+    },
+    "AISubject": {
+      "id": "PublicFigures",
+      "中文名称": "公众人物",
+      "英文名称": "Public Figures",
+      "来源": "Truth or Fake - FRANCE 24 journalist impersonated in new deepfake video"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreators",
+      "中文名称": "恶意内容创作者",
+      "英文名称": "Malicious Content Creators Risk Source",
+      "来源": "Deepfake about alleged assassination attempt on Macron in Kyiv circulating on social network X"
+    }
+  }
+}

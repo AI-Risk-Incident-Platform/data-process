@@ -1,0 +1,58 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoSelfDrivingTaxi rdf:type airo:AISystem ;
+    rdfs:label "Waymo Self-Driving Taxi"@en ;
+    rdfs:label "Waymo自动驾驶出租车"@zh ;
+    airo:hasRisk ex:CollisionRiskDueToSoftwareFlaw ;
+    airo:usesTechnique ex:ComputerVisionForAutonomousDriving ;
+    airo:isDevelopedBy ex:Waymo ;
+    airo:hasStakeholder ex:Waymo .
+
+ex:CollisionRiskDueToSoftwareFlaw rdf:type airo:Risk ;
+    rdfs:label "Collision Risk Due to Software Flaw"@en ;
+    rdfs:label "软件缺陷导致的碰撞风险"@zh ;
+    airo:hasConsequence ex:VehicleCollision ;
+    airo:isRiskSourceFor ex:SoftwareFlawInObjectRecognition .
+
+ex:VehicleCollision rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Collision Consequence"@en ;
+    rdfs:label "车辆碰撞后果"@zh ;
+    airo:hasImpact ex:DamageToVehiclesAndProperty .
+
+ex:SoftwareFlawInObjectRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Software Flaw in Object Recognition Risk Source"@en ;
+    rdfs:label "物体识别软件缺陷风险源"@zh ;
+    airo:exploitsVulnerability ex:BackwardTowingScenarioMisinterpretation .
+
+ex:Waymo rdf:type airo:AIOperator ;
+    rdfs:label "Waymo"@en ;
+    rdfs:label "Waymo公司"@zh ;
+    airo:hasRiskControl ex:SoftwareRecallAndUpdate .
+
+ex:ComputerVisionForAutonomousDriving rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Autonomous Driving Technique"@en ;
+    rdfs:label "自动驾驶计算机视觉技术"@zh .
+
+ex:BackwardTowingScenarioMisinterpretation rdf:type airo:Vulnerability ;
+    rdfs:label "Backward Towing Scenario Misinterpretation Vulnerability"@en ;
+    rdfs:label "反向拖车场景误判脆弱性"@zh .
+
+ex:SoftwareRecallAndUpdate rdf:type airo:RiskControl ;
+    rdfs:label "Software Recall and Update Risk Control"@en ;
+    rdfs:label "软件召回与更新管控"@zh ;
+    airo:mitigatesRiskConcept ex:CollisionRiskDueToSoftwareFlaw .
+
+ex:DamageToVehiclesAndProperty rdf:type airo:Impact ;
+    rdfs:label "Damage to Vehicles and Property"@en ;
+    rdfs:label "车辆和财产损坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Waymo .

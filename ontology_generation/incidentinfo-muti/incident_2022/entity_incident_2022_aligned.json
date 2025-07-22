@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemInSaoPauloMetro",
+      "中文名称": "圣保罗地铁面部识别系统",
+      "英文名称": "Sao Paulo Metro Facial Recognition System",
+      "来源": "Le tribunal ordonne la suspension de l'utilisation de la reconnaissance faciale dans le métro de Sao Paulo"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    },
+    "Stakeholder": {
+      "id": "MetroUsers",
+      "中文名称": "地铁乘客",
+      "英文名称": "Metro Users",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    },
+    "AIOperator": {
+      "id": "SaoPauloMetroAuthority",
+      "中文名称": "圣保罗地铁当局",
+      "英文名称": "Sao Paulo Metro Authority",
+      "来源": "Juíza barra implantação de sistema de reconhecimento facial no Metrô"
+    },
+    "Impact": {
+      "id": "PublicPrivacyConcerns",
+      "中文名称": "公众隐私担忧影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemInSaoPauloMetro",
+      "中文名称": "圣保罗地铁面部识别系统",
+      "英文名称": "Sao Paulo Metro Facial Recognition System",
+      "来源": "Le tribunal ordonne la suspension de l'utilisation de la reconnaissance faciale dans le métro de Sao Paulo"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    },
+    "Stakeholder": {
+      "id": "MetroUsers",
+      "中文名称": "地铁乘客",
+      "英文名称": "Metro Users",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    },
+    "AIOperator": {
+      "id": "SaoPauloMetroAuthority",
+      "中文名称": "圣保罗地铁当局",
+      "英文名称": "Sao Paulo Metro Authority",
+      "来源": "Juíza barra implantação de sistema de reconhecimento facial no Metrô"
+    },
+    "Impact": {
+      "id": "PublicPrivacyConcerns",
+      "中文名称": "公众隐私担忧影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "A identificação facial dos usuários do Metrô e o mundo distópico de George Orwell"
+    }
+  }
+}

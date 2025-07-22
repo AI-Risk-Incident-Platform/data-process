@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AISearchEngines",
+      "中文名称": "AI搜索引擎",
+      "英文名称": "AI Search Engines",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Risk": {
+      "id": "PromotingScientificRacismRisk",
+      "中文名称": "传播科学种族主义风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "Stakeholder": {
+      "id": "TechCompanies",
+      "中文名称": "科技公司",
+      "英文名称": "Tech Companies",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Consequence": {
+      "id": "SpreadOfDebunkedRaceScience",
+      "中文名称": "传播被证伪的种族科学后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "Impact": {
+      "id": "ReinforcementOfRacialStereotypes",
+      "中文名称": "强化种族刻板印象的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchResults",
+      "中文名称": "搜索结果中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "AIOperator": {
+      "id": "GoogleMicrosoftPerplexity",
+      "中文名称": "谷歌微软Perplexity",
+      "英文名称": "Tech Entities",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Domain": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AISearchEngines",
+      "中文名称": "AI搜索引擎",
+      "英文名称": "AI Search Engines",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Risk": {
+      "id": "PromotingScientificRacismRisk",
+      "中文名称": "传播科学种族主义风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "Stakeholder": {
+      "id": "TechCompanies",
+      "中文名称": "科技公司",
+      "英文名称": "Tech Companies",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Consequence": {
+      "id": "SpreadOfDebunkedRaceScience",
+      "中文名称": "传播被证伪的种族科学后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "Impact": {
+      "id": "ReinforcementOfRacialStereotypes",
+      "中文名称": "强化种族刻板印象的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchResults",
+      "中文名称": "搜索结果中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "AIOperator": {
+      "id": "GoogleMicrosoftPerplexity",
+      "中文名称": "谷歌微软Perplexity",
+      "英文名称": "Tech Entities",
+      "来源": "Google, Microsoft, and Perplexity Are Promoting Scientific Racism in Search Results"
+    },
+    "Domain": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "AI Search Engines Spreading Racist Lies? Google, Other Tech Giants Promoting Debunked Race Science"
+    }
+  }
+}

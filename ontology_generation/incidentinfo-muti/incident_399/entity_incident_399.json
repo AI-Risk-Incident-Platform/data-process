@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SchufaCreditScoringSystem",
+      "中文名称": "Schufa信用评分系统",
+      "英文名称": "Schufa Credit Scoring System",
+      "来源": "Schufa: So funktioniert Deutschlands einflussreichste Auskunftei"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInCreditScoring",
+      "中文名称": "信用评分中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Credit Scoring Risk",
+      "来源": "What a report from Germany teaches us about investigating algorithms"
+    },
+    "Stakeholder": {
+      "id": "GermanConsumers",
+      "中文名称": "德国消费者",
+      "英文名称": "German Consumers",
+      "来源": "Schufa: So funktioniert Deutschlands einflussreichste Auskunftei"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "Schufa: So funktioniert Deutschlands einflussreichste Auskunftei"
+    },
+    "AICapability": {
+      "id": "CreditworthinessPrediction",
+      "中文名称": "信用度预测能力",
+      "英文名称": "Creditworthiness Prediction Capability",
+      "来源": "Schufa: So funktioniert Deutschlands einflussreichste Auskunftei"
+    },
+    "Impact": {
+      "id": "UnfairAccessToFinancialServices",
+      "中文名称": "不公平获取金融服务的影响",
+      "英文名称": "Unfair Access to Financial Services Impact",
+      "来源": "What a report from Germany teaches us about investigating algorithms"
+    },
+    "RiskSource": {
+      "id": "OpaqueScoringAlgorithm",
+      "中文名称": "不透明的评分算法风险源",
+      "英文名称": "Opaque Scoring Algorithm Risk Source",
+      "来源": "What a report from Germany teaches us about investigating algorithms"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ComputerGeneratedPaperSystem",
+      "中文名称": "计算机生成论文系统",
+      "英文名称": "Computer Generated Paper System",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Consequence": {
+      "id": "PaperWithdrawalConsequence",
+      "中文名称": "论文撤回后果",
+      "英文名称": "Paper Withdrawal Consequence",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Stakeholder": {
+      "id": "SciencePublishers",
+      "中文名称": "科学出版商",
+      "英文名称": "Science Publishers",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成风险源",
+      "英文名称": "Automated Content Generation Risk Source",
+      "来源": "computer-generated papers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ComputerGeneratedPaperSystem",
+      "中文名称": "计算机生成论文系统",
+      "英文名称": "Computer Generated Paper System",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Consequence": {
+      "id": "PaperWithdrawalConsequence",
+      "中文名称": "论文撤回后果",
+      "英文名称": "Paper Withdrawal Consequence",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "Stakeholder": {
+      "id": "SciencePublishers",
+      "中文名称": "科学出版商",
+      "英文名称": "Science Publishers",
+      "来源": "Science publishers withdraw more than 120 computer-generated papers"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成风险源",
+      "英文名称": "Automated Content Generation Risk Source",
+      "来源": "computer-generated papers"
+    }
+  }
+}

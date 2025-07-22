@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OnlineProctoringBiometricsSystem rdf:type airo:AISystem ;
+    rdfs:label "Online Proctoring Biometrics System"@en ;
+    rdfs:label "在线监考生物识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:Students ;
+    airo:isDeployedBy ex:OnlineProctoringSoftwareProviders ;
+    airo:hasPurpose ex:AcademicIntegrityAssurance ;
+    airo:isAppliedWithinDomain ex:EducationTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:StudentPrivacyCompromise ;
+    airo:isRiskSourceFor ex:InadequateLegalFramework .
+
+ex:StudentPrivacyCompromise rdf:type airo:Consequence ;
+    rdfs:label "Student Privacy Compromise Consequence"@en ;
+    rdfs:label "学生隐私泄露后果"@zh ;
+    airo:hasImpact ex:LegalNonCompliance .
+
+ex:Students rdf:type airo:Stakeholder ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:OnlineProctoringSoftwareProviders rdf:type airo:AIOperator ;
+    rdfs:label "Online Proctoring Software Providers"@en ;
+    rdfs:label "在线监考软件提供商"@zh .
+
+ex:LegalNonCompliance rdf:type airo:Impact ;
+    rdfs:label "Legal Non-Compliance Impact"@en ;
+    rdfs:label "法律不合规影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:AcademicIntegrityAssurance rdf:type airo:Purpose ;
+    rdfs:label "Academic Integrity Assurance Purpose"@en ;
+    rdfs:label "学术诚信保障目的"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:InadequateLegalFramework rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Legal Framework Risk Source"@en ;
+    rdfs:label "法律框架不足风险源"@zh .

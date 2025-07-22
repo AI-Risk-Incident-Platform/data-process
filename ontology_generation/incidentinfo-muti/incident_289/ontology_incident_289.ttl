@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RobotVehicle rdf:type airo:AISystem ;
+    rdfs:label "Robot Vehicle"@en ;
+    rdfs:label "机器人车辆"@zh ;
+    airo:hasRisk ex:InsuranceClaimDifficultyRisk ;
+    airo:hasStakeholder ex:InsuranceCompany ;
+    airo:isDeployedBy ex:RobotVehicleOperator .
+
+ex:InsuranceClaimDifficultyRisk rdf:type airo:Risk ;
+    rdfs:label "Insurance Claim Difficulty Risk"@en ;
+    rdfs:label "保险索赔困难风险"@zh ;
+    airo:hasConsequence ex:FinancialLossForVictims .
+
+ex:InsuranceCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Insurance Company"@en ;
+    rdfs:label "保险公司"@zh .
+
+ex:FinancialLossForVictims rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss for Victims Consequence"@en ;
+    rdfs:label "受害者经济损失后果"@zh ;
+    airo:hasImpact ex:LegalComplexityInAccidentCases .
+
+ex:RobotVehicleOperator rdf:type airo:AIOperator ;
+    rdfs:label "Robot Vehicle Operator"@en ;
+    rdfs:label "机器人车辆运营商"@zh .
+
+ex:LegalComplexityInAccidentCases rdf:type airo:Impact ;
+    rdfs:label "Legal Complexity in Accident Cases Impact"@en ;
+    rdfs:label "事故案件法律复杂性影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InsuranceCompany .

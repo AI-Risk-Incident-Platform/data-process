@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICallCenterSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Call Center System"@en ;
+    rdfs:label "AI呼叫中心系统"@zh ;
+    airo:hasRisk ex:DataLeakRisk ;
+    airo:hasStakeholder ex:BusinessesUsingAICallCenters ;
+    airo:hasAISubject ex:CallCenterCustomers ;
+    airo:isAppliedWithinDomain ex:CustomerServiceIndustryDomain .
+
+ex:DataLeakRisk rdf:type airo:Risk ;
+    rdfs:label "Data Leak Risk"@en ;
+    rdfs:label "数据泄露风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:CybercriminalAttacks .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:ConsumerTrustErosion .
+
+ex:ConsumerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Consumer Trust Erosion Impact"@en ;
+    rdfs:label "消费者信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BusinessesUsingAICallCenters .
+
+ex:BusinessesUsingAICallCenters rdf:type airo:Stakeholder ;
+    rdfs:label "Businesses Using AI Call Centers"@en ;
+    rdfs:label "使用AI呼叫中心的企业"@zh .
+
+ex:CallCenterCustomers rdf:type airo:AISubject ;
+    rdfs:label "Call Center Customers"@en ;
+    rdfs:label "呼叫中心客户"@zh .
+
+ex:CybercriminalAttacks rdf:type airo:RiskSource ;
+    rdfs:label "Cybercriminal Attacks Risk Source"@en ;
+    rdfs:label "网络犯罪攻击风险源"@zh .
+
+ex:CustomerServiceIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Customer Service Industry Domain"@en ;
+    rdfs:label "客户服务行业领域"@zh .

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DriverScoringSystem",
+      "中文名称": "驾驶员评分系统",
+      "英文名称": "Driver Scoring System",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Stakeholder": {
+      "id": "CarInsuranceCompanies",
+      "中文名称": "汽车保险公司",
+      "英文名称": "Car Insurance Companies",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "AISubject": {
+      "id": "Drivers",
+      "中文名称": "驾驶员",
+      "英文名称": "Drivers",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "RiskSource": {
+      "id": "SecretDataCollection",
+      "中文名称": "秘密数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalData",
+      "中文名称": "个人数据未经授权使用",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Impact": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "Domain": {
+      "id": "AutomotiveInsurance",
+      "中文名称": "汽车保险",
+      "英文名称": "Auto Insurance",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "AITechnique": {
+      "id": "MobileAppDataCollection",
+      "中文名称": "移动应用数据收集",
+      "英文名称": "Mobile App Data Collection",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DriverScoringSystem",
+      "中文名称": "驾驶员评分系统",
+      "英文名称": "Driver Scoring System",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Stakeholder": {
+      "id": "CarInsuranceCompanies",
+      "中文名称": "汽车保险公司",
+      "英文名称": "Car Insurance Companies",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "AISubject": {
+      "id": "Drivers",
+      "中文名称": "驾驶员",
+      "英文名称": "Drivers",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "RiskSource": {
+      "id": "SecretDataCollection",
+      "中文名称": "秘密数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalData",
+      "中文名称": "个人数据未经授权使用",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "Impact": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Is Your Driving Being Secretly Scored?"
+    },
+    "Domain": {
+      "id": "AutomotiveInsurance",
+      "中文名称": "汽车保险",
+      "英文名称": "Auto Insurance",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    },
+    "AITechnique": {
+      "id": "MobileAppDataCollection",
+      "中文名称": "移动应用数据收集",
+      "英文名称": "Mobile App Data Collection",
+      "来源": "Car insurance companies secretly collecting driver data with the help of phone apps"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WazeApp",
+      "中文名称": "Waze应用",
+      "英文名称": "Waze App",
+      "来源": "Google's Waze App Blocks Wildfire Escape Route for Residents Living in the Los Gatos Hills and Historic Neighborhoods"
+    },
+    "Risk": {
+      "id": "BlockedWildfireEscapeRouteRisk",
+      "中文名称": "阻断山火逃生路线风险",
+      "英文名称": "Blocked Wildfire Escape Route Risk",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    },
+    "Consequence": {
+      "id": "IncreasedMortalityRiskDuringWildfires",
+      "中文名称": "山火期间死亡率上升后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    },
+    "AICapability": {
+      "id": "RealTimeTrafficRouting",
+      "中文名称": "实时交通路线规划能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Google's Waze App Blocks Wildfire Escape Route"
+    },
+    "Stakeholder": {
+      "id": "LosGatosResidents",
+      "中文名称": "洛斯加托斯居民",
+      "英文名称": "Los Gatos Residents",
+      "来源": "Residents Living in the Los Gatos Hills and Historic Neighborhoods"
+    },
+    "Domain": {
+      "id": "NavigationServices",
+      "中文名称": "导航服务领域",
+      "英文名称": "Navigation Services Domain",
+      "来源": "Google's Waze App"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WazeApp",
+      "中文名称": "Waze应用",
+      "英文名称": "Waze App",
+      "来源": "Google's Waze App Blocks Wildfire Escape Route for Residents Living in the Los Gatos Hills and Historic Neighborhoods"
+    },
+    "Risk": {
+      "id": "BlockedWildfireEscapeRouteRisk",
+      "中文名称": "阻断山火逃生路线风险",
+      "英文名称": "Blocked Wildfire Escape Route Risk",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    },
+    "Consequence": {
+      "id": "IncreasedMortalityRiskDuringWildfires",
+      "中文名称": "山火期间死亡率上升后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    },
+    "AICapability": {
+      "id": "RealTimeTrafficRouting",
+      "中文名称": "实时交通路线规划能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Google's Waze App Blocks Wildfire Escape Route"
+    },
+    "Stakeholder": {
+      "id": "LosGatosResidents",
+      "中文名称": "洛斯加托斯居民",
+      "英文名称": "Los Gatos Residents",
+      "来源": "Residents Living in the Los Gatos Hills and Historic Neighborhoods"
+    },
+    "Domain": {
+      "id": "NavigationServices",
+      "中文名称": "导航服务领域",
+      "英文名称": "Navigation Services Domain",
+      "来源": "Google's Waze App"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Waze a 'death sentence' to neighbors in the event of a wildfire"
+    }
+  }
+}

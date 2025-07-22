@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasCapability ex:RealisticVideoGeneration ;
+    airo:isDeployedBy ex:AICompany ;
+    airo:hasPurpose ex:PoliticalInfluence ;
+    airo:hasStakeholder ex:Public ;
+    airo:hasAISubject ex:PoliticalFigures ;
+    airo:isAppliedWithinDomain ex:PoliticalPropaganda ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:PublicCredulity .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PoliticalManipulation ;
+    airo:isRiskSourceFor ex:LackOfContentControl ;
+    airo:isRiskSourceFor ex:DisinformationCampaigns ;
+    airo:isRiskSourceFor ex:UnverifiedContent .
+
+ex:PoliticalManipulation rdf:type airo:Consequence ;
+    rdfs:label "Political Manipulation Consequence"@en ;
+    rdfs:label "政治操纵后果"@zh ;
+    airo:hasImpact ex:SocialUnrest .
+
+ex:RealisticVideoGeneration rdf:type airo:AICapability ;
+    rdfs:label "Realistic Video Generation Capability"@en ;
+    rdfs:label "逼真视频生成能力"@zh .
+
+ex:AICompany rdf:type airo:AIOperator ;
+    rdfs:label "AI Company"@en ;
+    rdfs:label "AI公司"@zh .
+
+ex:Public rdf:type airo:Stakeholder ;
+    rdfs:label "Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:PoliticalFigures rdf:type airo:AISubject ;
+    rdfs:label "Political Figures"@en ;
+    rdfs:label "政治人物"@zh .
+
+ex:SocialUnrest rdf:type airo:Impact ;
+    rdfs:label "Social Unrest Impact"@en ;
+    rdfs:label "社会动荡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Public .
+
+ex:PoliticalInfluence rdf:type airo:Purpose ;
+    rdfs:label "Political Influence Purpose"@en ;
+    rdfs:label "政治影响目的"@zh .
+
+ex:PoliticalPropaganda rdf:type airo:Domain ;
+    rdfs:label "Political Propaganda Domain"@en ;
+    rdfs:label "政治宣传领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:PublicCredulity rdf:type airo:Vulnerability ;
+    rdfs:label "Public Credulity Vulnerability"@en ;
+    rdfs:label "公众轻信脆弱性"@zh .
+
+ex:DisinformationCampaigns rdf:type airo:Threat ;
+    rdfs:label "Disinformation Campaigns Threat"@en ;
+    rdfs:label "虚假信息宣传活动威胁"@zh .
+
+ex:UnverifiedContent rdf:type airo:Hazard ;
+    rdfs:label "Unverified Content Hazard"@en ;
+    rdfs:label "未经核实内容危害"@zh .
+
+ex:LackOfContentControl rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Control Risk Source"@en ;
+    rdfs:label "内容控制缺失风险源"@zh .
+
+ex:DigitalManipulation rdf:type airo:RiskConcept ;
+    rdfs:label "Digital Manipulation Risk Concept"@en ;
+    rdfs:label "数字操纵风险概念"@zh .

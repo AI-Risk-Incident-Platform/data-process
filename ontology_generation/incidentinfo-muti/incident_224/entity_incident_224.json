@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "KZNParkHighTechSecuritySystem",
+      "中文名称": "KZN公园高科技安全系统",
+      "英文名称": "KZN Park High-Tech Security System",
+      "来源": "Poachers evade KZN park’s high-tech security and kill four rhinos for their horns"
+    },
+    "Risk": {
+      "id": "WildlifePoachingRisk",
+      "中文名称": "野生动物偷猎风险",
+      "英文名称": "Wildlife Poaching Risk",
+      "来源": "Poachers evade KZN park’s high-tech security and kill four rhinos for their horns"
+    },
+    "Consequence": {
+      "id": "RhinoDeaths",
+      "中文名称": "犀牛死亡后果",
+      "英文名称": "Rhino Deaths Consequence",
+      "来源": "kill four rhinos for their horns"
+    },
+    "Stakeholder": {
+      "id": "Poachers",
+      "中文名称": "偷猎者",
+      "英文名称": "Poachers",
+      "来源": "Poachers evade KZN park’s high-tech security"
+    },
+    "Impact": {
+      "id": "WildlifePopulationDecline",
+      "中文名称": "野生动物数量下降影响",
+      "英文名称": "Wildlife Population Decline Impact",
+      "来源": "kill four rhinos for their horns"
+    },
+    "Domain": {
+      "id": "WildlifeConservation",
+      "中文名称": "野生动物保护领域",
+      "英文名称": "Wildlife Conservation Domain",
+      "来源": "KZN park’s high-tech security"
+    },
+    "RiskSource": {
+      "id": "SecuritySystemEvasion",
+      "中文名称": "安全系统规避风险源",
+      "英文名称": "Security System Evasion Risk Source",
+      "来源": "Poachers evade KZN park’s high-tech security"
+    }
+  }
+}

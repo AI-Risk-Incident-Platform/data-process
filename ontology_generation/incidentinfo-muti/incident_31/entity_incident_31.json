@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedEmployeeTerminationSystem",
+      "中文名称": "自动化员工解雇系统",
+      "英文名称": "Automated Employee Termination System",
+      "来源": "The man who was fired by a machine"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "Unfair Termination Risk",
+      "来源": "The Humans Were Powerless to Do Anything"
+    },
+    "Consequence": {
+      "id": "JobLossWithoutHumanReview",
+      "中文名称": "未经人工审核的失业后果",
+      "英文名称": "Job Loss Without Human Review Consequence",
+      "来源": "The man who was fired by a machine"
+    },
+    "AIOperator": {
+      "id": "UnspecifiedCompany",
+      "中文名称": "未指定公司",
+      "英文名称": "Unspecified Company",
+      "来源": "The man who was fired by a machine"
+    },
+    "Stakeholder": {
+      "id": "FiredEmployee",
+      "中文名称": "被解雇员工",
+      "英文名称": "Fired Employee",
+      "来源": "The man who was fired by a machine"
+    },
+    "Impact": {
+      "id": "PersonalFinancialHardship",
+      "中文名称": "个人财务困难影响",
+      "英文名称": "Personal Financial Hardship Impact",
+      "来源": "The man who was fired by a machine"
+    },
+    "Purpose": {
+      "id": "AutomatedHRDecisionMaking",
+      "中文名称": "自动化人力资源决策目的",
+      "英文名称": "Automated HR Decision Making Purpose",
+      "来源": "The Machine Fired Me"
+    },
+    "Domain": {
+      "id": "HumanResourcesManagement",
+      "中文名称": "人力资源管理领域",
+      "英文名称": "Human Resources Management Domain",
+      "来源": "The man who was fired by a machine"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanOversight",
+      "中文名称": "缺乏人工监督的脆弱性",
+      "英文名称": "Lack of Human Oversight Vulnerability",
+      "来源": "The Humans Were Powerless to Do Anything"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LinkedInSearchEngine",
+      "中文名称": "LinkedIn搜索引擎",
+      "英文名称": "LinkedIn Search Engine",
+      "来源": "LinkedIn's search engine may reflect a gender bias"
+    },
+    "Risk": {
+      "id": "GenderBiasInSearchResults",
+      "中文名称": "搜索结果中的性别偏见风险",
+      "英文名称": "Gender Bias in Search Results Risk",
+      "来源": "LinkedIn's search engine may reflect a gender bias"
+    },
+    "Stakeholder": {
+      "id": "LinkedInUsers",
+      "中文名称": "LinkedIn用户",
+      "英文名称": "LinkedIn Users",
+      "来源": "Does LinkedIn have a gender bias?"
+    },
+    "AIOperator": {
+      "id": "LinkedInCorporation",
+      "中文名称": "LinkedIn公司",
+      "英文名称": "LinkedIn Corporation",
+      "来源": "LinkedIn denies gender bias claim over site search"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchRanking",
+      "中文名称": "搜索排名中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Search Ranking Risk Source",
+      "来源": "LinkedIn's search engine may reflect a gender bias"
+    },
+    "Impact": {
+      "id": "GenderDiscriminationInProfessionalOpportunities",
+      "中文名称": "职业机会中的性别歧视影响",
+      "英文名称": "Gender Discrimination in Professional Opportunities Impact",
+      "来源": "LinkedIn's search engine may reflect a gender bias"
+    }
+  }
+}

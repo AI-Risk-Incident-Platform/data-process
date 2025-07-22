@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CourtAlgorithmicDecisionMakingSystem rdf:type airo:AISystem ;
+    rdfs:label "Court Algorithmic Decision Making System"@en ;
+    rdfs:label "法庭算法决策系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInJudicialSystem ;
+    airo:isAppliedWithinDomain ex:JudicialSystem ;
+    airo:hasPurpose ex:ImprovingCourtFairness ;
+    airo:hasStakeholder ex:JudicialSystemParticipants .
+
+ex:AlgorithmicBiasInJudicialSystem rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Judicial System Risk"@en ;
+    rdfs:label "司法系统中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairJudicialOutcomes ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:JudicialSystem rdf:type airo:Domain ;
+    rdfs:label "Judicial System Domain"@en ;
+    rdfs:label "司法系统领域"@zh .
+
+ex:ImprovingCourtFairness rdf:type airo:Purpose ;
+    rdfs:label "Improving Court Fairness Purpose"@en ;
+    rdfs:label "提高法庭公平性的目的"@zh .
+
+ex:UnfairJudicialOutcomes rdf:type airo:Consequence ;
+    rdfs:label "Unfair Judicial Outcomes Consequence"@en ;
+    rdfs:label "不公正司法结果的后果"@zh ;
+    airo:hasImpact ex:ErosionOfPublicTrustInJusticeSystem .
+
+ex:ErosionOfPublicTrustInJusticeSystem rdf:type airo:Impact ;
+    rdfs:label "Erosion of Public Trust in Justice System Impact"@en ;
+    rdfs:label "公众对司法系统信任度降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JudicialSystemParticipants .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据的风险源"@zh .
+
+ex:JudicialSystemParticipants rdf:type airo:Stakeholder ;
+    rdfs:label "Judicial System Participants"@en ;
+    rdfs:label "司法系统参与者"@zh .

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityUndermined",
+      "中文名称": "选举诚信受损的影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "AIOperator": {
+      "id": "AmazonAIProvider",
+      "中文名称": "亚马逊AI提供者",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantService",
+      "中文名称": "语音助手服务的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Domain": {
+      "id": "ConsumerElectronics",
+      "中文名称": "消费电子领域",
+      "英文名称": "Consumer Tech",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityUndermined",
+      "中文名称": "选举诚信受损的影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "AIOperator": {
+      "id": "AmazonAIProvider",
+      "中文名称": "亚马逊AI提供者",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantService",
+      "中文名称": "语音助手服务的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "Domain": {
+      "id": "ConsumerElectronics",
+      "中文名称": "消费电子领域",
+      "英文名称": "Consumer Tech",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "Amazon’s Alexa has been claiming the 2020 election was stolen"
+    }
+  }
+}

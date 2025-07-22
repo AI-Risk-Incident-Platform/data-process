@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KamalaHarrisDeepfakeVideo rdf:type airo:AISystem ;
+    rdfs:label "Kamala Harris Deepfake Video"@en ;
+    rdfs:label "卡玛拉·哈里斯Deepfake视频"@zh ;
+    airo:hasRisk ex:ElectionIntegrityRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PoliticalManipulation ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigns ;
+    airo:hasStakeholder ex:ElonMusk .
+
+ex:ElectionIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Election Integrity Risk"@en ;
+    rdfs:label "选举诚信风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation .
+
+ex:ElonMusk rdf:type airo:Stakeholder ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "Deepfake技术"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation"@en ;
+    rdfs:label "公众误导"@zh ;
+    airo:hasImpactOnStakeholder ex:ElonMusk .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "Political Manipulation"@en ;
+    rdfs:label "政治操纵"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Domain ;
+    rdfs:label "Political Campaigns"@en ;
+    rdfs:label "政治竞选"@zh .

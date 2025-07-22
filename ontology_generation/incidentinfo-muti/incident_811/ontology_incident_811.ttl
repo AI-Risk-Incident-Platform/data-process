@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAI rdf:type airo:AISystem ;
+    rdfs:label "Character.AI"@en ;
+    rdfs:label "Character.AI"@zh ;
+    airo:hasRisk ex:EthicalViolationRisk ;
+    airo:hasAISubject ex:MurderedWoman ;
+    airo:hasStakeholder ex:VictimFamily ;
+    airo:hasPurpose ex:DigitalPersonaRecreation .
+
+ex:EthicalViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical Violation Risk"@en ;
+    rdfs:label "伦理违规风险"@zh ;
+    airo:hasConsequence ex:FamilyDistress ;
+    airo:isRiskSourceFor ex:PolicyViolation .
+
+ex:FamilyDistress rdf:type airo:Consequence ;
+    rdfs:label "Family Distress Consequence"@en ;
+    rdfs:label "家庭痛苦后果"@zh ;
+    airo:hasImpact ex:EmotionalTrauma .
+
+ex:MurderedWoman rdf:type airo:AISubject ;
+    rdfs:label "Murdered Woman"@en ;
+    rdfs:label "被谋杀女性"@zh .
+
+ex:VictimFamily rdf:type airo:Stakeholder ;
+    rdfs:label "Victim Family"@en ;
+    rdfs:label "受害者家属"@zh .
+
+ex:EmotionalTrauma rdf:type airo:Impact ;
+    rdfs:label "Emotional Trauma Impact"@en ;
+    rdfs:label "情感创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VictimFamily .
+
+ex:DigitalPersonaRecreation rdf:type airo:Purpose ;
+    rdfs:label "Digital Persona Recreation Purpose"@en ;
+    rdfs:label "数字人格重建目的"@zh .
+
+ex:PolicyViolation rdf:type airo:RiskSource ;
+    rdfs:label "Policy Violation Risk Source"@en ;
+    rdfs:label "政策违规风险源"@zh .

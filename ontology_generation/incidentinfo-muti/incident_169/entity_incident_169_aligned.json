@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookPlatform",
+      "中文名称": "Facebook平台",
+      "英文名称": "Facebook Platform",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Risk": {
+      "id": "ChildSafetyRisk",
+      "中文名称": "儿童安全风险",
+      "英文名称": "Child Risk",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Stakeholder": {
+      "id": "OhioAttorneyGeneral",
+      "中文名称": "俄亥俄州总检察长",
+      "英文名称": "Ohio Attorney General",
+      "来源": "Ohio attorney general files lawsuit claiming Facebook misled investors about safety measures"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Impact": {
+      "id": "NegativeEffectOnChildren",
+      "中文名称": "对儿童的负面影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "RiskSource": {
+      "id": "MisleadingPublicStatements",
+      "中文名称": "误导性公开声明",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookPlatform",
+      "中文名称": "Facebook平台",
+      "英文名称": "Facebook Platform",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Risk": {
+      "id": "ChildSafetyRisk",
+      "中文名称": "儿童安全风险",
+      "英文名称": "Child Risk",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Stakeholder": {
+      "id": "OhioAttorneyGeneral",
+      "中文名称": "俄亥俄州总检察长",
+      "英文名称": "Ohio Attorney General",
+      "来源": "Ohio attorney general files lawsuit claiming Facebook misled investors about safety measures"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "Impact": {
+      "id": "NegativeEffectOnChildren",
+      "中文名称": "对儿童的负面影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    },
+    "RiskSource": {
+      "id": "MisleadingPublicStatements",
+      "中文名称": "误导性公开声明",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Ohio Sues Meta Alleging Facebook Parent Misled Public About Its Products' Effect on Children"
+    }
+  }
+}

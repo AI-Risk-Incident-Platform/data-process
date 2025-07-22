@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DCSecurityRobot",
+      "中文名称": "华盛顿特区安保机器人",
+      "英文名称": "DC Security Robot",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Risk": {
+      "id": "RobotSelfDestructionRisk",
+      "中文名称": "机器人自毁风险",
+      "英文名称": "Robot Self-Harm Risk",
+      "来源": "Robot dived into Washington D.C. fountain, not a victim"
+    },
+    "Consequence": {
+      "id": "OperationalFailure",
+      "中文名称": "操作失败后果",
+      "英文名称": "Operational Failure Consequence",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "AIOperator": {
+      "id": "DCPublicSafetyDepartment",
+      "中文名称": "华盛顿特区公共安全部门",
+      "英文名称": "DC Public Safety Department",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全问题影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Robot dived into Washington D.C. fountain, not a victim"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DCSecurityRobot",
+      "中文名称": "华盛顿特区安保机器人",
+      "英文名称": "DC Security Robot",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Risk": {
+      "id": "RobotSelfDestructionRisk",
+      "中文名称": "机器人自毁风险",
+      "英文名称": "Robot Self-Harm Risk",
+      "来源": "Robot dived into Washington D.C. fountain, not a victim"
+    },
+    "Consequence": {
+      "id": "OperationalFailure",
+      "中文名称": "操作失败后果",
+      "英文名称": "Operational Failure Consequence",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "AIOperator": {
+      "id": "DCPublicSafetyDepartment",
+      "中文名称": "华盛顿特区公共安全部门",
+      "英文名称": "DC Public Safety Department",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全问题影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Robot dived into Washington D.C. fountain, not a victim"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    }
+  }
+}

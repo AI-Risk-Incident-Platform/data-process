@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIGeneratedPollSystem",
+      "中文名称": "微软AI生成投票系统",
+      "英文名称": "Microsoft AI-Generated Poll System",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Risk": {
+      "id": "ReputationDamageRisk",
+      "中文名称": "声誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Stakeholder": {
+      "id": "TheGuardian",
+      "中文名称": "卫报",
+      "英文名称": "The Guardian",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Consequence": {
+      "id": "NegativePublicity",
+      "中文名称": "负面宣传后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft Criticized for Embedding ‘Crass’ A.I. Poll Beside News Article"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftAIGeneratedPollSystem",
+      "中文名称": "微软AI生成投票系统",
+      "英文名称": "Microsoft AI-Generated Poll System",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Risk": {
+      "id": "ReputationDamageRisk",
+      "中文名称": "声誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Stakeholder": {
+      "id": "TheGuardian",
+      "中文名称": "卫报",
+      "英文名称": "The Guardian",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    },
+    "Consequence": {
+      "id": "NegativePublicity",
+      "中文名称": "负面宣传后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft Criticized for Embedding ‘Crass’ A.I. Poll Beside News Article"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft accused of damaging Guardian’s reputation with AI-generated poll"
+    }
+  }
+}

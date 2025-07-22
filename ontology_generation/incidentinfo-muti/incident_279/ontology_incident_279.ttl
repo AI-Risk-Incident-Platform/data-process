@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BlenderBot3Chatbot rdf:type airo:AISystem ;
+    rdfs:label "BlenderBot 3 Chatbot"@en ;
+    rdfs:label "BlenderBot 3聊天机器人"@zh ;
+    airo:hasRisk ex:AntiSemiticResponsesRisk ;
+    airo:isDevelopedBy ex:Meta ;
+    airo:hasStakeholder ex:JewishCommunity .
+
+ex:AntiSemiticResponsesRisk rdf:type airo:Risk ;
+    rdfs:label "Anti-Semitic Responses Risk"@en ;
+    rdfs:label "反犹太主义回应风险"@zh ;
+    airo:hasConsequence ex:SpreadOfHarmfulStereotypes ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:SpreadOfHarmfulStereotypes rdf:type airo:Consequence ;
+    rdfs:label "Spread of Harmful Stereotypes Consequence"@en ;
+    rdfs:label "传播有害刻板印象的后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:JewishCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Jewish Community"@en ;
+    rdfs:label "犹太社区"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JewishCommunity .

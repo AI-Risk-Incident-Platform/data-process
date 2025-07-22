@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MaliciousMessagingCampaign",
+      "中文名称": "恶意信息传播活动",
+      "英文名称": "Malicious Messaging Campaign",
+      "来源": "Alert Number: I-051525-PSA May 15, 2025 Senior US Officials Impersonated in Malicious Messaging Campaign"
+    },
+    "Risk": {
+      "id": "ImpersonationRisk",
+      "中文名称": "冒充风险",
+      "英文名称": "Impersonation Risk",
+      "来源": "Senior US Officials Impersonated in Malicious Messaging Campaign"
+    },
+    "Stakeholder": {
+      "id": "SeniorUSOfficials",
+      "中文名称": "美国高级官员",
+      "英文名称": "Senior US Officials",
+      "来源": "Senior US Officials Impersonated in Malicious Messaging Campaign"
+    },
+    "RiskSource": {
+      "id": "MaliciousActor",
+      "中文名称": "恶意行为者",
+      "英文名称": "Malicious Actor",
+      "来源": "Senior US Officials Impersonated in Malicious Messaging Campaign"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Reputation Damage",
+      "来源": "Senior US Officials Impersonated in Malicious Messaging Campaign"
+    }
+  }
+}

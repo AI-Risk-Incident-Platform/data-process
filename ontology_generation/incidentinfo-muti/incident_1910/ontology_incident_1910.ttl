@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PimEyesFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "PimEyes Facial Recognition System"@en ;
+    rdfs:label "PimEyes面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:FacialRecognitionAndMatching ;
+    airo:isDeployedBy ex:PimEyesCompany ;
+    airo:hasStakeholder ex:GermanDataProtectionAuthority ;
+    airo:isAppliedWithinDomain ex:BiometricDataProcessing .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PotentialFinancialPenalty ;
+    airo:isRiskSourceFor ex:LackOfComplianceWithDataProtectionRegulations .
+
+ex:GermanDataProtectionAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "German Data Protection Authority"@en ;
+    rdfs:label "德国数据保护机构"@zh .
+
+ex:PotentialFinancialPenalty rdf:type airo:Consequence ;
+    rdfs:label "Potential Financial Penalty Consequence"@en ;
+    rdfs:label "潜在经济处罚后果"@zh ;
+    airo:hasImpact ex:ReputationalDamage .
+
+ex:PimEyesCompany rdf:type airo:AIOperator ;
+    rdfs:label "PimEyes Company"@en ;
+    rdfs:label "PimEyes公司"@zh .
+
+ex:LackOfComplianceWithDataProtectionRegulations rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Compliance with Data Protection Regulations Risk Source"@en ;
+    rdfs:label "不符合数据保护法规的风险源"@zh .
+
+ex:ReputationalDamage rdf:type airo:Impact ;
+    rdfs:label "Reputational Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GermanDataProtectionAuthority .
+
+ex:BiometricDataProcessing rdf:type airo:Domain ;
+    rdfs:label "Biometric Data Processing Domain"@en ;
+    rdfs:label "生物特征数据处理领域"@zh .
+
+ex:FacialRecognitionAndMatching rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition and Matching Capability"@en ;
+    rdfs:label "面部识别与匹配能力"@zh .

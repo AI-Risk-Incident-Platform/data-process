@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialAnalysisJobScreeningService",
+      "中文名称": "面部分析求职筛选服务",
+      "英文名称": "Facial Analysis Job Screening Service",
+      "来源": "Job Screening Service Halts Facial Analysis of Applicants"
+    },
+    "Risk": {
+      "id": "DiscriminationInHiringProcess",
+      "中文名称": "招聘过程中的歧视风险",
+      "英文名称": "Discrimination in Hiring Process Risk",
+      "来源": "A face-scanning algorithm increasingly decides whether you deserve the job"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "Complaint and Request for Investigation, Injunction, and Other Relief"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionAlgorithm",
+      "中文名称": "面部识别算法",
+      "英文名称": "Facial Recognition Algorithm",
+      "来源": "A face-scanning algorithm increasingly decides whether you deserve the job"
+    },
+    "Impact": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会的影响",
+      "英文名称": "Unfair Employment Opportunities Impact",
+      "来源": "A face-scanning algorithm increasingly decides whether you deserve the job"
+    }
+  }
+}

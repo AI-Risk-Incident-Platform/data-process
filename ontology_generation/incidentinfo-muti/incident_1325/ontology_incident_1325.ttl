@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SunoGenerativeMusicAIPlatform rdf:type airo:AISystem ;
+    rdfs:label "Suno生成音乐AI平台"@zh ;
+    rdfs:label "Suno Generative Music AI Platform"@en ;
+    airo:hasRisk ex:HateContentGenerationRisk ;
+    airo:hasAICapability ex:MusicGenerationCapability ;
+    airo:hasStakeholder ex:MusicIndustryRegulators ;
+    airo:isAppliedWithinDomain ex:MusicGenerationDomain .
+
+ex:HateContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "仇恨内容生成风险"@zh ;
+    rdfs:label "Hate Content Generation Risk"@en ;
+    airo:hasConsequence ex:SpreadOfHateSpeech ;
+    airo:isRiskSourceFor ex:HatefulContentCreation .
+
+ex:SpreadOfHateSpeech rdf:type airo:Consequence ;
+    rdfs:label "仇恨言论传播后果"@zh ;
+    rdfs:label "Spread of Hate Speech Consequence"@en ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:MusicGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "音乐生成能力"@zh ;
+    rdfs:label "Music Generation Capability"@en .
+
+ex:MusicIndustryRegulators rdf:type airo:Stakeholder ;
+    rdfs:label "音乐行业监管者"@zh ;
+    rdfs:label "Music Industry Regulators"@en .
+
+ex:HatefulContentCreation rdf:type airo:Misuse ;
+    rdfs:label "仇恨内容创作滥用"@zh ;
+    rdfs:label "Hateful Content Creation Misuse"@en .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "社会危害影响"@zh ;
+    rdfs:label "Social Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MusicIndustryRegulators .
+
+ex:MusicGenerationDomain rdf:type airo:Domain ;
+    rdfs:label "音乐生成领域"@zh ;
+    rdfs:label "Music Generation Domain"@en .

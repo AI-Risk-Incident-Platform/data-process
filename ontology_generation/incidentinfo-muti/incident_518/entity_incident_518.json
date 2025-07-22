@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RoombaVacuumCleaner",
+      "中文名称": "Roomba吸尘器",
+      "英文名称": "Roomba Vacuum Cleaner",
+      "来源": "A Roomba recorded a woman on the toilet."
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "A Roomba recorded a woman on the toilet."
+    },
+    "Consequence": {
+      "id": "PrivateImagesLeaked",
+      "中文名称": "私人图像泄露后果",
+      "英文名称": "Private Images Leaked Consequence",
+      "来源": "How did screenshots end up on Facebook?"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromised",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Personal Privacy Compromised Impact",
+      "来源": "A Roomba recorded a woman on the toilet."
+    },
+    "AIOperator": {
+      "id": "IRobotCorporation",
+      "中文名称": "iRobot公司",
+      "英文名称": "iRobot Corporation",
+      "来源": "Roomba是iRobot公司生产的智能吸尘器"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForNavigation",
+      "中文名称": "用于导航的计算机视觉技术",
+      "英文名称": "Computer Vision for Navigation Technique",
+      "来源": "Roomba使用计算机视觉技术进行导航"
+    },
+    "Vulnerability": {
+      "id": "UnsecuredImageStorage",
+      "中文名称": "未加密的图像存储漏洞",
+      "英文名称": "Unsecured Image Storage Vulnerability",
+      "来源": "How did screenshots end up on Facebook?"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataSharing",
+      "中文名称": "未经授权的数据共享风险源",
+      "英文名称": "Unauthorized Data Sharing Risk Source",
+      "来源": "How did screenshots end up on Facebook?"
+    }
+  }
+}

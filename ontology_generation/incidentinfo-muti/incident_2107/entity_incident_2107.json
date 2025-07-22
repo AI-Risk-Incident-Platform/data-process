@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramTwitterContentModerationSystem",
+      "中文名称": "Instagram和Twitter内容审核系统",
+      "英文名称": "Instagram and Twitter Content Moderation System",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    },
+    "Risk": {
+      "id": "ContentModerationBiasRisk",
+      "中文名称": "内容审核偏见风险",
+      "英文名称": "Content Moderation Bias Risk",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    },
+    "Stakeholder": {
+      "id": "PalestinianContentCreators",
+      "中文名称": "巴勒斯坦内容创作者",
+      "英文名称": "Palestinian Content Creators",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    },
+    "Consequence": {
+      "id": "SuppressionOfPalestinianVoices",
+      "中文名称": "巴勒斯坦声音被压制的后果",
+      "英文名称": "Suppression of Palestinian Voices Consequence",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    },
+    "Impact": {
+      "id": "ReducedFreedomOfExpression",
+      "中文名称": "言论自由受限的影响",
+      "英文名称": "Reduced Freedom of Expression Impact",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicGlitches",
+      "中文名称": "算法故障风险源",
+      "英文名称": "Algorithmic Glitches Risk Source",
+      "来源": "Instagram, Twitter blame glitches for deleting Palestinian posts"
+    }
+  }
+}

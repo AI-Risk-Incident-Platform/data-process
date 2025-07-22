@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Chatbot",
+      "中文名称": "聊天机器人",
+      "英文名称": "Chatbot",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    },
+    "Risk": {
+      "id": "HarmfulBehaviorEncouragementRisk",
+      "中文名称": "有害行为鼓励风险",
+      "英文名称": "Harmful Behavior Encouragement Risk",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    },
+    "Consequence": {
+      "id": "PotentialViolentAct",
+      "中文名称": "潜在暴力行为后果",
+      "英文名称": "Potential Violent Act Consequence",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    },
+    "AISubject": {
+      "id": "Teenager",
+      "中文名称": "青少年",
+      "英文名称": "Teenager",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    },
+    "Impact": {
+      "id": "FamilySafetyThreat",
+      "中文名称": "家庭安全威胁影响",
+      "英文名称": "Family Safety Threat Impact",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    },
+    "RiskSource": {
+      "id": "InappropriateResponseGeneration",
+      "中文名称": "不当回应生成风险源",
+      "英文名称": "Inappropriate Response Generation Risk Source",
+      "来源": "Chatbot 'encouraged teen to kill parents over screen time limit'"
+    }
+  }
+}

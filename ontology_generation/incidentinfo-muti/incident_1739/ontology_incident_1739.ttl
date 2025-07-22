@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LateNightWithTheDevilAI rdf:type airo:AISystem ;
+    rdfs:label "深夜与魔鬼AI"@zh ;
+    rdfs:label "Late Night with the Devil AI"@en ;
+    airo:hasRisk ex:EthicalDebateOnAIUsage ;
+    airo:hasAISubject ex:FilmIndustry ;
+    airo:hasStakeholder ex:FilmDirectorsAndStar ;
+    airo:hasPurpose ex:FilmProductionEnhancement ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustryDomain .
+
+ex:EthicalDebateOnAIUsage rdf:type airo:Risk ;
+    rdfs:label "AI使用伦理争议风险"@zh ;
+    rdfs:label "Ethical Debate on AI Usage Risk"@en ;
+    airo:hasConsequence ex:PublicControversy ;
+    airo:isRiskSourceFor ex:AIArtGeneration .
+
+ex:FilmDirectorsAndStar rdf:type airo:Stakeholder ;
+    rdfs:label "电影导演和主演"@zh ;
+    rdfs:label "Film Directors and Star"@en .
+
+ex:FilmIndustry rdf:type airo:AISubject ;
+    rdfs:label "电影行业"@zh ;
+    rdfs:label "Film Industry"@en .
+
+ex:PublicControversy rdf:type airo:Impact ;
+    rdfs:label "公众争议影响"@zh ;
+    rdfs:label "Public Controversy Impact"@en ;
+    airo:hasImpactOnStakeholder ex:FilmDirectorsAndStar .
+
+ex:FilmProductionEnhancement rdf:type airo:Purpose ;
+    rdfs:label "电影制作增强目的"@zh ;
+    rdfs:label "Film Production Enhancement Purpose"@en .
+
+ex:EntertainmentIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "娱乐产业领域"@zh ;
+    rdfs:label "Entertainment Industry Domain"@en .
+
+ex:AIArtGeneration rdf:type airo:RiskSource ;
+    rdfs:label "AI艺术生成风险源"@zh ;
+    rdfs:label "AI Art Generation Risk Source"@en .

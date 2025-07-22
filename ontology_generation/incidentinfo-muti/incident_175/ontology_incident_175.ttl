@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TargetPregnancyPredictionSystem rdf:type airo:AISystem ;
+    rdfs:label "Target Pregnancy Prediction System"@en ;
+    rdfs:label "Target怀孕预测系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:ConsumerBehaviorAnalysis ;
+    airo:hasStakeholder ex:TargetCorporation ;
+    airo:hasAISubject ex:PregnantTeenGirl ;
+    airo:hasPurpose ex:TargetedMarketing ;
+    airo:isAppliedWithinDomain ex:RetailIndustry ;
+    airo:usesTechnique ex:PredictiveAnalytics .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnwantedTargetedAdvertising ;
+    airo:isRiskSourceFor ex:DataMiningOfPersonalHabits .
+
+ex:ConsumerBehaviorAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Consumer Behavior Analysis Capability"@en ;
+    rdfs:label "消费者行为分析能力"@zh .
+
+ex:TargetCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "Target Corporation"@en ;
+    rdfs:label "Target公司"@zh .
+
+ex:PregnantTeenGirl rdf:type airo:AISubject ;
+    rdfs:label "Pregnant Teen Girl"@en ;
+    rdfs:label "怀孕少女"@zh .
+
+ex:PersonalPrivacyExposure rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Exposure Impact"@en ;
+    rdfs:label "个人隐私暴露的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PregnantTeenGirl .
+
+ex:TargetedMarketing rdf:type airo:Purpose ;
+    rdfs:label "Targeted Marketing Purpose"@en ;
+    rdfs:label "定向营销的目的"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry Domain"@en ;
+    rdfs:label "零售行业领域"@zh .
+
+ex:PredictiveAnalytics rdf:type airo:AITechnique ;
+    rdfs:label "Predictive Analytics Technique"@en ;
+    rdfs:label "预测分析技术"@zh .
+
+ex:DataMiningOfPersonalHabits rdf:type airo:RiskSource ;
+    rdfs:label "Data Mining of Personal Habits Risk Source"@en ;
+    rdfs:label "个人习惯数据挖掘的风险源"@zh .
+
+ex:UnwantedTargetedAdvertising rdf:type airo:Consequence ;
+    rdfs:label "Unwanted Targeted Advertising Consequence"@en ;
+    rdfs:label "不受欢迎的定向广告后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyExposure .

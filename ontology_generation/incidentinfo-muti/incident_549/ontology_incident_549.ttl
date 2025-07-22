@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchAI rdf:type airo:AISystem ;
+    rdfs:label "Google Search AI"@en ;
+    rdfs:label "谷歌搜索AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:ImageGenerationAndRanking ;
+    airo:isProvidedBy ex:Google ;
+    airo:isAppliedWithinDomain ex:SearchEngine ;
+    airo:hasPurpose ex:InformationRetrieval .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "误导信息风险"@zh ;
+    airo:hasConsequence ex:ArtHistoricalMisrepresentation ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInImageSelection .
+
+ex:ArtHistoricalMisrepresentation rdf:type airo:Consequence ;
+    rdfs:label "Art Historical Misrepresentation Consequence"@en ;
+    rdfs:label "艺术史误传后果"@zh ;
+    airo:hasImpact ex:PublicMisunderstandingOfArt .
+
+ex:ImageGenerationAndRanking rdf:type airo:AICapability ;
+    rdfs:label "Image Generation and Ranking Capability"@en ;
+    rdfs:label "图像生成与排名能力"@zh .
+
+ex:Google rdf:type airo:AIProvider ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:SearchEngine rdf:type airo:Domain ;
+    rdfs:label "Search Engine Domain"@en ;
+    rdfs:label "搜索引擎领域"@zh .
+
+ex:InformationRetrieval rdf:type airo:Purpose ;
+    rdfs:label "Information Retrieval Purpose"@en ;
+    rdfs:label "信息检索目的"@zh .
+
+ex:PublicMisunderstandingOfArt rdf:type airo:Impact ;
+    rdfs:label "Public Misunderstanding of Art Impact"@en ;
+    rdfs:label "公众对艺术误解的影响"@zh .
+
+ex:AlgorithmicBiasInImageSelection rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Image Selection Risk Source"@en ;
+    rdfs:label "图像选择中的算法偏见风险源"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokAI",
+      "中文名称": "Grok AI聊天机器人",
+      "英文名称": "Grok AI Chatbot",
+      "来源": "X's AI chatbot Grok made it up."
+    },
+    "Risk": {
+      "id": "FakeNewsGenerationRisk",
+      "中文名称": "虚假新闻生成风险",
+      "英文名称": "Fake News Generation Risk",
+      "来源": "Elon Musk's X pushed a fake headline about Iran attacking Israel."
+    },
+    "Stakeholder": {
+      "id": "XPlatform",
+      "中文名称": "X平台",
+      "英文名称": "X Platform",
+      "来源": "Elon Musk's X pushed a fake headline"
+    },
+    "AIOperator": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Elon Musk's AI Favoritism and X's Unchecked Automation"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "pushed a fake headline about Iran attacking Israel"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Public Confusion Impact",
+      "来源": "pushed a fake headline about Iran attacking Israel"
+    },
+    "RiskSource": {
+      "id": "UncheckedAutomation",
+      "中文名称": "未受监管的自动化风险源",
+      "英文名称": "Unchecked Automation Risk Source",
+      "来源": "X's Unchecked Automation"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MallFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Mall Facial Recognition System"@en ;
+    rdfs:label "商场人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:AgeGenderRecognition ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:MallShoppers .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalDataCollectionWithoutConsent .
+
+ex:AgeGenderRecognition rdf:type airo:AICapability ;
+    rdfs:label "Age Gender Recognition Capability"@en ;
+    rdfs:label "年龄性别识别能力"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "人脸识别技术"@zh .
+
+ex:MallShoppers rdf:type airo:Stakeholder ;
+    rdfs:label "Mall Shoppers"@en ;
+    rdfs:label "商场顾客"@zh .
+
+ex:PersonalDataCollectionWithoutConsent rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Collection Without Consent Consequence"@en ;
+    rdfs:label "未经同意的个人数据收集后果"@zh ;
+    airo:hasImpact ex:ConsumerPrivacyConcerns .
+
+ex:ConsumerPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Consumer Privacy Concerns Impact"@en ;
+    rdfs:label "消费者隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MallShoppers .

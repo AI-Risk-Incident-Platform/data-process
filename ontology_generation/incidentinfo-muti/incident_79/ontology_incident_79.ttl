@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleInstantSearch rdf:type airo:AISystem ;
+    rdfs:label "Google Instant Search"@en ;
+    rdfs:label "Google即时搜索"@zh ;
+    airo:hasRisk ex:AntiSemiticSearchResultsRisk ;
+    airo:hasPurpose ex:SearchQueryPrediction ;
+    airo:isAppliedWithinDomain ex:SearchEngineTechnology ;
+    airo:usesTechnique ex:AutocompleteAlgorithm ;
+    airo:hasStakeholder ex:JewishCommunityInFrance ;
+    airo:hasStakeholder ex:GoogleFrance .
+
+ex:AntiSemiticSearchResultsRisk rdf:type airo:Risk ;
+    rdfs:label "Anti-Semitic Search Results Risk"@en ;
+    rdfs:label "反犹太主义搜索结果风险"@zh ;
+    airo:hasConsequence ex:LegalActionAgainstGoogle ;
+    airo:isRiskSourceFor ex:AutocompleteAlgorithmBias .
+
+ex:LegalActionAgainstGoogle rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Against Google Consequence"@en ;
+    rdfs:label "对谷歌的法律诉讼后果"@zh ;
+    airo:hasImpact ex:DiscriminationAgainstJewishCommunity .
+
+ex:JewishCommunityInFrance rdf:type airo:Stakeholder ;
+    rdfs:label "Jewish Community in France Stakeholder"@en ;
+    rdfs:label "法国犹太社区"@zh .
+
+ex:GoogleFrance rdf:type airo:AIOperator ;
+    rdfs:label "Google France Operator"@en ;
+    rdfs:label "谷歌法国"@zh .
+
+ex:AutocompleteAlgorithmBias rdf:type airo:RiskSource ;
+    rdfs:label "Autocomplete Algorithm Bias Risk Source"@en ;
+    rdfs:label "自动完成算法偏见风险源"@zh .
+
+ex:DiscriminationAgainstJewishCommunity rdf:type airo:Impact ;
+    rdfs:label "Discrimination Against Jewish Community Impact"@en ;
+    rdfs:label "对犹太社区的歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JewishCommunityInFrance .
+
+ex:SearchQueryPrediction rdf:type airo:Purpose ;
+    rdfs:label "Search Query Prediction Purpose"@en ;
+    rdfs:label "搜索查询预测目的"@zh .
+
+ex:SearchEngineTechnology rdf:type airo:Domain ;
+    rdfs:label "Search Engine Technology Domain"@en ;
+    rdfs:label "搜索引擎技术领域"@zh .
+
+ex:AutocompleteAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Autocomplete Algorithm Technique"@en ;
+    rdfs:label "自动完成算法技术"@zh .

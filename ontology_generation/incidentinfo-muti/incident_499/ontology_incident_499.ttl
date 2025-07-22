@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MedicareAdvantageAI rdf:type airo:AISystem ;
+    rdfs:label "Medicare Advantage AI System"@en ;
+    rdfs:label "Medicare Advantage AI系统"@zh ;
+    airo:hasRisk ex:PrematureCareTerminationRisk ;
+    airo:hasPurpose ex:CostReduction ;
+    airo:hasStakeholder ex:SeniorCitizens ;
+    airo:isAppliedWithinDomain ex:HealthcareInsurance .
+
+ex:PrematureCareTerminationRisk rdf:type airo:Risk ;
+    rdfs:label "Premature Care Termination Risk"@en ;
+    rdfs:label "过早终止护理风险"@zh ;
+    airo:hasConsequence ex:HealthDeterioration .
+
+ex:SeniorCitizens rdf:type airo:Stakeholder ;
+    rdfs:label "Senior Citizens"@en ;
+    rdfs:label "老年公民"@zh .
+
+ex:ReducedHealthcareAccess rdf:type airo:Impact ;
+    rdfs:label "Reduced Healthcare Access"@en ;
+    rdfs:label "医疗保健获取减少"@zh ;
+    airo:hasImpactOnStakeholder ex:SeniorCitizens .
+
+ex:HealthcareInsurance rdf:type airo:Domain ;
+    rdfs:label "Healthcare Insurance"@en ;
+    rdfs:label "医疗保险"@zh .
+
+ex:CostReduction rdf:type airo:Purpose ;
+    rdfs:label "Cost Reduction"@en ;
+    rdfs:label "成本削减"@zh .
+
+ex:HealthDeterioration rdf:type airo:Consequence ;
+    rdfs:label "Health Deterioration"@en ;
+    rdfs:label "健康状况恶化"@zh ;
+    airo:hasImpact ex:ReducedHealthcareAccess .

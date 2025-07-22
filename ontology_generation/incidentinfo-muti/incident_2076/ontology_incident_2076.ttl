@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CognitiveAbilityAssessmentAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Cognitive Ability Assessment Algorithm"@en ;
+    rdfs:label "认知能力评估算法"@zh ;
+    airo:hasRisk ex:RacialBiasInCognitiveAssessment ;
+    airo:hasAISubject ex:BlackNFLPlayers ;
+    airo:hasStakeholder ex:NFLPlayersAssociation .
+
+ex:RacialBiasInCognitiveAssessment rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Cognitive Assessment Risk"@en ;
+    rdfs:label "认知评估中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairEvaluationOutcomes ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:BlackNFLPlayers rdf:type airo:AISubject ;
+    rdfs:label "Black NFL Players"@en ;
+    rdfs:label "黑人NFL球员"@zh .
+
+ex:DiscriminatoryTreatment rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Treatment Impact"@en ;
+    rdfs:label "歧视性待遇的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NFLPlayersAssociation .
+
+ex:NFLPlayersAssociation rdf:type airo:Stakeholder ;
+    rdfs:label "NFL Players Association"@en ;
+    rdfs:label "NFL球员协会"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data"@en ;
+    rdfs:label "有偏见的训练数据"@zh .
+
+ex:UnfairEvaluationOutcomes rdf:type airo:Consequence ;
+    rdfs:label "Unfair Evaluation Outcomes Consequence"@en ;
+    rdfs:label "不公平评估结果的后果"@zh ;
+    airo:hasImpact ex:DiscriminatoryTreatment .

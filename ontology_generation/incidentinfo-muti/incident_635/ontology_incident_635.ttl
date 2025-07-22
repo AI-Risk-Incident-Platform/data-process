@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeAI rdf:type airo:AISystem ;
+    rdfs:label "YouTube人工智能系统"@zh ;
+    rdfs:label "YouTube AI System"@en ;
+    airo:hasRisk ex:AIGeneratedMisinformationRisk ;
+    airo:hasAISubject ex:YouTubeViewers ;
+    airo:hasStakeholder ex:BlackCelebrities ;
+    airo:usesTechnique ex:ContentGenerationAlgorithm .
+
+ex:AIGeneratedMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "AI生成虚假信息风险"@zh ;
+    rdfs:label "AI-Generated Misinformation Risk"@en ;
+    airo:hasConsequence ex:SpreadOfMisinformation ;
+    airo:isRiskSourceFor ex:AIgeneratedContent .
+
+ex:BlackCelebrities rdf:type airo:Stakeholder ;
+    rdfs:label "黑人名人"@zh ;
+    rdfs:label "Black Celebrities"@en .
+
+ex:YouTubeViewers rdf:type airo:AISubject ;
+    rdfs:label "YouTube观众"@zh ;
+    rdfs:label "YouTube Viewers"@en .
+
+ex:SpreadOfMisinformation rdf:type airo:Consequence ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    rdfs:label "Spread of Misinformation Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:BlackCelebrities .
+
+ex:AIgeneratedContent rdf:type airo:RiskSource ;
+    rdfs:label "AI生成内容风险源"@zh ;
+    rdfs:label "AI-Generated Content Risk Source"@en .
+
+ex:ContentGenerationAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "内容生成算法技术"@zh ;
+    rdfs:label "Content Generation Algorithm Technique"@en .

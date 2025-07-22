@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramCommentAI rdf:type airo:AISystem ;
+    rdfs:label "Instagram Comment AI"@en ;
+    rdfs:label "Instagram评论AI"@zh ;
+    airo:hasRisk ex:InappropriateContentRisk ;
+    airo:hasStakeholder ex:AlexisMacAllister ;
+    airo:hasAISubject ex:CamilaMayan .
+
+ex:InappropriateContentRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Risk"@en ;
+    rdfs:label "不当内容风险"@zh ;
+    airo:hasImpact ex:PublicScandal .
+
+ex:AlexisMacAllister rdf:type airo:Stakeholder ;
+    rdfs:label "Alexis Mac Allister"@en ;
+    rdfs:label "亚历克西斯·麦卡利斯特"@zh .
+
+ex:CamilaMayan rdf:type airo:AISubject ;
+    rdfs:label "Camila Mayan"@en ;
+    rdfs:label "卡米拉·马扬"@zh .
+
+ex:PublicScandal rdf:type airo:Impact ;
+    rdfs:label "Public Scandal"@en ;
+    rdfs:label "公众丑闻"@zh ;
+    airo:hasImpactOnStakeholder ex:AlexisMacAllister , ex:CamilaMayan .

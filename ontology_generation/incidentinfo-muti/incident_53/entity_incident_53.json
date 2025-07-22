@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PredictivePolicingSoftware",
+      "中文名称": "预测性警务软件",
+      "英文名称": "Predictive Policing Software",
+      "来源": "Police are using software to predict crime."
+    },
+    "Risk": {
+      "id": "RacialBiasInPredictivePolicing",
+      "中文名称": "预测性警务中的种族偏见风险",
+      "英文名称": "Racial Bias in Predictive Policing Risk",
+      "来源": "Is it a 'holy grail' or biased against minorities?"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "Policing the Future"
+    },
+    "Purpose": {
+      "id": "CrimePrevention",
+      "中文名称": "预防犯罪的目的",
+      "英文名称": "Crime Prevention Purpose",
+      "来源": "the future of crime-fighting"
+    },
+    "AICapability": {
+      "id": "CrimePrediction",
+      "中文名称": "犯罪预测能力",
+      "英文名称": "Crime Prediction Capability",
+      "来源": "predict crime"
+    },
+    "Stakeholder": {
+      "id": "MinorityCommunities",
+      "中文名称": "少数族裔社区",
+      "英文名称": "Minority Communities",
+      "来源": "biased against minorities"
+    },
+    "Impact": {
+      "id": "RacialProfiling",
+      "中文名称": "种族定性影响",
+      "英文名称": "Racial Profiling Impact",
+      "来源": "the future of racial profiling"
+    },
+    "RiskSource": {
+      "id": "BiasedHistoricalData",
+      "中文名称": "有偏见的历史数据风险源",
+      "英文名称": "Biased Historical Data Risk Source",
+      "来源": "biased against minorities"
+    }
+  }
+}

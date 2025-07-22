@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SteakNShakeFacialRecognitionKiosks",
+      "中文名称": "Steak N’ Shake面部识别自助点餐机",
+      "英文名称": "Steak N’ Shake Facial Recognition Kiosks",
+      "来源": "Steak ’n Shake installs facial recognition at self-ordering kiosks"
+    },
+    "Risk": {
+      "id": "BIPAViolationRisk",
+      "中文名称": "违反BIPA风险",
+      "英文名称": "BIPA Violation Risk",
+      "来源": "Steak N’ Shake Kiosks Violate BIPA"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Steak ’n Shake installs facial recognition at self-ordering kiosks"
+    },
+    "AIOperator": {
+      "id": "SteakNShake",
+      "中文名称": "Steak N’ Shake",
+      "英文名称": "Steak N’ Shake",
+      "来源": "Steak ’n Shake installs facial recognition at self-ordering kiosks"
+    },
+    "Consequence": {
+      "id": "LegalNonCompliance",
+      "中文名称": "法律不合规后果",
+      "英文名称": "Legal Non-Compliance Consequence",
+      "来源": "Steak N’ Shake Kiosks Violate BIPA"
+    },
+    "Domain": {
+      "id": "RetailFoodService",
+      "中文名称": "零售餐饮服务领域",
+      "英文名称": "Retail Food Service Domain",
+      "来源": "Steak ’n Shake installs facial recognition at self-ordering kiosks"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WalmartAntiShopliftingAI",
+      "中文名称": "沃尔玛反盗窃AI系统",
+      "英文名称": "Walmart Anti-Shoplifting AI System",
+      "来源": "Walmart Employees Are Out To Show Its Anti-Shoplifting AI Doesn't Work"
+    },
+    "Risk": {
+      "id": "IneffectiveAntiTheftSystemRisk",
+      "中文名称": "无效反盗窃系统风险",
+      "英文名称": "Ineffective Anti-Theft System Risk",
+      "来源": "Walmart Employees Are Out to Show Its Anti-Theft AI Doesn't Work"
+    },
+    "Stakeholder": {
+      "id": "WalmartEmployees",
+      "中文名称": "沃尔玛员工",
+      "英文名称": "Walmart Employees",
+      "来源": "Walmart Employees Are Out To Show Its Anti-Shoplifting AI Doesn't Work"
+    },
+    "RiskSource": {
+      "id": "BiasInCashierlessTech",
+      "中文名称": "无收银员技术中的偏见",
+      "英文名称": "Bias in Cashierless Tech",
+      "来源": "Cashierless tech could detect shoplifting, but bias concerns abound"
+    },
+    "Impact": {
+      "id": "LossOfTrustInAISecurity",
+      "中文名称": "对AI安全性的信任丧失",
+      "英文名称": "Loss of Trust in AI Security",
+      "来源": "Walmart Employees Are Out To Show Its Anti-Shoplifting AI Doesn't Work"
+    }
+  }
+}

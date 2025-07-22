@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokAI rdf:type airo:AISystem ;
+    rdfs:label "Grok AI"@en ;
+    rdfs:label "Grok AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasAICapability ex:NaturalLanguageProcessing ;
+    airo:isDevelopedBy ex:XCorporation ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:hasAISubject ex:PublicFigures ;
+    airo:hasPurpose ex:ContentTrendingAnalysis ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:LiteralInterpretationOfSlang .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:JokeInterpretationAsFact ;
+    airo:isRiskSourceFor ex:AutomatedMisinformationSpread ;
+    airo:isRiskSourceFor ex:UnverifiedUserGeneratedContent .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众误导后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:NaturalLanguageProcessing rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing Capability"@en ;
+    rdfs:label "自然语言处理能力"@zh .
+
+ex:XCorporation rdf:type airo:AIOperator ;
+    rdfs:label "X Corporation"@en ;
+    rdfs:label "X公司"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:PublicFigures rdf:type airo:AISubject ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicFigures .
+
+ex:ContentTrendingAnalysis rdf:type airo:Purpose ;
+    rdfs:label "Content Trending Analysis Purpose"@en ;
+    rdfs:label "内容趋势分析目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:LiteralInterpretationOfSlang rdf:type airo:Vulnerability ;
+    rdfs:label "Literal Interpretation of Slang Vulnerability"@en ;
+    rdfs:label "俚语字面解释的脆弱性"@zh .
+
+ex:AutomatedMisinformationSpread rdf:type airo:Threat ;
+    rdfs:label "Automated Misinformation Spread Threat"@en ;
+    rdfs:label "自动化虚假信息传播威胁"@zh .
+
+ex:UnverifiedUserGeneratedContent rdf:type airo:Hazard ;
+    rdfs:label "Unverified User-Generated Content Hazard"@en ;
+    rdfs:label "未经验证的用户生成内容危害"@zh .
+
+ex:JokeInterpretationAsFact rdf:type airo:RiskSource ;
+    rdfs:label "Joke Interpretation as Fact Risk Source"@en ;
+    rdfs:label "玩笑解读为事实的风险源"@zh .
+
+ex:AIHallucinationInSocialMedia rdf:type airo:RiskConcept ;
+    rdfs:label "AI Hallucination in Social Media Risk Concept"@en ;
+    rdfs:label "社交媒体中的AI幻觉"@zh .

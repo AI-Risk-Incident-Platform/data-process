@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIListeningSystemForNHSAppointments",
+      "中文名称": "NHS预约AI监听系统",
+      "英文名称": "AI Listening System for NHS Appointments",
+      "来源": "Health secretary announces invasive plan to have AI listening in on NHS appointments"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "invasive plan to have AI listening in on NHS appointments"
+    },
+    "Stakeholder": {
+      "id": "NHS",
+      "中文名称": "英国国家医疗服务体系",
+      "英文名称": "NHS",
+      "来源": "NHS appointments"
+    },
+    "AISubject": {
+      "id": "Patients",
+      "中文名称": "患者",
+      "英文名称": "Patients",
+      "来源": "NHS appointments"
+    },
+    "Purpose": {
+      "id": "MedicalAppointmentMonitoring",
+      "中文名称": "医疗预约监控",
+      "英文名称": "Medical Appointment Monitoring",
+      "来源": "AI listening in on NHS appointments"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "NHS appointments"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIListeningSystemForNHSAppointments",
+      "中文名称": "NHS预约AI监听系统",
+      "英文名称": "AI Listening System for NHS Appointments",
+      "来源": "Health secretary announces invasive plan to have AI listening in on NHS appointments"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "invasive plan to have AI listening in on NHS appointments"
+    },
+    "Stakeholder": {
+      "id": "NHS",
+      "中文名称": "英国国家医疗服务体系",
+      "英文名称": "NHS",
+      "来源": "NHS appointments"
+    },
+    "AISubject": {
+      "id": "Patients",
+      "中文名称": "患者",
+      "英文名称": "Patients",
+      "来源": "NHS appointments"
+    },
+    "Purpose": {
+      "id": "MedicalAppointmentMonitoring",
+      "中文名称": "医疗预约监控",
+      "英文名称": "Medical Appointment Monitoring",
+      "来源": "AI listening in on NHS appointments"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "NHS appointments"
+    }
+  }
+}

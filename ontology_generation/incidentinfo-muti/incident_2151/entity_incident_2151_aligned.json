@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BytedanceCensorshipSystem",
+      "中文名称": "字节跳动内容审查系统",
+      "英文名称": "Bytedance Censorship System",
+      "来源": "how Bytedance censors its product"
+    },
+    "Risk": {
+      "id": "ContentCensorshipRisk",
+      "中文名称": "内容审查风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "how Bytedance censors its product"
+    },
+    "AITechnique": {
+      "id": "DifferentiableSimulator",
+      "中文名称": "可微分模拟器技术",
+      "英文名称": "Differentiable Simulator Technique",
+      "来源": "a differentiable simulator"
+    },
+    "AICapability": {
+      "id": "ClothesFoldingCapability",
+      "中文名称": "衣物折叠能力",
+      "英文名称": "Clothes Folding Capability",
+      "来源": "Robots that fold clothes"
+    },
+    "AIProvider": {
+      "id": "Bytedance",
+      "中文名称": "字节跳动",
+      "英文名称": "Bytedance",
+      "来源": "how Bytedance censors its product"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BytedanceCensorshipSystem",
+      "中文名称": "字节跳动内容审查系统",
+      "英文名称": "Bytedance Censorship System",
+      "来源": "how Bytedance censors its product"
+    },
+    "Risk": {
+      "id": "ContentCensorshipRisk",
+      "中文名称": "内容审查风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "how Bytedance censors its product"
+    },
+    "AITechnique": {
+      "id": "DifferentiableSimulator",
+      "中文名称": "可微分模拟器技术",
+      "英文名称": "Differentiable Simulator Technique",
+      "来源": "a differentiable simulator"
+    },
+    "AICapability": {
+      "id": "ClothesFoldingCapability",
+      "中文名称": "衣物折叠能力",
+      "英文名称": "Clothes Folding Capability",
+      "来源": "Robots that fold clothes"
+    },
+    "AIProvider": {
+      "id": "Bytedance",
+      "中文名称": "字节跳动",
+      "英文名称": "Bytedance",
+      "来源": "how Bytedance censors its product"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAutocomplete rdf:type airo:AISystem ;
+    rdfs:label "Google Autocomplete"@en ;
+    rdfs:label "谷歌自动补全"@zh ;
+    airo:hasRisk ex:InappropriateSuggestionsRisk ;
+    airo:usesTechnique ex:MachineLearningForSearchPredictions ;
+    airo:hasPurpose ex:EnhancingSearchExperience ;
+    airo:isAppliedWithinDomain ex:WebSearch ;
+    airo:isDeployedBy ex:Google .
+
+ex:InappropriateSuggestionsRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Suggestions Risk"@en ;
+    rdfs:label "不当建议风险"@zh ;
+    airo:hasConsequence ex:ExposureToHarmfulContent ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInSearchQueries .
+
+ex:AlgorithmicBiasInSearchQueries rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Search Queries"@en ;
+    rdfs:label "搜索查询中的算法偏见"@zh .
+
+ex:ExposureToHarmfulContent rdf:type airo:Consequence ;
+    rdfs:label "Exposure to Harmful Content"@en ;
+    rdfs:label "接触有害内容"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToUsers .
+
+ex:PsychologicalHarmToUsers rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Users"@en ;
+    rdfs:label "用户心理伤害"@zh ;
+    airo:hasImpactOnStakeholder ex:Google .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:MachineLearningForSearchPredictions rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Search Predictions"@en ;
+    rdfs:label "用于搜索预测的机器学习"@zh .
+
+ex:EnhancingSearchExperience rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Search Experience"@en ;
+    rdfs:label "增强搜索体验"@zh .
+
+ex:WebSearch rdf:type airo:Domain ;
+    rdfs:label "Web Search"@en ;
+    rdfs:label "网络搜索"@zh .

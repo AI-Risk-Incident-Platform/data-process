@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NaturalCyclesApp",
+      "中文名称": "自然周期应用",
+      "英文名称": "Natural Cycles App",
+      "来源": "the first app to get approved as birth-control"
+    },
+    "Risk": {
+      "id": "UnintendedPregnancyRisk",
+      "中文名称": "意外怀孕风险",
+      "英文名称": "Unintended Pregnancy Risk",
+      "来源": "dozens of women got pregnant"
+    },
+    "Consequence": {
+      "id": "UnplannedPregnancies",
+      "中文名称": "意外怀孕后果",
+      "英文名称": "Unplanned Pregnancies Consequence",
+      "来源": "dozens of women got pregnant"
+    },
+    "AIOperator": {
+      "id": "NaturalCyclesCompany",
+      "中文名称": "自然周期公司",
+      "英文名称": "Natural Cycles Company",
+      "来源": "the founder isn't surprised"
+    },
+    "Stakeholder": {
+      "id": "AppUsers",
+      "中文名称": "应用使用者",
+      "英文名称": "App Users",
+      "来源": "dozens of women got pregnant"
+    },
+    "Impact": {
+      "id": "PersonalAndSocialConsequences",
+      "中文名称": "个人和社会影响",
+      "英文名称": "Personal and Social Consequences Impact",
+      "来源": "the backlash against the birth control app"
+    },
+    "Purpose": {
+      "id": "Contraception",
+      "中文名称": "避孕目的",
+      "英文名称": "Contraception Purpose",
+      "来源": "the FDA-approved app-based contraception"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "birth control app"
+    },
+    "RiskSource": {
+      "id": "AlgorithmInaccuracy",
+      "中文名称": "算法不准确风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "the founder isn't surprised"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NaturalCyclesApp",
+      "中文名称": "自然周期应用",
+      "英文名称": "Natural Cycles App",
+      "来源": "the first app to get approved as birth-control"
+    },
+    "Risk": {
+      "id": "UnintendedPregnancyRisk",
+      "中文名称": "意外怀孕风险",
+      "英文名称": "Unintended Pregnancy Risk",
+      "来源": "dozens of women got pregnant"
+    },
+    "Consequence": {
+      "id": "UnplannedPregnancies",
+      "中文名称": "意外怀孕后果",
+      "英文名称": "Unplanned Pregnancies Consequence",
+      "来源": "dozens of women got pregnant"
+    },
+    "AIOperator": {
+      "id": "NaturalCyclesCompany",
+      "中文名称": "自然周期公司",
+      "英文名称": "Natural Cycles Company",
+      "来源": "the founder isn't surprised"
+    },
+    "Stakeholder": {
+      "id": "AppUsers",
+      "中文名称": "应用使用者",
+      "英文名称": "App Users",
+      "来源": "dozens of women got pregnant"
+    },
+    "Impact": {
+      "id": "PersonalAndSocialConsequences",
+      "中文名称": "个人和社会影响",
+      "英文名称": "Personal and Social Consequences Impact",
+      "来源": "the backlash against the birth control app"
+    },
+    "Purpose": {
+      "id": "Contraception",
+      "中文名称": "避孕目的",
+      "英文名称": "Contraception Purpose",
+      "来源": "the FDA-approved app-based contraception"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "birth control app"
+    },
+    "RiskSource": {
+      "id": "AlgorithmInaccuracy",
+      "中文名称": "算法不准确风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "the founder isn't surprised"
+    }
+  }
+}

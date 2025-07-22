@@ -1,0 +1,60 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:ElectionInterferenceRisk ;
+    airo:hasStakeholder ex:IranianGroup ;
+    airo:isDeployedBy ex:OpenAI ;
+    airo:hasPurpose ex:ElectionInfluence ;
+    airo:isAppliedWithinDomain ex:PoliticalElections .
+
+ex:ElectionInterferenceRisk rdf:type airo:Risk ;
+    rdfs:label "Election Interference Risk"@en ;
+    rdfs:label "选举干预风险"@zh ;
+    airo:isRiskSourceFor ex:ChatGPTMisuse ;
+    airo:hasConsequence ex:UnderminedElectionIntegrity ;
+    airo:hasRiskControl ex:AccountBlocking .
+
+ex:IranianGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Iranian Group"@en ;
+    rdfs:label "伊朗组织"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:ElectionInfluence rdf:type airo:Purpose ;
+    rdfs:label "Election Influence"@en ;
+    rdfs:label "选举影响"@zh .
+
+ex:PoliticalElections rdf:type airo:Domain ;
+    rdfs:label "Political Elections"@en ;
+    rdfs:label "政治选举"@zh .
+
+ex:ChatGPTMisuse rdf:type airo:RiskSource ;
+    rdfs:label "ChatGPT Misuse"@en ;
+    rdfs:label "ChatGPT滥用"@zh .
+
+ex:UnderminedElectionIntegrity rdf:type airo:Consequence ;
+    rdfs:label "Undermined Election Integrity"@en ;
+    rdfs:label "选举诚信受损"@zh ;
+    airo:hasImpact ex:DemocraticProcessThreat .
+
+ex:DemocraticProcessThreat rdf:type airo:Impact ;
+    rdfs:label "Democratic Process Threat"@en ;
+    rdfs:label "民主进程威胁"@zh .
+
+ex:AccountBlocking rdf:type airo:RiskControl ;
+    rdfs:label "Account Blocking"@en ;
+    rdfs:label "账户封锁"@zh .

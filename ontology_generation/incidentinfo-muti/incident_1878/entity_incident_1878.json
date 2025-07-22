@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LAIONMultimodalDataset",
+      "中文名称": "LAION多模态数据集",
+      "英文名称": "LAION Multimodal Dataset",
+      "来源": "Into the LAIONs Den: Investigating Hate in Multimodal Datasets"
+    },
+    "Risk": {
+      "id": "HateContentPropagationRisk",
+      "中文名称": "仇恨内容传播风险",
+      "英文名称": "Hate Content Propagation Risk",
+      "来源": "As AI Companies Scale Datasets, They Scale Hate, Too"
+    },
+    "RiskSource": {
+      "id": "UnfilteredWebDataCollection",
+      "中文名称": "未过滤的网络数据收集",
+      "英文名称": "Unfiltered Web Data Collection",
+      "来源": "As AI Companies Scale Datasets, They Scale Hate, Too"
+    },
+    "Consequence": {
+      "id": "HarmfulContentGeneration",
+      "中文名称": "有害内容生成后果",
+      "英文名称": "Harmful Content Generation Consequence",
+      "来源": "Into the LAIONs Den: Investigating Hate in Multimodal Datasets"
+    },
+    "AICapability": {
+      "id": "LargeScaleDataProcessing",
+      "中文名称": "大规模数据处理能力",
+      "英文名称": "Large-Scale Data Processing Capability",
+      "来源": "As AI Companies Scale Datasets, They Scale Hate, Too"
+    },
+    "Stakeholder": {
+      "id": "AIResearchCommunity",
+      "中文名称": "AI研究社区",
+      "英文名称": "AI Research Community",
+      "来源": "Into the LAIONs Den: Investigating Hate in Multimodal Datasets"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Social Discrimination Impact",
+      "来源": "As AI Companies Scale Datasets, They Scale Hate, Too"
+    }
+  }
+}

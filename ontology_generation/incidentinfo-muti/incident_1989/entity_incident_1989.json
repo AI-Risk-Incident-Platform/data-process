@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UnConstrainedCollegeStudentsDataset",
+      "中文名称": "无约束大学生数据集",
+      "英文名称": "UnConstrained College Students Dataset",
+      "来源": "标题中提到的数据集名称"
+    },
+    "Risk": {
+      "id": "PotentialPrivacyRisk",
+      "中文名称": "潜在隐私风险",
+      "英文名称": "Potential Privacy Risk",
+      "来源": "数据集名称中'UnConstrained'暗示可能缺乏隐私保护约束"
+    },
+    "Domain": {
+      "id": "AcademicResearch",
+      "中文名称": "学术研究领域",
+      "英文名称": "Academic Research Domain",
+      "来源": "数据集针对大学生群体"
+    },
+    "AISubject": {
+      "id": "CollegeStudents",
+      "中文名称": "大学生",
+      "英文名称": "College Students",
+      "来源": "数据集明确针对大学生群体"
+    }
+  }
+}

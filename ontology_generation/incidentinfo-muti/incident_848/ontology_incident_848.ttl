@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIMisinformationDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Misinformation Detection System"@en ;
+    rdfs:label "AI虚假信息检测系统"@zh ;
+    airo:hasRisk ex:AIHallucinationRisk ;
+    airo:usesTechnique ex:TextGenerationAI ;
+    airo:hasStakeholder ex:MisinformationExpert .
+
+ex:AIHallucinationRisk rdf:type airo:Risk ;
+    rdfs:label "AI Hallucination Risk"@en ;
+    rdfs:label "AI幻觉风险"@zh ;
+    airo:hasConsequence ex:LegalDocumentInaccuracy ;
+    airo:isRiskSourceFor ex:NonExistentSourcesCitation .
+
+ex:MisinformationExpert rdf:type airo:Stakeholder ;
+    rdfs:label "Misinformation Expert"@en ;
+    rdfs:label "虚假信息专家"@zh .
+
+ex:LegalDocumentInaccuracy rdf:type airo:Consequence ;
+    rdfs:label "Legal Document Inaccuracy Consequence"@en ;
+    rdfs:label "法律文件不准确后果"@zh ;
+    airo:hasImpact ex:LegalSystemUndermining .
+
+ex:TextGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Text Generation AI Technique"@en ;
+    rdfs:label "文本生成AI技术"@zh .
+
+ex:NonExistentSourcesCitation rdf:type airo:RiskSource ;
+    rdfs:label "Non-Existent Sources Citation Risk Source"@en ;
+    rdfs:label "引用不存在的来源风险源"@zh .
+
+ex:LegalSystemUndermining rdf:type airo:Impact ;
+    rdfs:label "Legal System Undermining Impact"@en ;
+    rdfs:label "法律系统受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MisinformationExpert .

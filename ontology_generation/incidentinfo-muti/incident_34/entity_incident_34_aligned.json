@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberAutonomousVehicle",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Safety driver of fatal self-driving Uber crash was reportedly watching Hulu at time of accident"
+    },
+    "Risk": {
+      "id": "PedestrianFatalityRisk",
+      "中文名称": "行人死亡风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryOrDeath",
+      "中文名称": "人身伤害或死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "self-driving Uber crash"
+    },
+    "Stakeholder": {
+      "id": "SafetyDriver",
+      "中文名称": "安全驾驶员",
+      "英文名称": "Safety Driver",
+      "来源": "Safety driver of fatal self-driving Uber crash"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心风险源",
+      "英文名称": "Driver Distraction Risk Source",
+      "来源": "was reportedly watching Hulu at time of accident"
+    },
+    "Vulnerability": {
+      "id": "HumanMonitoringFailure",
+      "中文名称": "人工监控失效脆弱性",
+      "英文名称": "Human Visual Vulnerability",
+      "来源": "Safety driver...was watching Hulu at time of accident"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶汽车测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "self-driving Uber crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberAutonomousVehicle",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Safety driver of fatal self-driving Uber crash was reportedly watching Hulu at time of accident"
+    },
+    "Risk": {
+      "id": "PedestrianFatalityRisk",
+      "中文名称": "行人死亡风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryOrDeath",
+      "中文名称": "人身伤害或死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "self-driving Uber crash"
+    },
+    "Stakeholder": {
+      "id": "SafetyDriver",
+      "中文名称": "安全驾驶员",
+      "英文名称": "Safety Driver",
+      "来源": "Safety driver of fatal self-driving Uber crash"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心风险源",
+      "英文名称": "Driver Distraction Risk Source",
+      "来源": "was reportedly watching Hulu at time of accident"
+    },
+    "Vulnerability": {
+      "id": "HumanMonitoringFailure",
+      "中文名称": "人工监控失效脆弱性",
+      "英文名称": "Human Visual Vulnerability",
+      "来源": "Safety driver...was watching Hulu at time of accident"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "fatal self-driving Uber crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶汽车测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "self-driving Uber crash"
+    }
+  }
+}

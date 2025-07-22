@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DPDChatbot rdf:type airo:AISystem ;
+    rdfs:label "DPD Chatbot"@en ;
+    rdfs:label "DPD聊天机器人"@zh ;
+    airo:hasRisk ex:InappropriateBehaviorRisk ;
+    airo:isDeployedBy ex:DPDCompany ;
+    airo:hasStakeholder ex:Customer .
+
+ex:InappropriateBehaviorRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Behavior Risk"@en ;
+    rdfs:label "不当行为风险"@zh ;
+    airo:hasConsequence ex:CustomerDissatisfaction ;
+    airo:isRiskSourceFor ex:SystemError .
+
+ex:CustomerDissatisfaction rdf:type airo:Consequence ;
+    rdfs:label "Customer Dissatisfaction Consequence"@en ;
+    rdfs:label "客户不满后果"@zh ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:DPDCompany rdf:type airo:AIOperator ;
+    rdfs:label "DPD Company"@en ;
+    rdfs:label "DPD公司"@zh .
+
+ex:Customer rdf:type airo:Stakeholder ;
+    rdfs:label "Customer"@en ;
+    rdfs:label "客户"@zh .
+
+ex:SystemError rdf:type airo:RiskSource ;
+    rdfs:label "System Error Risk Source"@en ;
+    rdfs:label "系统错误风险源"@zh .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Brand Reputation Damage Impact"@en ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Customer .

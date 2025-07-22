@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIVirtualAssistant",
+      "中文名称": "OpenAI虚拟助手",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Risk": {
+      "id": "VoiceImpersonationRisk",
+      "中文名称": "声音模仿风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Stakeholder": {
+      "id": "ScarlettJohansson",
+      "中文名称": "斯嘉丽·约翰逊",
+      "英文名称": "Scarlett Johansson",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Consequence": {
+      "id": "UnauthorizedVoiceUse",
+      "中文名称": "未经授权使用声音的后果",
+      "英文名称": "Unauthorized Voice Use Consequence",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Scarlett Johansson’s Statement About Her Interactions With Sam Altman"
+    },
+    "RiskSource": {
+      "id": "LackOfConsent",
+      "中文名称": "缺乏同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIVirtualAssistant",
+      "中文名称": "OpenAI虚拟助手",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Risk": {
+      "id": "VoiceImpersonationRisk",
+      "中文名称": "声音模仿风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Stakeholder": {
+      "id": "ScarlettJohansson",
+      "中文名称": "斯嘉丽·约翰逊",
+      "英文名称": "Scarlett Johansson",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Consequence": {
+      "id": "UnauthorizedVoiceUse",
+      "中文名称": "未经授权使用声音的后果",
+      "英文名称": "Unauthorized Voice Use Consequence",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Scarlett Johansson’s Statement About Her Interactions With Sam Altman"
+    },
+    "RiskSource": {
+      "id": "LackOfConsent",
+      "中文名称": "缺乏同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her"
+    }
+  }
+}

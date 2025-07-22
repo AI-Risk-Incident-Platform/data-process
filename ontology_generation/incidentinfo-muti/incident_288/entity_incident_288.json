@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的面部识别软件导致错误逮捕"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "Wrongful Arrest Risk",
+      "来源": "因面部识别匹配错误导致无辜者被监禁"
+    },
+    "Consequence": {
+      "id": "FalseImprisonment",
+      "中文名称": "错误监禁后果",
+      "英文名称": "False Imprisonment Consequence",
+      "来源": "一名黑人男子因面部识别技术误认而被错误监禁10天"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Civil Rights Violation Impact",
+      "来源": "新泽西州一名黑人男子被面部识别技术误认并错误监禁"
+    },
+    "AISubject": {
+      "id": "WrongfullyArrestedIndividual",
+      "中文名称": "被错误逮捕的个人",
+      "英文名称": "Wrongfully Arrested Individual",
+      "来源": "因面部识别匹配错误而被监禁的无辜者"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agencies",
+      "来源": "使用面部识别技术进行逮捕的执法部门"
+    },
+    "Vulnerability": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见脆弱性",
+      "英文名称": "Racial Bias in Facial Recognition Vulnerability",
+      "来源": "黑人更可能被面部识别系统错误匹配"
+    }
+  }
+}

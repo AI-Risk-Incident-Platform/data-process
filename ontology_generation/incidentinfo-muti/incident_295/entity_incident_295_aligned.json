@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleFacialRecognitionSystem",
+      "中文名称": "苹果面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Risk": {
+      "id": "FalseArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstApple",
+      "中文名称": "对苹果的法律诉讼后果",
+      "英文名称": "Legal Action Against Apple Consequence",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "AISubject": {
+      "id": "TeenagerFalselyIdentified",
+      "中文名称": "被错误识别的青少年",
+      "英文名称": "Teenager Falsely Identified",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "AIOperator": {
+      "id": "AppleStoreSecurity",
+      "中文名称": "苹果商店安保",
+      "英文名称": "Apple Store Security",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AppleFacialRecognitionSystem",
+      "中文名称": "苹果面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Risk": {
+      "id": "FalseArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstApple",
+      "中文名称": "对苹果的法律诉讼后果",
+      "英文名称": "Legal Action Against Apple Consequence",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "AISubject": {
+      "id": "TeenagerFalselyIdentified",
+      "中文名称": "被错误识别的青少年",
+      "英文名称": "Teenager Falsely Identified",
+      "来源": "Teen sues Apple for $1 billion, blames facial recognition at stores for his arrest"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    },
+    "AIOperator": {
+      "id": "AppleStoreSecurity",
+      "中文名称": "苹果商店安保",
+      "英文名称": "Apple Store Security",
+      "来源": "Apple sued over false accusations in Apple Store thefts by impostor"
+    }
+  }
+}

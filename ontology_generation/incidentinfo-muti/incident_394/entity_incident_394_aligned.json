@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchEngine",
+      "中文名称": "谷歌搜索引擎",
+      "英文名称": "Google Search",
+      "来源": "标题中提到的'Googling for Abortion'表明使用了谷歌搜索引擎"
+    },
+    "Risk": {
+      "id": "AbortionInformationAccessRisk",
+      "中文名称": "堕胎信息获取风险",
+      "英文名称": "Abortion Information Access Risk",
+      "来源": "标题'Search Engine Mediation of Abortion Accessibility'表明搜索引擎可能影响堕胎信息的可获取性"
+    },
+    "Domain": {
+      "id": "HealthcareInformation",
+      "中文名称": "医疗健康信息领域",
+      "英文名称": "Healthcare Info Domain",
+      "来源": "涉及堕胎相关信息的获取，属于医疗健康信息领域"
+    },
+    "Purpose": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "搜索引擎的主要目的是信息检索"
+    },
+    "AISubject": {
+      "id": "AbortionSeekers",
+      "中文名称": "寻求堕胎信息者",
+      "英文名称": "Abortion Seekers",
+      "来源": "标题'Googling for Abortion'表明用户群体是寻求堕胎信息的人"
+    },
+    "Stakeholder": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "作为谷歌搜索引擎的运营方"
+    },
+    "RiskSource": {
+      "id": "SearchAlgorithmBias",
+      "中文名称": "搜索算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "标题暗示搜索引擎可能对堕胎信息的可获取性产生中介影响"
+    },
+    "Impact": {
+      "id": "LimitedAccessToHealthcareInformation",
+      "中文名称": "医疗信息获取受限影响",
+      "英文名称": "Limited Access to Healthcare Information Impact",
+      "来源": "标题'Mediation of Abortion Accessibility'表明可能影响用户获取相关医疗信息"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSearchEngine",
+      "中文名称": "谷歌搜索引擎",
+      "英文名称": "Google Search",
+      "来源": "标题中提到的'Googling for Abortion'表明使用了谷歌搜索引擎"
+    },
+    "Risk": {
+      "id": "AbortionInformationAccessRisk",
+      "中文名称": "堕胎信息获取风险",
+      "英文名称": "Abortion Information Access Risk",
+      "来源": "标题'Search Engine Mediation of Abortion Accessibility'表明搜索引擎可能影响堕胎信息的可获取性"
+    },
+    "Domain": {
+      "id": "HealthcareInformation",
+      "中文名称": "医疗健康信息领域",
+      "英文名称": "Healthcare Info Domain",
+      "来源": "涉及堕胎相关信息的获取，属于医疗健康信息领域"
+    },
+    "Purpose": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "搜索引擎的主要目的是信息检索"
+    },
+    "AISubject": {
+      "id": "AbortionSeekers",
+      "中文名称": "寻求堕胎信息者",
+      "英文名称": "Abortion Seekers",
+      "来源": "标题'Googling for Abortion'表明用户群体是寻求堕胎信息的人"
+    },
+    "Stakeholder": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "作为谷歌搜索引擎的运营方"
+    },
+    "RiskSource": {
+      "id": "SearchAlgorithmBias",
+      "中文名称": "搜索算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "标题暗示搜索引擎可能对堕胎信息的可获取性产生中介影响"
+    },
+    "Impact": {
+      "id": "LimitedAccessToHealthcareInformation",
+      "中文名称": "医疗信息获取受限影响",
+      "英文名称": "Limited Access to Healthcare Information Impact",
+      "来源": "标题'Mediation of Abortion Accessibility'表明可能影响用户获取相关医疗信息"
+    }
+  }
+}

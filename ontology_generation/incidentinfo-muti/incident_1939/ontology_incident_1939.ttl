@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedMushroomForagingBooks rdf:type airo:AISystem ;
+    rdfs:label "AI-Generated Mushroom Foraging Books"@en ;
+    rdfs:label "AI生成的蘑菇采摘书籍"@zh ;
+    airo:hasRisk ex:DeadlyAdviceRisk ;
+    airo:hasPurpose ex:ProvidingForagingGuidance ;
+    airo:hasStakeholder ex:MushroomForagers ;
+    airo:isAppliedWithinDomain ex:PublishingIndustry ;
+    airo:isDevelopedBy ex:Amazon .
+
+ex:DeadlyAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "Deadly Advice Risk"@en ;
+    rdfs:label "致命建议风险"@zh ;
+    airo:hasConsequence ex:PoisoningOrDeath ;
+    airo:isRiskSourceFor ex:InaccurateAIKnowledge .
+
+ex:PoisoningOrDeath rdf:type airo:Consequence ;
+    rdfs:label "Poisoning or Death Consequence"@en ;
+    rdfs:label "中毒或死亡后果"@zh ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:MushroomForagers rdf:type airo:Stakeholder ;
+    rdfs:label "Mushroom Foragers"@en ;
+    rdfs:label "蘑菇采摘者"@zh .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "Public Health Threat Impact"@en ;
+    rdfs:label "公共健康威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MushroomForagers .
+
+ex:ProvidingForagingGuidance rdf:type airo:Purpose ;
+    rdfs:label "Providing Foraging Guidance Purpose"@en ;
+    rdfs:label "提供采摘指导的目的"@zh .
+
+ex:PublishingIndustry rdf:type airo:Domain ;
+    rdfs:label "Publishing Industry Domain"@en ;
+    rdfs:label "出版业领域"@zh .
+
+ex:InaccurateAIKnowledge rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate AI Knowledge Risk Source"@en ;
+    rdfs:label "不准确的AI知识风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfExpertReview .
+
+ex:LackOfExpertReview rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Expert Review Vulnerability"@en ;
+    rdfs:label "缺乏专家评审的脆弱性"@zh .

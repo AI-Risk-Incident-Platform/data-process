@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutonomousFoodDeliveryPod rdf:type airo:AISystem ;
+    rdfs:label "Autonomous Food Delivery Pod"@en ;
+    rdfs:label "自主食品配送舱"@zh ;
+    airo:hasRisk ex:PhysicalCollisionRisk ;
+    airo:isAppliedWithinDomain ex:FoodDeliveryServices .
+
+ex:PhysicalCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Collision Risk"@en ;
+    rdfs:label "物理碰撞风险"@zh ;
+    airo:hasConsequence ex:EquipmentDestruction .
+
+ex:EquipmentDestruction rdf:type airo:Consequence ;
+    rdfs:label "Equipment Destruction Consequence"@en ;
+    rdfs:label "设备损毁后果"@zh ;
+    airo:hasImpact ex:ServiceDisruption .
+
+ex:ServiceDisruption rdf:type airo:Impact ;
+    rdfs:label "Service Disruption Impact"@en ;
+    rdfs:label "服务中断影响"@zh .
+
+ex:FoodDeliveryServices rdf:type airo:Domain ;
+    rdfs:label "Food Delivery Services Domain"@en ;
+    rdfs:label "食品配送服务领域"@zh .

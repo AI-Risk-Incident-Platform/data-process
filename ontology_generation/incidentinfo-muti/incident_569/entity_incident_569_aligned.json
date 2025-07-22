@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GOMediaAIContentGeneration",
+      "中文名称": "G/O媒体AI生成内容",
+      "英文名称": "G/O Media AI Content Generation",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "Risk": {
+      "id": "LowQualityAIContentRisk",
+      "中文名称": "低质量AI内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Io9 Staff Horrified as Site Publishes Error-Filled AI Generated Garbage"
+    },
+    "Consequence": {
+      "id": "StaffDissatisfaction",
+      "中文名称": "员工不满后果",
+      "英文名称": "Employee Stress Consequence",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "Impact": {
+      "id": "ContentQualityDegradation",
+      "中文名称": "内容质量下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Io9 Staff Horrified as Site Publishes Error-Filled AI Generated Garbage"
+    },
+    "Stakeholder": {
+      "id": "GizmodoStaff",
+      "中文名称": "Gizmodo员工",
+      "英文名称": "Gizmodo Staff",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "AIOperator": {
+      "id": "GOMedia",
+      "中文名称": "G/O媒体",
+      "英文名称": "G/O Media",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "RiskSource": {
+      "id": "AIWritingErrors",
+      "中文名称": "AI写作错误风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "How an AI-written Star Wars story created chaos at Gizmodo"
+    },
+    "Domain": {
+      "id": "MediaPublishing",
+      "中文名称": "媒体出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GOMediaAIContentGeneration",
+      "中文名称": "G/O媒体AI生成内容",
+      "英文名称": "G/O Media AI Content Generation",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "Risk": {
+      "id": "LowQualityAIContentRisk",
+      "中文名称": "低质量AI内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Io9 Staff Horrified as Site Publishes Error-Filled AI Generated Garbage"
+    },
+    "Consequence": {
+      "id": "StaffDissatisfaction",
+      "中文名称": "员工不满后果",
+      "英文名称": "Employee Stress Consequence",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "Impact": {
+      "id": "ContentQualityDegradation",
+      "中文名称": "内容质量下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Io9 Staff Horrified as Site Publishes Error-Filled AI Generated Garbage"
+    },
+    "Stakeholder": {
+      "id": "GizmodoStaff",
+      "中文名称": "Gizmodo员工",
+      "英文名称": "Gizmodo Staff",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "AIOperator": {
+      "id": "GOMedia",
+      "中文名称": "G/O媒体",
+      "英文名称": "G/O Media",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    },
+    "RiskSource": {
+      "id": "AIWritingErrors",
+      "中文名称": "AI写作错误风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "How an AI-written Star Wars story created chaos at Gizmodo"
+    },
+    "Domain": {
+      "id": "MediaPublishing",
+      "中文名称": "媒体出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HonorlockExamProctoringSystem rdf:type airo:AISystem ;
+    rdfs:label "Honorlock Exam Proctoring System"@en ;
+    rdfs:label "Honorlock考试监考系统"@zh ;
+    airo:hasRisk ex:RacialBiasInFacialRecognition ;
+    airo:hasAICapability ex:FacialRecognitionForExamMonitoring ;
+    airo:hasStakeholder ex:UWMadisonStudents ;
+    airo:isDeployedBy ex:HonorlockCompany ;
+    airo:hasPurpose ex:RemoteExamProctoring ;
+    airo:isAppliedWithinDomain ex:HigherEducation ;
+    airo:usesTechnique ex:ComputerVisionBasedProctoring .
+
+ex:RacialBiasInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:ExclusionOfDarkSkinStudents ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:ExclusionOfDarkSkinStudents rdf:type airo:Consequence ;
+    rdfs:label "Exclusion of Dark-Skin Students Consequence"@en ;
+    rdfs:label "深肤色学生被排除的后果"@zh ;
+    airo:hasImpact ex:EducationalInequity .
+
+ex:FacialRecognitionForExamMonitoring rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Exam Monitoring Capability"@en ;
+    rdfs:label "用于考试监控的面部识别能力"@zh .
+
+ex:UWMadisonStudents rdf:type airo:Stakeholder ;
+    rdfs:label "UW-Madison Students"@en ;
+    rdfs:label "威斯康星大学麦迪逊分校学生"@zh .
+
+ex:HonorlockCompany rdf:type airo:AIOperator ;
+    rdfs:label "Honorlock Company"@en ;
+    rdfs:label "Honorlock公司"@zh .
+
+ex:EducationalInequity rdf:type airo:Impact ;
+    rdfs:label "Educational Inequity Impact"@en ;
+    rdfs:label "教育不平等的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UWMadisonStudents .
+
+ex:RemoteExamProctoring rdf:type airo:Purpose ;
+    rdfs:label "Remote Exam Proctoring Purpose"@en ;
+    rdfs:label "远程考试监考的目的"@zh .
+
+ex:HigherEducation rdf:type airo:Domain ;
+    rdfs:label "Higher Education Domain"@en ;
+    rdfs:label "高等教育领域"@zh .
+
+ex:ComputerVisionBasedProctoring rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision-Based Proctoring Technique"@en ;
+    rdfs:label "基于计算机视觉的监考技术"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据的风险源"@zh .

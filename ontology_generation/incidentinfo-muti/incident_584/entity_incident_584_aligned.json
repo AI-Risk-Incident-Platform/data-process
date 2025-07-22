@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GooglePhotosApp",
+      "中文名称": "谷歌照片应用",
+      "英文名称": "Google Photos",
+      "来源": "Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageRecognition",
+      "中文名称": "图像识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "Consequence": {
+      "id": "OffensiveLabelingOfBlackPeople",
+      "中文名称": "对黑人进行冒犯性标记的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToBlackUsers",
+      "中文名称": "对黑人用户心理伤害的影响",
+      "英文名称": "Psychological Harm to Black Users Impact",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google’s Photos App is Still Unable to Find Gorillas"
+    },
+    "Stakeholder": {
+      "id": "BlackUsers",
+      "中文名称": "黑人用户",
+      "英文名称": "Black Users",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GooglePhotosApp",
+      "中文名称": "谷歌照片应用",
+      "英文名称": "Google Photos",
+      "来源": "Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageRecognition",
+      "中文名称": "图像识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "Consequence": {
+      "id": "OffensiveLabelingOfBlackPeople",
+      "中文名称": "对黑人进行冒犯性标记的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToBlackUsers",
+      "中文名称": "对黑人用户心理伤害的影响",
+      "英文名称": "Psychological Harm to Black Users Impact",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "Google’s Photos App is Still Unable to Find Gorillas"
+    },
+    "Stakeholder": {
+      "id": "BlackUsers",
+      "中文名称": "黑人用户",
+      "英文名称": "Black Users",
+      "来源": "Google ‘appalled’ as Photos app labels black people ‘gorillas’"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s"
+    }
+  }
+}

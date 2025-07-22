@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AISentencingSystem",
+      "中文名称": "AI量刑系统",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Malaysian judiciary makes history, uses AI in sentencing"
+    },
+    "Risk": {
+      "id": "JusticeRisk",
+      "中文名称": "司法公正风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "As Malaysia tests AI court sentencing, lawyers fear for justice"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "In a local first, Sabah court gives out sentence assisted by AI"
+    },
+    "Stakeholder": {
+      "id": "Lawyers",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "As Malaysia tests AI court sentencing, lawyers fear for justice"
+    },
+    "AIOperator": {
+      "id": "MalaysianJudiciary",
+      "中文名称": "马来西亚司法机构",
+      "英文名称": "Malaysian Judiciary",
+      "来源": "Malaysian judiciary makes history, uses AI in sentencing"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AISentencingSystem",
+      "中文名称": "AI量刑系统",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Malaysian judiciary makes history, uses AI in sentencing"
+    },
+    "Risk": {
+      "id": "JusticeRisk",
+      "中文名称": "司法公正风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "As Malaysia tests AI court sentencing, lawyers fear for justice"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "In a local first, Sabah court gives out sentence assisted by AI"
+    },
+    "Stakeholder": {
+      "id": "Lawyers",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "As Malaysia tests AI court sentencing, lawyers fear for justice"
+    },
+    "AIOperator": {
+      "id": "MalaysianJudiciary",
+      "中文名称": "马来西亚司法机构",
+      "英文名称": "Malaysian Judiciary",
+      "来源": "Malaysian judiciary makes history, uses AI in sentencing"
+    }
+  }
+}

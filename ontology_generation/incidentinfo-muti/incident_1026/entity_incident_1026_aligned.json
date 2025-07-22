@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VideoDoctoringAI",
+      "中文名称": "视频篡改AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "viral video doctored"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "viral video doctored"
+    },
+    "Stakeholder": {
+      "id": "NigerianPublic",
+      "中文名称": "尼日利亚公众",
+      "英文名称": "Nigerian Public",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    },
+    "Domain": {
+      "id": "PoliticalCommunication",
+      "中文名称": "政治传播",
+      "英文名称": "Political Media Domain",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VideoDoctoringAI",
+      "中文名称": "视频篡改AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "viral video doctored"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "viral video doctored"
+    },
+    "Stakeholder": {
+      "id": "NigerianPublic",
+      "中文名称": "尼日利亚公众",
+      "英文名称": "Nigerian Public",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    },
+    "Domain": {
+      "id": "PoliticalCommunication",
+      "中文名称": "政治传播",
+      "英文名称": "Political Media Domain",
+      "来源": "Nigeria's president Bola Tinubu didn't scrap the naira and replace it with dollar"
+    }
+  }
+}

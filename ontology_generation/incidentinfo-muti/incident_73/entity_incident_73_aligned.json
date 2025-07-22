@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SelfDrivingCar",
+      "中文名称": "自动驾驶汽车",
+      "英文名称": "Autonomous Cars",
+      "来源": "Self-driving cars in winter"
+    },
+    "Risk": {
+      "id": "SensorBlindnessInWinter",
+      "中文名称": "冬季传感器失效风险",
+      "英文名称": "Sensor Blindness in Winter Risk",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "Consequence": {
+      "id": "ReducedDrivingPerformance",
+      "中文名称": "驾驶性能下降后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "5 Things That Give Self-Driving Cars Headaches"
+    },
+    "AICapability": {
+      "id": "WinterEnvironmentPerception",
+      "中文名称": "冬季环境感知能力",
+      "英文名称": "Winter Environment Perception Capability",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "RiskSource": {
+      "id": "SnowCoveredRoads",
+      "中文名称": "积雪道路风险源",
+      "英文名称": "Snow Covered Roads Risk Source",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "Vulnerability": {
+      "id": "SensorPerformanceInExtremeWeather",
+      "中文名称": "极端天气下传感器性能脆弱性",
+      "英文名称": "Sensor Vulnerability",
+      "来源": "5 Things That Give Self-Driving Cars Headaches"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SelfDrivingCar",
+      "中文名称": "自动驾驶汽车",
+      "英文名称": "Autonomous Cars",
+      "来源": "Self-driving cars in winter"
+    },
+    "Risk": {
+      "id": "SensorBlindnessInWinter",
+      "中文名称": "冬季传感器失效风险",
+      "英文名称": "Sensor Blindness in Winter Risk",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "Consequence": {
+      "id": "ReducedDrivingPerformance",
+      "中文名称": "驾驶性能下降后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "5 Things That Give Self-Driving Cars Headaches"
+    },
+    "AICapability": {
+      "id": "WinterEnvironmentPerception",
+      "中文名称": "冬季环境感知能力",
+      "英文名称": "Winter Environment Perception Capability",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "RiskSource": {
+      "id": "SnowCoveredRoads",
+      "中文名称": "积雪道路风险源",
+      "英文名称": "Snow Covered Roads Risk Source",
+      "来源": "Self-Driving Vehicles Meet Their Match When Snow Creates Sensor Blindness"
+    },
+    "Vulnerability": {
+      "id": "SensorPerformanceInExtremeWeather",
+      "中文名称": "极端天气下传感器性能脆弱性",
+      "英文名称": "Sensor Vulnerability",
+      "来源": "5 Things That Give Self-Driving Cars Headaches"
+    }
+  }
+}

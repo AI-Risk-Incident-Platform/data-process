@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MilitaryAIApplications",
+      "中文名称": "军事AI应用",
+      "英文名称": "Military AI Applications",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "Risk": {
+      "id": "FriendOrFoeSystemFailureRisk",
+      "中文名称": "敌我识别系统故障风险",
+      "英文名称": "Friendly Fire/Foe System Risk",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "Consequence": {
+      "id": "FriendlyFireIncident",
+      "中文名称": "友军误伤事件",
+      "英文名称": "Friendly Fire Incident",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "AICapability": {
+      "id": "TargetIdentificationCapability",
+      "中文名称": "目标识别能力",
+      "英文名称": "Target Identification Capability",
+      "来源": "Patriot missile: friend or foe?"
+    },
+    "Stakeholder": {
+      "id": "MilitaryPersonnel",
+      "中文名称": "军事人员",
+      "英文名称": "Military Personnel",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "RiskSource": {
+      "id": "SystemIdentificationError",
+      "中文名称": "系统识别错误",
+      "英文名称": "System Identification Error",
+      "来源": "Patriot missile: friend or foe?"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "Domain": {
+      "id": "MilitaryDefense",
+      "中文名称": "军事防御",
+      "英文名称": "Military Defense",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "AITechnique": {
+      "id": "PatternRecognition",
+      "中文名称": "模式识别",
+      "英文名称": "Pattern Recognition",
+      "来源": "Patriot missile: friend or foe?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MilitaryAIApplications",
+      "中文名称": "军事AI应用",
+      "英文名称": "Military AI Applications",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "Risk": {
+      "id": "FriendOrFoeSystemFailureRisk",
+      "中文名称": "敌我识别系统故障风险",
+      "英文名称": "Friendly Fire/Foe System Risk",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "Consequence": {
+      "id": "FriendlyFireIncident",
+      "中文名称": "友军误伤事件",
+      "英文名称": "Friendly Fire Incident",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "AICapability": {
+      "id": "TargetIdentificationCapability",
+      "中文名称": "目标识别能力",
+      "英文名称": "Target Identification Capability",
+      "来源": "Patriot missile: friend or foe?"
+    },
+    "Stakeholder": {
+      "id": "MilitaryPersonnel",
+      "中文名称": "军事人员",
+      "英文名称": "Military Personnel",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "RiskSource": {
+      "id": "SystemIdentificationError",
+      "中文名称": "系统识别错误",
+      "英文名称": "System Identification Error",
+      "来源": "Patriot missile: friend or foe?"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tornado crew shot down after friend or foe system failed"
+    },
+    "Domain": {
+      "id": "MilitaryDefense",
+      "中文名称": "军事防御",
+      "英文名称": "Military Defense",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "AITechnique": {
+      "id": "PatternRecognition",
+      "中文名称": "模式识别",
+      "英文名称": "Pattern Recognition",
+      "来源": "Patriot missile: friend or foe?"
+    }
+  }
+}

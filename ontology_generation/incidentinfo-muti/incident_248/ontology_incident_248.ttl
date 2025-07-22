@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LicensePlateReaderSystem rdf:type airo:AISystem ;
+    rdfs:label "License Plate Reader System"@en ;
+    rdfs:label "车牌识别系统"@zh ;
+    airo:hasRisk ex:FalsePositiveIdentificationRisk ;
+    airo:hasAISubject ex:InnocentCitizen ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:hasVulnerability ex:SystemOverreliance .
+
+ex:FalsePositiveIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "False Positive Identification Risk"@en ;
+    rdfs:label "误识别风险"@zh ;
+    airo:hasConsequence ex:UnnecessaryPoliceConfrontation ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:UnnecessaryPoliceConfrontation rdf:type airo:Consequence ;
+    rdfs:label "Unnecessary Police Confrontation Consequence"@en ;
+    rdfs:label "不必要的警方对峙后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:InnocentCitizen rdf:type airo:AISubject ;
+    rdfs:label "Innocent Citizen"@en ;
+    rdfs:label "无辜市民"@zh .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement Agencies"@en ;
+    rdfs:label "执法机构"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:LawEnforcementAgencies , ex:InnocentCitizen .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error"@en ;
+    rdfs:label "算法错误"@zh .
+
+ex:SystemOverreliance rdf:type airo:Vulnerability ;
+    rdfs:label "System Overreliance"@en ;
+    rdfs:label "系统过度依赖"@zh .

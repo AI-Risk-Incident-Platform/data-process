@@ -1,0 +1,60 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RealEstateFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Real Estate Facial Recognition System"@en ;
+    rdfs:label "房地产人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:HomeBuyers, ex:RealEstateFirms ;
+    airo:hasPurpose ex:CustomerIdentificationAndTracking ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:isAppliedWithinDomain ex:RealEstateIndustryDomain .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PriceDiscrimination ;
+    airo:isRiskSourceFor ex:UnauthorizedDataCollection .
+
+ex:PriceDiscrimination rdf:type airo:Consequence ;
+    rdfs:label "Price Discrimination Consequence"@en ;
+    rdfs:label "价格歧视后果"@zh ;
+    airo:hasImpact ex:ConsumerRightsInfringement .
+
+ex:HomeBuyers rdf:type airo:Stakeholder ;
+    rdfs:label "Home Buyers"@en ;
+    rdfs:label "购房者"@zh .
+
+ex:RealEstateFirms rdf:type airo:AIOperator ;
+    rdfs:label "Real Estate Firms"@en ;
+    rdfs:label "房地产公司"@zh .
+
+ex:CustomerIdentificationAndTracking rdf:type airo:Purpose ;
+    rdfs:label "Customer Identification and Tracking Purpose"@en ;
+    rdfs:label "客户识别与追踪目的"@zh .
+
+ex:ConsumerRightsInfringement rdf:type airo:Impact ;
+    rdfs:label "Consumer Rights Infringement Impact"@en ;
+    rdfs:label "消费者权益侵害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HomeBuyers .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "人脸识别技术"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Collection Risk Source"@en ;
+    rdfs:label "未经授权的数据收集风险源"@zh .
+
+ex:RealEstateIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Real Estate Industry Domain"@en ;
+    rdfs:label "房地产行业领域"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "TikTok Recommendation Algorithm"@en ;
+    rdfs:label "TikTok推荐算法"@zh ;
+    airo:hasRisk ex:SelfHarmContentPromotionRisk ;
+    airo:hasCapability ex:ContentPersonalizationAndRecommendation ;
+    airo:hasPurpose ex:UserEngagementMaximization ;
+    airo:hasStakeholder ex:ParentsOfDeceasedChildren ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:SelfHarmContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "Self-Harm Content Promotion Risk"@en ;
+    rdfs:label "自残内容推广风险"@zh ;
+    airo:hasConsequence ex:ChildFatalitiesFromDangerousChallenges ;
+    airo:isRiskSourceFor ex:AlgorithmicAmplificationOfHarmfulContent .
+
+ex:ChildFatalitiesFromDangerousChallenges rdf:type airo:Consequence ;
+    rdfs:label "Child Fatalities from Dangerous Challenges Consequence"@en ;
+    rdfs:label "危险挑战导致儿童死亡后果"@zh ;
+    airo:hasImpact ex:FamilyTraumaAndLoss .
+
+ex:ContentPersonalizationAndRecommendation rdf:type airo:AICapability ;
+    rdfs:label "Content Personalization and Recommendation Capability"@en ;
+    rdfs:label "内容个性化与推荐能力"@zh .
+
+ex:ParentsOfDeceasedChildren rdf:type airo:Stakeholder ;
+    rdfs:label "Parents of Deceased Children"@en ;
+    rdfs:label "死亡儿童父母"@zh .
+
+ex:FamilyTraumaAndLoss rdf:type airo:Impact ;
+    rdfs:label "Family Trauma and Loss Impact"@en ;
+    rdfs:label "家庭创伤与损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsOfDeceasedChildren .
+
+ex:UserEngagementMaximization rdf:type airo:Purpose ;
+    rdfs:label "User Engagement Maximization Purpose"@en ;
+    rdfs:label "用户参与度最大化目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:AlgorithmicAmplificationOfHarmfulContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Amplification of Harmful Content Risk Source"@en ;
+    rdfs:label "有害内容的算法放大风险源"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPriest rdf:type airo:AISystem ;
+    rdfs:label "AI牧师"@zh ;
+    rdfs:label "AI Priest"@en ;
+    airo:hasRisk ex:StrangeAnswersRisk ;
+    airo:hasStakeholder ex:CatholicGroup ;
+    airo:hasPurpose ex:ReligiousGuidance ;
+    airo:isAppliedWithinDomain ex:ReligiousServices .
+
+ex:StrangeAnswersRisk rdf:type airo:Risk ;
+    rdfs:label "奇怪回答风险"@zh ;
+    rdfs:label "Strange Answers Risk"@en ;
+    airo:hasConsequence ex:Defrocking .
+
+ex:CatholicGroup rdf:type airo:Stakeholder ;
+    rdfs:label "天主教团体"@zh ;
+    rdfs:label "Catholic Group"@en .
+
+ex:Defrocking rdf:type airo:Consequence ;
+    rdfs:label "解除职务后果"@zh ;
+    rdfs:label "Defrocking Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:CatholicGroup .
+
+ex:ReligiousGuidance rdf:type airo:Purpose ;
+    rdfs:label "宗教指导目的"@zh ;
+    rdfs:label "Religious Guidance Purpose"@en .
+
+ex:ReligiousServices rdf:type airo:Domain ;
+    rdfs:label "宗教服务领域"@zh ;
+    rdfs:label "Religious Services Domain"@en .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UnitedHealthAIClaimsDenialSystem rdf:type airo:AISystem ;
+    rdfs:label "UnitedHealth AI Claims Denial System"@en ;
+    rdfs:label "联合健康AI索赔拒绝系统"@zh ;
+    airo:hasRisk ex:InappropriateClaimDenialRisk ;
+    airo:isDeployedBy ex:UnitedHealthcare ;
+    airo:hasPurpose ex:ClaimsProcessingAutomation ;
+    airo:isAppliedWithinDomain ex:HealthInsurance ;
+    airo:hasStakeholder ex:MedicareAdvantagePatients .
+
+ex:InappropriateClaimDenialRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Claim Denial Risk"@en ;
+    rdfs:label "不当索赔拒绝风险"@zh ;
+    airo:hasConsequence ex:PatientCareDenial ;
+    airo:isRiskSourceFor ex:HighErrorRateAlgorithm .
+
+ex:PatientCareDenial rdf:type airo:Consequence ;
+    rdfs:label "Patient Care Denial Consequence"@en ;
+    rdfs:label "患者护理被拒后果"@zh ;
+    airo:hasImpact ex:HealthcareAccessReduction .
+
+ex:UnitedHealthcare rdf:type airo:AIOperator ;
+    rdfs:label "UnitedHealthcare"@en ;
+    rdfs:label "联合健康"@zh .
+
+ex:MedicareAdvantagePatients rdf:type airo:Stakeholder ;
+    rdfs:label "Medicare Advantage Patients"@en ;
+    rdfs:label "联邦医疗保险优势计划患者"@zh .
+
+ex:HealthcareAccessReduction rdf:type airo:Impact ;
+    rdfs:label "Healthcare Access Reduction Impact"@en ;
+    rdfs:label "医疗可及性降低影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicareAdvantagePatients .
+
+ex:ClaimsProcessingAutomation rdf:type airo:Purpose ;
+    rdfs:label "Claims Processing Automation Purpose"@en ;
+    rdfs:label "索赔处理自动化目的"@zh .
+
+ex:HealthInsurance rdf:type airo:Domain ;
+    rdfs:label "Health Insurance Domain"@en ;
+    rdfs:label "健康保险领域"@zh .
+
+ex:HighErrorRateAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "High Error Rate Algorithm Risk Source"@en ;
+    rdfs:label "高错误率算法风险源"@zh .

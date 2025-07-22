@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VisaApplicationScreeningAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Visa Application Screening Algorithm"@en ;
+    rdfs:label "签证申请筛选算法"@zh ;
+    airo:hasRisk ex:RacialBiasInVisaScreening ;
+    airo:hasStakeholder ex:VisaApplicantsFromCertainCountries ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndBorderControl .
+
+ex:RacialBiasInVisaScreening rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Visa Screening Risk"@en ;
+    rdfs:label "签证筛选中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingDataInAlgorithm ;
+    airo:hasConsequence ex:UnfairRejectionOfVisaApplicants .
+
+ex:UnfairRejectionOfVisaApplicants rdf:type airo:Consequence ;
+    rdfs:label "Unfair Rejection of Visa Applicants Consequence"@en ;
+    rdfs:label "签证申请人不公平拒签后果"@zh ;
+    airo:hasImpact ex:DiscriminationAgainstCertainNationalities .
+
+ex:VisaApplicantsFromCertainCountries rdf:type airo:Stakeholder ;
+    rdfs:label "Visa Applicants from Certain Countries"@en ;
+    rdfs:label "特定国家签证申请人"@zh .
+
+ex:DiscriminationAgainstCertainNationalities rdf:type airo:Impact ;
+    rdfs:label "Discrimination Against Certain Nationalities Impact"@en ;
+    rdfs:label "对特定国籍歧视的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VisaApplicantsFromCertainCountries .
+
+ex:BiasedTrainingDataInAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data in Algorithm Risk Source"@en ;
+    rdfs:label "算法中偏见训练数据的风险源"@zh .
+
+ex:ImmigrationAndBorderControl rdf:type airo:Domain ;
+    rdfs:label "Immigration and Border Control Domain"@en ;
+    rdfs:label "移民与边境管控领域"@zh .

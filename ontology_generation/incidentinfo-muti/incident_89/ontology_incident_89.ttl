@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LeavingCertAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Leaving Cert Algorithm"@en ;
+    rdfs:label "毕业证书算法"@zh ;
+    airo:hasRisk ex:GradeDisruptionRisk ;
+    airo:hasStakeholder ex:GovernmentEducationDepartment .
+
+ex:GradeDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Grade Disruption Risk"@en ;
+    rdfs:label "成绩混乱风险"@zh ;
+    airo:hasConsequence ex:UnfairGradeAssignment ;
+    airo:isRiskSourceFor ex:SingleLineOfCodeError .
+
+ex:GovernmentEducationDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Government Education Department"@en ;
+    rdfs:label "政府教育部门"@zh .
+
+ex:UnfairGradeAssignment rdf:type airo:Consequence ;
+    rdfs:label "Unfair Grade Assignment Consequence"@en ;
+    rdfs:label "不公平成绩分配后果"@zh .
+
+ex:SingleLineOfCodeError rdf:type airo:RiskSource ;
+    rdfs:label "Single Line of Code Error Risk Source"@en ;
+    rdfs:label "单行代码错误风险源"@zh .

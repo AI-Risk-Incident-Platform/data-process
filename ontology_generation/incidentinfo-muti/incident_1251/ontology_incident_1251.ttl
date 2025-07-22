@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:UnauthorizedVoiceCloningRisk ;
+    airo:hasStakeholder ex:MarquesBrownlee .
+
+ex:UnauthorizedVoiceCloningRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Voice Cloning Risk"@en ;
+    rdfs:label "未经授权的语音克隆风险"@zh ;
+    airo:hasConsequence ex:NonConsensualVoiceReplication ;
+    airo:hasImpact ex:PersonalPrivacyViolation .
+
+ex:MarquesBrownlee rdf:type airo:Stakeholder ;
+    rdfs:label "Marques Brownlee"@en ;
+    rdfs:label "Marques Brownlee"@zh .
+
+ex:PersonalPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Violation"@en ;
+    rdfs:label "个人隐私侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:MarquesBrownlee .
+
+ex:NonConsensualVoiceReplication rdf:type airo:Misuse ;
+    rdfs:label "Non-Consensual Voice Replication"@en ;
+    rdfs:label "未经同意的语音复制"@zh .

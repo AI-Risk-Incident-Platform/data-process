@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HousebuildingAlgorithm",
+      "中文名称": "房屋建设算法",
+      "英文名称": "Housebuilding Algorithm",
+      "来源": "Housebuilding algorithm unfair to towns and cities, Boris Johnson told"
+    },
+    "Risk": {
+      "id": "UnfairUrbanDevelopmentRisk",
+      "中文名称": "不公平城市发展风险",
+      "英文名称": "Unfair Urban Development Risk",
+      "来源": "Housebuilding algorithm unfair to towns and cities"
+    },
+    "Consequence": {
+      "id": "InequitableResourceAllocation",
+      "中文名称": "资源分配不公后果",
+      "英文名称": "Inequitable Resource Allocation Consequence",
+      "来源": "Government abandons 'mutant' housing algorithm to focus on urban development"
+    },
+    "Stakeholder": {
+      "id": "UKGovernment",
+      "中文名称": "英国政府",
+      "英文名称": "UK Government",
+      "来源": "Politicians have made an algorithm to fix the housing crisis"
+    },
+    "Purpose": {
+      "id": "HousingCrisisSolution",
+      "中文名称": "住房危机解决方案",
+      "英文名称": "Housing Crisis Solution Purpose",
+      "来源": "Politicians have made an algorithm to fix the housing crisis"
+    },
+    "Domain": {
+      "id": "UrbanPlanning",
+      "中文名称": "城市规划领域",
+      "英文名称": "Urban Planning Domain",
+      "来源": "Government abandons 'mutant' housing algorithm to focus on urban development"
+    },
+    "Impact": {
+      "id": "RegionalDevelopmentImbalance",
+      "中文名称": "区域发展不平衡影响",
+      "英文名称": "Regional Development Imbalance Impact",
+      "来源": "Housebuilding algorithm unfair to towns and cities"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInResourceDistribution",
+      "中文名称": "资源分配中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Resource Distribution Risk Source",
+      "来源": "Housebuilding algorithm unfair to towns and cities"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DominoAIOrderSystem",
+      "中文名称": "达美乐AI电话订餐系统",
+      "英文名称": "Domino's AI Phone-Order System",
+      "来源": "Domino's AI Phone-Order System Collected Voice Prints"
+    },
+    "Risk": {
+      "id": "VoicePrintCollectionRisk",
+      "中文名称": "声纹采集风险",
+      "英文名称": "Voice Print Collection Risk",
+      "来源": "Domino's Hit With BIPA Suit Over AI Voiceprint Collection"
+    },
+    "Stakeholder": {
+      "id": "DominoPizza",
+      "中文名称": "达美乐披萨",
+      "英文名称": "Domino's Pizza",
+      "来源": "Domino's Hit With BIPA Suit Over AI Voiceprint Collection"
+    },
+    "AISubject": {
+      "id": "PhoneOrderCustomers",
+      "中文名称": "电话订餐顾客",
+      "英文名称": "Phone Order Customers",
+      "来源": "Domino's AI Phone-Order System Collected Voice Prints"
+    },
+    "Consequence": {
+      "id": "PotentialPrivacyViolation",
+      "中文名称": "潜在隐私侵犯后果",
+      "英文名称": "Potential Privacy Violation Consequence",
+      "来源": "Voice AI Liability – Domino’s Sued over AI Voiceprints"
+    },
+    "RiskSource": {
+      "id": "VoicePrintDataCollection",
+      "中文名称": "声纹数据采集风险源",
+      "英文名称": "Voice Print Data Collection Risk Source",
+      "来源": "Domino's AI Phone-Order System Collected Voice Prints"
+    },
+    "AICapability": {
+      "id": "VoiceRecognitionForOrderProcessing",
+      "中文名称": "用于订单处理的语音识别能力",
+      "英文名称": "Voice Recognition for Order Processing Capability",
+      "来源": "Domino's AI Phone-Order System Collected Voice Prints"
+    },
+    "Domain": {
+      "id": "FoodDeliveryService",
+      "中文名称": "食品配送服务领域",
+      "英文名称": "Food Delivery Service Domain",
+      "来源": "Domino's AI Phone-Order System Collected Voice Prints"
+    }
+  }
+}

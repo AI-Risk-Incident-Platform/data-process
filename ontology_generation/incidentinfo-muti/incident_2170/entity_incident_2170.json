@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot",
+      "来源": "Tesla Autopilot gets tricked into accelerating from 35 to 85 mph with modified speed limit sign"
+    },
+    "Risk": {
+      "id": "SpeedLimitViolationRisk",
+      "中文名称": "违反限速风险",
+      "英文名称": "Speed Limit Violation Risk",
+      "来源": "Researchers trick Tesla into massively breaking the speed limit by sticking a 2-inch piece of electrical tape on a sign"
+    },
+    "RiskSource": {
+      "id": "ModifiedSpeedLimitSign",
+      "中文名称": "修改限速标志",
+      "英文名称": "Modified Speed Limit Sign",
+      "来源": "Researchers trick Tesla into massively breaking the speed limit by sticking a 2-inch piece of electrical tape on a sign"
+    },
+    "Consequence": {
+      "id": "VehicleAccelerationBeyondLegalLimit",
+      "中文名称": "车辆加速超过法定限速",
+      "英文名称": "Vehicle Acceleration Beyond Legal Limit",
+      "来源": "Tesla Autopilot gets tricked into accelerating from 35 to 85 mph with modified speed limit sign"
+    },
+    "AICapability": {
+      "id": "SpeedLimitSignRecognition",
+      "中文名称": "限速标志识别能力",
+      "英文名称": "Speed Limit Sign Recognition Capability",
+      "来源": "Tesla Autopilot gets tricked into accelerating from 35 to 85 mph with modified speed limit sign"
+    },
+    "Vulnerability": {
+      "id": "SusceptibilityToVisualTrickery",
+      "中文名称": "易受视觉欺骗",
+      "英文名称": "Susceptibility to Visual Trickery",
+      "来源": "Researchers trick Tesla into massively breaking the speed limit by sticking a 2-inch piece of electrical tape on a sign"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForSignRecognition",
+      "中文名称": "用于标志识别的计算机视觉技术",
+      "英文名称": "Computer Vision for Sign Recognition Technique",
+      "来源": "Tesla Autopilot gets tricked into accelerating from 35 to 85 mph with modified speed limit sign"
+    },
+    "Impact": {
+      "id": "RoadSafetyCompromise",
+      "中文名称": "道路安全受损",
+      "英文名称": "Road Safety Compromise Impact",
+      "来源": "Tesla Autopilot gets tricked into accelerating from 35 to 85 mph with modified speed limit sign"
+    }
+  }
+}

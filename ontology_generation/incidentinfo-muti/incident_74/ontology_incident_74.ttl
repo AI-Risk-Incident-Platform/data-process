@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "谷歌自动驾驶汽车"@zh ;
+    rdfs:label "Google Self-Driving Car"@en ;
+    airo:hasRisk ex:CollisionRisk ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicles ;
+    airo:usesTechnique ex:SelfDrivingSoftware ;
+    airo:hasStakeholder ex:Google .
+
+ex:CollisionRisk rdf:type airo:Risk ;
+    rdfs:label "碰撞风险"@zh ;
+    rdfs:label "Collision Risk"@en ;
+    airo:isRiskSourceFor ex:SoftwareError ;
+    airo:hasConsequence ex:VehicleCollision .
+
+ex:SoftwareError rdf:type airo:RiskSource ;
+    rdfs:label "软件错误"@zh ;
+    rdfs:label "Software Error"@en .
+
+ex:VehicleCollision rdf:type airo:Consequence ;
+    rdfs:label "车辆碰撞"@zh ;
+    rdfs:label "Vehicle Collision"@en .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "谷歌"@zh ;
+    rdfs:label "Google"@en .
+
+ex:AutonomousVehicles rdf:type airo:Domain ;
+    rdfs:label "自动驾驶汽车领域"@zh ;
+    rdfs:label "Autonomous Vehicles Domain"@en .
+
+ex:SelfDrivingSoftware rdf:type airo:AITechnique ;
+    rdfs:label "自动驾驶软件技术"@zh ;
+    rdfs:label "Self-Driving Software Technique"@en .

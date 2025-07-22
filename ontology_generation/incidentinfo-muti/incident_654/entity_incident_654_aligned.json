@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CopilotDesigner",
+      "中文名称": "Copilot Designer",
+      "英文名称": "Copilot Designer",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Risk": {
+      "id": "DisturbingImageGenerationRisk",
+      "中文名称": "生成令人不安图像的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftEngineer",
+      "中文名称": "微软工程师",
+      "英文名称": "Microsoft Staff",
+      "来源": "Microsoft engineer sounds alarm on company's AI image generator in letter to FTC"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft engineer flags Copilot Designer concerns as academics call for better AI risk research"
+    },
+    "Consequence": {
+      "id": "PotentialHarmfulContentCreation",
+      "中文名称": "潜在有害内容创作后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Microsoft engineer sounds alarm on company's AI image generator in letter to FTC"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Purpose": {
+      "id": "AIArtGeneration",
+      "中文名称": "AI艺术生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Microsoft engineer flags Copilot Designer concerns as academics call for better AI risk research"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CopilotDesigner",
+      "中文名称": "Copilot Designer",
+      "英文名称": "Copilot Designer",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Risk": {
+      "id": "DisturbingImageGenerationRisk",
+      "中文名称": "生成令人不安图像的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftEngineer",
+      "中文名称": "微软工程师",
+      "英文名称": "Microsoft Staff",
+      "来源": "Microsoft engineer sounds alarm on company's AI image generator in letter to FTC"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft engineer flags Copilot Designer concerns as academics call for better AI risk research"
+    },
+    "Consequence": {
+      "id": "PotentialHarmfulContentCreation",
+      "中文名称": "潜在有害内容创作后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Microsoft engineer sounds alarm on company's AI image generator in letter to FTC"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Microsoft AI engineer says Copilot Designer creates disturbing images"
+    },
+    "Purpose": {
+      "id": "AIArtGeneration",
+      "中文名称": "AI艺术生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Microsoft engineer flags Copilot Designer concerns as academics call for better AI risk research"
+    }
+  }
+}

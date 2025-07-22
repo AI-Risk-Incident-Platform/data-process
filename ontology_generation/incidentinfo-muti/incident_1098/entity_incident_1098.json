@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Millions of faces scanned without approval"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集后果",
+      "英文名称": "Unauthorized Data Collection Consequence",
+      "来源": "Millions of faces scanned without approval"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Personal Privacy Compromise Impact",
+      "来源": "Millions of faces scanned without approval"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "General Public",
+      "来源": "Millions of faces scanned without approval"
+    },
+    "RiskSource": {
+      "id": "LackOfRegulation",
+      "中文名称": "缺乏监管的风险源",
+      "英文名称": "Lack of Regulation Risk Source",
+      "来源": "We need rules for facial recognition"
+    },
+    "AIOperator": {
+      "id": "Paravision",
+      "中文名称": "Paravision公司",
+      "英文名称": "Paravision",
+      "来源": "Paravision Faces Claim It Used Cloud Photos for Face Recognition"
+    },
+    "Misuse": {
+      "id": "UnauthorizedPhotoUsage",
+      "中文名称": "未经授权的照片使用滥用",
+      "英文名称": "Unauthorized Photo Usage Misuse",
+      "来源": "FTC requires destruction of algorithms trained on deceptively obtained photos"
+    },
+    "RiskControl": {
+      "id": "AlgorithmDestruction",
+      "中文名称": "算法销毁管控",
+      "英文名称": "Algorithm Destruction Risk Control",
+      "来源": "FTC requires destruction of algorithms trained on deceptively obtained photos"
+    }
+  }
+}

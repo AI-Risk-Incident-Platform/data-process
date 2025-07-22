@@ -1,0 +1,31 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SpeedCameraApp rdf:type airo:AISystem ;
+    rdfs:label "Speed Camera App"@en ;
+    rdfs:label "测速摄像头应用"@zh ;
+    airo:hasRisk ex:DriverAbuseRisk ;
+    airo:hasStakeholder ex:UKDrivers ;
+    airo:isDevelopedBy ex:SpeedCameraAppDevelopers .
+
+ex:DriverAbuseRisk rdf:type airo:Risk ;
+    rdfs:label "Driver Abuse Risk"@en ;
+    rdfs:label "司机辱骂风险"@zh ;
+    airo:hasImpactOnStakeholder ex:SpeedCameraAppDevelopers .
+
+ex:UKDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "UK Drivers"@en ;
+    rdfs:label "英国司机"@zh .
+
+ex:SpeedCameraAppDevelopers rdf:type airo:AIDeveloper ;
+    rdfs:label "Speed Camera App Developers"@en ;
+    rdfs:label "测速摄像头应用开发者"@zh .

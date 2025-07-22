@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAutocompleteSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Autocomplete System"@en ;
+    rdfs:label "谷歌自动补全系统"@zh ;
+    airo:hasRisk ex:AlgorithmicDefamationRisk ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:usesTechnique ex:SearchQueryPredictionAlgorithm .
+
+ex:AlgorithmicDefamationRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Defamation Risk"@en ;
+    rdfs:label "算法诽谤风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:UserGeneratedSearchPatterns .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpact ex:PersonalAndProfessionalHarm .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:SearchQueryPredictionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Search Query Prediction Algorithm"@en ;
+    rdfs:label "搜索查询预测算法"@zh .
+
+ex:UserGeneratedSearchPatterns rdf:type airo:RiskSource ;
+    rdfs:label "User Generated Search Patterns Risk Source"@en ;
+    rdfs:label "用户生成搜索模式风险源"@zh .
+
+ex:PersonalAndProfessionalHarm rdf:type airo:Impact ;
+    rdfs:label "Personal and Professional Harm Impact"@en ;
+    rdfs:label "个人和职业伤害影响"@zh .

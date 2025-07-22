@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BraveBrowser",
+      "中文名称": "Brave浏览器",
+      "英文名称": "Brave Browser",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    },
+    "Stakeholder": {
+      "id": "DataCopyrightHolders",
+      "中文名称": "数据版权持有者",
+      "英文名称": "Data Copyright Holders",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "AIOperator": {
+      "id": "BraveSoftwareInc",
+      "中文名称": "Brave软件公司",
+      "英文名称": "Brave Software Inc.",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "Consequence": {
+      "id": "LegalLiabilityForCopyrightViolation",
+      "中文名称": "版权违规的法律责任后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    },
+    "Domain": {
+      "id": "WebBrowserAndAITrainingData",
+      "中文名称": "网页浏览器与AI训练数据领域",
+      "英文名称": "Web Browser and AI Training Data Domain",
+      "来源": "LLMs and Training Set Deduplication"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedCommercialUseOfCopyrightedData",
+      "中文名称": "未经授权商业使用版权数据的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BraveBrowser",
+      "中文名称": "Brave浏览器",
+      "英文名称": "Brave Browser",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    },
+    "Stakeholder": {
+      "id": "DataCopyrightHolders",
+      "中文名称": "数据版权持有者",
+      "英文名称": "Data Copyright Holders",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "AIOperator": {
+      "id": "BraveSoftwareInc",
+      "中文名称": "Brave软件公司",
+      "英文名称": "Brave Software Inc.",
+      "来源": "Brave Browser Under Fire For Alleged Sale Of Copyrighted Data"
+    },
+    "Consequence": {
+      "id": "LegalLiabilityForCopyrightViolation",
+      "中文名称": "版权违规的法律责任后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    },
+    "Domain": {
+      "id": "WebBrowserAndAITrainingData",
+      "中文名称": "网页浏览器与AI训练数据领域",
+      "英文名称": "Web Browser and AI Training Data Domain",
+      "来源": "LLMs and Training Set Deduplication"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedCommercialUseOfCopyrightedData",
+      "中文名称": "未经授权商业使用版权数据的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "An update on Brave selling copyrighted data for AI training"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HumanoidRobot",
+      "中文名称": "人形机器人",
+      "英文名称": "Humanoid Robot",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "Risk": {
+      "id": "JobPerformanceFailureRisk",
+      "中文名称": "工作表现失败风险",
+      "英文名称": "Task Performance Failure Risk",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "AIOperator": {
+      "id": "Softbank",
+      "中文名称": "软银",
+      "英文名称": "Softbank",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    },
+    "Consequence": {
+      "id": "EmploymentTermination",
+      "中文名称": "雇佣终止后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "Impact": {
+      "id": "FinancialLossForOperator",
+      "中文名称": "运营商财务损失影响",
+      "英文名称": "Financial Loss for Operator Impact",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    },
+    "Purpose": {
+      "id": "AutomatedWorkforce",
+      "中文名称": "自动化劳动力目的",
+      "英文名称": "Automation Purpose",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "RiskSource": {
+      "id": "TechnicalLimitations",
+      "中文名称": "技术限制风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HumanoidRobot",
+      "中文名称": "人形机器人",
+      "英文名称": "Humanoid Robot",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "Risk": {
+      "id": "JobPerformanceFailureRisk",
+      "中文名称": "工作表现失败风险",
+      "英文名称": "Task Performance Failure Risk",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "AIOperator": {
+      "id": "Softbank",
+      "中文名称": "软银",
+      "英文名称": "Softbank",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    },
+    "Consequence": {
+      "id": "EmploymentTermination",
+      "中文名称": "雇佣终止后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "Impact": {
+      "id": "FinancialLossForOperator",
+      "中文名称": "运营商财务损失影响",
+      "英文名称": "Financial Loss for Operator Impact",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    },
+    "Purpose": {
+      "id": "AutomatedWorkforce",
+      "中文名称": "自动化劳动力目的",
+      "英文名称": "Automation Purpose",
+      "来源": "Humanoid Robot Keeps Getting Fired From His Jobs"
+    },
+    "RiskSource": {
+      "id": "TechnicalLimitations",
+      "中文名称": "技术限制风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Softbank's Hyped Robot Keeps Failing at Its Jobs"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NHKMultilingualSubtitleService",
+      "中文名称": "NHK多语言字幕服务",
+      "英文名称": "NHK Multilingual Subtitle Service",
+      "来源": "NHK多言語字幕サービス終了へ"
+    },
+    "Risk": {
+      "id": "PoliticalSensitivityRisk",
+      "中文名称": "政治敏感性风险",
+      "英文名称": "Political Sensitivity Risk",
+      "来源": "尖閣諸島を中国名で表示のため"
+    },
+    "Consequence": {
+      "id": "ServiceTermination",
+      "中文名称": "服务终止后果",
+      "英文名称": "Service Discontinuation Consequence",
+      "来源": "NHK多言語字幕サービス終了へ"
+    },
+    "AICapability": {
+      "id": "MultilingualLiveSubtitleGeneration",
+      "中文名称": "多语言实时字幕生成能力",
+      "英文名称": "Multilingual Live Subtitle Generation Capability",
+      "来源": "英語によるライブ配信の字幕"
+    },
+    "Stakeholder": {
+      "id": "NHK",
+      "中文名称": "NHK",
+      "英文名称": "NHK",
+      "来源": "NHK"
+    },
+    "Impact": {
+      "id": "InternationalRelationsImpact",
+      "中文名称": "国际关系影响",
+      "英文名称": "International Relations Impact",
+      "来源": "尖閣諸島を中国名で表示のため"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "NHK多言語字幕サービス"
+    },
+    "RiskSource": {
+      "id": "TerritorialNamingDispute",
+      "中文名称": "领土命名争议风险源",
+      "英文名称": "Territorial Naming Dispute Risk Source",
+      "来源": "尖閣諸島を中国名で表示のため"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NHKMultilingualSubtitleService",
+      "中文名称": "NHK多语言字幕服务",
+      "英文名称": "NHK Multilingual Subtitle Service",
+      "来源": "NHK多言語字幕サービス終了へ"
+    },
+    "Risk": {
+      "id": "PoliticalSensitivityRisk",
+      "中文名称": "政治敏感性风险",
+      "英文名称": "Political Sensitivity Risk",
+      "来源": "尖閣諸島を中国名で表示のため"
+    },
+    "Consequence": {
+      "id": "ServiceTermination",
+      "中文名称": "服务终止后果",
+      "英文名称": "Service Discontinuation Consequence",
+      "来源": "NHK多言語字幕サービス終了へ"
+    },
+    "AICapability": {
+      "id": "MultilingualLiveSubtitleGeneration",
+      "中文名称": "多语言实时字幕生成能力",
+      "英文名称": "Multilingual Live Subtitle Generation Capability",
+      "来源": "英語によるライブ配信の字幕"
+    },
+    "Stakeholder": {
+      "id": "NHK",
+      "中文名称": "NHK",
+      "英文名称": "NHK",
+      "来源": "NHK"
+    },
+    "Impact": {
+      "id": "InternationalRelationsImpact",
+      "中文名称": "国际关系影响",
+      "英文名称": "International Relations Impact",
+      "来源": "尖閣諸島を中国名で表示のため"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "NHK多言語字幕サービス"
+    },
+    "RiskSource": {
+      "id": "TerritorialNamingDispute",
+      "中文名称": "领土命名争议风险源",
+      "英文名称": "Territorial Naming Dispute Risk Source",
+      "来源": "尖閣諸島を中国名で表示のため"
+    }
+  }
+}

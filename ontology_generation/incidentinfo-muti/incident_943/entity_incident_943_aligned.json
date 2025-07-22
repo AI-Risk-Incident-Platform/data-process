@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RomanceScamAI",
+      "中文名称": "浪漫诈骗AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "新闻标题中提到的'romance scams'表明存在利用AI系统进行诈骗的行为"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "新闻标题'costly romance scams'表明主要风险是财务损失"
+    },
+    "Stakeholder": {
+      "id": "FBI",
+      "中文名称": "联邦调查局",
+      "英文名称": "US Federal Investigation",
+      "来源": "新闻标题'FBI warns Southern Arizonans'表明FBI是主要利益相关者"
+    },
+    "Impact": {
+      "id": "EconomicImpact",
+      "中文名称": "经济影响",
+      "英文名称": "Economic Impact",
+      "来源": "新闻标题'costly romance scams'表明主要影响是经济损失"
+    },
+    "Domain": {
+      "id": "OnlineDating",
+      "中文名称": "在线约会领域",
+      "英文名称": "Online Dating",
+      "来源": "新闻标题'online crushes'表明应用领域是在线约会"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RomanceScamAI",
+      "中文名称": "浪漫诈骗AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "新闻标题中提到的'romance scams'表明存在利用AI系统进行诈骗的行为"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "新闻标题'costly romance scams'表明主要风险是财务损失"
+    },
+    "Stakeholder": {
+      "id": "FBI",
+      "中文名称": "联邦调查局",
+      "英文名称": "US Federal Investigation",
+      "来源": "新闻标题'FBI warns Southern Arizonans'表明FBI是主要利益相关者"
+    },
+    "Impact": {
+      "id": "EconomicImpact",
+      "中文名称": "经济影响",
+      "英文名称": "Economic Impact",
+      "来源": "新闻标题'costly romance scams'表明主要影响是经济损失"
+    },
+    "Domain": {
+      "id": "OnlineDating",
+      "中文名称": "在线约会领域",
+      "英文名称": "Online Dating",
+      "来源": "新闻标题'online crushes'表明应用领域是在线约会"
+    }
+  }
+}

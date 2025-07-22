@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTLegalResearchTool",
+      "中文名称": "ChatGPT法律研究工具",
+      "英文名称": "ChatGPT Legal Tool",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Risk": {
+      "id": "FakeLegalCitationsRisk",
+      "中文名称": "虚假法律引用风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    },
+    "Consequence": {
+      "id": "LegalCaseCompromise",
+      "中文名称": "法律案件受损后果",
+      "英文名称": "Legal Settlement",
+      "来源": "Here's What Happens When Your Lawyer Uses ChatGPT"
+    },
+    "AIOperator": {
+      "id": "LawFirmUsingChatGPT",
+      "中文名称": "使用ChatGPT的律师事务所",
+      "英文名称": "Law Firm Using ChatGPT",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Stakeholder": {
+      "id": "FederalCourtSystem",
+      "中文名称": "联邦法院系统",
+      "英文名称": "Federal Court System",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Impact": {
+      "id": "JudicialSystemIntegrityUndermined",
+      "中文名称": "司法系统诚信受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "Here's What Happens When Your Lawyer Uses ChatGPT"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Misuse": {
+      "id": "UnverifiedLegalCitationGeneration",
+      "中文名称": "未经验证的法律引用生成滥用",
+      "英文名称": "Unverified Legal Citation Misuse",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTLegalResearchTool",
+      "中文名称": "ChatGPT法律研究工具",
+      "英文名称": "ChatGPT Legal Tool",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Risk": {
+      "id": "FakeLegalCitationsRisk",
+      "中文名称": "虚假法律引用风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    },
+    "Consequence": {
+      "id": "LegalCaseCompromise",
+      "中文名称": "法律案件受损后果",
+      "英文名称": "Legal Settlement",
+      "来源": "Here's What Happens When Your Lawyer Uses ChatGPT"
+    },
+    "AIOperator": {
+      "id": "LawFirmUsingChatGPT",
+      "中文名称": "使用ChatGPT的律师事务所",
+      "英文名称": "Law Firm Using ChatGPT",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Stakeholder": {
+      "id": "FederalCourtSystem",
+      "中文名称": "联邦法院系统",
+      "英文名称": "Federal Court System",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Impact": {
+      "id": "JudicialSystemIntegrityUndermined",
+      "中文名称": "司法系统诚信受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "Here's What Happens When Your Lawyer Uses ChatGPT"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong"
+    },
+    "Misuse": {
+      "id": "UnverifiedLegalCitationGeneration",
+      "中文名称": "未经验证的法律引用生成滥用",
+      "英文名称": "Unverified Legal Citation Misuse",
+      "来源": "Lawyer apologizes for fake court citations from ChatGPT"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAvatarsForPropaganda rdf:type airo:AISystem ;
+    rdfs:label "AI Avatars for Propaganda"@en ;
+    rdfs:label "AI虚拟形象用于宣传"@zh ;
+    airo:hasRisk ex:MisinformationPropagationRisk ;
+    airo:hasAISubject ex:VenezuelanPublic ;
+    airo:usesTechnique ex:DeepfakeTechnology .
+
+ex:MisinformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:UnauthorizedFaceDataUse .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:VenezuelanPublic rdf:type airo:AISubject ;
+    rdfs:label "Venezuelan Public"@en ;
+    rdfs:label "委内瑞拉公众"@zh .
+
+ex:OriginalFaceModels rdf:type airo:Stakeholder ;
+    rdfs:label "Original Face Models"@en ;
+    rdfs:label "原始面部模特"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OriginalFaceModels .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:UnauthorizedFaceDataUse rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Face Data Use Risk Source"@en ;
+    rdfs:label "未经授权的面部数据使用风险源"@zh .

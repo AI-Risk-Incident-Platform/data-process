@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "'I was misidentified as shoplifter by facial recognition tech'"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'I was misidentified as shoplifter by facial recognition tech'"
+    },
+    "Consequence": {
+      "id": "FalseAccusation",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "Innocent woman branded a shoplifter by facial recognition software"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    },
+    "AISubject": {
+      "id": "InnocentIndividuals",
+      "中文名称": "无辜个体",
+      "英文名称": "Innocent People",
+      "来源": "Innocent woman branded a shoplifter by facial recognition software"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "'I was misidentified as shoplifter by facial recognition tech'"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'I was misidentified as shoplifter by facial recognition tech'"
+    },
+    "Consequence": {
+      "id": "FalseAccusation",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "Innocent woman branded a shoplifter by facial recognition software"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    },
+    "AISubject": {
+      "id": "InnocentIndividuals",
+      "中文名称": "无辜个体",
+      "英文名称": "Innocent People",
+      "来源": "Innocent woman branded a shoplifter by facial recognition software"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Black Activist Brings Legal Challenge To Police After False Facial Recognition Arrest"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "Risk": {
+      "id": "RacismProblemInAI",
+      "中文名称": "AI中的种族主义问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "ChatGPT bot tricked into giving bomb-making instructions, say developers"
+    },
+    "RiskSource": {
+      "id": "BiasInTrainingData",
+      "中文名称": "训练数据中的偏见风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "Risk": {
+      "id": "RacismProblemInAI",
+      "中文名称": "AI中的种族主义问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "ChatGPT bot tricked into giving bomb-making instructions, say developers"
+    },
+    "RiskSource": {
+      "id": "BiasInTrainingData",
+      "中文名称": "训练数据中的偏见风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "ChatGPT proves that AI still has a racism problem"
+    }
+  }
+}

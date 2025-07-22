@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NvidiaBroadcastEyeContactAI rdf:type airo:AISystem ;
+    rdfs:label "Nvidia Broadcast Eye Contact AI"@en ;
+    rdfs:label "Nvidia广播眼神接触AI"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:usesTechnique ex:DeepfakeEyeContactTechnology ;
+    airo:hasPurpose ex:EnhanceVideoCallExperience ;
+    airo:hasStakeholder ex:VideoConferenceUsers .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnnaturalSocialInteraction ;
+    airo:isRiskSourceFor ex:ArtificialEyeContactManipulation .
+
+ex:DeepfakeEyeContactTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Eye Contact Technology"@en ;
+    rdfs:label "深度伪造眼神接触技术"@zh .
+
+ex:VideoConferenceUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Video Conference Users"@en ;
+    rdfs:label "视频会议用户"@zh .
+
+ex:PsychologicalDiscomfort rdf:type airo:Impact ;
+    rdfs:label "Psychological Discomfort Impact"@en ;
+    rdfs:label "心理不适影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VideoConferenceUsers .
+
+ex:EnhanceVideoCallExperience rdf:type airo:Purpose ;
+    rdfs:label "Enhance Video Call Experience Purpose"@en ;
+    rdfs:label "增强视频通话体验的目的"@zh .
+
+ex:ArtificialEyeContactManipulation rdf:type airo:RiskSource ;
+    rdfs:label "Artificial Eye Contact Manipulation Risk Source"@en ;
+    rdfs:label "人工眼神接触操纵的风险源"@zh .
+
+ex:UnnaturalSocialInteraction rdf:type airo:Consequence ;
+    rdfs:label "Unnatural Social Interaction Consequence"@en ;
+    rdfs:label "不自然社交互动的后果"@zh ;
+    airo:hasImpact ex:PsychologicalDiscomfort .

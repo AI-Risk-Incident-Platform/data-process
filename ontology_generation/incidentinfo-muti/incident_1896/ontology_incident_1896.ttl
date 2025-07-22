@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WorldcoinProject rdf:type airo:AISystem ;
+    rdfs:label "Worldcoin Project"@en ;
+    rdfs:label "Worldcoin项目"@zh ;
+    airo:hasRisk ex:BiometricDataPrivacyRisk ;
+    airo:hasAISubject ex:PublicIndividuals ;
+    airo:hasStakeholder ex:PrivacyCommissioner .
+
+ex:BiometricDataPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Data Privacy Risk"@en ;
+    rdfs:label "生物识别数据隐私风险"@zh ;
+    airo:isRiskSourceFor ex:ArbitraryBiometricDataDisclosure ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Consequence of Biometric Data Privacy Risk"@en ;
+        rdfs:label "生物识别数据隐私风险的后果"@zh ;
+        airo:hasImpact ex:PrivacyViolation
+    ] .
+
+ex:PublicIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Public Individuals"@en ;
+    rdfs:label "公众个体"@zh .
+
+ex:PrivacyCommissioner rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Commissioner"@en ;
+    rdfs:label "隐私专员"@zh .
+
+ex:ArbitraryBiometricDataDisclosure rdf:type airo:RiskSource ;
+    rdfs:label "Arbitrary Biometric Data Disclosure Risk Source"@en ;
+    rdfs:label "随意披露生物识别数据的风险源"@zh .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicIndividuals .

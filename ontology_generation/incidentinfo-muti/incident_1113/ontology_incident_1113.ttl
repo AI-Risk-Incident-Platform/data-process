@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredictimBabysittingService rdf:type airo:AISystem ;
+    rdfs:label "Predictim Babysitting Service"@en ;
+    rdfs:label "Predictim保姆服务"@zh ;
+    airo:hasRisk ex:PrivacyAndSafetyRisk ;
+    airo:hasAICapability ex:VoiceAnalysisForVetting ;
+    airo:hasPurpose ex:BabysitterVetting ;
+    airo:hasStakeholder ex:ParentsUsingPredictim ;
+    airo:isAppliedWithinDomain ex:ChildcareServices .
+
+ex:PrivacyAndSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy and Safety Risk"@en ;
+    rdfs:label "隐私与安全风险"@zh ;
+    airo:isRiskSourceFor ex:UnprovenAITechnology ;
+    airo:hasImpact ex:PotentialChildSafetyThreat .
+
+ex:ParentsUsingPredictim rdf:type airo:Stakeholder ;
+    rdfs:label "Parents Using Predictim"@en ;
+    rdfs:label "使用Predictim的父母"@zh .
+
+ex:VoiceAnalysisForVetting rdf:type airo:AICapability ;
+    rdfs:label "Voice Analysis for Vetting Capability"@en ;
+    rdfs:label "用于审查的语音分析能力"@zh .
+
+ex:BabysitterVetting rdf:type airo:Purpose ;
+    rdfs:label "Babysitter Vetting Purpose"@en ;
+    rdfs:label "保姆审查目的"@zh .
+
+ex:ChildcareServices rdf:type airo:Domain ;
+    rdfs:label "Childcare Services Domain"@en ;
+    rdfs:label "儿童保育服务领域"@zh .
+
+ex:UnprovenAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Unproven AI Technology Risk Source"@en ;
+    rdfs:label "未经证实AI技术的风险源"@zh .
+
+ex:PotentialChildSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Potential Child Safety Threat Impact"@en ;
+    rdfs:label "潜在儿童安全威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsUsingPredictim .

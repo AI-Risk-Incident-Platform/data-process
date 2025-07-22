@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition Software",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Face recognition dataset of trans people is still available online"
+    },
+    "Stakeholder": {
+      "id": "TransgenderYouTubers",
+      "中文名称": "跨性别YouTuber",
+      "英文名称": "Transgender YouTubers",
+      "来源": "Transgender YouTubers had their videos grabbed to train facial recognition software"
+    },
+    "AISubject": {
+      "id": "TransPeople",
+      "中文名称": "跨性别者",
+      "英文名称": "Trans People",
+      "来源": "Face recognition dataset of trans people is still available online"
+    },
+    "RiskSource": {
+      "id": "ExposedDataset",
+      "中文名称": "暴露的数据集",
+      "英文名称": "Exposed Dataset",
+      "来源": "Prominent facial recognition researcher scraped videos of trans people, left dataset exposed"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Face recognition dataset of trans people is still available online"
+    }
+  }
+}

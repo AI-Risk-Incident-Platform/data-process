@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Canadian police charge Tesla driver who was allegedly doing 90 miles per hour while asleep"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleMisuseRisk",
+      "中文名称": "自动驾驶汽车滥用风险",
+      "英文名称": "Autonomous Vehicle Misuse Risk",
+      "来源": "Tesla owner in Canada charged with 'sleeping' while driving over 90 mph"
+    },
+    "Stakeholder": {
+      "id": "AlbertaRCMP",
+      "中文名称": "阿尔伯塔皇家骑警",
+      "英文名称": "Alberta RCMP",
+      "来源": "Alberta RCMP charge Tesla driver for speeding and sleeping"
+    },
+    "AIOperator": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "Tesla owner in Canada charged with 'sleeping' while driving over 90 mph"
+    },
+    "Consequence": {
+      "id": "TrafficSafetyViolation",
+      "中文名称": "交通安全违规后果",
+      "英文名称": "Traffic Safety Violation Consequence",
+      "来源": "Canadian police charge Tesla driver who was allegedly doing 90 miles per hour while asleep"
+    },
+    "Misuse": {
+      "id": "SleepingWhileAutopilotEngaged",
+      "中文名称": "自动驾驶启用时睡觉的滥用行为",
+      "英文名称": "Sleeping While Autopilot Engaged Misuse",
+      "来源": "Tesla owner in Canada charged with 'sleeping' while driving over 90 mph"
+    },
+    "Domain": {
+      "id": "AutomotiveTransportation",
+      "中文名称": "汽车交通领域",
+      "英文名称": "Automotive Transportation Domain",
+      "来源": "Canadian police charge Tesla driver who was allegedly doing 90 miles per hour while asleep"
+    }
+  }
+}

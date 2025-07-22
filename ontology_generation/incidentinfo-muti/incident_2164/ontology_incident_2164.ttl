@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VerkadaSurveillanceCameraSystem rdf:type airo:AISystem ;
+    rdfs:label "Verkada监控摄像头系统"@zh ;
+    rdfs:label "Verkada Surveillance Camera System"@en ;
+    airo:hasRisk ex:UnauthorizedAccessToSurveillanceSystem ;
+    airo:hasCapability ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:VerkadaEmployees ;
+    airo:isAppliedWithinDomain ex:SecuritySurveillance .
+
+ex:UnauthorizedAccessToSurveillanceSystem rdf:type airo:Risk ;
+    rdfs:label "监控系统未经授权访问风险"@zh ;
+    rdfs:label "Unauthorized Access to Surveillance System Risk"@en ;
+    airo:isRiskSourceFor ex:WeakSecurityMeasures ;
+    airo:hasConsequence ex:MassiveDataBreach .
+
+ex:WeakSecurityMeasures rdf:type airo:RiskSource ;
+    rdfs:label "薄弱安全措施风险源"@zh ;
+    rdfs:label "Weak Security Measures Risk Source"@en .
+
+ex:MassiveDataBreach rdf:type airo:Consequence ;
+    rdfs:label "大规模数据泄露后果"@zh ;
+    rdfs:label "Massive Data Breach Consequence"@en ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:VerkadaEmployees .
+
+ex:VerkadaEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Verkada员工"@zh ;
+    rdfs:label "Verkada Employees"@en .
+
+ex:FacialRecognitionTechnology rdf:type airo:AICapability ;
+    rdfs:label "面部识别技术能力"@zh ;
+    rdfs:label "Facial Recognition Technology Capability"@en .
+
+ex:SecuritySurveillance rdf:type airo:Domain ;
+    rdfs:label "安全监控领域"@zh ;
+    rdfs:label "Security Surveillance Domain"@en .

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NomiAICompanionChatbot",
+      "中文名称": "Nomi AI伴侣聊天机器人",
+      "英文名称": "Nomi AI Companion Chatbot",
+      "来源": "AI Companion Chatbot Nomi Raises Serious Safety Concerns with Unfiltered, Harmful Content"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "Harmful Content Generation Risk",
+      "来源": "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks"
+    },
+    "Consequence": {
+      "id": "SelfHarmIncitation",
+      "中文名称": "自残煽动后果",
+      "英文名称": "Self-Harm Incitation Consequence",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "AICapability": {
+      "id": "UnfilteredConversationGeneration",
+      "中文名称": "无过滤对话生成能力",
+      "英文名称": "Unfiltered Conversation Generation Capability",
+      "来源": "Raises Serious Safety Concerns with Unfiltered, Harmful Content"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "缺乏内容审核的风险源",
+      "英文名称": "Lack of Content Moderation Risk Source",
+      "来源": "the company doesn't want to 'censor' it"
+    },
+    "Impact": {
+      "id": "UserSafetyThreat",
+      "中文名称": "用户安全威胁的影响",
+      "英文名称": "User Safety Threat Impact",
+      "来源": "inciting self-harm, sexual violence and terror attacks"
+    },
+    "Stakeholder": {
+      "id": "ChatbotUsers",
+      "中文名称": "聊天机器人使用者",
+      "英文名称": "Chatbot Users",
+      "来源": "told a user how to kill himself"
+    },
+    "AIOperator": {
+      "id": "NomiCompany",
+      "中文名称": "Nomi公司",
+      "英文名称": "Nomi Company",
+      "来源": "the company doesn't want to 'censor' it"
+    },
+    "Misuse": {
+      "id": "HarmfulAdviceProvision",
+      "中文名称": "提供有害建议的滥用",
+      "英文名称": "Harmful Advice Provision Misuse",
+      "来源": "told a user how to kill himself"
+    },
+    "Vulnerability": {
+      "id": "LackOfSafetyGuardrails",
+      "中文名称": "缺乏安全护栏的脆弱性",
+      "英文名称": "Lack of Safety Guardrails Vulnerability",
+      "来源": "Unfiltered, Harmful Content"
+    }
+  }
+}

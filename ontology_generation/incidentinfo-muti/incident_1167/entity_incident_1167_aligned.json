@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FindFaceApp",
+      "中文名称": "FindFace应用",
+      "英文名称": "FindFace App",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Face recognition app FindFace"
+    },
+    "RiskSource": {
+      "id": "PublicPhotoDatabases",
+      "中文名称": "公共照片数据库",
+      "英文名称": "Public Photo Databases",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FindFaceApp",
+      "中文名称": "FindFace应用",
+      "英文名称": "FindFace App",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Face recognition app FindFace"
+    },
+    "RiskSource": {
+      "id": "PublicPhotoDatabases",
+      "中文名称": "公共照片数据库",
+      "英文名称": "Public Photo Databases",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Face recognition app FindFace may make you want to take down all your online photos"
+    }
+  }
+}

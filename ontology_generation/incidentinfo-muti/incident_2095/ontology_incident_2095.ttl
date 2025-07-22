@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FaceRecognitionSoftware rdf:type airo:AISystem ;
+    rdfs:label "Face Recognition Software"@en ;
+    rdfs:label "面部识别软件"@zh ;
+    airo:hasRisk ex:FacialRecognitionFailureRisk ;
+    airo:usesTechnique ex:BiometricAuthentication ;
+    airo:hasPurpose ex:IdentityVerification ;
+    airo:hasStakeholder ex:UN ;
+    airo:hasAISubject ex:UnemploymentBenefitApplicants ;
+    airo:isAppliedWithinDomain ex:GovernmentServices ;
+    airo:isDeployedBy ex:IRS ;
+    airo:hasVulnerability ex:AlgorithmicBiasInFacialRecognition .
+
+ex:FacialRecognitionFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Facial Recognition Failure Risk"@en ;
+    rdfs:label "面部识别失败风险"@zh ;
+    airo:hasConsequence ex:DenialOfServices ;
+    airo:isRiskSourceFor ex:PoorAlgorithmPerformance ;
+    airo:isRiskSourceFor ex:SystemicExclusionOfMinorityGroups ;
+    airo:isRiskSourceFor ex:InaccurateFacialMatching .
+
+ex:DenialOfServices rdf:type airo:Consequence ;
+    rdfs:label "Denial of Services Consequence"@en ;
+    rdfs:label "服务拒绝后果"@zh ;
+    airo:hasImpact ex:AccessDenialToEssentialServices .
+
+ex:IRS rdf:type airo:AIOperator ;
+    rdfs:label "IRS"@en ;
+    rdfs:label "美国国税局"@zh .
+
+ex:UN rdf:type airo:Stakeholder ;
+    rdfs:label "UN"@en ;
+    rdfs:label "联合国"@zh .
+
+ex:UnemploymentBenefitApplicants rdf:type airo:AISubject ;
+    rdfs:label "Unemployment Benefit Applicants"@en ;
+    rdfs:label "失业救济申请人"@zh .
+
+ex:AccessDenialToEssentialServices rdf:type airo:Impact ;
+    rdfs:label "Access Denial to Essential Services Impact"@en ;
+    rdfs:label "基本服务访问被拒影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UnemploymentBenefitApplicants .
+
+ex:IdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification Purpose"@en ;
+    rdfs:label "身份验证目的"@zh .
+
+ex:GovernmentServices rdf:type airo:Domain ;
+    rdfs:label "Government Services Domain"@en ;
+    rdfs:label "政府服务领域"@zh .
+
+ex:BiometricAuthentication rdf:type airo:AITechnique ;
+    rdfs:label "Biometric Authentication Technique"@en ;
+    rdfs:label "生物特征认证技术"@zh .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Vulnerability"@en ;
+    rdfs:label "面部识别中的算法偏见漏洞"@zh .
+
+ex:SystemicExclusionOfMinorityGroups rdf:type airo:Threat ;
+    rdfs:label "Systemic Exclusion of Minority Groups Threat"@en ;
+    rdfs:label "少数群体系统性排斥威胁"@zh .
+
+ex:InaccurateFacialMatching rdf:type airo:Hazard ;
+    rdfs:label "Inaccurate Facial Matching Hazard"@en ;
+    rdfs:label "面部匹配不准确危害"@zh .
+
+ex:PoorAlgorithmPerformance rdf:type airo:RiskSource ;
+    rdfs:label "Poor Algorithm Performance Risk Source"@en ;
+    rdfs:label "算法性能不佳风险源"@zh .
+
+ex:EthicalIssuesInBiometricIdentification rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Biometric Identification Risk Concept"@en ;
+    rdfs:label "生物识别中的伦理问题"@zh .

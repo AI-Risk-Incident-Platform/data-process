@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Amazon’s Alexa heard her name and tried to order up a ton of dollhouses"
+    },
+    "Risk": {
+      "id": "UnintendedPurchaseRisk",
+      "中文名称": "意外购买风险",
+      "英文名称": "Unintended Purchase Risk",
+      "来源": "Alexa heard her name and tried to order up a ton of dollhouses"
+    },
+    "Consequence": {
+      "id": "UnauthorizedPurchases",
+      "中文名称": "未经授权的购买后果",
+      "英文名称": "Unauthorized Purchases Consequence",
+      "来源": "tried to order up a ton of dollhouses"
+    },
+    "RiskSource": {
+      "id": "VoiceCommandMisinterpretation",
+      "中文名称": "语音指令误解风险源",
+      "英文名称": "Voice Command Misinterpretation Risk Source",
+      "来源": "Alexa heard her name and tried to order up a ton of dollhouses"
+    },
+    "AICapability": {
+      "id": "VoiceRecognitionAndProcessing",
+      "中文名称": "语音识别与处理能力",
+      "英文名称": "Voice Recognition and Processing Capability",
+      "来源": "Alexa heard her name"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Devices Domain",
+      "来源": "Amazon’s Alexa"
+    }
+  }
+}

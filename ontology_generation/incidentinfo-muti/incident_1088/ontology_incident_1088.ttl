@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleFatalCrashRisk ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleIndustry ;
+    airo:hasStakeholder ex:NationalTransportationSafetyBoard .
+
+ex:AutonomousVehicleFatalCrashRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Fatal Crash Risk"@en ;
+    rdfs:label "自动驾驶车辆致命事故风险"@zh ;
+    airo:hasConsequence ex:FatalCollision ;
+    airo:isRiskSourceFor ex:DriverDistraction .
+
+ex:FatalCollision rdf:type airo:Consequence ;
+    rdfs:label "Fatal Collision Consequence"@en ;
+    rdfs:label "致命碰撞后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:NationalTransportationSafetyBoard rdf:type airo:Stakeholder ;
+    rdfs:label "National Transportation Safety Board"@en ;
+    rdfs:label "国家运输安全委员会"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicSafetyThreat .
+
+ex:DriverDistraction rdf:type airo:RiskSource ;
+    rdfs:label "Driver Distraction Risk Source"@en ;
+    rdfs:label "驾驶员分心风险源"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh .
+
+ex:AutonomousVehicleIndustry rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Industry Domain"@en ;
+    rdfs:label "自动驾驶汽车行业领域"@zh .

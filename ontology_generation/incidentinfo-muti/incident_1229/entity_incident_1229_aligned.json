@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DUOFraudCheckSystem",
+      "中文名称": "DUO欺诈检查系统",
+      "英文名称": "DUO Fraud Check System",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Discrimination by DUO worse than assumed"
+    },
+    "Consequence": {
+      "id": "UnjustFinancialImpact",
+      "中文名称": "不公正财务影响后果",
+      "英文名称": "Unjust Financial Consequence",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "AISubject": {
+      "id": "StudentsSubjectToFraudChecks",
+      "中文名称": "接受欺诈检查的学生",
+      "英文名称": "Students at fraud risk",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Stakeholder": {
+      "id": "DutchGovernment",
+      "中文名称": "荷兰政府",
+      "英文名称": "Dutch Government",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForStudents",
+      "中文名称": "学生经济困难的影响",
+      "英文名称": "Financial Hardship for Students Impact",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "偏见算法设计的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Government still using discriminatory algorithms to collect data"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DUOFraudCheckSystem",
+      "中文名称": "DUO欺诈检查系统",
+      "英文名称": "DUO Fraud Check System",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Discrimination by DUO worse than assumed"
+    },
+    "Consequence": {
+      "id": "UnjustFinancialImpact",
+      "中文名称": "不公正财务影响后果",
+      "英文名称": "Unjust Financial Consequence",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "AISubject": {
+      "id": "StudentsSubjectToFraudChecks",
+      "中文名称": "接受欺诈检查的学生",
+      "英文名称": "Students at fraud risk",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Stakeholder": {
+      "id": "DutchGovernment",
+      "中文名称": "荷兰政府",
+      "英文名称": "Dutch Government",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForStudents",
+      "中文名称": "学生经济困难的影响",
+      "英文名称": "Financial Hardship for Students Impact",
+      "来源": "Government to refund over 10,000 students over discriminatory DUO fraud checks"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "偏见算法设计的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Government still using discriminatory algorithms to collect data"
+    }
+  }
+}

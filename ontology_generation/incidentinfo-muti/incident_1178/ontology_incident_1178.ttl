@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JobSearchAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Job Search Algorithm"@en ;
+    rdfs:label "求职算法"@zh ;
+    airo:hasRisk ex:JobSearchDifficultyRisk ;
+    airo:hasPurpose ex:CostReductionInHiringProcess ;
+    airo:hasStakeholder ex:JobSeekers ;
+    airo:isAppliedWithinDomain ex:HumanResources .
+
+ex:JobSearchDifficultyRisk rdf:type airo:Risk ;
+    rdfs:label "Job Search Difficulty Risk"@en ;
+    rdfs:label "求职困难风险"@zh ;
+    airo:hasConsequence ex:IncreasedJobSearchStress .
+
+ex:JobSeekers rdf:type airo:Stakeholder ;
+    rdfs:label "Job Seekers"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:IncreasedJobSearchStress rdf:type airo:Impact ;
+    rdfs:label "Increased Job Search Stress"@en ;
+    rdfs:label "增加求职压力"@zh ;
+    airo:hasImpactOnStakeholder ex:JobSeekers .
+
+ex:CostReductionInHiringProcess rdf:type airo:Purpose ;
+    rdfs:label "Cost Reduction in Hiring Process"@en ;
+    rdfs:label "降低招聘成本"@zh .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "Human Resources"@en ;
+    rdfs:label "人力资源"@zh .

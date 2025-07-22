@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FaceApp rdf:type airo:AISystem ;
+    rdfs:label "FaceApp"@en ;
+    rdfs:label "FaceApp"@zh ;
+    airo:hasRisk ex:RacialDiscriminationRisk ;
+    airo:hasCapability ex:FacialFeatureModification ;
+    airo:hasPurpose ex:Entertainment ;
+    airo:hasStakeholder ex:AppUsers .
+
+ex:RacialDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Discrimination Risk"@en ;
+    rdfs:label "种族歧视风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:RaceChangingFeature .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash"@en ;
+    rdfs:label "公众强烈反对"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:FacialFeatureModification rdf:type airo:AICapability ;
+    rdfs:label "Facial Feature Modification Capability"@en ;
+    rdfs:label "面部特征修改能力"@zh .
+
+ex:AppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "App Users"@en ;
+    rdfs:label "应用用户"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm"@en ;
+    rdfs:label "社会伤害"@zh ;
+    airo:hasImpactOnStakeholder ex:AppUsers .
+
+ex:Entertainment rdf:type airo:Purpose ;
+    rdfs:label "Entertainment"@en ;
+    rdfs:label "娱乐"@zh .
+
+ex:RaceChangingFeature rdf:type airo:RiskSource ;
+    rdfs:label "Race Changing Feature"@en ;
+    rdfs:label "种族改变功能"@zh .

@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleDiabeticBlindnessDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Google Diabetic Blindness Detection AI"@en ;
+    rdfs:label "谷歌糖尿病性盲症检测AI"@zh ;
+    airo:hasRisk ex:PerformanceGapBetweenLabAndRealWorld ;
+    airo:hasAICapability ex:DiabeticRetinopathyDetection ;
+    airo:isDeployedBy ex:GoogleMedicalResearchTeam ;
+    airo:isAppliedWithinDomain ex:MedicalDiagnostics ;
+    airo:hasPurpose ex:EarlyDetectionOfDiabeticBlindness .
+
+ex:PerformanceGapBetweenLabAndRealWorld rdf:type airo:Risk ;
+    rdfs:label "Performance Gap Between Lab and Real World Risk"@en ;
+    rdfs:label "实验室与真实世界性能差距风险"@zh ;
+    airo:hasConsequence ex:InaccurateMedicalDiagnosis .
+
+ex:InaccurateMedicalDiagnosis rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Medical Diagnosis Consequence"@en ;
+    rdfs:label "不准确医疗诊断后果"@zh ;
+    airo:hasImpact ex:PotentialHarmToPatients .
+
+ex:DiabeticRetinopathyDetection rdf:type airo:AICapability ;
+    rdfs:label "Diabetic Retinopathy Detection Capability"@en ;
+    rdfs:label "糖尿病视网膜病变检测能力"@zh .
+
+ex:GoogleMedicalResearchTeam rdf:type airo:AIOperator ;
+    rdfs:label "Google Medical Research Team"@en ;
+    rdfs:label "谷歌医疗研究团队"@zh .
+
+ex:MedicalDiagnostics rdf:type airo:Domain ;
+    rdfs:label "Medical Diagnostics Domain"@en ;
+    rdfs:label "医疗诊断领域"@zh .
+
+ex:EarlyDetectionOfDiabeticBlindness rdf:type airo:Purpose ;
+    rdfs:label "Early Detection of Diabetic Blindness Purpose"@en ;
+    rdfs:label "早期检测糖尿病性盲症目的"@zh .
+
+ex:PotentialHarmToPatients rdf:type airo:Impact ;
+    rdfs:label "Potential Harm to Patients Impact"@en ;
+    rdfs:label "对患者潜在伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Patients .
+
+ex:Patients rdf:type airo:Stakeholder ;
+    rdfs:label "Patients"@en ;
+    rdfs:label "患者"@zh .

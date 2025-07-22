@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonPhoneCaseDesignAI rdf:type airo:AISystem ;
+    rdfs:label "Amazon Phone Case Design AI"@en ;
+    rdfs:label "亚马逊手机壳设计AI"@zh ;
+    airo:hasRisk ex:InappropriateProductDesignRisk ;
+    airo:hasCapability ex:AutomatedProductDesign ;
+    airo:hasStakeholder ex:AmazonCustomers .
+
+ex:InappropriateProductDesignRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Product Design Risk"@en ;
+    rdfs:label "不当产品设计风险"@zh ;
+    airo:hasConsequence ex:UnusableProductDesigns .
+
+ex:AutomatedProductDesign rdf:type airo:AICapability ;
+    rdfs:label "Automated Product Design Capability"@en ;
+    rdfs:label "自动化产品设计能力"@zh .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Customers"@en ;
+    rdfs:label "亚马逊客户"@zh .
+
+ex:UnusableProductDesigns rdf:type airo:Consequence ;
+    rdfs:label "Unusable Product Designs Consequence"@en ;
+    rdfs:label "不可用产品设计后果"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .

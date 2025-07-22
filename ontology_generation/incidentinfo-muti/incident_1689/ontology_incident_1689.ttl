@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:HealthRiskFromInaccurateMedicalAdvice ;
+    airo:hasCapability ex:MedicalAdviceGeneration ;
+    airo:hasStakeholder ex:MedicalInformationSeekers ;
+    airo:isAppliedWithinDomain ex:HealthcareInformation ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasPurpose ex:ProvideInformationResponses .
+
+ex:HealthRiskFromInaccurateMedicalAdvice rdf:type airo:Risk ;
+    rdfs:label "Health Risk from Inaccurate Medical Advice"@en ;
+    rdfs:label "不准确医疗建议导致的健康风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToHealth ;
+    airo:isRiskSourceFor ex:InaccurateDrugInformation .
+
+ex:PotentialHarmToHealth rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Health Consequence"@en ;
+    rdfs:label "潜在健康危害后果"@zh ;
+    airo:hasImpact ex:MisguidedMedicalDecisions .
+
+ex:MedicalAdviceGeneration rdf:type airo:AICapability ;
+    rdfs:label "Medical Advice Generation Capability"@en ;
+    rdfs:label "医疗建议生成能力"@zh .
+
+ex:MedicalInformationSeekers rdf:type airo:Stakeholder ;
+    rdfs:label "Medical Information Seekers"@en ;
+    rdfs:label "医疗信息寻求者"@zh .
+
+ex:InaccurateDrugInformation rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Drug Information Risk Source"@en ;
+    rdfs:label "不准确药物信息风险源"@zh .
+
+ex:MisguidedMedicalDecisions rdf:type airo:Impact ;
+    rdfs:label "Misguided Medical Decisions Impact"@en ;
+    rdfs:label "误导性医疗决策影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalInformationSeekers .
+
+ex:ProvideInformationResponses rdf:type airo:Purpose ;
+    rdfs:label "Provide Information Responses Purpose"@en ;
+    rdfs:label "提供信息响应的目的"@zh .
+
+ex:HealthcareInformation rdf:type airo:Domain ;
+    rdfs:label "Healthcare Information Domain"@en ;
+    rdfs:label "医疗健康信息领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .

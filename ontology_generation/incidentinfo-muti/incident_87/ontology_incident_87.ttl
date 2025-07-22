@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SpamFilterSystem rdf:type airo:AISystem ;
+    rdfs:label "Spam Filter System"@en ;
+    rdfs:label "垃圾邮件过滤系统"@zh ;
+    airo:hasRisk ex:PotentialBiasInSpamFiltering ;
+    airo:hasCapability ex:EmailContentFiltering ;
+    airo:hasPurpose ex:FilterUnwantedEmails ;
+    airo:isAppliedWithinDomain ex:EmailCommunication .
+
+ex:PotentialBiasInSpamFiltering rdf:type airo:Risk ;
+    rdfs:label "Potential Bias in Spam Filtering Risk"@en ;
+    rdfs:label "垃圾邮件过滤中的潜在偏见风险"@zh .
+
+ex:EmailContentFiltering rdf:type airo:AICapability ;
+    rdfs:label "Email Content Filtering Capability"@en ;
+    rdfs:label "邮件内容过滤能力"@zh .
+
+ex:FilterUnwantedEmails rdf:type airo:Purpose ;
+    rdfs:label "Filter Unwanted Emails Purpose"@en ;
+    rdfs:label "过滤不需要的邮件目的"@zh .
+
+ex:EmailCommunication rdf:type airo:Domain ;
+    rdfs:label "Email Communication Domain"@en ;
+    rdfs:label "电子邮件通信领域"@zh .

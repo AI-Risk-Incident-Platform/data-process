@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdvertisingSystem",
+      "中文名称": "Facebook广告系统",
+      "英文名称": "Facebook Advertising System",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Risk": {
+      "id": "AdvertisingFraudRisk",
+      "中文名称": "广告欺诈风险",
+      "英文名称": "Advertising Fraud Risk",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Stakeholder": {
+      "id": "Advertisers",
+      "中文名称": "广告商",
+      "英文名称": "Advertisers",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Impact": {
+      "id": "BusinessRevenueLoss",
+      "中文名称": "企业收入损失影响",
+      "英文名称": "Business Revenue Loss Impact",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicManipulation",
+      "中文名称": "算法操纵风险源",
+      "英文名称": "Algorithmic Manipulation Risk Source",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "AITechnique": {
+      "id": "TargetedAdvertisingAlgorithm",
+      "中文名称": "定向广告算法技术",
+      "英文名称": "Targeted Advertising Algorithm Technique",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Purpose": {
+      "id": "DigitalAdvertisingPlatform",
+      "中文名称": "数字广告平台目的",
+      "英文名称": "Digital Advertising Platform Purpose",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    },
+    "Domain": {
+      "id": "DigitalMarketing",
+      "中文名称": "数字营销领域",
+      "英文名称": "Digital Marketing Domain",
+      "来源": "Bait and Switch: The Failure of Facebook Advertising — An OSINT Investigation"
+    }
+  }
+}

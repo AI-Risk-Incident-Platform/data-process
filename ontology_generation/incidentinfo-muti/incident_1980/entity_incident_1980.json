@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "新闻标题中提到的ChatGPT"
+    },
+    "Risk": {
+      "id": "FakeNewsGenerationRisk",
+      "中文名称": "虚假新闻生成风险",
+      "英文名称": "Fake News Generation Risk",
+      "来源": "新闻标题中提到的'fake news' created by ChatGPT"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众混淆后果",
+      "英文名称": "Public Confusion Consequence",
+      "来源": "新闻标题中提到的'假新闻'导致公众误解"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警方",
+      "英文名称": "Police Department",
+      "来源": "新闻标题中提到的'警方已介入'"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT的开发者"
+    },
+    "Impact": {
+      "id": "SocialOrderDisruption",
+      "中文名称": "社会秩序扰乱影响",
+      "英文名称": "Social Order Disruption Impact",
+      "来源": "虚假新闻可能导致的社会秩序问题"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation Purpose",
+      "来源": "ChatGPT的主要功能是生成内容"
+    },
+    "Domain": {
+      "id": "PublicInformation",
+      "中文名称": "公共信息领域",
+      "英文名称": "Public Information Domain",
+      "来源": "涉及公共信息的传播"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "ChatGPT基于的技术"
+    },
+    "RiskSource": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经核实的内容生成风险源",
+      "英文名称": "Unverified Content Generation Risk Source",
+      "来源": "ChatGPT生成未经核实的内容"
+    },
+    "RiskControl": {
+      "id": "LegalInvestigation",
+      "中文名称": "法律调查管控",
+      "英文名称": "Legal Investigation Risk Control",
+      "来源": "新闻中提到的警方介入调查"
+    }
+  }
+}

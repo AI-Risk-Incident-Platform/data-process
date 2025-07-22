@@ -1,0 +1,39 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:IdentityMisappropriationRisk ;
+    airo:hasAISubject ex:WomenWhoseFacesWereStolen ;
+    airo:hasStakeholder ex:WomenWhoseFacesWereStolen ;
+    airo:hasImpactOnStakeholder ex:WomenWhoseFacesWereStolen ;
+    airo:hasMisuse ex:CommercialMisuseOfPersonalImages .
+
+ex:IdentityMisappropriationRisk rdf:type airo:Risk ;
+    rdfs:label "身份盗用风险"@zh ;
+    rdfs:label "Identity Misappropriation Risk"@en ;
+    airo:hasConsequence ex:PrivacyViolationAndLegalHelplessness ;
+    airo:isRiskSourceFor ex:CommercialMisuseOfPersonalImages .
+
+ex:CommercialMisuseOfPersonalImages rdf:type airo:Misuse ;
+    rdfs:label "个人图像的商业滥用"@zh ;
+    rdfs:label "Commercial Misuse of Personal Images"@en ;
+    airo:hasImpact ex:PrivacyViolationAndLegalHelplessness .
+
+ex:WomenWhoseFacesWereStolen rdf:type airo:AISubject ;
+    rdfs:label "面部被盗用的女性"@zh ;
+    rdfs:label "Women Whose Faces Were Stolen"@en .
+
+ex:PrivacyViolationAndLegalHelplessness rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯与法律无助"@zh ;
+    rdfs:label "Privacy Violation and Legal Helplessness"@en .

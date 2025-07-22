@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ArmedRobotDog rdf:type airo:AISystem ;
+    rdfs:label "Armed Robot Dog"@en ;
+    rdfs:label "武装机器狗"@zh ;
+    airo:hasRisk ex:LethalAutonomousWeaponRisk ;
+    airo:hasCapability ex:AutonomousTargetingCapability ;
+    airo:hasPurpose ex:MilitaryCombatOperations ;
+    airo:hasStakeholder ex:MilitaryOrganizations ;
+    airo:isAppliedWithinDomain ex:DefenseTechnology ;
+    airo:usesTechnique ex:ComputerVisionForTargetRecognition .
+
+ex:LethalAutonomousWeaponRisk rdf:type airo:Risk ;
+    rdfs:label "Lethal Autonomous Weapon Risk"@en ;
+    rdfs:label "致命自主武器风险"@zh ;
+    airo:hasConsequence ex:IncreasedLethalityInConflictZones ;
+    airo:isRiskSourceFor ex:WeaponizationOfRobotics .
+
+ex:IncreasedLethalityInConflictZones rdf:type airo:Consequence ;
+    rdfs:label "Increased Lethality in Conflict Zones Consequence"@en ;
+    rdfs:label "冲突地区杀伤力增加后果"@zh ;
+    airo:hasImpact ex:CivilianCasualties .
+
+ex:AutonomousTargetingCapability rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Targeting Capability"@en ;
+    rdfs:label "自主目标识别能力"@zh .
+
+ex:MilitaryOrganizations rdf:type airo:Stakeholder ;
+    rdfs:label "Military Organizations"@en ;
+    rdfs:label "军事组织"@zh .
+
+ex:CivilianCasualties rdf:type airo:Impact ;
+    rdfs:label "Civilian Casualties Impact"@en ;
+    rdfs:label "平民伤亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MilitaryOrganizations .
+
+ex:MilitaryCombatOperations rdf:type airo:Purpose ;
+    rdfs:label "Military Combat Operations Purpose"@en ;
+    rdfs:label "军事作战行动目的"@zh .
+
+ex:DefenseTechnology rdf:type airo:Domain ;
+    rdfs:label "Defense Technology Domain"@en ;
+    rdfs:label "国防技术领域"@zh .
+
+ex:ComputerVisionForTargetRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Target Recognition Technique"@en ;
+    rdfs:label "目标识别计算机视觉技术"@zh .
+
+ex:WeaponizationOfRobotics rdf:type airo:RiskSource ;
+    rdfs:label "Weaponization of Robotics Risk Source"@en ;
+    rdfs:label "机器人武器化风险源"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AirbnbTrustworthinessAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Airbnb Trustworthiness Algorithm"@en ;
+    rdfs:label "Airbnb信任度评估算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInUserTrustAssessment ;
+    airo:hasStakeholder ex:AirbnbUsers ;
+    airo:isDeployedBy ex:AirbnbInc .
+
+ex:AlgorithmicBiasInUserTrustAssessment rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in User Trust Assessment Risk"@en ;
+    rdfs:label "用户信任评估中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairUserTreatment ;
+    airo:isRiskSourceFor ex:LackOfTransparencyInAlgorithmicDecisionMaking .
+
+ex:AirbnbUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Airbnb Users"@en ;
+    rdfs:label "Airbnb用户"@zh .
+
+ex:AirbnbInc rdf:type airo:AIOperator ;
+    rdfs:label "Airbnb Inc."@en ;
+    rdfs:label "Airbnb公司"@zh .
+
+ex:LackOfTransparencyInAlgorithmicDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparency in Algorithmic Decision Making Risk Source"@en ;
+    rdfs:label "算法决策中缺乏透明度的风险源"@zh .
+
+ex:UnfairUserTreatment rdf:type airo:Consequence ;
+    rdfs:label "Unfair User Treatment Consequence"@en ;
+    rdfs:label "不公平用户待遇后果"@zh ;
+    airo:hasImpactOnStakeholder ex:AirbnbUsers .

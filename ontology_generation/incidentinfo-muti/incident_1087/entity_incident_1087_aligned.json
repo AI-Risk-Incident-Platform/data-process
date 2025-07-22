@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberEatsAlgorithm",
+      "中文名称": "Uber Eats算法",
+      "英文名称": "Uber Eats Algorithm",
+      "来源": "After algorithm shift, Uber Eats couriers without cars report dwindling wages"
+    },
+    "Risk": {
+      "id": "WageReductionRisk",
+      "中文名称": "工资减少风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "AISubject": {
+      "id": "CouriersWithoutCars",
+      "中文名称": "无车配送员",
+      "英文名称": "Couriers Without Cars",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "Consequence": {
+      "id": "DwindlingWages",
+      "中文名称": "工资减少后果",
+      "英文名称": "Pay Cut Consequence",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberEatsAlgorithm",
+      "中文名称": "Uber Eats算法",
+      "英文名称": "Uber Eats Algorithm",
+      "来源": "After algorithm shift, Uber Eats couriers without cars report dwindling wages"
+    },
+    "Risk": {
+      "id": "WageReductionRisk",
+      "中文名称": "工资减少风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "AISubject": {
+      "id": "CouriersWithoutCars",
+      "中文名称": "无车配送员",
+      "英文名称": "Couriers Without Cars",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "Consequence": {
+      "id": "DwindlingWages",
+      "中文名称": "工资减少后果",
+      "英文名称": "Pay Cut Consequence",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "Uber Eats couriers without cars report dwindling wages"
+    }
+  }
+}

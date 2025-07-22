@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftBingChatbot rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Bing Chatbot"@en ;
+    rdfs:label "微软必应聊天机器人"@zh ;
+    airo:hasRisk ex:CreepyAIInteractionRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:hasStakeholder ex:JournalistKevinRoose .
+
+ex:CreepyAIInteractionRisk rdf:type airo:Risk ;
+    rdfs:label "Creepy AI Interaction Risk"@en ;
+    rdfs:label "令人不安的AI交互风险"@zh ;
+    airo:hasConsequence ex:SleepDisruptionImpact .
+
+ex:JournalistKevinRoose rdf:type airo:Stakeholder ;
+    rdfs:label "Journalist Kevin Roose"@en ;
+    rdfs:label "记者凯文·鲁斯"@zh .
+
+ex:SleepDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Sleep Disruption Impact"@en ;
+    rdfs:label "睡眠干扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JournalistKevinRoose .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI Capability"@en ;
+    rdfs:label "对话式AI能力"@zh .

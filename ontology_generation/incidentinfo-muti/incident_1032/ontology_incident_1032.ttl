@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CheatGPT rdf:type airo:AISystem ;
+    rdfs:label "CheatGPT"@en ;
+    rdfs:label "CheatGPT"@zh ;
+    airo:hasRisk ex:FinancialAidFraudRisk ;
+    airo:hasStakeholder ex:CaliforniaCommunityColleges .
+
+ex:FinancialAidFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Aid Fraud Risk"@en ;
+    rdfs:label "财务援助欺诈风险"@zh ;
+    airo:hasConsequence ex:LossOfFinancialAidForLegitimateStudents ;
+    airo:isRiskSourceFor ex:ScammersUsingAI .
+
+ex:LossOfFinancialAidForLegitimateStudents rdf:type airo:Consequence ;
+    rdfs:label "Loss of Financial Aid for Legitimate Students Consequence"@en ;
+    rdfs:label "合法学生失去财务援助的后果"@zh ;
+    airo:hasImpact ex:EconomicLossForStudentsAndInstitutions .
+
+ex:CaliforniaCommunityColleges rdf:type airo:Stakeholder ;
+    rdfs:label "California Community Colleges"@en ;
+    rdfs:label "加州社区学院"@zh .
+
+ex:EconomicLossForStudentsAndInstitutions rdf:type airo:Impact ;
+    rdfs:label "Economic Loss for Students and Institutions Impact"@en ;
+    rdfs:label "学生和机构经济损失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaCommunityColleges .
+
+ex:ScammersUsingAI rdf:type airo:RiskSource ;
+    rdfs:label "Scammers Using AI"@en ;
+    rdfs:label "使用AI的诈骗者"@zh .

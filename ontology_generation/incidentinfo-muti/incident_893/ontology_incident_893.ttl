@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LLMjackingAttack rdf:type airo:AISystem ;
+    rdfs:label "LLMjacking攻击"@zh ;
+    rdfs:label "LLMjacking Attack"@en ;
+    airo:hasRisk ex:CloudCredentialTheftRisk .
+
+ex:CloudCredentialTheftRisk rdf:type airo:Risk ;
+    rdfs:label "云凭证窃取风险"@zh ;
+    rdfs:label "Cloud Credential Theft Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedAIResourceAccess ;
+    airo:isRiskSourceFor ex:StolenCloudCredentials .
+
+ex:StolenCloudCredentials rdf:type airo:RiskSource ;
+    rdfs:label "被盗云凭证"@zh ;
+    rdfs:label "Stolen Cloud Credentials"@en ;
+    airo:isRiskSourceFor ex:CloudCredentialTheftRisk .
+
+ex:EvolvingTacticsInLLMjacking rdf:type airo:Threat ;
+    rdfs:label "LLMjacking中不断演变的战术威胁"@zh ;
+    rdfs:label "Evolving Tactics in LLMjacking Threat"@en ;
+    airo:isRiskSourceFor ex:CloudCredentialTheftRisk .
+
+ex:UnauthorizedAIResourceAccess rdf:type airo:Consequence ;
+    rdfs:label "未经授权的AI资源访问后果"@zh ;
+    rdfs:label "Unauthorized AI Resource Access Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:Stakeholder . # 此处利益相关者为补充，标注在注释中
+    # 注释：此处利益相关者为补充，因为原事件中未明确提及，属于偏向常识的要素，根据一般情况，AI资源的所有者、使用者等可能是利益相关者。
+
+ex:Stakeholder rdf:type airo:Stakeholder ;
+    rdfs:label "利益相关者"@zh ;
+    rdfs:label "Stakeholder"@en .

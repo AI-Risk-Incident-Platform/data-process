@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IJB_CDataset rdf:type airo:AISystem ;
+    rdfs:label "IARPA Janus Benchmark C数据集"@zh ;
+    rdfs:label "IARPA Janus Benchmark C Dataset"@en ;
+    airo:hasRisk ex:PrivacyConcernsRisk ;
+    airo:isAppliedWithinDomain ex:BiometricRecognition .
+
+ex:PrivacyConcernsRisk rdf:type airo:Risk ;
+    rdfs:label "隐私问题风险"@zh ;
+    rdfs:label "Privacy Concerns Risk"@en ;
+    airo:isRiskSourceFor ex:FacialImageCollection ;
+    airo:hasConsequence ex:PersonalDataExposure .
+
+ex:BiometricRecognition rdf:type airo:Domain ;
+    rdfs:label "生物识别领域"@zh ;
+    rdfs:label "Biometric Recognition Domain"@en .
+
+ex:FacialImageCollection rdf:type airo:RiskSource ;
+    rdfs:label "面部图像收集风险源"@zh ;
+    rdfs:label "Facial Image Collection Risk Source"@en .
+
+ex:PersonalDataExposure rdf:type airo:Consequence ;
+    rdfs:label "个人数据暴露后果"@zh ;
+    rdfs:label "Personal Data Exposure Consequence"@en .

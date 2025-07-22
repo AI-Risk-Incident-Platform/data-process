@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PonyAiDriverlessSystem rdf:type airo:AISystem ;
+    rdfs:label "Pony.ai Driverless System"@en ;
+    rdfs:label "小马智行无人驾驶系统"@zh ;
+    airo:hasRisk ex:DriverlessTestingSafetyRisk ;
+    airo:isDeployedBy ex:PonyAi ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTesting ;
+    airo:hasStakeholder ex:CaliforniaDMV .
+
+ex:DriverlessTestingSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Driverless Testing Safety Risk"@en ;
+    rdfs:label "无人驾驶测试安全风险"@zh ;
+    airo:hasConsequence ex:TestingPermitSuspension ;
+    airo:isRiskSourceFor ex:SmallCrashIncident .
+
+ex:PonyAi rdf:type airo:AIOperator ;
+    rdfs:label "Pony.ai"@en ;
+    rdfs:label "小马智行"@zh .
+
+ex:CaliforniaDMV rdf:type airo:Stakeholder ;
+    rdfs:label "California DMV"@en ;
+    rdfs:label "加州车管局"@zh .
+
+ex:TestingPermitSuspension rdf:type airo:Consequence ;
+    rdfs:label "Testing Permit Suspension Consequence"@en ;
+    rdfs:label "测试许可暂停后果"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaDMV .
+
+ex:AutonomousVehicleTesting rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Testing Domain"@en ;
+    rdfs:label "自动驾驶车辆测试领域"@zh .
+
+ex:SmallCrashIncident rdf:type airo:RiskSource ;
+    rdfs:label "Small Crash Incident Risk Source"@en ;
+    rdfs:label "小型碰撞事故风险源"@zh .

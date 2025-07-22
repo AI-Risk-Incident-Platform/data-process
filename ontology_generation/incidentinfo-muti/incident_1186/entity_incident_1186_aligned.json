@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI",
+      "英文名称": "Google AI",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Risk": {
+      "id": "FalseInformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    },
+    "AICapability": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索能力",
+      "英文名称": "Info Retrieval & Generation Capability",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "Stakeholder": {
+      "id": "SuperBowlViewers",
+      "中文名称": "超级碗观众",
+      "英文名称": "Super Bowl Viewers",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "Purpose": {
+      "id": "Advertising",
+      "中文名称": "广告宣传目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Domain": {
+      "id": "Marketing",
+      "中文名称": "市场营销领域",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "RiskSource": {
+      "id": "IncorrectData",
+      "中文名称": "错误数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI",
+      "英文名称": "Google AI",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Risk": {
+      "id": "FalseInformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    },
+    "AICapability": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索能力",
+      "英文名称": "Info Retrieval & Generation Capability",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "Stakeholder": {
+      "id": "SuperBowlViewers",
+      "中文名称": "超级碗观众",
+      "英文名称": "Super Bowl Viewers",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "Purpose": {
+      "id": "Advertising",
+      "中文名称": "广告宣传目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Google edits Super Bowl ad for AI that featured false information"
+    },
+    "Domain": {
+      "id": "Marketing",
+      "中文名称": "市场营销领域",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "Google remakes Super Bowl ad after AI cheese gaffe"
+    },
+    "RiskSource": {
+      "id": "IncorrectData",
+      "中文名称": "错误数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google tweaks Super Bowl ad that showed its AI giving an incorrect answer about Gouda cheese"
+    }
+  }
+}

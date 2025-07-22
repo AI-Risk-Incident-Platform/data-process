@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVideoGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Video Generator"@en ;
+    rdfs:label "AI视频生成器"@zh ;
+    airo:hasRisk ex:PornContentGenerationRisk ;
+    airo:hasAIUser ex:UsersJailbreakingAI ;
+    airo:hasStakeholder ex:UsersJailbreakingAI .
+
+ex:PornContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Porn Content Generation Risk"@en ;
+    rdfs:label "色情内容生成风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedPornContent ;
+    airo:isRiskSourceFor ex:JailbreakForPornGeneration .
+
+ex:JailbreakForPornGeneration rdf:type airo:Misuse ;
+    rdfs:label "Jailbreak for Porn Generation"@en ;
+    rdfs:label "破解用于色情内容生成"@zh .
+
+ex:UsersJailbreakingAI rdf:type airo:AIUser ;
+    rdfs:label "Users Jailbreaking AI"@en ;
+    rdfs:label "破解AI的用户"@zh .
+
+ex:UnauthorizedPornContent rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Porn Content"@en ;
+    rdfs:label "未经授权的色情内容"@zh .

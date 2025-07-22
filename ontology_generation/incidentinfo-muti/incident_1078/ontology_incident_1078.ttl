@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AlexaVoiceAssistant rdf:type airo:AISystem ;
+    rdfs:label "Alexa Voice Assistant"@en ;
+    rdfs:label "Alexa语音助手"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:VoiceAssistantService ;
+    airo:isAppliedWithinDomain ex:SmartHomeTechnology ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasStakeholder ex:USSenator .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:IndefiniteDataRetention ;
+    airo:isRiskSourceFor ex:DataRetentionPolicy .
+
+ex:IndefiniteDataRetention rdf:type airo:Consequence ;
+    rdfs:label "Indefinite Data Retention Consequence"@en ;
+    rdfs:label "数据无限期保留后果"@zh ;
+    airo:hasImpact ex:UserPrivacyConcerns .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:USSenator rdf:type airo:Stakeholder ;
+    rdfs:label "U.S. Senator"@en ;
+    rdfs:label "美国参议员"@zh .
+
+ex:UserPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "User Privacy Concerns Impact"@en ;
+    rdfs:label "用户隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USSenator .
+
+ex:VoiceAssistantService rdf:type airo:Purpose ;
+    rdfs:label "Voice Assistant Service Purpose"@en ;
+    rdfs:label "语音助手服务目的"@zh .
+
+ex:SmartHomeTechnology rdf:type airo:Domain ;
+    rdfs:label "Smart Home Technology Domain"@en ;
+    rdfs:label "智能家居技术领域"@zh .
+
+ex:DataRetentionPolicy rdf:type airo:RiskSource ;
+    rdfs:label "Data Retention Policy Risk Source"@en ;
+    rdfs:label "数据保留政策风险源"@zh ;
+    airo:exploitsVulnerability ex:UserDataControlLimitation .
+
+ex:UserDataControlLimitation rdf:type airo:Vulnerability ;
+    rdfs:label "User Data Control Limitation Vulnerability"@en ;
+    rdfs:label "用户数据控制限制漏洞"@zh .

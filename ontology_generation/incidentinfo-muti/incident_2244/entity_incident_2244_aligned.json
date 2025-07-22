@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaSelfDrivingSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Risk": {
+      "id": "TrafficSafetyRisk",
+      "中文名称": "交通安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Consequence": {
+      "id": "PotentialAccident",
+      "中文名称": "潜在事故后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Richmond Tesla incident: ICBC says driverless not allowed"
+    },
+    "Stakeholder": {
+      "id": "ICBC",
+      "中文名称": "ICBC保险公司",
+      "英文名称": "ICBC Insurance Company",
+      "来源": "Richmond Tesla incident: ICBC says driverless not allowed"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Richmond Tesla incident"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Purpose": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Richmond Tesla incident"
+    },
+    "AICapability": {
+      "id": "RoadNavigation",
+      "中文名称": "道路导航能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaSelfDrivingSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Risk": {
+      "id": "TrafficSafetyRisk",
+      "中文名称": "交通安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Consequence": {
+      "id": "PotentialAccident",
+      "中文名称": "潜在事故后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Richmond Tesla incident: ICBC says driverless not allowed"
+    },
+    "Stakeholder": {
+      "id": "ICBC",
+      "中文名称": "ICBC保险公司",
+      "英文名称": "ICBC Insurance Company",
+      "来源": "Richmond Tesla incident: ICBC says driverless not allowed"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Richmond Tesla incident"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    },
+    "Purpose": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Richmond Tesla incident"
+    },
+    "AICapability": {
+      "id": "RoadNavigation",
+      "中文名称": "道路导航能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Video captures B.C. Tesla self-driving on the wrong side of the road"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BunningsFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Bunnings Facial Recognition System"@en ;
+    rdfs:label "Bunnings面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyLawViolationRisk ;
+    airo:isDeployedBy ex:Bunnings ;
+    airo:hasStakeholder ex:PrivacyCommissioner ;
+    airo:hasAISubject ex:RetailCustomers ;
+    airo:hasPurpose ex:CustomerIdentificationAndSecurity ;
+    airo:isAppliedWithinDomain ex:RetailIndustry ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyLawViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Law Violation Risk"@en ;
+    rdfs:label "隐私法违规风险"@zh ;
+    airo:hasConsequence ex:CustomerPrivacyViolation .
+
+ex:CustomerPrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Customer Privacy Violation Consequence"@en ;
+    rdfs:label "顾客隐私侵犯后果"@zh ;
+    airo:hasImpact ex:LegalAndReputationalDamage .
+
+ex:Bunnings rdf:type airo:AIOperator ;
+    rdfs:label "Bunnings"@en ;
+    rdfs:label "Bunnings公司"@zh .
+
+ex:PrivacyCommissioner rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Commissioner"@en ;
+    rdfs:label "隐私专员"@zh .
+
+ex:RetailCustomers rdf:type airo:AISubject ;
+    rdfs:label "Retail Customers"@en ;
+    rdfs:label "零售顾客"@zh .
+
+ex:LegalAndReputationalDamage rdf:type airo:Impact ;
+    rdfs:label "Legal and Reputational Damage Impact"@en ;
+    rdfs:label "法律和声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PrivacyCommissioner .
+
+ex:CustomerIdentificationAndSecurity rdf:type airo:Purpose ;
+    rdfs:label "Customer Identification and Security Purpose"@en ;
+    rdfs:label "顾客识别和安全目的"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry Domain"@en ;
+    rdfs:label "零售业领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .

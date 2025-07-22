@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "COMPASRecidivismPredictionSystem",
+      "中文名称": "COMPAS累犯预测系统",
+      "英文名称": "COMPAS Recidivism Prediction System",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInJudicialDecisionMaking",
+      "中文名称": "司法决策中的算法偏见风险",
+      "英文名称": "Judicial Algorithmic Bias Risk",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "AICapability": {
+      "id": "MultiVariableStatisticalAnalysisForRecidivismPrediction",
+      "中文名称": "多变量统计分析用于预测再犯的能力",
+      "英文名称": "Multi-Variable Statistical Analysis for Recidivism Prediction Capability",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "AIOperator": {
+      "id": "NorthpointeInc",
+      "中文名称": "北点公司",
+      "英文名称": "Northpointe Inc.",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "AISubject": {
+      "id": "CriminalDefendants",
+      "中文名称": "刑事被告人",
+      "英文名称": "Criminal Defendants",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Impact": {
+      "id": "UnjustSentencing",
+      "中文名称": "不公正量刑的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "Purpose": {
+      "id": "SupportingJudicialRiskAssessmentDecisions",
+      "中文名称": "辅助司法风险评估决策的目的",
+      "英文名称": "Supporting Judicial Risk Assessment Decisions Purpose",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Domain": {
+      "id": "JudicialCriminalJusticeSystem",
+      "中文名称": "司法刑事司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "AITechnique": {
+      "id": "ProprietaryMachineLearningModel",
+      "中文名称": "专有机器学习模型",
+      "英文名称": "Proprietary Machine Learning Model Technique",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Vulnerability": {
+      "id": "HumanJudgesOverrelianceOnAlgorithmicScores",
+      "中文名称": "法官对算法评分过度依赖的脆弱性",
+      "英文名称": "Human Judges Overreliance on Algorithmic Scores Vulnerability",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "Threat": {
+      "id": "MisuseOfAlgorithmicToolsByNonExperts",
+      "中文名称": "非专家误用算法工具的威胁",
+      "英文名称": "Misuse of Algorithmic Tools by Non-Experts Threat",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingData",
+      "中文名称": "训练数据偏差危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInCommercialAlgorithms",
+      "中文名称": "商业算法中缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAIDrivenPunishmentRecommendations",
+      "中文名称": "人工智能驱动的惩罚建议中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "COMPASRecidivismPredictionSystem",
+      "中文名称": "COMPAS累犯预测系统",
+      "英文名称": "COMPAS Recidivism Prediction System",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInJudicialDecisionMaking",
+      "中文名称": "司法决策中的算法偏见风险",
+      "英文名称": "Judicial Algorithmic Bias Risk",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "AICapability": {
+      "id": "MultiVariableStatisticalAnalysisForRecidivismPrediction",
+      "中文名称": "多变量统计分析用于预测再犯的能力",
+      "英文名称": "Multi-Variable Statistical Analysis for Recidivism Prediction Capability",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "AIOperator": {
+      "id": "NorthpointeInc",
+      "中文名称": "北点公司",
+      "英文名称": "Northpointe Inc.",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "AISubject": {
+      "id": "CriminalDefendants",
+      "中文名称": "刑事被告人",
+      "英文名称": "Criminal Defendants",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Impact": {
+      "id": "UnjustSentencing",
+      "中文名称": "不公正量刑的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "Purpose": {
+      "id": "SupportingJudicialRiskAssessmentDecisions",
+      "中文名称": "辅助司法风险评估决策的目的",
+      "英文名称": "Supporting Judicial Risk Assessment Decisions Purpose",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Domain": {
+      "id": "JudicialCriminalJusticeSystem",
+      "中文名称": "司法刑事司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "AITechnique": {
+      "id": "ProprietaryMachineLearningModel",
+      "中文名称": "专有机器学习模型",
+      "英文名称": "Proprietary Machine Learning Model Technique",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Vulnerability": {
+      "id": "HumanJudgesOverrelianceOnAlgorithmicScores",
+      "中文名称": "法官对算法评分过度依赖的脆弱性",
+      "英文名称": "Human Judges Overreliance on Algorithmic Scores Vulnerability",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    },
+    "Threat": {
+      "id": "MisuseOfAlgorithmicToolsByNonExperts",
+      "中文名称": "非专家误用算法工具的威胁",
+      "英文名称": "Misuse of Algorithmic Tools by Non-Experts Threat",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingData",
+      "中文名称": "训练数据偏差危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInCommercialAlgorithms",
+      "中文名称": "商业算法中缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Algorithmic Risk Assessment in the Hands of Humans"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAIDrivenPunishmentRecommendations",
+      "中文名称": "人工智能驱动的惩罚建议中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Algorithms were supposed to make Virginia judges fairer. What happened was far more complicated."
+    }
+  }
+}

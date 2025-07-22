@@ -1,0 +1,88 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Amazon explains how Alexa recorded a private conversation and sent it to another user"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Amazon Echo recorded a family’s conversation and sent it to a random person on their contact list"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataSharing",
+      "中文名称": "未经授权的数据共享后果",
+      "英文名称": "Unauthorized Data Sharing Consequence",
+      "来源": "sent it to another user"
+    },
+    "AICapability": {
+      "id": "VoiceRecordingAndTransmission",
+      "中文名称": "语音录制和传输能力",
+      "英文名称": "Voice Recording and Transmission Capability",
+      "来源": "recorded a private conversation and sent it to another user"
+    },
+    "AIProvider": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon explains how Alexa recorded a private conversation"
+    },
+    "Stakeholder": {
+      "id": "EchoUsers",
+      "中文名称": "Echo用户",
+      "英文名称": "Echo Users",
+      "来源": "a family’s conversation"
+    },
+    "AISubject": {
+      "id": "PrivateConversations",
+      "中文名称": "私人对话",
+      "英文名称": "Private Conversations",
+      "来源": "recorded a private conversation"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyBreach",
+      "中文名称": "个人隐私泄露影响",
+      "英文名称": "Personal Privacy Breach Impact",
+      "来源": "recorded a private conversation and sent it to another user"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantService",
+      "中文名称": "语音助手服务目的",
+      "英文名称": "Voice Assistant Service Purpose",
+      "来源": "Amazon Echo"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Devices Domain",
+      "来源": "Amazon Echo"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionTechnology",
+      "中文名称": "语音识别技术",
+      "英文名称": "Voice Recognition Technology",
+      "来源": "recorded a private conversation"
+    },
+    "Vulnerability": {
+      "id": "AccidentalActivation",
+      "中文名称": "意外激活漏洞",
+      "英文名称": "Accidental Activation Vulnerability",
+      "来源": "recorded a family’s conversation"
+    },
+    "Threat": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问威胁",
+      "英文名称": "Unauthorized Data Access Threat",
+      "来源": "sent it to a random person on their contact list"
+    },
+    "RiskSource": {
+      "id": "SoftwareBug",
+      "中文名称": "软件缺陷风险源",
+      "英文名称": "Software Bug Risk Source",
+      "来源": "Amazon explains how Alexa recorded a private conversation"
+    }
+  }
+}

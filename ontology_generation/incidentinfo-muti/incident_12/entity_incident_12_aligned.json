@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleImageSearch",
+      "中文名称": "谷歌图片搜索",
+      "英文名称": "Google Image Search",
+      "来源": "Google Image Search Has A Gender Bias Problem"
+    },
+    "Risk": {
+      "id": "GenderBiasInSearchResults",
+      "中文名称": "搜索结果中的性别偏见风险",
+      "英文名称": "Gender Bias in Search Results Risk",
+      "来源": "Google Image Search Has A Gender Bias Problem"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfGenderStereotypes",
+      "中文名称": "强化性别刻板印象的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google Search thinks the most important female CEO is Barbie"
+    },
+    "Impact": {
+      "id": "PerpetuationOfGenderInequality",
+      "中文名称": "性别不平等持续的影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "Who’s a CEO? Google image results can shift gender biases"
+    },
+    "AICapability": {
+      "id": "ImageRankingAlgorithm",
+      "中文名称": "图片排名算法能力",
+      "英文名称": "Image Ranking Algorithm Capability",
+      "来源": "Google image results can shift gender biases"
+    },
+    "Stakeholder": {
+      "id": "GoogleInc",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Image Search"
+    },
+    "AISubject": {
+      "id": "WomenInLeadershipPositions",
+      "中文名称": "领导职位中的女性",
+      "英文名称": "Women in Leadership Positions",
+      "来源": "Google Search thinks the most important female CEO is Barbie"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google image results can shift gender biases"
+    },
+    "Domain": {
+      "id": "OnlineSearchEngine",
+      "中文名称": "在线搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google Image Search"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleImageSearch",
+      "中文名称": "谷歌图片搜索",
+      "英文名称": "Google Image Search",
+      "来源": "Google Image Search Has A Gender Bias Problem"
+    },
+    "Risk": {
+      "id": "GenderBiasInSearchResults",
+      "中文名称": "搜索结果中的性别偏见风险",
+      "英文名称": "Gender Bias in Search Results Risk",
+      "来源": "Google Image Search Has A Gender Bias Problem"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfGenderStereotypes",
+      "中文名称": "强化性别刻板印象的后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "Google Search thinks the most important female CEO is Barbie"
+    },
+    "Impact": {
+      "id": "PerpetuationOfGenderInequality",
+      "中文名称": "性别不平等持续的影响",
+      "英文名称": "Gender Discrimination Impact",
+      "来源": "Who’s a CEO? Google image results can shift gender biases"
+    },
+    "AICapability": {
+      "id": "ImageRankingAlgorithm",
+      "中文名称": "图片排名算法能力",
+      "英文名称": "Image Ranking Algorithm Capability",
+      "来源": "Google image results can shift gender biases"
+    },
+    "Stakeholder": {
+      "id": "GoogleInc",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Image Search"
+    },
+    "AISubject": {
+      "id": "WomenInLeadershipPositions",
+      "中文名称": "领导职位中的女性",
+      "英文名称": "Women in Leadership Positions",
+      "来源": "Google Search thinks the most important female CEO is Barbie"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google image results can shift gender biases"
+    },
+    "Domain": {
+      "id": "OnlineSearchEngine",
+      "中文名称": "在线搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google Image Search"
+    }
+  }
+}

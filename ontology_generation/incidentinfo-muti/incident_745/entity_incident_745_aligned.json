@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PoliceRiskAssessmentAlgorithm",
+      "中文名称": "警方风险评估算法",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "An Algorithm Told Police She Was Safe."
+    },
+    "Risk": {
+      "id": "DomesticViolenceRiskMisclassification",
+      "中文名称": "家庭暴力风险误分类风险",
+      "英文名称": "Domestic Violence Risk Misclassification",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Consequence": {
+      "id": "FatalDomesticViolenceIncident",
+      "中文名称": "致命家庭暴力事件后果",
+      "英文名称": "Fatal Domestic Violence Incident Consequence",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "AISubject": {
+      "id": "DomesticViolenceVictim",
+      "中文名称": "家庭暴力受害者",
+      "英文名称": "Domestic Violence Victim",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "An Algorithm Told Police She Was Safe."
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInRiskAssessment",
+      "中文名称": "风险评估中的算法偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her."
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PoliceRiskAssessmentAlgorithm",
+      "中文名称": "警方风险评估算法",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "An Algorithm Told Police She Was Safe."
+    },
+    "Risk": {
+      "id": "DomesticViolenceRiskMisclassification",
+      "中文名称": "家庭暴力风险误分类风险",
+      "英文名称": "Domestic Violence Risk Misclassification",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Consequence": {
+      "id": "FatalDomesticViolenceIncident",
+      "中文名称": "致命家庭暴力事件后果",
+      "英文名称": "Fatal Domestic Violence Incident Consequence",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "AISubject": {
+      "id": "DomesticViolenceVictim",
+      "中文名称": "家庭暴力受害者",
+      "英文名称": "Domestic Violence Victim",
+      "来源": "Then Her Husband Killed Her."
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Dept",
+      "来源": "An Algorithm Told Police She Was Safe."
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInRiskAssessment",
+      "中文名称": "风险评估中的算法偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her."
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her."
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcement",
+      "中文名称": "执法部门",
+      "英文名称": "Law Enforcement",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "AISubject": {
+      "id": "FuneralAttendees",
+      "中文名称": "葬礼参加者",
+      "英文名称": "Funeral Attendees",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Impact": {
+      "id": "HarassmentImpact",
+      "中文名称": "骚扰影响",
+      "英文名称": "Harassment Impact",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "Purpose": {
+      "id": "SurveillancePurpose",
+      "中文名称": "监控目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Consequence": {
+      "id": "DetentionConsequence",
+      "中文名称": "拘留后果",
+      "英文名称": "Detention Consequence",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "RiskSource": {
+      "id": "GovernmentSurveillance",
+      "中文名称": "政府监控风险源",
+      "英文名称": "Government Surveillance Risk Source",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcement",
+      "中文名称": "执法部门",
+      "英文名称": "Law Enforcement",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "AISubject": {
+      "id": "FuneralAttendees",
+      "中文名称": "葬礼参加者",
+      "英文名称": "Funeral Attendees",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Impact": {
+      "id": "HarassmentImpact",
+      "中文名称": "骚扰影响",
+      "英文名称": "Harassment Impact",
+      "来源": "Russians who laid flowers in Navalny’s memory are being harassed by law enforcement"
+    },
+    "Purpose": {
+      "id": "SurveillancePurpose",
+      "中文名称": "监控目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "Consequence": {
+      "id": "DetentionConsequence",
+      "中文名称": "拘留后果",
+      "英文名称": "Detention Consequence",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    },
+    "RiskSource": {
+      "id": "GovernmentSurveillance",
+      "中文名称": "政府监控风险源",
+      "英文名称": "Government Surveillance Risk Source",
+      "来源": "Russia uses facial recognition to detain Navalny funeral attendees"
+    }
+  }
+}

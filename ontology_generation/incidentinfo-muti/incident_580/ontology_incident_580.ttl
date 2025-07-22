@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram推荐算法"@zh ;
+    rdfs:label "Instagram Recommendation Algorithm"@en ;
+    airo:hasRisk ex:ChildSexAbuseContentPromotionRisk ;
+    airo:hasStakeholder ex:MetaCompany ;
+    airo:hasStakeholder ex:InstagramPlatform ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformDomain .
+
+ex:ChildSexAbuseContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "儿童性虐待内容推广风险"@zh ;
+    rdfs:label "Child Sex Abuse Content Promotion Risk"@en ;
+    airo:hasConsequence ex:ExposureToIllegalContent ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInContentPromotion .
+
+ex:ExposureToIllegalContent rdf:type airo:Consequence ;
+    rdfs:label "接触非法内容后果"@zh ;
+    rdfs:label "Exposure to Illegal Content Consequence"@en ;
+    airo:hasImpact ex:HarmToMinors .
+
+ex:HarmToMinors rdf:type airo:Impact ;
+    rdfs:label "对未成年人伤害的影响"@zh ;
+    rdfs:label "Harm to Minors Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MetaCompany .
+
+ex:MetaCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Meta公司"@zh ;
+    rdfs:label "Meta Company"@en .
+
+ex:InstagramPlatform rdf:type airo:AIOperator ;
+    rdfs:label "Instagram平台"@zh ;
+    rdfs:label "Instagram Platform"@en .
+
+ex:AlgorithmicBiasInContentPromotion rdf:type airo:RiskSource ;
+    rdfs:label "内容推广中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Content Promotion Risk Source"@en .
+
+ex:SocialMediaPlatformDomain rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platform Domain"@en .

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "AI Voice Cloning System",
+      "来源": "Grandmother scammed out of $20K by fake TV anchor using AI voice"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "Grandmother scammed out of $20K by fake TV anchor using AI voice"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Grandmother scammed out of $20K by fake TV anchor using AI voice"
+    },
+    "Stakeholder": {
+      "id": "ElderlyVictim",
+      "中文名称": "老年受害者",
+      "英文名称": "Elderly Victim",
+      "来源": "A Scammer Used AI to Convince Elderly MSNBC Fan He Was Famous TV Host. He Nearly Kidnapped Her."
+    },
+    "AISubject": {
+      "id": "FormerBoeingEmployee",
+      "中文名称": "前波音公司员工",
+      "英文名称": "Former Boeing Employee",
+      "来源": "Scammer poses as MSNBC's Ari Melber, cons former Boeing employee out of $20,000 (so far)"
+    },
+    "Impact": {
+      "id": "PsychologicalTrauma",
+      "中文名称": "心理创伤影响",
+      "英文名称": "Psychological Trauma Impact",
+      "来源": "He Nearly Kidnapped Her."
+    },
+    "Purpose": {
+      "id": "VoiceImpersonation",
+      "中文名称": "语音模仿目的",
+      "英文名称": "Voice Impersonation Purpose",
+      "来源": "fake TV anchor using AI voice"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Voice Cloning Technology",
+      "来源": "using AI voice"
+    },
+    "RiskSource": {
+      "id": "ScammerPosingAsTVHost",
+      "中文名称": "冒充电视主持人的诈骗者",
+      "英文名称": "Scammer Posing As TV Host",
+      "来源": "Scammer poses as MSNBC's Ari Melber"
+    },
+    "Vulnerability": {
+      "id": "ElderlyTrustInMediaFigures",
+      "中文名称": "老年人对媒体人物的信任",
+      "英文名称": "Elderly Trust In Media Figures",
+      "来源": "A Scammer Used AI to Convince Elderly MSNBC Fan He Was Famous TV Host"
+    }
+  }
+}

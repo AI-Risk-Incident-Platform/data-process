@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DCComicsAICoverGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "DC漫画AI封面生成系统"@zh ;
+    rdfs:label "DC Comics AI Cover Generation System"@en ;
+    airo:hasRisk ex:AIGeneratedArtControversyRisk ;
+    airo:hasStakeholder ex:DCComics ;
+    airo:isAppliedWithinDomain ex:ComicBookPublishing .
+
+ex:AIGeneratedArtControversyRisk rdf:type airo:Risk ;
+    rdfs:label "AI生成艺术争议风险"@zh ;
+    rdfs:label "AI Generated Art Controversy Risk"@en ;
+    airo:hasConsequence ex:PublicBacklashAgainstAIGeneratedContent .
+
+ex:DCComics rdf:type airo:Stakeholder ;
+    rdfs:label "DC漫画公司"@zh ;
+    rdfs:label "DC Comics"@en .
+
+ex:PublicBacklashAgainstAIGeneratedContent rdf:type airo:Consequence ;
+    rdfs:label "公众对AI生成内容的强烈反对"@zh ;
+    rdfs:label "Public Backlash Against AI Generated Content"@en ;
+    airo:hasImpactOnStakeholder ex:DCComics .
+
+ex:ComicBookPublishing rdf:type airo:Domain ;
+    rdfs:label "漫画出版领域"@zh ;
+    rdfs:label "Comic Book Publishing Domain"@en .

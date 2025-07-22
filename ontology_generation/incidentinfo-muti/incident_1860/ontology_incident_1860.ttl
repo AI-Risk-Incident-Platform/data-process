@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIObituaryGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Obituary Generator"@en ;
+    rdfs:label "AI讣告生成器"@zh ;
+    airo:hasRisk ex:EmotionalDistressRisk ;
+    airo:hasPurpose ex:AutomatedObituaryCreation ;
+    airo:isAppliedWithinDomain ex:FuneralServicesIndustry ;
+    airo:hasAISubject ex:BereavedFamilies .
+
+ex:EmotionalDistressRisk rdf:type airo:Risk ;
+    rdfs:label "Emotional Distress Risk"@en ;
+    rdfs:label "情感困扰风险"@zh ;
+    airo:hasConsequence ex:IncreasedGriefForBereaved ;
+    airo:isRiskSourceFor ex:InsensitiveAutomatedContent .
+
+ex:IncreasedGriefForBereaved rdf:type airo:Consequence ;
+    rdfs:label "Increased Grief for Bereaved Consequence"@en ;
+    rdfs:label "增加丧亲者悲痛后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToMourners .
+
+ex:PsychologicalHarmToMourners rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Mourners Impact"@en ;
+    rdfs:label "对哀悼者心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BereavedFamilies .
+
+ex:AutomatedObituaryCreation rdf:type airo:Purpose ;
+    rdfs:label "Automated Obituary Creation Purpose"@en ;
+    rdfs:label "自动化讣告创建目的"@zh .
+
+ex:FuneralServicesIndustry rdf:type airo:Domain ;
+    rdfs:label "Funeral Services Industry Domain"@en ;
+    rdfs:label "殡葬服务行业领域"@zh .
+
+ex:BereavedFamilies rdf:type airo:AISubject ;
+    rdfs:label "Bereaved Families"@en ;
+    rdfs:label "丧亲家庭"@zh .
+
+ex:InsensitiveAutomatedContent rdf:type airo:RiskSource ;
+    rdfs:label "Insensitive Automated Content Risk Source"@en ;
+    rdfs:label "不敏感的自动化内容风险源"@zh .

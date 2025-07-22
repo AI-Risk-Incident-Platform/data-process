@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookPlatform rdf:type airo:AISystem ;
+    rdfs:label "Facebook Platform"@en ;
+    rdfs:label "Facebook平台"@zh ;
+    airo:hasRisk ex:IncreasedUserAngerRisk ;
+    airo:hasPurpose ex:CreateHealthierOnlineEnvironment ;
+    airo:hasStakeholder ex:FacebookUsers .
+
+ex:IncreasedUserAngerRisk rdf:type airo:Risk ;
+    rdfs:label "Increased User Anger Risk"@en ;
+    rdfs:label "用户愤怒增加风险"@zh ;
+    airo:hasConsequence ex:NegativeSocialImpact .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:NegativeSocialImpact rdf:type airo:Impact ;
+    rdfs:label "Negative Social Impact"@en ;
+    rdfs:label "负面社会影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:CreateHealthierOnlineEnvironment rdf:type airo:Purpose ;
+    rdfs:label "Create Healthier Online Environment"@en ;
+    rdfs:label "创建更健康的在线环境"@zh .

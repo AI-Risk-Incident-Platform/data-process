@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YieldStarAlgorithm",
+      "中文名称": "YieldStar算法",
+      "英文名称": "YieldStar Algorithm",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    },
+    "Risk": {
+      "id": "RentInflationRisk",
+      "中文名称": "租金上涨风险",
+      "英文名称": "Rent Inflation Risk",
+      "来源": "Rent Going Up? One Company’s Algorithm Could Be Why"
+    },
+    "Domain": {
+      "id": "RealEstateMarket",
+      "中文名称": "房地产市场",
+      "英文名称": "Real Estate Market",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    },
+    "Stakeholder": {
+      "id": "Tenants",
+      "中文名称": "租户",
+      "英文名称": "Tenants",
+      "来源": "Rent Going Up? One Company’s Algorithm Could Be Why"
+    },
+    "AIOperator": {
+      "id": "RealPageInc",
+      "中文名称": "RealPage公司",
+      "英文名称": "RealPage Inc.",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    },
+    "Consequence": {
+      "id": "HousingAffordabilityCrisis",
+      "中文名称": "住房可负担性危机",
+      "英文名称": "Housing Affordability Crisis",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForRenters",
+      "中文名称": "租房者经济困难",
+      "英文名称": "Financial Hardship for Renters",
+      "来源": "Rent Going Up? One Company’s Algorithm Could Be Why"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPriceFixing",
+      "中文名称": "算法价格操纵",
+      "英文名称": "Algorithmic Price Fixing",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    },
+    "AITechnique": {
+      "id": "PredictivePricingModel",
+      "中文名称": "预测性定价模型",
+      "英文名称": "Predictive Pricing Model",
+      "来源": "Rent Too Damn High? Blame YieldStar, a Secret Algorithm from Housing Hell"
+    }
+  }
+}

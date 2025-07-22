@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAILanguageModel rdf:type airo:AISystem ;
+    rdfs:label "OpenAI Language Model"@en ;
+    rdfs:label "OpenAI语言模型"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:AuthorsAndWriters ;
+    airo:isAppliedWithinDomain ex:PublishingAndLiterature .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalActionAgainstAICompany ;
+    airo:isRiskSourceFor ex:UseOfCopyrightedMaterialForTraining .
+
+ex:AuthorsAndWriters rdf:type airo:Stakeholder ;
+    rdfs:label "Authors and Writers"@en ;
+    rdfs:label "作家和作者"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:LegalActionAgainstAICompany rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Against AI Company"@en ;
+    rdfs:label "对AI公司的法律诉讼"@zh ;
+    airo:hasImpact ex:PotentialFinancialLossForAuthors .
+
+ex:PublishingAndLiterature rdf:type airo:Domain ;
+    rdfs:label "Publishing and Literature"@en ;
+    rdfs:label "出版和文学"@zh .
+
+ex:UseOfCopyrightedMaterialForTraining rdf:type airo:RiskSource ;
+    rdfs:label "Use of Copyrighted Material for Training"@en ;
+    rdfs:label "使用受版权保护的材料进行训练"@zh .
+
+ex:PotentialFinancialLossForAuthors rdf:type airo:Impact ;
+    rdfs:label "Potential Financial Loss for Authors"@en ;
+    rdfs:label "作者潜在的经济损失"@zh ;
+    airo:hasImpactOnStakeholder ex:AuthorsAndWriters .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:PotentiallyDeadlyAutopilotDefect ;
+    airo:hasStakeholder ex:ElonMusk ;
+    airo:isDeployedBy ex:Tesla .
+
+ex:PotentiallyDeadlyAutopilotDefect rdf:type airo:Risk ;
+    rdfs:label "Potentially Deadly Autopilot Defect Risk"@en ;
+    rdfs:label "潜在致命的自动驾驶缺陷风险"@zh ;
+    airo:hasConsequence ex:LawsuitAgainstTesla ;
+    airo:isRiskSourceFor ex:AutopilotDefect .
+
+ex:ElonMusk rdf:type airo:Stakeholder ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:Tesla rdf:type airo:AIOperator ;
+    rdfs:label "Tesla"@en ;
+    rdfs:label "特斯拉"@zh .
+
+ex:LawsuitAgainstTesla rdf:type airo:Consequence ;
+    rdfs:label "Lawsuit Against Tesla Consequence"@en ;
+    rdfs:label "对特斯拉的诉讼后果"@zh ;
+    airo:hasImpact ex:PotentialLossOfLife .
+
+ex:AutopilotDefect rdf:type airo:RiskSource ;
+    rdfs:label "Autopilot Defect Risk Source"@en ;
+    rdfs:label "自动驾驶缺陷风险源"@zh .
+
+ex:PotentialLossOfLife rdf:type airo:Impact ;
+    rdfs:label "Potential Loss of Life Impact"@en ;
+    rdfs:label "潜在生命损失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ElonMusk .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AirbnbTrustworthyScoreSystem",
+      "中文名称": "Airbnb可信度评分系统",
+      "英文名称": "Airbnb Trustworthy Score System",
+      "来源": "Airbnb Has Secret ‘Trustworthy Scores’ and This Privacy Group Is Demanding to See Them"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Airbnb’s Secret Algorithms Plunder Your Social Media"
+    },
+    "Stakeholder": {
+      "id": "EPICPrivacyGroup",
+      "中文名称": "EPIC隐私组织",
+      "英文名称": "EPIC Privacy Group",
+      "来源": "Trust in Trustworthiness Ratings? Privacy Group EPIC Lodges Complaint with FTC Regarding Airbnb Ratings"
+    },
+    "RiskSource": {
+      "id": "SocialMediaDataCollection",
+      "中文名称": "社交媒体数据收集",
+      "英文名称": "Social Media Data Collection",
+      "来源": "Airbnb’s Secret Algorithms Plunder Your Social Media"
+    },
+    "Consequence": {
+      "id": "LackOfTransparency",
+      "中文名称": "缺乏透明度",
+      "英文名称": "Lack of Transparency",
+      "来源": "Airbnb Has Secret ‘Trustworthy Scores’ and This Privacy Group Is Demanding to See Them"
+    }
+  }
+}

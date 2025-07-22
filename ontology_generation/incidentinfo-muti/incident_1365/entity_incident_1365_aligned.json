@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionDatasets",
+      "中文名称": "面部识别数据集",
+      "英文名称": "Facial Datasets",
+      "来源": "MS Celeb and other facial biometrics datasets taken down"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "AISubject": {
+      "id": "CollegeStudents",
+      "中文名称": "大学生",
+      "英文名称": "College Students",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Stakeholder": {
+      "id": "FacialRecognitionDevelopers",
+      "中文名称": "面部识别开发者",
+      "英文名称": "Facial Recognition Developers",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "Impact": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Purpose": {
+      "id": "FacialRecognitionDevelopment",
+      "中文名称": "面部识别开发的目的",
+      "英文名称": "Facial Recognition Purpose",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "Domain": {
+      "id": "Biometrics",
+      "中文名称": "生物识别领域",
+      "英文名称": "Biometric Domain",
+      "来源": "MS Celeb and other facial biometrics datasets taken down"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "RiskSource": {
+      "id": "SecretDataCollection",
+      "中文名称": "秘密数据收集的风险源",
+      "英文名称": "Secret Data Collection Risk Source",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionDatasets",
+      "中文名称": "面部识别数据集",
+      "英文名称": "Facial Datasets",
+      "来源": "MS Celeb and other facial biometrics datasets taken down"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "AISubject": {
+      "id": "CollegeStudents",
+      "中文名称": "大学生",
+      "英文名称": "College Students",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Stakeholder": {
+      "id": "FacialRecognitionDevelopers",
+      "中文名称": "面部识别开发者",
+      "英文名称": "Facial Recognition Developers",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "Impact": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "College students unknowingly photographed as part of secret face recognition project"
+    },
+    "Purpose": {
+      "id": "FacialRecognitionDevelopment",
+      "中文名称": "面部识别开发的目的",
+      "英文名称": "Facial Recognition Purpose",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "Domain": {
+      "id": "Biometrics",
+      "中文名称": "生物识别领域",
+      "英文名称": "Biometric Domain",
+      "来源": "MS Celeb and other facial biometrics datasets taken down"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    },
+    "RiskSource": {
+      "id": "SecretDataCollection",
+      "中文名称": "秘密数据收集的风险源",
+      "英文名称": "Secret Data Collection Risk Source",
+      "来源": "Massive photo databases secretly gathered in US and Europe to develop facial recognition"
+    }
+  }
+}

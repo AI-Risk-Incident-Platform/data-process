@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:usesTechnique ex:DeepfakeAudioGeneration ;
+    airo:hasPurpose ex:EntertainmentContentCreation ;
+    airo:isAppliedWithinDomain ex:DigitalEntertainment ;
+    airo:hasStakeholder ex:JayZLabel ;
+    airo:isDeployedBy ex:YouTube .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedVoiceReplication ;
+    airo:hasConsequence ex:ContentRemoval .
+
+ex:JayZLabel rdf:type airo:Stakeholder ;
+    rdfs:label "Jay-Z's Label"@en ;
+    rdfs:label "Jay-Z唱片公司"@zh .
+
+ex:YouTube rdf:type airo:AIOperator ;
+    rdfs:label "YouTube"@en ;
+    rdfs:label "YouTube"@zh .
+
+ex:ContentRemoval rdf:type airo:Consequence ;
+    rdfs:label "Content Removal Consequence"@en ;
+    rdfs:label "内容移除后果"@zh ;
+    airo:hasImpact ex:ArtistReputationDamage .
+
+ex:DeepfakeAudioGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Audio Generation Technique"@en ;
+    rdfs:label "深度伪造音频生成技术"@zh .
+
+ex:EntertainmentContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Content Creation Purpose"@en ;
+    rdfs:label "娱乐内容创作目的"@zh .
+
+ex:DigitalEntertainment rdf:type airo:Domain ;
+    rdfs:label "Digital Entertainment Domain"@en ;
+    rdfs:label "数字娱乐领域"@zh .
+
+ex:UnauthorizedVoiceReplication rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Voice Replication Risk Source"@en ;
+    rdfs:label "未经授权的语音复制风险源"@zh .
+
+ex:ArtistReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Artist Reputation Damage Impact"@en ;
+    rdfs:label "艺术家声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JayZLabel .

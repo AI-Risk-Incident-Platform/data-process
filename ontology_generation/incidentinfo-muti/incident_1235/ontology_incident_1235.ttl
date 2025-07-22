@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DenmarkWelfareAISystem rdf:type airo:AISystem ;
+    rdfs:label "Denmark Welfare AI System"@en ;
+    rdfs:label "丹麦福利AI系统"@zh ;
+    airo:hasRisk ex:MassSurveillanceRisk ;
+    airo:hasAISubject ex:WelfareRecipients ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystem ;
+    airo:hasPurpose ex:WelfareFraudDetection ;
+    airo:hasStakeholder ex:AmnestyInternational .
+
+ex:MassSurveillanceRisk rdf:type airo:Risk ;
+    rdfs:label "Mass Surveillance Risk"@en ;
+    rdfs:label "大规模监控风险"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact .
+
+ex:AmnestyInternational rdf:type airo:Stakeholder ;
+    rdfs:label "Amnesty International"@en ;
+    rdfs:label "国际特赦组织"@zh .
+
+ex:WelfareRecipients rdf:type airo:AISubject ;
+    rdfs:label "Welfare Recipients"@en ;
+    rdfs:label "福利领取者"@zh .
+
+ex:SocialWelfareSystem rdf:type airo:Domain ;
+    rdfs:label "Social Welfare System"@en ;
+    rdfs:label "社会福利系统"@zh .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WelfareRecipients .
+
+ex:WelfareFraudDetection rdf:type airo:Purpose ;
+    rdfs:label "Welfare Fraud Detection"@en ;
+    rdfs:label "福利欺诈检测"@zh .

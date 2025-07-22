@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DiveFace rdf:type airo:AISystem ;
+    rdfs:label "DiveFace"@en ;
+    rdfs:label "DiveFace"@zh ;
+    airo:hasRisk ex:PotentialPrivacyRisk ;
+    airo:usesTechnique ex:FacialRecognition ;
+    airo:hasPurpose ex:IdentityVerification ;
+    airo:hasStakeholder ex:IndividualsBeingIdentified .
+
+ex:PotentialPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Privacy Risk"@en ;
+    rdfs:label "潜在隐私风险"@zh .
+
+ex:FacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technique"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:IndividualsBeingIdentified rdf:type airo:Stakeholder ;
+    rdfs:label "Individuals Being Identified"@en ;
+    rdfs:label "被识别个体"@zh .
+
+ex:IdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification Purpose"@en ;
+    rdfs:label "身份验证"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AlpacaChatbot rdf:type airo:AISystem ;
+    rdfs:label "Alpaca Chatbot"@en ;
+    rdfs:label "Alpaca聊天机器人"@zh ;
+    airo:hasRisk ex:SafetyConcernsRisk ;
+    airo:hasAICapability ex:ChatbotConversationCapability ;
+    airo:hasStakeholder ex:StanfordUniversity .
+
+ex:SafetyConcernsRisk rdf:type airo:Risk ;
+    rdfs:label "Safety Concerns Risk"@en ;
+    rdfs:label "安全担忧风险"@zh ;
+    airo:hasConsequence ex:SystemShutdownConsequence ;
+    airo:isRiskSourceFor ex:HallucinationsRiskSource .
+
+ex:SystemShutdownConsequence rdf:type airo:Consequence ;
+    rdfs:label "System Shutdown Consequence"@en ;
+    rdfs:label "系统关闭后果"@zh ;
+    airo:hasImpact ex:ResearchDisruptionImpact .
+
+ex:ChatbotConversationCapability rdf:type airo:AICapability ;
+    rdfs:label "Chatbot Conversation Capability"@en ;
+    rdfs:label "聊天机器人对话能力"@zh .
+
+ex:StanfordUniversity rdf:type airo:Stakeholder ;
+    rdfs:label "Stanford University"@en ;
+    rdfs:label "斯坦福大学"@zh .
+
+ex:HallucinationsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Hallucinations Risk Source"@en ;
+    rdfs:label "幻觉风险源"@zh .
+
+ex:ResearchDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Research Disruption Impact"@en ;
+    rdfs:label "研究中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StanfordUniversity .

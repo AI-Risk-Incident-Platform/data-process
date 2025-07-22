@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokAI",
+      "中文名称": "Grok AI",
+      "英文名称": "Grok AI",
+      "来源": "Elon Musk’s X under pressure from regulators over data harvesting for Grok AI"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "Data Privacy Risk",
+      "来源": "Elon Musk's X quietly changes default settings to allow it to train AI model Grok with your data"
+    },
+    "Stakeholder": {
+      "id": "Regulators",
+      "中文名称": "监管机构",
+      "英文名称": "Regulators",
+      "来源": "Elon Musk’s X under pressure from regulators over data harvesting for Grok AI"
+    },
+    "AIOperator": {
+      "id": "ElonMusksX",
+      "中文名称": "埃隆·马斯克的X公司",
+      "英文名称": "Elon Musk's X",
+      "来源": "Elon Musk’s X under pressure from regulators over data harvesting for Grok AI"
+    },
+    "RiskSource": {
+      "id": "DataHarvesting",
+      "中文名称": "数据收集",
+      "英文名称": "Data Harvesting",
+      "来源": "Elon Musk’s X under pressure from regulators over data harvesting for Grok AI"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "Elon Musk's X quietly changes default settings to allow it to train AI model Grok with your data"
+    }
+  }
+}

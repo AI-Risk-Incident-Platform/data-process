@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "案件标题和描述中提到的面部识别技术"
+    },
+    "Risk": {
+      "id": "FalseIdentificationRisk",
+      "中文名称": "错误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁"
+    },
+    "Consequence": {
+      "id": "WrongfulArrestAndImprisonment",
+      "中文名称": "错误逮捕和监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁"
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁对个人的影响"
+    },
+    "Stakeholder": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "案件标题中提到的底特律警察局"
+    },
+    "AISubject": {
+      "id": "ArrestedIndividual",
+      "中文名称": "被逮捕个人",
+      "英文名称": "Arrested Persons",
+      "来源": "案件标题和描述中提到的被错误逮捕的个人"
+    },
+    "RiskSource": {
+      "id": "AlgorithmInaccuracy",
+      "中文名称": "算法不准确风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "案件标题和描述中提到的面部识别系统的错误识别"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "案件标题和描述中提到的警察执法行为"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "案件标题和描述中提到的面部识别技术"
+    },
+    "Risk": {
+      "id": "FalseIdentificationRisk",
+      "中文名称": "错误识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁"
+    },
+    "Consequence": {
+      "id": "WrongfulArrestAndImprisonment",
+      "中文名称": "错误逮捕和监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁"
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "案件标题和描述中提到的错误逮捕和监禁对个人的影响"
+    },
+    "Stakeholder": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "案件标题中提到的底特律警察局"
+    },
+    "AISubject": {
+      "id": "ArrestedIndividual",
+      "中文名称": "被逮捕个人",
+      "英文名称": "Arrested Persons",
+      "来源": "案件标题和描述中提到的被错误逮捕的个人"
+    },
+    "RiskSource": {
+      "id": "AlgorithmInaccuracy",
+      "中文名称": "算法不准确风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "案件标题和描述中提到的面部识别系统的错误识别"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "案件标题和描述中提到的警察执法行为"
+    }
+  }
+}

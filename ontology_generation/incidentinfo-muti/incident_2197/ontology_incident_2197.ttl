@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LiveFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Live Facial Recognition System"@en ;
+    rdfs:label "实时面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:ChildrenUnderSurveillance ;
+    airo:hasStakeholder ex:RightsGroup ;
+    airo:isAppliedWithinDomain ex:PublicSurveillance .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PotentialMisidentification .
+
+ex:ChildrenUnderSurveillance rdf:type airo:AISubject ;
+    rdfs:label "Children Under Surveillance"@en ;
+    rdfs:label "被监视的儿童"@zh .
+
+ex:RightsGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Rights Group"@en ;
+    rdfs:label "权利组织"@zh .
+
+ex:PublicSurveillance rdf:type airo:Domain ;
+    rdfs:label "Public Surveillance Domain"@en ;
+    rdfs:label "公共监控领域"@zh .
+
+ex:PotentialMisidentification rdf:type airo:Consequence ;
+    rdfs:label "Potential Misidentification Consequence"@en ;
+    rdfs:label "潜在错误识别后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToChildren .
+
+ex:PsychologicalHarmToChildren rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Children Impact"@en ;
+    rdfs:label "对儿童的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildrenUnderSurveillance .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdobeAISystem rdf:type airo:AISystem ;
+    rdfs:label "Adobe AI System"@en ;
+    rdfs:label "Adobe人工智能系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:AdobeUsers ;
+    airo:isDeployedBy ex:AdobeCorporation ;
+    airo:hasPurpose ex:ContentAnalysisAndImprovement .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UserDataExposure ;
+    airo:isRiskSourceFor ex:OpaqueTermsOfService .
+
+ex:AdobeUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Adobe Users"@en ;
+    rdfs:label "Adobe用户"@zh .
+
+ex:UserDataExposure rdf:type airo:Consequence ;
+    rdfs:label "User Data Exposure Consequence"@en ;
+    rdfs:label "用户数据暴露后果"@zh ;
+    airo:hasImpact ex:LossOfUserTrust .
+
+ex:LossOfUserTrust rdf:type airo:Impact ;
+    rdfs:label "Loss of User Trust Impact"@en ;
+    rdfs:label "用户信任丧失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AdobeUsers .
+
+ex:AdobeCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Adobe Corporation"@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:OpaqueTermsOfService rdf:type airo:RiskSource ;
+    rdfs:label "Opaque Terms of Service Risk Source"@en ;
+    rdfs:label "不透明的服务条款风险源"@zh .
+
+ex:ContentAnalysisAndImprovement rdf:type airo:Purpose ;
+    rdfs:label "Content Analysis and Improvement Purpose"@en ;
+    rdfs:label "内容分析与改进目的"@zh .

@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UniversalCreditAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "通用信贷算法"@zh ;
+    rdfs:label "Universal Credit Algorithm"@en ;
+    airo:hasRisk ex:PovertyRiskFromAlgorithm ;
+    airo:hasPurpose ex:WelfarePaymentDetermination ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystem .
+
+ex:PovertyRiskFromAlgorithm rdf:type airo:Risk ;
+    rdfs:label "算法导致的贫困风险"@zh ;
+    rdfs:label "Poverty Risk from Algorithm"@en ;
+    airo:hasConsequence ex:HungerDueToAlgorithmFlaw ;
+    airo:isRiskSourceFor ex:DesignFlawInAlgorithm .
+
+ex:HungerDueToAlgorithmFlaw rdf:type airo:Consequence ;
+    rdfs:label "算法缺陷导致的饥饿后果"@zh ;
+    rdfs:label "Hunger Due to Algorithm Flaw Consequence"@en ;
+    airo:hasImpact ex:IncreasedPovertyLevels .
+
+ex:DesignFlawInAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "算法设计缺陷风险源"@zh ;
+    rdfs:label "Design Flaw in Algorithm Risk Source"@en .
+
+ex:IncreasedPovertyLevels rdf:type airo:Impact ;
+    rdfs:label "贫困水平增加的影响"@zh ;
+    rdfs:label "Increased Poverty Levels Impact"@en .
+
+ex:SocialWelfareSystem rdf:type airo:Domain ;
+    rdfs:label "社会福利系统领域"@zh ;
+    rdfs:label "Social Welfare System Domain"@en .
+
+ex:WelfarePaymentDetermination rdf:type airo:Purpose ;
+    rdfs:label "福利金确定的目的"@zh ;
+    rdfs:label "Welfare Payment Determination Purpose"@en .

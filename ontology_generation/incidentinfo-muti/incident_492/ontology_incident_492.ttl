@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeApp rdf:type airo:AISystem ;
+    rdfs:label "Deepfake App"@en ;
+    rdfs:label "深度伪造应用"@zh ;
+    airo:hasRisk ex:SexualDeepfakeMisuseRisk ;
+    airo:usesTechnique ex:DeepfakeGeneration ;
+    airo:hasStakeholder ex:CelebrityVictims .
+
+ex:SexualDeepfakeMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Sexual Deepfake Misuse Risk"@en ;
+    rdfs:label "性相关深度伪造滥用风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:EasyAccessToDeepfakeTools ;
+    airo:hasSubRisk ex:NonConsensualPornographicContentCreation .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "名誉损害后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:DeepfakeGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Generation Technique"@en ;
+    rdfs:label "深度伪造生成技术"@zh .
+
+ex:CelebrityVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrity Victims"@en ;
+    rdfs:label "名人受害者"@zh .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    rdfs:label "心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CelebrityVictims .
+
+ex:EasyAccessToDeepfakeTools rdf:type airo:RiskSource ;
+    rdfs:label "Easy Access to Deepfake Tools Risk Source"@en ;
+    rdfs:label "深度伪造工具易获取风险源"@zh .
+
+ex:NonConsensualPornographicContentCreation rdf:type airo:Misuse ;
+    rdfs:label "Non-Consensual Pornographic Content Creation Misuse"@en ;
+    rdfs:label "未经同意的色情内容创作滥用"@zh .

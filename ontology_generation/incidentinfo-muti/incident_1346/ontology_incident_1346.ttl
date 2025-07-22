@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleChatbot rdf:type airo:AISystem ;
+    rdfs:label "Google Chatbot"@en ;
+    rdfs:label "谷歌聊天机器人"@zh ;
+    airo:hasRisk ex:PoliticalBiasRisk ;
+    airo:hasAISubject ex:PoliticalOpinions ;
+    airo:hasStakeholder ex:ToryMPs .
+
+ex:PoliticalBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Political Bias Risk"@en ;
+    rdfs:label "政治偏见风险"@zh ;
+    airo:hasConsequence ex:ElectionInfluence ;
+    airo:isRiskSourceFor ex:TrainingDataBias .
+
+ex:ToryMPs rdf:type airo:Stakeholder ;
+    rdfs:label "Tory MPs"@en ;
+    rdfs:label "保守党议员"@zh .
+
+ex:PoliticalOpinions rdf:type airo:AISubject ;
+    rdfs:label "Political Opinions"@en ;
+    rdfs:label "政治观点"@zh .
+
+ex:ElectionInfluence rdf:type airo:Impact ;
+    rdfs:label "Election Influence"@en ;
+    rdfs:label "选举影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ToryMPs .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias"@en ;
+    rdfs:label "训练数据偏见"@zh .

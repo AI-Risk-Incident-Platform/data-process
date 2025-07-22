@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedVoiceSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Voice System"@en ;
+    rdfs:label "AI生成语音系统"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIVoiceCloning ;
+    airo:hasAISubject ex:DeceasedVoiceActor ;
+    airo:hasPurpose ex:FilmCharacterVoiceReplacement ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry ;
+    airo:hasStakeholder ex:FamilyOfDeceasedActor .
+
+ex:EthicalConcernsInAIVoiceCloning rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Voice Cloning Risk"@en ;
+    rdfs:label "AI语音克隆中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:PosthumousVoiceUsageWithoutConsent .
+
+ex:FamilyOfDeceasedActor rdf:type airo:Stakeholder ;
+    rdfs:label "Family of Deceased Actor"@en ;
+    rdfs:label "已故演员家属"@zh .
+
+ex:DeceasedVoiceActor rdf:type airo:AISubject ;
+    rdfs:label "Deceased Voice Actor"@en ;
+    rdfs:label "已故配音演员"@zh .
+
+ex:EmotionalDistressToFamily rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Family Impact"@en ;
+    rdfs:label "对家属造成情感困扰的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FamilyOfDeceasedActor .
+
+ex:FilmCharacterVoiceReplacement rdf:type airo:Purpose ;
+    rdfs:label "Film Character Voice Replacement Purpose"@en ;
+    rdfs:label "电影角色配音替换的目的"@zh .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .
+
+ex:PosthumousVoiceUsageWithoutConsent rdf:type airo:Consequence ;
+    rdfs:label "Posthumous Voice Usage Without Consent Consequence"@en ;
+    rdfs:label "未经同意使用逝者声音的后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressToFamily .

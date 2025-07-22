@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PredictivePolicingSystemForChildren",
+      "中文名称": "儿童预测性警务系统",
+      "英文名称": "Predictive Policing System for Children",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Risk": {
+      "id": "ChildHarassmentRisk",
+      "中文名称": "儿童骚扰风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "Stakeholder": {
+      "id": "PascoCountySheriffOffice",
+      "中文名称": "帕斯科县警长办公室",
+      "英文名称": "Pasco County Sheriff Office",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "AISubject": {
+      "id": "ChildrenUnderSurveillance",
+      "中文名称": "受监视儿童",
+      "英文名称": "Children Under Surveillance",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Impact": {
+      "id": "PrivacyViolationForChildren",
+      "中文名称": "儿童隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Joe Henderson: Do Pasco Sheriff's Office surveillance tactics go over the line?"
+    },
+    "Purpose": {
+      "id": "CrimePreventionForChildren",
+      "中文名称": "儿童犯罪预防目的",
+      "英文名称": "Crime Prevention for Children Purpose",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "RiskSource": {
+      "id": "OverlyAggressiveSurveillanceTactics",
+      "中文名称": "过度激进监视策略风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Joe Henderson: Do Pasco Sheriff's Office surveillance tactics go over the line?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PredictivePolicingSystemForChildren",
+      "中文名称": "儿童预测性警务系统",
+      "英文名称": "Predictive Policing System for Children",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Risk": {
+      "id": "ChildHarassmentRisk",
+      "中文名称": "儿童骚扰风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "Stakeholder": {
+      "id": "PascoCountySheriffOffice",
+      "中文名称": "帕斯科县警长办公室",
+      "英文名称": "Pasco County Sheriff Office",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "AISubject": {
+      "id": "ChildrenUnderSurveillance",
+      "中文名称": "受监视儿童",
+      "英文名称": "Children Under Surveillance",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Impact": {
+      "id": "PrivacyViolationForChildren",
+      "中文名称": "儿童隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Joe Henderson: Do Pasco Sheriff's Office surveillance tactics go over the line?"
+    },
+    "Purpose": {
+      "id": "CrimePreventionForChildren",
+      "中文名称": "儿童犯罪预防目的",
+      "英文名称": "Crime Prevention for Children Purpose",
+      "来源": "Predictive policing strategies for children face pushback"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Pasco County's Sheriff Must End Its Targeted Child Harassment Program"
+    },
+    "RiskSource": {
+      "id": "OverlyAggressiveSurveillanceTactics",
+      "中文名称": "过度激进监视策略风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Joe Henderson: Do Pasco Sheriff's Office surveillance tactics go over the line?"
+    }
+  }
+}

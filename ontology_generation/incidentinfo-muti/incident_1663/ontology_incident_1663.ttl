@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseRobotaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise Robotaxi"@en ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:isDeployedBy ex:GeneralMotors ;
+    airo:hasStakeholder ex:CaliforniaRegulator ;
+    airo:isAppliedWithinDomain ex:AutonomousTransportation .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:PassengerInjury ;
+    airo:hasRiskControl ex:FleetReduction .
+
+ex:PassengerInjury rdf:type airo:Consequence ;
+    rdfs:label "Passenger Injury Consequence"@en ;
+    rdfs:label "乘客受伤后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:GeneralMotors rdf:type airo:AIOperator ;
+    rdfs:label "General Motors"@en ;
+    rdfs:label "通用汽车"@zh .
+
+ex:CaliforniaRegulator rdf:type airo:Stakeholder ;
+    rdfs:label "California Regulator"@en ;
+    rdfs:label "加州监管机构"@zh .
+
+ex:FleetReduction rdf:type airo:RiskControl ;
+    rdfs:label "Fleet Reduction Control"@en ;
+    rdfs:label "车队规模缩减管控"@zh .
+
+ex:AutonomousTransportation rdf:type airo:Domain ;
+    rdfs:label "Autonomous Transportation Domain"@en ;
+    rdfs:label "自动驾驶交通领域"@zh .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh .

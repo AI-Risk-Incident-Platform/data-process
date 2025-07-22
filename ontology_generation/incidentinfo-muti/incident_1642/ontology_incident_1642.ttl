@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForPersonaReplication rdf:type airo:AISystem ;
+    rdfs:label "AI for Persona Replication"@en ;
+    rdfs:label "用于人物形象复制的AI系统"@zh ;
+    airo:hasRisk ex:UnauthorizedPersonaReplicationRisk ;
+    airo:hasPurpose ex:PersonaReplication ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry ;
+    airo:hasStakeholder ex:AnilKapoor ;
+    airo:isDeployedBy ex:UnauthorizedAIUsers .
+
+ex:UnauthorizedPersonaReplicationRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Persona Replication Risk"@en ;
+    rdfs:label "未经授权的人物形象复制风险"@zh ;
+    airo:hasConsequence ex:PersonalityRightsViolation ;
+    airo:isRiskSourceFor ex:DeepfakeTechnology .
+
+ex:AnilKapoor rdf:type airo:Stakeholder ;
+    rdfs:label "Anil Kapoor"@en ;
+    rdfs:label "阿尼尔·卡普尔"@zh .
+
+ex:PersonalityRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "Personality Rights Violation Consequence"@en ;
+    rdfs:label "人格权侵犯后果"@zh ;
+    airo:hasImpact ex:ReputationAndEconomicDamage .
+
+ex:UnauthorizedAIUsers rdf:type airo:AIOperator ;
+    rdfs:label "Unauthorized AI Users"@en ;
+    rdfs:label "未经授权的AI使用者"@zh .
+
+ex:ReputationAndEconomicDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation and Economic Damage Impact"@en ;
+    rdfs:label "声誉和经济损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AnilKapoor .
+
+ex:PersonaReplication rdf:type airo:Purpose ;
+    rdfs:label "Persona Replication Purpose"@en ;
+    rdfs:label "人物形象复制的目的"@zh .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Deepfake Technology Risk Source"@en ;
+    rdfs:label "深度伪造技术风险源"@zh .

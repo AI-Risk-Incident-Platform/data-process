@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LavenderAISystem",
+      "中文名称": "薰衣草AI系统",
+      "英文名称": "Lavender AI System",
+      "来源": "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza"
+    },
+    "Risk": {
+      "id": "CivilianCasualtiesRisk",
+      "中文名称": "平民伤亡风险",
+      "英文名称": "Civilian Casualties Risk",
+      "来源": "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report"
+    },
+    "AIOperator": {
+      "id": "IsraeliMilitary",
+      "中文名称": "以色列军方",
+      "英文名称": "Israeli Military",
+      "来源": "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report"
+    },
+    "Consequence": {
+      "id": "MassCivilianCasualties",
+      "中文名称": "大规模平民伤亡后果",
+      "英文名称": "Mass Civilian Casualties Consequence",
+      "来源": "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+    },
+    "AICapability": {
+      "id": "TargetIdentification",
+      "中文名称": "目标识别能力",
+      "英文名称": "Target Identification Capability",
+      "来源": "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+    },
+    "Impact": {
+      "id": "HumanitarianCrisis",
+      "中文名称": "人道主义危机影响",
+      "英文名称": "Humanitarian Crisis Impact",
+      "来源": "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza"
+    },
+    "Purpose": {
+      "id": "MilitaryTargetIdentification",
+      "中文名称": "军事目标识别目的",
+      "英文名称": "Military Target Identification Purpose",
+      "来源": "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+    },
+    "Domain": {
+      "id": "MilitaryOperations",
+      "中文名称": "军事行动领域",
+      "英文名称": "Military Operations Domain",
+      "来源": "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedTargeting",
+      "中文名称": "基于机器学习的目标锁定技术",
+      "英文名称": "Machine Learning Based Targeting Technique",
+      "来源": "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutProperOversight",
+      "中文名称": "缺乏适当监督的自动化决策风险源",
+      "英文名称": "Automated Decision Making Without Proper Oversight Risk Source",
+      "来源": "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report"
+    },
+    "Vulnerability": {
+      "id": "CivilianPopulationInConflictZones",
+      "中文名称": "冲突地区平民人口的脆弱性",
+      "英文名称": "Civilian Population in Conflict Zones Vulnerability",
+      "来源": "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza"
+    },
+    "Threat": {
+      "id": "IndiscriminateUseOfAIInWarfare",
+      "中文名称": "战争中滥用AI的威胁",
+      "英文名称": "Indiscriminate Use of AI in Warfare Threat",
+      "来源": "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+    },
+    "Hazard": {
+      "id": "AlgorithmicBiasInTargetSelection",
+      "中文名称": "目标选择中的算法偏见危害",
+      "英文名称": "Algorithmic Bias in Target Selection Hazard",
+      "来源": "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report"
+    },
+    "Stakeholder": {
+      "id": "GazaCivilianPopulation",
+      "中文名称": "加沙平民",
+      "英文名称": "Gaza Civilian Population",
+      "来源": "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza"
+    },
+    "AISubject": {
+      "id": "GazaResidents",
+      "中文名称": "加沙居民",
+      "英文名称": "Gaza Residents",
+      "来源": "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza"
+    }
+  }
+}

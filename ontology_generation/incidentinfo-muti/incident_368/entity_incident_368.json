@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShopeePayFacialRecognitionSystem",
+      "中文名称": "ShopeePay面部识别系统",
+      "英文名称": "ShopeePay Facial Recognition System",
+      "来源": "使用面部识别系统进行身份验证"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial Recognition Failure Risk",
+      "来源": "用户报告面部识别不通过"
+    },
+    "Consequence": {
+      "id": "ServiceAccessDenial",
+      "中文名称": "服务访问被拒后果",
+      "英文名称": "Service Access Denial Consequence",
+      "来源": "用户无法使用政府补贴计划"
+    },
+    "Stakeholder": {
+      "id": "ThaiGovernment",
+      "中文名称": "泰国政府",
+      "英文名称": "Thai Government",
+      "来源": "运营'Chim Shop Chai'补贴计划"
+    },
+    "AISubject": {
+      "id": "ProgramEligibleCitizens",
+      "中文名称": "计划合格公民",
+      "英文名称": "Program Eligible Citizens",
+      "来源": "试图使用补贴的泰国公民"
+    },
+    "Impact": {
+      "id": "FinancialHardship",
+      "中文名称": "经济困难影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "无法获得应得的经济补贴"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationForSubsidies",
+      "中文名称": "补贴身份验证目的",
+      "英文名称": "Identity Verification for Subsidies Purpose",
+      "来源": "验证'Chim Shop Chai'计划用户身份"
+    },
+    "Domain": {
+      "id": "GovernmentSubsidyPrograms",
+      "中文名称": "政府补贴计划领域",
+      "英文名称": "Government Subsidy Programs Domain",
+      "来源": "用于经济刺激计划"
+    },
+    "Vulnerability": {
+      "id": "BiometricRecognitionLimitations",
+      "中文名称": "生物识别限制脆弱性",
+      "英文名称": "Biometric Recognition Limitations Vulnerability",
+      "来源": "系统无法识别某些用户面部特征"
+    }
+  }
+}

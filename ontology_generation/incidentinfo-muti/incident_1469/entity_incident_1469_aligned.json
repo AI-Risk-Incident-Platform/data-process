@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SoraVideoGenerationTool",
+      "中文名称": "Sora视频生成工具",
+      "英文名称": "Sora Video Tool",
+      "来源": "OpenAI's new video tool Sora"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Italy's data watchdog looks into Open AI tool"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italy's data watchdog looks into Open AI tool"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's new video tool Sora"
+    },
+    "Purpose": {
+      "id": "TextToVideoGeneration",
+      "中文名称": "文本转视频生成",
+      "英文名称": "Text to Video Generation",
+      "来源": "Open AI tool that turns text into video"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SoraVideoGenerationTool",
+      "中文名称": "Sora视频生成工具",
+      "英文名称": "Sora Video Tool",
+      "来源": "OpenAI's new video tool Sora"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Italy's data watchdog looks into Open AI tool"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italy's data watchdog looks into Open AI tool"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's new video tool Sora"
+    },
+    "Purpose": {
+      "id": "TextToVideoGeneration",
+      "中文名称": "文本转视频生成",
+      "英文名称": "Text to Video Generation",
+      "来源": "Open AI tool that turns text into video"
+    }
+  }
+}

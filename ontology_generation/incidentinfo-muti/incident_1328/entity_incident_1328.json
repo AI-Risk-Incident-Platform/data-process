@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AnthropicAI",
+      "中文名称": "Anthropic AI",
+      "英文名称": "Anthropic AI",
+      "来源": "AI start-up Anthropic accused of ‘egregious’ data scraping"
+    },
+    "Risk": {
+      "id": "DataScrapingRisk",
+      "中文名称": "数据抓取风险",
+      "英文名称": "Data Scraping Risk",
+      "来源": "Anthropic AI Scraper Hits iFixit’s Website a Million Times in a Day"
+    },
+    "RiskSource": {
+      "id": "WebScraping",
+      "中文名称": "网络抓取",
+      "英文名称": "Web Scraping",
+      "来源": "Websites are Blocking the Wrong AI Scrapers"
+    },
+    "Stakeholder": {
+      "id": "iFixit",
+      "中文名称": "iFixit",
+      "英文名称": "iFixit",
+      "来源": "Anthropic AI Scraper Hits iFixit’s Website a Million Times in a Day"
+    },
+    "Consequence": {
+      "id": "WebsiteOverload",
+      "中文名称": "网站过载",
+      "英文名称": "Website Overload",
+      "来源": "Anthropic AI Scraper Hits iFixit’s Website a Million Times in a Day"
+    },
+    "Impact": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断",
+      "英文名称": "Service Disruption",
+      "来源": "Anthropic AI Scraper Hits iFixit’s Website a Million Times in a Day"
+    }
+  }
+}

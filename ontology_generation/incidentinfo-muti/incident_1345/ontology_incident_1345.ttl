@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:Paris2024AIVideoSurveillanceSystem rdf:type airo:AISystem ;
+    rdfs:label "Paris 2024 AI Video Surveillance System"@en ;
+    rdfs:label "巴黎2024人工智能视频监控系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:LegalScholar ;
+    airo:isAppliedWithinDomain ex:PublicSecurity ;
+    airo:hasPurpose ex:SecurityEnhancement ;
+    airo:hasCapability ex:MassSurveillance .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:ExtensiveDataCollection ;
+    airo:hasConsequence ex:PotentialPrivacyRightsViolation .
+
+ex:LegalScholar rdf:type airo:Stakeholder ;
+    rdfs:label "Legal Scholar"@en ;
+    rdfs:label "法律学者"@zh .
+
+ex:PublicSecurity rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:SecurityEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Security Enhancement Purpose"@en ;
+    rdfs:label "安全增强目的"@zh .
+
+ex:MassSurveillance rdf:type airo:AICapability ;
+    rdfs:label "Mass Surveillance Capability"@en ;
+    rdfs:label "大规模监控能力"@zh .
+
+ex:ExtensiveDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Extensive Data Collection Risk Source"@en ;
+    rdfs:label "广泛数据收集风险源"@zh .
+
+ex:PotentialPrivacyRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "Potential Privacy Rights Violation Consequence"@en ;
+    rdfs:label "潜在隐私权侵犯后果"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns Impact"@en ;
+    rdfs:label "隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalScholar .

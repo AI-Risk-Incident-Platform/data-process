@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:FakeNewsGenerationRisk ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:isAppliedWithinDomain ex:PublicInformation ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:PoliceDepartment .
+
+ex:FakeNewsGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake News Generation Risk"@en ;
+    rdfs:label "虚假新闻生成风险"@zh ;
+    airo:isRiskSourceFor ex:UnverifiedContentGeneration ;
+    airo:hasConsequence ex:PublicConfusion ;
+    airo:hasRiskControl ex:LegalInvestigation .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    rdfs:label "公众混淆后果"@zh ;
+    airo:hasImpact ex:SocialOrderDisruption .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Police Department"@en ;
+    rdfs:label "警方"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:SocialOrderDisruption rdf:type airo:Impact ;
+    rdfs:label "Social Order Disruption Impact"@en ;
+    rdfs:label "社会秩序扰乱影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartment .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Content Generation Purpose"@en ;
+    rdfs:label "内容生成目的"@zh .
+
+ex:PublicInformation rdf:type airo:Domain ;
+    rdfs:label "Public Information Domain"@en ;
+    rdfs:label "公共信息领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:UnverifiedContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Unverified Content Generation Risk Source"@en ;
+    rdfs:label "未经核实的内容生成风险源"@zh .
+
+ex:LegalInvestigation rdf:type airo:RiskControl ;
+    rdfs:label "Legal Investigation Risk Control"@en ;
+    rdfs:label "法律调查管控"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FinancialNewsContentGenerationAI rdf:type airo:AISystem ;
+    rdfs:label "Financial News Content Generation AI"@en ;
+    rdfs:label "金融新闻内容生成AI"@zh ;
+    airo:hasRisk ex:PlagiarismRisk ;
+    airo:hasStakeholder ex:CompetitorNewsSites ;
+    airo:isDeployedBy ex:InvestingCom ;
+    airo:isAppliedWithinDomain ex:FinancialNews ;
+    airo:hasPurpose ex:AutomatedContentGeneration .
+
+ex:PlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Plagiarism Risk"@en ;
+    rdfs:label "抄袭风险"@zh ;
+    airo:hasConsequence ex:CopyrightInfringement ;
+    airo:isRiskSourceFor ex:UnethicalContentScraping .
+
+ex:CompetitorNewsSites rdf:type airo:Stakeholder ;
+    rdfs:label "Competitor News Sites"@en ;
+    rdfs:label "竞争对手新闻网站"@zh .
+
+ex:InvestingCom rdf:type airo:AIOperator ;
+    rdfs:label "Investing.com"@en ;
+    rdfs:label "Investing.com"@zh .
+
+ex:FinancialNews rdf:type airo:Domain ;
+    rdfs:label "Financial News Domain"@en ;
+    rdfs:label "金融新闻领域"@zh .
+
+ex:CopyrightInfringement rdf:type airo:Consequence ;
+    rdfs:label "Copyright Infringement Consequence"@en ;
+    rdfs:label "版权侵权后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CompetitorNewsSites .
+
+ex:AutomatedContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Automated Content Generation Purpose"@en ;
+    rdfs:label "自动化内容生成目的"@zh .
+
+ex:UnethicalContentScraping rdf:type airo:RiskSource ;
+    rdfs:label "Unethical Content Scraping Risk Source"@en ;
+    rdfs:label "不道德内容抓取风险源"@zh .

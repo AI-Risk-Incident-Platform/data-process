@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GestationalDiabetesShieldingAlgorithm",
+      "中文名称": "妊娠糖尿病防护算法",
+      "英文名称": "Gestational Diabetes Shielding Algorithm",
+      "来源": "History of gestational diabetes prompting patients to shield under new algorithm"
+    },
+    "Risk": {
+      "id": "InadequatePatientProtectionRisk",
+      "中文名称": "患者保护不足风险",
+      "英文名称": "Inadequate Patient Protection Risk",
+      "来源": "prompting patients to shield under new algorithm"
+    },
+    "Purpose": {
+      "id": "PatientRiskAssessment",
+      "中文名称": "患者风险评估",
+      "英文名称": "Patient Risk Assessment",
+      "来源": "prompting patients to shield under new algorithm"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare",
+      "来源": "gestational diabetes"
+    },
+    "AISubject": {
+      "id": "GestationalDiabetesPatients",
+      "中文名称": "妊娠糖尿病患者",
+      "英文名称": "Gestational Diabetes Patients",
+      "来源": "patients with history of gestational diabetes"
+    }
+  }
+}

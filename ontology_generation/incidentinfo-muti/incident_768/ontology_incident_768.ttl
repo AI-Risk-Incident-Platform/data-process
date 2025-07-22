@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftCopilot rdf:type airo:AISystem ;
+    rdfs:label "微软Copilot"@zh ;
+    rdfs:label "Microsoft Copilot"@en ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasAISubject ex:CourtReporter ;
+    airo:hasStakeholder ex:Microsoft .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假指控风险"@zh ;
+    rdfs:label "False Accusation Risk"@en ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:InaccurateInformationProcessing .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "声誉损害后果"@zh ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    airo:hasImpact ex:ProfessionalHarm .
+
+ex:CourtReporter rdf:type airo:AISubject ;
+    rdfs:label "法庭记者"@zh ;
+    rdfs:label "Court Reporter"@en .
+
+ex:Microsoft rdf:type airo:Stakeholder ;
+    rdfs:label "微软"@zh ;
+    rdfs:label "Microsoft"@en .
+
+ex:ProfessionalHarm rdf:type airo:Impact ;
+    rdfs:label "职业伤害影响"@zh ;
+    rdfs:label "Professional Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CourtReporter .
+
+ex:InaccurateInformationProcessing rdf:type airo:RiskSource ;
+    rdfs:label "信息处理不准确风险源"@zh ;
+    rdfs:label "Inaccurate Information Processing Risk Source"@en .

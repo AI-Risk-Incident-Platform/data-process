@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredNewsSite",
+      "中文名称": "AI驱动的新闻网站",
+      "英文名称": "AI News Sites",
+      "来源": "Yale Suspends Scholar After A.I.-Powered News Site Accuses Her of Terrorist Link"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "虚假指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A.I.-Powered News Site Accuses Her of Terrorist Link"
+    },
+    "Consequence": {
+      "id": "ScholarSuspension",
+      "中文名称": "学者被停职后果",
+      "英文名称": "Academic Consequences",
+      "来源": "Yale Suspends Scholar"
+    },
+    "Stakeholder": {
+      "id": "YaleUniversity",
+      "中文名称": "耶鲁大学",
+      "英文名称": "Yale University",
+      "来源": "Yale Suspends Scholar"
+    },
+    "AISubject": {
+      "id": "AccusedScholar",
+      "中文名称": "被指控的学者",
+      "英文名称": "Accused Scholar",
+      "来源": "Accuses Her of Terrorist Link"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Accuses Her of Terrorist Link"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIReporting",
+      "中文名称": "未经验证的AI报道风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "A.I.-Powered News Site Accuses Her of Terrorist Link"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPoweredNewsSite",
+      "中文名称": "AI驱动的新闻网站",
+      "英文名称": "AI News Sites",
+      "来源": "Yale Suspends Scholar After A.I.-Powered News Site Accuses Her of Terrorist Link"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "虚假指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A.I.-Powered News Site Accuses Her of Terrorist Link"
+    },
+    "Consequence": {
+      "id": "ScholarSuspension",
+      "中文名称": "学者被停职后果",
+      "英文名称": "Academic Consequences",
+      "来源": "Yale Suspends Scholar"
+    },
+    "Stakeholder": {
+      "id": "YaleUniversity",
+      "中文名称": "耶鲁大学",
+      "英文名称": "Yale University",
+      "来源": "Yale Suspends Scholar"
+    },
+    "AISubject": {
+      "id": "AccusedScholar",
+      "中文名称": "被指控的学者",
+      "英文名称": "Accused Scholar",
+      "来源": "Accuses Her of Terrorist Link"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Accuses Her of Terrorist Link"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIReporting",
+      "中文名称": "未经验证的AI报道风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "A.I.-Powered News Site Accuses Her of Terrorist Link"
+    }
+  }
+}

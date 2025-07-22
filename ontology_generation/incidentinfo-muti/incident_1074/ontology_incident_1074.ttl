@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoRobotaxis rdf:type airo:AISystem ;
+    rdfs:label "Waymo Robotaxis"@en ;
+    rdfs:label "Waymo自动驾驶出租车"@zh ;
+    airo:hasRisk ex:NavigationFailureRisk ;
+    airo:hasAICapability ex:AutonomousNavigation ;
+    airo:isDeployedBy ex:Waymo ;
+    airo:hasStakeholder ex:SanFranciscoResidents ;
+    airo:hasAISubject ex:UrbanRoadUsers ;
+    airo:hasPurpose ex:AutonomousRideHailing ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation ;
+    airo:usesTechnique ex:ComputerVisionBasedNavigation .
+
+ex:NavigationFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Navigation Failure Risk"@en ;
+    rdfs:label "导航失败风险"@zh ;
+    airo:hasConsequence ex:TrafficDisruption ;
+    airo:isRiskSourceFor ex:InsufficientEdgeCaseTesting ;
+    airo:isRiskSourceFor ex:InaccurateMapData ;
+    airo:isRiskSourceFor ex:AlgorithmicNavigationError .
+
+ex:TrafficDisruption rdf:type airo:Consequence ;
+    rdfs:label "Traffic Disruption Consequence"@en ;
+    rdfs:label "交通中断后果"@zh ;
+    airo:hasImpact ex:PublicNuisance .
+
+ex:AutonomousNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Navigation Capability"@en ;
+    rdfs:label "自主导航能力"@zh .
+
+ex:Waymo rdf:type airo:AIOperator ;
+    rdfs:label "Waymo"@en ;
+    rdfs:label "Waymo公司"@zh .
+
+ex:SanFranciscoResidents rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco Residents"@en ;
+    rdfs:label "旧金山居民"@zh .
+
+ex:UrbanRoadUsers rdf:type airo:AISubject ;
+    rdfs:label "Urban Road Users"@en ;
+    rdfs:label "城市道路使用者"@zh .
+
+ex:PublicNuisance rdf:type airo:Impact ;
+    rdfs:label "Public Nuisance Impact"@en ;
+    rdfs:label "公共滋扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoResidents .
+
+ex:AutonomousRideHailing rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Ride Hailing Purpose"@en ;
+    rdfs:label "自动驾驶叫车服务目的"@zh .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:ComputerVisionBasedNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Navigation Technique"@en ;
+    rdfs:label "基于计算机视觉的导航技术"@zh .
+
+ex:DeadEndStreetRecognitionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Dead End Street Recognition Failure Vulnerability"@en ;
+    rdfs:label "死胡同识别失败的脆弱性"@zh .
+
+ex:InaccurateMapData rdf:type airo:Threat ;
+    rdfs:label "Inaccurate Map Data Threat"@en ;
+    rdfs:label "不准确地图数据的威胁"@zh ;
+    airo:exploitsVulnerability ex:DeadEndStreetRecognitionFailure .
+
+ex:AlgorithmicNavigationError rdf:type airo:Hazard ;
+    rdfs:label "Algorithmic Navigation Error Hazard"@en ;
+    rdfs:label "算法导航错误危害"@zh ;
+    airo:exploitsVulnerability ex:DeadEndStreetRecognitionFailure .
+
+ex:InsufficientEdgeCaseTesting rdf:type airo:RiskSource ;
+    rdfs:label "Insufficient Edge Case Testing Risk Source"@en ;
+    rdfs:label "边缘案例测试不足的风险源"@zh .
+
+ex:AutonomousVehicleOperationalChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Operational Challenges Risk Concept"@en ;
+    rdfs:label "自动驾驶车辆运营挑战"@zh .

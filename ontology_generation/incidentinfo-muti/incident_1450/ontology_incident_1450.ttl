@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Porn Generation System"@en ;
+    rdfs:label "深度伪造色情内容生成系统"@zh ;
+    airo:hasRisk ex:PsychologicalHarmFromDeepfakePorn ;
+    airo:hasAISubject ex:PublicFiguresTargetedByDeepfakes ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:CreatingNonConsensualPornographicContent ;
+    airo:isAppliedWithinDomain ex:DigitalMediaAndEntertainment ;
+    airo:hasStakeholder ex:VictimsOfNonConsensualDeepfakes .
+
+ex:PsychologicalHarmFromDeepfakePorn rdf:type airo:Risk ;
+    rdfs:label "Psychological Harm from Deepfake Porn Risk"@en ;
+    rdfs:label "深度伪造色情内容导致的心理伤害风险"@zh ;
+    airo:hasConsequence ex:EmotionalDistressAndPublicHumiliation ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAITechnology .
+
+ex:EmotionalDistressAndPublicHumiliation rdf:type airo:Consequence ;
+    rdfs:label "Emotional Distress and Public Humiliation Consequence"@en ;
+    rdfs:label "情感困扰与公开羞辱后果"@zh ;
+    airo:hasImpact ex:SeverePsychologicalTrauma .
+
+ex:PublicFiguresTargetedByDeepfakes rdf:type airo:AISubject ;
+    rdfs:label "Public Figures Targeted by Deepfakes"@en ;
+    rdfs:label "被深度伪造技术针对的公众人物"@zh .
+
+ex:SeverePsychologicalTrauma rdf:type airo:Impact ;
+    rdfs:label "Severe Psychological Trauma Impact"@en ;
+    rdfs:label "严重心理创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VictimsOfNonConsensualDeepfakes .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:VictimsOfNonConsensualDeepfakes rdf:type airo:Stakeholder ;
+    rdfs:label "Victims of Non-Consensual Deepfakes"@en ;
+    rdfs:label "非自愿深度伪造内容受害者"@zh .
+
+ex:MaliciousUseOfAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of AI Technology Risk Source"@en ;
+    rdfs:label "AI技术的恶意使用风险源"@zh .
+
+ex:CreatingNonConsensualPornographicContent rdf:type airo:Purpose ;
+    rdfs:label "Creating Non-Consensual Pornographic Content Purpose"@en ;
+    rdfs:label "制作非自愿色情内容的目的"@zh .
+
+ex:DigitalMediaAndEntertainment rdf:type airo:Domain ;
+    rdfs:label "Digital Media and Entertainment Domain"@en ;
+    rdfs:label "数字媒体与娱乐领域"@zh .

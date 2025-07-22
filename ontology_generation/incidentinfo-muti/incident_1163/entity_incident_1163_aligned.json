@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionForCriminalIdentification",
+      "中文名称": "面部识别用于罪犯识别",
+      "英文名称": "Police Facial Recognition",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "Risk": {
+      "id": "BiasedCriminalIdentificationRisk",
+      "中文名称": "罪犯识别偏见风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "AICapability": {
+      "id": "FacialFeatureAnalysis",
+      "中文名称": "面部特征分析能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "Purpose": {
+      "id": "CriminalIdentification",
+      "中文名称": "罪犯识别目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Consequence": {
+      "id": "UnjustCriminalIdentification",
+      "中文名称": "不公正罪犯识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionForCriminalIdentification",
+      "中文名称": "面部识别用于罪犯识别",
+      "英文名称": "Police Facial Recognition",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "Risk": {
+      "id": "BiasedCriminalIdentificationRisk",
+      "中文名称": "罪犯识别偏见风险",
+      "英文名称": "Judicial Bias and Error Risk",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "AICapability": {
+      "id": "FacialFeatureAnalysis",
+      "中文名称": "面部特征分析能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "Purpose": {
+      "id": "CriminalIdentification",
+      "中文名称": "罪犯识别目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Neural Network Learns to Identify Criminals by Their Faces"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Consequence": {
+      "id": "UnjustCriminalIdentification",
+      "中文名称": "不公正罪犯识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "A New Program Judges If You’re a Criminal From Your Facial Features"
+    }
+  }
+}

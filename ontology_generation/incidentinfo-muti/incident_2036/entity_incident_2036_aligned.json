@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Telangana High Court Issues Notice On PIL Challenging Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "PIL Challenging Deployment Of Facial Recognition Technology"
+    },
+    "Stakeholder": {
+      "id": "TelanganaGovernment",
+      "中文名称": "特伦甘纳邦政府",
+      "英文名称": "Telangana Government",
+      "来源": "Telangana HC issues notice to govt over PIL challenging use of facial recognition tech"
+    },
+    "AIOperator": {
+      "id": "GovernmentDeployer",
+      "中文名称": "政府部署者",
+      "英文名称": "Government Entity",
+      "来源": "Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Telangana High Court Issues Notice On PIL Challenging Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "PIL Challenging Deployment Of Facial Recognition Technology"
+    },
+    "Stakeholder": {
+      "id": "TelanganaGovernment",
+      "中文名称": "特伦甘纳邦政府",
+      "英文名称": "Telangana Government",
+      "来源": "Telangana HC issues notice to govt over PIL challenging use of facial recognition tech"
+    },
+    "AIOperator": {
+      "id": "GovernmentDeployer",
+      "中文名称": "政府部署者",
+      "英文名称": "Government Entity",
+      "来源": "Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Deployment Of Facial Recognition Technology (FRT) In Telangana"
+    }
+  }
+}

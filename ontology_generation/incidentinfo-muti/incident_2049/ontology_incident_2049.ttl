@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TaxDepartmentFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Tax Department Facial Recognition System"@en ;
+    rdfs:label "税务部门人脸识别系统"@zh ;
+    airo:hasRisk ex:FacialRecognitionSystemCrackingRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:TaxDepartment .
+
+ex:FacialRecognitionSystemCrackingRisk rdf:type airo:Risk ;
+    rdfs:label "Facial Recognition System Cracking Risk"@en ;
+    rdfs:label "人脸识别系统破解风险"@zh ;
+    airo:hasConsequence ex:SystemSecurityBreach ;
+    airo:isRiskSourceFor ex:PhotoToVideoConversionTechnique .
+
+ex:PhotoToVideoConversionTechnique rdf:type airo:RiskSource ;
+    rdfs:label "Photo to Video Conversion Technique"@en ;
+    rdfs:label "照片转视频技术"@zh ;
+    airo:isRiskSourceFor ex:FacialRecognitionSystemCrackingRisk .
+
+ex:TaxDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Tax Department"@en ;
+    rdfs:label "税务部门"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "人脸识别技术"@zh .
+
+ex:SystemSecurityBreach rdf:type airo:Consequence ;
+    rdfs:label "System Security Breach Consequence"@en ;
+    rdfs:label "系统安全漏洞后果"@zh ;
+    airo:hasImpactOnStakeholder ex:TaxDepartment .

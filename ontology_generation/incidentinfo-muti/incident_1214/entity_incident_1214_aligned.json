@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAICharacterAccounts",
+      "中文名称": "Meta AI角色账户",
+      "英文名称": "Meta AI Character Accounts",
+      "来源": "Meta removes AI character accounts after users criticize them as ‘creepy and unnecessary’"
+    },
+    "Risk": {
+      "id": "UserBacklashRisk",
+      "中文名称": "用户反弹风险",
+      "英文名称": "Public Backlash Risk",
+      "来源": "Meta’s AI-generated bot profiles are not being received well"
+    },
+    "Consequence": {
+      "id": "AccountRemoval",
+      "中文名称": "账户移除后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "Meta removes AI character accounts after users criticize them"
+    },
+    "Stakeholder": {
+      "id": "MetaUsers",
+      "中文名称": "Meta用户",
+      "英文名称": "Meta Users",
+      "来源": "users criticize them as ‘creepy and unnecessary’"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta removes AI character accounts"
+    },
+    "Impact": {
+      "id": "NegativeUserExperience",
+      "中文名称": "负面用户体验影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "users criticize them as ‘creepy and unnecessary’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAICharacterAccounts",
+      "中文名称": "Meta AI角色账户",
+      "英文名称": "Meta AI Character Accounts",
+      "来源": "Meta removes AI character accounts after users criticize them as ‘creepy and unnecessary’"
+    },
+    "Risk": {
+      "id": "UserBacklashRisk",
+      "中文名称": "用户反弹风险",
+      "英文名称": "Public Backlash Risk",
+      "来源": "Meta’s AI-generated bot profiles are not being received well"
+    },
+    "Consequence": {
+      "id": "AccountRemoval",
+      "中文名称": "账户移除后果",
+      "英文名称": "Account Termination Consequence",
+      "来源": "Meta removes AI character accounts after users criticize them"
+    },
+    "Stakeholder": {
+      "id": "MetaUsers",
+      "中文名称": "Meta用户",
+      "英文名称": "Meta Users",
+      "来源": "users criticize them as ‘creepy and unnecessary’"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta removes AI character accounts"
+    },
+    "Impact": {
+      "id": "NegativeUserExperience",
+      "中文名称": "负面用户体验影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "users criticize them as ‘creepy and unnecessary’"
+    }
+  }
+}

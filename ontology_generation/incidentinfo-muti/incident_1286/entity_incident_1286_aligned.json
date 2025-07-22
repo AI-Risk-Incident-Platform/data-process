@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TrueCrimeChannelAI",
+      "中文名称": "真实犯罪频道AI",
+      "英文名称": "True Crime Channel AI",
+      "来源": "True Crime Channel Using AI Generated Stories"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Viral true crime story or just another AI fake?"
+    },
+    "Stakeholder": {
+      "id": "Viewers",
+      "中文名称": "观众",
+      "英文名称": "Consumers",
+      "来源": "Viral true crime story"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众混淆",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Viral true crime story or just another AI fake?"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "True Crime Channel Using AI Generated Stories"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TrueCrimeChannelAI",
+      "中文名称": "真实犯罪频道AI",
+      "英文名称": "True Crime Channel AI",
+      "来源": "True Crime Channel Using AI Generated Stories"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Viral true crime story or just another AI fake?"
+    },
+    "Stakeholder": {
+      "id": "Viewers",
+      "中文名称": "观众",
+      "英文名称": "Consumers",
+      "来源": "Viral true crime story"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众混淆",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Viral true crime story or just another AI fake?"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "True Crime Channel Using AI Generated Stories"
+    }
+  }
+}

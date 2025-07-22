@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeKidsApp rdf:type airo:AISystem ;
+    rdfs:label "YouTube Kids App"@en ;
+    rdfs:label "YouTube儿童应用"@zh ;
+    airo:hasRisk ex:InappropriateContentRisk ;
+    airo:hasCapability ex:ContentFilteringAlgorithm ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasPurpose ex:ChildFriendlyVideoPlatform ;
+    airo:hasStakeholder ex:Children ;
+    airo:hasAISubject ex:YoungViewers ;
+    airo:isAppliedWithinDomain ex:ChildrenEntertainment ;
+    airo:usesTechnique ex:MachineLearningContentModeration .
+
+ex:InappropriateContentRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Risk"@en ;
+    rdfs:label "不当内容风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistressForChildren ;
+    airo:isRiskSourceFor ex:InsufficientContentModeration .
+
+ex:PsychologicalDistressForChildren rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress for Children Consequence"@en ;
+    rdfs:label "儿童心理困扰后果"@zh ;
+    airo:hasImpact ex:NegativePsychologicalEffects .
+
+ex:ContentFilteringAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Filtering Algorithm Capability"@en ;
+    rdfs:label "内容过滤算法能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:Children rdf:type airo:Stakeholder ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:YoungViewers rdf:type airo:AISubject ;
+    rdfs:label "Young Viewers"@en ;
+    rdfs:label "年轻观众"@zh .
+
+ex:NegativePsychologicalEffects rdf:type airo:Impact ;
+    rdfs:label "Negative Psychological Effects Impact"@en ;
+    rdfs:label "负面心理影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Children .
+
+ex:ChildFriendlyVideoPlatform rdf:type airo:Purpose ;
+    rdfs:label "Child Friendly Video Platform Purpose"@en ;
+    rdfs:label "儿童友好型视频平台目的"@zh .
+
+ex:ChildrenEntertainment rdf:type airo:Domain ;
+    rdfs:label "Children Entertainment Domain"@en ;
+    rdfs:label "儿童娱乐领域"@zh .
+
+ex:MachineLearningContentModeration rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Content Moderation Technique"@en ;
+    rdfs:label "机器学习内容审核技术"@zh .
+
+ex:AlgorithmicContentGaps rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Content Gaps Vulnerability"@en ;
+    rdfs:label "算法内容漏洞"@zh .
+
+ex:MaliciousContentCreators rdf:type airo:Threat ;
+    rdfs:label "Malicious Content Creators Threat"@en ;
+    rdfs:label "恶意内容创作者威胁"@zh ;
+    airo:isRiskSourceFor ex:InsufficientContentModeration .
+
+ex:InappropriateContentUploads rdf:type airo:Hazard ;
+    rdfs:label "Inappropriate Content Uploads Hazard"@en ;
+    rdfs:label "不当内容上传危害"@zh ;
+    airo:isRiskSourceFor ex:InsufficientContentModeration .
+
+ex:InsufficientContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Insufficient Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核不足风险源"@zh ;
+    airo:exploitsVulnerability ex:AlgorithmicContentGaps .
+
+ex:ChildSafetyInDigitalPlatforms rdf:type airo:RiskConcept ;
+    rdfs:label "Child Safety in Digital Platforms Risk Concept"@en ;
+    rdfs:label "数字平台儿童安全风险概念"@zh .

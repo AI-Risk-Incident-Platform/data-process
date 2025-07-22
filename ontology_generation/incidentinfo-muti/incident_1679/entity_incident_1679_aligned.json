@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MoscowFacialRecognitionSystem",
+      "中文名称": "莫斯科人脸识别系统",
+      "英文名称": "Moscow Facial Recognition System",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "RiskSource": {
+      "id": "BlackMarketAccessToCCTV",
+      "中文名称": "黑市获取CCTV访问权限",
+      "英文名称": "Black Market Access to CCTV",
+      "来源": "For Sale: Access to Moscow’s CCTV Network on Black Market"
+    },
+    "Consequence": {
+      "id": "MassSurveillanceOfCitizens",
+      "中文名称": "公民大规模监控后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "AICapability": {
+      "id": "LargeScaleFacialRecognition",
+      "中文名称": "大规模人脸识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    },
+    "Domain": {
+      "id": "PublicSecuritySurveillance",
+      "中文名称": "公共安全监控领域",
+      "英文名称": "Surveillance Domain",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MoscowFacialRecognitionSystem",
+      "中文名称": "莫斯科人脸识别系统",
+      "英文名称": "Moscow Facial Recognition System",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "RiskSource": {
+      "id": "BlackMarketAccessToCCTV",
+      "中文名称": "黑市获取CCTV访问权限",
+      "英文名称": "Black Market Access to CCTV",
+      "来源": "For Sale: Access to Moscow’s CCTV Network on Black Market"
+    },
+    "Consequence": {
+      "id": "MassSurveillanceOfCitizens",
+      "中文名称": "公民大规模监控后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Moscow Deploys Facial Recognition to Spy on Citizens in Streets"
+    },
+    "AICapability": {
+      "id": "LargeScaleFacialRecognition",
+      "中文名称": "大规模人脸识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    },
+    "Domain": {
+      "id": "PublicSecuritySurveillance",
+      "中文名称": "公共安全监控领域",
+      "英文名称": "Surveillance Domain",
+      "来源": "Russia Is Building One of the World’s Largest Facial Recognition Networks"
+    }
+  }
+}

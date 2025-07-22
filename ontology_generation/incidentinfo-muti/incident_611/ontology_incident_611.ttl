@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AI-generatedAllegationsSystem rdf:type airo:AISystem ;
+    rdfs:label "AI-generated Allegations System"@en ;
+    rdfs:label "AI生成指控系统"@zh ;
+    airo:hasRisk ex:FalseAllegationsRisk ;
+    airo:hasStakeholder ex:BigFourConsultancyFirms ;
+    airo:isDeployedBy ex:AustralianAcademics .
+
+ex:FalseAllegationsRisk rdf:type airo:Risk ;
+    rdfs:label "False Allegations Risk"@en ;
+    rdfs:label "虚假指控风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage .
+
+ex:BigFourConsultancyFirms rdf:type airo:Stakeholder ;
+    rdfs:label "Big Four Consultancy Firms"@en ;
+    rdfs:label "四大咨询公司"@zh .
+
+ex:AustralianAcademics rdf:type airo:AIOperator ;
+    rdfs:label "Australian Academics"@en ;
+    rdfs:label "澳大利亚学者"@zh .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationImpact .
+
+ex:ProfessionalReputationImpact rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Impact"@en ;
+    rdfs:label "专业声誉影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BigFourConsultancyFirms .

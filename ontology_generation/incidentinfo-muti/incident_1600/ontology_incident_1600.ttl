@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITranslationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Translation System"@en ;
+    rdfs:label "AI翻译系统"@zh ;
+    airo:hasRisk ex:InaccurateTranslationRisk ;
+    airo:hasAISubject ex:AfghanAsylumSeekers ;
+    airo:hasStakeholder ex:ImmigrationAuthorities ;
+    airo:hasPurpose ex:AsylumClaimProcessing ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndAsylum .
+
+ex:InaccurateTranslationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Translation Risk"@en ;
+    rdfs:label "翻译不准确风险"@zh ;
+    airo:hasConsequence ex:DeniedAsylumClaims ;
+    airo:isRiskSourceFor ex:LanguageBarrier ;
+    airo:hasVulnerability ex:CulturalNuanceMisinterpretation .
+
+ex:DeniedAsylumClaims rdf:type airo:Consequence ;
+    rdfs:label "Denied Asylum Claims Consequence"@en ;
+    rdfs:label "庇护申请被拒后果"@zh ;
+    airo:hasImpact ex:HumanRightsViolation .
+
+ex:AfghanAsylumSeekers rdf:type airo:AISubject ;
+    rdfs:label "Afghan Asylum Seekers"@en ;
+    rdfs:label "阿富汗寻求庇护者"@zh .
+
+ex:ImmigrationAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "Immigration Authorities"@en ;
+    rdfs:label "移民当局"@zh .
+
+ex:HumanRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Human Rights Violation Impact"@en ;
+    rdfs:label "人权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AfghanAsylumSeekers .
+
+ex:AsylumClaimProcessing rdf:type airo:Purpose ;
+    rdfs:label "Asylum Claim Processing Purpose"@en ;
+    rdfs:label "庇护申请处理目的"@zh .
+
+ex:ImmigrationAndAsylum rdf:type airo:Domain ;
+    rdfs:label "Immigration and Asylum Domain"@en ;
+    rdfs:label "移民和庇护领域"@zh .
+
+ex:LanguageBarrier rdf:type airo:RiskSource ;
+    rdfs:label "Language Barrier Risk Source"@en ;
+    rdfs:label "语言障碍风险源"@zh .
+
+ex:CulturalNuanceMisinterpretation rdf:type airo:Vulnerability ;
+    rdfs:label "Cultural Nuance Misinterpretation Vulnerability"@en ;
+    rdfs:label "文化细微差别误解脆弱性"@zh .

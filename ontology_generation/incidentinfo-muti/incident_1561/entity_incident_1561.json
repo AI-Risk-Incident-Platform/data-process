@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIchatbot",
+      "中文名称": "微软AI聊天机器人",
+      "英文名称": "Microsoft AI Chatbot",
+      "来源": "Unverified election claims from Microsoft's AI chatbot"
+    },
+    "Risk": {
+      "id": "ThreatToDemocracy",
+      "中文名称": "威胁民主的风险",
+      "英文名称": "Threat to Democracy Risk",
+      "来源": "ignite debate over its ability to preserve democracy"
+    },
+    "Stakeholder": {
+      "id": "Public",
+      "中文名称": "公众",
+      "英文名称": "Public",
+      "来源": "ignite debate over its ability to preserve democracy"
+    },
+    "Consequence": {
+      "id": "SpreadOfMisinformation",
+      "中文名称": "传播虚假信息后果",
+      "英文名称": "Spread of Misinformation Consequence",
+      "来源": "Unverified election claims"
+    },
+    "Impact": {
+      "id": "UndermineDemocraticProcesses",
+      "中文名称": "破坏民主进程的影响",
+      "英文名称": "Undermine Democratic Processes Impact",
+      "来源": "ignite debate over its ability to preserve democracy"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft's AI chatbot"
+    },
+    "RiskSource": {
+      "id": "UnverifiedClaimsGeneration",
+      "中文名称": "生成未经证实声明的风险源",
+      "英文名称": "Unverified Claims Generation Risk Source",
+      "来源": "Unverified election claims from Microsoft's AI chatbot"
+    }
+  }
+}

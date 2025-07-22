@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:AcademicPerformanceDeclineAndMemoryLossRisk ;
+    airo:hasAISubject ex:Students ;
+    airo:isAppliedWithinDomain ex:Education .
+
+ex:AcademicPerformanceDeclineAndMemoryLossRisk rdf:type airo:Risk ;
+    rdfs:label "Academic Performance Decline and Memory Loss Risk"@en ;
+    rdfs:label "学业表现下降和记忆力减退风险"@zh ;
+    airo:hasConsequence ex:MemoryLossConsequence .
+
+ex:MemoryLossConsequence rdf:type airo:Consequence ;
+    rdfs:label "Memory Loss Consequence"@en ;
+    rdfs:label "记忆力减退后果"@zh ;
+    airo:hasImpact ex:NegativeImpactOnLearningOutcomes .
+
+ex:NegativeImpactOnLearningOutcomes rdf:type airo:Impact ;
+    rdfs:label "Negative Impact on Learning Outcomes"@en ;
+    rdfs:label "对学习成果的负面影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "Education Domain"@en ;
+    rdfs:label "教育领域"@zh .

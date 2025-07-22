@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberDriverPayAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Uber Driver Pay Algorithm"@en ;
+    rdfs:label "Uber司机薪酬算法"@zh ;
+    airo:hasRisk ex:LackOfTransparencyInDriverPay ;
+    airo:isDevelopedBy ex:UberTechnologies ;
+    airo:hasPurpose ex:AttractingMoreDrivers ;
+    airo:hasStakeholder ex:UberDrivers ;
+    airo:isAppliedWithinDomain ex:RideSharingIndustry ;
+    airo:usesTechnique ex:DynamicPricingAlgorithm .
+
+ex:LackOfTransparencyInDriverPay rdf:type airo:Risk ;
+    rdfs:label "Lack of Transparency in Driver Pay Risk"@en ;
+    rdfs:label "司机薪酬缺乏透明度风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicPayDetermination ;
+    airo:hasImpact ex:DriverIncomeInstability .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "优步科技"@zh .
+
+ex:UberDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Drivers"@en ;
+    rdfs:label "Uber司机"@zh .
+
+ex:AttractingMoreDrivers rdf:type airo:Purpose ;
+    rdfs:label "Attracting More Drivers Purpose"@en ;
+    rdfs:label "吸引更多司机"@zh .
+
+ex:RideSharingIndustry rdf:type airo:Domain ;
+    rdfs:label "Ride Sharing Industry Domain"@en ;
+    rdfs:label "共享出行行业"@zh .
+
+ex:DynamicPricingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Dynamic Pricing Algorithm Technique"@en ;
+    rdfs:label "动态定价算法"@zh .
+
+ex:AlgorithmicPayDetermination rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Pay Determination Risk Source"@en ;
+    rdfs:label "算法决定薪酬的风险源"@zh .
+
+ex:DriverIncomeInstability rdf:type airo:Impact ;
+    rdfs:label "Driver Income Instability Impact"@en ;
+    rdfs:label "司机收入不稳定的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberDrivers .

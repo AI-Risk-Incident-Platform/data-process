@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GeoGPT",
+      "中文名称": "GeoGPT",
+      "英文名称": "GeoGPT",
+      "来源": "Geologists 'Worried' About GeoGPT's Potential Censorship, Bias: What's Concerning With this Chinese Chatbot?"
+    },
+    "Risk": {
+      "id": "CensorshipAndBiasRisk",
+      "中文名称": "审查与偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Geologists voice concerns about potential censorship and bias in Chinese AI chatbot"
+    },
+    "Stakeholder": {
+      "id": "Geologists",
+      "中文名称": "地质学家",
+      "英文名称": "Geologists",
+      "来源": "Geologists raise concerns over possible censorship and bias in Chinese chatbot"
+    },
+    "RiskSource": {
+      "id": "PotentialCensorshipMechanisms",
+      "中文名称": "潜在审查机制",
+      "英文名称": "Potential Censorship Mechanisms",
+      "来源": "Geologists 'Worried' About GeoGPT's Potential Censorship"
+    },
+    "Impact": {
+      "id": "ScientificInformationDistortion",
+      "中文名称": "科学信息失真",
+      "英文名称": "Scientific Information Distortion",
+      "来源": "concerns about potential censorship and bias in Chinese AI chatbot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GeoGPT",
+      "中文名称": "GeoGPT",
+      "英文名称": "GeoGPT",
+      "来源": "Geologists 'Worried' About GeoGPT's Potential Censorship, Bias: What's Concerning With this Chinese Chatbot?"
+    },
+    "Risk": {
+      "id": "CensorshipAndBiasRisk",
+      "中文名称": "审查与偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Geologists voice concerns about potential censorship and bias in Chinese AI chatbot"
+    },
+    "Stakeholder": {
+      "id": "Geologists",
+      "中文名称": "地质学家",
+      "英文名称": "Geologists",
+      "来源": "Geologists raise concerns over possible censorship and bias in Chinese chatbot"
+    },
+    "RiskSource": {
+      "id": "PotentialCensorshipMechanisms",
+      "中文名称": "潜在审查机制",
+      "英文名称": "Potential Censorship Mechanisms",
+      "来源": "Geologists 'Worried' About GeoGPT's Potential Censorship"
+    },
+    "Impact": {
+      "id": "ScientificInformationDistortion",
+      "中文名称": "科学信息失真",
+      "英文名称": "Scientific Information Distortion",
+      "来源": "concerns about potential censorship and bias in Chinese AI chatbot"
+    }
+  }
+}

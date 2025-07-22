@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SecurityRobot",
+      "中文名称": "安保机器人",
+      "英文名称": "Security Robots",
+      "来源": "Robots are being used to shoo away homeless people in San Francisco"
+    },
+    "Risk": {
+      "id": "DehumanizationRisk",
+      "中文名称": "非人化风险",
+      "英文名称": "Dehumanization Risk",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Stakeholder": {
+      "id": "HomelessPeople",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless",
+      "来源": "Security robot that deterred homeless encampments in the Mission gets rebuke from the city"
+    },
+    "AIOperator": {
+      "id": "AnimalShelter",
+      "中文名称": "动物收容所",
+      "英文名称": "Animal Shelter",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Impact": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Purpose": {
+      "id": "DeterHomelessEncampments",
+      "中文名称": "阻止无家可归者露营的目的",
+      "英文名称": "Deter Homeless Encampments Purpose",
+      "来源": "Security robot that deterred homeless encampments in the Mission gets rebuke from the city"
+    },
+    "Domain": {
+      "id": "PublicSpaceManagement",
+      "中文名称": "公共空间管理领域",
+      "英文名称": "Public Space Management Domain",
+      "来源": "Robots are being used to shoo away homeless people in San Francisco"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SecurityRobot",
+      "中文名称": "安保机器人",
+      "英文名称": "Security Robots",
+      "来源": "Robots are being used to shoo away homeless people in San Francisco"
+    },
+    "Risk": {
+      "id": "DehumanizationRisk",
+      "中文名称": "非人化风险",
+      "英文名称": "Dehumanization Risk",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Stakeholder": {
+      "id": "HomelessPeople",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless",
+      "来源": "Security robot that deterred homeless encampments in the Mission gets rebuke from the city"
+    },
+    "AIOperator": {
+      "id": "AnimalShelter",
+      "中文名称": "动物收容所",
+      "英文名称": "Animal Shelter",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Impact": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Animal shelter faces backlash after using robot to scare off homeless people"
+    },
+    "Purpose": {
+      "id": "DeterHomelessEncampments",
+      "中文名称": "阻止无家可归者露营的目的",
+      "英文名称": "Deter Homeless Encampments Purpose",
+      "来源": "Security robot that deterred homeless encampments in the Mission gets rebuke from the city"
+    },
+    "Domain": {
+      "id": "PublicSpaceManagement",
+      "中文名称": "公共空间管理领域",
+      "英文名称": "Public Space Management Domain",
+      "来源": "Robots are being used to shoo away homeless people in San Francisco"
+    }
+  }
+}

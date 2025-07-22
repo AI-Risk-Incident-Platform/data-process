@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk ;
+    airo:hasAISubject ex:HighSchoolGirls ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:isAppliedWithinDomain ex:EducationAndSocialMedia .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    rdfs:label "隐私侵犯和名誉损害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfakeTechnology .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Victims Consequence"@en ;
+    rdfs:label "对受害者的心理伤害后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressAndSocialStigma .
+
+ex:EmotionalDistressAndSocialStigma rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress and Social Stigma Impact"@en ;
+    rdfs:label "情绪困扰和社会污名影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HighSchoolGirls .
+
+ex:HighSchoolGirls rdf:type airo:AISubject ;
+    rdfs:label "High School Girls"@en ;
+    rdfs:label "高中女生"@zh .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement Agencies"@en ;
+    rdfs:label "执法机构"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:MaliciousUseOfDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of Deepfake Technology Risk Source"@en ;
+    rdfs:label "深度伪造技术的恶意使用风险源"@zh .
+
+ex:EducationAndSocialMedia rdf:type airo:Domain ;
+    rdfs:label "Education and Social Media Domain"@en ;
+    rdfs:label "教育和社会媒体领域"@zh .

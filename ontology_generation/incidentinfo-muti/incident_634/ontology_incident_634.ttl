@@ -1,0 +1,74 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoCallSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Call System"@en ;
+    rdfs:label "深度伪造视频通话系统"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:Impersonation ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:hasAISubject ex:Company ;
+    airo:hasStakeholder ex:FinanceWorker ;
+    airo:hasVulnerability ex:HumanTrustInVideoCalls .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:SocialEngineering ;
+    airo:isRiskSourceFor ex:CybercriminalActivity .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpact ex:OperationalDisruption .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:FinanceWorker rdf:type airo:Stakeholder ;
+    rdfs:label "Finance Worker"@en ;
+    rdfs:label "财务工作人员"@zh .
+
+ex:Company rdf:type airo:AISubject ;
+    rdfs:label "Company"@en ;
+    rdfs:label "公司"@zh .
+
+ex:OperationalDisruption rdf:type airo:Impact ;
+    rdfs:label "Operational Disruption"@en ;
+    rdfs:label "运营中断"@zh ;
+    airo:hasImpactOnStakeholder ex:FinanceWorker ;
+    airo:hasImpactOnStakeholder ex:Company .
+
+ex:Impersonation rdf:type airo:Purpose ;
+    rdfs:label "Impersonation"@en ;
+    rdfs:label "冒充"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services"@en ;
+    rdfs:label "金融服务"@zh .
+
+ex:SocialEngineering rdf:type airo:RiskSource ;
+    rdfs:label "Social Engineering"@en ;
+    rdfs:label "社会工程学"@zh ;
+    airo:exploitsVulnerability ex:HumanTrustInVideoCalls .
+
+ex:HumanTrustInVideoCalls rdf:type airo:Vulnerability ;
+    rdfs:label "Human Trust in Video Calls"@en ;
+    rdfs:label "人类对视频通话的信任"@zh .
+
+ex:CybercriminalActivity rdf:type airo:Threat ;
+    rdfs:label "Cybercriminal Activity"@en ;
+    rdfs:label "网络犯罪活动"@zh ;
+    airo:exploitsVulnerability ex:HumanTrustInVideoCalls .

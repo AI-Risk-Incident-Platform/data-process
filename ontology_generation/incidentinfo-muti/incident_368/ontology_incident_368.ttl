@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShopeePayFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "ShopeePay Facial Recognition System"@en ;
+    rdfs:label "ShopeePay面部识别系统"@zh ;
+    airo:hasRisk ex:FacialRecognitionFailureRisk ;
+    airo:hasAISubject ex:ProgramEligibleCitizens ;
+    airo:hasPurpose ex:IdentityVerificationForSubsidies ;
+    airo:isAppliedWithinDomain ex:GovernmentSubsidyPrograms ;
+    airo:hasStakeholder ex:ThaiGovernment ;
+    airo:hasVulnerability ex:BiometricRecognitionLimitations .
+
+ex:FacialRecognitionFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Facial Recognition Failure Risk"@en ;
+    rdfs:label "面部识别失败风险"@zh ;
+    airo:hasConsequence ex:ServiceAccessDenial .
+
+ex:ServiceAccessDenial rdf:type airo:Consequence ;
+    rdfs:label "Service Access Denial Consequence"@en ;
+    rdfs:label "服务访问被拒后果"@zh ;
+    airo:hasImpact ex:FinancialHardship .
+
+ex:ThaiGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Thai Government"@en ;
+    rdfs:label "泰国政府"@zh .
+
+ex:ProgramEligibleCitizens rdf:type airo:AISubject ;
+    rdfs:label "Program Eligible Citizens"@en ;
+    rdfs:label "计划合格公民"@zh .
+
+ex:FinancialHardship rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship Impact"@en ;
+    rdfs:label "经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ProgramEligibleCitizens .
+
+ex:IdentityVerificationForSubsidies rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification for Subsidies Purpose"@en ;
+    rdfs:label "补贴身份验证目的"@zh .
+
+ex:GovernmentSubsidyPrograms rdf:type airo:Domain ;
+    rdfs:label "Government Subsidy Programs Domain"@en ;
+    rdfs:label "政府补贴计划领域"@zh .
+
+ex:BiometricRecognitionLimitations rdf:type airo:Vulnerability ;
+    rdfs:label "Biometric Recognition Limitations Vulnerability"@en ;
+    rdfs:label "生物识别限制脆弱性"@zh .

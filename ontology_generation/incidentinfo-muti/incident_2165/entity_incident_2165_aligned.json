@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliverooAlgorithm",
+      "中文名称": "Deliveroo算法",
+      "英文名称": "Deliveroo Algorithm",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Risk": {
+      "id": "WorkLifeBalanceDisruptionRisk",
+      "中文名称": "工作生活平衡破坏风险",
+      "英文名称": "Work-Life Balance Disruption Risk",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Stakeholder": {
+      "id": "DeliveryRiders",
+      "中文名称": "外卖骑手",
+      "英文名称": "Delivery Personnel",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Impact": {
+      "id": "FamilyLifeDisruption",
+      "中文名称": "家庭生活破坏影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Domain": {
+      "id": "FoodDeliveryIndustry",
+      "中文名称": "食品配送行业",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Deliveroo是一家食品配送公司"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeliverooAlgorithm",
+      "中文名称": "Deliveroo算法",
+      "英文名称": "Deliveroo Algorithm",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Risk": {
+      "id": "WorkLifeBalanceDisruptionRisk",
+      "中文名称": "工作生活平衡破坏风险",
+      "英文名称": "Work-Life Balance Disruption Risk",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Stakeholder": {
+      "id": "DeliveryRiders",
+      "中文名称": "外卖骑手",
+      "英文名称": "Delivery Personnel",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Impact": {
+      "id": "FamilyLifeDisruption",
+      "中文名称": "家庭生活破坏影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "‘Deliveroo’s algorithm makes looking after my family feel impossible’"
+    },
+    "Domain": {
+      "id": "FoodDeliveryIndustry",
+      "中文名称": "食品配送行业",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Deliveroo是一家食品配送公司"
+    }
+  }
+}

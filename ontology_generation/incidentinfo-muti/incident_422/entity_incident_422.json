@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HSBCVoiceRecognitionSystem",
+      "中文名称": "汇丰银行语音识别系统",
+      "英文名称": "HSBC Voice Recognition System",
+      "来源": "HSBC voice recognition security system"
+    },
+    "Risk": {
+      "id": "VoiceSpoofingRisk",
+      "中文名称": "语音欺骗风险",
+      "英文名称": "Voice Spoofing Risk",
+      "来源": "Twin brother’s voice cracks bank security"
+    },
+    "Consequence": {
+      "id": "SecurityBreach",
+      "中文名称": "安全漏洞后果",
+      "英文名称": "Security Breach Consequence",
+      "来源": "HSBC voice recognition system breached by customer's twin"
+    },
+    "AICapability": {
+      "id": "VoiceAuthentication",
+      "中文名称": "语音认证能力",
+      "英文名称": "Voice Authentication Capability",
+      "来源": "HSBC voice recognition security system"
+    },
+    "Stakeholder": {
+      "id": "HSBCBank",
+      "中文名称": "汇丰银行",
+      "英文名称": "HSBC Bank",
+      "来源": "HSBC voice recognition security system"
+    },
+    "AISubject": {
+      "id": "BankCustomers",
+      "中文名称": "银行客户",
+      "英文名称": "Bank Customers",
+      "来源": "HSBC voice recognition system breached by customer's twin"
+    },
+    "Impact": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈影响",
+      "英文名称": "Financial Fraud Impact",
+      "来源": "Twin brother’s voice cracks bank security"
+    },
+    "Purpose": {
+      "id": "SecureBankingAuthentication",
+      "中文名称": "安全银行认证目的",
+      "英文名称": "Secure Banking Authentication Purpose",
+      "来源": "HSBC voice recognition security system"
+    },
+    "Domain": {
+      "id": "BankingSecurity",
+      "中文名称": "银行安全领域",
+      "英文名称": "Banking Security Domain",
+      "来源": "HSBC voice recognition security system"
+    },
+    "AITechnique": {
+      "id": "VoiceBiometrics",
+      "中文名称": "语音生物识别技术",
+      "英文名称": "Voice Biometrics Technique",
+      "来源": "HSBC voice recognition security system"
+    },
+    "Vulnerability": {
+      "id": "VoiceImpersonation",
+      "中文名称": "语音模仿漏洞",
+      "英文名称": "Voice Impersonation Vulnerability",
+      "来源": "Twin brother’s voice cracks bank security"
+    },
+    "Threat": {
+      "id": "BiometricSpoofing",
+      "中文名称": "生物识别欺骗威胁",
+      "英文名称": "Biometric Spoofing Threat",
+      "来源": "BBC fools HSBC voice recognition security system"
+    },
+    "Hazard": {
+      "id": "IdenticalVoicePatterns",
+      "中文名称": "相同语音模式危害",
+      "英文名称": "Identical Voice Patterns Hazard",
+      "来源": "Twin brother’s voice cracks bank security"
+    },
+    "RiskSource": {
+      "id": "VoiceReplication",
+      "中文名称": "语音复制风险源",
+      "英文名称": "Voice Replication Risk Source",
+      "来源": "Twin brother’s voice cracks bank security"
+    },
+    "RiskConcept": {
+      "id": "BiometricAuthenticationFailure",
+      "中文名称": "生物识别认证失败风险概念",
+      "英文名称": "Biometric Authentication Failure Risk Concept",
+      "来源": "BBC fools HSBC voice recognition security system"
+    }
+  }
+}

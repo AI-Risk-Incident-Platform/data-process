@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WazeNavigationApp",
+      "中文名称": "Waze导航应用",
+      "英文名称": "Waze App",
+      "来源": "Tourists blame Waze app after driving into lake"
+    },
+    "Risk": {
+      "id": "NavigationErrorRisk",
+      "中文名称": "导航错误风险",
+      "英文名称": "Navigation Risk",
+      "来源": "Waze 'directed tourists to drive into lake'"
+    },
+    "Consequence": {
+      "id": "VehicleSubmersion",
+      "中文名称": "车辆浸水后果",
+      "英文名称": "Vehicle Submersion Consequence",
+      "来源": "Yet Another Person Listens to GPS App and Drives Car Into Lake"
+    },
+    "AICapability": {
+      "id": "RealTimeRouteCalculation",
+      "中文名称": "实时路线计算能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Waze uses real-time data to calculate optimal routes"
+    },
+    "Stakeholder": {
+      "id": "Tourists",
+      "中文名称": "游客",
+      "英文名称": "Visitors",
+      "来源": "Tourists blame Waze app after driving into lake"
+    },
+    "RiskSource": {
+      "id": "InaccurateMapData",
+      "中文名称": "不准确的地图数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Waze relies on user-generated map data which may contain errors"
+    },
+    "Impact": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Driving car into lake resulted in vehicle damage"
+    },
+    "Purpose": {
+      "id": "OptimalRouteNavigation",
+      "中文名称": "最优路线导航目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Waze is designed to provide optimal driving routes"
+    },
+    "Domain": {
+      "id": "TransportationNavigation",
+      "中文名称": "交通导航领域",
+      "英文名称": "Transportation Navigation Domain",
+      "来源": "Waze is a GPS navigation software application"
+    },
+    "AITechnique": {
+      "id": "CrowdsourcedDataProcessing",
+      "中文名称": "众包数据处理技术",
+      "英文名称": "Crowdsourced Data Processing Technique",
+      "来源": "Waze uses crowdsourced data from its user community"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WazeNavigationApp",
+      "中文名称": "Waze导航应用",
+      "英文名称": "Waze App",
+      "来源": "Tourists blame Waze app after driving into lake"
+    },
+    "Risk": {
+      "id": "NavigationErrorRisk",
+      "中文名称": "导航错误风险",
+      "英文名称": "Navigation Risk",
+      "来源": "Waze 'directed tourists to drive into lake'"
+    },
+    "Consequence": {
+      "id": "VehicleSubmersion",
+      "中文名称": "车辆浸水后果",
+      "英文名称": "Vehicle Submersion Consequence",
+      "来源": "Yet Another Person Listens to GPS App and Drives Car Into Lake"
+    },
+    "AICapability": {
+      "id": "RealTimeRouteCalculation",
+      "中文名称": "实时路线计算能力",
+      "英文名称": "Real - Time Navigation Capability",
+      "来源": "Waze uses real-time data to calculate optimal routes"
+    },
+    "Stakeholder": {
+      "id": "Tourists",
+      "中文名称": "游客",
+      "英文名称": "Visitors",
+      "来源": "Tourists blame Waze app after driving into lake"
+    },
+    "RiskSource": {
+      "id": "InaccurateMapData",
+      "中文名称": "不准确的地图数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Waze relies on user-generated map data which may contain errors"
+    },
+    "Impact": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Driving car into lake resulted in vehicle damage"
+    },
+    "Purpose": {
+      "id": "OptimalRouteNavigation",
+      "中文名称": "最优路线导航目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Waze is designed to provide optimal driving routes"
+    },
+    "Domain": {
+      "id": "TransportationNavigation",
+      "中文名称": "交通导航领域",
+      "英文名称": "Transportation Navigation Domain",
+      "来源": "Waze is a GPS navigation software application"
+    },
+    "AITechnique": {
+      "id": "CrowdsourcedDataProcessing",
+      "中文名称": "众包数据处理技术",
+      "英文名称": "Crowdsourced Data Processing Technique",
+      "来源": "Waze uses crowdsourced data from its user community"
+    }
+  }
+}

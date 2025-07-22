@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoOfJeffKoinange rdf:type airo:AISystem ;
+    rdfs:label "Jeff Koinange的深度伪造视频"@zh ;
+    rdfs:label "Deepfake Video of Jeff Koinange"@en ;
+    airo:hasRisk ex:MisinformationRiskFromDeepfake ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PromoteGamblingApp ;
+    airo:hasStakeholder ex:JeffKoinange .
+
+ex:MisinformationRiskFromDeepfake rdf:type airo:Risk ;
+    rdfs:label "深度伪造导致的虚假信息风险"@zh ;
+    rdfs:label "Misinformation Risk from Deepfake"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:JeffKoinange rdf:type airo:Stakeholder ;
+    rdfs:label "Jeff Koinange"@zh ;
+    rdfs:label "Jeff Koinange"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害"@zh ;
+    rdfs:label "Reputation Damage"@en ;
+    airo:hasImpactOnStakeholder ex:JeffKoinange .
+
+ex:PromoteGamblingApp rdf:type airo:Purpose ;
+    rdfs:label "推广赌博应用"@zh ;
+    rdfs:label "Promote Gambling App"@en .

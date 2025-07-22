@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotterSystem",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter Gunshot Detection System",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Risk": {
+      "id": "IneffectiveGunshotDetectionRisk",
+      "中文名称": "枪声检测失效风险",
+      "英文名称": "Ineffective Gunshot Detection Risk",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "Stakeholder": {
+      "id": "LocalPoliceDepartment",
+      "中文名称": "地方警察部门",
+      "英文名称": "Local Police Department",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Consequence": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁后果",
+      "英文名称": "Public Safety Threat Consequence",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "AIOperator": {
+      "id": "ShotSpotterCompany",
+      "中文名称": "ShotSpotter公司",
+      "英文名称": "ShotSpotter Company",
+      "来源": "Troy will turn off ShotSpotter"
+    }
+  }
+}

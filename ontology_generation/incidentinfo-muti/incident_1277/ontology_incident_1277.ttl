@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SpinVoxVoiceToTextSystem rdf:type airo:AISystem ;
+    rdfs:label "SpinVox Voice to Text System"@en ;
+    rdfs:label "SpinVox语音转文字系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:SpinVoxCompany ;
+    airo:isDeployedBy ex:SpinVoxOperator ;
+    airo:hasPurpose ex:VoiceMessageTranscription ;
+    airo:isAppliedWithinDomain ex:VoiceTechnologyDomain .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedAccessToPrivateConversations ;
+    airo:isRiskSourceFor ex:HumanInvolvementInAIProcess .
+
+ex:SpinVoxCompany rdf:type airo:Stakeholder ;
+    rdfs:label "SpinVox Company"@en ;
+    rdfs:label "SpinVox公司"@zh .
+
+ex:SpinVoxOperator rdf:type airo:AIOperator ;
+    rdfs:label "SpinVox Operator"@en ;
+    rdfs:label "SpinVox运营商"@zh .
+
+ex:UnauthorizedAccessToPrivateConversations rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Access to Private Conversations"@en ;
+    rdfs:label "未经授权访问私人对话"@zh ;
+    airo:hasImpact ex:LossOfUserTrust .
+
+ex:LossOfUserTrust rdf:type airo:Impact ;
+    rdfs:label "Loss of User Trust"@en ;
+    rdfs:label "用户信任丧失"@zh ;
+    airo:hasImpactOnStakeholder ex:SpinVoxCompany .
+
+ex:VoiceMessageTranscription rdf:type airo:Purpose ;
+    rdfs:label "Voice Message Transcription"@en ;
+    rdfs:label "语音消息转录"@zh .
+
+ex:VoiceTechnologyDomain rdf:type airo:Domain ;
+    rdfs:label "Voice Technology Domain"@en ;
+    rdfs:label "语音技术领域"@zh .
+
+ex:HumanInvolvementInAIProcess rdf:type airo:RiskSource ;
+    rdfs:label "Human Involvement in AI Process"@en ;
+    rdfs:label "AI处理过程中的人类参与"@zh .

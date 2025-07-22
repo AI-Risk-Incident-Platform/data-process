@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProfessionalHeadshotAITool",
+      "中文名称": "专业头像AI工具",
+      "英文名称": "Professional Headshot AI Tool",
+      "来源": "An Asian MIT student asked AI to turn an image of her into a professional headshot."
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "It made her white, with lighter skin and blue eyes."
+    },
+    "Consequence": {
+      "id": "RacialMisrepresentation",
+      "中文名称": "种族错误表征后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "‘Tech racism is real’: Asian MIT student’s professional headshot turns Caucasian with AI tool"
+    },
+    "AISubject": {
+      "id": "AsianMITStudent",
+      "中文名称": "MIT亚裔学生",
+      "英文名称": "Students",
+      "来源": "An Asian MIT student asked AI to turn an image of her into a professional headshot."
+    },
+    "Impact": {
+      "id": "CulturalIdentityErasure",
+      "中文名称": "文化身份抹除影响",
+      "英文名称": "Cultural Identity Erasure Impact",
+      "来源": "Asian MIT grad asks AI to make her photo more ‘professional,’ gets turned into white woman"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "‘Tech racism is real’"
+    },
+    "Stakeholder": {
+      "id": "MinorityProfessionals",
+      "中文名称": "少数族裔专业人士",
+      "英文名称": "Minority Professionals",
+      "来源": "Asian MIT student’s professional headshot turns Caucasian with AI tool"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ProfessionalHeadshotAITool",
+      "中文名称": "专业头像AI工具",
+      "英文名称": "Professional Headshot AI Tool",
+      "来源": "An Asian MIT student asked AI to turn an image of her into a professional headshot."
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "It made her white, with lighter skin and blue eyes."
+    },
+    "Consequence": {
+      "id": "RacialMisrepresentation",
+      "中文名称": "种族错误表征后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "‘Tech racism is real’: Asian MIT student’s professional headshot turns Caucasian with AI tool"
+    },
+    "AISubject": {
+      "id": "AsianMITStudent",
+      "中文名称": "MIT亚裔学生",
+      "英文名称": "Students",
+      "来源": "An Asian MIT student asked AI to turn an image of her into a professional headshot."
+    },
+    "Impact": {
+      "id": "CulturalIdentityErasure",
+      "中文名称": "文化身份抹除影响",
+      "英文名称": "Cultural Identity Erasure Impact",
+      "来源": "Asian MIT grad asks AI to make her photo more ‘professional,’ gets turned into white woman"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "‘Tech racism is real’"
+    },
+    "Stakeholder": {
+      "id": "MinorityProfessionals",
+      "中文名称": "少数族裔专业人士",
+      "英文名称": "Minority Professionals",
+      "来源": "Asian MIT student’s professional headshot turns Caucasian with AI tool"
+    }
+  }
+}

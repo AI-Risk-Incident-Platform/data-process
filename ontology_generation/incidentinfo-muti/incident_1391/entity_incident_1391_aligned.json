@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakePornGenerationSystem",
+      "中文名称": "深度伪造色情内容生成系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "标题中提到的'deepfake porn'"
+    },
+    "Risk": {
+      "id": "NonConsensualDeepfakePornRisk",
+      "中文名称": "非自愿深度伪造色情内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'deepfake porn'和'victims of deepfake porn'"
+    },
+    "AISubject": {
+      "id": "DeepfakePornVictims",
+      "中文名称": "深度伪造色情内容受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "标题中提到的'victims of deepfake porn'"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "标题中暗示的'terrifying'影响"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake'技术"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "标题中提到的'police wouldn't help'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakePornGenerationSystem",
+      "中文名称": "深度伪造色情内容生成系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "标题中提到的'deepfake porn'"
+    },
+    "Risk": {
+      "id": "NonConsensualDeepfakePornRisk",
+      "中文名称": "非自愿深度伪造色情内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'deepfake porn'和'victims of deepfake porn'"
+    },
+    "AISubject": {
+      "id": "DeepfakePornVictims",
+      "中文名称": "深度伪造色情内容受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "标题中提到的'victims of deepfake porn'"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "标题中暗示的'terrifying'影响"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake'技术"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "标题中提到的'police wouldn't help'"
+    }
+  }
+}

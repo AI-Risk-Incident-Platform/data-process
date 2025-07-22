@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YouTube Recommendation Algorithm"@en ;
+    rdfs:label "YouTube推荐算法"@zh ;
+    airo:hasRisk ex:TerrorismContentPromotionRisk ;
+    airo:hasStakeholder ex:GoogleLLC ;
+    airo:isDeployedBy ex:YouTubePlatform ;
+    airo:usesTechnique ex:ContentRecommendationAlgorithm ;
+    airo:isAppliedWithinDomain ex:OnlineVideoPlatform .
+
+ex:TerrorismContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "Terrorism Content Promotion Risk"@en ;
+    rdfs:label "恐怖主义内容推广风险"@zh ;
+    airo:hasConsequence ex:TerroristRecruitmentFacilitation ;
+    airo:isRiskSourceFor ex:AlgorithmicAmplificationOfExtremistContent .
+
+ex:GoogleLLC rdf:type airo:Stakeholder ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:YouTubePlatform rdf:type airo:AIOperator ;
+    rdfs:label "YouTube Platform"@en ;
+    rdfs:label "YouTube平台"@zh .
+
+ex:TerroristRecruitmentFacilitation rdf:type airo:Consequence ;
+    rdfs:label "Terrorist Recruitment Facilitation Consequence"@en ;
+    rdfs:label "恐怖分子招募便利化后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoogleLLC .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Content Recommendation Algorithm Technique"@en ;
+    rdfs:label "内容推荐算法技术"@zh .
+
+ex:AlgorithmicAmplificationOfExtremistContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Amplification of Extremist Content Risk Source"@en ;
+    rdfs:label "极端内容算法放大风险源"@zh .
+
+ex:OnlineVideoPlatform rdf:type airo:Domain ;
+    rdfs:label "Online Video Platform Domain"@en ;
+    rdfs:label "在线视频平台领域"@zh .

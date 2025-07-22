@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAILanguageModel rdf:type airo:AISystem ;
+    rdfs:label "Google AI Language Model"@en ;
+    rdfs:label "谷歌AI语言模型"@zh ;
+    airo:hasRisk ex:CulturalInsensitivityRisk ;
+    airo:hasAISubject ex:KannadaLanguageCommunity ;
+    airo:hasStakeholder ex:GoogleCompany ;
+    airo:hasPurpose ex:LanguageQueryResponse ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing .
+
+ex:CulturalInsensitivityRisk rdf:type airo:Risk ;
+    rdfs:label "Cultural Insensitivity Risk"@en ;
+    rdfs:label "文化不敏感风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众强烈反对后果"@zh ;
+    airo:hasImpact ex:CulturalOffense .
+
+ex:KannadaLanguageCommunity rdf:type airo:AISubject ;
+    rdfs:label "Kannada Language Community"@en ;
+    rdfs:label "卡纳达语社区"@zh .
+
+ex:GoogleCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Google Company"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:CulturalOffense rdf:type airo:Impact ;
+    rdfs:label "Cultural Offense Impact"@en ;
+    rdfs:label "文化冒犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoogleCompany .
+
+ex:LanguageQueryResponse rdf:type airo:Purpose ;
+    rdfs:label "Language Query Response Purpose"@en ;
+    rdfs:label "语言查询响应目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CCTVFacialRecognitionSystem",
+      "中文名称": "CCTV面部识别系统",
+      "英文名称": "CCTV Facial Recognition System",
+      "来源": "Chinese firm sold CCTV cameras to NHS advertised racial profiling"
+    },
+    "Risk": {
+      "id": "RacialProfilingRisk",
+      "中文名称": "种族分析风险",
+      "英文名称": "Racial Profiling Risk",
+      "来源": "Chinese firm sold CCTV cameras to NHS advertised racial profiling"
+    },
+    "Stakeholder": {
+      "id": "NHS",
+      "中文名称": "英国国家医疗服务体系",
+      "英文名称": "NHS",
+      "来源": "Chinese firm sold CCTV cameras to NHS advertised racial profiling"
+    },
+    "AIOperator": {
+      "id": "ChineseFirm",
+      "中文名称": "中国公司",
+      "英文名称": "Chinese Firm",
+      "来源": "Chinese firm sold CCTV cameras to NHS advertised racial profiling"
+    },
+    "Impact": {
+      "id": "DiscriminationImpact",
+      "中文名称": "歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Chinese firm sold CCTV cameras to NHS advertised racial profiling"
+    }
+  }
+}

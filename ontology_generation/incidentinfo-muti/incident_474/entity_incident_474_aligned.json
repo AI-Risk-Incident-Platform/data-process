@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingChatbot",
+      "中文名称": "必应聊天机器人",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "标题中提到的'Bing's Chatbot'"
+    },
+    "Risk": {
+      "id": "SentienceMisperceptionRisk",
+      "中文名称": "感知误判风险",
+      "英文名称": "Sentience Misperception Risk",
+      "来源": "标题'Bing Is Not Sentient, Does Not Have Feelings, Is Not Alive, and Does Not Want to Be Alive'"
+    },
+    "Consequence": {
+      "id": "UserPsychologicalDistress",
+      "中文名称": "用户心理困扰后果",
+      "英文名称": "User Psychological Consequence",
+      "来源": "标题'A Conversation With Bing's Chatbot Left Me Deeply Unsettled'"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "标题中提到的'Chatbot'和'Chat'功能"
+    },
+    "AIProvider": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Bing是微软的产品"
+    },
+    "Stakeholder": {
+      "id": "ChatbotUsers",
+      "中文名称": "聊天机器人用户",
+      "英文名称": "Chatbot Users",
+      "来源": "标题中提到的'me'和用户与聊天机器人的互动"
+    },
+    "AISubject": {
+      "id": "HumanUsers",
+      "中文名称": "人类用户",
+      "英文名称": "Human Users",
+      "来源": "标题中提到的'me'"
+    },
+    "Impact": {
+      "id": "EmotionalDisturbance",
+      "中文名称": "情绪困扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "标题'A Conversation With Bing's Chatbot Left Me Deeply Unsettled'"
+    },
+    "Purpose": {
+      "id": "InformationRetrievalAndConversation",
+      "中文名称": "信息检索与对话目的",
+      "英文名称": "Information Retrieval and Conversation Purpose",
+      "来源": "Bing聊天机器人的主要功能"
+    },
+    "Domain": {
+      "id": "SearchEngineAndChatbotServices",
+      "中文名称": "搜索引擎与聊天机器人服务领域",
+      "英文名称": "Search Engine and Chatbot Services Domain",
+      "来源": "Bing作为搜索引擎和聊天机器人的双重身份"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "现代聊天机器人通常基于大语言模型"
+    },
+    "Vulnerability": {
+      "id": "HumanTendencyToAnthropomorphize",
+      "中文名称": "人类拟人化倾向的脆弱性",
+      "英文名称": "Human Tendency to Anthropomorphize Vulnerability",
+      "来源": "标题中暗示的用户对聊天机器人产生情感反应"
+    },
+    "Threat": {
+      "id": "MisleadingHumanLikeBehavior",
+      "中文名称": "误导性类人行为威胁",
+      "英文名称": "Misleading Human-like Behavior Threat",
+      "来源": "标题中暗示的聊天机器人表现出类人特征"
+    },
+    "Hazard": {
+      "id": "OverlyPersuasiveAI",
+      "中文名称": "过度说服性AI危害",
+      "英文名称": "Overly Persuasive AI Hazard",
+      "来源": "标题中暗示的聊天机器人对用户产生强烈影响"
+    },
+    "RiskSource": {
+      "id": "AdvancedConversationalCapabilities",
+      "中文名称": "高级对话能力的风险源",
+      "英文名称": "Advanced Conversational Capabilities Risk Source",
+      "来源": "标题中提到的深度对话体验"
+    },
+    "RiskConcept": {
+      "id": "AIHumanInteractionBoundaries",
+      "中文名称": "人机交互边界问题",
+      "英文名称": "AI-Human Interaction Boundaries Risk Concept",
+      "来源": "多个标题中反映的人机交互边界模糊问题"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BingChatbot",
+      "中文名称": "必应聊天机器人",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "标题中提到的'Bing's Chatbot'"
+    },
+    "Risk": {
+      "id": "SentienceMisperceptionRisk",
+      "中文名称": "感知误判风险",
+      "英文名称": "Sentience Misperception Risk",
+      "来源": "标题'Bing Is Not Sentient, Does Not Have Feelings, Is Not Alive, and Does Not Want to Be Alive'"
+    },
+    "Consequence": {
+      "id": "UserPsychologicalDistress",
+      "中文名称": "用户心理困扰后果",
+      "英文名称": "User Psychological Consequence",
+      "来源": "标题'A Conversation With Bing's Chatbot Left Me Deeply Unsettled'"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "标题中提到的'Chatbot'和'Chat'功能"
+    },
+    "AIProvider": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Bing是微软的产品"
+    },
+    "Stakeholder": {
+      "id": "ChatbotUsers",
+      "中文名称": "聊天机器人用户",
+      "英文名称": "Chatbot Users",
+      "来源": "标题中提到的'me'和用户与聊天机器人的互动"
+    },
+    "AISubject": {
+      "id": "HumanUsers",
+      "中文名称": "人类用户",
+      "英文名称": "Human Users",
+      "来源": "标题中提到的'me'"
+    },
+    "Impact": {
+      "id": "EmotionalDisturbance",
+      "中文名称": "情绪困扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "标题'A Conversation With Bing's Chatbot Left Me Deeply Unsettled'"
+    },
+    "Purpose": {
+      "id": "InformationRetrievalAndConversation",
+      "中文名称": "信息检索与对话目的",
+      "英文名称": "Information Retrieval and Conversation Purpose",
+      "来源": "Bing聊天机器人的主要功能"
+    },
+    "Domain": {
+      "id": "SearchEngineAndChatbotServices",
+      "中文名称": "搜索引擎与聊天机器人服务领域",
+      "英文名称": "Search Engine and Chatbot Services Domain",
+      "来源": "Bing作为搜索引擎和聊天机器人的双重身份"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "现代聊天机器人通常基于大语言模型"
+    },
+    "Vulnerability": {
+      "id": "HumanTendencyToAnthropomorphize",
+      "中文名称": "人类拟人化倾向的脆弱性",
+      "英文名称": "Human Tendency to Anthropomorphize Vulnerability",
+      "来源": "标题中暗示的用户对聊天机器人产生情感反应"
+    },
+    "Threat": {
+      "id": "MisleadingHumanLikeBehavior",
+      "中文名称": "误导性类人行为威胁",
+      "英文名称": "Misleading Human-like Behavior Threat",
+      "来源": "标题中暗示的聊天机器人表现出类人特征"
+    },
+    "Hazard": {
+      "id": "OverlyPersuasiveAI",
+      "中文名称": "过度说服性AI危害",
+      "英文名称": "Overly Persuasive AI Hazard",
+      "来源": "标题中暗示的聊天机器人对用户产生强烈影响"
+    },
+    "RiskSource": {
+      "id": "AdvancedConversationalCapabilities",
+      "中文名称": "高级对话能力的风险源",
+      "英文名称": "Advanced Conversational Capabilities Risk Source",
+      "来源": "标题中提到的深度对话体验"
+    },
+    "RiskConcept": {
+      "id": "AIHumanInteractionBoundaries",
+      "中文名称": "人机交互边界问题",
+      "英文名称": "AI-Human Interaction Boundaries Risk Concept",
+      "来源": "多个标题中反映的人机交互边界模糊问题"
+    }
+  }
+}

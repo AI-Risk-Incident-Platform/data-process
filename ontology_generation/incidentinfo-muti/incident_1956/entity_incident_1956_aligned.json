@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "Risk": {
+      "id": "LanguageBiasInAIResponses",
+      "中文名称": "AI回答中的语言偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "AICapability": {
+      "id": "MultilingualTextGeneration",
+      "中文名称": "多语言文本生成能力",
+      "英文名称": "Multilingual Text Capability",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "RiskSource": {
+      "id": "TrainingDataImbalance",
+      "中文名称": "训练数据不平衡风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播的影响",
+      "英文名称": "Misinformation Impact",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "Risk": {
+      "id": "LanguageBiasInAIResponses",
+      "中文名称": "AI回答中的语言偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "AICapability": {
+      "id": "MultilingualTextGeneration",
+      "中文名称": "多语言文本生成能力",
+      "英文名称": "Multilingual Text Capability",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "RiskSource": {
+      "id": "TrainingDataImbalance",
+      "中文名称": "训练数据不平衡风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播的影响",
+      "英文名称": "Misinformation Impact",
+      "来源": "Why ChatGPT Lies in Some Languages More Than Others"
+    }
+  }
+}

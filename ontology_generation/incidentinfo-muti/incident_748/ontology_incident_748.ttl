@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbots rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbots"@en ;
+    rdfs:label "AI聊天机器人"@zh ;
+    airo:hasRisk ex:InabilityToHandleBreakingNews ;
+    airo:hasCapability ex:PoliticalNewsProcessing ;
+    airo:isAppliedWithinDomain ex:PoliticalNews .
+
+ex:InabilityToHandleBreakingNews rdf:type airo:Risk ;
+    rdfs:label "Inability to Handle Breaking News Risk"@en ;
+    rdfs:label "处理突发新闻能力不足风险"@zh ;
+    airo:hasConsequence ex:InaccurateInformationProvision ;
+    airo:isRiskSourceFor ex:RapidlyChangingNewsEnvironment .
+
+ex:InaccurateInformationProvision rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Information Provision Consequence"@en ;
+    rdfs:label "提供不准确信息后果"@zh .
+
+ex:PoliticalNewsProcessing rdf:type airo:AICapability ;
+    rdfs:label "Political News Processing Capability"@en ;
+    rdfs:label "政治新闻处理能力"@zh .
+
+ex:PoliticalNews rdf:type airo:Domain ;
+    rdfs:label "Political News Domain"@en ;
+    rdfs:label "政治新闻领域"@zh .
+
+ex:RapidlyChangingNewsEnvironment rdf:type airo:RiskSource ;
+    rdfs:label "Rapidly Changing News Environment Risk Source"@en ;
+    rdfs:label "快速变化的新闻环境风险源"@zh .

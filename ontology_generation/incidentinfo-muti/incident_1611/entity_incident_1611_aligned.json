@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "AICapability": {
+      "id": "CodeGeneration",
+      "中文名称": "代码生成",
+      "英文名称": "Code Generation",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Stakeholder": {
+      "id": "Hackers",
+      "中文名称": "黑客",
+      "英文名称": "Hacker",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "RiskSource": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI",
+      "英文名称": "Conversational AI",
+      "来源": "ChatGPT and other chatbots"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全",
+      "英文名称": "Cybersecurity",
+      "来源": "ChatGPT responsible for CYBER ATTACK?"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型",
+      "英文名称": "Large Models",
+      "来源": "ChatGPT and other chatbots"
+    },
+    "Vulnerability": {
+      "id": "MaliciousPromptExploitation",
+      "中文名称": "恶意提示利用",
+      "英文名称": "Prompt Exploitation Vulnerability",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    },
+    "Threat": {
+      "id": "MaliciousCodeGeneration",
+      "中文名称": "恶意代码生成",
+      "英文名称": "Malicious Code Creation",
+      "来源": "ChatGPT responsible for CYBER ATTACK?"
+    },
+    "Hazard": {
+      "id": "UnintendedCodeOutput",
+      "中文名称": "意外代码输出",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "RiskConcept": {
+      "id": "AIEnabledCyberThreats",
+      "中文名称": "AI驱动的网络威胁",
+      "英文名称": "AI Fraud Risks",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "AICapability": {
+      "id": "CodeGeneration",
+      "中文名称": "代码生成",
+      "英文名称": "Code Generation",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "Stakeholder": {
+      "id": "Hackers",
+      "中文名称": "黑客",
+      "英文名称": "Hacker",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "RiskSource": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Hackers can use ChatGPT to steal your private data"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI",
+      "英文名称": "Conversational AI",
+      "来源": "ChatGPT and other chatbots"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全",
+      "英文名称": "Cybersecurity",
+      "来源": "ChatGPT responsible for CYBER ATTACK?"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型",
+      "英文名称": "Large Models",
+      "来源": "ChatGPT and other chatbots"
+    },
+    "Vulnerability": {
+      "id": "MaliciousPromptExploitation",
+      "中文名称": "恶意提示利用",
+      "英文名称": "Prompt Exploitation Vulnerability",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    },
+    "Threat": {
+      "id": "MaliciousCodeGeneration",
+      "中文名称": "恶意代码生成",
+      "英文名称": "Malicious Code Creation",
+      "来源": "ChatGPT responsible for CYBER ATTACK?"
+    },
+    "Hazard": {
+      "id": "UnintendedCodeOutput",
+      "中文名称": "意外代码输出",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "ChatGPT and other chatbots ‘can be tricked into making code for cyber attacks’"
+    },
+    "RiskConcept": {
+      "id": "AIEnabledCyberThreats",
+      "中文名称": "AI驱动的网络威胁",
+      "英文名称": "AI Fraud Risks",
+      "来源": "Scientists warn AI systems can be tricked into producing malicious code"
+    }
+  }
+}

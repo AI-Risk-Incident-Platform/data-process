@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleSafetyRisk ;
+    airo:hasAISubject ex:PedestriansAndOtherRoadUsers ;
+    airo:hasPurpose ex:AutonomousDrivingAssistance ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TrafficAccidentVictims .
+
+ex:AutonomousVehicleSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Safety Risk"@en ;
+    rdfs:label "自动驾驶车辆安全风险"@zh ;
+    airo:hasConsequence ex:FatalAccidents ;
+    airo:isRiskSourceFor ex:InadequateSafetyTesting ;
+    airo:isRiskSourceFor ex:UnpredictableHumanBehavior ;
+    airo:isRiskSourceFor ex:SystemOverrelianceByDrivers .
+
+ex:FatalAccidents rdf:type airo:Consequence ;
+    rdfs:label "Fatal Accidents Consequence"@en ;
+    rdfs:label "致命事故后果"@zh ;
+    airo:hasImpact ex:HumanCasualties .
+
+ex:HumanCasualties rdf:type airo:Impact ;
+    rdfs:label "Human Casualties Impact"@en ;
+    rdfs:label "人员伤亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TrafficAccidentVictims .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:TrafficAccidentVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Traffic Accident Victims"@en ;
+    rdfs:label "交通事故受害者"@zh .
+
+ex:PedestriansAndOtherRoadUsers rdf:type airo:AISubject ;
+    rdfs:label "Pedestrians and Other Road Users"@en ;
+    rdfs:label "行人和其他道路使用者"@zh .
+
+ex:AutonomousDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Driving Assistance Purpose"@en ;
+    rdfs:label "自动驾驶辅助目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision and Machine Learning Technique"@en ;
+    rdfs:label "计算机视觉和机器学习技术"@zh .
+
+ex:SensorLimitationsInComplexEnvironments rdf:type airo:Vulnerability ;
+    rdfs:label "Sensor Limitations in Complex Environments Vulnerability"@en ;
+    rdfs:label "复杂环境中传感器限制的脆弱性"@zh .
+
+ex:UnpredictableHumanBehavior rdf:type airo:Threat ;
+    rdfs:label "Unpredictable Human Behavior Threat"@en ;
+    rdfs:label "不可预测的人类行为威胁"@zh ;
+    airo:exploitsVulnerability ex:SensorLimitationsInComplexEnvironments .
+
+ex:SystemOverrelianceByDrivers rdf:type airo:Hazard ;
+    rdfs:label "System Overreliance by Drivers Hazard"@en ;
+    rdfs:label "驾驶员过度依赖系统的危害"@zh .
+
+ex:InadequateSafetyTesting rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Safety Testing Risk Source"@en ;
+    rdfs:label "安全测试不足的风险源"@zh .
+
+ex:AutonomousVehicleSafetyChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Safety Challenges Risk Concept"@en ;
+    rdfs:label "自动驾驶车辆安全挑战"@zh .

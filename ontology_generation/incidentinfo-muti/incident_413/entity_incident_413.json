@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation System",
+      "来源": "Facebook failed to detect death threats against election workers ahead of US midterm elections"
+    },
+    "Risk": {
+      "id": "ElectionWorkerThreatRisk",
+      "中文名称": "选举工作人员威胁风险",
+      "英文名称": "Election Worker Threat Risk",
+      "来源": "“We’re going to kill you all”: Death threats against US election workers approved on Facebook"
+    },
+    "Consequence": {
+      "id": "ElectionWorkerSafetyThreat",
+      "中文名称": "选举工作人员安全威胁后果",
+      "英文名称": "Election Worker Safety Threat Consequence",
+      "来源": "Death threats against US election workers approved on Facebook"
+    },
+    "Stakeholder": {
+      "id": "USElectionWorkers",
+      "中文名称": "美国选举工作人员",
+      "英文名称": "US Election Workers",
+      "来源": "Death threats against US election workers approved on Facebook"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms Inc.",
+      "来源": "Facebook failed to detect death threats against election workers"
+    },
+    "RiskSource": {
+      "id": "ContentModerationFailure",
+      "中文名称": "内容审核失败风险源",
+      "英文名称": "Content Moderation Failure Risk Source",
+      "来源": "Facebook failed to stop ads threatening election workers"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Democratic Process Undermining Impact",
+      "来源": "Threats against election workers could undermine democratic processes"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "Content moderation issues on Facebook platform"
+    },
+    "AICapability": {
+      "id": "AutomatedContentReview",
+      "中文名称": "自动化内容审核能力",
+      "英文名称": "Automated Content Review Capability",
+      "来源": "Facebook's system for detecting harmful content"
+    },
+    "Vulnerability": {
+      "id": "ThreatDetectionGaps",
+      "中文名称": "威胁检测漏洞",
+      "英文名称": "Threat Detection Gaps Vulnerability",
+      "来源": "Failure to detect death threats against election workers"
+    }
+  }
+}

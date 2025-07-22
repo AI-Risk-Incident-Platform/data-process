@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberSelfDrivingCar",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Uber says it’s reviewing incident of self-driving car running a red light"
+    },
+    "Risk": {
+      "id": "TrafficViolationRisk",
+      "中文名称": "交通违规风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Autonomous Uber Car Caught Running Red Light"
+    },
+    "Consequence": {
+      "id": "PotentialAccident",
+      "中文名称": "潜在事故后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "Uber says it’s reviewing incident of self-driving car running a red light"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Autonomous Uber Car Caught Running Red Light"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberSelfDrivingCar",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Uber says it’s reviewing incident of self-driving car running a red light"
+    },
+    "Risk": {
+      "id": "TrafficViolationRisk",
+      "中文名称": "交通违规风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Autonomous Uber Car Caught Running Red Light"
+    },
+    "Consequence": {
+      "id": "PotentialAccident",
+      "中文名称": "潜在事故后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber",
+      "来源": "Uber says it’s reviewing incident of self-driving car running a red light"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Autonomous Uber Car Caught Running Red Light"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    }
+  }
+}

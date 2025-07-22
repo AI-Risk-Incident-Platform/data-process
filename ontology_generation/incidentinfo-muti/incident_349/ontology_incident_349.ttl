@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberDriverDataManagementSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Driver Data Management System"@en ;
+    rdfs:label "优步司机数据管理系统"@zh ;
+    airo:hasRisk ex:DataPrivacyRisk ;
+    airo:isDeployedBy ex:UberTechnologiesInc ;
+    airo:hasStakeholder ex:UberDrivers .
+
+ex:DataPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Data Privacy Risk"@en ;
+    rdfs:label "数据隐私风险"@zh ;
+    airo:hasConsequence ex:LackOfDataTransparency .
+
+ex:UberDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Drivers"@en ;
+    rdfs:label "优步司机"@zh .
+
+ex:UberTechnologiesInc rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies Inc."@en ;
+    rdfs:label "优步科技公司"@zh .
+
+ex:LackOfDataTransparency rdf:type airo:Consequence ;
+    rdfs:label "Lack of Data Transparency Consequence"@en ;
+    rdfs:label "数据透明度缺失后果"@zh ;
+    airo:hasImpact ex:DriverRightsViolation .
+
+ex:DriverRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Driver Rights Violation Impact"@en ;
+    rdfs:label "司机权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberDrivers .

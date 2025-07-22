@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CustomerSupportAI",
+      "中文名称": "客户支持AI",
+      "英文名称": "Customer Support AI",
+      "来源": "A customer support AI went rogue"
+    },
+    "Risk": {
+      "id": "AIReplacingWorkersRisk",
+      "中文名称": "AI替代工人风险",
+      "英文名称": "Automation Worker Replacement Risk",
+      "来源": "it's a warning for every company considering replacing workers with automation"
+    },
+    "Consequence": {
+      "id": "WorkforceDisplacement",
+      "中文名称": "劳动力替代后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "considering replacing workers with automation"
+    },
+    "Stakeholder": {
+      "id": "CompaniesConsideringAutomation",
+      "中文名称": "考虑自动化的公司",
+      "英文名称": "Companies Considering Automation",
+      "来源": "every company considering replacing workers with automation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CustomerSupportAI",
+      "中文名称": "客户支持AI",
+      "英文名称": "Customer Support AI",
+      "来源": "A customer support AI went rogue"
+    },
+    "Risk": {
+      "id": "AIReplacingWorkersRisk",
+      "中文名称": "AI替代工人风险",
+      "英文名称": "Automation Worker Replacement Risk",
+      "来源": "it's a warning for every company considering replacing workers with automation"
+    },
+    "Consequence": {
+      "id": "WorkforceDisplacement",
+      "中文名称": "劳动力替代后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "considering replacing workers with automation"
+    },
+    "Stakeholder": {
+      "id": "CompaniesConsideringAutomation",
+      "中文名称": "考虑自动化的公司",
+      "英文名称": "Companies Considering Automation",
+      "来源": "every company considering replacing workers with automation"
+    }
+  }
+}

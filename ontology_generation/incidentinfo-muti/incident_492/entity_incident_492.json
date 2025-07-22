@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeApp",
+      "中文名称": "深度伪造应用",
+      "英文名称": "Deepfake App",
+      "来源": "Disturbing App That Advertised Emma Watson Deepfake Was Removed From App Stores"
+    },
+    "Risk": {
+      "id": "SexualDeepfakeMisuseRisk",
+      "中文名称": "性相关深度伪造滥用风险",
+      "英文名称": "Sexual Deepfake Misuse Risk",
+      "来源": "Hundreds of sexual deepfake ads using Emma Watson's face ran on Facebook and Instagram in the last two days"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "Hundreds of sexual deepfake ads using Emma Watson's face ran on Facebook and Instagram"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Generation Technique",
+      "来源": "Disturbing App That Advertised Emma Watson Deepfake"
+    },
+    "Stakeholder": {
+      "id": "CelebrityVictims",
+      "中文名称": "名人受害者",
+      "英文名称": "Celebrity Victims",
+      "来源": "using Emma Watson's face"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Psychological Harm Impact",
+      "来源": "Disturbing App That Advertised Emma Watson Deepfake"
+    },
+    "RiskSource": {
+      "id": "EasyAccessToDeepfakeTools",
+      "中文名称": "深度伪造工具易获取风险源",
+      "英文名称": "Easy Access to Deepfake Tools Risk Source",
+      "来源": "Why the Facemega deepfake app is a slippery slope"
+    },
+    "Misuse": {
+      "id": "NonConsensualPornographicContentCreation",
+      "中文名称": "未经同意的色情内容创作滥用",
+      "英文名称": "Non-Consensual Pornographic Content Creation Misuse",
+      "来源": "Hundreds of sexual deepfake ads using Emma Watson's face"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSecuritySystem",
+      "中文名称": "面部识别安全系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Brooklyn Landlord Does An About Face On Facial Recognition Plan"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Biometrics Get Cold Reception from Brooklyn Apartment Tenants"
+    },
+    "Stakeholder": {
+      "id": "BrooklynApartmentTenants",
+      "中文名称": "布鲁克林公寓租户",
+      "英文名称": "Brooklyn Apartment Tenants",
+      "来源": "Biometrics Get Cold Reception from Brooklyn Apartment Tenants"
+    },
+    "AIOperator": {
+      "id": "BrooklynLandlord",
+      "中文名称": "布鲁克林房东",
+      "英文名称": "Brooklyn Landlord",
+      "来源": "Brooklyn Landlord Does An About Face On Facial Recognition Plan"
+    },
+    "Impact": {
+      "id": "TenantResistanceToBiometricTechnology",
+      "中文名称": "租户对生物识别技术的抵制",
+      "英文名称": "Tenant Resistance to Biometric Technology",
+      "来源": "Brownsville Tenants Fight Facial Recognition Security: Attorneys"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSecuritySystem",
+      "中文名称": "面部识别安全系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Brooklyn Landlord Does An About Face On Facial Recognition Plan"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Biometrics Get Cold Reception from Brooklyn Apartment Tenants"
+    },
+    "Stakeholder": {
+      "id": "BrooklynApartmentTenants",
+      "中文名称": "布鲁克林公寓租户",
+      "英文名称": "Brooklyn Apartment Tenants",
+      "来源": "Biometrics Get Cold Reception from Brooklyn Apartment Tenants"
+    },
+    "AIOperator": {
+      "id": "BrooklynLandlord",
+      "中文名称": "布鲁克林房东",
+      "英文名称": "Brooklyn Landlord",
+      "来源": "Brooklyn Landlord Does An About Face On Facial Recognition Plan"
+    },
+    "Impact": {
+      "id": "TenantResistanceToBiometricTechnology",
+      "中文名称": "租户对生物识别技术的抵制",
+      "英文名称": "Tenant Resistance to Biometric Technology",
+      "来源": "Brownsville Tenants Fight Facial Recognition Security: Attorneys"
+    }
+  }
+}

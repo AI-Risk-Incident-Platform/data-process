@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleDuplex rdf:type airo:AISystem ;
+    rdfs:label "Google Duplex"@en ;
+    rdfs:label "谷歌Duplex"@zh ;
+    airo:hasRisk ex:EthicalAndLegalComplianceRisk ;
+    airo:hasCapability ex:HumanLikeVoiceInteraction ;
+    airo:hasPurpose ex:AutomatedServiceCalls ;
+    airo:isAppliedWithinDomain ex:ConsumerServices ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:GeneralPublic .
+
+ex:EthicalAndLegalComplianceRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical and Legal Compliance Risk"@en ;
+    rdfs:label "伦理与法律合规风险"@zh ;
+    airo:hasConsequence ex:PublicTrustErosion ;
+    airo:isRiskSourceFor ex:LackOfTransparentDisclosure .
+
+ex:PublicTrustErosion rdf:type airo:Consequence ;
+    rdfs:label "Public Trust Erosion"@en ;
+    rdfs:label "公众信任侵蚀"@zh ;
+    airo:hasImpact ex:DeceptiveInteractionConcerns .
+
+ex:HumanLikeVoiceInteraction rdf:type airo:AICapability ;
+    rdfs:label "Human-like Voice Interaction Capability"@en ;
+    rdfs:label "类人语音交互能力"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "普通公众"@zh .
+
+ex:LackOfTransparentDisclosure rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparent Disclosure"@en ;
+    rdfs:label "缺乏透明披露"@zh .
+
+ex:DeceptiveInteractionConcerns rdf:type airo:Impact ;
+    rdfs:label "Deceptive Interaction Concerns"@en ;
+    rdfs:label "欺骗性交互担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:AutomatedServiceCalls rdf:type airo:Purpose ;
+    rdfs:label "Automated Service Calls"@en ;
+    rdfs:label "自动化服务呼叫"@zh .
+
+ex:ConsumerServices rdf:type airo:Domain ;
+    rdfs:label "Consumer Services"@en ;
+    rdfs:label "消费者服务"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing"@en ;
+    rdfs:label "自然语言处理"@zh .

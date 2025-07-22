@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialExpressionRecognitionSystem",
+      "中文名称": "面部表情识别系统",
+      "英文名称": "Facial Expression Recognition System",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "Risk": {
+      "id": "BiasInFacialExpressionDataSets",
+      "中文名称": "面部表情数据集中的偏见风险",
+      "英文名称": "Facial Expression Bias Risk",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "RiskSource": {
+      "id": "SystematicRacismInDataEncoding",
+      "中文名称": "数据编码中的系统性种族主义风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "How our data encodes systematic racism"
+    },
+    "AITechnique": {
+      "id": "FacialExpressionAnalysis",
+      "中文名称": "面部表情分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "How our data encodes systematic racism"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialExpressionRecognitionSystem",
+      "中文名称": "面部表情识别系统",
+      "英文名称": "Facial Expression Recognition System",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "Risk": {
+      "id": "BiasInFacialExpressionDataSets",
+      "中文名称": "面部表情数据集中的偏见风险",
+      "英文名称": "Facial Expression Bias Risk",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "RiskSource": {
+      "id": "SystematicRacismInDataEncoding",
+      "中文名称": "数据编码中的系统性种族主义风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "How our data encodes systematic racism"
+    },
+    "AITechnique": {
+      "id": "FacialExpressionAnalysis",
+      "中文名称": "面部表情分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Researchers find evidence of bias in facial expression data sets"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "How our data encodes systematic racism"
+    }
+  }
+}

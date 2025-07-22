@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT maker OpenAI, valued at $157bn, sued by GEMA in Germany over unlicensed use of song lyrics"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GEMA Sues OpenAI Over Song Lyrics in Copyright Law Test Case in Europe"
+    },
+    "Stakeholder": {
+      "id": "GEMA",
+      "中文名称": "德国音乐版权协会",
+      "英文名称": "German Music Copyright Assoc.",
+      "来源": "German music rights group GEMA sues OpenAI over unlicensed song lyrics in ChatGPT"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT maker OpenAI, valued at $157bn, sued by GEMA in Germany over unlicensed use of song lyrics"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "GEMA Sues OpenAI Over Song Lyrics in Copyright Law Test Case in Europe"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "German music rights group GEMA sues OpenAI over unlicensed song lyrics in ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT maker OpenAI, valued at $157bn, sued by GEMA in Germany over unlicensed use of song lyrics"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GEMA Sues OpenAI Over Song Lyrics in Copyright Law Test Case in Europe"
+    },
+    "Stakeholder": {
+      "id": "GEMA",
+      "中文名称": "德国音乐版权协会",
+      "英文名称": "German Music Copyright Assoc.",
+      "来源": "German music rights group GEMA sues OpenAI over unlicensed song lyrics in ChatGPT"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT maker OpenAI, valued at $157bn, sued by GEMA in Germany over unlicensed use of song lyrics"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "GEMA Sues OpenAI Over Song Lyrics in Copyright Law Test Case in Europe"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "German music rights group GEMA sues OpenAI over unlicensed song lyrics in ChatGPT"
+    }
+  }
+}

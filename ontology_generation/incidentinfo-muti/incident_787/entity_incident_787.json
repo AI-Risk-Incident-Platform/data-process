@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookNewsSpamFilteringSystem",
+      "中文名称": "Facebook新闻垃圾信息过滤系统",
+      "英文名称": "Facebook News Spam Filtering System",
+      "来源": "Publishers around the world hit by Facebook labelling news as spam"
+    },
+    "Risk": {
+      "id": "LegitimateContentMisclassificationRisk",
+      "中文名称": "合法内容误分类风险",
+      "英文名称": "Legitimate Content Misclassification Risk",
+      "来源": "Publishers around the world hit by Facebook labelling news as spam"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Publishers",
+      "来源": "Publishers around the world hit by Facebook labelling news as spam"
+    },
+    "Consequence": {
+      "id": "ReducedContentVisibility",
+      "中文名称": "内容可见性降低后果",
+      "英文名称": "Reduced Content Visibility Consequence",
+      "来源": "Publishers around the world hit by Facebook labelling news as spam"
+    },
+    "Impact": {
+      "id": "PublisherRevenueLoss",
+      "中文名称": "出版商收入损失影响",
+      "英文名称": "Publisher Revenue Loss Impact",
+      "来源": "Publishers around the world hit by Facebook labelling news as spam"
+    }
+  }
+}

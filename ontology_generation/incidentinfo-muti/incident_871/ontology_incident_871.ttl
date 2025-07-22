@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasAISubject ex:CanadianImmigrants ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping ;
+    airo:hasPurpose ex:DeceptiveContentCreation ;
+    airo:isAppliedWithinDomain ex:DigitalMediaAndImmigrationServices .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:MaliciousContentCreators .
+
+ex:CanadianImmigrants rdf:type airo:AISubject ;
+    rdfs:label "Canadian Immigrants"@en ;
+    rdfs:label "加拿大移民"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpact ex:TrustErosionInDigitalMedia .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh .
+
+ex:DeceptiveContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Content Creation"@en ;
+    rdfs:label "欺骗性内容创建"@zh .
+
+ex:TrustErosionInDigitalMedia rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Digital Media"@en ;
+    rdfs:label "数字媒体信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:CanadianImmigrants .
+
+ex:MaliciousContentCreators rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creators"@en ;
+    rdfs:label "恶意内容创作者"@zh .
+
+ex:DigitalMediaAndImmigrationServices rdf:type airo:Domain ;
+    rdfs:label "Digital Media and Immigration Services Domain"@en ;
+    rdfs:label "数字媒体和移民服务领域"@zh .

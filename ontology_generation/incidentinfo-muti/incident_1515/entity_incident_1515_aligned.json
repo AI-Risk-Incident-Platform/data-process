@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HelloBarbie",
+      "中文名称": "你好芭比",
+      "英文名称": "Hello Barbie",
+      "来源": "新闻标题中多次提到的'Hello Barbie'"
+    },
+    "Risk": {
+      "id": "PrivacyRiskForChildren",
+      "中文名称": "儿童隐私风险",
+      "英文名称": "Children's Privacy Risk",
+      "来源": "标题'Hello Barbie brings smiles to kids, nightmares to privacy advocates'"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocacyGroup",
+      "中文名称": "隐私倡导组织",
+      "英文名称": "Privacy Advocates",
+      "来源": "标题'This Advocacy Group is Saying 'Hell No' to 'Hello Barbie''"
+    },
+    "AISubject": {
+      "id": "ChildrenUsingHelloBarbie",
+      "中文名称": "使用你好芭比的儿童",
+      "英文名称": "Children Using Hello Barbie",
+      "来源": "标题'Hello Barbie brings smiles to kids'"
+    },
+    "Impact": {
+      "id": "PotentialPrivacyViolation",
+      "中文名称": "潜在隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "标题'Hello Barbie brings smiles to kids, nightmares to privacy advocates'"
+    },
+    "Purpose": {
+      "id": "InteractiveToyForChildren",
+      "中文名称": "儿童互动玩具目的",
+      "英文名称": "Interactive Toy for Children Purpose",
+      "来源": "从产品名称'Hello Barbie'推断"
+    },
+    "Domain": {
+      "id": "SmartToyIndustry",
+      "中文名称": "智能玩具行业领域",
+      "英文名称": "Smart Toy Industry Domain",
+      "来源": "从产品类型推断"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HelloBarbie",
+      "中文名称": "你好芭比",
+      "英文名称": "Hello Barbie",
+      "来源": "新闻标题中多次提到的'Hello Barbie'"
+    },
+    "Risk": {
+      "id": "PrivacyRiskForChildren",
+      "中文名称": "儿童隐私风险",
+      "英文名称": "Children's Privacy Risk",
+      "来源": "标题'Hello Barbie brings smiles to kids, nightmares to privacy advocates'"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocacyGroup",
+      "中文名称": "隐私倡导组织",
+      "英文名称": "Privacy Advocates",
+      "来源": "标题'This Advocacy Group is Saying 'Hell No' to 'Hello Barbie''"
+    },
+    "AISubject": {
+      "id": "ChildrenUsingHelloBarbie",
+      "中文名称": "使用你好芭比的儿童",
+      "英文名称": "Children Using Hello Barbie",
+      "来源": "标题'Hello Barbie brings smiles to kids'"
+    },
+    "Impact": {
+      "id": "PotentialPrivacyViolation",
+      "中文名称": "潜在隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "标题'Hello Barbie brings smiles to kids, nightmares to privacy advocates'"
+    },
+    "Purpose": {
+      "id": "InteractiveToyForChildren",
+      "中文名称": "儿童互动玩具目的",
+      "英文名称": "Interactive Toy for Children Purpose",
+      "来源": "从产品名称'Hello Barbie'推断"
+    },
+    "Domain": {
+      "id": "SmartToyIndustry",
+      "中文名称": "智能玩具行业领域",
+      "英文名称": "Smart Toy Industry Domain",
+      "来源": "从产品类型推断"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceAssistants",
+      "中文名称": "语音助手",
+      "英文名称": "AI Voice Assistants",
+      "来源": "AI voice assistants reinforce harmful gender stereotypes, new UN report says"
+    },
+    "Risk": {
+      "id": "GenderStereotypeReinforcement",
+      "中文名称": "性别刻板印象强化风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "AI voice assistants reinforce harmful gender stereotypes"
+    },
+    "Consequence": {
+      "id": "HarmfulGenderStereotypes",
+      "中文名称": "有害性别刻板印象后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "reinforce harmful gender stereotypes"
+    },
+    "Impact": {
+      "id": "MisogynyEncouragement",
+      "中文名称": "鼓励厌女症的影响",
+      "英文名称": "Misogyny Encouragement Impact",
+      "来源": "Siri and Alexa Are Encouraging Misogyny"
+    },
+    "Stakeholder": {
+      "id": "UnitedNations",
+      "中文名称": "联合国",
+      "英文名称": "UN",
+      "来源": "new UN report says"
+    },
+    "AIOperator": {
+      "id": "AmazonAndApple",
+      "中文名称": "亚马逊和苹果",
+      "英文名称": "Amazon and Apple",
+      "来源": "Amazon's Alexa and Apple's Siri"
+    },
+    "RiskSource": {
+      "id": "FemaleVoiceDefaultSetting",
+      "中文名称": "女性声音默认设置风险源",
+      "英文名称": "Female Voice Default Setting Risk Source",
+      "来源": "fuel stereotype that women are \"subservient\""
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VoiceAssistants",
+      "中文名称": "语音助手",
+      "英文名称": "AI Voice Assistants",
+      "来源": "AI voice assistants reinforce harmful gender stereotypes, new UN report says"
+    },
+    "Risk": {
+      "id": "GenderStereotypeReinforcement",
+      "中文名称": "性别刻板印象强化风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "AI voice assistants reinforce harmful gender stereotypes"
+    },
+    "Consequence": {
+      "id": "HarmfulGenderStereotypes",
+      "中文名称": "有害性别刻板印象后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "reinforce harmful gender stereotypes"
+    },
+    "Impact": {
+      "id": "MisogynyEncouragement",
+      "中文名称": "鼓励厌女症的影响",
+      "英文名称": "Misogyny Encouragement Impact",
+      "来源": "Siri and Alexa Are Encouraging Misogyny"
+    },
+    "Stakeholder": {
+      "id": "UnitedNations",
+      "中文名称": "联合国",
+      "英文名称": "UN",
+      "来源": "new UN report says"
+    },
+    "AIOperator": {
+      "id": "AmazonAndApple",
+      "中文名称": "亚马逊和苹果",
+      "英文名称": "Amazon and Apple",
+      "来源": "Amazon's Alexa and Apple's Siri"
+    },
+    "RiskSource": {
+      "id": "FemaleVoiceDefaultSetting",
+      "中文名称": "女性声音默认设置风险源",
+      "英文名称": "Female Voice Default Setting Risk Source",
+      "来源": "fuel stereotype that women are \"subservient\""
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleFatalityRisk ;
+    airo:hasPurpose ex:AutonomousDrivingAssistance ;
+    airo:usesTechnique ex:ComputerVisionBasedAutonomousDriving ;
+    airo:hasStakeholder ex:TeslaDriver ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:hasVulnerability ex:HumanMonitoringReliance .
+
+ex:AutonomousVehicleFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Fatality Risk"@en ;
+    rdfs:label "自动驾驶车辆致命风险"@zh ;
+    airo:hasConsequence ex:DriverFatality ;
+    airo:isRiskSourceFor ex:DriverDistraction .
+
+ex:DriverFatality rdf:type airo:Consequence ;
+    rdfs:label "Driver Fatality Consequence"@en ;
+    rdfs:label "驾驶员死亡后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:DriverDistraction rdf:type airo:RiskSource ;
+    rdfs:label "Driver Distraction Risk Source"@en ;
+    rdfs:label "驾驶员分心风险源"@zh .
+
+ex:TeslaDriver rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Driver"@en ;
+    rdfs:label "特斯拉驾驶员"@zh .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "人员生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeslaDriver .
+
+ex:AutonomousDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Driving Assistance Purpose"@en ;
+    rdfs:label "自动驾驶辅助目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVisionBasedAutonomousDriving rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Autonomous Driving Technique"@en ;
+    rdfs:label "基于计算机视觉的自动驾驶技术"@zh .
+
+ex:HumanMonitoringReliance rdf:type airo:Vulnerability ;
+    rdfs:label "Human Monitoring Reliance Vulnerability"@en ;
+    rdfs:label "依赖人工监控的脆弱性"@zh .

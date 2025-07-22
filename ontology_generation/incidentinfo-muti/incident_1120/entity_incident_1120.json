@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleDuplex",
+      "中文名称": "谷歌Duplex",
+      "英文名称": "Google Duplex",
+      "来源": "Google now says controversial AI voice calling system will identify itself to humans"
+    },
+    "Risk": {
+      "id": "EthicalAndLegalComplianceRisk",
+      "中文名称": "伦理与法律合规风险",
+      "英文名称": "Ethical and Legal Compliance Risk",
+      "来源": "No one knows how Google Duplex will work with eavesdropping laws"
+    },
+    "Consequence": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Public Trust Erosion",
+      "来源": "Duplex shows Google failing at ethical and creative AI design"
+    },
+    "AICapability": {
+      "id": "HumanLikeVoiceInteraction",
+      "中文名称": "类人语音交互能力",
+      "英文名称": "Human-like Voice Interaction Capability",
+      "来源": "controversial AI voice calling system"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "General Public",
+      "来源": "will identify itself to humans"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparentDisclosure",
+      "中文名称": "缺乏透明披露",
+      "英文名称": "Lack of Transparent Disclosure",
+      "来源": "controversial AI voice calling system"
+    },
+    "Impact": {
+      "id": "DeceptiveInteractionConcerns",
+      "中文名称": "欺骗性交互担忧",
+      "英文名称": "Deceptive Interaction Concerns",
+      "来源": "will identify itself to humans"
+    },
+    "Purpose": {
+      "id": "AutomatedServiceCalls",
+      "中文名称": "自动化服务呼叫",
+      "英文名称": "Automated Service Calls",
+      "来源": "AI voice calling system"
+    },
+    "Domain": {
+      "id": "ConsumerServices",
+      "中文名称": "消费者服务",
+      "英文名称": "Consumer Services",
+      "来源": "voice calling system"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理",
+      "英文名称": "Natural Language Processing",
+      "来源": "AI voice calling system"
+    }
+  }
+}

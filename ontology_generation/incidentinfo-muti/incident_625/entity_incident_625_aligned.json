@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonProductListingAI",
+      "中文名称": "亚马逊产品列表AI",
+      "英文名称": "Amazon Product Listing AI",
+      "来源": "Amazon has been listing products with the title, 'I'm sorry, I cannot fulfil this request as it goes against OpenAI use policy'"
+    },
+    "Risk": {
+      "id": "InappropriateProductListingRisk",
+      "中文名称": "不当产品列表风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    },
+    "Consequence": {
+      "id": "ConfusingProductListings",
+      "中文名称": "混淆产品列表后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Lazy use of AI leads to Amazon products called \"I cannot fulfill that request\""
+    },
+    "AICapability": {
+      "id": "AutomatedProductTitleGeneration",
+      "中文名称": "自动产品标题生成能力",
+      "英文名称": "Automated Product Title Generation Capability",
+      "来源": "Amazon has been listing products with the title, 'I'm sorry, I cannot fulfil this request as it goes against OpenAI use policy'"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    },
+    "RiskSource": {
+      "id": "ImproperAIOutputUsage",
+      "中文名称": "不当AI输出使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Lazy use of AI leads to Amazon products called \"I cannot fulfill that request\""
+    },
+    "Impact": {
+      "id": "PoorCustomerExperience",
+      "中文名称": "不良客户体验影响",
+      "英文名称": "Negative Customer Impact",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonProductListingAI",
+      "中文名称": "亚马逊产品列表AI",
+      "英文名称": "Amazon Product Listing AI",
+      "来源": "Amazon has been listing products with the title, 'I'm sorry, I cannot fulfil this request as it goes against OpenAI use policy'"
+    },
+    "Risk": {
+      "id": "InappropriateProductListingRisk",
+      "中文名称": "不当产品列表风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    },
+    "Consequence": {
+      "id": "ConfusingProductListings",
+      "中文名称": "混淆产品列表后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Lazy use of AI leads to Amazon products called \"I cannot fulfill that request\""
+    },
+    "AICapability": {
+      "id": "AutomatedProductTitleGeneration",
+      "中文名称": "自动产品标题生成能力",
+      "英文名称": "Automated Product Title Generation Capability",
+      "来源": "Amazon has been listing products with the title, 'I'm sorry, I cannot fulfil this request as it goes against OpenAI use policy'"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    },
+    "RiskSource": {
+      "id": "ImproperAIOutputUsage",
+      "中文名称": "不当AI输出使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Lazy use of AI leads to Amazon products called \"I cannot fulfill that request\""
+    },
+    "Impact": {
+      "id": "PoorCustomerExperience",
+      "中文名称": "不良客户体验影响",
+      "英文名称": "Negative Customer Impact",
+      "来源": "Amazon Is Selling Products With AI-Generated Names Like \"I Cannot Fulfill This Request It Goes Against OpenAI Use Policy\""
+    }
+  }
+}

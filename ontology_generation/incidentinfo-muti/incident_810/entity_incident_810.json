@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Delivery Robot Knocked Over Pedestrian"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToPedestrians",
+      "中文名称": "对行人造成身体伤害的风险",
+      "英文名称": "Physical Harm to Pedestrians Risk",
+      "来源": "Delivery Robot Knocked Over Pedestrian"
+    },
+    "Consequence": {
+      "id": "PedestrianInjury",
+      "中文名称": "行人受伤后果",
+      "英文名称": "Pedestrian Injury Consequence",
+      "来源": "Delivery Robot Knocked Over Pedestrian"
+    },
+    "AIOperator": {
+      "id": "DeliveryRobotCompany",
+      "中文名称": "送货机器人公司",
+      "英文名称": "Delivery Robot Company",
+      "来源": "Company Offered 'Promo Codes' to Apologize"
+    },
+    "Stakeholder": {
+      "id": "Pedestrians",
+      "中文名称": "行人",
+      "英文名称": "Pedestrians",
+      "来源": "Delivery Robot Knocked Over Pedestrian"
+    },
+    "RiskControl": {
+      "id": "PromoCodesAsCompensation",
+      "中文名称": "优惠码作为补偿的管控措施",
+      "英文名称": "Promo Codes as Compensation Risk Control",
+      "来源": "Company Offered 'Promo Codes' to Apologize"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Public Safety Concerns Impact",
+      "来源": "Delivery Robot Knocked Over Pedestrian"
+    },
+    "Domain": {
+      "id": "LastMileDelivery",
+      "中文名称": "最后一公里配送领域",
+      "英文名称": "Last Mile Delivery Domain",
+      "来源": "Delivery Robot"
+    }
+  }
+}

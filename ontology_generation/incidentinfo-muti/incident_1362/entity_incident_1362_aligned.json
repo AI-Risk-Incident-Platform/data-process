@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DWPAlgorithm",
+      "中文名称": "DWP算法",
+      "英文名称": "DWP Algorithm",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Risk": {
+      "id": "FalseFraudFlaggingRisk",
+      "中文名称": "错误欺诈标记风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Consequence": {
+      "id": "UnjustifiedSuspicion",
+      "中文名称": "不公正怀疑后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "AIOperator": {
+      "id": "DWP",
+      "中文名称": "英国就业与养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm"
+    },
+    "AISubject": {
+      "id": "BenefitClaimants",
+      "中文名称": "福利申请人",
+      "英文名称": "Benefit Recipients",
+      "来源": "flags 200,000 people"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DWPAlgorithm",
+      "中文名称": "DWP算法",
+      "英文名称": "DWP Algorithm",
+      "来源": "DWP algorithm wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Risk": {
+      "id": "FalseFraudFlaggingRisk",
+      "中文名称": "错误欺诈标记风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "wrongly flags 200,000 people for possible fraud and error"
+    },
+    "Consequence": {
+      "id": "UnjustifiedSuspicion",
+      "中文名称": "不公正怀疑后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "wrongly flags 200,000 people"
+    },
+    "AIOperator": {
+      "id": "DWP",
+      "中文名称": "英国就业与养老金部",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP algorithm"
+    },
+    "AISubject": {
+      "id": "BenefitClaimants",
+      "中文名称": "福利申请人",
+      "英文名称": "Benefit Recipients",
+      "来源": "flags 200,000 people"
+    }
+  }
+}

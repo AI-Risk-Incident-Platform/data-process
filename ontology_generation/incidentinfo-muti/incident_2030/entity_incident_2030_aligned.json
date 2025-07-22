@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PrisonCallMonitoringAI",
+      "中文名称": "监狱通话监控AI",
+      "英文名称": "Prison Call Monitoring AI",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations, Producing Little Actionable Info"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "AITechnique": {
+      "id": "AmazonTranscribe",
+      "中文名称": "亚马逊转录技术",
+      "英文名称": "Amazon Transcribe",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "Purpose": {
+      "id": "CriminalIntentDetection",
+      "中文名称": "犯罪意图检测",
+      "英文名称": "Criminal Intent Detection",
+      "来源": "AI on the Line: Monitoring Prisoners' Phone Calls for Criminal Intent"
+    },
+    "Domain": {
+      "id": "PrisonSystem",
+      "中文名称": "监狱系统",
+      "英文名称": "Prison System",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "Consequence": {
+      "id": "MassDataCollection",
+      "中文名称": "大规模数据收集",
+      "英文名称": "Mass Data Collection",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "Stakeholder": {
+      "id": "PrisonInmates",
+      "中文名称": "监狱囚犯",
+      "英文名称": "Prison Inmates",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "AIOperator": {
+      "id": "PrisonAuthorities",
+      "中文名称": "监狱当局",
+      "英文名称": "Prison Authorities",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控",
+      "英文名称": "Mass Surveillance",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PrisonCallMonitoringAI",
+      "中文名称": "监狱通话监控AI",
+      "英文名称": "Prison Call Monitoring AI",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations, Producing Little Actionable Info"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "AITechnique": {
+      "id": "AmazonTranscribe",
+      "中文名称": "亚马逊转录技术",
+      "英文名称": "Amazon Transcribe",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "Purpose": {
+      "id": "CriminalIntentDetection",
+      "中文名称": "犯罪意图检测",
+      "英文名称": "Criminal Intent Detection",
+      "来源": "AI on the Line: Monitoring Prisoners' Phone Calls for Criminal Intent"
+    },
+    "Domain": {
+      "id": "PrisonSystem",
+      "中文名称": "监狱系统",
+      "英文名称": "Prison System",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "Consequence": {
+      "id": "MassDataCollection",
+      "中文名称": "大规模数据收集",
+      "英文名称": "Mass Data Collection",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    },
+    "Stakeholder": {
+      "id": "PrisonInmates",
+      "中文名称": "监狱囚犯",
+      "英文名称": "Prison Inmates",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "AIOperator": {
+      "id": "PrisonAuthorities",
+      "中文名称": "监狱当局",
+      "英文名称": "Prison Authorities",
+      "来源": "Prisons are using Amazon Transcribe and AI to monitor inmates’ phone calls"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控",
+      "英文名称": "Mass Surveillance",
+      "来源": "AI Surveillance Of Prison Calls Scooping Up Millions Of Conversations"
+    }
+  }
+}

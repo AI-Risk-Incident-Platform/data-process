@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "‘Generative AI Has Polluted the Data’"
+    },
+    "Risk": {
+      "id": "DataPollutionRisk",
+      "中文名称": "数据污染风险",
+      "英文名称": "Data Pollution Risk",
+      "来源": "‘Generative AI Has Polluted the Data’"
+    },
+    "Consequence": {
+      "id": "ProjectShutdown",
+      "中文名称": "项目关闭后果",
+      "英文名称": "Project Shutdown Consequence",
+      "来源": "Project Analyzing Human Language Usage Shuts Down"
+    },
+    "AICapability": {
+      "id": "LanguageGeneration",
+      "中文名称": "语言生成能力",
+      "英文名称": "Language Generation Capability",
+      "来源": "Project Analyzing Human Language Usage"
+    },
+    "Stakeholder": {
+      "id": "LinguisticResearchers",
+      "中文名称": "语言研究者",
+      "英文名称": "Linguistic Researchers",
+      "来源": "Project Analyzing Human Language Usage"
+    },
+    "Impact": {
+      "id": "ResearchDisruption",
+      "中文名称": "研究中断影响",
+      "英文名称": "Research Disruption Impact",
+      "来源": "Project Analyzing Human Language Usage Shuts Down"
+    },
+    "Purpose": {
+      "id": "LanguageAnalysis",
+      "中文名称": "语言分析目的",
+      "英文名称": "Language Analysis Purpose",
+      "来源": "Project Analyzing Human Language Usage"
+    },
+    "Domain": {
+      "id": "Linguistics",
+      "中文名称": "语言学领域",
+      "英文名称": "Linguistics Domain",
+      "来源": "Project Analyzing Human Language Usage"
+    },
+    "RiskSource": {
+      "id": "AIGeneratedContent",
+      "中文名称": "AI生成内容风险源",
+      "英文名称": "AI Generated Content Risk Source",
+      "来源": "‘Generative AI Has Polluted the Data’"
+    }
+  }
+}

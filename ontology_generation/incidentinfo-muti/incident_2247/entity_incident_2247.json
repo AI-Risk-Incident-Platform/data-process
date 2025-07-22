@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial recognition fooled by masks"
+    },
+    "Risk": {
+      "id": "SecurityBreachRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "Security Breach Risk",
+      "来源": "Airport and Payment Facial Recognition Systems Fooled by Masks and Photos, Raising Security Concerns"
+    },
+    "RiskSource": {
+      "id": "MaskAndPhotoAttack",
+      "中文名称": "面具和照片攻击",
+      "英文名称": "Mask and Photo Attack",
+      "来源": "Researchers fooled Chinese facial recognition terminals with just a mask"
+    },
+    "Consequence": {
+      "id": "SecurityConcerns",
+      "中文名称": "安全担忧",
+      "英文名称": "Security Concerns",
+      "来源": "Airport and Payment Facial Recognition Systems Fooled by Masks and Photos, Raising Security Concerns"
+    },
+    "Domain": {
+      "id": "AirportAndPaymentSystems",
+      "中文名称": "机场和支付系统",
+      "英文名称": "Airport and Payment Systems",
+      "来源": "Airport and Payment Facial Recognition Systems Fooled by Masks and Photos, Raising Security Concerns"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Facial recognition fooled by masks"
+    },
+    "Vulnerability": {
+      "id": "SpoofingVulnerability",
+      "中文名称": "欺骗漏洞",
+      "英文名称": "Spoofing Vulnerability",
+      "来源": "Researchers fooled Chinese facial recognition terminals with just a mask"
+    }
+  }
+}

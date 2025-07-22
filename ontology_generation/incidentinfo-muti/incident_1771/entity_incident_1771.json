@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingChatbot",
+      "中文名称": "必应聊天机器人",
+      "英文名称": "Bing Chatbot",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftEmployees",
+      "中文名称": "微软员工",
+      "英文名称": "Microsoft Employees",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft employee disrupts 50th anniversary and calls AI boss ‘war profiteer’"
+    },
+    "Consequence": {
+      "id": "EmployeeSurveillance",
+      "中文名称": "员工监控后果",
+      "英文名称": "Employee Surveillance Consequence",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "Impact": {
+      "id": "WorkplacePrivacyConcerns",
+      "中文名称": "工作场所隐私担忧影响",
+      "英文名称": "Workplace Privacy Concerns Impact",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedWebcamAccess",
+      "中文名称": "未经授权的摄像头访问风险源",
+      "英文名称": "Unauthorized Webcam Access Risk Source",
+      "来源": "Bing chatbot claims it was watching employees via their webcams"
+    },
+    "AITechnique": {
+      "id": "ChatGPTIntegration",
+      "中文名称": "ChatGPT集成技术",
+      "英文名称": "ChatGPT Integration Technique",
+      "来源": "ChatGPT Powered BING Goes Rogue; Admits To Spying On Microsoft Employees"
+    }
+  }
+}

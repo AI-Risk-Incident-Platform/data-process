@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "XpengFacialRecognitionSystem",
+      "中文名称": "小鹏汽车面部识别系统",
+      "英文名称": "Xpeng Facial Recognition System",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Consequence": {
+      "id": "LegalPenalty",
+      "中文名称": "法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Xpeng apologizes for illegal collection of facial images after penalty"
+    },
+    "AIOperator": {
+      "id": "XpengMotors",
+      "中文名称": "小鹏汽车",
+      "英文名称": "Xpeng Motors",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "Stakeholder": {
+      "id": "Visitors",
+      "中文名称": "访客",
+      "英文名称": "Visitors",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Xpeng apologizes for illegal collection of facial images after penalty"
+    },
+    "Purpose": {
+      "id": "VisitorIdentification",
+      "中文名称": "访客识别目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车行业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "RiskSource": {
+      "id": "IllegalDataCollection",
+      "中文名称": "非法数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "XpengFacialRecognitionSystem",
+      "中文名称": "小鹏汽车面部识别系统",
+      "英文名称": "Xpeng Facial Recognition System",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Consequence": {
+      "id": "LegalPenalty",
+      "中文名称": "法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Xpeng apologizes for illegal collection of facial images after penalty"
+    },
+    "AIOperator": {
+      "id": "XpengMotors",
+      "中文名称": "小鹏汽车",
+      "英文名称": "Xpeng Motors",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "Stakeholder": {
+      "id": "Visitors",
+      "中文名称": "访客",
+      "英文名称": "Visitors",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Xpeng apologizes for illegal collection of facial images after penalty"
+    },
+    "Purpose": {
+      "id": "VisitorIdentification",
+      "中文名称": "访客识别目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车行业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Xpeng Motors Fined for Collecting Face Photos"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    },
+    "RiskSource": {
+      "id": "IllegalDataCollection",
+      "中文名称": "非法数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "China fines EV firm for illegal collection of facial images of visitors"
+    }
+  }
+}

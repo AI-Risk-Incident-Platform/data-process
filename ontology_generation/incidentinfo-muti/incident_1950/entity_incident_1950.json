@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Video Generation System",
+      "来源": "用照片生成你“露脸说话”的视频仅需30元左右"
+    },
+    "Risk": {
+      "id": "AIFraudRisk",
+      "中文名称": "AI诈骗风险",
+      "英文名称": "AI Fraud Risk",
+      "来源": "AI诈骗正在全国爆发"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Police warn of AI fraud after man duped by 'friend'"
+    },
+    "AITechnique": {
+      "id": "FaceSwappingAndVoiceCloning",
+      "中文名称": "人脸替换和语音克隆技术",
+      "英文名称": "Face Swapping and Voice Cloning Technique",
+      "来源": "用照片生成你“露脸说话”的视频仅需30元左右"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "General Public",
+      "来源": "AI诈骗正在全国爆发"
+    },
+    "AISubject": {
+      "id": "FraudVictims",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Fraud Victims",
+      "来源": "Police warn of AI fraud after man duped by 'friend'"
+    },
+    "Impact": {
+      "id": "TrustErosionInDigitalCommunication",
+      "中文名称": "数字通信信任度下降的影响",
+      "英文名称": "Trust Erosion in Digital Communication Impact",
+      "来源": "AI诈骗正在全国爆发"
+    },
+    "Purpose": {
+      "id": "DeceptiveContentCreation",
+      "中文名称": "欺骗性内容创建的目的",
+      "英文名称": "Deceptive Content Creation Purpose",
+      "来源": "用照片生成你“露脸说话”的视频仅需30元左右"
+    },
+    "Domain": {
+      "id": "DigitalSecurity",
+      "中文名称": "数字安全领域",
+      "英文名称": "Digital Security Domain",
+      "来源": "Police warn of AI fraud after man duped by 'friend'"
+    },
+    "RiskSource": {
+      "id": "LowCostDeepfakeTechnologyAvailability",
+      "中文名称": "低成本深度伪造技术可获取性的风险源",
+      "英文名称": "Low-Cost Deepfake Technology Availability Risk Source",
+      "来源": "用照片生成你“露脸说话”的视频仅需30元左右"
+    },
+    "Vulnerability": {
+      "id": "HumanSusceptibilityToVisualDeception",
+      "中文名称": "人类对视觉欺骗易受性的脆弱性",
+      "英文名称": "Human Susceptibility to Visual Deception Vulnerability",
+      "来源": "Police warn of AI fraud after man duped by 'friend'"
+    }
+  }
+}

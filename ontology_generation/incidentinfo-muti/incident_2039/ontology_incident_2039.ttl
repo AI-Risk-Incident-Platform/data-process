@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WelfareManagementAutomationSystem rdf:type airo:AISystem ;
+    rdfs:label "Welfare Management Automation System"@en ;
+    rdfs:label "福利管理自动化系统"@zh ;
+    airo:hasRisk ex:SurveillanceRisk ;
+    airo:isDeployedBy ex:SwedishCities ;
+    airo:hasStakeholder ex:CentralAuthorities ;
+    airo:isAppliedWithinDomain ex:WelfareManagement ;
+    airo:hasPurpose ex:OptimizeWelfareManagement .
+
+ex:SurveillanceRisk rdf:type airo:Risk ;
+    rdfs:label "Surveillance Risk"@en ;
+    rdfs:label "监控风险"@zh ;
+    airo:isRiskSourceFor ex:SurveillanceBehemoth ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Surveillance Consequence"@en ;
+        rdfs:label "监控后果"@zh ;
+        airo:hasImpact ex:PrivacyConcerns
+    ] .
+
+ex:CentralAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "Central Authorities"@en ;
+    rdfs:label "中央当局"@zh .
+
+ex:SwedishCities rdf:type airo:AIOperator ;
+    rdfs:label "Swedish Cities"@en ;
+    rdfs:label "瑞典城市"@zh .
+
+ex:WelfareManagement rdf:type airo:Domain ;
+    rdfs:label "Welfare Management Domain"@en ;
+    rdfs:label "福利管理领域"@zh .
+
+ex:OptimizeWelfareManagement rdf:type airo:Purpose ;
+    rdfs:label "Optimize Welfare Management Purpose"@en ;
+    rdfs:label "优化福利管理的目的"@zh .
+
+ex:SurveillanceBehemoth rdf:type airo:RiskSource ;
+    rdfs:label "Surveillance Behemoth Risk Source"@en ;
+    rdfs:label "监控巨兽风险源"@zh .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns Impact"@en ;
+    rdfs:label "隐私问题的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CentralAuthorities .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingCars",
+      "中文名称": "Cruise自动驾驶汽车",
+      "英文名称": "Cruise Self-Driving Cars",
+      "来源": "Auto-Safety Regulators Investigate Cruise’s Self-Driving Cars Over Pedestrian Risks"
+    },
+    "Risk": {
+      "id": "PedestrianSafetyRisk",
+      "中文名称": "行人安全风险",
+      "英文名称": "Pedestrian Safety Risk",
+      "来源": "Auto-Safety Regulators Investigate Cruise’s Self-Driving Cars Over Pedestrian Risks"
+    },
+    "Stakeholder": {
+      "id": "AutoSafetyRegulators",
+      "中文名称": "汽车安全监管机构",
+      "英文名称": "Auto-Safety Regulators",
+      "来源": "Auto-Safety Regulators Investigate Cruise’s Self-Driving Cars Over Pedestrian Risks"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleIndustry",
+      "中文名称": "自动驾驶汽车行业",
+      "英文名称": "Autonomous Vehicle Industry",
+      "来源": "Auto-Safety Regulators Investigate Cruise’s Self-Driving Cars Over Pedestrian Risks"
+    },
+    "AIOperator": {
+      "id": "Cruise",
+      "中文名称": "Cruise公司",
+      "英文名称": "Cruise",
+      "来源": "Auto-Safety Regulators Investigate Cruise’s Self-Driving Cars Over Pedestrian Risks"
+    }
+  }
+}

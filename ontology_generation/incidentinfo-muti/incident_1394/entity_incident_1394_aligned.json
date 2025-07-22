@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DiveFace",
+      "中文名称": "DiveFace",
+      "英文名称": "DiveFace",
+      "来源": "案例标题"
+    },
+    "Risk": {
+      "id": "PotentialPrivacyRisk",
+      "中文名称": "潜在隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "案例描述中未明确说明，但DiveFace作为面部识别系统通常涉及隐私问题"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "DiveFace作为面部识别系统的名称暗示"
+    },
+    "Stakeholder": {
+      "id": "IndividualsBeingIdentified",
+      "中文名称": "被识别个体",
+      "英文名称": "Individuals Being Identified",
+      "来源": "面部识别系统的直接受影响方"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "面部识别系统的典型用途"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DiveFace",
+      "中文名称": "DiveFace",
+      "英文名称": "DiveFace",
+      "来源": "案例标题"
+    },
+    "Risk": {
+      "id": "PotentialPrivacyRisk",
+      "中文名称": "潜在隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "案例描述中未明确说明，但DiveFace作为面部识别系统通常涉及隐私问题"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "DiveFace作为面部识别系统的名称暗示"
+    },
+    "Stakeholder": {
+      "id": "IndividualsBeingIdentified",
+      "中文名称": "被识别个体",
+      "英文名称": "Individuals Being Identified",
+      "来源": "面部识别系统的直接受影响方"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "面部识别系统的典型用途"
+    }
+  }
+}

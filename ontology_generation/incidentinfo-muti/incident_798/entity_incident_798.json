@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIFakesDetectionSystem",
+      "中文名称": "AI伪造检测系统",
+      "英文名称": "AI Fakes Detection System",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    },
+    "Risk": {
+      "id": "FailureToDetectAIFakesRisk",
+      "中文名称": "未能检测AI伪造的风险",
+      "英文名称": "Failure to Detect AI Fakes Risk",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播的后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁的影响",
+      "英文名称": "Election Integrity Threat Impact",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    },
+    "AISubject": {
+      "id": "VotersInGlobalSouth",
+      "中文名称": "全球南方选民",
+      "英文名称": "Voters in Global South",
+      "来源": "AI-Fakes Detection Is Failing Voters in the Global South"
+    }
+  }
+}

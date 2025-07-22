@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LinkedInAI",
+      "中文名称": "LinkedIn人工智能系统",
+      "英文名称": "LinkedIn AI System",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "LinkedIn scraped user data for training before updating its terms of service"
+    },
+    "Stakeholder": {
+      "id": "LinkedInUsers",
+      "中文名称": "LinkedIn用户",
+      "英文名称": "LinkedIn Users",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    },
+    "RiskSource": {
+      "id": "DataScrapingWithoutConsent",
+      "中文名称": "未经同意的数据抓取",
+      "英文名称": "Data Scraping Without Consent",
+      "来源": "LinkedIn scraped user data for training before updating its terms of service"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "LinkedIn Is Training AI on User Data Before Updating Its Terms of Service"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任侵蚀",
+      "英文名称": "User Trust Erosion",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    },
+    "Purpose": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练",
+      "英文名称": "AI Model Training",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    },
+    "Domain": {
+      "id": "ProfessionalSocialNetworking",
+      "中文名称": "职业社交网络",
+      "英文名称": "Professional Social Networking",
+      "来源": "LinkedIn Is Using Your Data To Train Microsoft And Its Own AI Models"
+    }
+  }
+}

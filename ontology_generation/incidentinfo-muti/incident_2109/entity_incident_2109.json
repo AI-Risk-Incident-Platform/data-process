@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "CHP Announce Arrest of Man Who Rode in Back Seat of Driverless Tesla Across Bay Bridge"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleMisuseRisk",
+      "中文名称": "自动驾驶汽车滥用风险",
+      "英文名称": "Autonomous Vehicle Misuse Risk",
+      "来源": "Man Who Rode in Back Seat of Driverless Tesla"
+    },
+    "Misuse": {
+      "id": "UnattendedOperationOfAutonomousVehicle",
+      "中文名称": "无人监管的自动驾驶汽车操作",
+      "英文名称": "Unattended Operation of Autonomous Vehicle",
+      "来源": "Rode in Back Seat of Driverless Tesla"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaHighwayPatrol",
+      "中文名称": "加州公路巡逻队",
+      "英文名称": "California Highway Patrol",
+      "来源": "CHP Announce Arrest"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Driverless Tesla"
+    },
+    "Consequence": {
+      "id": "TrafficSafetyViolation",
+      "中文名称": "交通安全违规后果",
+      "英文名称": "Traffic Safety Violation Consequence",
+      "来源": "Arrest of Man Who Rode in Back Seat"
+    },
+    "Impact": {
+      "id": "PublicRoadSafetyThreat",
+      "中文名称": "公共道路安全威胁的影响",
+      "英文名称": "Public Road Safety Threat Impact",
+      "来源": "Rode in Back Seat of Driverless Tesla Across Bay Bridge"
+    },
+    "Domain": {
+      "id": "AutomotiveTransportation",
+      "中文名称": "汽车交通领域",
+      "英文名称": "Automotive Transportation Domain",
+      "来源": "Driverless Tesla Across Bay Bridge"
+    }
+  }
+}

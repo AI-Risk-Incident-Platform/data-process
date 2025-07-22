@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WacomAIArtSystem",
+      "中文名称": "Wacom AI艺术系统",
+      "英文名称": "Wacom AI Art System",
+      "来源": "Wacom Enraged Customers by Using AI Art"
+    },
+    "Risk": {
+      "id": "CustomerBacklashRisk",
+      "中文名称": "客户反弹风险",
+      "英文名称": "Customer Backlash Risk",
+      "来源": "Wacom Enraged Customers by Using AI Art"
+    },
+    "Stakeholder": {
+      "id": "WacomCustomers",
+      "中文名称": "Wacom客户",
+      "英文名称": "Wacom Customers",
+      "来源": "Wacom Enraged Customers by Using AI Art"
+    },
+    "AIOperator": {
+      "id": "WacomCompany",
+      "中文名称": "Wacom公司",
+      "英文名称": "Wacom Company",
+      "来源": "Wacom Enraged Customers by Using AI Art, But Says It's Not To Blame"
+    },
+    "Consequence": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害后果",
+      "英文名称": "Brand Reputation Damage Consequence",
+      "来源": "Wacom Enraged Customers by Using AI Art"
+    },
+    "RiskSource": {
+      "id": "AIGeneratedAdContent",
+      "中文名称": "AI生成广告内容风险源",
+      "英文名称": "AI Generated Ad Content Risk Source",
+      "来源": "Did Wacom use AI-generated images in their latest ad?"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任侵蚀影响",
+      "英文名称": "Consumer Trust Erosion Impact",
+      "来源": "Wacom Enraged Customers by Using AI Art"
+    }
+  }
+}

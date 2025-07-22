@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Risk": {
+      "id": "NonConsensualPornographyRisk",
+      "中文名称": "非自愿色情内容风险",
+      "英文名称": "Nonconsensual Porn Risk",
+      "来源": "Fake sexually explicit video of podcast host Bobbi Althoff trends on X despite violating platform's rules"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatformX",
+      "中文名称": "社交媒体平台X",
+      "英文名称": "Social Media Platform X",
+      "来源": "Bobbi Althoff deepfake spotlights X's role as a top source of AI porn"
+    },
+    "AISubject": {
+      "id": "PublicFigureBobbiAlthoff",
+      "中文名称": "公众人物Bobbi Althoff",
+      "英文名称": "Public Figure Bobbi Althoff",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "内容审核缺失风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Fake sexually explicit video of podcast host Bobbi Althoff trends on X despite violating platform's rules"
+    },
+    "Misuse": {
+      "id": "DeepfakePornographyCreation",
+      "中文名称": "深度伪造色情内容制作滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Bobbi Althoff deepfake spotlights X's role as a top source of AI porn"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Risk": {
+      "id": "NonConsensualPornographyRisk",
+      "中文名称": "非自愿色情内容风险",
+      "英文名称": "Nonconsensual Porn Risk",
+      "来源": "Fake sexually explicit video of podcast host Bobbi Althoff trends on X despite violating platform's rules"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatformX",
+      "中文名称": "社交媒体平台X",
+      "英文名称": "Social Media Platform X",
+      "来源": "Bobbi Althoff deepfake spotlights X's role as a top source of AI porn"
+    },
+    "AISubject": {
+      "id": "PublicFigureBobbiAlthoff",
+      "中文名称": "公众人物Bobbi Althoff",
+      "英文名称": "Public Figure Bobbi Althoff",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Podcaster Bobbi Althoff is the latest target of explicit deepfakes"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "内容审核缺失风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Fake sexually explicit video of podcast host Bobbi Althoff trends on X despite violating platform's rules"
+    },
+    "Misuse": {
+      "id": "DeepfakePornographyCreation",
+      "中文名称": "深度伪造色情内容制作滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Bobbi Althoff deepfake spotlights X's role as a top source of AI porn"
+    }
+  }
+}

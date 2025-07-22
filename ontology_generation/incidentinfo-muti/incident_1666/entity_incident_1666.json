@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LAIONDataset",
+      "中文名称": "LAION数据集",
+      "英文名称": "LAION Dataset",
+      "来源": "Patient images in LAION datasets are only a sample of a larger issue"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Woman Horrified To Discover Her Private Medical Photos Were Being Used To Train AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalData",
+      "中文名称": "个人数据未经授权使用的后果",
+      "英文名称": "Unauthorized Use of Personal Data Consequence",
+      "来源": "Artist finds private medical record photos in popular AI training data set"
+    },
+    "AISubject": {
+      "id": "MedicalPatients",
+      "中文名称": "医疗患者",
+      "英文名称": "Medical Patients",
+      "来源": "Woman Horrified To Discover Her Private Medical Photos Were Being Used To Train AI"
+    },
+    "RiskSource": {
+      "id": "InadequateDataConsentMechanisms",
+      "中文名称": "数据同意机制不足的风险源",
+      "英文名称": "Inadequate Data Consent Mechanisms Risk Source",
+      "来源": "Patient images in LAION datasets are only a sample of a larger issue"
+    },
+    "Impact": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰的影响",
+      "英文名称": "Emotional Distress Impact",
+      "来源": "Woman Horrified To Discover Her Private Medical Photos Were Being Used To Train AI"
+    },
+    "Domain": {
+      "id": "HealthcareData",
+      "中文名称": "医疗保健数据领域",
+      "英文名称": "Healthcare Data Domain",
+      "来源": "Artist finds private medical record photos in popular AI training data set"
+    },
+    "AITechnique": {
+      "id": "DataScraping",
+      "中文名称": "数据抓取技术",
+      "英文名称": "Data Scraping Technique",
+      "来源": "Patient images in LAION datasets are only a sample of a larger issue"
+    }
+  }
+}

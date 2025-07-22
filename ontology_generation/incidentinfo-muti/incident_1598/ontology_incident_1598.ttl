@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:ToxicAndRacistOutputRisk ;
+    airo:hasCapability ex:PersonaDrivenResponseGeneration ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:ChatGPTUsers ;
+    airo:hasPurpose ex:ConversationalAI ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:PromptInjection .
+
+ex:ToxicAndRacistOutputRisk rdf:type airo:Risk ;
+    rdfs:label "Toxic and Racist Output Risk"@en ;
+    rdfs:label "有毒和种族主义输出风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentGeneration ;
+    airo:isRiskSourceFor ex:PersonaEngineering .
+
+ex:HarmfulContentGeneration rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Generation Consequence"@en ;
+    rdfs:label "有害内容生成后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:PersonaDrivenResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Persona-Driven Response Generation Capability"@en ;
+    rdfs:label "角色驱动响应生成能力"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:ChatGPTUsers rdf:type airo:Stakeholder ;
+    rdfs:label "ChatGPT Users"@en ;
+    rdfs:label "ChatGPT用户"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatGPTUsers .
+
+ex:ConversationalAI rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Purpose"@en ;
+    rdfs:label "对话式AI目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:PromptInjection rdf:type airo:Vulnerability ;
+    rdfs:label "Prompt Injection Vulnerability"@en ;
+    rdfs:label "提示注入漏洞"@zh .
+
+ex:MaliciousUse rdf:type airo:Threat ;
+    rdfs:label "Malicious Use Threat"@en ;
+    rdfs:label "恶意使用威胁"@zh ;
+    airo:isRiskSourceFor ex:ToxicAndRacistOutputRisk .
+
+ex:BiasInTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Bias in Training Data Hazard"@en ;
+    rdfs:label "训练数据偏见危害"@zh ;
+    airo:isRiskSourceFor ex:ToxicAndRacistOutputRisk .
+
+ex:PersonaEngineering rdf:type airo:RiskSource ;
+    rdfs:label "Persona Engineering Risk Source"@en ;
+    rdfs:label "角色工程风险源"@zh .
+
+ex:EthicalAIChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical AI Challenges Risk Concept"@en ;
+    rdfs:label "伦理AI挑战"@zh .

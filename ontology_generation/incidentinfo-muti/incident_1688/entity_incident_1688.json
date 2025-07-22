@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BetfairGamblingRiskAlgorithm",
+      "中文名称": "Betfair赌博风险算法",
+      "英文名称": "Betfair Gambling Risk Algorithm",
+      "来源": "Bookmaker’s algorithm failed to see ‘red flags in gambling addict’s behaviour’"
+    },
+    "Risk": {
+      "id": "FailureToIdentifyHighRiskGambler",
+      "中文名称": "未能识别高风险赌徒的风险",
+      "英文名称": "Failure to Identify High-Risk Gambler Risk",
+      "来源": "Betfair’s Algorithm Failed to Detect Man as a High-Risk Gambler Before He Took His Own Life"
+    },
+    "Consequence": {
+      "id": "SuicideOfGamblingAddict",
+      "中文名称": "赌博成瘾者自杀的后果",
+      "英文名称": "Suicide of Gambling Addict Consequence",
+      "来源": "Betfair’s Algorithm Failed to Detect Man as a High-Risk Gambler Before He Took His Own Life"
+    },
+    "AICapability": {
+      "id": "BehavioralPatternRecognitionForRiskAssessment",
+      "中文名称": "用于风险评估的行为模式识别能力",
+      "英文名称": "Behavioral Pattern Recognition for Risk Assessment Capability",
+      "来源": "Algorithm missed gambling addict's red flags"
+    },
+    "AIOperator": {
+      "id": "Betfair",
+      "中文名称": "Betfair公司",
+      "英文名称": "Betfair",
+      "来源": "Bookmaker’s algorithm failed to see ‘red flags in gambling addict’s behaviour’"
+    },
+    "Stakeholder": {
+      "id": "GamblingAddicts",
+      "中文名称": "赌博成瘾者",
+      "英文名称": "Gambling Addicts",
+      "来源": "Algorithm missed gambling addict's red flags"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失的影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Before He Took His Own Life"
+    },
+    "Purpose": {
+      "id": "IdentifyingProblemGamblers",
+      "中文名称": "识别问题赌徒的目的",
+      "英文名称": "Identifying Problem Gamblers Purpose",
+      "来源": "Algorithm missed gambling addict's red flags"
+    },
+    "RiskSource": {
+      "id": "InadequateBehavioralDataAnalysis",
+      "中文名称": "行为数据分析不足的风险源",
+      "英文名称": "Inadequate Behavioral Data Analysis Risk Source",
+      "来源": "Algorithm missed gambling addict's red flags"
+    },
+    "Vulnerability": {
+      "id": "LimitedPatternRecognitionInAddictiveBehaviors",
+      "中文名称": "成瘾行为中模式识别有限的脆弱性",
+      "英文名称": "Limited Pattern Recognition in Addictive Behaviors Vulnerability",
+      "来源": "failed to see ‘red flags in gambling addict’s behaviour’"
+    }
+  }
+}

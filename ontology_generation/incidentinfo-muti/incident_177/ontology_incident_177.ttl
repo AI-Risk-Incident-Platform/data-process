@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PainMedicationAISystem rdf:type airo:AISystem ;
+    rdfs:label "Pain Medication AI System"@en ;
+    rdfs:label "疼痛药物AI系统"@zh ;
+    airo:hasRisk ex:DenialOfPainMedicationRisk ;
+    airo:hasAICapability ex:AddictionRiskScoring ;
+    airo:hasStakeholder ex:PainPatients ;
+    airo:hasAISubject ex:MedicalDecisionMaking ;
+    airo:hasPurpose ex:OpioidPrescriptionControl ;
+    airo:isAppliedWithinDomain ex:Healthcare .
+
+ex:DenialOfPainMedicationRisk rdf:type airo:Risk ;
+    rdfs:label "Denial of Pain Medication Risk"@en ;
+    rdfs:label "拒绝提供止痛药风险"@zh ;
+    airo:hasConsequence ex:PatientSuffering ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInAddictionAssessment .
+
+ex:PatientSuffering rdf:type airo:Consequence ;
+    rdfs:label "Patient Suffering Consequence"@en ;
+    rdfs:label "患者痛苦后果"@zh ;
+    airo:hasImpact ex:ReducedAccessToPainRelief .
+
+ex:AddictionRiskScoring rdf:type airo:AICapability ;
+    rdfs:label "Addiction Risk Scoring Capability"@en ;
+    rdfs:label "成瘾风险评分能力"@zh .
+
+ex:PainPatients rdf:type airo:Stakeholder ;
+    rdfs:label "Pain Patients"@en ;
+    rdfs:label "疼痛患者"@zh .
+
+ex:MedicalDecisionMaking rdf:type airo:AISubject ;
+    rdfs:label "Medical Decision Making"@en ;
+    rdfs:label "医疗决策"@zh .
+
+ex:ReducedAccessToPainRelief rdf:type airo:Impact ;
+    rdfs:label "Reduced Access to Pain Relief Impact"@en ;
+    rdfs:label "减少获得止痛途径的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PainPatients .
+
+ex:OpioidPrescriptionControl rdf:type airo:Purpose ;
+    rdfs:label "Opioid Prescription Control Purpose"@en ;
+    rdfs:label "阿片类药物处方控制目的"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:AlgorithmicBiasInAddictionAssessment rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Addiction Assessment Risk Source"@en ;
+    rdfs:label "成瘾评估中的算法偏见风险源"@zh .

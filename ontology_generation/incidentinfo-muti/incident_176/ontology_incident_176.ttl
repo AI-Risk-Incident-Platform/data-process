@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TrafficCameraSystem rdf:type airo:AISystem ;
+    rdfs:label "Traffic Camera System"@en ;
+    rdfs:label "交通摄像头系统"@zh ;
+    airo:hasRisk ex:MisidentificationRisk ;
+    airo:hasAICapability ex:LicensePlateRecognition ;
+    airo:hasAIOperator ex:TrafficAuthority ;
+    airo:hasStakeholder ex:DriversAndPedestrians ;
+    airo:hasAISubject ex:PedestriansAndVehicles ;
+    airo:hasPurpose ex:TrafficMonitoringAndEnforcement ;
+    airo:isAppliedWithinDomain ex:TrafficManagement ;
+    airo:usesTechnique ex:ImageRecognition .
+
+ex:MisidentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Misidentification Risk"@en ;
+    rdfs:label "错误识别风险"@zh ;
+    airo:hasConsequence ex:UnjustFines ;
+    airo:isRiskSourceFor ex:AlgorithmicLimitations .
+
+ex:UnjustFines rdf:type airo:Consequence ;
+    rdfs:label "Unjust Fines Consequence"@en ;
+    rdfs:label "不公正罚款后果"@zh ;
+    airo:hasImpact ex:FinancialBurden .
+
+ex:LicensePlateRecognition rdf:type airo:AICapability ;
+    rdfs:label "License Plate Recognition Capability"@en ;
+    rdfs:label "车牌识别能力"@zh .
+
+ex:TrafficAuthority rdf:type airo:AIOperator ;
+    rdfs:label "Traffic Authority"@en ;
+    rdfs:label "交通管理部门"@zh .
+
+ex:DriversAndPedestrians rdf:type airo:Stakeholder ;
+    rdfs:label "Drivers and Pedestrians"@en ;
+    rdfs:label "驾驶员和行人"@zh .
+
+ex:PedestriansAndVehicles rdf:type airo:AISubject ;
+    rdfs:label "Pedestrians and Vehicles"@en ;
+    rdfs:label "行人和车辆"@zh .
+
+ex:FinancialBurden rdf:type airo:Impact ;
+    rdfs:label "Financial Burden Impact"@en ;
+    rdfs:label "经济负担影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DriversAndPedestrians .
+
+ex:TrafficMonitoringAndEnforcement rdf:type airo:Purpose ;
+    rdfs:label "Traffic Monitoring and Enforcement Purpose"@en ;
+    rdfs:label "交通监控和执法目的"@zh .
+
+ex:TrafficManagement rdf:type airo:Domain ;
+    rdfs:label "Traffic Management Domain"@en ;
+    rdfs:label "交通管理领域"@zh .
+
+ex:ImageRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Image Recognition Technique"@en ;
+    rdfs:label "图像识别技术"@zh .
+
+ex:AlgorithmicLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Limitations Risk Source"@en ;
+    rdfs:label "算法局限性风险源"@zh ;
+    airo:exploitsVulnerability ex:PatternRecognitionErrors ;
+    airo:hasHazard ex:VisualSimilarityConfusion ;
+    airo:hasThreat ex:FalsePositivesInDetection ;
+    airo:hasRiskConcept ex:AutomatedEnforcementChallenges .
+
+ex:PatternRecognitionErrors rdf:type airo:Vulnerability ;
+    rdfs:label "Pattern Recognition Errors Vulnerability"@en ;
+    rdfs:label "模式识别错误漏洞"@zh .
+
+ex:VisualSimilarityConfusion rdf:type airo:Hazard ;
+    rdfs:label "Visual Similarity Confusion Hazard"@en ;
+    rdfs:label "视觉相似性混淆危害"@zh .
+
+ex:FalsePositivesInDetection rdf:type airo:Threat ;
+    rdfs:label "False Positives in Detection Threat"@en ;
+    rdfs:label "检测中的误报威胁"@zh .
+
+ex:AutomatedEnforcementChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Automated Enforcement Challenges Risk Concept"@en ;
+    rdfs:label "自动化执法的挑战"@zh .

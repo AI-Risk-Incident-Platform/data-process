@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenderPredictionAI",
+      "中文名称": "性别预测AI",
+      "英文名称": "Gender Prediction AI",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Risk": {
+      "id": "GenderDiscriminationRisk",
+      "中文名称": "性别歧视风险",
+      "英文名称": "Gender Discrimination Risk",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Consequence": {
+      "id": "TransphobiaImpact",
+      "中文名称": "跨性别恐惧症影响",
+      "英文名称": "Transphobia Impact",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "AICapability": {
+      "id": "GenderPredictionFromText",
+      "中文名称": "从文本预测性别能力",
+      "英文名称": "Gender Prediction from Text Capability",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Stakeholder": {
+      "id": "TransgenderCommunity",
+      "中文名称": "跨性别群体",
+      "英文名称": "Transgender Community",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "AISubject": {
+      "id": "EmailAddressOwners",
+      "中文名称": "电子邮件地址所有者",
+      "英文名称": "Email Address Owners",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Purpose": {
+      "id": "GenderIdentification",
+      "中文名称": "性别识别目的",
+      "英文名称": "Gender Identification Purpose",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Domain": {
+      "id": "SocialMediaAnalysis",
+      "中文名称": "社交媒体分析领域",
+      "英文名称": "Social Media Analysis Domain",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "AITechnique": {
+      "id": "TextPatternRecognition",
+      "中文名称": "文本模式识别技术",
+      "英文名称": "Text Pattern Recognition Technique",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Vulnerability": {
+      "id": "BinaryGenderAssumption",
+      "中文名称": "二元性别假设脆弱性",
+      "英文名称": "Binary Gender Assumption Vulnerability",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Threat": {
+      "id": "ReinforcingGenderStereotypes",
+      "中文名称": "强化性别刻板印象威胁",
+      "英文名称": "Stereotype Reinforcement Threat",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Hazard": {
+      "id": "NonBinaryGenderExclusion",
+      "中文名称": "非二元性别排除危害",
+      "英文名称": "Non-Binary Gender Exclusion Hazard",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "RiskSource": {
+      "id": "OversimplifiedGenderModel",
+      "中文名称": "过度简化的性别模型风险源",
+      "英文名称": "Oversimplified Gender Model Risk Source",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInGenderAI",
+      "中文名称": "性别AI中的伦理问题",
+      "英文名称": "Ethical Issues in Gender AI Risk Concept",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GenderPredictionAI",
+      "中文名称": "性别预测AI",
+      "英文名称": "Gender Prediction AI",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Risk": {
+      "id": "GenderDiscriminationRisk",
+      "中文名称": "性别歧视风险",
+      "英文名称": "Gender Discrimination Risk",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Consequence": {
+      "id": "TransphobiaImpact",
+      "中文名称": "跨性别恐惧症影响",
+      "英文名称": "Transphobia Impact",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "AICapability": {
+      "id": "GenderPredictionFromText",
+      "中文名称": "从文本预测性别能力",
+      "英文名称": "Gender Prediction from Text Capability",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Stakeholder": {
+      "id": "TransgenderCommunity",
+      "中文名称": "跨性别群体",
+      "英文名称": "Transgender Community",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "AISubject": {
+      "id": "EmailAddressOwners",
+      "中文名称": "电子邮件地址所有者",
+      "英文名称": "Email Address Owners",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Purpose": {
+      "id": "GenderIdentification",
+      "中文名称": "性别识别目的",
+      "英文名称": "Gender Identification Purpose",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Domain": {
+      "id": "SocialMediaAnalysis",
+      "中文名称": "社交媒体分析领域",
+      "英文名称": "Social Media Analysis Domain",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "AITechnique": {
+      "id": "TextPatternRecognition",
+      "中文名称": "文本模式识别技术",
+      "英文名称": "Text Pattern Recognition Technique",
+      "来源": "Someone made an AI that predicted gender from email addresses, usernames."
+    },
+    "Vulnerability": {
+      "id": "BinaryGenderAssumption",
+      "中文名称": "二元性别假设脆弱性",
+      "英文名称": "Binary Gender Assumption Vulnerability",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Threat": {
+      "id": "ReinforcingGenderStereotypes",
+      "中文名称": "强化性别刻板印象威胁",
+      "英文名称": "Stereotype Reinforcement Threat",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "Hazard": {
+      "id": "NonBinaryGenderExclusion",
+      "中文名称": "非二元性别排除危害",
+      "英文名称": "Non-Binary Gender Exclusion Hazard",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "RiskSource": {
+      "id": "OversimplifiedGenderModel",
+      "中文名称": "过度简化的性别模型风险源",
+      "英文名称": "Oversimplified Gender Model Risk Source",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInGenderAI",
+      "中文名称": "性别AI中的伦理问题",
+      "英文名称": "Ethical Issues in Gender AI Risk Concept",
+      "来源": "Thoughts on Genderify, gender discrimination, transphobia, and (un)ethical AI."
+    }
+  }
+}

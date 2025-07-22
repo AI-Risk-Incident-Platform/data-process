@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DHSFacialRecognitionSystem",
+      "中文名称": "DHS面部识别系统",
+      "英文名称": "DHS Facial Recognition System",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DHS biometrics collected from migrant kids could solve FRT training dataset shortfalls"
+    },
+    "AISubject": {
+      "id": "MigrantChildren",
+      "中文名称": "移民儿童",
+      "英文名称": "Migrant Children",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Purpose": {
+      "id": "FRTTrainingDatasetEnhancement",
+      "中文名称": "面部识别技术训练数据集增强",
+      "英文名称": "FRT Training Dataset Enhancement",
+      "来源": "DHS biometrics collected from migrant kids could solve FRT training dataset shortfalls"
+    },
+    "Domain": {
+      "id": "BorderSecurity",
+      "中文名称": "边境安全",
+      "英文名称": "Immigration & Border Control",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "Stakeholder": {
+      "id": "USDepartmentOfHomelandSecurity",
+      "中文名称": "美国国土安全部",
+      "英文名称": "US Department of Homeland Security",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Consequence": {
+      "id": "PersonalDataCollectionWithoutConsent",
+      "中文名称": "未经同意的个人数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyRightsViolation",
+      "中文名称": "儿童隐私权侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollectionFromMinors",
+      "中文名称": "未成年人生物特征数据收集",
+      "英文名称": "Biometric Data Collection From Minors",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DHSFacialRecognitionSystem",
+      "中文名称": "DHS面部识别系统",
+      "英文名称": "DHS Facial Recognition System",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "DHS biometrics collected from migrant kids could solve FRT training dataset shortfalls"
+    },
+    "AISubject": {
+      "id": "MigrantChildren",
+      "中文名称": "移民儿童",
+      "英文名称": "Migrant Children",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Purpose": {
+      "id": "FRTTrainingDatasetEnhancement",
+      "中文名称": "面部识别技术训练数据集增强",
+      "英文名称": "FRT Training Dataset Enhancement",
+      "来源": "DHS biometrics collected from migrant kids could solve FRT training dataset shortfalls"
+    },
+    "Domain": {
+      "id": "BorderSecurity",
+      "中文名称": "边境安全",
+      "英文名称": "Immigration & Border Control",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "Stakeholder": {
+      "id": "USDepartmentOfHomelandSecurity",
+      "中文名称": "美国国土安全部",
+      "英文名称": "US Department of Homeland Security",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Consequence": {
+      "id": "PersonalDataCollectionWithoutConsent",
+      "中文名称": "未经同意的个人数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyRightsViolation",
+      "中文名称": "儿童隐私权侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "DHS is planning on using facial recognition technology on children at the border"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollectionFromMinors",
+      "中文名称": "未成年人生物特征数据收集",
+      "英文名称": "Biometric Data Collection From Minors",
+      "来源": "US Homeland Security will reportedly collect face scans of migrant kids"
+    }
+  }
+}

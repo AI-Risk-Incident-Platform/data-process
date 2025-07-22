@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MisuseRisk ;
+    airo:hasStakeholder ex:Hacker .
+
+ex:MisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Misuse Risk"@en ;
+    rdfs:label "滥用风险"@zh ;
+    airo:hasConsequence ex:PotentialHarm ;
+    airo:isRiskSourceFor ex:PromptInjection ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PotentialHarm rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm Consequence"@en ;
+    rdfs:label "潜在危害后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:Hacker rdf:type airo:Stakeholder ;
+    rdfs:label "Hacker"@en ;
+    rdfs:label "黑客"@zh .
+
+ex:InstructionProvision rdf:type airo:Misuse ;
+    rdfs:label "Instruction Provision Misuse"@en ;
+    rdfs:label "提供危险指导"@zh .
+
+ex:PromptInjection rdf:type airo:RiskSource ;
+    rdfs:label "Prompt Injection Risk Source"@en ;
+    rdfs:label "提示注入"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:Hacker .

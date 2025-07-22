@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialIDTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition technology raises concerns about privacy violations"
+    },
+    "Stakeholder": {
+      "id": "ZimbabweGovernment",
+      "中文名称": "津巴布韦政府",
+      "英文名称": "Zimbabwe Government",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "AIProvider": {
+      "id": "ChineseTechCompany",
+      "中文名称": "中国科技公司",
+      "英文名称": "Chinese Tech Company",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Facial recognition technology is often used for public security purposes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialIDTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition technology raises concerns about privacy violations"
+    },
+    "Stakeholder": {
+      "id": "ZimbabweGovernment",
+      "中文名称": "津巴布韦政府",
+      "英文名称": "Zimbabwe Government",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "AIProvider": {
+      "id": "ChineseTechCompany",
+      "中文名称": "中国科技公司",
+      "英文名称": "Chinese Tech Company",
+      "来源": "Zimbabwe imports facial ID technology from China"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Facial recognition technology is often used for public security purposes"
+    }
+  }
+}

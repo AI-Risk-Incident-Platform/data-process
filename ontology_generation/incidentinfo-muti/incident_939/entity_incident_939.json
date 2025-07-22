@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GmailSecuritySystem",
+      "中文名称": "Gmail安全系统",
+      "英文名称": "Gmail Security System",
+      "来源": "Gmail Security Warning For 2.5 Billion Users—AI Hack Confirmed"
+    },
+    "Risk": {
+      "id": "AIHackRisk",
+      "中文名称": "AI黑客攻击风险",
+      "英文名称": "AI Hack Risk",
+      "来源": "Gmail Security Warning For 2.5 Billion Users—AI Hack Confirmed"
+    },
+    "Stakeholder": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google takes action after coder reports 'most sophisticated attack I've ever seen'"
+    },
+    "AISubject": {
+      "id": "GmailUsers",
+      "中文名称": "Gmail用户",
+      "英文名称": "Gmail Users",
+      "来源": "Gmail Security Warning For 2.5 Billion Users—AI Hack Confirmed"
+    },
+    "Impact": {
+      "id": "DataBreachImpact",
+      "中文名称": "数据泄露影响",
+      "英文名称": "Data Breach Impact",
+      "来源": "Gmail Security Warning For 2.5 Billion Users—AI Hack Confirmed"
+    },
+    "RiskSource": {
+      "id": "GoogleSubdomainsExploitation",
+      "中文名称": "谷歌子域名利用",
+      "英文名称": "Google Subdomains Exploitation",
+      "来源": "Hackers leverage Google’s phone number, subdomains to attack victims"
+    },
+    "AITechnique": {
+      "id": "SophisticatedAIAttackTechnique",
+      "中文名称": "复杂AI攻击技术",
+      "英文名称": "Sophisticated AI Attack Technique",
+      "来源": "Google takes action after coder reports 'most sophisticated attack I've ever seen'"
+    }
+  }
+}

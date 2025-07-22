@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EmotionDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Emotion Detection AI"@en ;
+    rdfs:label "情绪检测AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:PassengerEmotionMonitoring ;
+    airo:isAppliedWithinDomain ex:PublicTransportation ;
+    airo:usesTechnique ex:FacialRecognition ;
+    airo:isDeployedBy ex:NetworkRail ;
+    airo:isProvidedBy ex:Amazon ;
+    airo:hasStakeholder ex:RailwayPassengers .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:LossOfPersonalPrivacy ;
+    airo:isRiskSourceFor ex:CovertSurveillance .
+
+ex:RailwayPassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Railway Passengers"@en ;
+    rdfs:label "铁路乘客"@zh .
+
+ex:NetworkRail rdf:type airo:AIOperator ;
+    rdfs:label "Network Rail"@en ;
+    rdfs:label "铁路网络公司"@zh .
+
+ex:Amazon rdf:type airo:AIProvider ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:EmotionalPrivacyInvasion rdf:type airo:Impact ;
+    rdfs:label "Emotional Privacy Invasion"@en ;
+    rdfs:label "情感隐私侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:RailwayPassengers .
+
+ex:PassengerEmotionMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Passenger Emotion Monitoring"@en ;
+    rdfs:label "乘客情绪监控"@zh .
+
+ex:PublicTransportation rdf:type airo:Domain ;
+    rdfs:label "Public Transportation"@en ;
+    rdfs:label "公共交通"@zh .
+
+ex:FacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition"@en ;
+    rdfs:label "面部识别"@zh .
+
+ex:CovertSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Covert Surveillance"@en ;
+    rdfs:label "隐蔽监控"@zh .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Consequence ;
+    rdfs:label "Loss of Personal Privacy"@en ;
+    rdfs:label "个人隐私丧失"@zh ;
+    airo:hasImpact ex:EmotionalPrivacyInvasion .

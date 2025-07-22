@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:StarshipDeliveryRobots rdf:type airo:AISystem ;
+    rdfs:label "Starship Delivery Robots"@en ;
+    rdfs:label "Starship送货机器人"@zh ;
+    airo:hasRisk ex:AccessibilityHazardRisk ;
+    airo:hasAISubject ex:WheelchairUsers ;
+    airo:hasStakeholder ex:UniversityOfPittsburgh ;
+    airo:isAppliedWithinDomain ex:CampusLogisticsDomain .
+
+ex:AccessibilityHazardRisk rdf:type airo:Risk ;
+    rdfs:label "Accessibility Hazard Risk"@en ;
+    rdfs:label "无障碍危害风险"@zh ;
+    airo:hasConsequence ex:ServiceSuspensionConsequence .
+
+ex:WheelchairUsers rdf:type airo:AISubject ;
+    rdfs:label "Wheelchair Users"@en ;
+    rdfs:label "轮椅使用者"@zh .
+
+ex:UniversityOfPittsburgh rdf:type airo:Stakeholder ;
+    rdfs:label "University of Pittsburgh"@en ;
+    rdfs:label "匹兹堡大学"@zh .
+
+ex:ServiceSuspensionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Service Suspension Consequence"@en ;
+    rdfs:label "服务暂停后果"@zh .
+
+ex:CampusLogisticsDomain rdf:type airo:Domain ;
+    rdfs:label "Campus Logistics Domain"@en ;
+    rdfs:label "校园物流领域"@zh .

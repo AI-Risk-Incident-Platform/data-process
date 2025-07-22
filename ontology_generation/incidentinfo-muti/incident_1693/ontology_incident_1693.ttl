@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:InaccurateCancerTreatmentRecommendationRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessingForMedicalAdvice ;
+    airo:hasPurpose ex:MedicalTreatmentRecommendation ;
+    airo:isAppliedWithinDomain ex:MedicalOncology ;
+    airo:hasStakeholder ex:CancerPatients .
+
+ex:InaccurateCancerTreatmentRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Cancer Treatment Recommendation Risk"@en ;
+    rdfs:label "癌症治疗推荐不准确风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToPatients ;
+    airo:isRiskSourceFor ex:LackOfMedicalDomainExpertise ;
+    airo:hasVulnerability ex:OverrelianceOnAIForComplexMedicalDecisions .
+
+ex:PotentialHarmToPatients rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Patients Consequence"@en ;
+    rdfs:label "对患者潜在伤害后果"@zh ;
+    airo:hasImpact ex:PatientSafetyConcerns .
+
+ex:MedicalOncology rdf:type airo:Domain ;
+    rdfs:label "Medical Oncology Domain"@en ;
+    rdfs:label "医学肿瘤学领域"@zh .
+
+ex:NaturalLanguageProcessingForMedicalAdvice rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Medical Advice Capability"@en ;
+    rdfs:label "医疗建议的自然语言处理能力"@zh .
+
+ex:CancerPatients rdf:type airo:Stakeholder ;
+    rdfs:label "Cancer Patients"@en ;
+    rdfs:label "癌症患者"@zh .
+
+ex:PatientSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Patient Safety Concerns Impact"@en ;
+    rdfs:label "患者安全隐患影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CancerPatients .
+
+ex:MedicalTreatmentRecommendation rdf:type airo:Purpose ;
+    rdfs:label "Medical Treatment Recommendation Purpose"@en ;
+    rdfs:label "医疗治疗推荐目的"@zh .
+
+ex:LackOfMedicalDomainExpertise rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Medical Domain Expertise Risk Source"@en ;
+    rdfs:label "缺乏医学领域专业知识风险源"@zh .
+
+ex:OverrelianceOnAIForComplexMedicalDecisions rdf:type airo:Vulnerability ;
+    rdfs:label "Overreliance on AI for Complex Medical Decisions Vulnerability"@en ;
+    rdfs:label "复杂医疗决策过度依赖AI的脆弱性"@zh .

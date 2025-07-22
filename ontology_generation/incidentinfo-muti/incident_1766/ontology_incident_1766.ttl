@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa"@en ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    airo:hasRisk ex:PhysicalHarmRisk ;
+    airo:hasAISubject ex:ChildUser ;
+    airo:hasStakeholder ex:Amazon ;
+    airo:hasPurpose ex:VoiceAssistantService ;
+    airo:isAppliedWithinDomain ex:SmartHome .
+
+ex:PhysicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Harm Risk"@en ;
+    rdfs:label "身体伤害风险"@zh ;
+    airo:hasConsequence ex:PotentialElectricShock ;
+    airo:isRiskSourceFor ex:InappropriateResponseGeneration .
+
+ex:PotentialElectricShock rdf:type airo:Consequence ;
+    rdfs:label "Potential Electric Shock Consequence"@en ;
+    rdfs:label "潜在触电后果"@zh ;
+    airo:hasImpact ex:ChildSafetyThreat .
+
+ex:ChildUser rdf:type airo:AISubject ;
+    rdfs:label "Child User"@en ;
+    rdfs:label "儿童用户"@zh .
+
+ex:Amazon rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:InappropriateResponseGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Response Generation Risk Source"@en ;
+    rdfs:label "不当回应生成"@zh .
+
+ex:ChildSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Child Safety Threat Impact"@en ;
+    rdfs:label "儿童安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildUser .
+
+ex:VoiceAssistantService rdf:type airo:Purpose ;
+    rdfs:label "Voice Assistant Service Purpose"@en ;
+    rdfs:label "语音助手服务"@zh .
+
+ex:SmartHome rdf:type airo:Domain ;
+    rdfs:label "Smart Home Domain"@en ;
+    rdfs:label "智能家居"@zh .

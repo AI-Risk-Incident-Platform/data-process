@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NutriScoreAlgorithm",
+      "中文名称": "Nutri-Score算法",
+      "英文名称": "Nutri-Score Algorithm",
+      "来源": "Despite transparency, the Nutri-Score algorithm faces strong resistance"
+    },
+    "Risk": {
+      "id": "ResistanceToAlgorithmAdoption",
+      "中文名称": "算法采用阻力风险",
+      "英文名称": "Resistance to Algorithm Adoption Risk",
+      "来源": "the Nutri-Score algorithm faces strong resistance"
+    },
+    "Stakeholder": {
+      "id": "FoodIndustry",
+      "中文名称": "食品行业",
+      "英文名称": "Food Industry",
+      "来源": "faces strong resistance"
+    },
+    "Purpose": {
+      "id": "NutritionalLabeling",
+      "中文名称": "营养标签",
+      "英文名称": "Nutritional Labeling",
+      "来源": "Nutri-Score algorithm"
+    },
+    "Domain": {
+      "id": "FoodLabeling",
+      "中文名称": "食品标签",
+      "英文名称": "Food Labeling",
+      "来源": "Nutri-Score algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NutriScoreAlgorithm",
+      "中文名称": "Nutri-Score算法",
+      "英文名称": "Nutri-Score Algorithm",
+      "来源": "Despite transparency, the Nutri-Score algorithm faces strong resistance"
+    },
+    "Risk": {
+      "id": "ResistanceToAlgorithmAdoption",
+      "中文名称": "算法采用阻力风险",
+      "英文名称": "Resistance to Algorithm Adoption Risk",
+      "来源": "the Nutri-Score algorithm faces strong resistance"
+    },
+    "Stakeholder": {
+      "id": "FoodIndustry",
+      "中文名称": "食品行业",
+      "英文名称": "Food Industry",
+      "来源": "faces strong resistance"
+    },
+    "Purpose": {
+      "id": "NutritionalLabeling",
+      "中文名称": "营养标签",
+      "英文名称": "Nutritional Labeling",
+      "来源": "Nutri-Score algorithm"
+    },
+    "Domain": {
+      "id": "FoodLabeling",
+      "中文名称": "食品标签",
+      "英文名称": "Food Labeling",
+      "来源": "Nutri-Score algorithm"
+    }
+  }
+}

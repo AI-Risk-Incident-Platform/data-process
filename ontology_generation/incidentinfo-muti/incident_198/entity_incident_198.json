@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ThreatAlertSystem",
+      "中文名称": "威胁警报系统",
+      "英文名称": "Threat Alert System",
+      "来源": "False positives still cause threat alert fatigue"
+    },
+    "Risk": {
+      "id": "AlertFatigueRisk",
+      "中文名称": "警报疲劳风险",
+      "英文名称": "Alert Fatigue Risk",
+      "来源": "False positives still cause threat alert fatigue"
+    },
+    "Consequence": {
+      "id": "ReducedResponseEffectiveness",
+      "中文名称": "响应效率降低后果",
+      "英文名称": "Reduced Response Effectiveness Consequence",
+      "来源": "False positives still cause threat alert fatigue"
+    },
+    "RiskSource": {
+      "id": "FalsePositiveAlerts",
+      "中文名称": "误报警报风险源",
+      "英文名称": "False Positive Alerts Risk Source",
+      "来源": "False positives still cause threat alert fatigue"
+    },
+    "Impact": {
+      "id": "SecurityTeamPerformanceDegradation",
+      "中文名称": "安全团队表现下降影响",
+      "英文名称": "Security Team Performance Degradation Impact",
+      "来源": "False positives still cause threat alert fatigue"
+    }
+  }
+}

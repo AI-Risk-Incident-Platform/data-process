@@ -1,0 +1,88 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaOpenSourceAI rdf:type airo:AISystem ;
+    rdfs:label "Meta Open Source AI"@en ;
+    rdfs:label "Meta开源AI"@zh ;
+    airo:hasRisk ex:SexualizedAIUsageRisk ;
+    airo:hasCapability ex:ChatbotCreationCapability ;
+    airo:isDevelopedBy ex:Meta ;
+    airo:hasPurpose ex:GeneralPurposeChatbotCreation ;
+    airo:hasStakeholder ex:AIUsersCreatingSexbots ;
+    airo:hasAISubject ex:ChatbotUsers ;
+    airo:isAppliedWithinDomain ex:OpenSourceAIDevelopment ;
+    airo:usesTechnique ex:OpenSourceAITechnique .
+
+ex:SexualizedAIUsageRisk rdf:type airo:Risk ;
+    rdfs:label "Sexualized AI Usage Risk"@en ;
+    rdfs:label "性化AI使用风险"@zh ;
+    airo:hasConsequence ex:InappropriateContentCreation ;
+    airo:isRiskSourceFor ex:OpenSourceNature ;
+    airo:isRiskSourceFor ex:MisuseForSexualContent ;
+    airo:isRiskSourceFor ex:UnintendedUseCases .
+
+ex:InappropriateContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Inappropriate Content Creation Consequence"@en ;
+    rdfs:label "不当内容创作后果"@zh ;
+    airo:hasImpact ex:SocialEthicalConcerns .
+
+ex:ChatbotCreationCapability rdf:type airo:AICapability ;
+    rdfs:label "Chatbot Creation Capability"@en ;
+    rdfs:label "聊天机器人创建能力"@zh .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:AIUsersCreatingSexbots rdf:type airo:Stakeholder ;
+    rdfs:label "AI Users Creating Sexbots"@en ;
+    rdfs:label "创建性爱机器人的AI用户"@zh .
+
+ex:ChatbotUsers rdf:type airo:AISubject ;
+    rdfs:label "Chatbot Users"@en ;
+    rdfs:label "聊天机器人用户"@zh .
+
+ex:SocialEthicalConcerns rdf:type airo:Impact ;
+    rdfs:label "Social Ethical Concerns Impact"@en ;
+    rdfs:label "社会伦理担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatbotUsers .
+
+ex:GeneralPurposeChatbotCreation rdf:type airo:Purpose ;
+    rdfs:label "General Purpose Chatbot Creation Purpose"@en ;
+    rdfs:label "通用聊天机器人创建目的"@zh .
+
+ex:OpenSourceAIDevelopment rdf:type airo:Domain ;
+    rdfs:label "Open Source AI Development Domain"@en ;
+    rdfs:label "开源AI开发领域"@zh .
+
+ex:OpenSourceAITechnique rdf:type airo:AITechnique ;
+    rdfs:label "Open Source AI Technique"@en ;
+    rdfs:label "开源AI技术"@zh .
+
+ex:OpenSourceNature rdf:type airo:RiskSource ;
+    rdfs:label "Open Source Nature Risk Source"@en ;
+    rdfs:label "开源性质风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentRestrictions .
+
+ex:MisuseForSexualContent rdf:type airo:Threat ;
+    rdfs:label "Misuse for Sexual Content Threat"@en ;
+    rdfs:label "用于性内容的误用威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentRestrictions .
+
+ex:UnintendedUseCases rdf:type airo:Hazard ;
+    rdfs:label "Unintended Use Cases Hazard"@en ;
+    rdfs:label "意外使用案例危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentRestrictions .
+
+ex:LackOfContentRestrictions rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Restrictions Vulnerability"@en ;
+    rdfs:label "内容限制不足的脆弱性"@zh .

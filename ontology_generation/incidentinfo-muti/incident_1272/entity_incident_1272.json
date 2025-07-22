@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedLegalCitations",
+      "中文名称": "AI生成法律引用",
+      "英文名称": "AI Generated Legal Citations",
+      "来源": "Melbourne lawyer referred to complaints body after AI generated made-up case citations in family court"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misinformation Risk",
+      "来源": "Lawyer Caught Out Submitting AI Generated List of Fabricated Cases to Court"
+    },
+    "Consequence": {
+      "id": "JudicialSystemDisruption",
+      "中文名称": "司法系统干扰后果",
+      "英文名称": "Judicial System Disruption Consequence",
+      "来源": "People are citing non-existent cases and giving rambling statements in court. Judges blame AI"
+    },
+    "AIOperator": {
+      "id": "MelbourneLawyer",
+      "中文名称": "墨尔本律师",
+      "英文名称": "Melbourne Lawyer",
+      "来源": "Melbourne lawyer referred to complaints body after AI generated made-up case citations in family court"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Judicial System",
+      "来源": "People are citing non-existent cases and giving rambling statements in court. Judges blame AI"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal Services Domain",
+      "来源": "Melbourne lawyer referred to complaints body after AI generated made-up case citations in family court"
+    },
+    "RiskSource": {
+      "id": "AIHallucination",
+      "中文名称": "AI幻觉风险源",
+      "英文名称": "AI Hallucination Risk Source",
+      "来源": "AI generated made-up case citations in family court"
+    },
+    "Impact": {
+      "id": "LegalProceedingsDelay",
+      "中文名称": "法律程序延误影响",
+      "英文名称": "Legal Proceedings Delay Impact",
+      "来源": "People are citing non-existent cases and giving rambling statements in court"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Risk": {
+      "id": "MotorcyclistFatalityRisk",
+      "中文名称": "摩托车手死亡风险",
+      "英文名称": "Motorcyclist Fatality Risk",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Consequence": {
+      "id": "FatalMotorcycleCrash",
+      "中文名称": "致命摩托车事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Motorcycle Advocates Warn Of Tesla Autopilot After Latest Fatal Crash With Biker"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "Stakeholder": {
+      "id": "MotorcycleAdvocates",
+      "中文名称": "摩托车倡导者",
+      "英文名称": "Motorcycle Advocates",
+      "来源": "Motorcycle Advocates Warn Of Tesla Autopilot After Latest Fatal Crash With Biker"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Risk": {
+      "id": "MotorcyclistFatalityRisk",
+      "中文名称": "摩托车手死亡风险",
+      "英文名称": "Motorcyclist Fatality Risk",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Consequence": {
+      "id": "FatalMotorcycleCrash",
+      "中文名称": "致命摩托车事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Motorcycle Advocates Warn Of Tesla Autopilot After Latest Fatal Crash With Biker"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "Stakeholder": {
+      "id": "MotorcycleAdvocates",
+      "中文名称": "摩托车倡导者",
+      "英文名称": "Motorcycle Advocates",
+      "来源": "Motorcycle Advocates Warn Of Tesla Autopilot After Latest Fatal Crash With Biker"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Tesla Autopilot Involvement Suspected In Third Motorcyclist Death In 2022"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla Autopilot’s safety questioned after latest fatal motorcycle crash"
+    }
+  }
+}

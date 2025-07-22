@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT was shut down due to a bug that exposed user chat titles"
+    },
+    "Risk": {
+      "id": "UserDataPrivacyRisk",
+      "中文名称": "用户数据隐私风险",
+      "英文名称": "User Data Privacy Risk",
+      "来源": "The ChatGPT bug exposed more private data than previously thought"
+    },
+    "Consequence": {
+      "id": "PrivateDataExposure",
+      "中文名称": "私人数据泄露后果",
+      "英文名称": "Private Data Exposure Consequence",
+      "来源": "ChatGPT bug leaked users' conversation histories"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI confirms"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "exposed more private data than previously thought"
+    },
+    "RiskSource": {
+      "id": "SoftwareBug",
+      "中文名称": "软件漏洞风险源",
+      "英文名称": "Software Bug Risk Source",
+      "来源": "ChatGPT was shut down due to a bug"
+    },
+    "AISubject": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "exposed user chat titles"
+    }
+  }
+}

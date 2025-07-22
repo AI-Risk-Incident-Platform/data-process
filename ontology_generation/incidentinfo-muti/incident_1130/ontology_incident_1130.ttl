@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookNewsFeedAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Facebook News Feed Algorithm"@en ;
+    rdfs:label "Facebook新闻推送算法"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasCapability ex:ContentEngagementOptimization ;
+    airo:hasPurpose ex:MaximizeUserEngagement ;
+    airo:hasStakeholder ex:FacebookUsers .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:SocialPolarization ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasTowardsEngagement .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:ContentEngagementOptimization rdf:type airo:AICapability ;
+    rdfs:label "Content Engagement Optimization Capability"@en ;
+    rdfs:label "内容参与度优化能力"@zh .
+
+ex:MaximizeUserEngagement rdf:type airo:Purpose ;
+    rdfs:label "Maximize User Engagement Purpose"@en ;
+    rdfs:label "最大化用户参与度"@zh .
+
+ex:SocialPolarization rdf:type airo:Consequence ;
+    rdfs:label "Social Polarization Consequence"@en ;
+    rdfs:label "社会两极分化后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:AlgorithmicBiasTowardsEngagement rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Towards Engagement Risk Source"@en ;
+    rdfs:label "偏向参与度的算法偏见风险源"@zh .

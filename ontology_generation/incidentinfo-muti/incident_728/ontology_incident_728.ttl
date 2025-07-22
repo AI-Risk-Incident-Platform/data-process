@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICodeHelper rdf:type airo:AISystem ;
+    rdfs:label "AI代码助手"@zh ;
+    rdfs:label "AI Code Helper"@en ;
+    airo:hasRisk ex:SoftwareSupplyChainAttackRisk ;
+    airo:hasCapability ex:PackageNameGeneration ;
+    airo:hasStakeholder ex:SoftwareDevelopers .
+
+ex:SoftwareSupplyChainAttackRisk rdf:type airo:Risk ;
+    rdfs:label "软件供应链攻击风险"@zh ;
+    rdfs:label "Software Supply Chain Attack Risk"@en ;
+    airo:hasConsequence ex:MalwareInfection ;
+    airo:isRiskSourceFor ex:HallucinatedPackageNames .
+
+ex:MalwareInfection rdf:type airo:Consequence ;
+    rdfs:label "恶意软件感染后果"@zh ;
+    rdfs:label "Malware Infection Consequence"@en ;
+    airo:hasImpact ex:CompromisedDevelopmentEnvironment .
+
+ex:PackageNameGeneration rdf:type airo:AICapability ;
+    rdfs:label "软件包名称生成能力"@zh ;
+    rdfs:label "Package Name Generation Capability"@en .
+
+ex:SoftwareDevelopers rdf:type airo:Stakeholder ;
+    rdfs:label "软件开发人员"@zh ;
+    rdfs:label "Software Developers"@en .
+
+ex:HallucinatedPackageNames rdf:type airo:RiskSource ;
+    rdfs:label "虚构软件包名称风险源"@zh ;
+    rdfs:label "Hallucinated Package Names Risk Source"@en .
+
+ex:CompromisedDevelopmentEnvironment rdf:type airo:Impact ;
+    rdfs:label "开发环境被入侵的影响"@zh ;
+    rdfs:label "Compromised Development Environment Impact"@en ;
+    airo:hasImpactOnStakeholder ex:SoftwareDevelopers .

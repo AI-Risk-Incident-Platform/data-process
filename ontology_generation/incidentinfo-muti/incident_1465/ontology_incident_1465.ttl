@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAudioOfSadiqKhan rdf:type airo:AISystem ;
+    rdfs:label "萨迪克·汗的深度伪造音频"@zh ;
+    rdfs:label "Deepfake Audio of Sadiq Khan"@en ;
+    airo:hasRisk ex:PublicDisorderRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:FarRightGroups .
+
+ex:PublicDisorderRisk rdf:type airo:Risk ;
+    rdfs:label "公共秩序混乱风险"@zh ;
+    rdfs:label "Public Disorder Risk"@en ;
+    airo:hasConsequence ex:PotentialSocialUnrest ;
+    airo:isRiskSourceFor ex:PoliticalManipulation .
+
+ex:PotentialSocialUnrest rdf:type airo:Consequence ;
+    rdfs:label "潜在社会动荡后果"@zh ;
+    rdfs:label "Potential Social Unrest Consequence"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:FarRightGroups rdf:type airo:Stakeholder ;
+    rdfs:label "极右翼团体"@zh ;
+    rdfs:label "Far-Right Groups"@en .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:FarRightGroups .
+
+ex:PoliticalManipulation rdf:type airo:RiskSource ;
+    rdfs:label "政治操纵风险源"@zh ;
+    rdfs:label "Political Manipulation Risk Source"@en .

@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:XpengP7NGPSystem rdf:type airo:AISystem ;
+    rdfs:label "小鹏P7 NGP自动导航辅助驾驶系统"@zh ;
+    rdfs:label "Xpeng P7 NGP Automatic Navigation Assisted Driving System"@en ;
+    airo:hasRisk ex:AutonomousDrivingCollisionRisk ;
+    airo:hasAICapability ex:AutomaticNavigationAssistance ;
+    airo:isDeployedBy ex:XpengMotors ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving .
+
+ex:AutonomousDrivingCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶碰撞风险"@zh ;
+    rdfs:label "Autonomous Driving Collision Risk"@en ;
+    airo:hasConsequence ex:VehicleCollision ;
+    airo:isRiskSourceFor ex:ObjectDetectionFailure .
+
+ex:VehicleCollision rdf:type airo:Consequence ;
+    rdfs:label "车辆碰撞后果"@zh ;
+    rdfs:label "Vehicle Collision Consequence"@en ;
+    airo:hasImpact ex:TrafficSafetyThreat .
+
+ex:AutomaticNavigationAssistance rdf:type airo:AICapability ;
+    rdfs:label "自动导航辅助能力"@zh ;
+    rdfs:label "Automatic Navigation Assistance Capability"@en .
+
+ex:XpengMotors rdf:type airo:AIOperator ;
+    rdfs:label "小鹏汽车"@zh ;
+    rdfs:label "Xpeng Motors"@en .
+
+ex:ObjectDetectionFailure rdf:type airo:RiskSource ;
+    rdfs:label "物体检测失败风险源"@zh ;
+    rdfs:label "Object Detection Failure Risk Source"@en ;
+    airo:exploitsVulnerability ex:SensorLimitation .
+
+ex:TrafficSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "交通安全威胁影响"@zh ;
+    rdfs:label "Traffic Safety Threat Impact"@en .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "自动驾驶领域"@zh ;
+    rdfs:label "Autonomous Driving Domain"@en .
+
+ex:SensorLimitation rdf:type airo:Vulnerability ;
+    rdfs:label "传感器限制脆弱性"@zh ;
+    rdfs:label "Sensor Limitation Vulnerability"@en .

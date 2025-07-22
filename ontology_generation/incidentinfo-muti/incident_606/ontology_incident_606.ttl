@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchAI rdf:type airo:AISystem ;
+    rdfs:label "Google Search AI"@en ;
+    rdfs:label "谷歌搜索AI"@zh ;
+    airo:hasRisk ex:InaccurateInformationRisk ;
+    airo:hasCapability ex:InformationRetrieval ;
+    airo:isAppliedWithinDomain ex:SearchEngine .
+
+ex:InaccurateInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Information Risk"@en ;
+    rdfs:label "信息不准确风险"@zh ;
+    airo:hasConsequence ex:MisleadingInformation .
+
+ex:InformationRetrieval rdf:type airo:AICapability ;
+    rdfs:label "Information Retrieval Capability"@en ;
+    rdfs:label "信息检索能力"@zh .
+
+ex:SearchEngine rdf:type airo:Domain ;
+    rdfs:label "Search Engine Domain"@en ;
+    rdfs:label "搜索引擎领域"@zh .
+
+ex:MisleadingInformation rdf:type airo:Consequence ;
+    rdfs:label "Misleading Information Consequence"@en ;
+    rdfs:label "误导性信息后果"@zh ;
+    airo:hasImpact ex:UserTrustErosion .
+
+ex:UserTrustErosion rdf:type airo:Impact ;
+    rdfs:label "User Trust Erosion Impact"@en ;
+    rdfs:label "用户信任度下降影响"@zh .

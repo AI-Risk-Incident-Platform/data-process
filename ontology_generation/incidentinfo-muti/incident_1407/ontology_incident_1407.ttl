@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NewsBreakAISystem rdf:type airo:AISystem ;
+    rdfs:label "NewsBreak AI System"@en ;
+    rdfs:label "NewsBreak AI系统"@zh ;
+    airo:hasRisk ex:DisseminationOfFalseInformationRisk ;
+    airo:hasCapability ex:AutomatedNewsGenerationCapability ;
+    airo:isDeployedBy ex:NewsBreakCompany ;
+    airo:hasPurpose ex:AutomatedNewsDistributionPurpose ;
+    airo:hasStakeholder ex:NewsConsumers ;
+    airo:isAppliedWithinDomain ex:DigitalMediaDomain ;
+    airo:usesTechnique ex:NaturalLanguageGenerationTechnique ;
+    airo:hasVulnerability ex:LackOfFactCheckingMechanismsVulnerability .
+
+ex:DisseminationOfFalseInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Dissemination of False Information Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformationConsequence ;
+    airo:isRiskSourceFor ex:UnsupervisedContentProductionRiskSource ;
+    airo:isRiskSourceFor ex:MassDisinformationThreat ;
+    airo:isRiskSourceFor ex:UnverifiedContentGenerationHazard .
+
+ex:PublicMisinformationConsequence rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众误导后果"@zh ;
+    airo:hasImpact ex:ErosionOfTrustInMediaImpact .
+
+ex:AutomatedNewsGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Automated News Generation Capability"@en ;
+    rdfs:label "自动化新闻生成能力"@zh .
+
+ex:NewsBreakCompany rdf:type airo:AIOperator ;
+    rdfs:label "NewsBreak Company"@en ;
+    rdfs:label "NewsBreak公司"@zh .
+
+ex:NewsConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "News Consumers"@en ;
+    rdfs:label "新闻消费者"@zh .
+
+ex:ErosionOfTrustInMediaImpact rdf:type airo:Impact ;
+    rdfs:label "Erosion of Trust in Media Impact"@en ;
+    rdfs:label "媒体信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsConsumers .
+
+ex:AutomatedNewsDistributionPurpose rdf:type airo:Purpose ;
+    rdfs:label "Automated News Distribution Purpose"@en ;
+    rdfs:label "自动化新闻分发的目的"@zh .
+
+ex:DigitalMediaDomain rdf:type airo:Domain ;
+    rdfs:label "Digital Media Domain"@en ;
+    rdfs:label "数字媒体领域"@zh .
+
+ex:NaturalLanguageGenerationTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:LackOfFactCheckingMechanismsVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Fact-Checking Mechanisms Vulnerability"@en ;
+    rdfs:label "缺乏事实核查机制的脆弱性"@zh .
+
+ex:MassDisinformationThreat rdf:type airo:Threat ;
+    rdfs:label "Mass Disinformation Threat"@en ;
+    rdfs:label "大规模虚假信息的威胁"@zh .
+
+ex:UnverifiedContentGenerationHazard rdf:type airo:Hazard ;
+    rdfs:label "Unverified Content Generation Hazard"@en ;
+    rdfs:label "未经验证内容生成的危害"@zh .
+
+ex:UnsupervisedContentProductionRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Unsupervised Content Production Risk Source"@en ;
+    rdfs:label "无监督内容生产的风险源"@zh .
+
+ex:EthicalChallengesInAutomatedJournalismRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in Automated Journalism Risk Concept"@en ;
+    rdfs:label "自动化新闻中的伦理挑战"@zh .

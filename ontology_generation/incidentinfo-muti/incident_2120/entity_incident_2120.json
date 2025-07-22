@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepScoreTrustworthinessApp",
+      "中文名称": "DeepScore信任度评分应用",
+      "英文名称": "DeepScore Trustworthiness App",
+      "来源": "DeepScore designs a mobile app for lenders and insurers to score customer trustworthiness"
+    },
+    "Risk": {
+      "id": "UnreliableTrustworthinessAssessmentRisk",
+      "中文名称": "不可靠的信任度评估风险",
+      "英文名称": "Unreliable Trustworthiness Assessment Risk",
+      "来源": "This App Claims It Can Detect 'Trustworthiness.' It Can't"
+    },
+    "AICapability": {
+      "id": "CustomerTrustworthinessScoring",
+      "中文名称": "客户信任度评分能力",
+      "英文名称": "Customer Trustworthiness Scoring Capability",
+      "来源": "DeepScore designs a mobile app for lenders and insurers to score customer trustworthiness"
+    },
+    "Purpose": {
+      "id": "AssessingCustomerTrustworthiness",
+      "中文名称": "评估客户信任度的目的",
+      "英文名称": "Assessing Customer Trustworthiness Purpose",
+      "来源": "DeepScore designs a mobile app for lenders and insurers to score customer trustworthiness"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "DeepScore designs a mobile app for lenders and insurers"
+    },
+    "Stakeholder": {
+      "id": "LendersAndInsurers",
+      "中文名称": "贷款机构和保险公司",
+      "英文名称": "Lenders and Insurers",
+      "来源": "DeepScore designs a mobile app for lenders and insurers"
+    },
+    "Consequence": {
+      "id": "InaccurateCreditDecisions",
+      "中文名称": "不准确的信贷决策后果",
+      "英文名称": "Inaccurate Credit Decisions Consequence",
+      "来源": "This App Claims It Can Detect 'Trustworthiness.' It Can't"
+    },
+    "Impact": {
+      "id": "FinancialDiscrimination",
+      "中文名称": "金融歧视影响",
+      "英文名称": "Financial Discrimination Impact",
+      "来源": "This App Claims It Can Detect 'Trustworthiness.' It Can't"
+    }
+  }
+}

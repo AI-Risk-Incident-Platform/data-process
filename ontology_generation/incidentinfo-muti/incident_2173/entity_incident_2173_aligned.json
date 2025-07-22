@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedBackgroundCheckSystem",
+      "中文名称": "自动化背景调查系统",
+      "英文名称": "Automated Background Check System",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Risk": {
+      "id": "FalsePositiveRisk",
+      "中文名称": "误报风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Consequence": {
+      "id": "TenantScreeningFailure",
+      "中文名称": "租户筛选失败后果",
+      "英文名称": "Tenant Screening & Discrimination Consequences",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Stakeholder": {
+      "id": "TenantScreeningIndustry",
+      "中文名称": "租户筛选行业",
+      "英文名称": "Tenant Screening Industry",
+      "来源": "How We Investigated the Tenant Screening Industry"
+    },
+    "AISubject": {
+      "id": "Renters",
+      "中文名称": "租户",
+      "英文名称": "Renters",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Impact": {
+      "id": "HousingAccessDenial",
+      "中文名称": "住房准入被拒影响",
+      "英文名称": "Housing Discrimination Impact",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Purpose": {
+      "id": "TenantBackgroundVerification",
+      "中文名称": "租户背景验证目的",
+      "英文名称": "Tenant Screening",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Domain": {
+      "id": "HousingRentalMarket",
+      "中文名称": "住房租赁市场领域",
+      "英文名称": "Real Estate Market",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "RiskSource": {
+      "id": "FlawedScreeningAlgorithm",
+      "中文名称": "有缺陷的筛选算法风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomatedBackgroundCheckSystem",
+      "中文名称": "自动化背景调查系统",
+      "英文名称": "Automated Background Check System",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Risk": {
+      "id": "FalsePositiveRisk",
+      "中文名称": "误报风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Consequence": {
+      "id": "TenantScreeningFailure",
+      "中文名称": "租户筛选失败后果",
+      "英文名称": "Tenant Screening & Discrimination Consequences",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Stakeholder": {
+      "id": "TenantScreeningIndustry",
+      "中文名称": "租户筛选行业",
+      "英文名称": "Tenant Screening Industry",
+      "来源": "How We Investigated the Tenant Screening Industry"
+    },
+    "AISubject": {
+      "id": "Renters",
+      "中文名称": "租户",
+      "英文名称": "Renters",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Impact": {
+      "id": "HousingAccessDenial",
+      "中文名称": "住房准入被拒影响",
+      "英文名称": "Housing Discrimination Impact",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "Purpose": {
+      "id": "TenantBackgroundVerification",
+      "中文名称": "租户背景验证目的",
+      "英文名称": "Tenant Screening",
+      "来源": "Automated Background Checks Fail to Root Out False Positives"
+    },
+    "Domain": {
+      "id": "HousingRentalMarket",
+      "中文名称": "住房租赁市场领域",
+      "英文名称": "Real Estate Market",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    },
+    "RiskSource": {
+      "id": "FlawedScreeningAlgorithm",
+      "中文名称": "有缺陷的筛选算法风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Renters vs. robots: A flawed screening process is thwarting tenants"
+    }
+  }
+}

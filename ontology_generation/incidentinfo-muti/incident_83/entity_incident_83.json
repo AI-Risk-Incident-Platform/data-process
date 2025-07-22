@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "KidneyTransplantAlgorithm",
+      "中文名称": "肾脏移植算法",
+      "英文名称": "Kidney Transplant Algorithm",
+      "来源": "How an Algorithm Blocked Kidney Transplants to Black Patients"
+    },
+    "Risk": {
+      "id": "RacialBiasInMedicalAlgorithm",
+      "中文名称": "医疗算法中的种族偏见风险",
+      "英文名称": "Racial Bias in Medical Algorithm Risk",
+      "来源": "How an Algorithm Blocked Kidney Transplants to Black Patients"
+    },
+    "Consequence": {
+      "id": "DeniedKidneyTransplantsForBlackPatients",
+      "中文名称": "黑人患者被拒绝肾脏移植的后果",
+      "英文名称": "Denied Kidney Transplants for Black Patients Consequence",
+      "来源": "How an Algorithm Blocked Kidney Transplants to Black Patients"
+    },
+    "Impact": {
+      "id": "HealthDisparitiesForAfricanAmericans",
+      "中文名称": "非裔美国人健康差异的影响",
+      "英文名称": "Health Disparities for African Americans Impact",
+      "来源": "Examining the Potential Impact of Race Multiplier Utilization in Estimated Glomerular Filtration Rate Calculation on African-American Care Outcomes"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "A yearslong push to remove racist bias from kidney testing gains new ground"
+    },
+    "Stakeholder": {
+      "id": "BlackPatients",
+      "中文名称": "黑人患者",
+      "英文名称": "Black Patients",
+      "来源": "How an Algorithm Blocked Kidney Transplants to Black Patients"
+    },
+    "RiskSource": {
+      "id": "RaceMultiplierInGFRCalculation",
+      "中文名称": "肾小球滤过率计算中的种族乘数风险源",
+      "英文名称": "Race Multiplier in GFR Calculation Risk Source",
+      "来源": "Examining the Potential Impact of Race Multiplier Utilization in Estimated Glomerular Filtration Rate Calculation on African-American Care Outcomes"
+    },
+    "Purpose": {
+      "id": "KidneyFunctionAssessment",
+      "中文名称": "肾功能评估的目的",
+      "英文名称": "Kidney Function Assessment Purpose",
+      "来源": "A yearslong push to remove racist bias from kidney testing gains new ground"
+    }
+  }
+}

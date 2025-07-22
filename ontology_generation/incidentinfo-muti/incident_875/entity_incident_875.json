@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedVideosOfDoctors",
+      "中文名称": "AI生成的医生视频",
+      "英文名称": "AI Generated Videos of Doctors",
+      "来源": "Scammers using AI-generated videos of doctors to peddle supplements and harmful health advice"
+    },
+    "Risk": {
+      "id": "MisleadingHealthAdviceRisk",
+      "中文名称": "误导性健康建议风险",
+      "英文名称": "Misleading Health Advice Risk",
+      "来源": "peddle supplements and harmful health advice"
+    },
+    "Stakeholder": {
+      "id": "Scammers",
+      "中文名称": "诈骗者",
+      "英文名称": "Scammers",
+      "来源": "Scammers using AI-generated videos of doctors"
+    },
+    "AISubject": {
+      "id": "PublicHealthConsumers",
+      "中文名称": "公共卫生消费者",
+      "英文名称": "Public Health Consumers",
+      "来源": "peddle supplements and harmful health advice"
+    },
+    "Impact": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁",
+      "英文名称": "Public Health Threat",
+      "来源": "harmful health advice"
+    },
+    "AITechnique": {
+      "id": "DeepfakeVideoGeneration",
+      "中文名称": "深度伪造视频生成技术",
+      "英文名称": "Deepfake Video Generation Technique",
+      "来源": "AI-generated videos of doctors"
+    },
+    "Domain": {
+      "id": "HealthcareMarketing",
+      "中文名称": "医疗保健营销领域",
+      "英文名称": "Healthcare Marketing Domain",
+      "来源": "peddle supplements and harmful health advice"
+    },
+    "Misuse": {
+      "id": "FraudulentMarketingOfHealthProducts",
+      "中文名称": "健康产品的欺诈性营销",
+      "英文名称": "Fraudulent Marketing of Health Products",
+      "来源": "using AI-generated videos of doctors to peddle supplements"
+    }
+  }
+}

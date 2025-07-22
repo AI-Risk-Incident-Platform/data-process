@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StarshipDeliveryRobots",
+      "中文名称": "Starship送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    },
+    "Risk": {
+      "id": "AccessibilityHazardRisk",
+      "中文名称": "无障碍危害风险",
+      "英文名称": "Accessibility Hazard Risk",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "AISubject": {
+      "id": "WheelchairUsers",
+      "中文名称": "轮椅使用者",
+      "英文名称": "Wheelchair Users",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfPittsburgh",
+      "中文名称": "匹兹堡大学",
+      "英文名称": "University of Pittsburgh",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    },
+    "Consequence": {
+      "id": "ServiceSuspension",
+      "中文名称": "服务暂停后果",
+      "英文名称": "Service Discontinuation Consequence",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "Domain": {
+      "id": "CampusLogistics",
+      "中文名称": "校园物流领域",
+      "英文名称": "Campus Logistics Domain",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StarshipDeliveryRobots",
+      "中文名称": "Starship送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    },
+    "Risk": {
+      "id": "AccessibilityHazardRisk",
+      "中文名称": "无障碍危害风险",
+      "英文名称": "Accessibility Hazard Risk",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "AISubject": {
+      "id": "WheelchairUsers",
+      "中文名称": "轮椅使用者",
+      "英文名称": "Wheelchair Users",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfPittsburgh",
+      "中文名称": "匹兹堡大学",
+      "英文名称": "University of Pittsburgh",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    },
+    "Consequence": {
+      "id": "ServiceSuspension",
+      "中文名称": "服务暂停后果",
+      "英文名称": "Service Discontinuation Consequence",
+      "来源": "Pitt suspends delivery robots after wheelchair user reports safety hazard"
+    },
+    "Domain": {
+      "id": "CampusLogistics",
+      "中文名称": "校园物流领域",
+      "英文名称": "Campus Logistics Domain",
+      "来源": "Starship’s Robots Pulled From University of Pittsburgh After Accessibility Incident"
+    }
+  }
+}

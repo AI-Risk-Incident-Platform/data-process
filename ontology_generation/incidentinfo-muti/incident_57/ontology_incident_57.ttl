@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CentrelinkDebtRecoverySystem rdf:type airo:AISystem ;
+    rdfs:label "Centrelink Debt Recovery System"@en ;
+    rdfs:label "Centrelink债务追讨系统"@zh ;
+    airo:hasRisk ex:UnfairTreatmentRisk ;
+    airo:hasStakeholder ex:CentrelinkCustomers .
+
+ex:UnfairTreatmentRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Treatment Risk"@en ;
+    rdfs:label "不公平待遇风险"@zh ;
+    airo:hasConsequence ex:CustomerDissatisfaction ;
+    airo:isRiskSourceFor ex:LackOfTransparency .
+
+ex:CustomerDissatisfaction rdf:type airo:Consequence ;
+    rdfs:label "Customer Dissatisfaction Consequence"@en ;
+    rdfs:label "客户不满后果"@zh ;
+    airo:hasImpactOnStakeholder ex:CentrelinkCustomers .
+
+ex:CentrelinkCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Centrelink Customers"@en ;
+    rdfs:label "Centrelink客户"@zh .
+
+ex:LackOfTransparency rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparency Risk Source"@en ;
+    rdfs:label "缺乏透明度风险源"@zh .

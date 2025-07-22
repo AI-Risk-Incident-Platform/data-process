@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoRobotaxis",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Risk": {
+      "id": "NavigationFailureRisk",
+      "中文名称": "导航失败风险",
+      "英文名称": "Navigation Risk",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Consequence": {
+      "id": "TrafficDisruption",
+      "中文名称": "交通中断后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoResidents",
+      "中文名称": "旧金山居民",
+      "英文名称": "San Francisco Residents",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "AISubject": {
+      "id": "UrbanRoadUsers",
+      "中文名称": "城市道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "Impact": {
+      "id": "PublicNuisance",
+      "中文名称": "公共滋扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "Purpose": {
+      "id": "AutonomousRideHailing",
+      "中文名称": "自动驾驶叫车服务目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedNavigation",
+      "中文名称": "基于计算机视觉的导航技术",
+      "英文名称": "Computer Vision Navigation Technique",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Vulnerability": {
+      "id": "DeadEndStreetRecognitionFailure",
+      "中文名称": "死胡同识别失败的脆弱性",
+      "英文名称": "Dead End Street Recognition Failure Vulnerability",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Threat": {
+      "id": "InaccurateMapData",
+      "中文名称": "不准确地图数据的威胁",
+      "英文名称": "Inaccurate Map Data Threat",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Hazard": {
+      "id": "AlgorithmicNavigationError",
+      "中文名称": "算法导航错误危害",
+      "英文名称": "Algorithmic Navigation Error Hazard",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "RiskSource": {
+      "id": "InsufficientEdgeCaseTesting",
+      "中文名称": "边缘案例测试不足的风险源",
+      "英文名称": "Insufficient Edge Case Testing Risk Source",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleOperationalChallenges",
+      "中文名称": "自动驾驶车辆运营挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WaymoRobotaxis",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Risk": {
+      "id": "NavigationFailureRisk",
+      "中文名称": "导航失败风险",
+      "英文名称": "Navigation Risk",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Consequence": {
+      "id": "TrafficDisruption",
+      "中文名称": "交通中断后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoResidents",
+      "中文名称": "旧金山居民",
+      "英文名称": "San Francisco Residents",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "AISubject": {
+      "id": "UrbanRoadUsers",
+      "中文名称": "城市道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "Impact": {
+      "id": "PublicNuisance",
+      "中文名称": "公共滋扰影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "Purpose": {
+      "id": "AutonomousRideHailing",
+      "中文名称": "自动驾驶叫车服务目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedNavigation",
+      "中文名称": "基于计算机视觉的导航技术",
+      "英文名称": "Computer Vision Navigation Technique",
+      "来源": "Self-driving Waymo cars flocking to San Francisco"
+    },
+    "Vulnerability": {
+      "id": "DeadEndStreetRecognitionFailure",
+      "中文名称": "死胡同识别失败的脆弱性",
+      "英文名称": "Dead End Street Recognition Failure Vulnerability",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Threat": {
+      "id": "InaccurateMapData",
+      "中文名称": "不准确地图数据的威胁",
+      "英文名称": "Inaccurate Map Data Threat",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "Hazard": {
+      "id": "AlgorithmicNavigationError",
+      "中文名称": "算法导航错误危害",
+      "英文名称": "Algorithmic Navigation Error Hazard",
+      "来源": "‘Confused’ Waymo robotaxis keep flooding dead-end street in San Francisco"
+    },
+    "RiskSource": {
+      "id": "InsufficientEdgeCaseTesting",
+      "中文名称": "边缘案例测试不足的风险源",
+      "英文名称": "Insufficient Edge Case Testing Risk Source",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleOperationalChallenges",
+      "中文名称": "自动驾驶车辆运营挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Dead-End SF Street Plagued With Confused Waymo Cars Trying To Turn Around 'Every 5 Minutes'"
+    }
+  }
+}

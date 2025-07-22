@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VASuicidePreventionAlgorithm",
+      "中文名称": "退伍军人自杀预防算法",
+      "英文名称": "VA Suicide Prevention Algorithm",
+      "来源": "VA's Veteran Suicide Prevention Algorithm Favors Men"
+    },
+    "Risk": {
+      "id": "GenderBiasInSuicidePrevention",
+      "中文名称": "自杀预防中的性别偏见风险",
+      "英文名称": "Gender Bias in Suicide Prevention Risk",
+      "来源": "VA's Veteran Suicide Prevention Algorithm Favors Men"
+    },
+    "Consequence": {
+      "id": "UnderdiagnosisOfFemaleVeteranSuicideRisk",
+      "中文名称": "女性退伍军人自杀风险诊断不足后果",
+      "英文名称": "Underdiagnosis of Female Veteran Suicide Risk Consequence",
+      "来源": "Why is the female veteran suicide rate spiking? Could it be AI?"
+    },
+    "Impact": {
+      "id": "IncreasedSuicideRateAmongFemaleVeterans",
+      "中文名称": "女性退伍军人自杀率上升的影响",
+      "英文名称": "Increased Suicide Rate Among Female Veterans Impact",
+      "来源": "Why is the female veteran suicide rate spiking? Could it be AI?"
+    },
+    "Stakeholder": {
+      "id": "FemaleVeterans",
+      "中文名称": "女性退伍军人",
+      "英文名称": "Female Veterans",
+      "来源": "Why is the female veteran suicide rate spiking? Could it be AI?"
+    },
+    "AISubject": {
+      "id": "VeteransAtSuicideRisk",
+      "中文名称": "有自杀风险的退伍军人",
+      "英文名称": "Veterans at Suicide Risk",
+      "来源": "VA's Veteran Suicide Prevention Algorithm Favors Men"
+    },
+    "Domain": {
+      "id": "MentalHealthCare",
+      "中文名称": "心理健康护理领域",
+      "英文名称": "Mental Health Care Domain",
+      "来源": "VA's Veteran Suicide Prevention Algorithm Favors Men"
+    }
+  }
+}

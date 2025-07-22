@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceReplicationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Replication System"@en ;
+    rdfs:label "AI语音复制系统"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIReplication ;
+    airo:hasCapability ex:VoiceReplicationTechnology ;
+    airo:hasStakeholder ex:MusicArtistsAndCreators .
+
+ex:EthicalConcernsInAIReplication rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Replication Risk"@en ;
+    rdfs:label "AI复制中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:PotentialMisuseOfAIReplicatedVoices .
+
+ex:PotentialMisuseOfAIReplicatedVoices rdf:type airo:Consequence ;
+    rdfs:label "Potential Misuse of AI Replicated Voices Consequence"@en ;
+    rdfs:label "AI复制语音潜在滥用后果"@zh ;
+    airo:hasImpact ex:CopyrightInfringementImpact .
+
+ex:VoiceReplicationTechnology rdf:type airo:AICapability ;
+    rdfs:label "Voice Replication Technology Capability"@en ;
+    rdfs:label "语音复制技术能力"@zh .
+
+ex:MusicArtistsAndCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Music Artists and Creators"@en ;
+    rdfs:label "音乐艺术家和创作者"@zh .
+
+ex:CopyrightInfringementImpact rdf:type airo:Impact ;
+    rdfs:label "Copyright Infringement Impact"@en ;
+    rdfs:label "版权侵权影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MusicArtistsAndCreators .

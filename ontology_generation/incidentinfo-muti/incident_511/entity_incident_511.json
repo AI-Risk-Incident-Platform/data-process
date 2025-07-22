@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "False Accusation Risk",
+      "来源": "‘Thousands of Dollars for Something I Didn’t Do’"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "‘Thousands of Dollars for Something I Didn’t Do’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    },
+    "AISubject": {
+      "id": "AfricanAmericanCitizen",
+      "中文名称": "非裔美国公民",
+      "英文名称": "African American Citizen",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgency",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Security Domain",
+      "来源": "États-Unis : un Afro-Américain accusé à tort de vol à cause d'une intelligence artificielle"
+    }
+  }
+}

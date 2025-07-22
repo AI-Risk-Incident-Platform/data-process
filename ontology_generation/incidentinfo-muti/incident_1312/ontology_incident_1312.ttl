@@ -1,0 +1,68 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:UnauthorizedVoiceCloningRisk ;
+    airo:hasAICapability ex:VoiceCloning ;
+    airo:hasAISubject ex:ChatGPTUsers ;
+    airo:hasPurpose ex:ConversationalAI ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:DeepLearningBasedVoiceSynthesis ;
+    airo:hasVulnerability ex:UnintendedVoiceCapture .
+
+ex:UnauthorizedVoiceCloningRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Voice Cloning Risk"@en ;
+    rdfs:label "未经授权的语音克隆风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:LackOfVoiceUsageConsent ;
+    airo:isRiskSourceFor ex:UnintendedVoiceCapture ;
+    airo:isRiskSourceFor ex:DeepLearningBasedVoiceSynthesis .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyConcerns .
+
+ex:VoiceCloning rdf:type airo:AICapability ;
+    rdfs:label "Voice Cloning Capability"@en ;
+    rdfs:label "语音克隆能力"@zh .
+
+ex:ChatGPTUsers rdf:type airo:AISubject ;
+    rdfs:label "ChatGPT Users"@en ;
+    rdfs:label "ChatGPT使用者"@zh .
+
+ex:PersonalPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Concerns Impact"@en ;
+    rdfs:label "个人隐私担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatGPTUsers .
+
+ex:ConversationalAI rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Purpose"@en ;
+    rdfs:label "对话式AI的目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:DeepLearningBasedVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Voice Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的语音合成技术"@zh .
+
+ex:UnintendedVoiceCapture rdf:type airo:Vulnerability ;
+    rdfs:label "Unintended Voice Capture Vulnerability"@en ;
+    rdfs:label "意外语音捕获的脆弱性"@zh .
+
+ex:LackOfVoiceUsageConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Voice Usage Consent Risk Source"@en ;
+    rdfs:label "缺乏语音使用同意的风险源"@zh .

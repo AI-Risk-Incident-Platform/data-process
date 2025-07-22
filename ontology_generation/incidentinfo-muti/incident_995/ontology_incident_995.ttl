@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeMetaEmailScamSystem rdf:type airo:AISystem ;
+    rdfs:label "Fake Meta Email Scam System"@en ;
+    rdfs:label "伪造Meta邮件诈骗系统"@zh ;
+    airo:hasRisk ex:AccountHijackingRisk ;
+    airo:hasCapability ex:PhishingContentGeneration ;
+    airo:usesTechnique ex:SocialEngineering ;
+    airo:hasStakeholder ex:SocialMediaUsers .
+
+ex:AccountHijackingRisk rdf:type airo:Risk ;
+    rdfs:label "Account Hijacking Risk"@en ;
+    rdfs:label "账户劫持风险"@zh ;
+    airo:isRiskSourceFor ex:FakeChatbotInterface ;
+    airo:hasConsequence ex:PasswordTheft .
+
+ex:PhishingContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Phishing Content Generation Capability"@en ;
+    rdfs:label "钓鱼内容生成能力"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:PasswordTheft rdf:type airo:Consequence ;
+    rdfs:label "Password Theft Consequence"@en ;
+    rdfs:label "密码窃取后果"@zh ;
+    airo:hasImpact ex:AccountSecurityCompromise .
+
+ex:AccountSecurityCompromise rdf:type airo:Impact ;
+    rdfs:label "Account Security Compromise Impact"@en ;
+    rdfs:label "账户安全受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:SocialEngineering rdf:type airo:AITechnique ;
+    rdfs:label "Social Engineering Technique"@en ;
+    rdfs:label "社会工程技术"@zh .
+
+ex:FakeChatbotInterface rdf:type airo:RiskSource ;
+    rdfs:label "Fake Chatbot Interface Risk Source"@en ;
+    rdfs:label "伪造聊天机器人界面风险源"@zh .

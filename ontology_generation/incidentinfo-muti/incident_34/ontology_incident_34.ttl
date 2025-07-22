@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberAutonomousVehicle rdf:type airo:AISystem ;
+    rdfs:label "Uber Autonomous Vehicle"@en ;
+    rdfs:label "优步自动驾驶汽车"@zh ;
+    airo:hasRisk ex:PedestrianFatalityRisk ;
+    airo:isDeployedBy ex:UberTechnologies ;
+    airo:hasStakeholder ex:SafetyDriver ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTesting .
+
+ex:PedestrianFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "Pedestrian Fatality Risk"@en ;
+    rdfs:label "行人死亡风险"@zh ;
+    airo:isRiskSourceFor ex:DriverDistraction ;
+    airo:hasConsequence ex:PhysicalInjuryOrDeath .
+
+ex:PhysicalInjuryOrDeath rdf:type airo:Consequence ;
+    rdfs:label "Physical Injury or Death Consequence"@en ;
+    rdfs:label "人身伤害或死亡后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "优步科技"@zh .
+
+ex:SafetyDriver rdf:type airo:Stakeholder ;
+    rdfs:label "Safety Driver"@en ;
+    rdfs:label "安全驾驶员"@zh .
+
+ex:DriverDistraction rdf:type airo:RiskSource ;
+    rdfs:label "Driver Distraction Risk Source"@en ;
+    rdfs:label "驾驶员分心风险源"@zh ;
+    airo:exploitsVulnerability ex:HumanMonitoringFailure .
+
+ex:HumanMonitoringFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Human Monitoring Failure Vulnerability"@en ;
+    rdfs:label "人工监控失效脆弱性"@zh .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "人员死亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SafetyDriver .
+
+ex:AutonomousVehicleTesting rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Testing Domain"@en ;
+    rdfs:label "自动驾驶汽车测试领域"@zh .

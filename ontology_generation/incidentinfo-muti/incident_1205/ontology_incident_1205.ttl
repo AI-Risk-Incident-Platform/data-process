@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAIBot rdf:type airo:AISystem ;
+    rdfs:label "OpenAI Bot"@en ;
+    rdfs:label "OpenAI机器人"@zh ;
+    airo:hasRisk ex:WebsiteOverloadRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:SmallBusinessOwner .
+
+ex:WebsiteOverloadRisk rdf:type airo:Risk ;
+    rdfs:label "Website Overload Risk"@en ;
+    rdfs:label "网站过载风险"@zh ;
+    airo:hasConsequence ex:ServiceDisruption ;
+    airo:isRiskSourceFor ex:UncontrolledWebScraping .
+
+ex:ServiceDisruption rdf:type airo:Consequence ;
+    rdfs:label "Service Disruption"@en ;
+    rdfs:label "服务中断"@zh ;
+    airo:hasImpact ex:BusinessOperationFailure .
+
+ex:BusinessOperationFailure rdf:type airo:Impact ;
+    rdfs:label "Business Operation Failure"@en ;
+    rdfs:label "业务运营失败"@zh ;
+    airo:hasImpactOnStakeholder ex:SmallBusinessOwner .
+
+ex:SmallBusinessOwner rdf:type airo:Stakeholder ;
+    rdfs:label "Small Business Owner"@en ;
+    rdfs:label "小企业主"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:UncontrolledWebScraping rdf:type airo:RiskSource ;
+    rdfs:label "Uncontrolled Web Scraping"@en ;
+    rdfs:label "不受控制的网络爬取"@zh .

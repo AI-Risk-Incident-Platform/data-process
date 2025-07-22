@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonContentFilteringSystem rdf:type airo:AISystem ;
+    rdfs:label "Amazon Content Filtering System"@en ;
+    rdfs:label "亚马逊内容过滤系统"@zh ;
+    airo:hasRisk ex:ContentCensorshipRisk ;
+    airo:hasPurpose ex:ContentModeration ;
+    airo:isDeployedBy ex:AmazonInc ;
+    airo:hasStakeholder ex:LGBTQCommunity .
+
+ex:ContentCensorshipRisk rdf:type airo:Risk ;
+    rdfs:label "Content Censorship Risk"@en ;
+    rdfs:label "内容审查风险"@zh ;
+    airo:hasConsequence ex:ExclusionOfLGBTQContent ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasAgainstLGBTQContent .
+
+ex:ExclusionOfLGBTQContent rdf:type airo:Consequence ;
+    rdfs:label "Exclusion of LGBTQ Content Consequence"@en ;
+    rdfs:label "排除LGBTQ内容后果"@zh ;
+    airo:hasImpact ex:ReducedAccessToDiverseContent .
+
+ex:LGBTQCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "LGBTQ Community"@en ;
+    rdfs:label "LGBTQ群体"@zh .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:ReducedAccessToDiverseContent rdf:type airo:Impact ;
+    rdfs:label "Reduced Access to Diverse Content Impact"@en ;
+    rdfs:label "减少获取多样化内容的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LGBTQCommunity .
+
+ex:ContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation Purpose"@en ;
+    rdfs:label "内容审核目的"@zh .
+
+ex:AlgorithmicBiasAgainstLGBTQContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Against LGBTQ Content Risk Source"@en ;
+    rdfs:label "针对LGBTQ内容的算法偏见风险源"@zh .

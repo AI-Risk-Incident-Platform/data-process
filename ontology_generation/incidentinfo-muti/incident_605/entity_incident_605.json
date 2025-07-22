@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UnitedHealthAIClaimsDenialSystem",
+      "中文名称": "联合健康AI索赔拒绝系统",
+      "英文名称": "UnitedHealth AI Claims Denial System",
+      "来源": "UnitedHealth uses AI model with 90% error rate to deny care"
+    },
+    "Risk": {
+      "id": "InappropriateClaimDenialRisk",
+      "中文名称": "不当索赔拒绝风险",
+      "英文名称": "Inappropriate Claim Denial Risk",
+      "来源": "UnitedHealth uses AI model with 90% error rate to deny care"
+    },
+    "Consequence": {
+      "id": "PatientCareDenial",
+      "中文名称": "患者护理被拒后果",
+      "英文名称": "Patient Care Denial Consequence",
+      "来源": "deny care"
+    },
+    "AIOperator": {
+      "id": "UnitedHealthcare",
+      "中文名称": "联合健康",
+      "英文名称": "UnitedHealthcare",
+      "来源": "UnitedHealthcare hit with class action over alleged use of AI to deny Medicare Advantage claims"
+    },
+    "Stakeholder": {
+      "id": "MedicareAdvantagePatients",
+      "中文名称": "联邦医疗保险优势计划患者",
+      "英文名称": "Medicare Advantage Patients",
+      "来源": "deny Medicare Advantage claims"
+    },
+    "Impact": {
+      "id": "HealthcareAccessReduction",
+      "中文名称": "医疗可及性降低影响",
+      "英文名称": "Healthcare Access Reduction Impact",
+      "来源": "deny care"
+    },
+    "Purpose": {
+      "id": "ClaimsProcessingAutomation",
+      "中文名称": "索赔处理自动化目的",
+      "英文名称": "Claims Processing Automation Purpose",
+      "来源": "use of AI to deny claims"
+    },
+    "Domain": {
+      "id": "HealthInsurance",
+      "中文名称": "健康保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "Medicare Advantage claims"
+    },
+    "RiskSource": {
+      "id": "HighErrorRateAlgorithm",
+      "中文名称": "高错误率算法风险源",
+      "英文名称": "High Error Rate Algorithm Risk Source",
+      "来源": "AI model with 90% error rate"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationAI",
+      "中文名称": "Facebook内容审核AI",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "根据标题推断Facebook在非洲使用AI系统进行内容审核"
+    },
+    "Risk": {
+      "id": "LaborExploitationRisk",
+      "中文名称": "劳工剥削风险",
+      "英文名称": "Labor Exploitation Risk",
+      "来源": "标题明确指出非洲工人每小时仅获得1.5美元报酬"
+    },
+    "Stakeholder": {
+      "id": "AfricanContentModerators",
+      "中文名称": "非洲内容审核员",
+      "英文名称": "African Content Moderators",
+      "来源": "标题提到的非洲工人"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "标题明确指出Facebook"
+    },
+    "Impact": {
+      "id": "WorkerExploitationImpact",
+      "中文名称": "工人剥削影响",
+      "英文名称": "Worker Exploitation Impact",
+      "来源": "标题中每小时1.5美元的极低报酬"
+    },
+    "Domain": {
+      "id": "SocialMediaContentModeration",
+      "中文名称": "社交媒体内容审核领域",
+      "英文名称": "Social Media Content Moderation Domain",
+      "来源": "推断Facebook使用AI进行内容审核"
+    }
+  }
+}

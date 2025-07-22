@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaContentModerationAI rdf:type airo:AISystem ;
+    rdfs:label "Meta Content Moderation AI System"@en ;
+    rdfs:label "Meta内容审核AI系统"@zh ;
+    airo:hasRisk ex:InadequateContentModerationRisk ;
+    airo:hasCapability ex:AutomatedContentModeration ;
+    airo:isAppliedWithinDomain ex:SocialMediaContentModeration ;
+    airo:hasPurpose ex:WarRelatedContentModeration ;
+    airo:hasStakeholder ex:MetaOversightBoard .
+
+ex:InadequateContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Inadequate Content Moderation Risk"@en ;
+    rdfs:label "内容审核不足风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentPropagation ;
+    airo:isRiskSourceFor ex:OverrelianceOnAIForModeration .
+
+ex:MetaOversightBoard rdf:type airo:Stakeholder ;
+    rdfs:label "Meta Oversight Board"@en ;
+    rdfs:label "Meta监督委员会"@zh .
+
+ex:AutomatedContentModeration rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Moderation Capability"@en ;
+    rdfs:label "自动化内容审核能力"@zh .
+
+ex:SocialMediaContentModeration rdf:type airo:Domain ;
+    rdfs:label "Social Media Content Moderation Domain"@en ;
+    rdfs:label "社交媒体内容审核领域"@zh .
+
+ex:HarmfulContentPropagation rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Propagation Consequence"@en ;
+    rdfs:label "有害内容传播后果"@zh .
+
+ex:OverrelianceOnAIForModeration rdf:type airo:RiskSource ;
+    rdfs:label "Overreliance on AI for Moderation Risk Source"@en ;
+    rdfs:label "过度依赖AI进行审核的风险源"@zh .
+
+ex:WarRelatedContentModeration rdf:type airo:Purpose ;
+    rdfs:label "War-Related Content Moderation Purpose"@en ;
+    rdfs:label "战争相关内容审核目的"@zh .

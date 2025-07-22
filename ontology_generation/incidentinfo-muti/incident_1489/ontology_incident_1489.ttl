@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KidneyTransplantAllocationSystem rdf:type airo:AISystem ;
+    rdfs:label "肾脏移植分配系统"@zh ;
+    rdfs:label "Kidney Transplant Allocation System"@en ;
+    airo:hasRisk ex:RacialBiasInOrganAllocation ;
+    airo:hasStakeholder ex:BlackPatientsAwaitingTransplant ;
+    airo:isDeployedBy ex:UNOS ;
+    airo:isAppliedWithinDomain ex:HealthcareOrganTransplantation .
+
+ex:RacialBiasInOrganAllocation rdf:type airo:Risk ;
+    rdfs:label "器官分配中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in Organ Allocation Risk"@en ;
+    airo:hasConsequence ex:DelayedTransplantForMinorityPatients .
+
+ex:BlackPatientsAwaitingTransplant rdf:type airo:Stakeholder ;
+    rdfs:label "等待移植的黑人患者"@zh ;
+    rdfs:label "Black Patients Awaiting Transplant"@en .
+
+ex:UNOS rdf:type airo:AIOperator ;
+    rdfs:label "器官共享联合网络"@zh ;
+    rdfs:label "United Network for Organ Sharing"@en .
+
+ex:DelayedTransplantForMinorityPatients rdf:type airo:Consequence ;
+    rdfs:label "少数族裔患者移植延迟后果"@zh ;
+    rdfs:label "Delayed Transplant for Minority Patients Consequence"@en ;
+    airo:hasImpact ex:HealthDisparitiesInOrganTransplantation .
+
+ex:HealthDisparitiesInOrganTransplantation rdf:type airo:Impact ;
+    rdfs:label "器官移植中的健康差异影响"@zh ;
+    rdfs:label "Health Disparities in Organ Transplantation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:BlackPatientsAwaitingTransplant .
+
+ex:HealthcareOrganTransplantation rdf:type airo:Domain ;
+    rdfs:label "医疗保健器官移植领域"@zh ;
+    rdfs:label "Healthcare Organ Transplantation Domain"@en .

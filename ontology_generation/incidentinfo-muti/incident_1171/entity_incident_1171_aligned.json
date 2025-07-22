@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FactoryRobot",
+      "中文名称": "工厂机器人",
+      "英文名称": "Industrial Robot",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Risk": {
+      "id": "WorkerFatalityRisk",
+      "中文名称": "工人死亡风险",
+      "英文名称": "Work Fatality Risk",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人员死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Domain": {
+      "id": "IndustrialManufacturing",
+      "中文名称": "工业制造领域",
+      "英文名称": "Manufacturing Domain",
+      "来源": "Factory robot kills worker in India"
+    },
+    "AISubject": {
+      "id": "FactoryWorker",
+      "中文名称": "工厂工人",
+      "英文名称": "Factory Worker",
+      "来源": "Factory robot kills worker in India"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FactoryRobot",
+      "中文名称": "工厂机器人",
+      "英文名称": "Industrial Robot",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Risk": {
+      "id": "WorkerFatalityRisk",
+      "中文名称": "工人死亡风险",
+      "英文名称": "Work Fatality Risk",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人员死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Factory robot kills worker in India"
+    },
+    "Domain": {
+      "id": "IndustrialManufacturing",
+      "中文名称": "工业制造领域",
+      "英文名称": "Manufacturing Domain",
+      "来源": "Factory robot kills worker in India"
+    },
+    "AISubject": {
+      "id": "FactoryWorker",
+      "中文名称": "工厂工人",
+      "英文名称": "Factory Worker",
+      "来源": "Factory robot kills worker in India"
+    }
+  }
+}

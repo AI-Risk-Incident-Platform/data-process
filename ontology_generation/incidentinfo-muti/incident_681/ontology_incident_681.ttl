@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedVoiceSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Voice System"@en ;
+    rdfs:label "AI生成语音系统"@zh ;
+    airo:hasRisk ex:PoliticalMisinformationRisk ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasPurpose ex:PoliticalCampaignAdvertising ;
+    airo:hasStakeholder ex:DeSantisPAC ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigns .
+
+ex:PoliticalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Misinformation Risk"@en ;
+    rdfs:label "政治虚假信息风险"@zh .
+
+ex:DeSantisPAC rdf:type airo:Stakeholder ;
+    rdfs:label "DeSantis PAC"@en ;
+    rdfs:label "德桑蒂斯政治行动委员会"@zh .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:PoliticalCampaignAdvertising rdf:type airo:Purpose ;
+    rdfs:label "Political Campaign Advertising"@en ;
+    rdfs:label "政治竞选广告"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Domain ;
+    rdfs:label "Political Campaigns"@en ;
+    rdfs:label "政治竞选领域"@zh .

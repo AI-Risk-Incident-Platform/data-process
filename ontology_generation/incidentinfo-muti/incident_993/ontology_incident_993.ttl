@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAISystem rdf:type airo:AISystem ;
+    rdfs:label "Meta人工智能系统"@zh ;
+    rdfs:label "Meta AI System"@en ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:usesTechnique ex:TrainingOnPiratedContent ;
+    airo:isProvidedBy ex:Meta .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "版权侵权风险"@zh ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    airo:isRiskSourceFor ex:LibGenPiracyDatabase ;
+    airo:hasConsequence ex:LegalLiabilityForCopyrightViolation .
+
+ex:LibGenPiracyDatabase rdf:type airo:RiskSource ;
+    rdfs:label "LibGen盗版数据库"@zh ;
+    rdfs:label "LibGen Piracy Database"@en .
+
+ex:TrainingOnPiratedContent rdf:type airo:AITechnique ;
+    rdfs:label "使用盗版内容训练"@zh ;
+    rdfs:label "Training on Pirated Content Technique"@en .
+
+ex:LegalLiabilityForCopyrightViolation rdf:type airo:Consequence ;
+    rdfs:label "版权违法的法律责任后果"@zh ;
+    rdfs:label "Legal Liability for Copyright Violation Consequence"@en ;
+    airo:hasImpact ex:DamageToAuthorsAndPublishers .
+
+ex:Meta rdf:type airo:AIProvider ;
+    rdfs:label "Meta公司"@zh ;
+    rdfs:label "Meta"@en .
+
+ex:DamageToAuthorsAndPublishers rdf:type airo:Impact ;
+    rdfs:label "对作者和出版商的损害影响"@zh ;
+    rdfs:label "Damage to Authors and Publishers Impact"@en .

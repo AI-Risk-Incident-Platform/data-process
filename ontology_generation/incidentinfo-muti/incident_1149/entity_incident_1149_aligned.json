@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Risk": {
+      "id": "UnintendedPurchaseRisk",
+      "中文名称": "意外购买风险",
+      "英文名称": "Unintended Purchase Risk",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Consequence": {
+      "id": "UnauthorizedPurchases",
+      "中文名称": "未经授权的购买",
+      "英文名称": "Unauthorized Transaction Impact",
+      "来源": "6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "AICapability": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音命令处理能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Who needs Santa? 6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "Purpose": {
+      "id": "VoiceControlledShoppingAssistant",
+      "中文名称": "语音控制购物助手",
+      "英文名称": "Voice Controlled Shopping Assistant",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备",
+      "英文名称": "Smart Home Devices",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Vulnerability": {
+      "id": "VoiceCommandMisinterpretation",
+      "中文名称": "语音命令误解漏洞",
+      "英文名称": "Voice Command Misinterpretation Vulnerability",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "RiskSource": {
+      "id": "AmbientVoiceTriggers",
+      "中文名称": "环境语音触发",
+      "英文名称": "Ambient Voice Triggers",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Risk": {
+      "id": "UnintendedPurchaseRisk",
+      "中文名称": "意外购买风险",
+      "英文名称": "Unintended Purchase Risk",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Consequence": {
+      "id": "UnauthorizedPurchases",
+      "中文名称": "未经授权的购买",
+      "英文名称": "Unauthorized Transaction Impact",
+      "来源": "6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "AICapability": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音命令处理能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "Who needs Santa? 6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "6-year-old orders dollhouse and cookies from Amazon’s Alexa"
+    },
+    "Purpose": {
+      "id": "VoiceControlledShoppingAssistant",
+      "中文名称": "语音控制购物助手",
+      "英文名称": "Voice Controlled Shopping Assistant",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备",
+      "英文名称": "Smart Home Devices",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    },
+    "Vulnerability": {
+      "id": "VoiceCommandMisinterpretation",
+      "中文名称": "语音命令误解漏洞",
+      "英文名称": "Voice Command Misinterpretation Vulnerability",
+      "来源": "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+    },
+    "RiskSource": {
+      "id": "AmbientVoiceTriggers",
+      "中文名称": "环境语音触发",
+      "英文名称": "Ambient Voice Triggers",
+      "来源": "Amazon Echo orders doll houses after 'hearing' TV presenter talking"
+    }
+  }
+}

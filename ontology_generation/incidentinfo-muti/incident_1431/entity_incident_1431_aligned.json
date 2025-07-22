@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIScriptEvent",
+      "中文名称": "AI脚本活动",
+      "英文名称": "AI Script Event",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Risk": {
+      "id": "PlagiarismRisk",
+      "中文名称": "剽窃风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Consequence": {
+      "id": "EventCancellation",
+      "中文名称": "活动取消后果",
+      "英文名称": "Cancellation Consequence",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Stakeholder": {
+      "id": "PopularVoiceActors",
+      "中文名称": "人气声优",
+      "英文名称": "Popular Voice Actors",
+      "来源": "「ＡＩ脚本」を人気声優が朗読…銘打ったイベントは中止、「盗作」と批判相次ぎ"
+    },
+    "Impact": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "「ＡＩ脚本」を人気声優が朗読…銘打ったイベントは中止、「盗作」と批判相次ぎ"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIScriptEvent",
+      "中文名称": "AI脚本活动",
+      "英文名称": "AI Script Event",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Risk": {
+      "id": "PlagiarismRisk",
+      "中文名称": "剽窃风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Consequence": {
+      "id": "EventCancellation",
+      "中文名称": "活动取消后果",
+      "英文名称": "Cancellation Consequence",
+      "来源": "‘AI Script’ Event in Tokyo Canceled Due to Plagiarism Criticism"
+    },
+    "Stakeholder": {
+      "id": "PopularVoiceActors",
+      "中文名称": "人气声优",
+      "英文名称": "Popular Voice Actors",
+      "来源": "「ＡＩ脚本」を人気声優が朗読…銘打ったイベントは中止、「盗作」と批判相次ぎ"
+    },
+    "Impact": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "「ＡＩ脚本」を人気声優が朗読…銘打ったイベントは中止、「盗作」と批判相次ぎ"
+    }
+  }
+}

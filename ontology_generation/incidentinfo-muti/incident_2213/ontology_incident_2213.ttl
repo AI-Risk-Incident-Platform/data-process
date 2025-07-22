@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:MisinformationCrisisRisk ;
+    airo:hasAICapability ex:FacialManipulationCapability ;
+    airo:hasPurpose ex:PoliticalManipulationPurpose ;
+    airo:isAppliedWithinDomain ex:DigitalMediaDomain ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:InnocentIndividuals .
+
+ex:MisinformationCrisisRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Crisis Risk"@en ;
+    rdfs:label "虚假信息危机风险"@zh ;
+    airo:hasConsequence ex:DeepfakePornVideos ;
+    airo:isRiskSourceFor ex:LackOfRegulationRiskSource .
+
+ex:DeepfakePornVideos rdf:type airo:Consequence ;
+    rdfs:label "Deepfake Porn Videos Consequence"@en ;
+    rdfs:label "深度伪造色情视频后果"@zh ;
+    airo:hasImpact ex:ReputationDamageImpact .
+
+ex:FacialManipulationCapability rdf:type airo:AICapability ;
+    rdfs:label "Facial Manipulation Capability"@en ;
+    rdfs:label "面部操纵能力"@zh .
+
+ex:InnocentIndividuals rdf:type airo:Stakeholder ;
+    rdfs:label "Innocent Individuals"@en ;
+    rdfs:label "无辜个人"@zh .
+
+ex:ReputationDamageImpact rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InnocentIndividuals .
+
+ex:PoliticalManipulationPurpose rdf:type airo:Purpose ;
+    rdfs:label "Political Manipulation Purpose"@en ;
+    rdfs:label "政治操纵目的"@zh .
+
+ex:DigitalMediaDomain rdf:type airo:Domain ;
+    rdfs:label "Digital Media Domain"@en ;
+    rdfs:label "数字媒体领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:LackOfRegulationRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Regulation Risk Source"@en ;
+    rdfs:label "缺乏监管风险源"@zh .

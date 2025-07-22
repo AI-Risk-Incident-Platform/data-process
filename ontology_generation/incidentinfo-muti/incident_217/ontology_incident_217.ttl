@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:XpengFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Xpeng Facial Recognition System"@en ;
+    rdfs:label "小鹏汽车面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:VisitorIdentification ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:FacialRecognition ;
+    airo:hasStakeholder ex:Visitors ;
+    airo:isDeployedBy ex:XpengMotors .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:LegalPenalty ;
+    airo:isRiskSourceFor ex:IllegalDataCollection .
+
+ex:LegalPenalty rdf:type airo:Consequence ;
+    rdfs:label "Legal Penalty Consequence"@en ;
+    rdfs:label "法律处罚后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:XpengMotors rdf:type airo:AIOperator ;
+    rdfs:label "Xpeng Motors"@en ;
+    rdfs:label "小鹏汽车"@zh .
+
+ex:Visitors rdf:type airo:Stakeholder ;
+    rdfs:label "Visitors"@en ;
+    rdfs:label "访客"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Visitors .
+
+ex:VisitorIdentification rdf:type airo:Purpose ;
+    rdfs:label "Visitor Identification Purpose"@en ;
+    rdfs:label "访客识别目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车行业领域"@zh .
+
+ex:FacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technique"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:IllegalDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Illegal Data Collection Risk Source"@en ;
+    rdfs:label "非法数据收集风险源"@zh .

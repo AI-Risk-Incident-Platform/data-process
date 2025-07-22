@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NewsAppAIWritingSystem",
+      "中文名称": "新闻应用AI写作系统",
+      "英文名称": "News App AI Writing System",
+      "来源": "The Most Downloaded News App in the U.S. May Have Published Dozens of Fake, AI-Written Stories"
+    },
+    "Risk": {
+      "id": "FakeNewsPublicationRisk",
+      "中文名称": "虚假新闻发布风险",
+      "英文名称": "Fake News Publication Risk",
+      "来源": "May Have Published Dozens of Fake, AI-Written Stories"
+    },
+    "Stakeholder": {
+      "id": "NewsAppUsers",
+      "中文名称": "新闻应用用户",
+      "英文名称": "News App Users",
+      "来源": "The Most Downloaded News App in the U.S."
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "Published Dozens of Fake, AI-Written Stories"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "May Have Published Dozens of Fake, AI-Written Stories"
+    }
+  }
+}

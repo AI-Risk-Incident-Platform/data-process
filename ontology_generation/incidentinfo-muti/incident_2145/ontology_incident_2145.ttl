@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:IdentityImpersonationRisk ;
+    airo:hasAISubject ex:LolaFlores ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:DiversityAdvocacy ;
+    airo:isAppliedWithinDomain ex:AdvertisingCampaigns .
+
+ex:IdentityImpersonationRisk rdf:type airo:Risk ;
+    rdfs:label "Identity Impersonation Risk"@en ;
+    rdfs:label "身份冒充风险"@zh .
+
+ex:LolaFlores rdf:type airo:AISubject ;
+    rdfs:label "Lola Flores"@en ;
+    rdfs:label "洛拉·弗洛雷斯"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks"@en ;
+    rdfs:label "生成对抗网络"@zh .
+
+ex:DiversityAdvocacy rdf:type airo:Purpose ;
+    rdfs:label "Diversity Advocacy"@en ;
+    rdfs:label "倡导多样性"@zh .
+
+ex:AdvertisingCampaigns rdf:type airo:Domain ;
+    rdfs:label "Advertising Campaigns"@en ;
+    rdfs:label "广告活动"@zh .

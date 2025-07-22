@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MaliciousMessagingCampaign rdf:type airo:AISystem ;
+    rdfs:label "Malicious Messaging Campaign"@en ;
+    rdfs:label "恶意信息传播活动"@zh ;
+    airo:hasRisk ex:ImpersonationRisk ;
+    airo:hasStakeholder ex:SeniorUSOfficials .
+
+ex:ImpersonationRisk rdf:type airo:Risk ;
+    rdfs:label "Impersonation Risk"@en ;
+    rdfs:label "冒充风险"@zh ;
+    airo:isRiskSourceFor ex:MaliciousActor ;
+    airo:hasConsequence ex:ReputationDamage .
+
+ex:SeniorUSOfficials rdf:type airo:Stakeholder ;
+    rdfs:label "Senior US Officials"@en ;
+    rdfs:label "美国高级官员"@zh .
+
+ex:MaliciousActor rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Actor"@en ;
+    rdfs:label "恶意行为者"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage"@en ;
+    rdfs:label "声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:SeniorUSOfficials .

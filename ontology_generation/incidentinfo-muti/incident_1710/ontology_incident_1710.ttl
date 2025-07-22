@@ -1,0 +1,69 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RayBanSmartGlasses rdf:type airo:AISystem ;
+    rdfs:label "Ray-Ban Smart Glasses"@en ;
+    rdfs:label "雷朋智能眼镜"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:FacialRecognition ;
+    airo:hasStakeholder ex:Meta ;
+    airo:isDeployedBy ex:HarvardStudents ;
+    airo:hasPurpose ex:PrivacyRegulationDemonstration ;
+    airo:isAppliedWithinDomain ex:WearableTechnology ;
+    airo:usesTechnique ex:AutoDoxxing .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalDataExposure ;
+    airo:isRiskSourceFor ex:UnauthorizedDataCollection .
+
+ex:PersonalDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Exposure Consequence"@en ;
+    rdfs:label "个人数据暴露后果"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .
+
+ex:Meta rdf:type airo:Stakeholder ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:HarvardStudents rdf:type airo:AIOperator ;
+    rdfs:label "Harvard Students"@en ;
+    rdfs:label "哈佛学生"@zh .
+
+ex:PrivacyRegulationDemonstration rdf:type airo:Purpose ;
+    rdfs:label "Privacy Regulation Demonstration Purpose"@en ;
+    rdfs:label "隐私法规演示目的"@zh .
+
+ex:WearableTechnology rdf:type airo:Domain ;
+    rdfs:label "Wearable Technology Domain"@en ;
+    rdfs:label "可穿戴技术领域"@zh .
+
+ex:AutoDoxxing rdf:type airo:AITechnique ;
+    rdfs:label "Auto-Doxxing Technique"@en ;
+    rdfs:label "自动人肉搜索技术"@zh .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns Impact"@en ;
+    rdfs:label "隐私担忧影响"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Collection Risk Source"@en ;
+    rdfs:label "未经授权的数据收集风险源"@zh .
+
+ex:EthicalDataUsage rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Data Usage Risk Concept"@en ;
+    rdfs:label "数据使用伦理问题"@zh .

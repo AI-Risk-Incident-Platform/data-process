@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeQueenSpeech",
+      "中文名称": "女王演讲深度伪造",
+      "英文名称": "Deepfake Queen Speech",
+      "来源": "Deepfake Queen's speech on Channel 4 criticised as 'disrespectful' this Christmas"
+    },
+    "Risk": {
+      "id": "PublicMisinformationRisk",
+      "中文名称": "公众误导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake video of Queen's Christmas address sparks outrage amongst UK viewers"
+    },
+    "Consequence": {
+      "id": "PublicOutrage",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "sparks outrage amongst UK viewers"
+    },
+    "Impact": {
+      "id": "DamageToRoyalFamilyReputation",
+      "中文名称": "损害王室声誉影响",
+      "英文名称": "Damage to Royal Family Reputation Impact",
+      "来源": "criticised as 'disrespectful'"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Queen's speech"
+    },
+    "Stakeholder": {
+      "id": "UKViewers",
+      "中文名称": "英国观众",
+      "英文名称": "UK Viewers",
+      "来源": "sparks outrage amongst UK viewers"
+    },
+    "Purpose": {
+      "id": "ChristmasEntertainment",
+      "中文名称": "圣诞娱乐目的",
+      "英文名称": "Christmas Entertainment Purpose",
+      "来源": "Queen's Christmas address"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "on Channel 4"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeQueenSpeech",
+      "中文名称": "女王演讲深度伪造",
+      "英文名称": "Deepfake Queen Speech",
+      "来源": "Deepfake Queen's speech on Channel 4 criticised as 'disrespectful' this Christmas"
+    },
+    "Risk": {
+      "id": "PublicMisinformationRisk",
+      "中文名称": "公众误导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake video of Queen's Christmas address sparks outrage amongst UK viewers"
+    },
+    "Consequence": {
+      "id": "PublicOutrage",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "sparks outrage amongst UK viewers"
+    },
+    "Impact": {
+      "id": "DamageToRoyalFamilyReputation",
+      "中文名称": "损害王室声誉影响",
+      "英文名称": "Damage to Royal Family Reputation Impact",
+      "来源": "criticised as 'disrespectful'"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Queen's speech"
+    },
+    "Stakeholder": {
+      "id": "UKViewers",
+      "中文名称": "英国观众",
+      "英文名称": "UK Viewers",
+      "来源": "sparks outrage amongst UK viewers"
+    },
+    "Purpose": {
+      "id": "ChristmasEntertainment",
+      "中文名称": "圣诞娱乐目的",
+      "英文名称": "Christmas Entertainment Purpose",
+      "来源": "Queen's Christmas address"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "on Channel 4"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedEssayScoringSystem",
+      "中文名称": "自动论文评分系统",
+      "英文名称": "AI Essay Grading",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Risk": {
+      "id": "ReliabilityRiskInAutomatedScoring",
+      "中文名称": "自动评分可靠性风险",
+      "英文名称": "Reliability Risk in Automated Scoring",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "AICapability": {
+      "id": "EssayEvaluationCapability",
+      "中文名称": "论文评估能力",
+      "英文名称": "Essay Evaluation Capability",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Domain": {
+      "id": "EducationAssessment",
+      "中文名称": "教育评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Purpose": {
+      "id": "StandardizedEssayEvaluation",
+      "中文名称": "标准化论文评估目的",
+      "英文名称": "Standardized Essay Evaluation Purpose",
+      "来源": "Automated essay scoring as reliable as human markers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomatedEssayScoringSystem",
+      "中文名称": "自动论文评分系统",
+      "英文名称": "AI Essay Grading",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Risk": {
+      "id": "ReliabilityRiskInAutomatedScoring",
+      "中文名称": "自动评分可靠性风险",
+      "英文名称": "Reliability Risk in Automated Scoring",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "AICapability": {
+      "id": "EssayEvaluationCapability",
+      "中文名称": "论文评估能力",
+      "英文名称": "Essay Evaluation Capability",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Domain": {
+      "id": "EducationAssessment",
+      "中文名称": "教育评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "Automated essay scoring as reliable as human markers"
+    },
+    "Purpose": {
+      "id": "StandardizedEssayEvaluation",
+      "中文名称": "标准化论文评估目的",
+      "英文名称": "Standardized Essay Evaluation Purpose",
+      "来源": "Automated essay scoring as reliable as human markers"
+    }
+  }
+}

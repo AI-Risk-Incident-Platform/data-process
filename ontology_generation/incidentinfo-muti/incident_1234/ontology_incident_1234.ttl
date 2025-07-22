@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedTouristSpotArticles rdf:type airo:AISystem ;
+    rdfs:label "AI生成旅游景点文章"@zh ;
+    rdfs:label "AI Generated Tourist Spot Articles"@en ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:RegionalTourismPromotion ;
+    airo:isAppliedWithinDomain ex:TourismPromotion .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息风险"@zh ;
+    rdfs:label "Misinformation Risk"@en ;
+    airo:hasConsequence ex:TouristDeception ;
+    airo:isRiskSourceFor ex:UnverifiedContentGeneration .
+
+ex:TouristDeception rdf:type airo:Consequence ;
+    rdfs:label "游客欺骗后果"@zh ;
+    rdfs:label "Tourist Deception Consequence"@en ;
+    airo:hasImpact ex:DamagedTourismReputation .
+
+ex:DamagedTourismReputation rdf:type airo:Impact ;
+    rdfs:label "旅游声誉受损影响"@zh ;
+    rdfs:label "Damaged Tourism Reputation Impact"@en .
+
+ex:TourismPromotion rdf:type airo:Domain ;
+    rdfs:label "旅游推广领域"@zh ;
+    rdfs:label "Tourism Promotion Domain"@en .
+
+ex:RegionalTourismPromotion rdf:type airo:Purpose ;
+    rdfs:label "区域旅游推广目的"@zh ;
+    rdfs:label "Regional Tourism Promotion Purpose"@en .
+
+ex:UnverifiedContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "未经核实的内容生成风险源"@zh ;
+    rdfs:label "Unverified Content Generation Risk Source"@en .

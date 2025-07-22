@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITrafficCameras rdf:type airo:AISystem ;
+    rdfs:label "AI交通摄像头"@zh ;
+    rdfs:label "AI Traffic Cameras"@en ;
+    airo:hasRisk ex:WrongfulFinesRisk ;
+    airo:hasStakeholder ex:BengaluruTrafficChief ;
+    airo:isAppliedWithinDomain ex:TrafficManagement .
+
+ex:WrongfulFinesRisk rdf:type airo:Risk ;
+    rdfs:label "错误罚款风险"@zh ;
+    rdfs:label "Wrongful Fines Risk"@en ;
+    airo:hasConsequence ex:PublicCriticism ;
+    airo:isRiskSourceFor ex:SystemSlips ;
+    airo:hasRiskControl ex:ManualRevalidation .
+
+ex:PublicCriticism rdf:type airo:Consequence ;
+    rdfs:label "公众批评后果"@zh ;
+    rdfs:label "Public Criticism Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:BengaluruTrafficChief .
+
+ex:SystemSlips rdf:type airo:RiskSource ;
+    rdfs:label "系统失误风险源"@zh ;
+    rdfs:label "System Slips Risk Source"@en .
+
+ex:ManualRevalidation rdf:type airo:RiskControl ;
+    rdfs:label "人工复核管控"@zh ;
+    rdfs:label "Manual Revalidation Risk Control"@en ;
+    airo:mitigatesRiskConcept ex:WrongfulFinesRisk .
+
+ex:BengaluruTrafficChief rdf:type airo:Stakeholder ;
+    rdfs:label "班加罗尔交通主管"@zh ;
+    rdfs:label "Bengaluru Traffic Chief"@en .
+
+ex:TrafficManagement rdf:type airo:Domain ;
+    rdfs:label "交通管理领域"@zh ;
+    rdfs:label "Traffic Management Domain"@en .

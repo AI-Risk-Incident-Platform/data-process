@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVoiceClone",
+      "中文名称": "深度伪造语音克隆",
+      "英文名称": "Deepfake Voice Clone",
+      "来源": "This is what a deepfake voice clone used in a failed fraud attempt sounds like"
+    },
+    "Risk": {
+      "id": "FraudAttemptRisk",
+      "中文名称": "欺诈尝试风险",
+      "英文名称": "Fraud Attempt Risk",
+      "来源": "used in a failed fraud attempt"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Voice Cloning Technology",
+      "来源": "deepfake voice clone"
+    },
+    "Stakeholder": {
+      "id": "CEOImpersonationTarget",
+      "中文名称": "CEO冒充目标",
+      "英文名称": "CEO Impersonation Target",
+      "来源": "deepfake audio impersonating a CEO"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "used in a failed fraud attempt"
+    },
+    "Impact": {
+      "id": "CorporateReputationDamage",
+      "中文名称": "企业声誉损害影响",
+      "英文名称": "Corporate Reputation Damage Impact",
+      "来源": "impersonating a CEO in brazen fraud attempt"
+    },
+    "Purpose": {
+      "id": "DeceptiveFinancialGain",
+      "中文名称": "欺骗性财务收益目的",
+      "英文名称": "Deceptive Financial Gain Purpose",
+      "来源": "used in a failed fraud attempt"
+    },
+    "Domain": {
+      "id": "CorporateFinance",
+      "中文名称": "企业金融领域",
+      "英文名称": "Corporate Finance Domain",
+      "来源": "impersonating a CEO in brazen fraud attempt"
+    },
+    "RiskSource": {
+      "id": "VoiceSpoofingVulnerability",
+      "中文名称": "语音欺骗漏洞风险源",
+      "英文名称": "Voice Spoofing Vulnerability Risk Source",
+      "来源": "deepfake voice clone used in a failed fraud attempt"
+    }
+  }
+}

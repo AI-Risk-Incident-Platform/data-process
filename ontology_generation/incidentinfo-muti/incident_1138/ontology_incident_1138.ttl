@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WatsonAI rdf:type airo:AISystem ;
+    rdfs:label "Watson AI"@en ;
+    rdfs:label "沃森AI"@zh ;
+    airo:hasRisk ex:MedicalDiagnosisFailureRisk ;
+    airo:isAppliedWithinDomain ex:HealthcareIT ;
+    airo:hasPurpose ex:CancerDiagnosisAndTreatment ;
+    airo:hasStakeholder ex:MDAndersonCancerCenter .
+
+ex:MedicalDiagnosisFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Diagnosis Failure Risk"@en ;
+    rdfs:label "医疗诊断失败风险"@zh ;
+    airo:hasConsequence ex:IneffectiveMedicalTreatment ;
+    airo:isRiskSourceFor ex:SystemPerformanceLimitations .
+
+ex:HealthcareIT rdf:type airo:Domain ;
+    rdfs:label "Healthcare IT"@en ;
+    rdfs:label "医疗保健IT"@zh .
+
+ex:CancerDiagnosisAndTreatment rdf:type airo:Purpose ;
+    rdfs:label "Cancer Diagnosis and Treatment"@en ;
+    rdfs:label "癌症诊断与治疗"@zh .
+
+ex:IneffectiveMedicalTreatment rdf:type airo:Consequence ;
+    rdfs:label "Ineffective Medical Treatment"@en ;
+    rdfs:label "无效医疗治疗"@zh ;
+    airo:hasImpact ex:PatientHealthDeterioration .
+
+ex:PatientHealthDeterioration rdf:type airo:Impact ;
+    rdfs:label "Patient Health Deterioration"@en ;
+    rdfs:label "患者健康状况恶化"@zh ;
+    airo:hasImpactOnStakeholder ex:MDAndersonCancerCenter .
+
+ex:MDAndersonCancerCenter rdf:type airo:Stakeholder ;
+    rdfs:label "MD Anderson Cancer Center"@en ;
+    rdfs:label "MD安德森癌症中心"@zh .
+
+ex:SystemPerformanceLimitations rdf:type airo:RiskSource ;
+    rdfs:label "System Performance Limitations"@en ;
+    rdfs:label "系统性能限制"@zh .

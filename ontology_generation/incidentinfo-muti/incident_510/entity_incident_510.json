@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTDetector",
+      "中文名称": "ChatGPT检测器",
+      "英文名称": "ChatGPT Detector",
+      "来源": "We tested a new ChatGPT-detector for teachers."
+    },
+    "Risk": {
+      "id": "FalsePositiveDetectionRisk",
+      "中文名称": "误报检测风险",
+      "英文名称": "False Positive Detection Risk",
+      "来源": "It flagged an innocent student."
+    },
+    "Consequence": {
+      "id": "UnfairAccusation",
+      "中文名称": "不公正指控后果",
+      "英文名称": "Unfair Accusation Consequence",
+      "来源": "It flagged an innocent student."
+    },
+    "Impact": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害影响",
+      "英文名称": "Academic Reputation Damage Impact",
+      "来源": "It flagged an innocent student."
+    },
+    "Stakeholder": {
+      "id": "Teachers",
+      "中文名称": "教师",
+      "英文名称": "Teachers",
+      "来源": "ChatGPT-detector for teachers"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "It flagged an innocent student."
+    },
+    "RiskSource": {
+      "id": "ImperfectDetectionAlgorithm",
+      "中文名称": "不完善的检测算法风险源",
+      "英文名称": "Imperfect Detection Algorithm Risk Source",
+      "来源": "It flagged an innocent student."
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityProtection",
+      "中文名称": "学术诚信保护目的",
+      "英文名称": "Academic Integrity Protection Purpose",
+      "来源": "ChatGPT-detector for teachers"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "ChatGPT-detector for teachers"
+    }
+  }
+}

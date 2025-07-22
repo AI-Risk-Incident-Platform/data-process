@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonBuyBoxAlgorithm",
+      "中文名称": "亚马逊购买框算法",
+      "英文名称": "Amazon Buy Box Algorithm",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Risk": {
+      "id": "MarketDominanceRisk",
+      "中文名称": "市场支配地位风险",
+      "英文名称": "Market Dominance Risk",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon's algorithm determines which seller gets the 'Buy Box' on product pages"
+    },
+    "AICapability": {
+      "id": "SellerSelectionAlgorithm",
+      "中文名称": "卖家选择算法能力",
+      "英文名称": "Seller Selection Algorithm Capability",
+      "来源": "Amazon's algorithm determines which seller gets the 'Buy Box' on product pages"
+    },
+    "Stakeholder": {
+      "id": "ThirdPartySellers",
+      "中文名称": "第三方卖家",
+      "英文名称": "Third - Party Sellers",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Impact": {
+      "id": "ReducedMarketCompetition",
+      "中文名称": "市场竞争减少的影响",
+      "英文名称": "Market Impact",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonBuyBoxAlgorithm",
+      "中文名称": "亚马逊购买框算法",
+      "英文名称": "Amazon Buy Box Algorithm",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Risk": {
+      "id": "MarketDominanceRisk",
+      "中文名称": "市场支配地位风险",
+      "英文名称": "Market Dominance Risk",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon's algorithm determines which seller gets the 'Buy Box' on product pages"
+    },
+    "AICapability": {
+      "id": "SellerSelectionAlgorithm",
+      "中文名称": "卖家选择算法能力",
+      "英文名称": "Seller Selection Algorithm Capability",
+      "来源": "Amazon's algorithm determines which seller gets the 'Buy Box' on product pages"
+    },
+    "Stakeholder": {
+      "id": "ThirdPartySellers",
+      "中文名称": "第三方卖家",
+      "英文名称": "Third - Party Sellers",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    },
+    "Impact": {
+      "id": "ReducedMarketCompetition",
+      "中文名称": "市场竞争减少的影响",
+      "英文名称": "Market Impact",
+      "来源": "When Amazon Takes the Buy Box, It Doesn't Give It Up"
+    }
+  }
+}

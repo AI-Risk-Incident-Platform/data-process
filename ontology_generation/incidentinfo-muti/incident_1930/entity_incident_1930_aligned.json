@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Risk": {
+      "id": "DeclineInResponseQuality",
+      "中文名称": "响应质量下降风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Consequence": {
+      "id": "ReducedUserSatisfaction",
+      "中文名称": "用户满意度降低后果",
+      "英文名称": "User Dissatisfaction",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Impact": {
+      "id": "NegativeUserExperience",
+      "中文名称": "负面用户体验影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Stakeholder": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Risk": {
+      "id": "DeclineInResponseQuality",
+      "中文名称": "响应质量下降风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Consequence": {
+      "id": "ReducedUserSatisfaction",
+      "中文名称": "用户满意度降低后果",
+      "英文名称": "User Dissatisfaction",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Impact": {
+      "id": "NegativeUserExperience",
+      "中文名称": "负面用户体验影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    },
+    "Stakeholder": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "Researchers Chart Alarming Decline in ChatGPT Response Quality"
+    }
+  }
+}

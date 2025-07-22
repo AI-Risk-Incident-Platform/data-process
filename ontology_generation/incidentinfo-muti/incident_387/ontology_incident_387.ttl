@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookHateSpeechDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook仇恨言论检测系统"@zh ;
+    rdfs:label "Facebook Hate Speech Detection System"@en ;
+    airo:hasRisk ex:HateSpeechPropagationRisk ;
+    airo:isDevelopedBy ex:FacebookInc ;
+    airo:hasPurpose ex:ContentModeration ;
+    airo:usesTechnique ex:AutomatedContentFiltering .
+
+ex:HateSpeechPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "仇恨言论传播风险"@zh ;
+    rdfs:label "Hate Speech Propagation Risk"@en ;
+    airo:hasConsequence ex:HarmfulContentExposure .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Inc."@en .
+
+ex:HarmfulContentExposure rdf:type airo:Consequence ;
+    rdfs:label "有害内容暴露后果"@zh ;
+    rdfs:label "Harmful Content Exposure Consequence"@en ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "社会危害影响"@zh ;
+    rdfs:label "Social Harm Impact"@en .
+
+ex:ContentModeration rdf:type airo:Purpose ;
+    rdfs:label "内容审核目的"@zh ;
+    rdfs:label "Content Moderation Purpose"@en .
+
+ex:AutomatedContentFiltering rdf:type airo:AITechnique ;
+    rdfs:label "自动化内容过滤技术"@zh ;
+    rdfs:label "Automated Content Filtering Technique"@en .

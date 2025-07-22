@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DatasetStewardshipSystem",
+      "中文名称": "数据集管理系统",
+      "英文名称": "Dataset Stewardship System",
+      "来源": "Mitigating Dataset Harms Requires Stewardship: Lessons from 1000 Papers"
+    },
+    "Risk": {
+      "id": "DatasetHarmRisk",
+      "中文名称": "数据集危害风险",
+      "英文名称": "Dataset Harm Risk",
+      "来源": "Mitigating Dataset Harms Requires Stewardship: Lessons from 1000 Papers"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Mitigating Dataset Harms Requires Stewardship: Lessons from 1000 Papers"
+    },
+    "Consequence": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见",
+      "英文名称": "Algorithmic Bias",
+      "来源": "Mitigating Dataset Harms Requires Stewardship: Lessons from 1000 Papers"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果",
+      "英文名称": "Discriminatory Outcomes",
+      "来源": "Mitigating Dataset Harms Requires Stewardship: Lessons from 1000 Papers"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbots rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbots"@en ;
+    rdfs:label "AI聊天机器人"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:NewsSummarizationCapability ;
+    airo:hasStakeholder ex:NewsConsumers .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "误导信息风险"@zh ;
+    airo:hasConsequence ex:InaccurateNewsSummarization ;
+    airo:isRiskSourceFor ex:TrainingDataLimitations .
+
+ex:InaccurateNewsSummarization rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate News Summarization Consequence"@en ;
+    rdfs:label "新闻摘要不准确后果"@zh ;
+    airo:hasImpact ex:PublicMisinformationImpact .
+
+ex:NewsSummarizationCapability rdf:type airo:AICapability ;
+    rdfs:label "News Summarization Capability"@en ;
+    rdfs:label "新闻摘要能力"@zh .
+
+ex:NewsConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "News Consumers"@en ;
+    rdfs:label "新闻消费者"@zh .
+
+ex:TrainingDataLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Limitations Risk Source"@en ;
+    rdfs:label "训练数据限制风险源"@zh .
+
+ex:PublicMisinformationImpact rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导信息影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsConsumers .

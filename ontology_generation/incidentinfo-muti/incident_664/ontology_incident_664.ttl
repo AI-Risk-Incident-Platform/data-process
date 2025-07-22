@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIResurrectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Resurrection System"@en ;
+    rdfs:label "AI复活系统"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIResurrection ;
+    airo:hasStakeholder ex:PoliticalFigures .
+
+ex:EthicalConcernsInAIResurrection rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Resurrection Risk"@en ;
+    rdfs:label "AI复活中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:PublicControversy .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Political Figures"@en ;
+    rdfs:label "政治人物"@zh .
+
+ex:PublicControversy rdf:type airo:Consequence ;
+    rdfs:label "Public Controversy Consequence"@en ;
+    rdfs:label "公众争议后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .

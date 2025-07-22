@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookGardeningGroupAI",
+      "中文名称": "Facebook园艺小组AI",
+      "英文名称": "Facebook Gardening Group AI",
+      "来源": "Hoe no! Facebook snafu spells trouble for gardening group"
+    },
+    "Risk": {
+      "id": "TechnicalErrorRisk",
+      "中文名称": "技术错误风险",
+      "英文名称": "Technical Error Risk",
+      "来源": "Facebook snafu spells trouble for gardening group"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook"
+    },
+    "Stakeholder": {
+      "id": "GardeningGroupMembers",
+      "中文名称": "园艺小组成员",
+      "英文名称": "Gardening Group Members",
+      "来源": "gardening group"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookGardeningGroupAI",
+      "中文名称": "Facebook园艺小组AI",
+      "英文名称": "Facebook Gardening Group AI",
+      "来源": "Hoe no! Facebook snafu spells trouble for gardening group"
+    },
+    "Risk": {
+      "id": "TechnicalErrorRisk",
+      "中文名称": "技术错误风险",
+      "英文名称": "Technical Error Risk",
+      "来源": "Facebook snafu spells trouble for gardening group"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook"
+    },
+    "Stakeholder": {
+      "id": "GardeningGroupMembers",
+      "中文名称": "园艺小组成员",
+      "英文名称": "Gardening Group Members",
+      "来源": "gardening group"
+    }
+  }
+}

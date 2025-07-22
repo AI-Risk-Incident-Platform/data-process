@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTAndAIDetectionTools rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT和AI检测工具"@zh ;
+    rdfs:label "ChatGPT and AI Detection Tools"@en ;
+    airo:hasRisk ex:FalsePositivesInAIDetection ;
+    airo:hasAISubject ex:Students ;
+    airo:hasStakeholder ex:Universities ;
+    airo:isAppliedWithinDomain ex:AcademicIntegrity .
+
+ex:FalsePositivesInAIDetection rdf:type airo:Risk ;
+    rdfs:label "AI检测中的误报风险"@zh ;
+    rdfs:label "False Positives in AI Detection Risk"@en ;
+    airo:hasConsequence ex:FalseAccusationsOfCheating ;
+    airo:hasRiskControl ex:DisablingAIDetector .
+
+ex:Universities rdf:type airo:Stakeholder ;
+    rdfs:label "大学"@zh ;
+    rdfs:label "Universities"@en .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "学生"@zh ;
+    rdfs:label "Students"@en .
+
+ex:FalseAccusationsOfCheating rdf:type airo:Consequence ;
+    rdfs:label "作弊的虚假指控后果"@zh ;
+    rdfs:label "False Accusations of Cheating Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:DisablingAIDetector rdf:type airo:RiskControl ;
+    rdfs:label "禁用AI检测器"@zh ;
+    rdfs:label "Disabling AI Detector"@en ;
+    airo:mitigatesRiskConcept ex:FalsePositivesInAIDetection .
+
+ex:AcademicIntegrity rdf:type airo:Domain ;
+    rdfs:label "学术诚信领域"@zh ;
+    rdfs:label "Academic Integrity Domain"@en .

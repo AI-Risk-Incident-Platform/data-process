@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MedicareAdvantageAI",
+      "中文名称": "医疗保险优势AI系统",
+      "英文名称": "Medicare Advantage AI System",
+      "来源": "AI Use by Medicare Advantage Blamed for Increased Denial of Nursing Home Services"
+    },
+    "Risk": {
+      "id": "IncreasedDenialOfCareRisk",
+      "中文名称": "增加护理拒绝风险",
+      "英文名称": "Increased Denial of Care Risk",
+      "来源": "AI Use by Medicare Advantage Blamed for Increased Denial of Nursing Home Services"
+    },
+    "Consequence": {
+      "id": "ReducedAccessToNursingHomeServices",
+      "中文名称": "减少养老院服务获取",
+      "英文名称": "Reduced Access to Nursing Home Services",
+      "来源": "AI Use by Medicare Advantage Blamed for Increased Denial of Nursing Home Services"
+    },
+    "Stakeholder": {
+      "id": "MedicareBeneficiaries",
+      "中文名称": "医疗保险受益人",
+      "英文名称": "Medicare Beneficiaries",
+      "来源": "When Artificial Intelligence in Medicare Advantage Impedes Access to Care: A Case Study"
+    },
+    "Impact": {
+      "id": "ImpairedHealthcareAccess",
+      "中文名称": "医疗保健获取受损",
+      "英文名称": "Impaired Healthcare Access",
+      "来源": "When healthcare is decided by algorithms, who wins?"
+    },
+    "Purpose": {
+      "id": "ClaimsProcessingAndDecisionMaking",
+      "中文名称": "索赔处理和决策",
+      "英文名称": "Claims Processing and Decision Making",
+      "来源": "When healthcare is decided by algorithms, who wins?"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Healthcare Insurance Domain",
+      "来源": "AI Use by Medicare Advantage Blamed for Increased Denial of Nursing Home Services"
+    },
+    "AIOperator": {
+      "id": "MedicareAdvantageProgram",
+      "中文名称": "医疗保险优势计划",
+      "英文名称": "Medicare Advantage Program",
+      "来源": "AI Use by Medicare Advantage Blamed for Increased Denial of Nursing Home Services"
+    }
+  }
+}

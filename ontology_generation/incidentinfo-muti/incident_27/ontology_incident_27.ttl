@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DriverlessDelhiMetroMagentaLineTrain rdf:type airo:AISystem ;
+    rdfs:label "Driverless Delhi Metro Magenta Line Train"@en ;
+    rdfs:label "德里地铁无人驾驶Magenta线列车"@zh ;
+    airo:hasRisk ex:AutonomousTrainCollisionRisk ;
+    airo:hasAICapability ex:AutonomousTrainOperation ;
+    airo:isDeployedBy ex:DelhiMetroRailCorporation ;
+    airo:hasStakeholder ex:PublicTransportUsers ;
+    airo:hasPurpose ex:ModernizePublicTransport ;
+    airo:isAppliedWithinDomain ex:UrbanPublicTransportation ;
+    airo:usesTechnique ex:ComputerVisionForObstacleDetection .
+
+ex:AutonomousTrainCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Train Collision Risk"@en ;
+    rdfs:label "自动驾驶列车碰撞风险"@zh ;
+    airo:hasConsequence ex:PhysicalDamageToTrain ;
+    airo:isRiskSourceFor ex:InadequateTestingBeforeDeployment .
+
+ex:PhysicalDamageToTrain rdf:type airo:Consequence ;
+    rdfs:label "Physical Damage to Train Consequence"@en ;
+    rdfs:label "列车物理损坏后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:AutonomousTrainOperation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Train Operation Capability"@en ;
+    rdfs:label "自动驾驶列车运行能力"@zh .
+
+ex:DelhiMetroRailCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Delhi Metro Rail Corporation"@en ;
+    rdfs:label "德里地铁公司"@zh .
+
+ex:PublicTransportUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Public Transport Users"@en ;
+    rdfs:label "公共交通使用者"@zh .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicTransportUsers .
+
+ex:ModernizePublicTransport rdf:type airo:Purpose ;
+    rdfs:label "Modernize Public Transport Purpose"@en ;
+    rdfs:label "现代化公共交通的目的"@zh .
+
+ex:UrbanPublicTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Public Transportation Domain"@en ;
+    rdfs:label "城市公共交通领域"@zh .
+
+ex:ComputerVisionForObstacleDetection rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Obstacle Detection Technique"@en ;
+    rdfs:label "障碍物检测计算机视觉技术"@zh .
+
+ex:InadequateTestingBeforeDeployment rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Testing Before Deployment Risk Source"@en ;
+    rdfs:label "部署前测试不足的风险源"@zh ;
+    airo:exploitsVulnerability ex:ObstacleDetectionFailure .
+
+ex:ObstacleDetectionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Obstacle Detection Failure Vulnerability"@en ;
+    rdfs:label "障碍物检测失效的脆弱性"@zh .

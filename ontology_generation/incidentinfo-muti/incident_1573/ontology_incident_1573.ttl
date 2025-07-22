@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:ConsumerPrivacyViolationRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:hasStakeholder ex:USConsumers .
+
+ex:ConsumerPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Consumer Privacy Violation Risk"@en ;
+    rdfs:label "消费者隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection ;
+    airo:isRiskSourceFor ex:LackOfTransparentDataUsagePolicies .
+
+ex:USConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "US Consumers"@en ;
+    rdfs:label "美国消费者"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:Microsoft rdf:type airo:AIDeployer ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection Consequence"@en ;
+    rdfs:label "未经授权的数据收集后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyCompromise .
+
+ex:PersonalPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Compromise Impact"@en ;
+    rdfs:label "个人隐私泄露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USConsumers .
+
+ex:LackOfTransparentDataUsagePolicies rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparent Data Usage Policies Risk Source"@en ;
+    rdfs:label "缺乏透明的数据使用政策风险源"@zh .

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredDisinformationSystem",
+      "中文名称": "AI驱动的虚假信息传播系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Risk": {
+      "id": "ForeignInterferenceInElectionsRisk",
+      "中文名称": "外国干预选举风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Stakeholder": {
+      "id": "USVoters",
+      "中文名称": "美国选民",
+      "英文名称": "US Voters",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "AISubject": {
+      "id": "Taiwan",
+      "中文名称": "台湾",
+      "英文名称": "Taiwan",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "America Resilient in the Face of Aggressive Foreign Malign Influence Targeting the 2024 U.S. Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPoweredDisinformationSystem",
+      "中文名称": "AI驱动的虚假信息传播系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Risk": {
+      "id": "ForeignInterferenceInElectionsRisk",
+      "中文名称": "外国干预选举风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Stakeholder": {
+      "id": "USVoters",
+      "中文名称": "美国选民",
+      "英文名称": "US Voters",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "AISubject": {
+      "id": "Taiwan",
+      "中文名称": "台湾",
+      "英文名称": "Taiwan",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "America Resilient in the Face of Aggressive Foreign Malign Influence Targeting the 2024 U.S. Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "China Is Targeting U.S. Voters and Taiwan With AI-Powered Disinformation"
+    }
+  }
+}

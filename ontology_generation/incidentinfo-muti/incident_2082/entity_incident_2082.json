@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PepperRobot",
+      "中文名称": "Pepper机器人",
+      "英文名称": "Pepper Robot",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "Risk": {
+      "id": "SecurityVulnerabilityRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "Security Vulnerability Risk",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "RiskSource": {
+      "id": "LackOfSecurityMeasures",
+      "中文名称": "缺乏安全措施",
+      "英文名称": "Lack of Security Measures",
+      "来源": "Pepper de menselijke robot is eenvoudig te hacken"
+    },
+    "Consequence": {
+      "id": "PotentialCyberAttack",
+      "中文名称": "潜在网络攻击",
+      "英文名称": "Potential Cyber Attack",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "Stakeholder": {
+      "id": "SoftBank",
+      "中文名称": "软银",
+      "英文名称": "SoftBank",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Reputation Damage",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    }
+  }
+}

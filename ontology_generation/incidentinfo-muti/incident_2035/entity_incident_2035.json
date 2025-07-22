@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Full Self-Driving Beta",
+      "来源": "Tesla Full Self-Driving Beta Features an Assertive Mode with Rolling Stops"
+    },
+    "Risk": {
+      "id": "RollingStopRisk",
+      "中文名称": "滚动停车风险",
+      "英文名称": "Rolling Stop Risk",
+      "来源": "Tesla’s ‘Full Self-Driving’ beta has an ‘assertive’ driving mode that ‘may perform rolling stops’"
+    },
+    "Consequence": {
+      "id": "JerkDrivingBehavior",
+      "中文名称": "急刹车驾驶行为后果",
+      "英文名称": "Jerk Driving Behavior Consequence",
+      "来源": "Tesla could drive jerk"
+    },
+    "AICapability": {
+      "id": "AssertiveDrivingMode",
+      "中文名称": "自信驾驶模式能力",
+      "英文名称": "Assertive Driving Mode Capability",
+      "来源": "Tesla’s ‘Full Self-Driving’ beta has an ‘assertive’ driving mode"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Full Self-Driving Beta"
+    },
+    "Stakeholder": {
+      "id": "TeslaDrivers",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Drivers",
+      "来源": "Tesla could drive jerk"
+    },
+    "AISubject": {
+      "id": "RoadUsers",
+      "中文名称": "道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Tesla could drive jerk"
+    },
+    "Impact": {
+      "id": "TrafficSafetyConcern",
+      "中文名称": "交通安全担忧的影响",
+      "英文名称": "Traffic Safety Concern Impact",
+      "来源": "Tesla could drive jerk"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助的目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "Tesla Full Self-Driving Beta"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla Full Self-Driving Beta"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedNavigation",
+      "中文名称": "基于计算机视觉的导航技术",
+      "英文名称": "Computer Vision Based Navigation Technique",
+      "来源": "Tesla Full Self-Driving Beta"
+    },
+    "Vulnerability": {
+      "id": "TrafficRuleInterpretation",
+      "中文名称": "交通规则解释的脆弱性",
+      "英文名称": "Traffic Rule Interpretation Vulnerability",
+      "来源": "‘may perform rolling stops’"
+    },
+    "Threat": {
+      "id": "AggressiveDrivingBehavior",
+      "中文名称": "激进驾驶行为的威胁",
+      "英文名称": "Aggressive Driving Behavior Threat",
+      "来源": "Tesla could drive jerk"
+    },
+    "Hazard": {
+      "id": "UnpredictableVehicleManeuvers",
+      "中文名称": "不可预测的车辆操作危害",
+      "英文名称": "Unpredictable Vehicle Maneuvers Hazard",
+      "来源": "Tesla could drive jerk"
+    },
+    "RiskSource": {
+      "id": "AssertiveDrivingModeSetting",
+      "中文名称": "自信驾驶模式设置的风险源",
+      "英文名称": "Assertive Driving Mode Setting Risk Source",
+      "来源": "Tesla’s ‘Full Self-Driving’ beta has an ‘assertive’ driving mode"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyChallenge",
+      "中文名称": "自动驾驶车辆安全挑战",
+      "英文名称": "Autonomous Vehicle Safety Challenge Risk Concept",
+      "来源": "Tesla could drive jerk"
+    }
+  }
+}

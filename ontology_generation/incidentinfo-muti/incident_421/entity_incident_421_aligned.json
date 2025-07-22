@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingTaxis",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "G.M. Unit’s Self-Driving Taxis Are Subject of U.S. Safety Investigation"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousVehicles",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Do Cruise’s AVs brake-check other drivers? Feds are investigating"
+    },
+    "Stakeholder": {
+      "id": "USGovernmentRegulators",
+      "中文名称": "美国政府监管机构",
+      "英文名称": "US Regulators",
+      "来源": "Feds are investigating"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "G.M. Unit’s Self-Driving Taxis"
+    },
+    "RiskSource": {
+      "id": "BrakeCheckingBehavior",
+      "中文名称": "刹车检查行为",
+      "英文名称": "Aggressive Braking Risk",
+      "来源": "Do Cruise’s AVs brake-check other drivers?"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通运输",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-Driving Taxis"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingTaxis",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "G.M. Unit’s Self-Driving Taxis Are Subject of U.S. Safety Investigation"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousVehicles",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Do Cruise’s AVs brake-check other drivers? Feds are investigating"
+    },
+    "Stakeholder": {
+      "id": "USGovernmentRegulators",
+      "中文名称": "美国政府监管机构",
+      "英文名称": "US Regulators",
+      "来源": "Feds are investigating"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "G.M. Unit’s Self-Driving Taxis"
+    },
+    "RiskSource": {
+      "id": "BrakeCheckingBehavior",
+      "中文名称": "刹车检查行为",
+      "英文名称": "Aggressive Braking Risk",
+      "来源": "Do Cruise’s AVs brake-check other drivers?"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通运输",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-Driving Taxis"
+    }
+  }
+}

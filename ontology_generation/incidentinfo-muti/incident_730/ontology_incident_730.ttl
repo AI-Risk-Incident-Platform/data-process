@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DriverScoringSystem rdf:type airo:AISystem ;
+    rdfs:label "Driver Scoring System"@en ;
+    rdfs:label "驾驶员评分系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:CarInsuranceCompanies ;
+    airo:hasAISubject ex:Drivers ;
+    airo:usesTechnique ex:MobileAppDataCollection ;
+    airo:isAppliedWithinDomain ex:AutomotiveInsurance .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:SecretDataCollection ;
+    airo:hasConsequence ex:UnauthorizedUseOfPersonalData .
+
+ex:CarInsuranceCompanies rdf:type airo:Stakeholder ;
+    rdfs:label "Car Insurance Companies"@en ;
+    rdfs:label "汽车保险公司"@zh .
+
+ex:Drivers rdf:type airo:AISubject ;
+    rdfs:label "Drivers"@en ;
+    rdfs:label "驾驶员"@zh .
+
+ex:SecretDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Secret Data Collection"@en ;
+    rdfs:label "秘密数据收集"@zh .
+
+ex:UnauthorizedUseOfPersonalData rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Personal Data"@en ;
+    rdfs:label "个人数据未经授权使用"@zh ;
+    airo:hasImpact ex:LossOfPrivacy .
+
+ex:LossOfPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Privacy"@en ;
+    rdfs:label "隐私丧失"@zh ;
+    airo:hasImpactOnStakeholder ex:Drivers .
+
+ex:AutomotiveInsurance rdf:type airo:Domain ;
+    rdfs:label "Automotive Insurance"@en ;
+    rdfs:label "汽车保险"@zh .
+
+ex:MobileAppDataCollection rdf:type airo:AITechnique ;
+    rdfs:label "Mobile App Data Collection"@en ;
+    rdfs:label "移动应用数据收集"@zh .

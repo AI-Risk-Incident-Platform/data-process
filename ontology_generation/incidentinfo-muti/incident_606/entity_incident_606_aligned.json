@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchAI",
+      "中文名称": "谷歌搜索AI",
+      "英文名称": "Google AI Search",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Risk": {
+      "id": "InaccurateInformationRisk",
+      "中文名称": "信息不准确风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    },
+    "AICapability": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索能力",
+      "英文名称": "Info Retrieval & Generation Capability",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Domain": {
+      "id": "SearchEngine",
+      "中文名称": "搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Consequence": {
+      "id": "MisleadingInformation",
+      "中文名称": "误导性信息后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSearchAI",
+      "中文名称": "谷歌搜索AI",
+      "英文名称": "Google AI Search",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Risk": {
+      "id": "InaccurateInformationRisk",
+      "中文名称": "信息不准确风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    },
+    "AICapability": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索能力",
+      "英文名称": "Info Retrieval & Generation Capability",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Domain": {
+      "id": "SearchEngine",
+      "中文名称": "搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Google’s Search AI Is Absolutely Horrible at Geography"
+    },
+    "Consequence": {
+      "id": "MisleadingInformation",
+      "中文名称": "误导性信息后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI Search Is Turning Into the Problem Everyone Worried About"
+    }
+  }
+}

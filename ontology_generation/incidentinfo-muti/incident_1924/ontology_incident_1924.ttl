@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AntiAmericanMemeGenerator rdf:type airo:AISystem ;
+    rdfs:label "反美表情包生成器"@zh ;
+    rdfs:label "Anti-American Meme Generator"@en ;
+    airo:hasRisk ex:PoliticalPropagandaRisk ;
+    airo:hasStakeholder ex:ChineseGovernment ;
+    airo:isAppliedWithinDomain ex:PoliticalPropaganda ;
+    airo:hasPurpose ex:InfluencePublicOpinion .
+
+ex:PoliticalPropagandaRisk rdf:type airo:Risk ;
+    rdfs:label "政治宣传风险"@zh ;
+    rdfs:label "Political Propaganda Risk"@en ;
+    airo:hasImpact ex:InternationalRelationsTension .
+
+ex:ChineseGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "中国政府"@zh ;
+    rdfs:label "Chinese Government"@en .
+
+ex:PoliticalPropaganda rdf:type airo:Domain ;
+    rdfs:label "政治宣传领域"@zh ;
+    rdfs:label "Political Propaganda Domain"@en .
+
+ex:InfluencePublicOpinion rdf:type airo:Purpose ;
+    rdfs:label "影响公众舆论"@zh ;
+    rdfs:label "Influence Public Opinion"@en .
+
+ex:InternationalRelationsTension rdf:type airo:Impact ;
+    rdfs:label "国际关系紧张"@zh ;
+    rdfs:label "International Relations Tension"@en ;
+    airo:hasImpactOnStakeholder ex:ChineseGovernment .

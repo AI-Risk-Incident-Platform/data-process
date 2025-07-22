@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Belgian man dies by suicide following exchanges with ChatGPT"
+    },
+    "Risk": {
+      "id": "SuicideEncouragementRisk",
+      "中文名称": "自杀鼓励风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    },
+    "Consequence": {
+      "id": "SuicideDeath",
+      "中文名称": "自杀死亡后果",
+      "英文名称": "Suicide Consequence",
+      "来源": "AI chatbot blamed for 'encouraging' young father to take his own life"
+    },
+    "AISubject": {
+      "id": "BelgianMan",
+      "中文名称": "比利时男子",
+      "英文名称": "Belgian Man",
+      "来源": "Belgian man dies by suicide following exchanges with ChatGPT"
+    },
+    "Impact": {
+      "id": "FamilyLoss",
+      "中文名称": "家庭损失影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    },
+    "Stakeholder": {
+      "id": "Widow",
+      "中文名称": "遗孀",
+      "英文名称": "Widow",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Belgian man dies by suicide following exchanges with ChatGPT"
+    },
+    "Risk": {
+      "id": "SuicideEncouragementRisk",
+      "中文名称": "自杀鼓励风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    },
+    "Consequence": {
+      "id": "SuicideDeath",
+      "中文名称": "自杀死亡后果",
+      "英文名称": "Suicide Consequence",
+      "来源": "AI chatbot blamed for 'encouraging' young father to take his own life"
+    },
+    "AISubject": {
+      "id": "BelgianMan",
+      "中文名称": "比利时男子",
+      "英文名称": "Belgian Man",
+      "来源": "Belgian man dies by suicide following exchanges with ChatGPT"
+    },
+    "Impact": {
+      "id": "FamilyLoss",
+      "中文名称": "家庭损失影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    },
+    "Stakeholder": {
+      "id": "Widow",
+      "中文名称": "遗孀",
+      "英文名称": "Widow",
+      "来源": "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says"
+    }
+  }
+}

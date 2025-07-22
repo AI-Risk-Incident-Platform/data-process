@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceCloningRisk",
+      "中文名称": "未经授权的语音克隆风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "AICapability": {
+      "id": "VoiceCloning",
+      "中文名称": "语音克隆能力",
+      "英文名称": "Voice Synthesis Capability",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "AISubject": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT使用者",
+      "英文名称": "ChatGPT Users",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyConcerns",
+      "中文名称": "个人隐私担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVoiceSynthesis",
+      "中文名称": "基于深度学习的语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "Vulnerability": {
+      "id": "UnintendedVoiceCapture",
+      "中文名称": "意外语音捕获的脆弱性",
+      "英文名称": "Unintended Voice Capture Vulnerability",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Threat": {
+      "id": "VoiceIdentityTheft",
+      "中文名称": "语音身份盗窃的威胁",
+      "英文名称": "Voice Identity Theft Threat",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Hazard": {
+      "id": "UncontrolledVoiceReplication",
+      "中文名称": "不受控制的语音复制危害",
+      "英文名称": "Uncontrolled Voice Replication Hazard",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "RiskSource": {
+      "id": "LackOfVoiceUsageConsent",
+      "中文名称": "缺乏语音使用同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "RiskConcept": {
+      "id": "EthicalConcernsInVoiceCloning",
+      "中文名称": "语音克隆中的伦理问题",
+      "英文名称": "Ethical Synthetic Media Risk Concept",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceCloningRisk",
+      "中文名称": "未经授权的语音克隆风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "AICapability": {
+      "id": "VoiceCloning",
+      "中文名称": "语音克隆能力",
+      "英文名称": "Voice Synthesis Capability",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "AISubject": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT使用者",
+      "英文名称": "ChatGPT Users",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyConcerns",
+      "中文名称": "个人隐私担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVoiceSynthesis",
+      "中文名称": "基于深度学习的语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "Vulnerability": {
+      "id": "UnintendedVoiceCapture",
+      "中文名称": "意外语音捕获的脆弱性",
+      "英文名称": "Unintended Voice Capture Vulnerability",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "Threat": {
+      "id": "VoiceIdentityTheft",
+      "中文名称": "语音身份盗窃的威胁",
+      "英文名称": "Voice Identity Theft Threat",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    },
+    "Hazard": {
+      "id": "UncontrolledVoiceReplication",
+      "中文名称": "不受控制的语音复制危害",
+      "英文名称": "Uncontrolled Voice Replication Hazard",
+      "来源": "It's not an echo – ChatGPT might suddenly mimic your voice when you speak to it"
+    },
+    "RiskSource": {
+      "id": "LackOfVoiceUsageConsent",
+      "中文名称": "缺乏语音使用同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "ChatGPT unexpectedly began speaking in a user’s cloned voice during testing"
+    },
+    "RiskConcept": {
+      "id": "EthicalConcernsInVoiceCloning",
+      "中文名称": "语音克隆中的伦理问题",
+      "英文名称": "Ethical Synthetic Media Risk Concept",
+      "来源": "ChatGPT Went Rogue, Spoke In People's Voices Without Their Permission"
+    }
+  }
+}

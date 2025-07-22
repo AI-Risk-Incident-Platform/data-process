@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:StarshipDeliveryRobot rdf:type airo:AISystem ;
+    rdfs:label "Starship Delivery Robot"@en ;
+    rdfs:label "星际飞船送货机器人"@zh ;
+    airo:hasRisk ex:PhysicalHarmToChildRisk ;
+    airo:hasCapability ex:AutonomousDelivery ;
+    airo:isDeployedBy ex:StarshipTechnologies ;
+    airo:hasPurpose ex:LastMileDelivery ;
+    airo:hasStakeholder ex:ShoppingMallVisitors ;
+    airo:hasAISubject ex:ToddlerInShoppingMall ;
+    airo:isAppliedWithinDomain ex:RetailDelivery ;
+    airo:usesTechnique ex:AutonomousNavigation ;
+    airo:hasVulnerability ex:UnpredictableHumanBehavior .
+
+ex:PhysicalHarmToChildRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Harm to Child Risk"@en ;
+    rdfs:label "对儿童造成身体伤害风险"@zh ;
+    airo:hasConsequence ex:ChildInjury ;
+    airo:isRiskSourceFor ex:InadequateSafetyProtocols ;
+    airo:isRiskSourceFor ex:RobotMalfunction ;
+    airo:isRiskSourceFor ex:UnsupervisedRobotOperation .
+
+ex:ChildInjury rdf:type airo:Consequence ;
+    rdfs:label "Child Injury Consequence"@en ;
+    rdfs:label "儿童受伤后果"@zh ;
+    airo:hasImpact ex:PhysicalTraumaToChild .
+
+ex:AutonomousDelivery rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Delivery Capability"@en ;
+    rdfs:label "自主送货能力"@zh .
+
+ex:StarshipTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Starship Technologies"@en ;
+    rdfs:label "星际飞船技术公司"@zh .
+
+ex:ShoppingMallVisitors rdf:type airo:Stakeholder ;
+    rdfs:label "Shopping Mall Visitors"@en ;
+    rdfs:label "购物中心访客"@zh .
+
+ex:ToddlerInShoppingMall rdf:type airo:AISubject ;
+    rdfs:label "Toddler in Shopping Mall"@en ;
+    rdfs:label "购物中心幼儿"@zh .
+
+ex:PhysicalTraumaToChild rdf:type airo:Impact ;
+    rdfs:label "Physical Trauma to Child Impact"@en ;
+    rdfs:label "儿童身体创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ToddlerInShoppingMall .
+
+ex:LastMileDelivery rdf:type airo:Purpose ;
+    rdfs:label "Last Mile Delivery Purpose"@en ;
+    rdfs:label "最后一英里送货目的"@zh .
+
+ex:RetailDelivery rdf:type airo:Domain ;
+    rdfs:label "Retail Delivery Domain"@en ;
+    rdfs:label "零售配送领域"@zh .
+
+ex:AutonomousNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Autonomous Navigation Technique"@en ;
+    rdfs:label "自主导航技术"@zh .
+
+ex:UnpredictableHumanBehavior rdf:type airo:Vulnerability ;
+    rdfs:label "Unpredictable Human Behavior Vulnerability"@en ;
+    rdfs:label "不可预测的人类行为脆弱性"@zh .
+
+ex:RobotMalfunction rdf:type airo:Threat ;
+    rdfs:label "Robot Malfunction Threat"@en ;
+    rdfs:label "机器人故障威胁"@zh .
+
+ex:UnsupervisedRobotOperation rdf:type airo:Hazard ;
+    rdfs:label "Unsupervised Robot Operation Hazard"@en ;
+    rdfs:label "无人监督的机器人操作危害"@zh .
+
+ex:InadequateSafetyProtocols rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Safety Protocols Risk Source"@en ;
+    rdfs:label "安全协议不足风险源"@zh .
+
+ex:PublicSafetyConcernsWithDeliveryRobots rdf:type airo:RiskConcept ;
+    rdfs:label "Public Safety Concerns with Delivery Robots Risk Concept"@en ;
+    rdfs:label "送货机器人公共安全问题"@zh .

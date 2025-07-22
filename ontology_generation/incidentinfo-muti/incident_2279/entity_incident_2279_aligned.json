@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "AISubject": {
+      "id": "VehicleOccupantsAndPedestrians",
+      "中文名称": "车辆乘员与行人",
+      "英文名称": "Road Users",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Domain": {
+      "id": "AutomotiveTransportation",
+      "中文名称": "汽车交通领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "AISubject": {
+      "id": "VehicleOccupantsAndPedestrians",
+      "中文名称": "车辆乘员与行人",
+      "英文名称": "Road Users",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    },
+    "Domain": {
+      "id": "AutomotiveTransportation",
+      "中文名称": "汽车交通领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Driver On Trial For Autopilot Crash That Killed Two"
+    }
+  }
+}

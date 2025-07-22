@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramAI rdf:type airo:AISystem ;
+    rdfs:label "Instagram AI System"@en ;
+    rdfs:label "Instagram AI系统"@zh ;
+    airo:hasRisk ex:PrivacyRisk ;
+    airo:hasAISubject ex:UserData ;
+    airo:hasStakeholder ex:InstagramUser .
+
+ex:PrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Risk"@en ;
+    rdfs:label "隐私风险"@zh ;
+    airo:hasImpact ex:DataExposure .
+
+ex:InstagramUser rdf:type airo:Stakeholder ;
+    rdfs:label "Instagram User"@en ;
+    rdfs:label "Instagram用户"@zh .
+
+ex:UserData rdf:type airo:AISubject ;
+    rdfs:label "User Data"@en ;
+    rdfs:label "用户数据"@zh .
+
+ex:DataExposure rdf:type airo:Impact ;
+    rdfs:label "Data Exposure"@en ;
+    rdfs:label "数据暴露"@zh ;
+    airo:hasImpactOnStakeholder ex:InstagramUser .

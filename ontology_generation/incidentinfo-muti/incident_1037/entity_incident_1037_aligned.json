@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPersuasionExperimentOnReddit",
+      "中文名称": "Reddit上的AI说服实验",
+      "英文名称": "AI Persuasion Experiment on Reddit",
+      "来源": "Researchers Secretly Ran a Massive, Unauthorized AI Persuasion Experiment on Reddit Users"
+    },
+    "Risk": {
+      "id": "EthicalViolationRisk",
+      "中文名称": "伦理违规风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Secret AI experiment on Reddit accused of ethical violations"
+    },
+    "Stakeholder": {
+      "id": "RedditUsers",
+      "中文名称": "Reddit用户",
+      "英文名称": "Reddit Users",
+      "来源": "Researchers Secretly Ran a Massive, Unauthorized AI Persuasion Experiment on Reddit Users"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUserManipulation",
+      "中文名称": "未经授权的用户操纵后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Unauthorized Experiment on CMV Involving AI-generated Comments"
+    },
+    "RiskSource": {
+      "id": "LackOfInformedConsent",
+      "中文名称": "缺乏知情同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Secret AI experiment on Reddit accused of ethical violations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPersuasionExperimentOnReddit",
+      "中文名称": "Reddit上的AI说服实验",
+      "英文名称": "AI Persuasion Experiment on Reddit",
+      "来源": "Researchers Secretly Ran a Massive, Unauthorized AI Persuasion Experiment on Reddit Users"
+    },
+    "Risk": {
+      "id": "EthicalViolationRisk",
+      "中文名称": "伦理违规风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Secret AI experiment on Reddit accused of ethical violations"
+    },
+    "Stakeholder": {
+      "id": "RedditUsers",
+      "中文名称": "Reddit用户",
+      "英文名称": "Reddit Users",
+      "来源": "Researchers Secretly Ran a Massive, Unauthorized AI Persuasion Experiment on Reddit Users"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUserManipulation",
+      "中文名称": "未经授权的用户操纵后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Unauthorized Experiment on CMV Involving AI-generated Comments"
+    },
+    "RiskSource": {
+      "id": "LackOfInformedConsent",
+      "中文名称": "缺乏知情同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Secret AI experiment on Reddit accused of ethical violations"
+    }
+  }
+}

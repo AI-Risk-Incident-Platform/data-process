@@ -1,0 +1,38 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TransgenderFaceRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Transgender Face Recognition System"@en ;
+    rdfs:label "跨性别者面部识别系统"@zh ;
+    airo:hasRisk ex:GenderRecognitionBiasRisk ;
+    airo:hasCapability ex:FacialRecognitionForTransgenderIndividuals ;
+    airo:usesTechnique ex:AppearanceAndTherapyBasedRecognition .
+
+ex:GenderRecognitionBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Recognition Bias Risk"@en ;
+    rdfs:label "性别识别偏见风险"@zh ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        airo:hasImpact ex:GenderIdentityMisclassification
+    ] .
+
+ex:FacialRecognitionForTransgenderIndividuals rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Transgender Individuals Capability"@en ;
+    rdfs:label "跨性别者面部识别能力"@zh .
+
+ex:AppearanceAndTherapyBasedRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Appearance and Therapy Based Recognition Technique"@en ;
+    rdfs:label "基于外貌和治疗因素的识别技术"@zh .
+
+ex:GenderIdentityMisclassification rdf:type airo:Impact ;
+    rdfs:label "Gender Identity Misclassification Impact"@en ;
+    rdfs:label "性别身份误分类的影响"@zh .

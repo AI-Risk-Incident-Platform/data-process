@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ZillowHomeBuyingAlgorithm",
+      "中文名称": "Zillow购房算法",
+      "英文名称": "Zillow Home Buying Algorithm",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "Risk": {
+      "id": "InaccurateRealEstateValuationRisk",
+      "中文名称": "房地产估值不准确风险",
+      "英文名称": "Inaccurate Property Valuation Risk",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "Consequence": {
+      "id": "BusinessFailure",
+      "中文名称": "业务失败后果",
+      "英文名称": "Business Failure Consequence",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "AICapability": {
+      "id": "AutomatedHomeValuation",
+      "中文名称": "自动化房屋估值能力",
+      "英文名称": "Automated House Valuation",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "AIOperator": {
+      "id": "ZillowGroup",
+      "中文名称": "Zillow集团",
+      "英文名称": "Zillow Group",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "Domain": {
+      "id": "RealEstateMarket",
+      "中文名称": "房地产市场领域",
+      "英文名称": "Real Estate Market",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "RiskSource": {
+      "id": "UnpredictableMarketConditions",
+      "中文名称": "不可预测的市场条件风险源",
+      "英文名称": "Unpredictable Market Conditions Risk Source",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "财务损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "Purpose": {
+      "id": "AutomatedHomePurchasing",
+      "中文名称": "自动化房屋购买目的",
+      "英文名称": "Automated Home Purchasing Purpose",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForRealEstate",
+      "中文名称": "房地产机器学习技术",
+      "英文名称": "Machine Learning for Real Estate Technique",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ZillowHomeBuyingAlgorithm",
+      "中文名称": "Zillow购房算法",
+      "英文名称": "Zillow Home Buying Algorithm",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "Risk": {
+      "id": "InaccurateRealEstateValuationRisk",
+      "中文名称": "房地产估值不准确风险",
+      "英文名称": "Inaccurate Property Valuation Risk",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "Consequence": {
+      "id": "BusinessFailure",
+      "中文名称": "业务失败后果",
+      "英文名称": "Business Failure Consequence",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "AICapability": {
+      "id": "AutomatedHomeValuation",
+      "中文名称": "自动化房屋估值能力",
+      "英文名称": "Automated House Valuation",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "AIOperator": {
+      "id": "ZillowGroup",
+      "中文名称": "Zillow集团",
+      "英文名称": "Zillow Group",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "Domain": {
+      "id": "RealEstateMarket",
+      "中文名称": "房地产市场领域",
+      "英文名称": "Real Estate Market",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "RiskSource": {
+      "id": "UnpredictableMarketConditions",
+      "中文名称": "不可预测的市场条件风险源",
+      "英文名称": "Unpredictable Market Conditions Risk Source",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "财务损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Zillow to exit its home buying business, cut 25% of staff"
+    },
+    "Purpose": {
+      "id": "AutomatedHomePurchasing",
+      "中文名称": "自动化房屋购买目的",
+      "英文名称": "Automated Home Purchasing Purpose",
+      "来源": "Zillow's home-buying debacle shows how hard it is to use AI to value real estate"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForRealEstate",
+      "中文名称": "房地产机器学习技术",
+      "英文名称": "Machine Learning for Real Estate Technique",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    }
+  }
+}

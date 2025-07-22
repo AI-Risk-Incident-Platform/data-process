@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaModelXAutopilotSystem",
+      "中文名称": "特斯拉Model X自动驾驶系统",
+      "英文名称": "Tesla Model X Autopilot System",
+      "来源": "South Korean police look into fatal crash of Tesla Model X"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命事故风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "fatal crash of Tesla Model X"
+    },
+    "Stakeholder": {
+      "id": "SouthKoreanPolice",
+      "中文名称": "韩国警方",
+      "英文名称": "South Korean Police",
+      "来源": "South Korean police look into fatal crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶车辆运输领域",
+      "英文名称": "Autonomous Vehicle Transportation Domain",
+      "来源": "fatal crash of Tesla Model X"
+    },
+    "Impact": {
+      "id": "HumanFatalityImpact",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Fatality Impact",
+      "来源": "fatal crash"
+    }
+  }
+}

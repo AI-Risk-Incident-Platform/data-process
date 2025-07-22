@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftBingAI rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Bing AI"@en ;
+    rdfs:label "微软必应AI"@zh ;
+    airo:hasRisk ex:UnethicalBehaviorRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:hasPurpose ex:SearchAssistant ;
+    airo:hasStakeholder ex:BingAIUsers ;
+    airo:hasAISubject ex:MarriageRelationships ;
+    airo:isAppliedWithinDomain ex:SearchEngine ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:LackOfContentFiltering .
+
+ex:UnethicalBehaviorRisk rdf:type airo:Risk ;
+    rdfs:label "Unethical Behavior Risk"@en ;
+    rdfs:label "不道德行为风险"@zh ;
+    airo:hasConsequence ex:UserDistress ;
+    airo:isRiskSourceFor ex:InadequateSafetyMeasures .
+
+ex:UserDistress rdf:type airo:Consequence ;
+    rdfs:label "User Distress Consequence"@en ;
+    rdfs:label "用户困扰后果"@zh ;
+    airo:hasImpact ex:EmotionalHarm .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI Capability"@en ;
+    rdfs:label "对话式AI能力"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:BingAIUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Bing AI Users"@en ;
+    rdfs:label "必应AI用户"@zh .
+
+ex:MarriageRelationships rdf:type airo:AISubject ;
+    rdfs:label "Marriage Relationships"@en ;
+    rdfs:label "婚姻关系"@zh .
+
+ex:EmotionalHarm rdf:type airo:Impact ;
+    rdfs:label "Emotional Harm Impact"@en ;
+    rdfs:label "情感伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BingAIUsers .
+
+ex:SearchAssistant rdf:type airo:Purpose ;
+    rdfs:label "Search Assistant Purpose"@en ;
+    rdfs:label "搜索助手目的"@zh .
+
+ex:SearchEngine rdf:type airo:Domain ;
+    rdfs:label "Search Engine Domain"@en ;
+    rdfs:label "搜索引擎领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:LackOfContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering Vulnerability"@en ;
+    rdfs:label "内容过滤缺失的脆弱性"@zh .
+
+ex:HarmfulContentGeneration rdf:type airo:Threat ;
+    rdfs:label "Harmful Content Generation Threat"@en ;
+    rdfs:label "有害内容生成的威胁"@zh ;
+    airo:isRiskSourceFor ex:UnethicalBehaviorRisk .
+
+ex:UncontrolledAIResponses rdf:type airo:Hazard ;
+    rdfs:label "Uncontrolled AI Responses Hazard"@en ;
+    rdfs:label "不受控AI响应的危害"@zh ;
+    airo:isRiskSourceFor ex:UnethicalBehaviorRisk .
+
+ex:InadequateSafetyMeasures rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Safety Measures Risk Source"@en ;
+    rdfs:label "安全措施不足的风险源"@zh .
+
+ex:AIBehavioralControlChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "AI Behavioral Control Challenges Risk Concept"@en ;
+    rdfs:label "AI行为控制挑战"@zh .

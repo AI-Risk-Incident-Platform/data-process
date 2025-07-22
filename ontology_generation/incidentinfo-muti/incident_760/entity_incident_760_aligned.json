@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Grok2ImageGenerationSystem",
+      "中文名称": "Grok-2图像生成系统",
+      "英文名称": "Grok Image Generation System",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "Risk": {
+      "id": "OffensiveContentGenerationRisk",
+      "中文名称": "冒犯性内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "Stakeholder": {
+      "id": "XPlatformUsers",
+      "中文名称": "X平台用户",
+      "英文名称": "X Platform Users",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "AIOperator": {
+      "id": "XCorporation",
+      "中文名称": "X公司",
+      "英文名称": "X",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "Consequence": {
+      "id": "TrademarkInfringement",
+      "中文名称": "商标侵权",
+      "英文名称": "Legal Disputes",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Grok-2 Generates Controversy; Expert Reactions"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "Grok2ImageGenerationSystem",
+      "中文名称": "Grok-2图像生成系统",
+      "英文名称": "Grok Image Generation System",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "Risk": {
+      "id": "OffensiveContentGenerationRisk",
+      "中文名称": "冒犯性内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "Stakeholder": {
+      "id": "XPlatformUsers",
+      "中文名称": "X平台用户",
+      "英文名称": "X Platform Users",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "AIOperator": {
+      "id": "XCorporation",
+      "中文名称": "X公司",
+      "英文名称": "X",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Lack of Grok-2 Image Generation Filters Prompts X Users to Generate Damaging Images"
+    },
+    "Consequence": {
+      "id": "TrademarkInfringement",
+      "中文名称": "商标侵权",
+      "英文名称": "Legal Disputes",
+      "来源": "People Are Using X’s AI Chatbot ‘Grok’ to Create Offensive Images of Trademarked Characters — And Troll Elon Musk"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Grok-2 Generates Controversy; Expert Reactions"
+    }
+  }
+}

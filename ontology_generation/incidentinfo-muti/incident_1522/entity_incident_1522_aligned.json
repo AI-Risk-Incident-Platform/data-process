@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LaMDA",
+      "中文名称": "LaMDA",
+      "英文名称": "LaMDA",
+      "来源": "LaMDA is Google's conversational AI system"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInAI",
+      "中文名称": "AI伦理问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The story of LaMDA and the Google engineer raised ethical concerns about AI consciousness"
+    },
+    "Stakeholder": {
+      "id": "GoogleEngineer",
+      "中文名称": "谷歌工程师",
+      "英文名称": "Google Professional",
+      "来源": "A Google engineer claimed LaMDA had achieved consciousness"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "LaMDA is designed for open-ended conversation"
+    },
+    "Purpose": {
+      "id": "HumanLikeConversation",
+      "中文名称": "类人对话目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "LaMDA aims to engage in natural, free-flowing conversations"
+    },
+    "RiskSource": {
+      "id": "MediaHype",
+      "中文名称": "媒体炒作风险源",
+      "英文名称": "Media Hype Risk Source",
+      "来源": "Top AI researcher says Google's AI research is more concerned with media hype"
+    },
+    "Impact": {
+      "id": "PublicConfusionAboutAIConsciousness",
+      "中文名称": "公众对AI意识的困惑影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "The debate about LaMDA's consciousness created confusion in the public"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "LaMDA is based on Google's large language model technology"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LaMDA",
+      "中文名称": "LaMDA",
+      "英文名称": "LaMDA",
+      "来源": "LaMDA is Google's conversational AI system"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInAI",
+      "中文名称": "AI伦理问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The story of LaMDA and the Google engineer raised ethical concerns about AI consciousness"
+    },
+    "Stakeholder": {
+      "id": "GoogleEngineer",
+      "中文名称": "谷歌工程师",
+      "英文名称": "Google Professional",
+      "来源": "A Google engineer claimed LaMDA had achieved consciousness"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "LaMDA is designed for open-ended conversation"
+    },
+    "Purpose": {
+      "id": "HumanLikeConversation",
+      "中文名称": "类人对话目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "LaMDA aims to engage in natural, free-flowing conversations"
+    },
+    "RiskSource": {
+      "id": "MediaHype",
+      "中文名称": "媒体炒作风险源",
+      "英文名称": "Media Hype Risk Source",
+      "来源": "Top AI researcher says Google's AI research is more concerned with media hype"
+    },
+    "Impact": {
+      "id": "PublicConfusionAboutAIConsciousness",
+      "中文名称": "公众对AI意识的困惑影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "The debate about LaMDA's consciousness created confusion in the public"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "LaMDA is based on Google's large language model technology"
+    }
+  }
+}

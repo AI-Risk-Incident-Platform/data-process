@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeForRemoteWorkApplication rdf:type airo:AISystem ;
+    rdfs:label "Deepfake for Remote Work Application"@en ;
+    rdfs:label "用于远程工作申请的深度伪造"@zh ;
+    airo:hasRisk ex:IdentityFraudRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:RemoteWorkApplicants ;
+    airo:hasAISubject ex:CorporateHiringSystems .
+
+ex:IdentityFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Identity Fraud Risk"@en ;
+    rdfs:label "身份欺诈风险"@zh ;
+    airo:isRiskSourceFor ex:StolenPII ;
+    airo:hasConsequence ex:UnauthorizedEmployment .
+
+ex:StolenPII rdf:type airo:RiskSource ;
+    rdfs:label "Stolen Personally Identifiable Information"@en ;
+    rdfs:label "被盗个人身份信息"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:UnauthorizedEmployment rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Employment"@en ;
+    rdfs:label "未经授权的就业"@zh ;
+    airo:hasImpact ex:CorporateDataBreach .
+
+ex:CorporateDataBreach rdf:type airo:Impact ;
+    rdfs:label "Corporate Data Breach"@en ;
+    rdfs:label "企业数据泄露"@zh ;
+    airo:hasImpactOnStakeholder ex:RemoteWorkApplicants .
+
+ex:RemoteWorkApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Remote Work Applicants"@en ;
+    rdfs:label "远程工作申请人"@zh .
+
+ex:CorporateHiringSystems rdf:type airo:AISubject ;
+    rdfs:label "Corporate Hiring Systems"@en ;
+    rdfs:label "企业招聘系统"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProctoringApps",
+      "中文名称": "监考应用程序",
+      "英文名称": "Exam Proctoring Software",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Risk": {
+      "id": "UnnecessarySurveillanceRisk",
+      "中文名称": "不必要的监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityMonitoring",
+      "中文名称": "学术诚信监控",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ProctoringApps",
+      "中文名称": "监考应用程序",
+      "英文名称": "Exam Proctoring Software",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Risk": {
+      "id": "UnnecessarySurveillanceRisk",
+      "中文名称": "不必要的监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityMonitoring",
+      "中文名称": "学术诚信监控",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    }
+  }
+}

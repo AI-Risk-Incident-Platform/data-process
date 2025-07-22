@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Image Generation System",
+      "来源": "AI-generated \"deepfake pornography\""
+    },
+    "Risk": {
+      "id": "PsychologicalHarmFromNonConsensualDeepfakes",
+      "中文名称": "非自愿深度伪造造成的心理伤害风险",
+      "英文名称": "Psychological Harm from Non-Consensual Deepfakes Risk",
+      "来源": "\"I Felt Shameful and Fearful\""
+    },
+    "Consequence": {
+      "id": "EmotionalDistressAndSocialStigma",
+      "中文名称": "情绪困扰和社会污名后果",
+      "英文名称": "Emotional Distress and Social Stigma Consequence",
+      "来源": "\"mortifying experience on social media\""
+    },
+    "AISubject": {
+      "id": "TeenageVictimsOfCyberExploitation",
+      "中文名称": "网络剥削青少年受害者",
+      "英文名称": "Teenage Victims of Cyber Exploitation",
+      "来源": "\"14-year-old AI cyber exploitation victim\""
+    },
+    "Impact": {
+      "id": "ViolationOfPersonalPrivacyAndDignity",
+      "中文名称": "侵犯个人隐私和尊严的影响",
+      "英文名称": "Violation of Personal Privacy and Dignity Impact",
+      "来源": "\"AI-generated fake nudes of herself\""
+    },
+    "Stakeholder": {
+      "id": "USCongress",
+      "中文名称": "美国国会",
+      "英文名称": "US Congress",
+      "来源": "\"urges Congress to pass 'Take It Down Act'\""
+    },
+    "RiskSource": {
+      "id": "EasyAccessToDeepfakeTechnology",
+      "中文名称": "深度伪造技术易获取风险源",
+      "英文名称": "Easy Access to Deepfake Technology Risk Source",
+      "来源": "implied by the widespread creation of non-consensual deepfakes"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "implied by deepfake creation technology"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "\"mortifying experience on social media\""
+    },
+    "Purpose": {
+      "id": "CreatingNonConsensualExplicitContent",
+      "中文名称": "创建非自愿色情内容的目的",
+      "英文名称": "Creating Non-Consensual Explicit Content Purpose",
+      "来源": "implied by the creation of fake nudes"
+    }
+  }
+}

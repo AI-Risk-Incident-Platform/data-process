@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Generation System",
+      "来源": "新闻标题中提到的'Poor quality fakes'和'Falsuri prost realizate'表明使用了AI生成虚假图像"
+    },
+    "Risk": {
+      "id": "ReputationDamageRisk",
+      "中文名称": "声誉损害风险",
+      "英文名称": "Reputation Damage Risk",
+      "来源": "新闻涉及部长Alaiba的私密图像被伪造，可能对其声誉造成损害"
+    },
+    "Stakeholder": {
+      "id": "MinisterAlaiba",
+      "中文名称": "Alaiba部长",
+      "英文名称": "Minister Alaiba",
+      "来源": "新闻标题明确提到'Minister Alaiba'是被伪造图像的目标人物"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "伪造图像可能导致公众对政治人物的误解"
+    },
+    "AITechnique": {
+      "id": "ImageSynthesisTechnology",
+      "中文名称": "图像合成技术",
+      "英文名称": "Image Synthesis Technology",
+      "来源": "新闻中提到的'fakes'和'falsuri'表明使用了AI图像生成技术"
+    },
+    "Impact": {
+      "id": "PoliticalTrustErosion",
+      "中文名称": "政治信任侵蚀影响",
+      "英文名称": "Political Trust Erosion Impact",
+      "来源": "针对政治人物的伪造内容可能削弱公众对政治体系的信任"
+    }
+  }
+}

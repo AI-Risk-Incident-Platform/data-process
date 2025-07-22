@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:FakeReviewsRisk ;
+    airo:hasAICapability ex:TextGenerationCapability ;
+    airo:hasStakeholder ex:Airlines ;
+    airo:hasAISubject ex:Consumers ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:isAppliedWithinDomain ex:OnlineReviews ;
+    airo:usesTechnique ex:NLPTech ;
+    airo:hasVulnerability ex:ReviewVerificationVulnerability .
+
+ex:FakeReviewsRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Reviews Risk"@en ;
+    rdfs:label "虚假评论风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception ;
+    airo:isRiskSourceFor ex:AIReviewGeneration .
+
+ex:ConsumerDeception rdf:type airo:Consequence ;
+    rdfs:label "Consumer Deception Consequence"@en ;
+    rdfs:label "消费者欺骗后果"@zh ;
+    airo:hasImpact ex:MarketDistortion .
+
+ex:TextGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .
+
+ex:Airlines rdf:type airo:Stakeholder ;
+    rdfs:label "Airlines"@en ;
+    rdfs:label "航空公司"@zh .
+
+ex:Consumers rdf:type airo:AISubject ;
+    rdfs:label "Consumers"@en ;
+    rdfs:label "消费者"@zh .
+
+ex:MarketDistortion rdf:type airo:Impact ;
+    rdfs:label "Market Distortion Impact"@en ;
+    rdfs:label "市场扭曲影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Airlines , ex:Consumers .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Content Generation Purpose"@en ;
+    rdfs:label "内容生成目的"@zh .
+
+ex:OnlineReviews rdf:type airo:Domain ;
+    rdfs:label "Online Reviews Domain"@en ;
+    rdfs:label "在线评论领域"@zh .
+
+ex:NLPTech rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:ReviewVerificationVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Review Verification Vulnerability"@en ;
+    rdfs:label "评论验证漏洞"@zh .
+
+ex:AIReviewGeneration rdf:type airo:RiskSource ;
+    rdfs:label "AI Review Generation Risk Source"@en ;
+    rdfs:label "AI评论生成风险源"@zh ;
+    airo:hasHazard ex:AIAbuseHazard ;
+    airo:hasThreat ex:MisinformationThreat ;
+    airo:hasRiskConcept ex:TrustErosion .
+
+ex:AIAbuseHazard rdf:type airo:Hazard ;
+    rdfs:label "AI Abuse Hazard"@en ;
+    rdfs:label "AI滥用危害"@zh .
+
+ex:MisinformationThreat rdf:type airo:Threat ;
+    rdfs:label "Misinformation Threat"@en ;
+    rdfs:label "虚假信息威胁"@zh .
+
+ex:TrustErosion rdf:type airo:RiskConcept ;
+    rdfs:label "Trust Erosion Risk Concept"@en ;
+    rdfs:label "信任侵蚀风险概念"@zh .

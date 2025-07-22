@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSoftware rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Software"@en ;
+    rdfs:label "面部识别软件"@zh ;
+    airo:hasRisk ex:IllegalUseOfFacialRecognition ;
+    airo:hasStakeholder ex:FrenchPolice ;
+    airo:isDeployedBy ex:FrenchPoliceDepartment .
+
+ex:IllegalUseOfFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Illegal Use of Facial Recognition Risk"@en ;
+    rdfs:label "非法使用面部识别风险"@zh ;
+    airo:isRiskSourceFor ex:UnlawfulUseSince2015 ;
+    airo:hasConsequence ex:LegalActionByPoliticians .
+
+ex:FrenchPolice rdf:type airo:Stakeholder ;
+    rdfs:label "French Police"@en ;
+    rdfs:label "法国警方"@zh .
+
+ex:FrenchPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "French Police Department"@en ;
+    rdfs:label "法国警察部门"@zh .
+
+ex:UnlawfulUseSince2015 rdf:type airo:RiskSource ;
+    rdfs:label "Unlawful Use Since 2015 Risk Source"@en ;
+    rdfs:label "自2015年以来的非法使用风险源"@zh .
+
+ex:LegalActionByPoliticians rdf:type airo:Consequence ;
+    rdfs:label "Legal Action by Politicians Consequence"@en ;
+    rdfs:label "政界人士采取法律行动的后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FrenchPolice .

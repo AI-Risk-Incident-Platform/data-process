@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Full Self-Driving Beta",
+      "来源": "Tesla's 'Full Self-Driving' beta has an 'assertive' driving mode that 'may perform rolling stops'"
+    },
+    "Risk": {
+      "id": "RollingStopRisk",
+      "中文名称": "滚动停车风险",
+      "英文名称": "Rolling Stop Risk",
+      "来源": "'may perform rolling stops'"
+    },
+    "AICapability": {
+      "id": "AssertiveDrivingMode",
+      "中文名称": "自信驾驶模式能力",
+      "英文名称": "Assertive Driving Mode Capability",
+      "来源": "'assertive' driving mode"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla's 'Assertive' Mode"
+    },
+    "RiskSource": {
+      "id": "AggressiveDrivingBehaviorProgramming",
+      "中文名称": "激进驾驶行为编程风险源",
+      "英文名称": "Aggressive Driving Behavior Programming Risk Source",
+      "来源": "'assertive' driving mode that 'may perform rolling stops'"
+    },
+    "Consequence": {
+      "id": "TrafficViolationPotential",
+      "中文名称": "潜在交通违规后果",
+      "英文名称": "Traffic Violation Potential Consequence",
+      "来源": "'may perform rolling stops'"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTechnology",
+      "中文名称": "自动驾驶技术领域",
+      "英文名称": "Autonomous Vehicle Technology Domain",
+      "来源": "Self-Driving Options"
+    }
+  }
+}

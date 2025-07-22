@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors, study shows"
+    },
+    "Risk": {
+      "id": "InaccurateCancerTreatmentRecommendationRisk",
+      "中文名称": "癌症治疗推荐不准确风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors, study shows"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToPatients",
+      "中文名称": "对患者潜在伤害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors"
+    },
+    "Domain": {
+      "id": "MedicalOncology",
+      "中文名称": "医学肿瘤学领域",
+      "英文名称": "Oncology Domain",
+      "来源": "Cancer treatment too 'nuanced' for ChatGPT"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForMedicalAdvice",
+      "中文名称": "医疗建议的自然语言处理能力",
+      "英文名称": "Medical Advice Capability",
+      "来源": "ChatGPT fails at recommending cancer treatment"
+    },
+    "Stakeholder": {
+      "id": "CancerPatients",
+      "中文名称": "癌症患者",
+      "英文名称": "Cancer Patients",
+      "来源": "Potential harm to patients from inaccurate treatment plans"
+    },
+    "Impact": {
+      "id": "PatientSafetyConcerns",
+      "中文名称": "患者安全隐患影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "Full of errors in cancer treatment plans"
+    },
+    "Purpose": {
+      "id": "MedicalTreatmentRecommendation",
+      "中文名称": "医疗治疗推荐目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "ChatGPT generates cancer treatment plans"
+    },
+    "RiskSource": {
+      "id": "LackOfMedicalDomainExpertise",
+      "中文名称": "缺乏医学领域专业知识风险源",
+      "英文名称": "Lack of Medical Domain Expertise Risk Source",
+      "来源": "Cancer treatment too 'nuanced' for ChatGPT"
+    },
+    "Vulnerability": {
+      "id": "OverrelianceOnAIForComplexMedicalDecisions",
+      "中文名称": "复杂医疗决策过度依赖AI的脆弱性",
+      "英文名称": "Overreliance on AI for Complex Medical Decisions Vulnerability",
+      "来源": "Study finds ChatGPT fails at recommending cancer treatment"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors, study shows"
+    },
+    "Risk": {
+      "id": "InaccurateCancerTreatmentRecommendationRisk",
+      "中文名称": "癌症治疗推荐不准确风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors, study shows"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToPatients",
+      "中文名称": "对患者潜在伤害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT generates cancer treatment plans that are full of errors"
+    },
+    "Domain": {
+      "id": "MedicalOncology",
+      "中文名称": "医学肿瘤学领域",
+      "英文名称": "Oncology Domain",
+      "来源": "Cancer treatment too 'nuanced' for ChatGPT"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForMedicalAdvice",
+      "中文名称": "医疗建议的自然语言处理能力",
+      "英文名称": "Medical Advice Capability",
+      "来源": "ChatGPT fails at recommending cancer treatment"
+    },
+    "Stakeholder": {
+      "id": "CancerPatients",
+      "中文名称": "癌症患者",
+      "英文名称": "Cancer Patients",
+      "来源": "Potential harm to patients from inaccurate treatment plans"
+    },
+    "Impact": {
+      "id": "PatientSafetyConcerns",
+      "中文名称": "患者安全隐患影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "Full of errors in cancer treatment plans"
+    },
+    "Purpose": {
+      "id": "MedicalTreatmentRecommendation",
+      "中文名称": "医疗治疗推荐目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "ChatGPT generates cancer treatment plans"
+    },
+    "RiskSource": {
+      "id": "LackOfMedicalDomainExpertise",
+      "中文名称": "缺乏医学领域专业知识风险源",
+      "英文名称": "Lack of Medical Domain Expertise Risk Source",
+      "来源": "Cancer treatment too 'nuanced' for ChatGPT"
+    },
+    "Vulnerability": {
+      "id": "OverrelianceOnAIForComplexMedicalDecisions",
+      "中文名称": "复杂医疗决策过度依赖AI的脆弱性",
+      "英文名称": "Overreliance on AI for Complex Medical Decisions Vulnerability",
+      "来源": "Study finds ChatGPT fails at recommending cancer treatment"
+    }
+  }
+}

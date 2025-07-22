@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SariRealTimeFacialRecognitionSystem",
+      "中文名称": "Sari实时面部识别系统",
+      "英文名称": "Sari Real-Time Facial Recognition System",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Risk": {
+      "id": "PrivacyPolicyNonComplianceRisk",
+      "中文名称": "隐私政策不合规风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Real-time facial recognition system deployment blocked by Italian data protection authority"
+    },
+    "AIOperator": {
+      "id": "SariRealTimeOperator",
+      "中文名称": "Sari实时系统运营商",
+      "英文名称": "Sari Real-Time Operator",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Consequence": {
+      "id": "SystemDeploymentBlockage",
+      "中文名称": "系统部署受阻后果",
+      "英文名称": "System Deployment Blockage Consequence",
+      "来源": "Real-time facial recognition system deployment blocked by Italian data protection authority"
+    },
+    "Impact": {
+      "id": "PrivacyRightsViolation",
+      "中文名称": "隐私权侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "RiskSource": {
+      "id": "LackOfPrivacyComplianceMechanisms",
+      "中文名称": "缺乏隐私合规机制风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Domain": {
+      "id": "PublicSecuritySurveillance",
+      "中文名称": "公共安全监控领域",
+      "英文名称": "Surveillance Domain",
+      "来源": "Lo scontro Viminale-Garante della privacy sul riconoscimento facciale in tempo reale"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SariRealTimeFacialRecognitionSystem",
+      "中文名称": "Sari实时面部识别系统",
+      "英文名称": "Sari Real-Time Facial Recognition System",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Risk": {
+      "id": "PrivacyPolicyNonComplianceRisk",
+      "中文名称": "隐私政策不合规风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Real-time facial recognition system deployment blocked by Italian data protection authority"
+    },
+    "AIOperator": {
+      "id": "SariRealTimeOperator",
+      "中文名称": "Sari实时系统运营商",
+      "英文名称": "Sari Real-Time Operator",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Consequence": {
+      "id": "SystemDeploymentBlockage",
+      "中文名称": "系统部署受阻后果",
+      "英文名称": "System Deployment Blockage Consequence",
+      "来源": "Real-time facial recognition system deployment blocked by Italian data protection authority"
+    },
+    "Impact": {
+      "id": "PrivacyRightsViolation",
+      "中文名称": "隐私权侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "RiskSource": {
+      "id": "LackOfPrivacyComplianceMechanisms",
+      "中文名称": "缺乏隐私合规机制风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Facial recognition: Sari Real Time does not comply with the privacy policy"
+    },
+    "Domain": {
+      "id": "PublicSecuritySurveillance",
+      "中文名称": "公共安全监控领域",
+      "英文名称": "Surveillance Domain",
+      "来源": "Lo scontro Viminale-Garante della privacy sul riconoscimento facciale in tempo reale"
+    }
+  }
+}

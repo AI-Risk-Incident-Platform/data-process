@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT can be used to write phishing emails, malicious code"
+    },
+    "Risk": {
+      "id": "CyberSecurityRisk",
+      "中文名称": "网络安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hackers could get help from the new AI chatbot"
+    },
+    "Consequence": {
+      "id": "MalwareCreation",
+      "中文名称": "恶意软件创建",
+      "英文名称": "Malware Creation",
+      "来源": "Functioning Malware Written by ChatGPT Spotted on Dark Web"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "ChatGPT can be used to write phishing emails"
+    },
+    "Stakeholder": {
+      "id": "SecurityExperts",
+      "中文名称": "安全专家",
+      "英文名称": "Security Experts",
+      "来源": "warn security experts"
+    },
+    "RiskSource": {
+      "id": "AIAbuseForMaliciousPurposes",
+      "中文名称": "AI被用于恶意目的的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Hackers could get help from the new AI chatbot"
+    },
+    "Impact": {
+      "id": "IncreasedCyberThreats",
+      "中文名称": "网络威胁增加的影响",
+      "英文名称": "Cyber Threat Impact",
+      "来源": "Functioning Malware Written by ChatGPT Spotted on Dark Web"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT can be used to write phishing emails"
+    },
+    "Misuse": {
+      "id": "MaliciousCodeGeneration",
+      "中文名称": "恶意代码生成的滥用",
+      "英文名称": "Malicious Code Generation Misuse",
+      "来源": "ChatGPT can be used to write malicious code"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT can be used to write phishing emails, malicious code"
+    },
+    "Risk": {
+      "id": "CyberSecurityRisk",
+      "中文名称": "网络安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hackers could get help from the new AI chatbot"
+    },
+    "Consequence": {
+      "id": "MalwareCreation",
+      "中文名称": "恶意软件创建",
+      "英文名称": "Malware Creation",
+      "来源": "Functioning Malware Written by ChatGPT Spotted on Dark Web"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "ChatGPT can be used to write phishing emails"
+    },
+    "Stakeholder": {
+      "id": "SecurityExperts",
+      "中文名称": "安全专家",
+      "英文名称": "Security Experts",
+      "来源": "warn security experts"
+    },
+    "RiskSource": {
+      "id": "AIAbuseForMaliciousPurposes",
+      "中文名称": "AI被用于恶意目的的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Hackers could get help from the new AI chatbot"
+    },
+    "Impact": {
+      "id": "IncreasedCyberThreats",
+      "中文名称": "网络威胁增加的影响",
+      "英文名称": "Cyber Threat Impact",
+      "来源": "Functioning Malware Written by ChatGPT Spotted on Dark Web"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "ChatGPT can be used to write phishing emails"
+    },
+    "Misuse": {
+      "id": "MaliciousCodeGeneration",
+      "中文名称": "恶意代码生成的滥用",
+      "英文名称": "Malicious Code Generation Misuse",
+      "来源": "ChatGPT can be used to write malicious code"
+    }
+  }
+}

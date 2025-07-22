@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PrisonCallMonitoringAI rdf:type airo:AISystem ;
+    rdfs:label "Prison Call Monitoring AI"@en ;
+    rdfs:label "监狱通话监控AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:AmazonTranscribe ;
+    airo:hasPurpose ex:CriminalIntentDetection ;
+    airo:isAppliedWithinDomain ex:PrisonSystem ;
+    airo:hasStakeholder ex:PrisonInmates ;
+    airo:isDeployedBy ex:PrisonAuthorities .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:MassDataCollection ;
+    airo:isRiskSourceFor ex:MassSurveillance .
+
+ex:AmazonTranscribe rdf:type airo:AITechnique ;
+    rdfs:label "Amazon Transcribe"@en ;
+    rdfs:label "亚马逊转录技术"@zh .
+
+ex:CriminalIntentDetection rdf:type airo:Purpose ;
+    rdfs:label "Criminal Intent Detection"@en ;
+    rdfs:label "犯罪意图检测"@zh .
+
+ex:PrisonSystem rdf:type airo:Domain ;
+    rdfs:label "Prison System"@en ;
+    rdfs:label "监狱系统"@zh .
+
+ex:MassDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Mass Data Collection"@en ;
+    rdfs:label "大规模数据收集"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns"@en ;
+    rdfs:label "隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:PrisonInmates .
+
+ex:PrisonInmates rdf:type airo:Stakeholder ;
+    rdfs:label "Prison Inmates"@en ;
+    rdfs:label "监狱囚犯"@zh .
+
+ex:PrisonAuthorities rdf:type airo:AIOperator ;
+    rdfs:label "Prison Authorities"@en ;
+    rdfs:label "监狱当局"@zh .
+
+ex:MassSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance"@en ;
+    rdfs:label "大规模监控"@zh .

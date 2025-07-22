@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video System"@en ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    airo:hasRisk ex:IdentityMisuseRisk ;
+    airo:hasAISubject ex:UkrainianYouTuber ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:IdentityMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Identity Misuse Risk"@en ;
+    rdfs:label "身份滥用风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedCommercialUse ;
+    airo:isRiskSourceFor ex:AIIdentityCloning .
+
+ex:UnauthorizedCommercialUse rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Commercial Use Consequence"@en ;
+    rdfs:label "未经授权的商业使用后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:UkrainianYouTuber rdf:type airo:AISubject ;
+    rdfs:label "Ukrainian YouTuber"@en ;
+    rdfs:label "乌克兰YouTuber"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UkrainianYouTuber .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:AIIdentityCloning rdf:type airo:RiskSource ;
+    rdfs:label "AI Identity Cloning Risk Source"@en ;
+    rdfs:label "AI身份克隆风险源"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

@@ -1,0 +1,53 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Generation System"@en ;
+    rdfs:label "深度伪造生成系统"@zh ;
+    airo:hasRisk ex:NonConsensualPornographyRisk ;
+    airo:hasAISubject ex:PublicFigureBobbiAlthoff ;
+    airo:hasStakeholder ex:SocialMediaPlatformX ;
+    airo:isRiskSourceFor ex:DeepfakePornographyCreation .
+
+ex:NonConsensualPornographyRisk rdf:type airo:Risk ;
+    rdfs:label "Non-Consensual Pornography Risk"@en ;
+    rdfs:label "非自愿色情内容风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:SocialMediaPlatformX rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Platform X"@en ;
+    rdfs:label "社交媒体平台X"@zh .
+
+ex:PublicFigureBobbiAlthoff rdf:type airo:AISubject ;
+    rdfs:label "Public Figure Bobbi Althoff"@en ;
+    rdfs:label "公众人物Bobbi Althoff"@zh .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    rdfs:label "心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicFigureBobbiAlthoff .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核缺失风险源"@zh ;
+    airo:isRiskSourceFor ex:NonConsensualPornographyRisk .
+
+ex:DeepfakePornographyCreation rdf:type airo:Misuse ;
+    rdfs:label "Deepfake Pornography Creation Misuse"@en ;
+    rdfs:label "深度伪造色情内容制作滥用"@zh ;
+    airo:isRiskSourceFor ex:NonConsensualPornographyRisk .

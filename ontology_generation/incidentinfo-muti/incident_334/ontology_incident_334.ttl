@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCrashRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:VehicleOccupants ;
+    airo:hasVulnerability ex:HumanOverrideFailure .
+
+ex:AutonomousVehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Crash Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:FatalAccident ;
+    airo:isRiskSourceFor ex:AutopilotSystemLimitations .
+
+ex:FatalAccident rdf:type airo:Consequence ;
+    rdfs:label "Fatal Accident Consequence"@en ;
+    rdfs:label "致命事故后果"@zh ;
+    airo:hasImpactOnStakeholder ex:VehicleOccupants .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:VehicleOccupants rdf:type airo:Stakeholder ;
+    rdfs:label "Vehicle Occupants"@en ;
+    rdfs:label "车辆乘员"@zh .
+
+ex:HumanOverrideFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Human Override Failure Vulnerability"@en ;
+    rdfs:label "人工接管失效漏洞"@zh .
+
+ex:AutopilotSystemLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Autopilot System Limitations Risk Source"@en ;
+    rdfs:label "自动驾驶系统局限性风险源"@zh .

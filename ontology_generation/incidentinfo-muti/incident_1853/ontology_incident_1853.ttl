@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TurnitinAIDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Turnitin AI Detection System"@en ;
+    rdfs:label "Turnitin AI检测系统"@zh ;
+    airo:hasRisk ex:FalsePositiveAIWritingDetection ;
+    airo:hasAISubject ex:Students ;
+    airo:hasPurpose ex:AcademicIntegrityPreservation ;
+    airo:isAppliedWithinDomain ex:EducationTechnology ;
+    airo:hasStakeholder ex:EducationalInstitutions .
+
+ex:FalsePositiveAIWritingDetection rdf:type airo:Risk ;
+    rdfs:label "False Positive AI Writing Detection Risk"@en ;
+    rdfs:label "AI写作误检风险"@zh ;
+    airo:hasConsequence ex:UnfairAcademicAccusations ;
+    airo:isRiskSourceFor ex:ImperfectDetectionAlgorithms .
+
+ex:UnfairAcademicAccusations rdf:type airo:Consequence ;
+    rdfs:label "Unfair Academic Accusations Consequence"@en ;
+    rdfs:label "不公正学术指控后果"@zh ;
+    airo:hasImpact ex:AcademicIntegrityUndermined .
+
+ex:EducationalInstitutions rdf:type airo:Stakeholder ;
+    rdfs:label "Educational Institutions"@en ;
+    rdfs:label "教育机构"@zh .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:AcademicIntegrityUndermined rdf:type airo:Impact ;
+    rdfs:label "Academic Integrity Undermined Impact"@en ;
+    rdfs:label "学术诚信受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EducationalInstitutions , ex:Students .
+
+ex:AcademicIntegrityPreservation rdf:type airo:Purpose ;
+    rdfs:label "Academic Integrity Preservation Purpose"@en ;
+    rdfs:label "维护学术诚信目的"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:ImperfectDetectionAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "Imperfect Detection Algorithms Risk Source"@en ;
+    rdfs:label "不完善的检测算法风险源"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FatherJustinAIPriest rdf:type airo:AISystem ;
+    rdfs:label "虚拟AI神父'Father Justin'"@zh ;
+    rdfs:label "Father Justin AI Priest"@en ;
+    airo:hasRisk ex:MisrepresentationOfReligiousAuthority ;
+    airo:hasPurpose ex:ReligiousGuidance ;
+    airo:isAppliedWithinDomain ex:ReligiousServices ;
+    airo:isDevelopedBy ex:UnnamedDeveloper ;
+    airo:hasStakeholder ex:CatholicAnswers .
+
+ex:MisrepresentationOfReligiousAuthority rdf:type airo:Risk ;
+    rdfs:label "宗教权威误传风险"@zh ;
+    rdfs:label "Misrepresentation of Religious Authority Risk"@en ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:SimulatingSacramentalFunctions .
+
+ex:CatholicAnswers rdf:type airo:Stakeholder ;
+    rdfs:label "天主教解答组织"@zh ;
+    rdfs:label "Catholic Answers"@en .
+
+ex:UnnamedDeveloper rdf:type airo:AIOperator ;
+    rdfs:label "未具名开发者"@zh ;
+    rdfs:label "Unnamed Developer"@en .
+
+ex:SimulatingSacramentalFunctions rdf:type airo:Misuse ;
+    rdfs:label "模拟圣礼功能滥用"@zh ;
+    rdfs:label "Simulating Sacramental Functions Misuse"@en .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "公众强烈反对后果"@zh ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:CatholicAnswers .
+
+ex:ReligiousGuidance rdf:type airo:Purpose ;
+    rdfs:label "宗教指导目的"@zh ;
+    rdfs:label "Religious Guidance Purpose"@en .
+
+ex:ReligiousServices rdf:type airo:Domain ;
+    rdfs:label "宗教服务领域"@zh ;
+    rdfs:label "Religious Services Domain"@en .

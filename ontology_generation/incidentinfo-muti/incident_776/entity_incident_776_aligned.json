@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "Risk": {
+      "id": "PoliticalBiasInAIResponses",
+      "中文名称": "AI回应中的政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "AICapability": {
+      "id": "VoiceResponseGeneration",
+      "中文名称": "语音回应生成能力",
+      "英文名称": "Voice Synthesis Capability",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "Consequence": {
+      "id": "PerceivedPoliticalBias",
+      "中文名称": "感知到的政治偏见后果",
+      "英文名称": "Perceived Political Bias Consequence",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "RiskSource": {
+      "id": "AIUpgrade",
+      "中文名称": "AI升级风险源",
+      "英文名称": "AI Upgrade Risk Source",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "Risk": {
+      "id": "PoliticalBiasInAIResponses",
+      "中文名称": "AI回应中的政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "AICapability": {
+      "id": "VoiceResponseGeneration",
+      "中文名称": "语音回应生成能力",
+      "英文名称": "Voice Synthesis Capability",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "Consequence": {
+      "id": "PerceivedPoliticalBias",
+      "中文名称": "感知到的政治偏见后果",
+      "英文名称": "Perceived Political Bias Consequence",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    },
+    "RiskSource": {
+      "id": "AIUpgrade",
+      "中文名称": "AI升级风险源",
+      "英文名称": "AI Upgrade Risk Source",
+      "来源": "Amazon’s Alexa favored Harris over Trump after AI upgrade"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Alexa endorses Kamala Harris, refuses to talk about Trump"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT - 4 rdf:type airo:AISystem ;
+    rdfs:label "GPT - 4"@en ;
+    rdfs:label "GPT-4"@zh ;
+    airo:hasRisk ex:MisinformationGenerationRisk ;
+    airo:hasAICapability ex:PersuasiveTextGeneration ;
+    airo:isDeployedBy ex:OpenAI ;
+    airo:hasStakeholder ex:NewsGuard ;
+    airo:hasPurpose ex:ConversationalAI ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:FactCheckingDeficiency .
+
+ex:MisinformationGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Generation Risk"@en ;
+    rdfs:label "虚假信息生成风险"@zh ;
+    airo:hasConsequence ex:SpreadOfFalseInformation ;
+    airo:isRiskSourceFor ex:TrainingDataBias ;
+    airo:isRiskSourceFor ex:ConspiracyTheoryPropagation ;
+    airo:isRiskSourceFor ex:UnverifiedInformationSource .
+
+ex:SpreadOfFalseInformation rdf:type airo:Consequence ;
+    rdfs:label "Spread of False Information Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformationImpact .
+
+ex:PersuasiveTextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Persuasive Text Generation Capability"@en ;
+    rdfs:label "说服性文本生成能力"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:NewsGuard rdf:type airo:Stakeholder ;
+    rdfs:label "NewsGuard"@en ;
+    rdfs:label "NewsGuard"@zh .
+
+ex:PublicMisinformationImpact rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众虚假信息影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsGuard .
+
+ex:ConversationalAI rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Purpose"@en ;
+    rdfs:label "对话式AI目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:FactCheckingDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Fact Checking Deficiency Vulnerability"@en ;
+    rdfs:label "事实核查缺陷脆弱性"@zh .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias Risk Source"@en ;
+    rdfs:label "训练数据偏差风险源"@zh .
+
+ex:ConspiracyTheoryPropagation rdf:type airo:Threat ;
+    rdfs:label "Conspiracy Theory Propagation Threat"@en ;
+    rdfs:label "阴谋论传播威胁"@zh .
+
+ex:UnverifiedInformationSource rdf:type airo:Hazard ;
+    rdfs:label "Unverified Information Source Hazard"@en ;
+    rdfs:label "未经验证信息来源危害"@zh .
+
+ex:AIEnhancedDisinformation rdf:type airo:RiskConcept ;
+    rdfs:label "AI-Enhanced Disinformation Risk Concept"@en ;
+    rdfs:label "AI增强的虚假信息风险概念"@zh .

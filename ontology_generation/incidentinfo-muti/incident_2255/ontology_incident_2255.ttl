@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RenaissancePortraitGenerator rdf:type airo:AISystem ;
+    rdfs:label "Renaissance Portrait Generator"@en ;
+    rdfs:label "文艺复兴肖像生成器"@zh ;
+    airo:hasRisk ex:RacialBiasInPortraitGeneration ;
+    airo:hasCapability ex:SelfieToClassicalPortraitTransformation .
+
+ex:RacialBiasInPortraitGeneration rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Portrait Generation Risk"@en ;
+    rdfs:label "肖像生成中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasImpact ex:UnderrepresentationOfPeopleOfColor .
+
+ex:SelfieToClassicalPortraitTransformation rdf:type airo:AICapability ;
+    rdfs:label "Selfie to Classical Portrait Transformation Capability"@en ;
+    rdfs:label "自拍转古典肖像的能力"@zh .
+
+ex:UnderrepresentationOfPeopleOfColor rdf:type airo:Impact ;
+    rdfs:label "Underrepresentation of People of Color Impact"@en ;
+    rdfs:label "有色人种代表性不足的影响"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .

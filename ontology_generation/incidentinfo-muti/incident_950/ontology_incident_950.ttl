@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleVoiceDictationSystem rdf:type airo:AISystem ;
+    rdfs:label "Apple Voice Dictation System"@en ;
+    rdfs:label "苹果语音听写系统"@zh ;
+    airo:hasRisk ex:InappropriateWordSubstitutionRisk ;
+    airo:usesTechnique ex:VoiceRecognitionTechnology ;
+    airo:isDevelopedBy ex:AppleInc .
+
+ex:InappropriateWordSubstitutionRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Word Substitution Risk"@en ;
+    rdfs:label "不当词语替换风险"@zh ;
+    airo:isRiskSourceFor ex:SoftwareBugInDictationAlgorithm ;
+    airo:hasConsequence ex:OffensiveSpeechOutput .
+
+ex:SoftwareBugInDictationAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Software Bug in Dictation Algorithm"@en ;
+    rdfs:label "听写算法中的软件错误"@zh .
+
+ex:OffensiveSpeechOutput rdf:type airo:Consequence ;
+    rdfs:label "Offensive Speech Output"@en ;
+    rdfs:label "冒犯性语音输出"@zh .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:VoiceRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Recognition Technology"@en ;
+    rdfs:label "语音识别技术"@zh .

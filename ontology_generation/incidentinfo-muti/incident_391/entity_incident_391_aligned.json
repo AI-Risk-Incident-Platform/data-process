@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokSearchAlgorithm",
+      "中文名称": "TikTok搜索算法",
+      "英文名称": "TikTok Search Algorithm",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "错误信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众错误信息后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokSearchAlgorithm",
+      "中文名称": "TikTok搜索算法",
+      "英文名称": "TikTok Search Algorithm",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "错误信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众错误信息后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Study finds 20% of search results in TikTok contain misinformation"
+    }
+  }
+}

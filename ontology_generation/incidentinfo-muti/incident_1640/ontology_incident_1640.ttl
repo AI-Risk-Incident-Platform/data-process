@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:QuoraAISystem rdf:type airo:AISystem ;
+    rdfs:label "Quora AI System"@en ;
+    rdfs:label "Quora的AI系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasStakeholder ex:Google ;
+    airo:isDeployedBy ex:Quora .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "错误信息风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众错误信息后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Google .
+
+ex:Google rdf:type airo:Stakeholder ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:Quora rdf:type airo:AIOperator ;
+    rdfs:label "Quora"@en ;
+    rdfs:label "Quora"@zh .

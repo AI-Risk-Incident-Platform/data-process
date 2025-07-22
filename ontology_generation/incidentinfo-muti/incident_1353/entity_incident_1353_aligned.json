@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIInfrastructure",
+      "中文名称": "微软AI基础设施",
+      "英文名称": "Microsoft AI Infrastructure",
+      "来源": "Microsoft Wanted to be Carbon Negative. Then It Went Big on AI"
+    },
+    "Risk": {
+      "id": "CarbonEmissionsIncreaseRisk",
+      "中文名称": "碳排放增加风险",
+      "英文名称": "Carbon Emission Risk",
+      "来源": "Microsoft’s emissions jump almost 30% as it races to meet AI demand"
+    },
+    "Consequence": {
+      "id": "CarbonCommitmentCollapse",
+      "中文名称": "碳承诺崩溃后果",
+      "英文名称": "Carbon Commitment Collapse Consequence",
+      "来源": "is Microsoft’s AI push collapsing its carbon commitment?"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft Wanted to be Carbon Negative"
+    },
+    "Impact": {
+      "id": "EnvironmentalDegradation",
+      "中文名称": "环境退化影响",
+      "英文名称": "Impact",
+      "来源": "Microsoft’s emissions jump almost 30%"
+    },
+    "Purpose": {
+      "id": "MeetingAIDemand",
+      "中文名称": "满足AI需求目的",
+      "英文名称": "Meeting AI Demand Purpose",
+      "来源": "as it races to meet AI demand"
+    },
+    "Domain": {
+      "id": "CloudComputingAndAI",
+      "中文名称": "云计算与AI领域",
+      "英文名称": "Cloud Computing and AI Domain",
+      "来源": "Microsoft’s AI push"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftAIInfrastructure",
+      "中文名称": "微软AI基础设施",
+      "英文名称": "Microsoft AI Infrastructure",
+      "来源": "Microsoft Wanted to be Carbon Negative. Then It Went Big on AI"
+    },
+    "Risk": {
+      "id": "CarbonEmissionsIncreaseRisk",
+      "中文名称": "碳排放增加风险",
+      "英文名称": "Carbon Emission Risk",
+      "来源": "Microsoft’s emissions jump almost 30% as it races to meet AI demand"
+    },
+    "Consequence": {
+      "id": "CarbonCommitmentCollapse",
+      "中文名称": "碳承诺崩溃后果",
+      "英文名称": "Carbon Commitment Collapse Consequence",
+      "来源": "is Microsoft’s AI push collapsing its carbon commitment?"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft Wanted to be Carbon Negative"
+    },
+    "Impact": {
+      "id": "EnvironmentalDegradation",
+      "中文名称": "环境退化影响",
+      "英文名称": "Impact",
+      "来源": "Microsoft’s emissions jump almost 30%"
+    },
+    "Purpose": {
+      "id": "MeetingAIDemand",
+      "中文名称": "满足AI需求目的",
+      "英文名称": "Meeting AI Demand Purpose",
+      "来源": "as it races to meet AI demand"
+    },
+    "Domain": {
+      "id": "CloudComputingAndAI",
+      "中文名称": "云计算与AI领域",
+      "英文名称": "Cloud Computing and AI Domain",
+      "来源": "Microsoft’s AI push"
+    }
+  }
+}

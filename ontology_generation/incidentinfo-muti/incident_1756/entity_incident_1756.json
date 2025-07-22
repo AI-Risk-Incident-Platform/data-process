@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HPFacialTrackingSoftware",
+      "中文名称": "HP面部追踪软件",
+      "英文名称": "HP Facial Tracking Software",
+      "来源": "HP's facial tracking software accused of being racist"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Facial Recognition Risk",
+      "来源": "HP's facial tracking software accused of being racist"
+    },
+    "Consequence": {
+      "id": "FailureToDetectBlackFaces",
+      "中文名称": "无法检测黑人面孔的后果",
+      "英文名称": "Failure to Detect Black Faces Consequence",
+      "来源": "HP looking into claim webcams can't see black people"
+    },
+    "AICapability": {
+      "id": "FacialDetectionAndTracking",
+      "中文名称": "面部检测与追踪能力",
+      "英文名称": "Facial Detection and Tracking Capability",
+      "来源": "HP's facial tracking software"
+    },
+    "AIOperator": {
+      "id": "HPInc",
+      "中文名称": "惠普公司",
+      "英文名称": "HP Inc.",
+      "来源": "HP's facial tracking software"
+    },
+    "Stakeholder": {
+      "id": "BlackUsers",
+      "中文名称": "黑人用户",
+      "英文名称": "Black Users",
+      "来源": "HP looking into claim webcams can't see black people"
+    },
+    "Impact": {
+      "id": "DiscriminationInTechnologyAccess",
+      "中文名称": "技术获取中的歧视影响",
+      "英文名称": "Discrimination in Technology Access Impact",
+      "来源": "Man Accuses HP Computers of Being Racist"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "HP's facial tracking software accused of being racist"
+    }
+  }
+}

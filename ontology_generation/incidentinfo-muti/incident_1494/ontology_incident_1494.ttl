@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationTool rdf:type airo:AISystem ;
+    rdfs:label "深度伪造图像生成工具"@zh ;
+    rdfs:label "Deepfake Image Generation Tool"@en ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarm ;
+    airo:hasAISubject ex:VictimsOfDeepfake ;
+    airo:hasStakeholder ex:MiddleSchoolStudents ;
+    airo:isAppliedWithinDomain ex:Education .
+
+ex:PrivacyViolationAndPsychologicalHarm rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯与心理伤害风险"@zh ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    airo:hasConsequence ex:StudentExpulsion ;
+    airo:isRiskSourceFor ex:NonConsensualImageCreation .
+
+ex:StudentExpulsion rdf:type airo:Consequence ;
+    rdfs:label "学生被开除后果"@zh ;
+    rdfs:label "Student Expulsion Consequence"@en ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:MiddleSchoolStudents rdf:type airo:Stakeholder ;
+    rdfs:label "中学生"@zh ;
+    rdfs:label "Middle School Students"@en .
+
+ex:VictimsOfDeepfake rdf:type airo:AISubject ;
+    rdfs:label "深度伪造受害者"@zh ;
+    rdfs:label "Victims of Deepfake"@en .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "心理困扰影响"@zh ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MiddleSchoolStudents .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "教育领域"@zh ;
+    rdfs:label "Education Domain"@en .
+
+ex:NonConsensualImageCreation rdf:type airo:Misuse ;
+    rdfs:label "未经同意的图像创建滥用"@zh ;
+    rdfs:label "Non-Consensual Image Creation Misuse"@en .

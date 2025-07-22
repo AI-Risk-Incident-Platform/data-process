@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTLegalAdviceSystem",
+      "中文名称": "ChatGPT法律咨询系统",
+      "英文名称": "ChatGPT Legal Advice System",
+      "来源": "We asked ChatGPT for legal advice"
+    },
+    "Risk": {
+      "id": "LegalHallucinationRisk",
+      "中文名称": "法律幻觉风险",
+      "英文名称": "Legal Hallucination Risk",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "Consequence": {
+      "id": "IncorrectLegalAdvice",
+      "中文名称": "错误法律建议后果",
+      "英文名称": "Incorrect Legal Advice Consequence",
+      "来源": "here are five reasons why you shouldn't"
+    },
+    "AICapability": {
+      "id": "LegalQueryResponse",
+      "中文名称": "法律查询响应能力",
+      "英文名称": "Legal Query Response Capability",
+      "来源": "We asked ChatGPT for legal advice"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "LegalProfessionals",
+      "中文名称": "法律专业人士",
+      "英文名称": "Legal Professionals",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "AISubject": {
+      "id": "LegalAdviceSeekers",
+      "中文名称": "法律咨询寻求者",
+      "英文名称": "Legal Advice Seekers",
+      "来源": "We asked ChatGPT for legal advice"
+    },
+    "Impact": {
+      "id": "LegalDecisionMakingImpact",
+      "中文名称": "法律决策影响",
+      "英文名称": "Legal Decision Making Impact",
+      "来源": "here are five reasons why you shouldn't"
+    },
+    "Purpose": {
+      "id": "LegalInformationProvision",
+      "中文名称": "法律信息提供目的",
+      "英文名称": "Legal Information Provision Purpose",
+      "来源": "We asked ChatGPT for legal advice"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal Services Domain",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "ChatGPT"
+    },
+    "Vulnerability": {
+      "id": "LegalKnowledgeGaps",
+      "中文名称": "法律知识空白漏洞",
+      "英文名称": "Legal Knowledge Gaps Vulnerability",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "Threat": {
+      "id": "MisinformationThreat",
+      "中文名称": "错误信息威胁",
+      "英文名称": "Misinformation Threat",
+      "来源": "here are five reasons why you shouldn't"
+    },
+    "Hazard": {
+      "id": "IncompleteTrainingData",
+      "中文名称": "不完整训练数据危害",
+      "英文名称": "Incomplete Training Data Hazard",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "RiskSource": {
+      "id": "LackOfLegalExpertise",
+      "中文名称": "缺乏法律专业知识风险源",
+      "英文名称": "Lack of Legal Expertise Risk Source",
+      "来源": "Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries"
+    },
+    "RiskConcept": {
+      "id": "AIInLegalDecisionMaking",
+      "中文名称": "AI在法律决策中的风险概念",
+      "英文名称": "AI in Legal Decision Making Risk Concept",
+      "来源": "We asked ChatGPT for legal advice—here are five reasons why you shouldn't"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RemoteAIMachineGun rdf:type airo:AISystem ;
+    rdfs:label "Remote AI Machine Gun"@en ;
+    rdfs:label "远程AI机枪"@zh ;
+    airo:hasRisk ex:AssassinationRisk ;
+    airo:isDeployedBy ex:Mossad ;
+    airo:hasAISubject ex:NuclearScientist ;
+    airo:usesTechnique ex:RemoteTargeting .
+
+ex:AssassinationRisk rdf:type airo:Risk ;
+    rdfs:label "Assassination Risk"@en ;
+    rdfs:label "暗杀风险"@zh ;
+    airo:hasConsequence ex:PoliticalInstability ;
+    airo:isRiskSourceFor ex:AutonomousWeaponSystem .
+
+ex:Mossad rdf:type airo:AIOperator ;
+    rdfs:label "Mossad"@en ;
+    rdfs:label "摩萨德"@zh .
+
+ex:NuclearScientist rdf:type airo:AISubject ;
+    rdfs:label "Nuclear Scientist"@en ;
+    rdfs:label "核科学家"@zh .
+
+ex:LossOfKeyScientist rdf:type airo:Impact ;
+    rdfs:label "Loss of Key Scientist Impact"@en ;
+    rdfs:label "关键科学家损失"@zh ;
+    airo:hasImpactOnStakeholder ex:NuclearScientist .
+
+ex:RemoteTargeting rdf:type airo:AITechnique ;
+    rdfs:label "Remote Targeting Technique"@en ;
+    rdfs:label "远程瞄准技术"@zh .
+
+ex:AutonomousWeaponSystem rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Weapon System Risk Source"@en ;
+    rdfs:label "自主武器系统风险源"@zh .
+
+ex:PoliticalInstability rdf:type airo:Consequence ;
+    rdfs:label "Political Instability Consequence"@en ;
+    rdfs:label "政治不稳定后果"@zh ;
+    airo:hasImpact ex:LossOfKeyScientist .

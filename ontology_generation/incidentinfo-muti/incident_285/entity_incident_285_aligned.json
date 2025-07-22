@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationAI",
+      "中文名称": "Facebook内容审核AI",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Risk": {
+      "id": "ArtCensorshipRisk",
+      "中文名称": "艺术审查风险",
+      "英文名称": "Art Censorship Risk",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "Consequence": {
+      "id": "CulturalHeritageSuppression",
+      "中文名称": "文化遗产压制后果",
+      "英文名称": "Cultural Heritage Suppression Consequence",
+      "来源": "Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Paris court rules against Facebook in French nudity case"
+    },
+    "Stakeholder": {
+      "id": "ArtCommunity",
+      "中文名称": "艺术界",
+      "英文名称": "Art Community",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Impact": {
+      "id": "ArtisticExpressionLimitation",
+      "中文名称": "艺术表达限制影响",
+      "英文名称": "Free Speech Suppression",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "Purpose": {
+      "id": "ContentModerationForCommunityStandards",
+      "中文名称": "社区标准内容审核目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Paris court rules against Facebook in French nudity case"
+    },
+    "RiskSource": {
+      "id": "OverlyBroadNudityDetectionRules",
+      "中文名称": "过度宽泛的裸露检测规则风险源",
+      "英文名称": "Nudity Detection Risk Source",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationAI",
+      "中文名称": "Facebook内容审核AI",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Risk": {
+      "id": "ArtCensorshipRisk",
+      "中文名称": "艺术审查风险",
+      "英文名称": "Art Censorship Risk",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "Consequence": {
+      "id": "CulturalHeritageSuppression",
+      "中文名称": "文化遗产压制后果",
+      "英文名称": "Cultural Heritage Suppression Consequence",
+      "来源": "Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Paris court rules against Facebook in French nudity case"
+    },
+    "Stakeholder": {
+      "id": "ArtCommunity",
+      "中文名称": "艺术界",
+      "英文名称": "Art Community",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Impact": {
+      "id": "ArtisticExpressionLimitation",
+      "中文名称": "艺术表达限制影响",
+      "英文名称": "Free Speech Suppression",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    },
+    "Purpose": {
+      "id": "ContentModerationForCommunityStandards",
+      "中文名称": "社区标准内容审核目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Facebook Bans Nudity? Social Media Removes Flemish Paintings by Rubens For Nude Content"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Paris court rules against Facebook in French nudity case"
+    },
+    "RiskSource": {
+      "id": "OverlyBroadNudityDetectionRules",
+      "中文名称": "过度宽泛的裸露检测规则风险源",
+      "英文名称": "Nudity Detection Risk Source",
+      "来源": "Facebook blocks nude painting by acclaimed artist"
+    }
+  }
+}

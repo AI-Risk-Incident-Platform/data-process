@@ -1,0 +1,138 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfPersonalLikenessRisk",
+      "中文名称": "未经授权使用个人肖像风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "Consequence": {
+      "id": "LegalAndReputationalHarm",
+      "中文名称": "法律和声誉损害后果",
+      "英文名称": "Legal and Reputational Harm Consequence",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "AISubject": {
+      "id": "FemaleModel",
+      "中文名称": "女性模特",
+      "英文名称": "Female Model",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Stakeholder": {
+      "id": "AdvertisingStandardsCouncilOfIndia",
+      "中文名称": "印度广告标准委员会",
+      "英文名称": "Advertising Standards Council of India",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "Impact": {
+      "id": "ViolationOfPersonalRights",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "Purpose": {
+      "id": "CommercialAdvertising",
+      "中文名称": "商业广告目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Domain": {
+      "id": "AdvertisingIndustry",
+      "中文名称": "广告行业领域",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageSynthesis",
+      "中文名称": "基于深度学习的图像合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "RiskSource": {
+      "id": "LackOfConsentForImageUse",
+      "中文名称": "缺乏图像使用同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "RiskControl": {
+      "id": "LegalActionAndRegulationAdvocacy",
+      "中文名称": "法律行动和监管倡导管控",
+      "英文名称": "Legal Action and Regulation Advocacy Risk Control",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfPersonalLikenessRisk",
+      "中文名称": "未经授权使用个人肖像风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "Consequence": {
+      "id": "LegalAndReputationalHarm",
+      "中文名称": "法律和声誉损害后果",
+      "英文名称": "Legal and Reputational Harm Consequence",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "AISubject": {
+      "id": "FemaleModel",
+      "中文名称": "女性模特",
+      "英文名称": "Female Model",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Stakeholder": {
+      "id": "AdvertisingStandardsCouncilOfIndia",
+      "中文名称": "印度广告标准委员会",
+      "英文名称": "Advertising Standards Council of India",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "Impact": {
+      "id": "ViolationOfPersonalRights",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "Purpose": {
+      "id": "CommercialAdvertising",
+      "中文名称": "商业广告目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "Domain": {
+      "id": "AdvertisingIndustry",
+      "中文名称": "广告行业领域",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "Model petitions ASCI on deepfakes and AI misuse"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageSynthesis",
+      "中文名称": "基于深度学习的图像合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    },
+    "RiskSource": {
+      "id": "LackOfConsentForImageUse",
+      "中文名称": "缺乏图像使用同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Woman model sends legal notice to ad council after firm uses her deepfake photo"
+    },
+    "RiskControl": {
+      "id": "LegalActionAndRegulationAdvocacy",
+      "中文名称": "法律行动和监管倡导管控",
+      "英文名称": "Legal Action and Regulation Advocacy Risk Control",
+      "来源": "Model Fights AI Misuse In Ads, Calls For Regulation"
+    }
+  }
+}

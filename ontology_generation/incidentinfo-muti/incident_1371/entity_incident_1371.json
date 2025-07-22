@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialImageResearchDatasets",
+      "中文名称": "面部图像研究数据集",
+      "英文名称": "Facial Image Research Datasets",
+      "来源": "Free to re-use? The case of facial images scrapped from the Internet and compiled in mega research datasets"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "facial images scrapped from the Internet"
+    },
+    "RiskSource": {
+      "id": "InternetScraping",
+      "中文名称": "网络爬取",
+      "英文名称": "Internet Scraping",
+      "来源": "facial images scrapped from the Internet"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalData",
+      "中文名称": "个人数据未经授权使用",
+      "英文名称": "Unauthorized Use of Personal Data",
+      "来源": "compiled in mega research datasets"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Loss of Personal Privacy",
+      "来源": "Free to re-use?"
+    },
+    "AITechnique": {
+      "id": "DataScraping",
+      "中文名称": "数据爬取技术",
+      "英文名称": "Data Scraping Technique",
+      "来源": "facial images scrapped from the Internet"
+    },
+    "Stakeholder": {
+      "id": "ResearchInstitutions",
+      "中文名称": "研究机构",
+      "英文名称": "Research Institutions",
+      "来源": "compiled in mega research datasets"
+    },
+    "AISubject": {
+      "id": "IndividualsWithFacialImagesOnline",
+      "中文名称": "面部图像在线的个人",
+      "英文名称": "Individuals with Facial Images Online",
+      "来源": "facial images scrapped from the Internet"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RussianBotFarm rdf:type airo:AISystem ;
+    rdfs:label "Russian Bot Farm"@en ;
+    rdfs:label "俄罗斯机器人农场"@zh ;
+    airo:hasRisk ex:DisinformationCampaignRisk ;
+    airo:isDevelopedBy ex:RussianGovernment ;
+    airo:hasStakeholder ex:USDepartmentOfJustice ;
+    airo:usesTechnique ex:AutomatedSocialMediaPosting ;
+    airo:isAppliedWithinDomain ex:SocialMediaInfluence .
+
+ex:DisinformationCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Campaign Risk"@en ;
+    rdfs:label "虚假信息宣传风险"@zh ;
+    airo:isRiskSourceFor ex:StateSponsoredDisinformation ;
+    airo:hasConsequence ex:PublicOpinionManipulation .
+
+ex:USDepartmentOfJustice rdf:type airo:Stakeholder ;
+    rdfs:label "US Department of Justice"@en ;
+    rdfs:label "美国司法部"@zh .
+
+ex:RussianGovernment rdf:type airo:AIOperator ;
+    rdfs:label "Russian Government"@en ;
+    rdfs:label "俄罗斯政府"@zh .
+
+ex:AutomatedSocialMediaPosting rdf:type airo:AITechnique ;
+    rdfs:label "Automated Social Media Posting Technique"@en ;
+    rdfs:label "自动化社交媒体发布技术"@zh .
+
+ex:SocialMediaInfluence rdf:type airo:Domain ;
+    rdfs:label "Social Media Influence Domain"@en ;
+    rdfs:label "社交媒体影响领域"@zh .
+
+ex:StateSponsoredDisinformation rdf:type airo:RiskSource ;
+    rdfs:label "State-Sponsored Disinformation Risk Source"@en ;
+    rdfs:label "国家支持的虚假信息风险源"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "公众舆论操纵的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USDepartmentOfJustice .

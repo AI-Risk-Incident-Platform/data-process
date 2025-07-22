@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAIAbuseByCybercriminals rdf:type airo:AISystem ;
+    rdfs:label "生成式AI被网络犯罪滥用"@zh ;
+    rdfs:label "Generative AI Abuse by Cybercriminals"@en ;
+    airo:hasRisk ex:CybercrimeNetworkRisk ;
+    airo:hasStakeholder ex:Microsoft ;
+    airo:isDeployedBy ex:Storm2139 .
+
+ex:CybercrimeNetworkRisk rdf:type airo:Risk ;
+    rdfs:label "网络犯罪网络风险"@zh ;
+    rdfs:label "Cybercrime Network Risk"@en ;
+    airo:hasConsequence ex:HackingForHireScheme ;
+    airo:isRiskSourceFor ex:AIJailbreakingTools .
+
+ex:Microsoft rdf:type airo:Stakeholder ;
+    rdfs:label "微软"@zh ;
+    rdfs:label "Microsoft"@en .
+
+ex:Storm2139 rdf:type airo:AIOperator ;
+    rdfs:label "Storm-2139"@zh ;
+    rdfs:label "Storm-2139"@en .
+
+ex:AIJailbreakingTools rdf:type airo:RiskSource ;
+    rdfs:label "AI越狱工具"@zh ;
+    rdfs:label "AI Jailbreaking Tools"@en .
+
+ex:HackingForHireScheme rdf:type airo:Consequence ;
+    rdfs:label "雇佣黑客计划后果"@zh ;
+    rdfs:label "Hacking-for-Hire Scheme Consequence"@en ;
+    airo:hasImpact ex:GlobalCyberSecurityThreat .
+
+ex:GlobalCyberSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "全球网络安全威胁影响"@zh ;
+    rdfs:label "Global Cyber Security Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Microsoft .

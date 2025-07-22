@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation System",
+      "来源": "Facebook Provides New Overview of its Efforts to Combat Racist Abuse Online in the Wake of Euro 2020"
+    },
+    "Risk": {
+      "id": "RacistAbuseOnlineRisk",
+      "中文名称": "在线种族主义辱骂风险",
+      "英文名称": "Racist Abuse Online Risk",
+      "来源": "Racist trolls attacked England's soccer team. Fans fought back."
+    },
+    "Stakeholder": {
+      "id": "EnglandSoccerTeamFans",
+      "中文名称": "英格兰足球队球迷",
+      "英文名称": "England Soccer Team Fans",
+      "来源": "Racist trolls attacked England's soccer team. Fans fought back."
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook Provides New Overview of its Efforts to Combat Racist Abuse Online in the Wake of Euro 2020"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToPlayersAndFans",
+      "中文名称": "对球员和球迷的心理伤害",
+      "英文名称": "Psychological Harm to Players and Fans",
+      "来源": "Racist trolls attacked England's soccer team. Fans fought back."
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Platforms",
+      "来源": "Facebook Provides New Overview of its Efforts to Combat Racist Abuse Online in the Wake of Euro 2020"
+    },
+    "Purpose": {
+      "id": "OnlineContentModeration",
+      "中文名称": "在线内容审核",
+      "英文名称": "Online Content Moderation",
+      "来源": "Facebook Provides New Overview of its Efforts to Combat Racist Abuse Online in the Wake of Euro 2020"
+    }
+  }
+}

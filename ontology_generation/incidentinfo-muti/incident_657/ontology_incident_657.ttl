@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAIChatSystem rdf:type airo:AISystem ;
+    rdfs:label "OpenAI Chat System"@en ;
+    rdfs:label "OpenAI聊天系统"@zh ;
+    airo:hasRisk ex:AccountTakeoverRisk ;
+    airo:hasStakeholder ex:OpenAI ;
+    airo:isProvidedBy ex:OpenAIProvider .
+
+ex:AccountTakeoverRisk rdf:type airo:Risk ;
+    rdfs:label "Account Takeover Risk"@en ;
+    rdfs:label "账户接管风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedAccess ;
+    airo:hasConsequence ex:PrivacyDataLeakage .
+
+ex:UnauthorizedAccess rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Access"@en ;
+    rdfs:label "未经授权访问"@zh .
+
+ex:PrivacyDataLeakage rdf:type airo:Consequence ;
+    rdfs:label "Privacy Data Leakage"@en ;
+    rdfs:label "隐私数据泄露"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenAI .
+
+ex:OpenAI rdf:type airo:Stakeholder ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:OpenAIProvider rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI Provider"@en ;
+    rdfs:label "OpenAI提供者"@zh .

@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftRecallFeature rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Recall Feature"@en ;
+    rdfs:label "微软Recall功能"@zh ;
+    airo:hasRisk ex:PrivacyLeakRisk ;
+    airo:hasCapability ex:AutomaticScreenshotCapture ;
+    airo:isDeployedBy ex:MicrosoftCorporation ;
+    airo:hasPurpose ex:UserActivityRecording ;
+    airo:hasStakeholder ex:UsersWithSensitiveInformation ;
+    airo:isAppliedWithinDomain ex:UserProductivitySoftware ;
+    airo:hasVulnerability ex:InsufficientSensitiveDataFiltering .
+
+ex:PrivacyLeakRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Leak Risk"@en ;
+    rdfs:label "隐私泄露风险"@zh ;
+    airo:hasConsequence ex:SensitiveDataExposure ;
+    airo:isRiskSourceFor ex:AutomaticDataCollectionWithoutProperFiltering .
+
+ex:SensitiveDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Sensitive Data Exposure"@en ;
+    rdfs:label "敏感数据暴露"@zh ;
+    airo:hasImpact ex:IdentityTheftPotential .
+
+ex:AutomaticScreenshotCapture rdf:type airo:AICapability ;
+    rdfs:label "Automatic Screenshot Capture Capability"@en ;
+    rdfs:label "自动截图捕获能力"@zh .
+
+ex:MicrosoftCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:UsersWithSensitiveInformation rdf:type airo:Stakeholder ;
+    rdfs:label "Users with Sensitive Information"@en ;
+    rdfs:label "持有敏感信息的用户"@zh .
+
+ex:IdentityTheftPotential rdf:type airo:Impact ;
+    rdfs:label "Identity Theft Potential Impact"@en ;
+    rdfs:label "身份盗窃潜在影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UsersWithSensitiveInformation .
+
+ex:UserActivityRecording rdf:type airo:Purpose ;
+    rdfs:label "User Activity Recording Purpose"@en ;
+    rdfs:label "用户活动记录目的"@zh .
+
+ex:UserProductivitySoftware rdf:type airo:Domain ;
+    rdfs:label "User Productivity Software Domain"@en ;
+    rdfs:label "用户生产力软件领域"@zh .
+
+ex:InsufficientSensitiveDataFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Insufficient Sensitive Data Filtering Vulnerability"@en ;
+    rdfs:label "敏感数据过滤不足漏洞"@zh .
+
+ex:AutomaticDataCollectionWithoutProperFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Automatic Data Collection Without Proper Filtering Risk Source"@en ;
+    rdfs:label "自动数据收集未适当过滤风险源"@zh .

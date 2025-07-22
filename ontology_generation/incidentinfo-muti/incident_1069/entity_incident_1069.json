@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Video System",
+      "来源": "Deepfake videos of Norman Swan are tricking people into buying unproven supplements"
+    },
+    "Risk": {
+      "id": "HealthRiskFromFakeEndorsements",
+      "中文名称": "虚假代言导致的健康风险",
+      "英文名称": "Health Risk from Fake Endorsements",
+      "来源": "tricking people into buying unproven supplements at a risk to their own health"
+    },
+    "AISubject": {
+      "id": "ConsumersOfUnprovenSupplements",
+      "中文名称": "购买未经证实补充剂的消费者",
+      "英文名称": "Consumers of Unproven Supplements",
+      "来源": "people into buying unproven supplements"
+    },
+    "Consequence": {
+      "id": "PotentialHealthHarms",
+      "中文名称": "潜在健康危害后果",
+      "英文名称": "Potential Health Harms Consequence",
+      "来源": "at a risk to their own health"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGenerationTechnology",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Generation Technology",
+      "来源": "Deepfake videos"
+    },
+    "Impact": {
+      "id": "ConsumerHealthImpact",
+      "中文名称": "消费者健康影响",
+      "英文名称": "Consumer Health Impact",
+      "来源": "at a risk to their own health"
+    },
+    "RiskSource": {
+      "id": "MisleadingCelebrityEndorsements",
+      "中文名称": "误导性名人代言风险源",
+      "英文名称": "Misleading Celebrity Endorsements Risk Source",
+      "来源": "Deepfake videos of Norman Swan are tricking people"
+    }
+  }
+}

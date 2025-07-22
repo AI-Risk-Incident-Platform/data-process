@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HomeOfficeAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Home Office Algorithm"@en ;
+    rdfs:label "内政部算法"@zh ;
+    airo:hasRisk ex:ShamMarriageDetectionRisk ;
+    airo:isAppliedWithinDomain ex:ImmigrationControl ;
+    airo:hasPurpose ex:DetectShamMarriages ;
+    airo:hasStakeholder ex:HomeOffice .
+
+ex:ShamMarriageDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "Sham Marriage Detection Risk"@en ;
+    rdfs:label "假结婚检测风险"@zh .
+
+ex:ImmigrationControl rdf:type airo:Domain ;
+    rdfs:label "Immigration Control Domain"@en ;
+    rdfs:label "移民控制领域"@zh .
+
+ex:DetectShamMarriages rdf:type airo:Purpose ;
+    rdfs:label "Detect Sham Marriages Purpose"@en ;
+    rdfs:label "检测假结婚目的"@zh .
+
+ex:HomeOffice rdf:type airo:Stakeholder ;
+    rdfs:label "Home Office"@en ;
+    rdfs:label "内政部"@zh .

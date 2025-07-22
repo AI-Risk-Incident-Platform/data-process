@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TutoringFirmAISoftware rdf:type airo:AISystem ;
+    rdfs:label "Tutoring Firm AI Software"@en ;
+    rdfs:label "辅导公司AI软件"@zh ;
+    airo:hasRisk ex:DiscriminationRisk ;
+    airo:isDeployedBy ex:ChineseTutoringFirm ;
+    airo:hasStakeholder ex:EEOC ;
+    airo:isAppliedWithinDomain ex:EducationSector .
+
+ex:DiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Discrimination Risk"@en ;
+    rdfs:label "歧视风险"@zh ;
+    airo:hasConsequence ex:LegalSettlement .
+
+ex:EEOC rdf:type airo:Stakeholder ;
+    rdfs:label "EEOC"@en ;
+    rdfs:label "美国平等就业机会委员会"@zh .
+
+ex:ChineseTutoringFirm rdf:type airo:AIOperator ;
+    rdfs:label "Chinese Tutoring Firm"@en ;
+    rdfs:label "中国辅导公司"@zh .
+
+ex:LegalSettlement rdf:type airo:Consequence ;
+    rdfs:label "Legal Settlement"@en ;
+    rdfs:label "法律和解"@zh ;
+    airo:hasImpact ex:DiscriminatoryImpact .
+
+ex:DiscriminatoryImpact rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Impact"@en ;
+    rdfs:label "歧视性影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EEOC .
+
+ex:EducationSector rdf:type airo:Domain ;
+    rdfs:label "Education Sector"@en ;
+    rdfs:label "教育领域"@zh .

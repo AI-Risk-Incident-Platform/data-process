@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIObituaryGenerator",
+      "中文名称": "AI讣告生成器",
+      "英文名称": "AI Obituary Generator",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Risk": {
+      "id": "EmotionalDistressRisk",
+      "中文名称": "情感困扰风险",
+      "英文名称": "Emotional Risk",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Consequence": {
+      "id": "IncreasedGriefForBereaved",
+      "中文名称": "增加丧亲者悲痛后果",
+      "英文名称": "Increased Grief for Bereaved Consequence",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToMourners",
+      "中文名称": "对哀悼者心理伤害影响",
+      "英文名称": "Impact on Suicide Survivors' and Mourners' Mental State",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Purpose": {
+      "id": "AutomatedObituaryCreation",
+      "中文名称": "自动化讣告创建目的",
+      "英文名称": "Automated Obituary Creation Purpose",
+      "来源": "The unsettling scourge of obituary spam"
+    },
+    "Domain": {
+      "id": "FuneralServicesIndustry",
+      "中文名称": "殡葬服务行业领域",
+      "英文名称": "Funeral Services Domain",
+      "来源": "The unsettling scourge of obituary spam"
+    },
+    "AISubject": {
+      "id": "BereavedFamilies",
+      "中文名称": "丧亲家庭",
+      "英文名称": "Bereaved",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "RiskSource": {
+      "id": "InsensitiveAutomatedContent",
+      "中文名称": "不敏感的自动化内容风险源",
+      "英文名称": "Insensitive Automated Content Risk Source",
+      "来源": "AI-written obituaries are compounding people's grief"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIObituaryGenerator",
+      "中文名称": "AI讣告生成器",
+      "英文名称": "AI Obituary Generator",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Risk": {
+      "id": "EmotionalDistressRisk",
+      "中文名称": "情感困扰风险",
+      "英文名称": "Emotional Risk",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Consequence": {
+      "id": "IncreasedGriefForBereaved",
+      "中文名称": "增加丧亲者悲痛后果",
+      "英文名称": "Increased Grief for Bereaved Consequence",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToMourners",
+      "中文名称": "对哀悼者心理伤害影响",
+      "英文名称": "Impact on Suicide Survivors' and Mourners' Mental State",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "Purpose": {
+      "id": "AutomatedObituaryCreation",
+      "中文名称": "自动化讣告创建目的",
+      "英文名称": "Automated Obituary Creation Purpose",
+      "来源": "The unsettling scourge of obituary spam"
+    },
+    "Domain": {
+      "id": "FuneralServicesIndustry",
+      "中文名称": "殡葬服务行业领域",
+      "英文名称": "Funeral Services Domain",
+      "来源": "The unsettling scourge of obituary spam"
+    },
+    "AISubject": {
+      "id": "BereavedFamilies",
+      "中文名称": "丧亲家庭",
+      "英文名称": "Bereaved",
+      "来源": "AI-written obituaries are compounding people's grief"
+    },
+    "RiskSource": {
+      "id": "InsensitiveAutomatedContent",
+      "中文名称": "不敏感的自动化内容风险源",
+      "英文名称": "Insensitive Automated Content Risk Source",
+      "来源": "AI-written obituaries are compounding people's grief"
+    }
+  }
+}

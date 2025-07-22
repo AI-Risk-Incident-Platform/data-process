@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ApplePhotoAnalysisAI",
+      "中文名称": "苹果照片分析AI",
+      "英文名称": "Apple Photo Analysis AI",
+      "来源": "Apple auto-opts everyone into having their photos analyzed by AI for landmarks"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "auto-opts everyone into having their photos analyzed by AI"
+    },
+    "Stakeholder": {
+      "id": "AppleUsers",
+      "中文名称": "苹果用户",
+      "英文名称": "Apple Users",
+      "来源": "everyone into having their photos analyzed"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple auto-opts everyone"
+    },
+    "Purpose": {
+      "id": "LandmarkIdentification",
+      "中文名称": "地标识别",
+      "英文名称": "Landmark Identification",
+      "来源": "analyzed by AI for landmarks"
+    },
+    "Domain": {
+      "id": "PersonalPhotoManagement",
+      "中文名称": "个人照片管理",
+      "英文名称": "Personal Photo Management",
+      "来源": "having their photos analyzed"
+    },
+    "RiskSource": {
+      "id": "AutomaticOptInFeature",
+      "中文名称": "自动选择加入功能",
+      "英文名称": "Automatic Opt-In Feature",
+      "来源": "auto-opts everyone into having their photos analyzed"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "having their photos analyzed by AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ApplePhotoAnalysisAI",
+      "中文名称": "苹果照片分析AI",
+      "英文名称": "Apple Photo Analysis AI",
+      "来源": "Apple auto-opts everyone into having their photos analyzed by AI for landmarks"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "auto-opts everyone into having their photos analyzed by AI"
+    },
+    "Stakeholder": {
+      "id": "AppleUsers",
+      "中文名称": "苹果用户",
+      "英文名称": "Apple Users",
+      "来源": "everyone into having their photos analyzed"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple auto-opts everyone"
+    },
+    "Purpose": {
+      "id": "LandmarkIdentification",
+      "中文名称": "地标识别",
+      "英文名称": "Landmark Identification",
+      "来源": "analyzed by AI for landmarks"
+    },
+    "Domain": {
+      "id": "PersonalPhotoManagement",
+      "中文名称": "个人照片管理",
+      "英文名称": "Personal Photo Management",
+      "来源": "having their photos analyzed"
+    },
+    "RiskSource": {
+      "id": "AutomaticOptInFeature",
+      "中文名称": "自动选择加入功能",
+      "英文名称": "Automatic Opt-In Feature",
+      "来源": "auto-opts everyone into having their photos analyzed"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "having their photos analyzed by AI"
+    }
+  }
+}

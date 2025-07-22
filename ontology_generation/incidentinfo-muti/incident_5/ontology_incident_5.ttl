@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleCommentRankingSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Comment Ranking System"@en ;
+    rdfs:label "谷歌评论排名系统"@zh ;
+    airo:hasRisk ex:AltRightContentAmplificationRisk ;
+    airo:hasCapability ex:CommentRankingAlgorithm ;
+    airo:hasPurpose ex:ImproveUserEngagement ;
+    airo:hasStakeholder ex:AltRightGroups ;
+    airo:isAppliedWithinDomain ex:OnlineContentModeration ;
+    airo:usesTechnique ex:NaturalLanguageProcessing .
+
+ex:AltRightContentAmplificationRisk rdf:type airo:Risk ;
+    rdfs:label "Alt-Right Content Amplification Risk"@en ;
+    rdfs:label "极右内容放大风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentSpread ;
+    airo:isRiskSourceFor ex:AlgorithmicBias .
+
+ex:HarmfulContentSpread rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Spread Consequence"@en ;
+    rdfs:label "有害内容传播后果"@zh ;
+    airo:hasImpact ex:SocialDivision .
+
+ex:CommentRankingAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Comment Ranking Algorithm Capability"@en ;
+    rdfs:label "评论排名算法能力"@zh .
+
+ex:AltRightGroups rdf:type airo:Stakeholder ;
+    rdfs:label "Alt-Right Groups"@en ;
+    rdfs:label "极右团体"@zh .
+
+ex:SocialDivision rdf:type airo:Impact ;
+    rdfs:label "Social Division Impact"@en ;
+    rdfs:label "社会分裂影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AltRightGroups .
+
+ex:ImproveUserEngagement rdf:type airo:Purpose ;
+    rdfs:label "Improve User Engagement Purpose"@en ;
+    rdfs:label "提高用户参与度目的"@zh .
+
+ex:OnlineContentModeration rdf:type airo:Domain ;
+    rdfs:label "Online Content Moderation Domain"@en ;
+    rdfs:label "在线内容审核领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:AlgorithmicBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Risk Source"@en ;
+    rdfs:label "算法偏见风险源"@zh .

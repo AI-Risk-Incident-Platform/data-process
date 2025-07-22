@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIBasedFraudDetectionSystem",
+      "中文名称": "基于AI的欺诈检测系统",
+      "英文名称": "AI-Based Fraud Detection System",
+      "来源": "A Complaint Against Faulty AI-Based Fraud Detection System in US Highlights Key Concerns Regulators Must Note"
+    },
+    "Risk": {
+      "id": "FaultyFraudDetectionRisk",
+      "中文名称": "欺诈检测错误风险",
+      "英文名称": "Faulty Fraud Detection Risk",
+      "来源": "A Complaint Against Faulty AI-Based Fraud Detection System in US Highlights Key Concerns Regulators Must Note"
+    },
+    "Stakeholder": {
+      "id": "USRegulators",
+      "中文名称": "美国监管机构",
+      "英文名称": "US Regulators",
+      "来源": "Highlights Key Concerns Regulators Must Note"
+    },
+    "Consequence": {
+      "id": "IncorrectFraudIdentification",
+      "中文名称": "错误识别欺诈后果",
+      "英文名称": "Incorrect Fraud Identification Consequence",
+      "来源": "A Complaint Against Faulty AI-Based Fraud Detection System"
+    },
+    "Impact": {
+      "id": "FinancialHarmToConsumers",
+      "中文名称": "对消费者的财务损害影响",
+      "英文名称": "Financial Harm to Consumers Impact",
+      "来源": "A Complaint Against Faulty AI-Based Fraud Detection System"
+    }
+  }
+}

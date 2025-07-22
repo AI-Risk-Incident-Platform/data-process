@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeContentModerationSystem",
+      "中文名称": "YouTube内容审核系统",
+      "英文名称": "YouTube Content Moderation System",
+      "来源": "YouTube automatically deleted comments that criticized China’s Communist Party"
+    },
+    "Risk": {
+      "id": "CensorshipRisk",
+      "中文名称": "审查风险",
+      "英文名称": "Censorship Risk",
+      "来源": "YouTube Is Removing Chinese Phrases Critical of China's Communist Party"
+    },
+    "Stakeholder": {
+      "id": "ChinaCommunistParty",
+      "中文名称": "中国共产党",
+      "英文名称": "China Communist Party",
+      "来源": "YouTube automatically deleted comments that criticized China’s Communist Party"
+    },
+    "AIOperator": {
+      "id": "YouTube",
+      "中文名称": "YouTube",
+      "英文名称": "YouTube",
+      "来源": "YouTube automatically deleted comments that criticized China’s Communist Party"
+    },
+    "Consequence": {
+      "id": "SuppressionOfFreeSpeech",
+      "中文名称": "言论自由压制后果",
+      "英文名称": "Suppression of Free Speech Consequence",
+      "来源": "YouTube Is Removing Chinese Phrases Critical of China's Communist Party"
+    },
+    "Impact": {
+      "id": "PoliticalCensorshipImpact",
+      "中文名称": "政治审查影响",
+      "英文名称": "Political Censorship Impact",
+      "来源": "YouTube Is Removing Chinese Phrases Critical of China's Communist Party"
+    }
+  }
+}

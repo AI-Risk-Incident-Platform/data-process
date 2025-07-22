@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIScamSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Scam System"@en ;
+    rdfs:label "AI诈骗系统"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasStakeholder ex:ScamVictim ;
+    airo:hasPurpose ex:FraudulentPurpose .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:AIForFraudulentActivities .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpactOnStakeholder ex:ScamVictim .
+
+ex:ScamVictim rdf:type airo:Stakeholder ;
+    rdfs:label "Scam Victim"@en ;
+    rdfs:label "诈骗受害者"@zh .
+
+ex:AIForFraudulentActivities rdf:type airo:Misuse ;
+    rdfs:label "AI for Fraudulent Activities"@en ;
+    rdfs:label "用于欺诈活动的AI"@zh .
+
+ex:FraudulentPurpose rdf:type airo:Purpose ;
+    rdfs:label "Fraudulent Purpose"@en ;
+    rdfs:label "欺诈目的"@zh .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeContentAnalysisForAutism",
+      "中文名称": "YouTube视频内容分析用于自闭症研究",
+      "英文名称": "YouTube Content Analysis for Autism Research",
+      "来源": "England’s Keele University Neglects Patient Consent Regulations and Uses YouTube Videos to Study Autism in Children"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Neglects Patient Consent Regulations"
+    },
+    "Stakeholder": {
+      "id": "KeeleUniversity",
+      "中文名称": "基尔大学",
+      "英文名称": "Keele University",
+      "来源": "England’s Keele University"
+    },
+    "AISubject": {
+      "id": "ChildrenWithAutism",
+      "中文名称": "自闭症儿童",
+      "英文名称": "Children with Autism",
+      "来源": "Study Autism in Children"
+    },
+    "RiskSource": {
+      "id": "LackOfPatientConsent",
+      "中文名称": "缺乏患者同意",
+      "英文名称": "Lack of Patient Consent",
+      "来源": "Neglects Patient Consent Regulations"
+    }
+  }
+}

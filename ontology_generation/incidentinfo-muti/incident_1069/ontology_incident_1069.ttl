@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    rdfs:label "Deepfake Video System"@en ;
+    airo:hasAISubject ex:ConsumersOfUnprovenSupplements ;
+    airo:usesTechnique ex:DeepfakeGenerationTechnology ;
+    airo:hasRisk ex:HealthRiskFromFakeEndorsements .
+
+ex:HealthRiskFromFakeEndorsements rdf:type airo:Risk ;
+    rdfs:label "虚假代言导致的健康风险"@zh ;
+    rdfs:label "Health Risk from Fake Endorsements"@en ;
+    airo:hasConsequence ex:PotentialHealthHarms ;
+    airo:isRiskSourceFor ex:MisleadingCelebrityEndorsements .
+
+ex:ConsumersOfUnprovenSupplements rdf:type airo:AISubject ;
+    rdfs:label "购买未经证实补充剂的消费者"@zh ;
+    rdfs:label "Consumers of Unproven Supplements"@en .
+
+ex:PotentialHealthHarms rdf:type airo:Consequence ;
+    rdfs:label "潜在健康危害后果"@zh ;
+    rdfs:label "Potential Health Harms Consequence"@en ;
+    airo:hasImpact ex:ConsumerHealthImpact .
+
+ex:DeepfakeGenerationTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造生成技术"@zh ;
+    rdfs:label "Deepfake Generation Technology"@en .
+
+ex:ConsumerHealthImpact rdf:type airo:Impact ;
+    rdfs:label "消费者健康影响"@zh ;
+    rdfs:label "Consumer Health Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ConsumersOfUnprovenSupplements .
+
+ex:MisleadingCelebrityEndorsements rdf:type airo:RiskSource ;
+    rdfs:label "误导性名人代言风险源"@zh ;
+    rdfs:label "Misleading Celebrity Endorsements Risk Source"@en .

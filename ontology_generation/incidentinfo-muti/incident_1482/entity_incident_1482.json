@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShamMarriageScreeningAlgorithm",
+      "中文名称": "假结婚筛查算法",
+      "英文名称": "Sham Marriage Screening Algorithm",
+      "来源": "Legal action launched over sham marriage screening algorithm"
+    },
+    "Risk": {
+      "id": "DiscriminationRiskInMarriageScreening",
+      "中文名称": "婚姻筛查中的歧视风险",
+      "英文名称": "Discrimination Risk in Marriage Screening",
+      "来源": "Legal action launched over UK gov't sham marriage algorithm"
+    },
+    "Stakeholder": {
+      "id": "UKGovernment",
+      "中文名称": "英国政府",
+      "英文名称": "UK Government",
+      "来源": "Legal action launched over UK gov't sham marriage algorithm"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务",
+      "英文名称": "Government Services",
+      "来源": "UK officials use AI to decide on issues from benefits to marriage licences"
+    },
+    "AIOperator": {
+      "id": "UKOfficials",
+      "中文名称": "英国官员",
+      "英文名称": "UK Officials",
+      "来源": "UK officials use AI to decide on issues from benefits to marriage licences"
+    },
+    "Purpose": {
+      "id": "MarriageLicenseScreening",
+      "中文名称": "婚姻许可证筛查",
+      "英文名称": "Marriage License Screening",
+      "来源": "UK officials use AI to decide on issues from benefits to marriage licences"
+    }
+  }
+}

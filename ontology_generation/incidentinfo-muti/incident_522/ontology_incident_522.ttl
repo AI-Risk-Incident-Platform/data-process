@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCrashRisk ;
+    airo:hasStakeholder ex:TeslaJuror ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTechnology ;
+    airo:hasPurpose ex:DriverAssistance .
+
+ex:AutonomousVehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Crash Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh .
+
+ex:TeslaJuror rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Juror"@en ;
+    rdfs:label "特斯拉陪审员"@zh .
+
+ex:AutonomousVehicleTechnology rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Technology Domain"@en ;
+    rdfs:label "自动驾驶车辆技术领域"@zh .
+
+ex:DriverAssistance rdf:type airo:Purpose ;
+    rdfs:label "Driver Assistance Purpose"@en ;
+    rdfs:label "驾驶辅助目的"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CignaClaimsProcessingAlgorithm",
+      "中文名称": "Cigna理赔处理算法",
+      "英文名称": "Cigna Claims Processing Algorithm",
+      "来源": "Cigna Health Giant Accused of Improperly Rejecting Thousands of Patient Claims Using an Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairClaimDenialRisk",
+      "中文名称": "不公平理赔拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Cigna Sued Over Algorithm Allegedly Used To Deny Coverage To Hundreds Of Thousands Of Patients"
+    },
+    "AIOperator": {
+      "id": "CignaCorporation",
+      "中文名称": "Cigna公司",
+      "英文名称": "Cigna Corporation",
+      "来源": "Cigna Health Giant Accused of Improperly Rejecting Thousands of Patient Claims"
+    },
+    "AISubject": {
+      "id": "MedicalInsuranceClaimants",
+      "中文名称": "医疗保险申请人",
+      "英文名称": "Medical Insurance Claimants",
+      "来源": "Deny Coverage To Hundreds Of Thousands Of Patients"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Healthcare Insurance Domain",
+      "来源": "Health Giant Accused of Improperly Rejecting Thousands of Patient Claims"
+    },
+    "Consequence": {
+      "id": "PatientsDeniedNecessaryMedicalCoverage",
+      "中文名称": "患者被拒绝必要医疗保险的后果",
+      "英文名称": "Patients Denied Necessary Medical Coverage Consequence",
+      "来源": "Deny Coverage To Hundreds Of Thousands Of Patients"
+    },
+    "Impact": {
+      "id": "FinancialBurdenOnPatients",
+      "中文名称": "患者经济负担加重的影响",
+      "英文名称": "Financial Burden on Patients Impact",
+      "来源": "Improperly Rejecting Thousands of Patient Claims"
+    },
+    "RiskSource": {
+      "id": "AutomatedClaimReviewWithoutHumanOversight",
+      "中文名称": "无人监督的自动理赔审核风险源",
+      "英文名称": "Automated Claim Review Without Human Oversight Risk Source",
+      "来源": "Using an Algorithm to Reject Claims"
+    },
+    "Purpose": {
+      "id": "StreamliningInsuranceClaimProcessing",
+      "中文名称": "简化保险理赔处理流程的目的",
+      "英文名称": "Streamlining Insurance Claim Processing Purpose",
+      "来源": "Using an Algorithm to Process Claims"
+    }
+  }
+}

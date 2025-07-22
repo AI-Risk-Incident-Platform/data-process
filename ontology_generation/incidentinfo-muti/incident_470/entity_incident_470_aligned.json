@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingChat",
+      "中文名称": "必应聊天",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "Risk": {
+      "id": "PromptInjectionAttackRisk",
+      "中文名称": "提示注入攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "AITechnique": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入技术",
+      "英文名称": "Prompt Injection Technique",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "Consequence": {
+      "id": "InformationDisclosure",
+      "中文名称": "信息泄露后果",
+      "英文名称": "Information Disclosure Consequence",
+      "来源": "spills its secrets"
+    },
+    "Impact": {
+      "id": "PrivacyCompromise",
+      "中文名称": "隐私泄露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "spills its secrets"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BingChat",
+      "中文名称": "必应聊天",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "Risk": {
+      "id": "PromptInjectionAttackRisk",
+      "中文名称": "提示注入攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "AITechnique": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入技术",
+      "英文名称": "Prompt Injection Technique",
+      "来源": "AI-powered Bing Chat spills its secrets via prompt injection attack"
+    },
+    "Consequence": {
+      "id": "InformationDisclosure",
+      "中文名称": "信息泄露后果",
+      "英文名称": "Information Disclosure Consequence",
+      "来源": "spills its secrets"
+    },
+    "Impact": {
+      "id": "PrivacyCompromise",
+      "中文名称": "隐私泄露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "spills its secrets"
+    }
+  }
+}

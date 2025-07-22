@@ -1,0 +1,80 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RussianKillerDrone rdf:type airo:AISystem ;
+    rdfs:label "Russian Killer Drone"@en ;
+    rdfs:label "俄罗斯杀手无人机"@zh ;
+    airo:hasRisk ex:AIInWarfareRisk ;
+    airo:hasAICapability ex:AutonomousTargeting ;
+    airo:hasStakeholder ex:UkrainianMilitary ;
+    airo:hasAISubject ex:MilitaryPersonnel ;
+    airo:hasPurpose ex:MilitaryCombat ;
+    airo:isAppliedWithinDomain ex:MilitaryDefense ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:hasVulnerability ex:LackOfHumanControl .
+
+ex:AIInWarfareRisk rdf:type airo:Risk ;
+    rdfs:label "AI in Warfare Risk"@en ;
+    rdfs:label "战争中AI应用风险"@zh ;
+    airo:hasConsequence ex:CivilianCasualties ;
+    airo:isRiskSourceFor ex:AIInMilitaryApplications ;
+    airo:isRiskSourceFor ex:AutonomousWeapons ;
+    airo:isRiskSourceFor ex:UnintendedTargeting .
+
+ex:AutonomousTargeting rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Targeting Capability"@en ;
+    rdfs:label "自主目标锁定能力"@zh .
+
+ex:UkrainianMilitary rdf:type airo:Stakeholder ;
+    rdfs:label "Ukrainian Military"@en ;
+    rdfs:label "乌克兰军方"@zh .
+
+ex:MilitaryPersonnel rdf:type airo:AISubject ;
+    rdfs:label "Military Personnel"@en ;
+    rdfs:label "军事人员"@zh .
+
+ex:CivilianCasualties rdf:type airo:Impact ;
+    rdfs:label "Civilian Casualties Impact"@en ;
+    rdfs:label "平民伤亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UkrainianMilitary .
+
+ex:MilitaryCombat rdf:type airo:Purpose ;
+    rdfs:label "Military Combat Purpose"@en ;
+    rdfs:label "军事作战目的"@zh .
+
+ex:MilitaryDefense rdf:type airo:Domain ;
+    rdfs:label "Military Defense Domain"@en ;
+    rdfs:label "军事防御领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .
+
+ex:LackOfHumanControl rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Control Vulnerability"@en ;
+    rdfs:label "缺乏人类控制的脆弱性"@zh .
+
+ex:AutonomousWeapons rdf:type airo:Threat ;
+    rdfs:label "Autonomous Weapons Threat"@en ;
+    rdfs:label "自主武器威胁"@zh .
+
+ex:UnintendedTargeting rdf:type airo:Hazard ;
+    rdfs:label "Unintended Targeting Hazard"@en ;
+    rdfs:label "非预期目标锁定危害"@zh .
+
+ex:AIInMilitaryApplications rdf:type airo:RiskSource ;
+    rdfs:label "AI in Military Applications Risk Source"@en ;
+    rdfs:label "军事应用中的AI风险源"@zh .
+
+ex:EthicalConcernsInAutonomousWeapons rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Autonomous Weapons Risk Concept"@en ;
+    rdfs:label "自主武器的伦理问题"@zh .

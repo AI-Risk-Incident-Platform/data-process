@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TextToImageAIModels",
+      "中文名称": "文本到图像AI模型",
+      "英文名称": "AI Image Generator",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Risk": {
+      "id": "GenerationOfDisturbingImagesRisk",
+      "中文名称": "生成令人不安图像的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Consequence": {
+      "id": "CreationOfNSFWContent",
+      "中文名称": "创建不适合工作场所内容的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Art Generators Can Be Fooled Into Making NSFW Images"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "从文本提示生成图像的能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Vulnerability": {
+      "id": "PromptInjectionVulnerability",
+      "中文名称": "提示注入漏洞",
+      "英文名称": "Prompt Exploitation Vulnerability",
+      "来源": "Researchers Reveal Vulnerabilities in AI Models, Prompting Concerns"
+    },
+    "Threat": {
+      "id": "MaliciousPromptEngineering",
+      "中文名称": "恶意提示工程威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Impact": {
+      "id": "PotentialHarmToUsers",
+      "中文名称": "对用户的潜在伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI Art Generators Can Be Fooled Into Making NSFW Images"
+    },
+    "RiskSource": {
+      "id": "AdversarialInputs",
+      "中文名称": "对抗性输入风险源",
+      "英文名称": "Adversarial Inputs Risk Source",
+      "来源": "Researchers Reveal Vulnerabilities in AI Models, Prompting Concerns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TextToImageAIModels",
+      "中文名称": "文本到图像AI模型",
+      "英文名称": "AI Image Generator",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Risk": {
+      "id": "GenerationOfDisturbingImagesRisk",
+      "中文名称": "生成令人不安图像的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Consequence": {
+      "id": "CreationOfNSFWContent",
+      "中文名称": "创建不适合工作场所内容的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI Art Generators Can Be Fooled Into Making NSFW Images"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "从文本提示生成图像的能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Vulnerability": {
+      "id": "PromptInjectionVulnerability",
+      "中文名称": "提示注入漏洞",
+      "英文名称": "Prompt Exploitation Vulnerability",
+      "来源": "Researchers Reveal Vulnerabilities in AI Models, Prompting Concerns"
+    },
+    "Threat": {
+      "id": "MaliciousPromptEngineering",
+      "中文名称": "恶意提示工程威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Text-to-image AI models can be tricked into generating disturbing images"
+    },
+    "Impact": {
+      "id": "PotentialHarmToUsers",
+      "中文名称": "对用户的潜在伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI Art Generators Can Be Fooled Into Making NSFW Images"
+    },
+    "RiskSource": {
+      "id": "AdversarialInputs",
+      "中文名称": "对抗性输入风险源",
+      "英文名称": "Adversarial Inputs Risk Source",
+      "来源": "Researchers Reveal Vulnerabilities in AI Models, Prompting Concerns"
+    }
+  }
+}

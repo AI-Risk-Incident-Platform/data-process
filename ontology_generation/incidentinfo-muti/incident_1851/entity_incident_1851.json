@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIModelsForPoliticalInformation",
+      "中文名称": "政治信息AI模型",
+      "英文名称": "AI Models for Political Information",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "Political Misinformation Risk",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election Interference Impact",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "Domain": {
+      "id": "PoliticalInformation",
+      "中文名称": "政治信息领域",
+      "英文名称": "Political Information Domain",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "AICapability": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text Generation Capability",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "RiskSource": {
+      "id": "UnverifiedDataSources",
+      "中文名称": "未经验证数据源",
+      "英文名称": "Unverified Data Sources Risk Source",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    },
+    "Stakeholder": {
+      "id": "Voters",
+      "中文名称": "选民",
+      "英文名称": "Voters Stakeholder",
+      "来源": "AI Models Generate Misinformation about Presidential Candidates"
+    }
+  }
+}

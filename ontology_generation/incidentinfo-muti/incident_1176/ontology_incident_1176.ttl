@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChicagoPDPredictivePolicingHeatList rdf:type airo:AISystem ;
+    rdfs:label "Chicago PD Predictive Policing Heat List"@en ;
+    rdfs:label "芝加哥警察局预测性警务热点名单"@zh ;
+    airo:hasRisk ex:PerpetuationOfHistoricalBiasesRisk ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasPurpose ex:CrimePrevention ;
+    airo:hasStakeholder ex:ChicagoPoliceDepartment .
+
+ex:PerpetuationOfHistoricalBiasesRisk rdf:type airo:Risk ;
+    rdfs:label "Perpetuation of Historical Biases Risk"@en ;
+    rdfs:label "历史偏见延续风险"@zh ;
+    airo:isRiskSourceFor ex:HistoricalCrimeDataBias ;
+    airo:hasImpact ex:ReinforcementOfSystemicInequality .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:CrimePrevention rdf:type airo:Purpose ;
+    rdfs:label "Crime Prevention Purpose"@en ;
+    rdfs:label "犯罪预防目的"@zh .
+
+ex:ChicagoPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Chicago Police Department"@en ;
+    rdfs:label "芝加哥警察局"@zh .
+
+ex:HistoricalCrimeDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Historical Crime Data Bias Risk Source"@en ;
+    rdfs:label "历史犯罪数据偏差风险源"@zh .
+
+ex:ReinforcementOfSystemicInequality rdf:type airo:Impact ;
+    rdfs:label "Reinforcement of Systemic Inequality Impact"@en ;
+    rdfs:label "系统性不平等强化的影响"@zh .

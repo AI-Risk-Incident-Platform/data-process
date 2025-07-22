@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Facial Recognition Risk",
+      "来源": "Black teen kicked out of skating rink after facial recognition camera misidentified her"
+    },
+    "Consequence": {
+      "id": "UnjustExclusionFromPublicSpace",
+      "中文名称": "被不公正地排除在公共空间之外的后果",
+      "英文名称": "Unjust Exclusion from Public Space Consequence",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionForSecurity",
+      "中文名称": "用于安全的面部识别能力",
+      "英文名称": "Facial Recognition for Security Capability",
+      "来源": "Black teen kicked out of skating rink after facial recognition camera misidentified her"
+    },
+    "AISubject": {
+      "id": "BlackTeenagers",
+      "中文名称": "黑人青少年",
+      "英文名称": "Black Teenagers",
+      "来源": "The Best Algorithms Still Struggle to Recognize Black Faces"
+    },
+    "Impact": {
+      "id": "PsychologicalDistressAndDiscrimination",
+      "中文名称": "心理困扰和歧视的影响",
+      "英文名称": "Psychological Distress and Discrimination Impact",
+      "来源": "Black teen kicked out of skating rink after facial recognition camera misidentified her"
+    },
+    "Purpose": {
+      "id": "SecurityAndAccessControl",
+      "中文名称": "安全和访问控制的目的",
+      "英文名称": "Security and Access Control Purpose",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "Domain": {
+      "id": "PublicEntertainmentVenues",
+      "中文名称": "公共娱乐场所领域",
+      "英文名称": "Public Entertainment Venues Domain",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFacialRecognition",
+      "中文名称": "基于深度学习的面部识别技术",
+      "英文名称": "Deep Learning Based Facial Recognition Technique",
+      "来源": "The Best Algorithms Still Struggle to Recognize Black Faces"
+    },
+    "Vulnerability": {
+      "id": "PoorPerformanceOnDarkSkinTones",
+      "中文名称": "对深色皮肤表现不佳的脆弱性",
+      "英文名称": "Poor Performance on Dark Skin Tones Vulnerability",
+      "来源": "The Best Algorithms Still Struggle to Recognize Black Faces"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据的风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "The Best Algorithms Still Struggle to Recognize Black Faces"
+    }
+  }
+}

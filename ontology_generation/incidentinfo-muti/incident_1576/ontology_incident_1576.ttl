@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIUsedInJudicialRuling rdf:type airo:AISystem ;
+    rdfs:label "AI Used in Judicial Ruling"@en ;
+    rdfs:label "司法裁决中使用的AI"@zh ;
+    airo:hasRisk ex:JudicialDecisionErrorsRisk ;
+    airo:isDeployedBy ex:BrazilianJudge ;
+    airo:hasStakeholder ex:LegalSystem ;
+    airo:isAppliedWithinDomain ex:JudicialSystemDomain .
+
+ex:JudicialDecisionErrorsRisk rdf:type airo:Risk ;
+    rdfs:label "Judicial Decision Errors Risk"@en ;
+    rdfs:label "司法决策错误风险"@zh ;
+    airo:hasConsequence ex:LegalJudgmentErrorsConsequence ;
+    airo:isRiskSourceFor ex:AIErrorsRiskSource .
+
+ex:LegalJudgmentErrorsConsequence rdf:type airo:Consequence ;
+    rdfs:label "Legal Judgment Errors Consequence"@en ;
+    rdfs:label "法律判决错误后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosionImpact .
+
+ex:BrazilianJudge rdf:type airo:AIOperator ;
+    rdfs:label "Brazilian Judge"@en ;
+    rdfs:label "巴西法官"@zh .
+
+ex:LegalSystem rdf:type airo:Stakeholder ;
+    rdfs:label "Legal System"@en ;
+    rdfs:label "法律系统"@zh .
+
+ex:PublicTrustErosionImpact rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalSystem .
+
+ex:JudicialSystemDomain rdf:type airo:Domain ;
+    rdfs:label "Judicial System Domain"@en ;
+    rdfs:label "司法系统领域"@zh .
+
+ex:AIErrorsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "AI Errors Risk Source"@en ;
+    rdfs:label "AI错误风险源"@zh .

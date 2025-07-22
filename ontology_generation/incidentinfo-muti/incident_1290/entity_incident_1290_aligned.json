@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTAndAIDetectionTools",
+      "中文名称": "ChatGPT和AI检测工具",
+      "英文名称": "ChatGPT and AI Detection Tools",
+      "来源": "ChatGPT, and AI Detection Tools: the Challenge of False Positives"
+    },
+    "Risk": {
+      "id": "FalsePositivesInAIDetection",
+      "中文名称": "AI检测中的误报风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "the Challenge of False Positives"
+    },
+    "Stakeholder": {
+      "id": "Universities",
+      "中文名称": "大学",
+      "英文名称": "Universities",
+      "来源": "Some universities are ditching AI detection software amid fears students could be falsely accused of cheating by using ChatGPT"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "students could be falsely accused of cheating by using ChatGPT"
+    },
+    "Consequence": {
+      "id": "FalseAccusationsOfCheating",
+      "中文名称": "作弊的虚假指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "students could be falsely accused of cheating by using ChatGPT"
+    },
+    "RiskControl": {
+      "id": "DisablingAIDetector",
+      "中文名称": "禁用AI检测器",
+      "英文名称": "Disabling AI Detector",
+      "来源": "Why We're Disabling Turnitin's AI Detector"
+    },
+    "Domain": {
+      "id": "AcademicIntegrity",
+      "中文名称": "学术诚信领域",
+      "英文名称": "Academic Integrity Domain",
+      "来源": "fears students could be falsely accused of cheating"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTAndAIDetectionTools",
+      "中文名称": "ChatGPT和AI检测工具",
+      "英文名称": "ChatGPT and AI Detection Tools",
+      "来源": "ChatGPT, and AI Detection Tools: the Challenge of False Positives"
+    },
+    "Risk": {
+      "id": "FalsePositivesInAIDetection",
+      "中文名称": "AI检测中的误报风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "the Challenge of False Positives"
+    },
+    "Stakeholder": {
+      "id": "Universities",
+      "中文名称": "大学",
+      "英文名称": "Universities",
+      "来源": "Some universities are ditching AI detection software amid fears students could be falsely accused of cheating by using ChatGPT"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "students could be falsely accused of cheating by using ChatGPT"
+    },
+    "Consequence": {
+      "id": "FalseAccusationsOfCheating",
+      "中文名称": "作弊的虚假指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "students could be falsely accused of cheating by using ChatGPT"
+    },
+    "RiskControl": {
+      "id": "DisablingAIDetector",
+      "中文名称": "禁用AI检测器",
+      "英文名称": "Disabling AI Detector",
+      "来源": "Why We're Disabling Turnitin's AI Detector"
+    },
+    "Domain": {
+      "id": "AcademicIntegrity",
+      "中文名称": "学术诚信领域",
+      "英文名称": "Academic Integrity Domain",
+      "来源": "fears students could be falsely accused of cheating"
+    }
+  }
+}

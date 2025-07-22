@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokDeepfakeVideos rdf:type airo:AISystem ;
+    rdfs:label "TikTok Deepfake Videos"@en ;
+    rdfs:label "TikTok深度伪造视频"@zh ;
+    airo:hasRisk ex:PoliticalMisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:GermanPoliticalPartyAfD .
+
+ex:PoliticalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Misinformation Risk"@en ;
+    rdfs:label "政治虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicOpinionManipulation .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "公众舆论操纵影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GermanPoliticalPartyAfD .
+
+ex:GermanPoliticalPartyAfD rdf:type airo:Stakeholder ;
+    rdfs:label "German Political Party AfD"@en ;
+    rdfs:label "德国政党AfD"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PepperRobot rdf:type airo:AISystem ;
+    rdfs:label "Pepper Robot"@en ;
+    rdfs:label "Pepper机器人"@zh ;
+    airo:hasRisk ex:SecurityVulnerabilityRisk ;
+    airo:hasStakeholder ex:SoftBank .
+
+ex:SecurityVulnerabilityRisk rdf:type airo:Risk ;
+    rdfs:label "Security Vulnerability Risk"@en ;
+    rdfs:label "安全漏洞风险"@zh ;
+    airo:hasConsequence ex:PotentialCyberAttack ;
+    airo:isRiskSourceFor ex:InsecureDesign .
+
+ex:PotentialCyberAttack rdf:type airo:Consequence ;
+    rdfs:label "Potential Cyber Attack Consequence"@en ;
+    rdfs:label "潜在网络攻击后果"@zh ;
+    airo:hasImpact ex:PrivacyAndSecurityThreat .
+
+ex:SoftBank rdf:type airo:Stakeholder ;
+    rdfs:label "SoftBank"@en ;
+    rdfs:label "软银"@zh .
+
+ex:InsecureDesign rdf:type airo:RiskSource ;
+    rdfs:label "Insecure Design Risk Source"@en ;
+    rdfs:label "不安全设计风险源"@zh .
+
+ex:PrivacyAndSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Privacy and Security Threat Impact"@en ;
+    rdfs:label "隐私和安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SoftBank .

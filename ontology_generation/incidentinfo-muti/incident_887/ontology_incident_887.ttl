@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleIntelligence rdf:type airo:AISystem ;
+    rdfs:label "苹果智能系统"@zh ;
+    rdfs:label "Apple Intelligence"@en ;
+    airo:hasRisk ex:PhishingScamRisk ;
+    airo:hasCapability ex:MessageRewriting ;
+    airo:hasPurpose ex:MessagePrioritization ;
+    airo:hasStakeholder ex:AppleUsers .
+
+ex:PhishingScamRisk rdf:type airo:Risk ;
+    rdfs:label "钓鱼诈骗风险"@zh ;
+    rdfs:label "Phishing Scam Risk"@en ;
+    airo:hasConsequence ex:IncreasedScamSuccessRate ;
+    airo:isRiskSourceFor ex:AIEnhancedScamMessages .
+
+ex:IncreasedScamSuccessRate rdf:type airo:Consequence ;
+    rdfs:label "诈骗成功率提高的后果"@zh ;
+    rdfs:label "Increased Scam Success Rate Consequence"@en ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:MessageRewriting rdf:type airo:AICapability ;
+    rdfs:label "消息重写能力"@zh ;
+    rdfs:label "Message Rewriting Capability"@en .
+
+ex:AppleUsers rdf:type airo:Stakeholder ;
+    rdfs:label "苹果用户"@zh ;
+    rdfs:label "Apple Users"@en .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "财务损失的影响"@zh ;
+    rdfs:label "Financial Loss Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AppleUsers .
+
+ex:MessagePrioritization rdf:type airo:Purpose ;
+    rdfs:label "消息优先级排序的目的"@zh ;
+    rdfs:label "Message Prioritization Purpose"@en .
+
+ex:AIEnhancedScamMessages rdf:type airo:RiskSource ;
+    rdfs:label "AI增强的诈骗消息风险源"@zh ;
+    rdfs:label "AI-Enhanced Scam Messages Risk Source"@en ;
+    airo:exploitsVulnerability ex:UserTrustInAI .
+
+ex:UserTrustInAI rdf:type airo:Vulnerability ;
+    rdfs:label "用户对AI信任的脆弱性"@zh ;
+    rdfs:label "User Trust in AI Vulnerability"@en .

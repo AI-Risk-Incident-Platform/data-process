@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Risk": {
+      "id": "FalseInformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Consequence": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Stakeholder": {
+      "id": "NorwegianMan",
+      "中文名称": "挪威男子",
+      "英文名称": "Norwegian Man",
+      "来源": "Norwegian files complaint after ChatGPT falsely said he had murdered his children"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Norwegian man files complaint against ChatGPT for falsely saying he killed his sons"
+    },
+    "RiskSource": {
+      "id": "InaccurateResponseGeneration",
+      "中文名称": "不准确回答生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Norwegian files complaint after ChatGPT falsely said he had murdered his children"
+    },
+    "AISubject": {
+      "id": "IndividualsWithChildren",
+      "中文名称": "有子女的个人",
+      "英文名称": "Individuals with Children",
+      "来源": "ChatGPT falsely told man he killed his children"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Risk": {
+      "id": "FalseInformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Consequence": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "Stakeholder": {
+      "id": "NorwegianMan",
+      "中文名称": "挪威男子",
+      "英文名称": "Norwegian Man",
+      "来源": "Norwegian files complaint after ChatGPT falsely said he had murdered his children"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Norwegian man files complaint against ChatGPT for falsely saying he killed his sons"
+    },
+    "RiskSource": {
+      "id": "InaccurateResponseGeneration",
+      "中文名称": "不准确回答生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT falsely told man he killed his children"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Norwegian files complaint after ChatGPT falsely said he had murdered his children"
+    },
+    "AISubject": {
+      "id": "IndividualsWithChildren",
+      "中文名称": "有子女的个人",
+      "英文名称": "Individuals with Children",
+      "来源": "ChatGPT falsely told man he killed his children"
+    }
+  }
+}

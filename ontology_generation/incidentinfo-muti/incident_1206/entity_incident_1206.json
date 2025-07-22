@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FirstAISoftwareEngineer",
+      "中文名称": "首个AI软件工程师",
+      "英文名称": "First AI Software Engineer",
+      "来源": "Tool touted as 'first AI software engineer'"
+    },
+    "Risk": {
+      "id": "PoorTaskPerformanceRisk",
+      "中文名称": "任务执行不力风险",
+      "英文名称": "Poor Task Performance Risk",
+      "来源": "is bad at its job, testers claim"
+    },
+    "Consequence": {
+      "id": "TaskFailure",
+      "中文名称": "任务失败后果",
+      "英文名称": "Task Failure Consequence",
+      "来源": "is bungling the vast majority of tasks it's asked to do"
+    },
+    "AICapability": {
+      "id": "SoftwareEngineeringTasks",
+      "中文名称": "软件工程任务能力",
+      "英文名称": "Software Engineering Tasks Capability",
+      "来源": "first AI software engineer"
+    },
+    "Stakeholder": {
+      "id": "SoftwareTesters",
+      "中文名称": "软件测试人员",
+      "英文名称": "Software Testers",
+      "来源": "testers claim"
+    }
+  }
+}

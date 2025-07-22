@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeAINudifySites rdf:type airo:AISystem ;
+    rdfs:label "Fake AI Nudify Sites"@en ;
+    rdfs:label "虚假AI裸体化网站"@zh ;
+    airo:hasRisk ex:DataTheftRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:FIN7Gang .
+
+ex:DataTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Data Theft Risk"@en ;
+    rdfs:label "数据盗窃风险"@zh ;
+    airo:hasConsequence ex:PersonalDataCompromise ;
+    airo:isRiskSourceFor ex:MalwareInfectedAISites .
+
+ex:FIN7Gang rdf:type airo:Stakeholder ;
+    rdfs:label "FIN7 Gang"@en ;
+    rdfs:label "FIN7黑客组织"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:MalwareInfectedAISites rdf:type airo:RiskSource ;
+    rdfs:label "Malware Infected AI Sites"@en ;
+    rdfs:label "感染恶意软件的AI网站"@zh .
+
+ex:PersonalDataCompromise rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Compromise Consequence"@en ;
+    rdfs:label "个人数据泄露后果"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FIN7Gang .

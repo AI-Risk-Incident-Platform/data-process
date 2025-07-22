@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbotForWorkplaceTraining",
+      "中文名称": "职场培训AI聊天机器人",
+      "英文名称": "AI Chatbot for Workplace Training",
+      "来源": "AI chatbot blamed for psychosocial workplace training gaffe at Bunbury prison"
+    },
+    "Risk": {
+      "id": "PsychosocialTrainingGaffeRisk",
+      "中文名称": "心理社会培训失误风险",
+      "英文名称": "Psychosocial Training Gaffe Risk",
+      "来源": "AI chatbot blamed for psychosocial workplace training gaffe"
+    },
+    "Domain": {
+      "id": "PrisonWorkplaceTraining",
+      "中文名称": "监狱职场培训领域",
+      "英文名称": "Prison Workplace Training Domain",
+      "来源": "psychosocial workplace training at Bunbury prison"
+    },
+    "Stakeholder": {
+      "id": "BunburyPrison",
+      "中文名称": "班伯里监狱",
+      "英文名称": "Bunbury Prison",
+      "来源": "training gaffe at Bunbury prison"
+    },
+    "Consequence": {
+      "id": "TrainingProgramDisruption",
+      "中文名称": "培训计划中断后果",
+      "英文名称": "Training Program Disruption Consequence",
+      "来源": "blamed for psychosocial workplace training gaffe"
+    }
+  }
+}

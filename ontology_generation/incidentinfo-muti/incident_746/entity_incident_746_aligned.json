@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "标题直接指出讨论对象是生成式AI"
+    },
+    "Risk": {
+      "id": "ImproperUseOfGenerativeAIRisk",
+      "中文名称": "生成式AI不当使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题明确警示'How not to use generative AI'"
+    },
+    "RiskSource": {
+      "id": "LackOfUsageGuidelines",
+      "中文名称": "使用指南缺失",
+      "英文名称": "Lack of Usage Guidelines",
+      "来源": "标题暗示存在使用规范问题"
+    },
+    "Stakeholder": {
+      "id": "AIEndUsers",
+      "中文名称": "AI终端用户",
+      "英文名称": "AI Users",
+      "来源": "标题针对AI使用者群体"
+    },
+    "Impact": {
+      "id": "PotentialHarmFromMisuse",
+      "中文名称": "滥用潜在危害",
+      "英文名称": "Potential Harm from Misuse",
+      "来源": "标题警示不当使用后果"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "标题直接指出讨论对象是生成式AI"
+    },
+    "Risk": {
+      "id": "ImproperUseOfGenerativeAIRisk",
+      "中文名称": "生成式AI不当使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题明确警示'How not to use generative AI'"
+    },
+    "RiskSource": {
+      "id": "LackOfUsageGuidelines",
+      "中文名称": "使用指南缺失",
+      "英文名称": "Lack of Usage Guidelines",
+      "来源": "标题暗示存在使用规范问题"
+    },
+    "Stakeholder": {
+      "id": "AIEndUsers",
+      "中文名称": "AI终端用户",
+      "英文名称": "AI Users",
+      "来源": "标题针对AI使用者群体"
+    },
+    "Impact": {
+      "id": "PotentialHarmFromMisuse",
+      "中文名称": "滥用潜在危害",
+      "英文名称": "Potential Harm from Misuse",
+      "来源": "标题警示不当使用后果"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAdSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Ad System"@en ;
+    rdfs:label "谷歌广告系统"@zh ;
+    airo:hasRisk ex:AdTargetingRisk ;
+    airo:hasStakeholder ex:GoogleCompany ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising .
+
+ex:AdTargetingRisk rdf:type airo:Risk ;
+    rdfs:label "Ad Targeting Risk"@en ;
+    rdfs:label "广告定向风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfControlInAdSystem .
+
+ex:LackOfControlInAdSystem rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Control in Ad System Risk Source"@en ;
+    rdfs:label "广告系统缺乏控制的风险源"@zh .
+
+ex:GoogleCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Google Company"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising Domain"@en ;
+    rdfs:label "数字广告领域"@zh .

@@ -1,0 +1,89 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT-3 rdf:type airo:AISystem ;
+    rdfs:label "GPT-3"@en ;
+    rdfs:label "GPT-3"@zh ;
+    airo:hasRisk ex:Anti-MuslimBiasRisk ;
+    airo:hasAICapability ex:LanguageModeling ;
+    airo:hasPurpose ex:TextGeneration ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:TransformerArchitecture ;
+    airo:hasVulnerability ex:TrainingDataBias ;
+    airo:isDeployedBy ex:OpenAI ;
+    airo:hasStakeholder ex:MuslimCommunity ;
+    airo:hasAISubject ex:MuslimIndividuals .
+
+ex:Anti-MuslimBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Anti-Muslim Bias Risk"@en ;
+    rdfs:label "反穆斯林偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryContentGeneration ;
+    airo:isRiskSourceFor ex:UnrepresentativeTrainingData ;
+    airo:isRiskSourceFor ex:AlgorithmicDiscrimination ;
+    airo:isRiskSourceFor ex:BiasedTrainingCorpus .
+
+ex:DiscriminatoryContentGeneration rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Content Generation Consequence"@en ;
+    rdfs:label "歧视性内容生成后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:LanguageModeling rdf:type airo:AICapability ;
+    rdfs:label "Language Modeling Capability"@en ;
+    rdfs:label "语言建模能力"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:MuslimCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Muslim Community"@en ;
+    rdfs:label "穆斯林社区"@zh .
+
+ex:MuslimIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Muslim Individuals"@en ;
+    rdfs:label "穆斯林个体"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MuslimCommunity .
+
+ex:TextGeneration rdf:type airo:Purpose ;
+    rdfs:label "Text Generation Purpose"@en ;
+    rdfs:label "文本生成目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:TransformerArchitecture rdf:type airo:AITechnique ;
+    rdfs:label "Transformer Architecture Technique"@en ;
+    rdfs:label "Transformer架构技术"@zh .
+
+ex:TrainingDataBias rdf:type airo:Vulnerability ;
+    rdfs:label "Training Data Bias Vulnerability"@en ;
+    rdfs:label "训练数据偏差脆弱性"@zh .
+
+ex:AlgorithmicDiscrimination rdf:type airo:Threat ;
+    rdfs:label "Algorithmic Discrimination Threat"@en ;
+    rdfs:label "算法歧视威胁"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataBias .
+
+ex:BiasedTrainingCorpus rdf:type airo:Hazard ;
+    rdfs:label "Biased Training Corpus Hazard"@en ;
+    rdfs:label "偏见训练语料危害"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataBias .
+
+ex:UnrepresentativeTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Unrepresentative Training Data Risk Source"@en ;
+    rdfs:label "非代表性训练数据风险源"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataBias .

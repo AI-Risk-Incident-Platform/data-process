@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OracleSurveillanceMachine",
+      "中文名称": "Oracle监控机器",
+      "英文名称": "Oracle Surveillance Machine",
+      "来源": "Oracle's 'surveillance machine' faces privacy class action"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Oracle's 'surveillance machine' faces privacy class action"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocacyGroups",
+      "中文名称": "隐私倡导团体",
+      "英文名称": "Privacy Advocates",
+      "来源": "faces privacy class action"
+    },
+    "AIOperator": {
+      "id": "OracleCorporation",
+      "中文名称": "甲骨文公司",
+      "英文名称": "Oracle Corporation",
+      "来源": "Oracle's 'surveillance machine'"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "privacy class action"
+    },
+    "Domain": {
+      "id": "DataSurveillance",
+      "中文名称": "数据监控领域",
+      "英文名称": "Data Surveillance Domain",
+      "来源": "Oracle's 'surveillance machine'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OracleSurveillanceMachine",
+      "中文名称": "Oracle监控机器",
+      "英文名称": "Oracle Surveillance Machine",
+      "来源": "Oracle's 'surveillance machine' faces privacy class action"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Oracle's 'surveillance machine' faces privacy class action"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocacyGroups",
+      "中文名称": "隐私倡导团体",
+      "英文名称": "Privacy Advocates",
+      "来源": "faces privacy class action"
+    },
+    "AIOperator": {
+      "id": "OracleCorporation",
+      "中文名称": "甲骨文公司",
+      "英文名称": "Oracle Corporation",
+      "来源": "Oracle's 'surveillance machine'"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "privacy class action"
+    },
+    "Domain": {
+      "id": "DataSurveillance",
+      "中文名称": "数据监控领域",
+      "英文名称": "Data Surveillance Domain",
+      "来源": "Oracle's 'surveillance machine'"
+    }
+  }
+}

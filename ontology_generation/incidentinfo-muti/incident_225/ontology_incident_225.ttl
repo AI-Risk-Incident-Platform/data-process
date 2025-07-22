@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdReviewAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook Ad Review AI"@en ;
+    rdfs:label "Facebook广告审核AI"@zh ;
+    airo:hasRisk ex:IncorrectAdBlockingRisk ;
+    airo:hasPurpose ex:AdContentModeration ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising ;
+    airo:hasStakeholder ex:SmallBusinesses ;
+    airo:isDeployedBy ex:FacebookInc .
+
+ex:IncorrectAdBlockingRisk rdf:type airo:Risk ;
+    rdfs:label "Incorrect Ad Blocking Risk"@en ;
+    rdfs:label "错误广告拦截风险"@zh ;
+    airo:hasConsequence ex:BusinessRevenueLoss ;
+    airo:isRiskSourceFor ex:OverlyStringentContentFilters ;
+    airo:hasRiskControl ex:PublicApologyAndSystemReview .
+
+ex:BusinessRevenueLoss rdf:type airo:Consequence ;
+    rdfs:label "Business Revenue Loss Consequence"@en ;
+    rdfs:label "企业收入损失后果"@zh ;
+    airo:hasImpact ex:EconomicHardshipForBusinesses .
+
+ex:SmallBusinesses rdf:type airo:Stakeholder ;
+    rdfs:label "Small Businesses"@en ;
+    rdfs:label "小型企业"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:EconomicHardshipForBusinesses rdf:type airo:Impact ;
+    rdfs:label "Economic Hardship for Businesses Impact"@en ;
+    rdfs:label "企业经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SmallBusinesses .
+
+ex:AdContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Ad Content Moderation Purpose"@en ;
+    rdfs:label "广告内容审核目的"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising Domain"@en ;
+    rdfs:label "数字广告领域"@zh .
+
+ex:OverlyStringentContentFilters rdf:type airo:RiskSource ;
+    rdfs:label "Overly Stringent Content Filters Risk Source"@en ;
+    rdfs:label "过于严格的内容过滤器风险源"@zh .
+
+ex:PublicApologyAndSystemReview rdf:type airo:RiskControl ;
+    rdfs:label "Public Apology and System Review RiskControl"@en ;
+    rdfs:label "公开道歉和系统审查管控"@zh .

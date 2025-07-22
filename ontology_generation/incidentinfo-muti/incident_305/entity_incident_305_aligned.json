@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Model S driver crashes into a van while on Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Model S on Autopilot crashes into van parked on highway"
+    },
+    "Consequence": {
+      "id": "VehicleDamageAndPotentialInjury",
+      "中文名称": "车辆损坏和潜在伤害后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "crashes into a van while on Autopilot"
+    },
+    "AICapability": {
+      "id": "AdaptiveCruiseControl",
+      "中文名称": "自适应巡航控制能力",
+      "英文名称": "Adaptive Cruise Control Capability",
+      "来源": "Tesla Model S adaptive cruise control crashes into Van"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Model S"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwners",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Owners",
+      "来源": "Tesla Model S driver"
+    },
+    "AISubject": {
+      "id": "OtherRoadUsers",
+      "中文名称": "其他道路使用者",
+      "英文名称": "Road Users",
+      "来源": "crashes into a van"
+    },
+    "Impact": {
+      "id": "RoadSafetyConcerns",
+      "中文名称": "道路安全问题影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "crashes into van parked on highway"
+    },
+    "Purpose": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "while on Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Model S"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedObjectDetection",
+      "中文名称": "基于计算机视觉的物体检测技术",
+      "英文名称": "Computer Vision Object Detection",
+      "来源": "Autopilot system"
+    },
+    "Vulnerability": {
+      "id": "StationaryObjectDetectionFailure",
+      "中文名称": "静止物体检测失败的脆弱性",
+      "英文名称": "Stationary Obstacle Detection Vulnerability",
+      "来源": "crashes into van parked on highway"
+    },
+    "Threat": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件威胁",
+      "英文名称": "Unexpected Road Threats",
+      "来源": "crashes into van parked on highway"
+    },
+    "Hazard": {
+      "id": "MalfunctioningSensorSystem",
+      "中文名称": "传感器系统故障危害",
+      "英文名称": "Sensor Malfunction Hazard",
+      "来源": "crashes while on Autopilot"
+    },
+    "RiskSource": {
+      "id": "SystemOverrelianceByDrivers",
+      "中文名称": "驾驶员过度依赖系统的风险源",
+      "英文名称": "Driver Overreliance Risk Source",
+      "来源": "driver crashes into a van while on Autopilot"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyChallenges",
+      "中文名称": "自动驾驶车辆安全挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "multiple Autopilot crash incidents"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Model S driver crashes into a van while on Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Model S on Autopilot crashes into van parked on highway"
+    },
+    "Consequence": {
+      "id": "VehicleDamageAndPotentialInjury",
+      "中文名称": "车辆损坏和潜在伤害后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "crashes into a van while on Autopilot"
+    },
+    "AICapability": {
+      "id": "AdaptiveCruiseControl",
+      "中文名称": "自适应巡航控制能力",
+      "英文名称": "Adaptive Cruise Control Capability",
+      "来源": "Tesla Model S adaptive cruise control crashes into Van"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Model S"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwners",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Owners",
+      "来源": "Tesla Model S driver"
+    },
+    "AISubject": {
+      "id": "OtherRoadUsers",
+      "中文名称": "其他道路使用者",
+      "英文名称": "Road Users",
+      "来源": "crashes into a van"
+    },
+    "Impact": {
+      "id": "RoadSafetyConcerns",
+      "中文名称": "道路安全问题影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "crashes into van parked on highway"
+    },
+    "Purpose": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "while on Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Model S"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedObjectDetection",
+      "中文名称": "基于计算机视觉的物体检测技术",
+      "英文名称": "Computer Vision Object Detection",
+      "来源": "Autopilot system"
+    },
+    "Vulnerability": {
+      "id": "StationaryObjectDetectionFailure",
+      "中文名称": "静止物体检测失败的脆弱性",
+      "英文名称": "Stationary Obstacle Detection Vulnerability",
+      "来源": "crashes into van parked on highway"
+    },
+    "Threat": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件威胁",
+      "英文名称": "Unexpected Road Threats",
+      "来源": "crashes into van parked on highway"
+    },
+    "Hazard": {
+      "id": "MalfunctioningSensorSystem",
+      "中文名称": "传感器系统故障危害",
+      "英文名称": "Sensor Malfunction Hazard",
+      "来源": "crashes while on Autopilot"
+    },
+    "RiskSource": {
+      "id": "SystemOverrelianceByDrivers",
+      "中文名称": "驾驶员过度依赖系统的风险源",
+      "英文名称": "Driver Overreliance Risk Source",
+      "来源": "driver crashes into a van while on Autopilot"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyChallenges",
+      "中文名称": "自动驾驶车辆安全挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "multiple Autopilot crash incidents"
+    }
+  }
+}

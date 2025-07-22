@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StateFarmClaimsProcessingAI",
+      "中文名称": "State Farm理赔处理AI系统",
+      "英文名称": "State Farm Claims Processing AI System",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "Risk": {
+      "id": "RacialBiasInInsuranceClaims",
+      "中文名称": "保险理赔中的种族偏见风险",
+      "英文名称": "Racial Bias in Insurance Claims Risk",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    },
+    "Stakeholder": {
+      "id": "BlackInsuranceCustomers",
+      "中文名称": "黑人保险客户",
+      "英文名称": "Black Insurance Customers",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "AIOperator": {
+      "id": "StateFarm",
+      "中文名称": "State Farm保险公司",
+      "英文名称": "State Farm",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    },
+    "Impact": {
+      "id": "UnequalClaimPayouts",
+      "中文名称": "不平等理赔支付的影响",
+      "英文名称": "Unequal Claim Payouts Impact",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "Domain": {
+      "id": "InsuranceIndustry",
+      "中文名称": "保险行业领域",
+      "英文名称": "Financial Domain",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicDecisionMaking",
+      "中文名称": "有偏见的算法决策风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StateFarmClaimsProcessingAI",
+      "中文名称": "State Farm理赔处理AI系统",
+      "英文名称": "State Farm Claims Processing AI System",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "Risk": {
+      "id": "RacialBiasInInsuranceClaims",
+      "中文名称": "保险理赔中的种族偏见风险",
+      "英文名称": "Racial Bias in Insurance Claims Risk",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    },
+    "Stakeholder": {
+      "id": "BlackInsuranceCustomers",
+      "中文名称": "黑人保险客户",
+      "英文名称": "Black Insurance Customers",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "AIOperator": {
+      "id": "StateFarm",
+      "中文名称": "State Farm保险公司",
+      "英文名称": "State Farm",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    },
+    "Impact": {
+      "id": "UnequalClaimPayouts",
+      "中文名称": "不平等理赔支付的影响",
+      "英文名称": "Unequal Claim Payouts Impact",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "Domain": {
+      "id": "InsuranceIndustry",
+      "中文名称": "保险行业领域",
+      "英文名称": "Financial Domain",
+      "来源": "State Farm accused of making it harder for Black customers to get payouts"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicDecisionMaking",
+      "中文名称": "有偏见的算法决策风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "New Suit Uses Data to Back Racial Bias Claims Against State Farm"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "Insufficient Testing on Diverse Populations Risk Source": [
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9406118330048173
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.9343281284947504
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.9245797984985094
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.9120829170600242
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.8989049911938007
+    ]
+  ],
+  "Algorithmic Bias Risk Source": [
+    [
+      "Training Data Bias Risk Source",
+      0.9397550408956344
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.9376505356171637
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9370028180386383
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.9343281284947504
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.9259575119071219
+    ]
+  ],
+  "Training Data Bias Risk Source": [
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9729377862762171
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.9487978605869484
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.9397550408956344
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.9245797984985094
+    ],
+    [
+      "Biased Training Data Risk Source",
+      0.9207979031445763
+    ]
+  ],
+  "Bias in Training Data Risk Source": [
+    [
+      "Biased Training Data Risk Source",
+      0.9891397503998884
+    ],
+    [
+      "Biased Training Data",
+      0.9625394465806096
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9575252652181907
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.9487978605869484
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.9259575119071219
+    ]
+  ],
+  "Lack of Diverse Training Data Risk Source": [
+    [
+      "Training Data Bias Risk Source",
+      0.9729377862762171
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.9575252652181907
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.9406118330048173
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.9370028180386383
+    ],
+    [
+      "Biased Training Data Risk Source",
+      0.9359849873363937
+    ]
+  ],
+  "Algorithmic Bias Against LGBTQ Content Risk Source": [
+    [
+      "Algorithmic Bias Risk Source",
+      0.9376505356171637
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.8989049911938007
+    ],
+    [
+      "Insufficient Content Moderation Risk Source",
+      0.8893133907425405
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.8810369786477322
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.8709574034960583
+    ]
+  ],
+  "Biased Training Data": [
+    [
+      "Biased Training Data Risk Source",
+      0.9651821208189438
+    ],
+    [
+      "Bias in Training Data Risk Source",
+      0.9625394465806096
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9144135804038759
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.8969772200354278
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.8967601747449312
+    ]
+  ],
+  "Biased Training Data Risk Source": [
+    [
+      "Bias in Training Data Risk Source",
+      0.9891397503998884
+    ],
+    [
+      "Biased Training Data",
+      0.9651821208189438
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.9359849873363937
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.9207979031445763
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.9104448060044414
+    ]
+  ],
+  "Insufficient Content Moderation Risk Source": [
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.8893133907425405
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.8826287463043148
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.88240640493607
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.8739229749047713
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.8718694260404107
+    ]
+  ]
+}

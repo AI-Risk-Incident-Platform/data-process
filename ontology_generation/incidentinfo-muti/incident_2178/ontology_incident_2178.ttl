@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT3TextGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "GPT-3 Text Generation System"@en ;
+    rdfs:label "GPT-3文本生成系统"@zh ;
+    airo:hasRisk ex:MisinformationPropagationRisk ;
+    airo:hasCapability ex:HumanLikeTextGeneration ;
+    airo:hasAIUser ex:CollegeStudent ;
+    airo:isAppliedWithinDomain ex:OnlineMedia .
+
+ex:MisinformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:ContentFabrication .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:CredibilityErosion .
+
+ex:HumanLikeTextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Human-like Text Generation Capability"@en ;
+    rdfs:label "类人文本生成能力"@zh .
+
+ex:CollegeStudent rdf:type airo:AIUser ;
+    rdfs:label "College Student"@en ;
+    rdfs:label "大学生"@zh .
+
+ex:OnlineMedia rdf:type airo:Domain ;
+    rdfs:label "Online Media Domain"@en ;
+    rdfs:label "网络媒体领域"@zh .
+
+ex:ContentFabrication rdf:type airo:Misuse ;
+    rdfs:label "Content Fabrication Misuse"@en ;
+    rdfs:label "内容伪造滥用"@zh .
+
+ex:CredibilityErosion rdf:type airo:Impact ;
+    rdfs:label "Credibility Erosion Impact"@en ;
+    rdfs:label "可信度侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CollegeStudent .

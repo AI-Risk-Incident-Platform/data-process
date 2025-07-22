@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIRealtimeAPI",
+      "中文名称": "OpenAI实时API",
+      "英文名称": "OpenAI Realtime API",
+      "来源": "OpenAI Realtime API Connected to a Rifle"
+    },
+    "Risk": {
+      "id": "WeaponizationRisk",
+      "中文名称": "武器化风险",
+      "英文名称": "Weaponization Risk",
+      "来源": "OpenAI Cuts Off Engineer Who Used API to Create Voice-Controlled Gun"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI Cuts Off Engineer Who Created ChatGPT-Powered Robotic Sentry Rifle"
+    },
+    "AIOperator": {
+      "id": "Engineer",
+      "中文名称": "工程师",
+      "英文名称": "Engineer",
+      "来源": "OpenAI Cuts Off Engineer Who Created ChatGPT-Powered Robotic Sentry Rifle"
+    },
+    "Consequence": {
+      "id": "PotentialHarm",
+      "中文名称": "潜在伤害",
+      "英文名称": "Potential Harm",
+      "来源": "OpenAI Realtime API Connected to a Rifle"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Public Safety Threat",
+      "来源": "OpenAI Cuts Off Engineer Who Used API to Create Voice-Controlled Gun"
+    },
+    "RiskSource": {
+      "id": "MisuseOfAPI",
+      "中文名称": "API滥用",
+      "英文名称": "Misuse of API",
+      "来源": "OpenAI Cuts Off Engineer Who Used API to Create Voice-Controlled Gun"
+    },
+    "RiskControl": {
+      "id": "AccountTermination",
+      "中文名称": "账户终止",
+      "英文名称": "Account Termination",
+      "来源": "OpenAI Cuts Off Engineer Who Created ChatGPT-Powered Robotic Sentry Rifle"
+    }
+  }
+}

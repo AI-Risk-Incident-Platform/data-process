@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PrivateSurveillanceSystem",
+      "中文名称": "私人监控系统",
+      "英文名称": "Private Surveillance System",
+      "来源": "South Africa’s private surveillance machine is fueling a digital apartheid"
+    },
+    "Risk": {
+      "id": "DigitalApartheidRisk",
+      "中文名称": "数字种族隔离风险",
+      "英文名称": "Digital Apartheid Risk",
+      "来源": "South Africa’s private surveillance machine is fueling a digital apartheid"
+    },
+    "Impact": {
+      "id": "SocialInequalityImpact",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "fueling a digital apartheid"
+    },
+    "Stakeholder": {
+      "id": "SouthAfricanCitizens",
+      "中文名称": "南非公民",
+      "英文名称": "South African Citizens",
+      "来源": "South Africa’s private surveillance machine"
+    },
+    "Domain": {
+      "id": "PublicSecurityDomain",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Security Domain",
+      "来源": "private surveillance machine"
+    }
+  }
+}

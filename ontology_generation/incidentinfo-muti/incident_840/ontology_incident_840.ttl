@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AILandlordScreeningTool rdf:type airo:AISystem ;
+    rdfs:label "AI Landlord Screening Tool"@en ;
+    rdfs:label "AI房东筛选工具"@zh ;
+    airo:hasRisk ex:DiscriminationAgainstLowIncomeTenants ;
+    airo:isDeployedBy ex:SafeRentSolutions ;
+    airo:hasStakeholder ex:LowIncomeTenants ;
+    airo:isAppliedWithinDomain ex:HousingRentalMarket ;
+    airo:hasPurpose ex:TenantScreeningForLandlords .
+
+ex:DiscriminationAgainstLowIncomeTenants rdf:type airo:Risk ;
+    rdfs:label "Discrimination Against Low-Income Tenants Risk"@en ;
+    rdfs:label "对低收入租户的歧视风险"@zh ;
+    airo:hasConsequence ex:UnlawfulTenantScreeningPractices ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInTenantScoring .
+
+ex:LowIncomeTenants rdf:type airo:Stakeholder ;
+    rdfs:label "Low-Income Tenants"@en ;
+    rdfs:label "低收入租户"@zh .
+
+ex:SafeRentSolutions rdf:type airo:AIOperator ;
+    rdfs:label "SafeRent Solutions"@en ;
+    rdfs:label "SafeRent解决方案公司"@zh .
+
+ex:UnlawfulTenantScreeningPractices rdf:type airo:Consequence ;
+    rdfs:label "Unlawful Tenant Screening Practices Consequence"@en ;
+    rdfs:label "非法租户筛选行为后果"@zh ;
+    airo:hasImpact ex:FairHousingActViolations .
+
+ex:HousingRentalMarket rdf:type airo:Domain ;
+    rdfs:label "Housing Rental Market Domain"@en ;
+    rdfs:label "住房租赁市场领域"@zh .
+
+ex:TenantScreeningForLandlords rdf:type airo:Purpose ;
+    rdfs:label "Tenant Screening for Landlords Purpose"@en ;
+    rdfs:label "为房东筛选租户的目的"@zh .
+
+ex:AlgorithmicBiasInTenantScoring rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Tenant Scoring Risk Source"@en ;
+    rdfs:label "租户评分中的算法偏见风险源"@zh .
+
+ex:FairHousingActViolations rdf:type airo:Impact ;
+    rdfs:label "Fair Housing Act Violations Impact"@en ;
+    rdfs:label "公平住房法案违规影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LowIncomeTenants .

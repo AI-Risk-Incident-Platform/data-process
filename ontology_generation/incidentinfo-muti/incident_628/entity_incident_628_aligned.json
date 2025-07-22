@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeBidenRobocallSystem",
+      "中文名称": "伪造拜登语音电话系统",
+      "英文名称": "Fake Biden Robocall System",
+      "来源": "Fake Biden robocall tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake Joe Biden robocall tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Consequence": {
+      "id": "VoterSuppression",
+      "中文名称": "选民压制后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Stakeholder": {
+      "id": "NewHampshireDemocrats",
+      "中文名称": "新罕布什尔州民主党人",
+      "英文名称": "New Hampshire Democrats",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Impact": {
+      "id": "UnderminedDemocraticProcess",
+      "中文名称": "破坏民主进程的影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Democrats sound alarm over fake Biden 'bunch of malarkey' robocall"
+    },
+    "Purpose": {
+      "id": "MisleadingVoters",
+      "中文名称": "误导选民的目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Fake Biden robocall not expected to affect NH primary"
+    },
+    "Misuse": {
+      "id": "PoliticalDisinformation",
+      "中文名称": "政治虚假信息滥用",
+      "英文名称": "Political Misuse",
+      "来源": "Democrats sound alarm over fake Biden 'bunch of malarkey' robocall"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeBidenRobocallSystem",
+      "中文名称": "伪造拜登语音电话系统",
+      "英文名称": "Fake Biden Robocall System",
+      "来源": "Fake Biden robocall tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake Joe Biden robocall tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Consequence": {
+      "id": "VoterSuppression",
+      "中文名称": "选民压制后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Stakeholder": {
+      "id": "NewHampshireDemocrats",
+      "中文名称": "新罕布什尔州民主党人",
+      "英文名称": "New Hampshire Democrats",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Impact": {
+      "id": "UnderminedDemocraticProcess",
+      "中文名称": "破坏民主进程的影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Democrats sound alarm over fake Biden 'bunch of malarkey' robocall"
+    },
+    "Purpose": {
+      "id": "MisleadingVoters",
+      "中文名称": "误导选民的目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "tells New Hampshire Democrats not to vote Tuesday"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Fake Biden robocall not expected to affect NH primary"
+    },
+    "Misuse": {
+      "id": "PoliticalDisinformation",
+      "中文名称": "政治虚假信息滥用",
+      "英文名称": "Political Misuse",
+      "来源": "Democrats sound alarm over fake Biden 'bunch of malarkey' robocall"
+    }
+  }
+}

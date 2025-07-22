@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIImpersonationSystem",
+      "中文名称": "AI冒充系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "The latest housing scam: Using AI to impersonate your agent or lender"
+    },
+    "Risk": {
+      "id": "HousingScamRisk",
+      "中文名称": "住房诈骗风险",
+      "英文名称": "Real Estate Scam Risk",
+      "来源": "The latest housing scam: Using AI to impersonate your agent or lender"
+    },
+    "Stakeholder": {
+      "id": "HousingAgent",
+      "中文名称": "房产经纪人",
+      "英文名称": "Housing Agent",
+      "来源": "Using AI to impersonate your agent or lender"
+    },
+    "RiskSource": {
+      "id": "AIImpersonation",
+      "中文名称": "AI冒充",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Using AI to impersonate your agent or lender"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈",
+      "英文名称": "Financial Fraud",
+      "来源": "The latest housing scam"
+    },
+    "Domain": {
+      "id": "RealEstate",
+      "中文名称": "房地产",
+      "英文名称": "Real Estate Market",
+      "来源": "The latest housing scam"
+    },
+    "Impact": {
+      "id": "EconomicLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss Impact",
+      "来源": "The latest housing scam"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIImpersonationSystem",
+      "中文名称": "AI冒充系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "The latest housing scam: Using AI to impersonate your agent or lender"
+    },
+    "Risk": {
+      "id": "HousingScamRisk",
+      "中文名称": "住房诈骗风险",
+      "英文名称": "Real Estate Scam Risk",
+      "来源": "The latest housing scam: Using AI to impersonate your agent or lender"
+    },
+    "Stakeholder": {
+      "id": "HousingAgent",
+      "中文名称": "房产经纪人",
+      "英文名称": "Housing Agent",
+      "来源": "Using AI to impersonate your agent or lender"
+    },
+    "RiskSource": {
+      "id": "AIImpersonation",
+      "中文名称": "AI冒充",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Using AI to impersonate your agent or lender"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融欺诈",
+      "英文名称": "Financial Fraud",
+      "来源": "The latest housing scam"
+    },
+    "Domain": {
+      "id": "RealEstate",
+      "中文名称": "房地产",
+      "英文名称": "Real Estate Market",
+      "来源": "The latest housing scam"
+    },
+    "Impact": {
+      "id": "EconomicLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss Impact",
+      "来源": "The latest housing scam"
+    }
+  }
+}

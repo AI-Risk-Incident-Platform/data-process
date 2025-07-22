@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:IncorrectProgrammingAnswersRisk ;
+    airo:isAppliedWithinDomain ex:SoftwareDevelopment ;
+    airo:hasCapability ex:ProgrammingQuestionAnswering .
+
+ex:IncorrectProgrammingAnswersRisk rdf:type airo:Risk ;
+    rdfs:label "Incorrect Programming Answers Risk"@en ;
+    rdfs:label "编程问题回答错误风险"@zh ;
+    airo:hasConsequence ex:MisleadingProgrammingGuidance .
+
+ex:MisleadingProgrammingGuidance rdf:type airo:Consequence ;
+    rdfs:label "Misleading Programming Guidance Consequence"@en ;
+    rdfs:label "误导性编程指导后果"@zh ;
+    airo:hasImpact ex:ReducedDeveloperProductivity .
+
+ex:SoftwareDevelopment rdf:type airo:Domain ;
+    rdfs:label "Software Development Domain"@en ;
+    rdfs:label "软件开发领域"@zh .
+
+ex:ProgrammingQuestionAnswering rdf:type airo:AICapability ;
+    rdfs:label "Programming Question Answering Capability"@en ;
+    rdfs:label "编程问题回答能力"@zh .
+
+ex:ReducedDeveloperProductivity rdf:type airo:Impact ;
+    rdfs:label "Reduced Developer Productivity Impact"@en ;
+    rdfs:label "开发者生产力下降影响"@zh .

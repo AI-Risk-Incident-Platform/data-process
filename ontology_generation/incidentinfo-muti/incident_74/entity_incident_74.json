@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSelfDrivingCar",
+      "中文名称": "谷歌自动驾驶汽车",
+      "英文名称": "Google Self-Driving Car",
+      "来源": "Google admits its self driving car got it wrong: Bus crash was caused by software"
+    },
+    "Risk": {
+      "id": "CollisionRisk",
+      "中文名称": "碰撞风险",
+      "英文名称": "Collision Risk",
+      "来源": "Google self-driving car hits a bus"
+    },
+    "RiskSource": {
+      "id": "SoftwareError",
+      "中文名称": "软件错误",
+      "英文名称": "Software Error",
+      "来源": "Bus crash was caused by software"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞",
+      "英文名称": "Vehicle Collision",
+      "来源": "Google's self-driving car involved in serious crash after van jumps a red light"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google admits its self driving car got it wrong"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicles Domain",
+      "来源": "Google self-driving car hits a bus"
+    },
+    "AITechnique": {
+      "id": "SelfDrivingSoftware",
+      "中文名称": "自动驾驶软件技术",
+      "英文名称": "Self-Driving Software Technique",
+      "来源": "Bus crash was caused by software"
+    }
+  }
+}

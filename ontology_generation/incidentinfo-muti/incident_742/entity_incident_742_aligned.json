@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWorkAssistant",
+      "中文名称": "AI工作助手",
+      "英文名称": "AI Voice Assistants",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Risk": {
+      "id": "OverRelianceOnHumanAssistanceRisk",
+      "中文名称": "过度依赖人工协助风险",
+      "英文名称": "Over Reliance on Human Assistance Risk",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Stakeholder": {
+      "id": "AIUsersInWorkplace",
+      "中文名称": "工作场所AI使用者",
+      "英文名称": "AI Users in Workplace",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Consequence": {
+      "id": "ReducedWorkEfficiency",
+      "中文名称": "工作效率降低后果",
+      "英文名称": "Reduced Work Efficiency Consequence",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Purpose": {
+      "id": "WorkTaskAutomation",
+      "中文名称": "工作任务自动化目的",
+      "英文名称": "Automation Purpose",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIWorkAssistant",
+      "中文名称": "AI工作助手",
+      "英文名称": "AI Voice Assistants",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Risk": {
+      "id": "OverRelianceOnHumanAssistanceRisk",
+      "中文名称": "过度依赖人工协助风险",
+      "英文名称": "Over Reliance on Human Assistance Risk",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Stakeholder": {
+      "id": "AIUsersInWorkplace",
+      "中文名称": "工作场所AI使用者",
+      "英文名称": "AI Users in Workplace",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Consequence": {
+      "id": "ReducedWorkEfficiency",
+      "中文名称": "工作效率降低后果",
+      "英文名称": "Reduced Work Efficiency Consequence",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    },
+    "Purpose": {
+      "id": "WorkTaskAutomation",
+      "中文名称": "工作任务自动化目的",
+      "英文名称": "Automation Purpose",
+      "来源": "AI Work Assistants Need a Lot of Handholding"
+    }
+  }
+}

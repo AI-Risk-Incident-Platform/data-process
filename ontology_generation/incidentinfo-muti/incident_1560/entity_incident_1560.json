@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LensaAIApp",
+      "中文名称": "Lensa AI应用",
+      "英文名称": "Lensa AI App",
+      "来源": "Prisma Labs Sued Over Lensa AI App's Biometric Data Harvesting"
+    },
+    "Risk": {
+      "id": "BiometricDataHarvestingRisk",
+      "中文名称": "生物特征数据收集风险",
+      "英文名称": "Biometric Data Harvesting Risk",
+      "来源": "Lawsuit Alleges Lensa.ai App Illegally Took Users’ Biometric Data"
+    },
+    "Stakeholder": {
+      "id": "PrismaLabs",
+      "中文名称": "Prisma实验室",
+      "英文名称": "Prisma Labs",
+      "来源": "Prisma Labs Sued Over Lensa AI App's Biometric Data Harvesting"
+    },
+    "AIProvider": {
+      "id": "PrismaLabs",
+      "中文名称": "Prisma实验室",
+      "英文名称": "Prisma Labs",
+      "来源": "Prisma Labs Sued Over Lensa AI App's Biometric Data Harvesting"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "Lawsuit Alleges Lensa.ai App Illegally Took Users’ Biometric Data"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集",
+      "英文名称": "Biometric Data Collection",
+      "来源": "Lawsuit Alleges Lensa.ai App Illegally Took Users’ Biometric Data"
+    },
+    "Impact": {
+      "id": "UserPrivacyConcerns",
+      "中文名称": "用户隐私担忧",
+      "英文名称": "User Privacy Concerns",
+      "来源": "Lawsuit Alleges Lensa.ai App Illegally Took Users’ Biometric Data"
+    }
+  }
+}

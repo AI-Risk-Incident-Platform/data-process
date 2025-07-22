@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForVoiceImpersonation rdf:type airo:AISystem ;
+    rdfs:label "AI for Voice Impersonation"@en ;
+    rdfs:label "语音模仿AI"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasCapability ex:VoiceImpersonation ;
+    airo:hasAISubject ex:Victim ;
+    airo:hasPurpose ex:FinancialFraud ;
+    airo:hasStakeholder ex:Scammer ;
+    airo:isAppliedWithinDomain ex:FinancialCrime ;
+    airo:usesTechnique ex:VoiceSynthesis .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:AIAbuseForFraud ;
+    airo:hasRiskControl ex:FraudulentImpersonation .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:PersonalFinancialDamage .
+
+ex:VoiceImpersonation rdf:type airo:AICapability ;
+    rdfs:label "Voice Impersonation Capability"@en ;
+    rdfs:label "语音模仿能力"@zh .
+
+ex:Scammer rdf:type airo:Stakeholder ;
+    rdfs:label "Scammer"@en ;
+    rdfs:label "诈骗者"@zh .
+
+ex:Victim rdf:type airo:AISubject ;
+    rdfs:label "Victim"@en ;
+    rdfs:label "受害者"@zh .
+
+ex:PersonalFinancialDamage rdf:type airo:Impact ;
+    rdfs:label "Personal Financial Damage Impact"@en ;
+    rdfs:label "个人财务损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Victim .
+
+ex:FinancialFraud rdf:type airo:Purpose ;
+    rdfs:label "Financial Fraud Purpose"@en ;
+    rdfs:label "金融欺诈目的"@zh .
+
+ex:FinancialCrime rdf:type airo:Domain ;
+    rdfs:label "Financial Crime Domain"@en ;
+    rdfs:label "金融犯罪领域"@zh .
+
+ex:VoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technique"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:AIAbuseForFraud rdf:type airo:RiskSource ;
+    rdfs:label "AI Abuse for Fraud Risk Source"@en ;
+    rdfs:label "AI滥用进行欺诈的风险源"@zh .
+
+ex:FraudulentImpersonation rdf:type airo:Misuse ;
+    rdfs:label "Fraudulent Impersonation Misuse"@en ;
+    rdfs:label "欺诈性冒充滥用"@zh .

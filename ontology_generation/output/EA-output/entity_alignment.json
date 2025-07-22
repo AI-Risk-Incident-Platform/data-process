@@ -1,0 +1,834 @@
+{
+  "Child Friendly Video Platform Purpose": {
+    "entity_id": 1,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Content Moderation Purpose Group": {
+    "entity_id": 2,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_6",
+      "incident_7"
+    ]
+  },
+  "Content Moderation Purpose": {
+    "entity_id": 9,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Automated Content Moderation Purpose": {
+    "entity_id": 58,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Email Response Efficiency Purpose": {
+    "entity_id": 11,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Photo Organization Purpose": {
+    "entity_id": 62,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Improve User Engagement Purpose": {
+    "entity_id": 97,
+    "category": "Purpose",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "LGBTQ Community": {
+    "entity_id": 3,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_6",
+      "incident_7"
+    ]
+  },
+  "African American Users": {
+    "entity_id": 6,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Starbucks Barista": {
+    "entity_id": 13,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Alt-Right Groups": {
+    "entity_id": 19,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Children": {
+    "entity_id": 27,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Google Users": {
+    "entity_id": 63,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Black Defendants": {
+    "entity_id": 96,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Gmail Users": {
+    "entity_id": 102,
+    "category": "Stakeholder",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Psychological Harm Impact": {
+    "entity_id": 4,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Negative Psychological Effects Impact": {
+    "entity_id": 67,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Psychological Impact": {
+    "entity_id": 69,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_1",
+      "incident_8"
+    ]
+  },
+  "Reduced Human Connection Impact": {
+    "entity_id": 30,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Disproportionate Impact on Black Men": {
+    "entity_id": 44,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Gender Inequality and Stereotypes Impact Group": {
+    "entity_id": 52,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_10",
+      "incident_4"
+    ]
+  },
+  "Social Stigma Reinforcement Impact": {
+    "entity_id": 71,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Reinforcement of Gender Stereotypes Impact": {
+    "entity_id": 78,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_4"
+    ]
+  },
+  "Perpetuation of Gender Inequality Impact": {
+    "entity_id": 98,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Reduced Access to Diverse Content Impact": {
+    "entity_id": 86,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Worker Life Quality Impact": {
+    "entity_id": 93,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Social Division Impact": {
+    "entity_id": 116,
+    "category": "Impact",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Contextual Understanding Limitation Vulnerability": {
+    "entity_id": 5,
+    "category": "Vulnerability",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Lack of Diverse Training Data Vulnerability": {
+    "entity_id": 7,
+    "category": "Vulnerability",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Training Data Bias Vulnerability": {
+    "entity_id": 8,
+    "category": "Vulnerability",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Training Data Diversity Vulnerability": {
+    "entity_id": 79,
+    "category": "Vulnerability",
+    "source_event_ids": [
+      "incident_6",
+      "incident_8"
+    ]
+  },
+  "Algorithmic Content Gaps Vulnerability": {
+    "entity_id": 24,
+    "category": "Vulnerability",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Overly Familiar Response Patterns Hazard": {
+    "entity_id": 10,
+    "category": "Hazard",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Cultural Bias in Training Data Hazard": {
+    "entity_id": 17,
+    "category": "Hazard",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Bias in Training Data Hazard": {
+    "entity_id": 41,
+    "category": "Hazard",
+    "source_event_ids": [
+      "incident_6",
+      "incident_8"
+    ]
+  },
+  "Biased Training Data Hazard": {
+    "entity_id": 85,
+    "category": "Hazard",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Inappropriate Content Uploads Hazard": {
+    "entity_id": 51,
+    "category": "Hazard",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Insufficient Testing on Diverse Populations Risk Source": {
+    "entity_id": 12,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Algorithmic Bias Risk Source": {
+    "entity_id": 42,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Training Data Bias Risk Source": {
+    "entity_id": 56,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Bias in Training Data Risk Source": {
+    "entity_id": 75,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_4",
+      "incident_3",
+      "incident_5",
+      "incident_8",
+      "incident_9",
+      "incident_10",
+      "incident_6"
+    ]
+  },
+  "Lack of Diverse Training Data Risk Source": {
+    "entity_id": 91,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Algorithmic Bias Against LGBTQ Content Risk Source": {
+    "entity_id": 94,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Biased Training Data": {
+    "entity_id": 103,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Biased Training Data Risk Source": {
+    "entity_id": 105,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_10",
+      "incident_4"
+    ]
+  },
+  "Insufficient Content Moderation Risk Source": {
+    "entity_id": 106,
+    "category": "RiskSource",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Malicious Content Creators Threat": {
+    "entity_id": 14,
+    "category": "Threat",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Algorithmic Bias and Stereotype Threat Group": {
+    "entity_id": 33,
+    "category": "Threat",
+    "source_event_ids": [
+      "incident_6",
+      "incident_8"
+    ]
+  },
+  "Algorithmic Racial Bias Threat": {
+    "entity_id": 36,
+    "category": "Threat",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Harmful Stereotype Propagation Threat": {
+    "entity_id": 104,
+    "category": "Threat",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Automated Response Misuse Threat": {
+    "entity_id": 108,
+    "category": "Threat",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Content Filtering Algorithm Capability": {
+    "entity_id": 15,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Automated Email Response System": {
+    "entity_id": 29,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Automated Email Response Generation Capability": {
+    "entity_id": 70,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Image Classification Capability": {
+    "entity_id": 35,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Image Recognition and Ranking Capability": {
+    "entity_id": 54,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Text Sentiment Classification Capability": {
+    "entity_id": 83,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Comment Ranking Algorithm Capability": {
+    "entity_id": 92,
+    "category": "AICapability",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Black Individuals": {
+    "entity_id": 16,
+    "category": "AISubject",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Young Audience Group": {
+    "entity_id": 28,
+    "category": "AISubject",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Young Viewers": {
+    "entity_id": 99,
+    "category": "AISubject",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Black Community": {
+    "entity_id": 38,
+    "category": "AISubject",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Email Recipients": {
+    "entity_id": 61,
+    "category": "AISubject",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Consumer Photography Domain": {
+    "entity_id": 18,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Content Moderation Domain": {
+    "entity_id": 31,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Online Content Moderation Domain": {
+    "entity_id": 34,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Email Communication Domain": {
+    "entity_id": 59,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Natural Language Processing Domain": {
+    "entity_id": 73,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Children's Entertainment Industry": {
+    "entity_id": 90,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Children Entertainment Domain": {
+    "entity_id": 95,
+    "category": "Domain",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Court Sentencing Algorithm": {
+    "entity_id": 20,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Gmail Smart Reply": {
+    "entity_id": 21,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Word Embedding Debiasing System": {
+    "entity_id": 26,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_4"
+    ]
+  },
+  "Google Comment Ranking System": {
+    "entity_id": 39,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Google Photos Facial Recognition System": {
+    "entity_id": 55,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Google Image Search": {
+    "entity_id": 57,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Kronos Shift Scheduling Software": {
+    "entity_id": 66,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Amazon Content Filtering System": {
+    "entity_id": 100,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Google Sentiment Analysis API": {
+    "entity_id": 112,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "YouTube Kids App": {
+    "entity_id": 113,
+    "category": "AIsystem",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Discriminatory Content Classification Consequence": {
+    "entity_id": 22,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Exclusion of LGBTQ Content Consequence": {
+    "entity_id": 32,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Misleading Communication Consequence": {
+    "entity_id": 23,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Harmful Content Spread Consequence": {
+    "entity_id": 53,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Psychological Distress for Children Consequence": {
+    "entity_id": 37,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Unpredictable Work Schedule Impact": {
+    "entity_id": 48,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Unpredictable Work Schedule Consequence": {
+    "entity_id": 107,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Racial Discrimination Consequence": {
+    "entity_id": 65,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Reinforcement of Gender Stereotypes Consequence": {
+    "entity_id": 74,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Unfair Sentencing Decisions Consequence": {
+    "entity_id": 101,
+    "category": "Consequence",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Alt-Right Content Amplification Risk": {
+    "entity_id": 25,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_5"
+    ]
+  },
+  "Gender Bias in Word Embeddings Risk": {
+    "entity_id": 43,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_4"
+    ]
+  },
+  "Content Censorship Risk": {
+    "entity_id": 46,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Inappropriate Content Risk": {
+    "entity_id": 84,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Content Risk Management": {
+    "entity_id": 47,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_1",
+      "incident_7"
+    ]
+  },
+  "Gender Bias in Search Results Risk": {
+    "entity_id": 68,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Inappropriate Emotional Response Risk": {
+    "entity_id": 72,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Unfair Work Scheduling Risk": {
+    "entity_id": 80,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  },
+  "Racial Bias in Sentencing Risk": {
+    "entity_id": 81,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Algorithmic Bias in Sentiment Analysis Risk": {
+    "entity_id": 89,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Racial Bias in Facial Recognition Risk": {
+    "entity_id": 111,
+    "category": "Risk",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Word Embedding Technique": {
+    "entity_id": 40,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_4"
+    ]
+  },
+  "Machine Learning Content Moderation Technique": {
+    "entity_id": 49,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Deep Learning Technique": {
+    "entity_id": 50,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Machine Learning Based Sentiment Analysis Technique": {
+    "entity_id": 64,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Machine Learning for Image Classification Technique": {
+    "entity_id": 77,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_10"
+    ]
+  },
+  "Predictive Modeling": {
+    "entity_id": 82,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_3"
+    ]
+  },
+  "Natural Language Processing Technique": {
+    "entity_id": 88,
+    "category": "AITechnique",
+    "source_event_ids": [
+      "incident_9",
+      "incident_5"
+    ]
+  },
+  "Child Safety in Digital Platforms Risk Concept": {
+    "entity_id": 45,
+    "category": "RiskConcept",
+    "source_event_ids": [
+      "incident_1"
+    ]
+  },
+  "Automated Communication Ethics Risk Concept": {
+    "entity_id": 87,
+    "category": "RiskConcept",
+    "source_event_ids": [
+      "incident_9"
+    ]
+  },
+  "Ethical Issues in Facial Recognition Risk Concept": {
+    "entity_id": 109,
+    "category": "RiskConcept",
+    "source_event_ids": [
+      "incident_8"
+    ]
+  },
+  "Ethical Issues in Automated Content Classification Risk Concept": {
+    "entity_id": 110,
+    "category": "RiskConcept",
+    "source_event_ids": [
+      "incident_6"
+    ]
+  },
+  "Google": {
+    "entity_id": 60,
+    "category": "AIOperator",
+    "source_event_ids": [
+      "incident_9",
+      "incident_1",
+      "incident_6",
+      "incident_8"
+    ]
+  },
+  "Google LLC": {
+    "entity_id": 115,
+    "category": "AIOperator",
+    "source_event_ids": [
+      "incident_9",
+      "incident_6"
+    ]
+  },
+  "Amazon Inc.": {
+    "entity_id": 76,
+    "category": "AIOperator",
+    "source_event_ids": [
+      "incident_7"
+    ]
+  },
+  "Starbucks Corporation": {
+    "entity_id": 114,
+    "category": "AIOperator",
+    "source_event_ids": [
+      "incident_2"
+    ]
+  }
+}

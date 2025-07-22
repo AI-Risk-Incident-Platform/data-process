@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeNudeGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造裸体生成系统"@zh ;
+    rdfs:label "Deepfake Nude Generation System"@en ;
+    airo:hasRisk ex:NonconsensualDeepfakePornographyRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasAISubject ex:VictimsOfDeepfakePornography ;
+    airo:hasStakeholder ex:SFCityAttorneysOffice .
+
+ex:NonconsensualDeepfakePornographyRisk rdf:type airo:Risk ;
+    rdfs:label "非自愿深度伪造色情风险"@zh ;
+    rdfs:label "Nonconsensual Deepfake Pornography Risk"@en ;
+    airo:isRiskSourceFor ex:UnregulatedDeepfakeWebsites ;
+    airo:hasConsequence ex:PrivacyViolationAndReputationDamage .
+
+ex:SFCityAttorneysOffice rdf:type airo:Stakeholder ;
+    rdfs:label "旧金山市检察官办公室"@zh ;
+    rdfs:label "SF City Attorney's Office"@en .
+
+ex:VictimsOfDeepfakePornography rdf:type airo:AISubject ;
+    rdfs:label "深度伪造色情受害者"@zh ;
+    rdfs:label "Victims of Deepfake Pornography"@en .
+
+ex:PrivacyViolationAndReputationDamage rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯和名誉损害"@zh ;
+    rdfs:label "Privacy Violation and Reputation Damage"@en ;
+    airo:hasImpactOnStakeholder ex:VictimsOfDeepfakePornography .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造图像生成技术"@zh ;
+    rdfs:label "Deepfake Image Generation Technique"@en .
+
+ex:UnregulatedDeepfakeWebsites rdf:type airo:RiskSource ;
+    rdfs:label "不受监管的深度伪造网站"@zh ;
+    rdfs:label "Unregulated Deepfake Websites Risk Source"@en .

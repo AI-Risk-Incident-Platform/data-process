@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForImpersonation",
+      "中文名称": "用于冒充的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "Risk": {
+      "id": "ExtortionRisk",
+      "中文名称": "敲诈勒索风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "Stakeholder": {
+      "id": "WiseTechCEO",
+      "中文名称": "WiseTech首席执行官",
+      "英文名称": "WiseTech CEO",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "AISubject": {
+      "id": "CEOIdentity",
+      "中文名称": "首席执行官身份",
+      "英文名称": "CEO Identity",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "RiskSource": {
+      "id": "CriminalMisuseOfAI",
+      "中文名称": "犯罪分子滥用AI",
+      "英文名称": "AI Misuse Risks",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "Consequence": {
+      "id": "PotentialFinancialLoss",
+      "中文名称": "潜在经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Extortion attempt"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "impersonate him using AI"
+    },
+    "Purpose": {
+      "id": "FraudulentImpersonation",
+      "中文名称": "欺诈性冒充",
+      "英文名称": "Fraudulent Deception",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "AITechnique": {
+      "id": "VoiceOrImageSynthesis",
+      "中文名称": "语音或图像合成技术",
+      "英文名称": "Voice and Image Synthesis",
+      "来源": "impersonate him using AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForImpersonation",
+      "中文名称": "用于冒充的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "Risk": {
+      "id": "ExtortionRisk",
+      "中文名称": "敲诈勒索风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "Stakeholder": {
+      "id": "WiseTechCEO",
+      "中文名称": "WiseTech首席执行官",
+      "英文名称": "WiseTech CEO",
+      "来源": "Extortion attempt: WiseTech CEO says criminals tried to impersonate him using AI"
+    },
+    "AISubject": {
+      "id": "CEOIdentity",
+      "中文名称": "首席执行官身份",
+      "英文名称": "CEO Identity",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "RiskSource": {
+      "id": "CriminalMisuseOfAI",
+      "中文名称": "犯罪分子滥用AI",
+      "英文名称": "AI Misuse Risks",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "Consequence": {
+      "id": "PotentialFinancialLoss",
+      "中文名称": "潜在经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Extortion attempt"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "impersonate him using AI"
+    },
+    "Purpose": {
+      "id": "FraudulentImpersonation",
+      "中文名称": "欺诈性冒充",
+      "英文名称": "Fraudulent Deception",
+      "来源": "criminals tried to impersonate him using AI"
+    },
+    "AITechnique": {
+      "id": "VoiceOrImageSynthesis",
+      "中文名称": "语音或图像合成技术",
+      "英文名称": "Voice and Image Synthesis",
+      "来源": "impersonate him using AI"
+    }
+  }
+}

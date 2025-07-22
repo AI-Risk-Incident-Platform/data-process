@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WhatsAppAISystem",
+      "中文名称": "WhatsApp AI系统",
+      "英文名称": "WhatsApp AI System",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    },
+    "Risk": {
+      "id": "HarmfulStereotypingRisk",
+      "中文名称": "有害刻板印象风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfNegativeStereotypes",
+      "中文名称": "强化负面刻板印象后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "WhatsApp’s AI has shocking ideas about Palestinian children"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "基于文本提示的图像生成能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    },
+    "AISubject": {
+      "id": "PalestinianChildren",
+      "中文名称": "巴勒斯坦儿童",
+      "英文名称": "Palestinian Children",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "Impact": {
+      "id": "SocialHarmFromBiasedRepresentations",
+      "中文名称": "偏见表征造成的社会危害影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "WhatsApp’s AI has shocking ideas about Palestinian children"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WhatsAppAISystem",
+      "中文名称": "WhatsApp AI系统",
+      "英文名称": "WhatsApp AI System",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    },
+    "Risk": {
+      "id": "HarmfulStereotypingRisk",
+      "中文名称": "有害刻板印象风险",
+      "英文名称": "Stereotype Risk",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "Consequence": {
+      "id": "ReinforcementOfNegativeStereotypes",
+      "中文名称": "强化负面刻板印象后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "WhatsApp’s AI has shocking ideas about Palestinian children"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "基于文本提示的图像生成能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    },
+    "AISubject": {
+      "id": "PalestinianChildren",
+      "中文名称": "巴勒斯坦儿童",
+      "英文名称": "Palestinian Children",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "Impact": {
+      "id": "SocialHarmFromBiasedRepresentations",
+      "中文名称": "偏见表征造成的社会危害影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "WhatsApp’s AI has shocking ideas about Palestinian children"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "WhatsApp’s AI shows gun-wielding children when prompted with ‘Palestine’"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "WhatsApp AI generates stickers of gun-wielding children from ‘Palestine’ prompts"
+    }
+  }
+}

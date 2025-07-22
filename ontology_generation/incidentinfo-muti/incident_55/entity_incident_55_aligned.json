@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "新闻标题中多次提到的Alexa系统"
+    },
+    "Risk": {
+      "id": "InappropriateContentExposureRisk",
+      "中文名称": "不当内容暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题描述的Alexa播放色情内容给儿童的情况"
+    },
+    "Consequence": {
+      "id": "ChildrenExposureToPornography",
+      "中文名称": "儿童接触色情内容后果",
+      "英文名称": "Children Exposure to Pornography Consequence",
+      "来源": "新闻标题中描述的Alexa向幼儿播放色情信息的情况"
+    },
+    "AISubject": {
+      "id": "YoungChildren",
+      "中文名称": "幼儿",
+      "英文名称": "Young Children",
+      "来源": "新闻标题中提到的受影响的幼儿"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Alexa系统的开发者和运营者"
+    },
+    "RiskSource": {
+      "id": "ContentFilteringFailure",
+      "中文名称": "内容过滤失败风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "系统未能正确过滤不当内容的情况"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童心理伤害的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "幼儿接触不当内容可能造成的心理影响"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantForHomeUse",
+      "中文名称": "家庭语音助手目的",
+      "英文名称": "Voice Assistant for Home Use Purpose",
+      "来源": "Alexa作为家庭语音助手的基本功能"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Alexa主要应用的智能家居领域"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "新闻标题中多次提到的Alexa系统"
+    },
+    "Risk": {
+      "id": "InappropriateContentExposureRisk",
+      "中文名称": "不当内容暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "新闻标题描述的Alexa播放色情内容给儿童的情况"
+    },
+    "Consequence": {
+      "id": "ChildrenExposureToPornography",
+      "中文名称": "儿童接触色情内容后果",
+      "英文名称": "Children Exposure to Pornography Consequence",
+      "来源": "新闻标题中描述的Alexa向幼儿播放色情信息的情况"
+    },
+    "AISubject": {
+      "id": "YoungChildren",
+      "中文名称": "幼儿",
+      "英文名称": "Young Children",
+      "来源": "新闻标题中提到的受影响的幼儿"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Alexa系统的开发者和运营者"
+    },
+    "RiskSource": {
+      "id": "ContentFilteringFailure",
+      "中文名称": "内容过滤失败风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "系统未能正确过滤不当内容的情况"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童心理伤害的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "幼儿接触不当内容可能造成的心理影响"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantForHomeUse",
+      "中文名称": "家庭语音助手目的",
+      "英文名称": "Voice Assistant for Home Use Purpose",
+      "来源": "Alexa作为家庭语音助手的基本功能"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Alexa主要应用的智能家居领域"
+    }
+  }
+}

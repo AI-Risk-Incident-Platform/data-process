@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:SpeedLimitViolationRisk ;
+    airo:hasCapability ex:SpeedLimitSignRecognition ;
+    airo:usesTechnique ex:ComputerVisionForSignRecognition ;
+    airo:hasVulnerability ex:SusceptibilityToVisualTrickery .
+
+ex:SpeedLimitViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Speed Limit Violation Risk"@en ;
+    rdfs:label "违反限速风险"@zh ;
+    airo:hasConsequence ex:VehicleAccelerationBeyondLegalLimit ;
+    airo:isRiskSourceFor ex:ModifiedSpeedLimitSign .
+
+ex:ModifiedSpeedLimitSign rdf:type airo:RiskSource ;
+    rdfs:label "Modified Speed Limit Sign"@en ;
+    rdfs:label "修改限速标志"@zh .
+
+ex:VehicleAccelerationBeyondLegalLimit rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Acceleration Beyond Legal Limit"@en ;
+    rdfs:label "车辆加速超过法定限速"@zh ;
+    airo:hasImpact ex:RoadSafetyCompromise .
+
+ex:SpeedLimitSignRecognition rdf:type airo:AICapability ;
+    rdfs:label "Speed Limit Sign Recognition Capability"@en ;
+    rdfs:label "限速标志识别能力"@zh .
+
+ex:SusceptibilityToVisualTrickery rdf:type airo:Vulnerability ;
+    rdfs:label "Susceptibility to Visual Trickery"@en ;
+    rdfs:label "易受视觉欺骗"@zh .
+
+ex:ComputerVisionForSignRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Sign Recognition Technique"@en ;
+    rdfs:label "用于标志识别的计算机视觉技术"@zh .
+
+ex:RoadSafetyCompromise rdf:type airo:Impact ;
+    rdfs:label "Road Safety Compromise Impact"@en ;
+    rdfs:label "道路安全受损"@zh .

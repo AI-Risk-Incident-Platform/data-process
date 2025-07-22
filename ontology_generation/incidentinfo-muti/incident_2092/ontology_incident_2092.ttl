@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonFlexDriverTerminationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Flex Driver Termination Algorithm"@en ;
+    rdfs:label "亚马逊Flex司机终止算法"@zh ;
+    airo:hasRisk ex:UnjustTerminationOfContractWorkers ;
+    airo:isDevelopedBy ex:AmazonInc ;
+    airo:hasStakeholder ex:AmazonFlexDeliveryDrivers .
+
+ex:UnjustTerminationOfContractWorkers rdf:type airo:Risk ;
+    rdfs:label "Unjust Termination of Contract Workers Risk"@en ;
+    rdfs:label "合同工不公正终止风险"@zh ;
+    airo:hasConsequence ex:LossOfIncomeForContractWorkers ;
+    airo:isRiskSourceFor ex:AutomatedDecisionMakingWithoutHumanOversight .
+
+ex:AmazonFlexDeliveryDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Flex Delivery Drivers"@en ;
+    rdfs:label "亚马逊Flex送货司机"@zh .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:LossOfIncomeForContractWorkers rdf:type airo:Consequence ;
+    rdfs:label "Loss of Income for Contract Workers Consequence"@en ;
+    rdfs:label "合同工收入损失后果"@zh ;
+    airo:hasImpact ex:FinancialHardshipForDrivers .
+
+ex:FinancialHardshipForDrivers rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship for Drivers Impact"@en ;
+    rdfs:label "司机经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonFlexDeliveryDrivers .
+
+ex:AutomatedDecisionMakingWithoutHumanOversight rdf:type airo:RiskSource ;
+    rdfs:label "Automated Decision Making Without Human Oversight Risk Source"@en ;
+    rdfs:label "无人监督的自动化决策风险源"@zh .

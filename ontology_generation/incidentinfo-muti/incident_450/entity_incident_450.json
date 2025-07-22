@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TwitterContentModerationSystem",
+      "中文名称": "Twitter内容审核系统",
+      "英文名称": "Twitter Content Moderation System",
+      "来源": "Twitter keeps confusing rockets for 'intimate' content because of the platform's reliance on machine learning tools"
+    },
+    "Risk": {
+      "id": "InappropriateContentClassificationRisk",
+      "中文名称": "不当内容分类风险",
+      "英文名称": "Inappropriate Content Classification Risk",
+      "来源": "Twitter keeps confusing rockets for 'intimate' content"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedContentModeration",
+      "中文名称": "基于机器学习的内容审核技术",
+      "英文名称": "Machine Learning Based Content Moderation Technique",
+      "来源": "because of the platform's reliance on machine learning tools"
+    },
+    "Consequence": {
+      "id": "MisclassificationOfContent",
+      "中文名称": "内容误分类后果",
+      "英文名称": "Misclassification of Content Consequence",
+      "来源": "confusing rockets for 'intimate' content"
+    },
+    "Stakeholder": {
+      "id": "TwitterPlatformUsers",
+      "中文名称": "Twitter平台用户",
+      "英文名称": "Twitter Platform Users",
+      "来源": "the platform's reliance on machine learning tools"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicLimitationsInContentClassification",
+      "中文名称": "内容分类中的算法限制风险源",
+      "英文名称": "Algorithmic Limitations in Content Classification Risk Source",
+      "来源": "confusing rockets for 'intimate' content because of the platform's reliance on machine learning tools"
+    }
+  }
+}

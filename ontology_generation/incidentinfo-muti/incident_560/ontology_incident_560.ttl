@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChineseDisinformationAI rdf:type airo:AISystem ;
+    rdfs:label "Chinese Disinformation AI System"@en ;
+    rdfs:label "中国虚假信息AI系统"@zh ;
+    airo:hasRisk ex:DisinformationRisk ;
+    airo:usesTechnique ex:NewDisinformationTechniques ;
+    airo:hasPurpose ex:GeopoliticalInfluence ;
+    airo:hasStakeholder ex:InternationalCommunity ;
+    airo:isAppliedWithinDomain ex:InternationalRelations .
+
+ex:DisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicMistrust ;
+    airo:isRiskSourceFor ex:FalseWeatherWeaponClaims .
+
+ex:PublicMistrust rdf:type airo:Consequence ;
+    rdfs:label "Public Mistrust Consequence"@en ;
+    rdfs:label "公众不信任后果"@zh ;
+    airo:hasImpact ex:DiplomaticTensions .
+
+ex:NewDisinformationTechniques rdf:type airo:AITechnique ;
+    rdfs:label "New Disinformation Techniques"@en ;
+    rdfs:label "新型虚假信息传播技术"@zh .
+
+ex:InternationalCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "International Community"@en ;
+    rdfs:label "国际社会"@zh .
+
+ex:DiplomaticTensions rdf:type airo:Impact ;
+    rdfs:label "Diplomatic Tensions Impact"@en ;
+    rdfs:label "外交紧张影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InternationalCommunity .
+
+ex:GeopoliticalInfluence rdf:type airo:Purpose ;
+    rdfs:label "Geopolitical Influence Purpose"@en ;
+    rdfs:label "地缘政治影响目的"@zh .
+
+ex:InternationalRelations rdf:type airo:Domain ;
+    rdfs:label "International Relations Domain"@en ;
+    rdfs:label "国际关系领域"@zh .
+
+ex:FalseWeatherWeaponClaims rdf:type airo:RiskSource ;
+    rdfs:label "False Weather Weapon Claims Risk Source"@en ;
+    rdfs:label "虚假天气武器指控风险源"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAILanguageModel",
+      "中文名称": "谷歌AI语言模型",
+      "英文名称": "Google AI Language Model",
+      "来源": "Google's answer to 'ugliest language' query was Kannada"
+    },
+    "Risk": {
+      "id": "CulturalInsensitivityRisk",
+      "中文名称": "文化不敏感风险",
+      "英文名称": "Cultural Risk",
+      "来源": "Insult to Kannada shows Google AI in a poor light"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "India's 'Ugliest' Language? Google Had an Answer (and Drew a Backlash)"
+    },
+    "AISubject": {
+      "id": "KannadaLanguageCommunity",
+      "中文名称": "卡纳达语社区",
+      "英文名称": "Kannada Language Community",
+      "来源": "An insult to Kannada shows Google AI in a poor light"
+    },
+    "Stakeholder": {
+      "id": "GoogleCompany",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google's answer to 'ugliest language' query was Kannada. An apology follows"
+    },
+    "Impact": {
+      "id": "CulturalOffense",
+      "中文名称": "文化冒犯影响",
+      "英文名称": "Cultural Offense Impact",
+      "来源": "Insult to Kannada shows Google AI in a poor light"
+    },
+    "Purpose": {
+      "id": "LanguageQueryResponse",
+      "中文名称": "语言查询响应目的",
+      "英文名称": "Language Query Response Purpose",
+      "来源": "Google's answer to 'ugliest language' query was Kannada"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "Google AI language model's response to language-related queries"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAILanguageModel",
+      "中文名称": "谷歌AI语言模型",
+      "英文名称": "Google AI Language Model",
+      "来源": "Google's answer to 'ugliest language' query was Kannada"
+    },
+    "Risk": {
+      "id": "CulturalInsensitivityRisk",
+      "中文名称": "文化不敏感风险",
+      "英文名称": "Cultural Risk",
+      "来源": "Insult to Kannada shows Google AI in a poor light"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "India's 'Ugliest' Language? Google Had an Answer (and Drew a Backlash)"
+    },
+    "AISubject": {
+      "id": "KannadaLanguageCommunity",
+      "中文名称": "卡纳达语社区",
+      "英文名称": "Kannada Language Community",
+      "来源": "An insult to Kannada shows Google AI in a poor light"
+    },
+    "Stakeholder": {
+      "id": "GoogleCompany",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google's answer to 'ugliest language' query was Kannada. An apology follows"
+    },
+    "Impact": {
+      "id": "CulturalOffense",
+      "中文名称": "文化冒犯影响",
+      "英文名称": "Cultural Offense Impact",
+      "来源": "Insult to Kannada shows Google AI in a poor light"
+    },
+    "Purpose": {
+      "id": "LanguageQueryResponse",
+      "中文名称": "语言查询响应目的",
+      "英文名称": "Language Query Response Purpose",
+      "来源": "Google's answer to 'ugliest language' query was Kannada"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "Google AI language model's response to language-related queries"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonDeliveryDrones",
+      "中文名称": "亚马逊送货无人机",
+      "英文名称": "Amazon Delivery Drones",
+      "来源": "AI droids could soon be bringing groceries to millions of homes in Britain as Amazon UK announces new drone scheme"
+    },
+    "Risk": {
+      "id": "RogueRobotAttackRisk",
+      "中文名称": "机器人失控攻击风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "but beware the bots going rogue and attacking people"
+    },
+    "AICapability": {
+      "id": "AutonomousDelivery",
+      "中文名称": "自主送货能力",
+      "英文名称": "Autonomous Delivery Capability",
+      "来源": "AI droids could soon be bringing groceries to millions of homes"
+    },
+    "Domain": {
+      "id": "FoodDelivery",
+      "中文名称": "食品配送领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "The army of robots to replace the food delivery man"
+    },
+    "Purpose": {
+      "id": "GroceryDeliveryService",
+      "中文名称": "杂货配送服务目的",
+      "英文名称": "Grocery Delivery Service Purpose",
+      "来源": "bringing groceries to millions of homes"
+    },
+    "Impact": {
+      "id": "PhysicalHarmToHumans",
+      "中文名称": "对人类造成身体伤害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "attacking people"
+    },
+    "AIOperator": {
+      "id": "AmazonUK",
+      "中文名称": "亚马逊英国",
+      "英文名称": "Amazon",
+      "来源": "Amazon UK announces new drone scheme"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonDeliveryDrones",
+      "中文名称": "亚马逊送货无人机",
+      "英文名称": "Amazon Delivery Drones",
+      "来源": "AI droids could soon be bringing groceries to millions of homes in Britain as Amazon UK announces new drone scheme"
+    },
+    "Risk": {
+      "id": "RogueRobotAttackRisk",
+      "中文名称": "机器人失控攻击风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "but beware the bots going rogue and attacking people"
+    },
+    "AICapability": {
+      "id": "AutonomousDelivery",
+      "中文名称": "自主送货能力",
+      "英文名称": "Autonomous Delivery Capability",
+      "来源": "AI droids could soon be bringing groceries to millions of homes"
+    },
+    "Domain": {
+      "id": "FoodDelivery",
+      "中文名称": "食品配送领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "The army of robots to replace the food delivery man"
+    },
+    "Purpose": {
+      "id": "GroceryDeliveryService",
+      "中文名称": "杂货配送服务目的",
+      "英文名称": "Grocery Delivery Service Purpose",
+      "来源": "bringing groceries to millions of homes"
+    },
+    "Impact": {
+      "id": "PhysicalHarmToHumans",
+      "中文名称": "对人类造成身体伤害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "attacking people"
+    },
+    "AIOperator": {
+      "id": "AmazonUK",
+      "中文名称": "亚马逊英国",
+      "英文名称": "Amazon",
+      "来源": "Amazon UK announces new drone scheme"
+    }
+  }
+}

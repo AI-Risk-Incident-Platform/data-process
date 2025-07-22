@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberAmazonWageAI",
+      "中文名称": "Uber和亚马逊工资AI系统",
+      "英文名称": "Uber and Amazon Wage AI System",
+      "来源": "Companies like Uber and Amazon use AI to pay people different wages for the same work, a new study finds"
+    },
+    "Risk": {
+      "id": "AlgorithmicWageDiscrimination",
+      "中文名称": "算法工资歧视风险",
+      "英文名称": "Algorithmic Wage Discrimination Risk",
+      "来源": "On Algorithmic Wage Discrimination"
+    },
+    "Stakeholder": {
+      "id": "UberAmazonEmployees",
+      "中文名称": "Uber和亚马逊员工",
+      "英文名称": "Uber and Amazon Employees",
+      "来源": "Companies like Uber and Amazon use AI to pay people different wages for the same work"
+    },
+    "Consequence": {
+      "id": "UnequalPayForSameWork",
+      "中文名称": "同工不同酬后果",
+      "英文名称": "Unequal Pay for Same Work Consequence",
+      "来源": "pay people different wages for the same work"
+    },
+    "Impact": {
+      "id": "WorkplaceInequality",
+      "中文名称": "职场不平等影响",
+      "英文名称": "Workplace Inequality Impact",
+      "来源": "pay people different wages for the same work"
+    },
+    "AIOperator": {
+      "id": "UberAmazonCorporations",
+      "中文名称": "Uber和亚马逊公司",
+      "英文名称": "Uber and Amazon Corporations",
+      "来源": "Companies like Uber and Amazon use AI"
+    },
+    "Domain": {
+      "id": "HumanResourceManagement",
+      "中文名称": "人力资源管理领域",
+      "英文名称": "Human Resource Management Domain",
+      "来源": "pay people different wages"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Feature Investigated In Crash That Killed Virginia Bakery Owner"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "US opens investigation into fatal Tesla crash in Virginia"
+    },
+    "Consequence": {
+      "id": "FatalCollision",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "NHTSA Opens Special Probe Into Fatal Tesla Model Y Crash In Virginia"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Autopilot Feature Investigated In Crash That Killed Virginia Bakery Owner"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA Opens Special Probe Into Fatal Tesla Model Y Crash In Virginia"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Crash That Killed Virginia Bakery Owner"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Model Y Crash"
+    },
+    "AITechnique": {
+      "id": "AutonomousDrivingTechnology",
+      "中文名称": "自动驾驶技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Tesla Autopilot Feature"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Feature Investigated In Crash That Killed Virginia Bakery Owner"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "US opens investigation into fatal Tesla crash in Virginia"
+    },
+    "Consequence": {
+      "id": "FatalCollision",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "NHTSA Opens Special Probe Into Fatal Tesla Model Y Crash In Virginia"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla Autopilot Feature Investigated In Crash That Killed Virginia Bakery Owner"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA Opens Special Probe Into Fatal Tesla Model Y Crash In Virginia"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Crash That Killed Virginia Bakery Owner"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla Model Y Crash"
+    },
+    "AITechnique": {
+      "id": "AutonomousDrivingTechnology",
+      "中文名称": "自动驾驶技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Tesla Autopilot Feature"
+    }
+  }
+}

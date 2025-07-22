@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GMAutonomousCar",
+      "中文名称": "通用汽车自动驾驶汽车",
+      "英文名称": "GM Autonomous Car",
+      "来源": "GM Autonomous Car Blocked A Fire Truck In San Francisco That Was Responding To An Emergency"
+    },
+    "Risk": {
+      "id": "EmergencyResponseObstructionRisk",
+      "中文名称": "紧急响应受阻风险",
+      "英文名称": "Emergency Response Obstruction Risk",
+      "来源": "An Autonomous Car Blocked a Fire Truck Responding to an Emergency"
+    },
+    "Consequence": {
+      "id": "DelayedEmergencyResponse",
+      "中文名称": "紧急响应延迟后果",
+      "英文名称": "Delayed Emergency Response Consequence",
+      "来源": "Blocked a Fire Truck Responding to an Emergency"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise LLC",
+      "来源": "Protest of Cruise LLC Tier 2 Advice Letter"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "Blocked a Fire Truck In San Francisco"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损影响",
+      "英文名称": "Public Safety Compromise Impact",
+      "来源": "Blocked a Fire Truck Responding to an Emergency"
+    }
+  }
+}

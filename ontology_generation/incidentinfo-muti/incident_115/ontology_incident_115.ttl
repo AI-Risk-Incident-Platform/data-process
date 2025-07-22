@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonFlexTerminationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "亚马逊Flex终止算法"@zh ;
+    rdfs:label "Amazon Flex Termination Algorithm"@en ;
+    airo:hasRisk ex:UnfairTerminationRisk ;
+    airo:hasStakeholder ex:AmazonFlexDrivers ;
+    airo:isDeployedBy ex:Amazon .
+
+ex:UnfairTerminationRisk rdf:type airo:Risk ;
+    rdfs:label "不公平解雇风险"@zh ;
+    rdfs:label "Unfair Termination Risk"@en ;
+    airo:hasConsequence ex:LackOfDueProcess ;
+    airo:isRiskSourceFor ex:AutomatedDecisionMakingWithoutHumanReview .
+
+ex:LackOfDueProcess rdf:type airo:Consequence ;
+    rdfs:label "缺乏正当程序后果"@zh ;
+    rdfs:label "Lack of Due Process Consequence"@en ;
+    airo:hasImpact ex:JobLossWithoutAppeal .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊"@zh ;
+    rdfs:label "Amazon"@en .
+
+ex:AmazonFlexDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊Flex司机"@zh ;
+    rdfs:label "Amazon Flex Drivers"@en .
+
+ex:JobLossWithoutAppeal rdf:type airo:Impact ;
+    rdfs:label "无法申诉的工作损失影响"@zh ;
+    rdfs:label "Job Loss Without Appeal Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonFlexDrivers .
+
+ex:AutomatedDecisionMakingWithoutHumanReview rdf:type airo:RiskSource ;
+    rdfs:label "无人审核的自动化决策风险源"@zh ;
+    rdfs:label "Automated Decision Making Without Human Review Risk Source"@en ;
+    airo:isRiskSourceFor ex:UnfairTerminationRisk .

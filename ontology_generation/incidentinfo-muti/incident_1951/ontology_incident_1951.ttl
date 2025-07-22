@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterGunshotDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter Gunshot Detection System"@en ;
+    rdfs:label "ShotSpotter枪声检测系统"@zh ;
+    airo:hasRisk ex:RacialBiasInLawEnforcementRisk ;
+    airo:hasStakeholder ex:MarginalizedCommunities ;
+    airo:isAppliedWithinDomain ex:PublicSafetyDomain .
+
+ex:RacialBiasInLawEnforcementRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Law Enforcement Risk"@en ;
+    rdfs:label "执法中的种族偏见风险"@zh ;
+    airo:hasImpact ex:IncreasedPoliceSurveillanceImpact .
+
+ex:MarginalizedCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "Marginalized Communities"@en ;
+    rdfs:label "边缘化社区"@zh .
+
+ex:PublicSafetyDomain rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:IncreasedPoliceSurveillanceImpact rdf:type airo:Impact ;
+    rdfs:label "Increased Police Surveillance Impact"@en ;
+    rdfs:label "增加警察监视的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MarginalizedCommunities .

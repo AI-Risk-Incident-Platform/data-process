@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceID",
+      "中文名称": "面容ID",
+      "英文名称": "Face ID",
+      "来源": "标题中提到的Face ID系统"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial Recognition Failure Risk",
+      "来源": "多篇报道显示Face ID无法区分兄弟之间的面部特征"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDeviceAccess",
+      "中文名称": "未经授权的设备访问后果",
+      "英文名称": "Unauthorized Device Access Consequence",
+      "来源": "报道中提到的兄弟姐妹成功解锁对方iPhone的情况"
+    },
+    "Vulnerability": {
+      "id": "GeneticSimilarityVulnerability",
+      "中文名称": "基因相似性漏洞",
+      "英文名称": "Genetic Similarity Vulnerability",
+      "来源": "系统难以区分具有相似面部特征的兄弟"
+    },
+    "AISubject": {
+      "id": "iPhoneXUsers",
+      "中文名称": "iPhone X用户",
+      "英文名称": "iPhone X Users",
+      "来源": "受影响的产品是iPhone X"
+    },
+    "AITechnique": {
+      "id": "3DFacialMapping",
+      "中文名称": "3D面部映射技术",
+      "英文名称": "3D Facial Mapping Technique",
+      "来源": "Face ID使用的核心技术"
+    }
+  }
+}

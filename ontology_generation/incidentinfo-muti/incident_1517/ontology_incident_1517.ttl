@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AirCanadaChatbot rdf:type airo:AISystem ;
+    rdfs:label "Air Canada Chatbot"@en ;
+    rdfs:label "加拿大航空聊天机器人"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:isDeployedBy ex:AirCanada ;
+    airo:hasPurpose ex:CustomerServiceAutomation ;
+    airo:isAppliedWithinDomain ex:AirlineIndustry ;
+    airo:hasStakeholder ex:Customer .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "错误信息风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:IncorrectTrainingData .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:CustomerTrustErosion .
+
+ex:AirCanada rdf:type airo:AIOperator ;
+    rdfs:label "Air Canada"@en ;
+    rdfs:label "加拿大航空公司"@zh .
+
+ex:Customer rdf:type airo:Stakeholder ;
+    rdfs:label "Customer"@en ;
+    rdfs:label "客户"@zh .
+
+ex:CustomerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Customer Trust Erosion Impact"@en ;
+    rdfs:label "客户信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Customer .
+
+ex:CustomerServiceAutomation rdf:type airo:Purpose ;
+    rdfs:label "Customer Service Automation Purpose"@en ;
+    rdfs:label "客户服务自动化目的"@zh .
+
+ex:AirlineIndustry rdf:type airo:Domain ;
+    rdfs:label "Airline Industry Domain"@en ;
+    rdfs:label "航空业领域"@zh .
+
+ex:IncorrectTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Incorrect Training Data Risk Source"@en ;
+    rdfs:label "错误训练数据风险源"@zh .

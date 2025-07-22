@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HomelessEncampmentDetectionAI",
+      "中文名称": "无家可归者营地检测AI",
+      "英文名称": "Homeless Encampment Detection AI",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Silicon Valley’s biggest city is training AI to detect homeless encampments"
+    },
+    "Domain": {
+      "id": "UrbanManagement",
+      "中文名称": "城市管理领域",
+      "英文名称": "Urban Management Domain",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    },
+    "AISubject": {
+      "id": "HomelessIndividuals",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless Individuals",
+      "来源": "Silicon Valley’s biggest city is training AI to detect homeless encampments"
+    },
+    "Stakeholder": {
+      "id": "SanJoseCityGovernment",
+      "中文名称": "圣何塞市政府",
+      "英文名称": "San Jose City Government",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HomelessEncampmentDetectionAI",
+      "中文名称": "无家可归者营地检测AI",
+      "英文名称": "Homeless Encampment Detection AI",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Silicon Valley’s biggest city is training AI to detect homeless encampments"
+    },
+    "Domain": {
+      "id": "UrbanManagement",
+      "中文名称": "城市管理领域",
+      "英文名称": "Urban Management Domain",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    },
+    "AISubject": {
+      "id": "HomelessIndividuals",
+      "中文名称": "无家可归者",
+      "英文名称": "Homeless Individuals",
+      "来源": "Silicon Valley’s biggest city is training AI to detect homeless encampments"
+    },
+    "Stakeholder": {
+      "id": "SanJoseCityGovernment",
+      "中文名称": "圣何塞市政府",
+      "英文名称": "San Jose City Government",
+      "来源": "San Jose's AI Experiment in Homelessness Detection"
+    }
+  }
+}

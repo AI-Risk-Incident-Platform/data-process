@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TorontoBeachWaterQualityAI",
+      "中文名称": "多伦多海滩水质AI系统",
+      "英文名称": "Toronto Beach Water Quality AI System",
+      "来源": "Toronto’s new tool for measuring water quality at its beaches"
+    },
+    "Risk": {
+      "id": "MisleadingWaterQualityPrediction",
+      "中文名称": "误导性水质预测风险",
+      "英文名称": "Misleading Water Quality Prediction Risk",
+      "来源": "Toronto’s new tool for measuring water quality at its beaches is misleading"
+    },
+    "Stakeholder": {
+      "id": "WaterQualityAdvocates",
+      "中文名称": "水质倡导者",
+      "英文名称": "Water Quality Advocates",
+      "来源": "say advocates"
+    },
+    "Consequence": {
+      "id": "PublicHealthRisk",
+      "中文名称": "公共健康风险后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Safe for swimming?"
+    },
+    "Impact": {
+      "id": "SwimmerSafetyCompromise",
+      "中文名称": "游泳者安全受损影响",
+      "英文名称": "Swimmer Safety Compromise Impact",
+      "来源": "Toronto Tapped Artificial Intelligence to Warn Swimmers. The Experiment Failed"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TorontoBeachWaterQualityAI",
+      "中文名称": "多伦多海滩水质AI系统",
+      "英文名称": "Toronto Beach Water Quality AI System",
+      "来源": "Toronto’s new tool for measuring water quality at its beaches"
+    },
+    "Risk": {
+      "id": "MisleadingWaterQualityPrediction",
+      "中文名称": "误导性水质预测风险",
+      "英文名称": "Misleading Water Quality Prediction Risk",
+      "来源": "Toronto’s new tool for measuring water quality at its beaches is misleading"
+    },
+    "Stakeholder": {
+      "id": "WaterQualityAdvocates",
+      "中文名称": "水质倡导者",
+      "英文名称": "Water Quality Advocates",
+      "来源": "say advocates"
+    },
+    "Consequence": {
+      "id": "PublicHealthRisk",
+      "中文名称": "公共健康风险后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Safe for swimming?"
+    },
+    "Impact": {
+      "id": "SwimmerSafetyCompromise",
+      "中文名称": "游泳者安全受损影响",
+      "英文名称": "Swimmer Safety Compromise Impact",
+      "来源": "Toronto Tapped Artificial Intelligence to Warn Swimmers. The Experiment Failed"
+    }
+  }
+}

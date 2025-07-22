@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GitHubCopilot",
+      "中文名称": "GitHub Copilot",
+      "英文名称": "GitHub Copilot",
+      "来源": "GitHub Copilot, Copyright Infringement and Open Source Licensing"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "GitHub Copilot, Copyright Infringement and Open Source Licensing"
+    },
+    "Stakeholder": {
+      "id": "OpenSourceCommunity",
+      "中文名称": "开源社区",
+      "英文名称": "Open Source Community",
+      "来源": "Analyzing the Legal Implications of GitHub Copilot"
+    },
+    "AIOperator": {
+      "id": "GitHub",
+      "中文名称": "GitHub",
+      "英文名称": "GitHub",
+      "来源": "Introducing GitHub Copilot: your AI pair programmer"
+    },
+    "Purpose": {
+      "id": "AIPairProgramming",
+      "中文名称": "AI配对编程",
+      "英文名称": "AI Pair Programming",
+      "来源": "Introducing GitHub Copilot: your AI pair programmer"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发",
+      "英文名称": "Software Development",
+      "来源": "Introducing GitHub Copilot: your AI pair programmer"
+    },
+    "AITechnique": {
+      "id": "CodeGenerationAI",
+      "中文名称": "代码生成AI",
+      "英文名称": "Code Generation AI",
+      "来源": "Introducing GitHub Copilot: your AI pair programmer"
+    },
+    "RiskSource": {
+      "id": "TrainingOnCopyrightedCode",
+      "中文名称": "使用受版权保护的代码训练",
+      "英文名称": "Training on Copyrighted Code",
+      "来源": "GitHub Copilot, Copyright Infringement and Open Source Licensing"
+    },
+    "Consequence": {
+      "id": "LegalChallenges",
+      "中文名称": "法律挑战",
+      "英文名称": "Legal Challenges",
+      "来源": "Analyzing the Legal Implications of GitHub Copilot"
+    },
+    "Impact": {
+      "id": "OpenSourceLicenseViolations",
+      "中文名称": "开源许可证违规",
+      "英文名称": "Open Source License Violations",
+      "来源": "GitHub Copilot, Copyright Infringement and Open Source Licensing"
+    }
+  }
+}

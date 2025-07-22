@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAnchorSystem rdf:type airo:AISystem ;
+    rdfs:label "AI News Anchor System"@en ;
+    rdfs:label "AI新闻主播系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:RealisticHumanSimulation ;
+    airo:isAppliedWithinDomain ex:NewsBroadcasting ;
+    airo:hasPurpose ex:AutomatedNewsDelivery .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh .
+
+ex:RealisticHumanSimulation rdf:type airo:AICapability ;
+    rdfs:label "Realistic Human Simulation Capability"@en ;
+    rdfs:label "逼真人类模拟能力"@zh .
+
+ex:NewsBroadcasting rdf:type airo:Domain ;
+    rdfs:label "News Broadcasting Domain"@en ;
+    rdfs:label "新闻广播领域"@zh .
+
+ex:AutomatedNewsDelivery rdf:type airo:Purpose ;
+    rdfs:label "Automated News Delivery Purpose"@en ;
+    rdfs:label "自动化新闻播报目的"@zh .

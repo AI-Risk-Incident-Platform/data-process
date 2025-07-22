@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberAndLyftPricingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Uber and Lyft Pricing Algorithm"@en ;
+    rdfs:label "Uber和Lyft定价算法"@zh ;
+    airo:hasRisk ex:AlgorithmicPricingDiscriminationRisk ;
+    airo:hasAICapability ex:DynamicPricingBasedOnNeighborhoodDemographics ;
+    airo:isDevelopedBy ex:UberTechnologiesInc ;
+    airo:hasPurpose ex:MaximizeRevenueThroughDynamicPricing ;
+    airo:hasStakeholder ex:RideHailingServiceUsers ;
+    airo:hasAISubject ex:ResidentsOfNonWhiteNeighborhoods ;
+    airo:isAppliedWithinDomain ex:RideHailingServices ;
+    airo:usesTechnique ex:MachineLearningForDemographicBasedPricing .
+
+ex:AlgorithmicPricingDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Pricing Discrimination Risk"@en ;
+    rdfs:label "算法定价歧视风险"@zh ;
+    airo:hasConsequence ex:HigherTransportationCostsForMinorities ;
+    airo:isRiskSourceFor ex:DemographicCorrelationInPricingData ;
+    airo:isRiskSourceFor ex:UnintendedAlgorithmicBias ;
+    airo:isRiskSourceFor ex:HistoricalSocioeconomicDataBias .
+
+ex:HigherTransportationCostsForMinorities rdf:type airo:Consequence ;
+    rdfs:label "Higher Transportation Costs for Minorities Consequence"@en ;
+    rdfs:label "少数族裔交通成本增加后果"@zh ;
+    airo:hasImpact ex:EconomicBurdenOnMinorityCommunities .
+
+ex:DynamicPricingBasedOnNeighborhoodDemographics rdf:type airo:AICapability ;
+    rdfs:label "Dynamic Pricing Based on Neighborhood Demographics Capability"@en ;
+    rdfs:label "基于社区人口统计的动态定价能力"@zh .
+
+ex:UberTechnologiesInc rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies Inc."@en ;
+    rdfs:label "优步科技公司"@zh .
+
+ex:RideHailingServiceUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Ride-Hailing Service Users"@en ;
+    rdfs:label "网约车服务用户"@zh .
+
+ex:ResidentsOfNonWhiteNeighborhoods rdf:type airo:AISubject ;
+    rdfs:label "Residents of Non-White Neighborhoods"@en ;
+    rdfs:label "非白人社区居民"@zh .
+
+ex:EconomicBurdenOnMinorityCommunities rdf:type airo:Impact ;
+    rdfs:label "Economic Burden on Minority Communities Impact"@en ;
+    rdfs:label "少数族裔社区经济负担影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RideHailingServiceUsers .
+
+ex:MaximizeRevenueThroughDynamicPricing rdf:type airo:Purpose ;
+    rdfs:label "Maximize Revenue Through Dynamic Pricing Purpose"@en ;
+    rdfs:label "通过动态定价实现收入最大化目的"@zh .
+
+ex:RideHailingServices rdf:type airo:Domain ;
+    rdfs:label "Ride-Hailing Services Domain"@en ;
+    rdfs:label "网约车服务领域"@zh .
+
+ex:MachineLearningForDemographicBasedPricing rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Demographic-Based Pricing Technique"@en ;
+    rdfs:label "基于人口统计的机器学习定价技术"@zh .
+
+ex:UnintendedAlgorithmicBias rdf:type airo:Threat ;
+    rdfs:label "Unintended Algorithmic Bias Threat"@en ;
+    rdfs:label "非预期的算法偏见威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfTransparencyInPricingModels .
+
+ex:HistoricalSocioeconomicDataBias rdf:type airo:Hazard ;
+    rdfs:label "Historical Socioeconomic Data Bias Hazard"@en ;
+    rdfs:label "历史社会经济数据偏差危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfTransparencyInPricingModels .
+
+ex:DemographicCorrelationInPricingData rdf:type airo:RiskSource ;
+    rdfs:label "Demographic Correlation in Pricing Data Risk Source"@en ;
+    rdfs:label "定价数据中的人口统计相关性风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfTransparencyInPricingModels .
+
+ex:LackOfTransparencyInPricingModels rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Transparency in Pricing Models Vulnerability"@en ;
+    rdfs:label "定价模型缺乏透明度的脆弱性"@zh .
+
+ex:AlgorithmicDiscriminationInTransportationServices rdf:type airo:RiskConcept ;
+    rdfs:label "Algorithmic Discrimination in Transportation Services Risk Concept"@en ;
+    rdfs:label "交通服务中的算法歧视风险概念"@zh .

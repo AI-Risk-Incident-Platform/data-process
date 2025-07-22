@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokChatbot",
+      "中文名称": "Grok聊天机器人",
+      "英文名称": "Grok AI",
+      "来源": "X's Grok AI Is Once Again Pushing Election Misinformation"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举误导信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "X's Grok chatbot is misleading voters about the presidential election"
+    },
+    "Consequence": {
+      "id": "VoterMisinformation",
+      "中文名称": "选民误导后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "misleading voters about US presidential elections"
+    },
+    "AIOperator": {
+      "id": "XCorporation",
+      "中文名称": "X公司",
+      "英文名称": "X",
+      "来源": "X's Grok chatbot is misleading voters about the presidential election"
+    },
+    "Stakeholder": {
+      "id": "USVoters",
+      "中文名称": "美国选民",
+      "英文名称": "US Voters",
+      "来源": "misleading voters about US presidential elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "about US presidential elections"
+    },
+    "Purpose": {
+      "id": "PoliticalInformationDissemination",
+      "中文名称": "政治信息传播目的",
+      "英文名称": "Election Influence",
+      "来源": "pushing election misinformation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GrokChatbot",
+      "中文名称": "Grok聊天机器人",
+      "英文名称": "Grok AI",
+      "来源": "X's Grok AI Is Once Again Pushing Election Misinformation"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举误导信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "X's Grok chatbot is misleading voters about the presidential election"
+    },
+    "Consequence": {
+      "id": "VoterMisinformation",
+      "中文名称": "选民误导后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "misleading voters about US presidential elections"
+    },
+    "AIOperator": {
+      "id": "XCorporation",
+      "中文名称": "X公司",
+      "英文名称": "X",
+      "来源": "X's Grok chatbot is misleading voters about the presidential election"
+    },
+    "Stakeholder": {
+      "id": "USVoters",
+      "中文名称": "美国选民",
+      "英文名称": "US Voters",
+      "来源": "misleading voters about US presidential elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "about US presidential elections"
+    },
+    "Purpose": {
+      "id": "PoliticalInformationDissemination",
+      "中文名称": "政治信息传播目的",
+      "英文名称": "Election Influence",
+      "来源": "pushing election misinformation"
+    }
+  }
+}

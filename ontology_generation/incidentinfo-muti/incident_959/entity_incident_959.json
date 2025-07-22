@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SurveillanceSoftware",
+      "中文名称": "监控软件",
+      "英文名称": "Surveillance Software",
+      "来源": "“A Digital Prison”: Surveillance and the suppression of civil society in Serbia executive summary"
+    },
+    "Risk": {
+      "id": "CivilSocietySuppressionRisk",
+      "中文名称": "公民社会压制风险",
+      "英文名称": "Civil Society Suppression Risk",
+      "来源": "“A Digital Prison”: Surveillance and the suppression of civil society in Serbia executive summary"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndActivists",
+      "中文名称": "记者和活动家",
+      "英文名称": "Journalists and Activists",
+      "来源": "Izraelska kompanija zabranila Srbiji upotrebu špijunskog softvera jer je korišten protiv novinara i aktivista"
+    },
+    "AIOperator": {
+      "id": "IsraeliCompany",
+      "中文名称": "以色列公司",
+      "英文名称": "Israeli Company",
+      "来源": "Izraelska kompanija zabranila Srbiji upotrebu špijunskog softvera jer je korišten protiv novinara i aktivista"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "“A Digital Prison”: Surveillance and the suppression of civil society in Serbia executive summary"
+    },
+    "Impact": {
+      "id": "SuppressionOfFreeSpeech",
+      "中文名称": "言论自由压制",
+      "英文名称": "Suppression of Free Speech",
+      "来源": "“A Digital Prison”: Surveillance and the suppression of civil society in Serbia executive summary"
+    },
+    "Domain": {
+      "id": "GovernmentSurveillance",
+      "中文名称": "政府监控",
+      "英文名称": "Government Surveillance",
+      "来源": "Georgia to purchase Israeli data extraction tech amid street protest crackdown"
+    }
+  }
+}

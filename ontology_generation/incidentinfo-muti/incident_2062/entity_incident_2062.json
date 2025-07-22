@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DomesticViolencePredictionAI",
+      "中文名称": "家庭暴力预测AI",
+      "英文名称": "Domestic Violence Prediction AI",
+      "来源": "AI is Being Used by Police to Predict and Deter Domestic Violence"
+    },
+    "Risk": {
+      "id": "UnreliablePredictionRisk",
+      "中文名称": "不可靠预测风险",
+      "英文名称": "Unreliable Prediction Risk",
+      "来源": "Yes, It's a Bad Idea"
+    },
+    "Stakeholder": {
+      "id": "QueenslandPolice",
+      "中文名称": "昆士兰警方",
+      "英文名称": "Queensland Police",
+      "来源": "Queensland Police trial artificial intelligence to mitigate domestic violence"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "AI is Being Used by Police"
+    },
+    "Purpose": {
+      "id": "DomesticViolencePrevention",
+      "中文名称": "预防家庭暴力的目的",
+      "英文名称": "Domestic Violence Prevention Purpose",
+      "来源": "to Predict and Deter Domestic Violence"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "Yes, It's a Bad Idea"
+    },
+    "Impact": {
+      "id": "UnjustTargeting",
+      "中文名称": "不公正针对的影响",
+      "英文名称": "Unjust Targeting Impact",
+      "来源": "Yes, It's a Bad Idea"
+    }
+  }
+}

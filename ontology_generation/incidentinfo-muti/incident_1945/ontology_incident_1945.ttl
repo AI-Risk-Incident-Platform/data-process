@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TenantScreeningAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Tenant Screening Algorithm"@en ;
+    rdfs:label "租户筛选算法"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:TenantSelection ;
+    airo:hasStakeholder ex:Landlords ;
+    airo:hasAISubject ex:PotentialTenants ;
+    airo:isAppliedWithinDomain ex:RealEstate .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalDataExposure ;
+    airo:isRiskSourceFor ex:SecretAlgorithms .
+
+ex:Landlords rdf:type airo:Stakeholder ;
+    rdfs:label "Landlords"@en ;
+    rdfs:label "房东"@zh .
+
+ex:PotentialTenants rdf:type airo:AISubject ;
+    rdfs:label "Potential Tenants"@en ;
+    rdfs:label "潜在租户"@zh .
+
+ex:TenantSelection rdf:type airo:Purpose ;
+    rdfs:label "Tenant Selection"@en ;
+    rdfs:label "租户选择"@zh .
+
+ex:RealEstate rdf:type airo:Domain ;
+    rdfs:label "Real Estate"@en ;
+    rdfs:label "房地产"@zh .
+
+ex:SecretAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "Secret Algorithms"@en ;
+    rdfs:label "秘密算法"@zh .
+
+ex:PersonalDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Exposure"@en ;
+    rdfs:label "个人数据暴露"@zh ;
+    airo:hasImpact ex:Discrimination .
+
+ex:Discrimination rdf:type airo:Impact ;
+    rdfs:label "Discrimination"@en ;
+    rdfs:label "歧视"@zh ;
+    airo:hasImpactOnStakeholder ex:PotentialTenants .

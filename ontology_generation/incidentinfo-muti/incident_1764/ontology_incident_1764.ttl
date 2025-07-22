@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CoupangSearchAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Coupang Search Algorithm"@en ;
+    rdfs:label "Coupang搜索算法"@zh ;
+    airo:hasRisk ex:SearchAlgorithmManipulationRisk ;
+    airo:hasStakeholder ex:KoreaFTC ;
+    airo:isDeployedBy ex:Coupang ;
+    airo:isAppliedWithinDomain ex:ECommerce .
+
+ex:SearchAlgorithmManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Search Algorithm Manipulation Risk"@en ;
+    rdfs:label "搜索算法操纵风险"@zh .
+
+ex:KoreaFTC rdf:type airo:Stakeholder ;
+    rdfs:label "Korea Fair Trade Commission"@en ;
+    rdfs:label "韩国公平贸易委员会"@zh .
+
+ex:Coupang rdf:type airo:AIOperator ;
+    rdfs:label "Coupang"@en ;
+    rdfs:label "Coupang"@zh .
+
+ex:ECommerce rdf:type airo:Domain ;
+    rdfs:label "E-Commerce"@en ;
+    rdfs:label "电子商务"@zh .

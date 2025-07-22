@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAIGPT2 rdf:type airo:AISystem ;
+    rdfs:label "OpenAI's GPT-2"@en ;
+    rdfs:label "OpenAI的GPT-2"@zh ;
+    airo:hasRisk ex:DeceptiveAICommentsRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:HarvardMedicalStudent ;
+    airo:isAppliedWithinDomain ex:GovernmentPolicy ;
+    airo:usesTechnique ex:TextGeneration ;
+    airo:hasPurpose ex:AutomatedPolicyCommentGeneration .
+
+ex:DeceptiveAICommentsRisk rdf:type airo:Risk ;
+    rdfs:label "Deceptive AI Comments Risk"@en ;
+    rdfs:label "欺骗性AI评论风险"@zh ;
+    airo:hasConsequence ex:MisleadingPolicyFeedback ;
+    airo:isRiskSourceFor ex:LackOfAIOutputIdentification .
+
+ex:HarvardMedicalStudent rdf:type airo:Stakeholder ;
+    rdfs:label "Harvard Medical Student"@en ;
+    rdfs:label "哈佛医学院学生"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:GovernmentPolicy rdf:type airo:Domain ;
+    rdfs:label "Government Policy"@en ;
+    rdfs:label "政府政策"@zh .
+
+ex:MisleadingPolicyFeedback rdf:type airo:Consequence ;
+    rdfs:label "Misleading Policy Feedback Consequence"@en ;
+    rdfs:label "误导性政策反馈后果"@zh ;
+    airo:hasImpact ex:UnderminedPublicConsultationProcess .
+
+ex:TextGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Text Generation Technique"@en ;
+    rdfs:label "文本生成技术"@zh .
+
+ex:AutomatedPolicyCommentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Automated Policy Comment Generation Purpose"@en ;
+    rdfs:label "自动化政策评论生成目的"@zh .
+
+ex:UnderminedPublicConsultationProcess rdf:type airo:Impact ;
+    rdfs:label "Undermined Public Consultation Process Impact"@en ;
+    rdfs:label "破坏公众咨询过程的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HarvardMedicalStudent .
+
+ex:LackOfAIOutputIdentification rdf:type airo:RiskSource ;
+    rdfs:label "Lack of AI Output Identification Risk Source"@en ;
+    rdfs:label "缺乏AI输出标识的风险源"@zh .

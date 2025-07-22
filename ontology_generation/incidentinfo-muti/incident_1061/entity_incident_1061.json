@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GammaAIPresentationTool",
+      "中文名称": "Gamma AI演示工具",
+      "英文名称": "Gamma AI Presentation Tool",
+      "来源": "Multi-Stage Phishing Attack Exploits Gamma, an AI-Powered Presentation Tool"
+    },
+    "Risk": {
+      "id": "PhishingAttackRisk",
+      "中文名称": "钓鱼攻击风险",
+      "英文名称": "Phishing Attack Risk",
+      "来源": "AI-Powered Presentation Tool Leveraged in Phishing Attacks"
+    },
+    "Consequence": {
+      "id": "SpoofedMicrosoftSharePointLogins",
+      "中文名称": "伪造微软SharePoint登录",
+      "英文名称": "Spoofed Microsoft SharePoint Logins",
+      "来源": "Gamma AI Platform Abused in Phishing Chain to Spoof Microsoft SharePoint Logins"
+    },
+    "AICapability": {
+      "id": "PresentationGenerationCapability",
+      "中文名称": "演示生成能力",
+      "英文名称": "Presentation Generation Capability",
+      "来源": "AI-Powered Presentation Tool"
+    },
+    "RiskSource": {
+      "id": "MultiStagePhishingAttack",
+      "中文名称": "多阶段钓鱼攻击",
+      "英文名称": "Multi-Stage Phishing Attack",
+      "来源": "Multi-Stage Phishing Attack Exploits Gamma"
+    },
+    "Impact": {
+      "id": "CredentialTheftImpact",
+      "中文名称": "凭证盗窃影响",
+      "英文名称": "Credential Theft Impact",
+      "来源": "to Spoof Microsoft SharePoint Logins"
+    },
+    "Domain": {
+      "id": "CybersecurityDomain",
+      "中文名称": "网络安全领域",
+      "英文名称": "Cybersecurity Domain",
+      "来源": "Phishing Attacks"
+    },
+    "Misuse": {
+      "id": "ToolAbuseForPhishing",
+      "中文名称": "工具滥用进行钓鱼",
+      "英文名称": "Tool Abuse for Phishing",
+      "来源": "Gamma AI Platform Abused in Phishing Chain"
+    }
+  }
+}

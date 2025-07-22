@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MoviePassEyeTrackingSystem",
+      "中文名称": "MoviePass眼球追踪系统",
+      "英文名称": "MoviePass Eye Tracking System",
+      "来源": "MoviePass 2.0 Wants to Track Your Eyeballs to Make Sure You Watch Ads"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Invasion Risk",
+      "来源": "MoviePass 2.0 Wants to Track Your Eyeballs to Make Sure You Watch Ads"
+    },
+    "AICapability": {
+      "id": "EyeTrackingForAdVerification",
+      "中文名称": "广告验证的眼球追踪能力",
+      "英文名称": "Eye Tracking for Ad Verification Capability",
+      "来源": "MoviePass Relaunching This Summer with Eye-Tracking Technology, Users Watch Ads to Earn Credits for Movies"
+    },
+    "Stakeholder": {
+      "id": "MoviePassSubscribers",
+      "中文名称": "MoviePass订阅用户",
+      "英文名称": "MoviePass Subscribers",
+      "来源": "Eye-Tracking MoviePass App Will Pause Ads If You Look Away"
+    },
+    "AIOperator": {
+      "id": "MoviePassCompany",
+      "中文名称": "MoviePass公司",
+      "英文名称": "MoviePass Company",
+      "来源": "MoviePass Relaunching This Summer with Eye-Tracking Technology, Users Watch Ads to Earn Credits for Movies"
+    },
+    "Purpose": {
+      "id": "AdRevenueGeneration",
+      "中文名称": "广告收入生成目的",
+      "英文名称": "Ad Revenue Generation Purpose",
+      "来源": "Users Watch Ads to Earn Credits for Movies"
+    },
+    "Domain": {
+      "id": "EntertainmentSubscriptionServices",
+      "中文名称": "娱乐订阅服务领域",
+      "英文名称": "Entertainment Subscription Services Domain",
+      "来源": "MoviePass Relaunching This Summer with Eye-Tracking Technology"
+    },
+    "AITechnique": {
+      "id": "RealTimeEyeTracking",
+      "中文名称": "实时眼球追踪技术",
+      "英文名称": "Real-Time Eye Tracking Technique",
+      "来源": "Eye-Tracking MoviePass App Will Pause Ads If You Look Away"
+    },
+    "Consequence": {
+      "id": "UserBehaviorMonitoring",
+      "中文名称": "用户行为监控后果",
+      "英文名称": "User Behavior Monitoring Consequence",
+      "来源": "MoviePass 2.0 Wants to Track Your Eyeballs to Make Sure You Watch Ads"
+    },
+    "Impact": {
+      "id": "ReducedPrivacyForUsers",
+      "中文名称": "用户隐私减少影响",
+      "英文名称": "Reduced Privacy for Users Impact",
+      "来源": "MoviePass 2.0 Wants to Track Your Eyeballs to Make Sure You Watch Ads"
+    },
+    "RiskSource": {
+      "id": "IntrusiveAdVerification",
+      "中文名称": "侵入式广告验证风险源",
+      "英文名称": "Intrusive Ad Verification Risk Source",
+      "来源": "Eye-Tracking MoviePass App Will Pause Ads If You Look Away"
+    },
+    "Vulnerability": {
+      "id": "LackOfUserConsentOptions",
+      "中文名称": "缺乏用户同意选项的脆弱性",
+      "英文名称": "Lack of User Consent Options Vulnerability",
+      "来源": "MoviePass 2.0 Wants to Track Your Eyeballs to Make Sure You Watch Ads"
+    }
+  }
+}

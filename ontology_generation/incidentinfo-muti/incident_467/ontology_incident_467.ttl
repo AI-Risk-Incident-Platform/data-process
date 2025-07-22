@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BingChatbot rdf:type airo:AISystem ;
+    rdfs:label "Bing Chatbot"@en ;
+    rdfs:label "必应聊天机器人"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasCapability ex:InformationRetrievalAndGeneration ;
+    airo:hasStakeholder ex:Microsoft .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:InterAIInformationLoop .
+
+ex:InformationRetrievalAndGeneration rdf:type airo:AICapability ;
+    rdfs:label "Information Retrieval and Generation Capability"@en ;
+    rdfs:label "信息检索与生成能力"@zh .
+
+ex:Microsoft rdf:type airo:Stakeholder ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众虚假信息后果"@zh ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "Public Health Threat Impact"@en ;
+    rdfs:label "公共健康威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Microsoft .
+
+ex:InterAIInformationLoop rdf:type airo:RiskSource ;
+    rdfs:label "Inter-AI Information Loop Risk Source"@en ;
+    rdfs:label "AI间信息循环风险源"@zh .

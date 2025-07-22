@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RobotVacuumCleaner rdf:type airo:AISystem ;
+    rdfs:label "机器人吸尘器"@zh ;
+    rdfs:label "Robot Vacuum Cleaner"@en ;
+    airo:hasRisk ex:RacialSlursRisk ;
+    airo:usesTechnique ex:VoiceSynthesis ;
+    airo:hasStakeholder ex:VacuumOwners ;
+    airo:hasVulnerability ex:WeakSecurityProtocols .
+
+ex:RacialSlursRisk rdf:type airo:Risk ;
+    rdfs:label "种族歧视言论风险"@zh ;
+    rdfs:label "Racial Slurs Risk"@en ;
+    airo:hasConsequence ex:OffensiveBehavior ;
+    airo:isRiskSourceFor ex:HackerAttack .
+
+ex:OffensiveBehavior rdf:type airo:Consequence ;
+    rdfs:label "冒犯行为后果"@zh ;
+    rdfs:label "Offensive Behavior Consequence"@en ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:HackerAttack rdf:type airo:RiskSource ;
+    rdfs:label "黑客攻击风险源"@zh ;
+    rdfs:label "Hacker Attack Risk Source"@en ;
+    airo:exploitsVulnerability ex:WeakSecurityProtocols .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "心理伤害影响"@zh ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:VacuumOwners .
+
+ex:VacuumOwners rdf:type airo:Stakeholder ;
+    rdfs:label "吸尘器拥有者"@zh ;
+    rdfs:label "Vacuum Owners"@en .
+
+ex:VoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "语音合成技术"@zh ;
+    rdfs:label "Voice Synthesis Technique"@en .
+
+ex:WeakSecurityProtocols rdf:type airo:Vulnerability ;
+    rdfs:label "薄弱安全协议漏洞"@zh ;
+    rdfs:label "Weak Security Protocols Vulnerability"@en .

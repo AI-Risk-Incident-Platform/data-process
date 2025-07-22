@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DominoPizzaQualityAssessmentSystem rdf:type airo:AISystem ;
+    rdfs:label "Domino's Pizza Quality Assessment System"@en ;
+    rdfs:label "达美乐披萨质量评估系统"@zh ;
+    airo:hasRisk ex:PrivacyConcernsInFoodQualityAssessment ;
+    airo:hasCapability ex:VisualQualityInspection ;
+    airo:isAppliedWithinDomain ex:FoodServiceIndustry ;
+    airo:hasPurpose ex:AutomatedPizzaQualityControl ;
+    airo:usesTechnique ex:ComputerVision .
+
+ex:PrivacyConcernsInFoodQualityAssessment rdf:type airo:Risk ;
+    rdfs:label "Privacy Concerns in Food Quality Assessment Risk"@en ;
+    rdfs:label "食品质量评估中的隐私风险"@zh .
+
+ex:VisualQualityInspection rdf:type airo:AICapability ;
+    rdfs:label "Visual Quality Inspection Capability"@en ;
+    rdfs:label "视觉质量检测能力"@zh .
+
+ex:FoodServiceIndustry rdf:type airo:Domain ;
+    rdfs:label "Food Service Industry Domain"@en ;
+    rdfs:label "餐饮服务行业"@zh .
+
+ex:AutomatedPizzaQualityControl rdf:type airo:Purpose ;
+    rdfs:label "Automated Pizza Quality Control Purpose"@en ;
+    rdfs:label "自动化披萨质量控制目的"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .

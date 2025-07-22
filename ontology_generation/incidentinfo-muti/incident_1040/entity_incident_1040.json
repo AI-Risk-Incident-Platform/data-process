@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SocialSecurityAIApp",
+      "中文名称": "社会保障AI应用",
+      "英文名称": "Social Security AI App",
+      "来源": "Brazil’s AI-powered social security app is wrongly rejecting claims"
+    },
+    "Risk": {
+      "id": "WrongfulClaimRejectionRisk",
+      "中文名称": "错误拒绝索赔风险",
+      "英文名称": "Wrongful Claim Rejection Risk",
+      "来源": "Brazil’s AI-powered social security app is wrongly rejecting claims"
+    },
+    "Consequence": {
+      "id": "UnjustBenefitDenial",
+      "中文名称": "不公正福利拒绝后果",
+      "英文名称": "Unjust Benefit Denial Consequence",
+      "来源": "IA do INSS erra e causa recusas injustas de benefícios"
+    },
+    "AIOperator": {
+      "id": "BrazilSocialSecurityAdministration",
+      "中文名称": "巴西社会保障管理局",
+      "英文名称": "Brazil Social Security Administration",
+      "来源": "Brazil’s AI-powered social security app is wrongly rejecting claims"
+    },
+    "Stakeholder": {
+      "id": "SocialSecurityClaimants",
+      "中文名称": "社会保障申请人",
+      "英文名称": "Social Security Claimants",
+      "来源": "Brazil’s AI-powered social security app is wrongly rejecting claims"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForClaimants",
+      "中文名称": "申请人经济困难影响",
+      "英文名称": "Financial Hardship for Claimants Impact",
+      "来源": "IA do INSS erra e causa recusas injustas de benefícios"
+    },
+    "Purpose": {
+      "id": "AutomateSocialSecurityClaimsProcessing",
+      "中文名称": "自动化社会保障索赔处理目的",
+      "英文名称": "Automate Social Security Claims Processing Purpose",
+      "来源": "The Rewiring of Social Security Admin With AI Has Begun"
+    },
+    "Domain": {
+      "id": "GovernmentSocialServices",
+      "中文名称": "政府社会服务领域",
+      "英文名称": "Government Social Services Domain",
+      "来源": "The Rewiring of Social Security Admin With AI Has Begun"
+    },
+    "RiskSource": {
+      "id": "FaultyAlgorithmicDecisionMaking",
+      "中文名称": "错误算法决策风险源",
+      "英文名称": "Faulty Algorithmic Decision Making Risk Source",
+      "来源": "Brazil’s AI-powered social security app is wrongly rejecting claims"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanOversightInClaimsProcessing",
+      "中文名称": "索赔处理中缺乏人工监督的脆弱性",
+      "英文名称": "Lack of Human Oversight in Claims Processing Vulnerability",
+      "来源": "The Rewiring of Social Security Admin With AI Has Begun, the Training Video Is Not Promising"
+    }
+  }
+}

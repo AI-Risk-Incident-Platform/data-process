@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookNewsBanSystem",
+      "中文名称": "Facebook新闻禁令系统",
+      "英文名称": "Facebook News Ban System",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "Risk": {
+      "id": "NegotiationTacticRisk",
+      "中文名称": "谈判策略风险",
+      "英文名称": "Negotiation Tactic Risk",
+      "来源": "Whistleblowers claim Facebook’s chaotic Australia news ban was a negotiating tactic"
+    },
+    "Stakeholder": {
+      "id": "FacebookCompany",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "AIOperator": {
+      "id": "FacebookPlatform",
+      "中文名称": "Facebook平台",
+      "英文名称": "Facebook Platform",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook’s chaotic Australia news ban"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookNewsBanSystem",
+      "中文名称": "Facebook新闻禁令系统",
+      "英文名称": "Facebook News Ban System",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "Risk": {
+      "id": "NegotiationTacticRisk",
+      "中文名称": "谈判策略风险",
+      "英文名称": "Negotiation Tactic Risk",
+      "来源": "Whistleblowers claim Facebook’s chaotic Australia news ban was a negotiating tactic"
+    },
+    "Stakeholder": {
+      "id": "FacebookCompany",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "AIOperator": {
+      "id": "FacebookPlatform",
+      "中文名称": "Facebook平台",
+      "英文名称": "Facebook Platform",
+      "来源": "Facebook’s chaotic Australia news ban"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook’s chaotic Australia news ban"
+    }
+  }
+}

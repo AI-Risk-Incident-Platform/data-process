@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceApp",
+      "中文名称": "FaceApp",
+      "英文名称": "FaceApp",
+      "来源": "FaceApp deletes new black, white and Asian filters after racism storm"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationRisk",
+      "中文名称": "种族歧视风险",
+      "英文名称": "Racial Discrimination Risk",
+      "来源": "FaceApp briefly let users change their skin color. Bad idea."
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对",
+      "英文名称": "Public Backlash",
+      "来源": "FaceApp deletes new black, white and Asian filters after racism storm"
+    },
+    "AICapability": {
+      "id": "FacialFeatureModification",
+      "中文名称": "面部特征修改能力",
+      "英文名称": "Facial Feature Modification Capability",
+      "来源": "FaceApp releases change-your-race filters"
+    },
+    "Stakeholder": {
+      "id": "AppUsers",
+      "中文名称": "应用用户",
+      "英文名称": "App Users",
+      "来源": "FaceApp briefly let users change their skin color."
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会伤害",
+      "英文名称": "Social Harm",
+      "来源": "FaceApp deletes new black, white and Asian filters after racism storm"
+    },
+    "Purpose": {
+      "id": "Entertainment",
+      "中文名称": "娱乐",
+      "英文名称": "Entertainment",
+      "来源": "FaceApp releases change-your-race filters"
+    },
+    "RiskSource": {
+      "id": "RaceChangingFeature",
+      "中文名称": "种族改变功能",
+      "英文名称": "Race Changing Feature",
+      "来源": "FaceApp releases change-your-race filters"
+    }
+  }
+}

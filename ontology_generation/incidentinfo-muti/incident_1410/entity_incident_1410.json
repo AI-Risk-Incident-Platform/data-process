@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的面部识别技术"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "Misidentification Risk",
+      "来源": "标题中提到的被错误识别为商店扒手"
+    },
+    "Consequence": {
+      "id": "WrongfulAccusation",
+      "中文名称": "错误指控后果",
+      "英文名称": "Wrongful Accusation Consequence",
+      "来源": "标题中提到的被错误指控为盗窃"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "标题中提到的被错误指控为盗窃"
+    },
+    "AISubject": {
+      "id": "Shoppers",
+      "中文名称": "购物者",
+      "英文名称": "Shoppers",
+      "来源": "标题中提到的Home Bargains购物者"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全领域",
+      "英文名称": "Retail Security Domain",
+      "来源": "标题中提到的商店扒手识别"
+    }
+  }
+}

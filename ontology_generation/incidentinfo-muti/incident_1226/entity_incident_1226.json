@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HRResumeScreeningSystem",
+      "中文名称": "HR简历筛选系统",
+      "英文名称": "HR Resume Screening System",
+      "来源": "Company fires HR team after manager's CV is auto-rejected within seconds"
+    },
+    "Risk": {
+      "id": "UnfairRejectionRisk",
+      "中文名称": "不公平拒绝风险",
+      "英文名称": "Unfair Rejection Risk",
+      "来源": "manager's CV is auto-rejected within seconds"
+    },
+    "Consequence": {
+      "id": "HRTeamTermination",
+      "中文名称": "人力资源团队解雇后果",
+      "英文名称": "HR Team Termination Consequence",
+      "来源": "Company fires HR team"
+    },
+    "Stakeholder": {
+      "id": "HRTeam",
+      "中文名称": "人力资源团队",
+      "英文名称": "HR Team",
+      "来源": "'Lazy and Mediocre' HR Team Fired"
+    },
+    "AIOperator": {
+      "id": "CompanyManagement",
+      "中文名称": "公司管理层",
+      "英文名称": "Company Management",
+      "来源": "Company fires HR team"
+    },
+    "Impact": {
+      "id": "LossOfHumanJudgmentInHiring",
+      "中文名称": "招聘中失去人类判断的影响",
+      "英文名称": "Loss of Human Judgment in Hiring Impact",
+      "来源": "netizens say AI 'should never replace human judgment'"
+    },
+    "Purpose": {
+      "id": "AutomatedResumeScreening",
+      "中文名称": "自动化简历筛选目的",
+      "英文名称": "Automated Resume Screening Purpose",
+      "来源": "manager's CV gets auto-rejected"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources Domain",
+      "来源": "HR team terminated"
+    },
+    "RiskSource": {
+      "id": "FaultyAlgorithmDesign",
+      "中文名称": "有缺陷的算法设计风险源",
+      "英文名称": "Faulty Algorithm Design Risk Source",
+      "来源": "manager's own CV gets auto-rejected in seconds, exposing system failure"
+    }
+  }
+}

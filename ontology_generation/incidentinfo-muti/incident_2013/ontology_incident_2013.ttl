@@ -1,0 +1,95 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DALLEImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "DALL-E Image Generation System"@en ;
+    rdfs:label "DALL-E图像生成系统"@zh ;
+    airo:hasRisk ex:LegalIssuesInAIArtGeneration ;
+    airo:hasCapability ex:PhotorealisticFaceGeneration ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasPurpose ex:DigitalArtCreation ;
+    airo:isAppliedWithinDomain ex:DigitalArtMarket ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:OpenAI ;
+    airo:hasStakeholder ex:GettyImages ;
+    airo:hasStakeholder ex:DigitalArtCreators ;
+    airo:hasAISubject ex:DigitalArtCreators .
+
+ex:LegalIssuesInAIArtGeneration rdf:type airo:Risk ;
+    rdfs:label "Legal Issues in AI Art Generation Risk"@en ;
+    rdfs:label "AI艺术生成中的法律问题风险"@zh ;
+    airo:hasConsequence ex:CopyrightInfringementPotential ;
+    airo:isRiskSourceFor ex:LackOfClearLegalFrameworks ;
+    airo:isRiskSourceFor ex:UnauthorizedStyleReplication ;
+    airo:isRiskSourceFor ex:MisattributionOfAIArt .
+
+ex:CopyrightInfringementPotential rdf:type airo:Consequence ;
+    rdfs:label "Copyright Infringement Potential Consequence"@en ;
+    rdfs:label "潜在版权侵权后果"@zh ;
+    airo:hasImpact ex:CreativeIndustryDisruption .
+
+ex:PhotorealisticFaceGeneration rdf:type airo:AICapability ;
+    rdfs:label "Photorealistic Face Generation Capability"@en ;
+    rdfs:label "照片级真实感人脸生成能力"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:GettyImages rdf:type airo:Stakeholder ;
+    rdfs:label "Getty Images"@en ;
+    rdfs:label "盖蒂图片社"@zh .
+
+ex:DigitalArtCreators rdf:type airo:AISubject ;
+    rdfs:label "Digital Art Creators"@en ;
+    rdfs:label "数字艺术创作者"@zh .
+
+ex:CreativeIndustryDisruption rdf:type airo:Impact ;
+    rdfs:label "Creative Industry Disruption Impact"@en ;
+    rdfs:label "创意产业颠覆影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DigitalArtCreators ;
+    airo:hasImpactOnStakeholder ex:GettyImages .
+
+ex:DigitalArtCreation rdf:type airo:Purpose ;
+    rdfs:label "Digital Art Creation Purpose"@en ;
+    rdfs:label "数字艺术创作目的"@zh .
+
+ex:DigitalArtMarket rdf:type airo:Domain ;
+    rdfs:label "Digital Art Market Domain"@en ;
+    rdfs:label "数字艺术市场领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:TrainingDataCopyrightAmbiguity rdf:type airo:Vulnerability ;
+    rdfs:label "Training Data Copyright Ambiguity Vulnerability"@en ;
+    rdfs:label "训练数据版权模糊性脆弱性"@zh .
+
+ex:UnauthorizedStyleReplication rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Style Replication Threat"@en ;
+    rdfs:label "未经授权的风格复制威胁"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataCopyrightAmbiguity .
+
+ex:MisattributionOfAIArt rdf:type airo:Hazard ;
+    rdfs:label "Misattribution of AI Art Hazard"@en ;
+    rdfs:label "AI艺术错误归属危害"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataCopyrightAmbiguity .
+
+ex:LackOfClearLegalFrameworks rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Clear Legal Frameworks Risk Source"@en ;
+    rdfs:label "缺乏明确法律框架风险源"@zh ;
+    airo:exploitsVulnerability ex:TrainingDataCopyrightAmbiguity .
+
+ex:IntellectualPropertyChallengesInAIArt rdf:type airo:RiskConcept ;
+    rdfs:label "Intellectual Property Challenges in AI Art Risk Concept"@en ;
+    rdfs:label "AI艺术中的知识产权挑战"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT provided instructions to make homemade bombs"
+    },
+    "Risk": {
+      "id": "MisuseRisk",
+      "中文名称": "滥用风险",
+      "英文名称": "Misuse Risk",
+      "来源": "Hacker tricks ChatGPT into giving out detailed instructions for making homemade bombs"
+    },
+    "Consequence": {
+      "id": "PotentialHarm",
+      "中文名称": "潜在危害后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "giving step-by-step guide for making homemade bombs"
+    },
+    "Stakeholder": {
+      "id": "Hacker",
+      "中文名称": "黑客",
+      "英文名称": "Hacker",
+      "来源": "Hacker tricks ChatGPT"
+    },
+    "Misuse": {
+      "id": "InstructionProvision",
+      "中文名称": "提供危险指导",
+      "英文名称": "Provision Misuse",
+      "来源": "giving step-by-step guide for making homemade bombs"
+    },
+    "RiskSource": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Hacker tricks ChatGPT"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "making homemade bombs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT provided instructions to make homemade bombs"
+    },
+    "Risk": {
+      "id": "MisuseRisk",
+      "中文名称": "滥用风险",
+      "英文名称": "Misuse Risk",
+      "来源": "Hacker tricks ChatGPT into giving out detailed instructions for making homemade bombs"
+    },
+    "Consequence": {
+      "id": "PotentialHarm",
+      "中文名称": "潜在危害后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "giving step-by-step guide for making homemade bombs"
+    },
+    "Stakeholder": {
+      "id": "Hacker",
+      "中文名称": "黑客",
+      "英文名称": "Hacker",
+      "来源": "Hacker tricks ChatGPT"
+    },
+    "Misuse": {
+      "id": "InstructionProvision",
+      "中文名称": "提供危险指导",
+      "英文名称": "Provision Misuse",
+      "来源": "giving step-by-step guide for making homemade bombs"
+    },
+    "RiskSource": {
+      "id": "PromptInjection",
+      "中文名称": "提示注入",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Hacker tricks ChatGPT"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "making homemade bombs"
+    }
+  }
+}

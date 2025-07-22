@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPhotoGenerationSystem",
+      "中文名称": "AI照片生成系统",
+      "英文名称": "AI Photo Generation System",
+      "来源": "These look like prizewinning photos. They’re AI fakes."
+    },
+    "Risk": {
+      "id": "MisleadingContentCreationRisk",
+      "中文名称": "误导性内容创作风险",
+      "英文名称": "Misleading Content Creation Risk",
+      "来源": "They’re AI fakes."
+    },
+    "Consequence": {
+      "id": "DeceptionInPhotographyCompetitions",
+      "中文名称": "摄影比赛中的欺骗后果",
+      "英文名称": "Deception in Photography Competitions Consequence",
+      "来源": "These look like prizewinning photos."
+    },
+    "AICapability": {
+      "id": "PhotorealisticImageGeneration",
+      "中文名称": "照片级真实感图像生成能力",
+      "英文名称": "Photorealistic Image Generation Capability",
+      "来源": "These look like prizewinning photos."
+    },
+    "Impact": {
+      "id": "UnderminingTrustInPhotographicArt",
+      "中文名称": "削弱对摄影艺术信任的影响",
+      "英文名称": "Undermining Trust in Photographic Art Impact",
+      "来源": "They’re AI fakes."
+    },
+    "Purpose": {
+      "id": "CreatingRealisticDigitalArt",
+      "中文名称": "创建逼真数字艺术的目的",
+      "英文名称": "Creating Realistic Digital Art Purpose",
+      "来源": "These look like prizewinning photos."
+    },
+    "Domain": {
+      "id": "DigitalArtAndPhotography",
+      "中文名称": "数字艺术与摄影领域",
+      "英文名称": "Digital Art and Photography Domain",
+      "来源": "These look like prizewinning photos."
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "They’re AI fakes."
+    },
+    "RiskSource": {
+      "id": "LackOfContentAuthenticationMechanisms",
+      "中文名称": "缺乏内容认证机制的风险源",
+      "英文名称": "Lack of Content Authentication Mechanisms Risk Source",
+      "来源": "They’re AI fakes."
+    },
+    "Vulnerability": {
+      "id": "HumanInabilityToDetectAIgeneratedContent",
+      "中文名称": "人类无法识别AI生成内容的脆弱性",
+      "英文名称": "Human Inability to Detect AI-generated Content Vulnerability",
+      "来源": "These look like prizewinning photos."
+    }
+  }
+}

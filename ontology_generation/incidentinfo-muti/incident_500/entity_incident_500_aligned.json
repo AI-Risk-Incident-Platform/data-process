@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlleghenyFamilyScreeningTool",
+      "中文名称": "阿勒格尼家庭筛查工具",
+      "英文名称": "Allegheny Family Screening Tool",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "Risk": {
+      "id": "ThreateningFamiliesRisk",
+      "中文名称": "威胁家庭风险",
+      "英文名称": "Threatening Families Risk",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Consequence": {
+      "id": "FlaggingParentsWithDisabilities",
+      "中文名称": "标记残疾父母后果",
+      "英文名称": "Flagging Parents with Disabilities Consequence",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "AICapability": {
+      "id": "FamilyScreeningCapability",
+      "中文名称": "家庭筛查能力",
+      "英文名称": "Family Screening Capability",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "AIOperator": {
+      "id": "PennsylvaniaCountyGovernment",
+      "中文名称": "宾夕法尼亚县政府",
+      "英文名称": "Pennsylvania County Government",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Stakeholder": {
+      "id": "FamiliesInPennsylvaniaCounty",
+      "中文名称": "宾夕法尼亚县家庭",
+      "英文名称": "Families in Pennsylvania County",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "AISubject": {
+      "id": "ParentsWithDisabilities",
+      "中文名称": "残疾父母",
+      "英文名称": "Parents with Disabilities",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Impact": {
+      "id": "FamilyDisruptionImpact",
+      "中文名称": "家庭破裂影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Purpose": {
+      "id": "ChildWelfareScreeningPurpose",
+      "中文名称": "儿童福利筛查目的",
+      "英文名称": "Child Welfare Screening Purpose",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "Domain": {
+      "id": "SocialServicesDomain",
+      "中文名称": "社会服务领域",
+      "英文名称": "Social Services Domain",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "AITechnique": {
+      "id": "OpaqueAlgorithmTechnique",
+      "中文名称": "不透明算法技术",
+      "英文名称": "Opaque Algorithm Technique",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Vulnerability": {
+      "id": "BiasAgainstDisabledParentsVulnerability",
+      "中文名称": "对残疾父母偏见的脆弱性",
+      "英文名称": "Bias Against Disabled Parents Vulnerability",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Threat": {
+      "id": "UnfairTargetingOfFamiliesThreat",
+      "中文名称": "不公平针对家庭的威胁",
+      "英文名称": "Unfair Targeting of Families Threat",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Hazard": {
+      "id": "AlgorithmicBiasHazard",
+      "中文名称": "算法偏见危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "RiskSource": {
+      "id": "HiddenPolicyInAlgorithmRiskSource",
+      "中文名称": "算法中隐藏政策的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedScreeningRiskConcept",
+      "中文名称": "自动筛查中的伦理问题风险概念",
+      "英文名称": "Ethical Issues in Automated Screening Risk Concept",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlleghenyFamilyScreeningTool",
+      "中文名称": "阿勒格尼家庭筛查工具",
+      "英文名称": "Allegheny Family Screening Tool",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "Risk": {
+      "id": "ThreateningFamiliesRisk",
+      "中文名称": "威胁家庭风险",
+      "英文名称": "Threatening Families Risk",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Consequence": {
+      "id": "FlaggingParentsWithDisabilities",
+      "中文名称": "标记残疾父母后果",
+      "英文名称": "Flagging Parents with Disabilities Consequence",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "AICapability": {
+      "id": "FamilyScreeningCapability",
+      "中文名称": "家庭筛查能力",
+      "英文名称": "Family Screening Capability",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "AIOperator": {
+      "id": "PennsylvaniaCountyGovernment",
+      "中文名称": "宾夕法尼亚县政府",
+      "英文名称": "Pennsylvania County Government",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Stakeholder": {
+      "id": "FamiliesInPennsylvaniaCounty",
+      "中文名称": "宾夕法尼亚县家庭",
+      "英文名称": "Families in Pennsylvania County",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "AISubject": {
+      "id": "ParentsWithDisabilities",
+      "中文名称": "残疾父母",
+      "英文名称": "Parents with Disabilities",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Impact": {
+      "id": "FamilyDisruptionImpact",
+      "中文名称": "家庭破裂影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Purpose": {
+      "id": "ChildWelfareScreeningPurpose",
+      "中文名称": "儿童福利筛查目的",
+      "英文名称": "Child Welfare Screening Purpose",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "Domain": {
+      "id": "SocialServicesDomain",
+      "中文名称": "社会服务领域",
+      "英文名称": "Social Services Domain",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "AITechnique": {
+      "id": "OpaqueAlgorithmTechnique",
+      "中文名称": "不透明算法技术",
+      "英文名称": "Opaque Algorithm Technique",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Vulnerability": {
+      "id": "BiasAgainstDisabledParentsVulnerability",
+      "中文名称": "对残疾父母偏见的脆弱性",
+      "英文名称": "Bias Against Disabled Parents Vulnerability",
+      "来源": "Not magic: Opaque AI tool may flag parents with disabilities"
+    },
+    "Threat": {
+      "id": "UnfairTargetingOfFamiliesThreat",
+      "中文名称": "不公平针对家庭的威胁",
+      "英文名称": "Unfair Targeting of Families Threat",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "Hazard": {
+      "id": "AlgorithmicBiasHazard",
+      "中文名称": "算法偏见危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    },
+    "RiskSource": {
+      "id": "HiddenPolicyInAlgorithmRiskSource",
+      "中文名称": "算法中隐藏政策的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "How Policy Hidden in an Algorithm is Threatening Families in This Pennsylvania County"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedScreeningRiskConcept",
+      "中文名称": "自动筛查中的伦理问题风险概念",
+      "英文名称": "Ethical Issues in Automated Screening Risk Concept",
+      "来源": "The Devil is in the Details: Interrogating Values Embedded in the Allegheny Family Screening Tool"
+    }
+  }
+}

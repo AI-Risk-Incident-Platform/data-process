@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonDeliveryDriverMonitoringAI rdf:type airo:AISystem ;
+    rdfs:label "Amazon Delivery Driver Monitoring AI"@en ;
+    rdfs:label "亚马逊送货司机监控AI"@zh ;
+    airo:hasRisk ex:UnfairPenalizationRisk ;
+    airo:hasAISubject ex:AmazonDeliveryDrivers ;
+    airo:isDevelopedBy ex:Amazon ;
+    airo:hasStakeholder ex:AmazonDeliveryDrivers, ex:Amazon .
+
+ex:UnfairPenalizationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Penalization Risk"@en ;
+    rdfs:label "不公平惩罚风险"@zh ;
+    airo:hasConsequence ex:DriverPerformancePenalties ;
+    airo:isRiskSourceFor ex:FaultyDriverBehaviorDetection .
+
+ex:DriverPerformancePenalties rdf:type airo:Consequence ;
+    rdfs:label "Driver Performance Penalties Consequence"@en ;
+    rdfs:label "司机绩效处罚后果"@zh ;
+    airo:hasImpact ex:UnjustWorkplaceConsequences .
+
+ex:AmazonDeliveryDrivers rdf:type airo:AISubject ;
+    rdfs:label "Amazon Delivery Drivers"@en ;
+    rdfs:label "亚马逊送货司机"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:FaultyDriverBehaviorDetection rdf:type airo:RiskSource ;
+    rdfs:label "Faulty Driver Behavior Detection"@en ;
+    rdfs:label "错误的司机行为检测"@zh .
+
+ex:UnjustWorkplaceConsequences rdf:type airo:Impact ;
+    rdfs:label "Unjust Workplace Consequences"@en ;
+    rdfs:label "不公正的工作后果"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonDeliveryDrivers .

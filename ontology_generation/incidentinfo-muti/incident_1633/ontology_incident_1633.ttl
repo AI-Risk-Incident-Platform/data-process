@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa"@en ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:VoiceAssistantService ;
+    airo:isAppliedWithinDomain ex:ConsumerElectronics ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:Amazon ;
+    airo:isDevelopedBy ex:AmazonAIProvider .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众误导后果"@zh ;
+    airo:hasImpact ex:ElectionIntegrityUndermined .
+
+ex:ElectionIntegrityUndermined rdf:type airo:Impact ;
+    rdfs:label "Election Integrity Undermined Impact"@en ;
+    rdfs:label "选举诚信受损的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Amazon .
+
+ex:Amazon rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:AmazonAIProvider rdf:type airo:AIOperator ;
+    rdfs:label "Amazon AI Provider"@en ;
+    rdfs:label "亚马逊AI提供者"@zh .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error Risk Source"@en ;
+    rdfs:label "算法错误风险源"@zh .
+
+ex:VoiceAssistantService rdf:type airo:Purpose ;
+    rdfs:label "Voice Assistant Service Purpose"@en ;
+    rdfs:label "语音助手服务的目的"@zh .
+
+ex:ConsumerElectronics rdf:type airo:Domain ;
+    rdfs:label "Consumer Electronics Domain"@en ;
+    rdfs:label "消费电子领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .

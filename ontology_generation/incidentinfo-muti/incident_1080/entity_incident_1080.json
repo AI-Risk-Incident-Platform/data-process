@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EngineerAI",
+      "中文名称": "Engineer.ai",
+      "英文名称": "Engineer.ai",
+      "来源": "Engineer.ai: Cautionary tale of inflated claims and lack of transparency?"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "Misrepresentation of AI Capabilities Risk",
+      "来源": "This AI startup claims to automate app making but actually just uses humans"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInAIUsage",
+      "中文名称": "AI使用缺乏透明度风险源",
+      "英文名称": "Lack of Transparency in AI Usage Risk Source",
+      "来源": "Engineer.ai: Cautionary tale of inflated claims and lack of transparency?"
+    },
+    "Consequence": {
+      "id": "InvestorDeception",
+      "中文名称": "投资者欺骗后果",
+      "英文名称": "Investor Deception Consequence",
+      "来源": "Engineer.ai: Cautionary tale of inflated claims and lack of transparency?"
+    },
+    "Impact": {
+      "id": "LossOfTrustInAIStartups",
+      "中文名称": "AI初创企业信任丧失影响",
+      "英文名称": "Loss of Trust in AI Startups Impact",
+      "来源": "Engineer.ai: Cautionary tale of inflated claims and lack of transparency?"
+    },
+    "Stakeholder": {
+      "id": "Investors",
+      "中文名称": "投资者",
+      "英文名称": "Investors",
+      "来源": "Engineer.ai: Cautionary tale of inflated claims and lack of transparency?"
+    },
+    "AIDeveloper": {
+      "id": "EngineerAICompany",
+      "中文名称": "Engineer.ai公司",
+      "英文名称": "Engineer.ai Company",
+      "来源": "This AI startup claims to automate app making but actually just uses humans"
+    },
+    "Purpose": {
+      "id": "AutomatedAppDevelopment",
+      "中文名称": "自动化应用开发目的",
+      "英文名称": "Automated App Development Purpose",
+      "来源": "This AI startup claims to automate app making but actually just uses humans"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发领域",
+      "英文名称": "Software Development Domain",
+      "来源": "This AI startup claims to automate app making but actually just uses humans"
+    },
+    "Misuse": {
+      "id": "HumanLaborMisrepresentedAsAI",
+      "中文名称": "人工劳动冒充AI滥用",
+      "英文名称": "Human Labor Misrepresented as AI Misuse",
+      "来源": "This AI startup claims to automate app making but actually just uses humans"
+    }
+  }
+}

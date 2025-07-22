@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeHalloweenParadeAd",
+      "中文名称": "虚假万圣节游行广告",
+      "英文名称": "Fake Halloween Parade Ad",
+      "来源": "Thousands of Irish people duped by fake AI Halloween parade ad"
+    },
+    "Risk": {
+      "id": "PublicDeceptionRisk",
+      "中文名称": "公众欺骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Thousands Tricked By AI Ad to Show Up For Fake Halloween Parade"
+    },
+    "Consequence": {
+      "id": "MassGatheringForNonexistentEvent",
+      "中文名称": "为不存在的事件大规模聚集",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI generated hoax sends hundreds to Dublin centre for non-existent Halloween parade"
+    },
+    "Stakeholder": {
+      "id": "IrishPublic",
+      "中文名称": "爱尔兰公众",
+      "英文名称": "Irish Public",
+      "来源": "Thousands of Irish people duped by fake AI Halloween parade ad"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedHoax",
+      "中文名称": "AI生成的骗局",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI generated hoax sends hundreds to Dublin centre for non-existent Halloween parade"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndInconvenience",
+      "中文名称": "公众困惑与不便",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Thousands Tricked By AI Ad to Show Up For Fake Halloween Parade"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeHalloweenParadeAd",
+      "中文名称": "虚假万圣节游行广告",
+      "英文名称": "Fake Halloween Parade Ad",
+      "来源": "Thousands of Irish people duped by fake AI Halloween parade ad"
+    },
+    "Risk": {
+      "id": "PublicDeceptionRisk",
+      "中文名称": "公众欺骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Thousands Tricked By AI Ad to Show Up For Fake Halloween Parade"
+    },
+    "Consequence": {
+      "id": "MassGatheringForNonexistentEvent",
+      "中文名称": "为不存在的事件大规模聚集",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI generated hoax sends hundreds to Dublin centre for non-existent Halloween parade"
+    },
+    "Stakeholder": {
+      "id": "IrishPublic",
+      "中文名称": "爱尔兰公众",
+      "英文名称": "Irish Public",
+      "来源": "Thousands of Irish people duped by fake AI Halloween parade ad"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedHoax",
+      "中文名称": "AI生成的骗局",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI generated hoax sends hundreds to Dublin centre for non-existent Halloween parade"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndInconvenience",
+      "中文名称": "公众困惑与不便",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Thousands Tricked By AI Ad to Show Up For Fake Halloween Parade"
+    }
+  }
+}

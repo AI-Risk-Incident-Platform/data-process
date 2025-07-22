@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WazeNavigationApp",
+      "中文名称": "Waze导航应用",
+      "英文名称": "Waze Navigation App",
+      "来源": "Sherman Oaks residents blame Waze navigation app for clogging streets"
+    },
+    "Risk": {
+      "id": "TrafficCongestionRisk",
+      "中文名称": "交通拥堵风险",
+      "英文名称": "Traffic Congestion Risk",
+      "来源": "Sherman Oaks residents blame Waze navigation app for clogging streets"
+    },
+    "Consequence": {
+      "id": "ResidentialStreetCongestion",
+      "中文名称": "居民区街道拥堵后果",
+      "英文名称": "Residential Street Congestion Consequence",
+      "来源": "Sherman Oaks residents blame Waze navigation app for clogging streets"
+    },
+    "Stakeholder": {
+      "id": "ShermanOaksResidents",
+      "中文名称": "Sherman Oaks居民",
+      "英文名称": "Sherman Oaks Residents",
+      "来源": "Sherman Oaks residents blame Waze navigation app for clogging streets"
+    },
+    "AIOperator": {
+      "id": "WazeCompany",
+      "中文名称": "Waze公司",
+      "英文名称": "Waze Company",
+      "来源": "Why Some Cities Have Had Enough of Waze"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "LA City Council Seeks Solutions to Waze Traffic on Side Streets"
+    },
+    "Purpose": {
+      "id": "OptimalRouteNavigation",
+      "中文名称": "最优路线导航目的",
+      "英文名称": "Optimal Route Navigation Purpose",
+      "来源": "Why Some Cities Have Had Enough of Waze"
+    },
+    "Impact": {
+      "id": "ResidentialQualityOfLifeDegradation",
+      "中文名称": "居民生活质量下降影响",
+      "英文名称": "Residential Quality of Life Degradation Impact",
+      "来源": "Sherman Oaks residents blame Waze navigation app for clogging streets"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicRouteOptimization",
+      "中文名称": "算法路线优化风险源",
+      "英文名称": "Algorithmic Route Optimization Risk Source",
+      "来源": "Why Some Cities Have Had Enough of Waze"
+    }
+  }
+}

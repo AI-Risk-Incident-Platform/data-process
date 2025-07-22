@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SouthwestAirlinesSchedulingSystem",
+      "中文名称": "西南航空调度系统",
+      "英文名称": "Southwest Airlines Scheduling System",
+      "来源": "How Southwest Airlines Melted Down"
+    },
+    "Risk": {
+      "id": "OperationalDisruptionRisk",
+      "中文名称": "运营中断风险",
+      "英文名称": "Operational Disruption Risk",
+      "来源": "How Southwest Airlines Melted Down"
+    },
+    "Consequence": {
+      "id": "FlightCancellations",
+      "中文名称": "航班取消后果",
+      "英文名称": "Flight Cancellations Consequence",
+      "来源": "How Southwest Airlines Melted Down"
+    },
+    "Impact": {
+      "id": "PassengerStranding",
+      "中文名称": "乘客滞留影响",
+      "英文名称": "Passenger Stranding Impact",
+      "来源": "How Southwest Airlines Melted Down"
+    },
+    "Domain": {
+      "id": "AirlineIndustry",
+      "中文名称": "航空业领域",
+      "英文名称": "Airline Industry Domain",
+      "来源": "How Southwest Airlines Melted Down"
+    },
+    "Stakeholder": {
+      "id": "SouthwestAirlinesPassengers",
+      "中文名称": "西南航空乘客",
+      "英文名称": "Southwest Airlines Passengers",
+      "来源": "How Southwest Airlines Melted Down"
+    }
+  }
+}

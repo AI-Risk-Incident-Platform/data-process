@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YieldStarAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YieldStar算法"@zh ;
+    rdfs:label "YieldStar Algorithm"@en ;
+    airo:hasRisk ex:RentInflationRisk ;
+    airo:isAppliedWithinDomain ex:RealEstateMarket ;
+    airo:hasStakeholder ex:Tenants ;
+    airo:isDeployedBy ex:RealPageInc ;
+    airo:usesTechnique ex:PredictivePricingModel .
+
+ex:RentInflationRisk rdf:type airo:Risk ;
+    rdfs:label "租金上涨风险"@zh ;
+    rdfs:label "Rent Inflation Risk"@en ;
+    airo:hasConsequence ex:HousingAffordabilityCrisis ;
+    airo:isRiskSourceFor ex:AlgorithmicPriceFixing .
+
+ex:RealEstateMarket rdf:type airo:Domain ;
+    rdfs:label "房地产市场"@zh ;
+    rdfs:label "Real Estate Market"@en .
+
+ex:Tenants rdf:type airo:Stakeholder ;
+    rdfs:label "租户"@zh ;
+    rdfs:label "Tenants"@en .
+
+ex:RealPageInc rdf:type airo:AIOperator ;
+    rdfs:label "RealPage公司"@zh ;
+    rdfs:label "RealPage Inc."@en .
+
+ex:HousingAffordabilityCrisis rdf:type airo:Consequence ;
+    rdfs:label "住房可负担性危机"@zh ;
+    rdfs:label "Housing Affordability Crisis"@en ;
+    airo:hasImpact ex:FinancialHardshipForRenters .
+
+ex:FinancialHardshipForRenters rdf:type airo:Impact ;
+    rdfs:label "租房者经济困难"@zh ;
+    rdfs:label "Financial Hardship for Renters"@en ;
+    airo:hasImpactOnStakeholder ex:Tenants .
+
+ex:AlgorithmicPriceFixing rdf:type airo:RiskSource ;
+    rdfs:label "算法价格操纵"@zh ;
+    rdfs:label "Algorithmic Price Fixing"@en .
+
+ex:PredictivePricingModel rdf:type airo:AITechnique ;
+    rdfs:label "预测性定价模型"@zh ;
+    rdfs:label "Predictive Pricing Model"@en .

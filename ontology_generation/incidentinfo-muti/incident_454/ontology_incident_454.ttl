@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CNETAIJournalist rdf:type airo:AISystem ;
+    rdfs:label "CNET AI Journalist"@en ;
+    rdfs:label "CNET的AI记者"@zh ;
+    airo:hasRisk ex:PlagiarismRisk ;
+    airo:hasCapability ex:ContentGeneration ;
+    airo:isDeployedBy ex:CNET ;
+    airo:hasPurpose ex:AutomatedJournalism ;
+    airo:hasStakeholder ex:Readers ;
+    airo:isAppliedWithinDomain ex:DigitalMedia ;
+    airo:usesTechnique ex:NaturalLanguageGeneration .
+
+ex:PlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Plagiarism Risk"@en ;
+    rdfs:label "抄袭风险"@zh ;
+    airo:hasConsequence ex:CredibilityLoss ;
+    airo:isRiskSourceFor ex:TrainingDataContamination ;
+    airo:isRiskSourceFor ex:UnattendedContentPublication .
+
+ex:CredibilityLoss rdf:type airo:Consequence ;
+    rdfs:label "Credibility Loss Consequence"@en ;
+    rdfs:label "信誉损失后果"@zh ;
+    airo:hasImpact ex:TrustErosion .
+
+ex:ContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Content Generation Capability"@en ;
+    rdfs:label "内容生成能力"@zh .
+
+ex:CNET rdf:type airo:AIOperator ;
+    rdfs:label "CNET"@en ;
+    rdfs:label "CNET"@zh .
+
+ex:Readers rdf:type airo:Stakeholder ;
+    rdfs:label "Readers"@en ;
+    rdfs:label "读者"@zh .
+
+ex:TrustErosion rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion Impact"@en ;
+    rdfs:label "信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Readers .
+
+ex:AutomatedJournalism rdf:type airo:Purpose ;
+    rdfs:label "Automated Journalism Purpose"@en ;
+    rdfs:label "自动化新闻生产目的"@zh .
+
+ex:DigitalMedia rdf:type airo:Domain ;
+    rdfs:label "Digital Media Domain"@en ;
+    rdfs:label "数字媒体领域"@zh .
+
+ex:NaturalLanguageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:TrainingDataContamination rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Contamination Risk Source"@en ;
+    rdfs:label "训练数据污染风险源"@zh .
+
+ex:UnattendedContentPublication rdf:type airo:Misuse ;
+    rdfs:label "Unattended Content Publication Misuse"@en ;
+    rdfs:label "无人监督的内容发布滥用"@zh .

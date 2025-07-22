@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WarehouseRobotSystem rdf:type airo:AISystem ;
+    rdfs:label "Warehouse Robot System"@en ;
+    rdfs:label "仓库机器人系统"@zh ;
+    airo:hasRisk ex:FireHazardFromRobotCollision ;
+    airo:isAppliedWithinDomain ex:OnlineGroceryRetail .
+
+ex:FireHazardFromRobotCollision rdf:type airo:Risk ;
+    rdfs:label "Fire Hazard from Robot Collision Risk"@en ;
+    rdfs:label "机器人碰撞引发火灾风险"@zh ;
+    airo:hasConsequence ex:OrderDeliveryDelays ;
+    airo:isRiskSourceFor ex:RobotCollisionHazard .
+
+ex:OrderDeliveryDelays rdf:type airo:Consequence ;
+    rdfs:label "Order Delivery Delays Consequence"@en ;
+    rdfs:label "订单交付延迟后果"@zh ;
+    airo:hasImpact ex:SupplyChainDisruption .
+
+ex:OnlineGroceryRetail rdf:type airo:Domain ;
+    rdfs:label "Online Grocery Retail Domain"@en ;
+    rdfs:label "在线杂货零售领域"@zh .
+
+ex:SupplyChainDisruption rdf:type airo:Impact ;
+    rdfs:label "Supply Chain Disruption Impact"@en ;
+    rdfs:label "供应链中断影响"@zh .
+
+ex:RobotCollisionHazard rdf:type airo:Hazard ;
+    rdfs:label "Robot Collision Hazard"@en ;
+    rdfs:label "机器人碰撞危害"@zh .

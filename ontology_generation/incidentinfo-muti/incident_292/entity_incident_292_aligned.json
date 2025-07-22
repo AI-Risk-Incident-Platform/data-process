@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleSelfDrivingCar",
+      "中文名称": "苹果自动驾驶汽车",
+      "英文名称": "Apple Self-Driving Car",
+      "来源": "Apple’s self-driving cars ‘smacked into curbs, veered out of lanes’"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶汽车安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "‘smacked into curbs, veered out of lanes’"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "‘smacked into curbs’"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "self-driving cars"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple’s self-driving cars"
+    },
+    "Stakeholder": {
+      "id": "PublicRoadUsers",
+      "中文名称": "公共道路使用者",
+      "英文名称": "Road Users",
+      "来源": "‘veered out of lanes’"
+    },
+    "Impact": {
+      "id": "RoadSafetyThreat",
+      "中文名称": "道路安全威胁的影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "‘veered out of lanes’"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶运输的目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "self-driving cars"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "self-driving cars"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "self-driving cars"
+    },
+    "Vulnerability": {
+      "id": "LaneDetectionFailure",
+      "中文名称": "车道检测失败的脆弱性",
+      "英文名称": "Lane Detection Failure Vulnerability",
+      "来源": "‘veered out of lanes’"
+    },
+    "Threat": {
+      "id": "AutonomousSystemMalfunction",
+      "中文名称": "自动驾驶系统故障的威胁",
+      "英文名称": "Autonomous System Malfunction Threat",
+      "来源": "‘smacked into curbs’"
+    },
+    "Hazard": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件危害",
+      "英文名称": "Unpredictable Road Conditions Hazard",
+      "来源": "‘veered out of lanes’"
+    },
+    "RiskSource": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制的风险源",
+      "英文名称": "Sensor Limitations Risk Source",
+      "来源": "‘smacked into curbs’"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleTestingChallenges",
+      "中文名称": "自动驾驶汽车测试挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "‘smacked into curbs, veered out of lanes’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AppleSelfDrivingCar",
+      "中文名称": "苹果自动驾驶汽车",
+      "英文名称": "Apple Self-Driving Car",
+      "来源": "Apple’s self-driving cars ‘smacked into curbs, veered out of lanes’"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶汽车安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "‘smacked into curbs, veered out of lanes’"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "‘smacked into curbs’"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "self-driving cars"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "Apple’s self-driving cars"
+    },
+    "Stakeholder": {
+      "id": "PublicRoadUsers",
+      "中文名称": "公共道路使用者",
+      "英文名称": "Road Users",
+      "来源": "‘veered out of lanes’"
+    },
+    "Impact": {
+      "id": "RoadSafetyThreat",
+      "中文名称": "道路安全威胁的影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "‘veered out of lanes’"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶运输的目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "self-driving cars"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "self-driving cars"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "self-driving cars"
+    },
+    "Vulnerability": {
+      "id": "LaneDetectionFailure",
+      "中文名称": "车道检测失败的脆弱性",
+      "英文名称": "Lane Detection Failure Vulnerability",
+      "来源": "‘veered out of lanes’"
+    },
+    "Threat": {
+      "id": "AutonomousSystemMalfunction",
+      "中文名称": "自动驾驶系统故障的威胁",
+      "英文名称": "Autonomous System Malfunction Threat",
+      "来源": "‘smacked into curbs’"
+    },
+    "Hazard": {
+      "id": "UnpredictableRoadConditions",
+      "中文名称": "不可预测的道路条件危害",
+      "英文名称": "Unpredictable Road Conditions Hazard",
+      "来源": "‘veered out of lanes’"
+    },
+    "RiskSource": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制的风险源",
+      "英文名称": "Sensor Limitations Risk Source",
+      "来源": "‘smacked into curbs’"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleTestingChallenges",
+      "中文名称": "自动驾驶汽车测试挑战",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "‘smacked into curbs, veered out of lanes’"
+    }
+  }
+}

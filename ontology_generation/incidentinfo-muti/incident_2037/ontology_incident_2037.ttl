@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIProsecutorSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Prosecutor System"@en ;
+    rdfs:label "AI检察官系统"@zh ;
+    airo:hasRisk ex:JudicialDecisionMakingBiasRisk ;
+    airo:hasCapability ex:CrimeChargingCapability ;
+    airo:hasPurpose ex:AutomatedJudicialDecisionMaking ;
+    airo:isAppliedWithinDomain ex:JudicialSystem ;
+    airo:usesTechnique ex:MachineLearningForLegalJudgment ;
+    airo:hasStakeholder ex:DefendantsSubjectToAIJudgment .
+
+ex:JudicialDecisionMakingBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Judicial Decision Making Bias Risk"@en ;
+    rdfs:label "司法决策偏见风险"@zh ;
+    airo:hasConsequence ex:PotentialMiscarriageOfJustice ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInLegalJudgment .
+
+ex:CrimeChargingCapability rdf:type airo:AICapability ;
+    rdfs:label "Crime Charging Capability"@en ;
+    rdfs:label "犯罪指控能力"@zh .
+
+ex:AutomatedJudicialDecisionMaking rdf:type airo:Purpose ;
+    rdfs:label "Automated Judicial Decision Making"@en ;
+    rdfs:label "自动化司法决策"@zh .
+
+ex:JudicialSystem rdf:type airo:Domain ;
+    rdfs:label "Judicial System"@en ;
+    rdfs:label "司法系统"@zh .
+
+ex:MachineLearningForLegalJudgment rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Legal Judgment Technique"@en ;
+    rdfs:label "法律判决机器学习技术"@zh .
+
+ex:PotentialMiscarriageOfJustice rdf:type airo:Consequence ;
+    rdfs:label "Potential Miscarriage of Justice Consequence"@en ;
+    rdfs:label "潜在司法不公后果"@zh ;
+    airo:hasImpact ex:CivilRightsViolationImpact .
+
+ex:CivilRightsViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Civil Rights Violation Impact"@en ;
+    rdfs:label "公民权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DefendantsSubjectToAIJudgment .
+
+ex:AlgorithmicBiasInLegalJudgment rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Legal Judgment Risk Source"@en ;
+    rdfs:label "法律判决中的算法偏见风险源"@zh .
+
+ex:DefendantsSubjectToAIJudgment rdf:type airo:Stakeholder ;
+    rdfs:label "Defendants Subject to AI Judgment"@en ;
+    rdfs:label "接受AI判决的被告"@zh .

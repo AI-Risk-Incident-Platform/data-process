@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlexaVoiceAssistant",
+      "中文名称": "Alexa语音助手",
+      "英文名称": "Alexa",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Stakeholder": {
+      "id": "AmazonEmployees",
+      "中文名称": "亚马逊员工",
+      "英文名称": "Amazon Workers",
+      "来源": "'Thousands' of Amazon employees are listening to Alexa recordings"
+    },
+    "AISubject": {
+      "id": "AlexaUsers",
+      "中文名称": "Alexa用户",
+      "英文名称": "Alexa Users",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon reportedly employs thousands of people to listen to your Alexa conversations"
+    },
+    "RiskSource": {
+      "id": "HumanReviewProcess",
+      "中文名称": "人工审核流程风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "Amazon reportedly employs thousands of people to listen to your Alexa conversations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlexaVoiceAssistant",
+      "中文名称": "Alexa语音助手",
+      "英文名称": "Alexa",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Stakeholder": {
+      "id": "AmazonEmployees",
+      "中文名称": "亚马逊员工",
+      "英文名称": "Amazon Workers",
+      "来源": "'Thousands' of Amazon employees are listening to Alexa recordings"
+    },
+    "AISubject": {
+      "id": "AlexaUsers",
+      "中文名称": "Alexa用户",
+      "英文名称": "Alexa Users",
+      "来源": "Amazon employees are listening to what you say to Alexa"
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon reportedly employs thousands of people to listen to your Alexa conversations"
+    },
+    "RiskSource": {
+      "id": "HumanReviewProcess",
+      "中文名称": "人工审核流程风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "Amazon reportedly employs thousands of people to listen to your Alexa conversations"
+    }
+  }
+}

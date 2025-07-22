@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedRobocalls rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Robocalls"@en ;
+    rdfs:label "AI生成自动电话"@zh ;
+    airo:hasRisk ex:MisrepresentationRisk ;
+    airo:usesTechnique ex:AudioDeepfake ;
+    airo:hasStakeholder ex:NewYorkResidents ;
+    airo:isDeployedBy ex:MayorEricAdams .
+
+ex:MisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation Risk"@en ;
+    rdfs:label "虚假陈述风险"@zh .
+
+ex:AudioDeepfake rdf:type airo:AITechnique ;
+    rdfs:label "Audio Deepfake"@en ;
+    rdfs:label "音频深度伪造"@zh .
+
+ex:NewYorkResidents rdf:type airo:Stakeholder ;
+    rdfs:label "New York Residents"@en ;
+    rdfs:label "纽约居民"@zh .
+
+ex:MayorEricAdams rdf:type airo:AIOperator ;
+    rdfs:label "Mayor Eric Adams"@en ;
+    rdfs:label "市长埃里克·亚当斯"@zh .

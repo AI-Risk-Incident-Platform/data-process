@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "JurySelectionAlgorithm",
+      "中文名称": "陪审团选择算法",
+      "英文名称": "Jury Selection Algorithm",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    },
+    "Risk": {
+      "id": "RacialBiasInJurySelection",
+      "中文名称": "陪审团选择中的种族偏见风险",
+      "英文名称": "Racial Bias in Jury Selection Risk",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    },
+    "Stakeholder": {
+      "id": "Jurors",
+      "中文名称": "陪审员",
+      "英文名称": "Jurors",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    },
+    "Consequence": {
+      "id": "UnfairTrialOutcomes",
+      "中文名称": "不公平审判结果后果",
+      "英文名称": "Unfair Trial Outcomes Consequence",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    },
+    "Impact": {
+      "id": "JusticeSystemDistrust",
+      "中文名称": "司法系统不信任影响",
+      "英文名称": "Justice System Distrust Impact",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "This Company Is Using Racially Biased Algorithms to Select Jurors"
+    }
+  }
+}

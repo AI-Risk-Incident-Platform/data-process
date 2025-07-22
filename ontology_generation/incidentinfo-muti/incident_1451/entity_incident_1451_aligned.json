@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PoliticalAI",
+      "中文名称": "政治AI",
+      "英文名称": "Political AI",
+      "来源": "Growing use of AI for political purposes is a risk to Canada's democracy"
+    },
+    "Risk": {
+      "id": "DemocraticRisk",
+      "中文名称": "民主风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "a risk to Canada's democracy"
+    },
+    "Domain": {
+      "id": "PoliticalDomain",
+      "中文名称": "政治领域",
+      "英文名称": "Political Domain",
+      "来源": "use of AI for political purposes"
+    },
+    "Impact": {
+      "id": "DemocraticErosion",
+      "中文名称": "民主侵蚀",
+      "英文名称": "Democratic Erosion",
+      "来源": "a risk to Canada's democracy"
+    },
+    "Stakeholder": {
+      "id": "CanadianPublic",
+      "中文名称": "加拿大公众",
+      "英文名称": "Canadian Public",
+      "来源": "Canada's democracy"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PoliticalAI",
+      "中文名称": "政治AI",
+      "英文名称": "Political AI",
+      "来源": "Growing use of AI for political purposes is a risk to Canada's democracy"
+    },
+    "Risk": {
+      "id": "DemocraticRisk",
+      "中文名称": "民主风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "a risk to Canada's democracy"
+    },
+    "Domain": {
+      "id": "PoliticalDomain",
+      "中文名称": "政治领域",
+      "英文名称": "Political Domain",
+      "来源": "use of AI for political purposes"
+    },
+    "Impact": {
+      "id": "DemocraticErosion",
+      "中文名称": "民主侵蚀",
+      "英文名称": "Democratic Erosion",
+      "来源": "a risk to Canada's democracy"
+    },
+    "Stakeholder": {
+      "id": "CanadianPublic",
+      "中文名称": "加拿大公众",
+      "英文名称": "Canadian Public",
+      "来源": "Canada's democracy"
+    }
+  }
+}

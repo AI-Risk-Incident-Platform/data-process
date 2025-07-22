@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberAutonomousVehicle",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Backup Driver for Uber Test Car Streamed Hulu at Time of Fatal Crash"
+    },
+    "Risk": {
+      "id": "PedestrianFatalityRisk",
+      "中文名称": "行人死亡风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Uber won’t be charged with fatal self-driving crash, says prosecutor"
+    },
+    "AIOperator": {
+      "id": "Uber",
+      "中文名称": "优步",
+      "英文名称": "Uber",
+      "来源": "‘I’m the Operator’: The Aftermath of a Self-Driving Tragedy"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心",
+      "英文名称": "Driver Distraction",
+      "来源": "Backup Driver for Uber Test Car Streamed Hulu at Time of Fatal Crash"
+    },
+    "Consequence": {
+      "id": "FatalCrash",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Uber won’t be charged with fatal self-driving crash, says prosecutor"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "‘I’m the Operator’: The Aftermath of a Self-Driving Tragedy"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberAutonomousVehicle",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Backup Driver for Uber Test Car Streamed Hulu at Time of Fatal Crash"
+    },
+    "Risk": {
+      "id": "PedestrianFatalityRisk",
+      "中文名称": "行人死亡风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Uber won’t be charged with fatal self-driving crash, says prosecutor"
+    },
+    "AIOperator": {
+      "id": "Uber",
+      "中文名称": "优步",
+      "英文名称": "Uber",
+      "来源": "‘I’m the Operator’: The Aftermath of a Self-Driving Tragedy"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心",
+      "英文名称": "Driver Distraction",
+      "来源": "Backup Driver for Uber Test Car Streamed Hulu at Time of Fatal Crash"
+    },
+    "Consequence": {
+      "id": "FatalCrash",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Uber won’t be charged with fatal self-driving crash, says prosecutor"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "‘I’m the Operator’: The Aftermath of a Self-Driving Tragedy"
+    }
+  }
+}

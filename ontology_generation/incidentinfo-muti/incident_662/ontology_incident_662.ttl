@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WashingtonLotteryInteractiveWebApp rdf:type airo:AISystem ;
+    rdfs:label "Washington Lottery Interactive Web App"@en ;
+    rdfs:label "华盛顿彩票互动网页应用"@zh ;
+    airo:hasRisk ex:PrivacyViolationThroughAIGeneratedContent ;
+    airo:hasPurpose ex:InteractiveUserEngagement ;
+    airo:isAppliedWithinDomain ex:GamblingIndustry ;
+    airo:hasStakeholder ex:WashingtonLottery ;
+    airo:isDeployedBy ex:WashingtonLotteryOperator .
+
+ex:PrivacyViolationThroughAIGeneratedContent rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Through AI-Generated Content Risk"@en ;
+    rdfs:label "AI生成内容导致的隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UserPrivacyViolation ;
+    airo:isRiskSourceFor ex:UnauthorizedImageGeneration .
+
+ex:UserPrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "User Privacy Violation Consequence"@en ;
+    rdfs:label "用户隐私侵犯后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:WashingtonLottery rdf:type airo:Stakeholder ;
+    rdfs:label "Washington Lottery"@en ;
+    rdfs:label "华盛顿彩票"@zh .
+
+ex:WashingtonLotteryOperator rdf:type airo:AIOperator ;
+    rdfs:label "Washington Lottery Operator"@en ;
+    rdfs:label "华盛顿彩票运营商"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WashingtonLottery .
+
+ex:InteractiveUserEngagement rdf:type airo:Purpose ;
+    rdfs:label "Interactive User Engagement Purpose"@en ;
+    rdfs:label "互动用户参与目的"@zh .
+
+ex:GamblingIndustry rdf:type airo:Domain ;
+    rdfs:label "Gambling Industry Domain"@en ;
+    rdfs:label "赌博行业领域"@zh .
+
+ex:UnauthorizedImageGeneration rdf:type airo:Misuse ;
+    rdfs:label "Unauthorized Image Generation Misuse"@en ;
+    rdfs:label "未经授权的图像生成滥用"@zh .

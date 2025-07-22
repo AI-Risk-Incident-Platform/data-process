@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleWatchCrashDetection",
+      "中文名称": "苹果手表碰撞检测系统",
+      "英文名称": "Apple Watch Crash Detection System",
+      "来源": "‘My Watch Thinks I’m Dead’"
+    },
+    "Risk": {
+      "id": "FalseEmergencyCallRisk",
+      "中文名称": "误报紧急呼叫风险",
+      "英文名称": "False Emergency Call Risk",
+      "来源": "iPhone 14 wrongly dialling 911 on Alberta ski hills"
+    },
+    "Consequence": {
+      "id": "EmergencyServiceOverload",
+      "中文名称": "紧急服务过载后果",
+      "英文名称": "Emergency Service Overload Consequence",
+      "来源": "Apple watches spur 'dramatic' increase in 911 calls at Schweitzer Mountain"
+    },
+    "AICapability": {
+      "id": "MotionAndImpactDetection",
+      "中文名称": "运动和冲击检测能力",
+      "英文名称": "Motion and Impact Detection Capability",
+      "来源": "‘My Watch Thinks I’m Dead’"
+    },
+    "Stakeholder": {
+      "id": "LocalSheriffsOffice",
+      "中文名称": "当地警长办公室",
+      "英文名称": "Local Sheriff's Office",
+      "来源": "according to sheriff's office"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple Inc.",
+      "来源": "Apple watches spur 'dramatic' increase in 911 calls"
+    },
+    "Impact": {
+      "id": "PublicSafetyResourceDrain",
+      "中文名称": "公共安全资源消耗影响",
+      "英文名称": "Public Safety Resource Drain Impact",
+      "来源": "dramatic increase in 911 calls"
+    },
+    "Purpose": {
+      "id": "EmergencySituationDetection",
+      "中文名称": "紧急情况检测目的",
+      "英文名称": "Emergency Situation Detection Purpose",
+      "来源": "‘My Watch Thinks I’m Dead’"
+    },
+    "Domain": {
+      "id": "ConsumerWearableTechnology",
+      "中文名称": "消费级可穿戴技术领域",
+      "英文名称": "Consumer Wearable Technology Domain",
+      "来源": "Apple Watch and iPhone products"
+    },
+    "RiskSource": {
+      "id": "OverSensitiveMotionDetection",
+      "中文名称": "过度敏感的运动检测风险源",
+      "英文名称": "Over-Sensitive Motion Detection Risk Source",
+      "来源": "wrongly dialling 911 on Alberta ski hills"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YouTube Recommendation Algorithm"@en ;
+    rdfs:label "YouTube推荐算法"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasCapability ex:ContentRecommendationCapability ;
+    airo:hasPurpose ex:UserEngagementMaximization ;
+    airo:hasStakeholder ex:TrumpSupporters ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicPerceptionDistortion ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasTowardsControversialContent .
+
+ex:PublicPerceptionDistortion rdf:type airo:Consequence ;
+    rdfs:label "Public Perception Distortion Consequence"@en ;
+    rdfs:label "公众认知扭曲后果"@zh ;
+    airo:hasImpact ex:DemocraticProcessUndermining .
+
+ex:ContentRecommendationCapability rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Capability"@en ;
+    rdfs:label "内容推荐能力"@zh .
+
+ex:TrumpSupporters rdf:type airo:Stakeholder ;
+    rdfs:label "Trump Supporters"@en ;
+    rdfs:label "特朗普支持者"@zh .
+
+ex:DemocraticProcessUndermining rdf:type airo:Impact ;
+    rdfs:label "Democratic Process Undermining Impact"@en ;
+    rdfs:label "民主进程破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TrumpSupporters .
+
+ex:UserEngagementMaximization rdf:type airo:Purpose ;
+    rdfs:label "User Engagement Maximization Purpose"@en ;
+    rdfs:label "用户参与度最大化目的"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:AlgorithmicBiasTowardsControversialContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Towards Controversial Content Risk Source"@en ;
+    rdfs:label "算法对争议内容的偏好风险源"@zh .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FoodDeliveryRobot rdf:type airo:AISystem ;
+    rdfs:label "Food Delivery Robot"@en ;
+    rdfs:label "食品配送机器人"@zh ;
+    airo:hasRisk ex:AutonomousVehicleAccidentRisk ;
+    airo:hasCapability ex:AutonomousNavigation ;
+    airo:isDeployedBy ex:FoodDeliveryServiceProvider ;
+    airo:hasStakeholder ex:CarOwner ;
+    airo:isAppliedWithinDomain ex:FoodDeliveryServices ;
+    airo:hasVulnerability ex:LackOfEmergencyStopMechanism .
+
+ex:AutonomousVehicleAccidentRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Accident Risk"@en ;
+    rdfs:label "自动驾驶车辆事故风险"@zh ;
+    airo:hasConsequence ex:PropertyDamage ;
+    airo:isRiskSourceFor ex:NavigationSystemFailure .
+
+ex:PropertyDamage rdf:type airo:Consequence ;
+    rdfs:label "Property Damage Consequence"@en ;
+    rdfs:label "财产损失后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:AutonomousNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Navigation Capability"@en ;
+    rdfs:label "自主导航能力"@zh .
+
+ex:FoodDeliveryServiceProvider rdf:type airo:AIOperator ;
+    rdfs:label "Food Delivery Service Provider"@en ;
+    rdfs:label "食品配送服务提供商"@zh .
+
+ex:CarOwner rdf:type airo:Stakeholder ;
+    rdfs:label "Car Owner"@en ;
+    rdfs:label "车主"@zh ;
+    airo:hasImpactOnStakeholder ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh .
+
+ex:FoodDeliveryServices rdf:type airo:Domain ;
+    rdfs:label "Food Delivery Services Domain"@en ;
+    rdfs:label "食品配送服务领域"@zh .
+
+ex:NavigationSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "Navigation System Failure Risk Source"@en ;
+    rdfs:label "导航系统故障风险源"@zh .
+
+ex:LackOfEmergencyStopMechanism rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Emergency Stop Mechanism Vulnerability"@en ;
+    rdfs:label "缺乏紧急停止机制的脆弱性"@zh .

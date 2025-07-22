@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    },
+    "Risk": {
+      "id": "HateSpeechPropagationRisk",
+      "中文名称": "仇恨言论传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Stakeholder": {
+      "id": "RohingyaRefugees",
+      "中文名称": "罗兴亚难民",
+      "英文名称": "Rohingya Refugees",
+      "来源": "Rohingya refugees sue Facebook for $150 billion over Myanmar violence"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    },
+    "Impact": {
+      "id": "GenocideIncitedBySocialMedia",
+      "中文名称": "社交媒体煽动的种族灭绝影响",
+      "英文名称": "Genocide Incited by Social Media Impact",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Consequence": {
+      "id": "MassViolenceAgainstEthnicGroups",
+      "中文名称": "针对民族群体的大规模暴力后果",
+      "英文名称": "Mass Violence Against Ethnic Groups Consequence",
+      "来源": "Rohingya refugees sue Facebook for $150 billion over Myanmar violence"
+    },
+    "RiskSource": {
+      "id": "MilitaryPropagandaPosts",
+      "中文名称": "军事宣传帖文风险源",
+      "英文名称": "Military Propaganda Posts Risk Source",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    },
+    "Risk": {
+      "id": "HateSpeechPropagationRisk",
+      "中文名称": "仇恨言论传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Stakeholder": {
+      "id": "RohingyaRefugees",
+      "中文名称": "罗兴亚难民",
+      "英文名称": "Rohingya Refugees",
+      "来源": "Rohingya refugees sue Facebook for $150 billion over Myanmar violence"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    },
+    "Impact": {
+      "id": "GenocideIncitedBySocialMedia",
+      "中文名称": "社交媒体煽动的种族灭绝影响",
+      "英文名称": "Genocide Incited by Social Media Impact",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Consequence": {
+      "id": "MassViolenceAgainstEthnicGroups",
+      "中文名称": "针对民族群体的大规模暴力后果",
+      "英文名称": "Mass Violence Against Ethnic Groups Consequence",
+      "来源": "Rohingya refugees sue Facebook for $150 billion over Myanmar violence"
+    },
+    "RiskSource": {
+      "id": "MilitaryPropagandaPosts",
+      "中文名称": "军事宣传帖文风险源",
+      "英文名称": "Military Propaganda Posts Risk Source",
+      "来源": "A Genocide Incited on Facebook, With Posts From Myanmar's Military"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Why Facebook is losing the war on hate speech in Myanmar"
+    }
+  }
+}

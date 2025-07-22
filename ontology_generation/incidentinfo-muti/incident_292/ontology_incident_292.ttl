@@ -1,0 +1,83 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleSelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "Apple Self-Driving Car"@en ;
+    rdfs:label "苹果自动驾驶汽车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleSafetyRisk ;
+    airo:hasAICapability ex:AutonomousNavigation ;
+    airo:isDeployedBy ex:AppleInc ;
+    airo:hasPurpose ex:AutonomousTransportation ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:hasStakeholder ex:PublicRoadUsers ;
+    airo:hasVulnerability ex:LaneDetectionFailure .
+
+ex:AutonomousVehicleSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Safety Risk"@en ;
+    rdfs:label "自动驾驶汽车安全风险"@zh ;
+    airo:hasConsequence ex:VehicleCollision ;
+    airo:isRiskSourceFor ex:AutonomousSystemMalfunction , ex:SensorLimitations , ex:UnpredictableRoadConditions .
+
+ex:VehicleCollision rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Collision Consequence"@en ;
+    rdfs:label "车辆碰撞后果"@zh ;
+    airo:hasImpact ex:RoadSafetyThreat .
+
+ex:AutonomousNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Navigation Capability"@en ;
+    rdfs:label "自主导航能力"@zh .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:PublicRoadUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Public Road Users"@en ;
+    rdfs:label "公共道路使用者"@zh .
+
+ex:RoadSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Road Safety Threat Impact"@en ;
+    rdfs:label "道路安全威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicRoadUsers .
+
+ex:AutonomousTransportation rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Transportation Purpose"@en ;
+    rdfs:label "自动驾驶运输的目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .
+
+ex:LaneDetectionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Lane Detection Failure Vulnerability"@en ;
+    rdfs:label "车道检测失败的脆弱性"@zh .
+
+ex:AutonomousSystemMalfunction rdf:type airo:Threat ;
+    rdfs:label "Autonomous System Malfunction Threat"@en ;
+    rdfs:label "自动驾驶系统故障的威胁"@zh .
+
+ex:UnpredictableRoadConditions rdf:type airo:Hazard ;
+    rdfs:label "Unpredictable Road Conditions Hazard"@en ;
+    rdfs:label "不可预测的道路条件危害"@zh .
+
+ex:SensorLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Sensor Limitations Risk Source"@en ;
+    rdfs:label "传感器限制的风险源"@zh .
+
+ex:AutonomousVehicleTestingChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Testing Challenges Risk Concept"@en ;
+    rdfs:label "自动驾驶汽车测试挑战"@zh .

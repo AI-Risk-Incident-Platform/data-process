@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIgeneratedAttackAdSystem",
+      "中文名称": "AI生成的攻击广告系统",
+      "英文名称": "AI-generated Attack Ad System",
+      "来源": "Republicans respond to Biden reelection announcement with AI-generated attack ad"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "Political Misinformation Risk",
+      "来源": "AI-generated attack ad"
+    },
+    "Stakeholder": {
+      "id": "RepublicanParty",
+      "中文名称": "共和党",
+      "英文名称": "Republican Party",
+      "来源": "Republicans respond to Biden reelection announcement"
+    },
+    "AISubject": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "Biden reelection announcement"
+    },
+    "Purpose": {
+      "id": "PoliticalOpposition",
+      "中文名称": "政治反对",
+      "英文名称": "Political Opposition",
+      "来源": "attack ad"
+    },
+    "Domain": {
+      "id": "PoliticalAdvertising",
+      "中文名称": "政治广告",
+      "英文名称": "Political Advertising",
+      "来源": "attack ad"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗后果",
+      "英文名称": "Public Deception Consequence",
+      "来源": "attack ad"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁影响",
+      "英文名称": "Election Integrity Threat Impact",
+      "来源": "AI-generated attack ad"
+    },
+    "AITechnique": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "AI-generated"
+    }
+  }
+}

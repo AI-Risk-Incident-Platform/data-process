@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeAvatarSystem",
+      "中文名称": "深度伪造虚拟形象系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Can you trust a deepfake presidential candidate?"
+    },
+    "AICapability": {
+      "id": "FacialSynthesis",
+      "中文名称": "面部合成能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "Humans Find AI-Generated Faces More Trustworthy Than the Real Thing"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Can you trust a deepfake presidential candidate?"
+    },
+    "Purpose": {
+      "id": "PoliticalPromotion",
+      "中文名称": "政治宣传",
+      "英文名称": "Political Campaigning",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Humans Find AI-Generated Faces More Trustworthy Than the Real Thing"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeAvatarSystem",
+      "中文名称": "深度伪造虚拟形象系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Can you trust a deepfake presidential candidate?"
+    },
+    "AICapability": {
+      "id": "FacialSynthesis",
+      "中文名称": "面部合成能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "Humans Find AI-Generated Faces More Trustworthy Than the Real Thing"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Can you trust a deepfake presidential candidate?"
+    },
+    "Purpose": {
+      "id": "PoliticalPromotion",
+      "中文名称": "政治宣传",
+      "英文名称": "Political Campaigning",
+      "来源": "Wannabe president is everywhere — thanks to his avatar"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Humans Find AI-Generated Faces More Trustworthy Than the Real Thing"
+    }
+  }
+}

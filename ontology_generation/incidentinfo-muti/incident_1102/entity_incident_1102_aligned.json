@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClassroomFaceRecognitionSystem",
+      "中文名称": "教室人脸识别系统",
+      "英文名称": "Classroom Face Recognition System",
+      "来源": "南京一高校“试水”教室人脸识别：翘课、发呆玩手机全能识别"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Camera Above the Classroom"
+    },
+    "Stakeholder": {
+      "id": "Megvii",
+      "中文名称": "旷视科技",
+      "英文名称": "Megvii",
+      "来源": "AI Startup Megvii Gets Knuckles Rapped over Class Monitoring Demo"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "南京一高校“试水”教室人脸识别：翘课、发呆玩手机全能识别"
+    },
+    "Purpose": {
+      "id": "ClassroomBehaviorMonitoring",
+      "中文名称": "课堂行为监控",
+      "英文名称": "Classroom Behavior Monitoring",
+      "来源": "翘课、发呆玩手机全能识别"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育",
+      "英文名称": "Education Domain",
+      "来源": "南京一高校“试水”教室人脸识别"
+    },
+    "AITechnique": {
+      "id": "FaceRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "教室人脸识别"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Camera Above the Classroom"
+    },
+    "Impact": {
+      "id": "PsychologicalPressureOnStudents",
+      "中文名称": "学生心理压力",
+      "英文名称": "Student Psychological Stress Impact",
+      "来源": "AI Startup Megvii Gets Knuckles Rapped over Class Monitoring Demo"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ClassroomFaceRecognitionSystem",
+      "中文名称": "教室人脸识别系统",
+      "英文名称": "Classroom Face Recognition System",
+      "来源": "南京一高校“试水”教室人脸识别：翘课、发呆玩手机全能识别"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Camera Above the Classroom"
+    },
+    "Stakeholder": {
+      "id": "Megvii",
+      "中文名称": "旷视科技",
+      "英文名称": "Megvii",
+      "来源": "AI Startup Megvii Gets Knuckles Rapped over Class Monitoring Demo"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "南京一高校“试水”教室人脸识别：翘课、发呆玩手机全能识别"
+    },
+    "Purpose": {
+      "id": "ClassroomBehaviorMonitoring",
+      "中文名称": "课堂行为监控",
+      "英文名称": "Classroom Behavior Monitoring",
+      "来源": "翘课、发呆玩手机全能识别"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育",
+      "英文名称": "Education Domain",
+      "来源": "南京一高校“试水”教室人脸识别"
+    },
+    "AITechnique": {
+      "id": "FaceRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "教室人脸识别"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Camera Above the Classroom"
+    },
+    "Impact": {
+      "id": "PsychologicalPressureOnStudents",
+      "中文名称": "学生心理压力",
+      "英文名称": "Student Psychological Stress Impact",
+      "来源": "AI Startup Megvii Gets Knuckles Rapped over Class Monitoring Demo"
+    }
+  }
+}

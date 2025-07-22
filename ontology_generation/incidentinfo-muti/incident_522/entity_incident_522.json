@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot",
+      "来源": "Tesla's Autopilot mode is on trial in California"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Crash Risk",
+      "来源": "Tesla wins bellwether trial over Autopilot car crash"
+    },
+    "Stakeholder": {
+      "id": "TeslaJuror",
+      "中文名称": "特斯拉陪审员",
+      "英文名称": "Tesla Juror",
+      "来源": "Exclusive: Tesla's Autopilot never claimed to be self-pilot, juror says"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTechnology",
+      "中文名称": "自动驾驶车辆技术领域",
+      "英文名称": "Autonomous Vehicle Technology Domain",
+      "来源": "Tesla's Autopilot mode is on trial in California"
+    },
+    "Purpose": {
+      "id": "DriverAssistance",
+      "中文名称": "驾驶辅助目的",
+      "英文名称": "Driver Assistance Purpose",
+      "来源": "Tesla's Autopilot never claimed to be self-pilot"
+    }
+  }
+}

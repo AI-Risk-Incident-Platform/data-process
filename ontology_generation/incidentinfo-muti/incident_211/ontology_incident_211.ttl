@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TinderPersonalizedPricingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Tinder个性化定价算法"@zh ;
+    rdfs:label "Tinder Personalized Pricing Algorithm"@en ;
+    airo:hasRisk ex:AgeBasedPriceDiscriminationRisk ;
+    airo:hasStakeholder ex:TinderUsersOverThirty ;
+    airo:isAppliedWithinDomain ex:OnlineDatingServices ;
+    airo:hasPurpose ex:RevenueMaximizationThroughPersonalizedPricing ;
+    airo:usesTechnique ex:DynamicPricingAlgorithm .
+
+ex:AgeBasedPriceDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "基于年龄的价格歧视风险"@zh ;
+    rdfs:label "Age-Based Price Discrimination Risk"@en ;
+    airo:hasConsequence ex:UnfairPricingForCertainUserGroups ;
+    airo:isRiskSourceFor ex:UserDemographicDataExploitation .
+
+ex:TinderUsersOverThirty rdf:type airo:Stakeholder ;
+    rdfs:label "30岁以上的Tinder用户"@zh ;
+    rdfs:label "Tinder Users Over Thirty"@en .
+
+ex:OnlineDatingServices rdf:type airo:Domain ;
+    rdfs:label "在线约会服务领域"@zh ;
+    rdfs:label "Online Dating Services Domain"@en .
+
+ex:RevenueMaximizationThroughPersonalizedPricing rdf:type airo:Purpose ;
+    rdfs:label "通过个性化定价实现收入最大化"@zh ;
+    rdfs:label "Revenue Maximization Through Personalized Pricing Purpose"@en .
+
+ex:UnfairPricingForCertainUserGroups rdf:type airo:Consequence ;
+    rdfs:label "对特定用户群体的不公平定价后果"@zh ;
+    rdfs:label "Unfair Pricing for Certain User Groups Consequence"@en ;
+    airo:hasImpact ex:ConsumerTrustErosion .
+
+ex:ConsumerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "消费者信任度下降的影响"@zh ;
+    rdfs:label "Consumer Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TinderUsersOverThirty .
+
+ex:DynamicPricingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "动态定价算法技术"@zh ;
+    rdfs:label "Dynamic Pricing Algorithm Technique"@en .
+
+ex:UserDemographicDataExploitation rdf:type airo:RiskSource ;
+    rdfs:label "用户人口统计数据利用的风险源"@zh ;
+    rdfs:label "User Demographic Data Exploitation Risk Source"@en .

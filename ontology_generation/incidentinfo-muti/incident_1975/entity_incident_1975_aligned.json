@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'Deepfake'"
+    },
+    "Risk": {
+      "id": "PersonalReputationDamageRisk",
+      "中文名称": "个人声誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中'Called Out On Deepfake Stance'表明存在声誉风险"
+    },
+    "Stakeholder": {
+      "id": "QTCinderella",
+      "中文名称": "QTCinderella",
+      "英文名称": "QTCinderella",
+      "来源": "标题中明确提到的主体"
+    },
+    "Impact": {
+      "id": "PublicImageDamage",
+      "中文名称": "公众形象损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "\"Stole The Spotlight\"暗示对公众形象的影响"
+    },
+    "Misuse": {
+      "id": "DeepfakeMisuseForPublicAttention",
+      "中文名称": "深度伪造技术滥用获取公众关注",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "\"She Made It About Herself...Stole The Spotlight\""
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'Deepfake'"
+    },
+    "Risk": {
+      "id": "PersonalReputationDamageRisk",
+      "中文名称": "个人声誉损害风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中'Called Out On Deepfake Stance'表明存在声誉风险"
+    },
+    "Stakeholder": {
+      "id": "QTCinderella",
+      "中文名称": "QTCinderella",
+      "英文名称": "QTCinderella",
+      "来源": "标题中明确提到的主体"
+    },
+    "Impact": {
+      "id": "PublicImageDamage",
+      "中文名称": "公众形象损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "\"Stole The Spotlight\"暗示对公众形象的影响"
+    },
+    "Misuse": {
+      "id": "DeepfakeMisuseForPublicAttention",
+      "中文名称": "深度伪造技术滥用获取公众关注",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "\"She Made It About Herself...Stole The Spotlight\""
+    }
+  }
+}

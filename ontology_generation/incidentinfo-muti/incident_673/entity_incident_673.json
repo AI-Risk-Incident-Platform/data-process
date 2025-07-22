@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfakes swirl in Korea ahead of general elections"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Deepfakes being used ahead of general elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "general elections"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "Deepfake technology typically uses GANs"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "potential to undermine trust in electoral processes"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "circulation of manipulated media content"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIControlledCamera rdf:type airo:AISystem ;
+    rdfs:label "AI Controlled Camera"@en ;
+    rdfs:label "AI控制摄像机"@zh ;
+    airo:hasRisk ex:MisidentificationRisk ;
+    airo:hasCapability ex:ObjectTracking ;
+    airo:isAppliedWithinDomain ex:SportsBroadcasting .
+
+ex:MisidentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Misidentification Risk"@en ;
+    rdfs:label "误识别风险"@zh ;
+    airo:hasConsequence ex:GameDisruption ;
+    airo:isRiskSourceFor ex:VisualSimilarity .
+
+ex:GameDisruption rdf:type airo:Consequence ;
+    rdfs:label "Game Disruption Consequence"@en ;
+    rdfs:label "比赛中断后果"@zh .
+
+ex:ObjectTracking rdf:type airo:AICapability ;
+    rdfs:label "Object Tracking Capability"@en ;
+    rdfs:label "物体追踪能力"@zh .
+
+ex:SportsBroadcasting rdf:type airo:Domain ;
+    rdfs:label "Sports Broadcasting Domain"@en ;
+    rdfs:label "体育转播领域"@zh .
+
+ex:VisualSimilarity rdf:type airo:RiskSource ;
+    rdfs:label "Visual Similarity Risk Source"@en ;
+    rdfs:label "视觉相似性风险源"@zh .

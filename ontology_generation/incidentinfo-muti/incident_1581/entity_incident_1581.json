@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AdvancedAIChatbots",
+      "中文名称": "高级AI聊天机器人",
+      "英文名称": "Advanced AI Chatbots",
+      "来源": "Advanced AI chatbots perpetuate racist, debunked medical ideas, researchers find"
+    },
+    "Risk": {
+      "id": "RacistMedicalInformationRisk",
+      "中文名称": "种族主义医疗信息风险",
+      "英文名称": "Racist Medical Information Risk",
+      "来源": "Study says some AI chatbots provide racist health information: Why this is dangerous"
+    },
+    "Consequence": {
+      "id": "HarmfulMedicalAdvice",
+      "中文名称": "有害医疗建议后果",
+      "英文名称": "Harmful Medical Advice Consequence",
+      "来源": "Advanced AI chatbots perpetuate racist, debunked medical ideas"
+    },
+    "Impact": {
+      "id": "HealthDisparities",
+      "中文名称": "健康差异影响",
+      "英文名称": "Health Disparities Impact",
+      "来源": "Why this is dangerous"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Is AI ready to be integrated into healthcare?"
+    },
+    "AICapability": {
+      "id": "MedicalInformationGeneration",
+      "中文名称": "医疗信息生成能力",
+      "英文名称": "Medical Information Generation Capability",
+      "来源": "provide racist health information"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "perpetuate racist, debunked medical ideas"
+    },
+    "Stakeholder": {
+      "id": "MedicalResearchers",
+      "中文名称": "医学研究人员",
+      "英文名称": "Medical Researchers",
+      "来源": "researchers find"
+    },
+    "AISubject": {
+      "id": "PatientsSeekingHealthInformation",
+      "中文名称": "寻求健康信息的患者",
+      "英文名称": "Patients Seeking Health Information",
+      "来源": "provide racist health information"
+    }
+  }
+}

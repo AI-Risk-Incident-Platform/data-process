@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MilitaryAIApplications rdf:type airo:AISystem ;
+    rdfs:label "Military AI Applications"@en ;
+    rdfs:label "军事AI应用"@zh ;
+    airo:hasRisk ex:FriendlyFireRisk ;
+    airo:hasStakeholder ex:MilitaryPersonnel ;
+    airo:isDeployedBy ex:Raytheon ;
+    airo:isAppliedWithinDomain ex:MilitaryDefense .
+
+ex:FriendlyFireRisk rdf:type airo:Risk ;
+    rdfs:label "Friendly Fire Risk"@en ;
+    rdfs:label "友军误伤风险"@zh ;
+    airo:hasConsequence ex:CivilianCasualties ;
+    airo:isRiskSourceFor ex:SystemErrors .
+
+ex:CivilianCasualties rdf:type airo:Consequence ;
+    rdfs:label "Civilian Casualties Consequence"@en ;
+    rdfs:label "平民伤亡后果"@zh ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MilitaryPersonnel .
+
+ex:MilitaryPersonnel rdf:type airo:Stakeholder ;
+    rdfs:label "Military Personnel"@en ;
+    rdfs:label "军事人员"@zh .
+
+ex:Raytheon rdf:type airo:AIOperator ;
+    rdfs:label "Raytheon"@en ;
+    rdfs:label "雷神公司"@zh .
+
+ex:SystemErrors rdf:type airo:RiskSource ;
+    rdfs:label "System Errors Risk Source"@en ;
+    rdfs:label "系统错误风险源"@zh .
+
+ex:MilitaryDefense rdf:type airo:Domain ;
+    rdfs:label "Military Defense Domain"@en ;
+    rdfs:label "军事防御领域"@zh .

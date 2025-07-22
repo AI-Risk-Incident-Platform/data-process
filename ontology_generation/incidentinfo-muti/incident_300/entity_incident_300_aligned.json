@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CheatingDetectionAlgorithm",
+      "中文名称": "作弊检测算法",
+      "英文名称": "Cheating Detection Algorithm",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "AISubject": {
+      "id": "StudentAccusedOfCheating",
+      "中文名称": "被指控作弊的学生",
+      "英文名称": "Accused Student",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Stakeholder": {
+      "id": "ProfessorNotMet",
+      "中文名称": "未曾谋面的教授",
+      "英文名称": "Professor Never Met",
+      "来源": "a Professor She Had Never Met"
+    },
+    "Consequence": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Domain": {
+      "id": "AcademicEvaluation",
+      "中文名称": "学术评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "Accused of Cheating by an Algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CheatingDetectionAlgorithm",
+      "中文名称": "作弊检测算法",
+      "英文名称": "Cheating Detection Algorithm",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "AISubject": {
+      "id": "StudentAccusedOfCheating",
+      "中文名称": "被指控作弊的学生",
+      "英文名称": "Accused Student",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Stakeholder": {
+      "id": "ProfessorNotMet",
+      "中文名称": "未曾谋面的教授",
+      "英文名称": "Professor Never Met",
+      "来源": "a Professor She Had Never Met"
+    },
+    "Consequence": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "Accused of Cheating by an Algorithm"
+    },
+    "Domain": {
+      "id": "AcademicEvaluation",
+      "中文名称": "学术评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "Accused of Cheating by an Algorithm"
+    }
+  }
+}

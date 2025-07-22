@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SpamFilterSystem",
+      "中文名称": "垃圾邮件过滤系统",
+      "英文名称": "Spam Filter System",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Risk": {
+      "id": "PotentialBiasInSpamFiltering",
+      "中文名称": "垃圾邮件过滤中的潜在偏见风险",
+      "英文名称": "Potential Bias in Spam Filtering Risk",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "AICapability": {
+      "id": "EmailContentFiltering",
+      "中文名称": "邮件内容过滤能力",
+      "英文名称": "Email Content Filtering Capability",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Purpose": {
+      "id": "FilterUnwantedEmails",
+      "中文名称": "过滤不需要的邮件目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Domain": {
+      "id": "EmailCommunication",
+      "中文名称": "电子邮件通信领域",
+      "英文名称": "Email Domain",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SpamFilterSystem",
+      "中文名称": "垃圾邮件过滤系统",
+      "英文名称": "Spam Filter System",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Risk": {
+      "id": "PotentialBiasInSpamFiltering",
+      "中文名称": "垃圾邮件过滤中的潜在偏见风险",
+      "英文名称": "Potential Bias in Spam Filtering Risk",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "AICapability": {
+      "id": "EmailContentFiltering",
+      "中文名称": "邮件内容过滤能力",
+      "英文名称": "Email Content Filtering Capability",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Purpose": {
+      "id": "FilterUnwantedEmails",
+      "中文名称": "过滤不需要的邮件目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    },
+    "Domain": {
+      "id": "EmailCommunication",
+      "中文名称": "电子邮件通信领域",
+      "英文名称": "Email Domain",
+      "来源": "Spam filters are efficient and uncontroversial. Until you look at them."
+    }
+  }
+}

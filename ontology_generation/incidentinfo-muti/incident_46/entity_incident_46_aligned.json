@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PassportPhotoChecker",
+      "中文名称": "护照照片检查系统",
+      "英文名称": "Passport Photo Checker",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstAsianFeatures",
+      "中文名称": "对亚洲人特征的歧视后果",
+      "英文名称": "Discrimination Against Asian Features Consequence",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "AICapability": {
+      "id": "FacialFeatureDetection",
+      "中文名称": "面部特征检测能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "AISubject": {
+      "id": "AsianPassportApplicants",
+      "中文名称": "亚洲护照申请人",
+      "英文名称": "Asian Passport Applicants",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Impact": {
+      "id": "DelayedPassportProcessing",
+      "中文名称": "护照处理延迟的影响",
+      "英文名称": "Delayed Passport Processing Impact",
+      "来源": "New Zealander says passport photo rejection 'not racist'"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityVerification",
+      "中文名称": "政府身份验证领域",
+      "英文名称": "Government Identity Domain",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForEyeDetection",
+      "中文名称": "用于眼睛检测的计算机视觉技术",
+      "英文名称": "Computer Vision for Eye Detection Technique",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Vulnerability": {
+      "id": "CulturalDifferencesInFacialFeatures",
+      "中文名称": "面部特征文化差异的脆弱性",
+      "英文名称": "Cultural Differences in Facial Features Vulnerability",
+      "来源": "New Zealander says passport photo rejection 'not racist'"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingDataForAsianEyes",
+      "中文名称": "亚洲人眼睛训练数据偏差的风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PassportPhotoChecker",
+      "中文名称": "护照照片检查系统",
+      "英文名称": "Passport Photo Checker",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstAsianFeatures",
+      "中文名称": "对亚洲人特征的歧视后果",
+      "英文名称": "Discrimination Against Asian Features Consequence",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "AICapability": {
+      "id": "FacialFeatureDetection",
+      "中文名称": "面部特征检测能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "AISubject": {
+      "id": "AsianPassportApplicants",
+      "中文名称": "亚洲护照申请人",
+      "英文名称": "Asian Passport Applicants",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Impact": {
+      "id": "DelayedPassportProcessing",
+      "中文名称": "护照处理延迟的影响",
+      "英文名称": "Delayed Passport Processing Impact",
+      "来源": "New Zealander says passport photo rejection 'not racist'"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityVerification",
+      "中文名称": "政府身份验证领域",
+      "英文名称": "Government Identity Domain",
+      "来源": "Robot passport checker rejects Asian man's photo for having his eyes closed"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForEyeDetection",
+      "中文名称": "用于眼睛检测的计算机视觉技术",
+      "英文名称": "Computer Vision for Eye Detection Technique",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    },
+    "Vulnerability": {
+      "id": "CulturalDifferencesInFacialFeatures",
+      "中文名称": "面部特征文化差异的脆弱性",
+      "英文名称": "Cultural Differences in Facial Features Vulnerability",
+      "来源": "New Zealander says passport photo rejection 'not racist'"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingDataForAsianEyes",
+      "中文名称": "亚洲人眼睛训练数据偏差的风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "An algorithm rejected an Asian man's passport photo for having \"closed eyes\""
+    }
+  }
+}

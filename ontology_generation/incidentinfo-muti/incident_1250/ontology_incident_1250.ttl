@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildAbuseImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Child Abuse Image Generator"@en ;
+    rdfs:label "AI儿童虐待图像生成器"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:hasStakeholder ex:ConvictedIndividual ;
+    airo:hasRisk ex:AIForIllegalContentCreation .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasConsequence ex:LegalPenaltiesForAIAbuse ;
+    airo:hasImpact ex:HarmToChildProtectionEfforts .
+
+ex:LegalPenaltiesForAIAbuse rdf:type airo:Consequence ;
+    rdfs:label "Legal Penalties for AI Abuse Consequence"@en ;
+    rdfs:label "AI滥用法律处罚后果"@zh .
+
+ex:ConvictedIndividual rdf:type airo:AIOperator ;
+    rdfs:label "Convicted Individual"@en ;
+    rdfs:label "被定罪的个人"@zh .
+
+ex:AIForIllegalContentCreation rdf:type airo:Misuse ;
+    rdfs:label "AI for Illegal Content Creation Misuse"@en ;
+    rdfs:label "用于非法内容创建的AI滥用"@zh .
+
+ex:HarmToChildProtectionEfforts rdf:type airo:Impact ;
+    rdfs:label "Harm to Child Protection Efforts Impact"@en ;
+    rdfs:label "对儿童保护工作的危害影响"@zh .

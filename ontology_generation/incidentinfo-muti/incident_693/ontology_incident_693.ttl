@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIgeneratedAttackAdSystem rdf:type airo:AISystem ;
+    rdfs:label "AI生成的攻击广告系统"@zh ;
+    rdfs:label "AI-generated Attack Ad System"@en ;
+    airo:hasRisk ex:PoliticalMisinformationRisk ;
+    airo:hasAISubject ex:PoliticalCampaigns ;
+    airo:hasPurpose ex:PoliticalOpposition ;
+    airo:isAppliedWithinDomain ex:PoliticalAdvertising ;
+    airo:usesTechnique ex:GenerativeAI ;
+    airo:hasStakeholder ex:RepublicanParty .
+
+ex:PoliticalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "政治虚假信息风险"@zh ;
+    rdfs:label "Political Misinformation Risk"@en ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:RepublicanParty rdf:type airo:Stakeholder ;
+    rdfs:label "共和党"@zh ;
+    rdfs:label "Republican Party"@en .
+
+ex:PoliticalCampaigns rdf:type airo:AISubject ;
+    rdfs:label "政治竞选活动"@zh ;
+    rdfs:label "Political Campaigns"@en .
+
+ex:PoliticalOpposition rdf:type airo:Purpose ;
+    rdfs:label "政治反对"@zh ;
+    rdfs:label "Political Opposition"@en .
+
+ex:PoliticalAdvertising rdf:type airo:Domain ;
+    rdfs:label "政治广告"@zh ;
+    rdfs:label "Political Advertising"@en .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "公众欺骗后果"@zh ;
+    rdfs:label "Public Deception Consequence"@en ;
+    airo:hasImpact ex:ElectionIntegrityThreat .
+
+ex:ElectionIntegrityThreat rdf:type airo:Impact ;
+    rdfs:label "选举诚信威胁影响"@zh ;
+    rdfs:label "Election Integrity Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:RepublicanParty .
+
+ex:GenerativeAI rdf:type airo:AITechnique ;
+    rdfs:label "生成式AI技术"@zh ;
+    rdfs:label "Generative AI Technique"@en .

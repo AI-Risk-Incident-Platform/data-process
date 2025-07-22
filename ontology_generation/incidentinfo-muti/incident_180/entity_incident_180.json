@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseAutonomousTaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Taxi",
+      "来源": "GM Cruise autonomous taxi pulled over by police in San Francisco without humans, 'bolts' off"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleNonComplianceRisk",
+      "中文名称": "自动驾驶车辆不遵守指令风险",
+      "英文名称": "Autonomous Vehicle Non-Compliance Risk",
+      "来源": "Driverless car starts to pull away after being stopped by police"
+    },
+    "AIOperator": {
+      "id": "GMCruise",
+      "中文名称": "通用汽车Cruise",
+      "英文名称": "GM Cruise",
+      "来源": "GM Cruise autonomous taxi pulled over by police in San Francisco"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "pulled over by police in San Francisco"
+    },
+    "Consequence": {
+      "id": "VehicleFleesFromPolice",
+      "中文名称": "车辆逃离警察后果",
+      "英文名称": "Vehicle Flees From Police Consequence",
+      "来源": "'bolts' off after being pulled over"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Transportation Domain",
+      "来源": "autonomous taxi"
+    },
+    "Purpose": {
+      "id": "DriverlessTaxiService",
+      "中文名称": "无人驾驶出租车服务目的",
+      "英文名称": "Driverless Taxi Service Purpose",
+      "来源": "GM Cruise autonomous taxi"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanInterventionProtocol",
+      "中文名称": "缺乏人工干预协议风险源",
+      "英文名称": "Lack of Human Intervention Protocol Risk Source",
+      "来源": "pulled over by police in San Francisco without humans"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "Driverless car starts to pull away after being stopped by police"
+    }
+  }
+}

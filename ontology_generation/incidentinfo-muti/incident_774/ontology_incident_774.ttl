@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedCriticQuotesSystem rdf:type airo:AISystem ;
+    rdfs:label "AI生成影评系统"@zh ;
+    rdfs:label "AI Generated Critic Quotes System"@en ;
+    airo:hasRisk ex:MisleadingMarketingRisk ;
+    airo:isDeployedBy ex:MarketingConsultant ;
+    airo:hasStakeholder ex:Lionsgate .
+
+ex:MisleadingMarketingRisk rdf:type airo:Risk ;
+    rdfs:label "误导性营销风险"@zh ;
+    rdfs:label "Misleading Marketing Risk"@en ;
+    airo:hasConsequence ex:TrailerPulled ;
+    airo:isRiskSourceFor ex:FakeCriticQuotesGeneration .
+
+ex:Lionsgate rdf:type airo:Stakeholder ;
+    rdfs:label "狮门影业"@zh ;
+    rdfs:label "Lionsgate"@en .
+
+ex:MarketingConsultant rdf:type airo:AIOperator ;
+    rdfs:label "营销顾问"@zh ;
+    rdfs:label "Marketing Consultant"@en .
+
+ex:TrailerPulled rdf:type airo:Consequence ;
+    rdfs:label "预告片下架后果"@zh ;
+    rdfs:label "Trailer Pulled Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:Lionsgate .
+
+ex:FakeCriticQuotesGeneration rdf:type airo:Misuse ;
+    rdfs:label "伪造影评引用滥用"@zh ;
+    rdfs:label "Fake Critic Quotes Generation Misuse"@en .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTSearch rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Search"@en ;
+    rdfs:label "ChatGPT搜索"@zh ;
+    airo:hasRisk ex:MisrepresentationOfPublisherContentRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:NewsPublishers ;
+    airo:hasPurpose ex:InformationRetrievalPurpose ;
+    airo:isAppliedWithinDomain ex:SearchTechnologyDomain ;
+    airo:usesTechnique ex:NaturalLanguageProcessingTechnique .
+
+ex:MisrepresentationOfPublisherContentRisk rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation of Publisher Content Risk"@en ;
+    rdfs:label "出版商内容错误呈现风险"@zh ;
+    airo:hasConsequence ex:InaccurateSourceAttributionConsequence ;
+    airo:isRiskSourceFor ex:InadequateSourceVerificationRiskSource .
+
+ex:InaccurateSourceAttributionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Source Attribution Consequence"@en ;
+    rdfs:label "来源归属不准确后果"@zh ;
+    airo:hasImpact ex:PublisherContentMisrepresentationImpact .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:NewsPublishers rdf:type airo:Stakeholder ;
+    rdfs:label "News Publishers"@en ;
+    rdfs:label "新闻出版商"@zh .
+
+ex:PublisherContentMisrepresentationImpact rdf:type airo:Impact ;
+    rdfs:label "Publisher Content Misrepresentation Impact"@en ;
+    rdfs:label "出版商内容错误呈现影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsPublishers .
+
+ex:InformationRetrievalPurpose rdf:type airo:Purpose ;
+    rdfs:label "Information Retrieval Purpose"@en ;
+    rdfs:label "信息检索"@zh .
+
+ex:SearchTechnologyDomain rdf:type airo:Domain ;
+    rdfs:label "Search Technology Domain"@en ;
+    rdfs:label "搜索技术领域"@zh .
+
+ex:NaturalLanguageProcessingTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:InadequateSourceVerificationRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Source Verification Risk Source"@en ;
+    rdfs:label "来源验证不足风险源"@zh .

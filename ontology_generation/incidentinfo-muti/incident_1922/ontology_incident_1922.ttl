@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MedicareAdvantageAI rdf:type airo:AISystem ;
+    rdfs:label "Medicare Advantage AI System"@en ;
+    rdfs:label "医疗保险优势AI系统"@zh ;
+    airo:hasRisk ex:IncreasedDenialOfCareRisk ;
+    airo:hasPurpose ex:ClaimsProcessingAndDecisionMaking ;
+    airo:isAppliedWithinDomain ex:HealthcareInsurance ;
+    airo:isDeployedBy ex:MedicareAdvantageProgram ;
+    airo:hasStakeholder ex:MedicareBeneficiaries .
+
+ex:IncreasedDenialOfCareRisk rdf:type airo:Risk ;
+    rdfs:label "Increased Denial of Care Risk"@en ;
+    rdfs:label "增加护理拒绝风险"@zh ;
+    airo:hasConsequence ex:ReducedAccessToNursingHomeServices .
+
+ex:ReducedAccessToNursingHomeServices rdf:type airo:Consequence ;
+    rdfs:label "Reduced Access to Nursing Home Services"@en ;
+    rdfs:label "减少养老院服务获取"@zh ;
+    airo:hasImpact ex:ImpairedHealthcareAccess .
+
+ex:MedicareBeneficiaries rdf:type airo:Stakeholder ;
+    rdfs:label "Medicare Beneficiaries"@en ;
+    rdfs:label "医疗保险受益人"@zh .
+
+ex:ImpairedHealthcareAccess rdf:type airo:Impact ;
+    rdfs:label "Impaired Healthcare Access"@en ;
+    rdfs:label "医疗保健获取受损"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicareBeneficiaries .
+
+ex:ClaimsProcessingAndDecisionMaking rdf:type airo:Purpose ;
+    rdfs:label "Claims Processing and Decision Making"@en ;
+    rdfs:label "索赔处理和决策"@zh .
+
+ex:HealthcareInsurance rdf:type airo:Domain ;
+    rdfs:label "Healthcare Insurance Domain"@en ;
+    rdfs:label "医疗保险领域"@zh .
+
+ex:MedicareAdvantageProgram rdf:type airo:AIOperator ;
+    rdfs:label "Medicare Advantage Program"@en ;
+    rdfs:label "医疗保险优势计划"@zh .

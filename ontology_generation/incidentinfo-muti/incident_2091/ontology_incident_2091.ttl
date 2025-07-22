@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CanonAICameraSystem rdf:type airo:AISystem ;
+    rdfs:label "Canon AI Camera System"@en ;
+    rdfs:label "佳能AI摄像头系统"@zh ;
+    airo:hasRisk ex:EmotionalDiscriminationRisk ;
+    airo:isDeployedBy ex:CanonChina ;
+    airo:hasAISubject ex:OfficeWorkers ;
+    airo:hasPurpose ex:WorkplaceAccessControl ;
+    airo:isAppliedWithinDomain ex:WorkplaceManagement ;
+    airo:hasCapability ex:FacialExpressionRecognition .
+
+ex:EmotionalDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Emotional Discrimination Risk"@en ;
+    rdfs:label "情绪歧视风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedAccessCriteria ;
+    airo:hasConsequence ex:EmotionalStress .
+
+ex:CanonChina rdf:type airo:AIOperator ;
+    rdfs:label "Canon China"@en ;
+    rdfs:label "佳能中国"@zh .
+
+ex:OfficeWorkers rdf:type airo:AISubject ;
+    rdfs:label "Office Workers"@en ;
+    rdfs:label "办公室员工"@zh .
+
+ex:WorkplaceAccessControl rdf:type airo:Purpose ;
+    rdfs:label "Workplace Access Control"@en ;
+    rdfs:label "工作场所访问控制"@zh .
+
+ex:WorkplaceManagement rdf:type airo:Domain ;
+    rdfs:label "Workplace Management"@en ;
+    rdfs:label "工作场所管理"@zh .
+
+ex:FacialExpressionRecognition rdf:type airo:AICapability ;
+    rdfs:label "Facial Expression Recognition"@en ;
+    rdfs:label "面部表情识别"@zh .
+
+ex:EmotionalStress rdf:type airo:Impact ;
+    rdfs:label "Emotional Stress"@en ;
+    rdfs:label "情绪压力"@zh ;
+    airo:hasImpactOnStakeholder ex:OfficeWorkers .
+
+ex:BiasedAccessCriteria rdf:type airo:RiskSource ;
+    rdfs:label "Biased Access Criteria"@en ;
+    rdfs:label "有偏见的准入标准"@zh .

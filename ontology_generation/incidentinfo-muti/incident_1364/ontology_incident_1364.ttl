@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:HallucinationRisk ;
+    airo:hasCapability ex:ContentGeneration ;
+    airo:hasPurpose ex:InformationProvision ;
+    airo:hasStakeholder ex:NewsOrganizations ;
+    airo:isAppliedWithinDomain ex:MediaAndJournalism ;
+    airo:usesTechnique ex:LargeLanguageModel .
+
+ex:HallucinationRisk rdf:type airo:Risk ;
+    rdfs:label "Hallucination Risk"@en ;
+    rdfs:label "幻觉风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:TrainingDataLimitations .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Content Generation Capability"@en ;
+    rdfs:label "内容生成能力"@zh .
+
+ex:NewsOrganizations rdf:type airo:Stakeholder ;
+    rdfs:label "News Organizations"@en ;
+    rdfs:label "新闻机构"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsOrganizations .
+
+ex:InformationProvision rdf:type airo:Purpose ;
+    rdfs:label "Information Provision Purpose"@en ;
+    rdfs:label "信息提供目的"@zh .
+
+ex:MediaAndJournalism rdf:type airo:Domain ;
+    rdfs:label "Media and Journalism Domain"@en ;
+    rdfs:label "媒体与新闻领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:TrainingDataLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Limitations Risk Source"@en ;
+    rdfs:label "训练数据限制风险源"@zh .

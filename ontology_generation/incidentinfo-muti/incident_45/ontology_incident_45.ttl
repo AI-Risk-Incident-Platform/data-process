@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LinkedInSearchEngine rdf:type airo:AISystem ;
+    rdfs:label "LinkedIn搜索引擎"@zh ;
+    rdfs:label "LinkedIn Search Engine"@en ;
+    airo:hasRisk ex:GenderBiasInSearchResults ;
+    airo:hasStakeholder ex:LinkedInUsers ;
+    airo:isDeployedBy ex:LinkedInCorporation .
+
+ex:GenderBiasInSearchResults rdf:type airo:Risk ;
+    rdfs:label "搜索结果中的性别偏见风险"@zh ;
+    rdfs:label "Gender Bias in Search Results Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInSearchRanking ;
+    airo:hasImpact ex:GenderDiscriminationInProfessionalOpportunities .
+
+ex:LinkedInUsers rdf:type airo:Stakeholder ;
+    rdfs:label "LinkedIn用户"@zh ;
+    rdfs:label "LinkedIn Users"@en .
+
+ex:LinkedInCorporation rdf:type airo:AIOperator ;
+    rdfs:label "LinkedIn公司"@zh ;
+    rdfs:label "LinkedIn Corporation"@en .
+
+ex:AlgorithmicBiasInSearchRanking rdf:type airo:RiskSource ;
+    rdfs:label "搜索排名中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Search Ranking Risk Source"@en .
+
+ex:GenderDiscriminationInProfessionalOpportunities rdf:type airo:Impact ;
+    rdfs:label "职业机会中的性别歧视影响"@zh ;
+    rdfs:label "Gender Discrimination in Professional Opportunities Impact"@en ;
+    airo:hasImpactOnStakeholder ex:LinkedInUsers .

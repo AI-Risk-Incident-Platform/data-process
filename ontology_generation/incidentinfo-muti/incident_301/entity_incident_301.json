@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DartmouthMedicalSchoolCheatingDetectionSystem",
+      "中文名称": "达特茅斯医学院作弊检测系统",
+      "英文名称": "Dartmouth Medical School Cheating Detection System",
+      "来源": "Online Cheating Charges Upend Dartmouth Medical School"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "Academic Integrity Risk",
+      "来源": "Online Cheating Charges Upend Dartmouth Medical School"
+    },
+    "Stakeholder": {
+      "id": "DartmouthMedicalSchoolStudents",
+      "中文名称": "达特茅斯医学院学生",
+      "英文名称": "Dartmouth Medical School Students",
+      "来源": "Online Cheating Charges Upend Dartmouth Medical School"
+    },
+    "AIOperator": {
+      "id": "DartmouthMedicalSchoolAdministration",
+      "中文名称": "达特茅斯医学院管理部门",
+      "英文名称": "Dartmouth Medical School Administration",
+      "来源": "Online Cheating Charges Upend Dartmouth Medical School"
+    },
+    "Consequence": {
+      "id": "StudentDisciplinaryActions",
+      "中文名称": "学生纪律处分后果",
+      "英文名称": "Student Disciplinary Actions Consequence",
+      "来源": "Online Cheating Charges Upend Dartmouth Medical School"
+    }
+  }
+}

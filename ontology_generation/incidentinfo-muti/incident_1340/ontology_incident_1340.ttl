@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeliveryRobot rdf:type airo:AISystem ;
+    rdfs:label "Delivery Robot"@en ;
+    rdfs:label "送货机器人"@zh ;
+    airo:hasRisk ex:PhysicalHarmRisk ;
+    airo:hasAISubject ex:PetOwner ;
+    airo:isAppliedWithinDomain ex:LogisticsAndDelivery .
+
+ex:PhysicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Harm Risk"@en ;
+    rdfs:label "物理伤害风险"@zh ;
+    airo:hasConsequence ex:AnimalInjury ;
+    airo:isRiskSourceFor ex:UncontrolledRobotMovement .
+
+ex:AnimalInjury rdf:type airo:Consequence ;
+    rdfs:label "Animal Injury Consequence"@en ;
+    rdfs:label "动物受伤后果"@zh ;
+    airo:hasImpact ex:PetSafetyThreat .
+
+ex:PetOwner rdf:type airo:AISubject ;
+    rdfs:label "Pet Owner"@en ;
+    rdfs:label "宠物主人"@zh .
+
+ex:PetSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Pet Safety Threat Impact"@en ;
+    rdfs:label "宠物安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PetOwner .
+
+ex:LogisticsAndDelivery rdf:type airo:Domain ;
+    rdfs:label "Logistics and Delivery Domain"@en ;
+    rdfs:label "物流配送领域"@zh .
+
+ex:UncontrolledRobotMovement rdf:type airo:Hazard ;
+    rdfs:label "Uncontrolled Robot Movement Hazard"@en ;
+    rdfs:label "机器人失控运动危害"@zh .

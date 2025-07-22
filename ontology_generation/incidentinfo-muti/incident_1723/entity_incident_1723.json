@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DiscordChatbot",
+      "中文名称": "Discord聊天机器人",
+      "英文名称": "Discord Chatbot",
+      "来源": "Jailbreak tricks Discord's new chatbot into sharing napalm and meth instructions"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "Harmful Content Generation Risk",
+      "来源": "sharing napalm and meth instructions"
+    },
+    "Misuse": {
+      "id": "GrandmaExploit",
+      "中文名称": "祖母漏洞利用",
+      "英文名称": "Grandma Exploit",
+      "来源": "People Are Using A 'Grandma Exploit' To Break AI"
+    },
+    "Consequence": {
+      "id": "DangerousInstructionDissemination",
+      "中文名称": "危险指令传播后果",
+      "英文名称": "Dangerous Instruction Dissemination Consequence",
+      "来源": "sharing napalm and meth instructions"
+    },
+    "AICapability": {
+      "id": "ConversationalResponseGeneration",
+      "中文名称": "对话响应生成能力",
+      "英文名称": "Conversational Response Generation Capability",
+      "来源": "new chatbot"
+    },
+    "Stakeholder": {
+      "id": "DiscordUsers",
+      "中文名称": "Discord用户",
+      "英文名称": "Discord Users",
+      "来源": "Discord's new chatbot"
+    },
+    "RiskSource": {
+      "id": "PromptInjectionAttack",
+      "中文名称": "提示注入攻击风险源",
+      "英文名称": "Prompt Injection Attack Risk Source",
+      "来源": "Jailbreak tricks"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足的脆弱性",
+      "英文名称": "Inadequate Content Filtering Vulnerability",
+      "来源": "sharing napalm and meth instructions"
+    }
+  }
+}

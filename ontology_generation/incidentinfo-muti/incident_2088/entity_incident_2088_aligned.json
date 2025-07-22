@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GitHubCopilot",
+      "中文名称": "GitHub Copilot",
+      "英文名称": "Copilot",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "Risk": {
+      "id": "LegalRiskOfCodeCopyrightInfringement",
+      "中文名称": "代码版权侵权的法律风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GitHub’s automatic coding tool rests on untested legal ground"
+    },
+    "AIProvider": {
+      "id": "GitHubAndOpenAI",
+      "中文名称": "GitHub和OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "AITechnique": {
+      "id": "CodeGenerationAI",
+      "中文名称": "代码生成AI技术",
+      "英文名称": "Code Generation AI",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "RiskSource": {
+      "id": "UseOfOpenSourceCodeWithoutProperLicensing",
+      "中文名称": "未经适当许可使用开源代码的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GitHub’s Commercial AI Tool Was Built From Open Source Code"
+    },
+    "Consequence": {
+      "id": "PotentialLegalActionFromCodeAuthors",
+      "中文名称": "代码作者可能采取法律行动的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "GitHub’s automatic coding tool rests on untested legal ground"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发领域",
+      "英文名称": "Software Development",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GitHubCopilot",
+      "中文名称": "GitHub Copilot",
+      "英文名称": "Copilot",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "Risk": {
+      "id": "LegalRiskOfCodeCopyrightInfringement",
+      "中文名称": "代码版权侵权的法律风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GitHub’s automatic coding tool rests on untested legal ground"
+    },
+    "AIProvider": {
+      "id": "GitHubAndOpenAI",
+      "中文名称": "GitHub和OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "AITechnique": {
+      "id": "CodeGenerationAI",
+      "中文名称": "代码生成AI技术",
+      "英文名称": "Code Generation AI",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    },
+    "RiskSource": {
+      "id": "UseOfOpenSourceCodeWithoutProperLicensing",
+      "中文名称": "未经适当许可使用开源代码的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GitHub’s Commercial AI Tool Was Built From Open Source Code"
+    },
+    "Consequence": {
+      "id": "PotentialLegalActionFromCodeAuthors",
+      "中文名称": "代码作者可能采取法律行动的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "GitHub’s automatic coding tool rests on untested legal ground"
+    },
+    "Domain": {
+      "id": "SoftwareDevelopment",
+      "中文名称": "软件开发领域",
+      "英文名称": "Software Development",
+      "来源": "GitHub and OpenAI launch a new AI tool that generates its own code"
+    }
+  }
+}

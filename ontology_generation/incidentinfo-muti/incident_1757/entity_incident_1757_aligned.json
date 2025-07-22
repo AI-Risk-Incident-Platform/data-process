@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomaticSoapDispenser",
+      "中文名称": "自动皂液器",
+      "英文名称": "Automatic Soap Dispenser",
+      "来源": "标题中提到的'soap dispenser'"
+    },
+    "Risk": {
+      "id": "RacialBiasInObjectDetection",
+      "中文名称": "物体检测中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'Racist' soap dispenser refuses to help dark-skinned man"
+    },
+    "RiskSource": {
+      "id": "InfraredSensorTechnology",
+      "中文名称": "红外传感器技术",
+      "英文名称": "Infrared Sensor Technology",
+      "来源": "Twitter用户将问题归因于'technology'"
+    },
+    "Consequence": {
+      "id": "InabilityToUseHygieneFacilities",
+      "中文名称": "无法使用卫生设施",
+      "英文名称": "Inability to Use Hygiene Facilities",
+      "来源": "标题中提到的'refuses to help dark-skinned man wash his hands'"
+    },
+    "Impact": {
+      "id": "PublicHealthConcerns",
+      "中文名称": "公共卫生问题",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "无法使用洗手设施可能导致的公共卫生影响"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedIndividuals",
+      "中文名称": "深色皮肤个体",
+      "英文名称": "Dark-skinned people",
+      "来源": "标题中提到的'dark-skinned man'"
+    },
+    "Stakeholder": {
+      "id": "TwitterCommunity",
+      "中文名称": "Twitter社区",
+      "英文名称": "Twitter Users",
+      "来源": "标题中提到的'but Twitter blames'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomaticSoapDispenser",
+      "中文名称": "自动皂液器",
+      "英文名称": "Automatic Soap Dispenser",
+      "来源": "标题中提到的'soap dispenser'"
+    },
+    "Risk": {
+      "id": "RacialBiasInObjectDetection",
+      "中文名称": "物体检测中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'Racist' soap dispenser refuses to help dark-skinned man"
+    },
+    "RiskSource": {
+      "id": "InfraredSensorTechnology",
+      "中文名称": "红外传感器技术",
+      "英文名称": "Infrared Sensor Technology",
+      "来源": "Twitter用户将问题归因于'technology'"
+    },
+    "Consequence": {
+      "id": "InabilityToUseHygieneFacilities",
+      "中文名称": "无法使用卫生设施",
+      "英文名称": "Inability to Use Hygiene Facilities",
+      "来源": "标题中提到的'refuses to help dark-skinned man wash his hands'"
+    },
+    "Impact": {
+      "id": "PublicHealthConcerns",
+      "中文名称": "公共卫生问题",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "无法使用洗手设施可能导致的公共卫生影响"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedIndividuals",
+      "中文名称": "深色皮肤个体",
+      "英文名称": "Dark-skinned people",
+      "来源": "标题中提到的'dark-skinned man'"
+    },
+    "Stakeholder": {
+      "id": "TwitterCommunity",
+      "中文名称": "Twitter社区",
+      "英文名称": "Twitter Users",
+      "来源": "标题中提到的'but Twitter blames'"
+    }
+  }
+}

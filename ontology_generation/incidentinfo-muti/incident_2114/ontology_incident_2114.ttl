@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SheinAIArtRecreationSystem rdf:type airo:AISystem ;
+    rdfs:label "Shein AI Art Recreation System"@en ;
+    rdfs:label "SheinAI艺术复制系统"@zh ;
+    airo:hasRisk ex:IntellectualPropertyTheftRisk ;
+    airo:hasCapability ex:ArtStyleReplicationCapability ;
+    airo:hasPurpose ex:MassProductionOfDesigns ;
+    airo:isAppliedWithinDomain ex:FashionECommerce ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:OriginalArtists ;
+    airo:isDeployedBy ex:SheinCorporation .
+
+ex:IntellectualPropertyTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Intellectual Property Theft Risk"@en ;
+    rdfs:label "知识产权盗窃风险"@zh ;
+    airo:hasConsequence ex:FinancialLossForArtists ;
+    airo:isRiskSourceFor ex:LackOfOriginalContentVerification .
+
+ex:FinancialLossForArtists rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss for Artists Consequence"@en ;
+    rdfs:label "艺术家经济损失后果"@zh ;
+    airo:hasImpact ex:CreativeIndustryHarm .
+
+ex:ArtStyleReplicationCapability rdf:type airo:AICapability ;
+    rdfs:label "Art Style Replication Capability"@en ;
+    rdfs:label "艺术风格复制能力"@zh .
+
+ex:OriginalArtists rdf:type airo:Stakeholder ;
+    rdfs:label "Original Artists"@en ;
+    rdfs:label "原创艺术家"@zh .
+
+ex:SheinCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Shein Corporation"@en ;
+    rdfs:label "Shein公司"@zh .
+
+ex:CreativeIndustryHarm rdf:type airo:Impact ;
+    rdfs:label "Creative Industry Harm Impact"@en ;
+    rdfs:label "创意产业损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OriginalArtists .
+
+ex:MassProductionOfDesigns rdf:type airo:Purpose ;
+    rdfs:label "Mass Production of Designs Purpose"@en ;
+    rdfs:label "设计大规模生产目的"@zh .
+
+ex:FashionECommerce rdf:type airo:Domain ;
+    rdfs:label "Fashion E-Commerce Domain"@en ;
+    rdfs:label "时尚电子商务领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:LackOfOriginalContentVerification rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Original Content Verification Risk Source"@en ;
+    rdfs:label "缺乏原创内容验证的风险源"@zh .

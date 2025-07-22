@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleSafetyRisk ;
+    airo:hasStakeholder ex:ChineseConsumers ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTechnology ;
+    airo:hasCapability ex:AutonomousDrivingFunctionality .
+
+ex:AutonomousVehicleSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Safety Risk"@en ;
+    rdfs:label "自动驾驶车辆安全风险"@zh ;
+    airo:hasConsequence ex:FatalTrafficAccident ;
+    airo:isRiskSourceFor ex:AutopilotSystemFailure .
+
+ex:FatalTrafficAccident rdf:type airo:Consequence ;
+    rdfs:label "Fatal Traffic Accident Consequence"@en ;
+    rdfs:label "致命交通事故后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseConsumers .
+
+ex:ChineseConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Consumers"@en ;
+    rdfs:label "中国消费者"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:AutonomousVehicleTechnology rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Technology Domain"@en ;
+    rdfs:label "自动驾驶汽车技术领域"@zh .
+
+ex:AutonomousDrivingFunctionality rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Driving Functionality Capability"@en ;
+    rdfs:label "自动驾驶功能能力"@zh .
+
+ex:AutopilotSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "Autopilot System Failure Risk Source"@en ;
+    rdfs:label "自动驾驶系统故障风险源"@zh .

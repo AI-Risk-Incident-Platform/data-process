@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIWeaponsScanner rdf:type airo:AISystem ;
+    rdfs:label "AI Weapons Scanner"@en ;
+    rdfs:label "AI武器扫描仪"@zh ;
+    airo:hasRisk ex:IneffectiveDetectionRisk ;
+    airo:isDeployedBy ex:Evolv ;
+    airo:hasStakeholder ex:Evolv .
+
+ex:IneffectiveDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "Ineffective Detection Risk"@en ;
+    rdfs:label "检测无效风险"@zh ;
+    airo:isRiskSourceFor ex:OverstatedEffectiveness ;
+    airo:hasConsequence ex:PublicSafetyCompromise .
+
+ex:Evolv rdf:type airo:AIOperator ;
+    rdfs:label "Evolv"@en ;
+    rdfs:label "Evolv公司"@zh .
+
+ex:OverstatedEffectiveness rdf:type airo:RiskSource ;
+    rdfs:label "Overstated Effectiveness Risk Source"@en ;
+    rdfs:label "夸大有效性风险源"@zh .
+
+ex:PublicSafetyCompromise rdf:type airo:Consequence ;
+    rdfs:label "Public Safety Compromise Consequence"@en ;
+    rdfs:label "公共安全受损后果"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIWrittenArticlesSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Written Articles System"@en ;
+    rdfs:label "AI撰写文章系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:isAppliedWithinDomain ex:Journalism ;
+    airo:hasStakeholder ex:NewsConsumers ;
+    airo:hasStakeholder ex:LocalNewsNetwork .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:LossOfTrustInMedia ;
+    airo:isRiskSourceFor ex:FakeBylines .
+
+ex:NewsConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "News Consumers"@en ;
+    rdfs:label "新闻消费者"@zh .
+
+ex:LocalNewsNetwork rdf:type airo:AIOperator ;
+    rdfs:label "Local News Network"@en ;
+    rdfs:label "地方新闻网络"@zh .
+
+ex:LossOfTrustInMedia rdf:type airo:Consequence ;
+    rdfs:label "Loss of Trust in Media"@en ;
+    rdfs:label "媒体信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsConsumers .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Content Generation"@en ;
+    rdfs:label "内容生成"@zh .
+
+ex:Journalism rdf:type airo:Domain ;
+    rdfs:label "Journalism"@en ;
+    rdfs:label "新闻业"@zh .
+
+ex:FakeBylines rdf:type airo:RiskSource ;
+    rdfs:label "Fake Bylines"@en ;
+    rdfs:label "虚假署名"@zh .

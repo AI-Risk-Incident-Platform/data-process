@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleWatchBloodOxygenSensor rdf:type airo:AISystem ;
+    rdfs:label "Apple Watch Blood Oxygen Sensor"@en ;
+    rdfs:label "苹果手表血氧传感器"@zh ;
+    airo:hasRisk ex:RacialBiasInHealthMonitoring ;
+    airo:hasCapability ex:BloodOxygenLevelMeasurement ;
+    airo:isDeployedBy ex:AppleInc ;
+    airo:hasPurpose ex:HealthMonitoring ;
+    airo:hasStakeholder ex:DarkSkinWatchUsers ;
+    airo:isAppliedWithinDomain ex:WearableHealthTechnology .
+
+ex:RacialBiasInHealthMonitoring rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Health Monitoring Risk"@en ;
+    rdfs:label "健康监测中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:InaccurateHealthDataForDarkSkinIndividuals ;
+    airo:isRiskSourceFor ex:OpticalSensorTechnologyLimitations .
+
+ex:InaccurateHealthDataForDarkSkinIndividuals rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Health Data for Dark Skin Individuals Consequence"@en ;
+    rdfs:label "深色皮肤个体健康数据不准确后果"@zh ;
+    airo:hasImpact ex:PotentialHealthRiskForMinorityGroups .
+
+ex:BloodOxygenLevelMeasurement rdf:type airo:AICapability ;
+    rdfs:label "Blood Oxygen Level Measurement Capability"@en ;
+    rdfs:label "血氧水平测量能力"@zh .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:DarkSkinWatchUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Dark Skin Watch Users"@en ;
+    rdfs:label "深色皮肤手表用户"@zh .
+
+ex:PotentialHealthRiskForMinorityGroups rdf:type airo:Impact ;
+    rdfs:label "Potential Health Risk for Minority Groups Impact"@en ;
+    rdfs:label "少数群体潜在健康风险影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DarkSkinWatchUsers .
+
+ex:HealthMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Health Monitoring Purpose"@en ;
+    rdfs:label "健康监测目的"@zh .
+
+ex:WearableHealthTechnology rdf:type airo:Domain ;
+    rdfs:label "Wearable Health Technology Domain"@en ;
+    rdfs:label "可穿戴健康技术领域"@zh .
+
+ex:OpticalSensorTechnologyLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Optical Sensor Technology Limitations Risk Source"@en ;
+    rdfs:label "光学传感器技术限制风险源"@zh .

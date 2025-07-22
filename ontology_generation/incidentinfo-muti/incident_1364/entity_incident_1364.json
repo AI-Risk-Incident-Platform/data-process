@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "Risk": {
+      "id": "HallucinationRisk",
+      "中文名称": "幻觉风险",
+      "英文名称": "Hallucination Risk",
+      "来源": "ChatGPT is hallucinating fake links to its news partners’ biggest investigations"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "ChatGPT is hallucinating fake links to its news partners’ biggest investigations"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Content Generation Capability",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "Stakeholder": {
+      "id": "NewsOrganizations",
+      "中文名称": "新闻机构",
+      "英文名称": "News Organizations",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "ChatGPT is hallucinating fake links to its news partners’ biggest investigations"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "Domain": {
+      "id": "MediaAndJournalism",
+      "中文名称": "媒体与新闻领域",
+      "英文名称": "Media and Journalism Domain",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "ChatGPT Hallucinating Links to Partner News Organisations"
+    },
+    "RiskSource": {
+      "id": "TrainingDataLimitations",
+      "中文名称": "训练数据限制风险源",
+      "英文名称": "Training Data Limitations Risk Source",
+      "来源": "ChatGPT is hallucinating fake links to its news partners’ biggest investigations"
+    }
+  }
+}

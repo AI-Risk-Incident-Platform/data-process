@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HelloBarbie rdf:type airo:AISystem ;
+    rdfs:label "Hello Barbie"@en ;
+    rdfs:label "你好芭比"@zh ;
+    airo:hasRisk ex:PrivacyRiskForChildren ;
+    airo:hasAISubject ex:ChildrenUsingHelloBarbie ;
+    airo:hasPurpose ex:InteractiveToyForChildren ;
+    airo:isAppliedWithinDomain ex:SmartToyIndustry ;
+    airo:hasStakeholder ex:PrivacyAdvocacyGroup .
+
+ex:PrivacyRiskForChildren rdf:type airo:Risk ;
+    rdfs:label "Privacy Risk for Children"@en ;
+    rdfs:label "儿童隐私风险"@zh ;
+    airo:hasConsequence ex:PotentialPrivacyViolation .
+
+ex:PrivacyAdvocacyGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Advocacy Group"@en ;
+    rdfs:label "隐私倡导组织"@zh .
+
+ex:ChildrenUsingHelloBarbie rdf:type airo:AISubject ;
+    rdfs:label "Children Using Hello Barbie"@en ;
+    rdfs:label "使用你好芭比的儿童"@zh .
+
+ex:PotentialPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Potential Privacy Violation Impact"@en ;
+    rdfs:label "潜在隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PrivacyAdvocacyGroup .
+
+ex:InteractiveToyForChildren rdf:type airo:Purpose ;
+    rdfs:label "Interactive Toy for Children Purpose"@en ;
+    rdfs:label "儿童互动玩具目的"@zh .
+
+ex:SmartToyIndustry rdf:type airo:Domain ;
+    rdfs:label "Smart Toy Industry Domain"@en ;
+    rdfs:label "智能玩具行业领域"@zh .

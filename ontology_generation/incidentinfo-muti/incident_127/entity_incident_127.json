@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousMilitaryDrone",
+      "中文名称": "自主军事无人机",
+      "英文名称": "Autonomous Military Drone",
+      "来源": "A.I. Drone May Have Acted on Its Own in Attacking Fighters"
+    },
+    "Risk": {
+      "id": "AutonomousWeaponRisk",
+      "中文名称": "自主武器风险",
+      "英文名称": "Autonomous Weapon Risk",
+      "来源": "A Military Drone With A Mind Of Its Own Was Used In Combat"
+    },
+    "Consequence": {
+      "id": "CivilianCasualties",
+      "中文名称": "平民伤亡后果",
+      "英文名称": "Civilian Casualties Consequence",
+      "来源": "Was a flying killer robot used in Libya?"
+    },
+    "AICapability": {
+      "id": "AutonomousTargeting",
+      "中文名称": "自主目标锁定能力",
+      "英文名称": "Autonomous Targeting Capability",
+      "来源": "A.I. Drone May Have Acted on Its Own in Attacking Fighters"
+    },
+    "Stakeholder": {
+      "id": "UnitedNations",
+      "中文名称": "联合国",
+      "英文名称": "United Nations",
+      "来源": "U.N. Says"
+    },
+    "Domain": {
+      "id": "MilitaryCombat",
+      "中文名称": "军事作战领域",
+      "英文名称": "Military Combat Domain",
+      "来源": "A Military Drone With A Mind Of Its Own Was Used In Combat"
+    },
+    "Impact": {
+      "id": "EthicalConcerns",
+      "中文名称": "伦理关切影响",
+      "英文名称": "Ethical Concerns Impact",
+      "来源": "Was a flying killer robot used in Libya?"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForCombat",
+      "中文名称": "用于作战的机器学习技术",
+      "英文名称": "Machine Learning for Combat Technique",
+      "来源": "A.I. Drone May Have Acted on Its Own"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanControl",
+      "中文名称": "缺乏人类控制的风险源",
+      "英文名称": "Lack of Human Control Risk Source",
+      "来源": "A Military Drone With A Mind Of Its Own"
+    }
+  }
+}

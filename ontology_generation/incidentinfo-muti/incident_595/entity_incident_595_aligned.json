@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The tech was wrong."
+    },
+    "Consequence": {
+      "id": "IncorrectIdentification",
+      "中文名称": "错误识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "The tech was wrong."
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "AIOperator": {
+      "id": "JPSO",
+      "中文名称": "JPSO",
+      "英文名称": "JPSO",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "AISubject": {
+      "id": "ArrestedMan",
+      "中文名称": "被逮捕者",
+      "英文名称": "Arrested Persons",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "RiskSource": {
+      "id": "TechnologyError",
+      "中文名称": "技术错误风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "The tech was wrong."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The tech was wrong."
+    },
+    "Consequence": {
+      "id": "IncorrectIdentification",
+      "中文名称": "错误识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "The tech was wrong."
+    },
+    "Impact": {
+      "id": "PersonalRightsViolation",
+      "中文名称": "个人权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "AIOperator": {
+      "id": "JPSO",
+      "中文名称": "JPSO",
+      "英文名称": "JPSO",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "AISubject": {
+      "id": "ArrestedMan",
+      "中文名称": "被逮捕者",
+      "英文名称": "Arrested Persons",
+      "来源": "JPSO used facial recognition technology to arrest a man."
+    },
+    "RiskSource": {
+      "id": "TechnologyError",
+      "中文名称": "技术错误风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "The tech was wrong."
+    }
+  }
+}

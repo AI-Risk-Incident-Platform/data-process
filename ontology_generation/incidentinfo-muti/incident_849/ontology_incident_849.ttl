@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoDriverlessTaxi rdf:type airo:AISystem ;
+    rdfs:label "Waymo Driverless Taxi"@en ;
+    rdfs:label "Waymo无人驾驶出租车"@zh ;
+    airo:hasRisk ex:PassengerSafetyRisk ;
+    airo:hasStakeholder ex:FemalePassengers ;
+    airo:isDeployedBy ex:Waymo .
+
+ex:PassengerSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Passenger Safety Risk"@en ;
+    rdfs:label "乘客安全风险"@zh ;
+    airo:hasConsequence ex:PhysicalThreatToPassenger ;
+    airo:isRiskSourceFor ex:HumanMaliciousBehavior ;
+    airo:hasVulnerability ex:LackOfHumanInterventionMechanism .
+
+ex:PhysicalThreatToPassenger rdf:type airo:Consequence ;
+    rdfs:label "Physical Threat to Passenger Consequence"@en ;
+    rdfs:label "乘客人身威胁后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:FemalePassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Female Passengers"@en ;
+    rdfs:label "女性乘客"@zh .
+
+ex:Waymo rdf:type airo:AIOperator ;
+    rdfs:label "Waymo"@en ;
+    rdfs:label "Waymo公司"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemalePassengers .
+
+ex:LackOfHumanInterventionMechanism rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Intervention Mechanism Vulnerability"@en ;
+    rdfs:label "缺乏人工干预机制的脆弱性"@zh .
+
+ex:HumanMaliciousBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Human Malicious Behavior Risk Source"@en ;
+    rdfs:label "人类恶意行为风险源"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FamilyMatchAITool",
+      "中文名称": "家庭匹配AI工具",
+      "英文名称": "Family-Match AI Tool",
+      "来源": "'Family-Match' AI Tool For Foster Kids, Falls Short, Leads Kids to Unwilling Families"
+    },
+    "Risk": {
+      "id": "MismatchBetweenFosterKidsAndFamiliesRisk",
+      "中文名称": "寄养儿童与家庭不匹配风险",
+      "英文名称": "Mismatch Between Foster Kids and Families Risk",
+      "来源": "Falls Short, Leads Kids to Unwilling Families"
+    },
+    "Stakeholder": {
+      "id": "PastorsWifeAndDataScientist",
+      "中文名称": "牧师妻子与数据科学家",
+      "英文名称": "Pastor's Wife and Data Scientist",
+      "来源": "One of the few adoption algorithms is the brainchild of a pastor’s wife who recruited a data scientist from Christian dating site eharmony"
+    },
+    "Domain": {
+      "id": "FosterCareAndAdoption",
+      "中文名称": "寄养与领养领域",
+      "英文名称": "Child Welfare Domain",
+      "来源": "'Family-Match' AI Tool For Foster Kids"
+    },
+    "Purpose": {
+      "id": "MatchingFosterKidsWithFamilies",
+      "中文名称": "匹配寄养儿童与家庭的目的",
+      "英文名称": "Matching Foster Kids with Families Purpose",
+      "来源": "'Family-Match' AI Tool For Foster Kids"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FamilyMatchAITool",
+      "中文名称": "家庭匹配AI工具",
+      "英文名称": "Family-Match AI Tool",
+      "来源": "'Family-Match' AI Tool For Foster Kids, Falls Short, Leads Kids to Unwilling Families"
+    },
+    "Risk": {
+      "id": "MismatchBetweenFosterKidsAndFamiliesRisk",
+      "中文名称": "寄养儿童与家庭不匹配风险",
+      "英文名称": "Mismatch Between Foster Kids and Families Risk",
+      "来源": "Falls Short, Leads Kids to Unwilling Families"
+    },
+    "Stakeholder": {
+      "id": "PastorsWifeAndDataScientist",
+      "中文名称": "牧师妻子与数据科学家",
+      "英文名称": "Pastor's Wife and Data Scientist",
+      "来源": "One of the few adoption algorithms is the brainchild of a pastor’s wife who recruited a data scientist from Christian dating site eharmony"
+    },
+    "Domain": {
+      "id": "FosterCareAndAdoption",
+      "中文名称": "寄养与领养领域",
+      "英文名称": "Child Welfare Domain",
+      "来源": "'Family-Match' AI Tool For Foster Kids"
+    },
+    "Purpose": {
+      "id": "MatchingFosterKidsWithFamilies",
+      "中文名称": "匹配寄养儿童与家庭的目的",
+      "英文名称": "Matching Foster Kids with Families Purpose",
+      "来源": "'Family-Match' AI Tool For Foster Kids"
+    }
+  }
+}

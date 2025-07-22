@@ -1,0 +1,178 @@
+{
+  "Biased Training Data": [
+    [
+      "Biased Training Data Risk Source",
+      0.809828673609563
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.7683718958180695
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.6519974771111269
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.5038895162676043
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.48704609187004455
+    ]
+  ],
+  "Lack of Diverse Training Data Risk Source": [
+    [
+      "Biased Training Data Risk Source",
+      0.8616273761231698
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.8297483317532793
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.6806418895313444
+    ],
+    [
+      "Insufficient Testing on Diverse Populations Risk Source",
+      0.6572860550358367
+    ],
+    [
+      "Biased Training Data",
+      0.6519974771111269
+    ]
+  ],
+  "Insufficient Testing on Diverse Populations Risk Source": [
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.6572860550358367
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.574045099053185
+    ],
+    [
+      "Biased Training Data Risk Source",
+      0.5725016278037138
+    ],
+    [
+      "Insufficient Content Moderation Risk Source",
+      0.5437863849491665
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.5431586856854417
+    ]
+  ],
+  "Insufficient Content Moderation Risk Source": [
+    [
+      "Algorithmic Bias Risk Source",
+      0.6340899224429256
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.622741701484656
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.6206686286466778
+    ],
+    [
+      "Biased Training Data Risk Source",
+      0.6159703823866152
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.554683761889913
+    ]
+  ],
+  "Training Data Bias Risk Source": [
+    [
+      "Biased Training Data Risk Source",
+      0.9313956623373305
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.8297483317532793
+    ],
+    [
+      "Biased Training Data",
+      0.7683718958180695
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.7620814020627362
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.570912851167736
+    ]
+  ],
+  "Biased Training Data Risk Source": [
+    [
+      "Training Data Bias Risk Source",
+      0.9313956623373305
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.8616273761231698
+    ],
+    [
+      "Biased Training Data",
+      0.809828673609563
+    ],
+    [
+      "Algorithmic Bias Risk Source",
+      0.7901488009332526
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.6415423340132307
+    ]
+  ],
+  "Algorithmic Bias Against LGBTQ Content Risk Source": [
+    [
+      "Algorithmic Bias Risk Source",
+      0.7149198851654682
+    ],
+    [
+      "Biased Training Data Risk Source",
+      0.6415423340132307
+    ],
+    [
+      "Insufficient Content Moderation Risk Source",
+      0.622741701484656
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.570912851167736
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.5485073182488763
+    ]
+  ],
+  "Algorithmic Bias Risk Source": [
+    [
+      "Biased Training Data Risk Source",
+      0.7901488009332526
+    ],
+    [
+      "Training Data Bias Risk Source",
+      0.7620814020627362
+    ],
+    [
+      "Algorithmic Bias Against LGBTQ Content Risk Source",
+      0.7149198851654682
+    ],
+    [
+      "Lack of Diverse Training Data Risk Source",
+      0.6806418895313444
+    ],
+    [
+      "Insufficient Content Moderation Risk Source",
+      0.6340899224429256
+    ]
+  ]
+}

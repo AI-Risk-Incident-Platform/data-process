@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Colorado Springs attorney says ChatGPT created fake cases he cited in court documents"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "ChatGPT created fake cases he cited in court documents"
+    },
+    "Consequence": {
+      "id": "CourtDocumentInaccuracy",
+      "中文名称": "法庭文件不准确后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "fake cases he cited in court documents"
+    },
+    "Stakeholder": {
+      "id": "Attorney",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "Colorado Springs attorney"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT is developed by OpenAI"
+    },
+    "RiskSource": {
+      "id": "HallucinationInLegalContext",
+      "中文名称": "法律语境中的幻觉风险源",
+      "英文名称": "Legal Hallucination Risk Source",
+      "来源": "ChatGPT created fake cases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Colorado Springs attorney says ChatGPT created fake cases he cited in court documents"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律错误信息风险",
+      "英文名称": "Legal Misrepresentation Risk",
+      "来源": "ChatGPT created fake cases he cited in court documents"
+    },
+    "Consequence": {
+      "id": "CourtDocumentInaccuracy",
+      "中文名称": "法庭文件不准确后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "fake cases he cited in court documents"
+    },
+    "Stakeholder": {
+      "id": "Attorney",
+      "中文名称": "律师",
+      "英文名称": "Legal Professionals",
+      "来源": "Colorado Springs attorney"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT is developed by OpenAI"
+    },
+    "RiskSource": {
+      "id": "HallucinationInLegalContext",
+      "中文名称": "法律语境中的幻觉风险源",
+      "英文名称": "Legal Hallucination Risk Source",
+      "来源": "ChatGPT created fake cases"
+    }
+  }
+}

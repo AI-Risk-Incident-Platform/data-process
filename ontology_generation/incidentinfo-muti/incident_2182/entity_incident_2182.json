@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGradingSystem",
+      "中文名称": "AI评分系统",
+      "英文名称": "AI Grading System",
+      "来源": "These students figured out their tests were graded by AI"
+    },
+    "Risk": {
+      "id": "CheatingRiskInAIGrading",
+      "中文名称": "AI评分中的作弊风险",
+      "英文名称": "Cheating Risk in AI Grading",
+      "来源": "the easy way to cheat"
+    },
+    "Stakeholder": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "These students figured out their tests were graded by AI"
+    },
+    "Misuse": {
+      "id": "ExploitingAIGradingVulnerabilities",
+      "中文名称": "利用AI评分漏洞",
+      "英文名称": "Exploiting AI Grading Vulnerabilities",
+      "来源": "the easy way to cheat"
+    }
+  }
+}

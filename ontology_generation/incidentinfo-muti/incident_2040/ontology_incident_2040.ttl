@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RobotWaiterAtDennys rdf:type airo:AISystem ;
+    rdfs:label "Robot Waiter at Denny's"@en ;
+    rdfs:label "Denny's餐厅机器人服务员"@zh ;
+    airo:hasRisk ex:PublicDiscontentWithServiceRobots ;
+    airo:hasStakeholder ex:RestaurantCustomers ;
+    airo:isAppliedWithinDomain ex:FoodServiceIndustry .
+
+ex:PublicDiscontentWithServiceRobots rdf:type airo:Risk ;
+    rdfs:label "Public Discontent with Service Robots Risk"@en ;
+    rdfs:label "公众对服务机器人的不满风险"@zh ;
+    airo:hasImpact ex:CustomerDissatisfaction .
+
+ex:RestaurantCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Restaurant Customers"@en ;
+    rdfs:label "餐厅顾客"@zh .
+
+ex:FoodServiceIndustry rdf:type airo:Domain ;
+    rdfs:label "Food Service Industry"@en ;
+    rdfs:label "餐饮服务业"@zh .
+
+ex:CustomerDissatisfaction rdf:type airo:Impact ;
+    rdfs:label "Customer Dissatisfaction Impact"@en ;
+    rdfs:label "顾客不满的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RestaurantCustomers .

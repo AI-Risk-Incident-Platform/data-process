@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVoiceCloneSystem",
+      "中文名称": "深度伪造语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "Risk": {
+      "id": "DeepfakeScamRisk",
+      "中文名称": "深度伪造诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "CEO of world’s biggest ad firm targeted by deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "WPPCEO",
+      "中文名称": "WPP首席执行官",
+      "英文名称": "WPP CEO",
+      "来源": "WPP chief exec Mark Read targeted by deepfake scammers"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "using voice clone"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "targeted by deepfake scam"
+    },
+    "RiskSource": {
+      "id": "MaliciousDeepfakeUse",
+      "中文名称": "恶意使用深度伪造的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "deepfake scammers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVoiceCloneSystem",
+      "中文名称": "深度伪造语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "Risk": {
+      "id": "DeepfakeScamRisk",
+      "中文名称": "深度伪造诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "CEO of world’s biggest ad firm targeted by deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "WPPCEO",
+      "中文名称": "WPP首席执行官",
+      "英文名称": "WPP CEO",
+      "来源": "WPP chief exec Mark Read targeted by deepfake scammers"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "using voice clone"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "targeted by deepfake scam"
+    },
+    "RiskSource": {
+      "id": "MaliciousDeepfakeUse",
+      "中文名称": "恶意使用深度伪造的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "deepfake scammers"
+    }
+  }
+}

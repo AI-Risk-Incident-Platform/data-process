@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LLMTrainingSystem rdf:type airo:AISystem ;
+    rdfs:label "LLM Training System"@en ;
+    rdfs:label "LLM训练系统"@zh ;
+    airo:hasRisk ex:DataSecurityRisk ;
+    airo:usesTechnique ex:LargeLanguageModelTraining ;
+    airo:hasVulnerability ex:InadequateDataScreening .
+
+ex:DataSecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Data Security Risk"@en ;
+    rdfs:label "数据安全风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedAccessToSystems ;
+    airo:isRiskSourceFor ex:PublicDatasetsWithSensitiveInformation .
+
+ex:PublicDatasetsWithSensitiveInformation rdf:type airo:RiskSource ;
+    rdfs:label "Public Datasets with Sensitive Information"@en ;
+    rdfs:label "包含敏感信息的公共数据集"@zh .
+
+ex:UnauthorizedAccessToSystems rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Access to Systems Consequence"@en ;
+    rdfs:label "系统未授权访问后果"@zh ;
+    airo:hasImpact ex:PotentialSecurityBreaches .
+
+ex:PotentialSecurityBreaches rdf:type airo:Impact ;
+    rdfs:label "Potential Security Breaches Impact"@en ;
+    rdfs:label "潜在安全漏洞影响"@zh .
+
+ex:LargeLanguageModelTraining rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Training Technique"@en ;
+    rdfs:label "大语言模型训练技术"@zh .
+
+ex:InadequateDataScreening rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Data Screening Vulnerability"@en ;
+    rdfs:label "数据筛选不足的脆弱性"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GradientApp rdf:type airo:AISystem ;
+    rdfs:label "Gradient App"@en ;
+    rdfs:label "Gradient应用"@zh ;
+    airo:hasRisk ex:DigitalBlackfaceRisk ;
+    airo:hasCapability ex:PhotoEditingWithAI ;
+    airo:hasPurpose ex:EntertainmentPhotoEditing ;
+    airo:usesTechnique ex:FacialFeatureModification ;
+    airo:hasStakeholder ex:CelebritiesPromotingApp .
+
+ex:DigitalBlackfaceRisk rdf:type airo:Risk ;
+    rdfs:label "Digital Blackface Risk"@en ;
+    rdfs:label "数字黑脸风险"@zh ;
+    airo:hasConsequence ex:RacialStereotyping ;
+    airo:isRiskSourceFor ex:InappropriateFeatureDesign .
+
+ex:RacialStereotyping rdf:type airo:Consequence ;
+    rdfs:label "Racial Stereotyping Consequence"@en ;
+    rdfs:label "种族刻板印象后果"@zh ;
+    airo:hasImpact ex:CulturalAppropriation .
+
+ex:PhotoEditingWithAI rdf:type airo:AICapability ;
+    rdfs:label "Photo Editing with AI Capability"@en ;
+    rdfs:label "AI照片编辑能力"@zh .
+
+ex:CelebritiesPromotingApp rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrities Promoting App"@en ;
+    rdfs:label "推广应用的明星"@zh .
+
+ex:CulturalAppropriation rdf:type airo:Impact ;
+    rdfs:label "Cultural Appropriation Impact"@en ;
+    rdfs:label "文化挪用影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CelebritiesPromotingApp .
+
+ex:EntertainmentPhotoEditing rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Photo Editing Purpose"@en ;
+    rdfs:label "娱乐照片编辑目的"@zh .
+
+ex:FacialFeatureModification rdf:type airo:AITechnique ;
+    rdfs:label "Facial Feature Modification Technique"@en ;
+    rdfs:label "面部特征修改技术"@zh .
+
+ex:InappropriateFeatureDesign rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Feature Design Risk Source"@en ;
+    rdfs:label "不当功能设计风险源"@zh .

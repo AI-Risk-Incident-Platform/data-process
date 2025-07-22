@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RedditPlatform",
+      "中文名称": "Reddit平台",
+      "英文名称": "Reddit Platform",
+      "来源": "Reddit considers legal action against AI firms for unauthorised use"
+    },
+    "Risk": {
+      "id": "UnauthorizedDataExtractionRisk",
+      "中文名称": "未经授权的数据提取风险",
+      "英文名称": "Unauthorized Data Extraction Risk",
+      "来源": "Reddit warns of legal action for AI firms lifting data without permission"
+    },
+    "Stakeholder": {
+      "id": "AIFirms",
+      "中文名称": "AI公司",
+      "英文名称": "AI Firms",
+      "来源": "Reddit considers legal action against AI firms for unauthorised use"
+    },
+    "AIOperator": {
+      "id": "RedditInc",
+      "中文名称": "Reddit公司",
+      "英文名称": "Reddit Inc.",
+      "来源": "Reddit warns of legal action for AI firms lifting data without permission"
+    },
+    "RiskSource": {
+      "id": "DataScrapingWithoutPermission",
+      "中文名称": "未经许可的数据抓取风险源",
+      "英文名称": "Data Scraping Without Permission Risk Source",
+      "来源": "Reddit warns of legal action for AI firms lifting data without permission"
+    },
+    "Consequence": {
+      "id": "PotentialLegalAction",
+      "中文名称": "潜在法律诉讼后果",
+      "英文名称": "Potential Legal Action Consequence",
+      "来源": "Reddit considers legal action against AI firms for unauthorised use"
+    },
+    "Impact": {
+      "id": "FinancialAndReputationalDamage",
+      "中文名称": "财务和声誉损害影响",
+      "英文名称": "Financial and Reputational Damage Impact",
+      "来源": "Reddit Warns AI Firms: Legal Action for Unauthorized Data Extraction! | Fresh NYSE Listing"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "Reddit considers legal action against AI firms for unauthorised use"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CollegeAdmissionAlgorithm",
+      "中文名称": "大学录取算法",
+      "英文名称": "College Admission Algorithm",
+      "来源": "Meet the Secret Algorithm That's Keeping Students Out of College"
+    },
+    "Risk": {
+      "id": "UnfairAdmissionPracticesRisk",
+      "中文名称": "不公平录取实践风险",
+      "英文名称": "Unfair Admission Practices Risk",
+      "来源": "Keeping Students Out of College"
+    },
+    "Stakeholder": {
+      "id": "CollegeApplicants",
+      "中文名称": "大学申请者",
+      "英文名称": "College Applicants",
+      "来源": "Keeping Students Out of College"
+    },
+    "Domain": {
+      "id": "HigherEducationAdmissions",
+      "中文名称": "高等教育录取领域",
+      "英文名称": "Higher Education Admissions Domain",
+      "来源": "Keeping Students Out of College"
+    },
+    "Impact": {
+      "id": "EducationalOpportunityLoss",
+      "中文名称": "教育机会丧失影响",
+      "英文名称": "Educational Opportunity Loss Impact",
+      "来源": "Keeping Students Out of College"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokAIVideoGenerator rdf:type airo:AISystem ;
+    rdfs:label "TikTok AI视频生成器"@zh ;
+    rdfs:label "TikTok AI Video Generator"@en ;
+    airo:hasRisk ex:MisuseOfAIGeneratedContent ;
+    airo:hasAICapability ex:TextToSpeechSynthesis ;
+    airo:hasStakeholder ex:TikTokUsers ;
+    airo:isDeployedBy ex:TikTok .
+
+ex:MisuseOfAIGeneratedContent rdf:type airo:Risk ;
+    rdfs:label "AI生成内容滥用风险"@zh ;
+    rdfs:label "Misuse of AI Generated Content Risk"@en ;
+    airo:hasConsequence ex:PropagationOfHarmfulContent ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:PropagationOfHarmfulContent rdf:type airo:Consequence ;
+    rdfs:label "有害内容传播后果"@zh ;
+    rdfs:label "Propagation of Harmful Content Consequence"@en ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:TextToSpeechSynthesis rdf:type airo:AICapability ;
+    rdfs:label "文本转语音合成能力"@zh ;
+    rdfs:label "Text to Speech Synthesis Capability"@en .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok用户"@zh ;
+    rdfs:label "TikTok Users"@en .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "内容审核缺失风险源"@zh ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "社会危害影响"@zh ;
+    rdfs:label "Social Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TikTokUsers .
+
+ex:TikTok rdf:type airo:AIOperator ;
+    rdfs:label "TikTok"@zh ;
+    rdfs:label "TikTok"@en .

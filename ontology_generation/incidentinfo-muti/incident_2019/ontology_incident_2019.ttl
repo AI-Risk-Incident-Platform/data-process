@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICourtSentencingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Court Sentencing System"@en ;
+    rdfs:label "AI法庭量刑系统"@zh ;
+    airo:hasRisk ex:UnjustSentencingRisk ;
+    airo:hasStakeholder ex:MalaysianLawyers ;
+    airo:hasStakeholder ex:CriminalDefendants ;
+    airo:isAppliedWithinDomain ex:JudicialSystem ;
+    airo:hasPurpose ex:AutomatedSentencingDecision .
+
+ex:UnjustSentencingRisk rdf:type airo:Risk ;
+    rdfs:label "Unjust Sentencing Risk"@en ;
+    rdfs:label "不公正量刑风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfHumanJudgmentInSentencing ;
+    airo:hasConsequence ex:PotentialMiscarriageOfJustice .
+
+ex:MalaysianLawyers rdf:type airo:Stakeholder ;
+    rdfs:label "Malaysian Lawyers"@en ;
+    rdfs:label "马来西亚律师"@zh .
+
+ex:JudicialSystem rdf:type airo:Domain ;
+    rdfs:label "Judicial System"@en ;
+    rdfs:label "司法系统"@zh .
+
+ex:AutomatedSentencingDecision rdf:type airo:Purpose ;
+    rdfs:label "Automated Sentencing Decision"@en ;
+    rdfs:label "自动化量刑决策"@zh .
+
+ex:PotentialMiscarriageOfJustice rdf:type airo:Consequence ;
+    rdfs:label "Potential Miscarriage of Justice Consequence"@en ;
+    rdfs:label "潜在司法不公后果"@zh ;
+    airo:hasImpact ex:ErosionOfPublicTrustInJudicialSystem .
+
+ex:ErosionOfPublicTrustInJudicialSystem rdf:type airo:Impact ;
+    rdfs:label "Erosion of Public Trust in Judicial System Impact"@en ;
+    rdfs:label "削弱公众对司法系统信任的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MalaysianLawyers , ex:CriminalDefendants .
+
+ex:CriminalDefendants rdf:type airo:AISubject ;
+    rdfs:label "Criminal Defendants"@en ;
+    rdfs:label "刑事被告"@zh .
+
+ex:LackOfHumanJudgmentInSentencing rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Judgment in Sentencing Risk Source"@en ;
+    rdfs:label "量刑中缺乏人类判断的风险源"@zh .

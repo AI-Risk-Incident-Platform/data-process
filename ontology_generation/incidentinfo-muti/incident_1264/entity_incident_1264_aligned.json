@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GmailSecurityAI",
+      "中文名称": "Gmail安全AI",
+      "英文名称": "Gmail Security AI",
+      "来源": "New Gmail Security Alert For Billions As 7-Day AI Hack Confirmed"
+    },
+    "Risk": {
+      "id": "AIPoweredScamRisk",
+      "中文名称": "AI驱动的诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Here’s What You Need to Know About an AI-Powered Scam Targeting Gmail"
+    },
+    "Stakeholder": {
+      "id": "GmailUsers",
+      "中文名称": "Gmail用户",
+      "英文名称": "Gmail Users",
+      "来源": "Billions of Gmail users at risk from sophisticated new AI hack"
+    },
+    "RiskSource": {
+      "id": "SophisticatedAIHack",
+      "中文名称": "复杂AI黑客攻击",
+      "英文名称": "Sophisticated AI Hack",
+      "来源": "Billions of Gmail users at risk from sophisticated new AI hack"
+    },
+    "Consequence": {
+      "id": "AccountSecurityBreach",
+      "中文名称": "账户安全漏洞",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "New Gmail Security Alert For Billions As 7-Day AI Hack Confirmed"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Here’s What You Need to Know About an AI-Powered Scam Targeting Gmail"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GmailSecurityAI",
+      "中文名称": "Gmail安全AI",
+      "英文名称": "Gmail Security AI",
+      "来源": "New Gmail Security Alert For Billions As 7-Day AI Hack Confirmed"
+    },
+    "Risk": {
+      "id": "AIPoweredScamRisk",
+      "中文名称": "AI驱动的诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Here’s What You Need to Know About an AI-Powered Scam Targeting Gmail"
+    },
+    "Stakeholder": {
+      "id": "GmailUsers",
+      "中文名称": "Gmail用户",
+      "英文名称": "Gmail Users",
+      "来源": "Billions of Gmail users at risk from sophisticated new AI hack"
+    },
+    "RiskSource": {
+      "id": "SophisticatedAIHack",
+      "中文名称": "复杂AI黑客攻击",
+      "英文名称": "Sophisticated AI Hack",
+      "来源": "Billions of Gmail users at risk from sophisticated new AI hack"
+    },
+    "Consequence": {
+      "id": "AccountSecurityBreach",
+      "中文名称": "账户安全漏洞",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "New Gmail Security Alert For Billions As 7-Day AI Hack Confirmed"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Here’s What You Need to Know About an AI-Powered Scam Targeting Gmail"
+    }
+  }
+}

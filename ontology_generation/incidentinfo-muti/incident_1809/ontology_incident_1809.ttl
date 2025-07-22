@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeleRobotDoctorVisitSystem rdf:type airo:AISystem ;
+    rdfs:label "Tele-Robot Doctor Visit System"@en ;
+    rdfs:label "远程机器人医生访问系统"@zh ;
+    airo:hasRisk ex:InhumanePatientCommunicationRisk ;
+    airo:hasAISubject ex:TerminallyIllPatient ;
+    airo:hasStakeholder ex:KaiserPermanente ;
+    airo:hasPurpose ex:RemoteMedicalConsultation ;
+    airo:isAppliedWithinDomain ex:HealthcareServices ;
+    airo:usesTechnique ex:VideoConferencingTechnology ;
+    airo:hasVulnerability ex:LackOfHumanEmpathyInTechnology .
+
+ex:InhumanePatientCommunicationRisk rdf:type airo:Risk ;
+    rdfs:label "Inhumane Patient Communication Risk"@en ;
+    rdfs:label "不人道患者沟通风险"@zh ;
+    airo:hasConsequence ex:PatientPsychologicalDistress .
+
+ex:PatientPsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "Patient Psychological Distress Consequence"@en ;
+    rdfs:label "患者心理困扰后果"@zh ;
+    airo:hasImpact ex:ReducedTrustInHealthcareSystem .
+
+ex:TerminallyIllPatient rdf:type airo:AISubject ;
+    rdfs:label "Terminally Ill Patient"@en ;
+    rdfs:label "临终患者"@zh .
+
+ex:KaiserPermanente rdf:type airo:Stakeholder ;
+    rdfs:label "Kaiser Permanente"@en ;
+    rdfs:label "凯撒医疗机构"@zh .
+
+ex:ReducedTrustInHealthcareSystem rdf:type airo:Impact ;
+    rdfs:label "Reduced Trust in Healthcare System Impact"@en ;
+    rdfs:label "医疗系统信任度降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:KaiserPermanente .
+
+ex:RemoteMedicalConsultation rdf:type airo:Purpose ;
+    rdfs:label "Remote Medical Consultation Purpose"@en ;
+    rdfs:label "远程医疗咨询的目的"@zh .
+
+ex:HealthcareServices rdf:type airo:Domain ;
+    rdfs:label "Healthcare Services Domain"@en ;
+    rdfs:label "医疗服务领域"@zh .
+
+ex:VideoConferencingTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Video Conferencing Technology"@en ;
+    rdfs:label "视频会议技术"@zh .
+
+ex:LackOfHumanEmpathyInTechnology rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Empathy in Technology Vulnerability"@en ;
+    rdfs:label "技术中缺乏人类同理心的脆弱性"@zh .

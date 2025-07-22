@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HospitalAIAlgorithm",
+      "中文名称": "医院AI算法",
+      "英文名称": "Hospital AI Algorithm",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Risk": {
+      "id": "UntestedAlgorithmRisk",
+      "中文名称": "未经充分测试的算法风险",
+      "英文名称": "Untested Algorithm Risk",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Stakeholder": {
+      "id": "Physicians",
+      "中文名称": "医生",
+      "英文名称": "Physicians",
+      "来源": "Physician viewpoint: How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "AIDeployer": {
+      "id": "Hospitals",
+      "中文名称": "医院",
+      "英文名称": "Hospitals",
+      "来源": "Hospitals are using AI to predict the decline of Covid-19 patients — before knowing it works"
+    },
+    "RiskSource": {
+      "id": "LackOfTesting",
+      "中文名称": "缺乏测试",
+      "英文名称": "Lack of Testing",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Consequence": {
+      "id": "UnreliablePredictions",
+      "中文名称": "不可靠的预测",
+      "英文名称": "Model Unreliability",
+      "来源": "Hospitals are using AI to predict the decline of Covid-19 patients — before knowing it works"
+    },
+    "Impact": {
+      "id": "PatientSafetyThreat",
+      "中文名称": "患者安全威胁",
+      "英文名称": "Patient Safety Impact",
+      "来源": "Opinion: Amid a Pandemic, a Health Care Algorithm Shows Promise and Peril"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HospitalAIAlgorithm",
+      "中文名称": "医院AI算法",
+      "英文名称": "Hospital AI Algorithm",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Risk": {
+      "id": "UntestedAlgorithmRisk",
+      "中文名称": "未经充分测试的算法风险",
+      "英文名称": "Untested Algorithm Risk",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Stakeholder": {
+      "id": "Physicians",
+      "中文名称": "医生",
+      "英文名称": "Physicians",
+      "来源": "Physician viewpoint: How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "AIDeployer": {
+      "id": "Hospitals",
+      "中文名称": "医院",
+      "英文名称": "Hospitals",
+      "来源": "Hospitals are using AI to predict the decline of Covid-19 patients — before knowing it works"
+    },
+    "RiskSource": {
+      "id": "LackOfTesting",
+      "中文名称": "缺乏测试",
+      "英文名称": "Lack of Testing",
+      "来源": "How a ‘largely untested’ AI algorithm made its way into hundreds of hospitals"
+    },
+    "Consequence": {
+      "id": "UnreliablePredictions",
+      "中文名称": "不可靠的预测",
+      "英文名称": "Model Unreliability",
+      "来源": "Hospitals are using AI to predict the decline of Covid-19 patients — before knowing it works"
+    },
+    "Impact": {
+      "id": "PatientSafetyThreat",
+      "中文名称": "患者安全威胁",
+      "英文名称": "Patient Safety Impact",
+      "来源": "Opinion: Amid a Pandemic, a Health Care Algorithm Shows Promise and Peril"
+    }
+  }
+}

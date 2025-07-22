@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberDriverDataManagementSystem",
+      "中文名称": "优步司机数据管理系统",
+      "英文名称": "Uber Driver Data Management System",
+      "来源": "Uber Drivers Take Unprecedented International Legal Action to Demand Their Data"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "Data Privacy Risk",
+      "来源": "Uber drivers demand access to their personal data"
+    },
+    "Stakeholder": {
+      "id": "UberDrivers",
+      "中文名称": "优步司机",
+      "英文名称": "Uber Drivers",
+      "来源": "Uber Drivers Take Unprecedented International Legal Action to Demand Their Data"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber Technologies Inc.",
+      "来源": "Application Pursuant to Art. 15(1) GDPR and Art. 35(1) UAVG"
+    },
+    "Consequence": {
+      "id": "LackOfDataTransparency",
+      "中文名称": "数据透明度缺失后果",
+      "英文名称": "Lack of Data Transparency Consequence",
+      "来源": "Uber drivers demand access to their personal data"
+    },
+    "Impact": {
+      "id": "DriverRightsViolation",
+      "中文名称": "司机权利侵犯影响",
+      "英文名称": "Driver Rights Violation Impact",
+      "来源": "Uber Drivers Take Unprecedented International Legal Action to Demand Their Data"
+    }
+  }
+}

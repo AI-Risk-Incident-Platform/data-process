@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepSeekAI rdf:type airo:AISystem ;
+    rdfs:label "DeepSeek AI"@en ;
+    rdfs:label "深度求索AI"@zh ;
+    airo:hasRisk ex:EthnicGroupExistenceErasingRisk ;
+    airo:hasAISubject ex:EthnicMinorityGroups ;
+    airo:hasStakeholder ex:UyghurCommunity ;
+    airo:hasPurpose ex:HistoricalNarrativeControl .
+
+ex:EthnicGroupExistenceErasingRisk rdf:type airo:Risk ;
+    rdfs:label "Ethnic Group Existence Erasing Risk"@en ;
+    rdfs:label "族群存在抹除风险"@zh ;
+    airo:hasConsequence ex:CulturalIdentityLoss ;
+    airo:isRiskSourceFor ex:HistoricalDataManipulation .
+
+ex:CulturalIdentityLoss rdf:type airo:Consequence ;
+    rdfs:label "Cultural Identity Loss Consequence"@en ;
+    rdfs:label "文化认同丧失后果"@zh ;
+    airo:hasImpact ex:EthnicMinorityRightsViolation .
+
+ex:EthnicMinorityRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Ethnic Minority Rights Violation Impact"@en ;
+    rdfs:label "少数民族权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UyghurCommunity .
+
+ex:UyghurCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Uyghur Community"@en ;
+    rdfs:label "维吾尔族社区"@zh .
+
+ex:EthnicMinorityGroups rdf:type airo:AISubject ;
+    rdfs:label "Ethnic Minority Groups"@en ;
+    rdfs:label "少数民族群体"@zh .
+
+ex:HistoricalDataManipulation rdf:type airo:RiskSource ;
+    rdfs:label "Historical Data Manipulation Risk Source"@en ;
+    rdfs:label "历史数据篡改风险源"@zh .
+
+ex:HistoricalNarrativeControl rdf:type airo:Purpose ;
+    rdfs:label "Historical Narrative Control Purpose"@en ;
+    rdfs:label "历史叙事控制目的"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Chatbot",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "Risk": {
+      "id": "RansomwareRisk",
+      "中文名称": "勒索软件风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "RiskSource": {
+      "id": "SecurityFlaws",
+      "中文名称": "安全漏洞",
+      "英文名称": "Security Deficiencies",
+      "来源": "Forget ChatGPT, Google Bard could have some serious security flaws"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干扰",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Chatbot",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "Risk": {
+      "id": "RansomwareRisk",
+      "中文名称": "勒索软件风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "Google’s Bard poses ransomware risk, say researchers"
+    },
+    "RiskSource": {
+      "id": "SecurityFlaws",
+      "中文名称": "安全漏洞",
+      "英文名称": "Security Deficiencies",
+      "来源": "Forget ChatGPT, Google Bard could have some serious security flaws"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干扰",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    }
+  }
+}

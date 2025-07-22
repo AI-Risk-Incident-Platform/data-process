@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAISora rdf:type airo:AISystem ;
+    rdfs:label "OpenAI Sora"@en ;
+    rdfs:label "OpenAI的Sora"@zh ;
+    airo:hasRisk ex:DiscriminatoryBiasRisk ;
+    airo:isProvidedBy ex:OpenAI ;
+    airo:hasAISubject ex:MarginalizedGroups .
+
+ex:DiscriminatoryBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Discriminatory Bias Risk"@en ;
+    rdfs:label "歧视性偏见风险"@zh ;
+    airo:hasConsequence ex:HarmfulStereotypesPerpetuation ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HarmfulStereotypesPerpetuation rdf:type airo:Consequence ;
+    rdfs:label "Harmful Stereotypes Perpetuation Consequence"@en ;
+    rdfs:label "有害刻板印象延续后果"@zh ;
+    airo:hasImpact ex:SocialDiscriminationAmplification .
+
+ex:SocialDiscriminationAmplification rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Amplification Impact"@en ;
+    rdfs:label "社会歧视放大影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MarginalizedGroups .
+
+ex:OpenAI rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:MarginalizedGroups rdf:type airo:AISubject ;
+    rdfs:label "Marginalized Groups"@en ;
+    rdfs:label "边缘化群体"@zh .

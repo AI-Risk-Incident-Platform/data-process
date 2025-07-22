@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UKPassportPhotoChecker",
+      "中文名称": "英国护照照片检查器",
+      "英文名称": "UK Passport Photo Checker",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Risk": {
+      "id": "RacialBiasInPhotoRecognition",
+      "中文名称": "照片识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Photo Recognition Risk",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstDarkSkinnedWomen",
+      "中文名称": "对深肤色女性的歧视后果",
+      "英文名称": "Discrimination Against Dark-Skinned Women Consequence",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedWomen",
+      "中文名称": "深肤色女性",
+      "英文名称": "Dark-Skinned Women",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Stakeholder": {
+      "id": "UKGovernment",
+      "中文名称": "英国政府",
+      "英文名称": "UK Government",
+      "来源": "The UK Knew Its Passport AI Was Racist — and Used It Anyway"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "The UK Knew Its Passport AI Was Racist — and Used It Anyway"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务领域",
+      "英文名称": "Government Services Domain",
+      "来源": "The UK Knew Its Passport AI Was Racist — and Used It Anyway"
+    }
+  }
+}

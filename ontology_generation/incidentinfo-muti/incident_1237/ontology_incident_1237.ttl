@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HomeOfficeAIImmigrationTool rdf:type airo:AISystem ;
+    rdfs:label "Home Office AI Immigration Tool"@en ;
+    rdfs:label "英国内政部AI移民工具"@zh ;
+    airo:hasRisk ex:PotentialBiasInImmigrationDecisions ;
+    airo:hasStakeholder ex:UKHomeOffice ;
+    airo:isDeployedBy ex:UKGovernment ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndBorderControl .
+
+ex:PotentialBiasInImmigrationDecisions rdf:type airo:Risk ;
+    rdfs:label "Potential Bias in Immigration Decisions Risk"@en ;
+    rdfs:label "移民决策中的潜在偏见风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInDecisionMaking ;
+    airo:hasConsequence ex:UnfairDeportationDecisions .
+
+ex:UKHomeOffice rdf:type airo:Stakeholder ;
+    rdfs:label "UK Home Office"@en ;
+    rdfs:label "英国内政部"@zh .
+
+ex:UKGovernment rdf:type airo:AIOperator ;
+    rdfs:label "UK Government"@en ;
+    rdfs:label "英国政府"@zh .
+
+ex:UnfairDeportationDecisions rdf:type airo:Impact ;
+    rdfs:label "Unfair Deportation Decisions Impact"@en ;
+    rdfs:label "不公正遣返决策的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UKHomeOffice .
+
+ex:ImmigrationAndBorderControl rdf:type airo:Domain ;
+    rdfs:label "Immigration and Border Control Domain"@en ;
+    rdfs:label "移民与边境管控领域"@zh .
+
+ex:AlgorithmicBiasInDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Decision Making Risk Source"@en ;
+    rdfs:label "决策中的算法偏见风险源"@zh .

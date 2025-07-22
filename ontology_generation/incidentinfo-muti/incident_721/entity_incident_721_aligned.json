@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "JournalRankingSystem",
+      "中文名称": "期刊排名系统",
+      "英文名称": "Journal Ranking System",
+      "来源": "How a widely used ranking system ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Risk": {
+      "id": "FakeJournalInclusionRisk",
+      "中文名称": "虚假期刊收录风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Consequence": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Domain": {
+      "id": "AcademicPublishing",
+      "中文名称": "学术出版领域",
+      "英文名称": "Scientific Publishing",
+      "来源": "top 10 philosophy list"
+    },
+    "RiskSource": {
+      "id": "InadequateVerificationMechanism",
+      "中文名称": "验证机制不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ended up with three fake journals"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "JournalRankingSystem",
+      "中文名称": "期刊排名系统",
+      "英文名称": "Journal Ranking System",
+      "来源": "How a widely used ranking system ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Risk": {
+      "id": "FakeJournalInclusionRisk",
+      "中文名称": "虚假期刊收录风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Consequence": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害后果",
+      "英文名称": "Academic Cheating Consequence",
+      "来源": "ended up with three fake journals in its top 10 philosophy list"
+    },
+    "Domain": {
+      "id": "AcademicPublishing",
+      "中文名称": "学术出版领域",
+      "英文名称": "Scientific Publishing",
+      "来源": "top 10 philosophy list"
+    },
+    "RiskSource": {
+      "id": "InadequateVerificationMechanism",
+      "中文名称": "验证机制不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ended up with three fake journals"
+    }
+  }
+}

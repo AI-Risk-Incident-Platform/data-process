@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    rdfs:label "Amazon Alexa"@en ;
+    airo:hasRisk ex:UnintendedActivationRisk ;
+    airo:hasCapability ex:VoiceActivatedMusicPlayback ;
+    airo:hasStakeholder ex:NeighborhoodResidents ;
+    airo:isDeployedBy ex:Amazon .
+
+ex:UnintendedActivationRisk rdf:type airo:Risk ;
+    rdfs:label "意外激活风险"@zh ;
+    rdfs:label "Unintended Activation Risk"@en ;
+    airo:hasConsequence ex:PoliceIntervention ;
+    airo:isRiskSourceFor ex:SystemMalfunction .
+
+ex:PoliceIntervention rdf:type airo:Consequence ;
+    rdfs:label "警方干预后果"@zh ;
+    rdfs:label "Police Intervention Consequence"@en ;
+    airo:hasImpact ex:PublicDisturbance .
+
+ex:VoiceActivatedMusicPlayback rdf:type airo:AICapability ;
+    rdfs:label "语音激活音乐播放能力"@zh ;
+    rdfs:label "Voice Activated Music Playback Capability"@en .
+
+ex:NeighborhoodResidents rdf:type airo:Stakeholder ;
+    rdfs:label "社区居民"@zh ;
+    rdfs:label "Neighborhood Residents"@en .
+
+ex:PublicDisturbance rdf:type airo:Impact ;
+    rdfs:label "公共干扰影响"@zh ;
+    rdfs:label "Public Disturbance Impact"@en ;
+    airo:hasImpactOnStakeholder ex:NeighborhoodResidents .
+
+ex:SystemMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "系统故障风险源"@zh ;
+    rdfs:label "System Malfunction Risk Source"@en .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊公司"@zh ;
+    rdfs:label "Amazon"@en .

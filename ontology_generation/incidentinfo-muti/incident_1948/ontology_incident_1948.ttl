@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAnswerGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI答案生成系统"@zh ;
+    rdfs:label "AI Answer Generation System"@en ;
+    airo:hasRisk ex:LowQualityContentRisk ;
+    airo:hasStakeholder ex:StackOverflowModerators ;
+    airo:isAppliedWithinDomain ex:TechnicalQAPlatform .
+
+ex:LowQualityContentRisk rdf:type airo:Risk ;
+    rdfs:label "低质量内容风险"@zh ;
+    rdfs:label "Low Quality Content Risk"@en ;
+    airo:hasConsequence ex:SiteContentQualityDegradation .
+
+ex:StackOverflowModerators rdf:type airo:Stakeholder ;
+    rdfs:label "Stack Overflow版主"@zh ;
+    rdfs:label "Stack Overflow Moderators"@en .
+
+ex:SiteContentQualityDegradation rdf:type airo:Consequence ;
+    rdfs:label "网站内容质量下降后果"@zh ;
+    rdfs:label "Site Content Quality Degradation Consequence"@en ;
+    airo:hasImpact ex:UserExperienceDeterioration .
+
+ex:UserExperienceDeterioration rdf:type airo:Impact ;
+    rdfs:label "用户体验恶化影响"@zh ;
+    rdfs:label "User Experience Deterioration Impact"@en ;
+    airo:hasImpactOnStakeholder ex:StackOverflowModerators .
+
+ex:TechnicalQAPlatform rdf:type airo:Domain ;
+    rdfs:label "技术问答平台领域"@zh ;
+    rdfs:label "Technical QA Platform Domain"@en .

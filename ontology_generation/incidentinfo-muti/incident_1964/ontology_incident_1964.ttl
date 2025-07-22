@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseRobotaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    rdfs:label "Cruise Robotaxi"@en ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:isDeployedBy ex:GeneralMotors ;
+    airo:isAppliedWithinDomain ex:AutonomousTransportation ;
+    airo:hasStakeholder ex:GeneralMotors .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    airo:hasConsequence ex:VehicleRecall ;
+    airo:hasRiskControl ex:SoftwareUpdate .
+
+ex:VehicleRecall rdf:type airo:Consequence ;
+    rdfs:label "车辆召回后果"@zh ;
+    rdfs:label "Vehicle Recall Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:GeneralMotors rdf:type airo:AIOperator ;
+    rdfs:label "通用汽车"@zh ;
+    rdfs:label "General Motors"@en .
+
+ex:SoftwareUpdate rdf:type airo:RiskControl ;
+    rdfs:label "软件更新管控"@zh ;
+    rdfs:label "Software Update RiskControl"@en .
+
+ex:AutonomousTransportation rdf:type airo:Domain ;
+    rdfs:label "自动驾驶交通领域"@zh ;
+    rdfs:label "Autonomous Transportation Domain"@en .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    airo:hasImpactOnStakeholder ex:GeneralMotors .

@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Watch: Delivery robot rolls through crime scene"
+    },
+    "Risk": {
+      "id": "CrimeSceneContaminationRisk",
+      "中文名称": "犯罪现场污染风险",
+      "英文名称": "Crime Scene Contamination Risk",
+      "来源": "Delivery robot rolls through crime scene"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcement",
+      "中文名称": "执法部门",
+      "英文名称": "Law Enforcement",
+      "来源": "crime scene"
+    },
+    "Consequence": {
+      "id": "EvidenceContamination",
+      "中文名称": "证据污染后果",
+      "英文名称": "Evidence Contamination Consequence",
+      "来源": "robot rolls through crime scene"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Watch: Delivery robot rolls through crime scene"
+    },
+    "Risk": {
+      "id": "CrimeSceneContaminationRisk",
+      "中文名称": "犯罪现场污染风险",
+      "英文名称": "Crime Scene Contamination Risk",
+      "来源": "Delivery robot rolls through crime scene"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcement",
+      "中文名称": "执法部门",
+      "英文名称": "Law Enforcement",
+      "来源": "crime scene"
+    },
+    "Consequence": {
+      "id": "EvidenceContamination",
+      "中文名称": "证据污染后果",
+      "英文名称": "Evidence Contamination Consequence",
+      "来源": "robot rolls through crime scene"
+    }
+  }
+}

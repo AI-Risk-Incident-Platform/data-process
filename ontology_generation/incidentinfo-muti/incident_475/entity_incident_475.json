@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Full Self-Driving System",
+      "来源": "Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System"
+    },
+    "Risk": {
+      "id": "PotentialCrashRisk",
+      "中文名称": "潜在碰撞风险",
+      "英文名称": "Potential Crash Risk",
+      "来源": "Tesla recalls 362,758 vehicles, says Full Self-Driving Beta software may cause crashes"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla recalling nearly 363,000 vehicles equipped with ‘Full Self-Driving’"
+    },
+    "Consequence": {
+      "id": "VehicleRecalls",
+      "中文名称": "车辆召回后果",
+      "英文名称": "Vehicle Recalls Consequence",
+      "来源": "Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System"
+    },
+    "RiskSource": {
+      "id": "SoftwareDefectInFSDBeta",
+      "中文名称": "FSD Beta软件缺陷风险源",
+      "英文名称": "Software Defect in FSD Beta Risk Source",
+      "来源": "Tesla recalls 362,758 vehicles, says Full Self-Driving Beta software may cause crashes"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla recalling nearly 363,000 vehicles equipped with ‘Full Self-Driving’"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System"
+    },
+    "AICapability": {
+      "id": "SelfDrivingFunctionality",
+      "中文名称": "自动驾驶功能能力",
+      "英文名称": "Self-Driving Functionality Capability",
+      "来源": "Tesla recalling nearly 363,000 vehicles equipped with ‘Full Self-Driving’"
+    }
+  }
+}

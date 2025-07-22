@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceCloningAI",
+      "中文名称": "语音克隆AI",
+      "英文名称": "Voice Cloning AI",
+      "来源": "AI generator used to make celebrity voices read offensive messages"
+    },
+    "Risk": {
+      "id": "CelebrityVoiceMisuseRisk",
+      "中文名称": "名人语音滥用风险",
+      "英文名称": "Celebrity Voice Misuse Risk",
+      "来源": "AI generator used to make celebrity voices read offensive messages"
+    },
+    "Stakeholder": {
+      "id": "4ChanUsers",
+      "中文名称": "4Chan用户",
+      "英文名称": "4Chan Users",
+      "来源": "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI"
+    },
+    "AIOperator": {
+      "id": "VoiceCloningStartup",
+      "中文名称": "语音克隆初创公司",
+      "英文名称": "Voice Cloning Startup",
+      "来源": "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI"
+    },
+    "Consequence": {
+      "id": "OffensiveContentCreation",
+      "中文名称": "冒犯性内容创作后果",
+      "英文名称": "Offensive Content Creation Consequence",
+      "来源": "AI generator used to make celebrity voices read offensive messages"
+    },
+    "Impact": {
+      "id": "CelebrityReputationDamage",
+      "中文名称": "名人声誉损害影响",
+      "英文名称": "Celebrity Reputation Damage Impact",
+      "来源": "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips"
+    },
+    "RiskSource": {
+      "id": "AnonymousOnlineCommunities",
+      "中文名称": "匿名在线社区风险源",
+      "英文名称": "Anonymous Online Communities Risk Source",
+      "来源": "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI"
+    },
+    "Misuse": {
+      "id": "CelebrityVoiceDeepfakeAbuse",
+      "中文名称": "名人语音深度伪造滥用",
+      "英文名称": "Celebrity Voice Deepfake Abuse",
+      "来源": "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips"
+    },
+    "RiskControl": {
+      "id": "ExtraSafeguardsImplementation",
+      "中文名称": "额外保障措施实施",
+      "英文名称": "Extra Safeguards Implementation",
+      "来源": "Extra safeguards coming after AI generator used to make celebrity voices read offensive messages"
+    }
+  }
+}

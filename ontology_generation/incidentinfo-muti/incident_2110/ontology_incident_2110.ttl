@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDungeon rdf:type airo:AISystem ;
+    rdfs:label "AI Dungeon"@en ;
+    rdfs:label "AI地牢"@zh ;
+    airo:hasRisk ex:InappropriateContentGenerationRisk ;
+    airo:hasCapability ex:InteractiveStoryGeneration ;
+    airo:hasPurpose ex:CreativeStorytellingPlatform ;
+    airo:isAppliedWithinDomain ex:InteractiveEntertainment ;
+    airo:isDeployedBy ex:LatitudeGames .
+
+ex:InappropriateContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Generation Risk"@en ;
+    rdfs:label "不当内容生成风险"@zh ;
+    airo:isRiskSourceFor ex:UnfilteredUserInput ;
+    airo:hasConsequence ex:HarmfulContentCreation .
+
+ex:LatitudeGames rdf:type airo:AIOperator ;
+    rdfs:label "Latitude Games"@en ;
+    rdfs:label "纬度游戏公司"@zh .
+
+ex:InteractiveStoryGeneration rdf:type airo:AICapability ;
+    rdfs:label "Interactive Story Generation Capability"@en ;
+    rdfs:label "交互式故事生成能力"@zh .
+
+ex:UnfilteredUserInput rdf:type airo:RiskSource ;
+    rdfs:label "Unfiltered User Input Risk Source"@en ;
+    rdfs:label "未过滤的用户输入风险源"@zh .
+
+ex:HarmfulContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Creation Consequence"@en ;
+    rdfs:label "有害内容创作后果"@zh ;
+    airo:hasImpact ex:CommunityBacklash .
+
+ex:CommunityBacklash rdf:type airo:Impact ;
+    rdfs:label "Community Backlash Impact"@en ;
+    rdfs:label "社区强烈反对影响"@zh .
+
+ex:CreativeStorytellingPlatform rdf:type airo:Purpose ;
+    rdfs:label "Creative Storytelling Platform Purpose"@en ;
+    rdfs:label "创意故事讲述平台目的"@zh .
+
+ex:InteractiveEntertainment rdf:type airo:Domain ;
+    rdfs:label "Interactive Entertainment Domain"@en ;
+    rdfs:label "互动娱乐领域"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:hasAISubject ex:CapitolRiotParticipants .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:PotentialLegalAndSocialRepercussions ;
+    airo:isRiskSourceFor ex:UnauthorizedDataPublication .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "警察部门"@zh ;
+    rdfs:label "Police Department"@en .
+
+ex:CapitolRiotParticipants rdf:type airo:AISubject ;
+    rdfs:label "国会大厦骚乱参与者"@zh ;
+    rdfs:label "Capitol Riot Participants"@en .
+
+ex:PublicExposureOfPersonalIdentity rdf:type airo:Impact ;
+    rdfs:label "个人身份公开曝光的影响"@zh ;
+    rdfs:label "Public Exposure of Personal Identity Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CapitolRiotParticipants .
+
+ex:UnauthorizedDataPublication rdf:type airo:RiskSource ;
+    rdfs:label "未经授权的数据发布风险源"@zh ;
+    rdfs:label "Unauthorized Data Publication Risk Source"@en .
+
+ex:PotentialLegalAndSocialRepercussions rdf:type airo:Consequence ;
+    rdfs:label "潜在法律和社会后果"@zh ;
+    rdfs:label "Potential Legal and Social Repercussions Consequence"@en ;
+    airo:hasImpact ex:PublicExposureOfPersonalIdentity .

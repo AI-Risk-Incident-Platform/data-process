@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlgorithmLendingPrograms",
+      "中文名称": "算法贷款程序",
+      "英文名称": "Algorithm Lending Programs",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Risk": {
+      "id": "DiscriminationAgainstMinoritiesRisk",
+      "中文名称": "对少数族裔的歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Stakeholder": {
+      "id": "MinorityLoanApplicants",
+      "中文名称": "少数族裔贷款申请人",
+      "英文名称": "Minority Loan Applicants",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Impact": {
+      "id": "UnequalAccessToCredit",
+      "中文名称": "信贷获取不平等的影响",
+      "英文名称": "Financial Discrimination Impact",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Reducing Bias in AI Models for Credit and Loan Decisions"
+    },
+    "RiskControl": {
+      "id": "BiasReductionTechniques",
+      "中文名称": "偏见减少技术管控",
+      "英文名称": "Bias Reduction Techniques Risk Control",
+      "来源": "Reducing Bias in AI Models for Credit and Loan Decisions"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Purpose": {
+      "id": "AutomatedLoanApproval",
+      "中文名称": "自动化贷款审批的目的",
+      "英文名称": "Automated Loan Approval Purpose",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlgorithmLendingPrograms",
+      "中文名称": "算法贷款程序",
+      "英文名称": "Algorithm Lending Programs",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Risk": {
+      "id": "DiscriminationAgainstMinoritiesRisk",
+      "中文名称": "对少数族裔的歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Stakeholder": {
+      "id": "MinorityLoanApplicants",
+      "中文名称": "少数族裔贷款申请人",
+      "英文名称": "Minority Loan Applicants",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Impact": {
+      "id": "UnequalAccessToCredit",
+      "中文名称": "信贷获取不平等的影响",
+      "英文名称": "Financial Discrimination Impact",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Reducing Bias in AI Models for Credit and Loan Decisions"
+    },
+    "RiskControl": {
+      "id": "BiasReductionTechniques",
+      "中文名称": "偏见减少技术管控",
+      "英文名称": "Bias Reduction Techniques Risk Control",
+      "来源": "Reducing Bias in AI Models for Credit and Loan Decisions"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    },
+    "Purpose": {
+      "id": "AutomatedLoanApproval",
+      "中文名称": "自动化贷款审批的目的",
+      "英文名称": "Automated Loan Approval Purpose",
+      "来源": "How Some Algorithm Lending Programs Discriminate Against Minorities"
+    }
+  }
+}

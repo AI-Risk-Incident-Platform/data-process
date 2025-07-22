@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTInHealthcare",
+      "中文名称": "医疗保健中的ChatGPT",
+      "英文名称": "ChatGPT in Healthcare",
+      "来源": "doctors use ChatGPT to write medical notes"
+    },
+    "Risk": {
+      "id": "InaccurateMedicalNotesRisk",
+      "中文名称": "不准确医疗记录风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Warning over use of ChatGPT for medical notes"
+    },
+    "Stakeholder": {
+      "id": "AustralianMedicalAssociation",
+      "中文名称": "澳大利亚医学协会",
+      "英文名称": "Australian Medical Association",
+      "来源": "Australian Medical Association calls for national regulations around AI in health care"
+    },
+    "AIOperator": {
+      "id": "DoctorsUsingChatGPT",
+      "中文名称": "使用ChatGPT的医生",
+      "英文名称": "Doctors Using ChatGPT",
+      "来源": "doctors use ChatGPT to write medical notes"
+    },
+    "RiskSource": {
+      "id": "UnregulatedAIUseInHealthcare",
+      "中文名称": "医疗保健中未受监管的AI使用",
+      "英文名称": "Unregulated Healthcare AI Risk Source",
+      "来源": "AMA calls for stronger AI regulations"
+    },
+    "Consequence": {
+      "id": "PotentialPatientHarm",
+      "中文名称": "潜在患者伤害",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Warning over use of ChatGPT for medical notes"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "national regulations around AI in health care"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTInHealthcare",
+      "中文名称": "医疗保健中的ChatGPT",
+      "英文名称": "ChatGPT in Healthcare",
+      "来源": "doctors use ChatGPT to write medical notes"
+    },
+    "Risk": {
+      "id": "InaccurateMedicalNotesRisk",
+      "中文名称": "不准确医疗记录风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Warning over use of ChatGPT for medical notes"
+    },
+    "Stakeholder": {
+      "id": "AustralianMedicalAssociation",
+      "中文名称": "澳大利亚医学协会",
+      "英文名称": "Australian Medical Association",
+      "来源": "Australian Medical Association calls for national regulations around AI in health care"
+    },
+    "AIOperator": {
+      "id": "DoctorsUsingChatGPT",
+      "中文名称": "使用ChatGPT的医生",
+      "英文名称": "Doctors Using ChatGPT",
+      "来源": "doctors use ChatGPT to write medical notes"
+    },
+    "RiskSource": {
+      "id": "UnregulatedAIUseInHealthcare",
+      "中文名称": "医疗保健中未受监管的AI使用",
+      "英文名称": "Unregulated Healthcare AI Risk Source",
+      "来源": "AMA calls for stronger AI regulations"
+    },
+    "Consequence": {
+      "id": "PotentialPatientHarm",
+      "中文名称": "潜在患者伤害",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Warning over use of ChatGPT for medical notes"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "national regulations around AI in health care"
+    }
+  }
+}

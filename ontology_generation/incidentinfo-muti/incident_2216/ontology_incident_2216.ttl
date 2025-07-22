@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PwCFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "PwC Facial Recognition System"@en ;
+    rdfs:label "PwC面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:HomeWorkingStaff ;
+    airo:isDeployedBy ex:PwC .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:WorkplaceSurveillanceTechnology ;
+    airo:hasImpact ex:EmployeePrivacyConcerns .
+
+ex:HomeWorkingStaff rdf:type airo:Stakeholder ;
+    rdfs:label "Home Working Staff"@en ;
+    rdfs:label "居家办公员工"@zh .
+
+ex:PwC rdf:type airo:AIOperator ;
+    rdfs:label "PwC"@en ;
+    rdfs:label "普华永道"@zh .
+
+ex:EmployeePrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Employee Privacy Concerns"@en ;
+    rdfs:label "员工隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:HomeWorkingStaff .
+
+ex:WorkplaceSurveillanceTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Workplace Surveillance Technology"@en ;
+    rdfs:label "工作场所监控技术"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPropagandaSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Propaganda System"@en ;
+    rdfs:label "AI生成宣传系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PoliticalPropaganda ;
+    airo:hasStakeholder ex:VenezuelanGovernment ;
+    airo:isAppliedWithinDomain ex:PoliticalCommunication .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:VenezuelanGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Venezuelan Government"@en ;
+    rdfs:label "委内瑞拉政府"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众虚假信息影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VenezuelanGovernment .
+
+ex:PoliticalPropaganda rdf:type airo:Purpose ;
+    rdfs:label "Political Propaganda Purpose"@en ;
+    rdfs:label "政治宣传目的"@zh .
+
+ex:PoliticalCommunication rdf:type airo:Domain ;
+    rdfs:label "Political Communication Domain"@en ;
+    rdfs:label "政治传播领域"@zh .

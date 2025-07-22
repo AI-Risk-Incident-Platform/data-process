@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemForToiletPaper rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统用于厕纸管理"@zh ;
+    rdfs:label "Facial Recognition System for Toilet Paper Management"@en ;
+    airo:hasPurpose ex:PreventToiletPaperTheft ;
+    airo:isAppliedWithinDomain ex:PublicFacilityManagement ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:ParkVisitors ;
+    airo:hasRisk ex:PrivacyViolationRisk .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:BiometricDataCollection ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "隐私侵犯后果"@zh ;
+        rdfs:label "Consequence of Privacy Violation"@en ;
+        airo:hasImpact ex:PersonalPrivacyConcerns
+    ] .
+
+ex:PreventToiletPaperTheft rdf:type airo:Purpose ;
+    rdfs:label "防止厕纸盗窃"@zh ;
+    rdfs:label "Prevent Toilet Paper Theft"@en .
+
+ex:PublicFacilityManagement rdf:type airo:Domain ;
+    rdfs:label "公共设施管理"@zh ;
+    rdfs:label "Public Facility Management"@en .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "面部识别技术"@zh ;
+    rdfs:label "Facial Recognition Technology"@en .
+
+ex:ParkVisitors rdf:type airo:Stakeholder ;
+    rdfs:label "公园游客"@zh ;
+    rdfs:label "Park Visitors"@en .
+
+ex:BiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "生物特征数据收集"@zh ;
+    rdfs:label "Biometric Data Collection"@en .
+
+ex:PersonalPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "个人隐私担忧"@zh ;
+    rdfs:label "Personal Privacy Concerns"@en ;
+    airo:hasImpactOnStakeholder ex:ParkVisitors .

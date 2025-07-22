@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceDepixelizer",
+      "中文名称": "面部去像素化工具",
+      "英文名称": "Face Depixelizer",
+      "来源": "Face Depixelizer"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageReconstruction",
+      "中文名称": "图像重建中的种族偏见风险",
+      "英文名称": "Racial Bias in Image Reconstruction Risk",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfRace",
+      "中文名称": "种族误表征后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "AITechnique": {
+      "id": "ImageReconstructionAlgorithm",
+      "中文名称": "图像重建算法",
+      "英文名称": "Image Reconstruction Algorithm",
+      "来源": "Turns Out There’s A Tool That Brings Back Sharpness Of Low-Res Photos And Some Results Are A Bit Creepy"
+    },
+    "Impact": {
+      "id": "PerpetuationOfRacialStereotypes",
+      "中文名称": "种族刻板印象延续的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaceDepixelizer",
+      "中文名称": "面部去像素化工具",
+      "英文名称": "Face Depixelizer",
+      "来源": "Face Depixelizer"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageReconstruction",
+      "中文名称": "图像重建中的种族偏见风险",
+      "英文名称": "Racial Bias in Image Reconstruction Risk",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfRace",
+      "中文名称": "种族误表征后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "AITechnique": {
+      "id": "ImageReconstructionAlgorithm",
+      "中文名称": "图像重建算法",
+      "英文名称": "Image Reconstruction Algorithm",
+      "来源": "Turns Out There’s A Tool That Brings Back Sharpness Of Low-Res Photos And Some Results Are A Bit Creepy"
+    },
+    "Impact": {
+      "id": "PerpetuationOfRacialStereotypes",
+      "中文名称": "种族刻板印象延续的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "An AI tool which reconstructed a pixelated picture of Barack Obama to look like a white man perfectly illustrates racial bias in algorithms"
+    }
+  }
+}

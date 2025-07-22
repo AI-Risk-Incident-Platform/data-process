@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InvestmentAdvisoryAI",
+      "中文名称": "投资顾问AI系统",
+      "英文名称": "Investment Advisory AI System",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "SEC fines investment advisers over false AI claims"
+    },
+    "Stakeholder": {
+      "id": "Investors",
+      "中文名称": "投资者",
+      "英文名称": "Investors",
+      "来源": "SEC fires 'AI washing' warning shot"
+    },
+    "AIOperator": {
+      "id": "InvestmentAdvisers",
+      "中文名称": "投资顾问公司",
+      "英文名称": "Investment Advisers",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Consequence": {
+      "id": "RegulatorySanctions",
+      "中文名称": "监管处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "SEC fines investment advisers over false AI claims"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "SEC fires 'AI washing' warning shot"
+    },
+    "RiskSource": {
+      "id": "FalseAIMarketingClaims",
+      "中文名称": "虚假AI营销声明风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Impact": {
+      "id": "InvestorTrustErosion",
+      "中文名称": "投资者信任受损影响",
+      "英文名称": "Market Impact",
+      "来源": "SEC fires 'AI washing' warning shot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "InvestmentAdvisoryAI",
+      "中文名称": "投资顾问AI系统",
+      "英文名称": "Investment Advisory AI System",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "SEC fines investment advisers over false AI claims"
+    },
+    "Stakeholder": {
+      "id": "Investors",
+      "中文名称": "投资者",
+      "英文名称": "Investors",
+      "来源": "SEC fires 'AI washing' warning shot"
+    },
+    "AIOperator": {
+      "id": "InvestmentAdvisers",
+      "中文名称": "投资顾问公司",
+      "英文名称": "Investment Advisers",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Consequence": {
+      "id": "RegulatorySanctions",
+      "中文名称": "监管处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "SEC fines investment advisers over false AI claims"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "SEC fires 'AI washing' warning shot"
+    },
+    "RiskSource": {
+      "id": "FalseAIMarketingClaims",
+      "中文名称": "虚假AI营销声明风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence"
+    },
+    "Impact": {
+      "id": "InvestorTrustErosion",
+      "中文名称": "投资者信任受损影响",
+      "英文名称": "Market Impact",
+      "来源": "SEC fires 'AI washing' warning shot"
+    }
+  }
+}

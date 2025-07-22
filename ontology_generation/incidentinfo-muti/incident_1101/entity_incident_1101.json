@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClassroomSurveillanceSystem",
+      "中文名称": "教室监控系统",
+      "英文名称": "Classroom Surveillance System",
+      "来源": "Camera Above the Classroom"
+    },
+    "Risk": {
+      "id": "StudentPrivacyViolationRisk",
+      "中文名称": "学生隐私侵犯风险",
+      "英文名称": "Student Privacy Violation Risk",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    },
+    "AISubject": {
+      "id": "StudentsUnderSurveillance",
+      "中文名称": "被监控学生",
+      "英文名称": "Students Under Surveillance",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministration",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Administration",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    },
+    "Domain": {
+      "id": "EducationSystem",
+      "中文名称": "教育系统领域",
+      "英文名称": "Education System Domain",
+      "来源": "Camera Above the Classroom"
+    },
+    "Purpose": {
+      "id": "ClassroomBehaviorMonitoring",
+      "中文名称": "课堂行为监控目的",
+      "英文名称": "Classroom Behavior Monitoring Purpose",
+      "来源": "Camera Above the Classroom"
+    },
+    "Impact": {
+      "id": "PsychologicalStressOnStudents",
+      "中文名称": "学生心理压力影响",
+      "英文名称": "Psychological Stress on Students Impact",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    },
+    "Consequence": {
+      "id": "LossOfStudentPrivacy",
+      "中文名称": "学生隐私丧失后果",
+      "英文名称": "Loss of Student Privacy Consequence",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    },
+    "RiskSource": {
+      "id": "ContinuousVideoRecording",
+      "中文名称": "持续视频记录风险源",
+      "英文名称": "Continuous Video Recording Risk Source",
+      "来源": "Camera Above the Classroom"
+    },
+    "Vulnerability": {
+      "id": "LackOfConsentFromMinors",
+      "中文名称": "未成年人缺乏同意的脆弱性",
+      "英文名称": "Lack of Consent from Minors Vulnerability",
+      "来源": "Pilot Programs Are Spying on Kids in the Classroom"
+    }
+  }
+}

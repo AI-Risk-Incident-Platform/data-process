@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftRecallFeature rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Recall Feature"@en ;
+    rdfs:label "微软Recall功能"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:isAppliedWithinDomain ex:PersonalComputing ;
+    airo:hasStakeholder ex:UKWatchdog .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:RegulatoryInvestigation ;
+    airo:isRiskSourceFor ex:ContinuousScreenCapture .
+
+ex:UKWatchdog rdf:type airo:Stakeholder ;
+    rdfs:label "UK Watchdog"@en ;
+    rdfs:label "英国监管机构"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:PersonalComputing rdf:type airo:Domain ;
+    rdfs:label "Personal Computing Domain"@en ;
+    rdfs:label "个人计算领域"@zh .
+
+ex:UserPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "User Privacy Compromise Impact"@en ;
+    rdfs:label "用户隐私泄露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UKWatchdog .
+
+ex:ContinuousScreenCapture rdf:type airo:RiskSource ;
+    rdfs:label "Continuous Screen Capture Risk Source"@en ;
+    rdfs:label "持续屏幕捕捉风险源"@zh .
+
+ex:RegulatoryInvestigation rdf:type airo:Consequence ;
+    rdfs:label "Regulatory Investigation Consequence"@en ;
+    rdfs:label "监管调查后果"@zh ;
+    airo:hasImpact ex:UserPrivacyCompromise .

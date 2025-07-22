@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WalmartSelfCheckoutSystem",
+      "中文名称": "沃尔玛自助结账系统",
+      "英文名称": "Walmart Self-Checkout System",
+      "来源": "Self-Checkout Headaches May Be Putting Walmart Workers Too Close To Shoppers"
+    },
+    "Risk": {
+      "id": "WorkerCustomerProximityRisk",
+      "中文名称": "员工与顾客距离过近风险",
+      "英文名称": "Worker-Customer Proximity Risk",
+      "来源": "Self-Checkout Headaches May Be Putting Walmart Workers Too Close To Shoppers"
+    },
+    "Stakeholder": {
+      "id": "WalmartWorkers",
+      "中文名称": "沃尔玛员工",
+      "英文名称": "Walmart Workers",
+      "来源": "Self-Checkout Headaches May Be Putting Walmart Workers Too Close To Shoppers"
+    },
+    "AIOperator": {
+      "id": "WalmartInc",
+      "中文名称": "沃尔玛公司",
+      "英文名称": "Walmart Inc.",
+      "来源": "Self-Checkout Headaches May Be Putting Walmart Workers Too Close To Shoppers"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "Self-Checkout Headaches May Be Putting Walmart Workers Too Close To Shoppers"
+    }
+  }
+}

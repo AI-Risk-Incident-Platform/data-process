@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CaseWayAI",
+      "中文名称": "CaseWay AI法律助手",
+      "英文名称": "CaseWay AI Legal Assistant",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "CanLII",
+      "中文名称": "加拿大法律信息研究所",
+      "英文名称": "Canadian Legal Information Institute",
+      "来源": "Canadian legal information database sues company behind AI chatbot"
+    },
+    "Domain": {
+      "id": "LegalDatabase",
+      "中文名称": "法律数据库领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "CanLII v. Caseway: Future of AI-generated Legal Databases on Trial"
+    },
+    "Consequence": {
+      "id": "LegalDispute",
+      "中文名称": "法律纠纷后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "AIOperator": {
+      "id": "CaseWayCompany",
+      "中文名称": "CaseWay公司",
+      "英文名称": "CaseWay Company",
+      "来源": "company behind AI chatbot"
+    },
+    "Purpose": {
+      "id": "LegalInformationProvision",
+      "中文名称": "法律信息提供目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "Canadian legal information database"
+    },
+    "Impact": {
+      "id": "IntellectualPropertyRightsViolation",
+      "中文名称": "知识产权侵权影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CaseWayAI",
+      "中文名称": "CaseWay AI法律助手",
+      "英文名称": "CaseWay AI Legal Assistant",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "CanLII",
+      "中文名称": "加拿大法律信息研究所",
+      "英文名称": "Canadian Legal Information Institute",
+      "来源": "Canadian legal information database sues company behind AI chatbot"
+    },
+    "Domain": {
+      "id": "LegalDatabase",
+      "中文名称": "法律数据库领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "CanLII v. Caseway: Future of AI-generated Legal Databases on Trial"
+    },
+    "Consequence": {
+      "id": "LegalDispute",
+      "中文名称": "法律纠纷后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    },
+    "AIOperator": {
+      "id": "CaseWayCompany",
+      "中文名称": "CaseWay公司",
+      "英文名称": "CaseWay Company",
+      "来源": "company behind AI chatbot"
+    },
+    "Purpose": {
+      "id": "LegalInformationProvision",
+      "中文名称": "法律信息提供目的",
+      "英文名称": "Legal Information & Research Purpose",
+      "来源": "Canadian legal information database"
+    },
+    "Impact": {
+      "id": "IntellectualPropertyRightsViolation",
+      "中文名称": "知识产权侵权影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "CanLII sues AI legal assistant CaseWay AI for copyright infringement"
+    }
+  }
+}

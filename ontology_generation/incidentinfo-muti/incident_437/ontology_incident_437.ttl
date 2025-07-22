@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeKidsApp rdf:type airo:AISystem ;
+    rdfs:label "YouTube儿童应用"@zh ;
+    rdfs:label "YouTube Kids App"@en ;
+    airo:hasRisk ex:InappropriateContentRisk ;
+    airo:usesTechnique ex:ContentFilteringAlgorithm ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasPurpose ex:ChildFriendlyVideoPlatform ;
+    airo:hasAISubject ex:Children .
+
+ex:InappropriateContentRisk rdf:type airo:Risk ;
+    rdfs:label "不当内容风险"@zh ;
+    rdfs:label "Inappropriate Content Risk"@en ;
+    airo:hasConsequence ex:ExposureToExplicitMaterial ;
+    airo:isRiskSourceFor ex:PedophiliaJokes ;
+    airo:hasRiskControl ex:MachineLearningDetectionSystem .
+
+ex:ContentFilteringAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "内容过滤算法"@zh ;
+    rdfs:label "Content Filtering Algorithm"@en .
+
+ex:Google rdf:type airo:AIDeveloper ;
+    rdfs:label "谷歌"@zh ;
+    rdfs:label "Google"@en .
+
+ex:ChildFriendlyVideoPlatform rdf:type airo:Purpose ;
+    rdfs:label "儿童友好型视频平台"@zh ;
+    rdfs:label "Child Friendly Video Platform"@en .
+
+ex:Children rdf:type airo:AISubject ;
+    rdfs:label "儿童"@zh ;
+    rdfs:label "Children"@en .
+
+ex:PedophiliaJokes rdf:type airo:RiskSource ;
+    rdfs:label "恋童癖笑话"@zh ;
+    rdfs:label "Pedophilia Jokes"@en .
+
+ex:ExposureToExplicitMaterial rdf:type airo:Consequence ;
+    rdfs:label "接触不当材料"@zh ;
+    rdfs:label "Exposure To Explicit Material"@en ;
+    airo:hasImpact ex:PsychologicalDistressForChildren .
+
+ex:PsychologicalDistressForChildren rdf:type airo:Impact ;
+    rdfs:label "儿童心理困扰"@zh ;
+    rdfs:label "Psychological Distress For Children"@en ;
+    airo:hasImpactOnStakeholder ex:Children .
+
+ex:MachineLearningDetectionSystem rdf:type airo:RiskControl ;
+    rdfs:label "机器学习检测系统"@zh ;
+    rdfs:label "Machine Learning Detection System"@en .

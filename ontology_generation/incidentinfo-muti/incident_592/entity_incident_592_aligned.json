@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseDriverlessCar",
+      "中文名称": "Cruise无人驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco"
+    },
+    "Risk": {
+      "id": "TrafficDisruptionRisk",
+      "中文名称": "交通混乱风险",
+      "英文名称": "Traffic Disruption Risk",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    },
+    "Stakeholder": {
+      "id": "Cruise",
+      "中文名称": "Cruise公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise blames Outside Lands"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    },
+    "Consequence": {
+      "id": "TrafficCongestion",
+      "中文名称": "交通拥堵后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "driverless car traffic fiasco"
+    },
+    "Impact": {
+      "id": "PublicTransportationDisruption",
+      "中文名称": "公共交通中断影响",
+      "英文名称": "Public Transport Disruption Impact",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseDriverlessCar",
+      "中文名称": "Cruise无人驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco"
+    },
+    "Risk": {
+      "id": "TrafficDisruptionRisk",
+      "中文名称": "交通混乱风险",
+      "英文名称": "Traffic Disruption Risk",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    },
+    "Stakeholder": {
+      "id": "Cruise",
+      "中文名称": "Cruise公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise blames Outside Lands"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    },
+    "Consequence": {
+      "id": "TrafficCongestion",
+      "中文名称": "交通拥堵后果",
+      "英文名称": "Traffic Congestion Consequence",
+      "来源": "driverless car traffic fiasco"
+    },
+    "Impact": {
+      "id": "PublicTransportationDisruption",
+      "中文名称": "公共交通中断影响",
+      "英文名称": "Public Transport Disruption Impact",
+      "来源": "driverless car traffic fiasco in San Francisco"
+    }
+  }
+}

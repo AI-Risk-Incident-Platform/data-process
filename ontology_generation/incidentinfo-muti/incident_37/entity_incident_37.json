@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "COMPASRecidivismPredictionSystem",
+      "中文名称": "COMPAS累犯预测系统",
+      "英文名称": "COMPAS Recidivism Prediction System",
+      "来源": "A Popular Algorithm Is No Better at Predicting Crimes Than Random People"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInJudicialDecisionMaking",
+      "中文名称": "司法决策中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Judicial Decision Making Risk",
+      "来源": "ProPublica Is Wrong In Charging Racial Bias In An Algorithm"
+    },
+    "AICapability": {
+      "id": "MultiVariableStatisticalAnalysisForRecidivismPrediction",
+      "中文名称": "多变量统计分析用于预测再犯的能力",
+      "英文名称": "Multi-Variable Statistical Analysis for Recidivism Prediction Capability",
+      "来源": "How We Analyzed the COMPAS Recidivism Algorithm"
+    },
+    "Stakeholder": {
+      "id": "AcademicResearchersEvaluatingAlgorithmicFairness",
+      "中文名称": "评估算法公平性的学术研究者",
+      "英文名称": "Academic Researchers Evaluating Algorithmic Fairness",
+      "来源": "ProPublica Is Wrong In Charging Racial Bias In An Algorithm"
+    },
+    "AISubject": {
+      "id": "CriminalDefendantsSubjectToAlgorithmicAssessment",
+      "中文名称": "接受算法评估的刑事被告人",
+      "英文名称": "Criminal Defendants Subject to Algorithmic Assessment",
+      "来源": "A Popular Algorithm Is No Better at Predicting Crimes Than Random People"
+    },
+    "Purpose": {
+      "id": "SupportingJudicialRiskAssessmentDecisions",
+      "中文名称": "辅助司法风险评估决策的目的",
+      "英文名称": "Supporting Judicial Risk Assessment Decisions Purpose",
+      "来源": "How We Analyzed the COMPAS Recidivism Algorithm"
+    },
+    "Domain": {
+      "id": "JudicialCriminalJusticeSystem",
+      "中文名称": "司法刑事司法系统领域",
+      "英文名称": "Judicial Criminal Justice System Domain",
+      "来源": "A Popular Algorithm Is No Better at Predicting Crimes Than Random People"
+    },
+    "AITechnique": {
+      "id": "ProprietaryMachineLearningModelWithManualVariableSelection",
+      "中文名称": "人工选择变量的专有机器学习模型",
+      "英文名称": "Proprietary Machine Learning Model with Manual Variable Selection Technique",
+      "来源": "How We Analyzed the COMPAS Recidivism Algorithm"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInCommercialAlgorithms",
+      "中文名称": "商业算法中缺乏透明度的风险源",
+      "英文名称": "Lack of Transparency in Commercial Algorithms Risk Source",
+      "来源": "How We Analyzed the COMPAS Recidivism Algorithm"
+    }
+  }
+}

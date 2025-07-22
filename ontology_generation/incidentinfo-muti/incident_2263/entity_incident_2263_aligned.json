@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PoliceFacialRecognitionTechnology",
+      "中文名称": "警方人脸识别技术",
+      "英文名称": "Police Facial Recognition",
+      "来源": "UK court finds facial recognition technology used by police was unlawful"
+    },
+    "Risk": {
+      "id": "UnlawfulSurveillanceRisk",
+      "中文名称": "非法监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "UK court finds facial recognition technology used by police was unlawful"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police can use controversial facial recognition tech, court rules"
+    },
+    "AIOperator": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "UK police can use controversial facial recognition tech, court rules"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物特征识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PoliceFacialRecognitionTechnology",
+      "中文名称": "警方人脸识别技术",
+      "英文名称": "Police Facial Recognition",
+      "来源": "UK court finds facial recognition technology used by police was unlawful"
+    },
+    "Risk": {
+      "id": "UnlawfulSurveillanceRisk",
+      "中文名称": "非法监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "UK court finds facial recognition technology used by police was unlawful"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police can use controversial facial recognition tech, court rules"
+    },
+    "AIOperator": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "UK police can use controversial facial recognition tech, court rules"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物特征识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Facial recognition technology: Who watches the watchers?"
+    }
+  }
+}

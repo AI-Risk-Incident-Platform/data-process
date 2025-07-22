@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GazaFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Gaza Facial Recognition System"@en ;
+    rdfs:label "加沙面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:TerroristIdentification ;
+    airo:isAppliedWithinDomain ex:SecurityAndSurveillance ;
+    airo:hasCapability ex:MassFacialRecognition ;
+    airo:hasStakeholder ex:IsraeliGovernment ;
+    airo:isDeployedBy ex:IsraeliSecurityForces ;
+    airo:hasAISubject ex:GazaResidents .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection ;
+    airo:isRiskSourceFor ex:MassSurveillanceProgram .
+
+ex:TerroristIdentification rdf:type airo:Purpose ;
+    rdfs:label "Terrorist Identification"@en ;
+    rdfs:label "恐怖分子识别"@zh .
+
+ex:SecurityAndSurveillance rdf:type airo:Domain ;
+    rdfs:label "Security and Surveillance"@en ;
+    rdfs:label "安全与监控"@zh .
+
+ex:MassFacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "Mass Facial Recognition Capability"@en ;
+    rdfs:label "大规模面部识别能力"@zh .
+
+ex:IsraeliGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Israeli Government"@en ;
+    rdfs:label "以色列政府"@zh .
+
+ex:IsraeliSecurityForces rdf:type airo:AIOperator ;
+    rdfs:label "Israeli Security Forces"@en ;
+    rdfs:label "以色列安全部队"@zh .
+
+ex:GazaResidents rdf:type airo:AISubject ;
+    rdfs:label "Gaza Residents"@en ;
+    rdfs:label "加沙居民"@zh .
+
+ex:CivilLibertiesViolation rdf:type airo:Impact ;
+    rdfs:label "Civil Liberties Violation"@en ;
+    rdfs:label "公民自由侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:GazaResidents .
+
+ex:MassSurveillanceProgram rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Program"@en ;
+    rdfs:label "大规模监控项目"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection"@en ;
+    rdfs:label "未经授权的数据收集"@zh ;
+    airo:hasImpact ex:CivilLibertiesViolation .

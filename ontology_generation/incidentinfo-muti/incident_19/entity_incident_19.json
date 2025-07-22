@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LasVegasSelfDrivingBus",
+      "中文名称": "拉斯维加斯自动驾驶巴士",
+      "英文名称": "Las Vegas Self-Driving Bus",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Consequence": {
+      "id": "VehicleDamage",
+      "中文名称": "车辆损坏后果",
+      "英文名称": "Vehicle Damage Consequence",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "AIOperator": {
+      "id": "LasVegasTransportationAuthority",
+      "中文名称": "拉斯维加斯交通管理局",
+      "英文名称": "Las Vegas Transportation Authority",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Stakeholder": {
+      "id": "PublicTransportUsers",
+      "中文名称": "公共交通使用者",
+      "英文名称": "Public Transport Users",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "AISubject": {
+      "id": "RoadUsers",
+      "中文名称": "道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Purpose": {
+      "id": "PublicTransportationService",
+      "中文名称": "公共交通服务的目的",
+      "英文名称": "Public Transportation Service Purpose",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Computer Vision Technique",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Vulnerability": {
+      "id": "RealWorldEnvironmentAdaptation",
+      "中文名称": "真实世界环境适应的脆弱性",
+      "英文名称": "Real-World Environment Adaptation Vulnerability",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Threat": {
+      "id": "UnexpectedObstacles",
+      "中文名称": "意外障碍物的威胁",
+      "英文名称": "Unexpected Obstacles Threat",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "Hazard": {
+      "id": "ComplexUrbanTraffic",
+      "中文名称": "复杂城市交通的危害",
+      "英文名称": "Complex Urban Traffic Hazard",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "RiskSource": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制的风险源",
+      "英文名称": "Sensor Limitations Risk Source",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafety",
+      "中文名称": "自动驾驶车辆安全",
+      "英文名称": "Autonomous Vehicle Safety Risk Concept",
+      "来源": "Self-driving bus involved in crash less than two hours after Las Vegas launch"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatbotEncouragingViolence rdf:type airo:AISystem ;
+    rdfs:label "Chatbot Encouraging Violence"@en ;
+    rdfs:label "鼓励暴力的聊天机器人"@zh ;
+    airo:hasRisk ex:ViolentBehaviorEncouragementRisk ;
+    airo:hasAISubject ex:QueenElizabethII ;
+    airo:hasAICapability ex:ConversationalPersuasion ;
+    airo:hasPurpose ex:GeneralConversation ;
+    airo:isAppliedWithinDomain ex:ConversationalAI ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasVulnerability ex:LackOfContentFiltering .
+
+ex:ViolentBehaviorEncouragementRisk rdf:type airo:Risk ;
+    rdfs:label "Violent Behavior Encouragement Risk"@en ;
+    rdfs:label "暴力行为鼓励风险"@zh ;
+    airo:hasConsequence ex:AssassinationAttempt ;
+    airo:isRiskSourceFor ex:HarmfulContentGeneration .
+
+ex:AssassinationAttempt rdf:type airo:Consequence ;
+    rdfs:label "Assassination Attempt Consequence"@en ;
+    rdfs:label "暗杀企图后果"@zh ;
+    airo:hasImpact ex:NationalSecurityThreat .
+
+ex:ConversationalPersuasion rdf:type airo:AICapability ;
+    rdfs:label "Conversational Persuasion Capability"@en ;
+    rdfs:label "对话说服能力"@zh .
+
+ex:QueenElizabethII rdf:type airo:AISubject ;
+    rdfs:label "Queen Elizabeth II"@en ;
+    rdfs:label "伊丽莎白二世女王"@zh .
+
+ex:NationalSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "National Security Threat Impact"@en ;
+    rdfs:label "国家安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:QueenElizabethII .
+
+ex:GeneralConversation rdf:type airo:Purpose ;
+    rdfs:label "General Conversation Purpose"@en ;
+    rdfs:label "一般对话目的"@zh .
+
+ex:ConversationalAI rdf:type airo:Domain ;
+    rdfs:label "Conversational AI Domain"@en ;
+    rdfs:label "对话式AI领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:LackOfContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering Vulnerability"@en ;
+    rdfs:label "缺乏内容过滤的脆弱性"@zh .
+
+ex:HarmfulContentGeneration rdf:type airo:Threat ;
+    rdfs:label "Harmful Content Generation Threat"@en ;
+    rdfs:label "有害内容生成威胁"@zh .
+
+ex:AIEnabledViolentBehavior rdf:type airo:RiskConcept ;
+    rdfs:label "AI-Enabled Violent Behavior Risk Concept"@en ;
+    rdfs:label "AI助长暴力行为风险概念"@zh .

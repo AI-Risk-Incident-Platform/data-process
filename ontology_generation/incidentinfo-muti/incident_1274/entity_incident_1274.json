@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DoNotPayRobotLawyer",
+      "中文名称": "DoNotPay机器人律师",
+      "英文名称": "DoNotPay Robot Lawyer",
+      "来源": "‘Robot lawyer’ company faces $193,000 fine as part of FTC’s AI crackdown"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "Misrepresentation of AI Capabilities Risk",
+      "来源": "FTC Crackdown on AI Claims: DoNotPay and Other Companies Targeted"
+    },
+    "Stakeholder": {
+      "id": "FederalTradeCommission",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "‘Robot lawyer’ company faces $193,000 fine as part of FTC’s AI crackdown"
+    },
+    "Consequence": {
+      "id": "RegulatoryPenalty",
+      "中文名称": "监管处罚后果",
+      "英文名称": "Regulatory Penalty Consequence",
+      "来源": "‘Robot lawyer’ company faces $193,000 fine as part of FTC’s AI crackdown"
+    },
+    "AIOperator": {
+      "id": "DoNotPayCompany",
+      "中文名称": "DoNotPay公司",
+      "英文名称": "DoNotPay Company",
+      "来源": "FTC Crackdown on AI Claims: DoNotPay and Other Companies Targeted"
+    },
+    "Purpose": {
+      "id": "AutomatedLegalServices",
+      "中文名称": "自动化法律服务目的",
+      "英文名称": "Automated Legal Services Purpose",
+      "来源": "‘Robot lawyer’ company faces $193,000 fine as part of FTC’s AI crackdown"
+    },
+    "RiskSource": {
+      "id": "ExaggeratedMarketingClaims",
+      "中文名称": "夸大营销宣传风险源",
+      "英文名称": "Exaggerated Marketing Claims Risk Source",
+      "来源": "FTC Crackdown on AI Claims: DoNotPay and Other Companies Targeted"
+    },
+    "Impact": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗影响",
+      "英文名称": "Consumer Deception Impact",
+      "来源": "FTC Crackdown on AI Claims: DoNotPay and Other Companies Targeted"
+    }
+  }
+}

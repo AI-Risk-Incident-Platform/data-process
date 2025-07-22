@@ -1,0 +1,138 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedFakeReviews",
+      "中文名称": "AI生成的虚假评论",
+      "英文名称": "AI-Generated Fake Reviews",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "Risk": {
+      "id": "MisleadingConsumersRisk",
+      "中文名称": "误导消费者的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗",
+      "英文名称": "Consumer Deception",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Stakeholder": {
+      "id": "OnlineConsumers",
+      "中文名称": "在线消费者",
+      "英文名称": "Online Consumers",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "AIOperator": {
+      "id": "AmazonSellers",
+      "中文名称": "亚马逊卖家",
+      "英文名称": "Amazon Sellers",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "Purpose": {
+      "id": "ProductPromotion",
+      "中文名称": "产品推广",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "AITechnique": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIWrittenContent",
+      "中文名称": "未经验证的AI生成内容",
+      "英文名称": "AI Misuse Risks",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲",
+      "英文名称": "Market Impact",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedFakeReviews",
+      "中文名称": "AI生成的虚假评论",
+      "英文名称": "AI-Generated Fake Reviews",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "Risk": {
+      "id": "MisleadingConsumersRisk",
+      "中文名称": "误导消费者的风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗",
+      "英文名称": "Consumer Deception",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Stakeholder": {
+      "id": "OnlineConsumers",
+      "中文名称": "在线消费者",
+      "英文名称": "Online Consumers",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "AIOperator": {
+      "id": "AmazonSellers",
+      "中文名称": "亚马逊卖家",
+      "英文名称": "Amazon Sellers",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "Purpose": {
+      "id": "ProductPromotion",
+      "中文名称": "产品推广",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    },
+    "AITechnique": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Amazon sellers are using ChatGPT to help write product listings in sprawling marketplace"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIWrittenContent",
+      "中文名称": "未经验证的AI生成内容",
+      "英文名称": "AI Misuse Risks",
+      "来源": "People are using A.I. chatbots to write Amazon reviews"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲",
+      "英文名称": "Market Impact",
+      "来源": "Tours and Activities Should Brace for Spike in AI-Generated Fake Reviews"
+    }
+  }
+}

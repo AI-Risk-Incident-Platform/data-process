@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIHeadshotEnhancementSystem",
+      "中文名称": "AI头像增强系统",
+      "英文名称": "AI Headshot Enhancement System",
+      "来源": "An MIT student asked AI to make her headshot more ‘professional.’ It gave her lighter skin and blue eyes."
+    },
+    "Risk": {
+      "id": "RacialBiasInAIHeadshotEnhancement",
+      "中文名称": "AI头像增强中的种族偏见风险",
+      "英文名称": "Racial Bias in AI Headshot Enhancement Risk",
+      "来源": "It gave her lighter skin and blue eyes."
+    },
+    "Consequence": {
+      "id": "UnrealisticBeautyStandardsPromotion",
+      "中文名称": "推广不切实际的美容标准后果",
+      "英文名称": "Unrealistic Beauty Standards Promotion Consequence",
+      "来源": "It gave her lighter skin and blue eyes."
+    },
+    "Impact": {
+      "id": "NegativeSelfImageAndDiscrimination",
+      "中文名称": "负面自我形象和歧视影响",
+      "英文名称": "Negative Self-Image and Discrimination Impact",
+      "来源": "It gave her lighter skin and blue eyes."
+    },
+    "AISubject": {
+      "id": "MITStudent",
+      "中文名称": "MIT学生",
+      "英文名称": "MIT Student",
+      "来源": "An MIT student asked AI to make her headshot more ‘professional.’"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "It gave her lighter skin and blue eyes."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StaffingAlgorithm",
+      "中文名称": "人员配置算法",
+      "英文名称": "Staffing Algorithm",
+      "来源": "Assisted living managers say an algorithm prevented hiring enough staff"
+    },
+    "Risk": {
+      "id": "InadequateStaffingRisk",
+      "中文名称": "人员不足风险",
+      "英文名称": "Inadequate Staffing Risk",
+      "来源": "an algorithm prevented hiring enough staff"
+    },
+    "Stakeholder": {
+      "id": "AssistedLivingManagers",
+      "中文名称": "辅助生活管理者",
+      "英文名称": "Assisted Living Managers",
+      "来源": "Assisted living managers say"
+    },
+    "Impact": {
+      "id": "ReducedQualityOfCare",
+      "中文名称": "护理质量下降",
+      "英文名称": "Patient Safety Impact",
+      "来源": "prevented hiring enough staff"
+    },
+    "Domain": {
+      "id": "AssistedLivingFacilities",
+      "中文名称": "辅助生活设施",
+      "英文名称": "Healthcare Domain",
+      "来源": "Assisted living managers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StaffingAlgorithm",
+      "中文名称": "人员配置算法",
+      "英文名称": "Staffing Algorithm",
+      "来源": "Assisted living managers say an algorithm prevented hiring enough staff"
+    },
+    "Risk": {
+      "id": "InadequateStaffingRisk",
+      "中文名称": "人员不足风险",
+      "英文名称": "Inadequate Staffing Risk",
+      "来源": "an algorithm prevented hiring enough staff"
+    },
+    "Stakeholder": {
+      "id": "AssistedLivingManagers",
+      "中文名称": "辅助生活管理者",
+      "英文名称": "Assisted Living Managers",
+      "来源": "Assisted living managers say"
+    },
+    "Impact": {
+      "id": "ReducedQualityOfCare",
+      "中文名称": "护理质量下降",
+      "英文名称": "Patient Safety Impact",
+      "来源": "prevented hiring enough staff"
+    },
+    "Domain": {
+      "id": "AssistedLivingFacilities",
+      "中文名称": "辅助生活设施",
+      "英文名称": "Healthcare Domain",
+      "来源": "Assisted living managers"
+    }
+  }
+}

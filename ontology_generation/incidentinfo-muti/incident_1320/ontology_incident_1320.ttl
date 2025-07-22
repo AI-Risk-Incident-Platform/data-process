@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EthicalAI rdf:type airo:AISystem ;
+    rdfs:label "伦理AI"@zh ;
+    rdfs:label "Ethical AI"@en ;
+    airo:hasRisk ex:EthicalFailureRisk ;
+    airo:hasCapability ex:EthicalDecisionMaking ;
+    airo:usesTechnique ex:RedditDataTraining .
+
+ex:EthicalFailureRisk rdf:type airo:Risk ;
+    rdfs:label "伦理失败风险"@zh ;
+    rdfs:label "Ethical Failure Risk"@en ;
+    airo:hasConsequence ex:HarmfulEthicalRecommendations ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HarmfulEthicalRecommendations rdf:type airo:Consequence ;
+    rdfs:label "有害伦理建议后果"@zh ;
+    rdfs:label "Harmful Ethical Recommendations Consequence"@en ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:EthicalDecisionMaking rdf:type airo:AICapability ;
+    rdfs:label "伦理决策能力"@zh ;
+    rdfs:label "Ethical Decision Making Capability"@en .
+
+ex:RedditDataTraining rdf:type airo:AITechnique ;
+    rdfs:label "Reddit数据训练技术"@zh ;
+    rdfs:label "Reddit Data Training Technique"@en .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "偏见训练数据风险源"@zh ;
+    rdfs:label "Biased Training Data Risk Source"@en .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "社会危害影响"@zh ;
+    rdfs:label "Social Harm Impact"@en .

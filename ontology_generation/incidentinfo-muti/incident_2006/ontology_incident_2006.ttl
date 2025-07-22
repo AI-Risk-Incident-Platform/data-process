@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FNMeka rdf:type airo:AISystem ;
+    rdfs:label "FN Meka"@en ;
+    rdfs:label "FN Meka"@zh ;
+    airo:hasRisk ex:CulturalAppropriationRisk ;
+    airo:isDevelopedBy ex:FactoryNew ;
+    airo:hasStakeholder ex:CapitolRecords ;
+    airo:isAppliedWithinDomain ex:MusicIndustry .
+
+ex:CulturalAppropriationRisk rdf:type airo:Risk ;
+    rdfs:label "Cultural Appropriation Risk"@en ;
+    rdfs:label "文化挪用风险"@zh .
+
+ex:CapitolRecords rdf:type airo:Stakeholder ;
+    rdfs:label "Capitol Records"@en ;
+    rdfs:label "国会唱片"@zh .
+
+ex:FactoryNew rdf:type airo:AIOperator ;
+    rdfs:label "Factory New"@en ;
+    rdfs:label "Factory New"@zh .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Industry"@en ;
+    rdfs:label "音乐产业"@zh .

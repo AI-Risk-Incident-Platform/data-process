@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionDroneSystem",
+      "中文名称": "面部识别无人机系统",
+      "英文名称": "Facial Recognition Drone System",
+      "来源": "A patent shows how facial recognition drones could identify you from above"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "facial recognition drones could identify you from above"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "facial recognition drones"
+    },
+    "Stakeholder": {
+      "id": "AnyVision",
+      "中文名称": "AnyVision公司",
+      "英文名称": "AnyVision",
+      "来源": "AnyVision files face recognition patent for its drones"
+    },
+    "AIDeveloper": {
+      "id": "AnyVisionDeveloper",
+      "中文名称": "AnyVision开发者",
+      "英文名称": "AnyVision Developer",
+      "来源": "AnyVision files face recognition patent for its drones"
+    },
+    "Purpose": {
+      "id": "RemoteIdentification",
+      "中文名称": "远程识别目的",
+      "英文名称": "Remote Identification Purpose",
+      "来源": "facial recognition drones could identify you from above"
+    },
+    "Domain": {
+      "id": "SurveillanceTechnology",
+      "中文名称": "监控技术领域",
+      "英文名称": "Surveillance Technology Domain",
+      "来源": "facial recognition drones"
+    },
+    "RiskSource": {
+      "id": "MassSurveillanceCapability",
+      "中文名称": "大规模监控能力风险源",
+      "英文名称": "Mass Surveillance Capability Risk Source",
+      "来源": "facial recognition drones could identify you from above"
+    },
+    "Consequence": {
+      "id": "LossOfAnonymity",
+      "中文名称": "匿名性丧失后果",
+      "英文名称": "Loss of Anonymity Consequence",
+      "来源": "facial recognition drones could identify you from above"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyErosion",
+      "中文名称": "个人隐私侵蚀影响",
+      "英文名称": "Personal Privacy Erosion Impact",
+      "来源": "facial recognition drones could identify you from above"
+    }
+  }
+}

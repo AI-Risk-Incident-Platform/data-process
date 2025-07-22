@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Technology"@en ;
+    rdfs:label "深度伪造视频技术"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasAICapability ex:RealisticVideoGeneration ;
+    airo:hasAISubject ex:ElderlyVictims ;
+    airo:hasPurpose ex:DeceptionForFinancialGain ;
+    airo:isAppliedWithinDomain ex:OnlineDating ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:HumanTrustInVisualEvidence .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:UnregulatedAIApplications ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfake .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:RealisticVideoGeneration rdf:type airo:AICapability ;
+    rdfs:label "Realistic Video Generation Capability"@en ;
+    rdfs:label "逼真视频生成能力"@zh .
+
+ex:ElderlyVictims rdf:type airo:AISubject ;
+    rdfs:label "Elderly Victims"@en ;
+    rdfs:label "老年受害者"@zh .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress Impact"@en ;
+    rdfs:label "情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ElderlyVictims .
+
+ex:DeceptionForFinancialGain rdf:type airo:Purpose ;
+    rdfs:label "Deception for Financial Gain Purpose"@en ;
+    rdfs:label "为经济利益欺骗的目的"@zh .
+
+ex:OnlineDating rdf:type airo:Domain ;
+    rdfs:label "Online Dating Domain"@en ;
+    rdfs:label "在线约会领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:HumanTrustInVisualEvidence rdf:type airo:Vulnerability ;
+    rdfs:label "Human Trust in Visual Evidence Vulnerability"@en ;
+    rdfs:label "人类对视觉证据信任的脆弱性"@zh .
+
+ex:UnregulatedAIApplications rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Applications Risk Source"@en ;
+    rdfs:label "未受监管的AI应用风险源"@zh .
+
+ex:MaliciousUseOfDeepfake rdf:type airo:Threat ;
+    rdfs:label "Malicious Use of Deepfake Threat"@en ;
+    rdfs:label "深度伪造恶意使用的威胁"@zh .

@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeCloneCreationSystem",
+      "中文名称": "深度伪造克隆创建系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Risk": {
+      "id": "IdentityMisuseRisk",
+      "中文名称": "身份滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalIdentity",
+      "中文名称": "未经授权使用个人身份",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "AICapability": {
+      "id": "RealisticDigitalCloneCreation",
+      "中文名称": "逼真数字克隆创建能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Stakeholder": {
+      "id": "IndividualsWhoseIdentityIsCloned",
+      "中文名称": "身份被克隆的个人",
+      "英文名称": "Deepfake Victims",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "AIOperator": {
+      "id": "DeepfakeAdvertisingCompany",
+      "中文名称": "深度伪造广告公司",
+      "英文名称": "Deepfake Advertising Company",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "Purpose": {
+      "id": "AdvertisingAndMarketing",
+      "中文名称": "广告和营销",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Domain": {
+      "id": "DigitalAdvertising",
+      "中文名称": "数字广告",
+      "英文名称": "Digital Advertising",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSynthesis",
+      "中文名称": "基于深度学习的面部合成",
+      "英文名称": "Face Synthesis",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Vulnerability": {
+      "id": "LackOfLegalProtectionAgainstDeepfakeMisuse",
+      "中文名称": "缺乏针对深度伪造滥用的法律保护",
+      "英文名称": "Lack of Legal Protection Against Deepfake Abuse",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "Threat": {
+      "id": "CommercialExploitationOfPersonalIdentity",
+      "中文名称": "个人身份的商业利用威胁",
+      "英文名称": "Commercial Exploitation of Personal Identity",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Hazard": {
+      "id": "UnregulatedDeepfakeTechnology",
+      "中文名称": "不受监管的深度伪造技术",
+      "英文名称": "Deepfake Technology Hazard",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "RiskSource": {
+      "id": "CommercialDeepfakeApplications",
+      "中文名称": "商业深度伪造应用",
+      "英文名称": "Commercial Deepfake Applications",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "RiskConcept": {
+      "id": "EthicalConcernsInDigitalIdentityReplication",
+      "中文名称": "数字身份复制中的伦理问题",
+      "英文名称": "Ethical Concerns in Digital Identity Replication",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeCloneCreationSystem",
+      "中文名称": "深度伪造克隆创建系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Risk": {
+      "id": "IdentityMisuseRisk",
+      "中文名称": "身份滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfPersonalIdentity",
+      "中文名称": "未经授权使用个人身份",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "AICapability": {
+      "id": "RealisticDigitalCloneCreation",
+      "中文名称": "逼真数字克隆创建能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Stakeholder": {
+      "id": "IndividualsWhoseIdentityIsCloned",
+      "中文名称": "身份被克隆的个人",
+      "英文名称": "Deepfake Victims",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "AIOperator": {
+      "id": "DeepfakeAdvertisingCompany",
+      "中文名称": "深度伪造广告公司",
+      "英文名称": "Deepfake Advertising Company",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "Purpose": {
+      "id": "AdvertisingAndMarketing",
+      "中文名称": "广告和营销",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Domain": {
+      "id": "DigitalAdvertising",
+      "中文名称": "数字广告",
+      "英文名称": "Digital Advertising",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSynthesis",
+      "中文名称": "基于深度学习的面部合成",
+      "英文名称": "Face Synthesis",
+      "来源": "AI Can Now Turn You Into a Fully Digital, Realistic Talking Clone"
+    },
+    "Vulnerability": {
+      "id": "LackOfLegalProtectionAgainstDeepfakeMisuse",
+      "中文名称": "缺乏针对深度伪造滥用的法律保护",
+      "英文名称": "Lack of Legal Protection Against Deepfake Abuse",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "Threat": {
+      "id": "CommercialExploitationOfPersonalIdentity",
+      "中文名称": "个人身份的商业利用威胁",
+      "英文名称": "Commercial Exploitation of Personal Identity",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "Hazard": {
+      "id": "UnregulatedDeepfakeTechnology",
+      "中文名称": "不受监管的深度伪造技术",
+      "英文名称": "Deepfake Technology Hazard",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    },
+    "RiskSource": {
+      "id": "CommercialDeepfakeApplications",
+      "中文名称": "商业深度伪造应用",
+      "英文名称": "Commercial Deepfake Applications",
+      "来源": "This Company Wants To Put Your Face In Advertisements By Making Deepfake Clones With AI"
+    },
+    "RiskConcept": {
+      "id": "EthicalConcernsInDigitalIdentityReplication",
+      "中文名称": "数字身份复制中的伦理问题",
+      "英文名称": "Ethical Concerns in Digital Identity Replication",
+      "来源": "We're begging you to not turn yourself into an AI-powered clone"
+    }
+  }
+}

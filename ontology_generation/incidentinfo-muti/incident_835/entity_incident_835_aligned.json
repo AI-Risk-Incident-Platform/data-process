@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingMicrosoftCopilot",
+      "中文名称": "必应微软Copilot",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "A new research paper suggests that Bing / Microsoft Copilot \"AI\" medical advice may be capable of causing you severe harm, at least 22% of the time ..."
+    },
+    "Risk": {
+      "id": "HarmfulMedicalAdviceRisk",
+      "中文名称": "有害医疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Bing / Microsoft Copilot \"AI\" medical advice may be capable of causing you severe harm, at least 22% of the time ..."
+    },
+    "Consequence": {
+      "id": "SevereHarmToUsers",
+      "中文名称": "对用户的严重伤害",
+      "英文名称": "Severe Harm to Users",
+      "来源": "may be capable of causing you severe harm"
+    },
+    "Domain": {
+      "id": "MedicalAdvice",
+      "中文名称": "医疗建议",
+      "英文名称": "Medical Advice",
+      "来源": "Bing / Microsoft Copilot \"AI\" medical advice"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Bing / Microsoft Copilot"
+    },
+    "RiskSource": {
+      "id": "InaccurateMedicalInformation",
+      "中文名称": "不准确的医疗信息",
+      "英文名称": "Inaccurate Medical Information",
+      "来源": "medical advice may be capable of causing you severe harm"
+    },
+    "Impact": {
+      "id": "UserHealthRisk",
+      "中文名称": "用户健康风险",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "causing you severe harm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BingMicrosoftCopilot",
+      "中文名称": "必应微软Copilot",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "A new research paper suggests that Bing / Microsoft Copilot \"AI\" medical advice may be capable of causing you severe harm, at least 22% of the time ..."
+    },
+    "Risk": {
+      "id": "HarmfulMedicalAdviceRisk",
+      "中文名称": "有害医疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Bing / Microsoft Copilot \"AI\" medical advice may be capable of causing you severe harm, at least 22% of the time ..."
+    },
+    "Consequence": {
+      "id": "SevereHarmToUsers",
+      "中文名称": "对用户的严重伤害",
+      "英文名称": "Severe Harm to Users",
+      "来源": "may be capable of causing you severe harm"
+    },
+    "Domain": {
+      "id": "MedicalAdvice",
+      "中文名称": "医疗建议",
+      "英文名称": "Medical Advice",
+      "来源": "Bing / Microsoft Copilot \"AI\" medical advice"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Bing / Microsoft Copilot"
+    },
+    "RiskSource": {
+      "id": "InaccurateMedicalInformation",
+      "中文名称": "不准确的医疗信息",
+      "英文名称": "Inaccurate Medical Information",
+      "来源": "medical advice may be capable of causing you severe harm"
+    },
+    "Impact": {
+      "id": "UserHealthRisk",
+      "中文名称": "用户健康风险",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "causing you severe harm"
+    }
+  }
+}

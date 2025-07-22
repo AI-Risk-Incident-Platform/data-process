@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramContentModerationSystem",
+      "中文名称": "Instagram内容审核系统",
+      "英文名称": "Instagram Content Moderation System",
+      "来源": "Meta apologises over flood of gore, violence and dead bodies on Instagram"
+    },
+    "Risk": {
+      "id": "InappropriateContentExposureRisk",
+      "中文名称": "不当内容暴露风险",
+      "英文名称": "Inappropriate Content Exposure Risk",
+      "来源": "flood of gore, violence and dead bodies on Instagram"
+    },
+    "Consequence": {
+      "id": "UserExposureToGraphicContent",
+      "中文名称": "用户接触血腥内容后果",
+      "英文名称": "User Exposure to Graphic Content Consequence",
+      "来源": "flood of gore, violence and dead bodies"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta apologises over flood of gore, violence and dead bodies on Instagram"
+    },
+    "Impact": {
+      "id": "UserPsychologicalDistress",
+      "中文名称": "用户心理困扰影响",
+      "英文名称": "User Psychological Distress Impact",
+      "来源": "flood of gore, violence and dead bodies"
+    },
+    "Purpose": {
+      "id": "SocialMediaContentModeration",
+      "中文名称": "社交媒体内容审核目的",
+      "英文名称": "Social Media Content Moderation Purpose",
+      "来源": "Meta apologises over flood of gore, violence and dead bodies on Instagram"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "Meta apologises over flood of gore, violence and dead bodies on Instagram"
+    },
+    "RiskSource": {
+      "id": "ContentModerationAlgorithmFailure",
+      "中文名称": "内容审核算法失效风险源",
+      "英文名称": "Content Moderation Algorithm Failure Risk Source",
+      "来源": "flood of gore, violence and dead bodies on Instagram"
+    }
+  }
+}

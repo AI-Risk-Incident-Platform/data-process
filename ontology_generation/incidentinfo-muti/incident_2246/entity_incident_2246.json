@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Hackers trick a Tesla into veering into the wrong lane"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleHackingRisk",
+      "中文名称": "自动驾驶车辆被黑客攻击风险",
+      "英文名称": "Autonomous Vehicle Hacking Risk",
+      "来源": "These Chinese hackers tricked Tesla’s Autopilot into suddenly switching lanes"
+    },
+    "Consequence": {
+      "id": "UnintendedLaneChange",
+      "中文名称": "非预期变道后果",
+      "英文名称": "Unintended Lane Change Consequence",
+      "来源": "Watch hackers manipulate a Tesla on Autopilot into accelerating to 85 MPH"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Hackers trick a Tesla into veering into the wrong lane"
+    },
+    "Stakeholder": {
+      "id": "TeslaOwners",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Owners",
+      "来源": "These Chinese hackers tricked Tesla’s Autopilot into suddenly switching lanes"
+    },
+    "RiskSource": {
+      "id": "MaliciousHackers",
+      "中文名称": "恶意黑客风险源",
+      "英文名称": "Malicious Hackers Risk Source",
+      "来源": "These Chinese hackers tricked Tesla’s Autopilot into suddenly switching lanes"
+    },
+    "Impact": {
+      "id": "TrafficSafetyThreat",
+      "中文名称": "交通安全威胁影响",
+      "英文名称": "Traffic Safety Threat Impact",
+      "来源": "Watch hackers manipulate a Tesla on Autopilot into accelerating to 85 MPH"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Computer Vision Technique",
+      "来源": "Hackers trick a Tesla into veering into the wrong lane"
+    },
+    "Vulnerability": {
+      "id": "SensorManipulation",
+      "中文名称": "传感器操纵漏洞",
+      "英文名称": "Sensor Manipulation Vulnerability",
+      "来源": "These Chinese hackers tricked Tesla’s Autopilot into suddenly switching lanes"
+    }
+  }
+}

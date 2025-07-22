@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPTStore",
+      "中文名称": "GPT商店",
+      "英文名称": "GPT Store",
+      "来源": "OpenAI's GPT Store Is Triggering Copyright Complaints"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "OpenAI's GPT Store Is Triggering Copyright Complaints"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI's GPT Store Is Triggering Copyright Complaints"
+    },
+    "RiskSource": {
+      "id": "ContentGenerationWithoutProperLicensing",
+      "中文名称": "未经适当许可的内容生成",
+      "英文名称": "Content Generation Without Proper Licensing",
+      "来源": "OpenAI's GPT Store Is Triggering Copyright Complaints"
+    },
+    "Consequence": {
+      "id": "LegalComplaints",
+      "中文名称": "法律投诉",
+      "英文名称": "Legal Complaints",
+      "来源": "OpenAI's GPT Store Is Triggering Copyright Complaints"
+    }
+  }
+}

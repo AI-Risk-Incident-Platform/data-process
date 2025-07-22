@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredictivePolicingSystem rdf:type airo:AISystem ;
+    rdfs:label "Predictive Policing System"@en ;
+    rdfs:label "预测性警务系统"@zh ;
+    airo:hasRisk ex:CivilRightsViolationRisk ;
+    airo:hasPurpose ex:CrimePrevention ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:hasAISubject ex:PotentialSuspects ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:CivilRightsViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Civil Rights Violation Risk"@en ;
+    rdfs:label "公民权利侵犯风险"@zh ;
+    airo:hasConsequence ex:WrongfulLabellingOfSuspects ;
+    airo:isRiskSourceFor ex:BiasedHistoricalData .
+
+ex:WrongfulLabellingOfSuspects rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Labelling of Suspects Consequence"@en ;
+    rdfs:label "错误标记嫌疑人后果"@zh ;
+    airo:hasImpact ex:SocialDiscrimination .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Police Department"@en ;
+    rdfs:label "警察部门"@zh .
+
+ex:PotentialSuspects rdf:type airo:AISubject ;
+    rdfs:label "Potential Suspects"@en ;
+    rdfs:label "潜在嫌疑人"@zh .
+
+ex:CrimePrevention rdf:type airo:Purpose ;
+    rdfs:label "Crime Prevention"@en ;
+    rdfs:label "犯罪预防"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:BiasedHistoricalData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Historical Data"@en ;
+    rdfs:label "有偏见的历史数据"@zh .
+
+ex:SocialDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    rdfs:label "社会歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PotentialSuspects .

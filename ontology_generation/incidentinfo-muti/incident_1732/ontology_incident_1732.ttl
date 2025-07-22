@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:eviCoreModel rdf:type airo:AISystem ;
+    rdfs:label "eviCore模型"@zh ;
+    rdfs:label "eviCore Model"@en ;
+    airo:hasRisk ex:InsuranceCoverageDenialRisk ;
+    airo:hasPurpose ex:PriorAuthorizationProcessing ;
+    airo:isAppliedWithinDomain ex:HealthcareInsurance ;
+    airo:hasStakeholder ex:HealthInsurers ;
+    airo:isDeployedBy ex:eviCoreCompany .
+
+ex:InsuranceCoverageDenialRisk rdf:type airo:Risk ;
+    rdfs:label "保险覆盖拒绝风险"@zh ;
+    rdfs:label "Insurance Coverage Denial Risk"@en ;
+    airo:hasConsequence ex:DenialOfMedicalCare ;
+    airo:isRiskSourceFor ex:AlgorithmicDecisionMaking .
+
+ex:HealthInsurers rdf:type airo:Stakeholder ;
+    rdfs:label "健康保险公司"@zh ;
+    rdfs:label "Health Insurers"@en .
+
+ex:eviCoreCompany rdf:type airo:AIOperator ;
+    rdfs:label "eviCore公司"@zh ;
+    rdfs:label "eviCore Company"@en .
+
+ex:DenialOfMedicalCare rdf:type airo:Consequence ;
+    rdfs:label "医疗护理被拒后果"@zh ;
+    rdfs:label "Denial of Medical Care Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:HealthInsurers .
+
+ex:HealthcareInsurance rdf:type airo:Domain ;
+    rdfs:label "医疗保险领域"@zh ;
+    rdfs:label "Healthcare Insurance Domain"@en .
+
+ex:PriorAuthorizationProcessing rdf:type airo:Purpose ;
+    rdfs:label "预先授权处理目的"@zh ;
+    rdfs:label "Prior Authorization Processing Purpose"@en .
+
+ex:AlgorithmicDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "算法决策风险源"@zh ;
+    rdfs:label "Algorithmic Decision Making Risk Source"@en .

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceMimickingAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Mimicking AI"@en ;
+    rdfs:label "语音模仿AI"@zh ;
+    airo:hasRisk ex:PhoneFraudRisk ;
+    airo:usesTechnique ex:VoiceSynthesis .
+
+ex:PhoneFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Phone Fraud Risk"@en ;
+    rdfs:label "电话诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss .
+
+ex:VoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technique"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:TrustErosion .
+
+ex:TrustErosion rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion Impact"@en ;
+    rdfs:label "信任侵蚀影响"@zh .

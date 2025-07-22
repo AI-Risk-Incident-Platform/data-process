@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "AI Voice Cloning System",
+      "来源": "Mumbai Man Loses Rs 80,000 In AI Voice Cloning Scam"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "Mumbai businessman falls victim to AI voice cloning, loses Rs 80,000"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "loses Rs 80,000"
+    },
+    "Stakeholder": {
+      "id": "MumbaiBusinessman",
+      "中文名称": "孟买商人",
+      "英文名称": "Mumbai Businessman",
+      "来源": "Mumbai businessman falls victim to AI voice cloning"
+    },
+    "Misuse": {
+      "id": "VoiceCloningForFraud",
+      "中文名称": "语音克隆用于欺诈",
+      "英文名称": "Voice Cloning for Fraud Misuse",
+      "来源": "AI voice cloning scam"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StarshipDeliveryRobot",
+      "中文名称": "星际飞船送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToChildRisk",
+      "中文名称": "对儿童造成身体伤害风险",
+      "英文名称": "Child Risk",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "Consequence": {
+      "id": "ChildInjury",
+      "中文名称": "儿童受伤后果",
+      "英文名称": "Child Injury Consequence",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "AICapability": {
+      "id": "AutonomousDelivery",
+      "中文名称": "自主送货能力",
+      "英文名称": "Autonomous Delivery Capability",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "AIOperator": {
+      "id": "StarshipTechnologies",
+      "中文名称": "星际飞船技术公司",
+      "英文名称": "Starship Technologies",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "Stakeholder": {
+      "id": "ShoppingMallVisitors",
+      "中文名称": "购物中心访客",
+      "英文名称": "Mall Visitors",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "AISubject": {
+      "id": "ToddlerInShoppingMall",
+      "中文名称": "购物中心幼儿",
+      "英文名称": "Toddler in Shopping Mall",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Impact": {
+      "id": "PhysicalTraumaToChild",
+      "中文名称": "儿童身体创伤影响",
+      "英文名称": "Physical Trauma to Child Impact",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Purpose": {
+      "id": "LastMileDelivery",
+      "中文名称": "最后一英里送货目的",
+      "英文名称": "Last Mile Delivery Purpose",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Domain": {
+      "id": "RetailDelivery",
+      "中文名称": "零售配送领域",
+      "英文名称": "Retail Delivery Domain",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "AITechnique": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航技术",
+      "英文名称": "Autonomous Navigation Technique",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Vulnerability": {
+      "id": "UnpredictableHumanBehavior",
+      "中文名称": "不可预测的人类行为脆弱性",
+      "英文名称": "Unpredictable Human Behavior Vulnerability",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Threat": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障威胁",
+      "英文名称": "Robot Malfunction Threat",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Hazard": {
+      "id": "UnsupervisedRobotOperation",
+      "中文名称": "无人监督的机器人操作危害",
+      "英文名称": "Robot Operation Hazard",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyProtocols",
+      "中文名称": "安全协议不足风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "RiskConcept": {
+      "id": "PublicSafetyConcernsWithDeliveryRobots",
+      "中文名称": "送货机器人公共安全问题",
+      "英文名称": "Public Safety Concerns with Delivery Robots Risk Concept",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StarshipDeliveryRobot",
+      "中文名称": "星际飞船送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Risk": {
+      "id": "PhysicalHarmToChildRisk",
+      "中文名称": "对儿童造成身体伤害风险",
+      "英文名称": "Child Risk",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "Consequence": {
+      "id": "ChildInjury",
+      "中文名称": "儿童受伤后果",
+      "英文名称": "Child Injury Consequence",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "AICapability": {
+      "id": "AutonomousDelivery",
+      "中文名称": "自主送货能力",
+      "英文名称": "Autonomous Delivery Capability",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "AIOperator": {
+      "id": "StarshipTechnologies",
+      "中文名称": "星际飞船技术公司",
+      "英文名称": "Starship Technologies",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "Stakeholder": {
+      "id": "ShoppingMallVisitors",
+      "中文名称": "购物中心访客",
+      "英文名称": "Mall Visitors",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "AISubject": {
+      "id": "ToddlerInShoppingMall",
+      "中文名称": "购物中心幼儿",
+      "英文名称": "Toddler in Shopping Mall",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Impact": {
+      "id": "PhysicalTraumaToChild",
+      "中文名称": "儿童身体创伤影响",
+      "英文名称": "Physical Trauma to Child Impact",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Purpose": {
+      "id": "LastMileDelivery",
+      "中文名称": "最后一英里送货目的",
+      "英文名称": "Last Mile Delivery Purpose",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Domain": {
+      "id": "RetailDelivery",
+      "中文名称": "零售配送领域",
+      "英文名称": "Retail Delivery Domain",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "AITechnique": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航技术",
+      "英文名称": "Autonomous Navigation Technique",
+      "来源": "Starship robots investigate shopping centre incident"
+    },
+    "Vulnerability": {
+      "id": "UnpredictableHumanBehavior",
+      "中文名称": "不可预测的人类行为脆弱性",
+      "英文名称": "Unpredictable Human Behavior Vulnerability",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Threat": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障威胁",
+      "英文名称": "Robot Malfunction Threat",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    },
+    "Hazard": {
+      "id": "UnsupervisedRobotOperation",
+      "中文名称": "无人监督的机器人操作危害",
+      "英文名称": "Robot Operation Hazard",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyProtocols",
+      "中文名称": "安全协议不足风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Robots under investigation after alleged incident involving a child while making a delivery in Milton Keynes"
+    },
+    "RiskConcept": {
+      "id": "PublicSafetyConcernsWithDeliveryRobots",
+      "中文名称": "送货机器人公共安全问题",
+      "英文名称": "Public Safety Concerns with Delivery Robots Risk Concept",
+      "来源": "Futuristic delivery robot goes rogue and attacks 'scared' toddler in shopping mall"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JustEatDeliveryAI rdf:type airo:AISystem ;
+    rdfs:label "Just Eat Delivery AI System"@en ;
+    rdfs:label "Just Eat配送AI系统"@zh ;
+    airo:hasRisk ex:UnfairTerminationRisk ;
+    airo:isDevelopedBy ex:JustEatUK ;
+    airo:hasStakeholder ex:DeliveryCouriers .
+
+ex:UnfairTerminationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Termination Risk"@en ;
+    rdfs:label "不公平解雇风险"@zh ;
+    airo:hasConsequence ex:CourierJobLoss ;
+    airo:isRiskSourceFor ex:AutomatedDecisionMakingWithoutHumanReview .
+
+ex:CourierJobLoss rdf:type airo:Consequence ;
+    rdfs:label "Courier Job Loss Consequence"@en ;
+    rdfs:label "快递员失业后果"@zh ;
+    airo:hasImpact ex:FinancialHardshipForCouriers .
+
+ex:JustEatUK rdf:type airo:AIOperator ;
+    rdfs:label "Just Eat UK"@en ;
+    rdfs:label "Just Eat英国公司"@zh .
+
+ex:DeliveryCouriers rdf:type airo:Stakeholder ;
+    rdfs:label "Delivery Couriers"@en ;
+    rdfs:label "配送员"@zh .
+
+ex:FinancialHardshipForCouriers rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship for Couriers Impact"@en ;
+    rdfs:label "快递员经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DeliveryCouriers .
+
+ex:AutomatedDecisionMakingWithoutHumanReview rdf:type airo:RiskSource ;
+    rdfs:label "Automated Decision Making Without Human Review Risk Source"@en ;
+    rdfs:label "无人审核的自动化决策风险源"@zh .

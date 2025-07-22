@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "面部识别技术"@zh ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:CustomerIdentification ;
+    airo:hasStakeholder ex:JacksonsFoodStores ;
+    airo:isAppliedWithinDomain ex:RetailIndustry .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:LegalAction ;
+    airo:isRiskSourceFor ex:LackOfRegulation .
+
+ex:JacksonsFoodStores rdf:type airo:Stakeholder ;
+    rdfs:label "杰克逊食品商店"@zh ;
+    rdfs:label "Jacksons Food Stores"@en .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "零售业"@zh ;
+    rdfs:label "Retail Industry"@en .
+
+ex:CustomerIdentification rdf:type airo:Purpose ;
+    rdfs:label "顾客识别"@zh ;
+    rdfs:label "Customer Identification"@en .
+
+ex:LackOfRegulation rdf:type airo:RiskSource ;
+    rdfs:label "缺乏监管"@zh ;
+    rdfs:label "Lack of Regulation"@en .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "法律诉讼"@zh ;
+    rdfs:label "Legal Action"@en ;
+    airo:hasImpact ex:PublicConcern .
+
+ex:PublicConcern rdf:type airo:Impact ;
+    rdfs:label "公众担忧"@zh ;
+    rdfs:label "Public Concern"@en ;
+    airo:hasImpactOnStakeholder ex:JacksonsFoodStores .

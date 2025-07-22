@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberDriverRatingSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Driver Rating System"@en ;
+    rdfs:label "优步司机评分系统"@zh ;
+    airo:hasRisk ex:RacialDiscriminationRisk ;
+    airo:hasStakeholder ex:UberDrivers ;
+    airo:isDeployedBy ex:UberTechnologiesInc ;
+    airo:isAppliedWithinDomain ex:RideHailingServices .
+
+ex:RacialDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Discrimination Risk"@en ;
+    rdfs:label "种族歧视风险"@zh ;
+    airo:hasConsequence ex:UnfairTermination ;
+    airo:isRiskSourceFor ex:BiasedRatingAlgorithm .
+
+ex:UberDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Drivers"@en ;
+    rdfs:label "优步司机"@zh .
+
+ex:UberTechnologiesInc rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies Inc."@en ;
+    rdfs:label "优步科技公司"@zh .
+
+ex:UnfairTermination rdf:type airo:Consequence ;
+    rdfs:label "Unfair Termination Consequence"@en ;
+    rdfs:label "不公平解雇后果"@zh ;
+    airo:hasImpact ex:EconomicHardship .
+
+ex:EconomicHardship rdf:type airo:Impact ;
+    rdfs:label "Economic Hardship Impact"@en ;
+    rdfs:label "经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberDrivers .
+
+ex:BiasedRatingAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Biased Rating Algorithm Risk Source"@en ;
+    rdfs:label "有偏见的评分算法风险源"@zh .
+
+ex:RideHailingServices rdf:type airo:Domain ;
+    rdfs:label "Ride-Hailing Services Domain"@en ;
+    rdfs:label "网约车服务领域"@zh .

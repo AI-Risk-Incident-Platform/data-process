@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdvertisingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Facebook Advertising Algorithm"@en ;
+    rdfs:label "Facebook广告算法"@zh ;
+    airo:hasRisk ex:HousingDiscriminationRisk ;
+    airo:isDeployedBy ex:MetaPlatforms ;
+    airo:hasStakeholder ex:HUD ;
+    airo:isAppliedWithinDomain ex:OnlineAdvertising .
+
+ex:HousingDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Housing Discrimination Risk"@en ;
+    rdfs:label "住房歧视风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryAdvertisingPractices ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInTargeting .
+
+ex:HUD rdf:type airo:Stakeholder ;
+    rdfs:label "U.S. Department of Housing and Urban Development"@en ;
+    rdfs:label "美国住房和城市发展部"@zh .
+
+ex:MetaPlatforms rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms"@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:DiscriminatoryAdvertisingPractices rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Advertising Practices Consequence"@en ;
+    rdfs:label "歧视性广告行为后果"@zh ;
+    airo:hasImpactOnStakeholder ex:HUD .
+
+ex:OnlineAdvertising rdf:type airo:Domain ;
+    rdfs:label "Online Advertising Domain"@en ;
+    rdfs:label "在线广告领域"@zh .
+
+ex:AlgorithmicBiasInTargeting rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Targeting Risk Source"@en ;
+    rdfs:label "定向投放中的算法偏见风险源"@zh .

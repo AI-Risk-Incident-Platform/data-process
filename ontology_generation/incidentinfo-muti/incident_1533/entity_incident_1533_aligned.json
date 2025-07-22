@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChattrAIHiringService",
+      "中文名称": "Chattr.ai招聘服务",
+      "英文名称": "Chattr.ai Hiring Service",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Risk": {
+      "id": "DataExposureRisk",
+      "中文名称": "数据暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "RiskSource": {
+      "id": "SystemMisconfiguration",
+      "中文名称": "系统配置错误",
+      "英文名称": "System Configuration Risk",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Consequence": {
+      "id": "SensitiveDataExposure",
+      "中文名称": "敏感数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Stakeholder": {
+      "id": "SecurityResearcher",
+      "中文名称": "安全研究员",
+      "英文名称": "Security Experts",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "AIOperator": {
+      "id": "ChattrAIProvider",
+      "中文名称": "Chattr.ai提供商",
+      "英文名称": "Chattr.ai Provider",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源",
+      "英文名称": "Human Resources",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChattrAIHiringService",
+      "中文名称": "Chattr.ai招聘服务",
+      "英文名称": "Chattr.ai Hiring Service",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Risk": {
+      "id": "DataExposureRisk",
+      "中文名称": "数据暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "RiskSource": {
+      "id": "SystemMisconfiguration",
+      "中文名称": "系统配置错误",
+      "英文名称": "System Configuration Risk",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Consequence": {
+      "id": "SensitiveDataExposure",
+      "中文名称": "敏感数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Stakeholder": {
+      "id": "SecurityResearcher",
+      "中文名称": "安全研究员",
+      "英文名称": "Security Experts",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "AIOperator": {
+      "id": "ChattrAIProvider",
+      "中文名称": "Chattr.ai提供商",
+      "英文名称": "Chattr.ai Provider",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源",
+      "英文名称": "Human Resources",
+      "来源": "Security Researcher Discloses Misconfiguration in Chattr.ai Hiring Service That May Expose Sensitive Data"
+    }
+  }
+}

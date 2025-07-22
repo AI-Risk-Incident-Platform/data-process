@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedContentSystem",
+      "中文名称": "AI生成内容系统",
+      "英文名称": "AI Generated Content System",
+      "来源": "Men’s Magazine Corrects ‘Bungled’ AI-Generated Health Story After Getting Caught"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "错误信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Men’s Magazine Corrects ‘Bungled’ AI-Generated Health Story After Getting Caught"
+    },
+    "Stakeholder": {
+      "id": "MenMagazine",
+      "中文名称": "男性杂志",
+      "英文名称": "Men's Magazine",
+      "来源": "Men’s Magazine Corrects ‘Bungled’ AI-Generated Health Story After Getting Caught"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众错误信息后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "Men’s Magazine Corrects ‘Bungled’ AI-Generated Health Story After Getting Caught"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Content Generation Capability",
+      "来源": "Sports Illustrated’s publisher is using AI to generate fitness advice"
+    }
+  }
+}

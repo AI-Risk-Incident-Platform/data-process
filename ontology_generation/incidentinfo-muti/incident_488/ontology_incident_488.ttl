@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIWriter rdf:type airo:AISystem ;
+    rdfs:label "AI Writer"@en ;
+    rdfs:label "AI作家"@zh ;
+    airo:hasRisk ex:FloodOfAIWrittenContent ;
+    airo:hasPurpose ex:AutomatedContentCreation ;
+    airo:isAppliedWithinDomain ex:PublishingIndustry ;
+    airo:hasStakeholder ex:ScienceFictionMagazine .
+
+ex:FloodOfAIWrittenContent rdf:type airo:Risk ;
+    rdfs:label "Flood of AI-Written Content Risk"@en ;
+    rdfs:label "AI生成内容泛滥风险"@zh ;
+    airo:hasConsequence ex:SubmissionClosure .
+
+ex:ScienceFictionMagazine rdf:type airo:Stakeholder ;
+    rdfs:label "Science Fiction Magazine"@en ;
+    rdfs:label "科幻杂志"@zh .
+
+ex:SubmissionClosure rdf:type airo:Consequence ;
+    rdfs:label "Submission Closure Consequence"@en ;
+    rdfs:label "投稿关闭后果"@zh ;
+    airo:hasImpact ex:ReducedHumanCreativityOpportunities .
+
+ex:ReducedHumanCreativityOpportunities rdf:type airo:Impact ;
+    rdfs:label "Reduced Human Creativity Opportunities Impact"@en ;
+    rdfs:label "人类创作机会减少的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ScienceFictionMagazine .
+
+ex:AutomatedContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Automated Content Creation Purpose"@en ;
+    rdfs:label "自动化内容创作的目的"@zh .
+
+ex:PublishingIndustry rdf:type airo:Domain ;
+    rdfs:label "Publishing Industry Domain"@en ;
+    rdfs:label "出版业领域"@zh .

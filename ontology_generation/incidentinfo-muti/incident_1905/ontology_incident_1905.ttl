@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterGunshotDetectingAISystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter枪声检测AI系统"@zh ;
+    rdfs:label "ShotSpotter Gunshot-Detecting AI System"@en ;
+    airo:hasRisk ex:EvidenceTamperingRisk ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:isDeployedBy ex:ShotSpotterInc ;
+    airo:hasPurpose ex:GunshotDetectionAndLocation ;
+    airo:isAppliedWithinDomain ex:PublicSafety .
+
+ex:EvidenceTamperingRisk rdf:type airo:Risk ;
+    rdfs:label "证据篡改风险"@zh ;
+    rdfs:label "Evidence Tampering Risk"@en ;
+    airo:hasConsequence ex:CompromisedJudicialProcess .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "警察部门"@zh ;
+    rdfs:label "Police Department"@en .
+
+ex:CompromisedJudicialProcess rdf:type airo:Consequence ;
+    rdfs:label "司法程序受损后果"@zh ;
+    rdfs:label "Compromised Judicial Process Consequence"@en ;
+    airo:hasImpact ex:ErosionOfPublicTrust .
+
+ex:ErosionOfPublicTrust rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Erosion of Public Trust Impact"@en ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartment .
+
+ex:ShotSpotterInc rdf:type airo:AIOperator ;
+    rdfs:label "ShotSpotter公司"@zh ;
+    rdfs:label "ShotSpotter Inc."@en .
+
+ex:GunshotDetectionAndLocation rdf:type airo:Purpose ;
+    rdfs:label "枪声检测与定位目的"@zh ;
+    rdfs:label "Gunshot Detection and Location Purpose"@en .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "公共安全领域"@zh ;
+    rdfs:label "Public Safety Domain"@en .

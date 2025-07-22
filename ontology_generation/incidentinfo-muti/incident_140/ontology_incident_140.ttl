@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PhDAdmissionsAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "PhD Admissions Algorithm"@en ;
+    rdfs:label "博士招生算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInAdmissions ;
+    airo:hasPurpose ex:AutomatePhDAdmissions ;
+    airo:isAppliedWithinDomain ex:HigherEducation ;
+    airo:usesTechnique ex:MachineLearningForAdmissions ;
+    airo:hasStakeholder ex:PhDApplicants ;
+    airo:isDevelopedBy ex:UniversityOfTexas .
+
+ex:AlgorithmicBiasInAdmissions rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Admissions Risk"@en ;
+    rdfs:label "招生中的算法偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasConsequence ex:UnfairAdmissionDecisions .
+
+ex:UnfairAdmissionDecisions rdf:type airo:Consequence ;
+    rdfs:label "Unfair Admission Decisions Consequence"@en ;
+    rdfs:label "不公平的录取决策后果"@zh ;
+    airo:hasImpact ex:ReducedDiversityInPhDPrograms .
+
+ex:UniversityOfTexas rdf:type airo:AIOperator ;
+    rdfs:label "University of Texas"@en ;
+    rdfs:label "德克萨斯大学"@zh .
+
+ex:PhDApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "PhD Applicants"@en ;
+    rdfs:label "博士申请者"@zh .
+
+ex:AutomatePhDAdmissions rdf:type airo:Purpose ;
+    rdfs:label "Automate PhD Admissions Purpose"@en ;
+    rdfs:label "自动化博士招生"@zh .
+
+ex:HigherEducation rdf:type airo:Domain ;
+    rdfs:label "Higher Education Domain"@en ;
+    rdfs:label "高等教育"@zh .
+
+ex:MachineLearningForAdmissions rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Admissions Technique"@en ;
+    rdfs:label "用于招生的机器学习"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据"@zh .
+
+ex:ReducedDiversityInPhDPrograms rdf:type airo:Impact ;
+    rdfs:label "Reduced Diversity in PhD Programs Impact"@en ;
+    rdfs:label "博士项目多样性减少的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PhDApplicants .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemForToiletPaper",
+      "中文名称": "面部识别系统用于厕纸管理",
+      "英文名称": "Facial Recognition System for Toilet Paper Management",
+      "来源": "Chinese park installs facial recognition software to stop toilet paper thieves"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Installation of facial recognition system in public toilets"
+    },
+    "Purpose": {
+      "id": "PreventToiletPaperTheft",
+      "中文名称": "防止厕纸盗窃",
+      "英文名称": "Prevent Toilet Paper Theft",
+      "来源": "to stop toilet paper thieves"
+    },
+    "Domain": {
+      "id": "PublicFacilityManagement",
+      "中文名称": "公共设施管理",
+      "英文名称": "Public Facility Management",
+      "来源": "Chinese park installs facial recognition software"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "facial recognition software"
+    },
+    "Stakeholder": {
+      "id": "ParkVisitors",
+      "中文名称": "公园游客",
+      "英文名称": "Park Visitors",
+      "来源": "public toilets in Chinese park"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集",
+      "英文名称": "Biometric Data Collection",
+      "来源": "installation of facial recognition system"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyConcerns",
+      "中文名称": "个人隐私担忧",
+      "英文名称": "Personal Privacy Concerns",
+      "来源": "use of facial recognition in public toilets"
+    }
+  }
+}

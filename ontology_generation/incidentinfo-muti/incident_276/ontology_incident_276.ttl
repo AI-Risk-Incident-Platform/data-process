@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    airo:hasRisk ex:CulturalInsensitivityInContentModeration ;
+    airo:hasStakeholder ex:AboriginalCommunity ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasPurpose ex:CommunityStandardsEnforcement ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:CulturalInsensitivityInContentModeration rdf:type airo:Risk ;
+    rdfs:label "内容审核中的文化不敏感风险"@zh ;
+    rdfs:label "Cultural Insensitivity in Content Moderation Risk"@en ;
+    airo:hasConsequence ex:SuppressionOfHistoricalEvidence ;
+    airo:isRiskSourceFor ex:AutomatedNudityDetectionAlgorithms .
+
+ex:AboriginalCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "原住民社区"@zh ;
+    rdfs:label "Aboriginal Community"@en .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Inc."@en .
+
+ex:SuppressionOfHistoricalEvidence rdf:type airo:Consequence ;
+    rdfs:label "历史证据压制的后果"@zh ;
+    rdfs:label "Suppression of Historical Evidence Consequence"@en ;
+    airo:hasImpact ex:HarmToCulturalRights .
+
+ex:HarmToCulturalRights rdf:type airo:Impact ;
+    rdfs:label "文化权利损害的影响"@zh ;
+    rdfs:label "Harm to Cultural Rights Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AboriginalCommunity .
+
+ex:CommunityStandardsEnforcement rdf:type airo:Purpose ;
+    rdfs:label "社区标准执行的目的"@zh ;
+    rdfs:label "Community Standards Enforcement Purpose"@en .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platforms Domain"@en .
+
+ex:AutomatedNudityDetectionAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "自动裸体检测算法的风险源"@zh ;
+    rdfs:label "Automated Nudity Detection Algorithms Risk Source"@en .

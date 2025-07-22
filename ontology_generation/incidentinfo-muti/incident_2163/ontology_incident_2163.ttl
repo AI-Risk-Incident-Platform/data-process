@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonDeliveryVanAICameras rdf:type airo:AISystem ;
+    rdfs:label "Amazon Delivery Van AI Cameras"@en ;
+    rdfs:label "亚马逊送货车辆AI摄像头"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:hasStakeholder ex:DeliveryVanDrivers ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasPurpose ex:DriverMonitoring ;
+    airo:isAppliedWithinDomain ex:LogisticsAndDelivery ;
+    airo:hasCapability ex:RealTimeBehaviorMonitoring .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:AlwaysOnSurveillance ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Consequence of Privacy Invasion"@en ;
+        rdfs:label "隐私侵犯后果"@zh ;
+        airo:hasImpact ex:WorkplacePrivacyConcerns
+    ] .
+
+ex:DeliveryVanDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Delivery Van Drivers"@en ;
+    rdfs:label "送货车辆司机"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:DriverMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Driver Monitoring"@en ;
+    rdfs:label "司机监控"@zh .
+
+ex:LogisticsAndDelivery rdf:type airo:Domain ;
+    rdfs:label "Logistics and Delivery"@en ;
+    rdfs:label "物流与配送"@zh .
+
+ex:RealTimeBehaviorMonitoring rdf:type airo:AICapability ;
+    rdfs:label "Real-Time Behavior Monitoring Capability"@en ;
+    rdfs:label "实时行为监控能力"@zh .
+
+ex:AlwaysOnSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Always-On Surveillance"@en ;
+    rdfs:label "持续监控"@zh .
+
+ex:WorkplacePrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Workplace Privacy Concerns"@en ;
+    rdfs:label "工作场所隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:DeliveryVanDrivers .

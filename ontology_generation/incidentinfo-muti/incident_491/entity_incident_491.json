@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAI",
+      "中文名称": "TikTok人工智能系统",
+      "英文名称": "TikTok AI System",
+      "来源": "新闻标题中提到的TikTok平台"
+    },
+    "Risk": {
+      "id": "ImpersonationScamRisk",
+      "中文名称": "冒充诈骗风险",
+      "英文名称": "Impersonation Scam Risk",
+      "来源": "新闻标题'A Scammer Is Pretending to Be Andrew Tate on TikTok'"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "新闻标题中提到的'Racking Up Millions of Views'"
+    },
+    "AISubject": {
+      "id": "AndrewTatePersona",
+      "中文名称": "Andrew Tate形象",
+      "英文名称": "Andrew Tate Persona",
+      "来源": "新闻标题中提到的'Pretending to Be Andrew Tate'"
+    },
+    "Misuse": {
+      "id": "AIIdentityTheft",
+      "中文名称": "AI身份盗用",
+      "英文名称": "AI Identity Theft",
+      "来源": "新闻标题中提到的'Pretending to Be Andrew Tate'"
+    },
+    "Consequence": {
+      "id": "MassDeception",
+      "中文名称": "大规模欺骗后果",
+      "英文名称": "Mass Deception Consequence",
+      "来源": "新闻标题中提到的'Racking Up Millions of Views'"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "新闻标题中提到的诈骗行为暗示"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "新闻标题中提到的TikTok平台"
+    }
+  }
+}

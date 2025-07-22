@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAIOverviews",
+      "中文名称": "谷歌AI概览",
+      "英文名称": "Google AI Overviews",
+      "来源": "标题中提到的Google's AI Overviews"
+    },
+    "Risk": {
+      "id": "EnvironmentalImpactRisk",
+      "中文名称": "环境影响风险",
+      "英文名称": "Environmental Impact Risk",
+      "来源": "标题'What Do Google's AI Answers Cost the Environment?'"
+    },
+    "RiskSource": {
+      "id": "EnergyConsumption",
+      "中文名称": "能源消耗",
+      "英文名称": "Energy Consumption",
+      "来源": "标题暗示AI系统运行需要消耗能源"
+    },
+    "Impact": {
+      "id": "CarbonFootprint",
+      "中文名称": "碳足迹",
+      "英文名称": "Carbon Footprint",
+      "来源": "标题暗示AI系统运行会产生环境影响"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "标题中提到的Google"
+    },
+    "AICapability": {
+      "id": "InformationSummarization",
+      "中文名称": "信息摘要能力",
+      "英文名称": "Information Summarization Capability",
+      "来源": "AI Overviews功能暗示的信息摘要能力"
+    },
+    "Consequence": {
+      "id": "InaccurateInformation",
+      "中文名称": "信息不准确后果",
+      "英文名称": "Inaccurate Information Consequence",
+      "来源": "标题'Why Google's AI Overviews gets things wrong'"
+    }
+  }
+}

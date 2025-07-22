@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TexasSTAARAutomatedGradingSystem rdf:type airo:AISystem ;
+    rdfs:label "Texas STAAR Automated Grading System"@en ;
+    rdfs:label "德克萨斯州STAAR考试自动评分系统"@zh ;
+    airo:hasRisk ex:CreativityAssessmentLimitationRisk ;
+    airo:isAppliedWithinDomain ex:EducationalAssessment ;
+    airo:hasStakeholder ex:TexasStudentsAndTeachers ;
+    airo:hasPurpose ex:StandardizedTestScoring ;
+    airo:isDeployedBy ex:TexasEducationAgency .
+
+ex:CreativityAssessmentLimitationRisk rdf:type airo:Risk ;
+    rdfs:label "Creativity Assessment Limitation Risk"@en ;
+    rdfs:label "创造力评估局限性风险"@zh ;
+    airo:hasConsequence ex:PotentialMisassessmentOfCreativeResponses .
+
+ex:EducationalAssessment rdf:type airo:Domain ;
+    rdfs:label "Educational Assessment Domain"@en ;
+    rdfs:label "教育评估领域"@zh .
+
+ex:TexasEducationAgency rdf:type airo:AIOperator ;
+    rdfs:label "Texas Education Agency"@en ;
+    rdfs:label "德克萨斯州教育局"@zh .
+
+ex:StandardizedTestScoring rdf:type airo:Purpose ;
+    rdfs:label "Standardized Test Scoring Purpose"@en ;
+    rdfs:label "标准化考试评分目的"@zh .
+
+ex:PotentialMisassessmentOfCreativeResponses rdf:type airo:Consequence ;
+    rdfs:label "Potential Misassessment of Creative Responses Consequence"@en ;
+    rdfs:label "创造性回答可能被误评的后果"@zh ;
+    airo:hasImpactOnStakeholder ex:TexasStudentsAndTeachers .
+
+ex:TexasStudentsAndTeachers rdf:type airo:Stakeholder ;
+    rdfs:label "Texas Students and Teachers Stakeholder"@en ;
+    rdfs:label "德克萨斯州学生和教师"@zh .

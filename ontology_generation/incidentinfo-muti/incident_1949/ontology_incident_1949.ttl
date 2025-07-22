@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedMusicSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Music System"@en ;
+    rdfs:label "AI生成音乐系统"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasCapability ex:MusicGenerationCapability ;
+    airo:hasStakeholder ex:MusicFans ;
+    airo:usesTechnique ex:GenerativeAdversarialNetwork ;
+    airo:hasPurpose ex:MusicCreation ;
+    airo:isAppliedWithinDomain ex:MusicIndustry .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:AIAbuse .
+
+ex:MusicFans rdf:type airo:Stakeholder ;
+    rdfs:label "Music Fans"@en ;
+    rdfs:label "音乐爱好者"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpact ex:TrustErosionInDigitalContent .
+
+ex:MusicGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Music Generation Capability"@en ;
+    rdfs:label "音乐生成能力"@zh .
+
+ex:AIAbuse rdf:type airo:RiskSource ;
+    rdfs:label "AI Abuse"@en ;
+    rdfs:label "AI滥用"@zh .
+
+ex:TrustErosionInDigitalContent rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Digital Content"@en ;
+    rdfs:label "数字内容信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:MusicFans .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Industry"@en ;
+    rdfs:label "音乐产业"@zh .
+
+ex:GenerativeAdversarialNetwork rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Network"@en ;
+    rdfs:label "生成对抗网络"@zh .
+
+ex:MusicCreation rdf:type airo:Purpose ;
+    rdfs:label "Music Creation"@en ;
+    rdfs:label "音乐创作"@zh .

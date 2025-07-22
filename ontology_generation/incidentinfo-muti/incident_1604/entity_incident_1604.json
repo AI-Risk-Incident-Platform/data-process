@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI",
+      "英文名称": "Google AI",
+      "来源": "Big Four False Allegations Based on Google AI, Academic Claims"
+    },
+    "Risk": {
+      "id": "FalseAllegationsRisk",
+      "中文名称": "虚假指控风险",
+      "英文名称": "False Allegations Risk",
+      "来源": "Australian academics apologise for false AI-generated allegations against big four consultancy firms"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "KPMG lodges complaint after AI-generated material was used to implicate them in non-existent scandals"
+    },
+    "Stakeholder": {
+      "id": "BigFourConsultancyFirms",
+      "中文名称": "四大咨询公司",
+      "英文名称": "Big Four Consultancy Firms",
+      "来源": "Australian academics apologise for false AI-generated allegations against big four consultancy firms"
+    },
+    "AIOperator": {
+      "id": "AustralianAcademics",
+      "中文名称": "澳大利亚学者",
+      "英文名称": "Australian Academics",
+      "来源": "Australian academics apologise for false AI-generated allegations against big four consultancy firms"
+    },
+    "RiskSource": {
+      "id": "AIGeneratedFalseInformation",
+      "中文名称": "AI生成的虚假信息风险源",
+      "英文名称": "AI-Generated False Information Risk Source",
+      "来源": "Big Four False Allegations Based on Google AI, Academic Claims"
+    },
+    "Impact": {
+      "id": "LegalComplaintImpact",
+      "中文名称": "法律投诉影响",
+      "英文名称": "Legal Complaint Impact",
+      "来源": "KPMG lodges complaint after AI-generated material was used to implicate them in non-existent scandals"
+    }
+  }
+}

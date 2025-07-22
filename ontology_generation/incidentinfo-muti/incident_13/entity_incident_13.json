@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonWarehouseRobot",
+      "中文名称": "亚马逊仓库机器人",
+      "英文名称": "Amazon Warehouse Robot",
+      "来源": "Robot's bear spray accident puts 24 Amazon workers in hospital"
+    },
+    "Risk": {
+      "id": "ChemicalExposureRisk",
+      "中文名称": "化学物质暴露风险",
+      "英文名称": "Chemical Exposure Risk",
+      "来源": "24 Amazon workers sent to hospital after robot accidentally unleashes bear spray"
+    },
+    "Consequence": {
+      "id": "WorkerHospitalization",
+      "中文名称": "工人住院后果",
+      "英文名称": "Worker Hospitalization Consequence",
+      "来源": "1 critical, 54 Amazon workers treated after bear repellent discharge in N.J. warehouse"
+    },
+    "Impact": {
+      "id": "HealthAndSafetyThreat",
+      "中文名称": "健康安全威胁影响",
+      "英文名称": "Health and Safety Threat Impact",
+      "来源": "24 Amazon workers sent to hospital after robot accidentally unleashes bear spray"
+    },
+    "Stakeholder": {
+      "id": "AmazonWorkers",
+      "中文名称": "亚马逊员工",
+      "英文名称": "Amazon Workers",
+      "来源": "54 Amazon workers treated after bear repellent discharge"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障风险源",
+      "英文名称": "Robot Malfunction Risk Source",
+      "来源": "Robot's bear spray accident"
+    },
+    "Domain": {
+      "id": "WarehouseAutomation",
+      "中文名称": "仓库自动化领域",
+      "英文名称": "Warehouse Automation Domain",
+      "来源": "bear repellent discharge in N.J. warehouse"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LinkedInAIProfiles rdf:type airo:AISystem ;
+    rdfs:label "LinkedIn AI生成个人资料"@zh ;
+    rdfs:label "LinkedIn AI-Generated Profiles"@en ;
+    airo:hasRisk ex:FakeProfilesRisk ;
+    airo:hasCapability ex:ProfileGeneration ;
+    airo:hasStakeholder ex:LinkedInUsers ;
+    airo:isDeployedBy ex:LinkedInCorporation ;
+    airo:isAppliedWithinDomain ex:ProfessionalNetworking .
+
+ex:FakeProfilesRisk rdf:type airo:Risk ;
+    rdfs:label "虚假个人资料风险"@zh ;
+    rdfs:label "Fake Profiles Risk"@en ;
+    airo:hasConsequence ex:TrustErosion ;
+    airo:isRiskSourceFor ex:DeepfakeTechnology .
+
+ex:ProfileGeneration rdf:type airo:AICapability ;
+    rdfs:label "个人资料生成能力"@zh ;
+    rdfs:label "Profile Generation Capability"@en .
+
+ex:DeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "深度伪造技术风险源"@zh ;
+    rdfs:label "Deepfake Technology Risk Source"@en .
+
+ex:TrustErosion rdf:type airo:Consequence ;
+    rdfs:label "信任侵蚀后果"@zh ;
+    rdfs:label "Trust Erosion Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:LinkedInUsers .
+
+ex:LinkedInUsers rdf:type airo:Stakeholder ;
+    rdfs:label "LinkedIn用户"@zh ;
+    rdfs:label "LinkedIn Users"@en .
+
+ex:LinkedInCorporation rdf:type airo:AIOperator ;
+    rdfs:label "LinkedIn公司"@zh ;
+    rdfs:label "LinkedIn Corporation"@en .
+
+ex:ProfessionalNetworking rdf:type airo:Domain ;
+    rdfs:label "职业社交网络领域"@zh ;
+    rdfs:label "Professional Networking Domain"@en .

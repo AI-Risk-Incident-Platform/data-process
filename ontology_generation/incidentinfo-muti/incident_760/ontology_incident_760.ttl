@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:Grok2ImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Grok-2 Image Generation System"@en ;
+    rdfs:label "Grok-2图像生成系统"@zh ;
+    airo:hasRisk ex:OffensiveContentGenerationRisk ;
+    airo:hasStakeholder ex:XPlatformUsers ;
+    airo:hasStakeholder ex:XCorporation .
+
+ex:OffensiveContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Offensive Content Generation Risk"@en ;
+    rdfs:label "冒犯性内容生成风险"@zh ;
+    airo:isRiskSourceFor ex:InadequateContentFiltering ;
+    airo:hasConsequence ex:TrademarkInfringement .
+
+ex:XPlatformUsers rdf:type airo:Stakeholder ;
+    rdfs:label "X Platform Users"@en ;
+    rdfs:label "X平台用户"@zh .
+
+ex:XCorporation rdf:type airo:AIOperator ;
+    rdfs:label "X Corporation"@en ;
+    rdfs:label "X公司"@zh .
+
+ex:InadequateContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Filtering"@en ;
+    rdfs:label "内容过滤不足"@zh .
+
+ex:TrademarkInfringement rdf:type airo:Consequence ;
+    rdfs:label "Trademark Infringement"@en ;
+    rdfs:label "商标侵权"@zh ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Brand Reputation Damage"@en ;
+    rdfs:label "品牌声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:XPlatformUsers ;
+    airo:hasImpactOnStakeholder ex:XCorporation .

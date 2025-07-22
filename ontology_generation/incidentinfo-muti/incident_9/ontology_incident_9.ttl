@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GmailSmartReply rdf:type airo:AISystem ;
+    rdfs:label "Gmail Smart Reply"@en ;
+    rdfs:label "Gmail智能回复"@zh ;
+    airo:hasRisk ex:InappropriateEmotionalResponseRisk ;
+    airo:hasAICapability ex:AutomatedEmailResponseGeneration ;
+    airo:isDeployedBy ex:GoogleLLC ;
+    airo:hasStakeholder ex:GmailUsers ;
+    airo:hasAISubject ex:EmailRecipients ;
+    airo:hasPurpose ex:EmailResponseEfficiency ;
+    airo:isAppliedWithinDomain ex:EmailCommunication ;
+    airo:usesTechnique ex:NaturalLanguageProcessing .
+
+ex:InappropriateEmotionalResponseRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Emotional Response Risk"@en ;
+    rdfs:label "不恰当情感回应风险"@zh ;
+    airo:hasConsequence ex:MisleadingCommunication ;
+    airo:isRiskSourceFor ex:TrainingDataBias .
+
+ex:MisleadingCommunication rdf:type airo:Consequence ;
+    rdfs:label "Misleading Communication Consequence"@en ;
+    rdfs:label "误导性沟通后果"@zh ;
+    airo:hasImpact ex:ReducedHumanConnection .
+
+ex:AutomatedEmailResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Automated Email Response Generation Capability"@en ;
+    rdfs:label "自动邮件回复生成能力"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:GmailUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Gmail Users"@en ;
+    rdfs:label "Gmail用户"@zh .
+
+ex:EmailRecipients rdf:type airo:AISubject ;
+    rdfs:label "Email Recipients"@en ;
+    rdfs:label "邮件接收者"@zh .
+
+ex:ReducedHumanConnection rdf:type airo:Impact ;
+    rdfs:label "Reduced Human Connection Impact"@en ;
+    rdfs:label "人际关系疏远影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GmailUsers .
+
+ex:EmailResponseEfficiency rdf:type airo:Purpose ;
+    rdfs:label "Email Response Efficiency Purpose"@en ;
+    rdfs:label "提高邮件回复效率"@zh .
+
+ex:EmailCommunication rdf:type airo:Domain ;
+    rdfs:label "Email Communication Domain"@en ;
+    rdfs:label "电子邮件通信领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias Risk Source"@en ;
+    rdfs:label "训练数据偏差风险源"@zh ;
+    airo:exploitsVulnerability ex:ContextualUnderstandingLimitation ;
+    airo:isThreatenedBy ex:AutomatedResponseMisuse ;
+    airo:isHazardousTo ex:OverlyFamiliarResponsePatterns .
+
+ex:ContextualUnderstandingLimitation rdf:type airo:Vulnerability ;
+    rdfs:label "Contextual Understanding Limitation Vulnerability"@en ;
+    rdfs:label "上下文理解局限漏洞"@zh .
+
+ex:AutomatedResponseMisuse rdf:type airo:Threat ;
+    rdfs:label "Automated Response Misuse Threat"@en ;
+    rdfs:label "自动回复滥用威胁"@zh .
+
+ex:OverlyFamiliarResponsePatterns rdf:type airo:Hazard ;
+    rdfs:label "Overly Familiar Response Patterns Hazard"@en ;
+    rdfs:label "过度熟悉回复模式危害"@zh .
+
+ex:AutomatedCommunicationEthics rdf:type airo:RiskConcept ;
+    rdfs:label "Automated Communication Ethics Risk Concept"@en ;
+    rdfs:label "自动通信伦理问题"@zh .

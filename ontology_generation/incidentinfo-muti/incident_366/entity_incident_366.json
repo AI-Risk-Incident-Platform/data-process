@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MichiganUnemploymentAgencyAI",
+      "中文名称": "密歇根失业救济机构AI系统",
+      "英文名称": "Michigan Unemployment Agency AI System",
+      "来源": "Michigan unemployment agency made 20,000 false fraud accusations"
+    },
+    "Risk": {
+      "id": "FalseFraudAccusationRisk",
+      "中文名称": "虚假欺诈指控风险",
+      "英文名称": "False Fraud Accusation Risk",
+      "来源": "Michigan unemployment agency made 20,000 false fraud accusations"
+    },
+    "Consequence": {
+      "id": "FinancialHardshipForClaimants",
+      "中文名称": "申请人经济困难后果",
+      "英文名称": "Financial Hardship for Claimants Consequence",
+      "来源": "Michigan may pay victims of unemployment benefits blunder"
+    },
+    "Stakeholder": {
+      "id": "UnemploymentBenefitClaimants",
+      "中文名称": "失业救济申请人",
+      "英文名称": "Unemployment Benefit Claimants",
+      "来源": "Michigan may pay victims of unemployment benefits blunder"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任丧失影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "State apologizes for fraud fiasco, wants to reduce penalties"
+    }
+  }
+}

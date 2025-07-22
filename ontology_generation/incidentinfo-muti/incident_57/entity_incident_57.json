@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CentrelinkDebtRecoverySystem",
+      "中文名称": "Centrelink债务追讨系统",
+      "英文名称": "Centrelink Debt Recovery System",
+      "来源": "Centrelink's debt recovery system lacks transparency and treated some customers unfairly, ombudsman finds"
+    },
+    "Risk": {
+      "id": "UnfairTreatmentRisk",
+      "中文名称": "不公平待遇风险",
+      "英文名称": "Unfair Treatment Risk",
+      "来源": "treated some customers unfairly"
+    },
+    "Consequence": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "客户不满后果",
+      "英文名称": "Customer Dissatisfaction Consequence",
+      "来源": "treated some customers unfairly"
+    },
+    "Stakeholder": {
+      "id": "CentrelinkCustomers",
+      "中文名称": "Centrelink客户",
+      "英文名称": "Centrelink Customers",
+      "来源": "treated some customers unfairly"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparency",
+      "中文名称": "缺乏透明度风险源",
+      "英文名称": "Lack of Transparency Risk Source",
+      "来源": "lacks transparency"
+    }
+  }
+}

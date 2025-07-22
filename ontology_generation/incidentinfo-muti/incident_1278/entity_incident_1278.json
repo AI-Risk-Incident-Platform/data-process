@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAI",
+      "中文名称": "Meta人工智能系统",
+      "英文名称": "Meta AI System",
+      "来源": "Meta’s AI is scraping users’ photos and posts"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Meta admits farming Aussie photos"
+    },
+    "Stakeholder": {
+      "id": "AustralianUsers",
+      "中文名称": "澳大利亚用户",
+      "英文名称": "Australian Users",
+      "来源": "Australians cannot opt out"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta’s AI is scraping users’ photos and posts"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集后果",
+      "英文名称": "Unauthorized Data Collection Consequence",
+      "来源": "Meta’s AI is scraping users’ photos and posts"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露影响",
+      "英文名称": "User Privacy Compromise Impact",
+      "来源": "Privacy law calls as Meta admits farming Aussie photos"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "Meta’s AI is scraping users’ photos and posts"
+    },
+    "Purpose": {
+      "id": "AITrainingDataCollection",
+      "中文名称": "AI训练数据收集目的",
+      "英文名称": "AI Training Data Collection Purpose",
+      "来源": "Meta grilled over Australian posts used to train AI"
+    }
+  }
+}

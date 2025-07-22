@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeMarkRuffalo rdf:type airo:AISystem ;
+    rdfs:label "深度伪造马克·鲁法洛"@zh ;
+    rdfs:label "Deepfake Mark Ruffalo"@en ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasAISubject ex:MangaArtist ;
+    airo:hasStakeholder ex:Victim .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "金融欺诈风险"@zh ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:Impersonation .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "经济损失"@zh ;
+    rdfs:label "Financial Loss"@en ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:MangaArtist rdf:type airo:AISubject ;
+    rdfs:label "漫画艺术家"@zh ;
+    rdfs:label "Manga Artist"@en .
+
+ex:Victim rdf:type airo:Stakeholder ;
+    rdfs:label "受害者"@zh ;
+    rdfs:label "Victim"@en .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "情感困扰"@zh ;
+    rdfs:label "Emotional Distress"@en ;
+    airo:hasImpactOnStakeholder ex:Victim .
+
+ex:Impersonation rdf:type airo:RiskSource ;
+    rdfs:label "冒充"@zh ;
+    rdfs:label "Impersonation"@en .

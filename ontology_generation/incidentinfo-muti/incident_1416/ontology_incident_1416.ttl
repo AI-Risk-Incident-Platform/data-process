@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtistContentTrainingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Artist Content Training System"@en ;
+    rdfs:label "AI艺术家内容训练系统"@zh ;
+    airo:hasRisk ex:UnauthorizedContentUseRisk ;
+    airo:isDeployedBy ex:TechGiants ;
+    airo:hasStakeholder ex:SonyMusic .
+
+ex:UnauthorizedContentUseRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Content Use Risk"@en ;
+    rdfs:label "未经授权内容使用风险"@zh ;
+    airo:hasConsequence ex:CopyrightInfringement ;
+    airo:isRiskSourceFor ex:LackOfPermissionForContentUse .
+
+ex:SonyMusic rdf:type airo:Stakeholder ;
+    rdfs:label "Sony Music"@en ;
+    rdfs:label "索尼音乐"@zh .
+
+ex:TechGiants rdf:type airo:AIOperator ;
+    rdfs:label "Tech Giants"@en ;
+    rdfs:label "科技巨头"@zh .
+
+ex:CopyrightInfringement rdf:type airo:Consequence ;
+    rdfs:label "Copyright Infringement Consequence"@en ;
+    rdfs:label "版权侵权后果"@zh ;
+    airo:hasImpactOnStakeholder ex:SonyMusic .
+
+ex:LackOfPermissionForContentUse rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Permission for Content Use Risk Source"@en ;
+    rdfs:label "缺乏内容使用许可的风险源"@zh .

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GeorgeCarlinAIStandup rdf:type airo:AISystem ;
+    rdfs:label "George Carlin AI Standup"@en ;
+    rdfs:label "乔治·卡林AI脱口秀"@zh ;
+    airo:hasRisk ex:EthicalAndCreativeMisuseRisk ;
+    airo:hasStakeholder ex:ComedyFansAndEthicists .
+
+ex:EthicalAndCreativeMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical and Creative Misuse Risk"@en ;
+    rdfs:label "伦理和创意滥用风险"@zh ;
+    airo:hasConsequence ex:PosthumousPersonaRecreation ;
+    airo:hasImpact ex:ArtisticLegacyUndermining .
+
+ex:ComedyFansAndEthicists rdf:type airo:Stakeholder ;
+    rdfs:label "Comedy Fans and Ethicists"@en ;
+    rdfs:label "喜剧迷和伦理学家"@zh .
+
+ex:PosthumousPersonaRecreation rdf:type airo:Misuse ;
+    rdfs:label "Posthumous Persona Recreation Misuse"@en ;
+    rdfs:label "逝者形象再造滥用"@zh .
+
+ex:ArtisticLegacyUndermining rdf:type airo:Impact ;
+    rdfs:label "Artistic Legacy Undermining Impact"@en ;
+    rdfs:label "艺术遗产破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ComedyFansAndEthicists .

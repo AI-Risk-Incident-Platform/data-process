@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NewsBreakAI",
+      "中文名称": "NewsBreak AI系统",
+      "英文名称": "NewsBreak AI System",
+      "来源": "NewsBreak's AI"
+    },
+    "Risk": {
+      "id": "DisseminationOfFalseInformation",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Dissemination of False Information Risk",
+      "来源": "“entirely false” AI-generated news"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "“entirely false” AI-generated news"
+    },
+    "AICapability": {
+      "id": "AutomatedNewsGeneration",
+      "中文名称": "自动化新闻生成能力",
+      "英文名称": "Automated News Generation Capability",
+      "来源": "AI-generated news"
+    },
+    "AIOperator": {
+      "id": "NewsBreakCompany",
+      "中文名称": "NewsBreak公司",
+      "英文名称": "NewsBreak Company",
+      "来源": "NewsBreak's AI"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Consumers",
+      "来源": "Most Downloaded News App in US"
+    },
+    "Impact": {
+      "id": "ErosionOfTrustInMedia",
+      "中文名称": "媒体信任度下降的影响",
+      "英文名称": "Erosion of Trust in Media Impact",
+      "来源": "“entirely false” AI-generated news"
+    },
+    "Purpose": {
+      "id": "AutomatedNewsDistribution",
+      "中文名称": "自动化新闻分发的目的",
+      "英文名称": "Automated News Distribution Purpose",
+      "来源": "Most Downloaded News App in US"
+    },
+    "Domain": {
+      "id": "DigitalMedia",
+      "中文名称": "数字媒体领域",
+      "英文名称": "Digital Media Domain",
+      "来源": "Most Downloaded News App in US"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成技术",
+      "英文名称": "Natural Language Generation Technique",
+      "来源": "AI-generated news"
+    },
+    "Vulnerability": {
+      "id": "LackOfFactCheckingMechanisms",
+      "中文名称": "缺乏事实核查机制的脆弱性",
+      "英文名称": "Lack of Fact-Checking Mechanisms Vulnerability",
+      "来源": "“entirely false” AI-generated news"
+    },
+    "Threat": {
+      "id": "MassDisinformation",
+      "中文名称": "大规模虚假信息的威胁",
+      "英文名称": "Mass Disinformation Threat",
+      "来源": "“entirely false” AI-generated news"
+    },
+    "Hazard": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经验证内容生成的危害",
+      "英文名称": "Unverified Content Generation Hazard",
+      "来源": "AI-generated news"
+    },
+    "RiskSource": {
+      "id": "UnsupervisedContentProduction",
+      "中文名称": "无监督内容生产的风险源",
+      "英文名称": "Unsupervised Content Production Risk Source",
+      "来源": "AI-generated news"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAutomatedJournalism",
+      "中文名称": "自动化新闻中的伦理挑战",
+      "英文名称": "Ethical Challenges in Automated Journalism Risk Concept",
+      "来源": "A Cautionary Tale"
+    }
+  }
+}

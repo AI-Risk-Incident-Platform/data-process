@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CosmosMagazineAIArticles rdf:type airo:AISystem ;
+    rdfs:label "Cosmos Magazine AI-generated Articles"@en ;
+    rdfs:label "Cosmos杂志AI生成文章"@zh ;
+    airo:hasRisk ex:TrustInScienceErosionRisk ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:hasStakeholder ex:ScienceCommunity ;
+    airo:isAppliedWithinDomain ex:SciencePublishing .
+
+ex:TrustInScienceErosionRisk rdf:type airo:Risk ;
+    rdfs:label "Trust in Science Erosion Risk"@en ;
+    rdfs:label "科学信任侵蚀风险"@zh ;
+    airo:hasConsequence ex:PublicTrustDegradation .
+
+ex:ScienceCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Science Community"@en ;
+    rdfs:label "科学界"@zh .
+
+ex:PublicTrustDegradation rdf:type airo:Impact ;
+    rdfs:label "Public Trust Degradation"@en ;
+    rdfs:label "公众信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:ScienceCommunity .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Content Generation"@en ;
+    rdfs:label "内容生成"@zh .
+
+ex:SciencePublishing rdf:type airo:Domain ;
+    rdfs:label "Science Publishing"@en ;
+    rdfs:label "科学出版"@zh .

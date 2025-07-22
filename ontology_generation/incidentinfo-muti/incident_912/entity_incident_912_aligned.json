@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbotsForStalking",
+      "中文名称": "用于跟踪的AI聊天机器人",
+      "英文名称": "AI Chatbots for Stalking",
+      "来源": "Then he used AI chatbots to lure strangers to her home"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPhysicalThreat",
+      "中文名称": "隐私侵犯和人身威胁风险",
+      "英文名称": "Privacy Violation and Physical Threat Risk",
+      "来源": "A man stalked a professor for six years. Then he used AI chatbots to lure strangers to her home"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "A man stalked a professor for six years"
+    },
+    "AISubject": {
+      "id": "StalkingVictim",
+      "中文名称": "跟踪受害者",
+      "英文名称": "Crime Victims",
+      "来源": "A man stalked a professor for six years"
+    },
+    "Stakeholder": {
+      "id": "Professor",
+      "中文名称": "教授",
+      "英文名称": "Professor",
+      "来源": "A man stalked a professor for six years"
+    },
+    "Misuse": {
+      "id": "AIForCriminalActivities",
+      "中文名称": "用于犯罪活动的AI滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Then he used AI chatbots to lure strangers to her home"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChatbotsForStalking",
+      "中文名称": "用于跟踪的AI聊天机器人",
+      "英文名称": "AI Chatbots for Stalking",
+      "来源": "Then he used AI chatbots to lure strangers to her home"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPhysicalThreat",
+      "中文名称": "隐私侵犯和人身威胁风险",
+      "英文名称": "Privacy Violation and Physical Threat Risk",
+      "来源": "A man stalked a professor for six years. Then he used AI chatbots to lure strangers to her home"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "A man stalked a professor for six years"
+    },
+    "AISubject": {
+      "id": "StalkingVictim",
+      "中文名称": "跟踪受害者",
+      "英文名称": "Crime Victims",
+      "来源": "A man stalked a professor for six years"
+    },
+    "Stakeholder": {
+      "id": "Professor",
+      "中文名称": "教授",
+      "英文名称": "Professor",
+      "来源": "A man stalked a professor for six years"
+    },
+    "Misuse": {
+      "id": "AIForCriminalActivities",
+      "中文名称": "用于犯罪活动的AI滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Then he used AI chatbots to lure strangers to her home"
+    }
+  }
+}

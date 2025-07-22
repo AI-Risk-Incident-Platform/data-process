@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KFCBot rdf:type airo:AISystem ;
+    rdfs:label "KFC Promotion Bot"@en ;
+    rdfs:label "KFC促销机器人"@zh ;
+    airo:hasRisk ex:OffensiveContentRisk ;
+    airo:hasPurpose ex:MarketingPromotion ;
+    airo:hasStakeholder ex:KFCCompany ;
+    airo:isAppliedWithinDomain ex:FastFoodIndustry .
+
+ex:OffensiveContentRisk rdf:type airo:Risk ;
+    rdfs:label "Offensive Content Risk"@en ;
+    rdfs:label "冒犯性内容风险"@zh ;
+    airo:hasConsequence ex:PublicOutrage ;
+    airo:isRiskSourceFor ex:InappropriateContentGeneration .
+
+ex:PublicOutrage rdf:type airo:Consequence ;
+    rdfs:label "Public Outrage Consequence"@en ;
+    rdfs:label "公众愤怒后果"@zh ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Brand Reputation Damage Impact"@en ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:KFCCompany .
+
+ex:KFCCompany rdf:type airo:Stakeholder ;
+    rdfs:label "KFC Company"@en ;
+    rdfs:label "KFC公司"@zh .
+
+ex:InappropriateContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Content Generation Risk Source"@en ;
+    rdfs:label "不当内容生成风险源"@zh .
+
+ex:MarketingPromotion rdf:type airo:Purpose ;
+    rdfs:label "Marketing Promotion Purpose"@en ;
+    rdfs:label "营销促销目的"@zh .
+
+ex:FastFoodIndustry rdf:type airo:Domain ;
+    rdfs:label "Fast Food Industry Domain"@en ;
+    rdfs:label "快餐行业领域"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OregonChildWelfareAlgorithm",
+      "中文名称": "俄勒冈州儿童福利算法",
+      "英文名称": "Oregon Child Welfare AI",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Risk": {
+      "id": "RacialBiasRisk",
+      "中文名称": "种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Domain": {
+      "id": "ChildWelfareServices",
+      "中文名称": "儿童福利服务",
+      "英文名称": "Child Welfare Domain",
+      "来源": "Child protective services algorithms and artificial intelligence raise disability concerns"
+    },
+    "Stakeholder": {
+      "id": "MinorityFamilies",
+      "中文名称": "少数族裔家庭",
+      "英文名称": "Minority Families",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomesImpact",
+      "中文名称": "歧视性结果影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OregonChildWelfareAlgorithm",
+      "中文名称": "俄勒冈州儿童福利算法",
+      "英文名称": "Oregon Child Welfare AI",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Risk": {
+      "id": "RacialBiasRisk",
+      "中文名称": "种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Domain": {
+      "id": "ChildWelfareServices",
+      "中文名称": "儿童福利服务",
+      "英文名称": "Child Welfare Domain",
+      "来源": "Child protective services algorithms and artificial intelligence raise disability concerns"
+    },
+    "Stakeholder": {
+      "id": "MinorityFamilies",
+      "中文名称": "少数族裔家庭",
+      "英文名称": "Minority Families",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    },
+    "Impact": {
+      "id": "DiscriminatoryOutcomesImpact",
+      "中文名称": "歧视性结果影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Oregon replaces child welfare algorithm amid concerns over racial bias"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    },
+    "Consequence": {
+      "id": "WorkerFatality",
+      "中文名称": "工人死亡后果",
+      "英文名称": "Worker Fatality Consequence",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "Stakeholder": {
+      "id": "EmergencyServiceWorkers",
+      "中文名称": "紧急服务工作者",
+      "英文名称": "Emergency Service Workers",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "AISubject": {
+      "id": "RoadWorkers",
+      "中文名称": "道路工人",
+      "英文名称": "Road Workers",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    },
+    "Impact": {
+      "id": "WorkplaceSafetyThreat",
+      "中文名称": "工作场所安全威胁的影响",
+      "英文名称": "Workplace Safety Threat Impact",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    },
+    "Purpose": {
+      "id": "AssistedDriving",
+      "中文名称": "辅助驾驶的目的",
+      "英文名称": "Assisted Driving Purpose",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForObjectDetection",
+      "中文名称": "用于物体检测的计算机视觉技术",
+      "英文名称": "Computer Vision for Object Detection Technique",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "Vulnerability": {
+      "id": "EmergencyVehicleRecognitionFailure",
+      "中文名称": "紧急车辆识别失败的脆弱性",
+      "英文名称": "Emergency Vehicle Recognition Failure Vulnerability",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "Threat": {
+      "id": "StationaryVehicleCollision",
+      "中文名称": "静止车辆碰撞的威胁",
+      "英文名称": "Stationary Vehicle Collision Threat",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    },
+    "Hazard": {
+      "id": "LimitedSensorRange",
+      "中文名称": "传感器范围有限的危害",
+      "英文名称": "Limited Sensor Range Hazard",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemLimitations",
+      "中文名称": "自动驾驶系统限制的风险源",
+      "英文名称": "Autopilot System Limitations Risk Source",
+      "来源": "Tesla Model 3 on Autopilot Crashes Against Emergency Vehicle in Taiwan"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyChallenges",
+      "中文名称": "自动驾驶车辆安全挑战",
+      "英文名称": "Autonomous Vehicle Safety Challenges Risk Concept",
+      "来源": "Worker dies after Tesla on autopilot collides with repair truck in northern Taiwan"
+    }
+  }
+}

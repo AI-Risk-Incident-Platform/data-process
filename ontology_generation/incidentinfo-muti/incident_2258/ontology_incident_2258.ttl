@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionInSchoolsSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition in Schools System"@en ;
+    rdfs:label "学校面部识别系统"@zh ;
+    airo:hasRisk ex:RacialBiasInFacialRecognitionRisk ;
+    airo:hasStakeholder ex:NewYorkSchoolDistrict .
+
+ex:RacialBiasInFacialRecognitionRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:MisrepresentationOfTechnologyAccuracyRiskSource ;
+    airo:hasImpact ex:DiscriminatorySurveillanceImpact .
+
+ex:NewYorkSchoolDistrict rdf:type airo:Stakeholder ;
+    rdfs:label "New York School District"@en ;
+    rdfs:label "纽约学区"@zh .
+
+ex:MisrepresentationOfTechnologyAccuracyRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Misrepresentation of Technology Accuracy Risk Source"@en ;
+    rdfs:label "技术准确性的虚假陈述风险源"@zh .
+
+ex:DiscriminatorySurveillanceImpact rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Surveillance Impact"@en ;
+    rdfs:label "歧视性监控的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewYorkSchoolDistrict .

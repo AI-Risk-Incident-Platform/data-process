@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildPornGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Child Porn Generation System"@en ;
+    rdfs:label "AI儿童色情生成系统"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:isDeployedBy ex:CorinthTeacher ;
+    airo:hasStakeholder ex:Students ;
+    airo:isAppliedWithinDomain ex:EducationSystem .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasConsequence ex:ChildSexualAbuseMaterial ;
+    airo:isRiskSourceFor ex:AIForIllegalPornography .
+
+ex:Students rdf:type airo:Stakeholder ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:CorinthTeacher rdf:type airo:AIOperator ;
+    rdfs:label "Corinth Teacher"@en ;
+    rdfs:label "科林斯教师"@zh .
+
+ex:ChildSexualAbuseMaterial rdf:type airo:Consequence ;
+    rdfs:label "Child Sexual Abuse Material Consequence"@en ;
+    rdfs:label "儿童性虐待材料后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToMinors .
+
+ex:PsychologicalHarmToMinors rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Minors Impact"@en ;
+    rdfs:label "对未成年人心理伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:AIForIllegalPornography rdf:type airo:Misuse ;
+    rdfs:label "AI for Illegal Pornography Misuse"@en ;
+    rdfs:label "AI用于非法色情内容"@zh .
+
+ex:EducationSystem rdf:type airo:Domain ;
+    rdfs:label "Education System Domain"@en ;
+    rdfs:label "教育系统领域"@zh .

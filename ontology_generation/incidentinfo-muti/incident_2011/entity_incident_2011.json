@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PoliceRobots",
+      "中文名称": "警察机器人",
+      "英文名称": "Police Robots",
+      "来源": "San Francisco police seek permission for its robots to use deadly force"
+    },
+    "Risk": {
+      "id": "DeadlyForceRisk",
+      "中文名称": "致命武力风险",
+      "英文名称": "Deadly Force Risk",
+      "来源": "San Francisco police seek permission for its robots to use deadly force"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "San Francisco police seek permission for its robots to use deadly force"
+    },
+    "Consequence": {
+      "id": "PotentialCivilianCasualties",
+      "中文名称": "潜在平民伤亡后果",
+      "英文名称": "Potential Civilian Casualties Consequence",
+      "来源": "Amid outcry, San Francisco pauses on 'killer police robots'"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "San Francisco police consider letting robots use 'deadly force'"
+    },
+    "Purpose": {
+      "id": "LawEnforcementOperations",
+      "中文名称": "执法行动目的",
+      "英文名称": "Law Enforcement Operations Purpose",
+      "来源": "San Francisco police seek permission for its robots to use deadly force"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "San Francisco police consider letting robots use 'deadly force'"
+    },
+    "AICapability": {
+      "id": "LethalForceCapability",
+      "中文名称": "致命武力能力",
+      "英文名称": "Lethal Force Capability",
+      "来源": "San Francisco police seek permission for its robots to use deadly force"
+    },
+    "RiskSource": {
+      "id": "AutonomousWeaponization",
+      "中文名称": "自主武器化风险源",
+      "英文名称": "Autonomous Weaponization Risk Source",
+      "来源": "Amid outcry, San Francisco pauses on 'killer police robots'"
+    },
+    "RiskControl": {
+      "id": "PolicyReevaluation",
+      "中文名称": "政策重新评估管控",
+      "英文名称": "Policy Reevaluation RiskControl",
+      "来源": "Amid outcry, San Francisco pauses on 'killer police robots'"
+    }
+  }
+}

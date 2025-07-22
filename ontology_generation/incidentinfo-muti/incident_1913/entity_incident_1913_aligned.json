@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DnDAIArtSystem",
+      "中文名称": "龙与地下城AI艺术系统",
+      "英文名称": "Dungeons & Dragons AI Art System",
+      "来源": "Wizards of the Coast updating artist guidelines after AI art found in new Dungeons & Dragons book"
+    },
+    "Risk": {
+      "id": "UnauthorizedAIArtUsageRisk",
+      "中文名称": "未经授权的AI艺术使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Dungeons & Dragons tells illustrators to stop using AI"
+    },
+    "Stakeholder": {
+      "id": "WizardsOfTheCoast",
+      "中文名称": "海岸巫师公司",
+      "英文名称": "Wizards of the Coast",
+      "来源": "D&D publisher updates policies after AI art discovered in latest book"
+    },
+    "AIOperator": {
+      "id": "DnDIllustrators",
+      "中文名称": "龙与地下城插画师",
+      "英文名称": "Dungeons & Dragons Illustrators",
+      "来源": "Dungeons & Dragons tells illustrators to stop using AI"
+    },
+    "Consequence": {
+      "id": "PolicyUpdateForArtGuidelines",
+      "中文名称": "艺术指南政策更新后果",
+      "英文名称": "Policy Update for Art Guidelines Consequence",
+      "来源": "Wizards of the Coast updating artist guidelines after AI art found in new Dungeons & Dragons book"
+    },
+    "Domain": {
+      "id": "TabletopGamePublishing",
+      "中文名称": "桌面游戏出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "D&D publisher updates policies after AI art discovered in latest book"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DnDAIArtSystem",
+      "中文名称": "龙与地下城AI艺术系统",
+      "英文名称": "Dungeons & Dragons AI Art System",
+      "来源": "Wizards of the Coast updating artist guidelines after AI art found in new Dungeons & Dragons book"
+    },
+    "Risk": {
+      "id": "UnauthorizedAIArtUsageRisk",
+      "中文名称": "未经授权的AI艺术使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Dungeons & Dragons tells illustrators to stop using AI"
+    },
+    "Stakeholder": {
+      "id": "WizardsOfTheCoast",
+      "中文名称": "海岸巫师公司",
+      "英文名称": "Wizards of the Coast",
+      "来源": "D&D publisher updates policies after AI art discovered in latest book"
+    },
+    "AIOperator": {
+      "id": "DnDIllustrators",
+      "中文名称": "龙与地下城插画师",
+      "英文名称": "Dungeons & Dragons Illustrators",
+      "来源": "Dungeons & Dragons tells illustrators to stop using AI"
+    },
+    "Consequence": {
+      "id": "PolicyUpdateForArtGuidelines",
+      "中文名称": "艺术指南政策更新后果",
+      "英文名称": "Policy Update for Art Guidelines Consequence",
+      "来源": "Wizards of the Coast updating artist guidelines after AI art found in new Dungeons & Dragons book"
+    },
+    "Domain": {
+      "id": "TabletopGamePublishing",
+      "中文名称": "桌面游戏出版领域",
+      "英文名称": "Media and Publishing",
+      "来源": "D&D publisher updates policies after AI art discovered in latest book"
+    }
+  }
+}

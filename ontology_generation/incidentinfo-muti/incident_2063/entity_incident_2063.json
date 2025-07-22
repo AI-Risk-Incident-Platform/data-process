@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NHSFacialRecognitionApp",
+      "中文名称": "NHS面部识别应用",
+      "英文名称": "NHS Facial Recognition App",
+      "来源": "NHS app collecting facial recognition data"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Privacy groups concerned by NHS app collecting facial recognition data"
+    },
+    "Stakeholder": {
+      "id": "PrivacyGroups",
+      "中文名称": "隐私保护团体",
+      "英文名称": "Privacy Groups",
+      "来源": "Privacy groups concerned by NHS app collecting facial recognition data"
+    },
+    "AIOperator": {
+      "id": "iProov",
+      "中文名称": "iProov公司",
+      "英文名称": "iProov",
+      "来源": "NHS deal with iProov for facial data collection"
+    },
+    "RiskSource": {
+      "id": "DataSharingWithPrivateCompany",
+      "中文名称": "与私营公司共享数据",
+      "英文名称": "Data Sharing with Private Company",
+      "来源": "NHS App 'storing facial recognition data with private tech company'"
+    },
+    "Consequence": {
+      "id": "PotentialMisuseOfBiometricData",
+      "中文名称": "生物特征数据潜在滥用",
+      "英文名称": "Potential Misuse of Biometric Data",
+      "来源": "Privacy concerns raised over NHS deal with iProov for facial data collection"
+    },
+    "Domain": {
+      "id": "HealthcareServices",
+      "中文名称": "医疗服务领域",
+      "英文名称": "Healthcare Services",
+      "来源": "NHS app collecting facial recognition data"
+    },
+    "Purpose": {
+      "id": "PatientIdentityVerification",
+      "中文名称": "患者身份验证",
+      "英文名称": "Patient Identity Verification",
+      "来源": "NHS app collecting facial recognition data"
+    }
+  }
+}

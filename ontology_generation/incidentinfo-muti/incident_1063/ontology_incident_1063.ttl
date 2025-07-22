@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ServiceaideDatabase rdf:type airo:AISystem ;
+    rdfs:label "Serviceaide数据库"@zh ;
+    rdfs:label "Serviceaide Database"@en ;
+    airo:hasRisk ex:HealthDataLeakRisk ;
+    airo:hasStakeholder ex:CatholicHealthPatients ;
+    airo:isDeployedBy ex:ServiceaideInc .
+
+ex:HealthDataLeakRisk rdf:type airo:Risk ;
+    rdfs:label "健康数据泄露风险"@zh ;
+    rdfs:label "Health Data Leak Risk"@en ;
+    airo:hasConsequence ex:PatientDataExposure ;
+    airo:isRiskSourceFor ex:UnsecuredDatabase .
+
+ex:PatientDataExposure rdf:type airo:Consequence ;
+    rdfs:label "患者数据暴露后果"@zh ;
+    rdfs:label "Patient Data Exposure Consequence"@en ;
+    airo:hasImpact ex:PrivacyViolationImpact .
+
+ex:CatholicHealthPatients rdf:type airo:Stakeholder ;
+    rdfs:label "天主教健康患者"@zh ;
+    rdfs:label "Catholic Health Patients"@en .
+
+ex:ServiceaideInc rdf:type airo:AIOperator ;
+    rdfs:label "Serviceaide公司"@zh ;
+    rdfs:label "Serviceaide Inc."@en .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CatholicHealthPatients .
+
+ex:UnsecuredDatabase rdf:type airo:RiskSource ;
+    rdfs:label "未受保护的数据库风险源"@zh ;
+    rdfs:label "Unsecured Database Risk Source"@en .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise recalls 300 robotaxis, issues software update after crashing into city bus"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "crashing into city bus"
+    },
+    "Consequence": {
+      "id": "VehicleRecall",
+      "中文名称": "车辆召回后果",
+      "英文名称": "Vehicle Recall Consequence",
+      "来源": "Cruise recalls 300 robotaxis"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "GM’s Cruise Recalls Autonomous Vehicles Following Crash Into Articulated Bus"
+    },
+    "RiskControl": {
+      "id": "SoftwareUpdate",
+      "中文名称": "软件更新管控",
+      "英文名称": "Software Update Risk Control",
+      "来源": "issues software update after crashing into city bus"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "robotaxis"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "crashing into city bus"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise recalls 300 robotaxis, issues software update after crashing into city bus"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "crashing into city bus"
+    },
+    "Consequence": {
+      "id": "VehicleRecall",
+      "中文名称": "车辆召回后果",
+      "英文名称": "Vehicle Recall Consequence",
+      "来源": "Cruise recalls 300 robotaxis"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "GM’s Cruise Recalls Autonomous Vehicles Following Crash Into Articulated Bus"
+    },
+    "RiskControl": {
+      "id": "SoftwareUpdate",
+      "中文名称": "软件更新管控",
+      "英文名称": "Software Update Risk Control",
+      "来源": "issues software update after crashing into city bus"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "robotaxis"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "crashing into city bus"
+    }
+  }
+}

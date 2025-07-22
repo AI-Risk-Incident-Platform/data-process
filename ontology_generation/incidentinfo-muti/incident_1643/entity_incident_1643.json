@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIRecommendationSystem",
+      "中文名称": "微软AI推荐系统",
+      "英文名称": "Microsoft AI Recommendation System",
+      "来源": "Microsoft AI suggests food bank as a 'cannot miss' tourist spot in Canada"
+    },
+    "Risk": {
+      "id": "InappropriateRecommendationRisk",
+      "中文名称": "不当推荐风险",
+      "英文名称": "Inappropriate Recommendation Risk",
+      "来源": "Microsoft pulls article recommending Ottawa Food Bank to tourists"
+    },
+    "Consequence": {
+      "id": "PublicMisunderstanding",
+      "中文名称": "公众误解后果",
+      "英文名称": "Public Misunderstanding Consequence",
+      "来源": "Microsoft lists Ottawa Food Bank as tourist destination"
+    },
+    "Stakeholder": {
+      "id": "OttawaFoodBank",
+      "中文名称": "渥太华食品银行",
+      "英文名称": "Ottawa Food Bank",
+      "来源": "Microsoft pulls article recommending Ottawa Food Bank to tourists"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft lists Ottawa Food Bank as tourist destination, says 'human', not AI error"
+    },
+    "Impact": {
+      "id": "CharityOrganizationReputationDamage",
+      "中文名称": "慈善组织声誉损害影响",
+      "英文名称": "Charity Organization Reputation Damage Impact",
+      "来源": "Microsoft pulls article recommending Ottawa Food Bank to tourists"
+    },
+    "Purpose": {
+      "id": "TouristAttractionRecommendation",
+      "中文名称": "旅游景点推荐目的",
+      "英文名称": "Tourist Attraction Recommendation Purpose",
+      "来源": "Microsoft AI suggests food bank as a 'cannot miss' tourist spot in Canada"
+    },
+    "RiskSource": {
+      "id": "AlgorithmTrainingDataBias",
+      "中文名称": "算法训练数据偏差风险源",
+      "英文名称": "Algorithm Training Data Bias Risk Source",
+      "来源": "Microsoft lists Ottawa Food Bank as tourist destination, says 'human', not AI error"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAstroRobot rdf:type airo:AISystem ;
+    rdfs:label "Amazon Astro Robot"@en ;
+    rdfs:label "亚马逊Astro机器人"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:AmazonInc ;
+    airo:hasStakeholder ex:AmazonDevelopers ;
+    airo:hasPurpose ex:HomeMonitoringAndAssistance ;
+    airo:isAppliedWithinDomain ex:SmartHomeTechnology ;
+    airo:usesTechnique ex:ComputerVisionTracking ;
+    airo:hasVulnerability ex:PhysicalSecurityVulnerability .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalPrivacyExposure ;
+    airo:isRiskSourceFor ex:SurveillanceCapability , ex:UnauthorizedSurveillanceThreat , ex:AlwaysOnRecordingHazard .
+
+ex:PersonalPrivacyExposure rdf:type airo:Consequence ;
+    rdfs:label "Personal Privacy Exposure Consequence"@en ;
+    rdfs:label "个人隐私暴露后果"@zh ;
+    airo:hasImpact ex:HomePrivacyInvasion .
+
+ex:AmazonDevelopers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Developers"@en ;
+    rdfs:label "亚马逊开发者"@zh .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:SurveillanceCapability rdf:type airo:RiskSource ;
+    rdfs:label "Surveillance Capability Risk Source"@en ;
+    rdfs:label "监控能力风险源"@zh .
+
+ex:UnauthorizedSurveillanceThreat rdf:type airo:Threat ;
+    rdfs:label "Unauthorized Surveillance Threat"@en ;
+    rdfs:label "未经授权监控威胁"@zh .
+
+ex:AlwaysOnRecordingHazard rdf:type airo:Hazard ;
+    rdfs:label "Always-On Recording Hazard"@en ;
+    rdfs:label "持续录音危害"@zh .
+
+ex:HomePrivacyInvasion rdf:type airo:Impact ;
+    rdfs:label "Home Privacy Invasion Impact"@en ;
+    rdfs:label "家庭隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonDevelopers .
+
+ex:HomeMonitoringAndAssistance rdf:type airo:Purpose ;
+    rdfs:label "Home Monitoring and Assistance Purpose"@en ;
+    rdfs:label "家庭监控与协助目的"@zh .
+
+ex:SmartHomeTechnology rdf:type airo:Domain ;
+    rdfs:label "Smart Home Technology Domain"@en ;
+    rdfs:label "智能家居技术领域"@zh .
+
+ex:ComputerVisionTracking rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Tracking Technique"@en ;
+    rdfs:label "计算机视觉跟踪技术"@zh .
+
+ex:PhysicalSecurityVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Physical Security Vulnerability"@en ;
+    rdfs:label "物理安全漏洞"@zh .
+
+ex:EthicalDilemmasInHomeRobotics rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Dilemmas in Home Robotics Risk Concept"@en ;
+    rdfs:label "家庭机器人伦理困境"@zh .

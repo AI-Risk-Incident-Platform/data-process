@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GestationalDiabetesShieldingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Gestational Diabetes Shielding Algorithm"@en ;
+    rdfs:label "妊娠糖尿病防护算法"@zh ;
+    airo:hasRisk ex:InadequatePatientProtectionRisk ;
+    airo:hasPurpose ex:PatientRiskAssessment ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:hasAISubject ex:GestationalDiabetesPatients .
+
+ex:InadequatePatientProtectionRisk rdf:type airo:Risk ;
+    rdfs:label "Inadequate Patient Protection Risk"@en ;
+    rdfs:label "患者保护不足风险"@zh .
+
+ex:PatientRiskAssessment rdf:type airo:Purpose ;
+    rdfs:label "Patient Risk Assessment"@en ;
+    rdfs:label "患者风险评估"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare"@en ;
+    rdfs:label "医疗保健"@zh .
+
+ex:GestationalDiabetesPatients rdf:type airo:AISubject ;
+    rdfs:label "Gestational Diabetes Patients"@en ;
+    rdfs:label "妊娠糖尿病患者"@zh .

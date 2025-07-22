@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AirbnbTrustworthinessAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Airbnb Trustworthiness Algorithm"@en ;
+    rdfs:label "Airbnb信任度算法"@zh ;
+    airo:hasRisk ex:UnfairUserBanningRisk ;
+    airo:isDevelopedBy ex:AirbnbCompany ;
+    airo:hasPurpose ex:UserTrustworthinessAssessment ;
+    airo:hasStakeholder ex:EPICOrganization .
+
+ex:UnfairUserBanningRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair User Banning Risk"@en ;
+    rdfs:label "不公平用户封禁风险"@zh ;
+    airo:hasConsequence ex:UserAccountTermination ;
+    airo:isRiskSourceFor ex:OpaqueScoringSystem .
+
+ex:EPICOrganization rdf:type airo:Stakeholder ;
+    rdfs:label "EPIC Organization"@en ;
+    rdfs:label "EPIC组织"@zh .
+
+ex:AirbnbCompany rdf:type airo:AIOperator ;
+    rdfs:label "Airbnb Company"@en ;
+    rdfs:label "Airbnb公司"@zh .
+
+ex:UserAccountTermination rdf:type airo:Consequence ;
+    rdfs:label "User Account Termination Consequence"@en ;
+    rdfs:label "用户账户终止后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EPICOrganization .
+
+ex:UserTrustworthinessAssessment rdf:type airo:Purpose ;
+    rdfs:label "User Trustworthiness Assessment Purpose"@en ;
+    rdfs:label "用户可信度评估目的"@zh .
+
+ex:OpaqueScoringSystem rdf:type airo:RiskSource ;
+    rdfs:label "Opaque Scoring System Risk Source"@en ;
+    rdfs:label "不透明评分系统风险源"@zh .

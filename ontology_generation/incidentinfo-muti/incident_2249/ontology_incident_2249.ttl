@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionCamerasInKingsCross rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Cameras in King's Cross"@en ;
+    rdfs:label "伦敦国王十字车站的面部识别摄像头"@zh ;
+    airo:hasRisk ex:PrivacyRightsViolationRisk ;
+    airo:hasStakeholder ex:GeneralPublicInKingsCrossArea ;
+    airo:isAppliedWithinDomain ex:PublicSurveillance .
+
+ex:PrivacyRightsViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Rights Violation Risk"@en ;
+    rdfs:label "隐私权侵犯风险"@zh ;
+    airo:hasImpact ex:PrivacyRightsInfringement .
+
+ex:GeneralPublicInKingsCrossArea rdf:type airo:Stakeholder ;
+    rdfs:label "General Public in King's Cross Area"@en ;
+    rdfs:label "国王十字车站区域的公众"@zh .
+
+ex:PrivacyRightsInfringement rdf:type airo:Impact ;
+    rdfs:label "Privacy Rights Infringement Impact"@en ;
+    rdfs:label "隐私权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublicInKingsCrossArea .
+
+ex:PublicSurveillance rdf:type airo:Domain ;
+    rdfs:label "Public Surveillance Domain"@en ;
+    rdfs:label "公共监控领域"@zh .

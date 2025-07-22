@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIFueledDungeonGame rdf:type airo:AISystem ;
+    rdfs:label "AI-Fueled Dungeon Game"@en ;
+    rdfs:label "AI驱动的地牢游戏"@zh ;
+    airo:hasRisk ex:DarkContentRisk ;
+    airo:hasCapability ex:GameContentGeneration ;
+    airo:hasPurpose ex:Entertainment ;
+    airo:isAppliedWithinDomain ex:Gaming .
+
+ex:DarkContentRisk rdf:type airo:Risk ;
+    rdfs:label "Dark Content Risk"@en ;
+    rdfs:label "黑暗内容风险"@zh .
+
+ex:GameContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Game Content Generation Capability"@en ;
+    rdfs:label "游戏内容生成能力"@zh .
+
+ex:Entertainment rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Purpose"@en ;
+    rdfs:label "娱乐目的"@zh .
+
+ex:Gaming rdf:type airo:Domain ;
+    rdfs:label "Gaming Domain"@en ;
+    rdfs:label "游戏领域"@zh .

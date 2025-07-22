@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DiscordChatbot rdf:type airo:AISystem ;
+    rdfs:label "Discord Chatbot"@en ;
+    rdfs:label "Discord聊天机器人"@zh ;
+    airo:hasRisk ex:HarmfulContentGenerationRisk ;
+    airo:hasAICapability ex:ConversationalResponseGeneration ;
+    airo:hasStakeholder ex:DiscordUsers .
+
+ex:HarmfulContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Generation Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:hasConsequence ex:DangerousInstructionDissemination ;
+    airo:isRiskSourceFor ex:PromptInjectionAttack ;
+    airo:hasMisuse ex:GrandmaExploit .
+
+ex:GrandmaExploit rdf:type airo:Misuse ;
+    rdfs:label "Grandma Exploit"@en ;
+    rdfs:label "祖母漏洞利用"@zh .
+
+ex:DangerousInstructionDissemination rdf:type airo:Consequence ;
+    rdfs:label "Dangerous Instruction Dissemination Consequence"@en ;
+    rdfs:label "危险指令传播后果"@zh ;
+    airo:hasImpactOnStakeholder ex:DiscordUsers .
+
+ex:ConversationalResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Conversational Response Generation Capability"@en ;
+    rdfs:label "对话响应生成能力"@zh .
+
+ex:DiscordUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Discord Users"@en ;
+    rdfs:label "Discord用户"@zh .
+
+ex:PromptInjectionAttack rdf:type airo:RiskSource ;
+    rdfs:label "Prompt Injection Attack Risk Source"@en ;
+    rdfs:label "提示注入攻击风险源"@zh ;
+    airo:exploitsVulnerability ex:InadequateContentFiltering .
+
+ex:InadequateContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Filtering Vulnerability"@en ;
+    rdfs:label "内容过滤不足的脆弱性"@zh .

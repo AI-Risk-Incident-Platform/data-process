@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAdPortal rdf:type airo:AISystem ;
+    rdfs:label "Google Ad Portal"@en ;
+    rdfs:label "谷歌广告门户"@zh ;
+    airo:hasRisk ex:RacialBiasInContentMatching ;
+    airo:hasCapability ex:KeywordBasedContentMatching ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:hasPurpose ex:TargetedAdvertising ;
+    airo:hasStakeholder ex:BlackFemaleUsers ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising .
+
+ex:RacialBiasInContentMatching rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Content Matching Risk"@en ;
+    rdfs:label "内容匹配中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:HarmfulStereotypeReinforcement ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HarmfulStereotypeReinforcement rdf:type airo:Consequence ;
+    rdfs:label "Harmful Stereotype Reinforcement Consequence"@en ;
+    rdfs:label "有害刻板印象强化的后果"@zh ;
+    airo:hasImpact ex:SocialStigmaAndDiscrimination .
+
+ex:SocialStigmaAndDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Social Stigma and Discrimination Impact"@en ;
+    rdfs:label "社会污名化和歧视的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackFemaleUsers .
+
+ex:KeywordBasedContentMatching rdf:type airo:AICapability ;
+    rdfs:label "Keyword-Based Content Matching Capability"@en ;
+    rdfs:label "基于关键词的内容匹配能力"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:BlackFemaleUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Black Female Users"@en ;
+    rdfs:label "黑人女性用户"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:TargetedAdvertising rdf:type airo:Purpose ;
+    rdfs:label "Targeted Advertising Purpose"@en ;
+    rdfs:label "定向广告的目的"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising Domain"@en ;
+    rdfs:label "数字广告领域"@zh .

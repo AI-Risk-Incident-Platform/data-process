@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAndAmazonAI",
+      "中文名称": "谷歌和亚马逊AI",
+      "英文名称": "Google and Amazon AI",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Risk": {
+      "id": "MisclassificationOfHarmfulContent",
+      "中文名称": "有害内容误分类风险",
+      "英文名称": "Misclassification of Harmful Content Risk",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Consequence": {
+      "id": "PromotionOfHateSpeech",
+      "中文名称": "仇恨言论传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "AICapability": {
+      "id": "ContentClassification",
+      "中文名称": "内容分类能力",
+      "英文名称": "Content Classification Capability",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Stakeholder": {
+      "id": "GoogleAndAmazon",
+      "中文名称": "谷歌和亚马逊",
+      "英文名称": "Google and Amazon",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAndAmazonAI",
+      "中文名称": "谷歌和亚马逊AI",
+      "英文名称": "Google and Amazon AI",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Risk": {
+      "id": "MisclassificationOfHarmfulContent",
+      "中文名称": "有害内容误分类风险",
+      "英文名称": "Misclassification of Harmful Content Risk",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Consequence": {
+      "id": "PromotionOfHateSpeech",
+      "中文名称": "仇恨言论传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "AICapability": {
+      "id": "ContentClassification",
+      "中文名称": "内容分类能力",
+      "英文名称": "Content Classification Capability",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "Stakeholder": {
+      "id": "GoogleAndAmazon",
+      "中文名称": "谷歌和亚马逊",
+      "英文名称": "Google and Amazon",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google and Amazon AI Say Hitler’s Mein Kampf Is ‘a True Work of Art’"
+    }
+  }
+}

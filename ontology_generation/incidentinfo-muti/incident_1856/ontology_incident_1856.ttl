@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleJigsawToxicSpeechDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Jigsaw有毒言论检测系统"@zh ;
+    rdfs:label "Google Jigsaw Toxic Speech Detection System"@en ;
+    airo:hasRisk ex:ToxicSpeechDetectionFailureRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessingForToxicSpeechDetection ;
+    airo:isDevelopedBy ex:GoogleJigsaw ;
+    airo:isAppliedWithinDomain ex:OnlineContentModeration .
+
+ex:ToxicSpeechDetectionFailureRisk rdf:type airo:Risk ;
+    rdfs:label "有毒言论检测失败风险"@zh ;
+    rdfs:label "Toxic Speech Detection Failure Risk"@en .
+
+ex:NaturalLanguageProcessingForToxicSpeechDetection rdf:type airo:AICapability ;
+    rdfs:label "自然语言处理用于有毒言论检测的能力"@zh ;
+    rdfs:label "Natural Language Processing for Toxic Speech Detection Capability"@en .
+
+ex:GoogleJigsaw rdf:type airo:AIDeveloper ;
+    rdfs:label "Google Jigsaw"@zh ;
+    rdfs:label "Google Jigsaw"@en .
+
+ex:OnlineContentModeration rdf:type airo:Domain ;
+    rdfs:label "在线内容审核领域"@zh ;
+    rdfs:label "Online Content Moderation Domain"@en .

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UncensoredAIArtModel rdf:type airo:AISystem ;
+    rdfs:label "Uncensored AI Art Model"@en ;
+    rdfs:label "未经审查的AI艺术模型"@zh ;
+    airo:hasRisk ex:EthicalQuestionsRisk ;
+    airo:hasVulnerability ex:LackOfContentFiltering .
+
+ex:EthicalQuestionsRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical Questions Risk"@en ;
+    rdfs:label "伦理问题风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfContentFiltering ;
+    airo:hasConsequence ex:PotentialHarmfulContentCreation .
+
+ex:LackOfContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Filtering"@en ;
+    rdfs:label "缺乏内容过滤"@zh .
+
+ex:PotentialHarmfulContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Potential Harmful Content Creation"@en ;
+    rdfs:label "潜在有害内容创作"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm"@en ;
+    rdfs:label "社会危害"@zh .

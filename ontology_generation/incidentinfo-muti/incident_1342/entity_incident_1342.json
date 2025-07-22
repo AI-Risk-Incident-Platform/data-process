@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CNAFAlgorithm",
+      "中文名称": "CNAF算法",
+      "英文名称": "CNAF Algorithm",
+      "来源": "ATD Quart Monde dénonce l'utilisation d'algorithmes pauvrophobes par la CNAF"
+    },
+    "Risk": {
+      "id": "DiscriminationAgainstPoorFamilies",
+      "中文名称": "对贫困家庭的歧视风险",
+      "英文名称": "Discrimination Against Poor Families Risk",
+      "来源": "Profilage et discriminations : enquête sur les dérives de l’algorithme des caisses d’allocations familiales"
+    },
+    "Consequence": {
+      "id": "UnfairBenefitDistribution",
+      "中文名称": "福利分配不公后果",
+      "英文名称": "Unfair Benefit Distribution Consequence",
+      "来源": "Voici comment l’algorithme de la CAF discrimine les allocataires les plus pauvres, selon une étude"
+    },
+    "Stakeholder": {
+      "id": "ATDQuartMonde",
+      "中文名称": "第四世界运动组织",
+      "英文名称": "ATD Quart Monde",
+      "来源": "ATD Quart Monde dénonce l'utilisation d'algorithmes pauvrophobes par la CNAF"
+    },
+    "AISubject": {
+      "id": "PoorBenefitRecipients",
+      "中文名称": "贫困福利领取者",
+      "英文名称": "Poor Benefit Recipients",
+      "来源": "Voici comment l’algorithme de la CAF discrimine les allocataires les plus pauvres, selon une étude"
+    },
+    "Impact": {
+      "id": "SocialExclusion",
+      "中文名称": "社会排斥影响",
+      "英文名称": "Social Exclusion Impact",
+      "来源": "Voici comment l’algorithme de la CAF discrimine les allocataires les plus pauvres, selon une étude"
+    },
+    "Domain": {
+      "id": "SocialWelfareSystem",
+      "中文名称": "社会福利系统领域",
+      "英文名称": "Social Welfare System Domain",
+      "来源": "Profilage et discriminations : enquête sur les dérives de l’algorithme des caisses d’allocations familiales"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasAgainstPoor",
+      "中文名称": "针对贫困人群的算法偏见风险源",
+      "英文名称": "Algorithmic Bias Against Poor Risk Source",
+      "来源": "ATD Quart Monde dénonce l'utilisation d'algorithmes pauvrophobes par la CNAF"
+    }
+  }
+}

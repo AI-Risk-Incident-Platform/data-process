@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedNewsWebsites",
+      "中文名称": "AI生成新闻网站",
+      "英文名称": "AI News Sites",
+      "来源": "Rise of the Newsbots: AI-Generated News Websites Proliferating Online"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成",
+      "英文名称": "Text/Content Generation",
+      "来源": "AI-Generated News Websites"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众虚假信息",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "Impact": {
+      "id": "TrustErosionInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Media Trust Erosion Impact",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成",
+      "英文名称": "Generative AI Technique",
+      "来源": "AI-Generated News Websites"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedNewsWebsites",
+      "中文名称": "AI生成新闻网站",
+      "英文名称": "AI News Sites",
+      "来源": "Rise of the Newsbots: AI-Generated News Websites Proliferating Online"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成",
+      "英文名称": "Text/Content Generation",
+      "来源": "AI-Generated News Websites"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众虚假信息",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "Impact": {
+      "id": "TrustErosionInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Media Trust Erosion Impact",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成",
+      "英文名称": "Generative AI Technique",
+      "来源": "AI-Generated News Websites"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "AI-Generated News Websites Proliferating Online"
+    }
+  }
+}

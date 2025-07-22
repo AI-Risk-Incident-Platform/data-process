@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JoeRoganDeepfakeVideo rdf:type airo:AISystem ;
+    rdfs:label "Joe Rogan Deepfake Video"@en ;
+    rdfs:label "Joe Rogan深度伪造视频"@zh ;
+    airo:hasRisk ex:MisleadingAdvertisingRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:ProductPromotion ;
+    airo:isAppliedWithinDomain ex:SocialMediaAdvertising ;
+    airo:hasStakeholder ex:TikTokPlatform .
+
+ex:MisleadingAdvertisingRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Advertising Risk"@en ;
+    rdfs:label "误导性广告风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:TikTokPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Platform"@en ;
+    rdfs:label "TikTok平台"@zh .
+
+ex:ConsumerDeception rdf:type airo:Impact ;
+    rdfs:label "Consumer Deception"@en ;
+    rdfs:label "消费者欺骗"@zh ;
+    airo:hasImpactOnStakeholder ex:TikTokPlatform .
+
+ex:ProductPromotion rdf:type airo:Purpose ;
+    rdfs:label "Product Promotion"@en ;
+    rdfs:label "产品推广"@zh .
+
+ex:SocialMediaAdvertising rdf:type airo:Domain ;
+    rdfs:label "Social Media Advertising"@en ;
+    rdfs:label "社交媒体广告"@zh .

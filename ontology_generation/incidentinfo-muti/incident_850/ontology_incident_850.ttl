@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:NameProcessingFailureRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessing .
+
+ex:NameProcessingFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Name Processing Failure Risk"@en ;
+    rdfs:label "名称处理失败风险"@zh ;
+    airo:hasConsequence ex:SystemHalt ;
+    airo:isRiskSourceFor ex:SpecificNameInput .
+
+ex:SystemHalt rdf:type airo:Consequence ;
+    rdfs:label "System Halt"@en ;
+    rdfs:label "系统停止"@zh ;
+    airo:hasImpact ex:UserExperienceDisruption .
+
+ex:NaturalLanguageProcessing rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing Capability"@en ;
+    rdfs:label "自然语言处理能力"@zh .
+
+ex:SpecificNameInput rdf:type airo:RiskSource ;
+    rdfs:label "Specific Name Input"@en ;
+    rdfs:label "特定名称输入"@zh .
+
+ex:UserExperienceDisruption rdf:type airo:Impact ;
+    rdfs:label "User Experience Disruption"@en ;
+    rdfs:label "用户体验中断"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaCarCameraSystem",
+      "中文名称": "特斯拉汽车摄像头系统",
+      "英文名称": "Tesla Car Camera System",
+      "来源": "Tesla Employees Shared Video Captured From Customers' Car Cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Ex-Tesla workers say staff shared private customer footage"
+    },
+    "Consequence": {
+      "id": "CustomerPrivacyBreach",
+      "中文名称": "客户隐私泄露后果",
+      "英文名称": "Customer Privacy Breach Consequence",
+      "来源": "Tesla workers shared disturbing and embarrassing videos captured by car cameras: Report"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployees",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Employees",
+      "来源": "Tesla Employees Shared Video Captured From Customers' Car Cameras"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Ex-Tesla workers say staff shared private customer footage"
+    },
+    "Impact": {
+      "id": "CustomerTrustErosion",
+      "中文名称": "客户信任流失影响",
+      "英文名称": "Customer Trust Erosion Impact",
+      "来源": "Tesla workers shared disturbing and embarrassing videos captured by car cameras: Report"
+    },
+    "Purpose": {
+      "id": "VehicleSafetyMonitoring",
+      "中文名称": "车辆安全监控目的",
+      "英文名称": "Vehicle Safety Monitoring Purpose",
+      "来源": "Tesla Employees Shared Video Captured From Customers' Car Cameras"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla Employees Shared Video Captured From Customers' Car Cameras"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问风险源",
+      "英文名称": "Unauthorized Data Access Risk Source",
+      "来源": "Ex-Tesla workers say staff shared private customer footage"
+    }
+  }
+}

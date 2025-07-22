@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIAdvertisingApp",
+      "中文名称": "AI广告应用",
+      "英文名称": "AI Advertising App",
+      "来源": "AI biz that cloned her for an ad"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCelebrityLikeness",
+      "中文名称": "未经授权使用名人肖像风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scarlett Johansson takes legal action against use of image for AI"
+    },
+    "Stakeholder": {
+      "id": "ScarlettJohansson",
+      "中文名称": "斯嘉丽·约翰逊",
+      "英文名称": "Scarlett Johansson",
+      "来源": "Scarlett Johansson sics lawyers on AI biz"
+    },
+    "AIOperator": {
+      "id": "UnnamedAICompany",
+      "中文名称": "未具名AI公司",
+      "英文名称": "Unnamed AI Firm",
+      "来源": "AI biz that cloned her for an ad"
+    },
+    "Consequence": {
+      "id": "LegalActionForImageRightsViolation",
+      "中文名称": "侵犯肖像权的法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scarlett Johansson takes legal action against AI app"
+    },
+    "AICapability": {
+      "id": "CelebrityImageCloning",
+      "中文名称": "名人形象克隆能力",
+      "英文名称": "Celebrity Image Cloning/Synthesis Capability",
+      "来源": "AI app that copied her likeness"
+    },
+    "Domain": {
+      "id": "AdvertisingIndustry",
+      "中文名称": "广告行业",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "cloned her for an ad"
+    },
+    "RiskSource": {
+      "id": "LackOfCelebrityConsent",
+      "中文名称": "缺乏名人同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "use of image for AI without permission"
+    },
+    "Impact": {
+      "id": "ReputationDamageToCelebrity",
+      "中文名称": "对名人声誉损害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "unauthorized use of celebrity likeness"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIAdvertisingApp",
+      "中文名称": "AI广告应用",
+      "英文名称": "AI Advertising App",
+      "来源": "AI biz that cloned her for an ad"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCelebrityLikeness",
+      "中文名称": "未经授权使用名人肖像风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scarlett Johansson takes legal action against use of image for AI"
+    },
+    "Stakeholder": {
+      "id": "ScarlettJohansson",
+      "中文名称": "斯嘉丽·约翰逊",
+      "英文名称": "Scarlett Johansson",
+      "来源": "Scarlett Johansson sics lawyers on AI biz"
+    },
+    "AIOperator": {
+      "id": "UnnamedAICompany",
+      "中文名称": "未具名AI公司",
+      "英文名称": "Unnamed AI Firm",
+      "来源": "AI biz that cloned her for an ad"
+    },
+    "Consequence": {
+      "id": "LegalActionForImageRightsViolation",
+      "中文名称": "侵犯肖像权的法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scarlett Johansson takes legal action against AI app"
+    },
+    "AICapability": {
+      "id": "CelebrityImageCloning",
+      "中文名称": "名人形象克隆能力",
+      "英文名称": "Celebrity Image Cloning/Synthesis Capability",
+      "来源": "AI app that copied her likeness"
+    },
+    "Domain": {
+      "id": "AdvertisingIndustry",
+      "中文名称": "广告行业",
+      "英文名称": "Advertising & Marketing Domain",
+      "来源": "cloned her for an ad"
+    },
+    "RiskSource": {
+      "id": "LackOfCelebrityConsent",
+      "中文名称": "缺乏名人同意的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "use of image for AI without permission"
+    },
+    "Impact": {
+      "id": "ReputationDamageToCelebrity",
+      "中文名称": "对名人声誉损害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "unauthorized use of celebrity likeness"
+    }
+  }
+}

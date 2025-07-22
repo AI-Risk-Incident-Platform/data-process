@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SurveillanceAIForEventDetection rdf:type airo:AISystem ;
+    rdfs:label "Surveillance AI for Event Detection"@en ;
+    rdfs:label "用于事件检测的监控AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:SuresnesResidents ;
+    airo:hasStakeholder ex:SuresnesMunicipalGovernment ;
+    airo:isAppliedWithinDomain ex:PublicSafety ;
+    airo:hasPurpose ex:DetectAbnormalEvents .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:ResidentPrivacyCompromise .
+
+ex:SuresnesMunicipalGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Suresnes Municipal Government"@en ;
+    rdfs:label "Suresnes市政府"@zh .
+
+ex:SuresnesResidents rdf:type airo:AISubject ;
+    rdfs:label "Suresnes Residents"@en ;
+    rdfs:label "Suresnes居民"@zh .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:DetectAbnormalEvents rdf:type airo:Purpose ;
+    rdfs:label "Detect Abnormal Events"@en ;
+    rdfs:label "检测异常事件"@zh .
+
+ex:ResidentPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "Resident Privacy Compromise"@en ;
+    rdfs:label "居民隐私受损"@zh ;
+    airo:hasImpactOnStakeholder ex:SuresnesResidents .

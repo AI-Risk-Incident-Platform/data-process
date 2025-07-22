@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForGeneratingFakePornographicImages rdf:type airo:AISystem ;
+    rdfs:label "AI for Generating Fake Pornographic Images"@en ;
+    rdfs:label "生成虚假色情图片的AI系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk ;
+    airo:hasAISubject ex:FemaleStudents ;
+    airo:hasPurpose ex:CreatingFakePornographicContent ;
+    airo:isAppliedWithinDomain ex:ImageGeneration ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:SchoolCommunity .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    rdfs:label "隐私侵犯和名誉损害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:MisuseOfImageGenerationAI .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Victims Consequence"@en ;
+    rdfs:label "对受害者的心理伤害后果"@zh ;
+    airo:hasImpact ex:SocialStigmaAndEmotionalDistress .
+
+ex:FemaleStudents rdf:type airo:AISubject ;
+    rdfs:label "Female Students"@en ;
+    rdfs:label "女学生"@zh .
+
+ex:SchoolCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "School Community"@en ;
+    rdfs:label "学校社区"@zh .
+
+ex:SocialStigmaAndEmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Social Stigma and Emotional Distress Impact"@en ;
+    rdfs:label "社会污名和情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolCommunity .
+
+ex:CreatingFakePornographicContent rdf:type airo:Purpose ;
+    rdfs:label "Creating Fake Pornographic Content Purpose"@en ;
+    rdfs:label "创建虚假色情内容的目的"@zh .
+
+ex:ImageGeneration rdf:type airo:Domain ;
+    rdfs:label "Image Generation Domain"@en ;
+    rdfs:label "图像生成领域"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:MisuseOfImageGenerationAI rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of Image Generation AI Risk Source"@en ;
+    rdfs:label "图像生成AI的滥用风险源"@zh .

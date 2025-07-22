@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StudentDataTrainingAI",
+      "中文名称": "学生数据训练AI系统",
+      "英文名称": "Student Data Training AI System",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfMichigan",
+      "中文名称": "密歇根大学",
+      "英文名称": "University of Michigan",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "AISubject": {
+      "id": "UniversityStudents",
+      "中文名称": "大学生",
+      "英文名称": "University Students",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Impact": {
+      "id": "StudentPrivacyCompromise",
+      "中文名称": "学生隐私泄露影响",
+      "英文名称": "Student Privacy Impact",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StudentDataTrainingAI",
+      "中文名称": "学生数据训练AI系统",
+      "英文名称": "Student Data Training AI System",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfMichigan",
+      "中文名称": "密歇根大学",
+      "英文名称": "University of Michigan",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "AISubject": {
+      "id": "UniversityStudents",
+      "中文名称": "大学生",
+      "英文名称": "University Students",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    },
+    "Impact": {
+      "id": "StudentPrivacyCompromise",
+      "中文名称": "学生隐私泄露影响",
+      "英文名称": "Student Privacy Impact",
+      "来源": "University of Michigan Halts Offers to Sell Student Data to Train AI"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RobotWaiterAtDennys",
+      "中文名称": "Denny's餐厅机器人服务员",
+      "英文名称": "Robot Waiter at Denny's",
+      "来源": "People Furious at Robot Serving Pancakes at Denny's"
+    },
+    "Risk": {
+      "id": "PublicDiscontentWithServiceRobots",
+      "中文名称": "公众对服务机器人的不满风险",
+      "英文名称": "Public Discontent with Service Robots Risk",
+      "来源": "People Furious at Robot Serving Pancakes at Denny's"
+    },
+    "Stakeholder": {
+      "id": "RestaurantCustomers",
+      "中文名称": "餐厅顾客",
+      "英文名称": "Restaurant Customers",
+      "来源": "People Furious at Robot Serving Pancakes at Denny's"
+    },
+    "Domain": {
+      "id": "FoodServiceIndustry",
+      "中文名称": "餐饮服务业",
+      "英文名称": "Food Service Industry",
+      "来源": "Robot serving pancakes at Denny's restaurant"
+    },
+    "Impact": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "顾客不满的影响",
+      "英文名称": "Customer Dissatisfaction Impact",
+      "来源": "People Furious at Robot Serving Pancakes at Denny's"
+    }
+  }
+}

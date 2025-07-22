@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAIProductReviewSystem",
+      "中文名称": "亚马逊AI产品评论系统",
+      "英文名称": "Amazon AI Product Review System",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    },
+    "Risk": {
+      "id": "NegativeFeedbackExaggerationRisk",
+      "中文名称": "负面反馈夸大风险",
+      "英文名称": "Negative Feedback Exaggeration Risk",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    },
+    "Stakeholder": {
+      "id": "AmazonMerchants",
+      "中文名称": "亚马逊商家",
+      "英文名称": "Amazon Merchants",
+      "来源": "Amazon Merchants Give Low Marks to AI-Powered Review Highlights"
+    },
+    "Consequence": {
+      "id": "MerchantDissatisfaction",
+      "中文名称": "商家不满后果",
+      "英文名称": "Merchant Dissatisfaction Consequence",
+      "来源": "Amazon Merchants Give Low Marks to AI-Powered Review Highlights"
+    },
+    "Impact": {
+      "id": "PotentialSalesLoss",
+      "中文名称": "潜在销售损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAIProductReviewSystem",
+      "中文名称": "亚马逊AI产品评论系统",
+      "英文名称": "Amazon AI Product Review System",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    },
+    "Risk": {
+      "id": "NegativeFeedbackExaggerationRisk",
+      "中文名称": "负面反馈夸大风险",
+      "英文名称": "Negative Feedback Exaggeration Risk",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    },
+    "Stakeholder": {
+      "id": "AmazonMerchants",
+      "中文名称": "亚马逊商家",
+      "英文名称": "Amazon Merchants",
+      "来源": "Amazon Merchants Give Low Marks to AI-Powered Review Highlights"
+    },
+    "Consequence": {
+      "id": "MerchantDissatisfaction",
+      "中文名称": "商家不满后果",
+      "英文名称": "Merchant Dissatisfaction Consequence",
+      "来源": "Amazon Merchants Give Low Marks to AI-Powered Review Highlights"
+    },
+    "Impact": {
+      "id": "PotentialSalesLoss",
+      "中文名称": "潜在销售损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback"
+    }
+  }
+}

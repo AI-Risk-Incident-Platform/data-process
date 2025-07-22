@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT falsely told voters their mayor was jailed for bribery."
+    },
+    "Risk": {
+      "id": "DefamationRisk",
+      "中文名称": "诽谤风险",
+      "英文名称": "Defamation Risk",
+      "来源": "Australian mayor readies world's first defamation lawsuit over ChatGPT content"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "now he wants to sue in what could be the first defamation case against a bot"
+    },
+    "Stakeholder": {
+      "id": "Mayor",
+      "中文名称": "市长",
+      "英文名称": "Mayor",
+      "来源": "ChatGPT falsely accused a mayor of bribery when he was actually the whistleblower"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "ChatGPT falsely told voters their mayor was jailed for bribery"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT falsely told voters their mayor was jailed for bribery."
+    },
+    "Risk": {
+      "id": "DefamationRisk",
+      "中文名称": "诽谤风险",
+      "英文名称": "Defamation Risk",
+      "来源": "Australian mayor readies world's first defamation lawsuit over ChatGPT content"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "now he wants to sue in what could be the first defamation case against a bot"
+    },
+    "Stakeholder": {
+      "id": "Mayor",
+      "中文名称": "市长",
+      "英文名称": "Mayor",
+      "来源": "ChatGPT falsely accused a mayor of bribery when he was actually the whistleblower"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "ChatGPT falsely told voters their mayor was jailed for bribery"
+    }
+  }
+}

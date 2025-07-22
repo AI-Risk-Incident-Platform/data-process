@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CelebrityResurrectionAI rdf:type airo:AISystem ;
+    rdfs:label "Celebrity Resurrection AI"@en ;
+    rdfs:label "名人复活AI"@zh ;
+    airo:hasRisk ex:EthicalConcernsInDigitalResurrection ;
+    airo:hasAICapability ex:DigitalHumanRecreation ;
+    airo:hasPurpose ex:ExpressionOfLoveAndMemory ;
+    airo:hasStakeholder ex:CelebrityFamiliesAndFans ;
+    airo:isAppliedWithinDomain ex:DigitalEntertainmentAndMemorial .
+
+ex:EthicalConcernsInDigitalResurrection rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in Digital Resurrection Risk"@en ;
+    rdfs:label "数字复活中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:EmotionalDistressToFamilies .
+
+ex:CelebrityFamiliesAndFans rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrity Families and Fans"@en ;
+    rdfs:label "名人家庭和粉丝"@zh .
+
+ex:DigitalHumanRecreation rdf:type airo:AICapability ;
+    rdfs:label "Digital Human Recreation Capability"@en ;
+    rdfs:label "数字人类重现能力"@zh .
+
+ex:EmotionalDistressToFamilies rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Families Impact"@en ;
+    rdfs:label "对家庭的情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CelebrityFamiliesAndFans .
+
+ex:ExpressionOfLoveAndMemory rdf:type airo:Purpose ;
+    rdfs:label "Expression of Love and Memory Purpose"@en ;
+    rdfs:label "爱与记忆的表达目的"@zh .
+
+ex:DigitalEntertainmentAndMemorial rdf:type airo:Domain ;
+    rdfs:label "Digital Entertainment and Memorial Domain"@en ;
+    rdfs:label "数字娱乐和纪念领域"@zh .

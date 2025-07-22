@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Revealed: The Authors Whose Pirated Books Are Powering Generative AI"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Are ChatGPT, Bard, and Dolly 2.0 Trained on Pirated Content?"
+    },
+    "AITechnique": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成技术",
+      "英文名称": "Text Generation Technique",
+      "来源": "Revealed: The Authors Whose Pirated Books Are Powering Generative AI"
+    },
+    "Stakeholder": {
+      "id": "Authors",
+      "中文名称": "作者",
+      "英文名称": "Authors",
+      "来源": "Has your book been used to train the AI?"
+    },
+    "RiskSource": {
+      "id": "PiratedBooks",
+      "中文名称": "盗版书籍",
+      "英文名称": "Pirated Books",
+      "来源": "Revealed: The Authors Whose Pirated Books Are Powering Generative AI"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护材料",
+      "英文名称": "Unauthorized Use of Copyrighted Material",
+      "来源": "Are ChatGPT, Bard, and Dolly 2.0 Trained on Pirated Content?"
+    },
+    "Impact": {
+      "id": "EconomicLossForAuthors",
+      "中文名称": "作者经济损失",
+      "英文名称": "Economic Loss for Authors",
+      "来源": "Has your book been used to train the AI?"
+    }
+  }
+}

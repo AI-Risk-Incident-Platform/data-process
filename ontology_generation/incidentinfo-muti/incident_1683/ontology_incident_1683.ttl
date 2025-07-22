@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPlagiarismDetector rdf:type airo:AISystem ;
+    rdfs:label "AI Plagiarism Detector"@en ;
+    rdfs:label "AI抄袭检测器"@zh ;
+    airo:hasRisk ex:DiscriminationAgainstNonNativeEnglishSpeakers ;
+    airo:hasAISubject ex:NonNativeEnglishSpeakers ;
+    airo:usesTechnique ex:NaturalLanguageProcessingForPlagiarismDetection .
+
+ex:DiscriminationAgainstNonNativeEnglishSpeakers rdf:type airo:Risk ;
+    rdfs:label "Discrimination Against Non-Native English Speakers Risk"@en ;
+    rdfs:label "对非英语母语者的歧视风险"@zh ;
+    airo:hasConsequence ex:FalsePositiveDetectionForNonNativeSpeakers ;
+    airo:isRiskSourceFor ex:BiasInTrainingData .
+
+ex:FalsePositiveDetectionForNonNativeSpeakers rdf:type airo:Consequence ;
+    rdfs:label "False Positive Detection for Non-Native Speakers Consequence"@en ;
+    rdfs:label "对非母语者的误判后果"@zh ;
+    airo:hasImpact ex:UnfairAcademicEvaluation .
+
+ex:NonNativeEnglishSpeakers rdf:type airo:AISubject ;
+    rdfs:label "Non-Native English Speakers"@en ;
+    rdfs:label "非英语母语者"@zh ;
+    airo:hasImpactOnStakeholder ex:UnfairAcademicEvaluation .
+
+ex:UnfairAcademicEvaluation rdf:type airo:Impact ;
+    rdfs:label "Unfair Academic Evaluation Impact"@en ;
+    rdfs:label "不公平的学术评估影响"@zh .
+
+ex:NaturalLanguageProcessingForPlagiarismDetection rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing for Plagiarism Detection Technique"@en ;
+    rdfs:label "用于抄袭检测的自然语言处理技术"@zh .
+
+ex:BiasInTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Bias in Training Data Risk Source"@en ;
+    rdfs:label "训练数据中的偏见风险源"@zh .

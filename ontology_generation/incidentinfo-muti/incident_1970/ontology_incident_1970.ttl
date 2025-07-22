@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDrugDiscoverySystem rdf:type airo:AISystem ;
+    rdfs:label "AI Drug Discovery System"@en ;
+    rdfs:label "AI药物发现系统"@zh ;
+    airo:hasRisk ex:BioweaponDevelopmentRisk ;
+    airo:hasCapability ex:MolecularStructureGeneration ;
+    airo:usesTechnique ex:GenerativeChemistryModels ;
+    airo:hasStakeholder ex:GlobalCommunity .
+
+ex:BioweaponDevelopmentRisk rdf:type airo:Risk ;
+    rdfs:label "Bioweapon Development Risk"@en ;
+    rdfs:label "生物武器开发风险"@zh ;
+    airo:hasConsequence ex:PotentialMassCasualtyEvents ;
+    airo:isRiskSourceFor ex:UnrestrictedAccessToDangerousKnowledge ;
+    airo:hasStakeholder ex:GlobalCommunity ;
+    airo:hasImpact ex:GlobalSecurityThreat ;
+    airo:hasStakeholder ex:GlobalCommunity .
+
+ex:PotentialMassCasualtyEvents rdf:type airo:Consequence ;
+    rdfs:label "Potential Mass Casualty Events"@en ;
+    rdfs:label "潜在大规模伤亡事件"@zh ;
+    airo:hasImpact ex:GlobalSecurityThreat .
+
+ex:MolecularStructureGeneration rdf:type airo:AICapability ;
+    rdfs:label "Molecular Structure Generation Capability"@en ;
+    rdfs:label "分子结构生成能力"@zh .
+
+ex:GenerativeChemistryModels rdf:type airo:AITechnique ;
+    rdfs:label "Generative Chemistry Models Technique"@en ;
+    rdfs:label "生成化学模型技术"@zh .
+
+ex:DualUseTechnologyMisapplication rdf:type airo:Misuse ;
+    rdfs:label "Dual Use Technology Misapplication"@en ;
+    rdfs:label "双重用途技术误用"@zh ;
+    airo:hasAISystem ex:AIDrugDiscoverySystem ;
+    airo:hasRisk ex:BioweaponDevelopmentRisk .
+
+ex:UnrestrictedAccessToDangerousKnowledge rdf:type airo:RiskSource ;
+    rdfs:label "Unrestricted Access to Dangerous Knowledge Risk Source"@en ;
+    rdfs:label "危险知识无限制获取风险源"@zh ;
+    airo:isRiskSourceFor ex:BioweaponDevelopmentRisk .
+
+ex:GlobalSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Global Security Threat Impact"@en ;
+    rdfs:label "全球安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GlobalCommunity .
+
+ex:GlobalCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Global Community"@en ;
+    rdfs:label "全球社区"@zh .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:EmployeeMonitoring ;
+    airo:isAppliedWithinDomain ex:WorkplaceSurveillance ;
+    airo:hasStakeholder ex:Employees ;
+    airo:isDeployedBy ex:PlasticForte .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedBiometricDataCollection ;
+    airo:isRiskSourceFor ex:LackOfConsent ;
+    airo:hasVulnerability ex:EmployeeDataProtection .
+
+ex:UnauthorizedBiometricDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Biometric Data Collection Consequence"@en ;
+    rdfs:label "未经授权的生物特征数据收集后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyCompromise .
+
+ex:Employees rdf:type airo:Stakeholder ;
+    rdfs:label "Employees"@en ;
+    rdfs:label "员工"@zh .
+
+ex:PlasticForte rdf:type airo:AIOperator ;
+    rdfs:label "Plastic Forte"@en ;
+    rdfs:label "Plastic Forte公司"@zh .
+
+ex:PersonalPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Compromise Impact"@en ;
+    rdfs:label "个人隐私泄露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Employees .
+
+ex:EmployeeMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Employee Monitoring Purpose"@en ;
+    rdfs:label "员工监控目的"@zh .
+
+ex:WorkplaceSurveillance rdf:type airo:Domain ;
+    rdfs:label "Workplace Surveillance Domain"@en ;
+    rdfs:label "工作场所监控领域"@zh .
+
+ex:LackOfConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Consent Risk Source"@en ;
+    rdfs:label "缺乏同意的风险源"@zh .
+
+ex:EmployeeDataProtection rdf:type airo:Vulnerability ;
+    rdfs:label "Employee Data Protection Vulnerability"@en ;
+    rdfs:label "员工数据保护脆弱性"@zh .

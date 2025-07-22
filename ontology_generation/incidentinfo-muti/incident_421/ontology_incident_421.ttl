@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseSelfDrivingTaxis rdf:type airo:AISystem ;
+    rdfs:label "Cruise Self-Driving Taxis"@en ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    airo:hasRisk ex:SafetyRiskInAutonomousVehicles ;
+    airo:hasStakeholder ex:USGovernmentRegulators ;
+    airo:isDeployedBy ex:GeneralMotors ;
+    airo:isAppliedWithinDomain ex:Transportation .
+
+ex:SafetyRiskInAutonomousVehicles rdf:type airo:Risk ;
+    rdfs:label "Safety Risk in Autonomous Vehicles"@en ;
+    rdfs:label "自动驾驶车辆安全风险"@zh ;
+    airo:isRiskSourceFor ex:BrakeCheckingBehavior .
+
+ex:USGovernmentRegulators rdf:type airo:Stakeholder ;
+    rdfs:label "US Government Regulators"@en ;
+    rdfs:label "美国政府监管机构"@zh .
+
+ex:GeneralMotors rdf:type airo:AIOperator ;
+    rdfs:label "General Motors"@en ;
+    rdfs:label "通用汽车"@zh .
+
+ex:BrakeCheckingBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Brake Checking Behavior"@en ;
+    rdfs:label "刹车检查行为"@zh .
+
+ex:Transportation rdf:type airo:Domain ;
+    rdfs:label "Transportation"@en ;
+    rdfs:label "交通运输"@zh .

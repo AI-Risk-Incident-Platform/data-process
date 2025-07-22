@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndReputationDamageRisk",
+      "中文名称": "隐私侵犯和名誉损害风险",
+      "英文名称": "Privacy Violation and Reputation Damage Risk",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Consequence": {
+      "id": "LegalPenaltiesForCreators",
+      "中文名称": "创作者法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionAndManipulation",
+      "中文名称": "面部识别和操纵能力",
+      "英文名称": "Facial Recognition & Manipulation",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AIOperator": {
+      "id": "XiaoYu",
+      "中文名称": "小玉",
+      "英文名称": "Xiao Yu",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Stakeholder": {
+      "id": "InternetCelebrities",
+      "中文名称": "网络名人",
+      "英文名称": "Internet Celebrities",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AISubject": {
+      "id": "VictimsOfDeepfakePornography",
+      "中文名称": "深度伪造色情内容受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Impact": {
+      "id": "EmotionalDistressAndPublicHumiliation",
+      "中文名称": "情感困扰和公开羞辱影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Purpose": {
+      "id": "CreatingFakePornographicContent",
+      "中文名称": "制作虚假色情内容目的",
+      "英文名称": "Non - consensual/Illegal Content Creation",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Domain": {
+      "id": "OnlineEntertainmentAndSocialMedia",
+      "中文名称": "在线娱乐和社交媒体领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Vulnerability": {
+      "id": "LackOfDigitalConsentMechanisms",
+      "中文名称": "缺乏数字同意机制的脆弱性",
+      "英文名称": "Consent - Data Collection Vulnerability",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Threat": {
+      "id": "NonConsensualIntimateImageAbuse",
+      "中文名称": "未经同意的亲密图像滥用威胁",
+      "英文名称": "Sexual Image Abuse Threat",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Hazard": {
+      "id": "EasyAccessToDeepfakeTools",
+      "中文名称": "深度伪造工具易获取危害",
+      "英文名称": "Deepfake Technology Hazard",
+      "来源": "Main suspect behind deepfake pornography released on bail"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreators",
+      "中文名称": "恶意内容创作者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Main suspect behind deepfake pornography released on bail"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInSyntheticMedia",
+      "中文名称": "合成媒体中的伦理问题",
+      "英文名称": "Ethical Synthetic Media Risk Concept",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndReputationDamageRisk",
+      "中文名称": "隐私侵犯和名誉损害风险",
+      "英文名称": "Privacy Violation and Reputation Damage Risk",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Consequence": {
+      "id": "LegalPenaltiesForCreators",
+      "中文名称": "创作者法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionAndManipulation",
+      "中文名称": "面部识别和操纵能力",
+      "英文名称": "Facial Recognition & Manipulation",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AIOperator": {
+      "id": "XiaoYu",
+      "中文名称": "小玉",
+      "英文名称": "Xiao Yu",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Stakeholder": {
+      "id": "InternetCelebrities",
+      "中文名称": "网络名人",
+      "英文名称": "Internet Celebrities",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AISubject": {
+      "id": "VictimsOfDeepfakePornography",
+      "中文名称": "深度伪造色情内容受害者",
+      "英文名称": "Deepfake Victims",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Impact": {
+      "id": "EmotionalDistressAndPublicHumiliation",
+      "中文名称": "情感困扰和公开羞辱影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Purpose": {
+      "id": "CreatingFakePornographicContent",
+      "中文名称": "制作虚假色情内容目的",
+      "英文名称": "Non - consensual/Illegal Content Creation",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Domain": {
+      "id": "OnlineEntertainmentAndSocialMedia",
+      "中文名称": "在线娱乐和社交媒体领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Youtuber Xiao Yu Deepfakes Videos Porno Internet Celebrities"
+    },
+    "Vulnerability": {
+      "id": "LackOfDigitalConsentMechanisms",
+      "中文名称": "缺乏数字同意机制的脆弱性",
+      "英文名称": "Consent - Data Collection Vulnerability",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Threat": {
+      "id": "NonConsensualIntimateImageAbuse",
+      "中文名称": "未经同意的亲密图像滥用威胁",
+      "英文名称": "Sexual Image Abuse Threat",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    },
+    "Hazard": {
+      "id": "EasyAccessToDeepfakeTools",
+      "中文名称": "深度伪造工具易获取危害",
+      "英文名称": "Deepfake Technology Hazard",
+      "来源": "Main suspect behind deepfake pornography released on bail"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreators",
+      "中文名称": "恶意内容创作者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Main suspect behind deepfake pornography released on bail"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInSyntheticMedia",
+      "中文名称": "合成媒体中的伦理问题",
+      "英文名称": "Ethical Synthetic Media Risk Concept",
+      "来源": "Deepfake porn videos creators ordered to pay victim NT$500,000"
+    }
+  }
+}

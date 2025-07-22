@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForRumorGeneration rdf:type airo:AISystem ;
+    rdfs:label "AI Rumor Generation System"@en ;
+    rdfs:label "AI造谣系统"@zh ;
+    airo:hasRisk ex:SocialHarmFromAIRumors ;
+    airo:hasStakeholder ex:SichuanCybersecurityPolice ;
+    airo:isAppliedWithinDomain ex:CybersecurityEnforcement .
+
+ex:SocialHarmFromAIRumors rdf:type airo:Risk ;
+    rdfs:label "Social Harm from AI Rumors Risk"@en ;
+    rdfs:label "AI造谣社会危害风险"@zh ;
+    airo:hasConsequence ex:PublicOrderDisruption ;
+    airo:hasRiskControl ex:LegalActionAgainstAIRumors .
+
+ex:SichuanCybersecurityPolice rdf:type airo:Stakeholder ;
+    rdfs:label "Sichuan Cybersecurity Police"@en ;
+    rdfs:label "四川网警"@zh .
+
+ex:PublicOrderDisruption rdf:type airo:Consequence ;
+    rdfs:label "Public Order Disruption Consequence"@en ;
+    rdfs:label "公共秩序扰乱后果"@zh ;
+    airo:hasImpact ex:SocialStabilityThreat .
+
+ex:SocialStabilityThreat rdf:type airo:Impact ;
+    rdfs:label "Social Stability Threat Impact"@en ;
+    rdfs:label "社会稳定威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SichuanCybersecurityPolice .
+
+ex:CybersecurityEnforcement rdf:type airo:Domain ;
+    rdfs:label "Cybersecurity Enforcement Domain"@en ;
+    rdfs:label "网络安全执法领域"@zh .
+
+ex:LegalActionAgainstAIRumors rdf:type airo:RiskControl ;
+    rdfs:label "Legal Action Against AI Rumors Control"@en ;
+    rdfs:label "AI造谣法律管控"@zh ;
+    airo:mitigatesRiskConcept ex:SocialHarmFromAIRumors .

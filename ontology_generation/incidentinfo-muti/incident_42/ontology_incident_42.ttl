@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RoboticSurgerySystem rdf:type airo:AISystem ;
+    rdfs:label "Robotic Surgery System"@en ;
+    rdfs:label "机器人手术系统"@zh ;
+    airo:hasRisk ex:PatientSafetyRisk ;
+    airo:hasStakeholder ex:Patients ;
+    airo:isAppliedWithinDomain ex:MedicalSurgery .
+
+ex:PatientSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Patient Safety Risk"@en ;
+    rdfs:label "患者安全风险"@zh ;
+    airo:hasConsequence ex:PatientDeath .
+
+ex:PatientDeath rdf:type airo:Consequence ;
+    rdfs:label "Patient Death Consequence"@en ;
+    rdfs:label "患者死亡后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Patients .
+
+ex:Patients rdf:type airo:Stakeholder ;
+    rdfs:label "Patients"@en ;
+    rdfs:label "患者"@zh .
+
+ex:MedicalSurgery rdf:type airo:Domain ;
+    rdfs:label "Medical Surgery Domain"@en ;
+    rdfs:label "医疗手术领域"@zh .

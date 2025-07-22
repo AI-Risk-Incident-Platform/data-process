@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonChoiceRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "亚马逊精选推荐系统"@zh ;
+    rdfs:label "Amazon Choice Recommendation System"@en ;
+    airo:hasRisk ex:MisleadingProductRecommendationRisk ;
+    airo:hasCapability ex:ProductRecommendationCapability ;
+    airo:hasPurpose ex:EnhancingCustomerPurchaseDecision ;
+    airo:isAppliedWithinDomain ex:ECommercePlatform ;
+    airo:hasStakeholder ex:AmazonCustomers ;
+    airo:usesTechnique ex:CollaborativeFilteringAlgorithm .
+
+ex:MisleadingProductRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "误导性产品推荐风险"@zh ;
+    rdfs:label "Misleading Product Recommendation Risk"@en ;
+    airo:hasConsequence ex:PoorPurchaseDecisions ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInRecommendations .
+
+ex:ProductRecommendationCapability rdf:type airo:AICapability ;
+    rdfs:label "产品推荐能力"@zh ;
+    rdfs:label "Product Recommendation Capability"@en .
+
+ex:EnhancingCustomerPurchaseDecision rdf:type airo:Purpose ;
+    rdfs:label "增强客户购买决策"@zh ;
+    rdfs:label "Enhancing Customer Purchase Decision Purpose"@en .
+
+ex:ECommercePlatform rdf:type airo:Domain ;
+    rdfs:label "电子商务平台领域"@zh ;
+    rdfs:label "E-Commerce Platform Domain"@en .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊客户"@zh ;
+    rdfs:label "Amazon Customers"@en .
+
+ex:PoorPurchaseDecisions rdf:type airo:Consequence ;
+    rdfs:label "不良购买决策后果"@zh ;
+    rdfs:label "Poor Purchase Decisions Consequence"@en ;
+    airo:hasImpact ex:CustomerDissatisfaction .
+
+ex:CustomerDissatisfaction rdf:type airo:Impact ;
+    rdfs:label "客户不满影响"@zh ;
+    rdfs:label "Customer Dissatisfaction Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .
+
+ex:AlgorithmicBiasInRecommendations rdf:type airo:RiskSource ;
+    rdfs:label "推荐算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Recommendations Risk Source"@en .
+
+ex:CollaborativeFilteringAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "协同过滤算法"@zh ;
+    rdfs:label "Collaborative Filtering Algorithm Technique"@en .

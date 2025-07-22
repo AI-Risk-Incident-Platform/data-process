@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAI",
+      "中文名称": "微软AI工具",
+      "英文名称": "Microsoft AI",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "Stakeholder": {
+      "id": "HackersFromChinaRussiaIran",
+      "中文名称": "来自中国、俄罗斯和伊朗的黑客",
+      "英文名称": "Hackers from China, Russia and Iran",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "RiskSource": {
+      "id": "HackerMisuseOfAI",
+      "中文名称": "黑客滥用AI",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftAI",
+      "中文名称": "微软AI工具",
+      "英文名称": "Microsoft AI",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "Stakeholder": {
+      "id": "HackersFromChinaRussiaIran",
+      "中文名称": "来自中国、俄罗斯和伊朗的黑客",
+      "英文名称": "Hackers from China, Russia and Iran",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    },
+    "RiskSource": {
+      "id": "HackerMisuseOfAI",
+      "中文名称": "黑客滥用AI",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Microsoft says it caught hackers from China, Russia and Iran using its AI tools"
+    }
+  }
+}

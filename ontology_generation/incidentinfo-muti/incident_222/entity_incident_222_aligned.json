@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChildrenTeachingRobot",
+      "中文名称": "儿童教学机器人",
+      "英文名称": "Children Teaching Robot",
+      "来源": "a robot designed to teach CHILDREN"
+    },
+    "Risk": {
+      "id": "RobotPhysicalHarmRisk",
+      "中文名称": "机器人物理伤害风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "Chinese Robot Smashes Booth and Injures Man"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryToVisitor",
+      "中文名称": "参观者身体受伤后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Injures Man at Shenzhen Hi-Tech Fair"
+    },
+    "Stakeholder": {
+      "id": "TechFairVisitor",
+      "中文名称": "科技展览参观者",
+      "英文名称": "Tech Fair Visitor",
+      "来源": "Tech-fair visitor is injured"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全问题影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Chinese Robot Goes Rogue, Smashes Booth and Injures Visitor"
+    },
+    "Purpose": {
+      "id": "EducationalRobotForChildren",
+      "中文名称": "儿童教育机器人目的",
+      "英文名称": "Educational Robot for Children Purpose",
+      "来源": "a robot designed to teach CHILDREN"
+    },
+    "Domain": {
+      "id": "EducationalTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "robot designed to teach CHILDREN"
+    },
+    "RiskSource": {
+      "id": "RobotControlFailure",
+      "中文名称": "机器人控制失效风险源",
+      "英文名称": "Robot Risk Source",
+      "来源": "robot 'loses control' and smashes a booth"
+    },
+    "Vulnerability": {
+      "id": "SafetyMechanismDeficiency",
+      "中文名称": "安全机制缺陷脆弱性",
+      "英文名称": "Security Vulnerability",
+      "来源": "Chinese Robot Goes Rogue"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChildrenTeachingRobot",
+      "中文名称": "儿童教学机器人",
+      "英文名称": "Children Teaching Robot",
+      "来源": "a robot designed to teach CHILDREN"
+    },
+    "Risk": {
+      "id": "RobotPhysicalHarmRisk",
+      "中文名称": "机器人物理伤害风险",
+      "英文名称": "Robot Attack Risk",
+      "来源": "Chinese Robot Smashes Booth and Injures Man"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryToVisitor",
+      "中文名称": "参观者身体受伤后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Injures Man at Shenzhen Hi-Tech Fair"
+    },
+    "Stakeholder": {
+      "id": "TechFairVisitor",
+      "中文名称": "科技展览参观者",
+      "英文名称": "Tech Fair Visitor",
+      "来源": "Tech-fair visitor is injured"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全问题影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Chinese Robot Goes Rogue, Smashes Booth and Injures Visitor"
+    },
+    "Purpose": {
+      "id": "EducationalRobotForChildren",
+      "中文名称": "儿童教育机器人目的",
+      "英文名称": "Educational Robot for Children Purpose",
+      "来源": "a robot designed to teach CHILDREN"
+    },
+    "Domain": {
+      "id": "EducationalTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "robot designed to teach CHILDREN"
+    },
+    "RiskSource": {
+      "id": "RobotControlFailure",
+      "中文名称": "机器人控制失效风险源",
+      "英文名称": "Robot Risk Source",
+      "来源": "robot 'loses control' and smashes a booth"
+    },
+    "Vulnerability": {
+      "id": "SafetyMechanismDeficiency",
+      "中文名称": "安全机制缺陷脆弱性",
+      "英文名称": "Security Vulnerability",
+      "来源": "Chinese Robot Goes Rogue"
+    }
+  }
+}

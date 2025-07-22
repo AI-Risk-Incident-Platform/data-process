@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PepperRobot rdf:type airo:AISystem ;
+    rdfs:label "Pepper机器人"@zh ;
+    rdfs:label "Pepper Robot"@en ;
+    airo:hasRisk ex:SecurityVulnerabilityRisk ;
+    airo:hasStakeholder ex:SoftBank .
+
+ex:SecurityVulnerabilityRisk rdf:type airo:Risk ;
+    rdfs:label "安全漏洞风险"@zh ;
+    rdfs:label "Security Vulnerability Risk"@en ;
+    airo:hasConsequence ex:PotentialCyberAttack ;
+    airo:isRiskSourceFor ex:LackOfSecurityMeasures .
+
+ex:LackOfSecurityMeasures rdf:type airo:RiskSource ;
+    rdfs:label "缺乏安全措施"@zh ;
+    rdfs:label "Lack of Security Measures"@en .
+
+ex:PotentialCyberAttack rdf:type airo:Consequence ;
+    rdfs:label "潜在网络攻击"@zh ;
+    rdfs:label "Potential Cyber Attack"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:SoftBank rdf:type airo:Stakeholder ;
+    rdfs:label "软银"@zh ;
+    rdfs:label "SoftBank"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害"@zh ;
+    rdfs:label "Reputation Damage"@en ;
+    airo:hasImpactOnStakeholder ex:SoftBank .

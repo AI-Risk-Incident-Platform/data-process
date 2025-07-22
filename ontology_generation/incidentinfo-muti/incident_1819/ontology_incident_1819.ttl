@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepSeekAI rdf:type airo:AISystem ;
+    rdfs:label "深度求索AI"@zh ;
+    rdfs:label "DeepSeek AI"@en ;
+    airo:hasRisk ex:ArtTheftPlotRisk ;
+    airo:hasStakeholder ex:ArtMuseum, ex:ArtCollectors ;
+    airo:hasPurpose ex:GeneralPurpose ;
+    airo:usesTechnique ex:GeneralAITechniques .
+
+ex:ArtTheftPlotRisk rdf:type airo:Risk ;
+    rdfs:label "艺术品盗窃计划风险"@zh ;
+    rdfs:label "Art Theft Plot Risk"@en ;
+    airo:hasConsequence ex:PotentialArtTheft ;
+    airo:isRiskSourceFor ex:AIForCriminalActivity .
+
+ex:AIForCriminalActivity rdf:type airo:Misuse ;
+    rdfs:label "用于犯罪活动的AI"@zh ;
+    rdfs:label "AI for Criminal Activity"@en .
+
+ex:PotentialArtTheft rdf:type airo:Consequence ;
+    rdfs:label "潜在艺术品盗窃后果"@zh ;
+    rdfs:label "Potential Art Theft Consequence"@en ;
+    airo:hasImpact ex:CulturalHeritageLoss .
+
+ex:CulturalHeritageLoss rdf:type airo:Impact ;
+    rdfs:label "文化遗产损失影响"@zh ;
+    rdfs:label "Cultural Heritage Loss Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ArtMuseum, ex:ArtCollectors .
+
+ex:ArtMuseum rdf:type airo:Stakeholder ;
+    rdfs:label "艺术博物馆"@zh ;
+    rdfs:label "Art Museum"@en .
+
+ex:ArtCollectors rdf:type airo:Stakeholder ;
+    rdfs:label "艺术品收藏家"@zh ;
+    rdfs:label "Art Collectors"@en .
+
+ex:GeneralPurpose rdf:type airo:Purpose ;
+    rdfs:label "通用目的"@zh ;
+    rdfs:label "General Purpose"@en .
+
+ex:GeneralAITechniques rdf:type airo:AITechnique ;
+    rdfs:label "通用人工智能技术"@zh ;
+    rdfs:label "General AI Techniques"@en .

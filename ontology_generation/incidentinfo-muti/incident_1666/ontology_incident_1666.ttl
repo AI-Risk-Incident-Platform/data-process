@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LAIONDataset rdf:type airo:AISystem ;
+    rdfs:label "LAION Dataset"@en ;
+    rdfs:label "LAION数据集"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:MedicalPatients ;
+    airo:isAppliedWithinDomain ex:HealthcareData ;
+    airo:usesTechnique ex:DataScraping .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfPersonalData ;
+    airo:isRiskSourceFor ex:InadequateDataConsentMechanisms .
+
+ex:UnauthorizedUseOfPersonalData rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Personal Data Consequence"@en ;
+    rdfs:label "个人数据未经授权使用的后果"@zh ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:MedicalPatients rdf:type airo:AISubject ;
+    rdfs:label "Medical Patients"@en ;
+    rdfs:label "医疗患者"@zh .
+
+ex:InadequateDataConsentMechanisms rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Data Consent Mechanisms Risk Source"@en ;
+    rdfs:label "数据同意机制不足的风险源"@zh .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress Impact"@en ;
+    rdfs:label "情绪困扰的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalPatients .
+
+ex:HealthcareData rdf:type airo:Domain ;
+    rdfs:label "Healthcare Data Domain"@en ;
+    rdfs:label "医疗保健数据领域"@zh .
+
+ex:DataScraping rdf:type airo:AITechnique ;
+    rdfs:label "Data Scraping Technique"@en ;
+    rdfs:label "数据抓取技术"@zh .

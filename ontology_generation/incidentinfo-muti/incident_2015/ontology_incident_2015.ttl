@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IntelEmotionDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Intel Emotion Detection AI"@en ;
+    rdfs:label "英特尔情绪检测AI"@zh ;
+    airo:hasRisk ex:EthicalConcernsInEmotionDetection ;
+    airo:hasAICapability ex:BodyLanguageAnalysis ;
+    airo:hasPurpose ex:DistanceLearningEnhancement ;
+    airo:isAppliedWithinDomain ex:EducationTechnology ;
+    airo:hasStakeholder ex:Students ;
+    airo:isDeployedBy ex:IntelCorporation .
+
+ex:EthicalConcernsInEmotionDetection rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in Emotion Detection Risk"@en ;
+    rdfs:label "情绪检测中的伦理问题风险"@zh ;
+    airo:hasConsequence ex:PrivacyInvasion ;
+    airo:isRiskSourceFor ex:UnprovenTechnology .
+
+ex:Students rdf:type airo:Stakeholder ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:BodyLanguageAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Body Language Analysis Capability"@en ;
+    rdfs:label "身体语言分析能力"@zh .
+
+ex:DistanceLearningEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Distance Learning Enhancement Purpose"@en ;
+    rdfs:label "远程学习增强目的"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:PrivacyInvasion rdf:type airo:Consequence ;
+    rdfs:label "Privacy Invasion Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:StudentPsychologicalStress .
+
+ex:StudentPsychologicalStress rdf:type airo:Impact ;
+    rdfs:label "Student Psychological Stress Impact"@en ;
+    rdfs:label "学生心理压力影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Students .
+
+ex:UnprovenTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Unproven Technology Risk Source"@en ;
+    rdfs:label "未经证实技术的风险源"@zh .
+
+ex:IntelCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Intel Corporation"@en ;
+    rdfs:label "英特尔公司"@zh .

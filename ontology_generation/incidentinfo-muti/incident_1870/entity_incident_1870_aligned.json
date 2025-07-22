@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAI",
+      "中文名称": "亚马逊AI系统",
+      "英文名称": "Amazon AI",
+      "来源": "Consumer champion Robert Hammond brings together 'best in class' legal team for £1 billion case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Risk": {
+      "id": "CompetitionRisk",
+      "中文名称": "竞争风险",
+      "英文名称": "Competition Risk",
+      "来源": "£1 billion case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Stakeholder": {
+      "id": "RobertHammond",
+      "中文名称": "罗伯特·哈蒙德",
+      "英文名称": "Robert Hammond",
+      "来源": "Consumer champion Robert Hammond brings together 'best in class' legal team"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "£1 billion case against Amazon"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAI",
+      "中文名称": "亚马逊AI系统",
+      "英文名称": "Amazon AI",
+      "来源": "Consumer champion Robert Hammond brings together 'best in class' legal team for £1 billion case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Risk": {
+      "id": "CompetitionRisk",
+      "中文名称": "竞争风险",
+      "英文名称": "Competition Risk",
+      "来源": "£1 billion case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Stakeholder": {
+      "id": "RobertHammond",
+      "中文名称": "罗伯特·哈蒙德",
+      "英文名称": "Robert Hammond",
+      "来源": "Consumer champion Robert Hammond brings together 'best in class' legal team"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "case against Amazon in the Competition Appeal Tribunal"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "£1 billion case against Amazon"
+    }
+  }
+}

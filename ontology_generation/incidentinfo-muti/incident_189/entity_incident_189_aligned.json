@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SaoPauloMetroFacialRecognitionSystem",
+      "中文名称": "圣保罗地铁面部识别系统",
+      "英文名称": "Sao Paulo Metro Facial Recognition System",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Court orders suspension of facial recognition use in São Paulo metro"
+    },
+    "Stakeholder": {
+      "id": "SaoPauloMetroOperator",
+      "中文名称": "圣保罗地铁运营商",
+      "英文名称": "Sao Paulo Metro Operator",
+      "来源": "Court orders suspension of facial recognition use in São Paulo metro"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通领域",
+      "英文名称": "Public Transportation Domain",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "Purpose": {
+      "id": "SecurityMonitoring",
+      "中文名称": "安全监控目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Le tribunal ordonne la suspension de l'utilisation de la reconnaissance faciale dans le métro de São Paulo"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SaoPauloMetroFacialRecognitionSystem",
+      "中文名称": "圣保罗地铁面部识别系统",
+      "英文名称": "Sao Paulo Metro Facial Recognition System",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Court orders suspension of facial recognition use in São Paulo metro"
+    },
+    "Stakeholder": {
+      "id": "SaoPauloMetroOperator",
+      "中文名称": "圣保罗地铁运营商",
+      "英文名称": "Sao Paulo Metro Operator",
+      "来源": "Court orders suspension of facial recognition use in São Paulo metro"
+    },
+    "Domain": {
+      "id": "PublicTransportation",
+      "中文名称": "公共交通领域",
+      "英文名称": "Public Transportation Domain",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "Purpose": {
+      "id": "SecurityMonitoring",
+      "中文名称": "安全监控目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "São Paulo subway ordered to suspend use of facial recognition"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Le tribunal ordonne la suspension de l'utilisation de la reconnaissance faciale dans le métro de São Paulo"
+    }
+  }
+}

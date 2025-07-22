@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GmailSecurityAI rdf:type airo:AISystem ;
+    rdfs:label "Gmail Security AI"@en ;
+    rdfs:label "Gmail安全AI"@zh ;
+    airo:hasRisk ex:AIPoweredScamRisk ;
+    airo:hasStakeholder ex:GmailUsers .
+
+ex:AIPoweredScamRisk rdf:type airo:Risk ;
+    rdfs:label "AI-Powered Scam Risk"@en ;
+    rdfs:label "AI驱动的诈骗风险"@zh ;
+    airo:hasConsequence ex:AccountSecurityBreach ;
+    airo:isRiskSourceFor ex:SophisticatedAIHack .
+
+ex:GmailUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Gmail Users"@en ;
+    rdfs:label "Gmail用户"@zh .
+
+ex:SophisticatedAIHack rdf:type airo:RiskSource ;
+    rdfs:label "Sophisticated AI Hack"@en ;
+    rdfs:label "复杂AI黑客攻击"@zh .
+
+ex:AccountSecurityBreach rdf:type airo:Consequence ;
+    rdfs:label "Account Security Breach"@en ;
+    rdfs:label "账户安全漏洞"@zh ;
+    airo:hasImpact ex:UserPrivacyCompromise .
+
+ex:UserPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "User Privacy Compromise"@en ;
+    rdfs:label "用户隐私泄露"@zh ;
+    airo:hasImpactOnStakeholder ex:GmailUsers .

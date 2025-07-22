@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PeriodTrackingApp",
+      "中文名称": "经期追踪应用",
+      "英文名称": "Period Tracking App",
+      "来源": "Period tracking app settles charges it lied to users about privacy"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "settles charges it lied to users about privacy"
+    },
+    "Stakeholder": {
+      "id": "AppUsers",
+      "中文名称": "应用用户",
+      "英文名称": "App Users",
+      "来源": "lied to users about privacy"
+    },
+    "Consequence": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露后果",
+      "英文名称": "User Privacy Compromise Consequence",
+      "来源": "lied to users about privacy"
+    },
+    "Impact": {
+      "id": "LossOfUserTrust",
+      "中文名称": "用户信任丧失影响",
+      "英文名称": "Loss of User Trust Impact",
+      "来源": "settles charges it lied to users about privacy"
+    }
+  }
+}

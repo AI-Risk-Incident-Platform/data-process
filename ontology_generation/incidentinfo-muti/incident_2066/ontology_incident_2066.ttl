@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SingaporePatrolRobots rdf:type airo:AISystem ;
+    rdfs:label "Singapore Patrol Robots"@en ;
+    rdfs:label "新加坡巡逻机器人"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isAppliedWithinDomain ex:PublicSafety ;
+    airo:hasPurpose ex:SocialBehaviorMonitoring ;
+    airo:hasCapability ex:BehaviorDetection ;
+    airo:hasStakeholder ex:SingaporeGovernment ;
+    airo:hasAISubject ex:PublicCitizens .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:MassSurveillance ;
+    airo:hasConsequence ex:LossOfPrivacy .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:SocialBehaviorMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Social Behavior Monitoring Purpose"@en ;
+    rdfs:label "社会行为监控目的"@zh .
+
+ex:BehaviorDetection rdf:type airo:AICapability ;
+    rdfs:label "Behavior Detection Capability"@en ;
+    rdfs:label "行为检测能力"@zh .
+
+ex:SingaporeGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Singapore Government"@en ;
+    rdfs:label "新加坡政府"@zh .
+
+ex:PublicCitizens rdf:type airo:AISubject ;
+    rdfs:label "Public Citizens"@en ;
+    rdfs:label "公众市民"@zh .
+
+ex:ChillingEffectOnSocialBehavior rdf:type airo:Impact ;
+    rdfs:label "Chilling Effect on Social Behavior Impact"@en ;
+    rdfs:label "对社会行为的寒蝉效应影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicCitizens .
+
+ex:MassSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Risk Source"@en ;
+    rdfs:label "大规模监控风险源"@zh .
+
+ex:LossOfPrivacy rdf:type airo:Consequence ;
+    rdfs:label "Loss of Privacy Consequence"@en ;
+    rdfs:label "隐私丧失后果"@zh ;
+    airo:hasImpact ex:ChillingEffectOnSocialBehavior .

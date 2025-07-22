@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "KidneyTransplantAllocationSystem",
+      "中文名称": "肾脏移植分配系统",
+      "英文名称": "Kidney Transplant Allocation System",
+      "来源": "新闻报道中提到的肾脏移植优先权分配系统"
+    },
+    "Risk": {
+      "id": "RacialBiasInOrganAllocation",
+      "中文名称": "器官分配中的种族偏见风险",
+      "英文名称": "Racial Bias in Organ Allocation Risk",
+      "来源": "黑人患者在等待肾脏移植时遭遇种族偏见"
+    },
+    "Stakeholder": {
+      "id": "BlackPatientsAwaitingTransplant",
+      "中文名称": "等待移植的黑人患者",
+      "英文名称": "Black Patients Awaiting Transplant",
+      "来源": "黑人患者起诉UNOS和Cedars-Sinai医院"
+    },
+    "AIOperator": {
+      "id": "UNOS",
+      "中文名称": "器官共享联合网络",
+      "英文名称": "United Network for Organ Sharing",
+      "来源": "被起诉的器官分配管理机构"
+    },
+    "Consequence": {
+      "id": "DelayedTransplantForMinorityPatients",
+      "中文名称": "少数族裔患者移植延迟后果",
+      "英文名称": "Delayed Transplant for Minority Patients Consequence",
+      "来源": "黑人患者在等待名单上等待时间更长"
+    },
+    "Impact": {
+      "id": "HealthDisparitiesInOrganTransplantation",
+      "中文名称": "器官移植中的健康差异影响",
+      "英文名称": "Health Disparities in Organ Transplantation Impact",
+      "来源": "种族偏见导致医疗资源分配不均"
+    },
+    "Domain": {
+      "id": "HealthcareOrganTransplantation",
+      "中文名称": "医疗保健器官移植领域",
+      "英文名称": "Healthcare Organ Transplantation Domain",
+      "来源": "涉及医疗系统中的器官移植流程"
+    }
+  }
+}

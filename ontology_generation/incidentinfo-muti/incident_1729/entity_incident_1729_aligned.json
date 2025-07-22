@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GovernmentAlgorithmForBenefitFraudDetection",
+      "中文名称": "政府福利欺诈检测算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInAlgorithmicFraudDetection",
+      "中文名称": "算法欺诈检测中的伦理问题风险",
+      "英文名称": "Ethical Concerns in Algorithmic Fraud Detection Risk",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Stakeholder": {
+      "id": "GroenLinksPoliticalParty",
+      "中文名称": "绿色左翼政党",
+      "英文名称": "GroenLinks Political Party",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Domain": {
+      "id": "GovernmentBenefitAdministration",
+      "中文名称": "政府福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GovernmentAlgorithmForBenefitFraudDetection",
+      "中文名称": "政府福利欺诈检测算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInAlgorithmicFraudDetection",
+      "中文名称": "算法欺诈检测中的伦理问题风险",
+      "英文名称": "Ethical Concerns in Algorithmic Fraud Detection Risk",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Stakeholder": {
+      "id": "GroenLinksPoliticalParty",
+      "中文名称": "绿色左翼政党",
+      "英文名称": "GroenLinks Political Party",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    },
+    "Domain": {
+      "id": "GovernmentBenefitAdministration",
+      "中文名称": "政府福利管理领域",
+      "英文名称": "Social Welfare Domain",
+      "来源": "GroenLinks kritisch over inzet algoritmes voor opsporen uitkeringsfraude"
+    }
+  }
+}

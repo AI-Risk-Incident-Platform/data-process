@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClearviewFacialRecognitionSoftware",
+      "中文名称": "Clearview面部识别软件",
+      "英文名称": "Clearview Facial Recognition",
+      "来源": "Macy’s Sued for Use of Clearview Facial-Recognition Software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Stakeholder": {
+      "id": "MacyRetailChain",
+      "中文名称": "梅西百货零售连锁",
+      "英文名称": "Macy Retail Chain",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "AISubject": {
+      "id": "StoreCustomers",
+      "中文名称": "商店顾客",
+      "英文名称": "Retail Customers",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Consequence": {
+      "id": "UnauthorizedFacialDataCollection",
+      "中文名称": "未经授权的面部数据收集后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Impact": {
+      "id": "ConsumerPrivacyViolation",
+      "中文名称": "消费者隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "Purpose": {
+      "id": "CustomerIdentificationAndTracking",
+      "中文名称": "顾客识别与追踪目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "Implied from the use of facial recognition in retail stores"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售行业领域",
+      "英文名称": "Retail Industry",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "RiskSource": {
+      "id": "FacialDataCollectionWithoutConsent",
+      "中文名称": "未经同意的面部数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ClearviewFacialRecognitionSoftware",
+      "中文名称": "Clearview面部识别软件",
+      "英文名称": "Clearview Facial Recognition",
+      "来源": "Macy’s Sued for Use of Clearview Facial-Recognition Software"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Stakeholder": {
+      "id": "MacyRetailChain",
+      "中文名称": "梅西百货零售连锁",
+      "英文名称": "Macy Retail Chain",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "AISubject": {
+      "id": "StoreCustomers",
+      "中文名称": "商店顾客",
+      "英文名称": "Retail Customers",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Consequence": {
+      "id": "UnauthorizedFacialDataCollection",
+      "中文名称": "未经授权的面部数据收集后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    },
+    "Impact": {
+      "id": "ConsumerPrivacyViolation",
+      "中文名称": "消费者隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "Purpose": {
+      "id": "CustomerIdentificationAndTracking",
+      "中文名称": "顾客识别与追踪目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "Implied from the use of facial recognition in retail stores"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售行业领域",
+      "英文名称": "Retail Industry",
+      "来源": "Retail Chain Macy’s Hit With Privacy Lawsuit Over Use of Clearview AI Facial Recognition"
+    },
+    "RiskSource": {
+      "id": "FacialDataCollectionWithoutConsent",
+      "中文名称": "未经同意的面部数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Macy’s sued for gathering facial data of customers at stores"
+    }
+  }
+}

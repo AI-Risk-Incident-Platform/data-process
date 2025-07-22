@@ -1,0 +1,92 @@
+{
+  "Malicious Content Creators Threat": [
+    [
+      "Automated Response Misuse Threat",
+      0.9140766367255017
+    ],
+    [
+      "Harmful Stereotype Propagation Threat",
+      0.88677213033796
+    ],
+    [
+      "Algorithmic Racial Bias Threat",
+      0.8680254035427573
+    ],
+    [
+      "Algorithmic Bias and Stereotype Threat Group",
+      0.8535545421433549
+    ]
+  ],
+  "Algorithmic Bias and Stereotype Threat Group": [
+    [
+      "Harmful Stereotype Propagation Threat",
+      0.957541019197292
+    ],
+    [
+      "Algorithmic Racial Bias Threat",
+      0.9558062337630832
+    ],
+    [
+      "Malicious Content Creators Threat",
+      0.8535545421433549
+    ],
+    [
+      "Automated Response Misuse Threat",
+      0.8493137363342921
+    ]
+  ],
+  "Algorithmic Racial Bias Threat": [
+    [
+      "Algorithmic Bias and Stereotype Threat Group",
+      0.9558062337630832
+    ],
+    [
+      "Harmful Stereotype Propagation Threat",
+      0.9374470311923366
+    ],
+    [
+      "Automated Response Misuse Threat",
+      0.8747884451985553
+    ],
+    [
+      "Malicious Content Creators Threat",
+      0.8680254035427573
+    ]
+  ],
+  "Harmful Stereotype Propagation Threat": [
+    [
+      "Algorithmic Bias and Stereotype Threat Group",
+      0.957541019197292
+    ],
+    [
+      "Algorithmic Racial Bias Threat",
+      0.9374470311923366
+    ],
+    [
+      "Malicious Content Creators Threat",
+      0.88677213033796
+    ],
+    [
+      "Automated Response Misuse Threat",
+      0.8578442050476227
+    ]
+  ],
+  "Automated Response Misuse Threat": [
+    [
+      "Malicious Content Creators Threat",
+      0.9140766367255017
+    ],
+    [
+      "Algorithmic Racial Bias Threat",
+      0.8747884451985553
+    ],
+    [
+      "Harmful Stereotype Propagation Threat",
+      0.8578442050476227
+    ],
+    [
+      "Algorithmic Bias and Stereotype Threat Group",
+      0.8493137363342921
+    ]
+  ]
+}

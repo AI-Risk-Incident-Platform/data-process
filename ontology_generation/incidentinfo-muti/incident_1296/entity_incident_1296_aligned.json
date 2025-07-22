@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITrafficCameras",
+      "中文名称": "AI交通摄像头",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "Risk": {
+      "id": "WrongfulFinesRisk",
+      "中文名称": "错误罚款风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "Consequence": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "RiskSource": {
+      "id": "SystemSlips",
+      "中文名称": "系统失误风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "RiskControl": {
+      "id": "ManualRevalidation",
+      "中文名称": "人工复核管控",
+      "英文名称": "Manual Revalidation Risk Control",
+      "来源": "We revalidate AI fines manually, says Bengaluru traffic chief"
+    },
+    "Stakeholder": {
+      "id": "BengaluruTrafficChief",
+      "中文名称": "班加罗尔交通主管",
+      "英文名称": "Bengaluru Traffic Chief",
+      "来源": "We revalidate AI fines manually, says Bengaluru traffic chief"
+    },
+    "Domain": {
+      "id": "TrafficManagement",
+      "中文名称": "交通管理领域",
+      "英文名称": "Traffic Management Domain",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITrafficCameras",
+      "中文名称": "AI交通摄像头",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "Risk": {
+      "id": "WrongfulFinesRisk",
+      "中文名称": "错误罚款风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "Consequence": {
+      "id": "PublicCriticism",
+      "中文名称": "公众批评后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "RiskSource": {
+      "id": "SystemSlips",
+      "中文名称": "系统失误风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    },
+    "RiskControl": {
+      "id": "ManualRevalidation",
+      "中文名称": "人工复核管控",
+      "英文名称": "Manual Revalidation Risk Control",
+      "来源": "We revalidate AI fines manually, says Bengaluru traffic chief"
+    },
+    "Stakeholder": {
+      "id": "BengaluruTrafficChief",
+      "中文名称": "班加罗尔交通主管",
+      "英文名称": "Bengaluru Traffic Chief",
+      "来源": "We revalidate AI fines manually, says Bengaluru traffic chief"
+    },
+    "Domain": {
+      "id": "TrafficManagement",
+      "中文名称": "交通管理领域",
+      "英文名称": "Traffic Management Domain",
+      "来源": "AI traffic cameras face criticism for wrongful fines due to system slips"
+    }
+  }
+}

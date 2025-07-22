@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingTech",
+      "中文名称": "特斯拉全自动驾驶技术",
+      "英文名称": "Tesla Full Self-Driving Tech",
+      "来源": "Tesla's Full Self-Driving tech keeps getting fooled by the moon, billboards, and Burger King signs"
+    },
+    "Risk": {
+      "id": "MisinterpretationRisk",
+      "中文名称": "误判风险",
+      "英文名称": "Misinterpretation Risk",
+      "来源": "Tesla's Full Self-Driving tech keeps getting fooled by the moon, billboards, and Burger King signs"
+    },
+    "AICapability": {
+      "id": "ObjectRecognition",
+      "中文名称": "物体识别能力",
+      "英文名称": "Object Recognition Capability",
+      "来源": "Video showing moon interpreted as yellow stop light"
+    },
+    "RiskSource": {
+      "id": "VisualSimilarity",
+      "中文名称": "视觉相似性风险源",
+      "英文名称": "Visual Similarity Risk Source",
+      "来源": "Tesla's Full Self-Driving tech keeps getting fooled by the moon, billboards, and Burger King signs"
+    },
+    "Consequence": {
+      "id": "TrafficSafetyHazard",
+      "中文名称": "交通安全隐患后果",
+      "英文名称": "Traffic Safety Hazard Consequence",
+      "来源": "We tried Tesla's 'full self-driving.' Here's what happened"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla's Full Self-Driving tech keeps getting fooled by the moon, billboards, and Burger King signs"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Driving Domain",
+      "来源": "We tried Tesla's 'full self-driving.' Here's what happened"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Computer Vision Technique",
+      "来源": "Video showing moon interpreted as yellow stop light"
+    }
+  }
+}

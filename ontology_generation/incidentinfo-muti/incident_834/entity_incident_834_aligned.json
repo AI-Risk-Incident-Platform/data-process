@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FabricatedCNNVideoSystem",
+      "中文名称": "伪造CNN视频系统",
+      "英文名称": "CNN Deep Fake Video System",
+      "来源": "Fabricated CNN election broadcast spreads online"
+    },
+    "Risk": {
+      "id": "FalseCheatingClaimsRisk",
+      "中文名称": "虚假作弊指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "sparking false cheating claims"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "spreading false claims online"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "false cheating claims affecting election perception"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "claims spreading among the public"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedFakeContent",
+      "中文名称": "AI生成虚假内容风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "fabricated broadcast spreading online"
+    },
+    "Domain": {
+      "id": "MediaAndElections",
+      "中文名称": "媒体与选举领域",
+      "英文名称": "Election Media Domain",
+      "来源": "election broadcast spreading false claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FabricatedCNNVideoSystem",
+      "中文名称": "伪造CNN视频系统",
+      "英文名称": "CNN Deep Fake Video System",
+      "来源": "Fabricated CNN election broadcast spreads online"
+    },
+    "Risk": {
+      "id": "FalseCheatingClaimsRisk",
+      "中文名称": "虚假作弊指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "sparking false cheating claims"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "spreading false claims online"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "false cheating claims affecting election perception"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "claims spreading among the public"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedFakeContent",
+      "中文名称": "AI生成虚假内容风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "fabricated broadcast spreading online"
+    },
+    "Domain": {
+      "id": "MediaAndElections",
+      "中文名称": "媒体与选举领域",
+      "英文名称": "Election Media Domain",
+      "来源": "election broadcast spreading false claims"
+    }
+  }
+}

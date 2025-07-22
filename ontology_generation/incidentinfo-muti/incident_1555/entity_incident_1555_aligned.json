@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla leak reportedly shows thousands of Full Self-Driving safety complaints"
+    },
+    "Risk": {
+      "id": "VehicleSafetyRisk",
+      "中文名称": "车辆安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    },
+    "RiskSource": {
+      "id": "SafetyComplaints",
+      "中文名称": "安全投诉",
+      "英文名称": "Safety Complaints",
+      "来源": "Tesla leak reportedly shows thousands of Full Self-Driving safety complaints"
+    },
+    "Consequence": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧",
+      "英文名称": "Public Safety Concerns",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla leak reportedly shows thousands of Full Self-Driving safety complaints"
+    },
+    "Risk": {
+      "id": "VehicleSafetyRisk",
+      "中文名称": "车辆安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    },
+    "RiskSource": {
+      "id": "SafetyComplaints",
+      "中文名称": "安全投诉",
+      "英文名称": "Safety Complaints",
+      "来源": "Tesla leak reportedly shows thousands of Full Self-Driving safety complaints"
+    },
+    "Consequence": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧",
+      "英文名称": "Public Safety Concerns",
+      "来源": "Ex-Tesla employee casts doubt on car safety"
+    }
+  }
+}

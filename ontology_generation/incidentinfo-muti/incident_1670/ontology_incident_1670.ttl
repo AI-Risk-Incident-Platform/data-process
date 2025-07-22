@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeGenerationAI rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Generation AI"@en ;
+    rdfs:label "深度伪造生成AI"@zh ;
+    airo:hasRisk ex:DeepfakeMisuseRisk ;
+    airo:hasStakeholder ex:AICompany .
+
+ex:DeepfakeMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Deepfake Misuse Risk"@en ;
+    rdfs:label "深度伪造滥用风险"@zh ;
+    airo:hasConsequence ex:PotentialMisinformationSpread ;
+    airo:isRiskSourceFor ex:UncontrolledDeepfakeRelease .
+
+ex:AICompany rdf:type airo:Stakeholder ;
+    rdfs:label "AI Company"@en ;
+    rdfs:label "AI公司"@zh .
+
+ex:UncontrolledDeepfakeRelease rdf:type airo:RiskSource ;
+    rdfs:label "Uncontrolled Deepfake Release"@en ;
+    rdfs:label "不受控的深度伪造发布"@zh .
+
+ex:PotentialMisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Potential Misinformation Spread"@en ;
+    rdfs:label "潜在虚假信息传播"@zh .

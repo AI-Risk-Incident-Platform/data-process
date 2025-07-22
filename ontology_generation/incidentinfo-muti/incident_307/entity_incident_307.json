@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AtlasRobot",
+      "中文名称": "Atlas机器人",
+      "英文名称": "Atlas Robot",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo at the Congress of Future Scientists and Technologists"
+    },
+    "Risk": {
+      "id": "AutonomousRobotFailureRisk",
+      "中文名称": "自主机器人故障风险",
+      "英文名称": "Autonomous Robot Failure Risk",
+      "来源": "Watch ATLAS the Robot Autonomously Fall Off a Stage"
+    },
+    "Consequence": {
+      "id": "PhysicalDamageToRobot",
+      "中文名称": "机器人物理损坏后果",
+      "英文名称": "Physical Damage to Robot Consequence",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo"
+    },
+    "AICapability": {
+      "id": "AutonomousMovementCapability",
+      "中文名称": "自主移动能力",
+      "英文名称": "Autonomous Movement Capability",
+      "来源": "Watch ATLAS the Robot Autonomously Fall Off a Stage"
+    },
+    "AIOperator": {
+      "id": "BostonDynamics",
+      "中文名称": "波士顿动力公司",
+      "英文名称": "Boston Dynamics",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo"
+    },
+    "Stakeholder": {
+      "id": "CongressOfFutureScientistsAndTechnologists",
+      "中文名称": "未来科学家和技术专家大会",
+      "英文名称": "Congress of Future Scientists and Technologists",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo at the Congress of Future Scientists and Technologists"
+    },
+    "Impact": {
+      "id": "PublicDemonstrationFailureImpact",
+      "中文名称": "公开演示失败影响",
+      "英文名称": "Public Demonstration Failure Impact",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo"
+    },
+    "Purpose": {
+      "id": "HumanoidRobotTechnologyDemonstration",
+      "中文名称": "人形机器人技术展示目的",
+      "英文名称": "Humanoid Robot Technology Demonstration Purpose",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo at the Congress of Future Scientists and Technologists"
+    },
+    "Domain": {
+      "id": "RoboticsTechnology",
+      "中文名称": "机器人技术领域",
+      "英文名称": "Robotics Technology Domain",
+      "来源": "Boston Dynamics' Atlas Falls Over After Demo"
+    },
+    "AITechnique": {
+      "id": "DynamicBalanceControlTechnique",
+      "中文名称": "动态平衡控制技术",
+      "英文名称": "Dynamic Balance Control Technique",
+      "来源": "Watch ATLAS the Robot Autonomously Fall Off a Stage"
+    },
+    "Vulnerability": {
+      "id": "StageEdgeDetectionVulnerability",
+      "中文名称": "舞台边缘检测漏洞",
+      "英文名称": "Stage Edge Detection Vulnerability",
+      "来源": "Watch ATLAS the Robot Autonomously Fall Off a Stage"
+    },
+    "RiskSource": {
+      "id": "AutonomousNavigationAlgorithmFlaw",
+      "中文名称": "自主导航算法缺陷风险源",
+      "英文名称": "Autonomous Navigation Algorithm Flaw Risk Source",
+      "来源": "Watch ATLAS the Robot Autonomously Fall Off a Stage"
+    }
+  }
+}

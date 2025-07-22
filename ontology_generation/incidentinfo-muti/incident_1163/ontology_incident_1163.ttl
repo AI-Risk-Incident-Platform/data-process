@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionForCriminalIdentification rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition for Criminal Identification"@en ;
+    rdfs:label "面部识别用于罪犯识别"@zh ;
+    airo:hasRisk ex:BiasedCriminalIdentificationRisk ;
+    airo:hasAICapability ex:FacialFeatureAnalysis ;
+    airo:hasPurpose ex:CriminalIdentification ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:BiasedCriminalIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Biased Criminal Identification Risk"@en ;
+    rdfs:label "罪犯识别偏见风险"@zh ;
+    airo:hasConsequence ex:UnjustCriminalIdentification ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:FacialFeatureAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Facial Feature Analysis Capability"@en ;
+    rdfs:label "面部特征分析能力"@zh .
+
+ex:CriminalIdentification rdf:type airo:Purpose ;
+    rdfs:label "Criminal Identification Purpose"@en ;
+    rdfs:label "罪犯识别目的"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:UnjustCriminalIdentification rdf:type airo:Consequence ;
+    rdfs:label "Unjust Criminal Identification Consequence"@en ;
+    rdfs:label "不公正罪犯识别后果"@zh ;
+    airo:hasImpact ex:SocialDiscrimination .
+
+ex:SocialDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    rdfs:label "社会歧视影响"@zh .

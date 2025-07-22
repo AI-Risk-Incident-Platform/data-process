@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation Algorithm",
+      "来源": "YouTube faces criticism over climate misinformation"
+    },
+    "Risk": {
+      "id": "ClimateMisinformationRisk",
+      "中文名称": "气候错误信息风险",
+      "英文名称": "Climate Misinformation Risk",
+      "来源": "Why is YouTube Broadcasting Climate Misinformation to Millions?"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众错误信息后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "YouTube faces criticism over climate misinformation"
+    },
+    "Impact": {
+      "id": "ClimateActionDelay",
+      "中文名称": "气候行动延迟影响",
+      "英文名称": "Climate Action Delay Impact",
+      "来源": "Why is YouTube Broadcasting Climate Misinformation to Millions?"
+    },
+    "Stakeholder": {
+      "id": "YouTubeViewers",
+      "中文名称": "YouTube观众",
+      "英文名称": "YouTube Viewers",
+      "来源": "YouTube faces criticism over climate misinformation"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "YouTube faces criticism over climate misinformation"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "YouTube faces criticism over climate misinformation"
+    },
+    "Purpose": {
+      "id": "ContentEngagementMaximization",
+      "中文名称": "内容参与度最大化目的",
+      "英文名称": "Content Engagement Maximization Purpose",
+      "来源": "Why is YouTube Broadcasting Climate Misinformation to Millions?"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardEngagement",
+      "中文名称": "偏向参与度的算法偏见风险源",
+      "英文名称": "Algorithmic Bias Toward Engagement Risk Source",
+      "来源": "Why is YouTube Broadcasting Climate Misinformation to Millions?"
+    }
+  }
+}

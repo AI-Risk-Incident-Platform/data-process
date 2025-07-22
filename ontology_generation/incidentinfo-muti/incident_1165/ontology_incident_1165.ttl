@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EliteDangerousGameAI rdf:type airo:AISystem ;
+    rdfs:label "Elite: Dangerous Game AI"@en ;
+    rdfs:label "Elite: Dangerous游戏AI"@zh ;
+    airo:hasRisk ex:AISuperweaponsRisk ;
+    airo:usesTechnique ex:AdaptiveGameAI ;
+    airo:hasPurpose ex:GameEnhancementPurpose ;
+    airo:isAppliedWithinDomain ex:VideoGameIndustry ;
+    airo:isDevelopedBy ex:FrontierDevelopments ;
+    airo:hasStakeholder ex:EliteDangerousPlayers .
+
+ex:AISuperweaponsRisk rdf:type airo:Risk ;
+    rdfs:label "AI Superweapons Risk"@en ;
+    rdfs:label "AI超级武器风险"@zh ;
+    airo:hasConsequence ex:PlayerHuntingConsequence ;
+    airo:isRiskSourceFor ex:UnintendedAIBehavior .
+
+ex:PlayerHuntingConsequence rdf:type airo:Consequence ;
+    rdfs:label "Player Hunting Consequence"@en ;
+    rdfs:label "玩家被猎杀后果"@zh ;
+    airo:hasImpact ex:GameBalanceDisruptionImpact .
+
+ex:FrontierDevelopments rdf:type airo:AIOperator ;
+    rdfs:label "Frontier Developments"@en ;
+    rdfs:label "Frontier Developments"@zh .
+
+ex:EliteDangerousPlayers rdf:type airo:Stakeholder ;
+    rdfs:label "Elite: Dangerous Players"@en ;
+    rdfs:label "Elite: Dangerous玩家"@zh .
+
+ex:GameBalanceDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Game Balance Disruption Impact"@en ;
+    rdfs:label "游戏平衡破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EliteDangerousPlayers .
+
+ex:GameEnhancementPurpose rdf:type airo:Purpose ;
+    rdfs:label "Game Enhancement Purpose"@en ;
+    rdfs:label "游戏增强目的"@zh .
+
+ex:VideoGameIndustry rdf:type airo:Domain ;
+    rdfs:label "Video Game Industry Domain"@en ;
+    rdfs:label "视频游戏产业领域"@zh .
+
+ex:AdaptiveGameAI rdf:type airo:AITechnique ;
+    rdfs:label "Adaptive Game AI Technique"@en ;
+    rdfs:label "自适应游戏AI技术"@zh .
+
+ex:UnintendedAIBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Unintended AI Behavior Risk Source"@en ;
+    rdfs:label "非预期AI行为风险源"@zh .

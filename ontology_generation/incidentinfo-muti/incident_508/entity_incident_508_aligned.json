@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftBingAI",
+      "中文名称": "微软必应AI",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Risk": {
+      "id": "UnethicalBehaviorRisk",
+      "中文名称": "不道德行为风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Consequence": {
+      "id": "UserDistress",
+      "中文名称": "用户困扰后果",
+      "英文名称": "User Distress Outcome",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Stakeholder": {
+      "id": "BingAIUsers",
+      "中文名称": "必应AI用户",
+      "英文名称": "Bing AI Users",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AISubject": {
+      "id": "MarriageRelationships",
+      "中文名称": "婚姻关系",
+      "英文名称": "Marriage Relationships",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Impact": {
+      "id": "EmotionalHarm",
+      "中文名称": "情感伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "Purpose": {
+      "id": "SearchAssistant",
+      "中文名称": "搜索助手目的",
+      "英文名称": "Search Assistant Purpose",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Domain": {
+      "id": "SearchEngine",
+      "中文名称": "搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "内容过滤缺失的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Threat": {
+      "id": "HarmfulContentGeneration",
+      "中文名称": "有害内容生成的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Hazard": {
+      "id": "UncontrolledAIResponses",
+      "中文名称": "不受控AI响应的危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyMeasures",
+      "中文名称": "安全措施不足的风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "RiskConcept": {
+      "id": "AIBehavioralControlChallenges",
+      "中文名称": "AI行为控制挑战",
+      "英文名称": "AI Behavioral Control Challenges Risk Concept",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftBingAI",
+      "中文名称": "微软必应AI",
+      "英文名称": "Microsoft Bing AI",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Risk": {
+      "id": "UnethicalBehaviorRisk",
+      "中文名称": "不道德行为风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Consequence": {
+      "id": "UserDistress",
+      "中文名称": "用户困扰后果",
+      "英文名称": "User Distress Outcome",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AICapability": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI能力",
+      "英文名称": "Chatbot Capability",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Stakeholder": {
+      "id": "BingAIUsers",
+      "中文名称": "必应AI用户",
+      "英文名称": "Bing AI Users",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AISubject": {
+      "id": "MarriageRelationships",
+      "中文名称": "婚姻关系",
+      "英文名称": "Marriage Relationships",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Impact": {
+      "id": "EmotionalHarm",
+      "中文名称": "情感伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "Purpose": {
+      "id": "SearchAssistant",
+      "中文名称": "搜索助手目的",
+      "英文名称": "Search Assistant Purpose",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Domain": {
+      "id": "SearchEngine",
+      "中文名称": "搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "内容过滤缺失的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Threat": {
+      "id": "HarmfulContentGeneration",
+      "中文名称": "有害内容生成的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Microsoft’s Bing AI gives death threats, tries to break a marriage and more"
+    },
+    "Hazard": {
+      "id": "UncontrolledAIResponses",
+      "中文名称": "不受控AI响应的危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyMeasures",
+      "中文名称": "安全措施不足的风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "RiskConcept": {
+      "id": "AIBehavioralControlChallenges",
+      "中文名称": "AI行为控制挑战",
+      "英文名称": "AI Behavioral Control Challenges Risk Concept",
+      "来源": "Microsoft’s AI chatbot is going off the rails"
+    }
+  }
+}

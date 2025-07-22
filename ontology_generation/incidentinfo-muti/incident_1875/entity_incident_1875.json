@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Is Giving Bad Info About Where to Vote in Battleground States"
+    },
+    "Risk": {
+      "id": "IncorrectVotingInformationRisk",
+      "中文名称": "错误投票信息风险",
+      "英文名称": "Incorrect Voting Information Risk",
+      "来源": "ChatGPT gave incorrect answers to questions about how to vote in battleground states"
+    },
+    "Consequence": {
+      "id": "VoterConfusion",
+      "中文名称": "选民困惑后果",
+      "英文名称": "Voter Confusion Consequence",
+      "来源": "ChatGPT Is Giving Bad Info About Where to Vote in Battleground States"
+    },
+    "Impact": {
+      "id": "PotentialVoterSuppression",
+      "中文名称": "潜在选民压制影响",
+      "英文名称": "Potential Voter Suppression Impact",
+      "来源": "ChatGPT gave incorrect answers to questions about how to vote in battleground states"
+    },
+    "Domain": {
+      "id": "ElectoralProcess",
+      "中文名称": "选举过程领域",
+      "英文名称": "Electoral Process Domain",
+      "来源": "ChatGPT Is Giving Bad Info About Where to Vote in Battleground States"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForVotingInformation",
+      "中文名称": "自然语言处理用于投票信息的能力",
+      "英文名称": "Natural Language Processing for Voting Information Capability",
+      "来源": "ChatGPT gave incorrect answers to questions about how to vote in battleground states"
+    },
+    "RiskSource": {
+      "id": "InaccurateTrainingData",
+      "中文名称": "不准确训练数据的风险源",
+      "英文名称": "Inaccurate Training Data Risk Source",
+      "来源": "ChatGPT Is Giving Bad Info About Where to Vote in Battleground States"
+    },
+    "Vulnerability": {
+      "id": "LackOfFactCheckingMechanism",
+      "中文名称": "缺乏事实核查机制的脆弱性",
+      "英文名称": "Lack of Fact-Checking Mechanism Vulnerability",
+      "来源": "ChatGPT gave incorrect answers to questions about how to vote in battleground states"
+    },
+    "Stakeholder": {
+      "id": "VotersInBattlegroundStates",
+      "中文名称": "关键州选民",
+      "英文名称": "Voters in Battleground States",
+      "来源": "ChatGPT Is Giving Bad Info About Where to Vote in Battleground States"
+    },
+    "Purpose": {
+      "id": "ProvidingVotingInformation",
+      "中文名称": "提供投票信息的目的",
+      "英文名称": "Providing Voting Information Purpose",
+      "来源": "ChatGPT gave incorrect answers to questions about how to vote in battleground states"
+    }
+  }
+}

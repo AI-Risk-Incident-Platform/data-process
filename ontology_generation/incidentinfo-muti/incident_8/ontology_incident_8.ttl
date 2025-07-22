@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GooglePhotosFacialRecognition rdf:type airo:AISystem ;
+    rdfs:label "谷歌照片面部识别系统"@zh ;
+    rdfs:label "Google Photos Facial Recognition System"@en ;
+    airo:hasRisk ex:RacialBiasInFacialRecognition ;
+    airo:hasCapability ex:ImageClassification ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasAISubject ex:BlackIndividuals ;
+    airo:hasPurpose ex:PhotoOrganization ;
+    airo:isAppliedWithinDomain ex:ConsumerPhotography ;
+    airo:usesTechnique ex:DeepLearning ;
+    airo:hasStakeholder ex:AfricanAmericanUsers .
+
+ex:RacialBiasInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    airo:hasConsequence ex:RacialDiscrimination ;
+    airo:isRiskSourceFor ex:InsufficientTestingOnDiversePopulations ;
+    airo:isRiskSourceFor ex:AlgorithmicRacialBias ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:RacialDiscrimination rdf:type airo:Consequence ;
+    rdfs:label "种族歧视后果"@zh ;
+    rdfs:label "Racial Discrimination Consequence"@en ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:ImageClassification rdf:type airo:AICapability ;
+    rdfs:label "图像分类能力"@zh ;
+    rdfs:label "Image Classification Capability"@en .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "谷歌"@zh ;
+    rdfs:label "Google"@en .
+
+ex:AfricanAmericanUsers rdf:type airo:Stakeholder ;
+    rdfs:label "非裔美国用户"@zh ;
+    rdfs:label "African American Users"@en .
+
+ex:BlackIndividuals rdf:type airo:AISubject ;
+    rdfs:label "黑人个体"@zh ;
+    rdfs:label "Black Individuals"@en .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "心理伤害影响"@zh ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AfricanAmericanUsers .
+
+ex:PhotoOrganization rdf:type airo:Purpose ;
+    rdfs:label "照片组织目的"@zh ;
+    rdfs:label "Photo Organization Purpose"@en .
+
+ex:ConsumerPhotography rdf:type airo:Domain ;
+    rdfs:label "消费者摄影领域"@zh ;
+    rdfs:label "Consumer Photography Domain"@en .
+
+ex:DeepLearning rdf:type airo:AITechnique ;
+    rdfs:label "深度学习技术"@zh ;
+    rdfs:label "Deep Learning Technique"@en .
+
+ex:InsufficientTestingOnDiversePopulations rdf:type airo:RiskSource ;
+    rdfs:label "对不同人群测试不足的风险源"@zh ;
+    rdfs:label "Insufficient Testing on Diverse Populations Risk Source"@en ;
+    airo:exploitsVulnerability ex:LackOfDiverseTrainingData .
+
+ex:AlgorithmicRacialBias rdf:type airo:Threat ;
+    rdfs:label "算法种族偏见威胁"@zh ;
+    rdfs:label "Algorithmic Racial Bias Threat"@en ;
+    airo:exploitsVulnerability ex:LackOfDiverseTrainingData .
+
+ex:BiasedTrainingData rdf:type airo:Hazard ;
+    rdfs:label "有偏见的训练数据危害"@zh ;
+    rdfs:label "Biased Training Data Hazard"@en ;
+    airo:exploitsVulnerability ex:LackOfDiverseTrainingData .
+
+ex:LackOfDiverseTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "缺乏多样化训练数据的脆弱性"@zh ;
+    rdfs:label "Lack of Diverse Training Data Vulnerability"@en .
+
+ex:EthicalIssuesInFacialRecognition rdf:type airo:RiskConcept ;
+    rdfs:label "面部识别中的伦理问题"@zh ;
+    rdfs:label "Ethical Issues in Facial Recognition Risk Concept"@en .

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SovietNuclearWarningSystem",
+      "中文名称": "苏联核预警系统",
+      "英文名称": "Soviet Nuclear Warning System",
+      "来源": "1983 Soviet nuclear false alarm incident"
+    },
+    "Risk": {
+      "id": "NuclearFalseAlarmRisk",
+      "中文名称": "核误报风险",
+      "英文名称": "Nuclear False Alarm Risk",
+      "来源": "Three times a computer glitch has created a false nuclear alarm"
+    },
+    "Consequence": {
+      "id": "PotentialNuclearWar",
+      "中文名称": "潜在核战争后果",
+      "英文名称": "Potential Nuclear War Consequence",
+      "来源": "Interview: Stanislav Petrov, Russian Who Averted Nuclear War"
+    },
+    "Stakeholder": {
+      "id": "SovietMilitaryOfficer",
+      "中文名称": "苏联军事官员",
+      "英文名称": "Soviet Military Officer",
+      "来源": "Interview: Stanislav Petrov, Russian Who Averted Nuclear War"
+    },
+    "RiskSource": {
+      "id": "SatelliteSensorMalfunction",
+      "中文名称": "卫星传感器故障风险源",
+      "英文名称": "Satellite Sensor Malfunction Risk Source",
+      "来源": "Three times a computer glitch has created a false nuclear alarm"
+    },
+    "Impact": {
+      "id": "GlobalSecurityThreat",
+      "中文名称": "全球安全威胁影响",
+      "英文名称": "Global Security Threat Impact",
+      "来源": "1983 Soviet nuclear false alarm incident"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SovietNuclearWarningSystem",
+      "中文名称": "苏联核预警系统",
+      "英文名称": "Soviet Nuclear Warning System",
+      "来源": "1983 Soviet nuclear false alarm incident"
+    },
+    "Risk": {
+      "id": "NuclearFalseAlarmRisk",
+      "中文名称": "核误报风险",
+      "英文名称": "Nuclear False Alarm Risk",
+      "来源": "Three times a computer glitch has created a false nuclear alarm"
+    },
+    "Consequence": {
+      "id": "PotentialNuclearWar",
+      "中文名称": "潜在核战争后果",
+      "英文名称": "Potential Nuclear War Consequence",
+      "来源": "Interview: Stanislav Petrov, Russian Who Averted Nuclear War"
+    },
+    "Stakeholder": {
+      "id": "SovietMilitaryOfficer",
+      "中文名称": "苏联军事官员",
+      "英文名称": "Soviet Military Officer",
+      "来源": "Interview: Stanislav Petrov, Russian Who Averted Nuclear War"
+    },
+    "RiskSource": {
+      "id": "SatelliteSensorMalfunction",
+      "中文名称": "卫星传感器故障风险源",
+      "英文名称": "Satellite Sensor Malfunction Risk Source",
+      "来源": "Three times a computer glitch has created a false nuclear alarm"
+    },
+    "Impact": {
+      "id": "GlobalSecurityThreat",
+      "中文名称": "全球安全威胁影响",
+      "英文名称": "Global Security Threat Impact",
+      "来源": "1983 Soviet nuclear false alarm incident"
+    }
+  }
+}

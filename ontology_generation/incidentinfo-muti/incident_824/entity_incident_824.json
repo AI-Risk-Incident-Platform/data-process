@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WhisperTranscriptionTool",
+      "中文名称": "Whisper转录工具",
+      "英文名称": "Whisper Transcription Tool",
+      "来源": "OpenAI's Whisper transcription tool has hallucination issues, researchers say"
+    },
+    "Risk": {
+      "id": "HallucinationRisk",
+      "中文名称": "幻觉风险",
+      "英文名称": "Hallucination Risk",
+      "来源": "Researchers say an AI-powered transcription tool used in hospitals invents things no one ever said"
+    },
+    "Consequence": {
+      "id": "InaccurateMedicalRecords",
+      "中文名称": "不准确的医疗记录后果",
+      "英文名称": "Inaccurate Medical Records Consequence",
+      "来源": "an AI-powered transcription tool used in hospitals invents things no one ever said"
+    },
+    "AICapability": {
+      "id": "SpeechToTextConversion",
+      "中文名称": "语音转文本能力",
+      "英文名称": "Speech-to-Text Conversion Capability",
+      "来源": "transcription tool"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI's Whisper transcription tool"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "used in hospitals"
+    },
+    "Impact": {
+      "id": "PatientSafetyThreat",
+      "中文名称": "患者安全威胁影响",
+      "英文名称": "Patient Safety Threat Impact",
+      "来源": "invents things no one ever said in hospital settings"
+    },
+    "RiskSource": {
+      "id": "AIHallucination",
+      "中文名称": "AI幻觉风险源",
+      "英文名称": "AI Hallucination Risk Source",
+      "来源": "has hallucination issues"
+    }
+  }
+}

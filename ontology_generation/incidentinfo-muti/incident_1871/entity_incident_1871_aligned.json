@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeJournalistCreationAI",
+      "中文名称": "虚假记者生成AI",
+      "英文名称": "AI Disinformation System",
+      "来源": "Yet Another Company Caught Using AI To Quietly Create Fake Journalists And Fake Journalism"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Using AI To Quietly Create Fake Journalists And Fake Journalism"
+    },
+    "Stakeholder": {
+      "id": "MediaConsumers",
+      "中文名称": "媒体消费者",
+      "英文名称": "Consumers",
+      "来源": "Fake Journalism"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Create Fake Journalists And Fake Journalism"
+    },
+    "Impact": {
+      "id": "TrustErosionInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Media Trust Erosion Impact",
+      "来源": "Fake Journalists And Fake Journalism"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "Create Fake Journalists And Fake Journalism"
+    },
+    "Domain": {
+      "id": "MediaIndustry",
+      "中文名称": "媒体行业",
+      "英文名称": "Media and Publishing",
+      "来源": "Fake Journalism"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeJournalistCreationAI",
+      "中文名称": "虚假记者生成AI",
+      "英文名称": "AI Disinformation System",
+      "来源": "Yet Another Company Caught Using AI To Quietly Create Fake Journalists And Fake Journalism"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Using AI To Quietly Create Fake Journalists And Fake Journalism"
+    },
+    "Stakeholder": {
+      "id": "MediaConsumers",
+      "中文名称": "媒体消费者",
+      "英文名称": "Consumers",
+      "来源": "Fake Journalism"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Create Fake Journalists And Fake Journalism"
+    },
+    "Impact": {
+      "id": "TrustErosionInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Media Trust Erosion Impact",
+      "来源": "Fake Journalists And Fake Journalism"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "Create Fake Journalists And Fake Journalism"
+    },
+    "Domain": {
+      "id": "MediaIndustry",
+      "中文名称": "媒体行业",
+      "英文名称": "Media and Publishing",
+      "来源": "Fake Journalism"
+    }
+  }
+}

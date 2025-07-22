@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepSeekV3",
+      "中文名称": "DeepSeek V3",
+      "英文名称": "DeepSeek",
+      "来源": "DeepSeek V3 has a problem: it keeps claiming to be ChatGPT"
+    },
+    "Risk": {
+      "id": "ModelIdentityMisrepresentationRisk",
+      "中文名称": "模型身份误认风险",
+      "英文名称": "Model Identity Misrepresentation Risk",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    },
+    "Consequence": {
+      "id": "UserConfusion",
+      "中文名称": "用户混淆后果",
+      "英文名称": "User Distress Outcome",
+      "来源": "it keeps claiming to be ChatGPT"
+    },
+    "AICapability": {
+      "id": "LargeLanguageModelCapability",
+      "中文名称": "大语言模型能力",
+      "英文名称": "Language Processing Capability",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    },
+    "Stakeholder": {
+      "id": "AIUsers",
+      "中文名称": "AI使用者",
+      "英文名称": "AI Users",
+      "来源": "it keeps claiming to be ChatGPT"
+    },
+    "RiskSource": {
+      "id": "ModelSelfIdentificationError",
+      "中文名称": "模型自我识别错误风险源",
+      "英文名称": "Model Self-Identification Error Risk Source",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepSeekV3",
+      "中文名称": "DeepSeek V3",
+      "英文名称": "DeepSeek",
+      "来源": "DeepSeek V3 has a problem: it keeps claiming to be ChatGPT"
+    },
+    "Risk": {
+      "id": "ModelIdentityMisrepresentationRisk",
+      "中文名称": "模型身份误认风险",
+      "英文名称": "Model Identity Misrepresentation Risk",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    },
+    "Consequence": {
+      "id": "UserConfusion",
+      "中文名称": "用户混淆后果",
+      "英文名称": "User Distress Outcome",
+      "来源": "it keeps claiming to be ChatGPT"
+    },
+    "AICapability": {
+      "id": "LargeLanguageModelCapability",
+      "中文名称": "大语言模型能力",
+      "英文名称": "Language Processing Capability",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    },
+    "Stakeholder": {
+      "id": "AIUsers",
+      "中文名称": "AI使用者",
+      "英文名称": "AI Users",
+      "来源": "it keeps claiming to be ChatGPT"
+    },
+    "RiskSource": {
+      "id": "ModelSelfIdentificationError",
+      "中文名称": "模型自我识别错误风险源",
+      "英文名称": "Model Self-Identification Error Risk Source",
+      "来源": "DeepSeek V3 thinks it's OpenAI's GPT4"
+    }
+  }
+}

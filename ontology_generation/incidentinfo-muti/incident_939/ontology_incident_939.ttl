@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GmailSecuritySystem rdf:type airo:AISystem ;
+    rdfs:label "Gmail Security System"@en ;
+    rdfs:label "Gmail安全系统"@zh ;
+    airo:hasRisk ex:AIHackRisk ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasAISubject ex:GmailUsers ;
+    airo:usesTechnique ex:SophisticatedAIAttackTechnique .
+
+ex:AIHackRisk rdf:type airo:Risk ;
+    rdfs:label "AI Hack Risk"@en ;
+    rdfs:label "AI黑客攻击风险"@zh ;
+    airo:hasImpact ex:DataBreachImpact ;
+    airo:isRiskSourceFor ex:GoogleSubdomainsExploitation .
+
+ex:Google rdf:type airo:AIDeveloper ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:GmailUsers rdf:type airo:AISubject ;
+    rdfs:label "Gmail Users"@en ;
+    rdfs:label "Gmail用户"@zh .
+
+ex:DataBreachImpact rdf:type airo:Impact ;
+    rdfs:label "Data Breach Impact"@en ;
+    rdfs:label "数据泄露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GmailUsers .
+
+ex:GoogleSubdomainsExploitation rdf:type airo:RiskSource ;
+    rdfs:label "Google Subdomains Exploitation"@en ;
+    rdfs:label "谷歌子域名利用"@zh .
+
+ex:SophisticatedAIAttackTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Sophisticated AI Attack Technique"@en ;
+    rdfs:label "复杂AI攻击技术"@zh .

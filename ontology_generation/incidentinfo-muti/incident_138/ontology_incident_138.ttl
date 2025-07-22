@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "TikTok Content Moderation System"@en ;
+    rdfs:label "TikTok内容审核系统"@zh ;
+    airo:hasRisk ex:DiscriminatoryContentModerationRisk ;
+    airo:hasAISubject ex:LatinaTransWomanUser ;
+    airo:usesTechnique ex:AutomatedContentModerationAlgorithm .
+
+ex:DiscriminatoryContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Discriminatory Content Moderation Risk"@en ;
+    rdfs:label "歧视性内容审核风险"@zh ;
+    airo:hasImpact ex:UnjustAccountDeletion .
+
+ex:LatinaTransWomanUser rdf:type airo:AISubject ;
+    rdfs:label "Latina Trans Woman User"@en ;
+    rdfs:label "拉丁裔跨性别女性用户"@zh .
+
+ex:UnjustAccountDeletion rdf:type airo:Impact ;
+    rdfs:label "Unjust Account Deletion Impact"@en ;
+    rdfs:label "不公正账户删除影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LatinaTransWomanUser .
+
+ex:AutomatedContentModerationAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Automated Content Moderation Algorithm Technique"@en ;
+    rdfs:label "自动化内容审核算法"@zh .

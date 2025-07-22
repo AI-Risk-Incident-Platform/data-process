@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionCriminalityPredictionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Criminality Prediction System"@en ;
+    rdfs:label "面部识别犯罪预测系统"@zh ;
+    airo:hasRisk ex:RacialBiasInCriminalityPrediction ;
+    airo:usesTechnique ex:FacialFeatureAnalysis ;
+    airo:hasAISubject ex:IndividualsBeingAssessed ;
+    airo:hasPurpose ex:CriminalBehaviorPrediction ;
+    airo:hasStakeholder ex:ResearchScientists .
+
+ex:RacialBiasInCriminalityPrediction rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Criminality Prediction Risk"@en ;
+    rdfs:label "犯罪预测中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasConsequence ex:UnjustProfiling .
+
+ex:FacialFeatureAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Facial Feature Analysis Technique"@en ;
+    rdfs:label "面部特征分析技术"@zh .
+
+ex:ResearchScientists rdf:type airo:Stakeholder ;
+    rdfs:label "Research Scientists"@en ;
+    rdfs:label "研究科学家"@zh .
+
+ex:IndividualsBeingAssessed rdf:type airo:AISubject ;
+    rdfs:label "Individuals Being Assessed"@en ;
+    rdfs:label "被评估个体"@zh .
+
+ex:DiscriminatoryLawEnforcement rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Law Enforcement Impact"@en ;
+    rdfs:label "歧视性执法影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualsBeingAssessed .
+
+ex:CriminalBehaviorPrediction rdf:type airo:Purpose ;
+    rdfs:label "Criminal Behavior Prediction Purpose"@en ;
+    rdfs:label "犯罪行为预测目的"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:UnjustProfiling rdf:type airo:Consequence ;
+    rdfs:label "Unjust Profiling Consequence"@en ;
+    rdfs:label "不公正画像后果"@zh ;
+    airo:hasImpact ex:DiscriminatoryLawEnforcement .

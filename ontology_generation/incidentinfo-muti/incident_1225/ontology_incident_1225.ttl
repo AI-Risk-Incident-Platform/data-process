@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UKBenefitsFraudDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "UK Benefits Fraud Detection AI System"@en ;
+    rdfs:label "英国福利欺诈检测AI系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInWelfareSystem ;
+    airo:hasStakeholder ex:DepartmentForWorkAndPensions ;
+    airo:isAppliedWithinDomain ex:SocialWelfareAdministration .
+
+ex:AlgorithmicBiasInWelfareSystem rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Welfare System Risk"@en ;
+    rdfs:label "福利系统中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairTargetingOfBenefitClaimants ;
+    airo:isRiskSourceFor ex:LackOfTransparencyInAIAlgorithm .
+
+ex:UnfairTargetingOfBenefitClaimants rdf:type airo:Consequence ;
+    rdfs:label "Unfair Targeting of Benefit Claimants Consequence"@en ;
+    rdfs:label "福利申请人被不公平针对的后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosionInWelfareSystem .
+
+ex:DepartmentForWorkAndPensions rdf:type airo:Stakeholder ;
+    rdfs:label "Department for Work and Pensions"@en ;
+    rdfs:label "英国就业与养老金部"@zh .
+
+ex:LackOfTransparencyInAIAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparency in AI Algorithm Risk Source"@en ;
+    rdfs:label "AI算法缺乏透明度的风险源"@zh .
+
+ex:PublicTrustErosionInWelfareSystem rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion in Welfare System Impact"@en ;
+    rdfs:label "公众对福利系统信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DepartmentForWorkAndPensions .
+
+ex:SocialWelfareAdministration rdf:type airo:Domain ;
+    rdfs:label "Social Welfare Administration Domain"@en ;
+    rdfs:label "社会福利管理领域"@zh .

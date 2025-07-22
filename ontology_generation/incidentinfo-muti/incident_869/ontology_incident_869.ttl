@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造生成系统"@zh ;
+    rdfs:label "Deepfake Generation System"@en ;
+    airo:hasAISubject ex:Congresswomen ;
+    airo:hasStakeholder ex:PoliticalFigures ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯和名誉损害风险"@zh ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    airo:hasConsequence ex:PsychologicalHarmAndProfessionalDamage ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:PsychologicalHarmAndProfessionalDamage rdf:type airo:Consequence ;
+    rdfs:label "心理伤害和职业损害后果"@zh ;
+    rdfs:label "Psychological Harm and Professional Damage Consequence"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:Congresswomen rdf:type airo:AISubject ;
+    rdfs:label "国会女议员"@zh ;
+    rdfs:label "Congresswomen"@en .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "政治人物"@zh ;
+    rdfs:label "Political Figures"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "生成对抗网络技术"@zh ;
+    rdfs:label "Generative Adversarial Networks Technique"@en .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "恶意内容创作风险源"@zh ;
+    rdfs:label "Malicious Content Creation Risk Source"@en .

@@ -1,0 +1,83 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaGalacticaAI rdf:type airo:AISystem ;
+    rdfs:label "Meta Galactica AI Model"@en ;
+    rdfs:label "Meta Galactica AI模型"@zh ;
+    airo:hasRisk ex:RacismAndNonsenseOutput ;
+    airo:hasCapability ex:TextGeneration ;
+    airo:isDevelopedBy ex:Meta ;
+    airo:hasPurpose ex:ScientificTextGeneration ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:isAppliedWithinDomain ex:SocialMedia ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:BiasInTrainingData .
+
+ex:RacismAndNonsenseOutput rdf:type airo:Risk ;
+    rdfs:label "Racism and Nonsense Output Risk"@en ;
+    rdfs:label "种族主义和无意义输出风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentGeneration ;
+    airo:isRiskSourceFor ex:InadequateContentFiltering , ex:MisinformationPropagation , ex:UnintendedHarmfulOutputs .
+
+ex:HarmfulContentGeneration rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Generation Consequence"@en ;
+    rdfs:label "有害内容生成后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:TextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:ScientificTextGeneration rdf:type airo:Purpose ;
+    rdfs:label "Scientific Text Generation Purpose"@en ;
+    rdfs:label "科学文本生成目的"@zh .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "Social Media Domain"@en ;
+    rdfs:label "社交媒体领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:BiasInTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "Bias in Training Data Vulnerability"@en ;
+    rdfs:label "训练数据中的偏见脆弱性"@zh .
+
+ex:InadequateContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Filtering Risk Source"@en ;
+    rdfs:label "内容过滤不足风险源"@zh .
+
+ex:MisinformationPropagation rdf:type airo:Threat ;
+    rdfs:label "Misinformation Propagation Threat"@en ;
+    rdfs:label "错误信息传播威胁"@zh .
+
+ex:UnintendedHarmfulOutputs rdf:type airo:Hazard ;
+    rdfs:label "Unintended Harmful Outputs Hazard"@en ;
+    rdfs:label "意外有害输出危害"@zh .
+
+ex:EthicalAIChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical AI Challenges Risk Concept"@en ;
+    rdfs:label "伦理AI挑战"@zh .

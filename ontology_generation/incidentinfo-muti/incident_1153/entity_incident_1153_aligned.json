@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleTranslate",
+      "中文名称": "谷歌翻译",
+      "英文名称": "Google Translate",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "Risk": {
+      "id": "GenderBiasInTranslation",
+      "中文名称": "翻译中的性别偏见风险",
+      "英文名称": "Gender Bias in Translation Risk",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "AICapability": {
+      "id": "GenderNeutralTranslation",
+      "中文名称": "性别中立翻译能力",
+      "英文名称": "Gender Neutral Translation Capability",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Translate"
+    },
+    "Impact": {
+      "id": "ReducedGenderStereotyping",
+      "中文名称": "减少性别刻板印象的影响",
+      "英文名称": "Reduced Gender Stereotyping Impact",
+      "来源": "gets rid of some gender biases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleTranslate",
+      "中文名称": "谷歌翻译",
+      "英文名称": "Google Translate",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "Risk": {
+      "id": "GenderBiasInTranslation",
+      "中文名称": "翻译中的性别偏见风险",
+      "英文名称": "Gender Bias in Translation Risk",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "AICapability": {
+      "id": "GenderNeutralTranslation",
+      "中文名称": "性别中立翻译能力",
+      "英文名称": "Gender Neutral Translation Capability",
+      "来源": "Google Translate gets rid of some gender biases"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Translate"
+    },
+    "Impact": {
+      "id": "ReducedGenderStereotyping",
+      "中文名称": "减少性别刻板印象的影响",
+      "英文名称": "Reduced Gender Stereotyping Impact",
+      "来源": "gets rid of some gender biases"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:PhantomBrakingRisk ;
+    airo:hasCapability ex:ObjectDetectionAndCollisionAvoidance ;
+    airo:hasStakeholder ex:TeslaVehicleOwners ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionBasedDrivingAssistance .
+
+ex:PhantomBrakingRisk rdf:type airo:Risk ;
+    rdfs:label "幽灵刹车风险"@zh ;
+    rdfs:label "Phantom Braking Risk"@en ;
+    airo:hasConsequence ex:SuddenUnintendedDeceleration ;
+    airo:isRiskSourceFor ex:SensorFalsePositives .
+
+ex:SuddenUnintendedDeceleration rdf:type airo:Consequence ;
+    rdfs:label "突然意外减速后果"@zh ;
+    rdfs:label "Sudden Unintended Deceleration Consequence"@en ;
+    airo:hasImpact ex:PotentialRearEndCollisions .
+
+ex:ObjectDetectionAndCollisionAvoidance rdf:type airo:AICapability ;
+    rdfs:label "物体检测和碰撞避免能力"@zh ;
+    rdfs:label "Object Detection and Collision Avoidance Capability"@en .
+
+ex:TeslaVehicleOwners rdf:type airo:Stakeholder ;
+    rdfs:label "特斯拉车主"@zh ;
+    rdfs:label "Tesla Vehicle Owners"@en ;
+    airo:hasImpactOnStakeholder ex:PotentialRearEndCollisions .
+
+ex:SensorFalsePositives rdf:type airo:RiskSource ;
+    rdfs:label "传感器误报风险源"@zh ;
+    rdfs:label "Sensor False Positives Risk Source"@en .
+
+ex:PotentialRearEndCollisions rdf:type airo:Impact ;
+    rdfs:label "潜在追尾碰撞影响"@zh ;
+    rdfs:label "Potential Rear-End Collisions Impact"@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:ComputerVisionBasedDrivingAssistance rdf:type airo:AITechnique ;
+    rdfs:label "基于计算机视觉的驾驶辅助技术"@zh ;
+    rdfs:label "Computer Vision Based Driving Assistance Technique"@en .

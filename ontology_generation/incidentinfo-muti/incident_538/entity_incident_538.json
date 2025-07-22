@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIDrivenFakeNewsGenerationSystem",
+      "中文名称": "AI驱动的假新闻生成系统",
+      "英文名称": "AI-Driven Fake News Generation System",
+      "来源": "Pentagon attack hoax that triggered brief market selloff illustrates pitfalls of A.I.-driven fake news"
+    },
+    "Risk": {
+      "id": "MarketDisruptionRisk",
+      "中文名称": "市场混乱风险",
+      "英文名称": "Market Disruption Risk",
+      "来源": "triggered brief market selloff"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑后果",
+      "英文名称": "Public Confusion Consequence",
+      "来源": "Fake Pentagon 'explosion' photo sows confusion on Twitter"
+    },
+    "Impact": {
+      "id": "FinancialMarketVolatility",
+      "中文名称": "金融市场波动影响",
+      "英文名称": "Financial Market Volatility Impact",
+      "来源": "triggered brief market selloff"
+    },
+    "Stakeholder": {
+      "id": "DeutscheBank",
+      "中文名称": "德意志银行",
+      "英文名称": "Deutsche Bank",
+      "来源": "warns Deutsche Bank"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "went viral on Twitter"
+    },
+    "AITechnique": {
+      "id": "DeepfakeImageGeneration",
+      "中文名称": "深度伪造图像生成技术",
+      "英文名称": "Deepfake Image Generation Technique",
+      "来源": "Fake Pentagon 'explosion' photo"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "Risk": {
+      "id": "TrafficSignalMisidentificationRisk",
+      "中文名称": "交通信号误识别风险",
+      "英文名称": "Traffic Light Misclassification Risk",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "RiskSource": {
+      "id": "VisualPatternConfusion",
+      "中文名称": "视觉模式混淆",
+      "英文名称": "Visual Pattern Confusion",
+      "来源": "Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficViolation",
+      "中文名称": "潜在交通违规",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "AICapability": {
+      "id": "TrafficSignalRecognition",
+      "中文名称": "交通信号识别能力",
+      "英文名称": "Traffic Signal Recognition Capability",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "Risk": {
+      "id": "TrafficSignalMisidentificationRisk",
+      "中文名称": "交通信号误识别风险",
+      "英文名称": "Traffic Light Misclassification Risk",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "RiskSource": {
+      "id": "VisualPatternConfusion",
+      "中文名称": "视觉模式混淆",
+      "英文名称": "Visual Pattern Confusion",
+      "来源": "Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficViolation",
+      "中文名称": "潜在交通违规",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Mistakes Red Letters on Flag for Red Traffic Lights"
+    },
+    "AICapability": {
+      "id": "TrafficSignalRecognition",
+      "中文名称": "交通信号识别能力",
+      "英文名称": "Traffic Signal Recognition Capability",
+      "来源": "Tesla Autopilot Mistakes Red Letters on Flag for Red Traffic Lights"
+    }
+  }
+}

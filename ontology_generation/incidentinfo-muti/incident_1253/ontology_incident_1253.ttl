@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIFakedVoiceInDocumentary rdf:type airo:AISystem ;
+    rdfs:label "AI Faked Voice in Documentary"@en ;
+    rdfs:label "纪录片中的AI伪造声音"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIVoiceReplication ;
+    airo:isAppliedWithinDomain ex:MediaProduction ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasStakeholder ex:DocumentaryViewers .
+
+ex:EthicalConcernsInAIVoiceReplication rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Voice Replication Risk"@en ;
+    rdfs:label "AI声音复制的伦理担忧风险"@zh ;
+    airo:hasImpact ex:AudienceDistrustInMedia .
+
+ex:DocumentaryViewers rdf:type airo:Stakeholder ;
+    rdfs:label "Documentary Viewers"@en ;
+    rdfs:label "纪录片观众"@zh .
+
+ex:MediaProduction rdf:type airo:Domain ;
+    rdfs:label "Media Production Domain"@en ;
+    rdfs:label "媒体制作领域"@zh .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:AudienceDistrustInMedia rdf:type airo:Impact ;
+    rdfs:label "Audience Distrust in Media Impact"@en ;
+    rdfs:label "观众对媒体不信任的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DocumentaryViewers .

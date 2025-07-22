@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIDetectionSystem",
+      "中文名称": "AI检测系统",
+      "英文名称": "AI Detection System",
+      "来源": "AI Detectors Wrongly Accuse Students of Cheating, Sparking Controversy"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "False Accusation Risk",
+      "来源": "AI Detectors Wrongly Accuse Students of Cheating"
+    },
+    "Consequence": {
+      "id": "UnfairAcademicConsequence",
+      "中文名称": "不公平学术后果",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "Students fight false accusations from AI-detection snake oil"
+    },
+    "Stakeholder": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Students fight false accusations from AI-detection snake oil"
+    },
+    "Impact": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害",
+      "英文名称": "Academic Reputation Damage",
+      "来源": "Students fight false accusations from AI-detection snake oil"
+    },
+    "RiskSource": {
+      "id": "InaccurateDetectionAlgorithm",
+      "中文名称": "不准确检测算法",
+      "英文名称": "Inaccurate Detection Algorithm",
+      "来源": "AI Detectors Wrongly Accuse Students of Cheating"
+    }
+  }
+}

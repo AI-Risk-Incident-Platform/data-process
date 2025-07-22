@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepFakeVideoContent",
+      "中文名称": "深度伪造视频内容",
+      "英文名称": "Deep Fake Video Content",
+      "来源": "‘Russian soldier’ in Ukraine was deep fake agitator in China"
+    },
+    "Risk": {
+      "id": "MisinformationAndDeceptionRisk",
+      "中文名称": "虚假信息和欺骗风险",
+      "英文名称": "Misinformation and Deception Risk",
+      "来源": "A TikToker told his 400,000 fans he was a Russian special forces warrior fighting US marines in Ukraine, but he turned out to be a Chinese grifter selling vodka online"
+    },
+    "Stakeholder": {
+      "id": "TikTokUsers",
+      "中文名称": "TikTok用户",
+      "英文名称": "TikTok Users",
+      "来源": "A TikToker told his 400,000 fans he was a Russian special forces warrior fighting US marines in Ukraine"
+    },
+    "AIOperator": {
+      "id": "ChineseGrifter",
+      "中文名称": "中国骗子",
+      "英文名称": "Chinese Grifter",
+      "来源": "he turned out to be a Chinese grifter selling vodka online"
+    },
+    "Consequence": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗",
+      "英文名称": "Public Deception",
+      "来源": "He Claimed to Be a Soldier in Ukraine. Except, He Was in Henan."
+    }
+  }
+}

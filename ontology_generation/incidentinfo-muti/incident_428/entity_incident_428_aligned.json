@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Police in Germany chase Tesla for 15 minutes after driver turns on autopilot and 'goes to sleep'"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleMisuseRisk",
+      "中文名称": "自动驾驶汽车滥用风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Misuse": {
+      "id": "DriverSleepingWhileAutopilotEngaged",
+      "中文名称": "驾驶员在自动驾驶开启时睡觉",
+      "英文名称": "Autopilot Misuse with Driver Inattention",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Consequence": {
+      "id": "PoliceChaseOnAutobahn",
+      "中文名称": "高速公路警车追逐",
+      "英文名称": "Police Chase on Autobahn",
+      "来源": "Police in Germany chase Tesla for 15 minutes"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "Stakeholder": {
+      "id": "GermanTrafficPolice",
+      "中文名称": "德国交通警察",
+      "英文名称": "German Traffic Police",
+      "来源": "Police in Germany chase Tesla"
+    },
+    "AISubject": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Police chase Tesla on Autobahn"
+    },
+    "Purpose": {
+      "id": "DriverAssistanceSystem",
+      "中文名称": "驾驶辅助系统",
+      "英文名称": "Driver Assistance System",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习",
+      "英文名称": "Computer Vision & ML",
+      "来源": "Tesla Autopilot System"
+    },
+    "Vulnerability": {
+      "id": "HumanRelianceOnAutonomousSystems",
+      "中文名称": "人类对自动驾驶系统的依赖",
+      "英文名称": "Human Reliance on Autonomous Systems",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Threat": {
+      "id": "ImproperUseOfAutonomousFeatures",
+      "中文名称": "自动驾驶功能不当使用",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Hazard": {
+      "id": "UnattendedVehicleOperation",
+      "中文名称": "无人监管的车辆操作",
+      "英文名称": "Unattended Vehicle Operation",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "RiskSource": {
+      "id": "DriverNegligence",
+      "中文名称": "驾驶员疏忽",
+      "英文名称": "Driver Negligence",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶汽车安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Police chase Tesla on Autobahn after driver turns on autopilot and falls asleep"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Police in Germany chase Tesla for 15 minutes after driver turns on autopilot and 'goes to sleep'"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleMisuseRisk",
+      "中文名称": "自动驾驶汽车滥用风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Misuse": {
+      "id": "DriverSleepingWhileAutopilotEngaged",
+      "中文名称": "驾驶员在自动驾驶开启时睡觉",
+      "英文名称": "Autopilot Misuse with Driver Inattention",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Consequence": {
+      "id": "PoliceChaseOnAutobahn",
+      "中文名称": "高速公路警车追逐",
+      "英文名称": "Police Chase on Autobahn",
+      "来源": "Police in Germany chase Tesla for 15 minutes"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "Stakeholder": {
+      "id": "GermanTrafficPolice",
+      "中文名称": "德国交通警察",
+      "英文名称": "German Traffic Police",
+      "来源": "Police in Germany chase Tesla"
+    },
+    "AISubject": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Police chase Tesla on Autobahn"
+    },
+    "Purpose": {
+      "id": "DriverAssistanceSystem",
+      "中文名称": "驾驶辅助系统",
+      "英文名称": "Driver Assistance System",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla on autopilot leads police on chase"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习",
+      "英文名称": "Computer Vision & ML",
+      "来源": "Tesla Autopilot System"
+    },
+    "Vulnerability": {
+      "id": "HumanRelianceOnAutonomousSystems",
+      "中文名称": "人类对自动驾驶系统的依赖",
+      "英文名称": "Human Reliance on Autonomous Systems",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Threat": {
+      "id": "ImproperUseOfAutonomousFeatures",
+      "中文名称": "自动驾驶功能不当使用",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "Hazard": {
+      "id": "UnattendedVehicleOperation",
+      "中文名称": "无人监管的车辆操作",
+      "英文名称": "Unattended Vehicle Operation",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "RiskSource": {
+      "id": "DriverNegligence",
+      "中文名称": "驾驶员疏忽",
+      "英文名称": "Driver Negligence",
+      "来源": "driver turns on autopilot and 'goes to sleep'"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶汽车安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Police chase Tesla on Autobahn after driver turns on autopilot and falls asleep"
+    }
+  }
+}

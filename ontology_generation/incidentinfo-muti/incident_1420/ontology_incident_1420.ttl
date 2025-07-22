@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EvolvWeaponsScanner rdf:type airo:AISystem ;
+    rdfs:label "Evolv武器扫描仪"@zh ;
+    rdfs:label "Evolv Weapons Scanner"@en ;
+    airo:hasRisk ex:InaccurateWeaponsDetectionRisk ;
+    airo:isDevelopedBy ex:EvolvTechnology ;
+    airo:hasStakeholder ex:UKTestingAuthorities .
+
+ex:InaccurateWeaponsDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "武器检测不准确风险"@zh ;
+    rdfs:label "Inaccurate Weapons Detection Risk"@en ;
+    airo:hasConsequence ex:PublicSafetyConcerns ;
+    airo:isRiskSourceFor ex:UnverifiedTestingClaims .
+
+ex:UKTestingAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "英国测试机构"@zh ;
+    rdfs:label "UK Testing Authorities"@en .
+
+ex:EvolvTechnology rdf:type airo:AIOperator ;
+    rdfs:label "Evolv技术公司"@zh ;
+    rdfs:label "Evolv Technology"@en .
+
+ex:UnverifiedTestingClaims rdf:type airo:RiskSource ;
+    rdfs:label "未经证实的测试声明"@zh ;
+    rdfs:label "Unverified Testing Claims"@en .
+
+ex:PublicSafetyConcerns rdf:type airo:Consequence ;
+    rdfs:label "公共安全担忧"@zh ;
+    rdfs:label "Public Safety Concerns"@en .

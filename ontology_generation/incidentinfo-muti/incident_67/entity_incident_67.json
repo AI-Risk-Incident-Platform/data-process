@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberAutonomousVehicle",
+      "中文名称": "优步自动驾驶汽车",
+      "英文名称": "Uber Autonomous Vehicle",
+      "来源": "A self-driving Uber ran a red light last December, contrary to company claims"
+    },
+    "Risk": {
+      "id": "TrafficViolationRisk",
+      "中文名称": "交通违规风险",
+      "英文名称": "Traffic Violation Risk",
+      "来源": "A self-driving Uber ran a red light last December"
+    },
+    "RiskSource": {
+      "id": "TechnologyFailure",
+      "中文名称": "技术故障",
+      "英文名称": "Technology Failure",
+      "来源": "Investigation: Uber red light-running car was fault of technology, not driver"
+    },
+    "Consequence": {
+      "id": "TrafficSafetyThreat",
+      "中文名称": "交通安全威胁",
+      "英文名称": "Traffic Safety Threat",
+      "来源": "A self-driving Uber ran a red light"
+    },
+    "AIOperator": {
+      "id": "Uber",
+      "中文名称": "优步",
+      "英文名称": "Uber",
+      "来源": "A self-driving Uber ran a red light last December, contrary to company claims"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶",
+      "英文名称": "Autonomous Driving",
+      "来源": "A self-driving Uber ran a red light"
+    }
+  }
+}

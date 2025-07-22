@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAITeam",
+      "中文名称": "亚马逊AI团队",
+      "英文名称": "Amazon AI Team",
+      "来源": "Amazon AI team flouted copyright laws to win arms race"
+    },
+    "Risk": {
+      "id": "CopyrightLawViolationRisk",
+      "中文名称": "违反版权法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "flouted copyright laws to win arms race"
+    },
+    "Stakeholder": {
+      "id": "FormerAILeadDeveloper",
+      "中文名称": "前AI首席开发人员",
+      "英文名称": "Former AI Lead Developer",
+      "来源": "former AI lead dev"
+    },
+    "RiskSource": {
+      "id": "CompetitivePressure",
+      "中文名称": "竞争压力",
+      "英文名称": "Competitive Pressure",
+      "来源": "to avoid falling behind rivals"
+    },
+    "Misuse": {
+      "id": "CopyrightRulesBreach",
+      "中文名称": "违反版权规则",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "breach internal copyright rules"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon AI team"
+    },
+    "Consequence": {
+      "id": "LegalAndEthicalViolations",
+      "中文名称": "法律和道德违规后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "flouted copyright laws"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "flouted copyright laws to win arms race"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAITeam",
+      "中文名称": "亚马逊AI团队",
+      "英文名称": "Amazon AI Team",
+      "来源": "Amazon AI team flouted copyright laws to win arms race"
+    },
+    "Risk": {
+      "id": "CopyrightLawViolationRisk",
+      "中文名称": "违反版权法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "flouted copyright laws to win arms race"
+    },
+    "Stakeholder": {
+      "id": "FormerAILeadDeveloper",
+      "中文名称": "前AI首席开发人员",
+      "英文名称": "Former AI Lead Developer",
+      "来源": "former AI lead dev"
+    },
+    "RiskSource": {
+      "id": "CompetitivePressure",
+      "中文名称": "竞争压力",
+      "英文名称": "Competitive Pressure",
+      "来源": "to avoid falling behind rivals"
+    },
+    "Misuse": {
+      "id": "CopyrightRulesBreach",
+      "中文名称": "违反版权规则",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "breach internal copyright rules"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon AI team"
+    },
+    "Consequence": {
+      "id": "LegalAndEthicalViolations",
+      "中文名称": "法律和道德违规后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "flouted copyright laws"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "flouted copyright laws to win arms race"
+    }
+  }
+}

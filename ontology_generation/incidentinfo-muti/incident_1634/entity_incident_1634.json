@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Taylor Swift Said to Use Facial Recognition to Identify Stalkers"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Surveillance fears grow after Taylor Swift uses face recognition tech on fans"
+    },
+    "Stakeholder": {
+      "id": "ConcertFans",
+      "中文名称": "演唱会粉丝",
+      "英文名称": "Concert Fans",
+      "来源": "Facial recognition tech used to scan for stalkers at Taylor Swift show: report"
+    },
+    "AISubject": {
+      "id": "PotentialStalkers",
+      "中文名称": "潜在跟踪者",
+      "英文名称": "Potential Stalkers",
+      "来源": "Taylor Swift Said to Use Facial Recognition to Identify Stalkers"
+    },
+    "Purpose": {
+      "id": "StalkerIdentification",
+      "中文名称": "跟踪者识别",
+      "英文名称": "Stalker Identification",
+      "来源": "Taylor Swift Said to Use Facial Recognition to Identify Stalkers"
+    },
+    "Domain": {
+      "id": "EntertainmentSecurity",
+      "中文名称": "娱乐安全",
+      "英文名称": "Entertainment Security",
+      "来源": "Facial recognition tech used to scan for stalkers at Taylor Swift show: report"
+    },
+    "Impact": {
+      "id": "PublicSurveillanceConcerns",
+      "中文名称": "公众监控担忧",
+      "英文名称": "Public Surveillance Concerns",
+      "来源": "Surveillance fears grow after Taylor Swift uses face recognition tech on fans"
+    }
+  }
+}

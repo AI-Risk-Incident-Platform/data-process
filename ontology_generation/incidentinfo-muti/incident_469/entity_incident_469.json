@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Facial recognition technology reinforcing racist stop-and-frisk policing in New York"
+    },
+    "Risk": {
+      "id": "RacistPolicingReinforcementRisk",
+      "中文名称": "种族主义警务强化风险",
+      "英文名称": "Racist Policing Reinforcement Risk",
+      "来源": "Facial recognition technology reinforcing racist stop-and-frisk policing in New York"
+    },
+    "AISubject": {
+      "id": "NewYorkResidents",
+      "中文名称": "纽约居民",
+      "英文名称": "New York Residents",
+      "来源": "stop-and-frisk policing in New York"
+    },
+    "Impact": {
+      "id": "RacialDiscriminationImpact",
+      "中文名称": "种族歧视影响",
+      "英文名称": "Racial Discrimination Impact",
+      "来源": "reinforcing racist stop-and-frisk policing"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "stop-and-frisk policing"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Facial Recognition Risk Source",
+      "来源": "reinforcing racist stop-and-frisk policing"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseAutonomousVehicle rdf:type airo:AISystem ;
+    rdfs:label "Cruise Autonomous Vehicle"@en ;
+    rdfs:label "Cruise自动驾驶汽车"@zh ;
+    airo:hasRisk ex:TrafficCollisionRisk ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:isDeployedBy ex:CruiseLLC ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving .
+
+ex:TrafficCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Traffic Collision Risk"@en ;
+    rdfs:label "交通碰撞风险"@zh ;
+    airo:hasConsequence ex:VehicleDamage .
+
+ex:VehicleDamage rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Damage Consequence"@en ;
+    rdfs:label "车辆损坏后果"@zh .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise LLC"@en ;
+    rdfs:label "Cruise有限责任公司"@zh .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "Autonomous Driving Domain"@en ;
+    rdfs:label "自动驾驶领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AliceVoiceAssistant rdf:type airo:AISystem ;
+    rdfs:label "Alice Voice Assistant"@en ;
+    rdfs:label "Alice语音助手"@zh ;
+    airo:hasRisk ex:HistoricalFigureGlorificationRisk ;
+    airo:isDevelopedBy ex:Yandex .
+
+ex:HistoricalFigureGlorificationRisk rdf:type airo:Risk ;
+    rdfs:label "Historical Figure Glorification Risk"@en ;
+    rdfs:label "历史人物美化风险"@zh ;
+    airo:hasConsequence ex:PropagandaDissemination ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:PropagandaDissemination rdf:type airo:Consequence ;
+    rdfs:label "Propaganda Dissemination Consequence"@en ;
+    rdfs:label "宣传传播后果"@zh ;
+    airo:hasImpact ex:HistoricalRevisionismImpact .
+
+ex:HistoricalRevisionismImpact rdf:type airo:Impact ;
+    rdfs:label "Historical Revisionism Impact"@en ;
+    rdfs:label "历史修正主义影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Yandex .
+
+ex:Yandex rdf:type airo:AIOperator ;
+    rdfs:label "Yandex"@en ;
+    rdfs:label "Yandex公司"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .

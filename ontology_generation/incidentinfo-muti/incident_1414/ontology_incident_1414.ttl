@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIgeneratedActivismContent rdf:type airo:AISystem ;
+    rdfs:label "AI-Generated Activism Content"@en ;
+    rdfs:label "AI生成的活动内容"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIActivism ;
+    airo:hasPurpose ex:ActivismCampaign ;
+    airo:hasStakeholder ex:SocialMediaUsers ;
+    airo:usesTechnique ex:ContentGenerationAI .
+
+ex:EthicalConcernsInAIActivism rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Activism Risk"@en ;
+    rdfs:label "AI活动中的伦理问题风险"@zh ;
+    airo:isRiskSourceFor ex:EthicalDilemmaInAIActivism .
+
+ex:ActivismCampaign rdf:type airo:Purpose ;
+    rdfs:label "Activism Campaign Purpose"@en ;
+    rdfs:label "活动宣传目的"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:ContentGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Content Generation AI Technique"@en ;
+    rdfs:label "内容生成AI技术"@zh .
+
+ex:EthicalDilemmaInAIActivism rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Dilemma in AI Activism Risk Concept"@en ;
+    rdfs:label "AI活动中的伦理困境"@zh .

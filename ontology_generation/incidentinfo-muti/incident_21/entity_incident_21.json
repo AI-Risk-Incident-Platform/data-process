@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleDriverlessCar",
+      "中文名称": "谷歌无人驾驶汽车",
+      "英文名称": "Google Driverless Car",
+      "来源": "Driverless Car Maker Denies Claim of Near-Miss With Google Car"
+    },
+    "Risk": {
+      "id": "NearMissRisk",
+      "中文名称": "接近碰撞风险",
+      "英文名称": "Near Miss Risk",
+      "来源": "Google's Driverless Car Almost Hit Delphi's Autonomous Vehicle, Report Says"
+    },
+    "Stakeholder": {
+      "id": "Delphi",
+      "中文名称": "德尔福",
+      "英文名称": "Delphi",
+      "来源": "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!"
+    },
+    "Consequence": {
+      "id": "PotentialCollision",
+      "中文名称": "潜在碰撞后果",
+      "英文名称": "Potential Collision Consequence",
+      "来源": "Google's Driverless Car Almost Hit Delphi's Autonomous Vehicle, Report Says"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Driverless Car Maker Denies Claim of Near-Miss With Google Car"
+    }
+  }
+}

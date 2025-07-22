@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAutomatedHRSystem",
+      "中文名称": "亚马逊自动化人力资源系统",
+      "英文名称": "Amazon Automated HR System",
+      "来源": "COVID-19 | Staff share concerns over Amazon's automated HR system"
+    },
+    "Risk": {
+      "id": "EmployeeConcernsOverAutomatedDecisions",
+      "中文名称": "员工对自动化决策的担忧风险",
+      "英文名称": "Employee Concerns Over Automated Decisions Risk",
+      "来源": "Staff share concerns over Amazon's automated HR system"
+    },
+    "Stakeholder": {
+      "id": "AmazonEmployees",
+      "中文名称": "亚马逊员工",
+      "英文名称": "Amazon Employees",
+      "来源": "Staff share concerns over Amazon's automated HR system"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's automated HR system"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源",
+      "英文名称": "Human Resources",
+      "来源": "Amazon's automated HR system"
+    }
+  }
+}

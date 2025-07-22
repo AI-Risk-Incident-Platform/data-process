@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook has apologized for flagging parts of the Declaration of Independence as hate speech"
+    },
+    "Risk": {
+      "id": "InaccurateContentModerationRisk",
+      "中文名称": "内容审核不准确风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "Consequence": {
+      "id": "HistoricalDocumentMisclassification",
+      "中文名称": "历史文件误分类后果",
+      "英文名称": "Historical Document Misclassification Consequence",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook has apologized"
+    },
+    "AITechnique": {
+      "id": "AutomatedTextAnalysis",
+      "中文名称": "自动化文本分析技术",
+      "英文名称": "Text Processing",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "RiskSource": {
+      "id": "OverlySensitiveLanguageDetection",
+      "中文名称": "过度敏感的语言检测风险源",
+      "英文名称": "Overly Sensitive Language Detection Risk Source",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook has apologized for flagging parts of the Declaration of Independence as hate speech"
+    },
+    "Risk": {
+      "id": "InaccurateContentModerationRisk",
+      "中文名称": "内容审核不准确风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "Consequence": {
+      "id": "HistoricalDocumentMisclassification",
+      "中文名称": "历史文件误分类后果",
+      "英文名称": "Historical Document Misclassification Consequence",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook has apologized"
+    },
+    "AITechnique": {
+      "id": "AutomatedTextAnalysis",
+      "中文名称": "自动化文本分析技术",
+      "英文名称": "Text Processing",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    },
+    "RiskSource": {
+      "id": "OverlySensitiveLanguageDetection",
+      "中文名称": "过度敏感的语言检测风险源",
+      "英文名称": "Overly Sensitive Language Detection Risk Source",
+      "来源": "flagging parts of the Declaration of Independence as hate speech"
+    }
+  }
+}

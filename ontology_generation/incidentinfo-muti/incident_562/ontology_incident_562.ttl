@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceDeepfakeSystem rdf:type airo:AISystem ;
+    rdfs:label "Voice Deepfake System"@en ;
+    rdfs:label "语音深度伪造系统"@zh ;
+    airo:hasRisk ex:SecurityBreachRisk ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasAISubject ex:Employee ;
+    airo:hasStakeholder ex:ITCompany .
+
+ex:SecurityBreachRisk rdf:type airo:Risk ;
+    rdfs:label "Security Breach Risk"@en ;
+    rdfs:label "安全漏洞风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedAccess ;
+    airo:isRiskSourceFor ex:VoiceImpersonation .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:VoiceImpersonation rdf:type airo:RiskSource ;
+    rdfs:label "Voice Impersonation"@en ;
+    rdfs:label "语音冒充"@zh .
+
+ex:UnauthorizedAccess rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Access"@en ;
+    rdfs:label "未经授权访问"@zh ;
+    airo:hasImpact ex:DataSecurityCompromise .
+
+ex:DataSecurityCompromise rdf:type airo:Impact ;
+    rdfs:label "Data Security Compromise"@en ;
+    rdfs:label "数据安全受损"@zh ;
+    airo:hasImpactOnStakeholder ex:ITCompany .
+
+ex:ITCompany rdf:type airo:Stakeholder ;
+    rdfs:label "IT Company"@en ;
+    rdfs:label "IT公司"@zh .
+
+ex:Employee rdf:type airo:AISubject ;
+    rdfs:label "Employee"@en ;
+    rdfs:label "员工"@zh .

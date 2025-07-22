@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SportsIllustratedAIArticles rdf:type airo:AISystem ;
+    rdfs:label "体育画报AI文章"@zh ;
+    rdfs:label "Sports Illustrated AI Articles"@en ;
+    airo:hasRisk ex:MisuseOfAIInJournalism ;
+    airo:hasStakeholder ex:SportsIllustratedUnion ;
+    airo:isDeployedBy ex:ArenaGroup ;
+    airo:isAppliedWithinDomain ex:Journalism .
+
+ex:MisuseOfAIInJournalism rdf:type airo:Risk ;
+    rdfs:label "新闻业中AI滥用风险"@zh ;
+    rdfs:label "Misuse of AI in Journalism Risk"@en ;
+    airo:hasConsequence ex:MassLayoffs ;
+    airo:isRiskSourceFor ex:UndisclosedAIAuthors .
+
+ex:SportsIllustratedUnion rdf:type airo:Stakeholder ;
+    rdfs:label "体育画报工会"@zh ;
+    rdfs:label "Sports Illustrated Union"@en .
+
+ex:ArenaGroup rdf:type airo:AIOperator ;
+    rdfs:label "竞技场集团"@zh ;
+    rdfs:label "Arena Group"@en .
+
+ex:MassLayoffs rdf:type airo:Consequence ;
+    rdfs:label "大规模裁员后果"@zh ;
+    rdfs:label "Mass Layoffs Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:SportsIllustratedUnion .
+
+ex:Journalism rdf:type airo:Domain ;
+    rdfs:label "新闻业领域"@zh ;
+    rdfs:label "Journalism Domain"@en .
+
+ex:UndisclosedAIAuthors rdf:type airo:Misuse ;
+    rdfs:label "未披露AI作者滥用"@zh ;
+    rdfs:label "Undisclosed AI Authors Misuse"@en .

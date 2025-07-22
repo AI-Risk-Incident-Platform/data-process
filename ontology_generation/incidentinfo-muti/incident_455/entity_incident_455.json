@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HitchBOT",
+      "中文名称": "HitchBOT搭便车机器人",
+      "英文名称": "HitchBOT Hitchhiking Robot",
+      "来源": "HitchBOT, the hitchhiking robot, gets beheaded in Philadelphia"
+    },
+    "Risk": {
+      "id": "PhysicalDamageToSocialRobot",
+      "中文名称": "社交机器人物理损坏风险",
+      "英文名称": "Physical Damage to Social Robot Risk",
+      "来源": "gets beheaded in Philadelphia"
+    },
+    "Consequence": {
+      "id": "RobotDestruction",
+      "中文名称": "机器人被毁后果",
+      "英文名称": "Robot Destruction Consequence",
+      "来源": "gets beheaded"
+    },
+    "Impact": {
+      "id": "HumanRobotInteractionSafetyConcerns",
+      "中文名称": "人机交互安全担忧影响",
+      "英文名称": "Human-Robot Interaction Safety Concerns Impact",
+      "来源": "gets beheaded in Philadelphia"
+    },
+    "Stakeholder": {
+      "id": "RobotCreators",
+      "中文名称": "机器人创造者",
+      "英文名称": "Robot Creators",
+      "来源": "HitchBOT, the hitchhiking robot"
+    },
+    "Purpose": {
+      "id": "SocialExperimentOnHumanRobotInteraction",
+      "中文名称": "人机交互社会实验目的",
+      "英文名称": "Social Experiment on Human-Robot Interaction Purpose",
+      "来源": "HitchBOT, the hitchhiking robot"
+    },
+    "Domain": {
+      "id": "SocialRobotics",
+      "中文名称": "社交机器人领域",
+      "英文名称": "Social Robotics Domain",
+      "来源": "HitchBOT, the hitchhiking robot"
+    },
+    "RiskSource": {
+      "id": "HumanVandalism",
+      "中文名称": "人为破坏风险源",
+      "英文名称": "Human Vandalism Risk Source",
+      "来源": "gets beheaded in Philadelphia"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookFactCheckAI",
+      "中文名称": "Facebook事实核查AI",
+      "英文名称": "Facebook Fact Check AI",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "Risk": {
+      "id": "MisinformationPropagationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Propagation Risk",
+      "来源": "Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks"
+    },
+    "Consequence": {
+      "id": "PublicMisinformationSpread",
+      "中文名称": "公众虚假信息传播后果",
+      "英文名称": "Public Misinformation Spread Consequence",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "AICapability": {
+      "id": "ContentModerationAlgorithm",
+      "中文名称": "内容审核算法能力",
+      "英文名称": "Content Moderation Algorithm Capability",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms Inc.",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks"
+    },
+    "Purpose": {
+      "id": "ContentVerificationAndModeration",
+      "中文名称": "内容验证和审核目的",
+      "英文名称": "Content Verification and Moderation Purpose",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessingForFactChecking",
+      "中文名称": "用于事实核查的自然语言处理技术",
+      "英文名称": "Natural Language Processing for Fact Checking Technique",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    },
+    "Vulnerability": {
+      "id": "SubtleTextModificationBypass",
+      "中文名称": "细微文本修改绕过漏洞",
+      "英文名称": "Subtle Text Modification Bypass Vulnerability",
+      "来源": "Tiny Changes Let False Claims About COVID-19, Voting Evade Facebook Fact Checks"
+    },
+    "RiskSource": {
+      "id": "DeliberateMisinformationCampaigns",
+      "中文名称": "蓄意虚假信息宣传活动风险源",
+      "英文名称": "Deliberate Misinformation Campaigns Risk Source",
+      "来源": "Study Exposes Major Facebook Fact Checker Loophole Enabling QAnon, Misinformers Get Past AI"
+    }
+  }
+}

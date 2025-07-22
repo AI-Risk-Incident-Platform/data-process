@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StoreCustomerServiceRobot",
+      "中文名称": "商店客户服务机器人",
+      "英文名称": "Store Customer Service Robot",
+      "来源": "Store Hires Robot To Help Out Customers"
+    },
+    "Risk": {
+      "id": "CustomerFearRisk",
+      "中文名称": "顾客恐惧风险",
+      "英文名称": "Customer Fear Risk",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "Stakeholder": {
+      "id": "StoreCustomers",
+      "中文名称": "商店顾客",
+      "英文名称": "Retail Customers",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "AIOperator": {
+      "id": "StoreManagement",
+      "中文名称": "商店管理层",
+      "英文名称": "Store Management",
+      "来源": "Store Hires Robot To Help Out Customers, Robot Gets Fired"
+    },
+    "Impact": {
+      "id": "NegativeCustomerExperience",
+      "中文名称": "负面顾客体验",
+      "英文名称": "Negative Customer Impact",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "Domain": {
+      "id": "RetailCustomerService",
+      "中文名称": "零售客户服务",
+      "英文名称": "Consumer Service",
+      "来源": "Store Hires Robot To Help Out Customers"
+    },
+    "Purpose": {
+      "id": "CustomerAssistance",
+      "中文名称": "顾客协助",
+      "英文名称": "Customer Service",
+      "来源": "Store Hires Robot To Help Out Customers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StoreCustomerServiceRobot",
+      "中文名称": "商店客户服务机器人",
+      "英文名称": "Store Customer Service Robot",
+      "来源": "Store Hires Robot To Help Out Customers"
+    },
+    "Risk": {
+      "id": "CustomerFearRisk",
+      "中文名称": "顾客恐惧风险",
+      "英文名称": "Customer Fear Risk",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "Stakeholder": {
+      "id": "StoreCustomers",
+      "中文名称": "商店顾客",
+      "英文名称": "Retail Customers",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "AIOperator": {
+      "id": "StoreManagement",
+      "中文名称": "商店管理层",
+      "英文名称": "Store Management",
+      "来源": "Store Hires Robot To Help Out Customers, Robot Gets Fired"
+    },
+    "Impact": {
+      "id": "NegativeCustomerExperience",
+      "中文名称": "负面顾客体验",
+      "英文名称": "Negative Customer Impact",
+      "来源": "Robot Gets Fired For Scaring Customers Away"
+    },
+    "Domain": {
+      "id": "RetailCustomerService",
+      "中文名称": "零售客户服务",
+      "英文名称": "Consumer Service",
+      "来源": "Store Hires Robot To Help Out Customers"
+    },
+    "Purpose": {
+      "id": "CustomerAssistance",
+      "中文名称": "顾客协助",
+      "英文名称": "Customer Service",
+      "来源": "Store Hires Robot To Help Out Customers"
+    }
+  }
+}

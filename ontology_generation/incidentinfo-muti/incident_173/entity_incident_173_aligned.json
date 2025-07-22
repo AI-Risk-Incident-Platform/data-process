@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CollaborativeFilteringRecommenderSystem",
+      "中文名称": "协同过滤推荐系统",
+      "英文名称": "Collaborative Filtering Recommender System",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "Risk": {
+      "id": "PopularityBiasRisk",
+      "中文名称": "流行度偏见风险",
+      "英文名称": "Popularity Bias Risk",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "AICapability": {
+      "id": "UserPreferencePrediction",
+      "中文名称": "用户偏好预测能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "Consequence": {
+      "id": "PoorRecommendationQuality",
+      "中文名称": "推荐质量低下后果",
+      "英文名称": "Poor Recommendation Quality Consequence",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "RiskSource": {
+      "id": "OverrepresentationOfPopularItems",
+      "中文名称": "热门商品过度代表风险源",
+      "英文名称": "Overrepresentation of Popular Items Risk Source",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "Impact": {
+      "id": "UserDissatisfaction",
+      "中文名称": "用户不满影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "AITechnique": {
+      "id": "CollaborativeFilteringAlgorithm",
+      "中文名称": "协同过滤算法技术",
+      "英文名称": "Collaborative Filtering Algorithm Technique",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CollaborativeFilteringRecommenderSystem",
+      "中文名称": "协同过滤推荐系统",
+      "英文名称": "Collaborative Filtering Recommender System",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "Risk": {
+      "id": "PopularityBiasRisk",
+      "中文名称": "流行度偏见风险",
+      "英文名称": "Popularity Bias Risk",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "AICapability": {
+      "id": "UserPreferencePrediction",
+      "中文名称": "用户偏好预测能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "Consequence": {
+      "id": "PoorRecommendationQuality",
+      "中文名称": "推荐质量低下后果",
+      "英文名称": "Poor Recommendation Quality Consequence",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "RiskSource": {
+      "id": "OverrepresentationOfPopularItems",
+      "中文名称": "热门商品过度代表风险源",
+      "英文名称": "Overrepresentation of Popular Items Risk Source",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    },
+    "Impact": {
+      "id": "UserDissatisfaction",
+      "中文名称": "用户不满影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "Why AI Isn’t Providing Better Product Recommendations"
+    },
+    "AITechnique": {
+      "id": "CollaborativeFilteringAlgorithm",
+      "中文名称": "协同过滤算法技术",
+      "英文名称": "Collaborative Filtering Algorithm Technique",
+      "来源": "Popularity Bias in Collaborative Filtering-Based Multimedia Recommender Systems"
+    }
+  }
+}

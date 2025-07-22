@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RussianDisinformationAI",
+      "中文名称": "俄罗斯虚假信息AI",
+      "英文名称": "Russian Disinformation AI",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "Purpose": {
+      "id": "InfluenceElectionOutcome",
+      "中文名称": "影响选举结果的目的",
+      "英文名称": "Influence Election Outcome Purpose",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀的影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "Stakeholder": {
+      "id": "USVoters",
+      "中文名称": "美国选民",
+      "英文名称": "US Voters",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Russian Disinformation Videos Smear Biden Ahead of U.S. Election"
+    }
+  }
+}

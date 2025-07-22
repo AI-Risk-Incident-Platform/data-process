@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FaceTrackingAdTabletsInUbers rdf:type airo:AISystem ;
+    rdfs:label "Face-Tracking Ad Tablets in Ubers"@en ;
+    rdfs:label "优步车内的面部追踪广告平板"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:Uber ;
+    airo:hasStakeholder ex:USSenators ;
+    airo:usesTechnique ex:FaceTrackingTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PassengerPrivacyConcerns .
+
+ex:USSenators rdf:type airo:Stakeholder ;
+    rdfs:label "US Senators"@en ;
+    rdfs:label "美国参议员"@zh .
+
+ex:Uber rdf:type airo:AIOperator ;
+    rdfs:label "Uber"@en ;
+    rdfs:label "优步"@zh .
+
+ex:FaceTrackingTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Face-Tracking Technology"@en ;
+    rdfs:label "面部追踪技术"@zh .
+
+ex:PassengerPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Passenger Privacy Concerns"@en ;
+    rdfs:label "乘客隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:USSenators .

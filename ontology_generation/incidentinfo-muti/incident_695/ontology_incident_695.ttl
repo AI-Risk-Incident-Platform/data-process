@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAIAdTools rdf:type airo:AISystem ;
+    rdfs:label "Meta AI Ad Tools"@en ;
+    rdfs:label "Meta AI广告工具"@zh ;
+    airo:hasRisk ex:FinancialLossRisk ;
+    airo:isDeployedBy ex:MetaPlatformsInc ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising .
+
+ex:FinancialLossRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Loss Risk"@en ;
+    rdfs:label "资金损失风险"@zh ;
+    airo:isRiskSourceFor ex:AutomatedAdOptimization ;
+    airo:hasConsequence ex:InefficientAdSpending .
+
+ex:AutomatedAdOptimization rdf:type airo:RiskSource ;
+    rdfs:label "Automated Ad Optimization"@en ;
+    rdfs:label "自动化广告优化"@zh .
+
+ex:InefficientAdSpending rdf:type airo:Consequence ;
+    rdfs:label "Inefficient Ad Spending"@en ;
+    rdfs:label "广告支出低效"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising Domain"@en ;
+    rdfs:label "数字广告领域"@zh .

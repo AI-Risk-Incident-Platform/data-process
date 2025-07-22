@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RiteAidFacialRecognitionSystem",
+      "中文名称": "Rite Aid面部识别系统",
+      "英文名称": "Rite Aid Facial Recognition System",
+      "来源": "Rite Aid facial recognition misidentified Black, Latino and Asian people as ‘likely’ shoplifters"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognitionRisk",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Facial Recognition Risk",
+      "来源": "Rite Aid facial recognition misidentified Black, Latino and Asian people as ‘likely’ shoplifters"
+    },
+    "Consequence": {
+      "id": "MisidentificationOfMinorities",
+      "中文名称": "少数族裔误认后果",
+      "英文名称": "Misidentification of Minorities Consequence",
+      "来源": "Rite Aid facial recognition misidentified Black, Latino and Asian people as ‘likely’ shoplifters"
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorities",
+      "中文名称": "对少数族裔的歧视影响",
+      "英文名称": "Discrimination Against Minorities Impact",
+      "来源": "Rite Aid facial recognition misidentified Black, Latino and Asian people as ‘likely’ shoplifters"
+    },
+    "AIOperator": {
+      "id": "RiteAid",
+      "中文名称": "Rite Aid",
+      "英文名称": "Rite Aid",
+      "来源": "Rite Aid’s ‘reckless’ use of facial recognition got it banned from using the technology in stores for five years"
+    },
+    "RiskControl": {
+      "id": "FiveYearBanOnFacialRecognition",
+      "中文名称": "五年面部识别禁令管控",
+      "英文名称": "Five-Year Ban on Facial Recognition RiskControl",
+      "来源": "Rite Aid hit with five-year facial recognition ban over 'reckless' use"
+    },
+    "RiskSource": {
+      "id": "RecklessUseOfFacialRecognition",
+      "中文名称": "鲁莽使用面部识别的风险源",
+      "英文名称": "Reckless Use of Facial Recognition Risk Source",
+      "来源": "Rite Aid’s ‘reckless’ use of facial recognition got it banned from using the technology in stores for five years"
+    }
+  }
+}

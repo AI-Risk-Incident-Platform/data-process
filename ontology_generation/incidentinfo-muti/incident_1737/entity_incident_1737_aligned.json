@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIHarbinAsianWinterGamesAttackSystem",
+      "中文名称": "AI哈尔滨亚冬会攻击系统",
+      "英文名称": "AI Harbin Asian Winter Games Attack System",
+      "来源": "AI Attack on Harbin Asian Winter Games"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cyber Attack Risk"
+    },
+    "AIDeveloper": {
+      "id": "USNationalSecurityAgency",
+      "中文名称": "美国国家安全局",
+      "英文名称": "US National Security Agency",
+      "来源": "US National Security Agency"
+    },
+    "Stakeholder": {
+      "id": "ChinaNationalComputerVirusEmergencyResponseCenter",
+      "中文名称": "中国国家计算机病毒应急处理中心",
+      "英文名称": "China National Computer Virus Emergency Response Center",
+      "来源": "China National Computer Virus Emergency Response Center"
+    },
+    "Stakeholder2": {
+      "id": "360Group",
+      "中文名称": "360集团",
+      "英文名称": "360 Group",
+      "来源": "360 Group"
+    },
+    "Impact": {
+      "id": "CriticalInformationInfrastructureImpact",
+      "中文名称": "关键信息基础设施影响",
+      "英文名称": "Critical Information Infrastructure Impact",
+      "来源": "Critical Information Infrastructure"
+    },
+    "Impact2": {
+      "id": "SportsEventInformationSystemImpact",
+      "中文名称": "体育赛事信息系统影响",
+      "英文名称": "Sports Event Information System Impact",
+      "来源": "Sports Event Information System"
+    },
+    "AITechnique": {
+      "id": "AITechniquesForAttack",
+      "中文名称": "用于攻击的人工智能技术",
+      "英文名称": "AI Attack Technique",
+      "来源": "AI Techniques for Attack"
+    },
+    "Consequence": {
+      "id": "DataTheftConsequence",
+      "中文名称": "数据盗窃后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Data Theft"
+    },
+    "Consequence2": {
+      "id": "ServiceDisruptionConsequence",
+      "中文名称": "服务中断后果",
+      "英文名称": "Service Disruption Consequence",
+      "来源": "Service Disruption"
+    },
+    "Impact3": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Privacy Violation"
+    },
+    "Impact4": {
+      "id": "EconomicLossImpact",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Economic Loss"
+    },
+    "Impact5": {
+      "id": "OperationalDisruptionImpact",
+      "中文名称": "运营中断影响",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "Operational Disruption"
+    },
+    "Impact6": {
+      "id": "PublicSafetyThreatImpact",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Public Safety Threat"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIHarbinAsianWinterGamesAttackSystem",
+      "中文名称": "AI哈尔滨亚冬会攻击系统",
+      "英文名称": "AI Harbin Asian Winter Games Attack System",
+      "来源": "AI Attack on Harbin Asian Winter Games"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cyber Attack Risk"
+    },
+    "AIDeveloper": {
+      "id": "USNationalSecurityAgency",
+      "中文名称": "美国国家安全局",
+      "英文名称": "US National Security Agency",
+      "来源": "US National Security Agency"
+    },
+    "Stakeholder": {
+      "id": "ChinaNationalComputerVirusEmergencyResponseCenter",
+      "中文名称": "中国国家计算机病毒应急处理中心",
+      "英文名称": "China National Computer Virus Emergency Response Center",
+      "来源": "China National Computer Virus Emergency Response Center"
+    },
+    "Stakeholder2": {
+      "id": "360Group",
+      "中文名称": "360集团",
+      "英文名称": "360 Group",
+      "来源": "360 Group"
+    },
+    "Impact": {
+      "id": "CriticalInformationInfrastructureImpact",
+      "中文名称": "关键信息基础设施影响",
+      "英文名称": "Critical Information Infrastructure Impact",
+      "来源": "Critical Information Infrastructure"
+    },
+    "Impact2": {
+      "id": "SportsEventInformationSystemImpact",
+      "中文名称": "体育赛事信息系统影响",
+      "英文名称": "Sports Event Information System Impact",
+      "来源": "Sports Event Information System"
+    },
+    "AITechnique": {
+      "id": "AITechniquesForAttack",
+      "中文名称": "用于攻击的人工智能技术",
+      "英文名称": "AI Attack Technique",
+      "来源": "AI Techniques for Attack"
+    },
+    "Consequence": {
+      "id": "DataTheftConsequence",
+      "中文名称": "数据盗窃后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Data Theft"
+    },
+    "Consequence2": {
+      "id": "ServiceDisruptionConsequence",
+      "中文名称": "服务中断后果",
+      "英文名称": "Service Disruption Consequence",
+      "来源": "Service Disruption"
+    },
+    "Impact3": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Privacy Violation"
+    },
+    "Impact4": {
+      "id": "EconomicLossImpact",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Economic Loss"
+    },
+    "Impact5": {
+      "id": "OperationalDisruptionImpact",
+      "中文名称": "运营中断影响",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "Operational Disruption"
+    },
+    "Impact6": {
+      "id": "PublicSafetyThreatImpact",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Public Safety Threat"
+    }
+  }
+}

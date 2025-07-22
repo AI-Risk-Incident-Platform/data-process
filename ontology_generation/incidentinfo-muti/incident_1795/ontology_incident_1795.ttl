@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NutriScoreAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Nutri-Score Algorithm"@en ;
+    rdfs:label "Nutri-Score算法"@zh ;
+    airo:hasRisk ex:ResistanceToAlgorithmAdoption ;
+    airo:hasPurpose ex:NutritionalLabeling ;
+    airo:isAppliedWithinDomain ex:FoodLabeling ;
+    airo:hasStakeholder ex:FoodIndustry .
+
+ex:ResistanceToAlgorithmAdoption rdf:type airo:Risk ;
+    rdfs:label "Resistance to Algorithm Adoption Risk"@en ;
+    rdfs:label "算法采用阻力风险"@zh .
+
+ex:FoodIndustry rdf:type airo:Stakeholder ;
+    rdfs:label "Food Industry"@en ;
+    rdfs:label "食品行业"@zh .
+
+ex:NutritionalLabeling rdf:type airo:Purpose ;
+    rdfs:label "Nutritional Labeling"@en ;
+    rdfs:label "营养标签"@zh .
+
+ex:FoodLabeling rdf:type airo:Domain ;
+    rdfs:label "Food Labeling"@en ;
+    rdfs:label "食品标签"@zh .

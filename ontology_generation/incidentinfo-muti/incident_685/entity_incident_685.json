@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WHOHealthChatbot",
+      "中文名称": "世界卫生组织健康聊天机器人",
+      "英文名称": "WHO Health Chatbot",
+      "来源": "The WHO's new AI health chatbot is already making some mistakes"
+    },
+    "Risk": {
+      "id": "InaccurateHealthInformationRisk",
+      "中文名称": "不准确健康信息风险",
+      "英文名称": "Inaccurate Health Information Risk",
+      "来源": "AI-Powered World Health Chatbot Is Flubbing Some Answers"
+    },
+    "Stakeholder": {
+      "id": "WorldHealthOrganization",
+      "中文名称": "世界卫生组织",
+      "英文名称": "World Health Organization",
+      "来源": "The WHO's new AI health chatbot is already making some mistakes"
+    },
+    "AICapability": {
+      "id": "HealthInformationProvision",
+      "中文名称": "健康信息提供能力",
+      "英文名称": "Health Information Provision Capability",
+      "来源": "AI-Powered World Health Chatbot Is Flubbing Some Answers"
+    },
+    "Consequence": {
+      "id": "MisleadingHealthAdvice",
+      "中文名称": "误导性健康建议后果",
+      "英文名称": "Misleading Health Advice Consequence",
+      "来源": "The WHO's broken bot"
+    },
+    "Impact": {
+      "id": "PublicHealthRisk",
+      "中文名称": "公共健康风险影响",
+      "英文名称": "Public Health Risk Impact",
+      "来源": "The WHO's new AI health chatbot is already making some mistakes"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生领域",
+      "英文名称": "Public Health Domain",
+      "来源": "AI-Powered World Health Chatbot Is Flubbing Some Answers"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误风险源",
+      "英文名称": "Algorithmic Error Risk Source",
+      "来源": "The WHO's broken bot"
+    }
+  }
+}

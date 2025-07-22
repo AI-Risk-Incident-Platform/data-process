@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarmRisk ;
+    airo:hasAISubject ex:HighSchoolStudents ;
+    airo:hasStakeholder ex:SchoolAdministration ;
+    airo:isAppliedWithinDomain ex:EducationAndSocialMedia .
+
+ex:PrivacyViolationAndPsychologicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    rdfs:label "隐私侵犯与心理伤害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistressForVictims ;
+    airo:isRiskSourceFor ex:UnregulatedAIApplications .
+
+ex:PsychologicalDistressForVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress for Victims Consequence"@en ;
+    rdfs:label "受害者心理困扰后果"@zh ;
+    airo:hasImpact ex:SocialStigmaAndEmotionalTrauma .
+
+ex:HighSchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "High School Students"@en ;
+    rdfs:label "高中生"@zh .
+
+ex:SocialStigmaAndEmotionalTrauma rdf:type airo:Impact ;
+    rdfs:label "Social Stigma and Emotional Trauma Impact"@en ;
+    rdfs:label "社会污名与情感创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HighSchoolStudents , ex:SchoolAdministration .
+
+ex:SchoolAdministration rdf:type airo:Stakeholder ;
+    rdfs:label "School Administration"@en ;
+    rdfs:label "学校管理部门"@zh .
+
+ex:UnregulatedAIApplications rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Applications Risk Source"@en ;
+    rdfs:label "未受监管的AI应用风险源"@zh .
+
+ex:EducationAndSocialMedia rdf:type airo:Domain ;
+    rdfs:label "Education and Social Media Domain"@en ;
+    rdfs:label "教育与社交媒体领域"@zh .

@@ -1,0 +1,81 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:DefamationRisk ;
+    airo:usesTechnique ex:LanguageModel ;
+    airo:hasPurpose ex:InformationGeneration ;
+    airo:isAppliedWithinDomain ex:LegalInformation ;
+    airo:hasStakeholder ex:RadioHost ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasVulnerability ex:FactualInaccuracy .
+
+ex:DefamationRisk rdf:type airo:Risk ;
+    rdfs:label "Defamation Risk"@en ;
+    rdfs:label "诽谤风险"@zh ;
+    airo:hasConsequence ex:LegalAccusations ;
+    airo:isRiskSourceFor ex:Hallucination .
+
+ex:LegalAccusations rdf:type airo:Consequence ;
+    rdfs:label "Legal Accusations Consequence"@en ;
+    rdfs:label "法律指控后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:RadioHost rdf:type airo:Stakeholder ;
+    rdfs:label "Radio Host"@en ;
+    rdfs:label "电台主持人"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RadioHost .
+
+ex:InformationGeneration rdf:type airo:Purpose ;
+    rdfs:label "Information Generation Purpose"@en ;
+    rdfs:label "信息生成目的"@zh .
+
+ex:LegalInformation rdf:type airo:Domain ;
+    rdfs:label "Legal Information Domain"@en ;
+    rdfs:label "法律信息领域"@zh .
+
+ex:LanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Language Model Technique"@en ;
+    rdfs:label "语言模型技术"@zh .
+
+ex:FactualInaccuracy rdf:type airo:Vulnerability ;
+    rdfs:label "Factual Inaccuracy Vulnerability"@en ;
+    rdfs:label "事实不准确脆弱性"@zh .
+
+ex:Misinformation rdf:type airo:Threat ;
+    rdfs:label "Misinformation Threat"@en ;
+    rdfs:label "错误信息威胁"@zh ;
+    airo:isRiskSourceFor ex:DefamationRisk .
+
+ex:UnverifiedOutput rdf:type airo:Hazard ;
+    rdfs:label "Unverified Output Hazard"@en ;
+    rdfs:label "未经验证输出危害"@zh ;
+    airo:isRiskSourceFor ex:DefamationRisk .
+
+ex:Hallucination rdf:type airo:RiskSource ;
+    rdfs:label "Hallucination Risk Source"@en ;
+    rdfs:label "幻觉风险源"@zh ;
+    airo:exploitsVulnerability ex:FactualInaccuracy .
+
+ex:LibelByAI rdf:type airo:RiskConcept ;
+    rdfs:label "Libel by AI Risk Concept"@en ;
+    rdfs:label "AI诽谤风险概念"@zh .

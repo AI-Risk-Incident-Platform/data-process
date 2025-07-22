@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildAbuseImageGeneration rdf:type airo:AISystem ;
+    rdfs:label "AI Child Abuse Image Generation"@en ;
+    rdfs:label "AI生成儿童虐待图像"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:usesTechnique ex:ImageGenerationAITechnique ;
+    airo:hasStakeholder ex:InternetWatchFoundation ;
+    airo:hasMisuse ex:ChildExtortion .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasConsequence ex:InternetOverloadConsequence ;
+    airo:isRiskSourceFor ex:AIAbuseByPaedophiles .
+
+ex:InternetOverloadConsequence rdf:type airo:Consequence ;
+    rdfs:label "Internet Overload Consequence"@en ;
+    rdfs:label "互联网过载后果"@zh ;
+    airo:hasImpact ex:ChildSafetyThreatImpact .
+
+ex:ChildSafetyThreatImpact rdf:type airo:Impact ;
+    rdfs:label "Child Safety Threat Impact"@en ;
+    rdfs:label "儿童安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InternetWatchFoundation .
+
+ex:InternetWatchFoundation rdf:type airo:Stakeholder ;
+    rdfs:label "Internet Watch Foundation"@en ;
+    rdfs:label "互联网观察基金会"@zh .
+
+ex:ChildExtortion rdf:type airo:Misuse ;
+    rdfs:label "Child Extortion Misuse"@en ;
+    rdfs:label "儿童勒索滥用"@zh .
+
+ex:ImageGenerationAITechnique rdf:type airo:AITechnique ;
+    rdfs:label "Image Generation AI Technique"@en ;
+    rdfs:label "图像生成AI技术"@zh .
+
+ex:AIAbuseByPaedophiles rdf:type airo:RiskSource ;
+    rdfs:label "AI Abuse by Paedophiles Risk Source"@en ;
+    rdfs:label "恋童癖者滥用AI风险源"@zh .

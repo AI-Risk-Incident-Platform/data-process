@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:Witcher3VoiceMod rdf:type airo:AISystem ;
+    rdfs:label "Witcher 3 Voice Mod"@en ;
+    rdfs:label "巫师3语音模组"@zh ;
+    airo:hasRisk ex:VoiceActorReplacementRisk ;
+    airo:usesTechnique ex:VoiceSynthesis ;
+    airo:hasStakeholder ex:GameVoiceActors .
+
+ex:VoiceActorReplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Actor Replacement Risk"@en ;
+    rdfs:label "配音演员替代风险"@zh ;
+    airo:hasConsequence ex:VoiceActorJobDisplacement .
+
+ex:VoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technique"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:GameVoiceActors rdf:type airo:Stakeholder ;
+    rdfs:label "Game Voice Actors"@en ;
+    rdfs:label "游戏配音演员"@zh .
+
+ex:VoiceActorJobDisplacement rdf:type airo:Impact ;
+    rdfs:label "Voice Actor Job Displacement Impact"@en ;
+    rdfs:label "配音演员工作替代影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GameVoiceActors .

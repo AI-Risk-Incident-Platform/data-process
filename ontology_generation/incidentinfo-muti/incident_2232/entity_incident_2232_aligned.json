@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AMSAlgorithm",
+      "中文名称": "奥地利就业服务中心算法",
+      "英文名称": "Austrian Employment Service Algorithm",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Stakeholder": {
+      "id": "DataProtectionAuthority",
+      "中文名称": "数据保护机构",
+      "英文名称": "Data Protection Authority",
+      "来源": "Datenschutzbehörde stoppt Jobcenter-Algorithmus"
+    },
+    "AIOperator": {
+      "id": "AustrianEmploymentAgency",
+      "中文名称": "奥地利就业服务中心",
+      "英文名称": "Austrian Employment Agency",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryEmploymentDecisions",
+      "中文名称": "歧视性就业决策后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "RiskControl": {
+      "id": "AlgorithmSuspension",
+      "中文名称": "算法暂停管控",
+      "英文名称": "Algorithm Suspension Risk Control",
+      "来源": "Datenschutzbehörde kippt umstrittenen AMS-Algorithmus"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AMSAlgorithm",
+      "中文名称": "奥地利就业服务中心算法",
+      "英文名称": "Austrian Employment Service Algorithm",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Stakeholder": {
+      "id": "DataProtectionAuthority",
+      "中文名称": "数据保护机构",
+      "英文名称": "Data Protection Authority",
+      "来源": "Datenschutzbehörde stoppt Jobcenter-Algorithmus"
+    },
+    "AIOperator": {
+      "id": "AustrianEmploymentAgency",
+      "中文名称": "奥地利就业服务中心",
+      "英文名称": "Austrian Employment Agency",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryEmploymentDecisions",
+      "中文名称": "歧视性就业决策后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm, sees no problem"
+    },
+    "RiskControl": {
+      "id": "AlgorithmSuspension",
+      "中文名称": "算法暂停管控",
+      "英文名称": "Algorithm Suspension Risk Control",
+      "来源": "Datenschutzbehörde kippt umstrittenen AMS-Algorithmus"
+    }
+  }
+}

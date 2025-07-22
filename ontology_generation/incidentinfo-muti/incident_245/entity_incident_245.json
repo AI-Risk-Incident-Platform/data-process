@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IndustrialRobot",
+      "中文名称": "工业机器人",
+      "英文名称": "Industrial Robot",
+      "来源": "Injured critically in accident involving industrial robot, factory employee dies"
+    },
+    "Risk": {
+      "id": "WorkplaceSafetyRisk",
+      "中文名称": "工作场所安全风险",
+      "英文名称": "Workplace Safety Risk",
+      "来源": "Injured critically in accident involving industrial robot, factory employee dies"
+    },
+    "Consequence": {
+      "id": "EmployeeFatality",
+      "中文名称": "员工死亡后果",
+      "英文名称": "Employee Fatality Consequence",
+      "来源": "factory employee dies"
+    },
+    "AISubject": {
+      "id": "FactoryEmployee",
+      "中文名称": "工厂员工",
+      "英文名称": "Factory Employee",
+      "来源": "factory employee dies"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "factory employee dies"
+    },
+    "Domain": {
+      "id": "ManufacturingIndustry",
+      "中文名称": "制造业领域",
+      "英文名称": "Manufacturing Industry Domain",
+      "来源": "industrial robot, factory"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunctionOrHumanError",
+      "中文名称": "机器人故障或人为错误风险源",
+      "英文名称": "Robot Malfunction or Human Error Risk Source",
+      "来源": "accident involving industrial robot"
+    }
+  }
+}

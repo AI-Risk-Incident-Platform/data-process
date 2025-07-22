@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:ViolenceIncitementRisk ;
+    airo:hasCapability ex:ContentModerationAlgorithm ;
+    airo:hasStakeholder ex:EthiopianCitizens .
+
+ex:ViolenceIncitementRisk rdf:type airo:Risk ;
+    rdfs:label "Violence Incitement Risk"@en ;
+    rdfs:label "煽动暴力风险"@zh ;
+    airo:hasConsequence ex:EthiopianPoliticalTensionsEscalation ;
+    airo:isRiskSourceFor ex:DisinformationSpreadThroughFacebookLive .
+
+ex:EthiopianPoliticalTensionsEscalation rdf:type airo:Consequence ;
+    rdfs:label "Ethiopian Political Tensions Escalation Consequence"@en ;
+    rdfs:label "埃塞俄比亚政治紧张局势升级后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreatInEthiopia .
+
+ex:ContentModerationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Moderation Algorithm Capability"@en ;
+    rdfs:label "内容审核算法能力"@zh .
+
+ex:EthiopianCitizens rdf:type airo:Stakeholder ;
+    rdfs:label "Ethiopian Citizens"@en ;
+    rdfs:label "埃塞俄比亚公民"@zh .
+
+ex:PublicSafetyThreatInEthiopia rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat in Ethiopia Impact"@en ;
+    rdfs:label "埃塞俄比亚公共安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EthiopianCitizens .
+
+ex:DisinformationSpreadThroughFacebookLive rdf:type airo:RiskSource ;
+    rdfs:label "Disinformation Spread Through Facebook Live Risk Source"@en ;
+    rdfs:label "通过Facebook直播传播虚假信息的风险源"@zh .

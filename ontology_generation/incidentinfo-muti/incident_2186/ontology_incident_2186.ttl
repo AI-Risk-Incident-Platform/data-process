@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVoiceClone rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Voice Clone"@en ;
+    rdfs:label "深度伪造语音克隆"@zh ;
+    airo:hasRisk ex:FraudAttemptRisk ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasPurpose ex:DeceptiveFinancialGain ;
+    airo:hasStakeholder ex:CEOImpersonationTarget ;
+    airo:isAppliedWithinDomain ex:CorporateFinance .
+
+ex:FraudAttemptRisk rdf:type airo:Risk ;
+    rdfs:label "Fraud Attempt Risk"@en ;
+    rdfs:label "欺诈尝试风险"@zh ;
+    airo:isRiskSourceFor ex:VoiceSpoofingVulnerability ;
+    airo:hasConsequence ex:FinancialFraud .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:CEOImpersonationTarget rdf:type airo:Stakeholder ;
+    rdfs:label "CEO Impersonation Target"@en ;
+    rdfs:label "CEO冒充目标"@zh .
+
+ex:FinancialFraud rdf:type airo:Consequence ;
+    rdfs:label "Financial Fraud Consequence"@en ;
+    rdfs:label "金融欺诈后果"@zh ;
+    airo:hasImpact ex:CorporateReputationDamage .
+
+ex:CorporateReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Corporate Reputation Damage Impact"@en ;
+    rdfs:label "企业声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CEOImpersonationTarget .
+
+ex:DeceptiveFinancialGain rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Financial Gain Purpose"@en ;
+    rdfs:label "欺骗性财务收益目的"@zh .
+
+ex:CorporateFinance rdf:type airo:Domain ;
+    rdfs:label "Corporate Finance Domain"@en ;
+    rdfs:label "企业金融领域"@zh .
+
+ex:VoiceSpoofingVulnerability rdf:type airo:RiskSource ;
+    rdfs:label "Voice Spoofing Vulnerability Risk Source"@en ;
+    rdfs:label "语音欺骗漏洞风险源"@zh .

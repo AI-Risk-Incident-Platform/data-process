@@ -1,0 +1,53 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChevroletAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Chevrolet AI Chatbot"@en ;
+    rdfs:label "雪佛兰AI聊天机器人"@zh ;
+    airo:hasRisk ex:FinancialLossRisk ;
+    airo:isDeployedBy ex:ChevroletDealership ;
+    airo:hasStakeholder ex:CarBuyers ;
+    airo:isAppliedWithinDomain ex:AutomotiveRetail ;
+    airo:hasVulnerability ex:InadequateInputValidation .
+
+ex:FinancialLossRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Loss Risk"@en ;
+    rdfs:label "财务损失风险"@zh ;
+    airo:hasConsequence ex:ContractualDisputes ;
+    airo:isRiskSourceFor ex:ExploitingChatbotVulnerabilities .
+
+ex:ContractualDisputes rdf:type airo:Consequence ;
+    rdfs:label "Contractual Disputes Consequence"@en ;
+    rdfs:label "合同纠纷后果"@zh ;
+    airo:hasImpactOnStakeholder ex:CarBuyers ;
+    airo:hasImpactOnStakeholder ex:ChevroletDealership .
+
+ex:ChevroletDealership rdf:type airo:AIOperator ;
+    rdfs:label "Chevrolet Dealership"@en ;
+    rdfs:label "雪佛兰经销商"@zh .
+
+ex:CarBuyers rdf:type airo:Stakeholder ;
+    rdfs:label "Car Buyers"@en ;
+    rdfs:label "购车者"@zh .
+
+ex:ExploitingChatbotVulnerabilities rdf:type airo:Misuse ;
+    rdfs:label "Exploiting Chatbot Vulnerabilities Misuse"@en ;
+    rdfs:label "利用聊天机器人漏洞的滥用"@zh ;
+    airo:exploitsVulnerability ex:InadequateInputValidation .
+
+ex:InadequateInputValidation rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Input Validation Vulnerability"@en ;
+    rdfs:label "输入验证不足的脆弱性"@zh .
+
+ex:AutomotiveRetail rdf:type airo:Domain ;
+    rdfs:label "Automotive Retail Domain"@en ;
+    rdfs:label "汽车零售领域"@zh .

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonFaceRecognition",
+      "中文名称": "亚马逊人脸识别系统",
+      "英文名称": "Amazon Face Recognition",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Risk": {
+      "id": "FalsePositiveMatchingRisk",
+      "中文名称": "误匹配风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Consequence": {
+      "id": "IncorrectIdentification",
+      "中文名称": "错误识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Stakeholder": {
+      "id": "ACLU",
+      "中文名称": "美国公民自由联盟",
+      "英文名称": "American Civil Liberties Union",
+      "来源": "Amazon's facial recognition falsely matched members of Congress with mugshots, ACLU says"
+    },
+    "AISubject": {
+      "id": "MembersOfCongress",
+      "中文名称": "国会议员",
+      "英文名称": "Lawmakers",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Purpose": {
+      "id": "FacialIdentification",
+      "中文名称": "面部识别的目的",
+      "英文名称": "Facial Recognition Purpose",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFacialRecognition",
+      "中文名称": "基于深度学习的人脸识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "RiskSource": {
+      "id": "AlgorithmBias",
+      "中文名称": "算法偏差风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonFaceRecognition",
+      "中文名称": "亚马逊人脸识别系统",
+      "英文名称": "Amazon Face Recognition",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Risk": {
+      "id": "FalsePositiveMatchingRisk",
+      "中文名称": "误匹配风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Consequence": {
+      "id": "IncorrectIdentification",
+      "中文名称": "错误识别后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Stakeholder": {
+      "id": "ACLU",
+      "中文名称": "美国公民自由联盟",
+      "英文名称": "American Civil Liberties Union",
+      "来源": "Amazon's facial recognition falsely matched members of Congress with mugshots, ACLU says"
+    },
+    "AISubject": {
+      "id": "MembersOfCongress",
+      "中文名称": "国会议员",
+      "英文名称": "Lawmakers",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Purpose": {
+      "id": "FacialIdentification",
+      "中文名称": "面部识别的目的",
+      "英文名称": "Facial Recognition Purpose",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFacialRecognition",
+      "中文名称": "基于深度学习的人脸识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    },
+    "RiskSource": {
+      "id": "AlgorithmBias",
+      "中文名称": "算法偏差风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Amazon’s Face Recognition Falsely Matched 28 Members of Congress With Mugshots"
+    }
+  }
+}

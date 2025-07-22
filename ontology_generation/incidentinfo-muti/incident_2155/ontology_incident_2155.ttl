@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UighurIdentificationSystem rdf:type airo:AISystem ;
+    rdfs:label "Uighur Identification System"@en ;
+    rdfs:label "维吾尔族识别系统"@zh ;
+    airo:hasRisk ex:EthnicProfilingRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:HuaweiTechnologies ;
+    airo:hasAISubject ex:UighurMuslims ;
+    airo:hasPurpose ex:EthnicIdentification ;
+    airo:isAppliedWithinDomain ex:SurveillanceTechnology .
+
+ex:EthnicProfilingRisk rdf:type airo:Risk ;
+    rdfs:label "Ethnic Profiling Risk"@en ;
+    rdfs:label "种族特征分析风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryPractices ;
+    airo:isRiskSourceFor ex:BiometricDataCollection .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:HuaweiTechnologies rdf:type airo:Stakeholder ;
+    rdfs:label "Huawei Technologies"@en ;
+    rdfs:label "华为技术有限公司"@zh .
+
+ex:UighurMuslims rdf:type airo:AISubject ;
+    rdfs:label "Uighur Muslims"@en ;
+    rdfs:label "维吾尔族穆斯林"@zh .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UighurMuslims .
+
+ex:EthnicIdentification rdf:type airo:Purpose ;
+    rdfs:label "Ethnic Identification Purpose"@en ;
+    rdfs:label "种族识别目的"@zh .
+
+ex:SurveillanceTechnology rdf:type airo:Domain ;
+    rdfs:label "Surveillance Technology Domain"@en ;
+    rdfs:label "监控技术领域"@zh .
+
+ex:BiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Biometric Data Collection Risk Source"@en ;
+    rdfs:label "生物特征数据收集风险源"@zh .
+
+ex:DiscriminatoryPractices rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Practices Consequence"@en ;
+    rdfs:label "歧视性做法后果"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact .

@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DnDAIArtSystem rdf:type airo:AISystem ;
+    rdfs:label "Dungeons & Dragons AI Art System"@en ;
+    rdfs:label "龙与地下城AI艺术系统"@zh ;
+    airo:hasRisk ex:UnauthorizedAIArtUsageRisk ;
+    airo:hasStakeholder ex:WizardsOfTheCoast ;
+    airo:isDeployedBy ex:DnDIllustrators ;
+    airo:isAppliedWithinDomain ex:TabletopGamePublishing .
+
+ex:UnauthorizedAIArtUsageRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized AI Art Usage Risk"@en ;
+    rdfs:label "未经授权的AI艺术使用风险"@zh ;
+    airo:hasConsequence ex:PolicyUpdateForArtGuidelines .
+
+ex:WizardsOfTheCoast rdf:type airo:Stakeholder ;
+    rdfs:label "Wizards of the Coast"@en ;
+    rdfs:label "海岸巫师公司"@zh .
+
+ex:DnDIllustrators rdf:type airo:AIOperator ;
+    rdfs:label "Dungeons & Dragons Illustrators"@en ;
+    rdfs:label "龙与地下城插画师"@zh .
+
+ex:PolicyUpdateForArtGuidelines rdf:type airo:Consequence ;
+    rdfs:label "Policy Update for Art Guidelines Consequence"@en ;
+    rdfs:label "艺术指南政策更新后果"@zh .
+
+ex:TabletopGamePublishing rdf:type airo:Domain ;
+    rdfs:label "Tabletop Game Publishing Domain"@en ;
+    rdfs:label "桌面游戏出版领域"@zh .

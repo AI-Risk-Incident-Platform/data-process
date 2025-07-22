@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CourtSentencingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Court Sentencing Algorithm"@en ;
+    rdfs:label "法院量刑算法"@zh ;
+    airo:hasRisk ex:RacialBiasInSentencing ;
+    airo:hasAISubject ex:BlackDefendants ;
+    airo:isAppliedWithinDomain ex:JudicialSystem ;
+    airo:hasPurpose ex:SentencingDecisionSupport .
+
+ex:RacialBiasInSentencing rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Sentencing Risk"@en ;
+    rdfs:label "量刑中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminatorySentencingOutcomes ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:DiscriminatorySentencingOutcomes rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Sentencing Outcomes Consequence"@en ;
+    rdfs:label "歧视性量刑结果后果"@zh ;
+    airo:hasImpact ex:SocialInequality .
+
+ex:SocialInequality rdf:type airo:Impact ;
+    rdfs:label "Social Inequality Impact"@en ;
+    rdfs:label "社会不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackDefendants .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:BlackDefendants rdf:type airo:AISubject ;
+    rdfs:label "Black Defendants"@en ;
+    rdfs:label "黑人被告"@zh .
+
+ex:JudicialSystem rdf:type airo:Domain ;
+    rdfs:label "Judicial System Domain"@en ;
+    rdfs:label "司法系统领域"@zh .
+
+ex:SentencingDecisionSupport rdf:type airo:Purpose ;
+    rdfs:label "Sentencing Decision Support Purpose"@en ;
+    rdfs:label "量刑决策支持目的"@zh .

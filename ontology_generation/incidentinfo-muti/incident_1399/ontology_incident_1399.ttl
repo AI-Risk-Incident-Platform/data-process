@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAdBuyingAI rdf:type airo:AISystem ;
+    rdfs:label "Meta Ad Buying AI"@en ;
+    rdfs:label "Meta广告购买AI"@zh ;
+    airo:hasRisk ex:BudgetOverrunRisk ;
+    airo:hasCapability ex:AutomatedAdPlacement ;
+    airo:hasPurpose ex:OptimizeAdSpending ;
+    airo:isDeployedBy ex:Meta ;
+    airo:hasStakeholder ex:Advertisers ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising .
+
+ex:BudgetOverrunRisk rdf:type airo:Risk ;
+    rdfs:label "Budget Overrun Risk"@en ;
+    rdfs:label "预算超支风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:LackOfSpendingControls .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "财务损失"@zh ;
+    airo:hasImpact ex:AdvertiserTrustErosion .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:Advertisers rdf:type airo:Stakeholder ;
+    rdfs:label "Advertisers"@en ;
+    rdfs:label "广告客户"@zh .
+
+ex:AutomatedAdPlacement rdf:type airo:AICapability ;
+    rdfs:label "Automated Ad Placement"@en ;
+    rdfs:label "自动广告投放"@zh .
+
+ex:OptimizeAdSpending rdf:type airo:Purpose ;
+    rdfs:label "Optimize Ad Spending"@en ;
+    rdfs:label "优化广告支出"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising"@en ;
+    rdfs:label "数字广告"@zh .
+
+ex:LackOfSpendingControls rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Spending Controls"@en ;
+    rdfs:label "缺乏支出控制"@zh .
+
+ex:AdvertiserTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Advertiser Trust Erosion"@en ;
+    rdfs:label "广告商信任度下降"@zh ;
+    airo:hasImpactOnStakeholder ex:Advertisers .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseSelfDrivingTaxi rdf:type airo:AISystem ;
+    rdfs:label "Cruise Self-Driving Taxi"@en ;
+    rdfs:label "Cruise自动驾驶出租车"@zh ;
+    airo:hasRisk ex:OperationalInterferenceRisk ;
+    airo:hasStakeholder ex:Firefighters ;
+    airo:isDeployedBy ex:CruiseLLC ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation .
+
+ex:OperationalInterferenceRisk rdf:type airo:Risk ;
+    rdfs:label "Operational Interference Risk"@en ;
+    rdfs:label "操作干扰风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfEmergencyProtocols ;
+    airo:hasConsequence ex:EmergencyServiceDisruption .
+
+ex:Firefighters rdf:type airo:Stakeholder ;
+    rdfs:label "Firefighters"@en ;
+    rdfs:label "消防员"@zh .
+
+ex:EmergencyServiceDisruption rdf:type airo:Consequence ;
+    rdfs:label "Emergency Service Disruption Consequence"@en ;
+    rdfs:label "紧急服务中断后果"@zh ;
+    airo:hasImpact ex:PublicSafetyCompromise .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise LLC"@en ;
+    rdfs:label "Cruise有限责任公司"@zh .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:LackOfEmergencyProtocols rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Emergency Protocols Risk Source"@en ;
+    rdfs:label "缺乏紧急协议的风险源"@zh .
+
+ex:PublicSafetyCompromise rdf:type airo:Impact ;
+    rdfs:label "Public Safety Compromise Impact"@en ;
+    rdfs:label "公共安全受损的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Firefighters .

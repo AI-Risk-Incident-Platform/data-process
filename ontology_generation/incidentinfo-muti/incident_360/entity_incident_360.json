@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTok",
+      "中文名称": "TikTok",
+      "英文名称": "TikTok",
+      "来源": "TikTok suicide clip that traumatised kids was 'attack plotted on dark web'"
+    },
+    "Risk": {
+      "id": "SuicideClipTraumaRisk",
+      "中文名称": "自杀视频创伤风险",
+      "英文名称": "Suicide Clip Trauma Risk",
+      "来源": "TikTok suicide clip that traumatised kids was 'attack plotted on dark web'"
+    },
+    "Consequence": {
+      "id": "PsychologicalTraumaInChildren",
+      "中文名称": "儿童心理创伤后果",
+      "英文名称": "Psychological Trauma in Children Consequence",
+      "来源": "TikTok suicide clip that traumatised kids"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "TikTok suicide clip that traumatised kids"
+    },
+    "RiskSource": {
+      "id": "DarkWebAttackPlot",
+      "中文名称": "暗网攻击策划风险源",
+      "英文名称": "Dark Web Attack Plot Risk Source",
+      "来源": "'attack plotted on dark web'"
+    },
+    "Impact": {
+      "id": "MentalHealthImpactOnMinors",
+      "中文名称": "未成年人心理健康影响",
+      "英文名称": "Mental Health Impact on Minors",
+      "来源": "TikTok suicide clip that traumatised kids"
+    }
+  }
+}

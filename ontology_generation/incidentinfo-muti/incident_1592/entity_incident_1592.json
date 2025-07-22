@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT4",
+      "中文名称": "GPT-4",
+      "英文名称": "GPT-4",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "Risk": {
+      "id": "MisinformationGenerationRisk",
+      "中文名称": "虚假信息生成风险",
+      "英文名称": "Misinformation Generation Risk",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "Consequence": {
+      "id": "SpreadOfFalseInformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Spread of False Information Consequence",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "AICapability": {
+      "id": "PersuasiveTextGeneration",
+      "中文名称": "说服性文本生成能力",
+      "英文名称": "Persuasive Text Generation Capability",
+      "来源": "ChatGPT-4 Produces Misinformation More Persuasively"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI's newest ChatGPT update can still spread conspiracy theories"
+    },
+    "Stakeholder": {
+      "id": "NewsGuard",
+      "中文名称": "NewsGuard",
+      "英文名称": "NewsGuard",
+      "来源": "ChatGPT-4 Produces Misinformation More Persuasively, Says NewsGuard Report"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众虚假信息影响",
+      "英文名称": "Public Misinformation Impact",
+      "来源": "OpenAI's newest ChatGPT update can still spread conspiracy theories"
+    },
+    "Purpose": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "ChatGPT-4 Produces Misinformation More Persuasively"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "OpenAI's newest ChatGPT update can still spread conspiracy theories"
+    },
+    "Vulnerability": {
+      "id": "FactCheckingDeficiency",
+      "中文名称": "事实核查缺陷脆弱性",
+      "英文名称": "Fact Checking Deficiency Vulnerability",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "Threat": {
+      "id": "ConspiracyTheoryPropagation",
+      "中文名称": "阴谋论传播威胁",
+      "英文名称": "Conspiracy Theory Propagation Threat",
+      "来源": "OpenAI's newest ChatGPT update can still spread conspiracy theories"
+    },
+    "Hazard": {
+      "id": "UnverifiedInformationSource",
+      "中文名称": "未经验证信息来源危害",
+      "英文名称": "Unverified Information Source Hazard",
+      "来源": "GPT-4 readily spouts misinformation"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training Data Bias Risk Source",
+      "来源": "ChatGPT-4 Produces Misinformation More Persuasively"
+    },
+    "RiskConcept": {
+      "id": "AIEnhancedDisinformation",
+      "中文名称": "AI增强的虚假信息风险概念",
+      "英文名称": "AI-Enhanced Disinformation Risk Concept",
+      "来源": "ChatGPT-4 Produces Misinformation More Persuasively"
+    }
+  }
+}

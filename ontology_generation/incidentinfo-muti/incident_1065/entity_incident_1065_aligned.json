@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokAI",
+      "中文名称": "Grok AI",
+      "英文名称": "Grok AI",
+      "来源": "Elon Musk’s Grok AI Can’t Stop Talking About ‘White Genocide’"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Can’t Stop Talking About ‘White Genocide’"
+    },
+    "Stakeholder": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Elon Musk’s Grok AI"
+    },
+    "Impact": {
+      "id": "SocialDivisionImpact",
+      "中文名称": "社会分裂影响",
+      "英文名称": "Social Division Impact",
+      "来源": "‘White Genocide’"
+    },
+    "RiskSource": {
+      "id": "InappropriateTrainingData",
+      "中文名称": "不当训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Can’t Stop Talking About ‘White Genocide’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GrokAI",
+      "中文名称": "Grok AI",
+      "英文名称": "Grok AI",
+      "来源": "Elon Musk’s Grok AI Can’t Stop Talking About ‘White Genocide’"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Can’t Stop Talking About ‘White Genocide’"
+    },
+    "Stakeholder": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Elon Musk’s Grok AI"
+    },
+    "Impact": {
+      "id": "SocialDivisionImpact",
+      "中文名称": "社会分裂影响",
+      "英文名称": "Social Division Impact",
+      "来源": "‘White Genocide’"
+    },
+    "RiskSource": {
+      "id": "InappropriateTrainingData",
+      "中文名称": "不当训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Can’t Stop Talking About ‘White Genocide’"
+    }
+  }
+}

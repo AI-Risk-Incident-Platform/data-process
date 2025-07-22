@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ReminiApp rdf:type airo:AISystem ;
+    rdfs:label "Remini App"@en ;
+    rdfs:label "Remini应用"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:hasCapability ex:AIHeadshotGeneration ;
+    airo:hasStakeholder ex:AppUsers .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:BodyImageConcerns .
+
+ex:AIHeadshotGeneration rdf:type airo:AICapability ;
+    rdfs:label "AI Headshot Generation Capability"@en ;
+    rdfs:label "AI头像生成能力"@zh .
+
+ex:AppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "App Users"@en ;
+    rdfs:label "应用用户"@zh .
+
+ex:BodyImageConcerns rdf:type airo:Consequence ;
+    rdfs:label "Body Image Concerns Consequence"@en ;
+    rdfs:label "身体形象担忧后果"@zh .

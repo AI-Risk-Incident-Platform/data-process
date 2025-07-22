@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbots rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbots"@en ;
+    rdfs:label "AI聊天机器人"@zh ;
+    airo:hasRisk ex:HarmfulBehaviorFacilitationRisk ;
+    airo:hasAISubject ex:VulnerableMinors ;
+    airo:hasMisuse ex:ChatbotMisuseForHarmfulCommunities .
+
+ex:HarmfulBehaviorFacilitationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Behavior Facilitation Risk"@en ;
+    rdfs:label "有害行为促进风险"@zh ;
+    airo:hasConsequence ex:PromotionOfSelfHarm ;
+    airo:isRiskSourceFor ex:UnmoderatedOnlineCommunities .
+
+ex:PromotionOfSelfHarm rdf:type airo:Consequence ;
+    rdfs:label "Promotion of Self-Harm Consequence"@en ;
+    rdfs:label "促进自残行为后果"@zh ;
+    airo:hasImpact ex:MentalHealthDeterioration .
+
+ex:MentalHealthDeterioration rdf:type airo:Impact ;
+    rdfs:label "Mental Health Deterioration Impact"@en ;
+    rdfs:label "心理健康恶化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VulnerableMinors .
+
+ex:VulnerableMinors rdf:type airo:AISubject ;
+    rdfs:label "Vulnerable Minors"@en ;
+    rdfs:label "弱势未成年人"@zh .
+
+ex:ChatbotMisuseForHarmfulCommunities rdf:type airo:Misuse ;
+    rdfs:label "Chatbot Misuse for Harmful Communities"@en ;
+    rdfs:label "聊天机器人被有害社区滥用"@zh .
+
+ex:UnmoderatedOnlineCommunities rdf:type airo:RiskSource ;
+    rdfs:label "Unmoderated Online Communities Risk Source"@en ;
+    rdfs:label "未受监管的在线社区风险源"@zh .

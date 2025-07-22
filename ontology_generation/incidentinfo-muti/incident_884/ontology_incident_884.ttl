@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaVehicleSummoningTechnology rdf:type airo:AISystem ;
+    rdfs:label "Tesla Vehicle Summoning Technology"@en ;
+    rdfs:label "特斯拉车辆召唤技术"@zh ;
+    airo:hasRisk ex:VehicleCrashRisk ;
+    airo:isDevelopedBy ex:Tesla ;
+    airo:hasStakeholder ex:Regulators .
+
+ex:VehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "Vehicle Crash Risk"@en ;
+    rdfs:label "车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:MultipleVehicleCrashes .
+
+ex:Regulators rdf:type airo:Stakeholder ;
+    rdfs:label "Regulators"@en ;
+    rdfs:label "监管机构"@zh .
+
+ex:Tesla rdf:type airo:AIOperator ;
+    rdfs:label "Tesla"@en ;
+    rdfs:label "特斯拉"@zh .
+
+ex:MultipleVehicleCrashes rdf:type airo:Consequence ;
+    rdfs:label "Multiple Vehicle Crashes"@en ;
+    rdfs:label "多起车辆碰撞事故"@zh .

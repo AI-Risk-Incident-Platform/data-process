@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT4",
+      "中文名称": "GPT-4",
+      "英文名称": "GPT-4",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Consequence": {
+      "id": "SpreadOfFalseInformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "RiskSource": {
+      "id": "LackOfContentVerification",
+      "中文名称": "内容验证缺失风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Purpose": {
+      "id": "GeneralPurposeLanguageModel",
+      "中文名称": "通用语言模型目的",
+      "英文名称": "General Purpose Language Model Purpose",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GPT4",
+      "中文名称": "GPT-4",
+      "英文名称": "GPT-4",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Consequence": {
+      "id": "SpreadOfFalseInformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "RiskSource": {
+      "id": "LackOfContentVerification",
+      "中文名称": "内容验证缺失风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Despite OpenAI’s Promises, the Company’s New AI Tool Produces Misinformation More Frequently, and More Persuasively, than its Predecessor"
+    },
+    "Purpose": {
+      "id": "GeneralPurposeLanguageModel",
+      "中文名称": "通用语言模型目的",
+      "英文名称": "General Purpose Language Model Purpose",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+    }
+  }
+}

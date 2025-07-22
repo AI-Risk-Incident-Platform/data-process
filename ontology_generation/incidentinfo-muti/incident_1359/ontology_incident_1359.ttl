@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WelfareScreeningAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Welfare Screening Algorithm"@en ;
+    rdfs:label "福利筛查算法"@zh ;
+    airo:hasRisk ex:DisproportionateImpactOnBlackFamiliesRisk ;
+    airo:hasStakeholder ex:BlackFamilies ;
+    airo:isAppliedWithinDomain ex:ChildWelfareServices .
+
+ex:DisproportionateImpactOnBlackFamiliesRisk rdf:type airo:Risk ;
+    rdfs:label "Disproportionate Impact on Black Families Risk"@en ;
+    rdfs:label "对黑人家庭不成比例影响的风险"@zh ;
+    airo:hasConsequence ex:IncreasedChildWelfareInterventions .
+
+ex:IncreasedChildWelfareInterventions rdf:type airo:Consequence ;
+    rdfs:label "Increased Child Welfare Interventions Consequence"@en ;
+    rdfs:label "增加儿童福利干预的后果"@zh ;
+    airo:hasImpact ex:FamilySeparationImpact .
+
+ex:FamilySeparationImpact rdf:type airo:Impact ;
+    rdfs:label "Family Separation Impact"@en ;
+    rdfs:label "家庭分离的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackFamilies .
+
+ex:BlackFamilies rdf:type airo:Stakeholder ;
+    rdfs:label "Black Families"@en ;
+    rdfs:label "黑人家庭"@zh .
+
+ex:ChildWelfareServices rdf:type airo:Domain ;
+    rdfs:label "Child Welfare Services Domain"@en ;
+    rdfs:label "儿童福利服务领域"@zh .

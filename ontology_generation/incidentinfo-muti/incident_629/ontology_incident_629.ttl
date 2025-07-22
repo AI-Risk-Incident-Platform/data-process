@@ -1,0 +1,59 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SheinAIArtRecreationSystem rdf:type airo:AISystem ;
+    rdfs:label "Shein AI Art Recreation System"@en ;
+    rdfs:label "Shein AI艺术再创作系统"@zh ;
+    airo:hasRisk ex:IntellectualPropertyInfringementRisk ;
+    airo:isDeployedBy ex:SheinCompany ;
+    airo:hasStakeholder ex:DigitalArtists ;
+    airo:isAppliedWithinDomain ex:FashionECommerce ;
+    rdfs:comment "来源：Digital Artists Accuse Shein of Using AI to Recreate Art on Merchandise in Lawsuit" .
+
+ex:IntellectualPropertyInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Intellectual Property Infringement Risk"@en ;
+    rdfs:label "知识产权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalActionAgainstCompany ;
+    airo:isRiskSourceFor ex:UnauthorizedUseOfArtwork ;
+    rdfs:comment "来源：Designers sue Shein over AI ripoffs of their work" .
+
+ex:DigitalArtists rdf:type airo:Stakeholder ;
+    rdfs:label "Digital Artists"@en ;
+    rdfs:label "数字艺术家"@zh ;
+    rdfs:comment "来源：Digital Artists Accuse Shein of Using AI to Recreate Art on Merchandise in Lawsuit" .
+
+ex:SheinCompany rdf:type airo:AIOperator ;
+    rdfs:label "Shein Company"@en ;
+    rdfs:label "Shein公司"@zh ;
+    rdfs:comment "来源：Digital Artists Accuse Shein of Using AI to Recreate Art on Merchandise in Lawsuit" .
+
+ex:LegalActionAgainstCompany rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Against Company Consequence"@en ;
+    rdfs:label "针对公司的法律行动后果"@zh ;
+    airo:hasImpact ex:FinancialLossForArtists ;
+    rdfs:comment "来源：Designers sue Shein over AI ripoffs of their work" .
+
+ex:FinancialLossForArtists rdf:type airo:Impact ;
+    rdfs:label "Financial Loss For Artists Impact"@en ;
+    rdfs:label "艺术家经济损失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DigitalArtists ;
+    rdfs:comment "来源：Designers sue Shein over AI ripoffs of their work" .
+
+ex:FashionECommerce rdf:type airo:Domain ;
+    rdfs:label "Fashion E-Commerce Domain"@en ;
+    rdfs:label "时尚电子商务领域"@zh ;
+    rdfs:comment "来源：Digital Artists Accuse Shein of Using AI to Recreate Art on Merchandise in Lawsuit" .
+
+ex:UnauthorizedUseOfArtwork rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Use Of Artwork Risk Source"@en ;
+    rdfs:label "未经授权使用艺术作品的风险源"@zh ;
+    rdfs:comment "来源：Digital Artists Accuse Shein of Using AI to Recreate Art on Merchandise in Lawsuit" .

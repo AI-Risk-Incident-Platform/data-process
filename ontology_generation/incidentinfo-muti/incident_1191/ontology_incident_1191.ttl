@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepSeekChatbot rdf:type airo:AISystem ;
+    rdfs:label "DeepSeek Chatbot"@en ;
+    rdfs:label "DeepSeek聊天机器人"@zh ;
+    airo:hasRisk ex:FalseInformationPropagationRisk ;
+    airo:hasCapability ex:FactCheckingCapability ;
+    airo:hasStakeholder ex:NewsGuard .
+
+ex:FalseInformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "False Information Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "错误信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformationImpact .
+
+ex:FactCheckingCapability rdf:type airo:AICapability ;
+    rdfs:label "Fact Checking Capability"@en ;
+    rdfs:label "事实核查能力"@zh .
+
+ex:NewsGuard rdf:type airo:Stakeholder ;
+    rdfs:label "NewsGuard"@en ;
+    rdfs:label "NewsGuard"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据"@zh .
+
+ex:PublicMisinformationImpact rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众错误信息影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsGuard .

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MachineLearningTool",
+      "中文名称": "机器学习工具",
+      "英文名称": "Machine Learning Tool",
+      "来源": "What a machine learning tool that turns Obama white can (and can’t) tell us about AI bias"
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Once again, racial biases show up in AI image databases, this time turning Barack Obama white"
+    },
+    "AICapability": {
+      "id": "ImageProcessing",
+      "中文名称": "图像处理能力",
+      "英文名称": "Image Handling Capability",
+      "来源": "turns Obama white"
+    },
+    "AISubject": {
+      "id": "BarackObama",
+      "中文名称": "巴拉克·奥巴马",
+      "英文名称": "Barack Obama",
+      "来源": "turning Barack Obama white"
+    },
+    "Impact": {
+      "id": "MisrepresentationOfRace",
+      "中文名称": "种族错误表征的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "turning Barack Obama white"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "racial biases show up in AI image databases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MachineLearningTool",
+      "中文名称": "机器学习工具",
+      "英文名称": "Machine Learning Tool",
+      "来源": "What a machine learning tool that turns Obama white can (and can’t) tell us about AI bias"
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Once again, racial biases show up in AI image databases, this time turning Barack Obama white"
+    },
+    "AICapability": {
+      "id": "ImageProcessing",
+      "中文名称": "图像处理能力",
+      "英文名称": "Image Handling Capability",
+      "来源": "turns Obama white"
+    },
+    "AISubject": {
+      "id": "BarackObama",
+      "中文名称": "巴拉克·奥巴马",
+      "英文名称": "Barack Obama",
+      "来源": "turning Barack Obama white"
+    },
+    "Impact": {
+      "id": "MisrepresentationOfRace",
+      "中文名称": "种族错误表征的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "turning Barack Obama white"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "racial biases show up in AI image databases"
+    }
+  }
+}

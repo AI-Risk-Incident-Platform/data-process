@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FordHandsFreeDrivingSystem rdf:type airo:AISystem ;
+    rdfs:label "福特免提驾驶系统"@zh ;
+    rdfs:label "Ford Hands-Free Driving System"@en ;
+    airo:hasRisk ex:AutonomousVehicleFatalityRisk ;
+    airo:hasAICapability ex:AutomatedDrivingAssistance ;
+    airo:isDeployedBy ex:FordMotorCompany ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:AutonomousVehicleFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶致命风险"@zh ;
+    rdfs:label "Autonomous Vehicle Fatality Risk"@en ;
+    airo:hasConsequence ex:FatalCrashes .
+
+ex:FatalCrashes rdf:type airo:Consequence ;
+    rdfs:label "致命碰撞后果"@zh ;
+    rdfs:label "Fatal Crashes Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:FordMotorCompany rdf:type airo:AIOperator ;
+    rdfs:label "福特汽车公司"@zh ;
+    rdfs:label "Ford Motor Company"@en .
+
+ex:AutomatedDrivingAssistance rdf:type airo:AICapability ;
+    rdfs:label "自动驾驶辅助能力"@zh ;
+    rdfs:label "Automated Driving Assistance Capability"@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共安全威胁"@zh ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:FordMotorCompany .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "枪声检测AI系统",
+      "英文名称": "ShotSpotter",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Risk": {
+      "id": "EvidenceTamperingRisk",
+      "中文名称": "证据篡改风险",
+      "英文名称": "Evidence Tampering Risk",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Department",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Consequence": {
+      "id": "CompromisedJudicialProcess",
+      "中文名称": "司法程序受损后果",
+      "英文名称": "Compromised Judicial Process Consequence",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Impact": {
+      "id": "ErosionOfPublicTrust",
+      "中文名称": "公众信任受损影响",
+      "英文名称": "Erosion of Public Trust Impact",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    }
+  }
+}

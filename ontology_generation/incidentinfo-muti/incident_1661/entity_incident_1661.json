@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAutocompleteSystem",
+      "中文名称": "谷歌自动补全系统",
+      "英文名称": "Google Autocomplete System",
+      "来源": "Google changes autocomplete search engine suggests anti-Semitic phrase 'Jews are evil'"
+    },
+    "Risk": {
+      "id": "AntiSemiticContentRisk",
+      "中文名称": "反犹太内容风险",
+      "英文名称": "Anti-Semitic Content Risk",
+      "来源": "Google changes its anti-Semitic autocomplete suggestions"
+    },
+    "Consequence": {
+      "id": "SpreadOfHateSpeech",
+      "中文名称": "仇恨言论传播后果",
+      "英文名称": "Spread of Hate Speech Consequence",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "AICapability": {
+      "id": "SearchQueryPrediction",
+      "中文名称": "搜索查询预测能力",
+      "英文名称": "Search Query Prediction Capability",
+      "来源": "Google changes autocomplete search engine suggests anti-Semitic phrase 'Jews are evil'"
+    },
+    "Stakeholder": {
+      "id": "JewishCommunity",
+      "中文名称": "犹太社区",
+      "英文名称": "Jewish Community",
+      "来源": "Google changes its anti-Semitic autocomplete suggestions"
+    },
+    "RiskSource": {
+      "id": "UserInputBias",
+      "中文名称": "用户输入偏见风险源",
+      "英文名称": "User Input Bias Risk Source",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Social Harm Impact",
+      "来源": "Google changes its anti-Semitic autocomplete suggestions"
+    }
+  }
+}

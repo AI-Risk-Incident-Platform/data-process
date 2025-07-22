@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BabylonHealthTriageChatbot rdf:type airo:AISystem ;
+    rdfs:label "Babylon Health Triage Chatbot"@en ;
+    rdfs:label "Babylon Health分诊聊天机器人"@zh ;
+    airo:hasRisk ex:LegalGapInTriageChatbotRegulation ;
+    airo:hasPurpose ex:MedicalTriageService ;
+    airo:hasStakeholder ex:MHRARegulator ;
+    airo:isAppliedWithinDomain ex:HealthcareSector .
+
+ex:LegalGapInTriageChatbotRegulation rdf:type airo:Risk ;
+    rdfs:label "Legal Gap in Triage Chatbot Regulation Risk"@en ;
+    rdfs:label "分诊聊天机器人监管法律缺失风险"@zh ;
+    airo:isRiskSourceFor ex:UnregulatedMedicalAITriage .
+
+ex:MHRARegulator rdf:type airo:Stakeholder ;
+    rdfs:label "MHRA Regulator"@en ;
+    rdfs:label "MHRA监管机构"@zh .
+
+ex:UnregulatedMedicalAITriage rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated Medical AI Triage Risk Source"@en ;
+    rdfs:label "未受监管的医疗AI分诊风险源"@zh .
+
+ex:HealthcareSector rdf:type airo:Domain ;
+    rdfs:label "Healthcare Sector Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:MedicalTriageService rdf:type airo:Purpose ;
+    rdfs:label "Medical Triage Service Purpose"@en ;
+    rdfs:label "医疗分诊服务目的"@zh .

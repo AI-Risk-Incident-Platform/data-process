@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIInterviewTools rdf:type airo:AISystem ;
+    rdfs:label "AI Interview Tools"@en ;
+    rdfs:label "AI面试工具"@zh ;
+    airo:hasRisk ex:PotentialBiasInHiringDecisions ;
+    airo:hasCapability ex:AutomatedCandidateAssessment ;
+    airo:hasPurpose ex:StreamliningHiringProcess ;
+    airo:hasStakeholder ex:JobApplicants ;
+    airo:isAppliedWithinDomain ex:HumanResources .
+
+ex:PotentialBiasInHiringDecisions rdf:type airo:Risk ;
+    rdfs:label "Potential Bias in Hiring Decisions Risk"@en ;
+    rdfs:label "招聘决策中的潜在偏见风险"@zh .
+
+ex:JobApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Job Applicants"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:AutomatedCandidateAssessment rdf:type airo:AICapability ;
+    rdfs:label "Automated Candidate Assessment Capability"@en ;
+    rdfs:label "自动化候选人评估能力"@zh .
+
+ex:StreamliningHiringProcess rdf:type airo:Purpose ;
+    rdfs:label "Streamlining Hiring Process Purpose"@en ;
+    rdfs:label "简化招聘流程的目的"@zh .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "Human Resources Domain"@en ;
+    rdfs:label "人力资源领域"@zh .

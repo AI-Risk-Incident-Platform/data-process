@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WalmartAIStoreSystem rdf:type airo:AISystem ;
+    rdfs:label "Walmart AI Store System"@en ;
+    rdfs:label "沃尔玛AI商店系统"@zh ;
+    airo:hasRisk ex:MisleadingProductDisplayRisk ;
+    airo:hasAICapability ex:AutomatedProductDisplayGeneration ;
+    airo:isDeployedBy ex:WalmartInc ;
+    airo:hasStakeholder ex:RetailShoppers ;
+    airo:hasPurpose ex:AutomatedRetailMerchandising ;
+    airo:isAppliedWithinDomain ex:RetailIndustry ;
+    airo:usesTechnique ex:ComputerVisionBasedProductPlacement .
+
+ex:MisleadingProductDisplayRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Product Display Risk"@en ;
+    rdfs:label "误导性商品展示风险"@zh ;
+    airo:hasConsequence ex:CustomerDeception ;
+    airo:isRiskSourceFor ex:UnverifiedAIOutputs .
+
+ex:CustomerDeception rdf:type airo:Consequence ;
+    rdfs:label "Customer Deception Consequence"@en ;
+    rdfs:label "顾客欺骗后果"@zh ;
+    airo:hasImpact ex:LossOfConsumerTrust .
+
+ex:AutomatedProductDisplayGeneration rdf:type airo:AICapability ;
+    rdfs:label "Automated Product Display Generation Capability"@en ;
+    rdfs:label "自动商品展示生成能力"@zh .
+
+ex:WalmartInc rdf:type airo:AIOperator ;
+    rdfs:label "Walmart Inc."@en ;
+    rdfs:label "沃尔玛公司"@zh .
+
+ex:RetailShoppers rdf:type airo:Stakeholder ;
+    rdfs:label "Retail Shoppers"@en ;
+    rdfs:label "零售顾客"@zh .
+
+ex:LossOfConsumerTrust rdf:type airo:Impact ;
+    rdfs:label "Loss of Consumer Trust Impact"@en ;
+    rdfs:label "消费者信任丧失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RetailShoppers .
+
+ex:AutomatedRetailMerchandising rdf:type airo:Purpose ;
+    rdfs:label "Automated Retail Merchandising Purpose"@en ;
+    rdfs:label "自动化零售商品展示目的"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry Domain"@en ;
+    rdfs:label "零售业领域"@zh .
+
+ex:ComputerVisionBasedProductPlacement rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Product Placement Technique"@en ;
+    rdfs:label "基于计算机视觉的商品摆放技术"@zh .
+
+ex:UnverifiedAIOutputs rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI Outputs Risk Source"@en ;
+    rdfs:label "未经验证的AI输出风险源"@zh ;
+    airo:hasVulnerability ex:LackOfHumanQualityControl ;
+    airo:hasHazard ex:InaccurateAIProductRecognition ;
+    airo:hasThreat ex:MisrepresentationOfProducts .
+
+ex:LackOfHumanQualityControl rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Quality Control Vulnerability"@en ;
+    rdfs:label "缺乏人工质量控制的脆弱性"@zh .
+
+ex:InaccurateAIProductRecognition rdf:type airo:Hazard ;
+    rdfs:label "Inaccurate AI Product Recognition Hazard"@en ;
+    rdfs:label "AI商品识别不准确危害"@zh .
+
+ex:MisrepresentationOfProducts rdf:type airo:Threat ;
+    rdfs:label "Misrepresentation of Products Threat"@en ;
+    rdfs:label "商品虚假展示威胁"@zh .
+
+ex:EthicalIssuesInAICommerce rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in AI Commerce Risk Concept"@en ;
+    rdfs:label "AI商业中的伦理问题"@zh .

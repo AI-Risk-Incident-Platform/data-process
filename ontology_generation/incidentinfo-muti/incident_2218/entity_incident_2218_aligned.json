@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShiptAlgorithmBasedCompensationSystem",
+      "中文名称": "Shipt基于算法的薪酬系统",
+      "英文名称": "Shipt Algorithm-Based Compensation System",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation that they say will lower their pay"
+    },
+    "Risk": {
+      "id": "WorkerPayReductionRisk",
+      "中文名称": "工人薪酬降低风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Some Shipt workers report seeing lower pay under new effort-based model"
+    },
+    "Stakeholder": {
+      "id": "ShiptWorkers",
+      "中文名称": "Shipt工人",
+      "英文名称": "Shipt Workers",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation"
+    },
+    "AIOperator": {
+      "id": "TargetCorporation",
+      "中文名称": "塔吉特公司",
+      "英文名称": "Target Corporation",
+      "来源": "Target-owned Shipt"
+    },
+    "Consequence": {
+      "id": "WorkerStrikeAction",
+      "中文名称": "工人罢工行动后果",
+      "英文名称": "Worker Strike Action Consequence",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForWorkers",
+      "中文名称": "工人经济困难影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Some Shipt workers report seeing lower pay under new effort-based model"
+    },
+    "Purpose": {
+      "id": "CompensationCalculation",
+      "中文名称": "薪酬计算目的",
+      "英文名称": "Compensation Calculation Purpose",
+      "来源": "new algorithm-based compensation"
+    },
+    "Domain": {
+      "id": "GigEconomy",
+      "中文名称": "零工经济领域",
+      "英文名称": "Gig Economy",
+      "来源": "Shipt workers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShiptAlgorithmBasedCompensationSystem",
+      "中文名称": "Shipt基于算法的薪酬系统",
+      "英文名称": "Shipt Algorithm-Based Compensation System",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation that they say will lower their pay"
+    },
+    "Risk": {
+      "id": "WorkerPayReductionRisk",
+      "中文名称": "工人薪酬降低风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Some Shipt workers report seeing lower pay under new effort-based model"
+    },
+    "Stakeholder": {
+      "id": "ShiptWorkers",
+      "中文名称": "Shipt工人",
+      "英文名称": "Shipt Workers",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation"
+    },
+    "AIOperator": {
+      "id": "TargetCorporation",
+      "中文名称": "塔吉特公司",
+      "英文名称": "Target Corporation",
+      "来源": "Target-owned Shipt"
+    },
+    "Consequence": {
+      "id": "WorkerStrikeAction",
+      "中文名称": "工人罢工行动后果",
+      "英文名称": "Worker Strike Action Consequence",
+      "来源": "Workers at Target-owned Shipt strike over new algorithm-based compensation"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForWorkers",
+      "中文名称": "工人经济困难影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Some Shipt workers report seeing lower pay under new effort-based model"
+    },
+    "Purpose": {
+      "id": "CompensationCalculation",
+      "中文名称": "薪酬计算目的",
+      "英文名称": "Compensation Calculation Purpose",
+      "来源": "new algorithm-based compensation"
+    },
+    "Domain": {
+      "id": "GigEconomy",
+      "中文名称": "零工经济领域",
+      "英文名称": "Gig Economy",
+      "来源": "Shipt workers"
+    }
+  }
+}

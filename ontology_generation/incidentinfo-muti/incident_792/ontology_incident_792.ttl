@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoSelfDrivingCars rdf:type airo:AISystem ;
+    rdfs:label "Waymo Self-Driving Cars"@en ;
+    rdfs:label "Waymo自动驾驶汽车"@zh ;
+    airo:hasRisk ex:NoisePollutionFromAutonomousVehicles ;
+    airo:hasStakeholder ex:SanFranciscoResidents ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTransportation ;
+    airo:isDeployedBy ex:Waymo .
+
+ex:NoisePollutionFromAutonomousVehicles rdf:type airo:Risk ;
+    rdfs:label "Noise Pollution from Autonomous Vehicles Risk"@en ;
+    rdfs:label "自动驾驶汽车噪音污染风险"@zh ;
+    airo:hasConsequence ex:SleepDisruptionForResidents ;
+    airo:isRiskSourceFor ex:ExcessiveVehicleHonking .
+
+ex:SleepDisruptionForResidents rdf:type airo:Consequence ;
+    rdfs:label "Sleep Disruption for Residents Consequence"@en ;
+    rdfs:label "居民睡眠中断后果"@zh ;
+    airo:hasImpact ex:NegativeImpactOnQualityOfLife .
+
+ex:NegativeImpactOnQualityOfLife rdf:type airo:Impact ;
+    rdfs:label "Negative Impact on Quality of Life"@en ;
+    rdfs:label "生活质量负面影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoResidents .
+
+ex:SanFranciscoResidents rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco Residents"@en ;
+    rdfs:label "旧金山居民"@zh .
+
+ex:Waymo rdf:type airo:AIOperator ;
+    rdfs:label "Waymo"@en ;
+    rdfs:label "Waymo公司"@zh .
+
+ex:AutonomousVehicleTransportation rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicle Transportation Domain"@en ;
+    rdfs:label "自动驾驶汽车交通领域"@zh .
+
+ex:ExcessiveVehicleHonking rdf:type airo:RiskSource ;
+    rdfs:label "Excessive Vehicle Honking Risk Source"@en ;
+    rdfs:label "车辆过度鸣笛风险源"@zh .

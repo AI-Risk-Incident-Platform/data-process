@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AnthropicAI",
+      "中文名称": "Anthropic AI",
+      "英文名称": "Anthropic AI",
+      "来源": "Amazon-backed AI startup Anthropic"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Music publishers sue Amazon-backed AI company over song lyrics"
+    },
+    "Stakeholder": {
+      "id": "UniversalMusicGroup",
+      "中文名称": "环球音乐集团",
+      "英文名称": "Universal Music Group",
+      "来源": "Universal Music Group is suing Amazon-backed AI startup Anthropic"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon-backed AI startup Anthropic"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "Universal Music sues Anthropic over AI-generated lyrics"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "Music publishers sue Amazon-backed AI company over song lyrics"
+    },
+    "AICapability": {
+      "id": "LyricsGenerationCapability",
+      "中文名称": "歌词生成能力",
+      "英文名称": "Lyrics Generation Capability",
+      "来源": "Universal Music sues Anthropic over AI-generated lyrics"
+    }
+  }
+}

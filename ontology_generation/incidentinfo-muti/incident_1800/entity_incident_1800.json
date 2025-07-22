@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYPDFacialRecognitionSystem",
+      "中文名称": "纽约警察局面部识别系统",
+      "英文名称": "NYPD Facial Recognition System",
+      "来源": "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment"
+    },
+    "Stakeholder": {
+      "id": "BlackLivesMatterActivist",
+      "中文名称": "黑人的命也是命活动家",
+      "英文名称": "Black Lives Matter Activist",
+      "来源": "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment"
+    },
+    "AIOperator": {
+      "id": "NYPD",
+      "中文名称": "纽约警察局",
+      "英文名称": "NYPD",
+      "来源": "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment"
+    },
+    "Impact": {
+      "id": "CivilLibertiesViolation",
+      "中文名称": "公民自由侵犯的影响",
+      "英文名称": "Civil Liberties Violation Impact",
+      "来源": "De Blasio Will Reassess NYPD's Use Of Facial Recognition Tech After Protester Arrest"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "New York City Facial Recognition"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment"
+    }
+  }
+}

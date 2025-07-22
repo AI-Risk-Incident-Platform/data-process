@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClearviewAI rdf:type airo:AISystem ;
+    rdfs:label "Clearview AI"@en ;
+    rdfs:label "Clearview AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:FacialRecognition ;
+    airo:hasPurpose ex:TrackRussianInvaders ;
+    airo:isAppliedWithinDomain ex:MilitarySurveillance ;
+    airo:hasStakeholder ex:UkrainianGovernment ;
+    airo:isProvidedBy ex:ClearviewAIProvider ;
+    airo:hasAISubject ex:RussianInvaders ;
+    airo:usesTechnique ex:FacialRecognitionAlgorithm .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:CivilianPrivacyConcerns .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .
+
+ex:TrackRussianInvaders rdf:type airo:Purpose ;
+    rdfs:label "Track Russian Invaders Purpose"@en ;
+    rdfs:label "追踪俄罗斯入侵者"@zh .
+
+ex:MilitarySurveillance rdf:type airo:Domain ;
+    rdfs:label "Military Surveillance Domain"@en ;
+    rdfs:label "军事监视领域"@zh .
+
+ex:UkrainianGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Ukrainian Government"@en ;
+    rdfs:label "乌克兰政府"@zh .
+
+ex:ClearviewAIProvider rdf:type airo:AIProvider ;
+    rdfs:label "Clearview AI Provider"@en ;
+    rdfs:label "Clearview AI提供者"@zh .
+
+ex:RussianInvaders rdf:type airo:AISubject ;
+    rdfs:label "Russian Invaders"@en ;
+    rdfs:label "俄罗斯入侵者"@zh .
+
+ex:CivilianPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Civilian Privacy Concerns Impact"@en ;
+    rdfs:label "平民隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UkrainianGovernment .
+
+ex:FacialRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Algorithm Technique"@en ;
+    rdfs:label "面部识别算法技术"@zh .

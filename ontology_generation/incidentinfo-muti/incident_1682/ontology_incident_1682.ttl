@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasAISubject ex:RetiredGovernmentEmployee ;
+    airo:hasStakeholder ex:Scammers ;
+    airo:usesTechnique ex:DeepfakeCreation ;
+    airo:isAppliedWithinDomain ex:FinancialSecurity .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:MonetaryLoss ;
+    airo:isRiskSourceFor ex:AIEnabledFraud .
+
+ex:MonetaryLoss rdf:type airo:Consequence ;
+    rdfs:label "Monetary Loss Consequence"@en ;
+    rdfs:label "金钱损失后果"@zh ;
+    airo:hasImpact ex:FinancialHardship .
+
+ex:RetiredGovernmentEmployee rdf:type airo:AISubject ;
+    rdfs:label "Retired Government Employee"@en ;
+    rdfs:label "退休政府雇员"@zh .
+
+ex:Scammers rdf:type airo:Stakeholder ;
+    rdfs:label "Scammers"@en ;
+    rdfs:label "诈骗者"@zh .
+
+ex:FinancialHardship rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship Impact"@en ;
+    rdfs:label "经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RetiredGovernmentEmployee .
+
+ex:DeepfakeCreation rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Creation Technique"@en ;
+    rdfs:label "深度伪造创建技术"@zh .
+
+ex:AIEnabledFraud rdf:type airo:RiskSource ;
+    rdfs:label "AI-Enabled Fraud Risk Source"@en ;
+    rdfs:label "AI驱动的欺诈风险源"@zh .
+
+ex:FinancialSecurity rdf:type airo:Domain ;
+    rdfs:label "Financial Security Domain"@en ;
+    rdfs:label "金融安全领域"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonDeliveryVanAICameras",
+      "中文名称": "亚马逊送货车辆AI摄像头",
+      "英文名称": "Amazon Delivery Van AI Cameras",
+      "来源": "Amazon Plans AI-Powered Cameras to Monitor Delivery Van Drivers"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Invasion Risk",
+      "来源": "Amazon plans to install always-on surveillance cameras in its delivery vehicles"
+    },
+    "Stakeholder": {
+      "id": "DeliveryVanDrivers",
+      "中文名称": "送货车辆司机",
+      "英文名称": "Delivery Van Drivers",
+      "来源": "Amazon Plans AI-Powered Cameras to Monitor Delivery Van Drivers"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon using AI-equipped cameras in delivery vans"
+    },
+    "Purpose": {
+      "id": "DriverMonitoring",
+      "中文名称": "司机监控",
+      "英文名称": "Driver Monitoring",
+      "来源": "Amazon Plans AI-Powered Cameras to Monitor Delivery Van Drivers"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流与配送",
+      "英文名称": "Logistics and Delivery",
+      "来源": "Amazon using AI-equipped cameras in delivery vans"
+    },
+    "AICapability": {
+      "id": "RealTimeBehaviorMonitoring",
+      "中文名称": "实时行为监控能力",
+      "英文名称": "Real-Time Behavior Monitoring Capability",
+      "来源": "Amazon plans to install always-on surveillance cameras in its delivery vehicles"
+    },
+    "RiskSource": {
+      "id": "AlwaysOnSurveillance",
+      "中文名称": "持续监控",
+      "英文名称": "Always-On Surveillance",
+      "来源": "Amazon plans to install always-on surveillance cameras in its delivery vehicles"
+    },
+    "Impact": {
+      "id": "WorkplacePrivacyConcerns",
+      "中文名称": "工作场所隐私担忧",
+      "英文名称": "Workplace Privacy Concerns",
+      "来源": "Amazon plans to install always-on surveillance cameras in its delivery vehicles"
+    }
+  }
+}

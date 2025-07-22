@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Jacksons Food Stores facing lawsuit over facial recognition technology"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Jacksons Food Stores facing lawsuit over facial recognition technology"
+    },
+    "Stakeholder": {
+      "id": "JacksonsFoodStores",
+      "中文名称": "杰克逊食品商店",
+      "英文名称": "Jacksons Food Stores",
+      "来源": "Jacksons Food Stores facing lawsuit over facial recognition technology"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "Convenience Chain Adds Facial Recognition at More Portland Stores"
+    },
+    "Purpose": {
+      "id": "CustomerIdentification",
+      "中文名称": "顾客识别",
+      "英文名称": "Customer Identification",
+      "来源": "Convenience Chain Adds Facial Recognition at More Portland Stores"
+    },
+    "RiskSource": {
+      "id": "LackOfRegulation",
+      "中文名称": "缺乏监管",
+      "英文名称": "Lack of Regulation",
+      "来源": "Portland approves strictest ban on facial recognition technology in the U.S."
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Action",
+      "来源": "Jacksons Food Stores facing lawsuit over facial recognition technology"
+    },
+    "Impact": {
+      "id": "PublicConcern",
+      "中文名称": "公众担忧",
+      "英文名称": "Public Concern",
+      "来源": "Portland approves strictest ban on facial recognition technology in the U.S."
+    }
+  }
+}

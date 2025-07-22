@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TumblrContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Tumblr Content Moderation System"@en ;
+    rdfs:label "Tumblr内容审核系统"@zh ;
+    airo:hasRisk ex:InaccurateContentModerationRisk ;
+    airo:hasAISubject ex:UserGeneratedContent ;
+    airo:hasStakeholder ex:TumblrUsers ;
+    airo:hasPurpose ex:ContentModeration ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:ComputerVisionForContentFiltering ;
+    airo:hasAICapability ex:ImageRecognitionForContentModeration ;
+    airo:isDeployedBy ex:Tumblr .
+
+ex:InaccurateContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Content Moderation Risk"@en ;
+    rdfs:label "内容审核不准确风险"@zh ;
+    airo:hasConsequence ex:InnocentPostsBeingFlagged ;
+    airo:isRiskSourceFor ex:ImperfectAlgorithmicDetection .
+
+ex:InnocentPostsBeingFlagged rdf:type airo:Consequence ;
+    rdfs:label "Innocent Posts Being Flagged Consequence"@en ;
+    rdfs:label "无辜帖子被标记的后果"@zh ;
+    airo:hasImpact ex:UserExperienceDegradation .
+
+ex:ImageRecognitionForContentModeration rdf:type airo:AICapability ;
+    rdfs:label "Image Recognition for Content Moderation Capability"@en ;
+    rdfs:label "用于内容审核的图像识别能力"@zh .
+
+ex:Tumblr rdf:type airo:AIOperator ;
+    rdfs:label "Tumblr"@en ;
+    rdfs:label "Tumblr"@zh .
+
+ex:TumblrUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Tumblr Users"@en ;
+    rdfs:label "Tumblr用户"@zh .
+
+ex:UserGeneratedContent rdf:type airo:AISubject ;
+    rdfs:label "User Generated Content"@en ;
+    rdfs:label "用户生成内容"@zh .
+
+ex:UserExperienceDegradation rdf:type airo:Impact ;
+    rdfs:label "User Experience Degradation Impact"@en ;
+    rdfs:label "用户体验下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TumblrUsers .
+
+ex:ContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation Purpose"@en ;
+    rdfs:label "内容审核的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:ComputerVisionForContentFiltering rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Content Filtering Technique"@en ;
+    rdfs:label "用于内容过滤的计算机视觉技术"@zh .
+
+ex:OverlySensitiveContentDetection rdf:type airo:Vulnerability ;
+    rdfs:label "Overly Sensitive Content Detection Vulnerability"@en ;
+    rdfs:label "内容检测过于敏感的脆弱性"@zh .
+
+ex:FalsePositiveContentFlagging rdf:type airo:Threat ;
+    rdfs:label "False Positive Content Flagging Threat"@en ;
+    rdfs:label "内容误标记的威胁"@zh ;
+    rdfs:subClassOf airo:RiskSource .
+
+ex:InsufficientTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Insufficient Training Data Hazard"@en ;
+    rdfs:label "训练数据不足的危害"@zh ;
+    rdfs:subClassOf airo:RiskSource .
+
+ex:ImperfectAlgorithmicDetection rdf:type airo:RiskSource ;
+    rdfs:label "Imperfect Algorithmic Detection Risk Source"@en ;
+    rdfs:label "算法检测不完善的风险源"@zh ;
+    airo:hasVulnerability ex:OverlySensitiveContentDetection ;
+    airo:hasThreat ex:FalsePositiveContentFlagging ;
+    airo:hasHazard ex:InsufficientTrainingData .
+
+ex:AutomatedContentModerationChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Automated Content Moderation Challenges Risk Concept"@en ;
+    rdfs:label "自动化内容审核的挑战"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "新闻标题中多次提及的Deepfake技术"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题'Is it Azmin or a Deepfake?'暗示的身份冒充问题"
+    },
+    "AICapability": {
+      "id": "RealisticMediaGeneration",
+      "中文名称": "逼真媒体生成能力",
+      "英文名称": "Realistic Media Generation Capability",
+      "来源": "标题'How puny humans can spot devious deepfakes'中暗示的逼真伪造能力"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "Consumers",
+      "来源": "标题'Can You Spot a Deepfake?'中针对的普通用户群体"
+    },
+    "Consequence": {
+      "id": "SocialTrustErosion",
+      "中文名称": "社会信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题'Does It Matter?'暗示的深伪技术对社会信任的潜在影响"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "新闻标题中多次提及的Deepfake技术"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题'Is it Azmin or a Deepfake?'暗示的身份冒充问题"
+    },
+    "AICapability": {
+      "id": "RealisticMediaGeneration",
+      "中文名称": "逼真媒体生成能力",
+      "英文名称": "Realistic Media Generation Capability",
+      "来源": "标题'How puny humans can spot devious deepfakes'中暗示的逼真伪造能力"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "Consumers",
+      "来源": "标题'Can You Spot a Deepfake?'中针对的普通用户群体"
+    },
+    "Consequence": {
+      "id": "SocialTrustErosion",
+      "中文名称": "社会信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题'Does It Matter?'暗示的深伪技术对社会信任的潜在影响"
+    }
+  }
+}

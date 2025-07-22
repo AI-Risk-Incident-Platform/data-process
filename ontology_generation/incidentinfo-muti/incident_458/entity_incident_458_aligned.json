@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IRSAuditSystem",
+      "中文名称": "IRS审计系统",
+      "英文名称": "IRS Audit System",
+      "来源": "Black taxpayers more than three times more likely to be audited by IRS"
+    },
+    "Risk": {
+      "id": "RacialBiasInTaxAudits",
+      "中文名称": "税务审计中的种族偏见风险",
+      "英文名称": "Racial Bias in Tax Audits Risk",
+      "来源": "Black Americans Are Much More Likely to Face Tax Audits"
+    },
+    "Consequence": {
+      "id": "DisproportionateAuditBurden",
+      "中文名称": "不成比例的审计负担后果",
+      "英文名称": "Disproportionate Audit Burden Consequence",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForMinorities",
+      "中文名称": "少数族裔财务困难的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Black Americans Are Much More Likely to Face Tax Audits"
+    },
+    "Stakeholder": {
+      "id": "BlackTaxpayers",
+      "中文名称": "黑人纳税人",
+      "英文名称": "Black Taxpayers",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    },
+    "Domain": {
+      "id": "TaxationSystem",
+      "中文名称": "税收系统领域",
+      "英文名称": "Taxation System Domain",
+      "来源": "IRS Disproportionately Audits Black Taxpayers"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAuditSelection",
+      "中文名称": "审计选择中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "IRSAuditSystem",
+      "中文名称": "IRS审计系统",
+      "英文名称": "IRS Audit System",
+      "来源": "Black taxpayers more than three times more likely to be audited by IRS"
+    },
+    "Risk": {
+      "id": "RacialBiasInTaxAudits",
+      "中文名称": "税务审计中的种族偏见风险",
+      "英文名称": "Racial Bias in Tax Audits Risk",
+      "来源": "Black Americans Are Much More Likely to Face Tax Audits"
+    },
+    "Consequence": {
+      "id": "DisproportionateAuditBurden",
+      "中文名称": "不成比例的审计负担后果",
+      "英文名称": "Disproportionate Audit Burden Consequence",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForMinorities",
+      "中文名称": "少数族裔财务困难的影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Black Americans Are Much More Likely to Face Tax Audits"
+    },
+    "Stakeholder": {
+      "id": "BlackTaxpayers",
+      "中文名称": "黑人纳税人",
+      "英文名称": "Black Taxpayers",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    },
+    "Domain": {
+      "id": "TaxationSystem",
+      "中文名称": "税收系统领域",
+      "英文名称": "Taxation System Domain",
+      "来源": "IRS Disproportionately Audits Black Taxpayers"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAuditSelection",
+      "中文名称": "审计选择中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Black taxpayers more than three times more likely to be audited"
+    }
+  }
+}

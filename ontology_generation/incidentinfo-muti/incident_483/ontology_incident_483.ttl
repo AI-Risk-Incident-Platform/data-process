@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:CelebrityVoiceAbuseRisk ;
+    airo:usesTechnique ex:DeepfakeAudioTechnology ;
+    airo:hasStakeholder ex:Celebrities .
+
+ex:CelebrityVoiceAbuseRisk rdf:type airo:Risk ;
+    rdfs:label "Celebrity Voice Abuse Risk"@en ;
+    rdfs:label "名人语音滥用风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:AnonymousOnlineForums .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:DeepfakeAudioTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Audio Technology"@en ;
+    rdfs:label "深度伪造音频技术"@zh .
+
+ex:Celebrities rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrities"@en ;
+    rdfs:label "名人"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Celebrities .
+
+ex:AnonymousOnlineForums rdf:type airo:RiskSource ;
+    rdfs:label "Anonymous Online Forums Risk Source"@en ;
+    rdfs:label "匿名在线论坛风险源"@zh .

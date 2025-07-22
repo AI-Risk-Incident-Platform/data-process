@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShiptAlgorithmBasedCompensationSystem rdf:type airo:AISystem ;
+    rdfs:label "Shipt基于算法的薪酬系统"@zh ;
+    rdfs:label "Shipt Algorithm-Based Compensation System"@en ;
+    airo:hasRisk ex:WorkerPayReductionRisk ;
+    airo:hasPurpose ex:CompensationCalculation ;
+    airo:isDeployedBy ex:TargetCorporation ;
+    airo:hasStakeholder ex:ShiptWorkers ;
+    airo:isAppliedWithinDomain ex:GigEconomy .
+
+ex:WorkerPayReductionRisk rdf:type airo:Risk ;
+    rdfs:label "工人薪酬降低风险"@zh ;
+    rdfs:label "Worker Pay Reduction Risk"@en ;
+    airo:hasConsequence ex:WorkerStrikeAction .
+
+ex:ShiptWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "Shipt工人"@zh ;
+    rdfs:label "Shipt Workers"@en .
+
+ex:TargetCorporation rdf:type airo:AIOperator ;
+    rdfs:label "塔吉特公司"@zh ;
+    rdfs:label "Target Corporation"@en .
+
+ex:WorkerStrikeAction rdf:type airo:Consequence ;
+    rdfs:label "工人罢工行动后果"@zh ;
+    rdfs:label "Worker Strike Action Consequence"@en ;
+    airo:hasImpact ex:FinancialHardshipForWorkers .
+
+ex:FinancialHardshipForWorkers rdf:type airo:Impact ;
+    rdfs:label "工人经济困难影响"@zh ;
+    rdfs:label "Financial Hardship for Workers Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ShiptWorkers .
+
+ex:CompensationCalculation rdf:type airo:Purpose ;
+    rdfs:label "薪酬计算目的"@zh ;
+    rdfs:label "Compensation Calculation Purpose"@en .
+
+ex:GigEconomy rdf:type airo:Domain ;
+    rdfs:label "零工经济领域"@zh ;
+    rdfs:label "Gig Economy Domain"@en .

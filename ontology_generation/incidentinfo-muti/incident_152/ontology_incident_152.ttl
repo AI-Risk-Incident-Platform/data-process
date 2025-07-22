@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVoiceSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Voice System"@en ;
+    rdfs:label "深度伪造语音系统"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasStakeholder ex:BankingInstitution ;
+    airo:isAppliedWithinDomain ex:FinancialServices .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:isRiskSourceFor ex:VoiceAuthenticationVulnerability ;
+    airo:hasConsequence ex:FinancialLoss .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:CorporateFinancialSecurityThreat .
+
+ex:BankingInstitution rdf:type airo:Stakeholder ;
+    rdfs:label "Banking Institution"@en ;
+    rdfs:label "银行机构"@zh .
+
+ex:CorporateFinancialSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Corporate Financial Security Threat Impact"@en ;
+    rdfs:label "企业财务安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BankingInstitution .
+
+ex:VoiceAuthenticationVulnerability rdf:type airo:RiskSource ;
+    rdfs:label "Voice Authentication Vulnerability Risk Source"@en ;
+    rdfs:label "语音认证漏洞风险源"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .

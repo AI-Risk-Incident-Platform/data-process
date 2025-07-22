@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIWrittenArticle rdf:type airo:AISystem ;
+    rdfs:label "AI Written Article"@en ;
+    rdfs:label "AI撰写的文章"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasStakeholder ex:IrishTimes .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicationOfFalseContent ;
+    airo:isRiskSourceFor ex:AIHoax .
+
+ex:PublicationOfFalseContent rdf:type airo:Consequence ;
+    rdfs:label "Publication of False Content Consequence"@en ;
+    rdfs:label "发布虚假内容后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:IrishTimes rdf:type airo:Stakeholder ;
+    rdfs:label "Irish Times"@en ;
+    rdfs:label "爱尔兰时报"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IrishTimes .
+
+ex:AIHoax rdf:type airo:RiskSource ;
+    rdfs:label "AI Hoax Risk Source"@en ;
+    rdfs:label "AI恶作剧风险源"@zh .

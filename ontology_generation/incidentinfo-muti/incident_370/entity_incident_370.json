@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InternetCensorshipSystem",
+      "中文名称": "互联网审查系统",
+      "英文名称": "Internet Censorship System",
+      "来源": "How Chinese citizens use puns to get past internet censors"
+    },
+    "Risk": {
+      "id": "CensorshipCircumventionRisk",
+      "中文名称": "审查规避风险",
+      "英文名称": "Censorship Circumvention Risk",
+      "来源": "How Chinese citizens use puns to get past internet censors"
+    },
+    "Stakeholder": {
+      "id": "ChineseCitizens",
+      "中文名称": "中国公民",
+      "英文名称": "Chinese Citizens",
+      "来源": "How Chinese citizens use puns to get past internet censors"
+    },
+    "AITechnique": {
+      "id": "ContentFiltering",
+      "中文名称": "内容过滤技术",
+      "英文名称": "Content Filtering Technique",
+      "来源": "How Chinese citizens use puns to get past internet censors"
+    },
+    "Consequence": {
+      "id": "InformationControlBypass",
+      "中文名称": "信息控制绕过后果",
+      "英文名称": "Information Control Bypass Consequence",
+      "来源": "How Chinese citizens use puns to get past internet censors"
+    }
+  }
+}

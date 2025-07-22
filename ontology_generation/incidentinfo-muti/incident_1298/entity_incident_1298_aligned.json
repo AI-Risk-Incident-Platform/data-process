@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Iranian group used ChatGPT to try to influence US election"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "used ChatGPT to try to influence US election"
+    },
+    "Stakeholder": {
+      "id": "IranianGroup",
+      "中文名称": "伊朗组织",
+      "英文名称": "Iranian Group",
+      "来源": "Iranian group used ChatGPT"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI blocks Iranian group's ChatGPT accounts"
+    },
+    "Purpose": {
+      "id": "ElectionInfluence",
+      "中文名称": "选举影响",
+      "英文名称": "Election Influence",
+      "来源": "to try to influence US election"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "influence US election"
+    },
+    "RiskSource": {
+      "id": "ChatGPTMisuse",
+      "中文名称": "ChatGPT滥用",
+      "英文名称": "ChatGPT Misuse",
+      "来源": "used ChatGPT to try to influence US election"
+    },
+    "Consequence": {
+      "id": "UnderminedElectionIntegrity",
+      "中文名称": "选举诚信受损",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "influence US election"
+    },
+    "Impact": {
+      "id": "DemocraticProcessThreat",
+      "中文名称": "民主进程威胁",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "influence US election"
+    },
+    "RiskControl": {
+      "id": "AccountBlocking",
+      "中文名称": "账户封锁",
+      "英文名称": "Account Blocking",
+      "来源": "OpenAI blocks Iranian group's ChatGPT accounts"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Iranian group used ChatGPT to try to influence US election"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "used ChatGPT to try to influence US election"
+    },
+    "Stakeholder": {
+      "id": "IranianGroup",
+      "中文名称": "伊朗组织",
+      "英文名称": "Iranian Group",
+      "来源": "Iranian group used ChatGPT"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI blocks Iranian group's ChatGPT accounts"
+    },
+    "Purpose": {
+      "id": "ElectionInfluence",
+      "中文名称": "选举影响",
+      "英文名称": "Election Influence",
+      "来源": "to try to influence US election"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "influence US election"
+    },
+    "RiskSource": {
+      "id": "ChatGPTMisuse",
+      "中文名称": "ChatGPT滥用",
+      "英文名称": "ChatGPT Misuse",
+      "来源": "used ChatGPT to try to influence US election"
+    },
+    "Consequence": {
+      "id": "UnderminedElectionIntegrity",
+      "中文名称": "选举诚信受损",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "influence US election"
+    },
+    "Impact": {
+      "id": "DemocraticProcessThreat",
+      "中文名称": "民主进程威胁",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "influence US election"
+    },
+    "RiskControl": {
+      "id": "AccountBlocking",
+      "中文名称": "账户封锁",
+      "英文名称": "Account Blocking",
+      "来源": "OpenAI blocks Iranian group's ChatGPT accounts"
+    }
+  }
+}

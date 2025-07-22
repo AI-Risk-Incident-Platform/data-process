@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FigmaAIDesignTool",
+      "中文名称": "Figma AI设计工具",
+      "英文名称": "Figma AI Design Tool",
+      "来源": "Figma disables its AI design feature that appeared to be ripping off Apple’s Weather app"
+    },
+    "Risk": {
+      "id": "DesignPlagiarismRisk",
+      "中文名称": "设计抄袭风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Figma pulls AI tool after criticism that it ripped off Apple’s design"
+    },
+    "Consequence": {
+      "id": "ProductRecall",
+      "中文名称": "产品召回后果",
+      "英文名称": "Product Recall Consequence",
+      "来源": "Figma disables new AI tool that repeatedly cloned Apple’s Weather app"
+    },
+    "AIOperator": {
+      "id": "FigmaInc",
+      "中文名称": "Figma公司",
+      "英文名称": "Figma Inc.",
+      "来源": "Figma disables its AI design feature"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "ripping off Apple’s Weather app"
+    },
+    "AITechnique": {
+      "id": "GenerativeDesignAI",
+      "中文名称": "生成式设计AI技术",
+      "英文名称": "Generative Design AI Technique",
+      "来源": "AI design feature that appeared to be ripping off"
+    },
+    "RiskSource": {
+      "id": "InsufficientOriginalityCheck",
+      "中文名称": "原创性检查不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "tool that repeatedly cloned Apple’s Weather app"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Figma pulls AI tool after criticism"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FigmaAIDesignTool",
+      "中文名称": "Figma AI设计工具",
+      "英文名称": "Figma AI Design Tool",
+      "来源": "Figma disables its AI design feature that appeared to be ripping off Apple’s Weather app"
+    },
+    "Risk": {
+      "id": "DesignPlagiarismRisk",
+      "中文名称": "设计抄袭风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Figma pulls AI tool after criticism that it ripped off Apple’s design"
+    },
+    "Consequence": {
+      "id": "ProductRecall",
+      "中文名称": "产品召回后果",
+      "英文名称": "Product Recall Consequence",
+      "来源": "Figma disables new AI tool that repeatedly cloned Apple’s Weather app"
+    },
+    "AIOperator": {
+      "id": "FigmaInc",
+      "中文名称": "Figma公司",
+      "英文名称": "Figma Inc.",
+      "来源": "Figma disables its AI design feature"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple",
+      "来源": "ripping off Apple’s Weather app"
+    },
+    "AITechnique": {
+      "id": "GenerativeDesignAI",
+      "中文名称": "生成式设计AI技术",
+      "英文名称": "Generative Design AI Technique",
+      "来源": "AI design feature that appeared to be ripping off"
+    },
+    "RiskSource": {
+      "id": "InsufficientOriginalityCheck",
+      "中文名称": "原创性检查不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "tool that repeatedly cloned Apple’s Weather app"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Figma pulls AI tool after criticism"
+    }
+  }
+}

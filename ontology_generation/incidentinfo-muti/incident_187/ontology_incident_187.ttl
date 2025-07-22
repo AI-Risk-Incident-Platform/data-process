@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseAutonomousVehicles rdf:type airo:AISystem ;
+    rdfs:label "Cruise Autonomous Vehicles"@en ;
+    rdfs:label "Cruise自动驾驶汽车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasCapability ex:SelfDrivingTechnology ;
+    airo:isDeployedBy ex:CruiseLLC ;
+    airo:hasStakeholder ex:CaliforniaTransportationAuthority ;
+    airo:hasAISubject ex:RoadUsers ;
+    airo:hasPurpose ex:UrbanMobilityTransformation ;
+    airo:isAppliedWithinDomain ex:TransportationIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning ;
+    airo:hasVulnerability ex:EdgeCaseHandlingLimitations .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶汽车碰撞风险"@zh ;
+    airo:hasConsequence ex:VehicleDamage ;
+    airo:isRiskSourceFor ex:SensorFusionChallenges ;
+    airo:isRiskSourceFor ex:UnpredictableTrafficScenarios ;
+    airo:isRiskSourceFor ex:ComplexUrbanEnvironments .
+
+ex:VehicleDamage rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Damage Consequence"@en ;
+    rdfs:label "车辆损坏后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:SelfDrivingTechnology rdf:type airo:AICapability ;
+    rdfs:label "Self-Driving Technology Capability"@en ;
+    rdfs:label "自动驾驶技术能力"@zh .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise LLC"@en ;
+    rdfs:label "Cruise有限责任公司"@zh .
+
+ex:CaliforniaTransportationAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "California Transportation Authority"@en ;
+    rdfs:label "加州交通管理局"@zh .
+
+ex:RoadUsers rdf:type airo:AISubject ;
+    rdfs:label "Road Users"@en ;
+    rdfs:label "道路使用者"@zh .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaTransportationAuthority ;
+    airo:hasImpactOnStakeholder ex:RoadUsers .
+
+ex:UrbanMobilityTransformation rdf:type airo:Purpose ;
+    rdfs:label "Urban Mobility Transformation Purpose"@en ;
+    rdfs:label "城市交通转型目的"@zh .
+
+ex:TransportationIndustry rdf:type airo:Domain ;
+    rdfs:label "Transportation Industry Domain"@en ;
+    rdfs:label "交通运输行业领域"@zh .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision and Machine Learning Technique"@en ;
+    rdfs:label "计算机视觉与机器学习技术"@zh .
+
+ex:EdgeCaseHandlingLimitations rdf:type airo:Vulnerability ;
+    rdfs:label "Edge Case Handling Limitations Vulnerability"@en ;
+    rdfs:label "边缘案例处理限制脆弱性"@zh .
+
+ex:SensorFusionChallenges rdf:type airo:RiskSource ;
+    rdfs:label "Sensor Fusion Challenges Risk Source"@en ;
+    rdfs:label "传感器融合挑战风险源"@zh .
+
+ex:UnpredictableTrafficScenarios rdf:type airo:Threat ;
+    rdfs:label "Unpredictable Traffic Scenarios Threat"@en ;
+    rdfs:label "不可预测交通场景威胁"@zh .
+
+ex:ComplexUrbanEnvironments rdf:type airo:Hazard ;
+    rdfs:label "Complex Urban Environments Hazard"@en ;
+    rdfs:label "复杂城市环境危害"@zh .
+
+ex:AutonomousVehicleSafetyChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Safety Challenges Risk Concept"@en ;
+    rdfs:label "自动驾驶汽车安全挑战"@zh .

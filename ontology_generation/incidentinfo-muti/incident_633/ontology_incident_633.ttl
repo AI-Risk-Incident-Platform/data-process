@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NineNetworkAI rdf:type airo:AISystem ;
+    rdfs:label "九号网络AI"@zh ;
+    rdfs:label "Nine Network AI"@en ;
+    airo:hasRisk ex:InappropriateImageAlterationRisk ;
+    airo:usesTechnique ex:ImageEditingAI ;
+    airo:hasStakeholder ex:AustralianLawmaker .
+
+ex:InappropriateImageAlterationRisk rdf:type airo:Risk ;
+    rdfs:label "不当图像修改风险"@zh ;
+    rdfs:label "Inappropriate Image Alteration Risk"@en ;
+    airo:hasConsequence ex:PublicOutrage ;
+    airo:isRiskSourceFor ex:AIInappropriateUse .
+
+ex:PublicOutrage rdf:type airo:Consequence ;
+    rdfs:label "公众愤怒后果"@zh ;
+    rdfs:label "Public Outrage Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ImageEditingAI rdf:type airo:AITechnique ;
+    rdfs:label "图像编辑AI技术"@zh ;
+    rdfs:label "Image Editing AI Technique"@en .
+
+ex:AustralianLawmaker rdf:type airo:Stakeholder ;
+    rdfs:label "澳大利亚立法者"@zh ;
+    rdfs:label "Australian Lawmaker"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AustralianLawmaker .
+
+ex:AIInappropriateUse rdf:type airo:RiskSource ;
+    rdfs:label "AI不当使用风险源"@zh ;
+    rdfs:label "AI Inappropriate Use Risk Source"@en .

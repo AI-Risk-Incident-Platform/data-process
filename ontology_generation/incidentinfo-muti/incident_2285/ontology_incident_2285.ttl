@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftZoChatbot rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Zo Chatbot"@en ;
+    rdfs:label "微软Zo聊天机器人"@zh ;
+    airo:hasRisk ex:OffensiveSpeechRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:isDeployedBy ex:MicrosoftCorporation ;
+    airo:hasStakeholder ex:ChatbotUsers ;
+    airo:hasAISubject ex:OnlineCommunity ;
+    airo:hasPurpose ex:SocialChatbot ;
+    airo:isAppliedWithinDomain ex:SocialMedia ;
+    airo:usesTechnique ex:NeuralNetworkLanguageModel ;
+    airo:hasVulnerability ex:OnlineTrollExploitation .
+
+ex:OffensiveSpeechRisk rdf:type airo:Risk ;
+    rdfs:label "Offensive Speech Risk"@en ;
+    rdfs:label "冒犯性言论风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众反弹后果"@zh ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI Capability"@en ;
+    rdfs:label "对话式AI能力"@zh .
+
+ex:MicrosoftCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:ChatbotUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Chatbot Users"@en ;
+    rdfs:label "聊天机器人用户"@zh .
+
+ex:OnlineCommunity rdf:type airo:AISubject ;
+    rdfs:label "Online Community"@en ;
+    rdfs:label "在线社区"@zh .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Brand Reputation Damage Impact"@en ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatbotUsers .
+
+ex:SocialChatbot rdf:type airo:Purpose ;
+    rdfs:label "Social Chatbot Purpose"@en ;
+    rdfs:label "社交聊天机器人目的"@zh .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "Social Media Domain"@en ;
+    rdfs:label "社交媒体领域"@zh .
+
+ex:NeuralNetworkLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Neural Network Language Model Technique"@en ;
+    rdfs:label "神经网络语言模型技术"@zh .
+
+ex:OnlineTrollExploitation rdf:type airo:Vulnerability ;
+    rdfs:label "Online Troll Exploitation Vulnerability"@en ;
+    rdfs:label "网络喷子利用漏洞"@zh .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核不足风险源"@zh ;
+    airo:hasRiskSourceFor ex:MaliciousUserInput ;
+    airo:hasRiskSourceFor ex:UnfilteredTrainingData .
+
+ex:MaliciousUserInput rdf:type airo:Threat ;
+    rdfs:label "Malicious User Input Threat"@en ;
+    rdfs:label "恶意用户输入威胁"@zh .
+
+ex:UnfilteredTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Unfiltered Training Data Hazard"@en ;
+    rdfs:label "未过滤的训练数据危害"@zh .
+
+ex:EthicalAICommunication rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical AI Communication Risk Concept"@en ;
+    rdfs:label "伦理AI沟通风险概念"@zh .

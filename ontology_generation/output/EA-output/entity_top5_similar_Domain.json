@@ -1,0 +1,156 @@
+{
+  "Consumer Photography Domain": [
+    [
+      "Online Content Moderation Domain",
+      0.8697801850058072
+    ],
+    [
+      "Children Entertainment Domain",
+      0.8549696005403425
+    ],
+    [
+      "Content Moderation Domain",
+      0.8500076815837172
+    ],
+    [
+      "Email Communication Domain",
+      0.8077747027568802
+    ],
+    [
+      "Natural Language Processing Domain",
+      0.8034498685099155
+    ]
+  ],
+  "Content Moderation Domain": [
+    [
+      "Online Content Moderation Domain",
+      0.976481265376946
+    ],
+    [
+      "Children Entertainment Domain",
+      0.8658399222047165
+    ],
+    [
+      "Consumer Photography Domain",
+      0.8500076815837172
+    ],
+    [
+      "Natural Language Processing Domain",
+      0.8202773046257483
+    ],
+    [
+      "Email Communication Domain",
+      0.8198920526377155
+    ]
+  ],
+  "Online Content Moderation Domain": [
+    [
+      "Content Moderation Domain",
+      0.976481265376946
+    ],
+    [
+      "Children Entertainment Domain",
+      0.8767323791402061
+    ],
+    [
+      "Consumer Photography Domain",
+      0.8697801850058072
+    ],
+    [
+      "Natural Language Processing Domain",
+      0.8349921661777437
+    ],
+    [
+      "Email Communication Domain",
+      0.8293055028728263
+    ]
+  ],
+  "Email Communication Domain": [
+    [
+      "Online Content Moderation Domain",
+      0.8293055028728263
+    ],
+    [
+      "Content Moderation Domain",
+      0.8198920526377155
+    ],
+    [
+      "Consumer Photography Domain",
+      0.8077747027568802
+    ],
+    [
+      "Children Entertainment Domain",
+      0.8032261482723901
+    ],
+    [
+      "Natural Language Processing Domain",
+      0.7735202268900516
+    ]
+  ],
+  "Natural Language Processing Domain": [
+    [
+      "Online Content Moderation Domain",
+      0.8349921661777437
+    ],
+    [
+      "Content Moderation Domain",
+      0.8202773046257483
+    ],
+    [
+      "Consumer Photography Domain",
+      0.8034498685099155
+    ],
+    [
+      "Children Entertainment Domain",
+      0.7894999772107818
+    ],
+    [
+      "Email Communication Domain",
+      0.7735202268900516
+    ]
+  ],
+  "Children's Entertainment Industry": [
+    [
+      "Children Entertainment Domain",
+      0.8885148019425553
+    ],
+    [
+      "Online Content Moderation Domain",
+      0.7852031307821269
+    ],
+    [
+      "Content Moderation Domain",
+      0.7631533991656932
+    ],
+    [
+      "Consumer Photography Domain",
+      0.758378850550266
+    ],
+    [
+      "Email Communication Domain",
+      0.7009547203069264
+    ]
+  ],
+  "Children Entertainment Domain": [
+    [
+      "Children's Entertainment Industry",
+      0.8885148019425553
+    ],
+    [
+      "Online Content Moderation Domain",
+      0.8767323791402061
+    ],
+    [
+      "Content Moderation Domain",
+      0.8658399222047165
+    ],
+    [
+      "Consumer Photography Domain",
+      0.8549696005403425
+    ],
+    [
+      "Email Communication Domain",
+      0.8032261482723901
+    ]
+  ]
+}

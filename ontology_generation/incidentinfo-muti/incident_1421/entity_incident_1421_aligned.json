@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeaponDetectionScanner",
+      "中文名称": "武器检测扫描仪",
+      "英文名称": "AI Weapon Scanner",
+      "来源": "AI scanner used to detect weapons in hundreds of US schools"
+    },
+    "Risk": {
+      "id": "FailureToDetectKnives",
+      "中文名称": "未能检测刀具的风险",
+      "英文名称": "Weapons Detection Failure Risk",
+      "来源": "'fails to find knives'"
+    },
+    "Consequence": {
+      "id": "SecurityVulnerabilityInSchools",
+      "中文名称": "学校安全漏洞后果",
+      "英文名称": "School Security Compromise Consequence",
+      "来源": "AI scanner used to detect weapons in hundreds of US schools 'fails to find knives'"
+    },
+    "Domain": {
+      "id": "SchoolSecurity",
+      "中文名称": "学校安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "used in hundreds of US schools"
+    },
+    "AICapability": {
+      "id": "WeaponDetection",
+      "中文名称": "武器检测能力",
+      "英文名称": "Weapon Detection Capability",
+      "来源": "AI scanner used to detect weapons"
+    },
+    "Impact": {
+      "id": "PotentialHarmToStudents",
+      "中文名称": "对学生潜在伤害的影响",
+      "英文名称": "Potential Harm to Students Impact",
+      "来源": "fails to find knives in school security context"
+    },
+    "RiskSource": {
+      "id": "InadequateDetectionAlgorithm",
+      "中文名称": "检测算法不足的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "fails to find knives"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministrations",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Admin",
+      "来源": "used in hundreds of US schools"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WeaponDetectionScanner",
+      "中文名称": "武器检测扫描仪",
+      "英文名称": "AI Weapon Scanner",
+      "来源": "AI scanner used to detect weapons in hundreds of US schools"
+    },
+    "Risk": {
+      "id": "FailureToDetectKnives",
+      "中文名称": "未能检测刀具的风险",
+      "英文名称": "Weapons Detection Failure Risk",
+      "来源": "'fails to find knives'"
+    },
+    "Consequence": {
+      "id": "SecurityVulnerabilityInSchools",
+      "中文名称": "学校安全漏洞后果",
+      "英文名称": "School Security Compromise Consequence",
+      "来源": "AI scanner used to detect weapons in hundreds of US schools 'fails to find knives'"
+    },
+    "Domain": {
+      "id": "SchoolSecurity",
+      "中文名称": "学校安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "used in hundreds of US schools"
+    },
+    "AICapability": {
+      "id": "WeaponDetection",
+      "中文名称": "武器检测能力",
+      "英文名称": "Weapon Detection Capability",
+      "来源": "AI scanner used to detect weapons"
+    },
+    "Impact": {
+      "id": "PotentialHarmToStudents",
+      "中文名称": "对学生潜在伤害的影响",
+      "英文名称": "Potential Harm to Students Impact",
+      "来源": "fails to find knives in school security context"
+    },
+    "RiskSource": {
+      "id": "InadequateDetectionAlgorithm",
+      "中文名称": "检测算法不足的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "fails to find knives"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministrations",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Admin",
+      "来源": "used in hundreds of US schools"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITextDetectionTools rdf:type airo:AISystem ;
+    rdfs:label "AI Text Detection Tools"@en ;
+    rdfs:label "AI文本检测工具"@zh ;
+    airo:hasRisk ex:FailureToDetectAIWriting ;
+    airo:hasCapability ex:ContentAuthentication ;
+    airo:hasStakeholder ex:AcademicResearchers .
+
+ex:FailureToDetectAIWriting rdf:type airo:Risk ;
+    rdfs:label "Failure to Detect AI Writing Risk"@en ;
+    rdfs:label "无法检测AI写作的风险"@zh ;
+    airo:hasConsequence ex:MisclassificationOfAIAndHumanWriting ;
+    airo:isRiskSourceFor ex:EaseOfFoolingDetectionAlgorithms .
+
+ex:MisclassificationOfAIAndHumanWriting rdf:type airo:Consequence ;
+    rdfs:label "Misclassification of AI and Human Writing Consequence"@en ;
+    rdfs:label "AI与人类写作误分类的后果"@zh ;
+    airo:hasImpact ex:LossOfTrustInContentAuthenticity .
+
+ex:ContentAuthentication rdf:type airo:AICapability ;
+    rdfs:label "Content Authentication Capability"@en ;
+    rdfs:label "内容认证能力"@zh .
+
+ex:AcademicResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Academic Researchers"@en ;
+    rdfs:label "学术研究者"@zh .
+
+ex:EaseOfFoolingDetectionAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "Ease of Fooling Detection Algorithms Risk Source"@en ;
+    rdfs:label "欺骗检测算法的简易性风险源"@zh .
+
+ex:LossOfTrustInContentAuthenticity rdf:type airo:Impact ;
+    rdfs:label "Loss of Trust in Content Authenticity Impact"@en ;
+    rdfs:label "内容真实性信任丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AcademicResearchers .

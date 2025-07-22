@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SunoAndUdioAISongGenerators",
+      "中文名称": "Suno和Udio AI歌曲生成器",
+      "英文名称": "AI Music Generator",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Music labels sue AI companies Suno, Udio for US copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "MusicLabels",
+      "中文名称": "音乐唱片公司",
+      "英文名称": "Music Labels",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "AIOperator": {
+      "id": "SunoAndUdio",
+      "中文名称": "Suno和Udio公司",
+      "英文名称": "Suno and Udio",
+      "来源": "Music labels sue AI companies Suno, Udio for US copyright infringement"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    },
+    "AITechnique": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练技术",
+      "英文名称": "ML Training Technique",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedSongs",
+      "中文名称": "未经授权使用受版权保护歌曲的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业领域",
+      "英文名称": "Music Industry",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SunoAndUdioAISongGenerators",
+      "中文名称": "Suno和Udio AI歌曲生成器",
+      "英文名称": "AI Music Generator",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Music labels sue AI companies Suno, Udio for US copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "MusicLabels",
+      "中文名称": "音乐唱片公司",
+      "英文名称": "Music Labels",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "AIOperator": {
+      "id": "SunoAndUdio",
+      "中文名称": "Suno和Udio公司",
+      "英文名称": "Suno and Udio",
+      "来源": "Music labels sue AI companies Suno, Udio for US copyright infringement"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    },
+    "AITechnique": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练技术",
+      "英文名称": "ML Training Technique",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedSongs",
+      "中文名称": "未经授权使用受版权保护歌曲的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Record Labels Sue Two Startups for Training AI Models on Their Songs"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业领域",
+      "英文名称": "Music Industry",
+      "来源": "Music labels sue AI song generators Suno and Udio for copyright infringement"
+    }
+  }
+}

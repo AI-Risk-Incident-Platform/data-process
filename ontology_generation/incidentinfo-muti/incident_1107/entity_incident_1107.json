@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BabylonHealthTriageChatbot",
+      "中文名称": "Babylon Health分诊聊天机器人",
+      "英文名称": "Babylon Health Triage Chatbot",
+      "来源": "UK's MHRA says it has concerns about Babylon Health and flags legal gap around triage chatbots"
+    },
+    "Risk": {
+      "id": "LegalGapInTriageChatbotRegulation",
+      "中文名称": "分诊聊天机器人监管法律缺失风险",
+      "英文名称": "Legal Gap in Triage Chatbot Regulation Risk",
+      "来源": "flags legal gap around triage chatbots"
+    },
+    "Stakeholder": {
+      "id": "MHRARegulator",
+      "中文名称": "MHRA监管机构",
+      "英文名称": "MHRA Regulator",
+      "来源": "UK's MHRA says it has concerns about Babylon Health"
+    },
+    "RiskSource": {
+      "id": "UnregulatedMedicalAITriage",
+      "中文名称": "未受监管的医疗AI分诊风险源",
+      "英文名称": "Unregulated Medical AI Triage Risk Source",
+      "来源": "flags legal gap around triage chatbots"
+    },
+    "Domain": {
+      "id": "HealthcareSector",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Sector Domain",
+      "来源": "Babylon Health"
+    },
+    "Purpose": {
+      "id": "MedicalTriageService",
+      "中文名称": "医疗分诊服务目的",
+      "英文名称": "Medical Triage Service Purpose",
+      "来源": "triage chatbots"
+    }
+  }
+}

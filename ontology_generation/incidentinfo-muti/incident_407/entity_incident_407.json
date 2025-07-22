@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Temporary policy: ChatGPT is banned"
+    },
+    "Risk": {
+      "id": "MisuseOfAIInContentGeneration",
+      "中文名称": "AI内容生成滥用风险",
+      "英文名称": "Misuse of AI in Content Generation Risk",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Stakeholder": {
+      "id": "StackOverflow",
+      "中文名称": "Stack Overflow",
+      "英文名称": "Stack Overflow",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    },
+    "Consequence": {
+      "id": "InaccurateOrMisleadingContent",
+      "中文名称": "不准确或误导性内容后果",
+      "英文名称": "Inaccurate or Misleading Content Consequence",
+      "来源": "Why is Everyone Bashing ChatGPT?"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation Purpose",
+      "来源": "AI-generated answers temporarily banned on coding Q&A site Stack Overflow"
+    }
+  }
+}

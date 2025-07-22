@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGuidedDroneSwarm rdf:type airo:AISystem ;
+    rdfs:label "AI-Guided Drone Swarm"@en ;
+    rdfs:label "AI引导无人机群"@zh ;
+    airo:hasRisk ex:CivilianCasualtiesRisk ;
+    airo:hasAICapability ex:AutonomousTargeting ;
+    airo:hasAISubject ex:CiviliansInGaza ;
+    airo:hasPurpose ex:CounterTerrorismOperations ;
+    airo:isAppliedWithinDomain ex:MilitaryOperations ;
+    airo:usesTechnique ex:SwarmIntelligence ;
+    airo:hasStakeholder ex:IsraeliDefenseForces .
+
+ex:CivilianCasualtiesRisk rdf:type airo:Risk ;
+    rdfs:label "Civilian Casualties Risk"@en ;
+    rdfs:label "平民伤亡风险"@zh ;
+    airo:isRiskSourceFor ex:AutonomousWeaponSystems ;
+    airo:hasConsequence ex:CivilianCasualties .
+
+ex:AutonomousTargeting rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Targeting Capability"@en ;
+    rdfs:label "自主目标锁定能力"@zh .
+
+ex:CiviliansInGaza rdf:type airo:AISubject ;
+    rdfs:label "Civilians in Gaza"@en ;
+    rdfs:label "加沙平民"@zh .
+
+ex:CivilianCasualties rdf:type airo:Impact ;
+    rdfs:label "Civilian Casualties Impact"@en ;
+    rdfs:label "平民伤亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CiviliansInGaza .
+
+ex:CounterTerrorismOperations rdf:type airo:Purpose ;
+    rdfs:label "Counter-Terrorism Operations Purpose"@en ;
+    rdfs:label "反恐行动目的"@zh .
+
+ex:MilitaryOperations rdf:type airo:Domain ;
+    rdfs:label "Military Operations Domain"@en ;
+    rdfs:label "军事行动领域"@zh .
+
+ex:SwarmIntelligence rdf:type airo:AITechnique ;
+    rdfs:label "Swarm Intelligence Technique"@en ;
+    rdfs:label "群体智能技术"@zh .
+
+ex:IsraeliDefenseForces rdf:type airo:Stakeholder ;
+    rdfs:label "Israeli Defense Forces"@en ;
+    rdfs:label "以色列国防军"@zh .
+
+ex:AutonomousWeaponSystems rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Weapon Systems Risk Source"@en ;
+    rdfs:label "自主武器系统风险源"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokImageGenerationSystem",
+      "中文名称": "Grok图像生成系统",
+      "英文名称": "Grok Image Generation System",
+      "来源": "X slammed for lack of guardrails on Grok image generation"
+    },
+    "Risk": {
+      "id": "InappropriateContentGenerationRisk",
+      "中文名称": "不当内容生成风险",
+      "英文名称": "Inappropriate Content Generation Risk",
+      "来源": "Musk’s ‘fun’ AI image chatbot serves up Nazi Mickey Mouse and Taylor Swift deepfakes"
+    },
+    "Consequence": {
+      "id": "OffensiveImageCreation",
+      "中文名称": "冒犯性图像生成后果",
+      "英文名称": "Offensive Image Creation Consequence",
+      "来源": "X’s new AI image generator will make anything from Taylor Swift in lingerie to Kamala Harris with a gun"
+    },
+    "AIOperator": {
+      "id": "XCorporation",
+      "中文名称": "X公司",
+      "英文名称": "X Corporation",
+      "来源": "X slammed for lack of guardrails on Grok image generation"
+    },
+    "Stakeholder": {
+      "id": "PublicFigures",
+      "中文名称": "公众人物",
+      "英文名称": "Public Figures",
+      "来源": "X’s new AI image generator will make anything from Taylor Swift in lingerie to Kamala Harris with a gun"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "内容审核缺失风险源",
+      "英文名称": "Lack of Content Moderation Risk Source",
+      "来源": "X slammed for lack of guardrails on Grok image generation"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "Musk’s ‘fun’ AI image chatbot serves up Nazi Mickey Mouse and Taylor Swift deepfakes"
+    },
+    "Purpose": {
+      "id": "EntertainmentImageGeneration",
+      "中文名称": "娱乐图像生成目的",
+      "英文名称": "Entertainment Image Generation Purpose",
+      "来源": "Musk’s ‘fun’ AI image chatbot serves up Nazi Mickey Mouse and Taylor Swift deepfakes"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Generation Technique",
+      "来源": "X’s new AI image generator will make anything from Taylor Swift in lingerie to Kamala Harris with a gun"
+    }
+  }
+}

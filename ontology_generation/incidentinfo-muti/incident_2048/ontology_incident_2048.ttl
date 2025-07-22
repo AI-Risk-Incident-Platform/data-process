@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionPaymentSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Payment System"@en ;
+    rdfs:label "面部识别支付系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:SchoolChildren ;
+    airo:isAppliedWithinDomain ex:Education ;
+    airo:hasPurpose ex:LunchPaymentAutomation ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "Privacy Consequence"@en ;
+                          rdfs:label "隐私后果"@zh ;
+                          airo:hasImpact ex:ChildrenPrivacyConcerns
+                        ] .
+
+ex:SchoolChildren rdf:type airo:AISubject ;
+    rdfs:label "School Children"@en ;
+    rdfs:label "学校儿童"@zh .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "Education Domain"@en ;
+    rdfs:label "教育领域"@zh .
+
+ex:LunchPaymentAutomation rdf:type airo:Purpose ;
+    rdfs:label "Lunch Payment Automation Purpose"@en ;
+    rdfs:label "午餐支付自动化目的"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:ChildrenPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Children Privacy Concerns Impact"@en ;
+    rdfs:label "儿童隐私问题影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolChildren .

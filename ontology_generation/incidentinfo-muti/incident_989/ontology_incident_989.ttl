@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIFakeIRSSites rdf:type airo:AISystem ;
+    rdfs:label "AI Fake IRS Sites"@en ;
+    rdfs:label "AI伪造IRS网站"@zh ;
+    airo:hasRisk ex:FinancialScamRisk ;
+    airo:usesTechnique ex:WebsiteGenerationAI ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:hasStakeholder ex:Taxpayers .
+
+ex:FinancialScamRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Scam Risk"@en ;
+    rdfs:label "金融诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:AIGeneratedFakeWebsites .
+
+ex:AIGeneratedFakeWebsites rdf:type airo:RiskSource ;
+    rdfs:label "AI Generated Fake Websites"@en ;
+    rdfs:label "AI生成的虚假网站"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion"@en ;
+    rdfs:label "公众信任侵蚀"@zh ;
+    airo:hasImpactOnStakeholder ex:Taxpayers .
+
+ex:Taxpayers rdf:type airo:Stakeholder ;
+    rdfs:label "Taxpayers"@en ;
+    rdfs:label "纳税人"@zh .
+
+ex:WebsiteGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Website Generation AI"@en ;
+    rdfs:label "网站生成AI"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services"@en ;
+    rdfs:label "金融服务"@zh .

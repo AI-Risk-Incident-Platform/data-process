@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdTargetingSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook广告定向系统"@zh ;
+    rdfs:label "Facebook Ad Targeting System"@en ;
+    airo:hasRisk ex:DiscriminatoryAdvertisingRisk ;
+    airo:hasCapability ex:AutomatedAudienceSegmentation ;
+    airo:isAppliedWithinDomain ex:OnlineAdvertising ;
+    airo:usesTechnique ex:MachineLearningBasedUserProfiling ;
+    airo:hasPurpose ex:PrecisionAdTargeting ;
+    airo:hasStakeholder ex:JewishCommunityGroups ;
+    airo:isDeployedBy ex:FacebookInc .
+
+ex:DiscriminatoryAdvertisingRisk rdf:type airo:Risk ;
+    rdfs:label "歧视性广告风险"@zh ;
+    rdfs:label "Discriminatory Advertising Risk"@en ;
+    airo:hasConsequence ex:HateSpeechAmplification ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInCategoryGeneration .
+
+ex:HateSpeechAmplification rdf:type airo:Consequence ;
+    rdfs:label "仇恨言论放大后果"@zh ;
+    rdfs:label "Hate Speech Amplification Consequence"@en ;
+    airo:hasImpact ex:SocialDiscriminationImpact .
+
+ex:AutomatedAudienceSegmentation rdf:type airo:AICapability ;
+    rdfs:label "自动受众细分能力"@zh ;
+    rdfs:label "Automated Audience Segmentation Capability"@en .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Inc."@en .
+
+ex:JewishCommunityGroups rdf:type airo:Stakeholder ;
+    rdfs:label "犹太社区团体"@zh ;
+    rdfs:label "Jewish Community Groups"@en .
+
+ex:SocialDiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "社会歧视影响"@zh ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    airo:hasImpactOnStakeholder ex:JewishCommunityGroups .
+
+ex:PrecisionAdTargeting rdf:type airo:Purpose ;
+    rdfs:label "精准广告定向目的"@zh ;
+    rdfs:label "Precision Ad Targeting Purpose"@en .
+
+ex:OnlineAdvertising rdf:type airo:Domain ;
+    rdfs:label "在线广告领域"@zh ;
+    rdfs:label "Online Advertising Domain"@en .
+
+ex:MachineLearningBasedUserProfiling rdf:type airo:AITechnique ;
+    rdfs:label "基于机器学习的用户画像技术"@zh ;
+    rdfs:label "Machine Learning Based User Profiling Technique"@en .
+
+ex:AlgorithmicBiasInCategoryGeneration rdf:type airo:RiskSource ;
+    rdfs:label "类别生成中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Category Generation Risk Source"@en .

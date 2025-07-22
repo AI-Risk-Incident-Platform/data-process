@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "COVID19DiagnosisFromCoughsAI",
+      "中文名称": "通过咳嗽诊断COVID-19的AI系统",
+      "英文名称": "Medical AI",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs, study finds"
+    },
+    "Risk": {
+      "id": "InaccurateMedicalDiagnosisRisk",
+      "中文名称": "不准确医疗诊断风险",
+      "英文名称": "Medical Risk",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs"
+    },
+    "Consequence": {
+      "id": "MisdiagnosisOfCOVID19",
+      "中文名称": "COVID-19误诊后果",
+      "英文名称": "Misdiagnosis of COVID-19 Consequence",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs"
+    },
+    "Domain": {
+      "id": "MedicalDiagnostics",
+      "中文名称": "医疗诊断领域",
+      "英文名称": "Medical Diagnostics Domain",
+      "来源": "diagnosing COVID-19"
+    },
+    "AICapability": {
+      "id": "AudioBasedDiseaseDetection",
+      "中文名称": "基于音频的疾病检测能力",
+      "英文名称": "Audio-based Disease Detection Capability",
+      "来源": "diagnosing COVID-19 from coughs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "COVID19DiagnosisFromCoughsAI",
+      "中文名称": "通过咳嗽诊断COVID-19的AI系统",
+      "英文名称": "Medical AI",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs, study finds"
+    },
+    "Risk": {
+      "id": "InaccurateMedicalDiagnosisRisk",
+      "中文名称": "不准确医疗诊断风险",
+      "英文名称": "Medical Risk",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs"
+    },
+    "Consequence": {
+      "id": "MisdiagnosisOfCOVID19",
+      "中文名称": "COVID-19误诊后果",
+      "英文名称": "Misdiagnosis of COVID-19 Consequence",
+      "来源": "AI does a poor job of diagnosing COVID-19 from coughs"
+    },
+    "Domain": {
+      "id": "MedicalDiagnostics",
+      "中文名称": "医疗诊断领域",
+      "英文名称": "Medical Diagnostics Domain",
+      "来源": "diagnosing COVID-19"
+    },
+    "AICapability": {
+      "id": "AudioBasedDiseaseDetection",
+      "中文名称": "基于音频的疾病检测能力",
+      "英文名称": "Audio-based Disease Detection Capability",
+      "来源": "diagnosing COVID-19 from coughs"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT has gone mad today, OpenAI says it is investigating reports of unexpected responses"
+    },
+    "Risk": {
+      "id": "UnexpectedResponsesRisk",
+      "中文名称": "意外响应风险",
+      "英文名称": "Unexpected Response Risk",
+      "来源": "OpenAI says it is investigating reports of unexpected responses"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI says it is investigating reports of unexpected responses"
+    },
+    "Consequence": {
+      "id": "GibberishAnswers",
+      "中文名称": "胡言乱语回答后果",
+      "英文名称": "Gibberish Answers Consequence",
+      "来源": "ChatGPT goes ‘off the rails’ with gibberish answers"
+    },
+    "Impact": {
+      "id": "UserConfusion",
+      "中文名称": "用户困惑影响",
+      "英文名称": "User Confusion Impact",
+      "来源": "ChatGPT has gone mad today"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT has gone mad today, OpenAI says it is investigating reports of unexpected responses"
+    },
+    "Risk": {
+      "id": "UnexpectedResponsesRisk",
+      "中文名称": "意外响应风险",
+      "英文名称": "Unexpected Response Risk",
+      "来源": "OpenAI says it is investigating reports of unexpected responses"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI says it is investigating reports of unexpected responses"
+    },
+    "Consequence": {
+      "id": "GibberishAnswers",
+      "中文名称": "胡言乱语回答后果",
+      "英文名称": "Gibberish Answers Consequence",
+      "来源": "ChatGPT goes ‘off the rails’ with gibberish answers"
+    },
+    "Impact": {
+      "id": "UserConfusion",
+      "中文名称": "用户困惑影响",
+      "英文名称": "User Confusion Impact",
+      "来源": "ChatGPT has gone mad today"
+    }
+  }
+}

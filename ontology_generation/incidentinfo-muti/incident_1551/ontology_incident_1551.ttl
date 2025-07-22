@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:OpenAI ;
+    airo:isProvidedBy ex:OpenAIProvider ;
+    airo:isAppliedWithinDomain ex:AIAndDataPrivacy .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:DataTheft ;
+    airo:isRiskSourceFor ex:DataCollectionWithoutConsent .
+
+ex:DataTheft rdf:type airo:Consequence ;
+    rdfs:label "Data Theft"@en ;
+    rdfs:label "数据盗窃"@zh ;
+    airo:hasImpact ex:LegalAndFinancialImpact .
+
+ex:OpenAI rdf:type airo:Stakeholder ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:OpenAIProvider rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI Provider"@en ;
+    rdfs:label "OpenAI提供者"@zh .
+
+ex:LegalAndFinancialImpact rdf:type airo:Impact ;
+    rdfs:label "Legal and Financial Impact"@en ;
+    rdfs:label "法律和财务影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenAI .
+
+ex:DataCollectionWithoutConsent rdf:type airo:RiskSource ;
+    rdfs:label "Data Collection Without Consent"@en ;
+    rdfs:label "未经同意的数据收集"@zh .
+
+ex:AIAndDataPrivacy rdf:type airo:Domain ;
+    rdfs:label "AI and Data Privacy"@en ;
+    rdfs:label "人工智能与数据隐私"@zh .

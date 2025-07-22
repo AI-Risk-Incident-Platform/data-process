@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FabricatedSourcesInLegalDocuments rdf:type airo:AISystem ;
+    rdfs:label "Fabricated Sources in Legal Documents"@en ;
+    rdfs:label "法律文件中的虚构来源"@zh ;
+    airo:hasRisk ex:LegalDocumentIntegrityRisk ;
+    airo:isAppliedWithinDomain ex:LegalSystem .
+
+ex:LegalDocumentIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Document Integrity Risk"@en ;
+    rdfs:label "法律文件完整性风险"@zh ;
+    airo:hasConsequence ex:JudicialDecisionInaccuracy .
+
+ex:JudicialDecisionInaccuracy rdf:type airo:Consequence ;
+    rdfs:label "Judicial Decision Inaccuracy Consequence"@en ;
+    rdfs:label "司法决策不准确后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh .
+
+ex:LegalSystem rdf:type airo:Domain ;
+    rdfs:label "Legal System Domain"@en ;
+    rdfs:label "法律系统领域"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MattelAIBabysitter",
+      "中文名称": "美泰AI保姆",
+      "英文名称": "Mattel AI Babysitter",
+      "来源": "Mattel cancels AI babysitter after privacy complaints"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "privacy complaints"
+    },
+    "Stakeholder": {
+      "id": "ParentsAndChildren",
+      "中文名称": "父母和儿童",
+      "英文名称": "Parents and Children",
+      "来源": "babysitter"
+    },
+    "AIOperator": {
+      "id": "Mattel",
+      "中文名称": "美泰",
+      "英文名称": "Mattel",
+      "来源": "Mattel cancels AI babysitter"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy Concerns",
+      "来源": "privacy complaints"
+    },
+    "Purpose": {
+      "id": "ChildcareAssistance",
+      "中文名称": "儿童照护辅助",
+      "英文名称": "Childcare Assistance",
+      "来源": "babysitter"
+    },
+    "Domain": {
+      "id": "ConsumerElectronics",
+      "中文名称": "消费电子",
+      "英文名称": "Consumer Electronics",
+      "来源": "Mattel is a toy manufacturing company"
+    }
+  }
+}

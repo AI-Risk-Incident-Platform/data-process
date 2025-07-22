@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake'技术"
+    },
+    "Risk": {
+      "id": "IdentityMisappropriationRisk",
+      "中文名称": "身份盗用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中'stole women's faces to put in ads'"
+    },
+    "Misuse": {
+      "id": "CommercialMisuseOfPersonalImages",
+      "中文名称": "个人图像的商业滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "标题中'put in ads'"
+    },
+    "AISubject": {
+      "id": "WomenWhoseFacesWereStolen",
+      "中文名称": "面部被盗用的女性",
+      "英文名称": "Female Deepfake Victims",
+      "来源": "标题中'women's faces'"
+    },
+    "Impact": {
+      "id": "PrivacyViolationAndLegalHelplessness",
+      "中文名称": "隐私侵犯与法律无助",
+      "英文名称": "Privacy Violation and Legal Helplessness",
+      "来源": "标题中'The law can't help them'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake'技术"
+    },
+    "Risk": {
+      "id": "IdentityMisappropriationRisk",
+      "中文名称": "身份盗用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中'stole women's faces to put in ads'"
+    },
+    "Misuse": {
+      "id": "CommercialMisuseOfPersonalImages",
+      "中文名称": "个人图像的商业滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "标题中'put in ads'"
+    },
+    "AISubject": {
+      "id": "WomenWhoseFacesWereStolen",
+      "中文名称": "面部被盗用的女性",
+      "英文名称": "Female Deepfake Victims",
+      "来源": "标题中'women's faces'"
+    },
+    "Impact": {
+      "id": "PrivacyViolationAndLegalHelplessness",
+      "中文名称": "隐私侵犯与法律无助",
+      "英文名称": "Privacy Violation and Legal Helplessness",
+      "来源": "标题中'The law can't help them'"
+    }
+  }
+}

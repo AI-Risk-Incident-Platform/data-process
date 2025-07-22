@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenAIForDisinformation",
+      "中文名称": "用于虚假信息传播的生成式AI",
+      "英文名称": "Gen AI for Disinformation",
+      "来源": "Russia Used Gen AI to Spread Election Disinformation"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Attempted to Interfere in the U.S. 2024 Election"
+    },
+    "Stakeholder": {
+      "id": "USGovernment",
+      "中文名称": "美国政府",
+      "英文名称": "US Government",
+      "来源": "Treasury Sanctions Entities in Iran and Russia"
+    },
+    "AIOperator": {
+      "id": "RussianEntities",
+      "中文名称": "俄罗斯实体",
+      "英文名称": "Russian Entities",
+      "来源": "Russia Used Gen AI to Spread Election Disinformation"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "舆论操纵影响",
+      "英文名称": "Public Opinion Manipulation Impact",
+      "来源": "Sought to Divide the American People"
+    },
+    "Purpose": {
+      "id": "PoliticalInfluence",
+      "中文名称": "政治影响目的",
+      "英文名称": "Political Influence Purpose",
+      "来源": "Spread Election Disinformation"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "Interfere in the U.S. 2024 Election"
+    },
+    "Consequence": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏后果",
+      "英文名称": "Democratic Process Undermining Consequence",
+      "来源": "Attempted to Interfere in the U.S. 2024 Election"
+    },
+    "RiskSource": {
+      "id": "ForeignStateSponsoredDisinformation",
+      "中文名称": "外国政府支持的虚假信息风险源",
+      "英文名称": "Foreign State-Sponsored Disinformation Risk Source",
+      "来源": "Russia Used Gen AI to Spread Election Disinformation"
+    }
+  }
+}

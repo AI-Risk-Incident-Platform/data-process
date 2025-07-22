@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:G20FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "G20 Facial Recognition System"@en ;
+    rdfs:label "G20人脸识别系统"@zh ;
+    airo:hasRisk ex:DataPrivacyViolationRisk ;
+    airo:isAppliedWithinDomain ex:PublicSecurityDomain ;
+    airo:hasStakeholder ex:HamburgAdministrativeCourt .
+
+ex:DataPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Data Privacy Violation Risk"@en ;
+    rdfs:label "数据隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:IllegalDataRetentionConsequence .
+
+ex:IllegalDataRetentionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Illegal Data Retention Consequence"@en ;
+    rdfs:label "非法数据保留后果"@zh .
+
+ex:HamburgAdministrativeCourt rdf:type airo:AIOperator ;
+    rdfs:label "Hamburg Administrative Court"@en ;
+    rdfs:label "汉堡行政法院"@zh .
+
+ex:PublicSecurityDomain rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .

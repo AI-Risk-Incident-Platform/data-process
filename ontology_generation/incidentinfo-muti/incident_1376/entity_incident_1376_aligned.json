@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MegaFaceFacialRecognitionDataset",
+      "中文名称": "MegaFace面部识别数据集",
+      "英文名称": "MegaFace Facial Recognition Dataset",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Risk": {
+      "id": "PrivacyAndLiabilityConcerns",
+      "中文名称": "隐私与责任风险",
+      "英文名称": "Privacy and Liability Concerns Risk",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "RiskSource": {
+      "id": "DatasetOriginIssues",
+      "中文名称": "数据集来源问题",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Impact": {
+      "id": "PotentialPrivacyViolations",
+      "中文名称": "潜在隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Domain": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术领域",
+      "英文名称": "Biometric Domain",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MegaFaceFacialRecognitionDataset",
+      "中文名称": "MegaFace面部识别数据集",
+      "英文名称": "MegaFace Facial Recognition Dataset",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Risk": {
+      "id": "PrivacyAndLiabilityConcerns",
+      "中文名称": "隐私与责任风险",
+      "英文名称": "Privacy and Liability Concerns Risk",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "RiskSource": {
+      "id": "DatasetOriginIssues",
+      "中文名称": "数据集来源问题",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Impact": {
+      "id": "PotentialPrivacyViolations",
+      "中文名称": "潜在隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    },
+    "Domain": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术领域",
+      "英文名称": "Biometric Domain",
+      "来源": "MegaFace facial recognition dataset origin raises privacy and liability concerns"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DALLE",
+      "中文名称": "DALL-E",
+      "英文名称": "DALL-E",
+      "来源": "Don’t ask DALL-E to Draw Trans People"
+    },
+    "Risk": {
+      "id": "BiasInAIGeneratedContent",
+      "中文名称": "AI生成内容中的偏见风险",
+      "英文名称": "Bias in AI-Generated Content Risk",
+      "来源": "Don’t ask DALL-E to Draw Trans People"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "基于文本提示的图像生成能力",
+      "英文名称": "Image Generation from Text Prompts Capability",
+      "来源": "DALL-E"
+    },
+    "AISubject": {
+      "id": "TransgenderIndividuals",
+      "中文名称": "跨性别者",
+      "英文名称": "Transgender Individuals",
+      "来源": "Don’t ask DALL-E to Draw Trans People"
+    },
+    "Impact": {
+      "id": "ReinforcementOfHarmfulStereotypes",
+      "中文名称": "强化有害刻板印象的影响",
+      "英文名称": "Reinforcement of Harmful Stereotypes Impact",
+      "来源": "Don’t ask DALL-E to Draw Trans People"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Don’t ask DALL-E to Draw Trans People"
+    }
+  }
+}

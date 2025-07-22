@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EvolvWeaponsDetectionSystem",
+      "中文名称": "Evolv武器检测系统",
+      "英文名称": "Evolv Weapons Detection System",
+      "来源": "AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "Risk": {
+      "id": "MisleadingMarketingClaimsRisk",
+      "中文名称": "误导性营销声明风险",
+      "英文名称": "Misleading Marketing Claims Risk",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool"
+    },
+    "Stakeholder": {
+      "id": "SchoolsUsingEvolvSystem",
+      "中文名称": "使用Evolv系统的学校",
+      "英文名称": "Schools Using Evolv System",
+      "来源": "Used in Schools"
+    },
+    "AIOperator": {
+      "id": "EvolvTechnology",
+      "中文名称": "Evolv技术公司",
+      "英文名称": "Evolv Technology",
+      "来源": "Evolv CEO Lies"
+    },
+    "Consequence": {
+      "id": "FalseSecurityClaims",
+      "中文名称": "虚假安全声明后果",
+      "英文名称": "False Security Claims Consequence",
+      "来源": "Evolv CEO Lies: \"Unless You Are Carrying A Weapon You Get To Walk Right In\""
+    },
+    "RiskSource": {
+      "id": "UnverifiedTestingClaims",
+      "中文名称": "未经证实的测试声明风险源",
+      "英文名称": "Unverified Testing Claims Risk Source",
+      "来源": "Evolv backtracks on UK testing claims"
+    }
+  }
+}

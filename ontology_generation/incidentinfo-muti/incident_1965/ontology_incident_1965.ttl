@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT4 rdf:type airo:AISystem ;
+    rdfs:label "GPT-4"@en ;
+    rdfs:label "GPT-4"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasAICapability ex:NaturalLanguageGeneration ;
+    airo:hasPurpose ex:GeneralPurposeLanguageModel ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:OpenAI .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:SpreadOfFalseInformation ;
+    airo:isRiskSourceFor ex:LackOfContentVerification .
+
+ex:OpenAI rdf:type airo:Stakeholder ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:NaturalLanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:SpreadOfFalseInformation rdf:type airo:Consequence ;
+    rdfs:label "Spread of False Information Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenAI .
+
+ex:LackOfContentVerification rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Verification Risk Source"@en ;
+    rdfs:label "内容验证缺失风险源"@zh .
+
+ex:GeneralPurposeLanguageModel rdf:type airo:Purpose ;
+    rdfs:label "General Purpose Language Model Purpose"@en ;
+    rdfs:label "通用语言模型目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleHateSpeechDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Google Hate Speech Detection AI"@en ;
+    rdfs:label "谷歌仇恨言论检测AI"@zh ;
+    airo:hasRisk ex:VulnerabilityToTextManipulation ;
+    airo:hasAICapability ex:HateSpeechDetection ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:OnlinePlatformUsers .
+
+ex:VulnerabilityToTextManipulation rdf:type airo:Risk ;
+    rdfs:label "Vulnerability to Text Manipulation Risk"@en ;
+    rdfs:label "文本操纵漏洞风险"@zh ;
+    airo:hasConsequence ex:FailureToDetectToxicContent ;
+    airo:isRiskSourceFor ex:TextTyposAndManipulation .
+
+ex:HateSpeechDetection rdf:type airo:AICapability ;
+    rdfs:label "Hate Speech Detection Capability"@en ;
+    rdfs:label "仇恨言论检测能力"@zh .
+
+ex:TextTyposAndManipulation rdf:type airo:RiskSource ;
+    rdfs:label "Text Typos and Manipulation Risk Source"@en ;
+    rdfs:label "文本拼写错误和操纵风险源"@zh .
+
+ex:FailureToDetectToxicContent rdf:type airo:Consequence ;
+    rdfs:label "Failure to Detect Toxic Content Consequence"@en ;
+    rdfs:label "未能检测到有害内容后果"@zh ;
+    airo:hasImpact ex:ReducedContentModerationEffectiveness .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:OnlinePlatformUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Online Platform Users"@en ;
+    rdfs:label "在线平台用户"@zh .
+
+ex:ReducedContentModerationEffectiveness rdf:type airo:Impact ;
+    rdfs:label "Reduced Content Moderation Effectiveness Impact"@en ;
+    rdfs:label "内容审核有效性降低影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlinePlatformUsers .

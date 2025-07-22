@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonQGenerativeAIChatbot",
+      "中文名称": "亚马逊Q生成式AI聊天机器人",
+      "英文名称": "Amazon Q Generative AI Chatbot",
+      "来源": "Amazon’s Q has ‘severe hallucinations’ and leaks confidential data in public preview, employees warn"
+    },
+    "Risk": {
+      "id": "DataLeakageAndHallucinationRisk",
+      "中文名称": "数据泄露和幻觉风险",
+      "英文名称": "Data Leakage and Hallucination Risk",
+      "来源": "Amazon’s Q has ‘severe hallucinations’ and leaks confidential data in public preview"
+    },
+    "Consequence": {
+      "id": "ConfidentialDataExposure",
+      "中文名称": "机密数据暴露后果",
+      "英文名称": "Confidential Data Exposure Consequence",
+      "来源": "leaks confidential data in public preview"
+    },
+    "Impact": {
+      "id": "SecurityAndPrivacyBreach",
+      "中文名称": "安全和隐私侵犯影响",
+      "英文名称": "Security and Privacy Breach Impact",
+      "来源": "leaks confidential data in public preview"
+    },
+    "RiskSource": {
+      "id": "SevereHallucinations",
+      "中文名称": "严重幻觉风险源",
+      "英文名称": "Severe Hallucinations Risk Source",
+      "来源": "Amazon’s Q has ‘severe hallucinations’"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Q"
+    },
+    "Stakeholder": {
+      "id": "AmazonEmployees",
+      "中文名称": "亚马逊员工",
+      "英文名称": "Amazon Employees",
+      "来源": "employees warn"
+    },
+    "Domain": {
+      "id": "CloudComputingServices",
+      "中文名称": "云计算服务领域",
+      "英文名称": "Cloud Computing Services Domain",
+      "来源": "AWS data centers"
+    },
+    "AICapability": {
+      "id": "GenerativeAIChatbot",
+      "中文名称": "生成式AI聊天机器人能力",
+      "英文名称": "Generative AI Chatbot Capability",
+      "来源": "Amazon's Q generative AI chatbot"
+    }
+  }
+}

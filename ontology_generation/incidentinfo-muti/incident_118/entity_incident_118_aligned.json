@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "ShotSpotter Generated Over 40,000 Dead-End Police Deployments in Chicago in 21 Months"
+    },
+    "Risk": {
+      "id": "InefficientPoliceResourceAllocationRisk",
+      "中文名称": "警力资源低效分配风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Generated Over 40,000 Dead-End Police Deployments in Chicago in 21 Months"
+    },
+    "Consequence": {
+      "id": "WastedPoliceTimeAndResources",
+      "中文名称": "警力时间和资源浪费后果",
+      "英文名称": "Law Enforcement Resource Waste Consequence",
+      "来源": "ShotSpotter wastes officers time"
+    },
+    "Impact": {
+      "id": "OverpolicingInMarginalizedCommunities",
+      "中文名称": "边缘化社区过度监管影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "targets overpoliced communities"
+    },
+    "Stakeholder": {
+      "id": "ChicagoPoliceDepartment",
+      "中文名称": "芝加哥警察局",
+      "英文名称": "Chicago Police Department",
+      "来源": "police deployments in Chicago"
+    },
+    "AISubject": {
+      "id": "BlackNeighborhoodResidents",
+      "中文名称": "黑人社区居民",
+      "英文名称": "Black Neighborhood Residents",
+      "来源": "Gunshot-Detecting Tech Is Summoning Armed Police to Black Neighborhoods"
+    },
+    "RiskSource": {
+      "id": "FalsePositiveGunshotDetection",
+      "中文名称": "枪声检测误报风险源",
+      "英文名称": "False Positive Gunshot Detection Risk Source",
+      "来源": "Generated Over 40,000 Dead-End Police Deployments"
+    },
+    "Domain": {
+      "id": "PublicSafetyAndLawEnforcement",
+      "中文名称": "公共安全与执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "police deployments"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "ShotSpotter Generated Over 40,000 Dead-End Police Deployments in Chicago in 21 Months"
+    },
+    "Risk": {
+      "id": "InefficientPoliceResourceAllocationRisk",
+      "中文名称": "警力资源低效分配风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Generated Over 40,000 Dead-End Police Deployments in Chicago in 21 Months"
+    },
+    "Consequence": {
+      "id": "WastedPoliceTimeAndResources",
+      "中文名称": "警力时间和资源浪费后果",
+      "英文名称": "Law Enforcement Resource Waste Consequence",
+      "来源": "ShotSpotter wastes officers time"
+    },
+    "Impact": {
+      "id": "OverpolicingInMarginalizedCommunities",
+      "中文名称": "边缘化社区过度监管影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "targets overpoliced communities"
+    },
+    "Stakeholder": {
+      "id": "ChicagoPoliceDepartment",
+      "中文名称": "芝加哥警察局",
+      "英文名称": "Chicago Police Department",
+      "来源": "police deployments in Chicago"
+    },
+    "AISubject": {
+      "id": "BlackNeighborhoodResidents",
+      "中文名称": "黑人社区居民",
+      "英文名称": "Black Neighborhood Residents",
+      "来源": "Gunshot-Detecting Tech Is Summoning Armed Police to Black Neighborhoods"
+    },
+    "RiskSource": {
+      "id": "FalsePositiveGunshotDetection",
+      "中文名称": "枪声检测误报风险源",
+      "英文名称": "False Positive Gunshot Detection Risk Source",
+      "来源": "Generated Over 40,000 Dead-End Police Deployments"
+    },
+    "Domain": {
+      "id": "PublicSafetyAndLawEnforcement",
+      "中文名称": "公共安全与执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "police deployments"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIDataCenters rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI Data Centers"@en ;
+    rdfs:label "微软AI数据中心"@zh ;
+    airo:hasRisk ex:WaterResourceDepletionRisk ;
+    airo:isAppliedWithinDomain ex:DataCenterOperations ;
+    airo:hasStakeholder ex:ArizonaResidents .
+
+ex:WaterResourceDepletionRisk rdf:type airo:Risk ;
+    rdfs:label "Water Resource Depletion Risk"@en ;
+    rdfs:label "水资源枯竭风险"@zh ;
+    airo:isRiskSourceFor ex:HighWaterConsumption ;
+    airo:hasImpact ex:EnvironmentalImpact .
+
+ex:EnvironmentalImpact rdf:type airo:Impact ;
+    rdfs:label "Environmental Impact"@en ;
+    rdfs:label "环境影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ArizonaResidents .
+
+ex:ArizonaResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Arizona Residents"@en ;
+    rdfs:label "亚利桑那州居民"@zh .
+
+ex:DataCenterOperations rdf:type airo:Domain ;
+    rdfs:label "Data Center Operations Domain"@en ;
+    rdfs:label "数据中心运营领域"@zh .
+
+ex:HighWaterConsumption rdf:type airo:RiskSource ;
+    rdfs:label "High Water Consumption"@en ;
+    rdfs:label "高耗水量"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WhisperSpeechToTextAI",
+      "中文名称": "Whisper语音转文本AI",
+      "英文名称": "Whisper Speech-To-Text AI",
+      "来源": "OpenAI’s Whisper Speech-To-Text AI Hallucinates Violent Language"
+    },
+    "Risk": {
+      "id": "ViolentLanguageHallucinationRisk",
+      "中文名称": "暴力语言幻觉风险",
+      "英文名称": "Violent Language Hallucination Risk",
+      "来源": "AI speech-to-text can hallucinate violent language"
+    },
+    "Consequence": {
+      "id": "InaccurateTranscription",
+      "中文名称": "不准确转录后果",
+      "英文名称": "Inaccurate Transcription Consequence",
+      "来源": "AI transcription tools ‘hallucinate,’ too"
+    },
+    "AICapability": {
+      "id": "SpeechRecognition",
+      "中文名称": "语音识别能力",
+      "英文名称": "Speech Recognition Capability",
+      "来源": "OpenAI’s Whisper Speech-To-Text AI"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI’s Whisper Speech-To-Text AI"
+    },
+    "RiskSource": {
+      "id": "ModelHallucination",
+      "中文名称": "模型幻觉风险源",
+      "英文名称": "Model Hallucination Risk Source",
+      "来源": "AI transcription tools ‘hallucinate,’ too"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播影响",
+      "英文名称": "Misinformation Spread Impact",
+      "来源": "AI speech-to-text can hallucinate violent language"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedSpeechRecognition",
+      "中文名称": "基于神经网络的语音识别技术",
+      "英文名称": "Neural Network Based Speech Recognition Technique",
+      "来源": "OpenAI’s Whisper Speech-To-Text AI"
+    }
+  }
+}

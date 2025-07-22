@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT2LanguageModel rdf:type airo:AISystem ;
+    rdfs:label "GPT-2语言模型"@zh ;
+    rdfs:label "GPT-2 Language Model"@en ;
+    airo:hasRisk ex:PrivacyLeakageRisk ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:isProvidedBy ex:OpenAI .
+
+ex:PrivacyLeakageRisk rdf:type airo:Risk ;
+    rdfs:label "隐私泄露风险"@zh ;
+    rdfs:label "Privacy Leakage Risk"@en ;
+    airo:hasConsequence ex:PersonalInformationDisclosure ;
+    airo:isRiskSourceFor ex:TrainingDataMemorization ;
+    airo:hasRiskControl ex:ContentFilter .
+
+ex:TrainingDataMemorization rdf:type airo:RiskSource ;
+    rdfs:label "训练数据记忆"@zh ;
+    rdfs:label "Training Data Memorization"@en .
+
+ex:PersonalInformationDisclosure rdf:type airo:Consequence ;
+    rdfs:label "个人信息泄露后果"@zh ;
+    rdfs:label "Personal Information Disclosure Consequence"@en .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "大型语言模型技术"@zh ;
+    rdfs:label "Large Language Model Technique"@en .
+
+ex:OpenAI rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI"@zh ;
+    rdfs:label "OpenAI"@en .
+
+ex:ContentFilter rdf:type airo:RiskControl ;
+    rdfs:label "内容过滤器"@zh ;
+    rdfs:label "Content Filter"@en ;
+    airo:mitigatesRiskConcept ex:PrivacyLeakageRisk .

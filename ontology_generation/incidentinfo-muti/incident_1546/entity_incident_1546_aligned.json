@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaContentModerationAI",
+      "中文名称": "Meta内容审核AI系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Meta's oversight board says AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "Risk": {
+      "id": "InadequateContentModerationRisk",
+      "中文名称": "内容审核不足风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "Stakeholder": {
+      "id": "MetaOversightBoard",
+      "中文名称": "Meta监督委员会",
+      "英文名称": "Meta Oversight Board",
+      "来源": "Meta's oversight board says"
+    },
+    "AICapability": {
+      "id": "AutomatedContentModeration",
+      "中文名称": "自动化内容审核能力",
+      "英文名称": "Automated Content Moderation",
+      "来源": "AI alone isn't enough to moderate"
+    },
+    "Domain": {
+      "id": "SocialMediaContentModeration",
+      "中文名称": "社交媒体内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "moderate Israel-Hamas war content"
+    },
+    "Consequence": {
+      "id": "HarmfulContentPropagation",
+      "中文名称": "有害内容传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "RiskSource": {
+      "id": "OverrelianceOnAIForModeration",
+      "中文名称": "过度依赖AI进行审核的风险源",
+      "英文名称": "Overreliance on AI for Moderation Risk Source",
+      "来源": "AI alone isn't enough to moderate"
+    },
+    "Purpose": {
+      "id": "WarRelatedContentModeration",
+      "中文名称": "战争相关内容审核目的",
+      "英文名称": "War-Related Content Moderation Purpose",
+      "来源": "moderate Israel-Hamas war content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaContentModerationAI",
+      "中文名称": "Meta内容审核AI系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Meta's oversight board says AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "Risk": {
+      "id": "InadequateContentModerationRisk",
+      "中文名称": "内容审核不足风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "Stakeholder": {
+      "id": "MetaOversightBoard",
+      "中文名称": "Meta监督委员会",
+      "英文名称": "Meta Oversight Board",
+      "来源": "Meta's oversight board says"
+    },
+    "AICapability": {
+      "id": "AutomatedContentModeration",
+      "中文名称": "自动化内容审核能力",
+      "英文名称": "Automated Content Moderation",
+      "来源": "AI alone isn't enough to moderate"
+    },
+    "Domain": {
+      "id": "SocialMediaContentModeration",
+      "中文名称": "社交媒体内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "moderate Israel-Hamas war content"
+    },
+    "Consequence": {
+      "id": "HarmfulContentPropagation",
+      "中文名称": "有害内容传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI alone isn't enough to moderate Israel-Hamas war content"
+    },
+    "RiskSource": {
+      "id": "OverrelianceOnAIForModeration",
+      "中文名称": "过度依赖AI进行审核的风险源",
+      "英文名称": "Overreliance on AI for Moderation Risk Source",
+      "来源": "AI alone isn't enough to moderate"
+    },
+    "Purpose": {
+      "id": "WarRelatedContentModeration",
+      "中文名称": "战争相关内容审核目的",
+      "英文名称": "War-Related Content Moderation Purpose",
+      "来源": "moderate Israel-Hamas war content"
+    }
+  }
+}

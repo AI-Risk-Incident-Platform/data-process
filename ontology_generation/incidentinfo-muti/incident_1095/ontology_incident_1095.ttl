@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:UniversityCommunity ;
+    airo:isAppliedWithinDomain ex:CampusSecurity .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection .
+
+ex:UniversityCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "University Community"@en ;
+    rdfs:label "大学社区"@zh .
+
+ex:CampusSecurity rdf:type airo:Domain ;
+    rdfs:label "Campus Security"@en ;
+    rdfs:label "校园安全"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection"@en ;
+    rdfs:label "未经授权的数据收集"@zh .

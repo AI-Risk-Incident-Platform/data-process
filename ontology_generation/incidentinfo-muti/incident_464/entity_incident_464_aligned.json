@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBardChatbot",
+      "中文名称": "谷歌Bard聊天机器人",
+      "英文名称": "Google Chatbot",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "Consequence": {
+      "id": "StockPriceDecline",
+      "中文名称": "股价下跌后果",
+      "英文名称": "Stock Price Decline Consequence",
+      "来源": "Alphabet shares tank after its ChatGPT rival makes a mistake in its very first ad"
+    },
+    "Stakeholder": {
+      "id": "AlphabetInvestors",
+      "中文名称": "Alphabet投资者",
+      "英文名称": "Alphabet Investors",
+      "来源": "Google Stock Tumbles Nearly 8% After Bard Ad Shows Inaccurate Answer"
+    },
+    "Impact": {
+      "id": "MarketConfidenceErosion",
+      "中文名称": "市场信心侵蚀影响",
+      "英文名称": "Market Impact",
+      "来源": "Google Stock Tumbles Nearly 8% After Bard Ad Shows Inaccurate Answer, AI Race Heats Up"
+    },
+    "Domain": {
+      "id": "AIChatbotMarket",
+      "中文名称": "AI聊天机器人市场领域",
+      "英文名称": "Conversational AI Domain",
+      "来源": "AI Race Heats Up"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "RiskSource": {
+      "id": "InaccurateAIResponse",
+      "中文名称": "AI响应不准确风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleBardChatbot",
+      "中文名称": "谷歌Bard聊天机器人",
+      "英文名称": "Google Chatbot",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "Alphabet shares dive after Google AI chatbot Bard flubs answer in ad"
+    },
+    "Consequence": {
+      "id": "StockPriceDecline",
+      "中文名称": "股价下跌后果",
+      "英文名称": "Stock Price Decline Consequence",
+      "来源": "Alphabet shares tank after its ChatGPT rival makes a mistake in its very first ad"
+    },
+    "Stakeholder": {
+      "id": "AlphabetInvestors",
+      "中文名称": "Alphabet投资者",
+      "英文名称": "Alphabet Investors",
+      "来源": "Google Stock Tumbles Nearly 8% After Bard Ad Shows Inaccurate Answer"
+    },
+    "Impact": {
+      "id": "MarketConfidenceErosion",
+      "中文名称": "市场信心侵蚀影响",
+      "英文名称": "Market Impact",
+      "来源": "Google Stock Tumbles Nearly 8% After Bard Ad Shows Inaccurate Answer, AI Race Heats Up"
+    },
+    "Domain": {
+      "id": "AIChatbotMarket",
+      "中文名称": "AI聊天机器人市场领域",
+      "英文名称": "Conversational AI Domain",
+      "来源": "AI Race Heats Up"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理能力",
+      "英文名称": "Natural Language Processing Capability",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    },
+    "RiskSource": {
+      "id": "InaccurateAIResponse",
+      "中文名称": "AI响应不准确风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Google AI chatbot Bard flubs answer in ad"
+    }
+  }
+}

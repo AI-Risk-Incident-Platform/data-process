@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ImageGenerationAI rdf:type airo:AISystem ;
+    rdfs:label "图像生成AI"@zh ;
+    rdfs:label "Image Generation AI"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:SchoolGirls ;
+    airo:hasStakeholder ex:SchoolCommunity ;
+    airo:hasRisk ex:NonConsensualImageCreation .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:NonConsensualImageCreation .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "对受害者的心理伤害"@zh ;
+    rdfs:label "Psychological Harm to Victims"@en ;
+    airo:hasImpact ex:SocialStigma .
+
+ex:SchoolGirls rdf:type airo:AISubject ;
+    rdfs:label "女学生"@zh ;
+    rdfs:label "School Girls"@en .
+
+ex:SchoolCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "学校社区"@zh ;
+    rdfs:label "School Community"@en .
+
+ex:NonConsensualImageCreation rdf:type airo:Misuse ;
+    rdfs:label "未经同意的图像创建"@zh ;
+    rdfs:label "Non-Consensual Image Creation"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk .
+
+ex:SocialStigma rdf:type airo:Impact ;
+    rdfs:label "社会污名"@zh ;
+    rdfs:label "Social Stigma"@en ;
+    airo:hasImpactOnStakeholder ex:SchoolCommunity .
+
+ex:MinorStudent rdf:type airo:AIOperator ;
+    rdfs:label "未成年学生"@zh ;
+    rdfs:label "Minor Student"@en .

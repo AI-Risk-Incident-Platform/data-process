@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:DataMisuseRisk ;
+    airo:hasStakeholder ex:StackOverflowUsers ;
+    airo:isDeployedBy ex:OpenAI .
+
+ex:DataMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Data Misuse Risk"@en ;
+    rdfs:label "数据滥用风险"@zh ;
+    airo:hasConsequence ex:ContentRemoval ;
+    airo:isRiskSourceFor ex:LackOfUserConsent .
+
+ex:StackOverflowUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Stack Overflow Users"@en ;
+    rdfs:label "Stack Overflow用户"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:ContentRemoval rdf:type airo:Consequence ;
+    rdfs:label "Content Removal Consequence"@en ;
+    rdfs:label "内容移除后果"@zh ;
+    airo:hasImpact ex:CommunityTrustErosion .
+
+ex:CommunityTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Community Trust Erosion Impact"@en ;
+    rdfs:label "社区信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StackOverflowUsers .
+
+ex:LackOfUserConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of User Consent Risk Source"@en ;
+    rdfs:label "缺乏用户同意的风险源"@zh .

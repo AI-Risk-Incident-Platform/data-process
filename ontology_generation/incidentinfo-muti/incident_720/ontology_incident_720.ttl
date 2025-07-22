@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram Recommendation Algorithm"@en ;
+    rdfs:label "Instagram推荐算法"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:hasAISubject ex:ChildUsers ;
+    airo:hasStakeholder ex:UnderageInfluencer ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasImpact ex:ChildSafetyThreat ;
+    airo:isRiskSourceFor ex:AdultMaleAudience .
+
+ex:UnderageInfluencer rdf:type airo:Stakeholder ;
+    rdfs:label "Underage Influencer"@en ;
+    rdfs:label "未成年影响者"@zh .
+
+ex:ChildUsers rdf:type airo:AISubject ;
+    rdfs:label "Child Users"@en ;
+    rdfs:label "儿童用户"@zh .
+
+ex:ChildSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Child Safety Threat"@en ;
+    rdfs:label "儿童安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:UnderageInfluencer .
+
+ex:AdultMaleAudience rdf:type airo:RiskSource ;
+    rdfs:label "Adult Male Audience"@en ;
+    rdfs:label "成年男性受众"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform"@en ;
+    rdfs:label "社交媒体平台"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video System"@en ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    airo:hasRisk ex:InvestmentScamRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PromoteScams ;
+    airo:hasStakeholder ex:Public ;
+    airo:isDeployedBy ex:Scammers .
+
+ex:InvestmentScamRisk rdf:type airo:Risk ;
+    rdfs:label "Investment Scam Risk"@en ;
+    rdfs:label "投资诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:MisuseOfDeepfake .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:Public rdf:type airo:Stakeholder ;
+    rdfs:label "Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:Scammers rdf:type airo:AIOperator ;
+    rdfs:label "Scammers"@en ;
+    rdfs:label "诈骗者"@zh .
+
+ex:PromoteScams rdf:type airo:Purpose ;
+    rdfs:label "Promote Scams"@en ;
+    rdfs:label "推广诈骗"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Public .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:MisuseOfDeepfake rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of Deepfake Risk Source"@en ;
+    rdfs:label "深度伪造滥用风险源"@zh .

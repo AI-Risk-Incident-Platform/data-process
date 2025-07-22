@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OnlinePassportPhotoChecker rdf:type airo:AISystem ;
+    rdfs:label "Online Passport Photo Checker"@en ;
+    rdfs:label "在线护照照片检查器"@zh ;
+    airo:hasRisk ex:RacialBiasInFacialRecognition ;
+    airo:hasAICapability ex:FacialFeatureDetection ;
+    airo:hasStakeholder ex:UKGovernment ;
+    airo:hasAISubject ex:DarkSkinnedIndividuals ;
+    airo:hasPurpose ex:AutomatedPassportPhotoVerification ;
+    airo:isAppliedWithinDomain ex:GovernmentIdentityServices ;
+    airo:usesTechnique ex:ComputerVisionForFacialAnalysis .
+
+ex:RacialBiasInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:PassportApplicationRejection ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:PassportApplicationRejection rdf:type airo:Consequence ;
+    rdfs:label "Passport Application Rejection Consequence"@en ;
+    rdfs:label "护照申请被拒后果"@zh ;
+    airo:hasImpact ex:DiscriminationAgainstMinorities .
+
+ex:FacialFeatureDetection rdf:type airo:AICapability ;
+    rdfs:label "Facial Feature Detection Capability"@en ;
+    rdfs:label "面部特征检测能力"@zh .
+
+ex:UKGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "UK Government"@en ;
+    rdfs:label "英国政府"@zh .
+
+ex:DarkSkinnedIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Dark-Skinned Individuals"@en ;
+    rdfs:label "深色皮肤个体"@zh .
+
+ex:DiscriminationAgainstMinorities rdf:type airo:Impact ;
+    rdfs:label "Discrimination Against Minorities Impact"@en ;
+    rdfs:label "对少数族裔歧视的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DarkSkinnedIndividuals .
+
+ex:AutomatedPassportPhotoVerification rdf:type airo:Purpose ;
+    rdfs:label "Automated Passport Photo Verification Purpose"@en ;
+    rdfs:label "自动化护照照片验证的目的"@zh .
+
+ex:GovernmentIdentityServices rdf:type airo:Domain ;
+    rdfs:label "Government Identity Services Domain"@en ;
+    rdfs:label "政府身份服务领域"@zh .
+
+ex:ComputerVisionForFacialAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Facial Analysis Technique"@en ;
+    rdfs:label "用于面部分析的计算机视觉技术"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh ;
+    airo:exploitsVulnerability ex:PoorPerformanceOnDarkSkinTones .
+
+ex:PoorPerformanceOnDarkSkinTones rdf:type airo:Vulnerability ;
+    rdfs:label "Poor Performance on Dark Skin Tones Vulnerability"@en ;
+    rdfs:label "对深色肤色表现不佳的脆弱性"@zh .

@@ -1,0 +1,48 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:LibelRisk ;
+    airo:hasStakeholder ex:OpenAI ;
+    airo:isDeployedBy ex:OpenAI ;
+    airo:isAppliedWithinDomain ex:AILegalAndRegulatory .
+
+ex:LibelRisk rdf:type airo:Risk ;
+    rdfs:label "Libel Risk"@en ;
+    rdfs:label "诽谤风险"@zh ;
+    airo:isRiskSourceFor ex:PrivacyComplaint ;
+    airo:hasConsequence ex:LegalAction .
+
+ex:OpenAI rdf:type airo:Stakeholder ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh ;
+    airo:hasRole airo:AIOperator .
+
+ex:PrivacyComplaint rdf:type airo:RiskSource ;
+    rdfs:label "Privacy Complaint"@en ;
+    rdfs:label "隐私投诉"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action"@en ;
+    rdfs:label "法律诉讼"@zh ;
+    airo:hasImpact ex:RegulatoryScrutiny .
+
+ex:RegulatoryScrutiny rdf:type airo:Impact ;
+    rdfs:label "Regulatory Scrutiny"@en ;
+    rdfs:label "监管审查"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenAI .
+
+ex:AILegalAndRegulatory rdf:type airo:Domain ;
+    rdfs:label "AI Legal and Regulatory Domain"@en ;
+    rdfs:label "AI法律与监管领域"@zh .

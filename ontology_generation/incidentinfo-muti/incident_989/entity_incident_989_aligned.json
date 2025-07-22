@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIFakeIRSSites",
+      "中文名称": "AI伪造IRS网站",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Risk": {
+      "id": "FinancialScamRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scammers using AI to create fake IRS sites. Here's other scams to watch out for."
+    },
+    "RiskSource": {
+      "id": "AIGeneratedFakeWebsites",
+      "中文名称": "AI生成的虚假网站",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Here's other scams to watch out for."
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Stakeholder": {
+      "id": "Taxpayers",
+      "中文名称": "纳税人",
+      "英文名称": "Taxpayers",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "AITechnique": {
+      "id": "WebsiteGenerationAI",
+      "中文名称": "网站生成AI",
+      "英文名称": "Website Generation AI",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务",
+      "英文名称": "Financial Domain",
+      "来源": "Scammers using AI to create fake IRS sites."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIFakeIRSSites",
+      "中文名称": "AI伪造IRS网站",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Risk": {
+      "id": "FinancialScamRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scammers using AI to create fake IRS sites. Here's other scams to watch out for."
+    },
+    "RiskSource": {
+      "id": "AIGeneratedFakeWebsites",
+      "中文名称": "AI生成的虚假网站",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Here's other scams to watch out for."
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Stakeholder": {
+      "id": "Taxpayers",
+      "中文名称": "纳税人",
+      "英文名称": "Taxpayers",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "AITechnique": {
+      "id": "WebsiteGenerationAI",
+      "中文名称": "网站生成AI",
+      "英文名称": "Website Generation AI",
+      "来源": "Scammers using AI to create fake IRS sites."
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务",
+      "英文名称": "Financial Domain",
+      "来源": "Scammers using AI to create fake IRS sites."
+    }
+  }
+}

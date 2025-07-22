@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookNewsFeedAlgorithm",
+      "中文名称": "Facebook新闻推送算法",
+      "英文名称": "Facebook Algorithm",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "AICapability": {
+      "id": "ContentEngagementOptimization",
+      "中文名称": "内容参与度优化能力",
+      "英文名称": "Content Engagement Optimization Capability",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Purpose": {
+      "id": "MaximizeUserEngagement",
+      "中文名称": "最大化用户参与度",
+      "英文名称": "User Engagement Purpose",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Consequence": {
+      "id": "SocialPolarization",
+      "中文名称": "社会两极分化后果",
+      "英文名称": "Social Division Outcome",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsEngagement",
+      "中文名称": "偏向参与度的算法偏见风险源",
+      "英文名称": "Algorithmic Engagement Bias Risk Source",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookNewsFeedAlgorithm",
+      "中文名称": "Facebook新闻推送算法",
+      "英文名称": "Facebook Algorithm",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "AICapability": {
+      "id": "ContentEngagementOptimization",
+      "中文名称": "内容参与度优化能力",
+      "英文名称": "Content Engagement Optimization Capability",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Purpose": {
+      "id": "MaximizeUserEngagement",
+      "中文名称": "最大化用户参与度",
+      "英文名称": "User Engagement Purpose",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Consequence": {
+      "id": "SocialPolarization",
+      "中文名称": "社会两极分化后果",
+      "英文名称": "Social Division Outcome",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsEngagement",
+      "中文名称": "偏向参与度的算法偏见风险源",
+      "英文名称": "Algorithmic Engagement Bias Risk Source",
+      "来源": "How Facebook got addicted to spreading misinformation"
+    }
+  }
+}

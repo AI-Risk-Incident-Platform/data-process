@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VioGenAlgorithm",
+      "中文名称": "VioGén算法",
+      "英文名称": "VioGén Algorithm",
+      "来源": "新闻标题中提到的'VioGén Algorithm'"
+    },
+    "Risk": {
+      "id": "FlawedDomesticAbuseRiskAssessment",
+      "中文名称": "有缺陷的家庭暴力风险评估风险",
+      "英文名称": "Flawed Domestic Abuse Risk Assessment Risk",
+      "来源": "新闻标题'Spain's flawed domestic abuse algorithm ban debate heats up'"
+    },
+    "Domain": {
+      "id": "DomesticViolencePrevention",
+      "中文名称": "家庭暴力预防领域",
+      "英文名称": "Domestic Violence Prevention Domain",
+      "来源": "新闻标题中提到的'domestic abuse'"
+    },
+    "Purpose": {
+      "id": "GenderViolenceRiskAssessment",
+      "中文名称": "性别暴力风险评估目的",
+      "英文名称": "Gender Violence Risk Assessment Purpose",
+      "来源": "新闻标题'VioGén Algorithm and Gender Violence'"
+    },
+    "Stakeholder": {
+      "id": "SpanishGovernment",
+      "中文名称": "西班牙政府",
+      "英文名称": "Spanish Government",
+      "来源": "新闻标题中提到的'Spain's'"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInGenderViolence",
+      "中文名称": "性别暴力中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Gender Violence Risk Source",
+      "来源": "新闻标题'flawed domestic abuse algorithm'"
+    },
+    "Impact": {
+      "id": "PotentialMisclassificationOfVictims",
+      "中文名称": "潜在受害者误分类影响",
+      "英文名称": "Potential Misclassification of Victims Impact",
+      "来源": "新闻标题'flawed domestic abuse algorithm'"
+    }
+  }
+}

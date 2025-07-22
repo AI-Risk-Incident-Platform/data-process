@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MoscowFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "莫斯科人脸识别系统"@zh ;
+    rdfs:label "Moscow Facial Recognition System"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:LargeScaleFacialRecognition ;
+    airo:isAppliedWithinDomain ex:PublicSecuritySurveillance .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:BlackMarketAccessToCCTV ;
+    airo:hasConsequence ex:MassSurveillanceOfCitizens .
+
+ex:BlackMarketAccessToCCTV rdf:type airo:RiskSource ;
+    rdfs:label "黑市获取CCTV访问权限"@zh ;
+    rdfs:label "Black Market Access to CCTV"@en .
+
+ex:MassSurveillanceOfCitizens rdf:type airo:Consequence ;
+    rdfs:label "公民大规模监控后果"@zh ;
+    rdfs:label "Mass Surveillance of Citizens Consequence"@en ;
+    airo:hasImpact ex:CivilLibertiesErosion .
+
+ex:CivilLibertiesErosion rdf:type airo:Impact ;
+    rdfs:label "公民自由侵蚀影响"@zh ;
+    rdfs:label "Civil Liberties Erosion Impact"@en .
+
+ex:LargeScaleFacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "大规模人脸识别能力"@zh ;
+    rdfs:label "Large-Scale Facial Recognition Capability"@en .
+
+ex:PublicSecuritySurveillance rdf:type airo:Domain ;
+    rdfs:label "公共安全监控领域"@zh ;
+    rdfs:label "Public Security Surveillance Domain"@en .

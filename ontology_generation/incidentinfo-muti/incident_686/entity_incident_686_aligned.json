@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAIImageGenerator",
+      "中文名称": "Meta AI图像生成器",
+      "英文名称": "Meta AI Image Generator",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageGeneration",
+      "中文名称": "图像生成中的种族偏见风险",
+      "英文名称": "Image Generation Bias Risk",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "AISubject": {
+      "id": "AsianMenAndWhiteWomen",
+      "中文名称": "亚洲男性和白人女性",
+      "英文名称": "Asian Men and White Women",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "Impact": {
+      "id": "SocialExclusionImpact",
+      "中文名称": "社会排斥影响",
+      "英文名称": "Impact",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAIImageGenerator",
+      "中文名称": "Meta AI图像生成器",
+      "英文名称": "Meta AI Image Generator",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "Risk": {
+      "id": "RacialBiasInImageGeneration",
+      "中文名称": "图像生成中的种族偏见风险",
+      "英文名称": "Image Generation Bias Risk",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "AISubject": {
+      "id": "AsianMenAndWhiteWomen",
+      "中文名称": "亚洲男性和白人女性",
+      "英文名称": "Asian Men and White Women",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "Impact": {
+      "id": "SocialExclusionImpact",
+      "中文名称": "社会排斥影响",
+      "英文名称": "Impact",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Meta’s AI image generator can’t imagine an Asian man with a white woman"
+    }
+  }
+}

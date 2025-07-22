@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PortlandWaterBillDiscountSystem rdf:type airo:AISystem ;
+    rdfs:label "Portland Water Bill Discount System"@en ;
+    rdfs:label "波特兰水费折扣系统"@zh ;
+    airo:hasRisk ex:WealthBiasInUtilityDiscounts ;
+    airo:hasStakeholder ex:WealthyResidents ;
+    airo:isAppliedWithinDomain ex:PublicUtilities .
+
+ex:WealthBiasInUtilityDiscounts rdf:type airo:Risk ;
+    rdfs:label "Wealth Bias in Utility Discounts Risk"@en ;
+    rdfs:label "公用事业折扣中的财富偏见风险"@zh ;
+    airo:hasImpact ex:InequitableResourceDistribution .
+
+ex:WealthyResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Wealthy Residents"@en ;
+    rdfs:label "富裕居民"@zh .
+
+ex:PublicUtilities rdf:type airo:Domain ;
+    rdfs:label "Public Utilities"@en ;
+    rdfs:label "公共事业"@zh .
+
+ex:InequitableResourceDistribution rdf:type airo:Impact ;
+    rdfs:label "Inequitable Resource Distribution Impact"@en ;
+    rdfs:label "资源分配不公的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WealthyResidents .

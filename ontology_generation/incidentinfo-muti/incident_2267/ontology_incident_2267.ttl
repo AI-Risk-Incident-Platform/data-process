@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HospitalFollowUpCareAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Hospital Follow-Up Care Algorithm"@en ;
+    rdfs:label "医院随访护理算法"@zh ;
+    airo:hasRisk ex:RacialBiasInHealthcareAI ;
+    airo:hasCapability ex:PatientRiskAssessment ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:hasAISubject ex:HospitalPatients .
+
+ex:RacialBiasInHealthcareAI rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Healthcare AI Risk"@en ;
+    rdfs:label "医疗AI中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasConsequence ex:DisparitiesInMedicalCare .
+
+ex:PatientRiskAssessment rdf:type airo:AICapability ;
+    rdfs:label "Patient Risk Assessment Capability"@en ;
+    rdfs:label "患者风险评估能力"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:UnequalAccessToHealthcare rdf:type airo:Impact ;
+    rdfs:label "Unequal Access to Healthcare Impact"@en ;
+    rdfs:label "医疗资源获取不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HospitalPatients .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:DisparitiesInMedicalCare rdf:type airo:Consequence ;
+    rdfs:label "Disparities in Medical Care Consequence"@en ;
+    rdfs:label "医疗护理差异后果"@zh ;
+    airo:hasImpact ex:UnequalAccessToHealthcare .
+
+ex:HospitalPatients rdf:type airo:AISubject ;
+    rdfs:label "Hospital Patients"@en ;
+    rdfs:label "医院患者"@zh .

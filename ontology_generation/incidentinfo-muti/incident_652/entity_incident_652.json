@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationTool",
+      "中文名称": "深度伪造图像生成工具",
+      "英文名称": "Deepfake Image Generation Tool",
+      "来源": "Florida Middle Schoolers Arrested for Allegedly Creating Deepfake Nudes of Classmates"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPsychologicalHarm",
+      "中文名称": "隐私侵犯和心理伤害风险",
+      "英文名称": "Privacy Violation and Psychological Harm Risk",
+      "来源": "creating AI-generated nude images of classmates"
+    },
+    "Consequence": {
+      "id": "EmotionalDistressForVictims",
+      "中文名称": "受害者情绪困扰后果",
+      "英文名称": "Emotional Distress for Victims Consequence",
+      "来源": "creating AI-generated nude images of classmates"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageSynthesis",
+      "中文名称": "基于深度学习的图像合成技术",
+      "英文名称": "Deep Learning Based Image Synthesis Technique",
+      "来源": "Deepfake nudes"
+    },
+    "Stakeholder": {
+      "id": "MiddleSchoolStudents",
+      "中文名称": "中学生",
+      "英文名称": "Middle School Students",
+      "来源": "Florida Middle Schoolers"
+    },
+    "AISubject": {
+      "id": "ClassmatesAsVictims",
+      "中文名称": "作为受害者的同学",
+      "英文名称": "Classmates as Victims",
+      "来源": "nudes of classmates"
+    },
+    "Impact": {
+      "id": "ReputationDamageAndSocialStigma",
+      "中文名称": "声誉损害和社会污名影响",
+      "英文名称": "Reputation Damage and Social Stigma Impact",
+      "来源": "creating AI-generated nude images"
+    },
+    "Purpose": {
+      "id": "MaliciousImageCreation",
+      "中文名称": "恶意图像创建目的",
+      "英文名称": "Malicious Image Creation Purpose",
+      "来源": "creating deepfake nudes"
+    },
+    "Domain": {
+      "id": "EducationEnvironment",
+      "中文名称": "教育环境领域",
+      "英文名称": "Education Environment Domain",
+      "来源": "Middle School"
+    },
+    "RiskSource": {
+      "id": "EasyAccessToDeepfakeTools",
+      "中文名称": "深度伪造工具易获取风险源",
+      "英文名称": "Easy Access to Deepfake Tools Risk Source",
+      "来源": "creating AI-generated nude images"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChessRobot",
+      "中文名称": "国际象棋机器人",
+      "英文名称": "Chess Robot",
+      "来源": "A chess robot in Moscow has broken the finger of its human opponent"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "人身伤害风险",
+      "英文名称": "Physical Harm Risk",
+      "来源": "Chess robot grabs and breaks finger of seven-year-old opponent"
+    },
+    "Consequence": {
+      "id": "FingerInjury",
+      "中文名称": "手指受伤后果",
+      "英文名称": "Finger Injury Consequence",
+      "来源": "breaks seven-year-old player's finger"
+    },
+    "AISubject": {
+      "id": "ChildChessPlayer",
+      "中文名称": "儿童棋手",
+      "英文名称": "Child Chess Player",
+      "来源": "seven-year-old opponent"
+    },
+    "Impact": {
+      "id": "PhysicalTrauma",
+      "中文名称": "身体创伤影响",
+      "英文名称": "Physical Trauma Impact",
+      "来源": "broken the finger"
+    },
+    "Domain": {
+      "id": "ChessGame",
+      "中文名称": "国际象棋游戏领域",
+      "英文名称": "Chess Game Domain",
+      "来源": "chess robot"
+    },
+    "Stakeholder": {
+      "id": "HumanPlayer",
+      "中文名称": "人类玩家",
+      "英文名称": "Human Player",
+      "来源": "human opponent"
+    }
+  }
+}

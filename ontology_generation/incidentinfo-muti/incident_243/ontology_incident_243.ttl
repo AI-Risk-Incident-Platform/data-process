@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GitHubCopilot rdf:type airo:AISystem ;
+    rdfs:label "GitHub Copilot"@en ;
+    rdfs:label "GitHub Copilot"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:GitHub ;
+    airo:hasPurpose ex:AIPairProgramming ;
+    airo:isAppliedWithinDomain ex:SoftwareDevelopment ;
+    airo:usesTechnique ex:CodeGenerationAI ;
+    airo:hasStakeholder ex:OpenSourceCommunity .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalChallenges ;
+    airo:isRiskSourceFor ex:TrainingOnCopyrightedCode .
+
+ex:OpenSourceCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Open Source Community"@en ;
+    rdfs:label "开源社区"@zh .
+
+ex:GitHub rdf:type airo:AIOperator ;
+    rdfs:label "GitHub"@en ;
+    rdfs:label "GitHub"@zh .
+
+ex:AIPairProgramming rdf:type airo:Purpose ;
+    rdfs:label "AI Pair Programming"@en ;
+    rdfs:label "AI配对编程"@zh .
+
+ex:SoftwareDevelopment rdf:type airo:Domain ;
+    rdfs:label "Software Development"@en ;
+    rdfs:label "软件开发"@zh .
+
+ex:CodeGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Code Generation AI"@en ;
+    rdfs:label "代码生成AI"@zh .
+
+ex:TrainingOnCopyrightedCode rdf:type airo:RiskSource ;
+    rdfs:label "Training on Copyrighted Code"@en ;
+    rdfs:label "使用受版权保护的代码训练"@zh .
+
+ex:LegalChallenges rdf:type airo:Consequence ;
+    rdfs:label "Legal Challenges"@en ;
+    rdfs:label "法律挑战"@zh ;
+    airo:hasImpact ex:OpenSourceLicenseViolations .
+
+ex:OpenSourceLicenseViolations rdf:type airo:Impact ;
+    rdfs:label "Open Source License Violations"@en ;
+    rdfs:label "开源许可证违规"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenSourceCommunity .

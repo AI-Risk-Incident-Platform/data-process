@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAIChatGPT rdf:type airo:AISystem ;
+    rdfs:label "OpenAI ChatGPT"@en ;
+    rdfs:label "OpenAI ChatGPT"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:isDeployedBy ex:Microsoft ;
+    airo:hasStakeholder ex:NewYorkTimes ;
+    airo:hasPurpose ex:AITraining ;
+    airo:usesTechnique ex:MachineLearningTraining .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalAction ;
+    airo:isRiskSourceFor ex:UseOfCopyrightedMaterials .
+
+ex:NewYorkTimes rdf:type airo:Stakeholder ;
+    rdfs:label "New York Times"@en ;
+    rdfs:label "纽约时报"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:OpenAI rdf:type airo:AIDeveloper ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Consequence"@en ;
+    rdfs:label "法律诉讼后果"@zh ;
+    airo:hasImpact ex:FinancialPenalties .
+
+ex:FinancialPenalties rdf:type airo:Impact ;
+    rdfs:label "Financial Penalties Impact"@en ;
+    rdfs:label "经济处罚影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewYorkTimes .
+
+ex:AITraining rdf:type airo:Purpose ;
+    rdfs:label "AI Training Purpose"@en ;
+    rdfs:label "AI训练目的"@zh .
+
+ex:MachineLearningTraining rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Training Technique"@en ;
+    rdfs:label "机器学习训练技术"@zh .
+
+ex:UseOfCopyrightedMaterials rdf:type airo:RiskSource ;
+    rdfs:label "Use of Copyrighted Materials Risk Source"@en ;
+    rdfs:label "使用受版权保护材料风险源"@zh .

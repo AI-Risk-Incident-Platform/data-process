@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "Risk": {
+      "id": "DataLeakRisk",
+      "中文名称": "数据泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak"
+    },
+    "Stakeholder": {
+      "id": "SamsungEmployees",
+      "中文名称": "三星员工",
+      "英文名称": "Samsung Employees",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "AIOperator": {
+      "id": "Samsung",
+      "中文名称": "三星",
+      "英文名称": "Samsung",
+      "来源": "Samsung Bans ChatGPT Among Employees After Sensitive Code Leak"
+    },
+    "Consequence": {
+      "id": "SensitiveCodeLeak",
+      "中文名称": "敏感代码泄露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Samsung Bans ChatGPT Among Employees After Sensitive Code Leak"
+    },
+    "RiskSource": {
+      "id": "EmployeeMisuseOfAI",
+      "中文名称": "员工滥用AI风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "RiskControl": {
+      "id": "AIBanPolicy",
+      "中文名称": "AI禁令管控",
+      "英文名称": "GenAI Ban Risk Control",
+      "来源": "Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "Risk": {
+      "id": "DataLeakRisk",
+      "中文名称": "数据泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak"
+    },
+    "Stakeholder": {
+      "id": "SamsungEmployees",
+      "中文名称": "三星员工",
+      "英文名称": "Samsung Employees",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "AIOperator": {
+      "id": "Samsung",
+      "中文名称": "三星",
+      "英文名称": "Samsung",
+      "来源": "Samsung Bans ChatGPT Among Employees After Sensitive Code Leak"
+    },
+    "Consequence": {
+      "id": "SensitiveCodeLeak",
+      "中文名称": "敏感代码泄露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Samsung Bans ChatGPT Among Employees After Sensitive Code Leak"
+    },
+    "RiskSource": {
+      "id": "EmployeeMisuseOfAI",
+      "中文名称": "员工滥用AI风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Samsung workers made a major error by using ChatGPT"
+    },
+    "RiskControl": {
+      "id": "AIBanPolicy",
+      "中文名称": "AI禁令管控",
+      "英文名称": "GenAI Ban Risk Control",
+      "来源": "Samsung Bans Staff’s AI Use After Spotting ChatGPT Data Leak"
+    }
+  }
+}

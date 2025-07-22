@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingBeta rdf:type airo:AISystem ;
+    rdfs:label "特斯拉全自动驾驶测试版"@zh ;
+    rdfs:label "Tesla Full Self-Driving Beta"@en ;
+    airo:hasRisk ex:RollingStopRisk ;
+    airo:hasAICapability ex:AssertiveDrivingMode ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTechnology .
+
+ex:RollingStopRisk rdf:type airo:Risk ;
+    rdfs:label "滚动停车风险"@zh ;
+    rdfs:label "Rolling Stop Risk"@en ;
+    airo:hasConsequence ex:TrafficViolationPotential ;
+    airo:isRiskSourceFor ex:AggressiveDrivingBehaviorProgramming .
+
+ex:AssertiveDrivingMode rdf:type airo:AICapability ;
+    rdfs:label "自信驾驶模式能力"@zh ;
+    rdfs:label "Assertive Driving Mode Capability"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AggressiveDrivingBehaviorProgramming rdf:type airo:RiskSource ;
+    rdfs:label "激进驾驶行为编程风险源"@zh ;
+    rdfs:label "Aggressive Driving Behavior Programming Risk Source"@en .
+
+ex:TrafficViolationPotential rdf:type airo:Consequence ;
+    rdfs:label "潜在交通违规后果"@zh ;
+    rdfs:label "Traffic Violation Potential Consequence"@en .
+
+ex:AutonomousVehicleTechnology rdf:type airo:Domain ;
+    rdfs:label "自动驾驶技术领域"@zh ;
+    rdfs:label "Autonomous Vehicle Technology Domain"@en .

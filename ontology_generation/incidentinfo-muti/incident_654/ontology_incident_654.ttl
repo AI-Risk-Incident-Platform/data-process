@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CopilotDesigner rdf:type airo:AISystem ;
+    rdfs:label "Copilot Designer"@en ;
+    rdfs:label "Copilot Designer"@zh ;
+    airo:hasRisk ex:DisturbingImageGenerationRisk ;
+    airo:hasPurpose ex:AIArtGeneration ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:hasStakeholder ex:MicrosoftEngineer .
+
+ex:DisturbingImageGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Disturbing Image Generation Risk"@en ;
+    rdfs:label "生成令人不安图像的风险"@zh ;
+    airo:isRiskSourceFor ex:InadequateContentFiltering ;
+    airo:hasConsequence ex:PotentialHarmfulContentCreation .
+
+ex:MicrosoftEngineer rdf:type airo:Stakeholder ;
+    rdfs:label "Microsoft Engineer"@en ;
+    rdfs:label "微软工程师"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:PotentialHarmfulContentCreation rdf:type airo:Consequence ;
+    rdfs:label "Potential Harmful Content Creation Consequence"@en ;
+    rdfs:label "潜在有害内容创作后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MicrosoftEngineer .
+
+ex:InadequateContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Filtering Risk Source"@en ;
+    rdfs:label "内容过滤不足风险源"@zh .
+
+ex:AIArtGeneration rdf:type airo:Purpose ;
+    rdfs:label "AI Art Generation Purpose"@en ;
+    rdfs:label "AI艺术生成目的"@zh .

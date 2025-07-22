@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MalwareDevelopmentRisk ;
+    airo:hasAICapability ex:CodeGeneration ;
+    airo:hasPurpose ex:AssistProgramming ;
+    airo:isAppliedWithinDomain ex:Cybersecurity ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:Cybercriminals ;
+    airo:hasAISubject ex:PotentialVictims ;
+    airo:hasVulnerability ex:LackOfContentFiltering .
+
+ex:MalwareDevelopmentRisk rdf:type airo:Risk ;
+    rdfs:label "Malware Development Risk"@en ;
+    rdfs:label "恶意软件开发风险"@zh ;
+    airo:hasConsequence ex:IncreasedCybercrime ;
+    airo:isRiskSourceFor ex:UnrestrictedAccess ;
+    airo:isRiskSourceFor ex:MaliciousCodeCreation ;
+    airo:isRiskSourceFor ex:AIAbusePotential .
+
+ex:IncreasedCybercrime rdf:type airo:Consequence ;
+    rdfs:label "Increased Cybercrime Consequence"@en ;
+    rdfs:label "网络犯罪增加后果"@zh ;
+    airo:hasImpact ex:SecurityBreaches .
+
+ex:CodeGeneration rdf:type airo:AICapability ;
+    rdfs:label "Code Generation Capability"@en ;
+    rdfs:label "代码生成能力"@zh .
+
+ex:Cybercriminals rdf:type airo:Stakeholder ;
+    rdfs:label "Cybercriminals"@en ;
+    rdfs:label "网络犯罪分子"@zh .
+
+ex:PotentialVictims rdf:type airo:AISubject ;
+    rdfs:label "Potential Victims"@en ;
+    rdfs:label "潜在受害者"@zh .
+
+ex:SecurityBreaches rdf:type airo:Impact ;
+    rdfs:label "Security Breaches Impact"@en ;
+    rdfs:label "安全漏洞影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PotentialVictims .
+
+ex:AssistProgramming rdf:type airo:Purpose ;
+    rdfs:label "Assist Programming Purpose"@en ;
+    rdfs:label "辅助编程目的"@zh .
+
+ex:Cybersecurity rdf:type airo:Domain ;
+    rdfs:label "Cybersecurity Domain"@en ;
+    rdfs:label "网络安全领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:LackOfContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering Vulnerability"@en ;
+    rdfs:label "缺乏内容过滤的脆弱性"@zh .
+
+ex:UnrestrictedAccess rdf:type airo:RiskSource ;
+    rdfs:label "Unrestricted Access Risk Source"@en ;
+    rdfs:label "无限制访问风险源"@zh .
+
+ex:MaliciousCodeCreation rdf:type airo:Threat ;
+    rdfs:label "Malicious Code Creation Threat"@en ;
+    rdfs:label "恶意代码创建威胁"@zh .
+
+ex:AIAbusePotential rdf:type airo:Hazard ;
+    rdfs:label "AI Abuse Potential Hazard"@en ;
+    rdfs:label "AI滥用潜在危害"@zh .
+
+ex:EthicalDilemmaInAIUsage rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Dilemma in AI Usage Risk Concept"@en ;
+    rdfs:label "AI使用中的伦理困境"@zh .

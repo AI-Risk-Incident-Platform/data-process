@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Full Self Driving System",
+      "来源": "Tesla Full Self Driving Crash"
+    },
+    "Risk": {
+      "id": "EmployeeTerminationForTechReviewDisclosure",
+      "中文名称": "员工因技术评测披露被解雇风险",
+      "英文名称": "Employee Termination for Tech Review Disclosure Risk",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Employee",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla fired employee who reviewed its driver assist features on YouTube"
+    },
+    "Consequence": {
+      "id": "NegativePublicityForTesla",
+      "中文名称": "特斯拉负面宣传后果",
+      "英文名称": "Negative Publicity for Tesla Consequence",
+      "来源": "Tesla fired employee who reviewed its driver assist features on YouTube"
+    },
+    "Impact": {
+      "id": "DamageToCompanyReputation",
+      "中文名称": "公司声誉受损影响",
+      "英文名称": "Damage to Company Reputation Impact",
+      "来源": "Tesla fired employee who reviewed its driver assist features on YouTube"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedTechReviewPublication",
+      "中文名称": "未经授权的技术评测发布风险源",
+      "英文名称": "Unauthorized Tech Review Publication Risk Source",
+      "来源": "Tesla fired an employee after he posted driverless tech reviews on YouTube"
+    }
+  }
+}

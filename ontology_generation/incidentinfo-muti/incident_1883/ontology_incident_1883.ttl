@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAITeam rdf:type airo:AISystem ;
+    rdfs:label "Amazon AI Team"@en ;
+    rdfs:label "亚马逊AI团队"@zh ;
+    airo:hasRisk ex:CopyrightLawViolationRisk ;
+    airo:hasStakeholder ex:FormerAILeadDeveloper ;
+    airo:isDeployedBy ex:Amazon .
+
+ex:CopyrightLawViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Law Violation Risk"@en ;
+    rdfs:label "违反版权法风险"@zh ;
+    airo:hasConsequence ex:LegalAndEthicalViolations ;
+    airo:isRiskSourceFor ex:CompetitivePressure ;
+    airo:hasRiskSource ex:CopyrightRulesBreach .
+
+ex:FormerAILeadDeveloper rdf:type airo:Stakeholder ;
+    rdfs:label "Former AI Lead Developer"@en ;
+    rdfs:label "前AI首席开发人员"@zh .
+
+ex:CompetitivePressure rdf:type airo:RiskSource ;
+    rdfs:label "Competitive Pressure"@en ;
+    rdfs:label "竞争压力"@zh .
+
+ex:CopyrightRulesBreach rdf:type airo:Misuse ;
+    rdfs:label "Copyright Rules Breach"@en ;
+    rdfs:label "违反版权规则"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:LegalAndEthicalViolations rdf:type airo:Consequence ;
+    rdfs:label "Legal and Ethical Violations Consequence"@en ;
+    rdfs:label "法律和道德违规后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FormerAILeadDeveloper , ex:Amazon .

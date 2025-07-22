@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TwitterContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Twitter Content Moderation System"@en ;
+    rdfs:label "Twitter内容审核系统"@zh ;
+    airo:hasRisk ex:InappropriateContentClassificationRisk ;
+    airo:usesTechnique ex:MachineLearningBasedContentModeration ;
+    airo:hasStakeholder ex:TwitterPlatformUsers .
+
+ex:InappropriateContentClassificationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Classification Risk"@en ;
+    rdfs:label "不当内容分类风险"@zh ;
+    airo:hasConsequence ex:MisclassificationOfContent ;
+    airo:isRiskSourceFor ex:AlgorithmicLimitationsInContentClassification .
+
+ex:MachineLearningBasedContentModeration rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Based Content Moderation Technique"@en ;
+    rdfs:label "基于机器学习的内容审核技术"@zh .
+
+ex:MisclassificationOfContent rdf:type airo:Consequence ;
+    rdfs:label "Misclassification of Content Consequence"@en ;
+    rdfs:label "内容误分类后果"@zh ;
+    airo:hasImpactOnStakeholder ex:TwitterPlatformUsers .
+
+ex:TwitterPlatformUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Twitter Platform Users"@en ;
+    rdfs:label "Twitter平台用户"@zh .
+
+ex:AlgorithmicLimitationsInContentClassification rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Limitations in Content Classification Risk Source"@en ;
+    rdfs:label "内容分类中的算法限制风险源"@zh .

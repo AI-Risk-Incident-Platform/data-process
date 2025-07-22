@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DutchLanguageAIDataset rdf:type airo:AISystem ;
+    rdfs:label "Dutch Language AI Dataset"@en ;
+    rdfs:label "荷兰语AI数据集"@zh ;
+    airo:hasRisk ex:IllegalUseOfCopyrightedDataRisk ;
+    airo:isDeployedBy ex:DutchFoundation ;
+    airo:hasStakeholder ex:CopyrightGroup .
+
+ex:IllegalUseOfCopyrightedDataRisk rdf:type airo:Risk ;
+    rdfs:label "Illegal Use of Copyrighted Data Risk"@en ;
+    rdfs:label "非法使用版权数据风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedDataUsage ;
+    airo:hasConsequence ex:DatasetRemoval .
+
+ex:CopyrightGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Copyright Group"@en ;
+    rdfs:label "版权组织"@zh .
+
+ex:DutchFoundation rdf:type airo:AIOperator ;
+    rdfs:label "Dutch Foundation"@en ;
+    rdfs:label "荷兰基金会"@zh .
+
+ex:UnauthorizedDataUsage rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Usage"@en ;
+    rdfs:label "未经授权的数据使用"@zh .
+
+ex:DatasetRemoval rdf:type airo:Consequence ;
+    rdfs:label "Dataset Removal"@en ;
+    rdfs:label "数据集下架"@zh .

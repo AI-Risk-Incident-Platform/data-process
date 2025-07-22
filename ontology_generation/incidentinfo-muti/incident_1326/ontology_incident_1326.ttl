@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DreamMachine rdf:type airo:AISystem ;
+    rdfs:label "Dream Machine"@en ;
+    rdfs:label "梦想机器"@zh ;
+    airo:hasRisk ex:PotentialMisuseOfVideoGeneration ;
+    airo:hasAICapability ex:VideoGeneration ;
+    airo:isProvidedBy ex:LumaAI ;
+    airo:hasPurpose ex:PublicVideoGeneration ;
+    airo:isAppliedWithinDomain ex:VideoContentCreation .
+
+ex:PotentialMisuseOfVideoGeneration rdf:type airo:Risk ;
+    rdfs:label "Potential Misuse of Video Generation Risk"@en ;
+    rdfs:label "视频生成技术潜在滥用风险"@zh ;
+    airo:hasConsequence ex:DeepfakeProliferation ;
+    airo:isRiskSourceFor ex:PublicAccessibility .
+
+ex:VideoGeneration rdf:type airo:AICapability ;
+    rdfs:label "Video Generation Capability"@en ;
+    rdfs:label "视频生成能力"@zh .
+
+ex:LumaAI rdf:type airo:AIProvider ;
+    rdfs:label "Luma AI"@en ;
+    rdfs:label "Luma AI公司"@zh .
+
+ex:PublicVideoGeneration rdf:type airo:Purpose ;
+    rdfs:label "Public Video Generation Purpose"@en ;
+    rdfs:label "面向公众的视频生成目的"@zh .
+
+ex:VideoContentCreationDomain rdf:type airo:Domain ;
+    rdfs:label "Video Content Creation Domain"@en ;
+    rdfs:label "视频内容创作领域"@zh .
+
+ex:PublicAccessibility rdf:type airo:RiskSource ;
+    rdfs:label "Public Accessibility Risk Source"@en ;
+    rdfs:label "公开可获取性风险源"@zh .
+
+ex:DeepfakeProliferation rdf:type airo:Consequence ;
+    rdfs:label "Deepfake Proliferation Consequence"@en ;
+    rdfs:label "深度伪造内容扩散后果"@zh ;
+    airo:hasImpact ex:MisinformationSpread .
+
+ex:MisinformationSpread rdf:type airo:Impact ;
+    rdfs:label "Misinformation Spread Impact"@en ;
+    rdfs:label "虚假信息传播影响"@zh .

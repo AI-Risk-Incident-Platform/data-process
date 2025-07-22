@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MoneyDistributionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Money Distribution Algorithm"@en ;
+    rdfs:label "资金分配算法"@zh ;
+    airo:hasRisk ex:PotentialBiasInAlgorithmicDecisionMaking ;
+    airo:hasPurpose ex:FairFinancialResourceAllocation ;
+    airo:isAppliedWithinDomain ex:PublicFinanceManagement .
+
+ex:PotentialBiasInAlgorithmicDecisionMaking rdf:type airo:Risk ;
+    rdfs:label "Potential Bias in Algorithmic Decision Making Risk"@en ;
+    rdfs:label "算法决策中的潜在偏见风险"@zh .
+
+ex:FairFinancialResourceAllocation rdf:type airo:Purpose ;
+    rdfs:label "Fair Financial Resource Allocation Purpose"@en ;
+    rdfs:label "公平金融资源分配的目的"@zh .
+
+ex:PublicFinanceManagement rdf:type airo:Domain ;
+    rdfs:label "Public Finance Management Domain"@en ;
+    rdfs:label "公共财政管理领域"@zh .

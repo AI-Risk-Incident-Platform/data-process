@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FoodDeliveryRobot",
+      "中文名称": "食品配送机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Food delivery robot crashes into car, flees scene of accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleAccidentRisk",
+      "中文名称": "自动驾驶车辆事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Delivery Robot Damages Car, Flees Scene of Accident"
+    },
+    "Consequence": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "AIOperator": {
+      "id": "FoodDeliveryServiceProvider",
+      "中文名称": "食品配送服务提供商",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "Stakeholder": {
+      "id": "CarOwner",
+      "中文名称": "车主",
+      "英文名称": "Car Owner",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "Domain": {
+      "id": "FoodDeliveryServices",
+      "中文名称": "食品配送服务领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "RiskSource": {
+      "id": "NavigationSystemFailure",
+      "中文名称": "导航系统故障风险源",
+      "英文名称": "Navigation System Failure Risk Source",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "Vulnerability": {
+      "id": "LackOfEmergencyStopMechanism",
+      "中文名称": "缺乏紧急停止机制的脆弱性",
+      "英文名称": "Lack of Emergency Stop Mechanism Vulnerability",
+      "来源": "Food delivery robot crashes into car, flees scene of accident"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FoodDeliveryRobot",
+      "中文名称": "食品配送机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "Food delivery robot crashes into car, flees scene of accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleAccidentRisk",
+      "中文名称": "自动驾驶车辆事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Delivery Robot Damages Car, Flees Scene of Accident"
+    },
+    "Consequence": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "AIOperator": {
+      "id": "FoodDeliveryServiceProvider",
+      "中文名称": "食品配送服务提供商",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "Stakeholder": {
+      "id": "CarOwner",
+      "中文名称": "车主",
+      "英文名称": "Car Owner",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Delivery Robot Damages Car"
+    },
+    "Domain": {
+      "id": "FoodDeliveryServices",
+      "中文名称": "食品配送服务领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "RiskSource": {
+      "id": "NavigationSystemFailure",
+      "中文名称": "导航系统故障风险源",
+      "英文名称": "Navigation System Failure Risk Source",
+      "来源": "Food delivery robot crashes into car"
+    },
+    "Vulnerability": {
+      "id": "LackOfEmergencyStopMechanism",
+      "中文名称": "缺乏紧急停止机制的脆弱性",
+      "英文名称": "Lack of Emergency Stop Mechanism Vulnerability",
+      "来源": "Food delivery robot crashes into car, flees scene of accident"
+    }
+  }
+}

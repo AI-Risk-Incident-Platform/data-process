@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Robotaxi",
+      "来源": "California regulator probes crashes involving GM's Cruise robotaxis"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "VIDEO: Driverless Cruise car struck by SF firetruck, injuring passenger, company says"
+    },
+    "Consequence": {
+      "id": "PassengerInjury",
+      "中文名称": "乘客受伤后果",
+      "英文名称": "Passenger Injury Consequence",
+      "来源": "VIDEO: Driverless Cruise car struck by SF firetruck, injuring passenger, company says"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "California regulator probes crashes involving GM's Cruise robotaxis"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaRegulator",
+      "中文名称": "加州监管机构",
+      "英文名称": "California Regulator",
+      "来源": "California regulator probes crashes involving GM's Cruise robotaxis"
+    },
+    "RiskControl": {
+      "id": "FleetReduction",
+      "中文名称": "车队规模缩减管控",
+      "英文名称": "Fleet Reduction Control",
+      "来源": "Cruise Agrees to Reduce Driverless Car Fleet in San Francisco After Crash"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Transportation Domain",
+      "来源": "California regulator probes crashes involving GM's Cruise robotaxis"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "California regulator probes crashes involving GM's Cruise robotaxis"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation AI"@en ;
+    rdfs:label "Facebook内容审核AI"@zh ;
+    airo:hasRisk ex:DiscriminatoryContentModeration ;
+    airo:hasAISubject ex:AmericanBlackActivists ;
+    airo:hasStakeholder ex:PalestinianActivists .
+
+ex:DiscriminatoryContentModeration rdf:type airo:Risk ;
+    rdfs:label "Discriminatory Content Moderation Risk"@en ;
+    rdfs:label "歧视性内容审核风险"@zh ;
+    airo:hasConsequence ex:SuppressionOfActivistVoices ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:PalestinianActivists rdf:type airo:Stakeholder ;
+    rdfs:label "Palestinian Activists"@en ;
+    rdfs:label "巴勒斯坦活动家"@zh .
+
+ex:AmericanBlackActivists rdf:type airo:AISubject ;
+    rdfs:label "American Black Activists"@en ;
+    rdfs:label "美国黑人活动家"@zh .
+
+ex:SuppressionOfActivistVoices rdf:type airo:Impact ;
+    rdfs:label "Suppression of Activist Voices Impact"@en ;
+    rdfs:label "压制活动家声音的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PalestinianActivists .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data"@en ;
+    rdfs:label "有偏见的训练数据"@zh .

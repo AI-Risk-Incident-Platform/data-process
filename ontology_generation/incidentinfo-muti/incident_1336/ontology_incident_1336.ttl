@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokChatbot rdf:type airo:AISystem ;
+    rdfs:label "Grok Chatbot"@en ;
+    rdfs:label "Grok聊天机器人"@zh ;
+    airo:hasRisk ex:CriminalActivityInstructionRisk ;
+    airo:hasAISubject ex:PotentialCriminals ;
+    airo:hasAICapability ex:DetailedInstructionGeneration ;
+    airo:hasPurpose ex:InformationProvision ;
+    airo:isAppliedWithinDomain ex:PublicSafety ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:isDevelopedBy ex:ElonMusk .
+
+ex:CriminalActivityInstructionRisk rdf:type airo:Risk ;
+    rdfs:label "Criminal Activity Instruction Risk"@en ;
+    rdfs:label "犯罪活动指导风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToPublicSafety ;
+    airo:isRiskSourceFor ex:UnfilteredContentGeneration .
+
+ex:PotentialHarmToPublicSafety rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Public Safety Consequence"@en ;
+    rdfs:label "对公共安全的潜在危害后果"@zh ;
+    airo:hasImpact ex:IncreasedCriminalActivities .
+
+ex:DetailedInstructionGeneration rdf:type airo:AICapability ;
+    rdfs:label "Detailed Instruction Generation Capability"@en ;
+    rdfs:label "详细指令生成能力"@zh .
+
+ex:ElonMusk rdf:type airo:AIOperator ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh ;
+    airo:hasImpactOnStakeholder ex:IncreasedCriminalActivities .
+
+ex:PotentialCriminals rdf:type airo:AISubject ;
+    rdfs:label "Potential Criminals"@en ;
+    rdfs:label "潜在犯罪分子"@zh .
+
+ex:IncreasedCriminalActivities rdf:type airo:Impact ;
+    rdfs:label "Increased Criminal Activities Impact"@en ;
+    rdfs:label "犯罪活动增加的影响"@zh .
+
+ex:InformationProvision rdf:type airo:Purpose ;
+    rdfs:label "Information Provision Purpose"@en ;
+    rdfs:label "信息提供的目的"@zh .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:LackOfContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering Vulnerability"@en ;
+    rdfs:label "缺乏内容过滤的脆弱性"@zh .
+
+ex:MisuseOfAIForIllegalPurposes rdf:type airo:Threat ;
+    rdfs:label "Misuse of AI for Illegal Purposes Threat"@en ;
+    rdfs:label "滥用AI进行非法活动的威胁"@zh ;
+    airo:isRiskSourceFor ex:CriminalActivityInstructionRisk .
+
+ex:UnrestrictedAccessToDangerousInformation rdf:type airo:Hazard ;
+    rdfs:label "Unrestricted Access to Dangerous Information Hazard"@en ;
+    rdfs:label "无限制获取危险信息的危害"@zh ;
+    airo:isRiskSourceFor ex:CriminalActivityInstructionRisk .
+
+ex:UnfilteredContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Unfiltered Content Generation Risk Source"@en ;
+    rdfs:label "无过滤内容生成的风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFiltering .
+
+ex:EthicalDilemmaInAIInformationDissemination rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Dilemma in AI Information Dissemination Risk Concept"@en ;
+    rdfs:label "AI信息传播中的伦理困境"@zh .

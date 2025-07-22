@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxis",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Robotaxis",
+      "来源": "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew, One Night ‘Nearly 60’ Cars Stopped"
+    },
+    "Risk": {
+      "id": "TrafficDisruptionRisk",
+      "中文名称": "交通中断风险",
+      "英文名称": "Traffic Disruption Risk",
+      "来源": "Cruise’s Robot Car Outages Are Jamming Up San Francisco"
+    },
+    "Consequence": {
+      "id": "StreetBlockage",
+      "中文名称": "街道堵塞后果",
+      "英文名称": "Street Blockage Consequence",
+      "来源": "Cruise driverless cars blocked traffic for hours Tuesday night"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Transportation Domain",
+      "来源": "Cruise’s Robot Car Outages Are Jamming Up San Francisco"
+    },
+    "Impact": {
+      "id": "PublicInconvenience",
+      "中文名称": "公众不便影响",
+      "英文名称": "Public Inconvenience Impact",
+      "来源": "Cruise driverless cars blocked traffic for hours Tuesday night"
+    }
+  }
+}

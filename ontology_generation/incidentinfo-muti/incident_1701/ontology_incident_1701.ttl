@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:CanadianTire ;
+    airo:hasStakeholder ex:PrivacyCommissioner ;
+    airo:isAppliedWithinDomain ex:RetailSurveillance .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:LegalNonCompliance ;
+    airo:isRiskSourceFor ex:BiometricsDeployment .
+
+ex:LegalNonCompliance rdf:type airo:Consequence ;
+    rdfs:label "Legal Non-Compliance Consequence"@en ;
+    rdfs:label "法律不合规后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:CanadianTire rdf:type airo:AIOperator ;
+    rdfs:label "Canadian Tire"@en ;
+    rdfs:label "加拿大轮胎公司"@zh .
+
+ex:PrivacyCommissioner rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Commissioner"@en ;
+    rdfs:label "隐私专员"@zh .
+
+ex:RetailSurveillance rdf:type airo:Domain ;
+    rdfs:label "Retail Surveillance Domain"@en ;
+    rdfs:label "零售监控领域"@zh .
+
+ex:BiometricsDeployment rdf:type airo:RiskSource ;
+    rdfs:label "Biometrics Deployment Risk Source"@en ;
+    rdfs:label "生物识别技术部署风险源"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PrivacyCommissioner .

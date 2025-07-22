@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousDroneSystem",
+      "中文名称": "自主无人机系统",
+      "英文名称": "Autonomous Drone System",
+      "来源": "Drones may have attacked humans fully autonomously for the first time"
+    },
+    "Risk": {
+      "id": "AutonomousWeaponRisk",
+      "中文名称": "自主武器风险",
+      "英文名称": "Autonomous Weapon Risk",
+      "来源": "Autonomous drone attacked soldiers in Libya all on its own"
+    },
+    "Stakeholder": {
+      "id": "MilitaryPersonnel",
+      "中文名称": "军事人员",
+      "英文名称": "Military Personnel",
+      "来源": "Autonomous drone attacked soldiers in Libya all on its own"
+    },
+    "Consequence": {
+      "id": "HumanCasualties",
+      "中文名称": "人员伤亡",
+      "英文名称": "Human Casualties",
+      "来源": "Was a flying killer robot used in Libya? Quite possibly"
+    },
+    "Impact": {
+      "id": "ThreatToHumanSafety",
+      "中文名称": "对人类安全的威胁",
+      "英文名称": "Threat to Human Safety",
+      "来源": "Drones may have attacked humans fully autonomously for the first time"
+    }
+  }
+}

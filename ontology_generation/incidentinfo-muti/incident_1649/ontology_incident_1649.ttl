@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchGenerativeExperience rdf:type airo:AISystem ;
+    rdfs:label "Google Search Generative Experience"@en ;
+    rdfs:label "谷歌搜索生成体验"@zh ;
+    airo:hasRisk ex:ContentMisinformationRisk ;
+    airo:hasStakeholder ex:NewsPublishers ;
+    airo:hasAIOperator ex:GoogleLLC ;
+    airo:hasAICapability ex:ControversialTopicHandling ;
+    airo:hasPurpose ex:EnhancedSearchExperience .
+
+ex:ContentMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Content Misinformation Risk"@en ;
+    rdfs:label "内容误导风险"@zh ;
+    airo:hasConsequence ex:NewsSiteRevenueLoss ;
+    airo:isRiskSourceFor ex:AIAnswerSummarization ;
+    airo:isRiskSourceFor ex:OffensiveContentGeneration .
+
+ex:NewsSiteRevenueLoss rdf:type airo:Consequence ;
+    rdfs:label "News Site Revenue Loss Consequence"@en ;
+    rdfs:label "新闻网站收入损失后果"@zh ;
+    airo:hasImpact ex:JournalismIndustryDisruption .
+
+ex:JournalismIndustryDisruption rdf:type airo:Impact ;
+    rdfs:label "Journalism Industry Disruption Impact"@en ;
+    rdfs:label "新闻行业破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsPublishers .
+
+ex:NewsPublishers rdf:type airo:Stakeholder ;
+    rdfs:label "News Publishers"@en ;
+    rdfs:label "新闻出版商"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:AIAnswerSummarization rdf:type airo:RiskSource ;
+    rdfs:label "AI Answer Summarization Risk Source"@en ;
+    rdfs:label "AI答案摘要风险源"@zh .
+
+ex:OffensiveContentGeneration rdf:type airo:Hazard ;
+    rdfs:label "Offensive Content Generation Hazard"@en ;
+    rdfs:label "冒犯性内容生成危害"@zh .
+
+ex:ControversialTopicHandling rdf:type airo:AICapability ;
+    rdfs:label "Controversial Topic Handling Capability"@en ;
+    rdfs:label "争议话题处理能力"@zh .
+
+ex:EnhancedSearchExperience rdf:type airo:Purpose ;
+    rdfs:label "Enhanced Search Experience Purpose"@en ;
+    rdfs:label "增强搜索体验目的"@zh .

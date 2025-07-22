@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ScamAI",
+      "中文名称": "诈骗AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Stakeholder": {
+      "id": "EarthquakeVictims",
+      "中文名称": "地震受害者",
+      "英文名称": "Earthquake Victims",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Domain": {
+      "id": "DisasterRelief",
+      "中文名称": "灾难救济",
+      "英文名称": "Disaster Relief",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ScamAI",
+      "中文名称": "诈骗AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Stakeholder": {
+      "id": "EarthquakeVictims",
+      "中文名称": "地震受害者",
+      "英文名称": "Earthquake Victims",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    },
+    "Domain": {
+      "id": "DisasterRelief",
+      "中文名称": "灾难救济",
+      "英文名称": "Disaster Relief",
+      "来源": "Scammers profit from Turkey-Syria earthquake"
+    }
+  }
+}

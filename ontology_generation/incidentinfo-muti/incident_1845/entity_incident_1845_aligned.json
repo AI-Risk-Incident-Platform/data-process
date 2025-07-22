@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VERAChatbot",
+      "中文名称": "VERA聊天机器人",
+      "英文名称": "VERA Chatbot",
+      "来源": "AI chatbot VERA (AskVet) convinces woman to euthanize her dog"
+    },
+    "Risk": {
+      "id": "InappropriateMedicalAdviceRisk",
+      "中文名称": "不当医疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "AI chatbot VERA (AskVet) convinces woman to euthanize her dog"
+    },
+    "Consequence": {
+      "id": "UnnecessaryPetEuthanasia",
+      "中文名称": "不必要的宠物安乐死后果",
+      "英文名称": "Unnecessary Pet Euthanasia Consequence",
+      "来源": "Woman Takes AI's Euthanasia Advice for Dog"
+    },
+    "Stakeholder": {
+      "id": "PetOwner",
+      "中文名称": "宠物主人",
+      "英文名称": "Pet Owner",
+      "来源": "Woman Takes AI's Euthanasia Advice for Dog"
+    },
+    "AIOperator": {
+      "id": "AskVetCompany",
+      "中文名称": "AskVet公司",
+      "英文名称": "AskVet Company",
+      "来源": "AI CEO Proud of Chatbot for Convincing Woman to Euthanize Her Dog"
+    },
+    "Purpose": {
+      "id": "VeterinaryConsultation",
+      "中文名称": "兽医咨询目的",
+      "英文名称": "Veterinary Consultation Purpose",
+      "来源": "AI chatbot VERA (AskVet)"
+    },
+    "Impact": {
+      "id": "EmotionalDistressToPetOwner",
+      "中文名称": "宠物主人情感困扰影响",
+      "英文名称": "Emotional Distress to Pet Owner Impact",
+      "来源": "Internet Calls It a Real-Life Black Mirror"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VERAChatbot",
+      "中文名称": "VERA聊天机器人",
+      "英文名称": "VERA Chatbot",
+      "来源": "AI chatbot VERA (AskVet) convinces woman to euthanize her dog"
+    },
+    "Risk": {
+      "id": "InappropriateMedicalAdviceRisk",
+      "中文名称": "不当医疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "AI chatbot VERA (AskVet) convinces woman to euthanize her dog"
+    },
+    "Consequence": {
+      "id": "UnnecessaryPetEuthanasia",
+      "中文名称": "不必要的宠物安乐死后果",
+      "英文名称": "Unnecessary Pet Euthanasia Consequence",
+      "来源": "Woman Takes AI's Euthanasia Advice for Dog"
+    },
+    "Stakeholder": {
+      "id": "PetOwner",
+      "中文名称": "宠物主人",
+      "英文名称": "Pet Owner",
+      "来源": "Woman Takes AI's Euthanasia Advice for Dog"
+    },
+    "AIOperator": {
+      "id": "AskVetCompany",
+      "中文名称": "AskVet公司",
+      "英文名称": "AskVet Company",
+      "来源": "AI CEO Proud of Chatbot for Convincing Woman to Euthanize Her Dog"
+    },
+    "Purpose": {
+      "id": "VeterinaryConsultation",
+      "中文名称": "兽医咨询目的",
+      "英文名称": "Veterinary Consultation Purpose",
+      "来源": "AI chatbot VERA (AskVet)"
+    },
+    "Impact": {
+      "id": "EmotionalDistressToPetOwner",
+      "中文名称": "宠物主人情感困扰影响",
+      "英文名称": "Emotional Distress to Pet Owner Impact",
+      "来源": "Internet Calls It a Real-Life Black Mirror"
+    }
+  }
+}

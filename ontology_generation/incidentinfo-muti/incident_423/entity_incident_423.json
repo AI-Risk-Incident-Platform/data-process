@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Face Recognition Tech Gets Girl Scout Mom Booted From Rockettes Show"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Madison Square Garden Uses Facial Recognition to Ban Its Owner’s Enemies"
+    },
+    "AIOperator": {
+      "id": "MadisonSquareGarden",
+      "中文名称": "麦迪逊广场花园",
+      "英文名称": "Madison Square Garden",
+      "来源": "Madison Square Garden Uses Facial Recognition to Ban Its Owner’s Enemies"
+    },
+    "Stakeholder": {
+      "id": "LawyersBannedFromEvents",
+      "中文名称": "被禁止参加活动的律师",
+      "英文名称": "Lawyers Banned From Events",
+      "来源": "James Dolan’s facial ID tech snags another lawyer who says he was booted from Knicks game"
+    },
+    "Consequence": {
+      "id": "UnjustExclusionFromEvents",
+      "中文名称": "不公正地被排除在活动之外",
+      "英文名称": "Unjust Exclusion From Events",
+      "来源": "James Dolan’s facial ID tech snags another lawyer who says he was booted from Knicks game"
+    },
+    "Purpose": {
+      "id": "SecurityAndAccessControl",
+      "中文名称": "安全和访问控制",
+      "英文名称": "Security and Access Control",
+      "来源": "Madison Square Garden Uses Facial Recognition to Ban Its Owner’s Enemies"
+    },
+    "Domain": {
+      "id": "EntertainmentVenues",
+      "中文名称": "娱乐场所",
+      "英文名称": "Entertainment Venues",
+      "来源": "Face Recognition Tech Gets Girl Scout Mom Booted From Rockettes Show"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Reputation Damage",
+      "来源": "James Dolan’s facial ID tech snags another lawyer who says he was booted from Knicks game"
+    }
+  }
+}

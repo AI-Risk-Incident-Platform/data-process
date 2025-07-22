@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DreamMachine",
+      "中文名称": "梦想机器",
+      "英文名称": "Dream Machine",
+      "来源": "Luma AI's Dream Machine: New AI Video Generator Launched and Available to the Public"
+    },
+    "Risk": {
+      "id": "PotentialMisuseOfVideoGeneration",
+      "中文名称": "视频生成技术潜在滥用风险",
+      "英文名称": "Potential Misuse of Video Generation Risk",
+      "来源": "Available to the Public"
+    },
+    "AICapability": {
+      "id": "VideoGeneration",
+      "中文名称": "视频生成能力",
+      "英文名称": "Video Generation Capability",
+      "来源": "New AI Video Generator"
+    },
+    "AIProvider": {
+      "id": "LumaAI",
+      "中文名称": "Luma AI公司",
+      "英文名称": "Luma AI",
+      "来源": "Luma AI's Dream Machine"
+    },
+    "Purpose": {
+      "id": "PublicVideoGeneration",
+      "中文名称": "面向公众的视频生成目的",
+      "英文名称": "Public Video Generation Purpose",
+      "来源": "Available to the Public"
+    },
+    "Domain": {
+      "id": "VideoContentCreation",
+      "中文名称": "视频内容创作领域",
+      "英文名称": "Video Content Creation Domain",
+      "来源": "AI Video Generator"
+    },
+    "RiskSource": {
+      "id": "PublicAccessibility",
+      "中文名称": "公开可获取性风险源",
+      "英文名称": "Public Accessibility Risk Source",
+      "来源": "Available to the Public"
+    },
+    "Consequence": {
+      "id": "DeepfakeProliferation",
+      "中文名称": "深度伪造内容扩散后果",
+      "英文名称": "Deepfake Proliferation Consequence",
+      "来源": "Available to the Public"
+    },
+    "Impact": {
+      "id": "MisinformationSpread",
+      "中文名称": "虚假信息传播影响",
+      "英文名称": "Misinformation Spread Impact",
+      "来源": "Available to the Public"
+    }
+  }
+}

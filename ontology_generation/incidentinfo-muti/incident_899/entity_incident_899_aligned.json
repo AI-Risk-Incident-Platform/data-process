@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Stormont MLA targeted by deepfake video urges legal clampdown"
+    },
+    "Risk": {
+      "id": "PoliticalDisruptionRisk",
+      "中文名称": "政治干扰风险",
+      "英文名称": "Political Disruption Risk",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "How a deepfake almost ruined my political career"
+    },
+    "AICapability": {
+      "id": "FacialManipulation",
+      "中文名称": "面部操纵能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Stakeholder": {
+      "id": "Politicians",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Stormont MLA targeted by deepfake video urges legal clampdown"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Vulnerability": {
+      "id": "PublicTrustInMedia",
+      "中文名称": "公众对媒体的信任脆弱性",
+      "英文名称": "Public Trust in Media Vulnerability",
+      "来源": "How a deepfake almost ruined my political career"
+    },
+    "Threat": {
+      "id": "DisinformationCampaigns",
+      "中文名称": "虚假信息宣传活动威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "RiskSource": {
+      "id": "MaliciousActors",
+      "中文名称": "恶意行为者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Stormont MLA targeted by deepfake video urges legal clampdown"
+    },
+    "Risk": {
+      "id": "PoliticalDisruptionRisk",
+      "中文名称": "政治干扰风险",
+      "英文名称": "Political Disruption Risk",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "How a deepfake almost ruined my political career"
+    },
+    "AICapability": {
+      "id": "FacialManipulation",
+      "中文名称": "面部操纵能力",
+      "英文名称": "Facial Manipulation & Generation",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Stakeholder": {
+      "id": "Politicians",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Stormont MLA targeted by deepfake video urges legal clampdown"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "Vulnerability": {
+      "id": "PublicTrustInMedia",
+      "中文名称": "公众对媒体的信任脆弱性",
+      "英文名称": "Public Trust in Media Vulnerability",
+      "来源": "How a deepfake almost ruined my political career"
+    },
+    "Threat": {
+      "id": "DisinformationCampaigns",
+      "中文名称": "虚假信息宣传活动威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    },
+    "RiskSource": {
+      "id": "MaliciousActors",
+      "中文名称": "恶意行为者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Deepfake porn targets politician showing how AI can be weaponized to disrupt elections"
+    }
+  }
+}

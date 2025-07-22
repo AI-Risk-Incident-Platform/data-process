@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmericanBitcoinAcademy",
+      "中文名称": "美国比特币学院",
+      "英文名称": "American Bitcoin Academy",
+      "来源": "SEC charges founder of online crypto course who targeted students to invest in nonexistent hedge fund"
+    },
+    "Risk": {
+      "id": "CryptocurrencyInvestmentScamRisk",
+      "中文名称": "加密货币投资诈骗风险",
+      "英文名称": "Cryptocurrency Investment Scam Risk",
+      "来源": "US SEC charges American Bitcoin Academy over $1.2M scam"
+    },
+    "Stakeholder": {
+      "id": "SEC",
+      "中文名称": "美国证券交易委员会",
+      "英文名称": "Securities and Exchange Commission",
+      "来源": "US SEC charges American Bitcoin Academy over $1.2M scam"
+    },
+    "AIOperator": {
+      "id": "AmericanBitcoinAcademyFounder",
+      "中文名称": "美国比特币学院创始人",
+      "英文名称": "American Bitcoin Academy Founder",
+      "来源": "SEC charges founder of online crypto course who targeted students to invest in nonexistent hedge fund"
+    },
+    "Consequence": {
+      "id": "FinancialLossToStudents",
+      "中文名称": "学生经济损失后果",
+      "英文名称": "Financial Loss to Students Consequence",
+      "来源": "targeted students to invest in nonexistent hedge fund"
+    },
+    "Impact": {
+      "id": "InvestorTrustErosion",
+      "中文名称": "投资者信任侵蚀影响",
+      "英文名称": "Investor Trust Erosion Impact",
+      "来源": "over $1.2M scam"
+    },
+    "RiskSource": {
+      "id": "FalseInvestmentPromises",
+      "中文名称": "虚假投资承诺风险源",
+      "英文名称": "False Investment Promises Risk Source",
+      "来源": "targeted students to invest in nonexistent hedge fund"
+    }
+  }
+}

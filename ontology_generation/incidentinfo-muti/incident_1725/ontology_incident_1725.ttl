@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdobeFirefly rdf:type airo:AISystem ;
+    rdfs:label "Adobe Firefly"@en ;
+    rdfs:label "Adobe Firefly"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:Adobe ;
+    airo:hasPurpose ex:ImageAndVideoGeneration ;
+    airo:usesTechnique ex:GenerativeAI ;
+    airo:isAppliedWithinDomain ex:CreativeContentProduction ;
+    airo:hasStakeholder ex:Adobe .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasRiskControl ex:LegalLiabilityProtection .
+
+ex:Adobe rdf:type airo:AIOperator ;
+    rdfs:label "Adobe"@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:ImageAndVideoGeneration rdf:type airo:Purpose ;
+    rdfs:label "Image and Video Generation"@en ;
+    rdfs:label "图像和视频生成"@zh .
+
+ex:LegalLiabilityProtection rdf:type airo:RiskControl ;
+    rdfs:label "Legal Liability Protection"@en ;
+    rdfs:label "法律责任保护"@zh .
+
+ex:CreativeContentProduction rdf:type airo:Domain ;
+    rdfs:label "Creative Content Production"@en ;
+    rdfs:label "创意内容生产"@zh .
+
+ex:GenerativeAI rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI"@en ;
+    rdfs:label "生成式AI"@zh .

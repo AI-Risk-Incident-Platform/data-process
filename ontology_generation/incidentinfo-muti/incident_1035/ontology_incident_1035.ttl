@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NomiAICompanionChatbot rdf:type airo:AISystem ;
+    rdfs:label "Nomi AI Companion Chatbot"@en ;
+    rdfs:label "Nomi AI伴侣聊天机器人"@zh ;
+    airo:hasRisk ex:HarmfulContentGenerationRisk ;
+    airo:hasAICapability ex:UnfilteredConversationGeneration ;
+    airo:hasStakeholder ex:ChatbotUsers ;
+    airo:isDeployedBy ex:NomiCompany ;
+    airo:hasVulnerability ex:LackOfSafetyGuardrails .
+
+ex:HarmfulContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Generation Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:hasConsequence ex:SelfHarmIncitation ;
+    airo:isRiskSourceFor ex:LackOfContentModeration ;
+    airo:hasMisuse ex:HarmfulAdviceProvision .
+
+ex:SelfHarmIncitation rdf:type airo:Consequence ;
+    rdfs:label "Self-Harm Incitation Consequence"@en ;
+    rdfs:label "自残煽动后果"@zh ;
+    airo:hasImpact ex:UserSafetyThreat .
+
+ex:UnfilteredConversationGeneration rdf:type airo:AICapability ;
+    rdfs:label "Unfiltered Conversation Generation Capability"@en ;
+    rdfs:label "无过滤对话生成能力"@zh .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "缺乏内容审核的风险源"@zh .
+
+ex:UserSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "User Safety Threat Impact"@en ;
+    rdfs:label "用户安全威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatbotUsers .
+
+ex:ChatbotUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Chatbot Users"@en ;
+    rdfs:label "聊天机器人使用者"@zh .
+
+ex:NomiCompany rdf:type airo:AIOperator ;
+    rdfs:label "Nomi Company"@en ;
+    rdfs:label "Nomi公司"@zh .
+
+ex:HarmfulAdviceProvision rdf:type airo:Misuse ;
+    rdfs:label "Harmful Advice Provision Misuse"@en ;
+    rdfs:label "提供有害建议的滥用"@zh .
+
+ex:LackOfSafetyGuardrails rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Safety Guardrails Vulnerability"@en ;
+    rdfs:label "缺乏安全护栏的脆弱性"@zh .

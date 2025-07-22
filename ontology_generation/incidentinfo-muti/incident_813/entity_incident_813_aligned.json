@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "标题中提到的'facial recognition technology'"
+    },
+    "Risk": {
+      "id": "LackOfTransparencyInLawEnforcementUse",
+      "中文名称": "执法使用中缺乏透明度风险",
+      "英文名称": "Lack of Transparency in Law Enforcement Use Risk",
+      "来源": "标题中提到的'hollow victory in fight to bring transparency'"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "标题中提到的'cops' use of facial recognition technology'"
+    },
+    "Domain": {
+      "id": "PublicSafetyAndLawEnforcement",
+      "中文名称": "公共安全与执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "标题中提到的'cops' use'暗示了执法领域"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationAndSurveillance",
+      "中文名称": "身份验证与监控目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "面部识别技术的常见用途"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "标题中提到的'facial recognition technology'"
+    },
+    "Risk": {
+      "id": "LackOfTransparencyInLawEnforcementUse",
+      "中文名称": "执法使用中缺乏透明度风险",
+      "英文名称": "Lack of Transparency in Law Enforcement Use Risk",
+      "来源": "标题中提到的'hollow victory in fight to bring transparency'"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "标题中提到的'cops' use of facial recognition technology'"
+    },
+    "Domain": {
+      "id": "PublicSafetyAndLawEnforcement",
+      "中文名称": "公共安全与执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "标题中提到的'cops' use'暗示了执法领域"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationAndSurveillance",
+      "中文名称": "身份验证与监控目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "面部识别技术的常见用途"
+    }
+  }
+}

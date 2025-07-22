@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CanadaImmigrationAISystem rdf:type airo:AISystem ;
+    rdfs:label "Canada Immigration AI System"@en ;
+    rdfs:label "加拿大移民AI系统"@zh ;
+    airo:hasRisk ex:BiasInImmigrationDecisions ;
+    airo:isAppliedWithinDomain ex:Immigration ;
+    airo:hasPurpose ex:StreamlineImmigrationProcess ;
+    airo:hasStakeholder ex:ImmigrationApplicants .
+
+ex:BiasInImmigrationDecisions rdf:type airo:Risk ;
+    rdfs:label "Bias in Immigration Decisions Risk"@en ;
+    rdfs:label "移民决策中的偏见风险"@zh .
+
+ex:Immigration rdf:type airo:Domain ;
+    rdfs:label "Immigration Domain"@en ;
+    rdfs:label "移民领域"@zh .
+
+ex:StreamlineImmigrationProcess rdf:type airo:Purpose ;
+    rdfs:label "Streamline Immigration Process Purpose"@en ;
+    rdfs:label "简化移民流程的目的"@zh .
+
+ex:ImmigrationApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Immigration Applicants Stakeholder"@en ;
+    rdfs:label "移民申请人"@zh .

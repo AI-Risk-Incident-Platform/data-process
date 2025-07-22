@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeAIInvestmentScam",
+      "中文名称": "虚假AI投资骗局",
+      "英文名称": "Fake AI Investment Scam",
+      "来源": "Bank of Cyprus warns of fake AI investment scam"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "Bank of Cyprus warns of fake AI investment scam"
+    },
+    "Stakeholder": {
+      "id": "BankOfCyprus",
+      "中文名称": "塞浦路斯银行",
+      "英文名称": "Bank of Cyprus",
+      "来源": "Bank of Cyprus warns of fake AI investment scam"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务",
+      "英文名称": "Financial Services",
+      "来源": "investment scam"
+    },
+    "RiskSource": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述",
+      "英文名称": "Misrepresentation of AI Capabilities",
+      "来源": "fake AI investment scam"
+    },
+    "Impact": {
+      "id": "FinancialLossForInvestors",
+      "中文名称": "投资者财务损失",
+      "英文名称": "Financial Loss for Investors",
+      "来源": "investment scam"
+    }
+  }
+}

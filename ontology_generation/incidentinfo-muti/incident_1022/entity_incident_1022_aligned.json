@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTAgent",
+      "中文名称": "ChatGPT代理",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life. It spent $31 on a dozen eggs."
+    },
+    "Risk": {
+      "id": "FinancialMismanagementRisk",
+      "中文名称": "财务管理不善风险",
+      "英文名称": "Financial Mismanagement Risk",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Consequence": {
+      "id": "UnnecessaryExpenditure",
+      "中文名称": "不必要支出后果",
+      "英文名称": "Unnecessary Spending Consequence",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "AICapability": {
+      "id": "LifeManagement",
+      "中文名称": "生活管理能力",
+      "英文名称": "Life Management Capability",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT"
+    },
+    "AIUser": {
+      "id": "IndividualUser",
+      "中文名称": "个人用户",
+      "英文名称": "Individual User",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Purpose": {
+      "id": "PersonalLifeManagement",
+      "中文名称": "个人生活管理目的",
+      "英文名称": "Personal Life Management Purpose",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "RiskSource": {
+      "id": "LackOfPriceAwareness",
+      "中文名称": "缺乏价格意识风险源",
+      "英文名称": "Lack of Price Awareness Risk Source",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Vulnerability": {
+      "id": "UnverifiedPurchasingDecisions",
+      "中文名称": "未经核实的购买决策脆弱性",
+      "英文名称": "Unverified Purchasing Decisions Vulnerability",
+      "来源": "It spent $31 on a dozen eggs."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTAgent",
+      "中文名称": "ChatGPT代理",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life. It spent $31 on a dozen eggs."
+    },
+    "Risk": {
+      "id": "FinancialMismanagementRisk",
+      "中文名称": "财务管理不善风险",
+      "英文名称": "Financial Mismanagement Risk",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Consequence": {
+      "id": "UnnecessaryExpenditure",
+      "中文名称": "不必要支出后果",
+      "英文名称": "Unnecessary Spending Consequence",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "AICapability": {
+      "id": "LifeManagement",
+      "中文名称": "生活管理能力",
+      "英文名称": "Life Management Capability",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT"
+    },
+    "AIUser": {
+      "id": "IndividualUser",
+      "中文名称": "个人用户",
+      "英文名称": "Individual User",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Purpose": {
+      "id": "PersonalLifeManagement",
+      "中文名称": "个人生活管理目的",
+      "英文名称": "Personal Life Management Purpose",
+      "来源": "I let ChatGPT’s new ‘agent’ manage my life."
+    },
+    "RiskSource": {
+      "id": "LackOfPriceAwareness",
+      "中文名称": "缺乏价格意识风险源",
+      "英文名称": "Lack of Price Awareness Risk Source",
+      "来源": "It spent $31 on a dozen eggs."
+    },
+    "Vulnerability": {
+      "id": "UnverifiedPurchasingDecisions",
+      "中文名称": "未经核实的购买决策脆弱性",
+      "英文名称": "Unverified Purchasing Decisions Vulnerability",
+      "来源": "It spent $31 on a dozen eggs."
+    }
+  }
+}

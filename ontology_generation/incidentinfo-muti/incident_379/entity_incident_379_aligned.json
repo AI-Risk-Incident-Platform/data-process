@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DNAPhenotypingAI",
+      "中文名称": "DNA表型分析AI",
+      "英文名称": "DNA Phenotyping AI",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Risk": {
+      "id": "RacialBiasInSuspectIdentification",
+      "中文名称": "嫌疑人识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Consequence": {
+      "id": "PublicApologyByLawEnforcement",
+      "中文名称": "执法部门公开道歉后果",
+      "英文名称": "Public Apology by Law Enforcement Consequence",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "EPS Statement on DNA Phenotyping"
+    },
+    "AIOperator": {
+      "id": "ControversialDNACompany",
+      "中文名称": "争议性DNA公司",
+      "英文名称": "Controversial DNA Company",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Impact": {
+      "id": "DamageToPublicTrust",
+      "中文名称": "公众信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Purpose": {
+      "id": "CriminalSuspectIdentification",
+      "中文名称": "刑事嫌疑人识别目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Domain": {
+      "id": "ForensicInvestigation",
+      "中文名称": "法医调查领域",
+      "英文名称": "Forensic Investigation Domain",
+      "来源": "EPS Statement on DNA Phenotyping"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicOutput",
+      "中文名称": "有偏见的算法输出风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DNAPhenotypingAI",
+      "中文名称": "DNA表型分析AI",
+      "英文名称": "DNA Phenotyping AI",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Risk": {
+      "id": "RacialBiasInSuspectIdentification",
+      "中文名称": "嫌疑人识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Consequence": {
+      "id": "PublicApologyByLawEnforcement",
+      "中文名称": "执法部门公开道歉后果",
+      "英文名称": "Public Apology by Law Enforcement Consequence",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agency",
+      "来源": "EPS Statement on DNA Phenotyping"
+    },
+    "AIOperator": {
+      "id": "ControversialDNACompany",
+      "中文名称": "争议性DNA公司",
+      "英文名称": "Controversial DNA Company",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Impact": {
+      "id": "DamageToPublicTrust",
+      "中文名称": "公众信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    },
+    "Purpose": {
+      "id": "CriminalSuspectIdentification",
+      "中文名称": "刑事嫌疑人识别目的",
+      "英文名称": "Public Safety Surveillance and Crime Prevention",
+      "来源": "The controversial company using DNA to sketch the faces of criminals"
+    },
+    "Domain": {
+      "id": "ForensicInvestigation",
+      "中文名称": "法医调查领域",
+      "英文名称": "Forensic Investigation Domain",
+      "来源": "EPS Statement on DNA Phenotyping"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicOutput",
+      "中文名称": "有偏见的算法输出风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Cops forced to apologize over AI that created 'racist' suspect image from DNA"
+    }
+  }
+}

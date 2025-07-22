@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:CyberSecurityRisk ;
+    airo:hasCapability ex:NaturalLanguageGeneration ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasStakeholder ex:SecurityExperts .
+
+ex:CyberSecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Cyber Security Risk"@en ;
+    rdfs:label "网络安全风险"@zh ;
+    airo:hasConsequence ex:MalwareCreation ;
+    airo:isRiskSourceFor ex:AIAbuseForMaliciousPurposes ;
+    airo:hasRisk ex:MaliciousCodeGeneration .
+
+ex:MalwareCreation rdf:type airo:Consequence ;
+    rdfs:label "Malware Creation"@en ;
+    rdfs:label "恶意软件创建"@zh ;
+    airo:hasImpact ex:IncreasedCyberThreats .
+
+ex:NaturalLanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:SecurityExperts rdf:type airo:Stakeholder ;
+    rdfs:label "Security Experts"@en ;
+    rdfs:label "安全专家"@zh .
+
+ex:AIAbuseForMaliciousPurposes rdf:type airo:RiskSource ;
+    rdfs:label "AI Abuse for Malicious Purposes Risk Source"@en ;
+    rdfs:label "AI被用于恶意目的的风险源"@zh .
+
+ex:IncreasedCyberThreats rdf:type airo:Impact ;
+    rdfs:label "Increased Cyber Threats Impact"@en ;
+    rdfs:label "网络威胁增加的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SecurityExperts .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:MaliciousCodeGeneration rdf:type airo:Misuse ;
+    rdfs:label "Malicious Code Generation Misuse"@en ;
+    rdfs:label "恶意代码生成的滥用"@zh .

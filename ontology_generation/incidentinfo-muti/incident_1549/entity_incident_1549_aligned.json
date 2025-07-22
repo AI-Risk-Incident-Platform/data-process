@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening, study finds"
+    },
+    "Risk": {
+      "id": "MedicalMisinformationRisk",
+      "中文名称": "医疗错误信息风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "Consequence": {
+      "id": "IncorrectMedicalAdvice",
+      "中文名称": "错误的医疗建议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "AICapability": {
+      "id": "MedicalInformationGeneration",
+      "中文名称": "医疗信息生成能力",
+      "英文名称": "Medical Information Generation Capability",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    },
+    "Stakeholder": {
+      "id": "CancerDoctors",
+      "中文名称": "癌症医生",
+      "英文名称": "Medical Providers",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "AISubject": {
+      "id": "CancerPatients",
+      "中文名称": "癌症患者",
+      "英文名称": "Cancer Patients",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "Impact": {
+      "id": "PatientHealthRisk",
+      "中文名称": "患者健康风险影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    },
+    "RiskSource": {
+      "id": "InaccurateDataGeneration",
+      "中文名称": "不准确数据生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "Purpose": {
+      "id": "MedicalInformationProvision",
+      "中文名称": "医疗信息提供目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening, study finds"
+    },
+    "Risk": {
+      "id": "MedicalMisinformationRisk",
+      "中文名称": "医疗错误信息风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "Consequence": {
+      "id": "IncorrectMedicalAdvice",
+      "中文名称": "错误的医疗建议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "AICapability": {
+      "id": "MedicalInformationGeneration",
+      "中文名称": "医疗信息生成能力",
+      "英文名称": "Medical Information Generation Capability",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    },
+    "Stakeholder": {
+      "id": "CancerDoctors",
+      "中文名称": "癌症医生",
+      "英文名称": "Medical Providers",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "AISubject": {
+      "id": "CancerPatients",
+      "中文名称": "癌症患者",
+      "英文名称": "Cancer Patients",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "Impact": {
+      "id": "PatientHealthRisk",
+      "中文名称": "患者健康风险影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "ChatGPT gives wrong advice about breast cancer"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    },
+    "RiskSource": {
+      "id": "InaccurateDataGeneration",
+      "中文名称": "不准确数据生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT makes fake data, cancer doctors warn"
+    },
+    "Purpose": {
+      "id": "MedicalInformationProvision",
+      "中文名称": "医疗信息提供目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "ChatGPT has great potential to improve cancer prevention and screening"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AILieDetectorTestSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Lie Detector Test System"@en ;
+    rdfs:label "AI测谎系统"@zh ;
+    airo:hasRisk ex:InaccuracyInLieDetectionRisk ;
+    airo:hasCapability ex:LieDetectionCapability ;
+    airo:isAppliedWithinDomain ex:AirportSecurity ;
+    airo:hasPurpose ex:EnhancingSecurityScreening ;
+    airo:hasStakeholder ex:AirPassengers ;
+    airo:isDeployedBy ex:EUAirportAuthorities .
+
+ex:InaccuracyInLieDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccuracy in Lie Detection Risk"@en ;
+    rdfs:label "测谎不准确风险"@zh ;
+    airo:isRiskSourceFor ex:InherentLimitationsOfLieDetectionTechnology ;
+    airo:hasConsequence ex:FalsePositivesInSecurityScreening .
+
+ex:LieDetectionCapability rdf:type airo:AICapability ;
+    rdfs:label "Lie Detection Capability"@en ;
+    rdfs:label "测谎能力"@zh .
+
+ex:AirportSecurity rdf:type airo:Domain ;
+    rdfs:label "Airport Security Domain"@en ;
+    rdfs:label "机场安全领域"@zh .
+
+ex:EnhancingSecurityScreening rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Security Screening Purpose"@en ;
+    rdfs:label "加强安全检查目的"@zh .
+
+ex:InherentLimitationsOfLieDetectionTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Inherent Limitations of Lie Detection Technology Risk Source"@en ;
+    rdfs:label "测谎技术固有局限风险源"@zh .
+
+ex:FalsePositivesInSecurityScreening rdf:type airo:Consequence ;
+    rdfs:label "False Positives in Security Screening Consequence"@en ;
+    rdfs:label "安全检查误报后果"@zh ;
+    airo:hasImpact ex:UnnecessaryPassengerDetention .
+
+ex:UnnecessaryPassengerDetention rdf:type airo:Impact ;
+    rdfs:label "Unnecessary Passenger Detention Impact"@en ;
+    rdfs:label "不必要乘客拘留影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AirPassengers .
+
+ex:AirPassengers rdf:type airo:Stakeholder ;
+    rdfs:label "Air Passengers"@en ;
+    rdfs:label "航空乘客"@zh .
+
+ex:EUAirportAuthorities rdf:type airo:AIOperator ;
+    rdfs:label "EU Airport Authorities"@en ;
+    rdfs:label "欧盟机场当局"@zh .

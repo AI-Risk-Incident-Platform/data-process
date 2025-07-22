@@ -1,0 +1,57 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChildrenTeachingRobot rdf:type airo:AISystem ;
+    rdfs:label "Children Teaching Robot"@en ;
+    rdfs:label "儿童教学机器人"@zh ;
+    airo:hasRisk ex:RobotPhysicalHarmRisk ;
+    airo:hasPurpose ex:EducationalRobotForChildren ;
+    airo:isAppliedWithinDomain ex:EducationalTechnology ;
+    airo:hasStakeholder ex:TechFairVisitor ;
+    airo:hasVulnerability ex:SafetyMechanismDeficiency .
+
+ex:RobotPhysicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Robot Physical Harm Risk"@en ;
+    rdfs:label "机器人物理伤害风险"@zh ;
+    airo:hasConsequence ex:PhysicalInjuryToVisitor ;
+    airo:isRiskSourceFor ex:RobotControlFailure .
+
+ex:PhysicalInjuryToVisitor rdf:type airo:Consequence ;
+    rdfs:label "Physical Injury to Visitor Consequence"@en ;
+    rdfs:label "参观者身体受伤后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:TechFairVisitor rdf:type airo:Stakeholder ;
+    rdfs:label "Tech Fair Visitor"@en ;
+    rdfs:label "科技展览参观者"@zh .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全问题影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TechFairVisitor .
+
+ex:EducationalRobotForChildren rdf:type airo:Purpose ;
+    rdfs:label "Educational Robot for Children Purpose"@en ;
+    rdfs:label "儿童教育机器人目的"@zh .
+
+ex:EducationalTechnology rdf:type airo:Domain ;
+    rdfs:label "Educational Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:RobotControlFailure rdf:type airo:RiskSource ;
+    rdfs:label "Robot Control Failure Risk Source"@en ;
+    rdfs:label "机器人控制失效风险源"@zh ;
+    airo:exploitsVulnerability ex:SafetyMechanismDeficiency .
+
+ex:SafetyMechanismDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Safety Mechanism Deficiency Vulnerability"@en ;
+    rdfs:label "安全机制缺陷脆弱性"@zh .

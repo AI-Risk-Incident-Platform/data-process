@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForJournalism",
+      "中文名称": "新闻写作AI",
+      "英文名称": "AI for Journalism",
+      "来源": "Wyoming reporter caught using artificial intelligence to create fake quotes and stories"
+    },
+    "Risk": {
+      "id": "FakeContentGenerationRisk",
+      "中文名称": "虚假内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "using artificial intelligence to create fake quotes and stories"
+    },
+    "Consequence": {
+      "id": "JournalisticIntegrityCompromise",
+      "中文名称": "新闻诚信受损后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "reporter resigned after admitting to using AI to write articles, generate quotes"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "create fake quotes and stories"
+    },
+    "AIOperator": {
+      "id": "WyomingReporter",
+      "中文名称": "怀俄明州记者",
+      "英文名称": "Wyoming Reporter",
+      "来源": "Wyoming reporter resigned after admitting to using AI to write articles"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "reporter caught using artificial intelligence to create fake quotes"
+    },
+    "Purpose": {
+      "id": "AutomatedContentCreation",
+      "中文名称": "自动化内容创作的目的",
+      "英文名称": "Content Generation",
+      "来源": "using AI to write articles, generate quotes"
+    },
+    "Domain": {
+      "id": "JournalismIndustry",
+      "中文名称": "新闻行业领域",
+      "英文名称": "Media and Publishing",
+      "来源": "Wyoming reporter"
+    },
+    "Misuse": {
+      "id": "JournalisticAIAbuse",
+      "中文名称": "新闻AI滥用",
+      "英文名称": "Journalistic AI Abuse",
+      "来源": "using artificial intelligence to create fake quotes and stories"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForJournalism",
+      "中文名称": "新闻写作AI",
+      "英文名称": "AI for Journalism",
+      "来源": "Wyoming reporter caught using artificial intelligence to create fake quotes and stories"
+    },
+    "Risk": {
+      "id": "FakeContentGenerationRisk",
+      "中文名称": "虚假内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "using artificial intelligence to create fake quotes and stories"
+    },
+    "Consequence": {
+      "id": "JournalisticIntegrityCompromise",
+      "中文名称": "新闻诚信受损后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "reporter resigned after admitting to using AI to write articles, generate quotes"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "create fake quotes and stories"
+    },
+    "AIOperator": {
+      "id": "WyomingReporter",
+      "中文名称": "怀俄明州记者",
+      "英文名称": "Wyoming Reporter",
+      "来源": "Wyoming reporter resigned after admitting to using AI to write articles"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "reporter caught using artificial intelligence to create fake quotes"
+    },
+    "Purpose": {
+      "id": "AutomatedContentCreation",
+      "中文名称": "自动化内容创作的目的",
+      "英文名称": "Content Generation",
+      "来源": "using AI to write articles, generate quotes"
+    },
+    "Domain": {
+      "id": "JournalismIndustry",
+      "中文名称": "新闻行业领域",
+      "英文名称": "Media and Publishing",
+      "来源": "Wyoming reporter"
+    },
+    "Misuse": {
+      "id": "JournalisticAIAbuse",
+      "中文名称": "新闻AI滥用",
+      "英文名称": "Journalistic AI Abuse",
+      "来源": "using artificial intelligence to create fake quotes and stories"
+    }
+  }
+}

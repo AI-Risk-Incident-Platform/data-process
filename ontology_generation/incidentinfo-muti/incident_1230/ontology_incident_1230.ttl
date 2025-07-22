@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HealthInsuranceDenialAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Health Insurance Denial Algorithm"@en ;
+    rdfs:label "健康保险拒赔算法"@zh ;
+    airo:hasRisk ex:UnfairCoverageDenialRisk ;
+    airo:hasAICapability ex:ClaimsProcessingAutomation ;
+    airo:isDeployedBy ex:UnitedHealthGroup ;
+    airo:hasPurpose ex:CostReductionForInsurers ;
+    airo:hasStakeholder ex:InsurancePolicyholders ;
+    airo:isAppliedWithinDomain ex:HealthInsuranceIndustry .
+
+ex:UnfairCoverageDenialRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Coverage Denial Risk"@en ;
+    rdfs:label "不公平拒赔风险"@zh ;
+    airo:hasConsequence ex:PatientFinancialHardship ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmicDecisionMaking .
+
+ex:PatientFinancialHardship rdf:type airo:Consequence ;
+    rdfs:label "Patient Financial Hardship Consequence"@en ;
+    rdfs:label "患者财务困境后果"@zh ;
+    airo:hasImpact ex:ReducedAccessToHealthcare .
+
+ex:ClaimsProcessingAutomation rdf:type airo:AICapability ;
+    rdfs:label "Claims Processing Automation Capability"@en ;
+    rdfs:label "理赔处理自动化能力"@zh .
+
+ex:UnitedHealthGroup rdf:type airo:AIOperator ;
+    rdfs:label "UnitedHealth Group"@en ;
+    rdfs:label "联合健康集团"@zh .
+
+ex:InsurancePolicyholders rdf:type airo:Stakeholder ;
+    rdfs:label "Insurance Policyholders"@en ;
+    rdfs:label "保险投保人"@zh .
+
+ex:ReducedAccessToHealthcare rdf:type airo:Impact ;
+    rdfs:label "Reduced Access to Healthcare Impact"@en ;
+    rdfs:label "医疗可及性降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InsurancePolicyholders .
+
+ex:CostReductionForInsurers rdf:type airo:Purpose ;
+    rdfs:label "Cost Reduction for Insurers Purpose"@en ;
+    rdfs:label "保险公司成本削减的目的"@zh .
+
+ex:HealthInsuranceIndustry rdf:type airo:Domain ;
+    rdfs:label "Health Insurance Industry Domain"@en ;
+    rdfs:label "健康保险行业领域"@zh .
+
+ex:BiasedAlgorithmicDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithmic Decision Making Risk Source"@en ;
+    rdfs:label "算法决策偏见的风险源"@zh .

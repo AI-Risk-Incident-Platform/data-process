@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PrisonerRiskAlgorithm",
+      "中文名称": "囚犯风险评估算法",
+      "英文名称": "Prisoner Risk Algorithm",
+      "来源": "The Ministry of Justice’s prisoner risk algorithm could program in racism"
+    },
+    "Risk": {
+      "id": "AlgorithmicRacismRisk",
+      "中文名称": "算法种族主义风险",
+      "英文名称": "Algorithmic Racism Risk",
+      "来源": "The Ministry of Justice’s prisoner risk algorithm could program in racism"
+    },
+    "Domain": {
+      "id": "CriminalJusticeSystem",
+      "中文名称": "刑事司法系统",
+      "英文名称": "Criminal Justice System",
+      "来源": "The Ministry of Justice’s prisoner risk algorithm"
+    },
+    "Stakeholder": {
+      "id": "MinistryOfJustice",
+      "中文名称": "司法部",
+      "英文名称": "Ministry of Justice",
+      "来源": "The Ministry of Justice’s prisoner risk algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "有偏见的算法设计",
+      "英文名称": "Biased Algorithm Design",
+      "来源": "could program in racism"
+    },
+    "Impact": {
+      "id": "RacialDiscriminationInJusticeSystem",
+      "中文名称": "司法系统中的种族歧视",
+      "英文名称": "Racial Discrimination in Justice System",
+      "来源": "could program in racism"
+    }
+  }
+}

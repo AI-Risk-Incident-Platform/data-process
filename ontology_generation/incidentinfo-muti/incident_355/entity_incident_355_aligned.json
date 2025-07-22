@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "McDonaldsVoiceRecognitionDriveThru",
+      "中文名称": "麦当劳语音识别点餐系统",
+      "英文名称": "McDonald's AI Drive-Thru System",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    },
+    "Risk": {
+      "id": "BiometricsPrivacyLawViolationRisk",
+      "中文名称": "生物识别隐私法违规风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    },
+    "Stakeholder": {
+      "id": "McDonaldsCorporation",
+      "中文名称": "麦当劳公司",
+      "英文名称": "McDonald's Corporation",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionTechnology",
+      "中文名称": "语音识别技术",
+      "英文名称": "Voice Recognition",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "Domain": {
+      "id": "FastFoodDriveThruServices",
+      "中文名称": "快餐店免下车服务领域",
+      "英文名称": "Fast Food Domain",
+      "来源": "McDonald's is testing automated drive-thru ordering at 10 Chicago restaurants"
+    },
+    "Purpose": {
+      "id": "AutomatedDriveThruOrdering",
+      "中文名称": "自动化免下车点餐目的",
+      "英文名称": "Automated Food Service",
+      "来源": "McDonald's is testing automated drive-thru ordering at 10 Chicago restaurants"
+    },
+    "Consequence": {
+      "id": "PotentialLegalPenalties",
+      "中文名称": "潜在法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollectionWithoutConsent",
+      "中文名称": "未经同意的生物特征数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "McDonaldsVoiceRecognitionDriveThru",
+      "中文名称": "麦当劳语音识别点餐系统",
+      "英文名称": "McDonald's AI Drive-Thru System",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    },
+    "Risk": {
+      "id": "BiometricsPrivacyLawViolationRisk",
+      "中文名称": "生物识别隐私法违规风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    },
+    "Stakeholder": {
+      "id": "McDonaldsCorporation",
+      "中文名称": "麦当劳公司",
+      "英文名称": "McDonald's Corporation",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "AITechnique": {
+      "id": "VoiceRecognitionTechnology",
+      "中文名称": "语音识别技术",
+      "英文名称": "Voice Recognition",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "Domain": {
+      "id": "FastFoodDriveThruServices",
+      "中文名称": "快餐店免下车服务领域",
+      "英文名称": "Fast Food Domain",
+      "来源": "McDonald's is testing automated drive-thru ordering at 10 Chicago restaurants"
+    },
+    "Purpose": {
+      "id": "AutomatedDriveThruOrdering",
+      "中文名称": "自动化免下车点餐目的",
+      "英文名称": "Automated Food Service",
+      "来源": "McDonald's is testing automated drive-thru ordering at 10 Chicago restaurants"
+    },
+    "Consequence": {
+      "id": "PotentialLegalPenalties",
+      "中文名称": "潜在法律处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "McDonald's faces lawsuit over its voice recognition technology"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollectionWithoutConsent",
+      "中文名称": "未经同意的生物特征数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "McDonald's AI drive-thru bot accused of breaking biometrics privacy law"
+    }
+  }
+}

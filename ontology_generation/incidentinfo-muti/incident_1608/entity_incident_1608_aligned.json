@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeAIVideoSystem",
+      "中文名称": "伪造AI视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "AISubject": {
+      "id": "GretaThunberg",
+      "中文名称": "格蕾塔·通贝里",
+      "英文名称": "Greta Thunberg",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeAIVideoSystem",
+      "中文名称": "伪造AI视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "AISubject": {
+      "id": "GretaThunberg",
+      "中文名称": "格蕾塔·通贝里",
+      "英文名称": "Greta Thunberg",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Fake AI video depicts Greta Thunberg calling for ‘vegan grenades’"
+    }
+  }
+}

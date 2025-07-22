@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionWebsite rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Website"@en ;
+    rdfs:label "面部识别网站"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:Children ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:hasCapability ex:FacialRecognitionSearch ;
+    airo:hasPurpose ex:PublicSurveillance ;
+    airo:isAppliedWithinDomain ex:PublicSafety ;
+    airo:usesTechnique ex:DeepLearningBasedFacialRecognition ;
+    airo:hasVulnerability ex:LackOfAgeVerification .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:StalkingPotential ;
+    airo:isRiskSourceFor ex:PublicAccessToFacialRecognition ;
+    airo:isRiskSourceFor ex:PotentialForStalking ;
+    airo:isRiskSourceFor ex:ExplicitContentOfMinors .
+
+ex:StalkingPotential rdf:type airo:Consequence ;
+    rdfs:label "Stalking Potential Consequence"@en ;
+    rdfs:label "潜在跟踪后果"@zh ;
+    airo:hasImpact ex:ChildExploitationPotential .
+
+ex:FacialRecognitionSearch rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Search Capability"@en ;
+    rdfs:label "面部识别搜索能力"@zh .
+
+ex:Children rdf:type airo:AISubject ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:ChildExploitationPotential rdf:type airo:Impact ;
+    rdfs:label "Child Exploitation Potential Impact"@en ;
+    rdfs:label "潜在儿童剥削影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:PublicAccessToFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Public Access to Facial Recognition Risk Source"@en ;
+    rdfs:label "公众可访问面部识别"@zh .
+
+ex:PublicSurveillance rdf:type airo:Purpose ;
+    rdfs:label "Public Surveillance Purpose"@en ;
+    rdfs:label "公共监控目的"@zh .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:DeepLearningBasedFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Facial Recognition Technique"@en ;
+    rdfs:label "基于深度学习的面部识别技术"@zh .
+
+ex:LackOfAgeVerification rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Age Verification Vulnerability"@en ;
+    rdfs:label "缺乏年龄验证的脆弱性"@zh .
+
+ex:PotentialForStalking rdf:type airo:Threat ;
+    rdfs:label "Potential for Stalking Threat"@en ;
+    rdfs:label "潜在跟踪威胁"@zh .
+
+ex:ExplicitContentOfMinors rdf:type airo:Hazard ;
+    rdfs:label "Explicit Content of Minors Hazard"@en ;
+    rdfs:label "未成年人露骨内容危害"@zh .
+
+ex:EthicalConcernsInPublicFacialRecognition rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Public Facial Recognition Risk Concept"@en ;
+    rdfs:label "公共面部识别中的伦理问题"@zh .

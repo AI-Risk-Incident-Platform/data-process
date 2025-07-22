@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdDeliveryAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Facebook Ad Delivery Algorithm"@en ;
+    rdfs:label "Facebook广告投放算法"@zh ;
+    airo:hasRisk ex:DiscriminationInJobAdsDelivery ;
+    airo:hasAICapability ex:AdTargetingOptimization ;
+    airo:hasStakeholder ex:JobSeekers ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasPurpose ex:OptimizeAdDeliveryPerformance ;
+    airo:isAppliedWithinDomain ex:OnlineAdvertising .
+
+ex:DiscriminationInJobAdsDelivery rdf:type airo:Risk ;
+    rdfs:label "Discrimination in Job Ads Delivery Risk"@en ;
+    rdfs:label "工作广告投放中的歧视风险"@zh ;
+    airo:hasConsequence ex:GenderBiasInJobOpportunities ;
+    airo:isRiskSourceFor ex:AlgorithmicOptimizationBias .
+
+ex:GenderBiasInJobOpportunities rdf:type airo:Consequence ;
+    rdfs:label "Gender Bias in Job Opportunities Consequence"@en ;
+    rdfs:label "工作机会中的性别偏见后果"@zh ;
+    airo:hasImpact ex:ReducedEmploymentOpportunitiesForWomen .
+
+ex:AdTargetingOptimization rdf:type airo:AICapability ;
+    rdfs:label "Ad Targeting Optimization Capability"@en ;
+    rdfs:label "广告定向优化能力"@zh .
+
+ex:JobSeekers rdf:type airo:Stakeholder ;
+    rdfs:label "Job Seekers"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:ReducedEmploymentOpportunitiesForWomen rdf:type airo:Impact ;
+    rdfs:label "Reduced Employment Opportunities for Women Impact"@en ;
+    rdfs:label "女性就业机会减少的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JobSeekers .
+
+ex:OptimizeAdDeliveryPerformance rdf:type airo:Purpose ;
+    rdfs:label "Optimize Ad Delivery Performance Purpose"@en ;
+    rdfs:label "优化广告投放表现的目的"@zh .
+
+ex:OnlineAdvertising rdf:type airo:Domain ;
+    rdfs:label "Online Advertising Domain"@en ;
+    rdfs:label "在线广告领域"@zh .
+
+ex:AlgorithmicOptimizationBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Optimization Bias Risk Source"@en ;
+    rdfs:label "算法优化偏见的风险源"@zh .

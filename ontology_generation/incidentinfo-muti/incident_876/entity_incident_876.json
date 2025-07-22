@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoRobotaxi",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Robotaxi",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Consequence": {
+      "id": "PhysicalDamage",
+      "中文名称": "物理损坏后果",
+      "英文名称": "Physical Damage Consequence",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Stakeholder": {
+      "id": "ServeDeliveryRobotOperator",
+      "中文名称": "Serve送货机器人运营商",
+      "英文名称": "Serve Delivery Robot Operator",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "AISubject": {
+      "id": "RoadUsers",
+      "中文名称": "道路使用者",
+      "英文名称": "Road Users",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Impact": {
+      "id": "TrafficDisruption",
+      "中文名称": "交通中断影响",
+      "英文名称": "Traffic Disruption Impact",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶运输目的",
+      "英文名称": "Autonomous Transportation Purpose",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Domain": {
+      "id": "UrbanMobility",
+      "中文名称": "城市交通领域",
+      "英文名称": "Urban Mobility Domain",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Computer Vision Technique",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Vulnerability": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制脆弱性",
+      "英文名称": "Sensor Limitations Vulnerability",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Threat": {
+      "id": "UrbanEnvironmentComplexity",
+      "中文名称": "城市环境复杂性威胁",
+      "英文名称": "Urban Environment Complexity Threat",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "Hazard": {
+      "id": "UnpredictablePedestrianBehavior",
+      "中文名称": "不可预测的行人行为危害",
+      "英文名称": "Unpredictable Pedestrian Behavior Hazard",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "RiskSource": {
+      "id": "MultiAgentInteraction",
+      "中文名称": "多智能体交互风险源",
+      "英文名称": "Multi-Agent Interaction Risk Source",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    },
+    "RiskConcept": {
+      "id": "AutonomousSystemSafety",
+      "中文名称": "自动驾驶系统安全风险概念",
+      "英文名称": "Autonomous System Safety Risk Concept",
+      "来源": "A Waymo robotaxi and a Serve delivery robot collided in Los Angeles"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PwCFacialRecognitionSystem",
+      "中文名称": "PwC面部识别系统",
+      "英文名称": "PwC Facial Recognition System",
+      "来源": "PwC readies facial recognition to monitor traders at home"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "PWC under fire for tech that keeps home-working staff under surveillance"
+    },
+    "Stakeholder": {
+      "id": "HomeWorkingStaff",
+      "中文名称": "居家办公员工",
+      "英文名称": "Home Working Staff",
+      "来源": "PWC under fire for tech that keeps home-working staff under surveillance"
+    },
+    "AIOperator": {
+      "id": "PwC",
+      "中文名称": "普华永道",
+      "英文名称": "PwC",
+      "来源": "PwC readies facial recognition to monitor traders at home"
+    },
+    "Impact": {
+      "id": "EmployeePrivacyConcerns",
+      "中文名称": "员工隐私担忧",
+      "英文名称": "Employee Privacy Concerns",
+      "来源": "PWC under fire for tech that keeps home-working staff under surveillance"
+    },
+    "RiskSource": {
+      "id": "WorkplaceSurveillanceTechnology",
+      "中文名称": "工作场所监控技术",
+      "英文名称": "Workplace Surveillance Technology",
+      "来源": "PwC under fire for tech that tracks traders' loo breaks"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:UnauthorizedUseOfPersonalLikenessRisk ;
+    airo:hasAISubject ex:FemaleModel ;
+    airo:hasPurpose ex:CommercialAdvertising ;
+    airo:isAppliedWithinDomain ex:AdvertisingIndustryDomain ;
+    airo:usesTechnique ex:DeepLearningBasedImageSynthesis ;
+    airo:hasStakeholder ex:AdvertisingStandardsCouncilOfIndia .
+
+ex:UnauthorizedUseOfPersonalLikenessRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Use of Personal Likeness Risk"@en ;
+    rdfs:label "未经授权使用个人肖像风险"@zh ;
+    airo:hasConsequence ex:LegalAndReputationalHarm ;
+    airo:isRiskSourceFor ex:LackOfConsentForImageUse .
+
+ex:LegalAndReputationalHarm rdf:type airo:Consequence ;
+    rdfs:label "Legal and Reputational Harm Consequence"@en ;
+    rdfs:label "法律和声誉损害后果"@zh ;
+    airo:hasImpact ex:ViolationOfPersonalRights .
+
+ex:FemaleModel rdf:type airo:AISubject ;
+    rdfs:label "Female Model"@en ;
+    rdfs:label "女性模特"@zh .
+
+ex:AdvertisingStandardsCouncilOfIndia rdf:type airo:Stakeholder ;
+    rdfs:label "Advertising Standards Council of India"@en ;
+    rdfs:label "印度广告标准委员会"@zh .
+
+ex:ViolationOfPersonalRights rdf:type airo:Impact ;
+    rdfs:label "Violation of Personal Rights Impact"@en ;
+    rdfs:label "个人权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemaleModel .
+
+ex:CommercialAdvertising rdf:type airo:Purpose ;
+    rdfs:label "Commercial Advertising Purpose"@en ;
+    rdfs:label "商业广告目的"@zh .
+
+ex:AdvertisingIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Advertising Industry Domain"@en ;
+    rdfs:label "广告行业领域"@zh .
+
+ex:DeepLearningBasedImageSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Image Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的图像合成技术"@zh .
+
+ex:LackOfConsentForImageUse rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Consent for Image Use Risk Source"@en ;
+    rdfs:label "缺乏图像使用同意的风险源"@zh .
+
+ex:LegalActionAndRegulationAdvocacy rdf:type airo:RiskControl ;
+    rdfs:label "Legal Action and Regulation Advocacy Risk Control"@en ;
+    rdfs:label "法律行动和监管倡导管控"@zh ;
+    airo:mitigatesRiskConcept ex:UnauthorizedUseOfPersonalLikenessRisk .

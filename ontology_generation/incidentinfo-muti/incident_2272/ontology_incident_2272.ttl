@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeCreationTool rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Creation Tool"@en ;
+    rdfs:label "深度伪造创作工具"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:PublicEducation ;
+    airo:hasStakeholder ex:DeepfakeCreator ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh .
+
+ex:PublicEducation rdf:type airo:Purpose ;
+    rdfs:label "Public Education"@en ;
+    rdfs:label "公共教育"@zh .
+
+ex:DeepfakeCreator rdf:type airo:Stakeholder ;
+    rdfs:label "Deepfake Creator"@en ;
+    rdfs:label "深度伪造创作者"@zh .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICodeHelper",
+      "中文名称": "AI代码助手",
+      "英文名称": "AI Code Helper",
+      "来源": "AI code helpers just can't stop inventing package names"
+    },
+    "Risk": {
+      "id": "SoftwareSupplyChainAttackRisk",
+      "中文名称": "软件供应链攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI code suggestions sabotage software supply chain"
+    },
+    "Consequence": {
+      "id": "MalwareInfection",
+      "中文名称": "恶意软件感染后果",
+      "英文名称": "Malware Infection Consequence",
+      "来源": "even if potentially poisoned with malware"
+    },
+    "AICapability": {
+      "id": "PackageNameGeneration",
+      "中文名称": "软件包名称生成能力",
+      "英文名称": "Package Name Generation Capability",
+      "来源": "AI hallucinates software packages and devs download them"
+    },
+    "Stakeholder": {
+      "id": "SoftwareDevelopers",
+      "中文名称": "软件开发人员",
+      "英文名称": "Software Developers",
+      "来源": "devs download them"
+    },
+    "RiskSource": {
+      "id": "HallucinatedPackageNames",
+      "中文名称": "虚构软件包名称风险源",
+      "英文名称": "Hallucinated Package Names Risk Source",
+      "来源": "AI hallucinates software packages"
+    },
+    "Impact": {
+      "id": "CompromisedDevelopmentEnvironment",
+      "中文名称": "开发环境被入侵的影响",
+      "英文名称": "Compromised Development Environment Impact",
+      "来源": "potentially poisoned with malware"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AICodeHelper",
+      "中文名称": "AI代码助手",
+      "英文名称": "AI Code Helper",
+      "来源": "AI code helpers just can't stop inventing package names"
+    },
+    "Risk": {
+      "id": "SoftwareSupplyChainAttackRisk",
+      "中文名称": "软件供应链攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI code suggestions sabotage software supply chain"
+    },
+    "Consequence": {
+      "id": "MalwareInfection",
+      "中文名称": "恶意软件感染后果",
+      "英文名称": "Malware Infection Consequence",
+      "来源": "even if potentially poisoned with malware"
+    },
+    "AICapability": {
+      "id": "PackageNameGeneration",
+      "中文名称": "软件包名称生成能力",
+      "英文名称": "Package Name Generation Capability",
+      "来源": "AI hallucinates software packages and devs download them"
+    },
+    "Stakeholder": {
+      "id": "SoftwareDevelopers",
+      "中文名称": "软件开发人员",
+      "英文名称": "Software Developers",
+      "来源": "devs download them"
+    },
+    "RiskSource": {
+      "id": "HallucinatedPackageNames",
+      "中文名称": "虚构软件包名称风险源",
+      "英文名称": "Hallucinated Package Names Risk Source",
+      "来源": "AI hallucinates software packages"
+    },
+    "Impact": {
+      "id": "CompromisedDevelopmentEnvironment",
+      "中文名称": "开发环境被入侵的影响",
+      "英文名称": "Compromised Development Environment Impact",
+      "来源": "potentially poisoned with malware"
+    }
+  }
+}

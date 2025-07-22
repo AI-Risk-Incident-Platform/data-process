@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeChatAccountSecuritySystem",
+      "中文名称": "微信账户安全系统",
+      "英文名称": "WeChat Account Security System",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "Risk": {
+      "id": "AccountTheftRisk",
+      "中文名称": "账户盗窃风险",
+      "英文名称": "Account Theft Risk",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "RiskSource": {
+      "id": "FaceGIFsAbuse",
+      "中文名称": "面部GIF滥用",
+      "英文名称": "Face GIFs Abuse",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "财务损失",
+      "英文名称": "Financial Loss",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "Impact": {
+      "id": "UserPrivacyViolation",
+      "中文名称": "用户隐私侵犯",
+      "英文名称": "User Privacy Violation",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    },
+    "Stakeholder": {
+      "id": "WeChatUsers",
+      "中文名称": "微信用户",
+      "英文名称": "WeChat Users",
+      "来源": "Scammers Busted Using Face GIFs to Steal From WeChat Accounts"
+    }
+  }
+}

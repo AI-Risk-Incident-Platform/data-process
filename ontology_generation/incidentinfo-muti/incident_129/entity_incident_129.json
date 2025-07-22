@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MedicalAI",
+      "中文名称": "医疗AI系统",
+      "英文名称": "Medical AI System",
+      "来源": "An Epic Failure: Overstated AI Claims in Medicine"
+    },
+    "Risk": {
+      "id": "MedicalRacismRisk",
+      "中文名称": "医疗种族主义风险",
+      "英文名称": "Medical Racism Risk",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "Consequence": {
+      "id": "HealthDisparity",
+      "中文名称": "健康差异后果",
+      "英文名称": "Health Disparity Consequence",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "Stakeholder": {
+      "id": "HealthcareProviders",
+      "中文名称": "医疗保健提供者",
+      "英文名称": "Healthcare Providers",
+      "来源": "Artificial Intelligence Can Improve Health Care—but Not Without Human Oversight"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "Impact": {
+      "id": "PatientHarm",
+      "中文名称": "患者伤害影响",
+      "英文名称": "Patient Harm Impact",
+      "来源": "An Epic Failure: Overstated AI Claims in Medicine"
+    },
+    "Purpose": {
+      "id": "ImproveHealthcare",
+      "中文名称": "改善医疗保健",
+      "英文名称": "Improve Healthcare",
+      "来源": "Artificial Intelligence Can Improve Health Care—but Not Without Human Oversight"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Artificial Intelligence Can Improve Health Care—but Not Without Human Oversight"
+    },
+    "AITechnique": {
+      "id": "MachineLearning",
+      "中文名称": "机器学习技术",
+      "英文名称": "Machine Learning Technique",
+      "来源": "Algorithms Are Making Decisions About Health Care, Which May Only Worsen Medical Racism"
+    },
+    "RiskControl": {
+      "id": "HumanOversight",
+      "中文名称": "人工监督管控",
+      "英文名称": "Human Oversight Control",
+      "来源": "Artificial Intelligence Can Improve Health Care—but Not Without Human Oversight"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EthicalAI",
+      "中文名称": "伦理AI",
+      "英文名称": "Ethical AI",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "Risk": {
+      "id": "EthicalFailureRisk",
+      "中文名称": "伦理失败风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "Consequence": {
+      "id": "HarmfulEthicalRecommendations",
+      "中文名称": "有害伦理建议后果",
+      "英文名称": "Harmful Ethical Consequence",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "AICapability": {
+      "id": "EthicalDecisionMaking",
+      "中文名称": "伦理决策能力",
+      "英文名称": "Ethical Decision Making Capability",
+      "来源": "How well can an AI mimic human ethics?"
+    },
+    "AITechnique": {
+      "id": "RedditDataTraining",
+      "中文名称": "Reddit数据训练技术",
+      "英文名称": "Reddit Data Training Technique",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Scientists Built an AI to Give Ethical Advice, But It Turned Out Super Racist"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "EthicalAI",
+      "中文名称": "伦理AI",
+      "英文名称": "Ethical AI",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "Risk": {
+      "id": "EthicalFailureRisk",
+      "中文名称": "伦理失败风险",
+      "英文名称": "Ethical Risk",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "Consequence": {
+      "id": "HarmfulEthicalRecommendations",
+      "中文名称": "有害伦理建议后果",
+      "英文名称": "Harmful Ethical Consequence",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "AICapability": {
+      "id": "EthicalDecisionMaking",
+      "中文名称": "伦理决策能力",
+      "英文名称": "Ethical Decision Making Capability",
+      "来源": "How well can an AI mimic human ethics?"
+    },
+    "AITechnique": {
+      "id": "RedditDataTraining",
+      "中文名称": "Reddit数据训练技术",
+      "英文名称": "Reddit Data Training Technique",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Scientists Built an AI to Give Ethical Advice, But It Turned Out Super Racist"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Ethical AI Trained on Reddit Posts Said Genocide is Okay if it Makes People Happy"
+    }
+  }
+}

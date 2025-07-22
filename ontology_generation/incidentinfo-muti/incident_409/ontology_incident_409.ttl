@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookTranslationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Translation System"@en ;
+    rdfs:label "Facebook翻译系统"@zh ;
+    airo:hasRisk ex:InappropriateTranslationRisk ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasPurpose ex:MultilingualContentTranslation ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:NeuralMachineTranslation ;
+    airo:hasStakeholder ex:ThaiPBS .
+
+ex:InappropriateTranslationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Translation Risk"@en ;
+    rdfs:label "不当翻译风险"@zh ;
+    airo:hasConsequence ex:OffensiveContentDissemination ;
+    airo:isRiskSourceFor ex:AlgorithmicTranslationError .
+
+ex:OffensiveContentDissemination rdf:type airo:Consequence ;
+    rdfs:label "Offensive Content Dissemination Consequence"@en ;
+    rdfs:label "冒犯性内容传播后果"@zh ;
+    airo:hasImpact ex:PublicOutrageAndCriticism .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:ThaiPBS rdf:type airo:Stakeholder ;
+    rdfs:label "Thai PBS"@en ;
+    rdfs:label "泰国公共电视台"@zh .
+
+ex:PublicOutrageAndCriticism rdf:type airo:Impact ;
+    rdfs:label "Public Outrage and Criticism Impact"@en ;
+    rdfs:label "公众愤怒与批评的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ThaiPBS .
+
+ex:MultilingualContentTranslation rdf:type airo:Purpose ;
+    rdfs:label "Multilingual Content Translation Purpose"@en ;
+    rdfs:label "多语言内容翻译的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:NeuralMachineTranslation rdf:type airo:AITechnique ;
+    rdfs:label "Neural Machine Translation Technique"@en ;
+    rdfs:label "神经机器翻译技术"@zh .
+
+ex:AlgorithmicTranslationError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Translation Error Risk Source"@en ;
+    rdfs:label "算法翻译错误的风险源"@zh .

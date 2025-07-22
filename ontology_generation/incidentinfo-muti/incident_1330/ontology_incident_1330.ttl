@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SunoAI rdf:type airo:AISystem ;
+    rdfs:label "Suno AI"@en ;
+    rdfs:label "Suno AI"@zh ;
+    airo:hasRisk ex:SafetyConcerns ;
+    airo:hasPurpose ex:MusicGeneration ;
+    airo:hasCapability ex:ChatGPTForMusic ;
+    airo:isDevelopedBy ex:SunoStartup .
+
+ex:SafetyConcerns rdf:type airo:Risk ;
+    rdfs:label "Safety Concerns"@en ;
+    rdfs:label "安全担忧"@zh .
+
+ex:MusicGeneration rdf:type airo:Purpose ;
+    rdfs:label "Music Generation"@en ;
+    rdfs:label "音乐生成"@zh .
+
+ex:ChatGPTForMusic rdf:type airo:AICapability ;
+    rdfs:label "ChatGPT for Music Capability"@en ;
+    rdfs:label "音乐ChatGPT能力"@zh .
+
+ex:SunoStartup rdf:type airo:AIDeveloper ;
+    rdfs:label "Suno Start-up"@en ;
+    rdfs:label "Suno初创公司"@zh .

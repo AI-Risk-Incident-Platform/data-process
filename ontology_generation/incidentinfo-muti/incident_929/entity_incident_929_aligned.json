@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BPFuelTheftDetectionSystem",
+      "中文名称": "BP燃油盗窃检测系统",
+      "英文名称": "BP Fuel Theft Detection System",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Risk": {
+      "id": "IncorrectFuelTheftIdentificationRisk",
+      "中文名称": "燃油盗窃错误识别风险",
+      "英文名称": "Incorrect Fuel Theft Identification Risk",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Consequence": {
+      "id": "WrongfulAccusationConsequence",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "AISubject": {
+      "id": "AucklandMan",
+      "中文名称": "奥克兰男子",
+      "英文名称": "Auckland Man",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Impact": {
+      "id": "LegalAndReputationalDamageImpact",
+      "中文名称": "法律和声誉损害影响",
+      "英文名称": "Legal and Reputational Damage Impact",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "RiskSource": {
+      "id": "VehicleIdentificationError",
+      "中文名称": "车辆识别错误风险源",
+      "英文名称": "Vehicle Identification Error Risk Source",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "AIOperator": {
+      "id": "BPCompany",
+      "中文名称": "BP公司",
+      "英文名称": "BP Company",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Domain": {
+      "id": "RetailFuelIndustry",
+      "中文名称": "零售燃油行业领域",
+      "英文名称": "Retail Fuel Industry Domain",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BPFuelTheftDetectionSystem",
+      "中文名称": "BP燃油盗窃检测系统",
+      "英文名称": "BP Fuel Theft Detection System",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Risk": {
+      "id": "IncorrectFuelTheftIdentificationRisk",
+      "中文名称": "燃油盗窃错误识别风险",
+      "英文名称": "Incorrect Fuel Theft Identification Risk",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Consequence": {
+      "id": "WrongfulAccusationConsequence",
+      "中文名称": "错误指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "AISubject": {
+      "id": "AucklandMan",
+      "中文名称": "奥克兰男子",
+      "英文名称": "Auckland Man",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Impact": {
+      "id": "LegalAndReputationalDamageImpact",
+      "中文名称": "法律和声誉损害影响",
+      "英文名称": "Legal and Reputational Damage Impact",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "RiskSource": {
+      "id": "VehicleIdentificationError",
+      "中文名称": "车辆识别错误风险源",
+      "英文名称": "Vehicle Identification Error Risk Source",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "AIOperator": {
+      "id": "BPCompany",
+      "中文名称": "BP公司",
+      "英文名称": "BP Company",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    },
+    "Domain": {
+      "id": "RetailFuelIndustry",
+      "中文名称": "零售燃油行业领域",
+      "英文名称": "Retail Fuel Industry Domain",
+      "来源": "BP pursues Auckland man for petrol theft despite his car being different colour, make and model"
+    }
+  }
+}

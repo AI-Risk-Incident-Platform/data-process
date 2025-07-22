@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RussianDisinformationAI",
+      "中文名称": "俄罗斯虚假信息AI",
+      "英文名称": "Russian Disinfo AI",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "Stakeholder": {
+      "id": "GermanVoters",
+      "中文名称": "德国选民",
+      "英文名称": "German Voters",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "How are web platforms protecting the German electorate from fake news?"
+    },
+    "RiskSource": {
+      "id": "ForeignStateActors",
+      "中文名称": "外国政府行为者",
+      "英文名称": "Foreign State Actors",
+      "来源": "Between Russia and Elon Musk, German Voters Face a 'Dual Front' of Disinformation"
+    },
+    "AITechnique": {
+      "id": "DisinformationGeneration",
+      "中文名称": "虚假信息生成技术",
+      "英文名称": "Disinformation Techniques",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Purpose": {
+      "id": "InfluenceElectionOutcomes",
+      "中文名称": "影响选举结果",
+      "英文名称": "Election Influence",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "RiskControl": {
+      "id": "PlatformProtectionMeasures",
+      "中文名称": "平台保护措施",
+      "英文名称": "Platform Protection Measures",
+      "来源": "How are web platforms protecting the German electorate from fake news?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RussianDisinformationAI",
+      "中文名称": "俄罗斯虚假信息AI",
+      "英文名称": "Russian Disinfo AI",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "Stakeholder": {
+      "id": "GermanVoters",
+      "中文名称": "德国选民",
+      "英文名称": "German Voters",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "How are web platforms protecting the German electorate from fake news?"
+    },
+    "RiskSource": {
+      "id": "ForeignStateActors",
+      "中文名称": "外国政府行为者",
+      "英文名称": "Foreign State Actors",
+      "来源": "Between Russia and Elon Musk, German Voters Face a 'Dual Front' of Disinformation"
+    },
+    "AITechnique": {
+      "id": "DisinformationGeneration",
+      "中文名称": "虚假信息生成技术",
+      "英文名称": "Disinformation Techniques",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Purpose": {
+      "id": "InfluenceElectionOutcomes",
+      "中文名称": "影响选举结果",
+      "英文名称": "Election Influence",
+      "来源": "AI-driven Russian disinformation campaign targets German elections"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "German voters face a 'dual front' of disinformation"
+    },
+    "RiskControl": {
+      "id": "PlatformProtectionMeasures",
+      "中文名称": "平台保护措施",
+      "英文名称": "Platform Protection Measures",
+      "来源": "How are web platforms protecting the German electorate from fake news?"
+    }
+  }
+}

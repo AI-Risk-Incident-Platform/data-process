@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:WrongfulArrestRisk ;
+    airo:hasAISubject ex:WrongfullyArrestedIndividual ;
+    airo:hasStakeholder ex:LegalSystem .
+
+ex:WrongfulArrestRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:WrongfulImprisonment ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition .
+
+ex:WrongfulImprisonment rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Imprisonment Consequence"@en ;
+    rdfs:label "错误监禁后果"@zh ;
+    airo:hasImpact ex:PersonalLibertyViolation .
+
+ex:WrongfullyArrestedIndividual rdf:type airo:AISubject ;
+    rdfs:label "Wrongfully Arrested Individual"@en ;
+    rdfs:label "被错误逮捕的个人"@zh .
+
+ex:PersonalLibertyViolation rdf:type airo:Impact ;
+    rdfs:label "Personal Liberty Violation Impact"@en ;
+    rdfs:label "人身自由侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WrongfullyArrestedIndividual .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中的算法偏见风险源"@zh .
+
+ex:LegalSystem rdf:type airo:Stakeholder ;
+    rdfs:label "Legal System"@en ;
+    rdfs:label "法律系统"@zh .

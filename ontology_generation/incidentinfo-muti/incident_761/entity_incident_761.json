@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokAI",
+      "中文名称": "Grok AI",
+      "英文名称": "Grok AI",
+      "来源": "X AI Bot ‘Grok’ Pushes Unsubstantiated Claims About Trump Missing ‘Dentures’ During His Interview With Elon Musk"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Pushes Unsubstantiated Claims About Trump Missing ‘Dentures’"
+    },
+    "RiskSource": {
+      "id": "UnverifiedClaims",
+      "中文名称": "未经证实的言论",
+      "英文名称": "Unverified Claims",
+      "来源": "Pushes Unsubstantiated Claims About Trump Missing ‘Dentures’"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导",
+      "英文名称": "Public Misinformation",
+      "来源": "Pushes Unsubstantiated Claims About Trump Missing ‘Dentures’"
+    },
+    "Stakeholder": {
+      "id": "Public",
+      "中文名称": "公众",
+      "英文名称": "Public",
+      "来源": "Pushes Unsubstantiated Claims About Trump Missing ‘Dentures’"
+    },
+    "AIOperator": {
+      "id": "XAI",
+      "中文名称": "X AI",
+      "英文名称": "X AI",
+      "来源": "X AI Bot ‘Grok’"
+    }
+  }
+}

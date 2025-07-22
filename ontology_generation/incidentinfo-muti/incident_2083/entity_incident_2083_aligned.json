@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PepperRobot",
+      "中文名称": "Pepper机器人",
+      "英文名称": "Pepper Robot",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "Risk": {
+      "id": "SecurityVulnerabilityRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "Consequence": {
+      "id": "PotentialCyberAttack",
+      "中文名称": "潜在网络攻击后果",
+      "英文名称": "Security Incident Consequence",
+      "来源": "Pepper de menselijke robot is eenvoudig te hacken"
+    },
+    "Stakeholder": {
+      "id": "SoftBank",
+      "中文名称": "软银",
+      "英文名称": "SoftBank",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "RiskSource": {
+      "id": "InsecureDesign",
+      "中文名称": "不安全设计风险源",
+      "英文名称": "Insecure Design Risk Source",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityThreat",
+      "中文名称": "隐私和安全威胁影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Pepper de menselijke robot is eenvoudig te hacken"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PepperRobot",
+      "中文名称": "Pepper机器人",
+      "英文名称": "Pepper Robot",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "Risk": {
+      "id": "SecurityVulnerabilityRisk",
+      "中文名称": "安全漏洞风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "Consequence": {
+      "id": "PotentialCyberAttack",
+      "中文名称": "潜在网络攻击后果",
+      "英文名称": "Security Incident Consequence",
+      "来源": "Pepper de menselijke robot is eenvoudig te hacken"
+    },
+    "Stakeholder": {
+      "id": "SoftBank",
+      "中文名称": "软银",
+      "英文名称": "SoftBank",
+      "来源": "Softbank's 'Pepper' robot is a security joke"
+    },
+    "RiskSource": {
+      "id": "InsecureDesign",
+      "中文名称": "不安全设计风险源",
+      "英文名称": "Insecure Design Risk Source",
+      "来源": "SoftBank Pepper Robot Astonishingly Insecure and a Cyber Weapon"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityThreat",
+      "中文名称": "隐私和安全威胁影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Pepper de menselijke robot is eenvoudig te hacken"
+    }
+  }
+}

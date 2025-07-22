@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokDeepfakeVideos",
+      "中文名称": "TikTok深度伪造视频",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Fake TikTok videos show hundreds of thousands marching for AfD in Germany"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake TikTok videos show hundreds of thousands marching for AfD in Germany"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Fake TikTok videos"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "公众舆论操纵影响",
+      "英文名称": "Public Discourse Manipulation Impact",
+      "来源": "show hundreds of thousands marching for AfD in Germany"
+    },
+    "Stakeholder": {
+      "id": "GermanPoliticalPartyAfD",
+      "中文名称": "德国政党AfD",
+      "英文名称": "German Political Party AfD",
+      "来源": "marching for AfD in Germany"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokDeepfakeVideos",
+      "中文名称": "TikTok深度伪造视频",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Fake TikTok videos show hundreds of thousands marching for AfD in Germany"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake TikTok videos show hundreds of thousands marching for AfD in Germany"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Fake TikTok videos"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "公众舆论操纵影响",
+      "英文名称": "Public Discourse Manipulation Impact",
+      "来源": "show hundreds of thousands marching for AfD in Germany"
+    },
+    "Stakeholder": {
+      "id": "GermanPoliticalPartyAfD",
+      "中文名称": "德国政党AfD",
+      "英文名称": "German Political Party AfD",
+      "来源": "marching for AfD in Germany"
+    }
+  }
+}

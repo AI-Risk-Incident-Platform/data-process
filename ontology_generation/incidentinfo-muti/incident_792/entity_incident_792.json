@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingCars",
+      "中文名称": "Waymo自动驾驶汽车",
+      "英文名称": "Waymo Self-Driving Cars",
+      "来源": "Self-driving Waymo cars keep SF residents awake all night by honking at each other"
+    },
+    "Risk": {
+      "id": "NoisePollutionFromAutonomousVehicles",
+      "中文名称": "自动驾驶汽车噪音污染风险",
+      "英文名称": "Noise Pollution from Autonomous Vehicles Risk",
+      "来源": "Self-driving Waymo cars keep SF residents awake all night by honking at each other"
+    },
+    "Consequence": {
+      "id": "SleepDisruptionForResidents",
+      "中文名称": "居民睡眠中断后果",
+      "英文名称": "Sleep Disruption for Residents Consequence",
+      "来源": "San Francisco neighbors say repeated Waymo honking is keeping them up at night"
+    },
+    "Impact": {
+      "id": "NegativeImpactOnQualityOfLife",
+      "中文名称": "生活质量负面影响",
+      "英文名称": "Negative Impact on Quality of Life",
+      "来源": "Driverless cars wake residents with nighttime honking"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoResidents",
+      "中文名称": "旧金山居民",
+      "英文名称": "San Francisco Residents",
+      "来源": "San Francisco neighbors say repeated Waymo honking is keeping them up at night"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Self-driving Waymo cars keep SF residents awake all night by honking at each other"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶汽车交通领域",
+      "英文名称": "Autonomous Vehicle Transportation Domain",
+      "来源": "Driverless cars wake residents with nighttime honking"
+    },
+    "RiskSource": {
+      "id": "ExcessiveVehicleHonking",
+      "中文名称": "车辆过度鸣笛风险源",
+      "英文名称": "Excessive Vehicle Honking Risk Source",
+      "来源": "Self-driving Waymo cars keep SF residents awake all night by honking at each other"
+    }
+  }
+}

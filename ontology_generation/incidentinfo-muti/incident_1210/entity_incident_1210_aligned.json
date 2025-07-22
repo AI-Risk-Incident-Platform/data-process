@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAIChatbots",
+      "中文名称": "Meta人工智能聊天机器人",
+      "英文名称": "Meta Chatbot",
+      "来源": "Meta hosts AI chatbots imitating 'Hitler,' 'Jesus Christ' and Taylor Swift"
+    },
+    "Risk": {
+      "id": "ControversialFigureImitationRisk",
+      "中文名称": "争议人物模仿风险",
+      "英文名称": "Controversial Figure Imitation Risk",
+      "来源": "Meta Sparks Controversy With AI Chatbots of Hitler and Jesus Christ"
+    },
+    "Stakeholder": {
+      "id": "MetaPlatformUsers",
+      "中文名称": "Meta平台用户",
+      "英文名称": "Meta Users",
+      "来源": "Facebook Caught Hosting AI-Powered Hitler"
+    },
+    "AIOperator": {
+      "id": "MetaCompany",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta hosts AI chatbots imitating 'Hitler,' 'Jesus Christ' and Taylor Swift"
+    },
+    "Consequence": {
+      "id": "PublicControversy",
+      "中文名称": "公众争议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Meta Sparks Controversy With AI Chatbots of Hitler and Jesus Christ"
+    },
+    "Misuse": {
+      "id": "HistoricalFigureMisrepresentation",
+      "中文名称": "历史人物错误表征滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Facebook Caught Hosting AI-Powered Hitler"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAIChatbots",
+      "中文名称": "Meta人工智能聊天机器人",
+      "英文名称": "Meta Chatbot",
+      "来源": "Meta hosts AI chatbots imitating 'Hitler,' 'Jesus Christ' and Taylor Swift"
+    },
+    "Risk": {
+      "id": "ControversialFigureImitationRisk",
+      "中文名称": "争议人物模仿风险",
+      "英文名称": "Controversial Figure Imitation Risk",
+      "来源": "Meta Sparks Controversy With AI Chatbots of Hitler and Jesus Christ"
+    },
+    "Stakeholder": {
+      "id": "MetaPlatformUsers",
+      "中文名称": "Meta平台用户",
+      "英文名称": "Meta Users",
+      "来源": "Facebook Caught Hosting AI-Powered Hitler"
+    },
+    "AIOperator": {
+      "id": "MetaCompany",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta hosts AI chatbots imitating 'Hitler,' 'Jesus Christ' and Taylor Swift"
+    },
+    "Consequence": {
+      "id": "PublicControversy",
+      "中文名称": "公众争议后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Meta Sparks Controversy With AI Chatbots of Hitler and Jesus Christ"
+    },
+    "Misuse": {
+      "id": "HistoricalFigureMisrepresentation",
+      "中文名称": "历史人物错误表征滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Facebook Caught Hosting AI-Powered Hitler"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICraftedCallOfDutyCosmeticItems rdf:type airo:AISystem ;
+    rdfs:label "AI-Crafted Call of Duty Cosmetic Items"@en ;
+    rdfs:label "AI制作的使命召唤装饰物品"@zh ;
+    airo:hasRisk ex:JobDisplacementInVideoGameIndustry ;
+    airo:hasStakeholder ex:VideoGameIndustryWorkers ;
+    airo:isAppliedWithinDomain ex:VideoGameDevelopment .
+
+ex:JobDisplacementInVideoGameIndustry rdf:type airo:Risk ;
+    rdfs:label "Job Displacement in Video Game Industry Risk"@en ;
+    rdfs:label "视频游戏行业工作替代风险"@zh ;
+    airo:hasConsequence ex:EconomicImpactOnCreativeProfessionals .
+
+ex:VideoGameIndustryWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "Video Game Industry Workers"@en ;
+    rdfs:label "视频游戏行业工作者"@zh .
+
+ex:EconomicImpactOnCreativeProfessionals rdf:type airo:Impact ;
+    rdfs:label "Economic Impact on Creative Professionals"@en ;
+    rdfs:label "对创意专业人士的经济影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VideoGameIndustryWorkers .
+
+ex:VideoGameDevelopment rdf:type airo:Domain ;
+    rdfs:label "Video Game Development Domain"@en ;
+    rdfs:label "视频游戏开发领域"@zh .

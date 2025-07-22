@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NazTokTikTokNetwork rdf:type airo:AISystem ;
+    rdfs:label "NazTok TikTok Network"@en ;
+    rdfs:label "纳粹Tok抖音网络"@zh ;
+    airo:hasRisk ex:ExtremistContentPropagationRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformDomain ;
+    airo:hasStakeholder ex:TikTokPlatform .
+
+ex:ExtremistContentPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Extremist Content Propagation Risk"@en ;
+    rdfs:label "极端主义内容传播风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicAmplificationOfExtremistContent ;
+    airo:hasConsequence ex:RadicalizationOfViewers .
+
+ex:TikTokPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Platform"@en ;
+    rdfs:label "抖音平台"@zh .
+
+ex:RadicalizationOfViewers rdf:type airo:Impact ;
+    rdfs:label "Radicalization of Viewers Impact"@en ;
+    rdfs:label "观众激进化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TikTokPlatform .
+
+ex:AlgorithmicAmplificationOfExtremistContent rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Amplification of Extremist Content Risk Source"@en ;
+    rdfs:label "极端主义内容的算法放大风险源"@zh .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en ;
+    rdfs:label "内容推荐算法能力"@zh .
+
+ex:SocialMediaPlatformDomain rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

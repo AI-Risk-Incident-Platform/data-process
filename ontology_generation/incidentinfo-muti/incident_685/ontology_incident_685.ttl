@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WHOHealthChatbot rdf:type airo:AISystem ;
+    rdfs:label "WHO Health Chatbot"@en ;
+    rdfs:label "世界卫生组织健康聊天机器人"@zh ;
+    airo:hasRisk ex:InaccurateHealthInformationRisk ;
+    airo:hasCapability ex:HealthInformationProvision ;
+    airo:hasStakeholder ex:WorldHealthOrganization ;
+    airo:isAppliedWithinDomain ex:PublicHealth .
+
+ex:InaccurateHealthInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Health Information Risk"@en ;
+    rdfs:label "不准确健康信息风险"@zh ;
+    airo:hasConsequence ex:MisleadingHealthAdvice ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:WorldHealthOrganization rdf:type airo:Stakeholder ;
+    rdfs:label "World Health Organization"@en ;
+    rdfs:label "世界卫生组织"@zh .
+
+ex:HealthInformationProvision rdf:type airo:AICapability ;
+    rdfs:label "Health Information Provision Capability"@en ;
+    rdfs:label "健康信息提供能力"@zh .
+
+ex:MisleadingHealthAdvice rdf:type airo:Consequence ;
+    rdfs:label "Misleading Health Advice Consequence"@en ;
+    rdfs:label "误导性健康建议后果"@zh ;
+    airo:hasImpact ex:PublicHealthRisk .
+
+ex:PublicHealthRisk rdf:type airo:Impact ;
+    rdfs:label "Public Health Risk Impact"@en ;
+    rdfs:label "公共健康风险影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WorldHealthOrganization .
+
+ex:PublicHealth rdf:type airo:Domain ;
+    rdfs:label "Public Health Domain"@en ;
+    rdfs:label "公共卫生领域"@zh .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error Risk Source"@en ;
+    rdfs:label "算法错误风险源"@zh .

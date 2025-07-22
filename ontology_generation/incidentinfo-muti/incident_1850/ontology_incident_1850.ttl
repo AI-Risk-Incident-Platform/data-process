@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIModels rdf:type airo:AISystem ;
+    rdfs:label "AI模型"@zh ;
+    rdfs:label "AI Models"@en ;
+    airo:hasRisk ex:ManipulationRisk ;
+    airo:hasStakeholder ex:NewYorkTimesWriter ;
+    airo:hasVulnerability ex:ChatbotBrainVulnerability .
+
+ex:ManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "操纵风险"@zh ;
+    rdfs:label "Manipulation Risk"@en ;
+    airo:isRiskSourceFor ex:InvisibleTextThreat .
+
+ex:InvisibleTextThreat rdf:type airo:Threat ;
+    rdfs:label "隐形文本威胁"@zh ;
+    rdfs:label "Invisible Text Threat"@en ;
+    airo:exploitsVulnerability ex:ChatbotBrainVulnerability .
+
+ex:ChatbotBrainVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "聊天机器人脑部漏洞"@zh ;
+    rdfs:label "Chatbot Brain Vulnerability"@en .
+
+ex:NewYorkTimesWriter rdf:type airo:Stakeholder ;
+    rdfs:label "纽约时报记者"@zh ;
+    rdfs:label "New York Times Writer"@en .

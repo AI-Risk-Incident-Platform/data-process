@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonEchoSmartSpeaker rdf:type airo:AISystem ;
+    rdfs:label "Amazon Echo Smart Speaker"@en ;
+    rdfs:label "亚马逊Echo智能音箱"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:VoiceDataAnalysisForAdTargeting ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasStakeholder ex:EchoSmartSpeakerUsers ;
+    airo:hasPurpose ex:PersonalizedAdTargeting ;
+    airo:isAppliedWithinDomain ex:SmartHomeDevices ;
+    airo:usesTechnique ex:VoiceRecognitionAndAnalysis .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataUsage .
+
+ex:VoiceDataAnalysisForAdTargeting rdf:type airo:AICapability ;
+    rdfs:label "Voice Data Analysis for Ad Targeting Capability"@en ;
+    rdfs:label "语音数据分析用于广告定向的能力"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:EchoSmartSpeakerUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Echo Smart Speaker Users"@en ;
+    rdfs:label "Echo智能音箱用户"@zh .
+
+ex:UnauthorizedDataUsage rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Usage Consequence"@en ;
+    rdfs:label "未经授权的数据使用后果"@zh ;
+    airo:hasImpact ex:ConsumerTrustErosion .
+
+ex:ConsumerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Consumer Trust Erosion Impact"@en ;
+    rdfs:label "消费者信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EchoSmartSpeakerUsers .
+
+ex:PersonalizedAdTargeting rdf:type airo:Purpose ;
+    rdfs:label "Personalized Ad Targeting Purpose"@en ;
+    rdfs:label "个性化广告定向的目的"@zh .
+
+ex:SmartHomeDevices rdf:type airo:Domain ;
+    rdfs:label "Smart Home Devices Domain"@en ;
+    rdfs:label "智能家居设备领域"@zh .
+
+ex:VoiceRecognitionAndAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Voice Recognition and Analysis Technique"@en ;
+    rdfs:label "语音识别与分析技术"@zh .

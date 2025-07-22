@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAdvertisingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Meta广告算法"@zh ;
+    rdfs:label "Meta Advertising Algorithm"@en ;
+    airo:hasRisk ex:IllegalDrugPromotionRisk ;
+    airo:usesTechnique ex:TargetedAdvertisingAlgorithm ;
+    airo:isDevelopedBy ex:MetaPlatformsInc .
+
+ex:IllegalDrugPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "非法药物推广风险"@zh ;
+    rdfs:label "Illegal Drug Promotion Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmicContentModerationFailure ;
+    airo:hasConsequence ex:IllegalSubstanceAccessIncrease .
+
+ex:AlgorithmicContentModerationFailure rdf:type airo:RiskSource ;
+    rdfs:label "算法内容审核失败"@zh ;
+    rdfs:label "Algorithmic Content Moderation Failure"@en .
+
+ex:IllegalSubstanceAccessIncrease rdf:type airo:Consequence ;
+    rdfs:label "非法物质获取增加"@zh ;
+    rdfs:label "Illegal Substance Access Increase"@en ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "公共健康威胁"@zh ;
+    rdfs:label "Public Health Threat"@en ;
+    airo:hasImpactOnStakeholder ex:MetaPlatformsInc .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta平台公司"@zh ;
+    rdfs:label "Meta Platforms Inc."@en .
+
+ex:TargetedAdvertisingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "定向广告算法"@zh ;
+    rdfs:label "Targeted Advertising Algorithm"@en .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeAI",
+      "中文名称": "YouTube人工智能系统",
+      "英文名称": "YouTube AI System",
+      "来源": "Fake news YouTube creators target Black celebrities with AI-generated misinformation"
+    },
+    "Risk": {
+      "id": "AIGeneratedMisinformationRisk",
+      "中文名称": "AI生成虚假信息风险",
+      "英文名称": "AI-Generated Misinformation Risk",
+      "来源": "Fake news YouTube creators target Black celebrities with AI-generated misinformation"
+    },
+    "Stakeholder": {
+      "id": "BlackCelebrities",
+      "中文名称": "黑人名人",
+      "英文名称": "Black Celebrities",
+      "来源": "target Black celebrities with AI-generated misinformation"
+    },
+    "AISubject": {
+      "id": "YouTubeViewers",
+      "中文名称": "YouTube观众",
+      "英文名称": "YouTube Viewers",
+      "来源": "Fake news YouTube creators target Black celebrities"
+    },
+    "Consequence": {
+      "id": "SpreadOfMisinformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Spread of Misinformation Consequence",
+      "来源": "Fake news YouTube creators target Black celebrities with AI-generated misinformation"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedContent",
+      "中文名称": "AI生成内容风险源",
+      "英文名称": "AI-Generated Content Risk Source",
+      "来源": "AI-generated misinformation"
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAlgorithm",
+      "中文名称": "内容生成算法技术",
+      "英文名称": "Content Generation Algorithm Technique",
+      "来源": "AI-generated misinformation"
+    }
+  }
+}

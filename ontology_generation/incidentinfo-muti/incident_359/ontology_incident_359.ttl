@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WalmartSelfCheckoutSystem rdf:type airo:AISystem ;
+    rdfs:label "Walmart Self-Checkout System"@en ;
+    rdfs:label "沃尔玛自助结账系统"@zh ;
+    airo:hasRisk ex:WorkerCustomerProximityRisk ;
+    airo:hasStakeholder ex:WalmartWorkers ;
+    airo:isDeployedBy ex:WalmartInc ;
+    airo:isAppliedWithinDomain ex:RetailIndustry .
+
+ex:WorkerCustomerProximityRisk rdf:type airo:Risk ;
+    rdfs:label "Worker-Customer Proximity Risk"@en ;
+    rdfs:label "员工与顾客距离过近风险"@zh .
+
+ex:WalmartWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "Walmart Workers"@en ;
+    rdfs:label "沃尔玛员工"@zh .
+
+ex:WalmartInc rdf:type airo:AIOperator ;
+    rdfs:label "Walmart Inc."@en ;
+    rdfs:label "沃尔玛公司"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry"@en ;
+    rdfs:label "零售业"@zh .

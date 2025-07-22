@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SheerLuxeAIInfluencer rdf:type airo:AISystem ;
+    rdfs:label "SheerLuxe AI Influencer"@en ;
+    rdfs:label "SheerLuxe AI影响者"@zh ;
+    airo:hasRisk ex:CulturalMisrepresentationRisk ;
+    airo:hasPurpose ex:DigitalContentCreation ;
+    airo:isAppliedWithinDomain ex:FashionMedia ;
+    airo:hasStakeholder ex:WomenOfColorCommunity .
+
+ex:CulturalMisrepresentationRisk rdf:type airo:Risk ;
+    rdfs:label "Cultural Misrepresentation Risk"@en ;
+    rdfs:label "文化误传风险"@zh ;
+    airo:hasConsequence ex:BacklashFromMinorityGroups ;
+    airo:isRiskSourceFor ex:LackOfDiversityInTrainingData .
+
+ex:BacklashFromMinorityGroups rdf:type airo:Consequence ;
+    rdfs:label "Backlash From Minority Groups Consequence"@en ;
+    rdfs:label "少数群体强烈反对后果"@zh ;
+    airo:hasImpact ex:DamageToBrandReputation .
+
+ex:WomenOfColorCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Women of Color Community"@en ;
+    rdfs:label "有色人种女性群体"@zh .
+
+ex:DamageToBrandReputation rdf:type airo:Impact ;
+    rdfs:label "Damage To Brand Reputation Impact"@en ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WomenOfColorCommunity .
+
+ex:DigitalContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Digital Content Creation Purpose"@en ;
+    rdfs:label "数字内容创作目的"@zh .
+
+ex:FashionMedia rdf:type airo:Domain ;
+    rdfs:label "Fashion Media Domain"@en ;
+    rdfs:label "时尚媒体领域"@zh .
+
+ex:LackOfDiversityInTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Lack Of Diversity In Training Data Risk Source"@en ;
+    rdfs:label "训练数据缺乏多样性风险源"@zh .

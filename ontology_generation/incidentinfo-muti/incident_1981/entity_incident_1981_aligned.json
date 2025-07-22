@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "G20FacialRecognitionSystem",
+      "中文名称": "G20人脸识别系统",
+      "英文名称": "G20 Facial Recognition System",
+      "来源": "VG Hamburg: Anordnung Löschung Datenbank rechtswidrig - G20-Gesichtserkennung"
+    },
+    "Risk": {
+      "id": "DataPrivacyViolationRisk",
+      "中文名称": "数据隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "Consequence": {
+      "id": "IllegalDataRetention",
+      "中文名称": "非法数据保留后果",
+      "英文名称": "Illegal Data Retention Consequence",
+      "来源": "Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "AIOperator": {
+      "id": "HamburgAdministrativeCourt",
+      "中文名称": "汉堡行政法院",
+      "英文名称": "Hamburg Administrative Court",
+      "来源": "VG Hamburg: Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "G20-Gesichtserkennung"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "G20FacialRecognitionSystem",
+      "中文名称": "G20人脸识别系统",
+      "英文名称": "G20 Facial Recognition System",
+      "来源": "VG Hamburg: Anordnung Löschung Datenbank rechtswidrig - G20-Gesichtserkennung"
+    },
+    "Risk": {
+      "id": "DataPrivacyViolationRisk",
+      "中文名称": "数据隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "Consequence": {
+      "id": "IllegalDataRetention",
+      "中文名称": "非法数据保留后果",
+      "英文名称": "Illegal Data Retention Consequence",
+      "来源": "Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "AIOperator": {
+      "id": "HamburgAdministrativeCourt",
+      "中文名称": "汉堡行政法院",
+      "英文名称": "Hamburg Administrative Court",
+      "来源": "VG Hamburg: Anordnung Löschung Datenbank rechtswidrig"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "G20-Gesichtserkennung"
+    }
+  }
+}

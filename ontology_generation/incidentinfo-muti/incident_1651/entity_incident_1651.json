@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MSNContentGenerationSystem",
+      "中文名称": "MSN内容生成系统",
+      "英文名称": "MSN Content Generation System",
+      "来源": "MSN publishes tasteless story on death of former NBA player"
+    },
+    "Risk": {
+      "id": "InsensitiveContentGenerationRisk",
+      "中文名称": "不敏感内容生成风险",
+      "英文名称": "Insensitive Content Generation Risk",
+      "来源": "AI article announcing former NBA player’s death brands him ‘useless’"
+    },
+    "Consequence": {
+      "id": "PublicOutrageConsequence",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Public Outrage Consequence",
+      "来源": "MSN readers are furious after an apparently AI-generated headline announced 'Brandon Hunter useless at 42' after the former NBA player suddenly died"
+    },
+    "Stakeholder": {
+      "id": "NBACommunity",
+      "中文名称": "NBA社区",
+      "英文名称": "NBA Community",
+      "来源": "MSN publishes tasteless story on death of former NBA player"
+    },
+    "Impact": {
+      "id": "ReputationDamageImpact",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "MSN readers are furious after an apparently AI-generated headline announced 'Brandon Hunter useless at 42' after the former NBA player suddenly died"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanReview",
+      "中文名称": "缺乏人工审核",
+      "英文名称": "Lack of Human Review",
+      "来源": "AI article announcing former NBA player’s death brands him ‘useless’"
+    }
+  }
+}

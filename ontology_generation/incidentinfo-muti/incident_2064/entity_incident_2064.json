@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NioPilot",
+      "中文名称": "Nio Pilot自动驾驶系统",
+      "英文名称": "Nio Pilot Autonomous Driving System",
+      "来源": "新闻标题中提到的'Nio Pilot'"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶致命事故风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "新闻标题'Fatal crash threatens Nio's reputation'"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "新闻标题'Fatal crash threatens Nio's reputation'"
+    },
+    "AIOperator": {
+      "id": "Nio",
+      "中文名称": "蔚来汽车",
+      "英文名称": "Nio",
+      "来源": "多篇新闻标题中提到的'Nio'"
+    },
+    "Stakeholder": {
+      "id": "NioUsers",
+      "中文名称": "蔚来用户",
+      "英文名称": "Nio Users",
+      "来源": "新闻标题'Nio begins requiring users to take test'"
+    },
+    "RiskControl": {
+      "id": "UserTestRequirement",
+      "中文名称": "用户测试要求管控",
+      "英文名称": "User Test Requirement Control",
+      "来源": "新闻标题'Nio begins requiring users to take test'"
+    },
+    "Impact": {
+      "id": "StockPriceDrop",
+      "中文名称": "股价下跌影响",
+      "英文名称": "Stock Price Drop Impact",
+      "来源": "新闻标题'Nio Shares Drop After Fatal Crash'"
+    }
+  }
+}

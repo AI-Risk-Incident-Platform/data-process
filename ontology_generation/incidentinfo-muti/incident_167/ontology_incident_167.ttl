@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookHateSpeechDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Hate Speech Detection System"@en ;
+    rdfs:label "Facebook仇恨言论检测系统"@zh ;
+    airo:hasRisk ex:RacialBiasInContentModeration ;
+    airo:isDevelopedBy ex:FacebookInc ;
+    airo:hasStakeholder ex:BlackUsers .
+
+ex:RacialBiasInContentModeration rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Content Moderation Risk"@en ;
+    rdfs:label "内容审核中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:IneffectiveHateSpeechDetection ;
+    airo:isRiskSourceFor ex:RaceBlindAlgorithmDesign .
+
+ex:BlackUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Black Users"@en ;
+    rdfs:label "黑人用户"@zh .
+
+ex:DisproportionateHarmToMinorityGroups rdf:type airo:Impact ;
+    rdfs:label "Disproportionate Harm to Minority Groups Impact"@en ;
+    rdfs:label "对少数群体造成不成比例伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackUsers .
+
+ex:RaceBlindAlgorithmDesign rdf:type airo:RiskSource ;
+    rdfs:label "Race-Blind Algorithm Design Risk Source"@en ;
+    rdfs:label "种族盲算法设计的风险源"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:IneffectiveHateSpeechDetection rdf:type airo:Consequence ;
+    rdfs:label "Ineffective Hate Speech Detection Consequence"@en ;
+    rdfs:label "仇恨言论检测失效的后果"@zh ;
+    airo:hasImpact ex:DisproportionateHarmToMinorityGroups .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NaturalCyclesApp rdf:type airo:AISystem ;
+    rdfs:label "自然周期应用"@zh ;
+    rdfs:label "Natural Cycles App"@en ;
+    airo:hasRisk ex:UnintendedPregnancyRisk ;
+    airo:hasPurpose ex:Contraception ;
+    airo:isDeployedBy ex:NaturalCyclesCompany ;
+    airo:hasStakeholder ex:AppUsers ;
+    airo:isAppliedWithinDomain ex:Healthcare .
+
+ex:UnintendedPregnancyRisk rdf:type airo:Risk ;
+    rdfs:label "意外怀孕风险"@zh ;
+    rdfs:label "Unintended Pregnancy Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmInaccuracy ;
+    airo:hasConsequence ex:UnplannedPregnancies .
+
+ex:UnplannedPregnancies rdf:type airo:Consequence ;
+    rdfs:label "意外怀孕后果"@zh ;
+    rdfs:label "Unplanned Pregnancies Consequence"@en ;
+    airo:hasImpact ex:PersonalAndSocialConsequences .
+
+ex:NaturalCyclesCompany rdf:type airo:AIOperator ;
+    rdfs:label "自然周期公司"@zh ;
+    rdfs:label "Natural Cycles Company"@en .
+
+ex:AppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "应用使用者"@zh ;
+    rdfs:label "App Users"@en .
+
+ex:PersonalAndSocialConsequences rdf:type airo:Impact ;
+    rdfs:label "个人和社会影响"@zh ;
+    rdfs:label "Personal and Social Consequences Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AppUsers .
+
+ex:Contraception rdf:type airo:Purpose ;
+    rdfs:label "避孕目的"@zh ;
+    rdfs:label "Contraception Purpose"@en .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "医疗保健领域"@zh ;
+    rdfs:label "Healthcare Domain"@en .
+
+ex:AlgorithmInaccuracy rdf:type airo:RiskSource ;
+    rdfs:label "算法不准确风险源"@zh ;
+    rdfs:label "Algorithm Inaccuracy Risk Source"@en .

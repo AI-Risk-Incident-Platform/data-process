@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedImageSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Image System"@en ;
+    rdfs:label "AI生成图像系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:HighSchoolStudents ;
+    airo:hasStakeholder ex:LawEnforcement .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToStudents ;
+    airo:isRiskSourceFor ex:ImageManipulationTechnology ;
+    airo:hasRisk ex:NonConsensualImageCreation .
+
+ex:PsychologicalHarmToStudents rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Students Consequence"@en ;
+    rdfs:label "对学生心理伤害的后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:HighSchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "High School Students"@en ;
+    rdfs:label "高中学生"@zh .
+
+ex:LawEnforcement rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement"@en ;
+    rdfs:label "执法部门"@zh .
+
+ex:ImageManipulationTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Image Manipulation Technology Risk Source"@en ;
+    rdfs:label "图像处理技术风险源"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "名誉损害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HighSchoolStudents .
+
+ex:NonConsensualImageCreation rdf:type airo:Misuse ;
+    rdfs:label "Non-Consensual Image Creation Misuse"@en ;
+    rdfs:label "未经同意的图像创建滥用"@zh .

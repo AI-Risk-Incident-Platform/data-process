@@ -1,0 +1,49 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VioGénAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "VioGén算法"@zh ;
+    rdfs:label "VioGén Algorithm"@en ;
+    airo:hasRisk ex:FlawedDomesticAbuseRiskAssessment ;
+    airo:isAppliedWithinDomain ex:DomesticViolencePrevention ;
+    airo:hasPurpose ex:GenderViolenceRiskAssessment ;
+    airo:hasStakeholder ex:SpanishGovernment .
+
+ex:FlawedDomesticAbuseRiskAssessment rdf:type airo:Risk ;
+    rdfs:label "有缺陷的家庭暴力风险评估风险"@zh ;
+    rdfs:label "Flawed Domestic Abuse Risk Assessment Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInGenderViolence ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        airo:hasImpact ex:PotentialMisclassificationOfVictims
+    ] .
+
+ex:DomesticViolencePrevention rdf:type airo:Domain ;
+    rdfs:label "家庭暴力预防领域"@zh ;
+    rdfs:label "Domestic Violence Prevention Domain"@en .
+
+ex:GenderViolenceRiskAssessment rdf:type airo:Purpose ;
+    rdfs:label "性别暴力风险评估目的"@zh ;
+    rdfs:label "Gender Violence Risk Assessment Purpose"@en .
+
+ex:SpanishGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "西班牙政府"@zh ;
+    rdfs:label "Spanish Government"@en .
+
+ex:AlgorithmicBiasInGenderViolence rdf:type airo:RiskSource ;
+    rdfs:label "性别暴力中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Gender Violence Risk Source"@en .
+
+ex:PotentialMisclassificationOfVictims rdf:type airo:Impact ;
+    rdfs:label "潜在受害者误分类影响"@zh ;
+    rdfs:label "Potential Misclassification of Victims Impact"@en ;
+    airo:hasImpactOnStakeholder ex:SpanishGovernment .

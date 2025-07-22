@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WorkdayAIJobScreeningTool",
+      "中文名称": "Workday AI职位筛选工具",
+      "英文名称": "Workday AI Job Screening Tool",
+      "来源": "Workday sued over its AI job screening tool, candidate claims discrimination"
+    },
+    "Risk": {
+      "id": "DiscriminationRiskInHiring",
+      "中文名称": "招聘中的歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Workday sued for discrimination over candidate screening"
+    },
+    "Consequence": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    },
+    "AISubject": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "Workday sued over its AI job screening tool, candidate claims discrimination"
+    },
+    "Stakeholder": {
+      "id": "WorkdayInc",
+      "中文名称": "Workday公司",
+      "英文名称": "Workday Inc.",
+      "来源": "Workday sued over its AI job screening tool"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "Workday sued for discrimination over candidate screening"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "有偏见的算法设计风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WorkdayAIJobScreeningTool",
+      "中文名称": "Workday AI职位筛选工具",
+      "英文名称": "Workday AI Job Screening Tool",
+      "来源": "Workday sued over its AI job screening tool, candidate claims discrimination"
+    },
+    "Risk": {
+      "id": "DiscriminationRiskInHiring",
+      "中文名称": "招聘中的歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Workday sued for discrimination over candidate screening"
+    },
+    "Consequence": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    },
+    "AISubject": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "Workday sued over its AI job screening tool, candidate claims discrimination"
+    },
+    "Stakeholder": {
+      "id": "WorkdayInc",
+      "中文名称": "Workday公司",
+      "英文名称": "Workday Inc.",
+      "来源": "Workday sued over its AI job screening tool"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "Workday sued for discrimination over candidate screening"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "有偏见的算法设计风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Workday AI Biased Against Black, Older Applicants, Suit Says"
+    }
+  }
+}

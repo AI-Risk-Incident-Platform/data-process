@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberLyftPricingAlgorithm",
+      "中文名称": "Uber和Lyft定价算法",
+      "英文名称": "Uber and Lyft Pricing Algorithm",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingDiscriminationRisk",
+      "中文名称": "算法定价歧视风险",
+      "英文名称": "Pricing Discrimination Risk",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Consequence": {
+      "id": "HigherTransportationCostsForMinorities",
+      "中文名称": "少数族裔交通成本增加后果",
+      "英文名称": "Higher Transportation Costs for Minorities Consequence",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "AICapability": {
+      "id": "DynamicPricingBasedOnNeighborhoodDemographics",
+      "中文名称": "基于社区人口统计的动态定价能力",
+      "英文名称": "Dynamic Pricing Based on Neighborhood Demographics Capability",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Stakeholder": {
+      "id": "RideHailingServiceUsers",
+      "中文名称": "网约车服务用户",
+      "英文名称": "Ride-Hailing Service Users",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "AISubject": {
+      "id": "ResidentsOfNonWhiteNeighborhoods",
+      "中文名称": "非白人社区居民",
+      "英文名称": "Residents of Non-White Neighborhoods",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Impact": {
+      "id": "EconomicBurdenOnMinorityCommunities",
+      "中文名称": "少数族裔社区经济负担影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "Purpose": {
+      "id": "MaximizeRevenueThroughDynamicPricing",
+      "中文名称": "通过动态定价实现收入最大化目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Domain": {
+      "id": "RideHailingServices",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForDemographicBasedPricing",
+      "中文名称": "基于人口统计的机器学习定价技术",
+      "英文名称": "ML Pricing Model",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Vulnerability": {
+      "id": "LackOfTransparencyInPricingModels",
+      "中文名称": "定价模型缺乏透明度的脆弱性",
+      "英文名称": "Lack of Transparency Vulnerability",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Threat": {
+      "id": "UnintendedAlgorithmicBias",
+      "中文名称": "非预期的算法偏见威胁",
+      "英文名称": "Algorithmic Bias Threat",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Hazard": {
+      "id": "HistoricalSocioeconomicDataBias",
+      "中文名称": "历史社会经济数据偏差危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "RiskSource": {
+      "id": "DemographicCorrelationInPricingData",
+      "中文名称": "定价数据中的人口统计相关性风险源",
+      "英文名称": "Demographic Correlation in Pricing Data Risk Source",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "RiskConcept": {
+      "id": "AlgorithmicDiscriminationInTransportationServices",
+      "中文名称": "交通服务中的算法歧视风险概念",
+      "英文名称": "Algorithmic Discrimination in Transportation Services Risk Concept",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberLyftPricingAlgorithm",
+      "中文名称": "Uber和Lyft定价算法",
+      "英文名称": "Uber and Lyft Pricing Algorithm",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingDiscriminationRisk",
+      "中文名称": "算法定价歧视风险",
+      "英文名称": "Pricing Discrimination Risk",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Consequence": {
+      "id": "HigherTransportationCostsForMinorities",
+      "中文名称": "少数族裔交通成本增加后果",
+      "英文名称": "Higher Transportation Costs for Minorities Consequence",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "AICapability": {
+      "id": "DynamicPricingBasedOnNeighborhoodDemographics",
+      "中文名称": "基于社区人口统计的动态定价能力",
+      "英文名称": "Dynamic Pricing Based on Neighborhood Demographics Capability",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Stakeholder": {
+      "id": "RideHailingServiceUsers",
+      "中文名称": "网约车服务用户",
+      "英文名称": "Ride-Hailing Service Users",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "AISubject": {
+      "id": "ResidentsOfNonWhiteNeighborhoods",
+      "中文名称": "非白人社区居民",
+      "英文名称": "Residents of Non-White Neighborhoods",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Impact": {
+      "id": "EconomicBurdenOnMinorityCommunities",
+      "中文名称": "少数族裔社区经济负担影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    },
+    "Purpose": {
+      "id": "MaximizeRevenueThroughDynamicPricing",
+      "中文名称": "通过动态定价实现收入最大化目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Domain": {
+      "id": "RideHailingServices",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForDemographicBasedPricing",
+      "中文名称": "基于人口统计的机器学习定价技术",
+      "英文名称": "ML Pricing Model",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Vulnerability": {
+      "id": "LackOfTransparencyInPricingModels",
+      "中文名称": "定价模型缺乏透明度的脆弱性",
+      "英文名称": "Lack of Transparency Vulnerability",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "Threat": {
+      "id": "UnintendedAlgorithmicBias",
+      "中文名称": "非预期的算法偏见威胁",
+      "英文名称": "Algorithmic Bias Threat",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "Hazard": {
+      "id": "HistoricalSocioeconomicDataBias",
+      "中文名称": "历史社会经济数据偏差危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Uber and Lyft pricing algorithms charge more in non-white areas"
+    },
+    "RiskSource": {
+      "id": "DemographicCorrelationInPricingData",
+      "中文名称": "定价数据中的人口统计相关性风险源",
+      "英文名称": "Demographic Correlation in Pricing Data Risk Source",
+      "来源": "Uber, Lyft algorithms charged users more for trips to non-white neighborhoods: study"
+    },
+    "RiskConcept": {
+      "id": "AlgorithmicDiscriminationInTransportationServices",
+      "中文名称": "交通服务中的算法歧视风险概念",
+      "英文名称": "Algorithmic Discrimination in Transportation Services Risk Concept",
+      "来源": "Uber, Lyft Charges More For Riders Going To Chicago's Non-White Neighborhoods, Study Shows"
+    }
+  }
+}

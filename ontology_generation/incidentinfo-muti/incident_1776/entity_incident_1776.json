@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RoombaVacuumRobot",
+      "中文名称": "Roomba吸尘机器人",
+      "英文名称": "Roomba Vacuum Robot",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "Risk": {
+      "id": "PrivacyDataCollectionRisk",
+      "中文名称": "隐私数据收集风险",
+      "英文名称": "Privacy Data Collection Risk",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "Consequence": {
+      "id": "HomeLayoutDataExposure",
+      "中文名称": "家庭布局数据暴露后果",
+      "英文名称": "Home Layout Data Exposure Consequence",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "AICapability": {
+      "id": "HomeMappingAndNavigation",
+      "中文名称": "家庭地图绘制与导航能力",
+      "英文名称": "Home Mapping and Navigation Capability",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "AIOperator": {
+      "id": "IRobotCorporation",
+      "中文名称": "iRobot公司",
+      "英文名称": "iRobot Corporation",
+      "来源": "Update: Your Roomba Is Not Selling Your Data"
+    },
+    "Stakeholder": {
+      "id": "Homeowners",
+      "中文名称": "房主",
+      "英文名称": "Homeowners",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "AISubject": {
+      "id": "PrivateHomeSpaces",
+      "中文名称": "私人家庭空间",
+      "英文名称": "Private Home Spaces",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧影响",
+      "英文名称": "Privacy Concerns Impact",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "Purpose": {
+      "id": "AutomatedHomeCleaning",
+      "中文名称": "自动化家庭清洁目的",
+      "英文名称": "Automated Home Cleaning Purpose",
+      "来源": "Update: Your Roomba Is Not Selling Your Data"
+    },
+    "Domain": {
+      "id": "SmartHomeAppliances",
+      "中文名称": "智能家居电器领域",
+      "英文名称": "Smart Home Appliances Domain",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "AITechnique": {
+      "id": "SimultaneousLocalizationAndMapping",
+      "中文名称": "同步定位与地图构建技术",
+      "英文名称": "Simultaneous Localization and Mapping Technique",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "Vulnerability": {
+      "id": "DataCollectionWithoutExplicitConsent",
+      "中文名称": "未经明确同意的数据收集脆弱性",
+      "英文名称": "Data Collection Without Explicit Consent Vulnerability",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "Threat": {
+      "id": "PotentialDataCommercialization",
+      "中文名称": "潜在数据商业化威胁",
+      "英文名称": "Potential Data Commercialization Threat",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    },
+    "Hazard": {
+      "id": "IntrusiveDataCollection",
+      "中文名称": "侵入性数据收集危害",
+      "英文名称": "Intrusive Data Collection Hazard",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "RiskSource": {
+      "id": "HomeMappingFunctionality",
+      "中文名称": "家庭地图绘制功能风险源",
+      "英文名称": "Home Mapping Functionality Risk Source",
+      "来源": "Your Roomba Is Also Gathering Data about the Layout of Your Home"
+    },
+    "RiskConcept": {
+      "id": "SmartDevicePrivacyIssues",
+      "中文名称": "智能设备隐私问题",
+      "英文名称": "Smart Device Privacy Issues Risk Concept",
+      "来源": "Your Roomba may be mapping your home, collecting data that could be sold"
+    }
+  }
+}

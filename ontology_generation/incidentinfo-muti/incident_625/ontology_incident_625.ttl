@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonProductListingAI rdf:type airo:AISystem ;
+    rdfs:label "Amazon Product Listing AI"@en ;
+    rdfs:label "亚马逊产品列表AI"@zh ;
+    airo:hasRisk ex:InappropriateProductListingRisk ;
+    airo:hasCapability ex:AutomatedProductTitleGeneration ;
+    airo:hasStakeholder ex:AmazonCustomers .
+
+ex:InappropriateProductListingRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Product Listing Risk"@en ;
+    rdfs:label "不当产品列表风险"@zh ;
+    airo:hasConsequence ex:ConfusingProductListings ;
+    airo:isRiskSourceFor ex:ImproperAIOutputUsage .
+
+ex:ConfusingProductListings rdf:type airo:Consequence ;
+    rdfs:label "Confusing Product Listings Consequence"@en ;
+    rdfs:label "混淆产品列表后果"@zh ;
+    airo:hasImpact ex:PoorCustomerExperience .
+
+ex:AutomatedProductTitleGeneration rdf:type airo:AICapability ;
+    rdfs:label "Automated Product Title Generation Capability"@en ;
+    rdfs:label "自动产品标题生成能力"@zh .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Customers"@en ;
+    rdfs:label "亚马逊客户"@zh ;
+    airo:hasImpactOnStakeholder ex:PoorCustomerExperience .
+
+ex:ImproperAIOutputUsage rdf:type airo:RiskSource ;
+    rdfs:label "Improper AI Output Usage Risk Source"@en ;
+    rdfs:label "不当AI输出使用风险源"@zh ;
+    airo:isRiskSourceFor ex:InappropriateProductListingRisk .
+
+ex:PoorCustomerExperience rdf:type airo:Impact ;
+    rdfs:label "Poor Customer Experience Impact"@en ;
+    rdfs:label "不良客户体验影响"@zh .

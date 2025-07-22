@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIControlledVTuber rdf:type airo:AISystem ;
+    rdfs:label "AI-Controlled VTuber"@en ;
+    rdfs:label "AI控制的虚拟主播"@zh ;
+    airo:hasRisk ex:HolocaustDenialRisk ;
+    airo:hasStakeholder ex:TwitchPlatform .
+
+ex:HolocaustDenialRisk rdf:type airo:Risk ;
+    rdfs:label "Holocaust Denial Risk"@en ;
+    rdfs:label "否认大屠杀风险"@zh ;
+    airo:hasConsequence ex:HistoricalRevisionism .
+
+ex:TwitchPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "Twitch Platform"@en ;
+    rdfs:label "Twitch平台"@zh .
+
+ex:HistoricalRevisionism rdf:type airo:Consequence ;
+    rdfs:label "Historical Revisionism Consequence"@en ;
+    rdfs:label "历史修正主义后果"@zh ;
+    airo:hasImpact ex:MisinformationSpread .
+
+ex:MisinformationSpread rdf:type airo:Impact ;
+    rdfs:label "Misinformation Spread Impact"@en ;
+    rdfs:label "错误信息传播影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TwitchPlatform .

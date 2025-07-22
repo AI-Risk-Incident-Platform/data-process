@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIMusicTrainingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Music Training System"@en ;
+    rdfs:label "AI音乐训练系统"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:hasPurpose ex:MusicGeneration ;
+    airo:isAppliedWithinDomain ex:MusicIndustry ;
+    airo:isDeployedBy ex:AITechCompanies ;
+    airo:hasStakeholder ex:WarnerMusicGroup .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedContentUse ;
+    airo:hasConsequence ex:LegalAction .
+
+ex:WarnerMusicGroup rdf:type airo:Stakeholder ;
+    rdfs:label "Warner Music Group"@en ;
+    rdfs:label "华纳音乐集团"@zh .
+
+ex:AITechCompanies rdf:type airo:AIOperator ;
+    rdfs:label "AI Tech Companies"@en ;
+    rdfs:label "AI科技公司"@zh .
+
+ex:MusicGeneration rdf:type airo:Purpose ;
+    rdfs:label "Music Generation"@en ;
+    rdfs:label "音乐生成"@zh .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Industry"@en ;
+    rdfs:label "音乐产业"@zh .
+
+ex:UnauthorizedContentUse rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Content Use"@en ;
+    rdfs:label "未经授权的内容使用"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action"@en ;
+    rdfs:label "法律诉讼"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpactOnStakeholder ex:WarnerMusicGroup .

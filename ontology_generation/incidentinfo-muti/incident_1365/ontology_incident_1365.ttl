@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionDatasets rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Datasets"@en ;
+    rdfs:label "面部识别数据集"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:CollegeStudents ;
+    airo:hasStakeholder ex:FacialRecognitionDevelopers ;
+    airo:hasPurpose ex:FacialRecognitionDevelopment ;
+    airo:isAppliedWithinDomain ex:Biometrics ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection ;
+    airo:isRiskSourceFor ex:SecretDataCollection .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection Consequence"@en ;
+    rdfs:label "未经授权的数据收集后果"@zh ;
+    airo:hasImpact ex:LossOfPrivacy .
+
+ex:CollegeStudents rdf:type airo:AISubject ;
+    rdfs:label "College Students"@en ;
+    rdfs:label "大学生"@zh .
+
+ex:FacialRecognitionDevelopers rdf:type airo:Stakeholder ;
+    rdfs:label "Facial Recognition Developers"@en ;
+    rdfs:label "面部识别开发者"@zh .
+
+ex:LossOfPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Privacy Impact"@en ;
+    rdfs:label "隐私丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CollegeStudents .
+
+ex:FacialRecognitionDevelopment rdf:type airo:Purpose ;
+    rdfs:label "Facial Recognition Development Purpose"@en ;
+    rdfs:label "面部识别开发的目的"@zh .
+
+ex:Biometrics rdf:type airo:Domain ;
+    rdfs:label "Biometrics Domain"@en ;
+    rdfs:label "生物识别领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:SecretDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Secret Data Collection Risk Source"@en ;
+    rdfs:label "秘密数据收集的风险源"@zh .

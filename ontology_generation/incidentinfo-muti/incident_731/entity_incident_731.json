@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AISpambots",
+      "中文名称": "AI垃圾邮件机器人",
+      "英文名称": "AI Spambots",
+      "来源": "AI spambots invade community college classroom"
+    },
+    "Risk": {
+      "id": "ClassroomDisruptionRisk",
+      "中文名称": "课堂干扰风险",
+      "英文名称": "Classroom Disruption Risk",
+      "来源": "AI spambots invade community college classroom"
+    },
+    "Stakeholder": {
+      "id": "CollegeProfessor",
+      "中文名称": "大学教授",
+      "英文名称": "College Professor",
+      "来源": "professor puzzled"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "community college classroom"
+    },
+    "Impact": {
+      "id": "TeachingDisruption",
+      "中文名称": "教学中断影响",
+      "英文名称": "Teaching Disruption Impact",
+      "来源": "invade community college classroom"
+    }
+  }
+}

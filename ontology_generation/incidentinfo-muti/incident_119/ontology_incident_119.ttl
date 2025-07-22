@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook人工智能系统"@zh ;
+    rdfs:label "Facebook AI System"@en ;
+    airo:hasRisk ex:RacialBiasInAILabeling ;
+    airo:hasStakeholder ex:BlackMenInVideo ;
+    airo:isDeployedBy ex:FacebookCompany .
+
+ex:RacialBiasInAILabeling rdf:type airo:Risk ;
+    rdfs:label "AI标签中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in AI Labeling Risk"@en ;
+    airo:hasConsequence ex:RacialDiscrimination ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:RacialDiscrimination rdf:type airo:Consequence ;
+    rdfs:label "种族歧视后果"@zh ;
+    rdfs:label "Racial Discrimination Consequence"@en ;
+    airo:hasImpact ex:HarmToBlackCommunity .
+
+ex:HarmToBlackCommunity rdf:type airo:Impact ;
+    rdfs:label "对黑人社区的伤害影响"@zh ;
+    rdfs:label "Harm to Black Community Impact"@en ;
+    airo:hasImpactOnStakeholder ex:BlackMenInVideo .
+
+ex:BlackMenInVideo rdf:type airo:Stakeholder ;
+    rdfs:label "视频中的黑人男性"@zh ;
+    rdfs:label "Black Men in Video"@en .
+
+ex:FacebookCompany rdf:type airo:AIOperator ;
+    rdfs:label "Facebook公司"@zh ;
+    rdfs:label "Facebook Company"@en .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "有偏见的训练数据风险源"@zh ;
+    rdfs:label "Biased Training Data Risk Source"@en .

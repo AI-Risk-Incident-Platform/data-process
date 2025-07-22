@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIBot",
+      "中文名称": "OpenAI机器人",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Digital art website crippled by OpenAI bot scraping"
+    },
+    "Risk": {
+      "id": "WebsiteOverloadRisk",
+      "中文名称": "网站过载风险",
+      "英文名称": "Website Overload Risk",
+      "来源": "How OpenAI's bot crushed this seven-person company's web site like a DDoS attack"
+    },
+    "Consequence": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断",
+      "英文名称": "Service Disruption",
+      "来源": "OpenAI Bot Takes Down Small Business Website"
+    },
+    "Impact": {
+      "id": "BusinessOperationFailure",
+      "中文名称": "业务运营失败",
+      "英文名称": "Business Operation Failure",
+      "来源": "crippled by OpenAI bot scraping"
+    },
+    "Stakeholder": {
+      "id": "SmallBusinessOwner",
+      "中文名称": "小企业主",
+      "英文名称": "Small Businessperson",
+      "来源": "this seven-person company's web site"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's bot"
+    },
+    "RiskSource": {
+      "id": "UncontrolledWebScraping",
+      "中文名称": "不受控制的网络爬取",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "bot scraping"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIBot",
+      "中文名称": "OpenAI机器人",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Digital art website crippled by OpenAI bot scraping"
+    },
+    "Risk": {
+      "id": "WebsiteOverloadRisk",
+      "中文名称": "网站过载风险",
+      "英文名称": "Website Overload Risk",
+      "来源": "How OpenAI's bot crushed this seven-person company's web site like a DDoS attack"
+    },
+    "Consequence": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断",
+      "英文名称": "Service Disruption",
+      "来源": "OpenAI Bot Takes Down Small Business Website"
+    },
+    "Impact": {
+      "id": "BusinessOperationFailure",
+      "中文名称": "业务运营失败",
+      "英文名称": "Business Operation Failure",
+      "来源": "crippled by OpenAI bot scraping"
+    },
+    "Stakeholder": {
+      "id": "SmallBusinessOwner",
+      "中文名称": "小企业主",
+      "英文名称": "Small Businessperson",
+      "来源": "this seven-person company's web site"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's bot"
+    },
+    "RiskSource": {
+      "id": "UncontrolledWebScraping",
+      "中文名称": "不受控制的网络爬取",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "bot scraping"
+    }
+  }
+}

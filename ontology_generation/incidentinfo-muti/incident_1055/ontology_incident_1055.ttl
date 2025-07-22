@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:FraudRisk ;
+    airo:hasStakeholder ex:ScamVictims ;
+    airo:isDeployedBy ex:HackerGroup ;
+    airo:hasRisk ex:DeepfakeForScam .
+
+ex:FraudRisk rdf:type airo:Risk ;
+    rdfs:label "Fraud Risk"@en ;
+    rdfs:label "欺诈风险"@zh ;
+    airo:hasImpactOnStakeholder ex:ScamVictims .
+
+ex:ScamVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Scam Victims"@en ;
+    rdfs:label "诈骗受害者"@zh .
+
+ex:HackerGroup rdf:type airo:AIOperator ;
+    rdfs:label "Hacker Group"@en ;
+    rdfs:label "黑客组织"@zh .
+
+ex:DeepfakeForScam rdf:type airo:Misuse ;
+    rdfs:label "Deepfake for Scam"@en ;
+    rdfs:label "用于诈骗的深度伪造"@zh ;
+    airo:isRiskSourceFor ex:FraudRisk .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutonomousMilitaryDrone rdf:type airo:AISystem ;
+    rdfs:label "Autonomous Military Drone"@en ;
+    rdfs:label "自主军事无人机"@zh ;
+    airo:hasRisk ex:AutonomousWeaponRisk ;
+    airo:hasCapability ex:AutonomousTargeting ;
+    airo:usesTechnique ex:MachineLearningForCombat ;
+    airo:isAppliedWithinDomain ex:MilitaryCombat ;
+    airo:hasStakeholder ex:UnitedNations .
+
+ex:AutonomousWeaponRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Weapon Risk"@en ;
+    rdfs:label "自主武器风险"@zh ;
+    airo:hasConsequence ex:CivilianCasualties ;
+    airo:isRiskSourceFor ex:LackOfHumanControl .
+
+ex:CivilianCasualties rdf:type airo:Consequence ;
+    rdfs:label "Civilian Casualties Consequence"@en ;
+    rdfs:label "平民伤亡后果"@zh ;
+    airo:hasImpact ex:EthicalConcerns .
+
+ex:AutonomousTargeting rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Targeting Capability"@en ;
+    rdfs:label "自主目标锁定能力"@zh .
+
+ex:UnitedNations rdf:type airo:Stakeholder ;
+    rdfs:label "United Nations"@en ;
+    rdfs:label "联合国"@zh .
+
+ex:MilitaryCombat rdf:type airo:Domain ;
+    rdfs:label "Military Combat Domain"@en ;
+    rdfs:label "军事作战领域"@zh .
+
+ex:EthicalConcerns rdf:type airo:Impact ;
+    rdfs:label "Ethical Concerns Impact"@en ;
+    rdfs:label "伦理关切影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UnitedNations .
+
+ex:MachineLearningForCombat rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Combat Technique"@en ;
+    rdfs:label "用于作战的机器学习技术"@zh .
+
+ex:LackOfHumanControl rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Control Risk Source"@en ;
+    rdfs:label "缺乏人类控制的风险源"@zh .

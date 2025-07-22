@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeloitteMedicaidEligibilitySystem",
+      "中文名称": "德勤医疗补助资格系统",
+      "英文名称": "Deloitte Medicaid Eligibility System",
+      "来源": "Judge Rules Thousands Illegally Booted off Tennessee Medicaid by Deloitte System Similar to Texas"
+    },
+    "Risk": {
+      "id": "IllegalDenialOfMedicaidBenefits",
+      "中文名称": "非法拒绝医疗补助福利风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Judge Rules $400 Million Algorithmic System Illegally Denied Thousands of People's Medicaid Benefits"
+    },
+    "Stakeholder": {
+      "id": "MedicaidApplicants",
+      "中文名称": "医疗补助申请人",
+      "英文名称": "Medicaid Applicants",
+      "来源": "Thousands of People's Medicaid Benefits"
+    },
+    "AIOperator": {
+      "id": "Deloitte",
+      "中文名称": "德勤",
+      "英文名称": "Deloitte",
+      "来源": "Deloitte System Similar to Texas"
+    },
+    "Consequence": {
+      "id": "LossOfHealthcareCoverage",
+      "中文名称": "失去医疗保障后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Illegally Booted off Tennessee Medicaid"
+    },
+    "Impact": {
+      "id": "PublicHealthCrisis",
+      "中文名称": "公共卫生危机影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Thousands of People's Medicaid Benefits"
+    },
+    "Purpose": {
+      "id": "AutomatedEligibilityDetermination",
+      "中文名称": "自动资格确定目的",
+      "英文名称": "Automated Eligibility Determination",
+      "来源": "Algorithmic System"
+    },
+    "Domain": {
+      "id": "PublicHealthcareAdministration",
+      "中文名称": "公共医疗管理领域",
+      "英文名称": "Public Healthcare Administration Domain",
+      "来源": "Medicaid Benefits"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeloitteMedicaidEligibilitySystem",
+      "中文名称": "德勤医疗补助资格系统",
+      "英文名称": "Deloitte Medicaid Eligibility System",
+      "来源": "Judge Rules Thousands Illegally Booted off Tennessee Medicaid by Deloitte System Similar to Texas"
+    },
+    "Risk": {
+      "id": "IllegalDenialOfMedicaidBenefits",
+      "中文名称": "非法拒绝医疗补助福利风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Judge Rules $400 Million Algorithmic System Illegally Denied Thousands of People's Medicaid Benefits"
+    },
+    "Stakeholder": {
+      "id": "MedicaidApplicants",
+      "中文名称": "医疗补助申请人",
+      "英文名称": "Medicaid Applicants",
+      "来源": "Thousands of People's Medicaid Benefits"
+    },
+    "AIOperator": {
+      "id": "Deloitte",
+      "中文名称": "德勤",
+      "英文名称": "Deloitte",
+      "来源": "Deloitte System Similar to Texas"
+    },
+    "Consequence": {
+      "id": "LossOfHealthcareCoverage",
+      "中文名称": "失去医疗保障后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Illegally Booted off Tennessee Medicaid"
+    },
+    "Impact": {
+      "id": "PublicHealthCrisis",
+      "中文名称": "公共卫生危机影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Thousands of People's Medicaid Benefits"
+    },
+    "Purpose": {
+      "id": "AutomatedEligibilityDetermination",
+      "中文名称": "自动资格确定目的",
+      "英文名称": "Automated Eligibility Determination",
+      "来源": "Algorithmic System"
+    },
+    "Domain": {
+      "id": "PublicHealthcareAdministration",
+      "中文名称": "公共医疗管理领域",
+      "英文名称": "Public Healthcare Administration Domain",
+      "来源": "Medicaid Benefits"
+    }
+  }
+}

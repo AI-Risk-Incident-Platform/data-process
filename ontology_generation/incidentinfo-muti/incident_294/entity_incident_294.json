@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Another Tesla Autopilot Crash Has Wrecked A Model 3 In Greece"
+    },
+    "Risk": {
+      "id": "AutopilotMalfunctionRisk",
+      "中文名称": "自动驾驶故障风险",
+      "英文名称": "Autopilot Malfunction Risk",
+      "来源": "Greece: Driver claims autopilot malfunction in Tesla crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Another Tesla Autopilot Crash Has Wrecked A Model 3 In Greece"
+    },
+    "AISubject": {
+      "id": "TeslaModel3Driver",
+      "中文名称": "特斯拉Model 3驾驶员",
+      "英文名称": "Tesla Model 3 Driver",
+      "来源": "Greece: Driver claims autopilot malfunction in Tesla crash"
+    },
+    "Consequence": {
+      "id": "VehicleCrash",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Vehicle Crash Consequence",
+      "来源": "Another Tesla Autopilot Crash Has Wrecked A Model 3 In Greece"
+    }
+  }
+}

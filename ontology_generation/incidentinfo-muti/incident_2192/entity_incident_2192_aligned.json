@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AILieDetectorTestSystem",
+      "中文名称": "AI测谎系统",
+      "英文名称": "AI Lie Detector Test System",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Risk": {
+      "id": "InaccuracyInLieDetectionRisk",
+      "中文名称": "测谎不准确风险",
+      "英文名称": "Inaccuracy in Lie Detection Risk",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "AICapability": {
+      "id": "LieDetectionCapability",
+      "中文名称": "测谎能力",
+      "英文名称": "Lie Detection Capability",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Domain": {
+      "id": "AirportSecurity",
+      "中文名称": "机场安全领域",
+      "英文名称": "Airport Security",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Purpose": {
+      "id": "EnhancingSecurityScreening",
+      "中文名称": "加强安全检查目的",
+      "英文名称": "Security Screening & Weapon Detection",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "RiskSource": {
+      "id": "InherentLimitationsOfLieDetectionTechnology",
+      "中文名称": "测谎技术固有局限风险源",
+      "英文名称": "Inherent Limitations of Lie Detection Technology Risk Source",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Consequence": {
+      "id": "FalsePositivesInSecurityScreening",
+      "中文名称": "安全检查误报后果",
+      "英文名称": "False Positives in Security Screening Consequence",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Impact": {
+      "id": "UnnecessaryPassengerDetention",
+      "中文名称": "不必要乘客拘留影响",
+      "英文名称": "Passenger Detention Impact",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Stakeholder": {
+      "id": "AirPassengers",
+      "中文名称": "航空乘客",
+      "英文名称": "Air Passengers",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "AIOperator": {
+      "id": "EUAirportAuthorities",
+      "中文名称": "欧盟机场当局",
+      "英文名称": "EU Airport Authorities",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AILieDetectorTestSystem",
+      "中文名称": "AI测谎系统",
+      "英文名称": "AI Lie Detector Test System",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Risk": {
+      "id": "InaccuracyInLieDetectionRisk",
+      "中文名称": "测谎不准确风险",
+      "英文名称": "Inaccuracy in Lie Detection Risk",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "AICapability": {
+      "id": "LieDetectionCapability",
+      "中文名称": "测谎能力",
+      "英文名称": "Lie Detection Capability",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Domain": {
+      "id": "AirportSecurity",
+      "中文名称": "机场安全领域",
+      "英文名称": "Airport Security",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "Purpose": {
+      "id": "EnhancingSecurityScreening",
+      "中文名称": "加强安全检查目的",
+      "英文名称": "Security Screening & Weapon Detection",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "RiskSource": {
+      "id": "InherentLimitationsOfLieDetectionTechnology",
+      "中文名称": "测谎技术固有局限风险源",
+      "英文名称": "Inherent Limitations of Lie Detection Technology Risk Source",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Consequence": {
+      "id": "FalsePositivesInSecurityScreening",
+      "中文名称": "安全检查误报后果",
+      "英文名称": "False Positives in Security Screening Consequence",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Impact": {
+      "id": "UnnecessaryPassengerDetention",
+      "中文名称": "不必要乘客拘留影响",
+      "英文名称": "Passenger Detention Impact",
+      "来源": "Lie detectors have always been suspect. AI has made the problem worse."
+    },
+    "Stakeholder": {
+      "id": "AirPassengers",
+      "中文名称": "航空乘客",
+      "英文名称": "Air Passengers",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    },
+    "AIOperator": {
+      "id": "EUAirportAuthorities",
+      "中文名称": "欧盟机场当局",
+      "英文名称": "EU Airport Authorities",
+      "来源": "Passengers to face AI lie detector tests at EU airports"
+    }
+  }
+}

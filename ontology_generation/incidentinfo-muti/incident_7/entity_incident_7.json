@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonContentFilteringSystem",
+      "中文名称": "亚马逊内容过滤系统",
+      "英文名称": "Amazon Content Filtering System",
+      "来源": "Amazon 'Glitch' Delists Gay-Themed Books, Interwebs Cry Foul"
+    },
+    "Risk": {
+      "id": "ContentCensorshipRisk",
+      "中文名称": "内容审查风险",
+      "英文名称": "Content Censorship Risk",
+      "来源": "Amazon Censors Gay Books"
+    },
+    "Consequence": {
+      "id": "ExclusionOfLGBTQContent",
+      "中文名称": "排除LGBTQ内容后果",
+      "英文名称": "Exclusion of LGBTQ Content Consequence",
+      "来源": "Amazon Censors Gay Books"
+    },
+    "Stakeholder": {
+      "id": "LGBTQCommunity",
+      "中文名称": "LGBTQ群体",
+      "英文名称": "LGBTQ Community",
+      "来源": "Amazon Censorship - Who is affected?"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon Inc.",
+      "来源": "Amazon 'Glitch' Delists Gay-Themed Books, Interwebs Cry Foul"
+    },
+    "Impact": {
+      "id": "ReducedAccessToDiverseContent",
+      "中文名称": "减少获取多样化内容的影响",
+      "英文名称": "Reduced Access to Diverse Content Impact",
+      "来源": "Amazon Censorship - Who is affected?"
+    },
+    "Purpose": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核目的",
+      "英文名称": "Content Moderation Purpose",
+      "来源": "Amazon 'Glitch' Delists Gay-Themed Books, Interwebs Cry Foul"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasAgainstLGBTQContent",
+      "中文名称": "针对LGBTQ内容的算法偏见风险源",
+      "英文名称": "Algorithmic Bias Against LGBTQ Content Risk Source",
+      "来源": "Amazon Censors Gay Books"
+    }
+  }
+}

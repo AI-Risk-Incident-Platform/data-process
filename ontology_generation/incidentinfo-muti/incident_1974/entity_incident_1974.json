@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Don't believe ChatGPT - we do NOT offer a \"phone lookup\" service"
+    },
+    "Risk": {
+      "id": "InaccurateInformationRisk",
+      "中文名称": "信息不准确风险",
+      "英文名称": "Inaccurate Information Risk",
+      "来源": "ChatGPT’s inaccuracies are causing real harm"
+    },
+    "Consequence": {
+      "id": "MisleadingServiceClaims",
+      "中文名称": "误导性服务声明后果",
+      "英文名称": "Misleading Service Claims Consequence",
+      "来源": "Don't believe ChatGPT - we do NOT offer a \"phone lookup\" service"
+    },
+    "Impact": {
+      "id": "UserHarm",
+      "中文名称": "用户伤害影响",
+      "英文名称": "User Harm Impact",
+      "来源": "ChatGPT’s inaccuracies are causing real harm"
+    },
+    "Stakeholder": {
+      "id": "ServiceProviders",
+      "中文名称": "服务提供商",
+      "英文名称": "Service Providers",
+      "来源": "Don't believe ChatGPT - we do NOT offer a \"phone lookup\" service"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "ChatGPT"
+    },
+    "Domain": {
+      "id": "InformationServices",
+      "中文名称": "信息服务领域",
+      "英文名称": "Information Services Domain",
+      "来源": "ChatGPT"
+    }
+  }
+}

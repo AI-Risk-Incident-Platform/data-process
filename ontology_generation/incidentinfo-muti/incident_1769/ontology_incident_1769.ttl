@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GovernmentSubsidyAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "政府补贴算法"@zh ;
+    rdfs:label "Government Subsidy Algorithm"@en ;
+    airo:hasRisk ex:LackOfTransparencyRisk ;
+    airo:isDeployedBy ex:Government ;
+    airo:hasStakeholder ex:Citizens ;
+    airo:isAppliedWithinDomain ex:PublicSubsidyManagement .
+
+ex:LackOfTransparencyRisk rdf:type airo:Risk ;
+    rdfs:label "缺乏透明度风险"@zh ;
+    rdfs:label "Lack of Transparency Risk"@en ;
+    airo:isRiskSourceFor ex:SecretAlgorithm ;
+    airo:hasConsequence ex:UnfairSubsidyDistribution .
+
+ex:Citizens rdf:type airo:Stakeholder ;
+    rdfs:label "公民"@zh ;
+    rdfs:label "Citizens"@en .
+
+ex:Government rdf:type airo:AIOperator ;
+    rdfs:label "政府"@zh ;
+    rdfs:label "Government"@en .
+
+ex:SecretAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "秘密算法"@zh ;
+    rdfs:label "Secret Algorithm"@en .
+
+ex:UnfairSubsidyDistribution rdf:type airo:Consequence ;
+    rdfs:label "补贴分配不公后果"@zh ;
+    rdfs:label "Unfair Subsidy Distribution Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:Citizens .
+
+ex:PublicSubsidyManagement rdf:type airo:Domain ;
+    rdfs:label "公共补贴管理领域"@zh ;
+    rdfs:label "Public Subsidy Management Domain"@en .

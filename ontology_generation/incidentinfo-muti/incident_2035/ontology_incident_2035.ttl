@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingBeta rdf:type airo:AISystem ;
+    rdfs:label "Tesla Full Self-Driving Beta"@en ;
+    rdfs:label "特斯拉全自动驾驶测试版"@zh ;
+    airo:hasRisk ex:RollingStopRisk ;
+    airo:hasCapability ex:AssertiveDrivingMode ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TeslaDrivers ;
+    airo:hasAISubject ex:RoadUsers ;
+    airo:hasPurpose ex:AutonomousDrivingAssistance ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionBasedNavigation .
+
+ex:RollingStopRisk rdf:type airo:Risk ;
+    rdfs:label "Rolling Stop Risk"@en ;
+    rdfs:label "滚动停车风险"@zh ;
+    airo:hasConsequence ex:JerkDrivingBehavior ;
+    airo:isRiskSourceFor ex:AssertiveDrivingModeSetting .
+
+ex:JerkDrivingBehavior rdf:type airo:Consequence ;
+    rdfs:label "Jerk Driving Behavior Consequence"@en ;
+    rdfs:label "急刹车驾驶行为后果"@zh ;
+    airo:hasImpact ex:TrafficSafetyConcern .
+
+ex:AssertiveDrivingMode rdf:type airo:AICapability ;
+    rdfs:label "Assertive Driving Mode Capability"@en ;
+    rdfs:label "自信驾驶模式能力"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:TeslaDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Drivers"@en ;
+    rdfs:label "特斯拉驾驶员"@zh .
+
+ex:RoadUsers rdf:type airo:AISubject ;
+    rdfs:label "Road Users"@en ;
+    rdfs:label "道路使用者"@zh .
+
+ex:TrafficSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Traffic Safety Concern Impact"@en ;
+    rdfs:label "交通安全担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeslaDrivers , ex:RoadUsers .
+
+ex:AutonomousDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Driving Assistance Purpose"@en ;
+    rdfs:label "自动驾驶辅助的目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVisionBasedNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Based Navigation Technique"@en ;
+    rdfs:label "基于计算机视觉的导航技术"@zh .
+
+ex:AssertiveDrivingModeSetting rdf:type airo:RiskSource ;
+    rdfs:label "Assertive Driving Mode Setting Risk Source"@en ;
+    rdfs:label "自信驾驶模式设置的风险源"@zh ;
+    airo:exploitsVulnerability ex:TrafficRuleInterpretation ;
+    airo:isThreatenedBy ex:AggressiveDrivingBehavior ;
+    airo:isHazardousTo ex:UnpredictableVehicleManeuvers .
+
+ex:TrafficRuleInterpretation rdf:type airo:Vulnerability ;
+    rdfs:label "Traffic Rule Interpretation Vulnerability"@en ;
+    rdfs:label "交通规则解释的脆弱性"@zh .
+
+ex:AggressiveDrivingBehavior rdf:type airo:Threat ;
+    rdfs:label "Aggressive Driving Behavior Threat"@en ;
+    rdfs:label "激进驾驶行为的威胁"@zh .
+
+ex:UnpredictableVehicleManeuvers rdf:type airo:Hazard ;
+    rdfs:label "Unpredictable Vehicle Maneuvers Hazard"@en ;
+    rdfs:label "不可预测的车辆操作危害"@zh .
+
+ex:AutonomousVehicleSafetyChallenge rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Safety Challenge Risk Concept"@en ;
+    rdfs:label "自动驾驶车辆安全挑战"@zh .

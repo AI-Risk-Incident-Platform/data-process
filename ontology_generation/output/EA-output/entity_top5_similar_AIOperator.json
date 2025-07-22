@@ -1,0 +1,58 @@
+{
+  "Google": [
+    [
+      "Google LLC",
+      0.9323069140028385
+    ],
+    [
+      "Amazon Inc.",
+      0.8853142743072303
+    ],
+    [
+      "Starbucks Corporation",
+      0.799438665261462
+    ]
+  ],
+  "Amazon Inc.": [
+    [
+      "Google",
+      0.8853142743072303
+    ],
+    [
+      "Starbucks Corporation",
+      0.8820590800884274
+    ],
+    [
+      "Google LLC",
+      0.8790183099312179
+    ]
+  ],
+  "Starbucks Corporation": [
+    [
+      "Amazon Inc.",
+      0.8820590800884274
+    ],
+    [
+      "Google LLC",
+      0.8039338711610153
+    ],
+    [
+      "Google",
+      0.799438665261462
+    ]
+  ],
+  "Google LLC": [
+    [
+      "Google",
+      0.9323069140028385
+    ],
+    [
+      "Amazon Inc.",
+      0.8790183099312179
+    ],
+    [
+      "Starbucks Corporation",
+      0.8039338711610153
+    ]
+  ]
+}

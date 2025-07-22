@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IBMSurveillanceSoftware rdf:type airo:AISystem ;
+    rdfs:label "IBM Surveillance Software"@en ;
+    rdfs:label "IBM监控软件"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:ObjectRecognition ;
+    airo:isDeployedBy ex:IBM ;
+    airo:hasStakeholder ex:NYPD ;
+    airo:isAppliedWithinDomain ex:PublicSafety .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:BiasedSurveillance ;
+    airo:isRiskSourceFor ex:UnauthorizedDataUsage .
+
+ex:ObjectRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Object Recognition Technique"@en ;
+    rdfs:label "物体识别技术"@zh .
+
+ex:NYPD rdf:type airo:Stakeholder ;
+    rdfs:label "New York Police Department"@en ;
+    rdfs:label "纽约警察局"@zh .
+
+ex:IBM rdf:type airo:AIOperator ;
+    rdfs:label "IBM Corporation"@en ;
+    rdfs:label "IBM公司"@zh .
+
+ex:UnauthorizedDataUsage rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Usage"@en ;
+    rdfs:label "未经授权的数据使用"@zh .
+
+ex:BiasedSurveillance rdf:type airo:Consequence ;
+    rdfs:label "Biased Surveillance"@en ;
+    rdfs:label "偏见性监控"@zh .
+
+ex:PublicSafety rdf:type airo:Domain ;
+    rdfs:label "Public Safety Domain"@en ;
+    rdfs:label "公共安全领域"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GOMediaAIContentGeneration rdf:type airo:AISystem ;
+    rdfs:label "G/O Media AI Content Generation"@en ;
+    rdfs:label "G/O媒体AI生成内容"@zh ;
+    airo:hasRisk ex:LowQualityAIContentRisk ;
+    airo:hasStakeholder ex:GizmodoStaff ;
+    airo:isDeployedBy ex:GOMedia ;
+    airo:isAppliedWithinDomain ex:MediaPublishing .
+
+ex:LowQualityAIContentRisk rdf:type airo:Risk ;
+    rdfs:label "Low Quality AI Content Risk"@en ;
+    rdfs:label "低质量AI内容风险"@zh ;
+    airo:hasConsequence ex:StaffDissatisfaction ;
+    airo:isRiskSourceFor ex:AIWritingErrors .
+
+ex:StaffDissatisfaction rdf:type airo:Consequence ;
+    rdfs:label "Staff Dissatisfaction Consequence"@en ;
+    rdfs:label "员工不满后果"@zh ;
+    airo:hasImpact ex:ContentQualityDegradation .
+
+ex:ContentQualityDegradation rdf:type airo:Impact ;
+    rdfs:label "Content Quality Degradation Impact"@en ;
+    rdfs:label "内容质量下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GizmodoStaff .
+
+ex:GizmodoStaff rdf:type airo:Stakeholder ;
+    rdfs:label "Gizmodo Staff"@en ;
+    rdfs:label "Gizmodo员工"@zh .
+
+ex:GOMedia rdf:type airo:AIOperator ;
+    rdfs:label "G/O Media"@en ;
+    rdfs:label "G/O媒体"@zh .
+
+ex:AIWritingErrors rdf:type airo:RiskSource ;
+    rdfs:label "AI Writing Errors Risk Source"@en ;
+    rdfs:label "AI写作错误风险源"@zh .
+
+ex:MediaPublishing rdf:type airo:Domain ;
+    rdfs:label "Media Publishing Domain"@en ;
+    rdfs:label "媒体出版领域"@zh .

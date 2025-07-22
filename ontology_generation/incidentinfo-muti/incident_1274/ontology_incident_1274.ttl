@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DoNotPayRobotLawyer rdf:type airo:AISystem ;
+    rdfs:label "DoNotPay Robot Lawyer"@en ;
+    rdfs:label "DoNotPay机器人律师"@zh ;
+    airo:hasRisk ex:MisrepresentationOfAICapabilities ;
+    airo:hasPurpose ex:AutomatedLegalServices ;
+    airo:isDevelopedBy ex:DoNotPayCompany ;
+    airo:hasStakeholder ex:FederalTradeCommission .
+
+ex:MisrepresentationOfAICapabilities rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation of AI Capabilities Risk"@en ;
+    rdfs:label "AI能力虚假陈述风险"@zh ;
+    airo:hasConsequence ex:RegulatoryPenalty ;
+    airo:isRiskSourceFor ex:ExaggeratedMarketingClaims .
+
+ex:FederalTradeCommission rdf:type airo:Stakeholder ;
+    rdfs:label "Federal Trade Commission"@en ;
+    rdfs:label "联邦贸易委员会"@zh .
+
+ex:RegulatoryPenalty rdf:type airo:Consequence ;
+    rdfs:label "Regulatory Penalty Consequence"@en ;
+    rdfs:label "监管处罚后果"@zh ;
+    airo:hasImpact ex:ConsumerDeception .
+
+ex:DoNotPayCompany rdf:type airo:AIOperator ;
+    rdfs:label "DoNotPay Company"@en ;
+    rdfs:label "DoNotPay公司"@zh .
+
+ex:AutomatedLegalServices rdf:type airo:Purpose ;
+    rdfs:label "Automated Legal Services Purpose"@en ;
+    rdfs:label "自动化法律服务目的"@zh .
+
+ex:ExaggeratedMarketingClaims rdf:type airo:RiskSource ;
+    rdfs:label "Exaggerated Marketing Claims Risk Source"@en ;
+    rdfs:label "夸大营销宣传风险源"@zh .
+
+ex:ConsumerDeception rdf:type airo:Impact ;
+    rdfs:label "Consumer Deception Impact"@en ;
+    rdfs:label "消费者欺骗影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FederalTradeCommission .

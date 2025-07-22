@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonHalo rdf:type airo:AISystem ;
+    rdfs:label "亚马逊Halo"@zh ;
+    rdfs:label "Amazon Halo"@en ;
+    airo:hasRisk ex:SurveillanceCapitalismRisk ;
+    airo:isAppliedWithinDomain ex:FitnessWearable ;
+    airo:hasPurpose ex:HealthMonitoring ;
+    airo:hasStakeholder ex:Amazon .
+
+ex:SurveillanceCapitalismRisk rdf:type airo:Risk ;
+    rdfs:label "监控资本主义风险"@zh ;
+    rdfs:label "Surveillance Capitalism Risk"@en ;
+    airo:isRiskSourceFor ex:DataCollection ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "监控资本主义风险后果"@zh ;
+        rdfs:label "Consequence of Surveillance Capitalism Risk"@en ;
+        airo:hasImpact ex:PrivacyViolation
+    ] .
+
+ex:FitnessWearable rdf:type airo:Domain ;
+    rdfs:label "健身可穿戴设备领域"@zh ;
+    rdfs:label "Fitness Wearable Domain"@en .
+
+ex:HealthMonitoring rdf:type airo:Purpose ;
+    rdfs:label "健康监测目的"@zh ;
+    rdfs:label "Health Monitoring Purpose"@en .
+
+ex:Amazon rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊"@zh ;
+    rdfs:label "Amazon"@en .
+
+ex:DataCollection rdf:type airo:RiskSource ;
+    rdfs:label "数据收集风险源"@zh ;
+    rdfs:label "Data Collection Risk Source"@en .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Amazon .

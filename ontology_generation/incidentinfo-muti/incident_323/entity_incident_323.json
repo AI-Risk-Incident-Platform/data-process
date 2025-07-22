@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookYearInReview",
+      "中文名称": "Facebook年度回顾",
+      "英文名称": "Facebook Year in Review",
+      "来源": "Facebook's Year in Review feature"
+    },
+    "Risk": {
+      "id": "AlgorithmicCrueltyRisk",
+      "中文名称": "算法残忍风险",
+      "英文名称": "Algorithmic Cruelty Risk",
+      "来源": "'Inadvertent Algorithmic Cruelty'"
+    },
+    "Consequence": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰后果",
+      "英文名称": "Emotional Distress Consequence",
+      "来源": "'cruel' Year in Review clips"
+    },
+    "AICapability": {
+      "id": "AutomatedMemoryCompilation",
+      "中文名称": "自动记忆汇编能力",
+      "英文名称": "Automated Memory Compilation Capability",
+      "来源": "Year in Review feature that compiles users' memories"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "users affected by the 'cruel' Year in Review clips"
+    },
+    "Impact": {
+      "id": "PsychologicalHardship",
+      "中文名称": "心理困难影响",
+      "英文名称": "Psychological Hardship Impact",
+      "来源": "'cruel' clips causing emotional distress"
+    },
+    "Purpose": {
+      "id": "PersonalizedYearlySummary",
+      "中文名称": "个性化年度总结目的",
+      "英文名称": "Personalized Yearly Summary Purpose",
+      "来源": "Year in Review feature meant to summarize users' year"
+    },
+    "Vulnerability": {
+      "id": "InsensitiveAlgorithmDesign",
+      "中文名称": "不敏感算法设计脆弱性",
+      "英文名称": "Insensitive Algorithm Design Vulnerability",
+      "来源": "'Inadvertent Algorithmic Cruelty'"
+    },
+    "RiskSource": {
+      "id": "LackOfContextAwareness",
+      "中文名称": "缺乏情境意识风险源",
+      "英文名称": "Lack of Context Awareness Risk Source",
+      "来源": "algorithm's inability to distinguish painful memories"
+    }
+  }
+}

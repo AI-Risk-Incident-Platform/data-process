@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HighFrequencyTradingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "高频交易算法"@zh ;
+    rdfs:label "High Frequency Trading Algorithm"@en ;
+    airo:hasRisk ex:MarketManipulationRisk ;
+    airo:usesTechnique ex:AutomatedTradingAlgorithm ;
+    airo:hasStakeholder ex:IndividualTrader ;
+    airo:isAppliedWithinDomain ex:FinancialMarket .
+
+ex:MarketManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "市场操纵风险"@zh ;
+    rdfs:label "Market Manipulation Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmicTradingError ;
+    airo:hasConsequence ex:StockMarketCrash .
+
+ex:StockMarketCrash rdf:type airo:Consequence ;
+    rdfs:label "股市崩盘后果"@zh ;
+    rdfs:label "Stock Market Crash Consequence"@en ;
+    airo:hasImpact ex:InvestorConfidenceShake .
+
+ex:IndividualTrader rdf:type airo:Stakeholder ;
+    rdfs:label "个人交易者"@zh ;
+    rdfs:label "Individual Trader"@en .
+
+ex:InvestorConfidenceShake rdf:type airo:Impact ;
+    rdfs:label "投资者信心动摇的影响"@zh ;
+    rdfs:label "Investor Confidence Shake Impact"@en ;
+    airo:hasImpactOnStakeholder ex:IndividualTrader .
+
+ex:FinancialMarket rdf:type airo:Domain ;
+    rdfs:label "金融市场领域"@zh ;
+    rdfs:label "Financial Market Domain"@en .
+
+ex:AlgorithmicTradingError rdf:type airo:RiskSource ;
+    rdfs:label "算法交易错误风险源"@zh ;
+    rdfs:label "Algorithmic Trading Error Risk Source"@en .
+
+ex:AutomatedTradingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "自动化交易算法技术"@zh ;
+    rdfs:label "Automated Trading Algorithm Technique"@en .

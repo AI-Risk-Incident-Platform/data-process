@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForAsianCompanies rdf:type airo:AISystem ;
+    rdfs:label "AI for Asian Companies"@en ;
+    rdfs:label "亚洲公司AI应用"@zh ;
+    airo:hasRisk ex:UnrealisticExpectationRisk ;
+    airo:hasPurpose ex:BusinessProcessImprovement ;
+    airo:isAppliedWithinDomain ex:AsianBusinessSector ;
+    airo:hasStakeholder ex:AsianCompanies .
+
+ex:UnrealisticExpectationRisk rdf:type airo:Risk ;
+    rdfs:label "Unrealistic Expectation Risk"@en ;
+    rdfs:label "不切实际期望风险"@zh .
+
+ex:AsianCompanies rdf:type airo:Stakeholder ;
+    rdfs:label "Asian Companies"@en ;
+    rdfs:label "亚洲公司"@zh .
+
+ex:BusinessProcessImprovement rdf:type airo:Purpose ;
+    rdfs:label "Business Process Improvement"@en ;
+    rdfs:label "业务流程改进"@zh .
+
+ex:AsianBusinessSector rdf:type airo:Domain ;
+    rdfs:label "Asian Business Sector"@en ;
+    rdfs:label "亚洲商业领域"@zh .

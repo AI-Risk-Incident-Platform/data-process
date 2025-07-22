@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SophiaRobot",
+      "中文名称": "索菲亚机器人",
+      "英文名称": "Sophia Robot",
+      "来源": "新闻标题中多次提及的'Sophia'机器人"
+    },
+    "Risk": {
+      "id": "EthicalDilemmaOfRobotCitizenship",
+      "中文名称": "机器人公民身份的伦理困境风险",
+      "英文名称": "Ethical Dilemma of Robot Citizenship Risk",
+      "来源": "'Pretending to give a robot citizenship helps no one'标题直接指出授予机器人公民身份的问题"
+    },
+    "Stakeholder": {
+      "id": "SaudiArabianGovernment",
+      "中文名称": "沙特阿拉伯政府",
+      "英文名称": "Saudi Arabian Government",
+      "来源": "'Lifelike Sophia Robot Granted Citizenship to Saudi Arabia'表明沙特政府是授予公民身份的主体"
+    },
+    "Consequence": {
+      "id": "DevaluationOfHumanCitizenship",
+      "中文名称": "人类公民身份贬值后果",
+      "英文名称": "Devaluation of Human Citizenship Consequence",
+      "来源": "'Pretending to give a robot citizenship helps no one'暗示这可能贬低人类公民身份的价值"
+    },
+    "Purpose": {
+      "id": "MarketingPublicityStunt",
+      "中文名称": "营销宣传噱头目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "'The agony of Sophia...condemned to a lifeless career in marketing'指出其被用于营销目的"
+    },
+    "Impact": {
+      "id": "PublicConfusionAboutAIStatus",
+      "中文名称": "公众对AI地位认知混乱的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "多篇标题显示这一事件引发了关于机器人权利和地位的公众讨论"
+    },
+    "Domain": {
+      "id": "PublicRelationsAndMarketing",
+      "中文名称": "公共关系与营销领域",
+      "英文名称": "Business Communication & Marketing",
+      "来源": "'condemned to a lifeless career in marketing'明确指向营销领域"
+    },
+    "Misuse": {
+      "id": "ExploitationOfRobotForSymbolicGestures",
+      "中文名称": "利用机器人进行象征性姿态的滥用",
+      "英文名称": "Exploitation of Robot for Symbolic Gestures Misuse",
+      "来源": "多篇标题暗示授予公民身份是一种象征性而非实质性的行为"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SophiaRobot",
+      "中文名称": "索菲亚机器人",
+      "英文名称": "Sophia Robot",
+      "来源": "新闻标题中多次提及的'Sophia'机器人"
+    },
+    "Risk": {
+      "id": "EthicalDilemmaOfRobotCitizenship",
+      "中文名称": "机器人公民身份的伦理困境风险",
+      "英文名称": "Ethical Dilemma of Robot Citizenship Risk",
+      "来源": "'Pretending to give a robot citizenship helps no one'标题直接指出授予机器人公民身份的问题"
+    },
+    "Stakeholder": {
+      "id": "SaudiArabianGovernment",
+      "中文名称": "沙特阿拉伯政府",
+      "英文名称": "Saudi Arabian Government",
+      "来源": "'Lifelike Sophia Robot Granted Citizenship to Saudi Arabia'表明沙特政府是授予公民身份的主体"
+    },
+    "Consequence": {
+      "id": "DevaluationOfHumanCitizenship",
+      "中文名称": "人类公民身份贬值后果",
+      "英文名称": "Devaluation of Human Citizenship Consequence",
+      "来源": "'Pretending to give a robot citizenship helps no one'暗示这可能贬低人类公民身份的价值"
+    },
+    "Purpose": {
+      "id": "MarketingPublicityStunt",
+      "中文名称": "营销宣传噱头目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "'The agony of Sophia...condemned to a lifeless career in marketing'指出其被用于营销目的"
+    },
+    "Impact": {
+      "id": "PublicConfusionAboutAIStatus",
+      "中文名称": "公众对AI地位认知混乱的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "多篇标题显示这一事件引发了关于机器人权利和地位的公众讨论"
+    },
+    "Domain": {
+      "id": "PublicRelationsAndMarketing",
+      "中文名称": "公共关系与营销领域",
+      "英文名称": "Business Communication & Marketing",
+      "来源": "'condemned to a lifeless career in marketing'明确指向营销领域"
+    },
+    "Misuse": {
+      "id": "ExploitationOfRobotForSymbolicGestures",
+      "中文名称": "利用机器人进行象征性姿态的滥用",
+      "英文名称": "Exploitation of Robot for Symbolic Gestures Misuse",
+      "来源": "多篇标题暗示授予公民身份是一种象征性而非实质性的行为"
+    }
+  }
+}

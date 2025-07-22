@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomaticDrivingCar",
+      "中文名称": "自动驾驶汽车",
+      "英文名称": "Autonomous Cars",
+      "来源": "新闻标题：a automatic driving car?"
+    },
+    "Risk": {
+      "id": "PotentialSafetyRisk",
+      "中文名称": "潜在安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "自动驾驶汽车可能存在的安全风险"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "自动驾驶汽车属于交通领域"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自主交通目的",
+      "英文名称": "Autonomous Transportation",
+      "来源": "自动驾驶汽车的目的是实现自主交通"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomaticDrivingCar",
+      "中文名称": "自动驾驶汽车",
+      "英文名称": "Autonomous Cars",
+      "来源": "新闻标题：a automatic driving car?"
+    },
+    "Risk": {
+      "id": "PotentialSafetyRisk",
+      "中文名称": "潜在安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "自动驾驶汽车可能存在的安全风险"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "自动驾驶汽车属于交通领域"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自主交通目的",
+      "英文名称": "Autonomous Transportation",
+      "来源": "自动驾驶汽车的目的是实现自主交通"
+    }
+  }
+}

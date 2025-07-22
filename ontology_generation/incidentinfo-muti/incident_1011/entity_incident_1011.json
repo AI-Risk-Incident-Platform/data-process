@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LovableAI",
+      "中文名称": "Lovable AI",
+      "英文名称": "Lovable AI",
+      "来源": "Lovable AI Found Most Vulnerable to VibeScamming"
+    },
+    "Risk": {
+      "id": "VibeScammingRisk",
+      "中文名称": "VibeScamming风险",
+      "英文名称": "VibeScamming Risk",
+      "来源": "Enabling Anyone to Build Live Scam Pages"
+    },
+    "RiskSource": {
+      "id": "LiveScamPages",
+      "中文名称": "实时诈骗页面",
+      "英文名称": "Live Scam Pages",
+      "来源": "Enabling Anyone to Build Live Scam Pages"
+    },
+    "Vulnerability": {
+      "id": "VulnerabilityToVibeScamming",
+      "中文名称": "对VibeScamming的脆弱性",
+      "英文名称": "Vulnerability to VibeScamming",
+      "来源": "Lovable AI Found Most Vulnerable to VibeScamming"
+    },
+    "Consequence": {
+      "id": "PhishingAttacks",
+      "中文名称": "钓鱼攻击后果",
+      "英文名称": "Phishing Attacks Consequence",
+      "来源": "From Prompt to Phish: Benchmarking Popular AI Agents' Resistance to the Dark Side"
+    },
+    "Impact": {
+      "id": "SecurityThreat",
+      "中文名称": "安全威胁影响",
+      "英文名称": "Security Threat Impact",
+      "来源": "From Prompt to Phish: Benchmarking Popular AI Agents' Resistance to the Dark Side"
+    }
+  }
+}

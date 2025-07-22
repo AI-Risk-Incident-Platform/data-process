@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AdobeAI",
+      "中文名称": "Adobe人工智能系统",
+      "英文名称": "Adobe AI",
+      "来源": "Adobe will use your work to train its AI algorithms unless you opt out"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "AIOperator": {
+      "id": "Adobe",
+      "中文名称": "Adobe公司",
+      "英文名称": "Adobe",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "AISubject": {
+      "id": "UserPhotos",
+      "中文名称": "用户照片",
+      "英文名称": "User Facial Data",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "Purpose": {
+      "id": "AITraining",
+      "中文名称": "AI训练",
+      "英文名称": "AI Training",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "RiskSource": {
+      "id": "OptOutPolicy",
+      "中文名称": "选择退出政策",
+      "英文名称": "Opt-Out Policy",
+      "来源": "Adobe will use your work to train its AI algorithms unless you opt out"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "Adobe May Be Using Your Photos to Train its AI"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "AITechnique": {
+      "id": "MachineLearningTraining",
+      "中文名称": "机器学习训练",
+      "英文名称": "Machine Learning Training",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "Stakeholder": {
+      "id": "AdobeUsers",
+      "中文名称": "Adobe用户",
+      "英文名称": "Adobe Users",
+      "来源": "Is Adobe using your photos to train its AI?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AdobeAI",
+      "中文名称": "Adobe人工智能系统",
+      "英文名称": "Adobe AI",
+      "来源": "Adobe will use your work to train its AI algorithms unless you opt out"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "AIOperator": {
+      "id": "Adobe",
+      "中文名称": "Adobe公司",
+      "英文名称": "Adobe",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "AISubject": {
+      "id": "UserPhotos",
+      "中文名称": "用户照片",
+      "英文名称": "User Facial Data",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "Purpose": {
+      "id": "AITraining",
+      "中文名称": "AI训练",
+      "英文名称": "AI Training",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "RiskSource": {
+      "id": "OptOutPolicy",
+      "中文名称": "选择退出政策",
+      "英文名称": "Opt-Out Policy",
+      "来源": "Adobe will use your work to train its AI algorithms unless you opt out"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用",
+      "英文名称": "Unauthorized Data Usage",
+      "来源": "Adobe May Be Using Your Photos to Train its AI"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Is Adobe using your photos to train its AI?"
+    },
+    "AITechnique": {
+      "id": "MachineLearningTraining",
+      "中文名称": "机器学习训练",
+      "英文名称": "Machine Learning Training",
+      "来源": "Adobe will use your work to train its AI algorithms"
+    },
+    "Stakeholder": {
+      "id": "AdobeUsers",
+      "中文名称": "Adobe用户",
+      "英文名称": "Adobe Users",
+      "来源": "Is Adobe using your photos to train its AI?"
+    }
+  }
+}

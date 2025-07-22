@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "USPSPayCutAlgorithm",
+      "中文名称": "USPS薪资削减算法",
+      "英文名称": "USPS Pay Cut Algorithm",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut for Rural Carriers Determined By Mystery Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairCompensationRisk",
+      "中文名称": "不公平薪酬风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut Calculated By An Algorithm"
+    },
+    "Stakeholder": {
+      "id": "RuralMailCarriers",
+      "中文名称": "农村邮递员",
+      "英文名称": "Rural Mail Carriers",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    },
+    "Consequence": {
+      "id": "MassivePayCut",
+      "中文名称": "大规模减薪后果",
+      "英文名称": "Pay Cut Consequence",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    },
+    "AIOperator": {
+      "id": "USPS",
+      "中文名称": "美国邮政服务",
+      "英文名称": "USPS",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut"
+    },
+    "Domain": {
+      "id": "PostalServices",
+      "中文名称": "邮政服务领域",
+      "英文名称": "Logistics",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut for Rural Carriers"
+    },
+    "RiskSource": {
+      "id": "OpaqueAlgorithmicDecisionMaking",
+      "中文名称": "不透明的算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Determined By Mystery Algorithm"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForRuralCarriers",
+      "中文名称": "农村邮递员经济困难影响",
+      "英文名称": "Financial Hardship for Rural Carriers Impact",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "USPSPayCutAlgorithm",
+      "中文名称": "USPS薪资削减算法",
+      "英文名称": "USPS Pay Cut Algorithm",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut for Rural Carriers Determined By Mystery Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairCompensationRisk",
+      "中文名称": "不公平薪酬风险",
+      "英文名称": "Pay Reduction Risk",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut Calculated By An Algorithm"
+    },
+    "Stakeholder": {
+      "id": "RuralMailCarriers",
+      "中文名称": "农村邮递员",
+      "英文名称": "Rural Mail Carriers",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    },
+    "Consequence": {
+      "id": "MassivePayCut",
+      "中文名称": "大规模减薪后果",
+      "英文名称": "Pay Cut Consequence",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    },
+    "AIOperator": {
+      "id": "USPS",
+      "中文名称": "美国邮政服务",
+      "英文名称": "USPS",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut"
+    },
+    "Domain": {
+      "id": "PostalServices",
+      "中文名称": "邮政服务领域",
+      "英文名称": "Logistics",
+      "来源": "Senators Call on USPS to Delay Controversial Pay Cut for Rural Carriers"
+    },
+    "RiskSource": {
+      "id": "OpaqueAlgorithmicDecisionMaking",
+      "中文名称": "不透明的算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Determined By Mystery Algorithm"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForRuralCarriers",
+      "中文名称": "农村邮递员经济困难影响",
+      "英文名称": "Financial Hardship for Rural Carriers Impact",
+      "来源": "Two-Thirds of Rural Mail Carriers Are Being Hit With A Massive Pay Cut"
+    }
+  }
+}

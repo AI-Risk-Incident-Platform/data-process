@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedHotelManagementSystem",
+      "中文名称": "自动化酒店管理系统",
+      "英文名称": "Automated Hotel Management System",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作替代风险",
+      "英文名称": "Job Risk",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Stakeholder": {
+      "id": "HotelWorkers",
+      "中文名称": "酒店员工",
+      "英文名称": "Hotel Workers",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Impact": {
+      "id": "EconomicHardshipForWorkers",
+      "中文名称": "员工经济困难的影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Domain": {
+      "id": "HospitalityIndustry",
+      "中文名称": "酒店业领域",
+      "英文名称": "Hospitality Industry Domain",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomatedHotelManagementSystem",
+      "中文名称": "自动化酒店管理系统",
+      "英文名称": "Automated Hotel Management System",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作替代风险",
+      "英文名称": "Job Risk",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Stakeholder": {
+      "id": "HotelWorkers",
+      "中文名称": "酒店员工",
+      "英文名称": "Hotel Workers",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Impact": {
+      "id": "EconomicHardshipForWorkers",
+      "中文名称": "员工经济困难的影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    },
+    "Domain": {
+      "id": "HospitalityIndustry",
+      "中文名称": "酒店业领域",
+      "英文名称": "Hospitality Industry Domain",
+      "来源": "Southern California Hotel Workers Strike Against Automated Management"
+    }
+  }
+}

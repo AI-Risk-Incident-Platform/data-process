@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdTargetingSystem",
+      "中文名称": "Facebook广告定向系统",
+      "英文名称": "Facebook Ad Targeting System",
+      "来源": "Facebook ad targeting may discriminate—even when advertisers don’t want it to"
+    },
+    "Risk": {
+      "id": "DiscriminationInAdTargeting",
+      "中文名称": "广告定向中的歧视风险",
+      "英文名称": "Discrimination in Ad Targeting Risk",
+      "来源": "Facebook ad targeting may discriminate—even when advertisers don’t want it to"
+    },
+    "Stakeholder": {
+      "id": "Advertisers",
+      "中文名称": "广告商",
+      "英文名称": "Advertisers",
+      "来源": "even when advertisers don’t want it to"
+    },
+    "AISubject": {
+      "id": "TargetedUsers",
+      "中文名称": "被定向用户",
+      "英文名称": "Targeted Users",
+      "来源": "Facebook ad targeting may discriminate"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "定向算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Targeting Risk Source",
+      "来源": "Facebook ad targeting may discriminate"
+    },
+    "Impact": {
+      "id": "UnfairTreatmentOfUsers",
+      "中文名称": "用户受到不公平待遇的影响",
+      "英文名称": "Unfair Treatment of Users Impact",
+      "来源": "Facebook ad targeting may discriminate"
+    }
+  }
+}

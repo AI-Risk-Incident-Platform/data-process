@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonProductRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Product Recommendation Algorithm"@en ;
+    rdfs:label "亚马逊产品推荐算法"@zh ;
+    airo:hasRisk ex:HarmfulProductRecommendationRisk ;
+    airo:hasCapability ex:ProductRecommendationBasedOnUserBehavior ;
+    airo:isDeployedBy ex:AmazonInc ;
+    airo:hasPurpose ex:PersonalizedProductRecommendation ;
+    airo:isAppliedWithinDomain ex:ECommercePlatform ;
+    airo:usesTechnique ex:CollaborativeFilteringAlgorithm ;
+    airo:hasStakeholder ex:OnlineShoppersWithMentalHealthIssues ;
+    airo:hasVulnerability ex:LackOfContentScreeningForSensitiveProducts .
+
+ex:HarmfulProductRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Product Recommendation Risk"@en ;
+    rdfs:label "有害产品推荐风险"@zh ;
+    airo:hasConsequence ex:PotentialFacilitationOfSelfHarm ;
+    airo:isRiskSourceFor ex:InadequateSafetyGuardrailsInRecommendationSystem .
+
+ex:PotentialFacilitationOfSelfHarm rdf:type airo:Consequence ;
+    rdfs:label "Potential Facilitation of Self-Harm Consequence"@en ;
+    rdfs:label "潜在助长自残行为的后果"@zh ;
+    airo:hasImpact ex:IncreasedRiskOfSelfHarmBehavior .
+
+ex:ProductRecommendationBasedOnUserBehavior rdf:type airo:AICapability ;
+    rdfs:label "Product Recommendation Based on User Behavior Capability"@en ;
+    rdfs:label "基于用户行为的产品推荐能力"@zh .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:OnlineShoppersWithMentalHealthIssues rdf:type airo:Stakeholder ;
+    rdfs:label "Online Shoppers with Mental Health Issues"@en ;
+    rdfs:label "有心理健康问题的在线购物者"@zh .
+
+ex:IncreasedRiskOfSelfHarmBehavior rdf:type airo:Impact ;
+    rdfs:label "Increased Risk of Self-Harm Behavior Impact"@en ;
+    rdfs:label "增加自残行为风险的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlineShoppersWithMentalHealthIssues .
+
+ex:PersonalizedProductRecommendation rdf:type airo:Purpose ;
+    rdfs:label "Personalized Product Recommendation Purpose"@en ;
+    rdfs:label "个性化产品推荐的目的"@zh .
+
+ex:ECommercePlatform rdf:type airo:Domain ;
+    rdfs:label "E-Commerce Platform Domain"@en ;
+    rdfs:label "电子商务平台领域"@zh .
+
+ex:CollaborativeFilteringAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Collaborative Filtering Algorithm Technique"@en ;
+    rdfs:label "协同过滤算法"@zh .
+
+ex:LackOfContentScreeningForSensitiveProducts rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Screening for Sensitive Products Vulnerability"@en ;
+    rdfs:label "缺乏对敏感产品的内容筛查的脆弱性"@zh .
+
+ex:InadequateSafetyGuardrailsInRecommendationSystem rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Safety Guardrails in Recommendation System Risk Source"@en ;
+    rdfs:label "推荐系统中安全护栏不足的风险源"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot was on during deadly Mountain View crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalCrashRisk",
+      "中文名称": "自动驾驶车辆致命事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "NTSB: Tesla Autopilot, distracted driver caused fatal crash"
+    },
+    "Consequence": {
+      "id": "FatalCollision",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "deadly Mountain View crash"
+    },
+    "Stakeholder": {
+      "id": "NationalTransportationSafetyBoard",
+      "中文名称": "国家运输安全委员会",
+      "英文名称": "National Transportation Safety Board",
+      "来源": "NTSB: Tesla Autopilot, distracted driver caused fatal crash"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心风险源",
+      "英文名称": "Driver Distraction Risk Source",
+      "来源": "distracted driver caused fatal crash"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Safety Experts Weigh In on Autonomous Car Standards After Uber, Tesla Fatal Crashes"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleIndustry",
+      "中文名称": "自动驾驶汽车行业领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Safety Experts Weigh In on Autonomous Car Standards After Uber, Tesla Fatal Crashes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla Autopilot was on during deadly Mountain View crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalCrashRisk",
+      "中文名称": "自动驾驶车辆致命事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "NTSB: Tesla Autopilot, distracted driver caused fatal crash"
+    },
+    "Consequence": {
+      "id": "FatalCollision",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "deadly Mountain View crash"
+    },
+    "Stakeholder": {
+      "id": "NationalTransportationSafetyBoard",
+      "中文名称": "国家运输安全委员会",
+      "英文名称": "National Transportation Safety Board",
+      "来源": "NTSB: Tesla Autopilot, distracted driver caused fatal crash"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心风险源",
+      "英文名称": "Driver Distraction Risk Source",
+      "来源": "distracted driver caused fatal crash"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Safety Experts Weigh In on Autonomous Car Standards After Uber, Tesla Fatal Crashes"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleIndustry",
+      "中文名称": "自动驾驶汽车行业领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Safety Experts Weigh In on Autonomous Car Standards After Uber, Tesla Fatal Crashes"
+    }
+  }
+}

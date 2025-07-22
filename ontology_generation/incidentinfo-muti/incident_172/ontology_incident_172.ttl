@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GaydarMachine rdf:type airo:AISystem ;
+    rdfs:label "Gaydar Machine"@en ;
+    rdfs:label "同性恋识别机器"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:IndividualsWithPredictableSexualOrientation ;
+    airo:isDevelopedBy ex:StanfordResearchers ;
+    airo:usesTechnique ex:FacialFeatureAnalysis ;
+    airo:hasPurpose ex:SexualOrientationPrediction .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PotentialDiscrimination ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:IndividualsWithPredictableSexualOrientation rdf:type airo:AISubject ;
+    rdfs:label "Individuals with Predictable Sexual Orientation"@en ;
+    rdfs:label "可预测性取向的个体"@zh .
+
+ex:StanfordResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Stanford Researchers"@en ;
+    rdfs:label "斯坦福研究人员"@zh .
+
+ex:FacialFeatureAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Facial Feature Analysis Technique"@en ;
+    rdfs:label "面部特征分析技术"@zh .
+
+ex:PotentialDiscrimination rdf:type airo:Consequence ;
+    rdfs:label "Potential Discrimination Consequence"@en ;
+    rdfs:label "潜在歧视后果"@zh ;
+    airo:hasImpact ex:SocialStigma .
+
+ex:SocialStigma rdf:type airo:Impact ;
+    rdfs:label "Social Stigma Impact"@en ;
+    rdfs:label "社会污名影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StanfordResearchers .
+
+ex:SexualOrientationPrediction rdf:type airo:Purpose ;
+    rdfs:label "Sexual Orientation Prediction Purpose"@en ;
+    rdfs:label "性取向预测目的"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfInformedConsent .
+
+ex:LackOfInformedConsent rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Informed Consent Vulnerability"@en ;
+    rdfs:label "缺乏知情同意的脆弱性"@zh .

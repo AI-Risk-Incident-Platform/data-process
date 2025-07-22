@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "亚马逊推荐算法"@zh ;
+    rdfs:label "Amazon Recommendation Algorithm"@en ;
+    airo:hasRisk ex:VaccineMisinformationSpreadRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:hasPurpose ex:ProductRecommendation ;
+    airo:isAppliedWithinDomain ex:ECommercePlatform ;
+    airo:usesTechnique ex:MachineLearningBasedRecommendation ;
+    airo:hasStakeholder ex:AmazonCustomers .
+
+ex:VaccineMisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "疫苗错误信息传播风险"@zh ;
+    rdfs:label "Vaccine Misinformation Spread Risk"@en ;
+    airo:hasConsequence ex:PublicHealthMisinformation ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInContentSelection .
+
+ex:PublicHealthMisinformation rdf:type airo:Consequence ;
+    rdfs:label "公共卫生错误信息后果"@zh ;
+    rdfs:label "Public Health Misinformation Consequence"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "内容推荐算法能力"@zh ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊客户"@zh ;
+    rdfs:label "Amazon Customers"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .
+
+ex:ProductRecommendation rdf:type airo:Purpose ;
+    rdfs:label "产品推荐目的"@zh ;
+    rdfs:label "Product Recommendation Purpose"@en .
+
+ex:ECommercePlatform rdf:type airo:Domain ;
+    rdfs:label "电子商务平台领域"@zh ;
+    rdfs:label "E-Commerce Platform Domain"@en .
+
+ex:MachineLearningBasedRecommendation rdf:type airo:AITechnique ;
+    rdfs:label "基于机器学习的推荐技术"@zh ;
+    rdfs:label "Machine Learning Based Recommendation Technique"@en .
+
+ex:AlgorithmicBiasInContentSelection rdf:type airo:RiskSource ;
+    rdfs:label "内容选择中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Content Selection Risk Source"@en .

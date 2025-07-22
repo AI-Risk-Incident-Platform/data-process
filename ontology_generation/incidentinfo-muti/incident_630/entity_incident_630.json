@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial recognition used after Sunglass Hut robbery led to man’s wrongful jailing"
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "False Positive Identification Risk",
+      "来源": "false facial recognition match led to jail assault"
+    },
+    "Consequence": {
+      "id": "WrongfulImprisonment",
+      "中文名称": "错误监禁后果",
+      "英文名称": "Wrongful Imprisonment Consequence",
+      "来源": "led to man’s wrongful jailing"
+    },
+    "Impact": {
+      "id": "PhysicalHarmAndPsychologicalTrauma",
+      "中文名称": "身体伤害和心理创伤影响",
+      "英文名称": "Physical Harm and Psychological Trauma Impact",
+      "来源": "jailed, raped, and beaten"
+    },
+    "Stakeholder": {
+      "id": "WrongfullyAccusedIndividual",
+      "中文名称": "被错误指控的个人",
+      "英文名称": "Wrongfully Accused Individual",
+      "来源": "Man sues Macy’s"
+    },
+    "AIOperator": {
+      "id": "RetailSecurityDepartment",
+      "中文名称": "零售安全部门",
+      "英文名称": "Retail Security Department",
+      "来源": "Facial recognition used after Sunglass Hut robbery"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInMinorityRecognition",
+      "中文名称": "少数族裔识别中的算法偏差漏洞",
+      "英文名称": "Algorithmic Bias in Minority Recognition Vulnerability",
+      "来源": "false facial recognition match"
+    }
+  }
+}

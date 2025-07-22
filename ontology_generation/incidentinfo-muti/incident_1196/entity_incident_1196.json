@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChildrenRobots",
+      "中文名称": "儿童机器人",
+      "英文名称": "Children Robots",
+      "来源": "AI Company That Made Robots For Children Went Bust And Now The Robots Are Dying"
+    },
+    "Risk": {
+      "id": "RobotFailureRisk",
+      "中文名称": "机器人故障风险",
+      "英文名称": "Robot Failure Risk",
+      "来源": "Now The Robots Are Dying"
+    },
+    "Consequence": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障后果",
+      "英文名称": "Robot Malfunction Consequence",
+      "来源": "Now The Robots Are Dying"
+    },
+    "Stakeholder": {
+      "id": "ChildrenUsers",
+      "中文名称": "儿童使用者",
+      "英文名称": "Children Users",
+      "来源": "Made Robots For Children"
+    },
+    "AIOperator": {
+      "id": "AICompany",
+      "中文名称": "AI公司",
+      "英文名称": "AI Company",
+      "来源": "AI Company That Made Robots For Children"
+    },
+    "Impact": {
+      "id": "ChildrenDisappointment",
+      "中文名称": "儿童失望影响",
+      "英文名称": "Children Disappointment Impact",
+      "来源": "Now The Robots Are Dying"
+    }
+  }
+}

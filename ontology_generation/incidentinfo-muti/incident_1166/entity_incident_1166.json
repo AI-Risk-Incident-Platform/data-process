@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Fails And Facepalms With Amazon’s Alexa: Don’t Let The Kids Near That Thing"
+    },
+    "Risk": {
+      "id": "ChildrenMisuseRisk",
+      "中文名称": "儿童误用风险",
+      "英文名称": "Children Misuse Risk",
+      "来源": "Don’t Let The Kids Near That Thing"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Don’t Let The Kids Near That Thing"
+    },
+    "Misuse": {
+      "id": "InappropriateInteractionByChildren",
+      "中文名称": "儿童不当互动",
+      "英文名称": "Inappropriate Interaction by Children",
+      "来源": "Don’t Let The Kids Near That Thing"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居",
+      "英文名称": "Smart Home",
+      "来源": "Amazon’s Alexa"
+    }
+  }
+}

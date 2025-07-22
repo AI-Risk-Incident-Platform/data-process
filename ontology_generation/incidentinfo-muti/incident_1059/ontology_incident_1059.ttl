@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:hasCapability ex:FacialIdentityForgery ;
+    airo:isDeployedBy ex:FraudSyndicate ;
+    airo:hasStakeholder ex:HongKongPolice ;
+    airo:hasAISubject ex:BankingSystem ;
+    airo:hasPurpose ex:IllegalFinancialGain ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:IdentityVerificationWeakness .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    rdfs:label "金融欺诈风险"@zh ;
+    airo:hasConsequence ex:IllegalBankAccountOpening ;
+    airo:isRiskSourceFor ex:UnregulatedDeepfakeApplications .
+
+ex:IllegalBankAccountOpening rdf:type airo:Consequence ;
+    rdfs:label "Illegal Bank Account Opening Consequence"@en ;
+    rdfs:label "非法开设银行账户后果"@zh ;
+    airo:hasImpact ex:FinancialSystemSecurityThreat .
+
+ex:FacialIdentityForgery rdf:type airo:AICapability ;
+    rdfs:label "Facial Identity Forgery Capability"@en ;
+    rdfs:label "面部身份伪造能力"@zh .
+
+ex:FraudSyndicate rdf:type airo:AIOperator ;
+    rdfs:label "Fraud Syndicate"@en ;
+    rdfs:label "诈骗集团"@zh .
+
+ex:HongKongPolice rdf:type airo:Stakeholder ;
+    rdfs:label "Hong Kong Police"@en ;
+    rdfs:label "香港警方"@zh .
+
+ex:BankingSystem rdf:type airo:AISubject ;
+    rdfs:label "Banking System"@en ;
+    rdfs:label "银行系统"@zh .
+
+ex:FinancialSystemSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Financial System Security Threat Impact"@en ;
+    rdfs:label "金融系统安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HongKongPolice .
+
+ex:IllegalFinancialGain rdf:type airo:Purpose ;
+    rdfs:label "Illegal Financial Gain Purpose"@en ;
+    rdfs:label "非法金融获利目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:IdentityVerificationWeakness rdf:type airo:Vulnerability ;
+    rdfs:label "Identity Verification Weakness Vulnerability"@en ;
+    rdfs:label "身份验证漏洞"@zh .
+
+ex:EmergingAIFraudTechniques rdf:type airo:Threat ;
+    rdfs:label "Emerging AI Fraud Techniques Threat"@en ;
+    rdfs:label "新兴AI欺诈技术威胁"@zh ;
+    airo:isRiskSourceFor ex:FinancialFraudRisk .
+
+ex:MaliciousUseOfAITechnology rdf:type airo:Hazard ;
+    rdfs:label "Malicious Use of AI Technology Hazard"@en ;
+    rdfs:label "AI技术恶意使用危害"@zh ;
+    airo:isRiskSourceFor ex:FinancialFraudRisk .
+
+ex:UnregulatedDeepfakeApplications rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated Deepfake Applications Risk Source"@en ;
+    rdfs:label "不受监管的深度伪造应用风险源"@zh .
+
+ex:DigitalIdentityFraud rdf:type airo:RiskConcept ;
+    rdfs:label "Digital Identity Fraud Risk Concept"@en ;
+    rdfs:label "数字身份欺诈"@zh .

@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoCreationTool rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Creation Tool"@en ;
+    rdfs:label "深度伪造视频制作工具"@zh ;
+    airo:hasRisk ex:MedicalMisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeVideoSynthesis ;
+    airo:hasPurpose ex:DeceptiveMedicalClaims ;
+    airo:isAppliedWithinDomain ex:HealthcareInformation .
+
+ex:MedicalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Misinformation Risk"@en ;
+    rdfs:label "医疗虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicHealthThreat ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:PublicHealthThreat rdf:type airo:Consequence ;
+    rdfs:label "Public Health Threat Consequence"@en ;
+    rdfs:label "公共健康威胁后果"@zh ;
+    airo:hasImpact ex:PatientHarmFromFalseTreatment .
+
+ex:PatientHarmFromFalseTreatment rdf:type airo:Impact ;
+    rdfs:label "Patient Harm From False Treatment Impact"@en ;
+    rdfs:label "虚假治疗导致患者伤害的影响"@zh .
+
+ex:DeepfakeVideoSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Video Synthesis Technique"@en ;
+    rdfs:label "深度伪造视频合成技术"@zh .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creation Risk Source"@en ;
+    rdfs:label "恶意内容制作风险源"@zh .
+
+ex:DeceptiveMedicalClaims rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Medical Claims Purpose"@en ;
+    rdfs:label "欺骗性医疗声明的目的"@zh .
+
+ex:HealthcareInformation rdf:type airo:Domain ;
+    rdfs:label "Healthcare Information Domain"@en ;
+    rdfs:label "医疗健康信息领域"@zh .

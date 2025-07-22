@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookPoliticalAdPolicyEnforcementSystem",
+      "中文名称": "Facebook政治广告政策执行系统",
+      "英文名称": "Facebook Political Ad Policy Enforcement System",
+      "来源": "An Audit of Facebook’s Political Ad Policy Enforcement"
+    },
+    "Risk": {
+      "id": "PoliticalAdPolicyEnforcementFailureRisk",
+      "中文名称": "政治广告政策执行失败风险",
+      "英文名称": "Political Ad Policy Enforcement Failure Risk",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "Stakeholder": {
+      "id": "PoliticalAdvertisers",
+      "中文名称": "政治广告商",
+      "英文名称": "Political Advertisers",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "An Audit of Facebook’s Political Ad Policy Enforcement"
+    },
+    "RiskSource": {
+      "id": "PolicyEnforcementLoopholes",
+      "中文名称": "政策执行漏洞",
+      "英文名称": "Policy Enforcement Risks",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookPoliticalAdPolicyEnforcementSystem",
+      "中文名称": "Facebook政治广告政策执行系统",
+      "英文名称": "Facebook Political Ad Policy Enforcement System",
+      "来源": "An Audit of Facebook’s Political Ad Policy Enforcement"
+    },
+    "Risk": {
+      "id": "PoliticalAdPolicyEnforcementFailureRisk",
+      "中文名称": "政治广告政策执行失败风险",
+      "英文名称": "Political Ad Policy Enforcement Failure Risk",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "Stakeholder": {
+      "id": "PoliticalAdvertisers",
+      "中文名称": "政治广告商",
+      "英文名称": "Political Advertisers",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "An Audit of Facebook’s Political Ad Policy Enforcement"
+    },
+    "RiskSource": {
+      "id": "PolicyEnforcementLoopholes",
+      "中文名称": "政策执行漏洞",
+      "英文名称": "Policy Enforcement Risks",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "How political advertisers get away with skirting Facebook’s rules"
+    }
+  }
+}

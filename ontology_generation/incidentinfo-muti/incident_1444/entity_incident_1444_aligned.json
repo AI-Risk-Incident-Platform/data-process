@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SnapchatMyAI",
+      "中文名称": "Snapchat My AI",
+      "英文名称": "Snapchat AI Chatbot",
+      "来源": "Snapchat's My AI: Why is it controversial?"
+    },
+    "Risk": {
+      "id": "ChildrenPrivacyRisk",
+      "中文名称": "儿童隐私风险",
+      "英文名称": "Children's Privacy Risk",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "AIOperator": {
+      "id": "SnapInc",
+      "中文名称": "Snap公司",
+      "英文名称": "Snap Inc.",
+      "来源": "Snapchat's My AI: Why is it controversial?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SnapchatMyAI",
+      "中文名称": "Snapchat My AI",
+      "英文名称": "Snapchat AI Chatbot",
+      "来源": "Snapchat's My AI: Why is it controversial?"
+    },
+    "Risk": {
+      "id": "ChildrenPrivacyRisk",
+      "中文名称": "儿童隐私风险",
+      "英文名称": "Children's Privacy Risk",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Snapchat: Snap AI chatbot 'may risk children's privacy'"
+    },
+    "AIOperator": {
+      "id": "SnapInc",
+      "中文名称": "Snap公司",
+      "英文名称": "Snap Inc.",
+      "来源": "Snapchat's My AI: Why is it controversial?"
+    }
+  }
+}

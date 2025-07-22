@@ -1,0 +1,60 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MidjourneyV6 rdf:type airo:AISystem ;
+    rdfs:label "Midjourney V6"@en ;
+    rdfs:label "Midjourney V6"@zh ;
+    airo:hasRisk ex:PlagiarismRisk ;
+    airo:hasCapability ex:HyperrealisticImageGeneration ;
+    airo:isProvidedBy ex:Midjourney ;
+    airo:hasPurpose ex:CreativeContentGeneration ;
+    airo:isAppliedWithinDomain ex:DigitalArtCreation ;
+    airo:usesTechnique ex:DiffusionModel .
+
+ex:PlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Plagiarism Risk"@en ;
+    rdfs:label "抄袭风险"@zh ;
+    airo:hasConsequence ex:IntellectualPropertyInfringement ;
+    airo:isRiskSourceFor ex:TrainingDataCopyrightIssues .
+
+ex:IntellectualPropertyInfringement rdf:type airo:Consequence ;
+    rdfs:label "Intellectual Property Infringement Consequence"@en ;
+    rdfs:label "知识产权侵权后果"@zh ;
+    airo:hasImpact ex:LegalLiabilityForUsers .
+
+ex:HyperrealisticImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Hyperrealistic Image Generation Capability"@en ;
+    rdfs:label "超现实图像生成能力"@zh .
+
+ex:Midjourney rdf:type airo:AIProvider ;
+    rdfs:label "Midjourney"@en ;
+    rdfs:label "Midjourney公司"@zh .
+
+ex:TrainingDataCopyrightIssues rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Copyright Issues Risk Source"@en ;
+    rdfs:label "训练数据版权问题风险源"@zh .
+
+ex:LegalLiabilityForUsers rdf:type airo:Impact ;
+    rdfs:label "Legal Liability For Users Impact"@en ;
+    rdfs:label "用户法律责任影响"@zh .
+
+ex:CreativeContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Content Generation Purpose"@en ;
+    rdfs:label "创意内容生成目的"@zh .
+
+ex:DigitalArtCreation rdf:type airo:Domain ;
+    rdfs:label "Digital Art Creation Domain"@en ;
+    rdfs:label "数字艺术创作领域"@zh .
+
+ex:DiffusionModel rdf:type airo:AITechnique ;
+    rdfs:label "Diffusion Model Technique"@en ;
+    rdfs:label "扩散模型技术"@zh .

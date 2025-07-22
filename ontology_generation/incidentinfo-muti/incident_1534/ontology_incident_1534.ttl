@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PimEyesFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "PimEyes Facial Recognition System"@en ;
+    rdfs:label "PimEyes面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:InternetWideFacialRecognitionSearch ;
+    airo:hasAISubject ex:InternetUsers ;
+    airo:hasPurpose ex:OnlineIdentityTracking ;
+    airo:isAppliedWithinDomain ex:OnlinePrivacyAndSecurity ;
+    airo:usesTechnique ex:DeepLearningBasedFacialRecognition ;
+    airo:hasVulnerability ex:PubliclyAvailableFacialImages .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:PersonalPrivacyExposure ;
+    airo:isRiskSourceFor ex:UnregulatedFacialRecognitionTechnology .
+
+ex:InternetWideFacialRecognitionSearch rdf:type airo:AICapability ;
+    rdfs:label "Internet-Wide Facial Recognition Search Capability"@en ;
+    rdfs:label "全网面部识别搜索能力"@zh .
+
+ex:InternetUsers rdf:type airo:AISubject ;
+    rdfs:label "Internet Users"@en ;
+    rdfs:label "互联网用户"@zh .
+
+ex:PersonalPrivacyExposure rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Exposure Impact"@en ;
+    rdfs:label "个人隐私暴露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InternetUsers .
+
+ex:OnlineIdentityTracking rdf:type airo:Purpose ;
+    rdfs:label "Online Identity Tracking Purpose"@en ;
+    rdfs:label "在线身份追踪目的"@zh .
+
+ex:OnlinePrivacyAndSecurity rdf:type airo:Domain ;
+    rdfs:label "Online Privacy and Security Domain"@en ;
+    rdfs:label "在线隐私与安全领域"@zh .
+
+ex:DeepLearningBasedFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning-Based Facial Recognition Technique"@en ;
+    rdfs:label "基于深度学习的面部识别技术"@zh .
+
+ex:PubliclyAvailableFacialImages rdf:type airo:Vulnerability ;
+    rdfs:label "Publicly Available Facial Images Vulnerability"@en ;
+    rdfs:label "公开可获取的面部图像脆弱性"@zh .
+
+ex:UnregulatedFacialRecognitionTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated Facial Recognition Technology Risk Source"@en ;
+    rdfs:label "未受监管的面部识别技术风险源"@zh .

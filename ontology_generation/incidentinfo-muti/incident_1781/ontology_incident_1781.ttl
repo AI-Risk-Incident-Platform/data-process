@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokTextToSpeechFeature rdf:type airo:AISystem ;
+    rdfs:label "TikTok Text-to-Speech Feature"@en ;
+    rdfs:label "TikTok文本转语音功能"@zh ;
+    airo:hasRisk ex:UnauthorizedVoiceUseRisk ;
+    airo:isDeployedBy ex:TikTok ;
+    airo:hasStakeholder ex:VoiceActor ;
+    airo:hasPurpose ex:ContentCreation ;
+    airo:isAppliedWithinDomain ex:SocialMedia ;
+    airo:usesTechnique ex:TextToSpeech .
+
+ex:UnauthorizedVoiceUseRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Voice Use Risk"@en ;
+    rdfs:label "未经授权使用声音风险"@zh ;
+    airo:hasConsequence ex:LegalAction ;
+    airo:isRiskSourceFor ex:LackOfPermission .
+
+ex:VoiceActor rdf:type airo:Stakeholder ;
+    rdfs:label "Voice Actor"@en ;
+    rdfs:label "配音演员"@zh .
+
+ex:TikTok rdf:type airo:AIOperator ;
+    rdfs:label "TikTok"@en ;
+    rdfs:label "TikTok"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Consequence"@en ;
+    rdfs:label "法律诉讼后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VoiceActor .
+
+ex:ContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Content Creation Purpose"@en ;
+    rdfs:label "内容创作目的"@zh .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "Social Media Domain"@en ;
+    rdfs:label "社交媒体领域"@zh .
+
+ex:TextToSpeech rdf:type airo:AITechnique ;
+    rdfs:label "Text-to-Speech Technique"@en ;
+    rdfs:label "文本转语音技术"@zh .
+
+ex:LackOfPermission rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Permission Risk Source"@en ;
+    rdfs:label "缺乏授权风险源"@zh .

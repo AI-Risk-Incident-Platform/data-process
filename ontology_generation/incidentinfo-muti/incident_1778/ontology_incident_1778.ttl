@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MercadonaFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Mercadona Facial Recognition System"@en ;
+    rdfs:label "Mercadona面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:TheftPrevention ;
+    airo:isAppliedWithinDomain ex:RetailSecurity ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:SpanishDataProtectionAgency ;
+    airo:isDeployedBy ex:MercadonaSupermarketChain .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:RegulatoryFine ;
+    airo:isRiskSourceFor ex:UnlawfulDataProcessing .
+
+ex:SpanishDataProtectionAgency rdf:type airo:Stakeholder ;
+    rdfs:label "Spanish Data Protection Agency"@en ;
+    rdfs:label "西班牙数据保护局"@zh .
+
+ex:MercadonaSupermarketChain rdf:type airo:AIOperator ;
+    rdfs:label "Mercadona Supermarket Chain"@en ;
+    rdfs:label "Mercadona超市连锁"@zh .
+
+ex:RegulatoryFine rdf:type airo:Consequence ;
+    rdfs:label "Regulatory Fine Consequence"@en ;
+    rdfs:label "监管罚款后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "财务损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MercadonaSupermarketChain .
+
+ex:TheftPrevention rdf:type airo:Purpose ;
+    rdfs:label "Theft Prevention Purpose"@en ;
+    rdfs:label "防盗目的"@zh .
+
+ex:RetailSecurity rdf:type airo:Domain ;
+    rdfs:label "Retail Security Domain"@en ;
+    rdfs:label "零售安全领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:UnlawfulDataProcessing rdf:type airo:RiskSource ;
+    rdfs:label "Unlawful Data Processing Risk Source"@en ;
+    rdfs:label "非法数据处理风险源"@zh .

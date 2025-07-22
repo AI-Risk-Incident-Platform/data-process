@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LumaDreamMachine",
+      "中文名称": "Luma梦想机器",
+      "英文名称": "Luma Dream Machine",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Risk": {
+      "id": "IntellectualPropertyInfringementRisk",
+      "中文名称": "知识产权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "Consequence": {
+      "id": "LegalActionFromCopyrightHolders",
+      "中文名称": "版权方采取法律行动的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "AIOperator": {
+      "id": "LumaLabs",
+      "中文名称": "Luma实验室",
+      "英文名称": "Luma Labs (since it's a more concise and established way to refer to the entity that is also related to the app development as per the given names)",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Stakeholder": {
+      "id": "DisneyCorporation",
+      "中文名称": "迪士尼公司",
+      "英文名称": "Disney Corporation",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "AICapability": {
+      "id": "VideoGenerationFromTextPrompts",
+      "中文名称": "根据文本提示生成视频的能力",
+      "英文名称": "Text-to-Video Generation",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成的目的",
+      "英文名称": "Content Generation",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Domain": {
+      "id": "DigitalMediaAndEntertainment",
+      "中文名称": "数字媒体与娱乐领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "RiskSource": {
+      "id": "UnlicensedUseOfCopyrightedCharacters",
+      "中文名称": "未经授权使用受版权保护角色的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "Impact": {
+      "id": "ReputationalDamageToAICompany",
+      "中文名称": "对AI公司声誉损害的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LumaDreamMachine",
+      "中文名称": "Luma梦想机器",
+      "英文名称": "Luma Dream Machine",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Risk": {
+      "id": "IntellectualPropertyInfringementRisk",
+      "中文名称": "知识产权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "Consequence": {
+      "id": "LegalActionFromCopyrightHolders",
+      "中文名称": "版权方采取法律行动的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "AIOperator": {
+      "id": "LumaLabs",
+      "中文名称": "Luma实验室",
+      "英文名称": "Luma Labs (since it's a more concise and established way to refer to the entity that is also related to the app development as per the given names)",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Stakeholder": {
+      "id": "DisneyCorporation",
+      "中文名称": "迪士尼公司",
+      "英文名称": "Disney Corporation",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "AICapability": {
+      "id": "VideoGenerationFromTextPrompts",
+      "中文名称": "根据文本提示生成视频的能力",
+      "英文名称": "Text-to-Video Generation",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成的目的",
+      "英文名称": "Content Generation",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    },
+    "Domain": {
+      "id": "DigitalMediaAndEntertainment",
+      "中文名称": "数字媒体与娱乐领域",
+      "英文名称": "Digital Entertainment & Media",
+      "来源": "An AI video tool just launched, and it's already copying Disney's IP"
+    },
+    "RiskSource": {
+      "id": "UnlicensedUseOfCopyrightedCharacters",
+      "中文名称": "未经授权使用受版权保护角色的风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "AI video generator \"accidentally\" included Disney character in demo reel"
+    },
+    "Impact": {
+      "id": "ReputationalDamageToAICompany",
+      "中文名称": "对AI公司声誉损害的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Luma's AI Video Tool Dream Machine Under Scrutiny After Altered Version of Disney Character Appears in Its Trailer"
+    }
+  }
+}

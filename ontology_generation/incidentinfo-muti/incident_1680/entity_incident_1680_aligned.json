@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HealthInsuranceClaimsDenialAI",
+      "中文名称": "健康保险索赔拒绝AI",
+      "英文名称": "Health Insurance Denial AI",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Risk": {
+      "id": "UnfairClaimsDenialRisk",
+      "中文名称": "不公平索赔拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "Stakeholder": {
+      "id": "AmericanMedicalAssociation",
+      "中文名称": "美国医学会",
+      "英文名称": "American Medical Association",
+      "来源": "AMA calls for more regulatory oversight for insurers using AI"
+    },
+    "Domain": {
+      "id": "HealthInsurance",
+      "中文名称": "健康保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Purpose": {
+      "id": "AutomatedClaimsProcessing",
+      "中文名称": "自动化索赔处理目的",
+      "英文名称": "Automated Claims Processing Purpose",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Consequence": {
+      "id": "PatientsDeniedNecessaryCare",
+      "中文名称": "患者被拒绝必要护理后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "Impact": {
+      "id": "NegativeHealthOutcomes",
+      "中文名称": "负面健康结果影响",
+      "英文名称": "Negative Health Impact",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanOversight",
+      "中文名称": "缺乏人工监督风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "AMA calls for more regulatory oversight for insurers using AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HealthInsuranceClaimsDenialAI",
+      "中文名称": "健康保险索赔拒绝AI",
+      "英文名称": "Health Insurance Denial AI",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Risk": {
+      "id": "UnfairClaimsDenialRisk",
+      "中文名称": "不公平索赔拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "Stakeholder": {
+      "id": "AmericanMedicalAssociation",
+      "中文名称": "美国医学会",
+      "英文名称": "American Medical Association",
+      "来源": "AMA calls for more regulatory oversight for insurers using AI"
+    },
+    "Domain": {
+      "id": "HealthInsurance",
+      "中文名称": "健康保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Purpose": {
+      "id": "AutomatedClaimsProcessing",
+      "中文名称": "自动化索赔处理目的",
+      "英文名称": "Automated Claims Processing Purpose",
+      "来源": "How algorithms are being used to deny health insurance claims in bulk"
+    },
+    "Consequence": {
+      "id": "PatientsDeniedNecessaryCare",
+      "中文名称": "患者被拒绝必要护理后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "Impact": {
+      "id": "NegativeHealthOutcomes",
+      "中文名称": "负面健康结果影响",
+      "英文名称": "Negative Health Impact",
+      "来源": "Insurers deny claims via AI: Report"
+    },
+    "RiskSource": {
+      "id": "LackOfHumanOversight",
+      "中文名称": "缺乏人工监督风险源",
+      "英文名称": "Human Intervention Risk Source",
+      "来源": "AMA calls for more regulatory oversight for insurers using AI"
+    }
+  }
+}

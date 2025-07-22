@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HealthInsuranceClaimsDenialAI rdf:type airo:AISystem ;
+    rdfs:label "Health Insurance Claims Denial AI"@en ;
+    rdfs:label "健康保险索赔拒绝AI"@zh ;
+    airo:hasRisk ex:UnfairClaimsDenialRisk ;
+    airo:hasPurpose ex:AutomatedClaimsProcessing ;
+    airo:hasStakeholder ex:AmericanMedicalAssociation ;
+    airo:isAppliedWithinDomain ex:HealthInsurance .
+
+ex:UnfairClaimsDenialRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Claims Denial Risk"@en ;
+    rdfs:label "不公平索赔拒绝风险"@zh ;
+    airo:hasConsequence ex:PatientsDeniedNecessaryCare ;
+    airo:isRiskSourceFor ex:LackOfHumanOversight .
+
+ex:AmericanMedicalAssociation rdf:type airo:Stakeholder ;
+    rdfs:label "American Medical Association"@en ;
+    rdfs:label "美国医学会"@zh .
+
+ex:HealthInsurance rdf:type airo:Domain ;
+    rdfs:label "Health Insurance Domain"@en ;
+    rdfs:label "健康保险领域"@zh .
+
+ex:AutomatedClaimsProcessing rdf:type airo:Purpose ;
+    rdfs:label "Automated Claims Processing Purpose"@en ;
+    rdfs:label "自动化索赔处理目的"@zh .
+
+ex:PatientsDeniedNecessaryCare rdf:type airo:Consequence ;
+    rdfs:label "Patients Denied Necessary Care Consequence"@en ;
+    rdfs:label "患者被拒绝必要护理后果"@zh ;
+    airo:hasImpact ex:NegativeHealthOutcomes .
+
+ex:NegativeHealthOutcomes rdf:type airo:Impact ;
+    rdfs:label "Negative Health Outcomes Impact"@en ;
+    rdfs:label "负面健康结果影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmericanMedicalAssociation .
+
+ex:LackOfHumanOversight rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Oversight Risk Source"@en ;
+    rdfs:label "缺乏人工监督风险源"@zh .

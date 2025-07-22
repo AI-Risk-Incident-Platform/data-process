@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "A Flawed Facial-Recognition System Sent This Man to Jail"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "Consequence": {
+      "id": "IncarcerationOfInnocentPerson",
+      "中文名称": "无辜者被监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "A Flawed Facial-Recognition System Sent This Man to Jail"
+    },
+    "AICapability": {
+      "id": "FacialMatchingAlgorithm",
+      "中文名称": "面部匹配算法能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Detroit Police Chief: Facial Recognition Software Misidentifies 96% of the Time"
+    },
+    "Stakeholder": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "RiskSource": {
+      "id": "HighMisidentificationRate",
+      "中文名称": "高误识别率风险源",
+      "英文名称": "Misidentification Risk Source",
+      "来源": "Detroit Police Chief: Facial Recognition Software Misidentifies 96% of the Time"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "A Flawed Facial-Recognition System Sent This Man to Jail"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "Consequence": {
+      "id": "IncarcerationOfInnocentPerson",
+      "中文名称": "无辜者被监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "A Flawed Facial-Recognition System Sent This Man to Jail"
+    },
+    "AICapability": {
+      "id": "FacialMatchingAlgorithm",
+      "中文名称": "面部匹配算法能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Detroit Police Chief: Facial Recognition Software Misidentifies 96% of the Time"
+    },
+    "Stakeholder": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    },
+    "RiskSource": {
+      "id": "HighMisidentificationRate",
+      "中文名称": "高误识别率风险源",
+      "英文名称": "Misidentification Risk Source",
+      "来源": "Detroit Police Chief: Facial Recognition Software Misidentifies 96% of the Time"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "ACLU files complaint against Detroit police for wrongful arrest due to facial recognition error"
+    }
+  }
+}

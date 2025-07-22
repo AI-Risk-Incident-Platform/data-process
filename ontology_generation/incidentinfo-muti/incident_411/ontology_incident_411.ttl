@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Recommendation System"@en ;
+    rdfs:label "Facebook内容推荐系统"@zh ;
+    airo:hasRisk ex:ExposureToViolentAndAdultContentRisk ;
+    airo:hasAISubject ex:LowDigitallySkilledUsers ;
+    airo:hasStakeholder ex:FacebookUsers ;
+    airo:hasCapability ex:ContentPersonalizationAlgorithm .
+
+ex:ExposureToViolentAndAdultContentRisk rdf:type airo:Risk ;
+    rdfs:label "Exposure to Violent and Adult Content Risk"@en ;
+    rdfs:label "暴露于暴力和成人内容风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistress ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInContentDistribution .
+
+ex:LowDigitallySkilledUsers rdf:type airo:AISubject ;
+    rdfs:label "Low Digitally Skilled Users"@en ;
+    rdfs:label "数字技能较低的用户"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress Consequence"@en ;
+    rdfs:label "心理困扰后果"@zh ;
+    airo:hasImpact ex:NegativeUserExperience .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:ContentPersonalizationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Personalization Algorithm Capability"@en ;
+    rdfs:label "内容个性化算法能力"@zh .
+
+ex:NegativeUserExperience rdf:type airo:Impact ;
+    rdfs:label "Negative User Experience Impact"@en ;
+    rdfs:label "负面用户体验影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:AlgorithmicBiasInContentDistribution rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Content Distribution Risk Source"@en ;
+    rdfs:label "内容分发中的算法偏见风险源"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCallSystem",
+      "中文名称": "深度伪造视频通话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Singapore authorities warn of rise in deepfake corporate video calls"
+    },
+    "Risk": {
+      "id": "CorporateImpersonationRisk",
+      "中文名称": "企业冒充风险",
+      "英文名称": "Corporate Impersonation Risk",
+      "来源": "rise in deepfake corporate video calls"
+    },
+    "Stakeholder": {
+      "id": "SingaporeAuthorities",
+      "中文名称": "新加坡当局",
+      "英文名称": "Singapore Authorities",
+      "来源": "Singapore authorities warn"
+    },
+    "Domain": {
+      "id": "CorporateCommunication",
+      "中文名称": "企业通信领域",
+      "英文名称": "Corporate Communication",
+      "来源": "corporate video calls"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "deepfake corporate video calls"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCallSystem",
+      "中文名称": "深度伪造视频通话系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Singapore authorities warn of rise in deepfake corporate video calls"
+    },
+    "Risk": {
+      "id": "CorporateImpersonationRisk",
+      "中文名称": "企业冒充风险",
+      "英文名称": "Corporate Impersonation Risk",
+      "来源": "rise in deepfake corporate video calls"
+    },
+    "Stakeholder": {
+      "id": "SingaporeAuthorities",
+      "中文名称": "新加坡当局",
+      "英文名称": "Singapore Authorities",
+      "来源": "Singapore authorities warn"
+    },
+    "Domain": {
+      "id": "CorporateCommunication",
+      "中文名称": "企业通信领域",
+      "英文名称": "Corporate Communication",
+      "来源": "corporate video calls"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "deepfake corporate video calls"
+    }
+  }
+}

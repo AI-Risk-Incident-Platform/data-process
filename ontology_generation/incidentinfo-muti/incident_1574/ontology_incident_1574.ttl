@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAI rdf:type airo:AISystem ;
+    rdfs:label "生成式AI"@zh ;
+    rdfs:label "Generative AI"@en ;
+    airo:hasRisk ex:CarbonFootprintRisk ;
+    airo:hasCapability ex:LargeScaleModelTraining ;
+    airo:isAppliedWithinDomain ex:ArtificialIntelligenceResearch .
+
+ex:CarbonFootprintRisk rdf:type airo:Risk ;
+    rdfs:label "碳足迹风险"@zh ;
+    rdfs:label "Carbon Footprint Risk"@en ;
+    airo:hasConsequence ex:EnvironmentalImpact .
+
+ex:EnvironmentalImpact rdf:type airo:Consequence ;
+    rdfs:label "环境影响后果"@zh ;
+    rdfs:label "Environmental Impact Consequence"@en ;
+    airo:hasImpact ex:ClimateChangeContribution .
+
+ex:LargeScaleModelTraining rdf:type airo:AICapability ;
+    rdfs:label "大规模模型训练能力"@zh ;
+    rdfs:label "Large Scale Model Training Capability"@en .
+
+ex:ArtificialIntelligenceResearch rdf:type airo:Domain ;
+    rdfs:label "人工智能研究领域"@zh ;
+    rdfs:label "Artificial Intelligence Research Domain"@en .
+
+ex:ClimateChangeContribution rdf:type airo:Impact ;
+    rdfs:label "气候变化影响"@zh ;
+    rdfs:label "Climate Change Contribution Impact"@en .

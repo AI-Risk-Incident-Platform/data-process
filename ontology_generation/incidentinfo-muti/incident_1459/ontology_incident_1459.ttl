@@ -1,0 +1,76 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LavenderAIDatabase rdf:type airo:AISystem ;
+    rdfs:label "Lavender AI Database"@en ;
+    rdfs:label "薰衣草AI数据库"@zh ;
+    airo:hasRisk ex:CivilianCasualtiesRisk ;
+    airo:hasAICapability ex:TargetIdentificationCapability ;
+    airo:isDeployedBy ex:IsraelDefenceForces ;
+    airo:hasStakeholder ex:GazaCivilians ;
+    airo:hasAISubject ex:HamasMembers ;
+    airo:hasPurpose ex:MilitaryTargetIdentification ;
+    airo:isAppliedWithinDomain ex:MilitaryOperations ;
+    airo:usesTechnique ex:DataAnalysisTechnique ;
+    airo:hasVulnerability ex:CivilianMisidentification .
+
+ex:CivilianCasualtiesRisk rdf:type airo:Risk ;
+    rdfs:label "Civilian Casualties Risk"@en ;
+    rdfs:label "平民伤亡风险"@zh ;
+    airo:isRiskSourceFor ex:AutomatedTargetingSystem ;
+    airo:hasConsequence ex:CivilianCasualtiesImpact .
+
+ex:TargetIdentificationCapability rdf:type airo:AICapability ;
+    rdfs:label "Target Identification Capability"@en ;
+    rdfs:label "目标识别能力"@zh .
+
+ex:IsraelDefenceForces rdf:type airo:AIOperator ;
+    rdfs:label "Israel Defence Forces"@en ;
+    rdfs:label "以色列国防军"@zh .
+
+ex:GazaCivilians rdf:type airo:Stakeholder ;
+    rdfs:label "Gaza Civilians"@en ;
+    rdfs:label "加沙平民"@zh .
+
+ex:HamasMembers rdf:type airo:AISubject ;
+    rdfs:label "Hamas Members"@en ;
+    rdfs:label "哈马斯成员"@zh .
+
+ex:CivilianCasualtiesImpact rdf:type airo:Impact ;
+    rdfs:label "Civilian Casualties Impact"@en ;
+    rdfs:label "平民伤亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GazaCivilians .
+
+ex:MilitaryTargetIdentification rdf:type airo:Purpose ;
+    rdfs:label "Military Target Identification Purpose"@en ;
+    rdfs:label "军事目标识别目的"@zh .
+
+ex:MilitaryOperations rdf:type airo:Domain ;
+    rdfs:label "Military Operations Domain"@en ;
+    rdfs:label "军事行动领域"@zh .
+
+ex:DataAnalysisTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Data Analysis Technique"@en ;
+    rdfs:label "数据分析技术"@zh .
+
+ex:CivilianMisidentification rdf:type airo:Vulnerability ;
+    rdfs:label "Civilian Misidentification Vulnerability"@en ;
+    rdfs:label "平民误识别脆弱性"@zh .
+
+ex:AutomatedTargetingSystem rdf:type airo:RiskSource ;
+    rdfs:label "Automated Targeting System Risk Source"@en ;
+    rdfs:label "自动化目标系统风险源"@zh ;
+    airo:isRiskSourceFor ex:CivilianCasualtiesRisk .
+
+ex:EthicalMilitaryAIUse rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Military AI Use Risk Concept"@en ;
+    rdfs:label "军事AI伦理使用风险概念"@zh .

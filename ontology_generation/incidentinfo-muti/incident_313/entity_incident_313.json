@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UncensoredAIArtModel",
+      "中文名称": "未经审查的AI艺术模型",
+      "英文名称": "Uncensored AI Art Model",
+      "来源": "Deepfakes: Uncensored AI art model prompts ethics questions"
+    },
+    "Risk": {
+      "id": "EthicalQuestionsRisk",
+      "中文名称": "伦理问题风险",
+      "英文名称": "Ethical Questions Risk",
+      "来源": "Deepfakes: Uncensored AI art model prompts ethics questions"
+    },
+    "RiskSource": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤",
+      "英文名称": "Lack of Content Filtering",
+      "来源": "Uncensored AI art model"
+    },
+    "Consequence": {
+      "id": "PotentialHarmfulContentCreation",
+      "中文名称": "潜在有害内容创作",
+      "英文名称": "Potential Harmful Content Creation",
+      "来源": "Uncensored AI art model"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害",
+      "英文名称": "Social Harm",
+      "来源": "prompts ethics questions"
+    }
+  }
+}

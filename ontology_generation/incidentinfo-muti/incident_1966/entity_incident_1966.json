@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "虚假指控风险",
+      "英文名称": "False Accusation Risk",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    },
+    "Impact": {
+      "id": "ProfessionalHarm",
+      "中文名称": "职业伤害影响",
+      "英文名称": "Professional Harm Impact",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    },
+    "AISubject": {
+      "id": "LawProfessor",
+      "中文名称": "法学教授",
+      "英文名称": "Law Professor",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    },
+    "RiskSource": {
+      "id": "InaccurateInformationGeneration",
+      "中文名称": "不准确信息生成风险源",
+      "英文名称": "Inaccurate Information Generation Risk Source",
+      "来源": "ChatGPT Falsely Accuses Law Professor of Sexual Assault"
+    }
+  }
+}

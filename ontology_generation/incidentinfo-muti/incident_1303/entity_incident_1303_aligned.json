@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndWriters",
+      "中文名称": "记者和作家",
+      "英文名称": "Media Workers",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护的材料",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AP and OpenAI Licensing Agreement"
+    },
+    "Impact": {
+      "id": "FinancialAndReputationalDamage",
+      "中文名称": "财务和声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndWriters",
+      "中文名称": "记者和作家",
+      "英文名称": "Media Workers",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Writers Nicholas Gage and Nicholas Basbanes have sued ChatGPT makers"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCopyrightedMaterial",
+      "中文名称": "未经授权使用受版权保护的材料",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AP and OpenAI Licensing Agreement"
+    },
+    "Impact": {
+      "id": "FinancialAndReputationalDamage",
+      "中文名称": "财务和声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "OpenAI Hit With Another Copyright Suit From Pair of Journalists"
+    }
+  }
+}

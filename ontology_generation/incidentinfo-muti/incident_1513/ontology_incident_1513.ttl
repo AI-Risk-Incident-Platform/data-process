@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HelloBarbie rdf:type airo:AISystem ;
+    rdfs:label "Hello Barbie"@en ;
+    rdfs:label "Hello Barbie"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:InteractiveToy ;
+    airo:hasStakeholder ex:PrivacyAdvocates ;
+    airo:hasStakeholder ex:Children ;
+    airo:isDeployedBy ex:Mattel .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:ChildrenVoiceDataCollection ;
+    airo:isRiskSourceFor ex:VoiceRecordingFeature .
+
+ex:ChildrenVoiceDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Children Voice Data Collection Consequence"@en ;
+    rdfs:label "儿童语音数据收集后果"@zh .
+
+ex:PrivacyAdvocates rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Advocates"@en ;
+    rdfs:label "隐私倡导者"@zh .
+
+ex:Mattel rdf:type airo:AIOperator ;
+    rdfs:label "Mattel"@en ;
+    rdfs:label "美泰公司"@zh .
+
+ex:Children rdf:type airo:AISubject ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:VoiceRecordingFeature rdf:type airo:RiskSource ;
+    rdfs:label "Voice Recording Feature Risk Source"@en ;
+    rdfs:label "语音记录功能风险源"@zh .
+
+ex:InteractiveToy rdf:type airo:Purpose ;
+    rdfs:label "Interactive Toy Purpose"@en ;
+    rdfs:label "交互式玩具目的"@zh .

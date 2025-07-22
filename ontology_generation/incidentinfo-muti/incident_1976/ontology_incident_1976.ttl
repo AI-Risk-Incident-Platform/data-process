@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseWaymoSelfDrivingCars rdf:type airo:AISystem ;
+    rdfs:label "Cruise and Waymo Self-Driving Cars"@en ;
+    rdfs:label "Cruise和Waymo自动驾驶汽车"@zh ;
+    airo:hasRisk ex:PublicSafetyRiskFromSelfDrivingCars ;
+    airo:isDeployedBy ex:CruiseLLC ;
+    airo:hasStakeholder ex:SanFranciscoCityOfficials ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation .
+
+ex:PublicSafetyRiskFromSelfDrivingCars rdf:type airo:Risk ;
+    rdfs:label "Public Safety Risk from Self-Driving Cars"@en ;
+    rdfs:label "自动驾驶汽车带来的公共安全风险"@zh ;
+    airo:hasConsequence ex:TrafficDisruption ;
+    airo:isRiskSourceFor ex:UnpredictableVehicleBehavior .
+
+ex:TrafficDisruption rdf:type airo:Consequence ;
+    rdfs:label "Traffic Disruption Consequence"@en ;
+    rdfs:label "交通中断后果"@zh ;
+    airo:hasImpact ex:EmergencyServiceOverload .
+
+ex:SanFranciscoCityOfficials rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco City Officials"@en ;
+    rdfs:label "旧金山市官员"@zh .
+
+ex:EmergencyServiceOverload rdf:type airo:Impact ;
+    rdfs:label "Emergency Service Overload Impact"@en ;
+    rdfs:label "紧急服务过载影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SanFranciscoCityOfficials .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:CruiseLLC rdf:type airo:AIOperator ;
+    rdfs:label "Cruise LLC"@en ;
+    rdfs:label "Cruise有限责任公司"@zh .
+
+ex:UnpredictableVehicleBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Unpredictable Vehicle Behavior Risk Source"@en ;
+    rdfs:label "不可预测的车辆行为风险源"@zh .

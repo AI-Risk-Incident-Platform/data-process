@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GannettAIExperiment",
+      "中文名称": "Gannett AI实验",
+      "英文名称": "Gannett AI Experiment",
+      "来源": "Gannett to pause AI experiment after botched high school sports articles"
+    },
+    "Risk": {
+      "id": "LowQualityContentGenerationRisk",
+      "中文名称": "低质量内容生成风险",
+      "英文名称": "Low Quality Content Generation Risk",
+      "来源": "botched high school sports articles"
+    },
+    "Consequence": {
+      "id": "PublicationOfInaccurateArticles",
+      "中文名称": "发布不准确文章的后果",
+      "英文名称": "Publication of Inaccurate Articles Consequence",
+      "来源": "botched high school sports articles"
+    },
+    "Stakeholder": {
+      "id": "GannettSportsWriter",
+      "中文名称": "Gannett体育记者",
+      "英文名称": "Gannett Sports Writer",
+      "来源": "Gannett Sports Writer on Botched AI-Generated Sports Articles: \"Embarrassing\""
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害的影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "\"Embarrassing\""
+    },
+    "AIOperator": {
+      "id": "Gannett",
+      "中文名称": "Gannett公司",
+      "英文名称": "Gannett",
+      "来源": "Gannett to pause AI experiment"
+    },
+    "Domain": {
+      "id": "SportsJournalism",
+      "中文名称": "体育新闻领域",
+      "英文名称": "Sports Journalism Domain",
+      "来源": "high school sports articles"
+    }
+  }
+}

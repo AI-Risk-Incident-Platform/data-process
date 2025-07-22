@@ -1,0 +1,83 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAIOverview rdf:type airo:AISystem ;
+    rdfs:label "Google AI Overview"@en ;
+    rdfs:label "谷歌AI概览"@zh ;
+    airo:hasRisk ex:MisleadingInformationRisk ;
+    airo:hasAICapability ex:ContentSummarization ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasPurpose ex:InformationSummarization ;
+    airo:hasStakeholder ex:InformationConsumers ;
+    airo:isAppliedWithinDomain ex:InformationTechnology ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasVulnerability ex:InformationVerification .
+
+ex:MisleadingInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Information Risk"@en ;
+    rdfs:label "误导信息风险"@zh ;
+    airo:hasConsequence ex:FalseInformationDissemination ;
+    airo:isRiskSourceFor ex:AlgorithmicLimitations , ex:AIHallucination , ex:UnverifiedDataSources .
+
+ex:FalseInformationDissemination rdf:type airo:Consequence ;
+    rdfs:label "False Information Dissemination Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:ContentSummarization rdf:type airo:AICapability ;
+    rdfs:label "Content Summarization Capability"@en ;
+    rdfs:label "内容摘要能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:InformationConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "Information Consumers"@en ;
+    rdfs:label "信息消费者"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误信影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InformationConsumers .
+
+ex:InformationSummarization rdf:type airo:Purpose ;
+    rdfs:label "Information Summarization Purpose"@en ;
+    rdfs:label "信息摘要目的"@zh .
+
+ex:InformationTechnology rdf:type airo:Domain ;
+    rdfs:label "Information Technology Domain"@en ;
+    rdfs:label "信息技术领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:InformationVerification rdf:type airo:Vulnerability ;
+    rdfs:label "Information Verification Vulnerability"@en ;
+    rdfs:label "信息验证脆弱性"@zh .
+
+ex:AIHallucination rdf:type airo:Threat ;
+    rdfs:label "AI Hallucination Threat"@en ;
+    rdfs:label "AI幻觉威胁"@zh .
+
+ex:UnverifiedDataSources rdf:type airo:Hazard ;
+    rdfs:label "Unverified Data Sources Hazard"@en ;
+    rdfs:label "未经验证数据源危害"@zh .
+
+ex:AlgorithmicLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Limitations Risk Source"@en ;
+    rdfs:label "算法局限性风险源"@zh .
+
+ex:AIInformationReliability rdf:type airo:RiskConcept ;
+    rdfs:label "AI Information Reliability Risk Concept"@en ;
+    rdfs:label "AI信息可靠性风险概念"@zh .

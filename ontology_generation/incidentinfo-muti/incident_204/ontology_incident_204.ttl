@@ -1,0 +1,62 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTech rdf:type airo:AISystem ;
+    rdfs:label "面部识别技术"@zh ;
+    rdfs:label "Facial Recognition Tech"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:PhotoStorageEnhancement ;
+    airo:isAppliedWithinDomain ex:ConsumerTechnology ;
+    airo:hasStakeholder ex:Consumers ;
+    airo:isDeployedBy ex:EverCompany .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:LackOfUserConsent ;
+    airo:hasConsequence ex:UnauthorizedDataCollection ;
+    airo:hasRiskControl ex:RegulatorySettlement .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "未经授权的数据收集后果"@zh ;
+    rdfs:label "Unauthorized Data Collection Consequence"@en ;
+    airo:hasImpact ex:LossOfConsumerTrust .
+
+ex:Consumers rdf:type airo:Stakeholder ;
+    rdfs:label "消费者"@zh ;
+    rdfs:label "Consumers"@en .
+
+ex:EverCompany rdf:type airo:AIOperator ;
+    rdfs:label "Ever公司"@zh ;
+    rdfs:label "Ever Company"@en .
+
+ex:LossOfConsumerTrust rdf:type airo:Impact ;
+    rdfs:label "消费者信任丧失的影响"@zh ;
+    rdfs:label "Loss of Consumer Trust Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Consumers .
+
+ex:PhotoStorageEnhancement rdf:type airo:Purpose ;
+    rdfs:label "照片存储增强的目的"@zh ;
+    rdfs:label "Photo Storage Enhancement Purpose"@en .
+
+ex:ConsumerTechnology rdf:type airo:Domain ;
+    rdfs:label "消费技术领域"@zh ;
+    rdfs:label "Consumer Technology Domain"@en .
+
+ex:LackOfUserConsent rdf:type airo:RiskSource ;
+    rdfs:label "缺乏用户同意的风险源"@zh ;
+    rdfs:label "Lack of User Consent Risk Source"@en .
+
+ex:RegulatorySettlement rdf:type airo:RiskControl ;
+    rdfs:label "监管和解的管控"@zh ;
+    rdfs:label "Regulatory Settlement RiskControl"@en ;
+    airo:mitigatesRiskConcept ex:PrivacyViolationRisk .

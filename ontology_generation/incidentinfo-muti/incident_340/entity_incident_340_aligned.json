@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICarRepairSystem",
+      "中文名称": "AI汽车维修系统",
+      "英文名称": "AI Car Repair System",
+      "来源": "AI Comes to Car Repair"
+    },
+    "Risk": {
+      "id": "BodyShopOwnersUnhappinessRisk",
+      "中文名称": "车身修理厂主不满风险",
+      "英文名称": "Body Shop Owners Unhappiness Risk",
+      "来源": "Body Shop Owners Aren’t Happy"
+    },
+    "Stakeholder": {
+      "id": "BodyShopOwners",
+      "中文名称": "车身修理厂主",
+      "英文名称": "Body Shop Owners",
+      "来源": "Body Shop Owners Aren’t Happy"
+    },
+    "Domain": {
+      "id": "AutomotiveRepairIndustry",
+      "中文名称": "汽车维修行业",
+      "英文名称": "Automotive Repair Industry",
+      "来源": "AI Comes to Car Repair"
+    },
+    "Impact": {
+      "id": "PotentialJobDisplacement",
+      "中文名称": "潜在工作替代影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Body Shop Owners Aren’t Happy"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AICarRepairSystem",
+      "中文名称": "AI汽车维修系统",
+      "英文名称": "AI Car Repair System",
+      "来源": "AI Comes to Car Repair"
+    },
+    "Risk": {
+      "id": "BodyShopOwnersUnhappinessRisk",
+      "中文名称": "车身修理厂主不满风险",
+      "英文名称": "Body Shop Owners Unhappiness Risk",
+      "来源": "Body Shop Owners Aren’t Happy"
+    },
+    "Stakeholder": {
+      "id": "BodyShopOwners",
+      "中文名称": "车身修理厂主",
+      "英文名称": "Body Shop Owners",
+      "来源": "Body Shop Owners Aren’t Happy"
+    },
+    "Domain": {
+      "id": "AutomotiveRepairIndustry",
+      "中文名称": "汽车维修行业",
+      "英文名称": "Automotive Repair Industry",
+      "来源": "AI Comes to Car Repair"
+    },
+    "Impact": {
+      "id": "PotentialJobDisplacement",
+      "中文名称": "潜在工作替代影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Body Shop Owners Aren’t Happy"
+    }
+  }
+}

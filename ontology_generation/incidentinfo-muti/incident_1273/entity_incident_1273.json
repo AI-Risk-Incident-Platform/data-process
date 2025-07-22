@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICompanionWebsite",
+      "中文名称": "AI伴侣网站",
+      "英文名称": "AI Companion Website",
+      "来源": "Sitio web de AI Companion fue hackeado y los datos revelan que los usuarios intentaban simular abuso infantil"
+    },
+    "Risk": {
+      "id": "ChildAbuseSimulationRisk",
+      "中文名称": "儿童虐待模拟风险",
+      "英文名称": "Child Abuse Simulation Risk",
+      "来源": "los datos revelan que los usuarios intentaban simular abuso infantil"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToChildren",
+      "中文名称": "对儿童的潜在伤害后果",
+      "英文名称": "Potential Harm to Children Consequence",
+      "来源": "los usuarios intentaban simular abuso infantil"
+    },
+    "RiskSource": {
+      "id": "MaliciousUserBehavior",
+      "中文名称": "恶意用户行为风险源",
+      "英文名称": "Malicious User Behavior Risk Source",
+      "来源": "los usuarios intentaban simular abuso infantil"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足的脆弱性",
+      "英文名称": "Inadequate Content Moderation Vulnerability",
+      "来源": "los datos revelan que los usuarios intentaban simular abuso infantil"
+    },
+    "Stakeholder": {
+      "id": "ChildProtectionOrganizations",
+      "中文名称": "儿童保护组织",
+      "英文名称": "Child Protection Organizations",
+      "来源": "implied by the context of child abuse simulation"
+    },
+    "Impact": {
+      "id": "PsychologicalTraumaToChildren",
+      "中文名称": "对儿童的心理创伤影响",
+      "英文名称": "Psychological Trauma to Children Impact",
+      "来源": "implied by the context of child abuse simulation"
+    },
+    "Threat": {
+      "id": "ExploitationOfAIForIllegalPurposes",
+      "中文名称": "利用AI进行非法目的的威胁",
+      "英文名称": "Exploitation of AI for Illegal Purposes Threat",
+      "来源": "los usuarios intentaban simular abuso infantil"
+    },
+    "AITechnique": {
+      "id": "ConversationalAI",
+      "中文名称": "对话式AI技术",
+      "英文名称": "Conversational AI Technique",
+      "来源": "implied by the nature of an AI companion website"
+    },
+    "Purpose": {
+      "id": "VirtualCompanionService",
+      "中文名称": "虚拟伴侣服务目的",
+      "英文名称": "Virtual Companion Service Purpose",
+      "来源": "implied by the nature of an AI companion website"
+    }
+  }
+}

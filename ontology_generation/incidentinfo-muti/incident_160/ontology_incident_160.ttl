@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleMapsNavigationSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Maps Navigation System"@en ;
+    rdfs:label "谷歌地图导航系统"@zh ;
+    airo:hasRisk ex:NavigationFailureRisk ;
+    airo:hasAICapability ex:RealTimeRouteCalculation ;
+    airo:isDeployedBy ex:GoogleLLC ;
+    airo:hasPurpose ex:ProvidingOptimalDrivingRoutes ;
+    airo:hasStakeholder ex:WinterTravelersInSierraNevada ;
+    airo:isAppliedWithinDomain ex:AutomotiveNavigationSystems ;
+    airo:hasVulnerability ex:InadequateWeatherConditionAdaptation .
+
+ex:NavigationFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Navigation Failure Risk"@en ;
+    rdfs:label "导航失败风险"@zh ;
+    airo:hasConsequence ex:TravelersStrandedInDangerousConditions .
+
+ex:TravelersStrandedInDangerousConditions rdf:type airo:Consequence ;
+    rdfs:label "Travelers Stranded in Dangerous Conditions Consequence"@en ;
+    rdfs:label "旅客被困危险环境后果"@zh ;
+    airo:hasImpact ex:SafetyThreatToMotorists .
+
+ex:RealTimeRouteCalculation rdf:type airo:AICapability ;
+    rdfs:label "Real-Time Route Calculation Capability"@en ;
+    rdfs:label "实时路线计算能力"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌有限责任公司"@zh .
+
+ex:WinterTravelersInSierraNevada rdf:type airo:Stakeholder ;
+    rdfs:label "Winter Travelers in Sierra Nevada"@en ;
+    rdfs:label "内华达山脉冬季旅客"@zh .
+
+ex:SafetyThreatToMotorists rdf:type airo:Impact ;
+    rdfs:label "Safety Threat to Motorists Impact"@en ;
+    rdfs:label "对驾驶者的安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WinterTravelersInSierraNevada .
+
+ex:ProvidingOptimalDrivingRoutes rdf:type airo:Purpose ;
+    rdfs:label "Providing Optimal Driving Routes Purpose"@en ;
+    rdfs:label "提供最佳驾驶路线的目的"@zh .
+
+ex:AutomotiveNavigationSystems rdf:type airo:Domain ;
+    rdfs:label "Automotive Navigation Systems Domain"@en ;
+    rdfs:label "汽车导航系统领域"@zh .
+
+ex:InadequateWeatherConditionAdaptation rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Weather Condition Adaptation Vulnerability"@en ;
+    rdfs:label "恶劣天气适应不足的脆弱性"@zh .

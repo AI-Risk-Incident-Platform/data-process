@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FBIFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "FBI Facial Recognition System"@en ;
+    rdfs:label "FBI面部识别系统"@zh ;
+    airo:hasRisk ex:WrongfulArrestRisk ;
+    airo:hasAISubject ex:StevenTalley ;
+    airo:hasStakeholder ex:DenverPoliceDepartment ;
+    airo:isDeployedBy ex:FBI .
+
+ex:WrongfulArrestRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:WrongfulArrestConsequence ;
+    airo:isRiskSourceFor ex:FacialRecognitionError .
+
+ex:WrongfulArrestConsequence rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Arrest Consequence"@en ;
+    rdfs:label "错误逮捕后果"@zh ;
+    airo:hasImpact ex:ReputationDamageImpact .
+
+ex:StevenTalley rdf:type airo:AISubject ;
+    rdfs:label "Steven Talley"@en ;
+    rdfs:label "Steven Talley"@zh .
+
+ex:ReputationDamageImpact rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StevenTalley .
+
+ex:DenverPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Denver Police Department"@en ;
+    rdfs:label "丹佛警察局"@zh .
+
+ex:FBI rdf:type airo:AIOperator ;
+    rdfs:label "FBI"@en ;
+    rdfs:label "FBI"@zh .
+
+ex:FacialRecognitionError rdf:type airo:RiskSource ;
+    rdfs:label "Facial Recognition Error Risk Source"@en ;
+    rdfs:label "面部识别错误风险源"@zh .

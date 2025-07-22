@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutonomousRobot rdf:type airo:AISystem ;
+    rdfs:label "Autonomous Robot"@en ;
+    rdfs:label "自主机器人"@zh ;
+    airo:hasRisk ex:PhysicalCollisionRisk ;
+    airo:hasStakeholder ex:HumanDriver .
+
+ex:PhysicalCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Collision Risk"@en ;
+    rdfs:label "物理碰撞风险"@zh ;
+    airo:hasConsequence ex:RobotDamage ;
+    airo:isRiskSourceFor ex:HumanError .
+
+ex:RobotDamage rdf:type airo:Consequence ;
+    rdfs:label "Robot Damage"@en ;
+    rdfs:label "机器人损坏"@zh ;
+    airo:hasImpactOnStakeholder ex:HumanDriver .
+
+ex:HumanDriver rdf:type airo:Stakeholder ;
+    rdfs:label "Human Driver"@en ;
+    rdfs:label "人类驾驶员"@zh .
+
+ex:HumanError rdf:type airo:RiskSource ;
+    rdfs:label "Human Error"@en ;
+    rdfs:label "人为错误"@zh .

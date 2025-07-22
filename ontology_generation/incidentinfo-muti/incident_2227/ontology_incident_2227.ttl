@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System"@en ;
+    airo:hasRisk ex:AccuracyReductionRisk ;
+    airo:hasCapability ex:FacialFeatureRecognition ;
+    airo:hasVulnerability ex:OccludedFacialFeatures .
+
+ex:AccuracyReductionRisk rdf:type airo:Risk ;
+    rdfs:label "准确性降低风险"@zh ;
+    rdfs:label "Accuracy Reduction Risk"@en ;
+    airo:hasConsequence ex:ReducedRecognitionAccuracy ;
+    airo:isRiskSourceFor ex:FaceMaskUse .
+
+ex:ReducedRecognitionAccuracy rdf:type airo:Consequence ;
+    rdfs:label "识别准确性降低后果"@zh ;
+    rdfs:label "Reduced Recognition Accuracy Consequence"@en .
+
+ex:FaceMaskUse rdf:type airo:RiskSource ;
+    rdfs:label "口罩使用风险源"@zh ;
+    rdfs:label "Face Mask Use Risk Source"@en .
+
+ex:FacialFeatureRecognition rdf:type airo:AICapability ;
+    rdfs:label "面部特征识别能力"@zh ;
+    rdfs:label "Facial Feature Recognition Capability"@en .
+
+ex:OccludedFacialFeatures rdf:type airo:Vulnerability ;
+    rdfs:label "面部特征遮挡脆弱性"@zh ;
+    rdfs:label "Occluded Facial Features Vulnerability"@en .

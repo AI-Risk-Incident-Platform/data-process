@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceDeepfakeAI",
+      "中文名称": "语音深度伪造AI",
+      "英文名称": "Voice Deepfake AI",
+      "来源": "Fraudsters deepfake CEO’s voice to trick manager into transferring $243,000"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Fraud Risk",
+      "来源": "First-Ever AI Fraud Case Steals Money by Impersonating CEO"
+    },
+    "Consequence": {
+      "id": "UnauthorizedFundTransfer",
+      "中文名称": "未经授权的资金转移后果",
+      "英文名称": "Unauthorized Fund Transfer Consequence",
+      "来源": "Manager at energy firm loses £200,000 after fraudsters use AI to impersonate his boss's voice"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis Technology",
+      "来源": "Fraudsters deepfake CEO’s voice to trick manager into transferring $243,000"
+    },
+    "Stakeholder": {
+      "id": "CorporateManagers",
+      "中文名称": "企业经理",
+      "英文名称": "Corporate Managers",
+      "来源": "Manager at energy firm loses £200,000 after fraudsters use AI to impersonate his boss's voice"
+    },
+    "Impact": {
+      "id": "CorporateFinancialLoss",
+      "中文名称": "企业财务损失的影响",
+      "英文名称": "Corporate Financial Loss Impact",
+      "来源": "Manager at energy firm loses £200,000 after fraudsters use AI to impersonate his boss's voice"
+    },
+    "RiskSource": {
+      "id": "AIEnabledSocialEngineering",
+      "中文名称": "AI增强的社会工程学风险源",
+      "英文名称": "AI-Enabled Social Engineering Risk Source",
+      "来源": "First-Ever AI Fraud Case Steals Money by Impersonating CEO"
+    },
+    "Vulnerability": {
+      "id": "HumanVoiceAuthenticationReliance",
+      "中文名称": "人类对语音认证依赖的脆弱性",
+      "英文名称": "Human Voice Authentication Reliance Vulnerability",
+      "来源": "Fraudsters deepfake CEO’s voice to trick manager into transferring $243,000"
+    }
+  }
+}

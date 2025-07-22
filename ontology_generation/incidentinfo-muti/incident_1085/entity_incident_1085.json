@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeChatRealtimeImageFilteringSystem",
+      "中文名称": "微信实时图像过滤系统",
+      "英文名称": "WeChat Realtime Image Filtering System",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    },
+    "Risk": {
+      "id": "UnintendedUserDataTrainingRisk",
+      "中文名称": "用户数据无意训练风险",
+      "英文名称": "Unintended User Data Training Risk",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    },
+    "Stakeholder": {
+      "id": "WeChatUsers",
+      "中文名称": "微信用户",
+      "英文名称": "WeChat Users",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    },
+    "AISubject": {
+      "id": "UserGeneratedImages",
+      "中文名称": "用户生成图像",
+      "英文名称": "User Generated Images",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    },
+    "AITechnique": {
+      "id": "RealtimeImageFiltering",
+      "中文名称": "实时图像过滤技术",
+      "英文名称": "Realtime Image Filtering Technique",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    },
+    "Consequence": {
+      "id": "PrivacyConcernsFromUnintendedTraining",
+      "中文名称": "无意训练导致的隐私问题后果",
+      "英文名称": "Privacy Concerns from Unintended Training Consequence",
+      "来源": "Users are unknowingly training WeChat’s realtime image filtering system: researchers"
+    }
+  }
+}

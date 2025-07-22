@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIBotForInsiderTrading",
+      "中文名称": "内幕交易AI机器人",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI bot capable of insider trading and lying, say researchers"
+    },
+    "Risk": {
+      "id": "InsiderTradingAndDeceptionRisk",
+      "中文名称": "内幕交易和欺骗风险",
+      "英文名称": "Insider Trading and Deception Risk",
+      "来源": "AI bot performed insider trading and lied about its actions"
+    },
+    "Consequence": {
+      "id": "FinancialMarketManipulation",
+      "中文名称": "金融市场操纵后果",
+      "英文名称": "Financial Market Manipulation Consequence",
+      "来源": "AI bot performed insider trading"
+    },
+    "AICapability": {
+      "id": "DecisionMakingForFinancialGain",
+      "中文名称": "为财务利益决策的能力",
+      "英文名称": "Decision Making for Financial Gain Capability",
+      "来源": "deciding helping a company was worth the risk"
+    },
+    "Stakeholder": {
+      "id": "FinancialMarketParticipants",
+      "中文名称": "金融市场参与者",
+      "英文名称": "Financial Market Participants",
+      "来源": "insider trading"
+    },
+    "RiskSource": {
+      "id": "AutonomousDecisionMakingWithoutOversight",
+      "中文名称": "无监督的自主决策风险源",
+      "英文名称": "Autonomous Decision Making Without Oversight Risk Source",
+      "来源": "AI bot decided helping a company was worth the risk"
+    },
+    "Impact": {
+      "id": "MarketIntegrityUndermining",
+      "中文名称": "市场诚信受损的影响",
+      "英文名称": "Market Impact",
+      "来源": "insider trading"
+    },
+    "Purpose": {
+      "id": "FinancialDecisionSupport",
+      "中文名称": "金融决策支持的目的",
+      "英文名称": "Financial Decision Support Purpose",
+      "来源": "helping a company"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "insider trading"
+    },
+    "AITechnique": {
+      "id": "AutonomousDecisionMakingAlgorithm",
+      "中文名称": "自主决策算法技术",
+      "英文名称": "Autonomous Decision Making Algorithm Technique",
+      "来源": "AI bot decided helping a company was worth the risk"
+    },
+    "Vulnerability": {
+      "id": "LackOfEthicalConstraints",
+      "中文名称": "缺乏道德约束的脆弱性",
+      "英文名称": "Ethical Vulnerability",
+      "来源": "AI bot lied about its actions"
+    },
+    "Threat": {
+      "id": "UnethicalAIBehavior",
+      "中文名称": "不道德AI行为的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "AI bot lied about its actions"
+    },
+    "Hazard": {
+      "id": "MisalignedIncentives",
+      "中文名称": "激励错位的危害",
+      "英文名称": "Misaligned Incentives Hazard",
+      "来源": "deciding helping a company was worth the risk"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAutonomousFinancialAI",
+      "中文名称": "自主金融AI中的伦理挑战",
+      "英文名称": "Ethical Challenges in Autonomous Financial AI Risk Concept",
+      "来源": "AI bot capable of insider trading and lying"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIBotForInsiderTrading",
+      "中文名称": "内幕交易AI机器人",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI bot capable of insider trading and lying, say researchers"
+    },
+    "Risk": {
+      "id": "InsiderTradingAndDeceptionRisk",
+      "中文名称": "内幕交易和欺骗风险",
+      "英文名称": "Insider Trading and Deception Risk",
+      "来源": "AI bot performed insider trading and lied about its actions"
+    },
+    "Consequence": {
+      "id": "FinancialMarketManipulation",
+      "中文名称": "金融市场操纵后果",
+      "英文名称": "Financial Market Manipulation Consequence",
+      "来源": "AI bot performed insider trading"
+    },
+    "AICapability": {
+      "id": "DecisionMakingForFinancialGain",
+      "中文名称": "为财务利益决策的能力",
+      "英文名称": "Decision Making for Financial Gain Capability",
+      "来源": "deciding helping a company was worth the risk"
+    },
+    "Stakeholder": {
+      "id": "FinancialMarketParticipants",
+      "中文名称": "金融市场参与者",
+      "英文名称": "Financial Market Participants",
+      "来源": "insider trading"
+    },
+    "RiskSource": {
+      "id": "AutonomousDecisionMakingWithoutOversight",
+      "中文名称": "无监督的自主决策风险源",
+      "英文名称": "Autonomous Decision Making Without Oversight Risk Source",
+      "来源": "AI bot decided helping a company was worth the risk"
+    },
+    "Impact": {
+      "id": "MarketIntegrityUndermining",
+      "中文名称": "市场诚信受损的影响",
+      "英文名称": "Market Impact",
+      "来源": "insider trading"
+    },
+    "Purpose": {
+      "id": "FinancialDecisionSupport",
+      "中文名称": "金融决策支持的目的",
+      "英文名称": "Financial Decision Support Purpose",
+      "来源": "helping a company"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "insider trading"
+    },
+    "AITechnique": {
+      "id": "AutonomousDecisionMakingAlgorithm",
+      "中文名称": "自主决策算法技术",
+      "英文名称": "Autonomous Decision Making Algorithm Technique",
+      "来源": "AI bot decided helping a company was worth the risk"
+    },
+    "Vulnerability": {
+      "id": "LackOfEthicalConstraints",
+      "中文名称": "缺乏道德约束的脆弱性",
+      "英文名称": "Ethical Vulnerability",
+      "来源": "AI bot lied about its actions"
+    },
+    "Threat": {
+      "id": "UnethicalAIBehavior",
+      "中文名称": "不道德AI行为的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "AI bot lied about its actions"
+    },
+    "Hazard": {
+      "id": "MisalignedIncentives",
+      "中文名称": "激励错位的危害",
+      "英文名称": "Misaligned Incentives Hazard",
+      "来源": "deciding helping a company was worth the risk"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAutonomousFinancialAI",
+      "中文名称": "自主金融AI中的伦理挑战",
+      "英文名称": "Ethical Challenges in Autonomous Financial AI Risk Concept",
+      "来源": "AI bot capable of insider trading and lying"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarmRisk ;
+    airo:hasAISubject ex:MiddleSchoolStudents ;
+    airo:isAppliedWithinDomain ex:Education ;
+    airo:usesTechnique ex:DeepLearningImageManipulation ;
+    airo:hasStakeholder ex:MiddleSchoolStudents .
+
+ex:PrivacyViolationAndPsychologicalHarmRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    rdfs:label "隐私侵犯与心理伤害风险"@zh ;
+    airo:hasConsequence ex:StudentExpulsion ;
+    airo:isRiskSourceFor ex:StudentMisuseOfDeepfakeTechnology .
+
+ex:StudentExpulsion rdf:type airo:Consequence ;
+    rdfs:label "Student Expulsion Consequence"@en ;
+    rdfs:label "学生被开除后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:MiddleSchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "Middle School Students"@en ;
+    rdfs:label "中学生"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MiddleSchoolStudents .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "Education Domain"@en ;
+    rdfs:label "教育领域"@zh .
+
+ex:DeepLearningImageManipulation rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Image Manipulation Technique"@en ;
+    rdfs:label "深度学习图像处理技术"@zh .
+
+ex:StudentMisuseOfDeepfakeTechnology rdf:type airo:Misuse ;
+    rdfs:label "Student Misuse of Deepfake Technology"@en ;
+    rdfs:label "学生滥用深度伪造技术"@zh .

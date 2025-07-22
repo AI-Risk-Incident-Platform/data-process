@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AlgorithmicOppressionSystem rdf:type airo:AISystem ;
+    rdfs:label "Algorithmic Oppression System"@en ;
+    rdfs:label "算法压迫系统"@zh ;
+    airo:hasRisk ex:AlgorithmicOppressionRisk ;
+    airo:hasAISubject ex:MarginalizedCommunities ;
+    airo:hasStakeholder ex:SafiyaNoble .
+
+ex:AlgorithmicOppressionRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Oppression Risk"@en ;
+    rdfs:label "算法压迫风险"@zh ;
+    airo:hasImpact ex:SocialOppressionImpact .
+
+ex:SafiyaNoble rdf:type airo:Stakeholder ;
+    rdfs:label "Safiya Noble"@en ;
+    rdfs:label "萨菲亚·诺布尔"@zh .
+
+ex:SocialOppressionImpact rdf:type airo:Impact ;
+    rdfs:label "Social Oppression Impact"@en ;
+    rdfs:label "社会压迫影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SafiyaNoble ;
+    airo:hasImpactOnStakeholder ex:MarginalizedCommunities .
+
+ex:MarginalizedCommunities rdf:type airo:AISubject ;
+    rdfs:label "Marginalized Communities"@en ;
+    rdfs:label "边缘化群体"@zh .

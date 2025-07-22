@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookYearInReview rdf:type airo:AISystem ;
+    rdfs:label "Facebook Year in Review"@en ;
+    rdfs:label "Facebook年度回顾"@zh ;
+    airo:hasRisk ex:AlgorithmicCrueltyRisk ;
+    airo:hasCapability ex:AutomatedMemoryCompilation ;
+    airo:hasPurpose ex:PersonalizedYearlySummary ;
+    airo:hasStakeholder ex:FacebookUsers .
+
+ex:AlgorithmicCrueltyRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Cruelty Risk"@en ;
+    rdfs:label "算法残忍风险"@zh ;
+    airo:hasConsequence ex:EmotionalDistress ;
+    airo:isRiskSourceFor ex:LackOfContextAwareness ;
+    airo:hasVulnerability ex:InsensitiveAlgorithmDesign .
+
+ex:EmotionalDistress rdf:type airo:Consequence ;
+    rdfs:label "Emotional Distress Consequence"@en ;
+    rdfs:label "情绪困扰后果"@zh ;
+    airo:hasImpact ex:PsychologicalHardship .
+
+ex:AutomatedMemoryCompilation rdf:type airo:AICapability ;
+    rdfs:label "Automated Memory Compilation Capability"@en ;
+    rdfs:label "自动记忆汇编能力"@zh .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:PsychologicalHardship rdf:type airo:Impact ;
+    rdfs:label "Psychological Hardship Impact"@en ;
+    rdfs:label "心理困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:PersonalizedYearlySummary rdf:type airo:Purpose ;
+    rdfs:label "Personalized Yearly Summary Purpose"@en ;
+    rdfs:label "个性化年度总结目的"@zh .
+
+ex:InsensitiveAlgorithmDesign rdf:type airo:Vulnerability ;
+    rdfs:label "Insensitive Algorithm Design Vulnerability"@en ;
+    rdfs:label "不敏感算法设计脆弱性"@zh .
+
+ex:LackOfContextAwareness rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Context Awareness Risk Source"@en ;
+    rdfs:label "缺乏情境意识风险源"@zh .

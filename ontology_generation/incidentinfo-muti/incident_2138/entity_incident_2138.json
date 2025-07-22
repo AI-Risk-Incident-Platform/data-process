@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokContentModerationSystem",
+      "中文名称": "TikTok内容审核系统",
+      "英文名称": "TikTok Content Moderation System",
+      "来源": "TikTok Censored the Words \"Black Lives Matter\" But Not \"White Supremacy\""
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInContentModeration",
+      "中文名称": "内容审核中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Content Moderation Risk",
+      "来源": "TikTok Censored the Words \"Black Lives Matter\" But Not \"White Supremacy\""
+    },
+    "Consequence": {
+      "id": "SuppressionOfSocialJusticeMovements",
+      "中文名称": "社会正义运动被压制的后果",
+      "英文名称": "Suppression of Social Justice Movements Consequence",
+      "来源": "TikTok Censored the Words \"Black Lives Matter\""
+    },
+    "Impact": {
+      "id": "AmplificationOfRacialInequality",
+      "中文名称": "种族不平等加剧的影响",
+      "英文名称": "Amplification of Racial Inequality Impact",
+      "来源": "But Not \"White Supremacy\""
+    },
+    "Stakeholder": {
+      "id": "BlackLivesMatterActivists",
+      "中文名称": "黑人的命也是命活动家",
+      "英文名称": "Black Lives Matter Activists",
+      "来源": "TikTok Censored the Words \"Black Lives Matter\""
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "TikTok Censored the Words \"Black Lives Matter\" But Not \"White Supremacy\""
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ViggleAI rdf:type airo:AISystem ;
+    rdfs:label "Viggle AI"@en ;
+    rdfs:label "Viggle AI"@zh ;
+    airo:hasRisk ex:UncontrollableAICharacterRisk ;
+    airo:hasCapability ex:CharacterGeneration ;
+    airo:hasPurpose ex:MemeCreation ;
+    airo:isAppliedWithinDomain ex:SocialMedia .
+
+ex:UncontrollableAICharacterRisk rdf:type airo:Risk ;
+    rdfs:label "Uncontrollable AI Character Risk"@en ;
+    rdfs:label "不可控AI角色风险"@zh .
+
+ex:CharacterGeneration rdf:type airo:AICapability ;
+    rdfs:label "Character Generation Capability"@en ;
+    rdfs:label "角色生成能力"@zh .
+
+ex:MemeCreation rdf:type airo:Purpose ;
+    rdfs:label "Meme Creation Purpose"@en ;
+    rdfs:label "表情包创作目的"@zh .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "Social Media Domain"@en ;
+    rdfs:label "社交媒体领域"@zh .

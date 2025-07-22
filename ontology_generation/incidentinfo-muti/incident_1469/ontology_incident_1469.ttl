@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SoraVideoGenerationTool rdf:type airo:AISystem ;
+    rdfs:label "Sora Video Generation Tool"@en ;
+    rdfs:label "Sora视频生成工具"@zh ;
+    airo:hasRisk ex:DataPrivacyRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasPurpose ex:TextToVideoGeneration ;
+    airo:hasStakeholder ex:ItalianDataProtectionAuthority .
+
+ex:DataPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Data Privacy Risk"@en ;
+    rdfs:label "数据隐私风险"@zh .
+
+ex:ItalianDataProtectionAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "Italian Data Protection Authority"@en ;
+    rdfs:label "意大利数据保护机构"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:TextToVideoGeneration rdf:type airo:Purpose ;
+    rdfs:label "Text to Video Generation"@en ;
+    rdfs:label "文本转视频生成"@zh .

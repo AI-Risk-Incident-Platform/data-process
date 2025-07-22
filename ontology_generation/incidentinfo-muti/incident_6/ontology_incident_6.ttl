@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSentimentAnalysisAPI rdf:type airo:AISystem ;
+    rdfs:label "Google Sentiment Analysis API"@en ;
+    rdfs:label "谷歌情感分析API"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInSentimentAnalysis ;
+    airo:hasCapability ex:TextSentimentClassification ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:hasStakeholder ex:LGBTQCommunity ;
+    airo:hasPurpose ex:AutomatedContentModeration ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:MachineLearningBasedSentimentAnalysis ;
+    airo:hasVulnerability ex:TrainingDataBias .
+
+ex:AlgorithmicBiasInSentimentAnalysis rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Sentiment Analysis Risk"@en ;
+    rdfs:label "情感分析中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryContentClassification ;
+    airo:isRiskSourceFor ex:LackOfDiverseTrainingData ;
+    airo:isRiskSourceFor ex:TrainingDataBias ;
+    airo:isRiskSourceFor ex:CulturalBiasInTrainingData ;
+    airo:isRiskSourceFor ex:HarmfulStereotypePropagation .
+
+ex:DiscriminatoryContentClassification rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Content Classification Consequence"@en ;
+    rdfs:label "歧视性内容分类后果"@zh ;
+    airo:hasImpact ex:SocialStigmaReinforcement .
+
+ex:TextSentimentClassification rdf:type airo:AICapability ;
+    rdfs:label "Text Sentiment Classification Capability"@en ;
+    rdfs:label "文本情感分类能力"@zh .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:LGBTQCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "LGBTQ Community"@en ;
+    rdfs:label "LGBTQ群体"@zh .
+
+ex:SocialStigmaReinforcement rdf:type airo:Impact ;
+    rdfs:label "Social Stigma Reinforcement Impact"@en ;
+    rdfs:label "社会污名强化的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LGBTQCommunity .
+
+ex:AutomatedContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Automated Content Moderation Purpose"@en ;
+    rdfs:label "自动化内容审核的目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:MachineLearningBasedSentimentAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Based Sentiment Analysis Technique"@en ;
+    rdfs:label "基于机器学习的情感分析技术"@zh .
+
+ex:TrainingDataBias rdf:type airo:Vulnerability ;
+    rdfs:label "Training Data Bias Vulnerability"@en ;
+    rdfs:label "训练数据偏差的脆弱性"@zh .
+
+ex:HarmfulStereotypePropagation rdf:type airo:Threat ;
+    rdfs:label "Harmful Stereotype Propagation Threat"@en ;
+    rdfs:label "有害刻板印象传播的威胁"@zh .
+
+ex:CulturalBiasInTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Cultural Bias in Training Data Hazard"@en ;
+    rdfs:label "训练数据中的文化偏见危害"@zh .
+
+ex:LackOfDiverseTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Diverse Training Data Risk Source"@en ;
+    rdfs:label "缺乏多样化训练数据的风险源"@zh .
+
+ex:EthicalIssuesInAutomatedContentClassification rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Automated Content Classification Risk Concept"@en ;
+    rdfs:label "自动化内容分类中的伦理问题"@zh .

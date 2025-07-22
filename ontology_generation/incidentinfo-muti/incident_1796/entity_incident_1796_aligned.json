@@ -1,0 +1,138 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BankFacialRecognitionSystem",
+      "中文名称": "银行人脸识别系统",
+      "英文名称": "Bank Facial Recognition System",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "Risk": {
+      "id": "LackOfHumanityInAIServices",
+      "中文名称": "AI服务中人文关怀缺失风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "94岁老人被抱起做人脸识别，失了人文温度"
+    },
+    "AISubject": {
+      "id": "ElderlyBankCustomer",
+      "中文名称": "老年银行客户",
+      "英文名称": "Elderly Bank Customer",
+      "来源": "94岁老人被抬进银行进行人脸识别"
+    },
+    "Stakeholder": {
+      "id": "BankServiceProvider",
+      "中文名称": "银行服务提供方",
+      "英文名称": "Bank Provider",
+      "来源": "涉事银行道歉"
+    },
+    "Consequence": {
+      "id": "PhysicalDiscomfortForElderly",
+      "中文名称": "老年人身体不适后果",
+      "英文名称": "Physical Discomfort for Elderly Consequence",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "公共服务还需多点温度"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationForBankingServices",
+      "中文名称": "银行服务身份验证目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "94岁老人被抬进银行进行人脸识别"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "银行人脸识别"
+    },
+    "AITechnique": {
+      "id": "FacialBiometricRecognition",
+      "中文名称": "面部生物特征识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "人脸识别"
+    },
+    "Vulnerability": {
+      "id": "InaccessibleInterfaceForSpecialGroups",
+      "中文名称": "特殊群体使用界面障碍脆弱性",
+      "英文名称": "Inaccessible Interface for Special Groups Vulnerability",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "RiskSource": {
+      "id": "RigidImplementationOfAISystems",
+      "中文名称": "AI系统僵化实施风险源",
+      "英文名称": "Rigid Implementation of AI Systems Risk Source",
+      "来源": "失了人文温度"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BankFacialRecognitionSystem",
+      "中文名称": "银行人脸识别系统",
+      "英文名称": "Bank Facial Recognition System",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "Risk": {
+      "id": "LackOfHumanityInAIServices",
+      "中文名称": "AI服务中人文关怀缺失风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "94岁老人被抱起做人脸识别，失了人文温度"
+    },
+    "AISubject": {
+      "id": "ElderlyBankCustomer",
+      "中文名称": "老年银行客户",
+      "英文名称": "Elderly Bank Customer",
+      "来源": "94岁老人被抬进银行进行人脸识别"
+    },
+    "Stakeholder": {
+      "id": "BankServiceProvider",
+      "中文名称": "银行服务提供方",
+      "英文名称": "Bank Provider",
+      "来源": "涉事银行道歉"
+    },
+    "Consequence": {
+      "id": "PhysicalDiscomfortForElderly",
+      "中文名称": "老年人身体不适后果",
+      "英文名称": "Physical Discomfort for Elderly Consequence",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "公共服务还需多点温度"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationForBankingServices",
+      "中文名称": "银行服务身份验证目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "94岁老人被抬进银行进行人脸识别"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "银行人脸识别"
+    },
+    "AITechnique": {
+      "id": "FacialBiometricRecognition",
+      "中文名称": "面部生物特征识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "人脸识别"
+    },
+    "Vulnerability": {
+      "id": "InaccessibleInterfaceForSpecialGroups",
+      "中文名称": "特殊群体使用界面障碍脆弱性",
+      "英文名称": "Inaccessible Interface for Special Groups Vulnerability",
+      "来源": "94岁老人被抱起做人脸识别"
+    },
+    "RiskSource": {
+      "id": "RigidImplementationOfAISystems",
+      "中文名称": "AI系统僵化实施风险源",
+      "英文名称": "Rigid Implementation of AI Systems Risk Source",
+      "来源": "失了人文温度"
+    }
+  }
+}

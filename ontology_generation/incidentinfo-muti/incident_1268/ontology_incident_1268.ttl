@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MisuseOfAIInLegalProceedings ;
+    airo:hasStakeholder ex:VictorianChildProtectionWorker ;
+    airo:isAppliedWithinDomain ex:ChildProtectionServices ;
+    airo:isDeployedBy ex:VictorianWelfareAgency .
+
+ex:MisuseOfAIInLegalProceedings rdf:type airo:Risk ;
+    rdfs:label "Misuse of AI in Legal Proceedings Risk"@en ;
+    rdfs:label "法律程序中的AI滥用风险"@zh ;
+    airo:hasConsequence ex:LegalCaseCompromise ;
+    airo:hasRiskControl ex:GenAIBan .
+
+ex:VictorianChildProtectionWorker rdf:type airo:Stakeholder ;
+    rdfs:label "Victorian Child Protection Worker"@en ;
+    rdfs:label "维多利亚州儿童保护工作者"@zh .
+
+ex:ChildProtectionServices rdf:type airo:Domain ;
+    rdfs:label "Child Protection Services Domain"@en ;
+    rdfs:label "儿童保护服务领域"@zh .
+
+ex:LegalCaseCompromise rdf:type airo:Consequence ;
+    rdfs:label "Legal Case Compromise Consequence"@en ;
+    rdfs:label "法律案件受损后果"@zh .
+
+ex:VictorianWelfareAgency rdf:type airo:AIOperator ;
+    rdfs:label "Victorian Welfare Agency"@en ;
+    rdfs:label "维多利亚州福利机构"@zh .
+
+ex:GenAIBan rdf:type airo:RiskControl ;
+    rdfs:label "GenAI Ban Control"@en ;
+    rdfs:label "生成式AI禁令管控"@zh .

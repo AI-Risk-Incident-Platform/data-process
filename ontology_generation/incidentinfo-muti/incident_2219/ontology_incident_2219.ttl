@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClearviewFacialRecognitionSoftware rdf:type airo:AISystem ;
+    rdfs:label "Clearview Facial Recognition Software"@en ;
+    rdfs:label "Clearview面部识别软件"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:StoreCustomers ;
+    airo:hasStakeholder ex:MacyRetailChain ;
+    airo:hasPurpose ex:CustomerIdentificationAndTracking ;
+    airo:isAppliedWithinDomain ex:RetailIndustry .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedFacialDataCollection ;
+    airo:isRiskSourceFor ex:FacialDataCollectionWithoutConsent .
+
+ex:MacyRetailChain rdf:type airo:Stakeholder ;
+    rdfs:label "Macy Retail Chain"@en ;
+    rdfs:label "梅西百货零售连锁"@zh .
+
+ex:StoreCustomers rdf:type airo:AISubject ;
+    rdfs:label "Store Customers"@en ;
+    rdfs:label "商店顾客"@zh .
+
+ex:UnauthorizedFacialDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Facial Data Collection Consequence"@en ;
+    rdfs:label "未经授权的面部数据收集后果"@zh ;
+    airo:hasImpact ex:ConsumerPrivacyViolation .
+
+ex:ConsumerPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Consumer Privacy Violation Impact"@en ;
+    rdfs:label "消费者隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StoreCustomers .
+
+ex:CustomerIdentificationAndTracking rdf:type airo:Purpose ;
+    rdfs:label "Customer Identification and Tracking Purpose"@en ;
+    rdfs:label "顾客识别与追踪目的"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry Domain"@en ;
+    rdfs:label "零售行业领域"@zh .
+
+ex:FacialDataCollectionWithoutConsent rdf:type airo:RiskSource ;
+    rdfs:label "Facial Data Collection Without Consent Risk Source"@en ;
+    rdfs:label "未经同意的面部数据收集风险源"@zh .

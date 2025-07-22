@@ -1,0 +1,87 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIJournalists rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI Journalists"@en ;
+    rdfs:label "微软AI新闻编辑"@zh ;
+    airo:hasRisk ex:RacialMisidentificationRisk ;
+    airo:hasAICapability ex:FacialRecognitionForCelebrityIdentification ;
+    airo:isDevelopedBy ex:MicrosoftCorporation ;
+    airo:hasPurpose ex:AutomatedCelebrityNewsReporting ;
+    airo:hasStakeholder ex:LittleMixBandMembers ;
+    airo:hasAISubject ex:MixedRaceCelebrities ;
+    airo:isAppliedWithinDomain ex:EntertainmentJournalism ;
+    airo:usesTechnique ex:ImageRecognitionAlgorithm .
+
+ex:RacialMisidentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Misidentification Risk"@en ;
+    rdfs:label "种族识别错误风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:InsufficientTestingOnDiverseFaces ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition ;
+    airo:isRiskSourceFor ex:LimitedDiversityInTrainingData .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众强烈反对后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:FacialRecognitionForCelebrityIdentification rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Celebrity Identification Capability"@en ;
+    rdfs:label "名人面部识别能力"@zh .
+
+ex:MicrosoftCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:LittleMixBandMembers rdf:type airo:Stakeholder ;
+    rdfs:label "Little Mix Band Members"@en ;
+    rdfs:label "Little Mix乐队成员"@zh .
+
+ex:MixedRaceCelebrities rdf:type airo:AISubject ;
+    rdfs:label "Mixed-Race Celebrities"@en ;
+    rdfs:label "混血名人"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh .
+
+ex:AutomatedCelebrityNewsReporting rdf:type airo:Purpose ;
+    rdfs:label "Automated Celebrity News Reporting Purpose"@en ;
+    rdfs:label "自动化名人新闻报道目的"@zh .
+
+ex:EntertainmentJournalism rdf:type airo:Domain ;
+    rdfs:label "Entertainment Journalism Domain"@en ;
+    rdfs:label "娱乐新闻领域"@zh .
+
+ex:ImageRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Image Recognition Algorithm Technique"@en ;
+    rdfs:label "图像识别算法技术"@zh .
+
+ex:InsufficientTestingOnDiverseFaces rdf:type airo:RiskSource ;
+    rdfs:label "Insufficient Testing on Diverse Faces Risk Source"@en ;
+    rdfs:label "多样化面孔测试不足风险源"@zh ;
+    airo:exploitsVulnerability ex:DifficultyDistinguishingMixedRaceFaces .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:Threat ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Threat"@en ;
+    rdfs:label "面部识别中的算法偏见威胁"@zh ;
+    airo:exploitsVulnerability ex:DifficultyDistinguishingMixedRaceFaces .
+
+ex:LimitedDiversityInTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Limited Diversity in Training Data Hazard"@en ;
+    rdfs:label "训练数据多样性不足危害"@zh ;
+    airo:exploitsVulnerability ex:DifficultyDistinguishingMixedRaceFaces .
+
+ex:DifficultyDistinguishingMixedRaceFaces rdf:type airo:Vulnerability ;
+    rdfs:label "Difficulty Distinguishing Mixed-Race Faces Vulnerability"@en ;
+    rdfs:label "区分混血面孔困难的脆弱性"@zh .

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIElectionQuestionAnsweringSystem",
+      "中文名称": "AI选举问题回答系统",
+      "英文名称": "AI Election Question Answering System",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "Risk": {
+      "id": "LanguageBiasInAIResponses",
+      "中文名称": "AI回答中的语言偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "AICapability": {
+      "id": "MultilingualQuestionAnswering",
+      "中文名称": "多语言问题回答能力",
+      "英文名称": "Multilingual Text Capability",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "Domain": {
+      "id": "PoliticalInformation",
+      "中文名称": "政治信息领域",
+      "英文名称": "Political News/Info Domain",
+      "来源": "Answering Election Questions"
+    },
+    "Impact": {
+      "id": "MisinformationInNonEnglishLanguages",
+      "中文名称": "非英语语言中的错误信息影响",
+      "英文名称": "Misinformation in Non-English Languages Impact",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIElectionQuestionAnsweringSystem",
+      "中文名称": "AI选举问题回答系统",
+      "英文名称": "AI Election Question Answering System",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "Risk": {
+      "id": "LanguageBiasInAIResponses",
+      "中文名称": "AI回答中的语言偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "AICapability": {
+      "id": "MultilingualQuestionAnswering",
+      "中文名称": "多语言问题回答能力",
+      "英文名称": "Multilingual Text Capability",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    },
+    "Domain": {
+      "id": "PoliticalInformation",
+      "中文名称": "政治信息领域",
+      "英文名称": "Political News/Info Domain",
+      "来源": "Answering Election Questions"
+    },
+    "Impact": {
+      "id": "MisinformationInNonEnglishLanguages",
+      "中文名称": "非英语语言中的错误信息影响",
+      "英文名称": "Misinformation in Non-English Languages Impact",
+      "来源": "AI Models Falter Answering Election Questions in Spanish"
+    }
+  }
+}

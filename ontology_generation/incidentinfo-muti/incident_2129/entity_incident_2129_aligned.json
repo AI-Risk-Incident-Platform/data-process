@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DelhiGovtSchoolsFacialRecognitionSystem",
+      "中文名称": "德里政府学校面部识别系统",
+      "英文名称": "Delhi Govt Schools Facial Recognition System",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Stakeholder": {
+      "id": "DelhiGovernment",
+      "中文名称": "德里政府",
+      "英文名称": "Delhi Government",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "AISubject": {
+      "id": "SchoolStudents",
+      "中文名称": "学校学生",
+      "英文名称": "Students",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Purpose": {
+      "id": "StudentIdentification",
+      "中文名称": "学生识别目的",
+      "英文名称": "Student Identification Purpose",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Impact": {
+      "id": "StudentPrivacyConcerns",
+      "中文名称": "学生隐私担忧影响",
+      "英文名称": "Student Privacy Impact",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DelhiGovtSchoolsFacialRecognitionSystem",
+      "中文名称": "德里政府学校面部识别系统",
+      "英文名称": "Delhi Govt Schools Facial Recognition System",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Stakeholder": {
+      "id": "DelhiGovernment",
+      "中文名称": "德里政府",
+      "英文名称": "Delhi Government",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "AISubject": {
+      "id": "SchoolStudents",
+      "中文名称": "学校学生",
+      "英文名称": "Students",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Purpose": {
+      "id": "StudentIdentification",
+      "中文名称": "学生识别目的",
+      "英文名称": "Student Identification Purpose",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    },
+    "Impact": {
+      "id": "StudentPrivacyConcerns",
+      "中文名称": "学生隐私担忧影响",
+      "英文名称": "Student Privacy Impact",
+      "来源": "Should Delhi Govt Schools Be Using The Facial Recognition Technology?"
+    }
+  }
+}

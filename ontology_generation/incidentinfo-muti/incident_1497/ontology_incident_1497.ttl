@@ -1,0 +1,84 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftCopilotAI rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Copilot AI"@en ;
+    rdfs:label "微软Copilot AI"@zh ;
+    airo:hasRisk ex:FakeInformationGenerationRisk ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:hasStakeholder ex:PublicFigures ;
+    airo:hasAISubject ex:PoliticalLeaders ;
+    airo:hasPurpose ex:InformationRetrieval ;
+    airo:isAppliedWithinDomain ex:SearchEngine ;
+    airo:usesTechnique ex:NaturalLanguageGeneration ;
+    airo:hasVulnerability ex:FactCheckingDeficiency .
+
+ex:FakeInformationGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Information Generation Risk"@en ;
+    rdfs:label "虚假信息生成风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:AlgorithmicHallucination ;
+    airo:isRiskSourceFor ex:DisinformationCampaign ;
+    airo:isRiskSourceFor ex:UnverifiedDataSources .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "错误信息传播后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:PublicFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Public Figures"@en ;
+    rdfs:label "公众人物"@zh .
+
+ex:PoliticalLeaders rdf:type airo:AISubject ;
+    rdfs:label "Political Leaders"@en ;
+    rdfs:label "政治领导人"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh .
+
+ex:InformationRetrieval rdf:type airo:Purpose ;
+    rdfs:label "Information Retrieval Purpose"@en ;
+    rdfs:label "信息检索目的"@zh .
+
+ex:SearchEngine rdf:type airo:Domain ;
+    rdfs:label "Search Engine Domain"@en ;
+    rdfs:label "搜索引擎领域"@zh .
+
+ex:NaturalLanguageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:FactCheckingDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Fact Checking Deficiency Vulnerability"@en ;
+    rdfs:label "事实核查不足的脆弱性"@zh .
+
+ex:DisinformationCampaign rdf:type airo:Threat ;
+    rdfs:label "Disinformation Campaign Threat"@en ;
+    rdfs:label "虚假信息活动的威胁"@zh .
+
+ex:UnverifiedDataSources rdf:type airo:Hazard ;
+    rdfs:label "Unverified Data Sources Hazard"@en ;
+    rdfs:label "未经验证的数据源危害"@zh .
+
+ex:AlgorithmicHallucination rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Hallucination Risk Source"@en ;
+    rdfs:label "算法幻觉风险源"@zh .
+
+ex:EthicalChallengesInAIInformationGeneration rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in AI Information Generation Risk Concept"@en ;
+    rdfs:label "AI信息生成中的伦理挑战"@zh .

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "XR Belgium posts deepfake of Belgian premier linking Covid-19 with climate crisis"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake democracy: Here's how modern elections could be decided by fake news"
+    },
+    "AICapability": {
+      "id": "RealisticVideoManipulation",
+      "中文名称": "逼真视频篡改能力",
+      "英文名称": "Realistic Video Manipulation Capability",
+      "来源": "XR Belgium posts deepfake of Belgian premier"
+    },
+    "Stakeholder": {
+      "id": "PoliticalLeaders",
+      "中文名称": "政治领导人",
+      "英文名称": "Political Leaders",
+      "来源": "deepfake of Belgian premier"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "Purpose": {
+      "id": "PoliticalMessageDissemination",
+      "中文名称": "政治信息传播目的",
+      "英文名称": "Election Influence",
+      "来源": "linking Covid-19 with climate crisis"
+    },
+    "Domain": {
+      "id": "PoliticalCommunication",
+      "中文名称": "政治传播领域",
+      "英文名称": "Political Media Domain",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake"
+    },
+    "Consequence": {
+      "id": "ElectionOutcomeManipulation",
+      "中文名称": "选举结果操纵后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreators",
+      "中文名称": "恶意内容创作者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "XR Belgium posts deepfake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "XR Belgium posts deepfake of Belgian premier linking Covid-19 with climate crisis"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake democracy: Here's how modern elections could be decided by fake news"
+    },
+    "AICapability": {
+      "id": "RealisticVideoManipulation",
+      "中文名称": "逼真视频篡改能力",
+      "英文名称": "Realistic Video Manipulation Capability",
+      "来源": "XR Belgium posts deepfake of Belgian premier"
+    },
+    "Stakeholder": {
+      "id": "PoliticalLeaders",
+      "中文名称": "政治领导人",
+      "英文名称": "Political Leaders",
+      "来源": "deepfake of Belgian premier"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "Purpose": {
+      "id": "PoliticalMessageDissemination",
+      "中文名称": "政治信息传播目的",
+      "英文名称": "Election Influence",
+      "来源": "linking Covid-19 with climate crisis"
+    },
+    "Domain": {
+      "id": "PoliticalCommunication",
+      "中文名称": "政治传播领域",
+      "英文名称": "Political Media Domain",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake"
+    },
+    "Consequence": {
+      "id": "ElectionOutcomeManipulation",
+      "中文名称": "选举结果操纵后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "modern elections could be decided by fake news"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreators",
+      "中文名称": "恶意内容创作者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "XR Belgium posts deepfake"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdobeAIImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Adobe AI Image Generation System"@en ;
+    rdfs:label "Adobe AI图像生成系统"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:hasPurpose ex:ArtisticStyleImageGeneration ;
+    airo:isAppliedWithinDomain ex:DigitalArtMarket ;
+    airo:isDeployedBy ex:AdobeInc ;
+    airo:hasStakeholder ex:AnselAdamsEstate .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalRebukeFromEstate .
+
+ex:AnselAdamsEstate rdf:type airo:Stakeholder ;
+    rdfs:label "Ansel Adams Estate"@en ;
+    rdfs:label "安塞尔·亚当斯遗产委员会"@zh .
+
+ex:AdobeInc rdf:type airo:AIOperator ;
+    rdfs:label "Adobe Inc."@en ;
+    rdfs:label "Adobe公司"@zh .
+
+ex:ArtisticStyleImageGeneration rdf:type airo:Purpose ;
+    rdfs:label "Artistic Style Image Generation"@en ;
+    rdfs:label "艺术风格图像生成"@zh .
+
+ex:DigitalArtMarket rdf:type airo:Domain ;
+    rdfs:label "Digital Art Market"@en ;
+    rdfs:label "数字艺术市场"@zh .
+
+ex:LegalRebukeFromEstate rdf:type airo:Consequence ;
+    rdfs:label "Legal Rebuke From Estate"@en ;
+    rdfs:label "遗产委员会的法律谴责"@zh ;
+    airo:hasImpactOnStakeholder ex:AnselAdamsEstate .

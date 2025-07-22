@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAdReviewAI",
+      "中文名称": "Facebook广告审核AI",
+      "英文名称": "Facebook Ad Review AI",
+      "来源": "Facebook’s AI mistakenly blocks ads of struggling businesses"
+    },
+    "Risk": {
+      "id": "IncorrectAdBlockingRisk",
+      "中文名称": "错误广告拦截风险",
+      "英文名称": "Incorrect Ad Blocking Risk",
+      "来源": "mistakenly blocks ads of struggling businesses"
+    },
+    "Consequence": {
+      "id": "BusinessRevenueLoss",
+      "中文名称": "企业收入损失后果",
+      "英文名称": "Business Revenue Loss Consequence",
+      "来源": "blocks ads of struggling businesses"
+    },
+    "Stakeholder": {
+      "id": "SmallBusinesses",
+      "中文名称": "小型企业",
+      "英文名称": "Small Businesses",
+      "来源": "blocks ads of struggling businesses"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook’s AI"
+    },
+    "Impact": {
+      "id": "EconomicHardshipForBusinesses",
+      "中文名称": "企业经济困难影响",
+      "英文名称": "Economic Hardship for Businesses Impact",
+      "来源": "blocks ads of struggling businesses"
+    },
+    "Purpose": {
+      "id": "AdContentModeration",
+      "中文名称": "广告内容审核目的",
+      "英文名称": "Ad Content Moderation Purpose",
+      "来源": "blocks ads"
+    },
+    "Domain": {
+      "id": "DigitalAdvertising",
+      "中文名称": "数字广告领域",
+      "英文名称": "Digital Advertising Domain",
+      "来源": "blocks ads"
+    },
+    "RiskSource": {
+      "id": "OverlyStringentContentFilters",
+      "中文名称": "过于严格的内容过滤器风险源",
+      "英文名称": "Overly Stringent Content Filters Risk Source",
+      "来源": "mistakenly blocks ads"
+    },
+    "RiskControl": {
+      "id": "PublicApologyAndSystemReview",
+      "中文名称": "公开道歉和系统审查管控",
+      "英文名称": "Public Apology and System Review RiskControl",
+      "来源": "tech giant issues apology"
+    }
+  }
+}

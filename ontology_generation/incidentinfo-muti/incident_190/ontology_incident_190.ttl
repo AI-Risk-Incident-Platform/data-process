@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "TikTok Algorithm"@en ;
+    rdfs:label "TikTok算法"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasCapability ex:ContentRecommendationAlgorithm ;
+    airo:hasPurpose ex:UserEngagement ;
+    airo:hasStakeholder ex:TikTokUsers ;
+    airo:isAppliedWithinDomain ex:SocialMedia ;
+    airo:usesTechnique ex:MachineLearningRecommendation .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:UnverifiedContent .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众虚假信息后果"@zh ;
+    airo:hasImpact ex:PublicConfusion .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Recommendation Algorithm Capability"@en ;
+    rdfs:label "内容推荐算法能力"@zh .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Users"@en ;
+    rdfs:label "TikTok用户"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicConfusion .
+
+ex:PublicConfusion rdf:type airo:Impact ;
+    rdfs:label "Public Confusion Impact"@en ;
+    rdfs:label "公众困惑影响"@zh .
+
+ex:UserEngagement rdf:type airo:Purpose ;
+    rdfs:label "User Engagement Purpose"@en ;
+    rdfs:label "用户参与目的"@zh .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "Social Media Domain"@en ;
+    rdfs:label "社交媒体领域"@zh .
+
+ex:MachineLearningRecommendation rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Recommendation Technique"@en ;
+    rdfs:label "机器学习推荐技术"@zh .
+
+ex:UnverifiedContent rdf:type airo:RiskSource ;
+    rdfs:label "Unverified Content Risk Source"@en ;
+    rdfs:label "未经验证内容风险源"@zh .

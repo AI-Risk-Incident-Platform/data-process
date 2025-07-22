@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DutchTaxAuthorityAlgorithm",
+      "中文名称": "荷兰税务局算法",
+      "英文名称": "Dutch Tax Authority Algorithm",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Consequence": {
+      "id": "WrongfulAccusationOfFraud",
+      "中文名称": "错误指控欺诈的后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Stakeholder": {
+      "id": "DutchTaxAuthority",
+      "中文名称": "荷兰税务局",
+      "英文名称": "Dutch Tax Authority",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForFamilies",
+      "中文名称": "家庭经济困难的影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "偏见算法设计的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Dutch scandal serves as a warning for Europe over risks of using algorithms"
+    },
+    "Domain": {
+      "id": "TaxationAndSocialWelfare",
+      "中文名称": "税收和社会福利领域",
+      "英文名称": "Taxation and Social Welfare Domain",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DutchTaxAuthorityAlgorithm",
+      "中文名称": "荷兰税务局算法",
+      "英文名称": "Dutch Tax Authority Algorithm",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Consequence": {
+      "id": "WrongfulAccusationOfFraud",
+      "中文名称": "错误指控欺诈的后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "Stakeholder": {
+      "id": "DutchTaxAuthority",
+      "中文名称": "荷兰税务局",
+      "英文名称": "Dutch Tax Authority",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    },
+    "Impact": {
+      "id": "FinancialHardshipForFamilies",
+      "中文名称": "家庭经济困难的影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "How a Discriminatory Algorithm Wrongly Accused Thousands of Families of Fraud"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmDesign",
+      "中文名称": "偏见算法设计的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Dutch scandal serves as a warning for Europe over risks of using algorithms"
+    },
+    "Domain": {
+      "id": "TaxationAndSocialWelfare",
+      "中文名称": "税收和社会福利领域",
+      "英文名称": "Taxation and Social Welfare Domain",
+      "来源": "The Dutch Tax Authority Was Felled by AI—What Comes Next?"
+    }
+  }
+}

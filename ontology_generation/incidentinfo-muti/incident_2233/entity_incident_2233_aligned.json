@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UnemploymentScoringSystem",
+      "中文名称": "失业评分系统",
+      "英文名称": "Unemployment Scoring System",
+      "来源": "Poland: Government to scrap controversial unemployment scoring system"
+    },
+    "Risk": {
+      "id": "ControversialScoringRisk",
+      "中文名称": "争议性评分风险",
+      "英文名称": "Unfair Scoring Risk",
+      "来源": "controversial unemployment scoring system"
+    },
+    "Stakeholder": {
+      "id": "PolishGovernment",
+      "中文名称": "波兰政府",
+      "英文名称": "Polish Government",
+      "来源": "Government to scrap controversial unemployment scoring system"
+    },
+    "Domain": {
+      "id": "UnemploymentServices",
+      "中文名称": "失业服务领域",
+      "英文名称": "Unemployment Services Domain",
+      "来源": "unemployment scoring system"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UnemploymentScoringSystem",
+      "中文名称": "失业评分系统",
+      "英文名称": "Unemployment Scoring System",
+      "来源": "Poland: Government to scrap controversial unemployment scoring system"
+    },
+    "Risk": {
+      "id": "ControversialScoringRisk",
+      "中文名称": "争议性评分风险",
+      "英文名称": "Unfair Scoring Risk",
+      "来源": "controversial unemployment scoring system"
+    },
+    "Stakeholder": {
+      "id": "PolishGovernment",
+      "中文名称": "波兰政府",
+      "英文名称": "Polish Government",
+      "来源": "Government to scrap controversial unemployment scoring system"
+    },
+    "Domain": {
+      "id": "UnemploymentServices",
+      "中文名称": "失业服务领域",
+      "英文名称": "Unemployment Services Domain",
+      "来源": "unemployment scoring system"
+    }
+  }
+}

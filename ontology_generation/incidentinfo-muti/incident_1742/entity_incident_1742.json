@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Algorithm",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Risk": {
+      "id": "SelfHarmContentPromotionRisk",
+      "中文名称": "自残内容推广风险",
+      "英文名称": "Self-Harm Content Promotion Risk",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Consequence": {
+      "id": "NormalizationOfSelfHarmBehavior",
+      "中文名称": "自残行为正常化后果",
+      "英文名称": "Normalization of Self-Harm Behavior Consequence",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Content Recommendation Algorithm Capability",
+      "来源": "TikTok algorithm pushes videos"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Mental Health Deterioration Impact",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsSensitiveContent",
+      "中文名称": "算法对敏感内容的偏向风险源",
+      "英文名称": "Algorithmic Bias Towards Sensitive Content Risk Source",
+      "来源": "pushes videos that ‘romanticise or normalise' self harm"
+    }
+  }
+}

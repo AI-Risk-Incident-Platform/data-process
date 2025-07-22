@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HealthcareAlgorithms",
+      "中文名称": "医疗保健算法",
+      "英文名称": "Healthcare Algorithm",
+      "来源": "标题：'Algorithms used in health care nationwide are rife with bias'"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInHealthcare",
+      "中文名称": "医疗保健中的算法偏见风险",
+      "英文名称": "Racial Bias in Healthcare Risk",
+      "来源": "标题：'Algorithms used in health care nationwide are rife with bias'"
+    },
+    "Domain": {
+      "id": "HealthcareIndustry",
+      "中文名称": "医疗保健行业",
+      "英文名称": "Healthcare Domain",
+      "来源": "标题：'Algorithms used in health care nationwide'"
+    },
+    "Impact": {
+      "id": "HealthcareDisparities",
+      "中文名称": "医疗保健差异的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "标题暗示算法偏见可能导致医疗保健差异"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "标题暗示算法偏见可能源于训练数据"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HealthcareAlgorithms",
+      "中文名称": "医疗保健算法",
+      "英文名称": "Healthcare Algorithm",
+      "来源": "标题：'Algorithms used in health care nationwide are rife with bias'"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInHealthcare",
+      "中文名称": "医疗保健中的算法偏见风险",
+      "英文名称": "Racial Bias in Healthcare Risk",
+      "来源": "标题：'Algorithms used in health care nationwide are rife with bias'"
+    },
+    "Domain": {
+      "id": "HealthcareIndustry",
+      "中文名称": "医疗保健行业",
+      "英文名称": "Healthcare Domain",
+      "来源": "标题：'Algorithms used in health care nationwide'"
+    },
+    "Impact": {
+      "id": "HealthcareDisparities",
+      "中文名称": "医疗保健差异的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "标题暗示算法偏见可能导致医疗保健差异"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "标题暗示算法偏见可能源于训练数据"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "McDonaldsDriveThruAI",
+      "中文名称": "麦当劳得来速AI点餐系统",
+      "英文名称": "McDonald's AI Drive-Thru System",
+      "来源": "TikTokers are roasting McDonald's hilarious drive-thru AI order fails"
+    },
+    "Risk": {
+      "id": "OrderProcessingErrorRisk",
+      "中文名称": "订单处理错误风险",
+      "英文名称": "Order Processing Error Risk",
+      "来源": "McDonald's AI accidentally added 9 sweet teas to her order"
+    },
+    "Consequence": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "顾客不满后果",
+      "英文名称": "Customer Discontent",
+      "来源": "'This is exactly why a person should take your order'"
+    },
+    "AICapability": {
+      "id": "VoiceRecognitionForOrderTaking",
+      "中文名称": "语音识别接单能力",
+      "英文名称": "Voice Recognition for Ordering",
+      "来源": "McDonald's drive-thru robot made a mistake"
+    },
+    "Stakeholder": {
+      "id": "McDonaldsCustomers",
+      "中文名称": "麦当劳顾客",
+      "英文名称": "McDonald's Customers",
+      "来源": "Customer says McDonald's AI accidentally added 9 sweet teas to her order"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "TikTokers are roasting McDonald's hilarious drive-thru AI order fails"
+    },
+    "Purpose": {
+      "id": "AutomatingDriveThruOrdering",
+      "中文名称": "自动化得来速点餐目的",
+      "英文名称": "Automated Food Service",
+      "来源": "shows that robots won't take over restaurants any time soon"
+    },
+    "Domain": {
+      "id": "FastFoodIndustry",
+      "中文名称": "快餐行业领域",
+      "英文名称": "Fast Food Domain",
+      "来源": "McDonald's drive-thru robot made a mistake"
+    },
+    "RiskSource": {
+      "id": "SpeechRecognitionErrors",
+      "中文名称": "语音识别错误风险源",
+      "英文名称": "Software & Algorithm Errors",
+      "来源": "McDonald's drive-thru robot made a mistake. Then it all got ridiculous"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "McDonaldsDriveThruAI",
+      "中文名称": "麦当劳得来速AI点餐系统",
+      "英文名称": "McDonald's AI Drive-Thru System",
+      "来源": "TikTokers are roasting McDonald's hilarious drive-thru AI order fails"
+    },
+    "Risk": {
+      "id": "OrderProcessingErrorRisk",
+      "中文名称": "订单处理错误风险",
+      "英文名称": "Order Processing Error Risk",
+      "来源": "McDonald's AI accidentally added 9 sweet teas to her order"
+    },
+    "Consequence": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "顾客不满后果",
+      "英文名称": "Customer Discontent",
+      "来源": "'This is exactly why a person should take your order'"
+    },
+    "AICapability": {
+      "id": "VoiceRecognitionForOrderTaking",
+      "中文名称": "语音识别接单能力",
+      "英文名称": "Voice Recognition for Ordering",
+      "来源": "McDonald's drive-thru robot made a mistake"
+    },
+    "Stakeholder": {
+      "id": "McDonaldsCustomers",
+      "中文名称": "麦当劳顾客",
+      "英文名称": "McDonald's Customers",
+      "来源": "Customer says McDonald's AI accidentally added 9 sweet teas to her order"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "TikTokers are roasting McDonald's hilarious drive-thru AI order fails"
+    },
+    "Purpose": {
+      "id": "AutomatingDriveThruOrdering",
+      "中文名称": "自动化得来速点餐目的",
+      "英文名称": "Automated Food Service",
+      "来源": "shows that robots won't take over restaurants any time soon"
+    },
+    "Domain": {
+      "id": "FastFoodIndustry",
+      "中文名称": "快餐行业领域",
+      "英文名称": "Fast Food Domain",
+      "来源": "McDonald's drive-thru robot made a mistake"
+    },
+    "RiskSource": {
+      "id": "SpeechRecognitionErrors",
+      "中文名称": "语音识别错误风险源",
+      "英文名称": "Software & Algorithm Errors",
+      "来源": "McDonald's drive-thru robot made a mistake. Then it all got ridiculous"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CheatingDetectionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "作弊检测算法"@zh ;
+    rdfs:label "Cheating Detection Algorithm"@en ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasAISubject ex:StudentAccusedOfCheating ;
+    airo:hasStakeholder ex:ProfessorNotMet ;
+    airo:isAppliedWithinDomain ex:AcademicEvaluation .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "错误指控风险"@zh ;
+    rdfs:label "False Accusation Risk"@en ;
+    airo:hasConsequence ex:AcademicReputationDamage .
+
+ex:StudentAccusedOfCheating rdf:type airo:AISubject ;
+    rdfs:label "被指控作弊的学生"@zh ;
+    rdfs:label "Student Accused of Cheating"@en .
+
+ex:ProfessorNotMet rdf:type airo:Stakeholder ;
+    rdfs:label "未曾谋面的教授"@zh ;
+    rdfs:label "Professor Never Met"@en .
+
+ex:AcademicReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "学术声誉损害后果"@zh ;
+    rdfs:label "Academic Reputation Damage Consequence"@en ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "心理困扰影响"@zh ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    airo:hasImpactOnStakeholder ex:StudentAccusedOfCheating .
+
+ex:AcademicEvaluation rdf:type airo:Domain ;
+    rdfs:label "学术评估领域"@zh ;
+    rdfs:label "Academic Evaluation Domain"@en .

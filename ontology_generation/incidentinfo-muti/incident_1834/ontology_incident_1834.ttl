@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LLMAgent rdf:type airo:AISystem ;
+    rdfs:label "LLM Agent"@en ;
+    rdfs:label "LLM代理"@zh ;
+    airo:hasRisk ex:ImproperToolUseRisk ;
+    airo:hasCapability ex:ToolIntegrationCapability .
+
+ex:ImproperToolUseRisk rdf:type airo:Risk ;
+    rdfs:label "Improper Tool Use Risk"@en ;
+    rdfs:label "工具不当使用风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedToolExecution ;
+    airo:isRiskSourceFor ex:PromptInjectionAttack .
+
+ex:ToolIntegrationCapability rdf:type airo:AICapability ;
+    rdfs:label "Tool Integration Capability"@en ;
+    rdfs:label "工具集成能力"@zh .
+
+ex:PromptInjectionAttack rdf:type airo:RiskSource ;
+    rdfs:label "Prompt Injection Attack"@en ;
+    rdfs:label "提示注入攻击"@zh .
+
+ex:UnauthorizedToolExecution rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Tool Execution"@en ;
+    rdfs:label "未经授权的工具执行"@zh .

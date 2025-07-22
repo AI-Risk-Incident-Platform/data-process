@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookFactCheckAI rdf:type airo:AISystem ;
+    rdfs:label "Facebook Fact Check AI"@en ;
+    rdfs:label "Facebook事实核查AI"@zh ;
+    airo:hasRisk ex:MisinformationPropagationRisk ;
+    airo:hasCapability ex:ContentModerationAlgorithm ;
+    airo:hasStakeholder ex:FacebookUsers ;
+    airo:isDeployedBy ex:MetaPlatformsInc ;
+    airo:hasPurpose ex:ContentVerificationAndModeration ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:NaturalLanguageProcessingForFactChecking ;
+    airo:hasVulnerability ex:SubtleTextModificationBypass .
+
+ex:MisinformationPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Propagation Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformationSpread ;
+    airo:isRiskSourceFor ex:DeliberateMisinformationCampaigns .
+
+ex:PublicMisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Spread Consequence"@en ;
+    rdfs:label "公众虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:ContentModerationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Content Moderation Algorithm Capability"@en ;
+    rdfs:label "内容审核算法能力"@zh .
+
+ex:FacebookUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .
+
+ex:ContentVerificationAndModeration rdf:type airo:Purpose ;
+    rdfs:label "Content Verification and Moderation Purpose"@en ;
+    rdfs:label "内容验证和审核目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:NaturalLanguageProcessingForFactChecking rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing for Fact Checking Technique"@en ;
+    rdfs:label "用于事实核查的自然语言处理技术"@zh .
+
+ex:SubtleTextModificationBypass rdf:type airo:Vulnerability ;
+    rdfs:label "Subtle Text Modification Bypass Vulnerability"@en ;
+    rdfs:label "细微文本修改绕过漏洞"@zh .
+
+ex:DeliberateMisinformationCampaigns rdf:type airo:RiskSource ;
+    rdfs:label "Deliberate Misinformation Campaigns Risk Source"@en ;
+    rdfs:label "蓄意虚假信息宣传活动风险源"@zh .

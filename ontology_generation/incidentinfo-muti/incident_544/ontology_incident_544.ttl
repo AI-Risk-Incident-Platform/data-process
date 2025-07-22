@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FastFoodJobApplicationChatbots rdf:type airo:AISystem ;
+    rdfs:label "Fast Food Job Application Chatbots"@en ;
+    rdfs:label "快餐工作申请聊天机器人"@zh ;
+    airo:hasRisk ex:AutomatedHiringProcessExclusionRisk ;
+    airo:hasStakeholder ex:JobApplicants ;
+    airo:hasStakeholder ex:FastFoodCompanies ;
+    airo:isAppliedWithinDomain ex:FastFoodIndustry .
+
+ex:AutomatedHiringProcessExclusionRisk rdf:type airo:Risk ;
+    rdfs:label "Automated Hiring Process Exclusion Risk"@en ;
+    rdfs:label "自动化招聘流程排除风险"@zh ;
+    airo:hasConsequence ex:ExclusionFromEmploymentOpportunities .
+
+ex:JobApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Job Applicants"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:FastFoodCompanies rdf:type airo:AIOperator ;
+    rdfs:label "Fast Food Companies"@en ;
+    rdfs:label "快餐公司"@zh .
+
+ex:ExclusionFromEmploymentOpportunities rdf:type airo:Consequence ;
+    rdfs:label "Exclusion From Employment Opportunities Consequence"@en ;
+    rdfs:label "就业机会排除后果"@zh ;
+    airo:hasImpactOnStakeholder ex:JobApplicants .
+
+ex:FastFoodIndustry rdf:type airo:Domain ;
+    rdfs:label "Fast Food Industry Domain"@en ;
+    rdfs:label "快餐行业"@zh .

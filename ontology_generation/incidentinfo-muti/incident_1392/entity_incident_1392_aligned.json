@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI",
+      "英文名称": "Google AI",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "Risk": {
+      "id": "HarmfulAIApproachRisk",
+      "中文名称": "有害AI开发方法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "Stakeholder": {
+      "id": "GoogleCompany",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "AIDeveloper": {
+      "id": "GoogleAIResearch",
+      "中文名称": "谷歌AI研究部门",
+      "英文名称": "Google AI Research",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "RiskSource": {
+      "id": "InadequateDataLabeling",
+      "中文名称": "数据标注不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "Consequence": {
+      "id": "PoorAIQuality",
+      "中文名称": "AI质量低下后果",
+      "英文名称": "Poor AI Quality Consequence",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "Impact": {
+      "id": "NegativeSocialImpact",
+      "中文名称": "负面社会影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI",
+      "英文名称": "Google AI",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "Risk": {
+      "id": "HarmfulAIApproachRisk",
+      "中文名称": "有害AI开发方法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "Stakeholder": {
+      "id": "GoogleCompany",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "AIDeveloper": {
+      "id": "GoogleAIResearch",
+      "中文名称": "谷歌AI研究部门",
+      "英文名称": "Google AI Research",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    },
+    "RiskSource": {
+      "id": "InadequateDataLabeling",
+      "中文名称": "数据标注不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "Consequence": {
+      "id": "PoorAIQuality",
+      "中文名称": "AI质量低下后果",
+      "英文名称": "Poor AI Quality Consequence",
+      "来源": "Google’s AI is Not a Pro in Data Labeling! But the Comp Fails to Admit it"
+    },
+    "Impact": {
+      "id": "NegativeSocialImpact",
+      "中文名称": "负面社会影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Scathing study exposes Google’s harmful approach to AI development"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PricingAlgorithm",
+      "中文名称": "定价算法",
+      "英文名称": "Pricing Algorithm",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingRisk",
+      "中文名称": "算法定价风险",
+      "英文名称": "Algorithmic Pricing Risk",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Purpose": {
+      "id": "DynamicPricing",
+      "中文名称": "动态定价",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForPricing",
+      "中文名称": "用于定价的机器学习",
+      "英文名称": "ML Pricing Model",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PricingAlgorithm",
+      "中文名称": "定价算法",
+      "英文名称": "Pricing Algorithm",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmicPricingRisk",
+      "中文名称": "算法定价风险",
+      "英文名称": "Algorithmic Pricing Risk",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务",
+      "英文名称": "E-Commerce",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "Purpose": {
+      "id": "DynamicPricing",
+      "中文名称": "动态定价",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForPricing",
+      "中文名称": "用于定价的机器学习",
+      "英文名称": "ML Pricing Model",
+      "来源": "The Pitfalls of Pricing Algorithms"
+    }
+  }
+}

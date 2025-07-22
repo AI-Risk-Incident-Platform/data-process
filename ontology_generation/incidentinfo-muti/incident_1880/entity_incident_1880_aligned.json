@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TinyImagesAITrainingDataset",
+      "中文名称": "Tiny Images AI训练数据集",
+      "英文名称": "Tiny Images AI Training Dataset",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Risk": {
+      "id": "RacistAndMisogynisticContentRisk",
+      "中文名称": "种族主义和性别歧视内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Consequence": {
+      "id": "BiasInAIOutputs",
+      "中文名称": "AI输出中的偏见后果",
+      "英文名称": "AI Ethical Consequences",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "AICapability": {
+      "id": "ImageRecognitionTraining",
+      "中文名称": "图像识别训练能力",
+      "英文名称": "Image Recognition Training Capability",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "AIOperator": {
+      "id": "MITAndNYU",
+      "中文名称": "MIT和NYU",
+      "英文名称": "Universities",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Stakeholder": {
+      "id": "AIResearchCommunity",
+      "中文名称": "AI研究社区",
+      "英文名称": "AI Research Community",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "Impact": {
+      "id": "DiscriminatoryAIBehavior",
+      "中文名称": "歧视性AI行为的影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Purpose": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练的目的",
+      "英文名称": "AI Training",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Domain": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉领域",
+      "英文名称": "Image Processing Domain",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "AITechnique": {
+      "id": "DatasetTraining",
+      "中文名称": "数据集训练技术",
+      "英文名称": "Dataset Training Technique",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Vulnerability": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "RiskSource": {
+      "id": "OffensiveLabeling",
+      "中文名称": "冒犯性标注的风险源",
+      "英文名称": "Offensive Labeling Risk Source",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TinyImagesAITrainingDataset",
+      "中文名称": "Tiny Images AI训练数据集",
+      "英文名称": "Tiny Images AI Training Dataset",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Risk": {
+      "id": "RacistAndMisogynisticContentRisk",
+      "中文名称": "种族主义和性别歧视内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Consequence": {
+      "id": "BiasInAIOutputs",
+      "中文名称": "AI输出中的偏见后果",
+      "英文名称": "AI Ethical Consequences",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "AICapability": {
+      "id": "ImageRecognitionTraining",
+      "中文名称": "图像识别训练能力",
+      "英文名称": "Image Recognition Training Capability",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "AIOperator": {
+      "id": "MITAndNYU",
+      "中文名称": "MIT和NYU",
+      "英文名称": "Universities",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Stakeholder": {
+      "id": "AIResearchCommunity",
+      "中文名称": "AI研究社区",
+      "英文名称": "AI Research Community",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "Impact": {
+      "id": "DiscriminatoryAIBehavior",
+      "中文名称": "歧视性AI行为的影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Purpose": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练的目的",
+      "英文名称": "AI Training",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "Domain": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉领域",
+      "英文名称": "Image Processing Domain",
+      "来源": "MIT pulls massive AI dataset over racist, misogynistic content"
+    },
+    "AITechnique": {
+      "id": "DatasetTraining",
+      "中文名称": "数据集训练技术",
+      "英文名称": "Dataset Training Technique",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    },
+    "Vulnerability": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "MIT, NYU Pull Tiny Images AI Training Dataset Due to Racist, Sexist Labels"
+    },
+    "RiskSource": {
+      "id": "OffensiveLabeling",
+      "中文名称": "冒犯性标注的风险源",
+      "英文名称": "Offensive Labeling Risk Source",
+      "来源": "MIT removes huge dataset that teaches AI systems to use racist, misogynistic slurs"
+    }
+  }
+}

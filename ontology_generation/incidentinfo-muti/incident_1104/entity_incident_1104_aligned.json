@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BabylonHealthChatbot",
+      "中文名称": "Babylon健康聊天机器人",
+      "英文名称": "Babylon Health Chatbot",
+      "来源": "Regulator reveals 'concerns' over Babylon's 'chatbot'"
+    },
+    "Risk": {
+      "id": "RegulatoryConcernsForTriageChatbots",
+      "中文名称": "分诊聊天机器人监管担忧风险",
+      "英文名称": "Triage Chatbot Regulation Risk",
+      "来源": "UK's MHRA says it has concerns about Babylon Health and flags legal gap around triage chatbots"
+    },
+    "Stakeholder": {
+      "id": "MHRA",
+      "中文名称": "英国药品和保健品监管局",
+      "英文名称": "UK Regulator",
+      "来源": "UK's MHRA says it has concerns about Babylon Health"
+    },
+    "RiskSource": {
+      "id": "LegalGapInTriageChatbotRegulation",
+      "中文名称": "分诊聊天机器人监管法律空白风险源",
+      "英文名称": "Unregulated Healthcare AI Risk Source",
+      "来源": "flags legal gap around triage chatbots"
+    },
+    "Domain": {
+      "id": "HealthcareTriage",
+      "中文名称": "医疗分诊领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "triage chatbots"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BabylonHealthChatbot",
+      "中文名称": "Babylon健康聊天机器人",
+      "英文名称": "Babylon Health Chatbot",
+      "来源": "Regulator reveals 'concerns' over Babylon's 'chatbot'"
+    },
+    "Risk": {
+      "id": "RegulatoryConcernsForTriageChatbots",
+      "中文名称": "分诊聊天机器人监管担忧风险",
+      "英文名称": "Triage Chatbot Regulation Risk",
+      "来源": "UK's MHRA says it has concerns about Babylon Health and flags legal gap around triage chatbots"
+    },
+    "Stakeholder": {
+      "id": "MHRA",
+      "中文名称": "英国药品和保健品监管局",
+      "英文名称": "UK Regulator",
+      "来源": "UK's MHRA says it has concerns about Babylon Health"
+    },
+    "RiskSource": {
+      "id": "LegalGapInTriageChatbotRegulation",
+      "中文名称": "分诊聊天机器人监管法律空白风险源",
+      "英文名称": "Unregulated Healthcare AI Risk Source",
+      "来源": "flags legal gap around triage chatbots"
+    },
+    "Domain": {
+      "id": "HealthcareTriage",
+      "中文名称": "医疗分诊领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "triage chatbots"
+    }
+  }
+}

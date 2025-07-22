@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ElevenLabsAIVoiceGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "ElevenLabs AI Voice Generation System"@en ;
+    rdfs:label "ElevenLabs AI语音生成系统"@zh ;
+    airo:hasRisk ex:DisinformationCampaignRisk ;
+    airo:hasCapability ex:VoiceCloningAndSynthesis ;
+    airo:usesTechnique ex:DeepLearningBasedVoiceSynthesis ;
+    airo:hasStakeholder ex:RussianGovernment .
+
+ex:DisinformationCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Campaign Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAIVoiceTechnology ;
+    airo:hasConsequence ex:SpreadOfFalseInformation .
+
+ex:RussianGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Russian Government"@en ;
+    rdfs:label "俄罗斯政府"@zh .
+
+ex:VoiceCloningAndSynthesis rdf:type airo:AICapability ;
+    rdfs:label "Voice Cloning and Synthesis Capability"@en ;
+    rdfs:label "语音克隆与合成能力"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "舆论操纵影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RussianGovernment .
+
+ex:DeepLearningBasedVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Voice Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的语音合成技术"@zh .
+
+ex:MaliciousUseOfAIVoiceTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of AI Voice Technology Risk Source"@en ;
+    rdfs:label "AI语音技术的恶意使用风险源"@zh .
+
+ex:SpreadOfFalseInformation rdf:type airo:Consequence ;
+    rdfs:label "Spread of False Information Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicOpinionManipulation .

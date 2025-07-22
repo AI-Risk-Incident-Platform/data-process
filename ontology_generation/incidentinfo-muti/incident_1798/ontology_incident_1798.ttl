@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookGANs rdf:type airo:AISystem ;
+    rdfs:label "Facebook GANs"@en ;
+    rdfs:label "Facebook生成对抗网络"@zh ;
+    airo:hasRisk ex:PropagandaNetworkRisk ;
+    airo:usesTechnique ex:GANsForFakeAccountCreation ;
+    airo:hasStakeholder ex:FacebookPlatform ;
+    airo:isDeployedBy ex:FacebookSecurityTeam .
+
+ex:PropagandaNetworkRisk rdf:type airo:Risk ;
+    rdfs:label "Propaganda Network Risk"@en ;
+    rdfs:label "虚假宣传网络风险"@zh ;
+    airo:hasConsequence ex:SpreadOfMisinformation ;
+    airo:isRiskSourceFor ex:AIGeneratedFakeAccounts .
+
+ex:GANsForFakeAccountCreation rdf:type airo:AITechnique ;
+    rdfs:label "GANs for Fake Account Creation Technique"@en ;
+    rdfs:label "用于创建虚假账户的生成对抗网络技术"@zh .
+
+ex:FacebookPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "Facebook Platform"@en ;
+    rdfs:label "Facebook平台"@zh .
+
+ex:SpreadOfMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Spread of Misinformation Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookPlatform .
+
+ex:AIGeneratedFakeAccounts rdf:type airo:RiskSource ;
+    rdfs:label "AI-Generated Fake Accounts Risk Source"@en ;
+    rdfs:label "AI生成的虚假账户风险源"@zh .
+
+ex:FacebookSecurityTeam rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Security Team"@en ;
+    rdfs:label "Facebook安全团队"@zh .

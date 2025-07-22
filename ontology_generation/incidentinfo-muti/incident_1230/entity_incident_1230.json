@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HealthInsuranceDenialAlgorithm",
+      "中文名称": "健康保险拒赔算法",
+      "英文名称": "Health Insurance Denial Algorithm",
+      "来源": "The algorithm behind health insurance denials"
+    },
+    "Risk": {
+      "id": "UnfairCoverageDenialRisk",
+      "中文名称": "不公平拒赔风险",
+      "英文名称": "Unfair Coverage Denial Risk",
+      "来源": "UHC's cost-saving program is still denying coverage"
+    },
+    "Consequence": {
+      "id": "PatientFinancialHardship",
+      "中文名称": "患者财务困境后果",
+      "英文名称": "Patient Financial Hardship Consequence",
+      "来源": "AI cuts care"
+    },
+    "AICapability": {
+      "id": "ClaimsProcessingAutomation",
+      "中文名称": "理赔处理自动化能力",
+      "英文名称": "Claims Processing Automation Capability",
+      "来源": "The algorithm behind health insurance denials"
+    },
+    "AIOperator": {
+      "id": "UnitedHealthGroup",
+      "中文名称": "联合健康集团",
+      "英文名称": "UnitedHealth Group",
+      "来源": "UHC's cost-saving program"
+    },
+    "Stakeholder": {
+      "id": "InsurancePolicyholders",
+      "中文名称": "保险投保人",
+      "英文名称": "Insurance Policyholders",
+      "来源": "Denying coverage to patients"
+    },
+    "Impact": {
+      "id": "ReducedAccessToHealthcare",
+      "中文名称": "医疗可及性降低的影响",
+      "英文名称": "Reduced Access to Healthcare Impact",
+      "来源": "AI cuts care"
+    },
+    "Purpose": {
+      "id": "CostReductionForInsurers",
+      "中文名称": "保险公司成本削减的目的",
+      "英文名称": "Cost Reduction for Insurers Purpose",
+      "来源": "UHC's cost-saving program"
+    },
+    "Domain": {
+      "id": "HealthInsuranceIndustry",
+      "中文名称": "健康保险行业领域",
+      "英文名称": "Health Insurance Industry Domain",
+      "来源": "Health insurance denials"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicDecisionMaking",
+      "中文名称": "算法决策偏见的风险源",
+      "英文名称": "Biased Algorithmic Decision Making Risk Source",
+      "来源": "The algorithm behind health insurance denials"
+    }
+  }
+}

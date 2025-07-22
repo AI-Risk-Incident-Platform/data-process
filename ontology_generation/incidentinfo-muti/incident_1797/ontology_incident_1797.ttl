@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WeChatFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "微信人脸识别系统"@zh ;
+    rdfs:label "WeChat Facial Recognition System"@en ;
+    airo:hasRisk ex:FacialRecognitionSpoofingRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasPurpose ex:AccountSecurityAuthentication ;
+    airo:hasStakeholder ex:WeChatUsers ;
+    airo:isAppliedWithinDomain ex:MobilePayment .
+
+ex:FacialRecognitionSpoofingRisk rdf:type airo:Risk ;
+    rdfs:label "人脸识别欺骗风险"@zh ;
+    rdfs:label "Facial Recognition Spoofing Risk"@en ;
+    airo:isRiskSourceFor ex:AnimatedFaceGIFs ;
+    airo:hasConsequence ex:UnauthorizedAccountAccess .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "人脸识别技术"@zh ;
+    rdfs:label "Facial Recognition Technology"@en .
+
+ex:WeChatUsers rdf:type airo:Stakeholder ;
+    rdfs:label "微信用户"@zh ;
+    rdfs:label "WeChat Users"@en .
+
+ex:AnimatedFaceGIFs rdf:type airo:RiskSource ;
+    rdfs:label "动态人脸GIF"@zh ;
+    rdfs:label "Animated Face GIFs"@en .
+
+ex:UnauthorizedAccountAccess rdf:type airo:Consequence ;
+    rdfs:label "未经授权的账户访问"@zh ;
+    rdfs:label "Unauthorized Account Access"@en ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "经济损失"@zh ;
+    rdfs:label "Financial Loss"@en ;
+    airo:hasImpactOnStakeholder ex:WeChatUsers .
+
+ex:AccountSecurityAuthentication rdf:type airo:Purpose ;
+    rdfs:label "账户安全认证"@zh ;
+    rdfs:label "Account Security Authentication"@en .
+
+ex:MobilePayment rdf:type airo:Domain ;
+    rdfs:label "移动支付"@zh ;
+    rdfs:label "Mobile Payment"@en .

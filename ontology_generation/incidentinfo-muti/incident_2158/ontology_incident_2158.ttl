@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatbotForDeceasedCommunication rdf:type airo:AISystem ;
+    rdfs:label "Chatbot for Deceased Communication"@en ;
+    rdfs:label "与逝者对话的聊天机器人"@zh ;
+    airo:hasRisk ex:PsychologicalDistressFromDigitalResurrection ;
+    airo:hasCapability ex:ConversationalAIWithPersonalityReplication ;
+    airo:hasPurpose ex:DigitalAfterlifeCommunication ;
+    airo:hasStakeholder ex:BereavedFamilyMembers ;
+    airo:usesTechnique ex:GenerativeAIForPersonalitySimulation .
+
+ex:PsychologicalDistressFromDigitalResurrection rdf:type airo:Risk ;
+    rdfs:label "Psychological Distress from Digital Resurrection Risk"@en ;
+    rdfs:label "数字复活导致的心理困扰风险"@zh ;
+    airo:hasConsequence ex:EmotionalManipulationPotential ;
+    airo:isRiskSourceFor ex:UnrealisticExpectationsOfDigitalResurrection .
+
+ex:EmotionalManipulationPotential rdf:type airo:Consequence ;
+    rdfs:label "Emotional Manipulation Potential Consequence"@en ;
+    rdfs:label "情感操纵潜在后果"@zh ;
+    airo:hasImpact ex:GriefProcessDisruption .
+
+ex:ConversationalAIWithPersonalityReplication rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI with Personality Replication Capability"@en ;
+    rdfs:label "具有人格复制能力的对话AI"@zh .
+
+ex:BereavedFamilyMembers rdf:type airo:Stakeholder ;
+    rdfs:label "Bereaved Family Members"@en ;
+    rdfs:label "失去亲人的家庭成员"@zh .
+
+ex:DigitalAfterlifeCommunication rdf:type airo:Purpose ;
+    rdfs:label "Digital Afterlife Communication Purpose"@en ;
+    rdfs:label "数字来世沟通的目的"@zh .
+
+ex:GriefProcessDisruption rdf:type airo:Impact ;
+    rdfs:label "Grief Process Disruption Impact"@en ;
+    rdfs:label "哀伤过程中断的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BereavedFamilyMembers .
+
+ex:GenerativeAIForPersonalitySimulation rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI for Personality Simulation Technique"@en ;
+    rdfs:label "用于人格模拟的生成式AI技术"@zh .
+
+ex:UnrealisticExpectationsOfDigitalResurrection rdf:type airo:RiskSource ;
+    rdfs:label "Unrealistic Expectations of Digital Resurrection Risk Source"@en ;
+    rdfs:label "对数字复活不切实际期望的风险源"@zh .

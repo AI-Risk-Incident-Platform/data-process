@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EdmodoPlatform",
+      "中文名称": "Edmodo平台",
+      "英文名称": "Edmodo Platform",
+      "来源": "FTC Says Ed Tech Provider Edmodo Unlawfully Used Children’s Personal Information for Advertising and Outsourced Compliance to School Districts"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Stakeholder": {
+      "id": "SchoolDistricts",
+      "中文名称": "学区",
+      "英文名称": "School District",
+      "来源": "Outsourced Compliance to School Districts"
+    },
+    "AIOperator": {
+      "id": "Edmodo",
+      "中文名称": "Edmodo",
+      "英文名称": "Edmodo",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "Consequence": {
+      "id": "ChildrenPersonalDataMisuse",
+      "中文名称": "儿童个人数据滥用后果",
+      "英文名称": "Children Data Misuse Consequence",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyHarm",
+      "中文名称": "儿童隐私损害影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Purpose": {
+      "id": "EducationalTechnologyService",
+      "中文名称": "教育技术服务目的",
+      "英文名称": "Educational Technology Service Purpose",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "RiskSource": {
+      "id": "InadequateDataProtectionMeasures",
+      "中文名称": "数据保护措施不足风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "EdmodoPlatform",
+      "中文名称": "Edmodo平台",
+      "英文名称": "Edmodo Platform",
+      "来源": "FTC Says Ed Tech Provider Edmodo Unlawfully Used Children’s Personal Information for Advertising and Outsourced Compliance to School Districts"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Stakeholder": {
+      "id": "SchoolDistricts",
+      "中文名称": "学区",
+      "英文名称": "School District",
+      "来源": "Outsourced Compliance to School Districts"
+    },
+    "AIOperator": {
+      "id": "Edmodo",
+      "中文名称": "Edmodo",
+      "英文名称": "Edmodo",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "Consequence": {
+      "id": "ChildrenPersonalDataMisuse",
+      "中文名称": "儿童个人数据滥用后果",
+      "英文名称": "Children Data Misuse Consequence",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyHarm",
+      "中文名称": "儿童隐私损害影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    },
+    "Purpose": {
+      "id": "EducationalTechnologyService",
+      "中文名称": "教育技术服务目的",
+      "英文名称": "Educational Technology Service Purpose",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "Domain": {
+      "id": "EducationTechnology",
+      "中文名称": "教育技术领域",
+      "英文名称": "Educational Tech",
+      "来源": "Ed Tech Provider Edmodo"
+    },
+    "RiskSource": {
+      "id": "InadequateDataProtectionMeasures",
+      "中文名称": "数据保护措施不足风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Unlawfully Used Children’s Personal Information for Advertising"
+    }
+  }
+}

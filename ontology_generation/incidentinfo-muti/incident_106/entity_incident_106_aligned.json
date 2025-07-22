@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TwitterPhotoCropAlgorithm",
+      "中文名称": "Twitter照片裁剪算法",
+      "英文名称": "Twitter Photo Crop Algorithm",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInPhotoCropping",
+      "中文名称": "照片裁剪中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Photo Cropping Risk",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryImagePresentation",
+      "中文名称": "歧视性图像呈现后果",
+      "英文名称": "Discriminatory Image Presentation Consequence",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "AICapability": {
+      "id": "ImageSaliencyDetection",
+      "中文名称": "图像显著性检测能力",
+      "英文名称": "Image Saliency Detection Capability",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Stakeholder": {
+      "id": "TwitterBugBountyParticipants",
+      "中文名称": "Twitter漏洞赏金参与者",
+      "英文名称": "Twitter Bug Bounty Participants",
+      "来源": "Twitter launches bug bounty contest to detect algorithmic bias"
+    },
+    "AIOperator": {
+      "id": "TwitterInc",
+      "中文名称": "Twitter公司",
+      "英文名称": "X",
+      "来源": "Twitter launches bug bounty contest to detect algorithmic bias"
+    },
+    "Impact": {
+      "id": "RacialAndGenderBiasAmplification",
+      "中文名称": "种族和性别偏见放大的影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Purpose": {
+      "id": "AutomatedImageOptimization",
+      "中文名称": "自动图像优化的目的",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedSaliencyPrediction",
+      "中文名称": "基于神经网络的显著性预测技术",
+      "英文名称": "Neural Network Based Saliency Prediction Technique",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataRepresentationBias",
+      "中文名称": "训练数据代表性偏差的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "RiskSource": {
+      "id": "UnintendedAlgorithmicBias",
+      "中文名称": "非预期的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TwitterPhotoCropAlgorithm",
+      "中文名称": "Twitter照片裁剪算法",
+      "英文名称": "Twitter Photo Crop Algorithm",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInPhotoCropping",
+      "中文名称": "照片裁剪中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Photo Cropping Risk",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryImagePresentation",
+      "中文名称": "歧视性图像呈现后果",
+      "英文名称": "Discriminatory Image Presentation Consequence",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "AICapability": {
+      "id": "ImageSaliencyDetection",
+      "中文名称": "图像显著性检测能力",
+      "英文名称": "Image Saliency Detection Capability",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Stakeholder": {
+      "id": "TwitterBugBountyParticipants",
+      "中文名称": "Twitter漏洞赏金参与者",
+      "英文名称": "Twitter Bug Bounty Participants",
+      "来源": "Twitter launches bug bounty contest to detect algorithmic bias"
+    },
+    "AIOperator": {
+      "id": "TwitterInc",
+      "中文名称": "Twitter公司",
+      "英文名称": "X",
+      "来源": "Twitter launches bug bounty contest to detect algorithmic bias"
+    },
+    "Impact": {
+      "id": "RacialAndGenderBiasAmplification",
+      "中文名称": "种族和性别偏见放大的影响",
+      "英文名称": "AI Discrimination Impact",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "Purpose": {
+      "id": "AutomatedImageOptimization",
+      "中文名称": "自动图像优化的目的",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedSaliencyPrediction",
+      "中文名称": "基于神经网络的显著性预测技术",
+      "英文名称": "Neural Network Based Saliency Prediction Technique",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataRepresentationBias",
+      "中文名称": "训练数据代表性偏差的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Why Twitter’s image cropping algorithm appears to have white bias"
+    },
+    "RiskSource": {
+      "id": "UnintendedAlgorithmicBias",
+      "中文名称": "非预期的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Twitter's Photo Crop Algorithm Favors White Faces and Women"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchAutocompleteSystem",
+      "中文名称": "谷歌搜索自动补全系统",
+      "英文名称": "Google Autocomplete",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Consequence": {
+      "id": "VictimIdentification",
+      "中文名称": "受害者身份暴露后果",
+      "英文名称": "Victim Identification Consequence",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "AICapability": {
+      "id": "AutocompletePrediction",
+      "中文名称": "自动补全预测能力",
+      "英文名称": "Search Autocomplete Capability",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "Stakeholder": {
+      "id": "RapeVictims",
+      "中文名称": "强奸受害者",
+      "英文名称": "Rape Victims",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "AISubject": {
+      "id": "CrimeVictims",
+      "中文名称": "犯罪受害者",
+      "英文名称": "Crime Victims",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "RiskSource": {
+      "id": "SensitiveDataExposure",
+      "中文名称": "敏感数据暴露风险源",
+      "英文名称": "Sensitive Data Risk Source",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSearchAutocompleteSystem",
+      "中文名称": "谷歌搜索自动补全系统",
+      "英文名称": "Google Autocomplete",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Consequence": {
+      "id": "VictimIdentification",
+      "中文名称": "受害者身份暴露后果",
+      "英文名称": "Victim Identification Consequence",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVictims",
+      "中文名称": "对受害者的心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "AICapability": {
+      "id": "AutocompletePrediction",
+      "中文名称": "自动补全预测能力",
+      "英文名称": "Search Autocomplete Capability",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    },
+    "Stakeholder": {
+      "id": "RapeVictims",
+      "中文名称": "强奸受害者",
+      "英文名称": "Rape Victims",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "AISubject": {
+      "id": "CrimeVictims",
+      "中文名称": "犯罪受害者",
+      "英文名称": "Crime Victims",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "RiskSource": {
+      "id": "SensitiveDataExposure",
+      "中文名称": "敏感数据暴露风险源",
+      "英文名称": "Sensitive Data Risk Source",
+      "来源": "Google search reveals names of rape victims"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Google Has Been Suggesting The Names Of Rape Victims Using Related Search And Autocomplete"
+    }
+  }
+}

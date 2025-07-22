@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CharacterAIChatbot",
+      "中文名称": "Character.AI聊天机器人",
+      "英文名称": "Character.AI Chatbot",
+      "来源": "Lawsuit claims Character.AI is responsible for teen's suicide"
+    },
+    "Risk": {
+      "id": "TeenSuicideRiskFromChatbotInteraction",
+      "中文名称": "青少年与聊天机器人互动后的自杀风险",
+      "英文名称": "Teen Suicide Risk from Chatbot Interaction",
+      "来源": "Her teenage son killed himself after talking to a chatbot"
+    },
+    "Consequence": {
+      "id": "TeenSuicide",
+      "中文名称": "青少年自杀后果",
+      "英文名称": "Teen Suicide Consequence",
+      "来源": "Her teenage son killed himself after talking to a chatbot"
+    },
+    "Impact": {
+      "id": "FamilyTrauma",
+      "中文名称": "家庭创伤影响",
+      "英文名称": "Family Trauma Impact",
+      "来源": "Now she's suing"
+    },
+    "Stakeholder": {
+      "id": "GrievingMother",
+      "中文名称": "悲痛母亲",
+      "英文名称": "Grieving Mother",
+      "来源": "Her teenage son killed himself after talking to a chatbot. Now she's suing."
+    },
+    "AISubject": {
+      "id": "VulnerableTeenager",
+      "中文名称": "脆弱青少年",
+      "英文名称": "Vulnerable Teenager",
+      "来源": "Her teenage son killed himself after talking to a chatbot"
+    },
+    "RiskSource": {
+      "id": "UnmonitoredChatbotConversations",
+      "中文名称": "未受监控的聊天机器人对话",
+      "英文名称": "Unmonitored Chatbot Conversations",
+      "来源": "Can A.I. Be Blamed for a Teen's Suicide?"
+    },
+    "Vulnerability": {
+      "id": "MentalHealthVulnerability",
+      "中文名称": "心理健康脆弱性",
+      "英文名称": "Mental Health Vulnerability",
+      "来源": "Her teenage son killed himself after talking to a chatbot"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TinderPersonalizedPricingAlgorithm",
+      "中文名称": "Tinder个性化定价算法",
+      "英文名称": "Tinder Personalized Pricing Algorithm",
+      "来源": "Tinder's unfair pricing algorithm exposed"
+    },
+    "Risk": {
+      "id": "AgeBasedPriceDiscriminationRisk",
+      "中文名称": "基于年龄的价格歧视风险",
+      "英文名称": "Age-Based Price Discrimination Risk",
+      "来源": "Over thirty? You could be paying more to swipe right"
+    },
+    "Stakeholder": {
+      "id": "TinderUsersOverThirty",
+      "中文名称": "30岁以上的Tinder用户",
+      "英文名称": "Tinder Users Over Thirty",
+      "来源": "Over thirty? You could be paying more to swipe right"
+    },
+    "Domain": {
+      "id": "OnlineDatingServices",
+      "中文名称": "在线约会服务领域",
+      "英文名称": "Online Dating Services Domain",
+      "来源": "Tinder's unfair pricing algorithm exposed"
+    },
+    "Purpose": {
+      "id": "RevenueMaximizationThroughPersonalizedPricing",
+      "中文名称": "通过个性化定价实现收入最大化",
+      "英文名称": "Revenue Maximization Through Personalized Pricing Purpose",
+      "来源": "A Consumer Investigation into Personalised Pricing"
+    },
+    "Consequence": {
+      "id": "UnfairPricingForCertainUserGroups",
+      "中文名称": "对特定用户群体的不公平定价后果",
+      "英文名称": "Unfair Pricing for Certain User Groups Consequence",
+      "来源": "Over thirty? You could be paying more to swipe right"
+    },
+    "Impact": {
+      "id": "ConsumerTrustErosion",
+      "中文名称": "消费者信任度下降的影响",
+      "英文名称": "Consumer Trust Erosion Impact",
+      "来源": "Tinder's unfair pricing algorithm exposed"
+    },
+    "AITechnique": {
+      "id": "DynamicPricingAlgorithm",
+      "中文名称": "动态定价算法技术",
+      "英文名称": "Dynamic Pricing Algorithm Technique",
+      "来源": "A Consumer Investigation into Personalised Pricing"
+    },
+    "RiskSource": {
+      "id": "UserDemographicDataExploitation",
+      "中文名称": "用户人口统计数据利用的风险源",
+      "英文名称": "User Demographic Data Exploitation Risk Source",
+      "来源": "Over thirty? You could be paying more to swipe right"
+    }
+  }
+}

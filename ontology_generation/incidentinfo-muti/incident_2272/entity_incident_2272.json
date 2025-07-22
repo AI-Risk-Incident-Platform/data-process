@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeCreationTool",
+      "中文名称": "深度伪造创作工具",
+      "英文名称": "Deepfake Creation Tool",
+      "来源": "Chinese 'Deepfake' Creator Says Videos Meant to Educate Public"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Chinese 'Deepfake' Creator Says Videos Meant to Educate Public"
+    },
+    "Purpose": {
+      "id": "PublicEducation",
+      "中文名称": "公共教育",
+      "英文名称": "Public Education",
+      "来源": "Videos Meant to Educate Public"
+    },
+    "Stakeholder": {
+      "id": "DeepfakeCreator",
+      "中文名称": "深度伪造创作者",
+      "英文名称": "Deepfake Creator",
+      "来源": "Chinese 'Deepfake' Creator"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deep Learning Based Face Swapping Technique",
+      "来源": "Deepfake technology"
+    }
+  }
+}

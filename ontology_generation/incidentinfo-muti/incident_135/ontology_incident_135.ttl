@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAIModerator rdf:type airo:AISystem ;
+    rdfs:label "Facebook AI Moderator"@en ;
+    rdfs:label "Facebook AI内容审核系统"@zh ;
+    airo:hasRisk ex:ContentMisclassificationRisk ;
+    airo:hasCapability ex:VideoContentClassification ;
+    airo:isProvidedBy ex:Facebook ;
+    airo:usesTechnique ex:ComputerVisionClassification .
+
+ex:ContentMisclassificationRisk rdf:type airo:Risk ;
+    rdfs:label "Content Misclassification Risk"@en ;
+    rdfs:label "内容误分类风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentExposure ;
+    airo:isRiskSourceFor ex:VisualSimilarityConfusion .
+
+ex:VideoContentClassification rdf:type airo:AICapability ;
+    rdfs:label "Video Content Classification Capability"@en ;
+    rdfs:label "视频内容分类能力"@zh .
+
+ex:HarmfulContentExposure rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Exposure Consequence"@en ;
+    rdfs:label "有害内容暴露后果"@zh ;
+    airo:hasImpact ex:UserPsychologicalHarm .
+
+ex:UserPsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "User Psychological Harm Impact"@en ;
+    rdfs:label "用户心理伤害影响"@zh .
+
+ex:Facebook rdf:type airo:AIProvider ;
+    rdfs:label "Facebook"@en ;
+    rdfs:label "Facebook"@zh .
+
+ex:ComputerVisionClassification rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Classification Technique"@en ;
+    rdfs:label "计算机视觉分类技术"@zh .
+
+ex:VisualSimilarityConfusion rdf:type airo:RiskSource ;
+    rdfs:label "Visual Similarity Confusion Risk Source"@en ;
+    rdfs:label "视觉相似性混淆风险源"@zh .

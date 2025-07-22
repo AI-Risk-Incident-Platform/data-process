@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FaceID rdf:type airo:AISystem ;
+    rdfs:label "面容ID"@zh ;
+    rdfs:label "Face ID"@en ;
+    airo:hasRisk ex:BiometricAuthenticationFailure ;
+    airo:hasCapability ex:FacialRecognition ;
+    airo:hasStakeholder ex:Apple ;
+    airo:hasAISubject ex:iPhoneXUsers ;
+    airo:usesTechnique ex:3DFaceMapping ;
+    airo:hasVulnerability ex:SimilarFacialFeatures .
+
+ex:BiometricAuthenticationFailure rdf:type airo:Risk ;
+    rdfs:label "生物识别认证失败风险"@zh ;
+    rdfs:label "Biometric Authentication Failure Risk"@en .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "面部识别能力"@zh ;
+    rdfs:label "Facial Recognition Capability"@en .
+
+ex:Apple rdf:type airo:Stakeholder ;
+    rdfs:label "苹果公司"@zh ;
+    rdfs:label "Apple"@en .
+
+ex:iPhoneXUsers rdf:type airo:AISubject ;
+    rdfs:label "iPhone X用户"@zh ;
+    rdfs:label "iPhone X Users"@en .
+
+ex:SimilarFacialFeatures rdf:type airo:Vulnerability ;
+    rdfs:label "相似面部特征漏洞"@zh ;
+    rdfs:label "Similar Facial Features Vulnerability"@en .
+
+ex:3DFaceMapping rdf:type airo:AITechnique ;
+    rdfs:label "3D面部映射技术"@zh ;
+    rdfs:label "3D Face Mapping Technique"@en .

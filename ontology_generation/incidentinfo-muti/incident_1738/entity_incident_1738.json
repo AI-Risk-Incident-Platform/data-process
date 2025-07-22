@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IndustrialRobotArm",
+      "中文名称": "工业机器人手臂",
+      "英文名称": "Industrial Robot Arm",
+      "来源": "Robot arm crushes worker to death in Chon Buri"
+    },
+    "Risk": {
+      "id": "WorkplaceFatalityRisk",
+      "中文名称": "工作场所致命风险",
+      "英文名称": "Workplace Fatality Risk",
+      "来源": "Robot arm crushes worker to death in Thailand factory"
+    },
+    "Consequence": {
+      "id": "WorkerDeath",
+      "中文名称": "工人死亡后果",
+      "英文名称": "Worker Death Consequence",
+      "来源": "crushes worker to death"
+    },
+    "Impact": {
+      "id": "HumanLifeLoss",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "crushes worker to death"
+    },
+    "Domain": {
+      "id": "IndustrialManufacturing",
+      "中文名称": "工业制造领域",
+      "英文名称": "Industrial Manufacturing Domain",
+      "来源": "in Thailand factory"
+    },
+    "Stakeholder": {
+      "id": "FactoryWorker",
+      "中文名称": "工厂工人",
+      "英文名称": "Factory Worker",
+      "来源": "worker"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障风险源",
+      "英文名称": "Robot Malfunction Risk Source",
+      "来源": "Robot arm crushes worker"
+    },
+    "AIOperator": {
+      "id": "FactoryManagement",
+      "中文名称": "工厂管理层",
+      "英文名称": "Factory Management",
+      "来源": "in Thailand factory"
+    }
+  }
+}

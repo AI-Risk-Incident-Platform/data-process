@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedRobocalls",
+      "中文名称": "AI生成自动电话",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Mayor Adams uses AI-generated robocalls to pass himself off to New Yorkers as multilingual"
+    },
+    "Risk": {
+      "id": "MisrepresentationRisk",
+      "中文名称": "虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "uses AI to make robocalls in languages he doesn’t speak"
+    },
+    "AITechnique": {
+      "id": "AudioDeepfake",
+      "中文名称": "音频深度伪造",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "New York's mayor uses audio deepfakes to call residents in languages he doesn't speak"
+    },
+    "Stakeholder": {
+      "id": "NewYorkResidents",
+      "中文名称": "纽约居民",
+      "英文名称": "New York Residents",
+      "来源": "to call residents in languages he doesn't speak"
+    },
+    "AIOperator": {
+      "id": "MayorEricAdams",
+      "中文名称": "市长埃里克·亚当斯",
+      "英文名称": "Mayor Eric Adams",
+      "来源": "Mayor Adams uses AI-generated robocalls"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedRobocalls",
+      "中文名称": "AI生成自动电话",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Mayor Adams uses AI-generated robocalls to pass himself off to New Yorkers as multilingual"
+    },
+    "Risk": {
+      "id": "MisrepresentationRisk",
+      "中文名称": "虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "uses AI to make robocalls in languages he doesn’t speak"
+    },
+    "AITechnique": {
+      "id": "AudioDeepfake",
+      "中文名称": "音频深度伪造",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "New York's mayor uses audio deepfakes to call residents in languages he doesn't speak"
+    },
+    "Stakeholder": {
+      "id": "NewYorkResidents",
+      "中文名称": "纽约居民",
+      "英文名称": "New York Residents",
+      "来源": "to call residents in languages he doesn't speak"
+    },
+    "AIOperator": {
+      "id": "MayorEricAdams",
+      "中文名称": "市长埃里克·亚当斯",
+      "英文名称": "Mayor Eric Adams",
+      "来源": "Mayor Adams uses AI-generated robocalls"
+    }
+  }
+}

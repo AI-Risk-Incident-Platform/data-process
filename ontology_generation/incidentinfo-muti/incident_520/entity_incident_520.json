@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceRecognitionSystem",
+      "中文名称": "语音识别系统",
+      "英文名称": "Voice Recognition System",
+      "来源": "AI can fool voice recognition used to verify identity by Centrelink and Australian tax office"
+    },
+    "Risk": {
+      "id": "IdentityVerificationFraudRisk",
+      "中文名称": "身份验证欺诈风险",
+      "英文名称": "Identity Verification Fraud Risk",
+      "来源": "AI can fool voice recognition used to verify identity"
+    },
+    "Stakeholder": {
+      "id": "CentrelinkAndAustralianTaxOffice",
+      "中文名称": "Centrelink和澳大利亚税务局",
+      "英文名称": "Centrelink and Australian Tax Office",
+      "来源": "voice recognition used to verify identity by Centrelink and Australian tax office"
+    },
+    "RiskSource": {
+      "id": "AIGeneratedVoiceSpoofing",
+      "中文名称": "AI生成语音欺骗",
+      "英文名称": "AI Generated Voice Spoofing",
+      "来源": "AI can fool voice recognition"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityVerification",
+      "中文名称": "政府身份验证领域",
+      "英文名称": "Government Identity Verification Domain",
+      "来源": "used to verify identity by Centrelink and Australian tax office"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "used to verify identity"
+    },
+    "Impact": {
+      "id": "IdentityFraud",
+      "中文名称": "身份欺诈影响",
+      "英文名称": "Identity Fraud Impact",
+      "来源": "AI can fool voice recognition used to verify identity"
+    }
+  }
+}

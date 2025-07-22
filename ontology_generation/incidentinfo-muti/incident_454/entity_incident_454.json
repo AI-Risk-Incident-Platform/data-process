@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CNETAIJournalist",
+      "中文名称": "CNET的AI记者",
+      "英文名称": "CNET AI Journalist",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "Risk": {
+      "id": "PlagiarismRisk",
+      "中文名称": "抄袭风险",
+      "英文名称": "Plagiarism Risk",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "Consequence": {
+      "id": "CredibilityLoss",
+      "中文名称": "信誉损失后果",
+      "英文名称": "Credibility Loss Consequence",
+      "来源": "News Site Admits AI Journalist Plagiarized and Made Stuff Up"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Content Generation Capability",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "AIOperator": {
+      "id": "CNET",
+      "中文名称": "CNET",
+      "英文名称": "CNET",
+      "来源": "News Site Admits AI Journalist Plagiarized and Made Stuff Up"
+    },
+    "Stakeholder": {
+      "id": "Readers",
+      "中文名称": "读者",
+      "英文名称": "Readers",
+      "来源": "CNET's AI Plagiarism Debacle"
+    },
+    "Impact": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀影响",
+      "英文名称": "Trust Erosion Impact",
+      "来源": "CNET's AI Plagiarism Debacle"
+    },
+    "Purpose": {
+      "id": "AutomatedJournalism",
+      "中文名称": "自动化新闻生产目的",
+      "英文名称": "Automated Journalism Purpose",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "Domain": {
+      "id": "DigitalMedia",
+      "中文名称": "数字媒体领域",
+      "英文名称": "Digital Media Domain",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成技术",
+      "英文名称": "Natural Language Generation Technique",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "RiskSource": {
+      "id": "TrainingDataContamination",
+      "中文名称": "训练数据污染风险源",
+      "英文名称": "Training Data Contamination Risk Source",
+      "来源": "CNET's AI Journalist Appears to Have Committed Extensive Plagiarism"
+    },
+    "Misuse": {
+      "id": "UnattendedContentPublication",
+      "中文名称": "无人监督的内容发布滥用",
+      "英文名称": "Unattended Content Publication Misuse",
+      "来源": "News Site Admits AI Journalist Plagiarized and Made Stuff Up"
+    }
+  }
+}

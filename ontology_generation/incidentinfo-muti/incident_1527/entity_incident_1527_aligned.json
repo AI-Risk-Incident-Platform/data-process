@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WorldBankCashTransferAlgorithm",
+      "中文名称": "世界银行现金转移算法",
+      "英文名称": "World Bank Cash Transfer Algorithm",
+      "来源": "Poverty targeting algorithms expose flawed World Bank cash transfer program in Jordan"
+    },
+    "Risk": {
+      "id": "InaccurateWelfareTargetingRisk",
+      "中文名称": "福利目标定位不准确风险",
+      "英文名称": "Welfare Targeting Exclusion Risk",
+      "来源": "'Faulty algorithm' denying welfare support to people in need"
+    },
+    "Consequence": {
+      "id": "NeedyPeopleDeniedSupport",
+      "中文名称": "有需要的人被拒绝支持",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "poor miss out as 'faulty' algorithms target aid"
+    },
+    "Stakeholder": {
+      "id": "WorldBank",
+      "中文名称": "世界银行",
+      "英文名称": "World Bank",
+      "来源": "World Bank cash transfer program in Jordan"
+    },
+    "AISubject": {
+      "id": "PoorPopulationInJordan",
+      "中文名称": "约旦贫困人口",
+      "英文名称": "Jordan's Poor",
+      "来源": "Poverty targeting algorithms expose flawed World Bank cash transfer program in Jordan"
+    },
+    "Impact": {
+      "id": "IncreasedPovertyLevels",
+      "中文名称": "贫困水平加剧",
+      "英文名称": "Increased Poverty Levels",
+      "来源": "poor miss out as 'faulty' algorithms target aid"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标定位中的算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "'Faulty algorithm' denying welfare support to people in need"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WorldBankCashTransferAlgorithm",
+      "中文名称": "世界银行现金转移算法",
+      "英文名称": "World Bank Cash Transfer Algorithm",
+      "来源": "Poverty targeting algorithms expose flawed World Bank cash transfer program in Jordan"
+    },
+    "Risk": {
+      "id": "InaccurateWelfareTargetingRisk",
+      "中文名称": "福利目标定位不准确风险",
+      "英文名称": "Welfare Targeting Exclusion Risk",
+      "来源": "'Faulty algorithm' denying welfare support to people in need"
+    },
+    "Consequence": {
+      "id": "NeedyPeopleDeniedSupport",
+      "中文名称": "有需要的人被拒绝支持",
+      "英文名称": "Unjust Benefit Denial",
+      "来源": "poor miss out as 'faulty' algorithms target aid"
+    },
+    "Stakeholder": {
+      "id": "WorldBank",
+      "中文名称": "世界银行",
+      "英文名称": "World Bank",
+      "来源": "World Bank cash transfer program in Jordan"
+    },
+    "AISubject": {
+      "id": "PoorPopulationInJordan",
+      "中文名称": "约旦贫困人口",
+      "英文名称": "Jordan's Poor",
+      "来源": "Poverty targeting algorithms expose flawed World Bank cash transfer program in Jordan"
+    },
+    "Impact": {
+      "id": "IncreasedPovertyLevels",
+      "中文名称": "贫困水平加剧",
+      "英文名称": "Increased Poverty Levels",
+      "来源": "poor miss out as 'faulty' algorithms target aid"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInTargeting",
+      "中文名称": "目标定位中的算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "'Faulty algorithm' denying welfare support to people in need"
+    }
+  }
+}

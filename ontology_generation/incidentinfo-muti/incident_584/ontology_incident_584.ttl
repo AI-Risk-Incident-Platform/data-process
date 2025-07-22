@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GooglePhotosApp rdf:type airo:AISystem ;
+    rdfs:label "谷歌照片应用"@zh ;
+    rdfs:label "Google Photos App"@en ;
+    airo:hasRisk ex:RacialBiasInImageRecognition ;
+    airo:hasCapability ex:ImageClassification ;
+    airo:hasStakeholder ex:BlackUsers .
+
+ex:RacialBiasInImageRecognition rdf:type airo:Risk ;
+    rdfs:label "图像识别中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in Image Recognition Risk"@en ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasConsequence ex:OffensiveLabelingOfBlackPeople .
+
+ex:OffensiveLabelingOfBlackPeople rdf:type airo:Consequence ;
+    rdfs:label "对黑人进行冒犯性标记的后果"@zh ;
+    rdfs:label "Offensive Labeling of Black People Consequence"@en ;
+    airo:hasImpact ex:PsychologicalHarmToBlackUsers .
+
+ex:PsychologicalHarmToBlackUsers rdf:type airo:Impact ;
+    rdfs:label "对黑人用户心理伤害的影响"@zh ;
+    rdfs:label "Psychological Harm to Black Users Impact"@en ;
+    airo:hasImpactOnStakeholder ex:BlackUsers .
+
+ex:ImageClassification rdf:type airo:AICapability ;
+    rdfs:label "图像分类能力"@zh ;
+    rdfs:label "Image Classification Capability"@en .
+
+ex:BlackUsers rdf:type airo:Stakeholder ;
+    rdfs:label "黑人用户"@zh ;
+    rdfs:label "Black Users"@en .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "有偏见的训练数据风险源"@zh ;
+    rdfs:label "Biased Training Data Risk Source"@en .

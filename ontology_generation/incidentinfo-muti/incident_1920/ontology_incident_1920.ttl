@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAsylumDecisionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Asylum Decision System"@en ;
+    rdfs:label "AI庇护决策系统"@zh ;
+    airo:hasRisk ex:UnfairAsylumDecisionRisk ;
+    airo:hasPurpose ex:AutomateAsylumDecisionMaking ;
+    airo:hasAISubject ex:AsylumApplicants ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndAsylum .
+
+ex:UnfairAsylumDecisionRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Asylum Decision Risk"@en ;
+    rdfs:label "不公平庇护决策风险"@zh .
+
+ex:ImmigrationAndAsylum rdf:type airo:Domain ;
+    rdfs:label "Immigration and Asylum Domain"@en ;
+    rdfs:label "移民和庇护领域"@zh .
+
+ex:AutomateAsylumDecisionMaking rdf:type airo:Purpose ;
+    rdfs:label "Automate Asylum Decision Making Purpose"@en ;
+    rdfs:label "自动化庇护决策目的"@zh .
+
+ex:AsylumApplicants rdf:type airo:AISubject ;
+    rdfs:label "Asylum Applicants"@en ;
+    rdfs:label "庇护申请人"@zh .

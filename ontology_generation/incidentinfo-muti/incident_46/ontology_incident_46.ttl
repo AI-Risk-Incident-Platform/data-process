@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PassportPhotoChecker rdf:type airo:AISystem ;
+    rdfs:label "Passport Photo Checker"@en ;
+    rdfs:label "护照照片检查系统"@zh ;
+    airo:hasRisk ex:RacialBiasInFacialRecognition ;
+    airo:hasAISubject ex:AsianPassportApplicants ;
+    airo:hasAICapability ex:FacialFeatureDetection ;
+    airo:isAppliedWithinDomain ex:GovernmentIdentityVerification ;
+    airo:usesTechnique ex:ComputerVisionForEyeDetection ;
+    airo:hasVulnerability ex:CulturalDifferencesInFacialFeatures .
+
+ex:RacialBiasInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminationAgainstAsianFeatures ;
+    airo:isRiskSourceFor ex:BiasedTrainingDataForAsianEyes .
+
+ex:DiscriminationAgainstAsianFeatures rdf:type airo:Consequence ;
+    rdfs:label "Discrimination Against Asian Features Consequence"@en ;
+    rdfs:label "对亚洲人特征的歧视后果"@zh ;
+    airo:hasImpact ex:DelayedPassportProcessing .
+
+ex:FacialFeatureDetection rdf:type airo:AICapability ;
+    rdfs:label "Facial Feature Detection Capability"@en ;
+    rdfs:label "面部特征检测能力"@zh .
+
+ex:AsianPassportApplicants rdf:type airo:AISubject ;
+    rdfs:label "Asian Passport Applicants"@en ;
+    rdfs:label "亚洲护照申请人"@zh .
+
+ex:DelayedPassportProcessing rdf:type airo:Impact ;
+    rdfs:label "Delayed Passport Processing Impact"@en ;
+    rdfs:label "护照处理延迟的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AsianPassportApplicants .
+
+ex:GovernmentIdentityVerification rdf:type airo:Domain ;
+    rdfs:label "Government Identity Verification Domain"@en ;
+    rdfs:label "政府身份验证领域"@zh .
+
+ex:ComputerVisionForEyeDetection rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Eye Detection Technique"@en ;
+    rdfs:label "用于眼睛检测的计算机视觉技术"@zh .
+
+ex:CulturalDifferencesInFacialFeatures rdf:type airo:Vulnerability ;
+    rdfs:label "Cultural Differences in Facial Features Vulnerability"@en ;
+    rdfs:label "面部特征文化差异的脆弱性"@zh .
+
+ex:BiasedTrainingDataForAsianEyes rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data for Asian Eyes Risk Source"@en ;
+    rdfs:label "亚洲人眼睛训练数据偏差的风险源"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:PoliticalBiasRisk ;
+    airo:hasAISubject ex:PoliticalParties ;
+    airo:hasStakeholder ex:Researchers .
+
+ex:PoliticalBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Political Bias Risk"@en ;
+    rdfs:label "政治偏见风险"@zh ;
+    airo:hasConsequence ex:FavoringCertainPoliticalParties ;
+    airo:isRiskSourceFor ex:TrainingDataBias .
+
+ex:FavoringCertainPoliticalParties rdf:type airo:Consequence ;
+    rdfs:label "Favoring Certain Political Parties Consequence"@en ;
+    rdfs:label "偏袒特定政党后果"@zh ;
+    airo:hasImpact ex:PotentialMisinformation .
+
+ex:Researchers rdf:type airo:Stakeholder ;
+    rdfs:label "Researchers"@en ;
+    rdfs:label "研究人员"@zh .
+
+ex:PoliticalParties rdf:type airo:AISubject ;
+    rdfs:label "Political Parties"@en ;
+    rdfs:label "政党"@zh .
+
+ex:PotentialMisinformation rdf:type airo:Impact ;
+    rdfs:label "Potential Misinformation Impact"@en ;
+    rdfs:label "潜在错误信息影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Researchers .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias Risk Source"@en ;
+    rdfs:label "训练数据偏差风险源"@zh .

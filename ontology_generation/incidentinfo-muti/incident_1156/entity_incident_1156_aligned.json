@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeAlgorithm",
+      "中文名称": "YouTube算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "Risk": {
+      "id": "ChildEndangermentRisk",
+      "中文名称": "儿童危害风险",
+      "英文名称": "Child Risk",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法",
+      "英文名称": "Recommendation Algorithm",
+      "来源": "YouTube's algorithm recommends content to users"
+    },
+    "AISubject": {
+      "id": "ChildrenUsers",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "Consequence": {
+      "id": "ExposureToInappropriateContent",
+      "中文名称": "接触不当内容",
+      "英文名称": "Exposure to Inappropriate Content",
+      "来源": "Algorithm may expose children to harmful content"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童的心理伤害",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Endangering kids through algorithm recommendations"
+    },
+    "Stakeholder": {
+      "id": "ParentsAndGuardians",
+      "中文名称": "父母和监护人",
+      "英文名称": "Parents and Guardians",
+      "来源": "Concerned about children's safety on YouTube"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicContentSelection",
+      "中文名称": "算法内容选择",
+      "英文名称": "Algorithmic Content Selection",
+      "来源": "Algorithm's method of selecting and recommending content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "YouTubeAlgorithm",
+      "中文名称": "YouTube算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "Risk": {
+      "id": "ChildEndangermentRisk",
+      "中文名称": "儿童危害风险",
+      "英文名称": "Child Risk",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法",
+      "英文名称": "Recommendation Algorithm",
+      "来源": "YouTube's algorithm recommends content to users"
+    },
+    "AISubject": {
+      "id": "ChildrenUsers",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "Is YouTube's Algorithm Endangering Kids?"
+    },
+    "Consequence": {
+      "id": "ExposureToInappropriateContent",
+      "中文名称": "接触不当内容",
+      "英文名称": "Exposure to Inappropriate Content",
+      "来源": "Algorithm may expose children to harmful content"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童的心理伤害",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Endangering kids through algorithm recommendations"
+    },
+    "Stakeholder": {
+      "id": "ParentsAndGuardians",
+      "中文名称": "父母和监护人",
+      "英文名称": "Parents and Guardians",
+      "来源": "Concerned about children's safety on YouTube"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicContentSelection",
+      "中文名称": "算法内容选择",
+      "英文名称": "Algorithmic Content Selection",
+      "来源": "Algorithm's method of selecting and recommending content"
+    }
+  }
+}

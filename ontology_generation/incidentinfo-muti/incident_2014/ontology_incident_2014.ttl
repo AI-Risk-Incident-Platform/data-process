@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClassroomEmotionDetectionAI rdf:type airo:AISystem ;
+    rdfs:label "Classroom Emotion Detection AI"@en ;
+    rdfs:label "课堂情绪检测AI"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAICapability ex:FacialExpressionAnalysis ;
+    airo:hasAISubject ex:StudentsInClassroom ;
+    airo:hasPurpose ex:StudentEngagementMonitoring ;
+    airo:hasStakeholder ex:IntelCorporation ;
+    airo:isAppliedWithinDomain ex:EducationTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasImpact ex:StudentPrivacyConcerns .
+
+ex:FacialExpressionAnalysis rdf:type airo:AICapability ;
+    rdfs:label "Facial Expression Analysis Capability"@en ;
+    rdfs:label "面部表情分析能力"@zh .
+
+ex:StudentsInClassroom rdf:type airo:AISubject ;
+    rdfs:label "Students in Classroom"@en ;
+    rdfs:label "课堂学生"@zh .
+
+ex:IntelCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "Intel Corporation"@en ;
+    rdfs:label "英特尔公司"@zh .
+
+ex:StudentEngagementMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Student Engagement Monitoring"@en ;
+    rdfs:label "学生参与度监控"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:StudentPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Student Privacy Concerns Impact"@en ;
+    rdfs:label "学生隐私担忧影响"@zh .

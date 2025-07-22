@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IBMWatsonForOncology",
+      "中文名称": "IBM Watson肿瘤治疗系统",
+      "英文名称": "IBM Watson Oncology",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments That Were Unsafe and Incorrect"
+    },
+    "Risk": {
+      "id": "UnsafeCancerTreatmentRecommendationRisk",
+      "中文名称": "不安全癌症治疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "IBM Watson Recommends Unsafe Cancer Treatments"
+    },
+    "Consequence": {
+      "id": "PatientHarmFromIncorrectTreatment",
+      "中文名称": "错误治疗导致患者伤害后果",
+      "英文名称": "Patient Harm from Incorrect Treatment Consequence",
+      "来源": "IBM Watson Supercomputer Suggested 'Unsafe and Incorrect' Cancer Treatments"
+    },
+    "AICapability": {
+      "id": "CancerTreatmentRecommendationCapability",
+      "中文名称": "癌症治疗建议能力",
+      "英文名称": "Cancer Treatment Recommendation Capability",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments"
+    },
+    "AIOperator": {
+      "id": "IBM",
+      "中文名称": "IBM公司",
+      "英文名称": "IBM",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments"
+    },
+    "Domain": {
+      "id": "OncologyHealthcare",
+      "中文名称": "肿瘤医疗领域",
+      "英文名称": "Oncology Domain",
+      "来源": "IBM Watson for Oncology"
+    },
+    "Purpose": {
+      "id": "AssistingCancerTreatmentDecisions",
+      "中文名称": "辅助癌症治疗决策目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "IBM Watson for Oncology"
+    },
+    "Impact": {
+      "id": "CompromisedPatientSafety",
+      "中文名称": "患者安全受损影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "IBM Watson Supercomputer Suggested 'Unsafe and Incorrect' Cancer Treatments"
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments That Were Unsafe and Incorrect"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "IBMWatsonForOncology",
+      "中文名称": "IBM Watson肿瘤治疗系统",
+      "英文名称": "IBM Watson Oncology",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments That Were Unsafe and Incorrect"
+    },
+    "Risk": {
+      "id": "UnsafeCancerTreatmentRecommendationRisk",
+      "中文名称": "不安全癌症治疗建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "IBM Watson Recommends Unsafe Cancer Treatments"
+    },
+    "Consequence": {
+      "id": "PatientHarmFromIncorrectTreatment",
+      "中文名称": "错误治疗导致患者伤害后果",
+      "英文名称": "Patient Harm from Incorrect Treatment Consequence",
+      "来源": "IBM Watson Supercomputer Suggested 'Unsafe and Incorrect' Cancer Treatments"
+    },
+    "AICapability": {
+      "id": "CancerTreatmentRecommendationCapability",
+      "中文名称": "癌症治疗建议能力",
+      "英文名称": "Cancer Treatment Recommendation Capability",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments"
+    },
+    "AIOperator": {
+      "id": "IBM",
+      "中文名称": "IBM公司",
+      "英文名称": "IBM",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments"
+    },
+    "Domain": {
+      "id": "OncologyHealthcare",
+      "中文名称": "肿瘤医疗领域",
+      "英文名称": "Oncology Domain",
+      "来源": "IBM Watson for Oncology"
+    },
+    "Purpose": {
+      "id": "AssistingCancerTreatmentDecisions",
+      "中文名称": "辅助癌症治疗决策目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "IBM Watson for Oncology"
+    },
+    "Impact": {
+      "id": "CompromisedPatientSafety",
+      "中文名称": "患者安全受损影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "IBM Watson Supercomputer Suggested 'Unsafe and Incorrect' Cancer Treatments"
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "IBM Watson Reportedly Recommended Cancer Treatments That Were Unsafe and Incorrect"
+    }
+  }
+}

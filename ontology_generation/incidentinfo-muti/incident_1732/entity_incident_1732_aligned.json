@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "eviCoreModel",
+      "中文名称": "eviCore模型",
+      "英文名称": "eviCore Model",
+      "来源": "Article Finds eviCore Model Depends on Prior Authorization Denials"
+    },
+    "Risk": {
+      "id": "InsuranceCoverageDenialRisk",
+      "中文名称": "保险覆盖拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "“Not Medically Necessary”: Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Stakeholder": {
+      "id": "HealthInsurers",
+      "中文名称": "健康保险公司",
+      "英文名称": "Health Insurers",
+      "来源": "Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "AIOperator": {
+      "id": "eviCoreCompany",
+      "中文名称": "eviCore公司",
+      "英文名称": "eviCore Company",
+      "来源": "Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Consequence": {
+      "id": "DenialOfMedicalCare",
+      "中文名称": "医疗护理被拒后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "“Not Medically Necessary”: Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "The algorithm behind health insurance denials"
+    },
+    "Purpose": {
+      "id": "PriorAuthorizationProcessing",
+      "中文名称": "预先授权处理目的",
+      "英文名称": "Prior Authorization Processing Purpose",
+      "来源": "Article Finds eviCore Model Depends on Prior Authorization Denials"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicDecisionMaking",
+      "中文名称": "算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "The algorithm behind health insurance denials"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "eviCoreModel",
+      "中文名称": "eviCore模型",
+      "英文名称": "eviCore Model",
+      "来源": "Article Finds eviCore Model Depends on Prior Authorization Denials"
+    },
+    "Risk": {
+      "id": "InsuranceCoverageDenialRisk",
+      "中文名称": "保险覆盖拒绝风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "“Not Medically Necessary”: Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Stakeholder": {
+      "id": "HealthInsurers",
+      "中文名称": "健康保险公司",
+      "英文名称": "Health Insurers",
+      "来源": "Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "AIOperator": {
+      "id": "eviCoreCompany",
+      "中文名称": "eviCore公司",
+      "英文名称": "eviCore Company",
+      "来源": "Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Consequence": {
+      "id": "DenialOfMedicalCare",
+      "中文名称": "医疗护理被拒后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "“Not Medically Necessary”: Inside the Company Helping America’s Biggest Health Insurers Deny Coverage for Care"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "The algorithm behind health insurance denials"
+    },
+    "Purpose": {
+      "id": "PriorAuthorizationProcessing",
+      "中文名称": "预先授权处理目的",
+      "英文名称": "Prior Authorization Processing Purpose",
+      "来源": "Article Finds eviCore Model Depends on Prior Authorization Denials"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicDecisionMaking",
+      "中文名称": "算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "The algorithm behind health insurance denials"
+    }
+  }
+}

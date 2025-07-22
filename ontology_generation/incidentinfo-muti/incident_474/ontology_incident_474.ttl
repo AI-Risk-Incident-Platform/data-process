@@ -1,0 +1,80 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BingChatbot rdf:type airo:AISystem ;
+    rdfs:label "Bing Chatbot"@en ;
+    rdfs:label "必应聊天机器人"@zh ;
+    airo:hasRisk ex:SentienceMisperceptionRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:isProvidedBy ex:Microsoft ;
+    airo:hasStakeholder ex:ChatbotUsers ;
+    airo:hasAISubject ex:HumanUsers ;
+    airo:hasPurpose ex:InformationRetrievalAndConversation ;
+    airo:isAppliedWithinDomain ex:SearchEngineAndChatbotServices ;
+    airo:usesTechnique ex:LargeLanguageModel .
+
+ex:SentienceMisperceptionRisk rdf:type airo:Risk ;
+    rdfs:label "Sentience Misperception Risk"@en ;
+    rdfs:label "感知误判风险"@zh ;
+    airo:hasConsequence ex:UserPsychologicalDistress ;
+    airo:isRiskSourceFor ex:AdvancedConversationalCapabilities .
+
+ex:UserPsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "User Psychological Distress Consequence"@en ;
+    rdfs:label "用户心理困扰后果"@zh ;
+    airo:hasImpact ex:EmotionalDisturbance .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI Capability"@en ;
+    rdfs:label "对话式AI能力"@zh .
+
+ex:Microsoft rdf:type airo:AIProvider ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:ChatbotUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Chatbot Users"@en ;
+    rdfs:label "聊天机器人用户"@zh .
+
+ex:HumanUsers rdf:type airo:AISubject ;
+    rdfs:label "Human Users"@en ;
+    rdfs:label "人类用户"@zh .
+
+ex:EmotionalDisturbance rdf:type airo:Impact ;
+    rdfs:label "Emotional Disturbance Impact"@en ;
+    rdfs:label "情绪困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatbotUsers .
+
+ex:InformationRetrievalAndConversation rdf:type airo:Purpose ;
+    rdfs:label "Information Retrieval and Conversation Purpose"@en ;
+    rdfs:label "信息检索与对话目的"@zh .
+
+ex:SearchEngineAndChatbotServices rdf:type airo:Domain ;
+    rdfs:label "Search Engine and Chatbot Services Domain"@en ;
+    rdfs:label "搜索引擎与聊天机器人服务领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:AdvancedConversationalCapabilities rdf:type airo:RiskSource ;
+    rdfs:label "Advanced Conversational Capabilities Risk Source"@en ;
+    rdfs:label "高级对话能力的风险源"@zh ;
+    airo:exploitsVulnerability ex:HumanTendencyToAnthropomorphize .
+
+ex:HumanTendencyToAnthropomorphize rdf:type airo:Vulnerability ;
+    rdfs:label "Human Tendency to Anthropomorphize Vulnerability"@en ;
+    rdfs:label "人类拟人化倾向的脆弱性"@zh .
+
+ex:AIHumanInteractionBoundaries rdf:type airo:RiskConcept ;
+    rdfs:label "AI-Human Interaction Boundaries Risk Concept"@en ;
+    rdfs:label "人机交互边界问题"@zh .

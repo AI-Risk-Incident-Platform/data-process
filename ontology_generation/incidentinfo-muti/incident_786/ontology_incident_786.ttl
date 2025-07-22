@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Instagram Recommendation System"@en ;
+    rdfs:label "Instagram推荐系统"@zh ;
+    airo:hasRisk ex:InappropriateContentRecommendationRisk ;
+    airo:hasAISubject ex:TeenageUsers ;
+    airo:hasPurpose ex:ContentPersonalization ;
+    airo:hasCapability ex:UserBehaviorBasedRecommendation ;
+    airo:hasStakeholder ex:MetaPlatformsInc .
+
+ex:InappropriateContentRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Recommendation Risk"@en ;
+    rdfs:label "不当内容推荐风险"@zh ;
+    airo:hasConsequence ex:ExposureToInappropriateContent .
+
+ex:TeenageUsers rdf:type airo:AISubject ;
+    rdfs:label "Teenage Users"@en ;
+    rdfs:label "青少年用户"@zh .
+
+ex:ExposureToInappropriateContent rdf:type airo:Consequence ;
+    rdfs:label "Exposure to Inappropriate Content Consequence"@en ;
+    rdfs:label "接触不当内容后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToMinors .
+
+ex:PsychologicalHarmToMinors rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Minors Impact"@en ;
+    rdfs:label "对未成年人心理伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MetaPlatformsInc .
+
+ex:MetaPlatformsInc rdf:type airo:Stakeholder ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:ContentPersonalization rdf:type airo:Purpose ;
+    rdfs:label "Content Personalization Purpose"@en ;
+    rdfs:label "内容个性化目的"@zh .
+
+ex:UserBehaviorBasedRecommendation rdf:type airo:AICapability ;
+    rdfs:label "User Behavior Based Recommendation Capability"@en ;
+    rdfs:label "基于用户行为的推荐能力"@zh .

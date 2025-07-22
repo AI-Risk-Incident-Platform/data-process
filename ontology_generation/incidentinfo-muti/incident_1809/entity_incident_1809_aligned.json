@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeleRobotDoctorVisitSystem",
+      "中文名称": "远程机器人医生访问系统",
+      "英文名称": "Tele-Robot Doctor Visit System",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Risk": {
+      "id": "InhumanePatientCommunicationRisk",
+      "中文名称": "不人道患者沟通风险",
+      "英文名称": "Inhumane Patient Communication Risk",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "Consequence": {
+      "id": "PatientPsychologicalDistress",
+      "中文名称": "患者心理困扰后果",
+      "英文名称": "Patient Psychological Distress Consequence",
+      "来源": "Man learns he's dying from doctor on robot video"
+    },
+    "AISubject": {
+      "id": "TerminallyIllPatient",
+      "中文名称": "临终患者",
+      "英文名称": "Terminally Ill Patient",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Stakeholder": {
+      "id": "KaiserPermanente",
+      "中文名称": "凯撒医疗机构",
+      "英文名称": "Kaiser Permanente",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Impact": {
+      "id": "ReducedTrustInHealthcareSystem",
+      "中文名称": "医疗系统信任度降低的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "Purpose": {
+      "id": "RemoteMedicalConsultation",
+      "中文名称": "远程医疗咨询的目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "Tele-Robot Doctor Visit"
+    },
+    "Domain": {
+      "id": "HealthcareServices",
+      "中文名称": "医疗服务领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "AITechnique": {
+      "id": "VideoConferencingTechnology",
+      "中文名称": "视频会议技术",
+      "英文名称": "Video Conferencing Technology",
+      "来源": "robot video-call"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanEmpathyInTechnology",
+      "中文名称": "技术中缺乏人类同理心的脆弱性",
+      "英文名称": "Lack of Human Empathy in Technology Vulnerability",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeleRobotDoctorVisitSystem",
+      "中文名称": "远程机器人医生访问系统",
+      "英文名称": "Tele-Robot Doctor Visit System",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Risk": {
+      "id": "InhumanePatientCommunicationRisk",
+      "中文名称": "不人道患者沟通风险",
+      "英文名称": "Inhumane Patient Communication Risk",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "Consequence": {
+      "id": "PatientPsychologicalDistress",
+      "中文名称": "患者心理困扰后果",
+      "英文名称": "Patient Psychological Distress Consequence",
+      "来源": "Man learns he's dying from doctor on robot video"
+    },
+    "AISubject": {
+      "id": "TerminallyIllPatient",
+      "中文名称": "临终患者",
+      "英文名称": "Terminally Ill Patient",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Stakeholder": {
+      "id": "KaiserPermanente",
+      "中文名称": "凯撒医疗机构",
+      "英文名称": "Kaiser Permanente",
+      "来源": "Fremont Kaiser Patient Told He's Dying Via Tele-Robot Doctor Visit"
+    },
+    "Impact": {
+      "id": "ReducedTrustInHealthcareSystem",
+      "中文名称": "医疗系统信任度降低的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "Purpose": {
+      "id": "RemoteMedicalConsultation",
+      "中文名称": "远程医疗咨询的目的",
+      "英文名称": "Medical Consultation & Decision Support",
+      "来源": "Tele-Robot Doctor Visit"
+    },
+    "Domain": {
+      "id": "HealthcareServices",
+      "中文名称": "医疗服务领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    },
+    "AITechnique": {
+      "id": "VideoConferencingTechnology",
+      "中文名称": "视频会议技术",
+      "英文名称": "Video Conferencing Technology",
+      "来源": "robot video-call"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanEmpathyInTechnology",
+      "中文名称": "技术中缺乏人类同理心的脆弱性",
+      "英文名称": "Lack of Human Empathy in Technology Vulnerability",
+      "来源": "Doctor told California man he was dying via robot video-call"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LensaAIApp rdf:type airo:AISystem ;
+    rdfs:label "Lensa AI App"@en ;
+    rdfs:label "Lensa AI应用"@zh ;
+    airo:hasRisk ex:BiometricDataHarvestingRisk ;
+    airo:hasStakeholder ex:PrismaLabs ;
+    airo:isProvidedBy ex:PrismaLabs .
+
+ex:BiometricDataHarvestingRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Data Harvesting Risk"@en ;
+    rdfs:label "生物特征数据收集风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:BiometricDataCollection .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh ;
+    airo:hasImpact ex:UserPrivacyConcerns .
+
+ex:BiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Biometric Data Collection"@en ;
+    rdfs:label "生物特征数据收集"@zh .
+
+ex:UserPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "User Privacy Concerns"@en ;
+    rdfs:label "用户隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:PrismaLabs .
+
+ex:PrismaLabs rdf:type airo:Stakeholder ;
+    rdfs:label "Prisma Labs"@en ;
+    rdfs:label "Prisma实验室"@zh ;
+    rdf:type airo:AIProvider .

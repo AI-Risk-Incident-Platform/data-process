@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAutocomplete",
+      "中文名称": "谷歌自动补全",
+      "英文名称": "Google Autocomplete",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Risk": {
+      "id": "InappropriateSuggestionsRisk",
+      "中文名称": "不当建议风险",
+      "英文名称": "Inappropriate Suggestions Risk",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchQueries",
+      "中文名称": "搜索查询中的算法偏见",
+      "英文名称": "Algorithmic Bias in Search Queries",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Consequence": {
+      "id": "ExposureToHarmfulContent",
+      "中文名称": "接触有害内容",
+      "英文名称": "Exposure to Harmful Content",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToUsers",
+      "中文名称": "用户心理伤害",
+      "英文名称": "Psychological Harm to Users",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForSearchPredictions",
+      "中文名称": "用于搜索预测的机器学习",
+      "英文名称": "Machine Learning for Search Predictions",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Purpose": {
+      "id": "EnhancingSearchExperience",
+      "中文名称": "增强搜索体验",
+      "英文名称": "Enhancing Search Experience",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "Domain": {
+      "id": "WebSearch",
+      "中文名称": "网络搜索",
+      "英文名称": "Web Search",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    }
+  }
+}

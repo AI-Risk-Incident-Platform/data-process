@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EmploymentAgencyAlgorithm",
+      "中文名称": "就业机构算法",
+      "英文名称": "Employment Agency Algorithm",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Stakeholder": {
+      "id": "DataProtectionAuthority",
+      "中文名称": "数据保护机构",
+      "英文名称": "Data Protection Authority",
+      "来源": "Österreich: Datenschutzbehörde stoppt Jobcenter-Algorithmus"
+    },
+    "AIOperator": {
+      "id": "AustrianEmploymentAgency",
+      "中文名称": "奥地利就业机构",
+      "英文名称": "Austrian Employment Agency",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminatoryImpact",
+      "中文名称": "歧视性影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "EmploymentAgencyAlgorithm",
+      "中文名称": "就业机构算法",
+      "英文名称": "Employment Agency Algorithm",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Stakeholder": {
+      "id": "DataProtectionAuthority",
+      "中文名称": "数据保护机构",
+      "英文名称": "Data Protection Authority",
+      "来源": "Österreich: Datenschutzbehörde stoppt Jobcenter-Algorithmus"
+    },
+    "AIOperator": {
+      "id": "AustrianEmploymentAgency",
+      "中文名称": "奥地利就业机构",
+      "英文名称": "Austrian Employment Agency",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminatoryImpact",
+      "中文名称": "歧视性影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Austria’s employment agency rolls out discriminatory algorithm"
+    }
+  }
+}

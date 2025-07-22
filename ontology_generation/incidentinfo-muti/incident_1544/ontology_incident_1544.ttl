@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:ExploitationOfDataLabelers ;
+    airo:hasStakeholder ex:KenyanDataLabelers ;
+    airo:isDevelopedBy ex:OpenAI .
+
+ex:ExploitationOfDataLabelers rdf:type airo:Risk ;
+    rdfs:label "Exploitation of Data Labelers Risk"@en ;
+    rdfs:label "数据标注员剥削风险"@zh ;
+    airo:isRiskSourceFor ex:LowWageLaborOutsourcing ;
+    airo:hasConsequence ex:WorkerExploitation .
+
+ex:KenyanDataLabelers rdf:type airo:Stakeholder ;
+    rdfs:label "Kenyan Data Labelers"@en ;
+    rdfs:label "肯尼亚数据标注员"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:PsychologicalHarmToWorkers rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Workers Impact"@en ;
+    rdfs:label "对工作人员的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:KenyanDataLabelers .
+
+ex:LowWageLaborOutsourcing rdf:type airo:RiskSource ;
+    rdfs:label "Low Wage Labor Outsourcing Risk Source"@en ;
+    rdfs:label "低工资劳动外包风险源"@zh .
+
+ex:WorkerExploitation rdf:type airo:Consequence ;
+    rdfs:label "Worker Exploitation Consequence"@en ;
+    rdfs:label "工人剥削后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToWorkers .

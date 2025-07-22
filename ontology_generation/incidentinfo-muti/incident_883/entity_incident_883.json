@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationTool",
+      "中文名称": "深度伪造生成工具",
+      "英文名称": "Deepfake Generation Tool",
+      "来源": "Sydney teenager allegedly used AI to create deepfake pornography of students"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPsychologicalHarm",
+      "中文名称": "隐私侵犯与心理伤害风险",
+      "英文名称": "Privacy Violation and Psychological Harm Risk",
+      "来源": "‘Abhorrent’: Student allegedly creates deepfake porn of female students using artificial intelligence"
+    },
+    "AISubject": {
+      "id": "FemaleStudents",
+      "中文名称": "女学生",
+      "英文名称": "Female Students",
+      "来源": "deepfake porn of female students"
+    },
+    "Stakeholder": {
+      "id": "SydneyTeenager",
+      "中文名称": "悉尼青少年",
+      "英文名称": "Sydney Teenager",
+      "来源": "Sydney teenager allegedly used AI"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "create deepfake pornography of students"
+    },
+    "Impact": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰影响",
+      "英文名称": "Emotional Distress Impact",
+      "来源": "‘Abhorrent’"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageSynthesis",
+      "中文名称": "基于深度学习的图像合成技术",
+      "英文名称": "Deep Learning Based Image Synthesis Technique",
+      "来源": "used AI to create deepfake"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAITools",
+      "中文名称": "AI工具的恶意使用风险源",
+      "英文名称": "Malicious Use of AI Tools Risk Source",
+      "来源": "allegedly used AI to create"
+    }
+  }
+}

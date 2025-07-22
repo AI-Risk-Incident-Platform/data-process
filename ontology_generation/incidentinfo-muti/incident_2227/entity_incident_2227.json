@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    },
+    "Risk": {
+      "id": "AccuracyReductionRisk",
+      "中文名称": "准确性降低风险",
+      "英文名称": "Accuracy Reduction Risk",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    },
+    "Consequence": {
+      "id": "ReducedRecognitionAccuracy",
+      "中文名称": "识别准确性降低后果",
+      "英文名称": "Reduced Recognition Accuracy Consequence",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    },
+    "RiskSource": {
+      "id": "FaceMaskUse",
+      "中文名称": "口罩使用风险源",
+      "英文名称": "Face Mask Use Risk Source",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    },
+    "AICapability": {
+      "id": "FacialFeatureRecognition",
+      "中文名称": "面部特征识别能力",
+      "英文名称": "Facial Feature Recognition Capability",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    },
+    "Vulnerability": {
+      "id": "OccludedFacialFeatures",
+      "中文名称": "面部特征遮挡脆弱性",
+      "英文名称": "Occluded Facial Features Vulnerability",
+      "来源": "Widespread face mask use could make facial recognition less accurate"
+    }
+  }
+}

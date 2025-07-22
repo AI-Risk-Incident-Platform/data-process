@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ReplikaChatbot",
+      "中文名称": "Replika聊天机器人",
+      "英文名称": "Replika AI",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Risk": {
+      "id": "EndangermentOfMinorsAndVulnerablePeople",
+      "中文名称": "危害未成年人和弱势群体的风险",
+      "英文名称": "Child Risk",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护局",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "AISubject": {
+      "id": "MinorsAndVulnerablePeople",
+      "中文名称": "未成年人和弱势群体",
+      "英文名称": "Minors and Vulnerable People",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Impact": {
+      "id": "PotentialHarmToMinorsAndVulnerablePeople",
+      "中文名称": "对未成年人和弱势群体的潜在伤害",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "RiskControl": {
+      "id": "BanOnDataProcessing",
+      "中文名称": "数据处理的禁令",
+      "英文名称": "Ban on Data Processing",
+      "来源": "Italy Bans AI Chatbot Replika From Processing User Data"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ReplikaChatbot",
+      "中文名称": "Replika聊天机器人",
+      "英文名称": "Replika AI",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Risk": {
+      "id": "EndangermentOfMinorsAndVulnerablePeople",
+      "中文名称": "危害未成年人和弱势群体的风险",
+      "英文名称": "Child Risk",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护局",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "AISubject": {
+      "id": "MinorsAndVulnerablePeople",
+      "中文名称": "未成年人和弱势群体",
+      "英文名称": "Minors and Vulnerable People",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "Impact": {
+      "id": "PotentialHarmToMinorsAndVulnerablePeople",
+      "中文名称": "对未成年人和弱势群体的潜在伤害",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "The Italian Data Protection Authority Blocks AI Chatbot Replika Due to Endangerment of Minors and Vulnerable People"
+    },
+    "RiskControl": {
+      "id": "BanOnDataProcessing",
+      "中文名称": "数据处理的禁令",
+      "英文名称": "Ban on Data Processing",
+      "来源": "Italy Bans AI Chatbot Replika From Processing User Data"
+    }
+  }
+}

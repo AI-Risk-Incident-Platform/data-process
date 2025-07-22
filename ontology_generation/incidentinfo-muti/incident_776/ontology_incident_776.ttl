@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa"@en ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    airo:hasRisk ex:PoliticalBiasInAIResponses ;
+    airo:hasCapability ex:VoiceResponseGeneration ;
+    airo:hasStakeholder ex:Amazon .
+
+ex:PoliticalBiasInAIResponses rdf:type airo:Risk ;
+    rdfs:label "Political Bias in AI Responses Risk"@en ;
+    rdfs:label "AI回应中的政治偏见风险"@zh ;
+    airo:hasConsequence ex:PerceivedPoliticalBias ;
+    airo:isRiskSourceFor ex:AIUpgrade .
+
+ex:Amazon rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:VoiceResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Voice Response Generation Capability"@en ;
+    rdfs:label "语音回应生成能力"@zh .
+
+ex:PerceivedPoliticalBias rdf:type airo:Consequence ;
+    rdfs:label "Perceived Political Bias Consequence"@en ;
+    rdfs:label "感知到的政治偏见后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:AIUpgrade rdf:type airo:RiskSource ;
+    rdfs:label "AI Upgrade Risk Source"@en ;
+    rdfs:label "AI升级风险源"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Amazon .

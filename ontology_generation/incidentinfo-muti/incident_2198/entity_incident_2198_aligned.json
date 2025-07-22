@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "7ElevenFacialRecognitionSystem",
+      "中文名称": "7-11面部识别系统",
+      "英文名称": "7-Eleven Facial Recognition System",
+      "来源": "7-Eleven launches facial recognition inside every store"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    },
+    "Stakeholder": {
+      "id": "7ElevenCustomers",
+      "中文名称": "7-11顾客",
+      "英文名称": "7-Eleven Customers",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    },
+    "AIOperator": {
+      "id": "7Eleven",
+      "中文名称": "7-11",
+      "英文名称": "7-Eleven",
+      "来源": "7-Eleven launches facial recognition inside every store"
+    },
+    "Consequence": {
+      "id": "CustomerPrivacyConcerns",
+      "中文名称": "顾客隐私担忧",
+      "英文名称": "Customer Privacy Concerns",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "7ElevenFacialRecognitionSystem",
+      "中文名称": "7-11面部识别系统",
+      "英文名称": "7-Eleven Facial Recognition System",
+      "来源": "7-Eleven launches facial recognition inside every store"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    },
+    "Stakeholder": {
+      "id": "7ElevenCustomers",
+      "中文名称": "7-11顾客",
+      "英文名称": "7-Eleven Customers",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    },
+    "AIOperator": {
+      "id": "7Eleven",
+      "中文名称": "7-11",
+      "英文名称": "7-Eleven",
+      "来源": "7-Eleven launches facial recognition inside every store"
+    },
+    "Consequence": {
+      "id": "CustomerPrivacyConcerns",
+      "中文名称": "顾客隐私担忧",
+      "英文名称": "Customer Privacy Concerns",
+      "来源": "Customers concerned as 7-Eleven launches facial recognition inside every store"
+    }
+  }
+}

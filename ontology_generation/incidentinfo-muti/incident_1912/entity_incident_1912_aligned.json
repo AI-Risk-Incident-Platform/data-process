@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceRecognitionWebsite",
+      "中文名称": "面部识别网站",
+      "英文名称": "Face Recognition Site",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People’s Photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition website under fire for scraping photos of dead people"
+    },
+    "AISubject": {
+      "id": "DeceasedIndividuals",
+      "中文名称": "已故人士",
+      "英文名称": "Deceased Individuals",
+      "来源": "scraping photos of dead people"
+    },
+    "RiskSource": {
+      "id": "WebCrawlingWithoutConsent",
+      "中文名称": "未经同意的网络爬取",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Crawled the Web for Dead People’s Photos"
+    },
+    "Impact": {
+      "id": "PosthumousPrivacyViolation",
+      "中文名称": "死后隐私侵犯",
+      "英文名称": "Posthumous Privacy Violation",
+      "来源": "scraping photos of dead people"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaceRecognitionWebsite",
+      "中文名称": "面部识别网站",
+      "英文名称": "Face Recognition Site",
+      "来源": "A Face Recognition Site Crawled the Web for Dead People’s Photos"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition website under fire for scraping photos of dead people"
+    },
+    "AISubject": {
+      "id": "DeceasedIndividuals",
+      "中文名称": "已故人士",
+      "英文名称": "Deceased Individuals",
+      "来源": "scraping photos of dead people"
+    },
+    "RiskSource": {
+      "id": "WebCrawlingWithoutConsent",
+      "中文名称": "未经同意的网络爬取",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Crawled the Web for Dead People’s Photos"
+    },
+    "Impact": {
+      "id": "PosthumousPrivacyViolation",
+      "中文名称": "死后隐私侵犯",
+      "英文名称": "Posthumous Privacy Violation",
+      "来源": "scraping photos of dead people"
+    }
+  }
+}

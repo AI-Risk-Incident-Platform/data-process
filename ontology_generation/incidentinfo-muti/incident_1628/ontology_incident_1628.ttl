@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Art Generation System"@en ;
+    rdfs:label "AI艺术生成系统"@zh ;
+    airo:hasRisk ex:IllustratorsJobDisplacementRisk ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:isAppliedWithinDomain ex:ArtAndIllustrationIndustryDomain ;
+    airo:hasStakeholder ex:ProfessionalIllustrators .
+
+ex:IllustratorsJobDisplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Illustrators Job Displacement Risk"@en ;
+    rdfs:label "插画师失业风险"@zh ;
+    airo:isRiskSourceFor ex:CommercialAdoptionOfAIGeneratedArt ;
+    airo:hasConsequence ex:ReducedEmploymentOpportunities .
+
+ex:ProfessionalIllustrators rdf:type airo:Stakeholder ;
+    rdfs:label "Professional Illustrators"@en ;
+    rdfs:label "职业插画师"@zh .
+
+ex:CreativeIndustryDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Creative Industry Disruption Impact"@en ;
+    rdfs:label "创意产业颠覆影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ProfessionalIllustrators .
+
+ex:ArtAndIllustrationIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Art and Illustration Industry Domain"@en ;
+    rdfs:label "艺术与插画行业领域"@zh .
+
+ex:GenerativeAdversarialNetworksTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:ReducedEmploymentOpportunitiesConsequence rdf:type airo:Consequence ;
+    rdfs:label "Reduced Employment Opportunities Consequence"@en ;
+    rdfs:label "就业机会减少后果"@zh ;
+    airo:hasImpact ex:CreativeIndustryDisruptionImpact .
+
+ex:CommercialAdoptionOfAIGeneratedArtRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Commercial Adoption of AI-Generated Art Risk Source"@en ;
+    rdfs:label "商业采用AI生成艺术风险源"@zh .

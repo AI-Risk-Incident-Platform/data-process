@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeliveryRobot rdf:type airo:AISystem ;
+    rdfs:label "Delivery Robot"@en ;
+    rdfs:label "送货机器人"@zh ;
+    airo:hasRisk ex:PhysicalHarmToPedestrians ;
+    airo:isDeployedBy ex:DeliveryRobotCompany ;
+    airo:hasStakeholder ex:Pedestrians ;
+    airo:isAppliedWithinDomain ex:LastMileDelivery .
+
+ex:PhysicalHarmToPedestrians rdf:type airo:Risk ;
+    rdfs:label "Physical Harm to Pedestrians Risk"@en ;
+    rdfs:label "对行人造成身体伤害的风险"@zh ;
+    airo:hasConsequence ex:PedestrianInjury ;
+    airo:hasRiskControl ex:PromoCodesAsCompensation .
+
+ex:PedestrianInjury rdf:type airo:Consequence ;
+    rdfs:label "Pedestrian Injury Consequence"@en ;
+    rdfs:label "行人受伤后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:DeliveryRobotCompany rdf:type airo:AIOperator ;
+    rdfs:label "Delivery Robot Company"@en ;
+    rdfs:label "送货机器人公司"@zh .
+
+ex:Pedestrians rdf:type airo:Stakeholder ;
+    rdfs:label "Pedestrians"@en ;
+    rdfs:label "行人"@zh .
+
+ex:PromoCodesAsCompensation rdf:type airo:RiskControl ;
+    rdfs:label "Promo Codes as Compensation Risk Control"@en ;
+    rdfs:label "优惠码作为补偿的管控措施"@zh ;
+    airo:mitigatesRiskConcept ex:PhysicalHarmToPedestrians .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Pedestrians .
+
+ex:LastMileDelivery rdf:type airo:Domain ;
+    rdfs:label "Last Mile Delivery Domain"@en ;
+    rdfs:label "最后一公里配送领域"@zh .

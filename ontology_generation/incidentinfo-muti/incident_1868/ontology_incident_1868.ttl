@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTBasedAIResearchSystem rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT-Based AI Research System"@en ;
+    rdfs:label "基于ChatGPT的AI研究系统"@zh ;
+    airo:hasRisk ex:UnreliableResearchFindingsRisk ;
+    airo:usesTechnique ex:ChatGPTBasedModelTraining ;
+    airo:hasStakeholder ex:TonyBlairInstitute .
+
+ex:UnreliableResearchFindingsRisk rdf:type airo:Risk ;
+    rdfs:label "Unreliable Research Findings Risk"@en ;
+    rdfs:label "不可靠研究结果风险"@zh ;
+    airo:isRiskSourceFor ex:SelfReferentialAIValidation .
+
+ex:TonyBlairInstitute rdf:type airo:Stakeholder ;
+    rdfs:label "Tony Blair Institute"@en ;
+    rdfs:label "托尼·布莱尔研究所"@zh .
+
+ex:ChatGPTBasedModelTraining rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT-Based Model Training Technique"@en ;
+    rdfs:label "基于ChatGPT的模型训练技术"@zh .
+
+ex:SelfReferentialAIValidation rdf:type airo:RiskSource ;
+    rdfs:label "Self-Referential AI Validation Risk Source"@en ;
+    rdfs:label "自我参照AI验证风险源"@zh .

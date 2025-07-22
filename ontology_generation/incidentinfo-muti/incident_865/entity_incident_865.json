@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MeetenMalware",
+      "中文名称": "Meeten恶意软件",
+      "英文名称": "Meeten Malware",
+      "来源": "Meeten Malware: A Cross-Platform Threat to Crypto Wallets on macOS and Windows"
+    },
+    "Risk": {
+      "id": "CryptocurrencyWalletSecurityRisk",
+      "中文名称": "加密货币钱包安全风险",
+      "英文名称": "Cryptocurrency Wallet Security Risk",
+      "来源": "A Cross-Platform Threat to Crypto Wallets on macOS and Windows"
+    },
+    "AICapability": {
+      "id": "CrossPlatformMalwareDistribution",
+      "中文名称": "跨平台恶意软件分发能力",
+      "英文名称": "Cross-Platform Malware Distribution Capability",
+      "来源": "A Cross-Platform Threat to Crypto Wallets on macOS and Windows"
+    },
+    "Domain": {
+      "id": "CryptocurrencySecurity",
+      "中文名称": "加密货币安全领域",
+      "英文名称": "Cryptocurrency Security Domain",
+      "来源": "A Cross-Platform Threat to Crypto Wallets on macOS and Windows"
+    },
+    "Impact": {
+      "id": "FinancialLossForCryptoUsers",
+      "中文名称": "加密货币用户经济损失的影响",
+      "英文名称": "Financial Loss for Crypto Users Impact",
+      "来源": "A Cross-Platform Threat to Crypto Wallets on macOS and Windows"
+    }
+  }
+}

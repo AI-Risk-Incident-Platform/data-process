@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChineseAISurveillanceTool",
+      "中文名称": "中国AI监控工具",
+      "英文名称": "Chinese AI Surveillance Tool",
+      "来源": "OpenAI Uncovers Evidence of A.I.-Powered Chinese Surveillance Tool"
+    },
+    "Risk": {
+      "id": "SocialMediaMonitoringRisk",
+      "中文名称": "社交媒体监控风险",
+      "英文名称": "Social Media Monitoring Risk",
+      "来源": "OpenAI says Chinese AI monitors social media posts critical of the country"
+    },
+    "Stakeholder": {
+      "id": "ChineseGovernment",
+      "中文名称": "中国政府",
+      "英文名称": "Chinese Government",
+      "来源": "OpenAI finds new Chinese influence campaigns using its tools"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "OpenAI Uncovers Evidence of A.I.-Powered Chinese Surveillance Tool"
+    },
+    "Impact": {
+      "id": "FreedomOfExpressionImpact",
+      "中文名称": "言论自由影响",
+      "英文名称": "Freedom of Expression Impact",
+      "来源": "OpenAI says Chinese AI monitors social media posts critical of the country"
+    },
+    "Purpose": {
+      "id": "SocialMediaMonitoring",
+      "中文名称": "社交媒体监控",
+      "英文名称": "Social Media Monitoring",
+      "来源": "OpenAI says Chinese AI monitors social media posts critical of the country"
+    },
+    "Domain": {
+      "id": "GovernmentSurveillance",
+      "中文名称": "政府监控",
+      "英文名称": "Government Surveillance",
+      "来源": "OpenAI Uncovers Evidence of A.I.-Powered Chinese Surveillance Tool"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理",
+      "英文名称": "Natural Language Processing",
+      "来源": "OpenAI finds new Chinese influence campaigns using its tools"
+    },
+    "RiskSource": {
+      "id": "GovernmentInfluenceCampaigns",
+      "中文名称": "政府影响力活动",
+      "英文名称": "Government Influence Campaigns",
+      "来源": "OpenAI finds new Chinese influence campaigns using its tools"
+    },
+    "Consequence": {
+      "id": "SuppressionOfCriticism",
+      "中文名称": "压制批评",
+      "英文名称": "Suppression of Criticism",
+      "来源": "OpenAI says Chinese AI monitors social media posts critical of the country"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTok rdf:type airo:AISystem ;
+    rdfs:label "TikTok"@en ;
+    rdfs:label "TikTok"@zh ;
+    airo:hasRisk ex:SuicideClipTraumaRisk ;
+    airo:hasStakeholder ex:Children .
+
+ex:SuicideClipTraumaRisk rdf:type airo:Risk ;
+    rdfs:label "Suicide Clip Trauma Risk"@en ;
+    rdfs:label "自杀视频创伤风险"@zh ;
+    airo:hasConsequence ex:PsychologicalTraumaInChildren ;
+    airo:isRiskSourceFor ex:DarkWebAttackPlot .
+
+ex:PsychologicalTraumaInChildren rdf:type airo:Consequence ;
+    rdfs:label "Psychological Trauma in Children Consequence"@en ;
+    rdfs:label "儿童心理创伤后果"@zh ;
+    airo:hasImpact ex:MentalHealthImpactOnMinors .
+
+ex:Children rdf:type airo:Stakeholder ;
+    rdfs:label "Children"@en ;
+    rdfs:label "儿童"@zh .
+
+ex:DarkWebAttackPlot rdf:type airo:RiskSource ;
+    rdfs:label "Dark Web Attack Plot Risk Source"@en ;
+    rdfs:label "暗网攻击策划风险源"@zh ;
+    airo:isRiskSourceFor ex:SuicideClipTraumaRisk .
+
+ex:MentalHealthImpactOnMinors rdf:type airo:Impact ;
+    rdfs:label "Mental Health Impact on Minors"@en ;
+    rdfs:label "未成年人心理健康影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Children .

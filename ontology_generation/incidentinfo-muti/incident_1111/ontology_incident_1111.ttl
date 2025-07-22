@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarm ;
+    airo:hasAISubject ex:WomenTargetedByDeepfakes ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:SilencingVictims .
+
+ex:PrivacyViolationAndPsychologicalHarm rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    rdfs:label "隐私侵犯和心理伤害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistress ;
+    airo:isRiskSourceFor ex:NonConsensualPornographyCreation .
+
+ex:WomenTargetedByDeepfakes rdf:type airo:AISubject ;
+    rdfs:label "Women Targeted by Deepfakes"@en ;
+    rdfs:label "被深度伪造技术针对的女性"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress Consequence"@en ;
+    rdfs:label "心理困扰后果"@zh ;
+    airo:hasImpact ex:EmotionalTrauma .
+
+ex:EmotionalTrauma rdf:type airo:Impact ;
+    rdfs:label "Emotional Trauma Impact"@en ;
+    rdfs:label "情感创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WomenTargetedByDeepfakes .
+
+ex:NonConsensualPornographyCreation rdf:type airo:Misuse ;
+    rdfs:label "Non-Consensual Pornography Creation Misuse"@en ;
+    rdfs:label "未经同意的色情内容制作滥用"@zh .
+
+ex:SilencingVictims rdf:type airo:Purpose ;
+    rdfs:label "Silencing Victims Purpose"@en ;
+    rdfs:label "使受害者沉默的目的"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .

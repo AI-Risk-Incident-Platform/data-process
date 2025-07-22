@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BuzzfeedAdsAI rdf:type airo:AISystem ;
+    rdfs:label "Buzzfeed Ads AI"@en ;
+    rdfs:label "Buzzfeed广告AI"@zh ;
+    airo:hasRisk ex:InsensitiveProductRecommendationRisk ;
+    airo:hasCapability ex:BehavioralTargetingAlgorithm ;
+    airo:hasAISubject ex:OnlineShoppers ;
+    airo:hasStakeholder ex:BuzzfeedAdvertisers ;
+    airo:hasPurpose ex:PersonalizedProductRecommendation ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising .
+
+ex:InsensitiveProductRecommendationRisk rdf:type airo:Risk ;
+    rdfs:label "Insensitive Product Recommendation Risk"@en ;
+    rdfs:label "不敏感产品推荐风险"@zh ;
+    airo:hasConsequence ex:PublicOutrageAndBrandDamage ;
+    airo:isRiskSourceFor ex:LackOfContextualUnderstanding .
+
+ex:PublicOutrageAndBrandDamage rdf:type airo:Consequence ;
+    rdfs:label "Public Outrage and Brand Damage Consequence"@en ;
+    rdfs:label "公众愤怒和品牌损害后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressToSuicideSurvivors .
+
+ex:BehavioralTargetingAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Behavioral Targeting Algorithm Capability"@en ;
+    rdfs:label "行为定向算法能力"@zh .
+
+ex:BuzzfeedAdvertisers rdf:type airo:Stakeholder ;
+    rdfs:label "Buzzfeed Advertisers"@en ;
+    rdfs:label "Buzzfeed广告商"@zh .
+
+ex:OnlineShoppers rdf:type airo:AISubject ;
+    rdfs:label "Online Shoppers"@en ;
+    rdfs:label "在线购物者"@zh .
+
+ex:EmotionalDistressToSuicideSurvivors rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Suicide Survivors Impact"@en ;
+    rdfs:label "对自杀者家属造成情感困扰的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlineShoppers .
+
+ex:PersonalizedProductRecommendation rdf:type airo:Purpose ;
+    rdfs:label "Personalized Product Recommendation Purpose"@en ;
+    rdfs:label "个性化产品推荐目的"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising Domain"@en ;
+    rdfs:label "数字广告领域"@zh .
+
+ex:LackOfContextualUnderstanding rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Contextual Understanding Risk Source"@en ;
+    rdfs:label "缺乏上下文理解的风险源"@zh ;
+    airo:exploitsVulnerability ex:InabilityToDetectSensitiveTopics .
+
+ex:InabilityToDetectSensitiveTopics rdf:type airo:Vulnerability ;
+    rdfs:label "Inability to Detect Sensitive Topics Vulnerability"@en ;
+    rdfs:label "无法检测敏感话题的脆弱性"@zh .

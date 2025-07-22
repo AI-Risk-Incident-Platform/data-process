@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "枪声检测AI系统",
+      "英文名称": "ShotSpotter",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Risk": {
+      "id": "EvidenceTamperingRisk",
+      "中文名称": "证据篡改风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Stakeholder": {
+      "id": "ChicagoPoliceDepartment",
+      "中文名称": "芝加哥警察局",
+      "英文名称": "Chicago Police Department",
+      "来源": "Lawsuit: Chicago Police Misused Gunshot Detection Technology in Murder Case"
+    },
+    "AIOperator": {
+      "id": "ShotSpotterInc",
+      "中文名称": "ShotSpotter公司",
+      "英文名称": "ShotSpotter",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Consequence": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Lawsuit: Chicago police misused ShotSpotter in murder case"
+    },
+    "RiskSource": {
+      "id": "PoliceInterferenceWithAIOutput",
+      "中文名称": "警方干预AI输出的风险源",
+      "英文名称": "Police Interference with AI Output Risk Source",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Impact": {
+      "id": "JudicialSystemUndermining",
+      "中文名称": "司法系统破坏的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Lawsuit: Chicago Police Misused Gunshot Detection Technology in Murder Case"
+    },
+    "Purpose": {
+      "id": "GunshotDetectionAndLocation",
+      "中文名称": "枪声检测与定位的目的",
+      "英文名称": "Gunshot Detection and Location Purpose",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Lawsuit: Chicago police misused ShotSpotter in murder case"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "枪声检测AI系统",
+      "英文名称": "ShotSpotter",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Risk": {
+      "id": "EvidenceTamperingRisk",
+      "中文名称": "证据篡改风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Stakeholder": {
+      "id": "ChicagoPoliceDepartment",
+      "中文名称": "芝加哥警察局",
+      "英文名称": "Chicago Police Department",
+      "来源": "Lawsuit: Chicago Police Misused Gunshot Detection Technology in Murder Case"
+    },
+    "AIOperator": {
+      "id": "ShotSpotterInc",
+      "中文名称": "ShotSpotter公司",
+      "英文名称": "ShotSpotter",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Consequence": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Lawsuit: Chicago police misused ShotSpotter in murder case"
+    },
+    "RiskSource": {
+      "id": "PoliceInterferenceWithAIOutput",
+      "中文名称": "警方干预AI输出的风险源",
+      "英文名称": "Police Interference with AI Output Risk Source",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Impact": {
+      "id": "JudicialSystemUndermining",
+      "中文名称": "司法系统破坏的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Lawsuit: Chicago Police Misused Gunshot Detection Technology in Murder Case"
+    },
+    "Purpose": {
+      "id": "GunshotDetectionAndLocation",
+      "中文名称": "枪声检测与定位的目的",
+      "英文名称": "Gunshot Detection and Location Purpose",
+      "来源": "Police Are Telling ShotSpotter to Alter Evidence From Gunshot-Detecting AI"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Lawsuit: Chicago police misused ShotSpotter in murder case"
+    }
+  }
+}

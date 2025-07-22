@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PublicFacialRecognitionSystem",
+      "中文名称": "公共面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Un hombre estuvo seis días preso por un error del sistema de reconocimiento facial"
+    },
+    "Consequence": {
+      "id": "InnocentPeopleArrested",
+      "中文名称": "无辜者被捕后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "AISubject": {
+      "id": "InnocentCivilians",
+      "中文名称": "无辜平民",
+      "英文名称": "Innocent People",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "Stakeholder": {
+      "id": "ArgentinePolice",
+      "中文名称": "阿根廷警方",
+      "英文名称": "Argentine Police",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "Impact": {
+      "id": "JusticeSystemErosion",
+      "中文名称": "司法系统侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Un hombre estuvo seis días preso por un error del sistema de reconocimiento facial"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PublicFacialRecognitionSystem",
+      "中文名称": "公共面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Un hombre estuvo seis días preso por un error del sistema de reconocimiento facial"
+    },
+    "Consequence": {
+      "id": "InnocentPeopleArrested",
+      "中文名称": "无辜者被捕后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "AISubject": {
+      "id": "InnocentCivilians",
+      "中文名称": "无辜平民",
+      "英文名称": "Innocent People",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "Stakeholder": {
+      "id": "ArgentinePolice",
+      "中文名称": "阿根廷警方",
+      "英文名称": "Argentine Police",
+      "来源": "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+    },
+    "Impact": {
+      "id": "JusticeSystemErosion",
+      "中文名称": "司法系统侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Problems in Argentina’s justice system exacerbated by public facial recognition: report"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "Un hombre estuvo seis días preso por un error del sistema de reconocimiento facial"
+    }
+  }
+}

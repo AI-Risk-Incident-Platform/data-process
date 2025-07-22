@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamage ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:CreatingRealisticFakeContent ;
+    airo:isAppliedWithinDomain ex:DigitalMediaAndEntertainment ;
+    airo:hasAISubject ex:IndividualsTargetedByDeepfake .
+
+ex:PrivacyViolationAndReputationDamage rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    rdfs:label "隐私侵犯和名誉损害风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress Consequence"@en ;
+    rdfs:label "心理困扰后果"@zh ;
+    airo:hasImpact ex:PersonalAndProfessionalHarm .
+
+ex:PersonalAndProfessionalHarm rdf:type airo:Impact ;
+    rdfs:label "Personal and Professional Harm Impact"@en ;
+    rdfs:label "个人和职业伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualsTargetedByDeepfake .
+
+ex:IndividualsTargetedByDeepfake rdf:type airo:AISubject ;
+    rdfs:label "Individuals Targeted by Deepfake"@en ;
+    rdfs:label "深度伪造技术针对的个人"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:CreatingRealisticFakeContent rdf:type airo:Purpose ;
+    rdfs:label "Creating Realistic Fake Content Purpose"@en ;
+    rdfs:label "创建逼真假内容的目的"@zh .
+
+ex:DigitalMediaAndEntertainment rdf:type airo:Domain ;
+    rdfs:label "Digital Media and Entertainment Domain"@en ;
+    rdfs:label "数字媒体和娱乐领域"@zh .

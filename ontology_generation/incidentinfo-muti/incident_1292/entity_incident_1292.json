@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberDynamicPricingSystem",
+      "中文名称": "优步动态定价系统",
+      "英文名称": "Uber Dynamic Pricing System",
+      "来源": "Sydney siege sees Uber raise prices before backtracking"
+    },
+    "Risk": {
+      "id": "PriceGougingDuringEmergency",
+      "中文名称": "紧急情况下的价格欺诈风险",
+      "英文名称": "Price Gouging During Emergency Risk",
+      "来源": "Sydney siege sees Uber raise prices before backtracking"
+    },
+    "Stakeholder": {
+      "id": "UberCustomers",
+      "中文名称": "优步客户",
+      "英文名称": "Uber Customers",
+      "来源": "Sydney siege sees Uber raise prices before backtracking"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "优步科技",
+      "英文名称": "Uber Technologies",
+      "来源": "Sydney siege sees Uber raise prices before backtracking"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对后果",
+      "英文名称": "Public Backlash Consequence",
+      "来源": "before backtracking"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPricingWithoutHumanOversight",
+      "中文名称": "无人监督的算法定价风险源",
+      "英文名称": "Algorithmic Pricing Without Human Oversight Risk Source",
+      "来源": "Sydney siege sees Uber raise prices"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "before backtracking"
+    },
+    "Purpose": {
+      "id": "DemandBasedPricing",
+      "中文名称": "基于需求的定价目的",
+      "英文名称": "Demand-Based Pricing Purpose",
+      "来源": "Sydney siege sees Uber raise prices"
+    },
+    "AITechnique": {
+      "id": "RealTimeDemandAnalysis",
+      "中文名称": "实时需求分析技术",
+      "英文名称": "Real-Time Demand Analysis Technique",
+      "来源": "Sydney siege sees Uber raise prices"
+    }
+  }
+}

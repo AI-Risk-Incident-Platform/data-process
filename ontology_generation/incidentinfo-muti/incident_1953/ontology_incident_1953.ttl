@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedFakeReviews rdf:type airo:AISystem ;
+    rdfs:label "AI-Generated Fake Reviews"@en ;
+    rdfs:label "AI生成的虚假评论"@zh ;
+    airo:hasRisk ex:MisleadingConsumersRisk ;
+    airo:hasCapability ex:NaturalLanguageGeneration ;
+    airo:hasStakeholder ex:OnlineConsumers ;
+    airo:isDeployedBy ex:AmazonSellers ;
+    airo:hasPurpose ex:ProductPromotion ;
+    airo:isAppliedWithinDomain ex:ECommerce ;
+    airo:usesTechnique ex:ChatGPT .
+
+ex:MisleadingConsumersRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Consumers Risk"@en ;
+    rdfs:label "误导消费者的风险"@zh ;
+    airo:hasConsequence ex:ConsumerDeception ;
+    airo:isRiskSourceFor ex:UnverifiedAIWrittenContent .
+
+ex:ConsumerDeception rdf:type airo:Consequence ;
+    rdfs:label "Consumer Deception"@en ;
+    rdfs:label "消费者欺骗"@zh ;
+    airo:hasImpact ex:MarketDistortion .
+
+ex:NaturalLanguageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:OnlineConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "Online Consumers"@en ;
+    rdfs:label "在线消费者"@zh .
+
+ex:AmazonSellers rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Sellers"@en ;
+    rdfs:label "亚马逊卖家"@zh .
+
+ex:ProductPromotion rdf:type airo:Purpose ;
+    rdfs:label "Product Promotion"@en ;
+    rdfs:label "产品推广"@zh .
+
+ex:ECommerce rdf:type airo:Domain ;
+    rdfs:label "E-Commerce"@en ;
+    rdfs:label "电子商务"@zh .
+
+ex:ChatGPT rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT Technique"@en ;
+    rdfs:label "ChatGPT技术"@zh .
+
+ex:UnverifiedAIWrittenContent rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI-Written Content"@en ;
+    rdfs:label "未经验证的AI生成内容"@zh .
+
+ex:MarketDistortion rdf:type airo:Impact ;
+    rdfs:label "Market Distortion"@en ;
+    rdfs:label "市场扭曲"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlineConsumers .

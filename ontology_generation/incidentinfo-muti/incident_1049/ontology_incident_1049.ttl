@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChinaAIAttackSystem rdf:type airo:AISystem ;
+    rdfs:label "China AI Attack System"@en ;
+    rdfs:label "中国AI攻击系统"@zh ;
+    airo:hasRisk ex:CyberSecurityThreat ;
+    airo:hasStakeholder ex:FBI ;
+    airo:isAppliedWithinDomain ex:CyberSecurity .
+
+ex:CyberSecurityThreat rdf:type airo:Risk ;
+    rdfs:label "Cyber Security Threat"@en ;
+    rdfs:label "网络安全威胁"@zh ;
+    airo:hasImpact ex:NationalSecurityThreat .
+
+ex:FBI rdf:type airo:Stakeholder ;
+    rdfs:label "Federal Bureau of Investigation"@en ;
+    rdfs:label "联邦调查局"@zh .
+
+ex:CyberSecurity rdf:type airo:Domain ;
+    rdfs:label "Cyber Security"@en ;
+    rdfs:label "网络安全"@zh .
+
+ex:NationalSecurityThreat rdf:type airo:Impact ;
+    rdfs:label "National Security Threat"@en ;
+    rdfs:label "国家安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:FBI .

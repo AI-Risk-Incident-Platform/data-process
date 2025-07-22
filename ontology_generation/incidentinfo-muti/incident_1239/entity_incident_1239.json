@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "How Generative AI Endangers Cultural Narratives"
+    },
+    "Risk": {
+      "id": "CulturalNarrativeEndangerment",
+      "中文名称": "文化叙事危害风险",
+      "英文名称": "Cultural Narrative Endangerment Risk",
+      "来源": "How Generative AI Endangers Cultural Narratives"
+    },
+    "AICapability": {
+      "id": "ImageGeneration",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Overcoming AI’s diversity problem when creating images"
+    },
+    "Consequence": {
+      "id": "CulturalRepresentationBias",
+      "中文名称": "文化代表性偏见后果",
+      "英文名称": "Cultural Representation Bias Consequence",
+      "来源": "AI was asked to create images of Black African docs treating white kids. How'd it go?"
+    },
+    "Impact": {
+      "id": "StereotypeReinforcement",
+      "中文名称": "刻板印象强化影响",
+      "英文名称": "Stereotype Reinforcement Impact",
+      "来源": "AI was asked to create images of Black African docs treating white kids. How'd it go?"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Overcoming AI’s diversity problem when creating images"
+    },
+    "AISubject": {
+      "id": "CulturalCommunities",
+      "中文名称": "文化社群",
+      "英文名称": "Cultural Communities",
+      "来源": "How Generative AI Endangers Cultural Narratives"
+    }
+  }
+}

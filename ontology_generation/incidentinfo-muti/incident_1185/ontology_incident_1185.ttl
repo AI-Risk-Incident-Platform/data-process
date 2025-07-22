@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonRufusAI rdf:type airo:AISystem ;
+    rdfs:label "Amazon Rufus AI"@en ;
+    rdfs:label "亚马逊Rufus AI"@zh ;
+    airo:hasRisk ex:IncorrectSuicideHotlineResponseRisk ;
+    airo:hasCapability ex:ConversationalResponseGeneration ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasStakeholder ex:MentalHealthCrisisIndividuals ;
+    airo:hasAISubject ex:SuicidalIndividuals ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:isAppliedWithinDomain ex:ECommerceCustomerSupport ;
+    airo:hasPurpose ex:CustomerServiceAssistance .
+
+ex:IncorrectSuicideHotlineResponseRisk rdf:type airo:Risk ;
+    rdfs:label "Incorrect Suicide Hotline Response Risk"@en ;
+    rdfs:label "错误自杀热线回应风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToVulnerableUsers ;
+    airo:isRiskSourceFor ex:InadequateContentFiltering ;
+    airo:isRiskSourceFor ex:MisinformationInCriticalSituations ;
+    airo:isRiskSourceFor ex:IncorrectEmergencyInformation .
+
+ex:PotentialHarmToVulnerableUsers rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Vulnerable Users Consequence"@en ;
+    rdfs:label "对弱势用户的潜在伤害后果"@zh ;
+    airo:hasImpact ex:DelayedAccessToProperHelp .
+
+ex:ConversationalResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Conversational Response Generation Capability"@en ;
+    rdfs:label "对话回应生成能力"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:MentalHealthCrisisIndividuals rdf:type airo:Stakeholder ;
+    rdfs:label "Mental Health Crisis Individuals"@en ;
+    rdfs:label "心理健康危机个体"@zh .
+
+ex:SuicidalIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Suicidal Individuals"@en ;
+    rdfs:label "有自杀倾向个体"@zh .
+
+ex:DelayedAccessToProperHelp rdf:type airo:Impact ;
+    rdfs:label "Delayed Access to Proper Help Impact"@en ;
+    rdfs:label "延迟获得适当帮助的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MentalHealthCrisisIndividuals .
+
+ex:CustomerServiceAssistance rdf:type airo:Purpose ;
+    rdfs:label "Customer Service Assistance Purpose"@en ;
+    rdfs:label "客户服务辅助目的"@zh .
+
+ex:ECommerceCustomerSupport rdf:type airo:Domain ;
+    rdfs:label "E-Commerce Customer Support Domain"@en ;
+    rdfs:label "电子商务客户支持领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:InadequateContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Filtering Risk Source"@en ;
+    rdfs:label "内容过滤不足风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfSpecializedMentalHealthTraining .
+
+ex:MisinformationInCriticalSituations rdf:type airo:Threat ;
+    rdfs:label "Misinformation in Critical Situations Threat"@en ;
+    rdfs:label "关键情境中的错误信息威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfSpecializedMentalHealthTraining .
+
+ex:IncorrectEmergencyInformation rdf:type airo:Hazard ;
+    rdfs:label "Incorrect Emergency Information Hazard"@en ;
+    rdfs:label "错误紧急信息危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfSpecializedMentalHealthTraining .
+
+ex:LackOfSpecializedMentalHealthTraining rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Specialized Mental Health Training Vulnerability"@en ;
+    rdfs:label "缺乏专业心理健康训练的脆弱性"@zh .
+
+ex:AIResponsibilityInMentalHealthCrises rdf:type airo:RiskConcept ;
+    rdfs:label "AI Responsibility in Mental Health Crises Risk Concept"@en ;
+    rdfs:label "AI在心理健康危机中的责任"@zh .

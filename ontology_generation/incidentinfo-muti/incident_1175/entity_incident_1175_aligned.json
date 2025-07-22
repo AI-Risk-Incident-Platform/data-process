@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FBIFacialRecognitionSystem",
+      "中文名称": "FBI面部识别系统",
+      "英文名称": "FBI Facial Recognition System",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "Consequence": {
+      "id": "WrongfulArrestConsequence",
+      "中文名称": "错误逮捕后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "AISubject": {
+      "id": "StevenTalley",
+      "中文名称": "Steven Talley",
+      "英文名称": "Steven Talley",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "Impact": {
+      "id": "ReputationDamageImpact",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "Stakeholder": {
+      "id": "DenverPoliceDepartment",
+      "中文名称": "丹佛警察局",
+      "英文名称": "Denver Police Department",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "AIOperator": {
+      "id": "FBI",
+      "中文名称": "FBI",
+      "英文名称": "US Federal Investigation",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FBIFacialRecognitionSystem",
+      "中文名称": "FBI面部识别系统",
+      "英文名称": "FBI Facial Recognition System",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "Consequence": {
+      "id": "WrongfulArrestConsequence",
+      "中文名称": "错误逮捕后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "AISubject": {
+      "id": "StevenTalley",
+      "中文名称": "Steven Talley",
+      "英文名称": "Steven Talley",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "Impact": {
+      "id": "ReputationDamageImpact",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Steven Talley, Wrongly Accused of Bank Robberies, Featured on Dark Net"
+    },
+    "Stakeholder": {
+      "id": "DenverPoliceDepartment",
+      "中文名称": "丹佛警察局",
+      "英文名称": "Denver Police Department",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "AIOperator": {
+      "id": "FBI",
+      "中文名称": "FBI",
+      "英文名称": "US Federal Investigation",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    },
+    "RiskSource": {
+      "id": "FacialRecognitionError",
+      "中文名称": "面部识别错误风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "FBI Facial Recognition Expert Helps Denver PD Arrest Wrong Man Twice For Same Crime"
+    }
+  }
+}

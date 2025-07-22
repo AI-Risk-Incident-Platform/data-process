@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HitlerChatbot rdf:type airo:AISystem ;
+    rdfs:label "希特勒聊天机器人"@zh ;
+    rdfs:label "Hitler Chatbot"@en ;
+    airo:hasRisk ex:FarRightRadicalizationRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:hasStakeholder ex:GabSocialNetwork ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:FarRightRadicalizationRisk rdf:type airo:Risk ;
+    rdfs:label "极右翼激进主义风险"@zh ;
+    rdfs:label "Far-Right Radicalization Risk"@en ;
+    airo:hasConsequence ex:SocialUnrest ;
+    airo:isRiskSourceFor ex:ExtremistContentPropagation .
+
+ex:GabSocialNetwork rdf:type airo:Stakeholder ;
+    rdfs:label "Gab社交网络"@zh ;
+    rdfs:label "Gab Social Network"@en .
+
+ex:SocialUnrest rdf:type airo:Impact ;
+    rdfs:label "社会动荡影响"@zh ;
+    rdfs:label "Social Unrest Impact"@en ;
+    airo:hasImpactOnStakeholder ex:GabSocialNetwork .
+
+ex:ExtremistContentPropagation rdf:type airo:RiskSource ;
+    rdfs:label "极端主义内容传播风险源"@zh ;
+    rdfs:label "Extremist Content Propagation Risk Source"@en .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "对话式AI能力"@zh ;
+    rdfs:label "Conversational AI Capability"@en .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platforms Domain"@en .

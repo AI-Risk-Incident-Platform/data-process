@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LovableAI rdf:type airo:AISystem ;
+    rdfs:label "Lovable AI"@en ;
+    rdfs:label "Lovable AI"@zh ;
+    airo:hasRisk ex:VibeScammingRisk ;
+    airo:hasVulnerability ex:VulnerabilityToVibeScamming .
+
+ex:VibeScammingRisk rdf:type airo:Risk ;
+    rdfs:label "VibeScamming Risk"@en ;
+    rdfs:label "VibeScamming风险"@zh ;
+    airo:isRiskSourceFor ex:LiveScamPages ;
+    airo:hasConsequence ex:PhishingAttacks .
+
+ex:LiveScamPages rdf:type airo:RiskSource ;
+    rdfs:label "Live Scam Pages"@en ;
+    rdfs:label "实时诈骗页面"@zh .
+
+ex:VulnerabilityToVibeScamming rdf:type airo:Vulnerability ;
+    rdfs:label "Vulnerability to VibeScamming"@en ;
+    rdfs:label "对VibeScamming的脆弱性"@zh .
+
+ex:PhishingAttacks rdf:type airo:Consequence ;
+    rdfs:label "Phishing Attacks Consequence"@en ;
+    rdfs:label "钓鱼攻击后果"@zh ;
+    airo:hasImpact ex:SecurityThreat .
+
+ex:SecurityThreat rdf:type airo:Impact ;
+    rdfs:label "Security Threat Impact"@en ;
+    rdfs:label "安全威胁影响"@zh .

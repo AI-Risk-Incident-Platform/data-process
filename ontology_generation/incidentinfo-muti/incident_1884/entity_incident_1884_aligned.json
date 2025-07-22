@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Worldcoin",
+      "中文名称": "Worldcoin",
+      "英文名称": "Worldcoin",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "Risk": {
+      "id": "BiometricDataCollectionRisk",
+      "中文名称": "生物特征数据收集风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    },
+    "Stakeholder": {
+      "id": "PortugueseDataRegulator",
+      "中文名称": "葡萄牙数据监管机构",
+      "英文名称": "Portuguese Data Regulator",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    },
+    "AIOperator": {
+      "id": "SamAltman",
+      "中文名称": "山姆·奥特曼",
+      "英文名称": "Sam Altman",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集",
+      "英文名称": "Biometric Data Collection",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "Consequence": {
+      "id": "RegulatoryBan",
+      "中文名称": "监管禁令",
+      "英文名称": "Regulatory Ban",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "Worldcoin",
+      "中文名称": "Worldcoin",
+      "英文名称": "Worldcoin",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "Risk": {
+      "id": "BiometricDataCollectionRisk",
+      "中文名称": "生物特征数据收集风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    },
+    "Stakeholder": {
+      "id": "PortugueseDataRegulator",
+      "中文名称": "葡萄牙数据监管机构",
+      "英文名称": "Portuguese Data Regulator",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    },
+    "AIOperator": {
+      "id": "SamAltman",
+      "中文名称": "山姆·奥特曼",
+      "英文名称": "Sam Altman",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集",
+      "英文名称": "Biometric Data Collection",
+      "来源": "Portugal Forces Sam Altman's Worldcoin to Stop Collecting Biometric Data"
+    },
+    "Consequence": {
+      "id": "RegulatoryBan",
+      "中文名称": "监管禁令",
+      "英文名称": "Regulatory Ban",
+      "来源": "Portuguese data regulator bans Worldcoin operations for 90 days"
+    }
+  }
+}

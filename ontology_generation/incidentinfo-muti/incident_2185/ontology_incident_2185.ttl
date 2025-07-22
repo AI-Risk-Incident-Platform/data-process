@@ -1,0 +1,65 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:StudentProtesters ;
+    airo:hasPurpose ex:StudentIdentification ;
+    airo:isAppliedWithinDomain ex:CampusSecurity ;
+    airo:usesTechnique ex:BiometricIdentification ;
+    airo:hasStakeholder ex:UniversityOfMiami ;
+    airo:hasVulnerability ex:LackOfConsentForBiometricDataCollection .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:SurveillanceTechnologyMisuse ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "Privacy Violation Consequence"@en ;
+                          rdfs:label "隐私侵犯后果"@zh ;
+                          airo:hasImpact ex:ChillingEffectOnFreeSpeech 
+                        ] .
+
+ex:UniversityOfMiami rdf:type airo:Stakeholder ;
+    rdfs:label "University of Miami"@en ;
+    rdfs:label "迈阿密大学"@zh .
+
+ex:StudentProtesters rdf:type airo:AISubject ;
+    rdfs:label "Student Protesters"@en ;
+    rdfs:label "学生抗议者"@zh .
+
+ex:ChillingEffectOnFreeSpeech rdf:type airo:Impact ;
+    rdfs:label "Chilling Effect on Free Speech Impact"@en ;
+    rdfs:label "对言论自由的寒蝉效应"@zh ;
+    airo:hasImpactOnStakeholder ex:StudentProtesters .
+
+ex:StudentIdentification rdf:type airo:Purpose ;
+    rdfs:label "Student Identification Purpose"@en ;
+    rdfs:label "学生识别"@zh .
+
+ex:CampusSecurity rdf:type airo:Domain ;
+    rdfs:label "Campus Security Domain"@en ;
+    rdfs:label "校园安全"@zh .
+
+ex:BiometricIdentification rdf:type airo:AITechnique ;
+    rdfs:label "Biometric Identification Technique"@en ;
+    rdfs:label "生物特征识别技术"@zh .
+
+ex:LackOfConsentForBiometricDataCollection rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Consent for Biometric Data Collection Vulnerability"@en ;
+    rdfs:label "缺乏生物特征数据收集的同意"@zh .
+
+ex:SurveillanceTechnologyMisuse rdf:type airo:RiskSource ;
+    rdfs:label "Surveillance Technology Misuse Risk Source"@en ;
+    rdfs:label "监控技术滥用"@zh .

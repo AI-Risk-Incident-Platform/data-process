@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NaziFigureChatbot rdf:type airo:AISystem ;
+    rdfs:label "Nazi Figure Chatbot"@en ;
+    rdfs:label "纳粹人物聊天机器人"@zh ;
+    airo:hasRisk ex:HistoricalDistortionRisk ;
+    airo:hasAISubject ex:PublicUsers ;
+    airo:hasPurpose ex:InteractiveHistoricalExperience ;
+    airo:hasStakeholder ex:Historians .
+
+ex:HistoricalDistortionRisk rdf:type airo:Risk ;
+    rdfs:label "Historical Distortion Risk"@en ;
+    rdfs:label "历史扭曲风险"@zh ;
+    airo:hasConsequence ex:MisrepresentationOfHistoricalFigures ;
+    airo:isRiskSourceFor ex:InaccurateHistoricalData .
+
+ex:MisrepresentationOfHistoricalFigures rdf:type airo:Consequence ;
+    rdfs:label "Misrepresentation of Historical Figures Consequence"@en ;
+    rdfs:label "历史人物错误表述后果"@zh ;
+    airo:hasImpact ex:HistoricalInaccuracyImpact .
+
+ex:Historians rdf:type airo:Stakeholder ;
+    rdfs:label "Historians"@en ;
+    rdfs:label "历史学家"@zh .
+
+ex:PublicUsers rdf:type airo:AISubject ;
+    rdfs:label "Public Users"@en ;
+    rdfs:label "公众用户"@zh .
+
+ex:HistoricalInaccuracyImpact rdf:type airo:Impact ;
+    rdfs:label "Historical Inaccuracy Impact"@en ;
+    rdfs:label "历史不准确性影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Historians .
+
+ex:InteractiveHistoricalExperience rdf:type airo:Purpose ;
+    rdfs:label "Interactive Historical Experience Purpose"@en ;
+    rdfs:label "互动历史体验目的"@zh .
+
+ex:InaccurateHistoricalData rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Historical Data Risk Source"@en ;
+    rdfs:label "不准确历史数据风险源"@zh .

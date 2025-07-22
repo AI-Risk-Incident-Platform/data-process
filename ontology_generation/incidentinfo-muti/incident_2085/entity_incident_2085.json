@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "错误识别风险",
+      "英文名称": "Misidentification Risk",
+      "来源": "Facial Recognition Misidentifies Black Teen, Ignites Debate Over its Ethics"
+    },
+    "Consequence": {
+      "id": "UnfairExclusion",
+      "中文名称": "不公平排斥后果",
+      "英文名称": "Unfair Exclusion Consequence",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "Impact": {
+      "id": "EmotionalDistress",
+      "中文名称": "情绪困扰影响",
+      "英文名称": "Emotional Distress Impact",
+      "来源": "Backlash to retail use of facial recognition grows after Michigan teen unfairly kicked out of skating rink"
+    },
+    "Stakeholder": {
+      "id": "BlackTeen",
+      "中文名称": "黑人青少年",
+      "英文名称": "Black Teen",
+      "来源": "Facial Recognition Misidentifies Black Teen, Ignites Debate Over its Ethics"
+    },
+    "AIOperator": {
+      "id": "RollerRinkManagement",
+      "中文名称": "溜冰场管理部门",
+      "英文名称": "Roller Rink Management",
+      "来源": "Teen turned away from roller rink after AI wrongly identifies her as banned troublemaker"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "Facial Recognition Misidentifies Black Teen, Ignites Debate Over its Ethics"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全领域",
+      "英文名称": "Retail Security Domain",
+      "来源": "Backlash to retail use of facial recognition grows after Michigan teen unfairly kicked out of skating rink"
+    }
+  }
+}

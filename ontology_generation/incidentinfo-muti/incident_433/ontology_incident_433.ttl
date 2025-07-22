@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:SouthKoreanGovernment ;
+    airo:hasStakeholder ex:RightsGroups ;
+    airo:hasAISubject ex:Travelers ;
+    airo:hasPurpose ex:SurveillanceAndSecurity ;
+    airo:isAppliedWithinDomain ex:PublicSecurity ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataUse ;
+    airo:isRiskSourceFor ex:DataSharingWithPrivateFirms .
+
+ex:RightsGroups rdf:type airo:Stakeholder ;
+    rdfs:label "Rights Groups"@en ;
+    rdfs:label "权利组织"@zh .
+
+ex:SouthKoreanGovernment rdf:type airo:AIOperator ;
+    rdfs:label "South Korean Government"@en ;
+    rdfs:label "韩国政府"@zh .
+
+ex:Travelers rdf:type airo:AISubject ;
+    rdfs:label "Travelers"@en ;
+    rdfs:label "旅行者"@zh .
+
+ex:MassSurveillanceImpact rdf:type airo:Impact ;
+    rdfs:label "Mass Surveillance Impact"@en ;
+    rdfs:label "大规模监控影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Travelers .
+
+ex:SurveillanceAndSecurity rdf:type airo:Purpose ;
+    rdfs:label "Surveillance and Security Purpose"@en ;
+    rdfs:label "监控与安全目的"@zh .
+
+ex:PublicSecurity rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:DataSharingWithPrivateFirms rdf:type airo:RiskSource ;
+    rdfs:label "Data Sharing with Private Firms Risk Source"@en ;
+    rdfs:label "与私营企业共享数据的风险源"@zh .
+
+ex:UnauthorizedDataUse rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Use Consequence"@en ;
+    rdfs:label "未经授权的数据使用后果"@zh ;
+    airo:hasImpact ex:MassSurveillanceImpact .

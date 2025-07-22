@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIBookGenerationSystem",
+      "中文名称": "AI书籍生成系统",
+      "英文名称": "AI Book Generation System",
+      "来源": "AI-Generated Books of Nonsense Are All Over Amazon's Bestseller Lists"
+    },
+    "Risk": {
+      "id": "LowQualityContentFloodingRisk",
+      "中文名称": "低质量内容泛滥风险",
+      "英文名称": "Low Quality Content Flooding Risk",
+      "来源": "AI-Generated Books of Nonsense Are All Over Amazon's Bestseller Lists"
+    },
+    "Consequence": {
+      "id": "MarketplaceContentQualityDegradation",
+      "中文名称": "市场内容质量下降后果",
+      "英文名称": "Marketplace Content Quality Degradation Consequence",
+      "来源": "AI-Generated Books of Nonsense Are All Over Amazon's Bestseller Lists"
+    },
+    "Domain": {
+      "id": "ECommercePublishing",
+      "中文名称": "电子商务出版领域",
+      "英文名称": "E-Commerce Publishing Domain",
+      "来源": "Amazon's Bestseller Lists"
+    },
+    "Stakeholder": {
+      "id": "AmazonPlatform",
+      "中文名称": "亚马逊平台",
+      "英文名称": "Amazon Platform",
+      "来源": "Amazon's Bestseller Lists"
+    },
+    "RiskSource": {
+      "id": "UnregulatedContentGeneration",
+      "中文名称": "无监管内容生成风险源",
+      "英文名称": "Unregulated Content Generation Risk Source",
+      "来源": "AI-Generated Books of Nonsense Are All Over Amazon's Bestseller Lists"
+    },
+    "Impact": {
+      "id": "ReaderExperienceDegradation",
+      "中文名称": "读者体验下降影响",
+      "英文名称": "Reader Experience Degradation Impact",
+      "来源": "AI-Generated Books of Nonsense Are All Over Amazon's Bestseller Lists"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChestXRayClassifier",
+      "中文名称": "胸部X光分类器",
+      "英文名称": "Chest X-ray Classifier",
+      "来源": "Researchers find evidence of racial, gender, and socioeconomic bias in chest X-ray classifiers"
+    },
+    "Risk": {
+      "id": "BiasInMedicalAI",
+      "中文名称": "医疗AI中的偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "evidence of racial, gender, and socioeconomic bias in chest X-ray classifiers"
+    },
+    "AISubject": {
+      "id": "PatientsUndergoingChestXRay",
+      "中文名称": "接受胸部X光检查的患者",
+      "英文名称": "Patients Undergoing Chest X-ray",
+      "来源": "chest X-ray classifiers"
+    },
+    "Impact": {
+      "id": "HealthcareDisparities",
+      "中文名称": "医疗保健差异的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "racial, gender, and socioeconomic bias"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "evidence of racial, gender, and socioeconomic bias"
+    },
+    "Domain": {
+      "id": "MedicalImaging",
+      "中文名称": "医学影像领域",
+      "英文名称": "Medical Imaging Domain",
+      "来源": "chest X-ray classifiers"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "chest X-ray classifiers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChestXRayClassifier",
+      "中文名称": "胸部X光分类器",
+      "英文名称": "Chest X-ray Classifier",
+      "来源": "Researchers find evidence of racial, gender, and socioeconomic bias in chest X-ray classifiers"
+    },
+    "Risk": {
+      "id": "BiasInMedicalAI",
+      "中文名称": "医疗AI中的偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "evidence of racial, gender, and socioeconomic bias in chest X-ray classifiers"
+    },
+    "AISubject": {
+      "id": "PatientsUndergoingChestXRay",
+      "中文名称": "接受胸部X光检查的患者",
+      "英文名称": "Patients Undergoing Chest X-ray",
+      "来源": "chest X-ray classifiers"
+    },
+    "Impact": {
+      "id": "HealthcareDisparities",
+      "中文名称": "医疗保健差异的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "racial, gender, and socioeconomic bias"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "evidence of racial, gender, and socioeconomic bias"
+    },
+    "Domain": {
+      "id": "MedicalImaging",
+      "中文名称": "医学影像领域",
+      "英文名称": "Medical Imaging Domain",
+      "来源": "chest X-ray classifiers"
+    },
+    "AICapability": {
+      "id": "ImageClassification",
+      "中文名称": "图像分类能力",
+      "英文名称": "Image Classification",
+      "来源": "chest X-ray classifiers"
+    }
+  }
+}

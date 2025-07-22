@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AirCanadaChatbot",
+      "中文名称": "加拿大航空聊天机器人",
+      "英文名称": "Air Canada Chatbot",
+      "来源": "Air Canada chatbot promised a discount. Now the airline has to pay it."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "错误信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Air Canada must pay damages after chatbot lies to grieving passenger about discount"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Air Canada must pay damages after chatbot lies to grieving passenger about discount"
+    },
+    "AIOperator": {
+      "id": "AirCanada",
+      "中文名称": "加拿大航空公司",
+      "英文名称": "Air Canada",
+      "来源": "Airline held liable for its chatbot giving passenger bad advice - what this means for travellers"
+    },
+    "Stakeholder": {
+      "id": "Passenger",
+      "中文名称": "乘客",
+      "英文名称": "Passenger",
+      "来源": "Air Canada must pay damages after chatbot lies to grieving passenger about discount"
+    },
+    "Impact": {
+      "id": "LegalLiability",
+      "中文名称": "法律责任影响",
+      "英文名称": "Legal Liability Impact",
+      "来源": "Airline held liable for its chatbot giving passenger bad advice - what this means for travellers"
+    },
+    "Purpose": {
+      "id": "CustomerService",
+      "中文名称": "客户服务目的",
+      "英文名称": "Customer Service Purpose",
+      "来源": "Air Canada chatbot promised a discount. Now the airline has to pay it."
+    },
+    "RiskSource": {
+      "id": "IncorrectInformation",
+      "中文名称": "错误信息风险源",
+      "英文名称": "Incorrect Information Risk Source",
+      "来源": "Air Canada must pay damages after chatbot lies to grieving passenger about discount"
+    }
+  }
+}

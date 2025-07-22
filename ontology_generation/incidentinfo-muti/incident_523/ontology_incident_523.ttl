@@ -1,0 +1,62 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedMusic rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Music"@en ;
+    rdfs:label "AI生成音乐"@zh ;
+    airo:hasRisk ex:LegalRiskForAIProviders ;
+    airo:hasStakeholder ex:MusicArtists ;
+    airo:hasStakeholder ex:SpotifyAndApple ;
+    airo:isProvidedBy ex:UnspecifiedAIProvider ;
+    airo:isAppliedWithinDomain ex:MusicIndustry ;
+    airo:hasPurpose ex:MusicCreation .
+
+ex:LegalRiskForAIProviders rdf:type airo:Risk ;
+    rdfs:label "Legal Risk for AI Providers"@en ;
+    rdfs:label "AI提供者的法律风险"@zh ;
+    airo:isRiskSourceFor ex:CopyrightInfringement ;
+    airo:hasConsequence ex:ContentRemoval .
+
+ex:MusicArtists rdf:type airo:Stakeholder ;
+    rdfs:label "Music Artists"@en ;
+    rdfs:label "音乐艺术家"@zh .
+
+ex:SpotifyAndApple rdf:type airo:AIOperator ;
+    rdfs:label "Spotify and Apple"@en ;
+    rdfs:label "Spotify和Apple"@zh .
+
+ex:UnspecifiedAIProvider rdf:type airo:AIProvider ;
+    rdfs:label "Unspecified AI Provider"@en ;
+    rdfs:label "未指定的AI提供者"@zh .
+
+ex:CopyrightInfringement rdf:type airo:RiskSource ;
+    rdfs:label "Copyright Infringement"@en ;
+    rdfs:label "版权侵权"@zh .
+
+ex:ContentRemoval rdf:type airo:Consequence ;
+    rdfs:label "Content Removal"@en ;
+    rdfs:label "内容移除"@zh ;
+    airo:hasImpact ex:LegalChallengesForTechCompanies .
+
+ex:LegalChallengesForTechCompanies rdf:type airo:Impact ;
+    rdfs:label "Legal Challenges for Tech Companies"@en ;
+    rdfs:label "科技公司面临的法律挑战"@zh ;
+    airo:hasImpactOnStakeholder ex:SpotifyAndApple ;
+    airo:hasImpactOnStakeholder ex:UnspecifiedAIProvider .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Industry"@en ;
+    rdfs:label "音乐产业"@zh .
+
+ex:MusicCreation rdf:type airo:Purpose ;
+    rdfs:label "Music Creation"@en ;
+    rdfs:label "音乐创作"@zh .

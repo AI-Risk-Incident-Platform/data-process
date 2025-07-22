@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ItalianSchoolTeacherTransferAlgorithm",
+      "中文名称": "意大利学校教师调动算法",
+      "英文名称": "Italian School Teacher Transfer Algorithm",
+      "来源": "“Mobilità 2016, l’algoritmo resta segreto, spesi 400mila euro”"
+    },
+    "Risk": {
+      "id": "AlgorithmicFailureInPublicSector",
+      "中文名称": "公共部门算法失效风险",
+      "英文名称": "Algorithmic Failure in Public Sector Risk",
+      "来源": "“Il Tar: \"L'algoritmo impazzito fu contro la Costituzione\"”"
+    },
+    "Consequence": {
+      "id": "TeachersTransferredFarFromHome",
+      "中文名称": "教师被调离家乡的后果",
+      "英文名称": "Teachers Transferred Far From Home Consequence",
+      "来源": "“trasferimenti di 10mila docenti lontano da casa”"
+    },
+    "Stakeholder": {
+      "id": "ItalianTeachers",
+      "中文名称": "意大利教师",
+      "英文名称": "Italian Teachers",
+      "来源": "“trasferimenti di 10mila docenti”"
+    },
+    "Impact": {
+      "id": "DisruptionOfEducationSystem",
+      "中文名称": "教育系统中断的影响",
+      "英文名称": "Educational Negative Impact",
+      "来源": "“The algorithm that blew up Italy’s school system”"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmicTransparency",
+      "中文名称": "算法缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "“l’algoritmo resta segreto”"
+    },
+    "AIOperator": {
+      "id": "ItalianMinistryOfEducation",
+      "中文名称": "意大利教育部",
+      "英文名称": "Italian Ministry of Education",
+      "来源": "“spesi 400mila euro”"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ItalianSchoolTeacherTransferAlgorithm",
+      "中文名称": "意大利学校教师调动算法",
+      "英文名称": "Italian School Teacher Transfer Algorithm",
+      "来源": "“Mobilità 2016, l’algoritmo resta segreto, spesi 400mila euro”"
+    },
+    "Risk": {
+      "id": "AlgorithmicFailureInPublicSector",
+      "中文名称": "公共部门算法失效风险",
+      "英文名称": "Algorithmic Failure in Public Sector Risk",
+      "来源": "“Il Tar: \"L'algoritmo impazzito fu contro la Costituzione\"”"
+    },
+    "Consequence": {
+      "id": "TeachersTransferredFarFromHome",
+      "中文名称": "教师被调离家乡的后果",
+      "英文名称": "Teachers Transferred Far From Home Consequence",
+      "来源": "“trasferimenti di 10mila docenti lontano da casa”"
+    },
+    "Stakeholder": {
+      "id": "ItalianTeachers",
+      "中文名称": "意大利教师",
+      "英文名称": "Italian Teachers",
+      "来源": "“trasferimenti di 10mila docenti”"
+    },
+    "Impact": {
+      "id": "DisruptionOfEducationSystem",
+      "中文名称": "教育系统中断的影响",
+      "英文名称": "Educational Negative Impact",
+      "来源": "“The algorithm that blew up Italy’s school system”"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmicTransparency",
+      "中文名称": "算法缺乏透明度的风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "“l’algoritmo resta segreto”"
+    },
+    "AIOperator": {
+      "id": "ItalianMinistryOfEducation",
+      "中文名称": "意大利教育部",
+      "英文名称": "Italian Ministry of Education",
+      "来源": "“spesi 400mila euro”"
+    }
+  }
+}

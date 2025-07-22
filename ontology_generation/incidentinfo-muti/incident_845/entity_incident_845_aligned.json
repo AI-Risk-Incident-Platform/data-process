@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIDetectors",
+      "中文名称": "AI检测器",
+      "英文名称": "AI Detector",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Consequence": {
+      "id": "AcademicConsequences",
+      "中文名称": "学术后果",
+      "英文名称": "Academic Consequences",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Impact": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Purpose": {
+      "id": "CheatingDetection",
+      "中文名称": "作弊检测",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育",
+      "英文名称": "Education Domain",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "AITechnique": {
+      "id": "TextAnalysis",
+      "中文名称": "文本分析",
+      "英文名称": "Text Processing",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Vulnerability": {
+      "id": "FalsePositiveRate",
+      "中文名称": "误报率",
+      "英文名称": "False Positive Rate",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIDetectors",
+      "中文名称": "AI检测器",
+      "英文名称": "AI Detector",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "错误指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Consequence": {
+      "id": "AcademicConsequences",
+      "中文名称": "学术后果",
+      "英文名称": "Academic Consequences",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Impact": {
+      "id": "AcademicReputationDamage",
+      "中文名称": "学术声誉损害",
+      "英文名称": "Academic Integrity & Reputation Impact",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Purpose": {
+      "id": "CheatingDetection",
+      "中文名称": "作弊检测",
+      "英文名称": "Academic Exam Integrity Monitoring",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育",
+      "英文名称": "Education Domain",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "AITechnique": {
+      "id": "TextAnalysis",
+      "中文名称": "文本分析",
+      "英文名称": "Text Processing",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "Vulnerability": {
+      "id": "FalsePositiveRate",
+      "中文名称": "误报率",
+      "英文名称": "False Positive Rate",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "AI Detectors Falsely Accuse Students of Cheating—With Big Consequences"
+    }
+  }
+}

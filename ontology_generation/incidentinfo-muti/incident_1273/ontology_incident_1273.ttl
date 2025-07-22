@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICompanionWebsite rdf:type airo:AISystem ;
+    rdfs:label "AI Companion Website"@en ;
+    rdfs:label "AI伴侣网站"@zh ;
+    airo:hasRisk ex:ChildAbuseSimulationRisk ;
+    airo:usesTechnique ex:ConversationalAI ;
+    airo:hasPurpose ex:VirtualCompanionService ;
+    airo:hasStakeholder ex:ChildProtectionOrganizations ;
+    airo:hasVulnerability ex:InadequateContentModeration .
+
+ex:ChildAbuseSimulationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Abuse Simulation Risk"@en ;
+    rdfs:label "儿童虐待模拟风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToChildren ;
+    airo:isRiskSourceFor ex:MaliciousUserBehavior ;
+    airo:isRiskSourceFor ex:ExploitationOfAIForIllegalPurposes .
+
+ex:PotentialHarmToChildren rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Children Consequence"@en ;
+    rdfs:label "对儿童的潜在伤害后果"@zh ;
+    airo:hasImpact ex:PsychologicalTraumaToChildren .
+
+ex:MaliciousUserBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Malicious User Behavior Risk Source"@en ;
+    rdfs:label "恶意用户行为风险源"@zh .
+
+ex:InadequateContentModeration rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Moderation Vulnerability"@en ;
+    rdfs:label "内容审核不足的脆弱性"@zh .
+
+ex:ChildProtectionOrganizations rdf:type airo:Stakeholder ;
+    rdfs:label "Child Protection Organizations"@en ;
+    rdfs:label "儿童保护组织"@zh .
+
+ex:PsychologicalTraumaToChildren rdf:type airo:Impact ;
+    rdfs:label "Psychological Trauma to Children Impact"@en ;
+    rdfs:label "对儿童的心理创伤影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildProtectionOrganizations .
+
+ex:ExploitationOfAIForIllegalPurposes rdf:type airo:Threat ;
+    rdfs:label "Exploitation of AI for Illegal Purposes Threat"@en ;
+    rdfs:label "利用AI进行非法目的的威胁"@zh .
+
+ex:ConversationalAI rdf:type airo:AITechnique ;
+    rdfs:label "Conversational AI Technique"@en ;
+    rdfs:label "对话式AI技术"@zh .
+
+ex:VirtualCompanionService rdf:type airo:Purpose ;
+    rdfs:label "Virtual Companion Service Purpose"@en ;
+    rdfs:label "虚拟伴侣服务目的"@zh .

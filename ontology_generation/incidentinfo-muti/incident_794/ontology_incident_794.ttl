@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:EmergencyInformationBlockingRisk ;
+    airo:hasPurpose ex:SpamContentPrevention ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform ;
+    airo:usesTechnique ex:AutomatedContentFiltering ;
+    airo:hasStakeholder ex:WildfireAffectedCommunities ;
+    airo:isDeployedBy ex:FacebookInc .
+
+ex:EmergencyInformationBlockingRisk rdf:type airo:Risk ;
+    rdfs:label "Emergency Information Blocking Risk"@en ;
+    rdfs:label "紧急信息屏蔽风险"@zh ;
+    airo:hasConsequence ex:PublicSafetyThreat ;
+    airo:isRiskSourceFor ex:OverlyAggressiveSpamFilters .
+
+ex:PublicSafetyThreat rdf:type airo:Consequence ;
+    rdfs:label "Public Safety Threat Consequence"@en ;
+    rdfs:label "公共安全威胁后果"@zh ;
+    airo:hasImpact ex:LifeThreateningSituation .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:WildfireAffectedCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "Wildfire Affected Communities"@en ;
+    rdfs:label "受野火影响的社区"@zh .
+
+ex:LifeThreateningSituation rdf:type airo:Impact ;
+    rdfs:label "Life-Threatening Situation Impact"@en ;
+    rdfs:label "危及生命的情况影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WildfireAffectedCommunities .
+
+ex:SpamContentPrevention rdf:type airo:Purpose ;
+    rdfs:label "Spam Content Prevention Purpose"@en ;
+    rdfs:label "防止垃圾内容的目的"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:AutomatedContentFiltering rdf:type airo:AITechnique ;
+    rdfs:label "Automated Content Filtering Technique"@en ;
+    rdfs:label "自动内容过滤技术"@zh .
+
+ex:OverlyAggressiveSpamFilters rdf:type airo:RiskSource ;
+    rdfs:label "Overly Aggressive Spam Filters Risk Source"@en ;
+    rdfs:label "过于激进的垃圾邮件过滤器风险源"@zh .

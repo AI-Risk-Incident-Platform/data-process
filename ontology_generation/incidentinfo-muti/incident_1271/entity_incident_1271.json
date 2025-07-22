@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LargeLanguageModels",
+      "中文名称": "大型语言模型",
+      "英文名称": "Large Language Models",
+      "来源": "As LLMs grow bigger, they're more likely to give wrong answers than admit ignorance"
+    },
+    "Risk": {
+      "id": "IncorrectAnswerGenerationRisk",
+      "中文名称": "错误答案生成风险",
+      "英文名称": "Incorrect Answer Generation Risk",
+      "来源": "they're more likely to give wrong answers than admit ignorance"
+    },
+    "Consequence": {
+      "id": "MisinformationPropagation",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Propagation Consequence",
+      "来源": "Bigger AI chatbots more inclined to spew nonsense"
+    },
+    "AICapability": {
+      "id": "TextGenerationCapability",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text Generation Capability",
+      "来源": "Bigger AI chatbots more inclined to spew nonsense"
+    },
+    "RiskSource": {
+      "id": "ModelSizeIncrease",
+      "中文名称": "模型规模增大风险源",
+      "英文名称": "Model Size Increase Risk Source",
+      "来源": "As LLMs grow bigger, they're more likely to give wrong answers"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度降低影响",
+      "英文名称": "User Trust Erosion Impact",
+      "来源": "people don't always realize [the AI is spewing nonsense]"
+    },
+    "Threat": {
+      "id": "DeceptiveConfidence",
+      "中文名称": "欺骗性自信威胁",
+      "英文名称": "Deceptive Confidence Threat",
+      "来源": "The Most Sophisticated AIs Are Most Likely to Lie"
+    },
+    "Vulnerability": {
+      "id": "HumanDetectionLimitation",
+      "中文名称": "人类检测局限性脆弱性",
+      "英文名称": "Human Detection Limitation Vulnerability",
+      "来源": "people don't always realize [the AI is spewing nonsense]"
+    }
+  }
+}

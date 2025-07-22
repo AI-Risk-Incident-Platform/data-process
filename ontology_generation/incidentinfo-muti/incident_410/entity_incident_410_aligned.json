@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookJobAdSystem",
+      "中文名称": "Facebook招聘广告系统",
+      "英文名称": "Facebook Job Ad System",
+      "来源": "Facebook job ads discriminatory"
+    },
+    "Risk": {
+      "id": "GenderAndAgeDiscriminationRisk",
+      "中文名称": "性别和年龄歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Company accused of bias against women, older workers"
+    },
+    "Stakeholder": {
+      "id": "FemaleTruckers",
+      "中文名称": "女性卡车司机",
+      "英文名称": "Female Truckers",
+      "来源": "Female truckers group alleges Facebook's ad system is discriminatory"
+    },
+    "Impact": {
+      "id": "EmploymentDiscriminationImpact",
+      "中文名称": "就业歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Facebook Job Ads Illegally Discriminate"
+    },
+    "Domain": {
+      "id": "OnlineJobAdvertising",
+      "中文名称": "在线招聘广告领域",
+      "英文名称": "Online Job Sector",
+      "来源": "Facebook job ads"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookJobAdSystem",
+      "中文名称": "Facebook招聘广告系统",
+      "英文名称": "Facebook Job Ad System",
+      "来源": "Facebook job ads discriminatory"
+    },
+    "Risk": {
+      "id": "GenderAndAgeDiscriminationRisk",
+      "中文名称": "性别和年龄歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Company accused of bias against women, older workers"
+    },
+    "Stakeholder": {
+      "id": "FemaleTruckers",
+      "中文名称": "女性卡车司机",
+      "英文名称": "Female Truckers",
+      "来源": "Female truckers group alleges Facebook's ad system is discriminatory"
+    },
+    "Impact": {
+      "id": "EmploymentDiscriminationImpact",
+      "中文名称": "就业歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "Facebook Job Ads Illegally Discriminate"
+    },
+    "Domain": {
+      "id": "OnlineJobAdvertising",
+      "中文名称": "在线招聘广告领域",
+      "英文名称": "Online Job Sector",
+      "来源": "Facebook job ads"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的面部识别错误导致错误逮捕"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中明确提到因面部识别错误导致无辜者被错误监禁"
+    },
+    "Consequence": {
+      "id": "WrongfulImprisonment",
+      "中文名称": "错误监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "标题中'wrongfully jailed for a week'明确描述了后果"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "错误逮捕和监禁对个人基本权利的明显不利影响"
+    },
+    "AISubject": {
+      "id": "InnocentBlackMan",
+      "中文名称": "无辜黑人男性",
+      "英文名称": "Innocent Black Man",
+      "来源": "标题中'Black man wrongfully jailed'明确识别了受影响主体"
+    },
+    "Stakeholder": {
+      "id": "LouisianaPoliceDepartment",
+      "中文名称": "路易斯安那州警察局",
+      "英文名称": "Louisiana Police Department",
+      "来源": "新闻标题中'Louisiana Cops'明确指出了相关执法机构"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "错误逮捕事件表明系统存在识别偏差问题"
+    },
+    "Vulnerability": {
+      "id": "RacialBiasInTrainingData",
+      "中文名称": "训练数据中的种族偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "黑人被错误识别表明系统对少数族裔识别能力不足"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "标题中提到的面部识别错误导致错误逮捕"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中明确提到因面部识别错误导致无辜者被错误监禁"
+    },
+    "Consequence": {
+      "id": "WrongfulImprisonment",
+      "中文名称": "错误监禁后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "标题中'wrongfully jailed for a week'明确描述了后果"
+    },
+    "Impact": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "错误逮捕和监禁对个人基本权利的明显不利影响"
+    },
+    "AISubject": {
+      "id": "InnocentBlackMan",
+      "中文名称": "无辜黑人男性",
+      "英文名称": "Innocent Black Man",
+      "来源": "标题中'Black man wrongfully jailed'明确识别了受影响主体"
+    },
+    "Stakeholder": {
+      "id": "LouisianaPoliceDepartment",
+      "中文名称": "路易斯安那州警察局",
+      "英文名称": "Louisiana Police Department",
+      "来源": "新闻标题中'Louisiana Cops'明确指出了相关执法机构"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见风险源",
+      "英文名称": "Facial Recognition Risk Source",
+      "来源": "错误逮捕事件表明系统存在识别偏差问题"
+    },
+    "Vulnerability": {
+      "id": "RacialBiasInTrainingData",
+      "中文名称": "训练数据中的种族偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "黑人被错误识别表明系统对少数族裔识别能力不足"
+    }
+  }
+}

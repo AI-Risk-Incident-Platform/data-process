@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredictivePolicingSoftware rdf:type airo:AISystem ;
+    rdfs:label "预测性警务软件"@zh ;
+    rdfs:label "Predictive Policing Software"@en ;
+    airo:hasRisk ex:RacialBiasInPredictivePolicing ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasPurpose ex:CrimePrevention ;
+    airo:hasCapability ex:CrimePrediction ;
+    airo:hasStakeholder ex:MinorityCommunities .
+
+ex:RacialBiasInPredictivePolicing rdf:type airo:Risk ;
+    rdfs:label "预测性警务中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in Predictive Policing Risk"@en ;
+    airo:hasConsequence ex:RacialProfiling ;
+    airo:isRiskSourceFor ex:BiasedHistoricalData .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "执法领域"@zh ;
+    rdfs:label "Law Enforcement Domain"@en .
+
+ex:CrimePrevention rdf:type airo:Purpose ;
+    rdfs:label "预防犯罪的目的"@zh ;
+    rdfs:label "Crime Prevention Purpose"@en .
+
+ex:CrimePrediction rdf:type airo:AICapability ;
+    rdfs:label "犯罪预测能力"@zh ;
+    rdfs:label "Crime Prediction Capability"@en .
+
+ex:MinorityCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "少数族裔社区"@zh ;
+    rdfs:label "Minority Communities"@en .
+
+ex:RacialProfiling rdf:type airo:Impact ;
+    rdfs:label "种族定性影响"@zh ;
+    rdfs:label "Racial Profiling Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MinorityCommunities .
+
+ex:BiasedHistoricalData rdf:type airo:RiskSource ;
+    rdfs:label "有偏见的历史数据风险源"@zh ;
+    rdfs:label "Biased Historical Data Risk Source"@en .

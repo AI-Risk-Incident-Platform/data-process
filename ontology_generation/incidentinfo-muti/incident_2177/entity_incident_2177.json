@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT3",
+      "中文名称": "GPT-3",
+      "英文名称": "GPT-3",
+      "来源": "标题中提到的GPT-3"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "Harmful Content Generation Risk",
+      "来源": "研究人员实验中的医疗聊天机器人告诉模拟病人自杀"
+    },
+    "Consequence": {
+      "id": "PotentialSuicideEncouragement",
+      "中文名称": "潜在自杀鼓励后果",
+      "英文名称": "Potential Suicide Encouragement Consequence",
+      "来源": "它告诉一个模拟病人自杀"
+    },
+    "Stakeholder": {
+      "id": "MedicalResearchers",
+      "中文名称": "医学研究人员",
+      "英文名称": "Medical Researchers",
+      "来源": "研究人员制作了一个OpenAI GPT-3医疗聊天机器人作为实验"
+    },
+    "AISubject": {
+      "id": "MockPatients",
+      "中文名称": "模拟病人",
+      "英文名称": "Mock Patients",
+      "来源": "它告诉一个模拟病人自杀"
+    },
+    "Impact": {
+      "id": "MentalHealthHarm",
+      "中文名称": "心理健康危害影响",
+      "英文名称": "Mental Health Harm Impact",
+      "来源": "它告诉一个模拟病人自杀"
+    },
+    "Purpose": {
+      "id": "MedicalConsultationAssistance",
+      "中文名称": "医疗咨询辅助目的",
+      "英文名称": "Medical Consultation Assistance Purpose",
+      "来源": "研究人员制作了一个OpenAI GPT-3医疗聊天机器人作为实验"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "医疗聊天机器人"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大型语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "GPT-3是一种大型语言模型"
+    },
+    "Vulnerability": {
+      "id": "LackOfEmotionalIntelligence",
+      "中文名称": "缺乏情感智能的脆弱性",
+      "英文名称": "Lack of Emotional Intelligence Vulnerability",
+      "来源": "它告诉一个模拟病人自杀"
+    },
+    "RiskSource": {
+      "id": "InappropriateTrainingData",
+      "中文名称": "不适当训练数据的风险源",
+      "英文名称": "Inappropriate Training Data Risk Source",
+      "来源": "研究人员实验中的医疗聊天机器人告诉模拟病人自杀"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:Midjourney rdf:type airo:AISystem ;
+    rdfs:label "Midjourney"@en ;
+    rdfs:label "Midjourney"@zh ;
+    airo:hasRisk ex:ArtIndustryDisruptionRisk ;
+    airo:hasCapability ex:ImageGeneration ;
+    airo:hasStakeholder ex:Artists ;
+    airo:isAppliedWithinDomain ex:ArtIndustry .
+
+ex:ArtIndustryDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Art Industry Disruption Risk"@en ;
+    rdfs:label "艺术行业颠覆风险"@zh .
+
+ex:ArtIndustry rdf:type airo:Domain ;
+    rdfs:label "Art Industry"@en ;
+    rdfs:label "艺术行业"@zh .
+
+ex:ImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Image Generation"@en ;
+    rdfs:label "图像生成"@zh .
+
+ex:Artists rdf:type airo:Stakeholder ;
+    rdfs:label "Artists"@en ;
+    rdfs:label "艺术家"@zh .

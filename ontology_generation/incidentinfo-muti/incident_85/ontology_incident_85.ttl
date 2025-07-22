@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChestXRayClassifier rdf:type airo:AISystem ;
+    rdfs:label "Chest X-ray Classifier"@en ;
+    rdfs:label "胸部X光分类器"@zh ;
+    airo:hasRisk ex:BiasInMedicalAI ;
+    airo:hasAISubject ex:PatientsUndergoingChestXRay ;
+    airo:hasCapability ex:ImageClassification ;
+    airo:isAppliedWithinDomain ex:MedicalImaging .
+
+ex:BiasInMedicalAI rdf:type airo:Risk ;
+    rdfs:label "Bias in Medical AI Risk"@en ;
+    rdfs:label "医疗AI中的偏见风险"@zh ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:hasImpact ex:HealthcareDisparities .
+
+ex:PatientsUndergoingChestXRay rdf:type airo:AISubject ;
+    rdfs:label "Patients Undergoing Chest X-ray"@en ;
+    rdfs:label "接受胸部X光检查的患者"@zh .
+
+ex:HealthcareDisparities rdf:type airo:Impact ;
+    rdfs:label "Healthcare Disparities Impact"@en ;
+    rdfs:label "医疗保健差异的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PatientsUndergoingChestXRay .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:MedicalImaging rdf:type airo:Domain ;
+    rdfs:label "Medical Imaging Domain"@en ;
+    rdfs:label "医学影像领域"@zh .
+
+ex:ImageClassification rdf:type airo:AICapability ;
+    rdfs:label "Image Classification Capability"@en ;
+    rdfs:label "图像分类能力"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliveryRobot",
+      "中文名称": "送货机器人",
+      "英文名称": "Delivery Robot",
+      "来源": "I was attacked by an op delivery robot that rammed my German shepherd"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "物理伤害风险",
+      "英文名称": "Physical Harm Risk",
+      "来源": "rammed my German shepherd"
+    },
+    "Consequence": {
+      "id": "AnimalInjury",
+      "中文名称": "动物受伤后果",
+      "英文名称": "Animal Injury Consequence",
+      "来源": "rammed my German shepherd"
+    },
+    "AISubject": {
+      "id": "PetOwner",
+      "中文名称": "宠物主人",
+      "英文名称": "Pet Owner",
+      "来源": "my German shepherd"
+    },
+    "Impact": {
+      "id": "PetSafetyThreat",
+      "中文名称": "宠物安全威胁影响",
+      "英文名称": "Pet Safety Threat Impact",
+      "来源": "rammed my German shepherd"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流配送领域",
+      "英文名称": "Logistics and Delivery Domain",
+      "来源": "delivery robot"
+    },
+    "Hazard": {
+      "id": "UncontrolledRobotMovement",
+      "中文名称": "机器人失控运动危害",
+      "英文名称": "Uncontrolled Robot Movement Hazard",
+      "来源": "rammed my German shepherd"
+    }
+  }
+}

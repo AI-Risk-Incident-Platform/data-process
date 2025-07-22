@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JammableAISongCoversGenerator rdf:type airo:AISystem ;
+    rdfs:label "Jammable AI歌曲翻唱生成器"@zh ;
+    rdfs:label "Jammable AI Song Covers Generator"@en ;
+    airo:hasRisk ex:PotentialMisuseOfAIGeneratedMusic ;
+    airo:hasCapability ex:AIMusicGeneration ;
+    airo:hasPurpose ex:CreatingSongCovers ;
+    airo:isAppliedWithinDomain ex:MusicIndustry .
+
+ex:PotentialMisuseOfAIGeneratedMusic rdf:type airo:Risk ;
+    rdfs:label "AI生成音乐的潜在滥用风险"@zh ;
+    rdfs:label "Potential Misuse of AI-Generated Music Risk"@en .
+
+ex:AIMusicGeneration rdf:type airo:AICapability ;
+    rdfs:label "AI音乐生成能力"@zh ;
+    rdfs:label "AI Music Generation Capability"@en .
+
+ex:CreatingSongCovers rdf:type airo:Purpose ;
+    rdfs:label "创建歌曲翻唱的目的"@zh ;
+    rdfs:label "Creating Song Covers Purpose"@en .
+
+ex:MusicIndustry rdf:type airo:Domain ;
+    rdfs:label "音乐产业领域"@zh ;
+    rdfs:label "Music Industry Domain"@en .

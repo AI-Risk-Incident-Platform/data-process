@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIResearchDataStorage",
+      "中文名称": "微软AI研究数据存储",
+      "英文名称": "Microsoft AI Research Data Storage",
+      "来源": "38TB of data accidentally exposed by Microsoft AI researchers"
+    },
+    "Risk": {
+      "id": "DataExposureRisk",
+      "中文名称": "数据暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "38TB of data accidentally exposed"
+    },
+    "RiskSource": {
+      "id": "AccidentalDataExposure",
+      "中文名称": "意外数据暴露",
+      "英文名称": "Unsecured Database Risk",
+      "来源": "data accidentally exposed"
+    },
+    "Consequence": {
+      "id": "PotentialDataBreach",
+      "中文名称": "潜在数据泄露",
+      "英文名称": "Potential Data Breach",
+      "来源": "38TB of data accidentally exposed"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftAIResearchers",
+      "中文名称": "微软AI研究人员",
+      "英文名称": "Microsoft AI Researchers",
+      "来源": "Microsoft AI researchers"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityConcerns",
+      "中文名称": "隐私和安全问题",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "38TB of data accidentally exposed"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftAIResearchDataStorage",
+      "中文名称": "微软AI研究数据存储",
+      "英文名称": "Microsoft AI Research Data Storage",
+      "来源": "38TB of data accidentally exposed by Microsoft AI researchers"
+    },
+    "Risk": {
+      "id": "DataExposureRisk",
+      "中文名称": "数据暴露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "38TB of data accidentally exposed"
+    },
+    "RiskSource": {
+      "id": "AccidentalDataExposure",
+      "中文名称": "意外数据暴露",
+      "英文名称": "Unsecured Database Risk",
+      "来源": "data accidentally exposed"
+    },
+    "Consequence": {
+      "id": "PotentialDataBreach",
+      "中文名称": "潜在数据泄露",
+      "英文名称": "Potential Data Breach",
+      "来源": "38TB of data accidentally exposed"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftAIResearchers",
+      "中文名称": "微软AI研究人员",
+      "英文名称": "Microsoft AI Researchers",
+      "来源": "Microsoft AI researchers"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityConcerns",
+      "中文名称": "隐私和安全问题",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "38TB of data accidentally exposed"
+    }
+  }
+}

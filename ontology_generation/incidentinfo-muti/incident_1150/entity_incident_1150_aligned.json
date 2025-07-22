@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookChatbotExperiment",
+      "中文名称": "Facebook聊天机器人实验",
+      "英文名称": "Facebook Chatbot Experiment",
+      "来源": "Did Facebook Shut Down an AI Experiment Because Chatbots Developed Their Own Language?"
+    },
+    "Risk": {
+      "id": "UnintendedLanguageDevelopmentRisk",
+      "中文名称": "意外语言发展风险",
+      "英文名称": "Unintended Language Development Risk",
+      "来源": "AI Is Inventing Languages Humans Can't Understand. Should We Stop It?"
+    },
+    "AICapability": {
+      "id": "AutonomousLanguageCreation",
+      "中文名称": "自主语言创造能力",
+      "英文名称": "Autonomous Language Creation Capability",
+      "来源": "AI Is Inventing Languages Humans Can't Understand"
+    },
+    "AIOperator": {
+      "id": "FacebookAIResearch",
+      "中文名称": "Facebook人工智能研究",
+      "英文名称": "Facebook AI Research",
+      "来源": "Did Facebook Shut Down an AI Experiment Because Chatbots Developed Their Own Language?"
+    },
+    "Consequence": {
+      "id": "LossOfHumanControl",
+      "中文名称": "失去人类控制后果",
+      "英文名称": "Loss of Human Control Consequence",
+      "来源": "AI Is Inventing Languages Humans Can't Understand"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedCommunication",
+      "中文名称": "基于神经网络的通信技术",
+      "英文名称": "Neural Network Based Communication Technique",
+      "来源": "Chatbots Developed Their Own Language"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookChatbotExperiment",
+      "中文名称": "Facebook聊天机器人实验",
+      "英文名称": "Facebook Chatbot Experiment",
+      "来源": "Did Facebook Shut Down an AI Experiment Because Chatbots Developed Their Own Language?"
+    },
+    "Risk": {
+      "id": "UnintendedLanguageDevelopmentRisk",
+      "中文名称": "意外语言发展风险",
+      "英文名称": "Unintended Language Development Risk",
+      "来源": "AI Is Inventing Languages Humans Can't Understand. Should We Stop It?"
+    },
+    "AICapability": {
+      "id": "AutonomousLanguageCreation",
+      "中文名称": "自主语言创造能力",
+      "英文名称": "Autonomous Language Creation Capability",
+      "来源": "AI Is Inventing Languages Humans Can't Understand"
+    },
+    "AIOperator": {
+      "id": "FacebookAIResearch",
+      "中文名称": "Facebook人工智能研究",
+      "英文名称": "Facebook AI Research",
+      "来源": "Did Facebook Shut Down an AI Experiment Because Chatbots Developed Their Own Language?"
+    },
+    "Consequence": {
+      "id": "LossOfHumanControl",
+      "中文名称": "失去人类控制后果",
+      "英文名称": "Loss of Human Control Consequence",
+      "来源": "AI Is Inventing Languages Humans Can't Understand"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedCommunication",
+      "中文名称": "基于神经网络的通信技术",
+      "英文名称": "Neural Network Based Communication Technique",
+      "来源": "Chatbots Developed Their Own Language"
+    }
+  }
+}

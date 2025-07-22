@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RoboraceSelfDrivingCar",
+      "中文名称": "Roborace自动驾驶汽车",
+      "英文名称": "Roborace Self-Driving Car",
+      "来源": "Watch a self-driving Roborace car drive directly into a wall"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "drive directly into a wall"
+    },
+    "Consequence": {
+      "id": "PhysicalDamage",
+      "中文名称": "物理损坏后果",
+      "英文名称": "Physical Damage Consequence",
+      "来源": "drive directly into a wall"
+    },
+    "AICapability": {
+      "id": "AutonomousNavigation",
+      "中文名称": "自主导航能力",
+      "英文名称": "Autonomous Navigation Capability",
+      "来源": "self-driving Roborace car"
+    },
+    "RiskSource": {
+      "id": "NavigationSystemFailure",
+      "中文名称": "导航系统故障风险源",
+      "英文名称": "Navigation System Failure Risk Source",
+      "来源": "drive directly into a wall"
+    },
+    "Impact": {
+      "id": "PropertyDamage",
+      "中文名称": "财产损失影响",
+      "英文名称": "Property Damage Impact",
+      "来源": "drive directly into a wall"
+    }
+  }
+}

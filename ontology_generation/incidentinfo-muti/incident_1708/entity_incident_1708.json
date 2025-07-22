@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceEnabledAIAgents",
+      "中文名称": "语音AI代理",
+      "英文名称": "Voice Enabled AI Agents",
+      "来源": "Voice-enabled AI agents can automate everything, even your phone scams"
+    },
+    "Risk": {
+      "id": "AutomatedScamRisk",
+      "中文名称": "自动化诈骗风险",
+      "英文名称": "Automated Scam Risk",
+      "来源": "How They Can Perform Common Scams"
+    },
+    "AICapability": {
+      "id": "VoiceInteractionAutomation",
+      "中文名称": "语音交互自动化能力",
+      "英文名称": "Voice Interaction Automation Capability",
+      "来源": "Voice-enabled AI agents can automate everything"
+    },
+    "RiskSource": {
+      "id": "LowCostDeepfakeTechnology",
+      "中文名称": "低成本深度伪造技术风险源",
+      "英文名称": "Low Cost Deepfake Technology Risk Source",
+      "来源": "Deepfake Phone Scams for Less Than a Dollar a Pop"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "How They Can Perform Common Scams"
+    },
+    "AITechnique": {
+      "id": "DeepfakeVoiceSynthesis",
+      "中文名称": "深度伪造语音合成技术",
+      "英文名称": "Deepfake Voice Synthesis Technique",
+      "来源": "Deepfake Phone Scams for Less Than a Dollar a Pop"
+    },
+    "Impact": {
+      "id": "VictimFinancialLoss",
+      "中文名称": "受害者经济损失影响",
+      "英文名称": "Victim Financial Loss Impact",
+      "来源": "How They Can Perform Common Scams"
+    }
+  }
+}

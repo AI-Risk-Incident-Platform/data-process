@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SpinVoxVoiceToTextSystem",
+      "中文名称": "SpinVox语音转文字系统",
+      "英文名称": "SpinVox Voice to Text System",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Voice technology firm under fire"
+    },
+    "Stakeholder": {
+      "id": "SpinVoxCompany",
+      "中文名称": "SpinVox公司",
+      "英文名称": "SpinVox Company",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "AIOperator": {
+      "id": "SpinVoxOperator",
+      "中文名称": "SpinVox运营商",
+      "英文名称": "SpinVox Operator",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessToPrivateConversations",
+      "中文名称": "未经授权访问私人对话",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    },
+    "Impact": {
+      "id": "LossOfUserTrust",
+      "中文名称": "用户信任丧失",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Voice technology firm under fire"
+    },
+    "Purpose": {
+      "id": "VoiceMessageTranscription",
+      "中文名称": "语音消息转录",
+      "英文名称": "Voice Message Transcription",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "Domain": {
+      "id": "VoiceTechnology",
+      "中文名称": "语音技术领域",
+      "英文名称": "Technology Domain",
+      "来源": "Voice technology firm under fire"
+    },
+    "RiskSource": {
+      "id": "HumanInvolvementInAIProcess",
+      "中文名称": "AI处理过程中的人类参与",
+      "英文名称": "Human Involvement in AI Process",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SpinVoxVoiceToTextSystem",
+      "中文名称": "SpinVox语音转文字系统",
+      "英文名称": "SpinVox Voice to Text System",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Voice technology firm under fire"
+    },
+    "Stakeholder": {
+      "id": "SpinVoxCompany",
+      "中文名称": "SpinVox公司",
+      "英文名称": "SpinVox Company",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "AIOperator": {
+      "id": "SpinVoxOperator",
+      "中文名称": "SpinVox运营商",
+      "英文名称": "SpinVox Operator",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessToPrivateConversations",
+      "中文名称": "未经授权访问私人对话",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    },
+    "Impact": {
+      "id": "LossOfUserTrust",
+      "中文名称": "用户信任丧失",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Voice technology firm under fire"
+    },
+    "Purpose": {
+      "id": "VoiceMessageTranscription",
+      "中文名称": "语音消息转录",
+      "英文名称": "Voice Message Transcription",
+      "来源": "SpinVox says humans are necessary for time being"
+    },
+    "Domain": {
+      "id": "VoiceTechnology",
+      "中文名称": "语音技术领域",
+      "英文名称": "Technology Domain",
+      "来源": "Voice technology firm under fire"
+    },
+    "RiskSource": {
+      "id": "HumanInvolvementInAIProcess",
+      "中文名称": "AI处理过程中的人类参与",
+      "英文名称": "Human Involvement in AI Process",
+      "来源": "Humans have been listening to our 'AI-transcribed' conversations for over a decade"
+    }
+  }
+}

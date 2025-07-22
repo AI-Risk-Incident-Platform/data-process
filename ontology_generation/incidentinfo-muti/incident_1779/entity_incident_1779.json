@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OcadoWarehouseRobots",
+      "中文名称": "Ocado仓库机器人",
+      "英文名称": "Ocado Warehouse Robots",
+      "来源": "Ocado robots at Andover warehouse ‘hampered’ firefighters"
+    },
+    "Risk": {
+      "id": "FirefightingInterferenceRisk",
+      "中文名称": "消防干扰风险",
+      "英文名称": "Firefighting Interference Risk",
+      "来源": "Ocado robots at Andover warehouse ‘hampered’ firefighters"
+    },
+    "Consequence": {
+      "id": "DelayedEmergencyResponse",
+      "中文名称": "紧急响应延迟后果",
+      "英文名称": "Delayed Emergency Response Consequence",
+      "来源": "Ocado robots at Andover warehouse ‘hampered’ firefighters"
+    },
+    "Stakeholder": {
+      "id": "Firefighters",
+      "中文名称": "消防员",
+      "英文名称": "Firefighters",
+      "来源": "Ocado robots at Andover warehouse ‘hampered’ firefighters"
+    },
+    "Domain": {
+      "id": "WarehouseAutomation",
+      "中文名称": "仓库自动化领域",
+      "英文名称": "Warehouse Automation Domain",
+      "来源": "Ocado robots at Andover warehouse"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:VoiceCloningScamRisk ;
+    airo:hasAISubject ex:ClonedVoiceVictim ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasStakeholder ex:ScamVictims .
+
+ex:VoiceCloningScamRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Cloning Scam Risk"@en ;
+    rdfs:label "语音克隆诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:Scammers .
+
+ex:ScamVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Scam Victims"@en ;
+    rdfs:label "诈骗受害者"@zh .
+
+ex:ClonedVoiceVictim rdf:type airo:AISubject ;
+    rdfs:label "Cloned Voice Victim"@en ;
+    rdfs:label "语音克隆受害者"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress"@en ;
+    rdfs:label "心理困扰"@zh ;
+    airo:hasImpactOnStakeholder ex:ScamVictims .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:Scammers rdf:type airo:RiskSource ;
+    rdfs:label "Scammers"@en ;
+    rdfs:label "诈骗者"@zh .

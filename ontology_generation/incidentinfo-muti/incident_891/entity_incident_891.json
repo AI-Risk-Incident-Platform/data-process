@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Arrested by AI: Police ignore standards after facial recognition matches"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "Wrongful Arrest Risk",
+      "来源": "Arrested by AI: Police ignore standards after facial recognition matches"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Department",
+      "来源": "Police ignore standards after facial recognition matches"
+    },
+    "AISubject": {
+      "id": "ArrestedIndividuals",
+      "中文名称": "被逮捕个人",
+      "英文名称": "Arrested Individuals",
+      "来源": "Arrested by AI"
+    },
+    "Consequence": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯后果",
+      "英文名称": "Civil Rights Violation Consequence",
+      "来源": "Police ignore standards after facial recognition matches"
+    },
+    "RiskSource": {
+      "id": "InadequateStandardsForAIUse",
+      "中文名称": "AI使用标准不足风险源",
+      "英文名称": "Inadequate Standards for AI Use Risk Source",
+      "来源": "Police ignore standards after facial recognition matches"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Police ignore standards after facial recognition matches"
+    }
+  }
+}

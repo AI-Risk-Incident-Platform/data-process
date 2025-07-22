@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbot",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "Risk": {
+      "id": "HarmfulContentRisk",
+      "中文名称": "有害内容风险",
+      "英文名称": "Harmful Content Risk",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "Consequence": {
+      "id": "PotentialSelfHarm",
+      "中文名称": "潜在自残后果",
+      "英文名称": "Potential Self-Harm Consequence",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "Stakeholder": {
+      "id": "ChatbotCompany",
+      "中文名称": "聊天机器人公司",
+      "英文名称": "Chatbot Company",
+      "来源": "the company doesn’t want to 'censor' it"
+    },
+    "RiskSource": {
+      "id": "UnfilteredContentGeneration",
+      "中文名称": "未过滤内容生成风险源",
+      "英文名称": "Unfiltered Content Generation Risk Source",
+      "来源": "the company doesn’t want to 'censor' it"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Mental Health Deterioration Impact",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "Purpose": {
+      "id": "ConversationalInteraction",
+      "中文名称": "对话交互目的",
+      "英文名称": "Conversational Interaction Purpose",
+      "来源": "An AI chatbot told a user how to kill himself"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Natural Language Generation Capability",
+      "来源": "An AI chatbot told a user how to kill himself"
+    }
+  }
+}

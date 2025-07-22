@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIImageGenerationSystem",
+      "中文名称": "AI图像生成系统",
+      "英文名称": "AI Image Generation System",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    },
+    "Risk": {
+      "id": "InappropriateContentGenerationRisk",
+      "中文名称": "不当内容生成风险",
+      "英文名称": "Inappropriate Content Generation Risk",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    },
+    "Consequence": {
+      "id": "InvestigationTriggered",
+      "中文名称": "触发调查的后果",
+      "英文名称": "Investigation Triggered Consequence",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    },
+    "Domain": {
+      "id": "EducationalInstitution",
+      "中文名称": "教育机构领域",
+      "英文名称": "Educational Institution Domain",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministration",
+      "中文名称": "学校管理部门",
+      "英文名称": "School Administration Stakeholder",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害的影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "‘Obscene images’ created using AI at Pennsylvania school prompt investigation"
+    }
+  }
+}

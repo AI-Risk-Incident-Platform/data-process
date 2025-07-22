@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UnConstrainedCollegeStudentsDataset rdf:type airo:AISystem ;
+    rdfs:label "UnConstrained College Students Dataset"@en ;
+    rdfs:label "无约束大学生数据集"@zh ;
+    airo:hasRisk ex:PotentialPrivacyRisk ;
+    airo:hasAISubject ex:CollegeStudents ;
+    airo:isAppliedWithinDomain ex:AcademicResearch .
+
+ex:PotentialPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Privacy Risk"@en ;
+    rdfs:label "潜在隐私风险"@zh .
+
+ex:AcademicResearch rdf:type airo:Domain ;
+    rdfs:label "Academic Research Domain"@en ;
+    rdfs:label "学术研究领域"@zh .
+
+ex:CollegeStudents rdf:type airo:AISubject ;
+    rdfs:label "College Students"@en ;
+    rdfs:label "大学生"@zh .

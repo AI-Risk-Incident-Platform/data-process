@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeRecommendationAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "YouTube推荐算法"@zh ;
+    rdfs:label "YouTube Recommendation Algorithm"@en ;
+    airo:hasRisk ex:ClimateMisinformationRisk ;
+    airo:hasStakeholder ex:YouTubeViewers ;
+    airo:isDeployedBy ex:Google ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform ;
+    airo:hasPurpose ex:ContentEngagementMaximization .
+
+ex:ClimateMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "气候错误信息风险"@zh ;
+    rdfs:label "Climate Misinformation Risk"@en ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasTowardEngagement .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "公众错误信息后果"@zh ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    airo:hasImpact ex:ClimateActionDelay .
+
+ex:ClimateActionDelay rdf:type airo:Impact ;
+    rdfs:label "气候行动延迟影响"@zh ;
+    rdfs:label "Climate Action Delay Impact"@en ;
+    airo:hasImpactOnStakeholder ex:YouTubeViewers .
+
+ex:YouTubeViewers rdf:type airo:Stakeholder ;
+    rdfs:label "YouTube观众"@zh ;
+    rdfs:label "YouTube Viewers"@en .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "谷歌"@zh ;
+    rdfs:label "Google"@en .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platform Domain"@en .
+
+ex:ContentEngagementMaximization rdf:type airo:Purpose ;
+    rdfs:label "内容参与度最大化目的"@zh ;
+    rdfs:label "Content Engagement Maximization Purpose"@en .
+
+ex:AlgorithmicBiasTowardEngagement rdf:type airo:RiskSource ;
+    rdfs:label "偏向参与度的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias Toward Engagement Risk Source"@en .

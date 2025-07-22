@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedContentSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Content System"@en ;
+    rdfs:label "AI生成内容系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:ContentGeneration ;
+    airo:hasStakeholder ex:MenMagazine .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "错误信息风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation .
+
+ex:MenMagazine rdf:type airo:Stakeholder ;
+    rdfs:label "Men's Magazine"@en ;
+    rdfs:label "男性杂志"@zh .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众错误信息后果"@zh .
+
+ex:ContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Content Generation Capability"@en ;
+    rdfs:label "内容生成能力"@zh .

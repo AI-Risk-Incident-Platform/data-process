@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:ExploitationOfLowWageWorkers ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:Sama ;
+    airo:hasPurpose ex:ContentSafetyImprovement .
+
+ex:ExploitationOfLowWageWorkers rdf:type airo:Risk ;
+    rdfs:label "Exploitation of Low-Wage Workers Risk"@en ;
+    rdfs:label "低薪工人剥削风险"@zh ;
+    airo:hasConsequence ex:UnethicalLaborPractices ;
+    airo:isRiskSourceFor ex:LowWageContentModeration .
+
+ex:UnethicalLaborPractices rdf:type airo:Consequence ;
+    rdfs:label "Unethical Labor Practices Consequence"@en ;
+    rdfs:label "不道德劳动实践后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToContentModerators .
+
+ex:PsychologicalHarmToContentModerators rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Content Moderators Impact"@en ;
+    rdfs:label "内容审核员心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Sama .
+
+ex:LowWageContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Low-Wage Content Moderation Risk Source"@en ;
+    rdfs:label "低薪内容审核风险源"@zh .
+
+ex:Sama rdf:type airo:Stakeholder ;
+    rdfs:label "Sama"@en ;
+    rdfs:label "Sama公司"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:ContentSafetyImprovement rdf:type airo:Purpose ;
+    rdfs:label "Content Safety Improvement Purpose"@en ;
+    rdfs:label "内容安全改进目的"@zh .

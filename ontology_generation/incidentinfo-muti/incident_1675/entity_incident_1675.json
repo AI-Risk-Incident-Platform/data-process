@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Detroit woman sues city after being falsely arrested while pregnant due to facial recognition technology"
+    },
+    "Risk": {
+      "id": "FalseArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "False Arrest Risk",
+      "来源": "Pregnant US Woman, Arrested After False Facial Recognition Match, Sues Police"
+    },
+    "Consequence": {
+      "id": "LegalAndEmotionalDistress",
+      "中文名称": "法律和情感困扰后果",
+      "英文名称": "Legal and Emotional Distress Consequence",
+      "来源": "Porcha Woodruff Sues Detroit After Police Arrested Her 8 Months Pregnant"
+    },
+    "AISubject": {
+      "id": "PregnantWoman",
+      "中文名称": "孕妇",
+      "英文名称": "Pregnant Woman",
+      "来源": "Detroit woman sues city after being falsely arrested while pregnant due to facial recognition technology"
+    },
+    "Stakeholder": {
+      "id": "DetroitPoliceDepartment",
+      "中文名称": "底特律警察局",
+      "英文名称": "Detroit Police Department",
+      "来源": "Pregnant US Woman, Arrested After False Facial Recognition Match, Sues Police"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Porcha Woodruff Sues Detroit After Police Arrested Her 8 Months Pregnant"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Facial Recognition Risk Source",
+      "来源": "Pregnant US Woman, Arrested After False Facial Recognition Match, Sues Police"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "Detroit woman sues city after being falsely arrested while pregnant due to facial recognition technology"
+    }
+  }
+}

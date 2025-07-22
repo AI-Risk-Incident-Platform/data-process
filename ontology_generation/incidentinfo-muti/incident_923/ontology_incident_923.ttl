@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornCreationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造色情内容生成系统"@zh ;
+    rdfs:label "Deepfake Porn Creation System"@en ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasStakeholder ex:ItalianPrimeMinisterGiorgiaMeloni .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯与名誉损害风险"@zh ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    airo:hasConsequence ex:PersonalReputationDamage .
+
+ex:ItalianPrimeMinisterGiorgiaMeloni rdf:type airo:Stakeholder ;
+    rdfs:label "意大利总理乔治亚·梅洛尼"@zh ;
+    rdfs:label "Italian Prime Minister Giorgia Meloni"@en .
+
+ex:PersonalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "个人名誉损害影响"@zh ;
+    rdfs:label "Personal Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ItalianPrimeMinisterGiorgiaMeloni .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造图像生成技术"@zh ;
+    rdfs:label "Deepfake Image Generation Technique"@en .

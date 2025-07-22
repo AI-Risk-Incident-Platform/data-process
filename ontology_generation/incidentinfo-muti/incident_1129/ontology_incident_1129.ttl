@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomatedEssayScoringSystem rdf:type airo:AISystem ;
+    rdfs:label "自动论文评分系统"@zh ;
+    rdfs:label "Automated Essay Scoring System"@en ;
+    airo:hasRisk ex:ReliabilityRiskInAutomatedScoring ;
+    airo:hasCapability ex:EssayEvaluationCapability ;
+    airo:isAppliedWithinDomain ex:EducationAssessment ;
+    airo:hasPurpose ex:StandardizedEssayEvaluation .
+
+ex:ReliabilityRiskInAutomatedScoring rdf:type airo:Risk ;
+    rdfs:label "自动评分可靠性风险"@zh ;
+    rdfs:label "Reliability Risk in Automated Scoring"@en .
+
+ex:EssayEvaluationCapability rdf:type airo:AICapability ;
+    rdfs:label "论文评估能力"@zh ;
+    rdfs:label "Essay Evaluation Capability"@en .
+
+ex:EducationAssessment rdf:type airo:Domain ;
+    rdfs:label "教育评估领域"@zh ;
+    rdfs:label "Education Assessment Domain"@en .
+
+ex:StandardizedEssayEvaluation rdf:type airo:Purpose ;
+    rdfs:label "标准化论文评估目的"@zh ;
+    rdfs:label "Standardized Essay Evaluation Purpose"@en .

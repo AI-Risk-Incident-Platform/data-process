@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DoorDashAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "DoorDash Algorithm"@en ;
+    rdfs:label "DoorDash算法"@zh ;
+    airo:hasRisk ex:AlgorithmManipulationRisk ;
+    airo:hasStakeholder ex:DoorDashDrivers ;
+    airo:isDeployedBy ex:DoorDash ;
+    airo:hasPurpose ex:DriverPaymentDetermination ;
+    airo:isAppliedWithinDomain ex:GigEconomy .
+
+ex:AlgorithmManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithm Manipulation Risk"@en ;
+    rdfs:label "算法操纵风险"@zh ;
+    airo:hasConsequence ex:IncreasedPayForDrivers ;
+    airo:isRiskSourceFor ex:OrderCancellationStrategy .
+
+ex:DoorDashDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "DoorDash Drivers"@en ;
+    rdfs:label "DoorDash司机"@zh .
+
+ex:DoorDash rdf:type airo:AIOperator ;
+    rdfs:label "DoorDash"@en ;
+    rdfs:label "DoorDash"@zh .
+
+ex:IncreasedPayForDrivers rdf:type airo:Consequence ;
+    rdfs:label "Increased Pay for Drivers"@en ;
+    rdfs:label "司机收入增加"@zh ;
+    airo:hasImpactOnStakeholder ex:DoorDashDrivers .
+
+ex:OrderCancellationStrategy rdf:type airo:RiskSource ;
+    rdfs:label "Order Cancellation Strategy"@en ;
+    rdfs:label "订单取消策略"@zh .
+
+ex:DriverPaymentDetermination rdf:type airo:Purpose ;
+    rdfs:label "Driver Payment Determination"@en ;
+    rdfs:label "司机薪酬确定"@zh .
+
+ex:GigEconomy rdf:type airo:Domain ;
+    rdfs:label "Gig Economy"@en ;
+    rdfs:label "零工经济"@zh .

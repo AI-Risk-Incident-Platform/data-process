@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "La reconnaissance faciale par IA mène à des arrestations abusives"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "des arrestations abusives"
+    },
+    "Consequence": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "des arrestations abusives"
+    },
+    "AISubject": {
+      "id": "ChristopherGatlin",
+      "中文名称": "克里斯托弗·加特林",
+      "英文名称": "Christopher Gatlin",
+      "来源": "le cas inquiétant de Christopher Gatlin"
+    },
+    "Impact": {
+      "id": "PersonalFreedomDeprivation",
+      "中文名称": "人身自由剥夺影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "des arrestations abusives"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "La reconnaissance faciale par IA mène à des arrestations abusives"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "des arrestations abusives"
+    },
+    "Consequence": {
+      "id": "CivilRightsViolation",
+      "中文名称": "公民权利侵犯后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "des arrestations abusives"
+    },
+    "AISubject": {
+      "id": "ChristopherGatlin",
+      "中文名称": "克里斯托弗·加特林",
+      "英文名称": "Christopher Gatlin",
+      "来源": "le cas inquiétant de Christopher Gatlin"
+    },
+    "Impact": {
+      "id": "PersonalFreedomDeprivation",
+      "中文名称": "人身自由剥夺影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "des arrestations abusives"
+    }
+  }
+}

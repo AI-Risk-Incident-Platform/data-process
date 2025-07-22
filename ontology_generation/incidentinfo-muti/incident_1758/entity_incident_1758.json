@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SafeRent",
+      "中文名称": "SafeRent租赁评估系统",
+      "英文名称": "SafeRent Rental Assessment System",
+      "来源": "SafeRent accused of unfairly labeling Black, Hispanic applicants high-risk"
+    },
+    "Risk": {
+      "id": "RacialBiasInRentalAssessments",
+      "中文名称": "租赁评估中的种族偏见风险",
+      "英文名称": "Racial Bias in Rental Assessments Risk",
+      "来源": "Algorithms Allegedly Penalized Black Renters"
+    },
+    "Consequence": {
+      "id": "HousingDiscrimination",
+      "中文名称": "住房歧视后果",
+      "英文名称": "Housing Discrimination Consequence",
+      "来源": "Automated background checks are deciding who's fit for a home"
+    },
+    "AISubject": {
+      "id": "BlackAndHispanicRentalApplicants",
+      "中文名称": "黑人和西班牙裔租赁申请人",
+      "英文名称": "Black and Hispanic Rental Applicants",
+      "来源": "SafeRent accused of unfairly labeling Black, Hispanic applicants high-risk"
+    },
+    "Stakeholder": {
+      "id": "USGovernment",
+      "中文名称": "美国政府",
+      "英文名称": "US Government",
+      "来源": "The US Government Is Watching"
+    },
+    "Domain": {
+      "id": "RentalHousingMarket",
+      "中文名称": "租赁住房市场领域",
+      "英文名称": "Rental Housing Market Domain",
+      "来源": "Automated background checks are deciding who's fit for a home"
+    },
+    "Impact": {
+      "id": "LimitedHousingOpportunities",
+      "中文名称": "住房机会受限的影响",
+      "英文名称": "Limited Housing Opportunities Impact",
+      "来源": "Algorithms Allegedly Penalized Black Renters"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicScoring",
+      "中文名称": "有偏见的算法评分风险源",
+      "英文名称": "Biased Algorithmic Scoring Risk Source",
+      "来源": "SafeRent accused of unfairly labeling Black, Hispanic applicants high-risk"
+    }
+  }
+}

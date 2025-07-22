@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedImageSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Image System"@en ;
+    rdfs:label "AI生成图像系统"@zh ;
+    airo:hasRisk ex:ScientificPublicationIntegrityRisk ;
+    airo:hasStakeholder ex:FrontiersJournal ;
+    airo:isAppliedWithinDomain ex:ScientificPublishing .
+
+ex:ScientificPublicationIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Scientific Publication Integrity Risk"@en ;
+    rdfs:label "科学出版物完整性风险"@zh ;
+    airo:hasConsequence ex:PublicationOfInaccurateScientificContent ;
+    airo:isRiskSourceFor ex:InadequatePeerReviewProcess .
+
+ex:PublicationOfInaccurateScientificContent rdf:type airo:Consequence ;
+    rdfs:label "Publication of Inaccurate Scientific Content Consequence"@en ;
+    rdfs:label "发布不准确科学内容后果"@zh ;
+    airo:hasImpact ex:ScientificCommunityCredibilityLoss .
+
+ex:FrontiersJournal rdf:type airo:Stakeholder ;
+    rdfs:label "Frontiers Journal"@en ;
+    rdfs:label "前沿期刊"@zh .
+
+ex:ScientificPublishing rdf:type airo:Domain ;
+    rdfs:label "Scientific Publishing Domain"@en ;
+    rdfs:label "科学出版领域"@zh .
+
+ex:InadequatePeerReviewProcess rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Peer Review Process Risk Source"@en ;
+    rdfs:label "同行评审不足风险源"@zh .
+
+ex:ScientificCommunityCredibilityLoss rdf:type airo:Impact ;
+    rdfs:label "Scientific Community Credibility Loss Impact"@en ;
+    rdfs:label "科学界信誉损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FrontiersJournal .

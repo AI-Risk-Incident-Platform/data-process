@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepFakeTomHanksDentalAd rdf:type airo:AISystem ;
+    rdfs:label "汤姆·汉克斯深度伪造牙科广告"@zh ;
+    rdfs:label "Deep Fake Tom Hanks Dental Ad"@en ;
+    airo:hasRisk ex:UnauthorizedCelebrityImageMisuse ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:DentalPlanPromotion ;
+    airo:isAppliedWithinDomain ex:AdvertisingIndustryDomain ;
+    airo:hasStakeholder ex:TomHanks .
+
+ex:UnauthorizedCelebrityImageMisuse rdf:type airo:Risk ;
+    rdfs:label "未经授权的名人形象滥用风险"@zh ;
+    rdfs:label "Unauthorized Celebrity Image Misuse Risk"@en ;
+    airo:hasConsequence ex:CelebrityImageRightsViolation ;
+    airo:isRiskSourceFor ex:UnauthorizedAIUsage .
+
+ex:CelebrityImageRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "名人形象权侵犯后果"@zh ;
+    rdfs:label "Celebrity Image Rights Violation Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:TomHanks rdf:type airo:Stakeholder ;
+    rdfs:label "汤姆·汉克斯"@zh ;
+    rdfs:label "Tom Hanks"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TomHanks .
+
+ex:DentalPlanPromotion rdf:type airo:Purpose ;
+    rdfs:label "牙科保险推广目的"@zh ;
+    rdfs:label "Dental Plan Promotion Purpose"@en .
+
+ex:AdvertisingIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "广告行业领域"@zh ;
+    rdfs:label "Advertising Industry Domain"@en .
+
+ex:UnauthorizedAIUsage rdf:type airo:RiskSource ;
+    rdfs:label "未经授权使用AI的风险源"@zh ;
+    rdfs:label "Unauthorized AI Usage Risk Source"@en .

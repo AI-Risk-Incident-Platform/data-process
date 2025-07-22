@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonQGenerativeAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Amazon Q Generative AI Chatbot"@en ;
+    rdfs:label "亚马逊Q生成式AI聊天机器人"@zh ;
+    airo:hasRisk ex:DataLeakageAndHallucinationRisk ;
+    airo:hasAIOperator ex:Amazon ;
+    airo:hasStakeholder ex:AmazonEmployees ;
+    airo:isAppliedWithinDomain ex:CloudComputingServices ;
+    airo:hasCapability ex:GenerativeAIChatbot .
+
+ex:DataLeakageAndHallucinationRisk rdf:type airo:Risk ;
+    rdfs:label "Data Leakage and Hallucination Risk"@en ;
+    rdfs:label "数据泄露和幻觉风险"@zh ;
+    airo:hasConsequence ex:ConfidentialDataExposure ;
+    airo:isRiskSourceFor ex:SevereHallucinations .
+
+ex:ConfidentialDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Confidential Data Exposure Consequence"@en ;
+    rdfs:label "机密数据暴露后果"@zh ;
+    airo:hasImpact ex:SecurityAndPrivacyBreach .
+
+ex:SecurityAndPrivacyBreach rdf:type airo:Impact ;
+    rdfs:label "Security and Privacy Breach Impact"@en ;
+    rdfs:label "安全和隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonEmployees .
+
+ex:SevereHallucinations rdf:type airo:RiskSource ;
+    rdfs:label "Severe Hallucinations Risk Source"@en ;
+    rdfs:label "严重幻觉风险源"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:AmazonEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Employees"@en ;
+    rdfs:label "亚马逊员工"@zh .
+
+ex:CloudComputingServices rdf:type airo:Domain ;
+    rdfs:label "Cloud Computing Services Domain"@en ;
+    rdfs:label "云计算服务领域"@zh .
+
+ex:GenerativeAIChatbot rdf:type airo:AICapability ;
+    rdfs:label "Generative AI Chatbot Capability"@en ;
+    rdfs:label "生成式AI聊天机器人能力"@zh .

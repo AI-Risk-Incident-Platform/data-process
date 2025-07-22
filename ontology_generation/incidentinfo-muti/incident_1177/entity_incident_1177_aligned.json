@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAdDeliverySystem",
+      "中文名称": "谷歌广告投放系统",
+      "英文名称": "Google Ad System",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "Risk": {
+      "id": "RacialBiasInAdDelivery",
+      "中文名称": "广告投放中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Racial bias alleged in Google’s ad results"
+    },
+    "Stakeholder": {
+      "id": "HarvardUniversityResearchers",
+      "中文名称": "哈佛大学研究人员",
+      "英文名称": "Harvard University Researchers",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "Impact": {
+      "id": "DiscriminatoryAdTargeting",
+      "中文名称": "歧视性广告定向的影响",
+      "英文名称": "Discriminatory Ad Targeting Impact",
+      "来源": "Racism is Poisoning Online Ad Delivery, Says Harvard Professor"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAdTargeting",
+      "中文名称": "广告定向中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Racial bias alleged in Google’s ad results"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "Racial bias alleged in Google’s ad results"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAdDeliverySystem",
+      "中文名称": "谷歌广告投放系统",
+      "英文名称": "Google Ad System",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "Risk": {
+      "id": "RacialBiasInAdDelivery",
+      "中文名称": "广告投放中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Racial bias alleged in Google’s ad results"
+    },
+    "Stakeholder": {
+      "id": "HarvardUniversityResearchers",
+      "中文名称": "哈佛大学研究人员",
+      "英文名称": "Harvard University Researchers",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "Impact": {
+      "id": "DiscriminatoryAdTargeting",
+      "中文名称": "歧视性广告定向的影响",
+      "英文名称": "Discriminatory Ad Targeting Impact",
+      "来源": "Racism is Poisoning Online Ad Delivery, Says Harvard Professor"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Google Ad Delivery Can Show 'Racial Bias,' Says Harvard Study"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInAdTargeting",
+      "中文名称": "广告定向中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Racial bias alleged in Google’s ad results"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "Racial bias alleged in Google’s ad results"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbots",
+      "来源": "AI chatbots distort and mislead when asked about current affairs, BBC finds"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "误导信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "AI chatbots distort and mislead when asked about current affairs"
+    },
+    "Consequence": {
+      "id": "InaccurateNewsSummarization",
+      "中文名称": "新闻摘要不准确后果",
+      "英文名称": "Inaccurate News Summarization Consequence",
+      "来源": "AI chatbots unable to accurately summarise news"
+    },
+    "AICapability": {
+      "id": "NewsSummarizationCapability",
+      "中文名称": "新闻摘要能力",
+      "英文名称": "News Summarization Capability",
+      "来源": "ChatGPT and Google Gemini are terrible at summarizing news"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Consumers",
+      "来源": "AI chatbots distort and mislead when asked about current affairs"
+    },
+    "RiskSource": {
+      "id": "TrainingDataLimitations",
+      "中文名称": "训练数据限制风险源",
+      "英文名称": "Training Data Limitations Risk Source",
+      "来源": "ChatGPT and Google Gemini are terrible at summarizing news"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众误导信息影响",
+      "英文名称": "Public Misinformation Impact",
+      "来源": "AI chatbots distort and mislead when asked about current affairs"
+    }
+  }
+}

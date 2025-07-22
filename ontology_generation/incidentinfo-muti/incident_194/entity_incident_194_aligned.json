@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DWPBenefitFraudAlgorithm",
+      "中文名称": "DWP福利欺诈算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "DWP urged to reveal algorithm that ‘targets’ disabled for benefit fraud"
+    },
+    "Risk": {
+      "id": "DiscriminatoryTargetingRisk",
+      "中文名称": "歧视性目标定位风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Legal letter asks DWP for information on ‘discriminatory’ secret algorithm"
+    },
+    "Stakeholder": {
+      "id": "DisabledBenefitClaimants",
+      "中文名称": "残疾福利申请人",
+      "英文名称": "Disabled Benefit Seekers",
+      "来源": "DWP urged to reveal algorithm that ‘targets’ disabled for benefit fraud"
+    },
+    "AIOperator": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部门",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP bosses quizzed by MPs over secret benefit fraud algorithm"
+    },
+    "Impact": {
+      "id": "UnjustBenefitDenial",
+      "中文名称": "不公正福利拒绝的影响",
+      "英文名称": "Unjust Benefit Denial Impact",
+      "来源": "Legal letter asks DWP for information on ‘discriminatory’ secret algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DWPBenefitFraudAlgorithm",
+      "中文名称": "DWP福利欺诈算法",
+      "英文名称": "Benefit Fraud Detection Algorithm",
+      "来源": "DWP urged to reveal algorithm that ‘targets’ disabled for benefit fraud"
+    },
+    "Risk": {
+      "id": "DiscriminatoryTargetingRisk",
+      "中文名称": "歧视性目标定位风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Legal letter asks DWP for information on ‘discriminatory’ secret algorithm"
+    },
+    "Stakeholder": {
+      "id": "DisabledBenefitClaimants",
+      "中文名称": "残疾福利申请人",
+      "英文名称": "Disabled Benefit Seekers",
+      "来源": "DWP urged to reveal algorithm that ‘targets’ disabled for benefit fraud"
+    },
+    "AIOperator": {
+      "id": "DepartmentForWorkAndPensions",
+      "中文名称": "工作和养老金部门",
+      "英文名称": "Department for Work and Pensions",
+      "来源": "DWP bosses quizzed by MPs over secret benefit fraud algorithm"
+    },
+    "Impact": {
+      "id": "UnjustBenefitDenial",
+      "中文名称": "不公正福利拒绝的影响",
+      "英文名称": "Unjust Benefit Denial Impact",
+      "来源": "Legal letter asks DWP for information on ‘discriminatory’ secret algorithm"
+    }
+  }
+}

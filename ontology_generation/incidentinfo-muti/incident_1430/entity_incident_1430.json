@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Brasil abraza con fervor el reconocimiento facial en medio de la polémica por los errores"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "错误识别风险",
+      "英文名称": "Misidentification Risk",
+      "来源": "Torcedor do Confiança relata ter sido conduzido pela PM por erro de reconhecimento facial"
+    },
+    "Consequence": {
+      "id": "WrongfulDetention",
+      "中文名称": "错误拘留后果",
+      "英文名称": "Wrongful Detention Consequence",
+      "来源": "Torcedor relata abordagem policial constrangedora durante o Sergipão"
+    },
+    "AISubject": {
+      "id": "FootballFans",
+      "中文名称": "足球迷",
+      "英文名称": "Football Fans",
+      "来源": "Torcedor do Confiança relata ter sido conduzido pela PM por erro de reconhecimento facial"
+    },
+    "Stakeholder": {
+      "id": "MilitaryPolice",
+      "中文名称": "军警",
+      "英文名称": "Military Police",
+      "来源": "Torcedor do Confiança relata ter sido conduzido pela PM por erro de reconhecimento facial"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "Torcedor relata abordagem policial constrangedora durante o Sergipão"
+    },
+    "Purpose": {
+      "id": "PublicSecurityMonitoring",
+      "中文名称": "公共安全监控目的",
+      "英文名称": "Public Security Monitoring Purpose",
+      "来源": "Brasil abraza con fervor el reconocimiento facial en medio de la polémica por los errores"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Security Domain",
+      "来源": "Brasil abraza con fervor el reconocimiento facial en medio de la polémica por los errores"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误风险源",
+      "英文名称": "Algorithmic Error Risk Source",
+      "来源": "Torcedor do Confiança relata ter sido conduzido pela PM por erro de reconhecimento facial"
+    }
+  }
+}

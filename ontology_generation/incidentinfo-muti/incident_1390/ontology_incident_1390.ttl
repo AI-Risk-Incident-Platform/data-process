@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftFaceRecognitionDataset rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Face Recognition Dataset"@en ;
+    rdfs:label "微软人脸识别数据集"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasAISubject ex:IndividualsInFacialDatasets ;
+    airo:hasStakeholder ex:DukeUniversityStudents ;
+    airo:hasVulnerability ex:EthicalOversightGaps .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfFacialData ;
+    airo:isRiskSourceFor ex:LackOfConsentInDataCollection .
+
+ex:DukeUniversityStudents rdf:type airo:Stakeholder ;
+    rdfs:label "Duke University Students"@en ;
+    rdfs:label "杜克大学学生"@zh .
+
+ex:UnauthorizedUseOfFacialData rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Facial Data Consequence"@en ;
+    rdfs:label "面部数据未经授权使用的后果"@zh ;
+    airo:hasImpact ex:LossOfPersonalPrivacy .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Privacy Impact"@en ;
+    rdfs:label "个人隐私丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DukeUniversityStudents .
+
+ex:LackOfConsentInDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Consent in Data Collection Risk Source"@en ;
+    rdfs:label "数据收集中缺乏同意的风险源"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:IndividualsInFacialDatasets rdf:type airo:AISubject ;
+    rdfs:label "Individuals in Facial Datasets"@en ;
+    rdfs:label "面部数据集中的个人"@zh .
+
+ex:EthicalOversightGaps rdf:type airo:Vulnerability ;
+    rdfs:label "Ethical Oversight Gaps Vulnerability"@en ;
+    rdfs:label "伦理监督缺失的脆弱性"@zh .

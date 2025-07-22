@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TelanganaFoodDistributionAlgorithm",
+      "中文名称": "特伦甘纳食品分发算法",
+      "英文名称": "Telangana Food Distribution Algorithm",
+      "来源": "AI rolled out in India declares people dead, denies food to thousands"
+    },
+    "Risk": {
+      "id": "InaccurateBenefitDenialRisk",
+      "中文名称": "福利错误剥夺风险",
+      "英文名称": "Inaccurate Benefit Denial Risk",
+      "来源": "How an algorithm denied food to thousands of poor in India's Telangana"
+    },
+    "Consequence": {
+      "id": "FoodInsecurityForVulnerablePopulations",
+      "中文名称": "弱势群体粮食不安全后果",
+      "英文名称": "Food Insecurity for Vulnerable Populations Consequence",
+      "来源": "denies food to thousands"
+    },
+    "AISubject": {
+      "id": "PoorResidentsOfTelangana",
+      "中文名称": "特伦甘纳贫困居民",
+      "英文名称": "Poor Residents of Telangana",
+      "来源": "denied food to thousands of poor in India's Telangana"
+    },
+    "Impact": {
+      "id": "SocialDisempowerment",
+      "中文名称": "社会权利剥夺影响",
+      "英文名称": "Social Disempowerment Impact",
+      "来源": "does it lead to privacy concerns and social disempowerment?"
+    },
+    "Domain": {
+      "id": "PublicWelfareDistribution",
+      "中文名称": "公共福利分配领域",
+      "英文名称": "Public Welfare Distribution Domain",
+      "来源": "denies food to thousands"
+    },
+    "RiskSource": {
+      "id": "FaultyDataInputs",
+      "中文名称": "错误数据输入风险源",
+      "英文名称": "Faulty Data Inputs Risk Source",
+      "来源": "declares people dead"
+    },
+    "Stakeholder": {
+      "id": "TelanganaGovernment",
+      "中文名称": "特伦甘纳政府",
+      "英文名称": "Telangana Government",
+      "来源": "AI rolled out in India"
+    }
+  }
+}

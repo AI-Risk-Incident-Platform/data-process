@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTMacApp",
+      "中文名称": "ChatGPT Mac应用",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI’s ChatGPT Mac app was storing conversations in plain text"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "storing conversations in plain text"
+    },
+    "RiskSource": {
+      "id": "PlainTextStorage",
+      "中文名称": "明文存储",
+      "英文名称": "Plain Text Storage",
+      "来源": "storing conversations in plain text"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问",
+      "英文名称": "Unauthorized Data Access",
+      "来源": "storing conversations in plain text"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "storing conversations in plain text"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s ChatGPT Mac app"
+    },
+    "AISubject": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "storing conversations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTMacApp",
+      "中文名称": "ChatGPT Mac应用",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI’s ChatGPT Mac app was storing conversations in plain text"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "storing conversations in plain text"
+    },
+    "RiskSource": {
+      "id": "PlainTextStorage",
+      "中文名称": "明文存储",
+      "英文名称": "Plain Text Storage",
+      "来源": "storing conversations in plain text"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataAccess",
+      "中文名称": "未经授权的数据访问",
+      "英文名称": "Unauthorized Data Access",
+      "来源": "storing conversations in plain text"
+    },
+    "Impact": {
+      "id": "UserPrivacyCompromise",
+      "中文名称": "用户隐私泄露",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "storing conversations in plain text"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI’s ChatGPT Mac app"
+    },
+    "AISubject": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "storing conversations"
+    }
+  }
+}

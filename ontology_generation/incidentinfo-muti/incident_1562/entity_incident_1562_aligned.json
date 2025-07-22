@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NateShoppingApp",
+      "中文名称": "Nate购物应用",
+      "英文名称": "Nate Shopping App",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAI",
+      "中文名称": "AI虚假宣传风险",
+      "英文名称": "Misrepresentation of AI Risk",
+      "来源": "Go read this report on an AI shopping app that was actually just using humans"
+    },
+    "Stakeholder": {
+      "id": "CoatueInvestors",
+      "中文名称": "Coatue投资者",
+      "英文名称": "Coatue Investors",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    },
+    "Misuse": {
+      "id": "HumanLaborDisguisedAsAI",
+      "中文名称": "人工劳动伪装成AI",
+      "英文名称": "Human Labor Disguised as AI Misuse",
+      "来源": "Go read this report on an AI shopping app that was actually just using humans"
+    },
+    "Consequence": {
+      "id": "AppFeatureDisabling",
+      "中文名称": "应用功能停用后果",
+      "英文名称": "App Feature Disabling Consequence",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NateShoppingApp",
+      "中文名称": "Nate购物应用",
+      "英文名称": "Nate Shopping App",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAI",
+      "中文名称": "AI虚假宣传风险",
+      "英文名称": "Misrepresentation of AI Risk",
+      "来源": "Go read this report on an AI shopping app that was actually just using humans"
+    },
+    "Stakeholder": {
+      "id": "CoatueInvestors",
+      "中文名称": "Coatue投资者",
+      "英文名称": "Coatue Investors",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    },
+    "Misuse": {
+      "id": "HumanLaborDisguisedAsAI",
+      "中文名称": "人工劳动伪装成AI",
+      "英文名称": "Human Labor Disguised as AI Misuse",
+      "来源": "Go read this report on an AI shopping app that was actually just using humans"
+    },
+    "Consequence": {
+      "id": "AppFeatureDisabling",
+      "中文名称": "应用功能停用后果",
+      "英文名称": "App Feature Disabling Consequence",
+      "来源": "Coatue-Backed 'AI' Shopping Startup Nate Has Slashed Most Staff and Disabled Key Features of its App"
+    }
+  }
+}

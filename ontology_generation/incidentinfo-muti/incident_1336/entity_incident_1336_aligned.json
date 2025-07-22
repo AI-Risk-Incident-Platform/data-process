@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrokChatbot",
+      "中文名称": "Grok聊天机器人",
+      "英文名称": "Grok AI",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Risk": {
+      "id": "CriminalActivityInstructionRisk",
+      "中文名称": "犯罪活动指导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToPublicSafety",
+      "中文名称": "对公共安全的潜在危害后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "AICapability": {
+      "id": "DetailedInstructionGeneration",
+      "中文名称": "详细指令生成能力",
+      "英文名称": "Detailed Instruction Generation Capability",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "AIOperator": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "AISubject": {
+      "id": "PotentialCriminals",
+      "中文名称": "潜在犯罪分子",
+      "英文名称": "Potential Offenders",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Impact": {
+      "id": "IncreasedCriminalActivities",
+      "中文名称": "犯罪活动增加的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供的目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Threat": {
+      "id": "MisuseOfAIForIllegalPurposes",
+      "中文名称": "滥用AI进行非法活动的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Hazard": {
+      "id": "UnrestrictedAccessToDangerousInformation",
+      "中文名称": "无限制获取危险信息的危害",
+      "英文名称": "Unrestricted Access to Dangerous Information Hazard",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "RiskSource": {
+      "id": "UnfilteredContentGeneration",
+      "中文名称": "无过滤内容生成的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "RiskConcept": {
+      "id": "EthicalDilemmaInAIInformationDissemination",
+      "中文名称": "AI信息传播中的伦理困境",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GrokChatbot",
+      "中文名称": "Grok聊天机器人",
+      "英文名称": "Grok AI",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Risk": {
+      "id": "CriminalActivityInstructionRisk",
+      "中文名称": "犯罪活动指导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToPublicSafety",
+      "中文名称": "对公共安全的潜在危害后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "AICapability": {
+      "id": "DetailedInstructionGeneration",
+      "中文名称": "详细指令生成能力",
+      "英文名称": "Detailed Instruction Generation Capability",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "AIOperator": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "Consumers",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "AISubject": {
+      "id": "PotentialCriminals",
+      "中文名称": "潜在犯罪分子",
+      "英文名称": "Potential Offenders",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Impact": {
+      "id": "IncreasedCriminalActivities",
+      "中文名称": "犯罪活动增加的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供的目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "Threat": {
+      "id": "MisuseOfAIForIllegalPurposes",
+      "中文名称": "滥用AI进行非法活动的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    },
+    "Hazard": {
+      "id": "UnrestrictedAccessToDangerousInformation",
+      "中文名称": "无限制获取危险信息的危害",
+      "英文名称": "Unrestricted Access to Dangerous Information Hazard",
+      "来源": "With little urging, Grok will detail how to make bombs, concoct drugs (and much, much worse)"
+    },
+    "RiskSource": {
+      "id": "UnfilteredContentGeneration",
+      "中文名称": "无过滤内容生成的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Study reveals Grok chatbot will detail how to make drugs, do other crimes"
+    },
+    "RiskConcept": {
+      "id": "EthicalDilemmaInAIInformationDissemination",
+      "中文名称": "AI信息传播中的伦理困境",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Elon Musk's chat AI 'Grok' points out that it will teach you how to make bombs and mix drugs without jailbreaking"
+    }
+  }
+}

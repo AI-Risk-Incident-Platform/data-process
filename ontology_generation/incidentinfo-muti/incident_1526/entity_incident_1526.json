@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HaryanaFamilyIDSystem",
+      "中文名称": "哈里亚纳邦家庭ID系统",
+      "英文名称": "Haryana Family ID System",
+      "来源": "Haryana’s Family ID declared thousands of people dead, halted their pension"
+    },
+    "Risk": {
+      "id": "FalseDeathDeclarationRisk",
+      "中文名称": "错误死亡声明风险",
+      "英文名称": "False Death Declaration Risk",
+      "来源": "Thousands in India go to great lengths to prove they are alive after being ‘killed’ by an algorithm"
+    },
+    "Consequence": {
+      "id": "PensionHaltConsequence",
+      "中文名称": "养老金停发后果",
+      "英文名称": "Pension Halt Consequence",
+      "来源": "Haryana’s Family ID declared thousands of people dead, halted their pension"
+    },
+    "AISubject": {
+      "id": "PensionRecipients",
+      "中文名称": "养老金领取者",
+      "英文名称": "Pension Recipients",
+      "来源": "Thousands in India go to great lengths to prove they are alive after being ‘killed’ by an algorithm"
+    },
+    "Impact": {
+      "id": "FinancialHardshipImpact",
+      "中文名称": "经济困难影响",
+      "英文名称": "Financial Hardship Impact",
+      "来源": "Thousands in India go to great lengths to prove they are alive after being ‘killed’ by an algorithm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmError",
+      "中文名称": "算法错误",
+      "英文名称": "Algorithm Error",
+      "来源": "In India, an algorithm declares them dead. They have to prove they’re alive"
+    }
+  }
+}

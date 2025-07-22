@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramAlgorithm",
+      "中文名称": "Instagram算法",
+      "英文名称": "Instagram Algorithm",
+      "来源": "Instagram's algorithm 'prioritises photos of semi-nude men and women', study claims"
+    },
+    "Risk": {
+      "id": "ContentPrioritizationBiasRisk",
+      "中文名称": "内容优先排序偏见风险",
+      "英文名称": "Content Prioritization Bias Risk",
+      "来源": "Instagram's algorithm 'prioritises photos of semi-nude men and women'"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Content Recommendation Algorithm Capability",
+      "来源": "algorithm 'prioritises photos of semi-nude men and women'"
+    },
+    "Stakeholder": {
+      "id": "InstagramUsers",
+      "中文名称": "Instagram用户",
+      "英文名称": "Instagram Users",
+      "来源": "implied by the platform's user base"
+    },
+    "Consequence": {
+      "id": "ExposureToSensitiveContent",
+      "中文名称": "接触敏感内容后果",
+      "英文名称": "Exposure to Sensitive Content Consequence",
+      "来源": "prioritises photos of semi-nude men and women"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInContentSelection",
+      "中文名称": "内容选择中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Content Selection Risk Source",
+      "来源": "algorithm 'prioritises photos of semi-nude men and women'"
+    }
+  }
+}

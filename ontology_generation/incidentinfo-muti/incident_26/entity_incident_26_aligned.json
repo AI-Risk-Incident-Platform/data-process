@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFactoryAutomationSystem",
+      "中文名称": "特斯拉工厂自动化系统",
+      "英文名称": "Tesla Factory Automation System",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Risk": {
+      "id": "OverAutomationRisk",
+      "中文名称": "过度自动化风险",
+      "英文名称": "Automation Worker Replacement Risk",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Consequence": {
+      "id": "ProductionDelays",
+      "中文名称": "生产延误后果",
+      "英文名称": "Delay Consequences",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Stakeholder": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Impact": {
+      "id": "EconomicLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "RiskSource": {
+      "id": "HumanUnderestimation",
+      "中文名称": "人类能力低估风险源",
+      "英文名称": "Human Underestimation Risk Source",
+      "来源": "overestimating automation, underestimating humans"
+    },
+    "AIOperator": {
+      "id": "TeslaManufacturingTeam",
+      "中文名称": "特斯拉制造团队",
+      "英文名称": "Tesla Manufacturing Team",
+      "来源": "The robots are killing Tesla"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFactoryAutomationSystem",
+      "中文名称": "特斯拉工厂自动化系统",
+      "英文名称": "Tesla Factory Automation System",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Risk": {
+      "id": "OverAutomationRisk",
+      "中文名称": "过度自动化风险",
+      "英文名称": "Automation Worker Replacement Risk",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Consequence": {
+      "id": "ProductionDelays",
+      "中文名称": "生产延误后果",
+      "英文名称": "Delay Consequences",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Stakeholder": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "Impact": {
+      "id": "EconomicLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    },
+    "RiskSource": {
+      "id": "HumanUnderestimation",
+      "中文名称": "人类能力低估风险源",
+      "英文名称": "Human Underestimation Risk Source",
+      "来源": "overestimating automation, underestimating humans"
+    },
+    "AIOperator": {
+      "id": "TeslaManufacturingTeam",
+      "中文名称": "特斯拉制造团队",
+      "英文名称": "Tesla Manufacturing Team",
+      "来源": "The robots are killing Tesla"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla’s Factory Woes Reveals Why You Shouldn’t Automate Everything"
+    }
+  }
+}

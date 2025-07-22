@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShamMarriageScreeningAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Sham Marriage Screening Algorithm"@en ;
+    rdfs:label "假结婚筛查算法"@zh ;
+    airo:hasRisk ex:DiscriminationRiskInMarriageScreening ;
+    airo:hasStakeholder ex:UKGovernment ;
+    airo:isAppliedWithinDomain ex:GovernmentServices ;
+    airo:isDeployedBy ex:UKOfficials ;
+    airo:hasPurpose ex:MarriageLicenseScreening .
+
+ex:DiscriminationRiskInMarriageScreening rdf:type airo:Risk ;
+    rdfs:label "Discrimination Risk in Marriage Screening"@en ;
+    rdfs:label "婚姻筛查中的歧视风险"@zh .
+
+ex:UKGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "UK Government"@en ;
+    rdfs:label "英国政府"@zh .
+
+ex:GovernmentServices rdf:type airo:Domain ;
+    rdfs:label "Government Services"@en ;
+    rdfs:label "政府服务"@zh .
+
+ex:UKOfficials rdf:type airo:AIOperator ;
+    rdfs:label "UK Officials"@en ;
+    rdfs:label "英国官员"@zh .
+
+ex:MarriageLicenseScreening rdf:type airo:Purpose ;
+    rdfs:label "Marriage License Screening"@en ;
+    rdfs:label "婚姻许可证筛查"@zh .

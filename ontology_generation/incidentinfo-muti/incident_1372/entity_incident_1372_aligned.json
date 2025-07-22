@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAISora",
+      "中文名称": "OpenAI Sora",
+      "英文名称": "Sora Video Tool",
+      "来源": "What is OpenAI's Sora? The text-to-video tool explained and how you can use it"
+    },
+    "Risk": {
+      "id": "GenerationOfHarmfulContent",
+      "中文名称": "生成有害内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Generation of harmful content"
+    },
+    "AICapability": {
+      "id": "TextToVideoGeneration",
+      "中文名称": "文本到视频生成能力",
+      "英文名称": "Text-to-Video Generation",
+      "来源": "The text-to-video tool explained"
+    },
+    "AITechnique": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "text-to-video tool"
+    },
+    "Purpose": {
+      "id": "ContentCreation",
+      "中文名称": "内容创作目的",
+      "英文名称": "Content Generation",
+      "来源": "how you can use it"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAISora",
+      "中文名称": "OpenAI Sora",
+      "英文名称": "Sora Video Tool",
+      "来源": "What is OpenAI's Sora? The text-to-video tool explained and how you can use it"
+    },
+    "Risk": {
+      "id": "GenerationOfHarmfulContent",
+      "中文名称": "生成有害内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Generation of harmful content"
+    },
+    "AICapability": {
+      "id": "TextToVideoGeneration",
+      "中文名称": "文本到视频生成能力",
+      "英文名称": "Text-to-Video Generation",
+      "来源": "The text-to-video tool explained"
+    },
+    "AITechnique": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "text-to-video tool"
+    },
+    "Purpose": {
+      "id": "ContentCreation",
+      "中文名称": "内容创作目的",
+      "英文名称": "Content Generation",
+      "来源": "how you can use it"
+    }
+  }
+}

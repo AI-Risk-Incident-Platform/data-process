@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchAI",
+      "中文名称": "谷歌搜索AI",
+      "英文名称": "Google Search AI",
+      "来源": "Google's Search AI Makes Disgusting Recommendation for Parents of Toddlers"
+    },
+    "Risk": {
+      "id": "InappropriateParentingAdviceRisk",
+      "中文名称": "不当育儿建议风险",
+      "英文名称": "Inappropriate Parenting Advice Risk",
+      "来源": "Google's Search AI Suggests Smearing Fecal Matter on Balloon to Potty Train Children"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToChildDevelopment",
+      "中文名称": "对儿童发展的潜在危害后果",
+      "英文名称": "Potential Harm to Child Development Consequence",
+      "来源": "Suggests Smearing Fecal Matter on Balloon to Potty Train Children"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Content Recommendation Algorithm Capability",
+      "来源": "Google's Search AI Makes Disgusting Recommendation"
+    },
+    "Stakeholder": {
+      "id": "ParentsOfToddlers",
+      "中文名称": "幼儿父母",
+      "英文名称": "Parents of Toddlers",
+      "来源": "Makes Disgusting Recommendation for Parents of Toddlers"
+    },
+    "Impact": {
+      "id": "ChildHealthAndSafetyConcerns",
+      "中文名称": "儿童健康与安全问题影响",
+      "英文名称": "Child Health and Safety Concerns Impact",
+      "来源": "Suggests Smearing Fecal Matter on Balloon to Potty Train Children"
+    },
+    "RiskSource": {
+      "id": "UnverifiedOnlineContent",
+      "中文名称": "未经核实的在线内容风险源",
+      "英文名称": "Unverified Online Content Risk Source",
+      "来源": "Google's Search AI Makes Disgusting Recommendation"
+    },
+    "Purpose": {
+      "id": "ProvidingParentingAdvice",
+      "中文名称": "提供育儿建议的目的",
+      "英文名称": "Providing Parenting Advice Purpose",
+      "来源": "Recommendation for Parents of Toddlers"
+    }
+  }
+}

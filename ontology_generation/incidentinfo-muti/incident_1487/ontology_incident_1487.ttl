@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SariRealTimeFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Sari Real-Time Facial Recognition System"@en ;
+    rdfs:label "Sari实时面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyPolicyNonComplianceRisk ;
+    airo:isDeployedBy ex:SariRealTimeOperator ;
+    airo:hasStakeholder ex:ItalianDataProtectionAuthority ;
+    airo:isAppliedWithinDomain ex:PublicSecuritySurveillance .
+
+ex:PrivacyPolicyNonComplianceRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Policy Non-Compliance Risk"@en ;
+    rdfs:label "隐私政策不合规风险"@zh ;
+    airo:hasConsequence ex:SystemDeploymentBlockage ;
+    airo:isRiskSourceFor ex:LackOfPrivacyComplianceMechanisms .
+
+ex:ItalianDataProtectionAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "Italian Data Protection Authority"@en ;
+    rdfs:label "意大利数据保护机构"@zh .
+
+ex:SariRealTimeOperator rdf:type airo:AIOperator ;
+    rdfs:label "Sari Real-Time Operator"@en ;
+    rdfs:label "Sari实时系统运营商"@zh .
+
+ex:SystemDeploymentBlockage rdf:type airo:Consequence ;
+    rdfs:label "System Deployment Blockage Consequence"@en ;
+    rdfs:label "系统部署受阻后果"@zh ;
+    airo:hasImpact ex:PrivacyRightsViolation .
+
+ex:PrivacyRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Rights Violation Impact"@en ;
+    rdfs:label "隐私权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ItalianDataProtectionAuthority .
+
+ex:LackOfPrivacyComplianceMechanisms rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Privacy Compliance Mechanisms Risk Source"@en ;
+    rdfs:label "缺乏隐私合规机制风险源"@zh .
+
+ex:PublicSecuritySurveillance rdf:type airo:Domain ;
+    rdfs:label "Public Security Surveillance Domain"@en ;
+    rdfs:label "公共安全监控领域"@zh .

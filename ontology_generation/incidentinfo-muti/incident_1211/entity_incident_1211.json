@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SiriVoiceAssistant",
+      "中文名称": "Siri语音助手",
+      "英文名称": "Siri Voice Assistant",
+      "来源": "Apple to pay $95m to settle Siri 'listening' lawsuit"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Apple to pay $95m to settle claims Siri listened to users’ private conversations"
+    },
+    "Consequence": {
+      "id": "FinancialPenalty",
+      "中文名称": "经济处罚后果",
+      "英文名称": "Financial Penalty Consequence",
+      "来源": "Apple to pay $95m to settle Siri 'listening' lawsuit"
+    },
+    "Stakeholder": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple Inc.",
+      "来源": "Apple to pay $95m to settle Siri 'listening' lawsuit"
+    },
+    "AIOperator": {
+      "id": "AppleAsAIOperator",
+      "中文名称": "作为AI运营商的苹果",
+      "英文名称": "Apple as AI Operator",
+      "来源": "Apple to pay $95m to settle Siri 'listening' lawsuit"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度下降的影响",
+      "英文名称": "User Trust Erosion Impact",
+      "来源": "Apple to pay $95m to settle claims Siri listened to users’ private conversations"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedVoiceRecording",
+      "中文名称": "未经授权的语音记录风险源",
+      "英文名称": "Unauthorized Voice Recording Risk Source",
+      "来源": "Apple to pay $95m to settle claims Siri listened to users’ private conversations"
+    },
+    "Purpose": {
+      "id": "VoiceCommandProcessing",
+      "中文名称": "语音命令处理的目的",
+      "英文名称": "Voice Command Processing Purpose",
+      "来源": "Apple Siri Eavesdropping Payout — Here’s Who’s Eligible And How To Claim"
+    }
+  }
+}

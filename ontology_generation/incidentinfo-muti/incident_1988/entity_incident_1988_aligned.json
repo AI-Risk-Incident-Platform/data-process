@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IJB-CDataset",
+      "中文名称": "IARPA Janus Benchmark C数据集",
+      "英文名称": "IARPA Janus Benchmark C Dataset",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Risk": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Domain": {
+      "id": "Biometrics",
+      "中文名称": "生物识别领域",
+      "英文名称": "Biometric Domain",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Purpose": {
+      "id": "FacialRecognitionBenchmarking",
+      "中文名称": "面部识别基准测试目的",
+      "英文名称": "Facial Recognition Benchmarking Purpose",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Stakeholder": {
+      "id": "IARPA",
+      "中文名称": "美国情报高级研究计划局",
+      "英文名称": "IARPA",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "RiskSource": {
+      "id": "PersonalDataCollection",
+      "中文名称": "个人数据收集风险源",
+      "英文名称": "Personal Data Collection Risk Source",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Impact": {
+      "id": "IndividualPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "IJB-CDataset",
+      "中文名称": "IARPA Janus Benchmark C数据集",
+      "英文名称": "IARPA Janus Benchmark C Dataset",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Risk": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私问题风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Domain": {
+      "id": "Biometrics",
+      "中文名称": "生物识别领域",
+      "英文名称": "Biometric Domain",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Purpose": {
+      "id": "FacialRecognitionBenchmarking",
+      "中文名称": "面部识别基准测试目的",
+      "英文名称": "Facial Recognition Benchmarking Purpose",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Stakeholder": {
+      "id": "IARPA",
+      "中文名称": "美国情报高级研究计划局",
+      "英文名称": "IARPA",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "RiskSource": {
+      "id": "PersonalDataCollection",
+      "中文名称": "个人数据收集风险源",
+      "英文名称": "Personal Data Collection Risk Source",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    },
+    "Impact": {
+      "id": "IndividualPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "IARPA Janus Benchmark C (IJB-C) Dataset Privacy Concerns"
+    }
+  }
+}

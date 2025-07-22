@@ -1,0 +1,150 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonProductRecommendationAlgorithm",
+      "中文名称": "亚马逊产品推荐算法",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Amazon's algorithm suggests products for suicide attempts"
+    },
+    "Risk": {
+      "id": "HarmfulProductRecommendationRisk",
+      "中文名称": "有害产品推荐风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Consequence": {
+      "id": "PotentialFacilitationOfSelfHarm",
+      "中文名称": "潜在助长自残行为的后果",
+      "英文名称": "Self-Harm Promotion Consequence",
+      "来源": "suggests products for suicide attempts"
+    },
+    "AICapability": {
+      "id": "ProductRecommendationBasedOnUserBehavior",
+      "中文名称": "基于用户行为的产品推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon's algorithm"
+    },
+    "Stakeholder": {
+      "id": "OnlineShoppersWithMentalHealthIssues",
+      "中文名称": "有心理健康问题的在线购物者",
+      "英文名称": "Online Shoppers with Mental Health Issues",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Impact": {
+      "id": "IncreasedRiskOfSelfHarmBehavior",
+      "中文名称": "增加自残行为风险的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Purpose": {
+      "id": "PersonalizedProductRecommendation",
+      "中文名称": "个性化产品推荐的目的",
+      "英文名称": "Personalized Content Purpose",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "AITechnique": {
+      "id": "CollaborativeFilteringAlgorithm",
+      "中文名称": "协同过滤算法",
+      "英文名称": "Collaborative Filtering Algorithm Technique",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentScreeningForSensitiveProducts",
+      "中文名称": "缺乏对敏感产品的内容筛查的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "suggests products for suicide attempts"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyGuardrailsInRecommendationSystem",
+      "中文名称": "推荐系统中安全护栏不足的风险源",
+      "英文名称": "Inadequate Safety Guardrails in Recommendation System Risk Source",
+      "来源": "suggests products for suicide attempts"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonProductRecommendationAlgorithm",
+      "中文名称": "亚马逊产品推荐算法",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Amazon's algorithm suggests products for suicide attempts"
+    },
+    "Risk": {
+      "id": "HarmfulProductRecommendationRisk",
+      "中文名称": "有害产品推荐风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Consequence": {
+      "id": "PotentialFacilitationOfSelfHarm",
+      "中文名称": "潜在助长自残行为的后果",
+      "英文名称": "Self-Harm Promotion Consequence",
+      "来源": "suggests products for suicide attempts"
+    },
+    "AICapability": {
+      "id": "ProductRecommendationBasedOnUserBehavior",
+      "中文名称": "基于用户行为的产品推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon's algorithm"
+    },
+    "Stakeholder": {
+      "id": "OnlineShoppersWithMentalHealthIssues",
+      "中文名称": "有心理健康问题的在线购物者",
+      "英文名称": "Online Shoppers with Mental Health Issues",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Impact": {
+      "id": "IncreasedRiskOfSelfHarmBehavior",
+      "中文名称": "增加自残行为风险的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "suggests products for suicide attempts"
+    },
+    "Purpose": {
+      "id": "PersonalizedProductRecommendation",
+      "中文名称": "个性化产品推荐的目的",
+      "英文名称": "Personalized Content Purpose",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "Domain": {
+      "id": "ECommercePlatform",
+      "中文名称": "电子商务平台领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "AITechnique": {
+      "id": "CollaborativeFilteringAlgorithm",
+      "中文名称": "协同过滤算法",
+      "英文名称": "Collaborative Filtering Algorithm Technique",
+      "来源": "Amazon's algorithm suggests products"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentScreeningForSensitiveProducts",
+      "中文名称": "缺乏对敏感产品的内容筛查的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "suggests products for suicide attempts"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyGuardrailsInRecommendationSystem",
+      "中文名称": "推荐系统中安全护栏不足的风险源",
+      "英文名称": "Inadequate Safety Guardrails in Recommendation System Risk Source",
+      "来源": "suggests products for suicide attempts"
+    }
+  }
+}

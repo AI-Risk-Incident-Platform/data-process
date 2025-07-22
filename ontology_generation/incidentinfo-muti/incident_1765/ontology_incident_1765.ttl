@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MoviePassEyeTrackingSystem rdf:type airo:AISystem ;
+    rdfs:label "MoviePass Eye Tracking System"@en ;
+    rdfs:label "MoviePass眼球追踪系统"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:hasAICapability ex:EyeTrackingForAdVerification ;
+    airo:hasStakeholder ex:MoviePassSubscribers ;
+    airo:isDeployedBy ex:MoviePassCompany ;
+    airo:hasPurpose ex:AdRevenueGeneration ;
+    airo:isAppliedWithinDomain ex:EntertainmentSubscriptionServices ;
+    airo:usesTechnique ex:RealTimeEyeTracking .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UserBehaviorMonitoring ;
+    airo:isRiskSourceFor ex:IntrusiveAdVerification .
+
+ex:EyeTrackingForAdVerification rdf:type airo:AICapability ;
+    rdfs:label "Eye Tracking for Ad Verification Capability"@en ;
+    rdfs:label "广告验证的眼球追踪能力"@zh .
+
+ex:MoviePassSubscribers rdf:type airo:Stakeholder ;
+    rdfs:label "MoviePass Subscribers"@en ;
+    rdfs:label "MoviePass订阅用户"@zh .
+
+ex:MoviePassCompany rdf:type airo:AIOperator ;
+    rdfs:label "MoviePass Company"@en ;
+    rdfs:label "MoviePass公司"@zh .
+
+ex:AdRevenueGeneration rdf:type airo:Purpose ;
+    rdfs:label "Ad Revenue Generation Purpose"@en ;
+    rdfs:label "广告收入生成目的"@zh .
+
+ex:EntertainmentSubscriptionServices rdf:type airo:Domain ;
+    rdfs:label "Entertainment Subscription Services Domain"@en ;
+    rdfs:label "娱乐订阅服务领域"@zh .
+
+ex:RealTimeEyeTracking rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Eye Tracking Technique"@en ;
+    rdfs:label "实时眼球追踪技术"@zh .
+
+ex:UserBehaviorMonitoring rdf:type airo:Consequence ;
+    rdfs:label "User Behavior Monitoring Consequence"@en ;
+    rdfs:label "用户行为监控后果"@zh ;
+    airo:hasImpact ex:ReducedPrivacyForUsers .
+
+ex:ReducedPrivacyForUsers rdf:type airo:Impact ;
+    rdfs:label "Reduced Privacy for Users Impact"@en ;
+    rdfs:label "用户隐私减少影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MoviePassSubscribers .
+
+ex:IntrusiveAdVerification rdf:type airo:RiskSource ;
+    rdfs:label "Intrusive Ad Verification Risk Source"@en ;
+    rdfs:label "侵入式广告验证风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfUserConsentOptions .
+
+ex:LackOfUserConsentOptions rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of User Consent Options Vulnerability"@en ;
+    rdfs:label "缺乏用户同意选项的脆弱性"@zh .

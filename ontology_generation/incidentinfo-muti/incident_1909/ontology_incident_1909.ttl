@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIComedySpecialGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Comedy Special Generator"@en ;
+    rdfs:label "AI喜剧特辑生成器"@zh ;
+    airo:hasRisk ex:CelebrityLikenessMisuseRisk ;
+    airo:hasPurpose ex:EntertainmentContentCreation ;
+    airo:isDeployedBy ex:PodcastCreators ;
+    airo:hasStakeholder ex:GeorgeCarlinEstate ;
+    airo:isAppliedWithinDomain ex:DigitalEntertainmentIndustry .
+
+ex:CelebrityLikenessMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Celebrity Likeness Misuse Risk"@en ;
+    rdfs:label "名人肖像滥用风险"@zh ;
+    airo:hasConsequence ex:LegalDisputeOverIntellectualProperty ;
+    airo:isRiskSourceFor ex:UnauthorizedUseOfCelebrityLikeness .
+
+ex:GeorgeCarlinEstate rdf:type airo:Stakeholder ;
+    rdfs:label "George Carlin Estate"@en ;
+    rdfs:label "乔治·卡林遗产管理方"@zh .
+
+ex:PodcastCreators rdf:type airo:AIOperator ;
+    rdfs:label "Podcast Creators"@en ;
+    rdfs:label "播客创作者"@zh .
+
+ex:LegalDisputeOverIntellectualProperty rdf:type airo:Consequence ;
+    rdfs:label "Legal Dispute Over Intellectual Property Consequence"@en ;
+    rdfs:label "知识产权法律纠纷后果"@zh ;
+    airo:hasImpact ex:ReputationDamageToDeceasedCelebrity .
+
+ex:ReputationDamageToDeceasedCelebrity rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage to Deceased Celebrity Impact"@en ;
+    rdfs:label "已故名人声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeorgeCarlinEstate .
+
+ex:EntertainmentContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Entertainment Content Creation Purpose"@en ;
+    rdfs:label "娱乐内容创作目的"@zh .
+
+ex:DigitalEntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Digital Entertainment Industry Domain"@en ;
+    rdfs:label "数字娱乐产业领域"@zh .
+
+ex:UnauthorizedUseOfCelebrityLikeness rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Use of Celebrity Likeness Risk Source"@en ;
+    rdfs:label "未经授权使用名人肖像风险源"@zh .

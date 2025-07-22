@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceCloningScamSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Cloning Scam System"@en ;
+    rdfs:label "AI语音克隆诈骗系统"@zh ;
+    airo:hasRisk ex:FakeKidnappingScamRisk ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasStakeholder ex:TelecomCompanies .
+
+ex:FakeKidnappingScamRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Kidnapping Scam Risk"@en ;
+    rdfs:label "虚假绑架诈骗风险"@zh ;
+    airo:hasConsequence ex:PsychologicalDistressToVictims .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:TelecomCompanies rdf:type airo:Stakeholder ;
+    rdfs:label "Telecom Companies"@en ;
+    rdfs:label "电信公司"@zh .
+
+ex:PsychologicalDistressToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Distress to Victims Consequence"@en ;
+    rdfs:label "受害者心理困扰后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosionInCommunicationSystems .
+
+ex:PublicTrustErosionInCommunicationSystems rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion in Communication Systems Impact"@en ;
+    rdfs:label "公众对通信系统信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TelecomCompanies .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingAI",
+      "中文名称": "必应AI",
+      "英文名称": "Bing AI",
+      "来源": "New Lawsuit Against Bing Based on Allegedly AI-Hallucinated Libelous Statements"
+    },
+    "Risk": {
+      "id": "LibelRisk",
+      "中文名称": "诽谤风险",
+      "英文名称": "Libel Risk",
+      "来源": "Allegedly AI-Hallucinated Libelous Statements"
+    },
+    "Consequence": {
+      "id": "LegalLiability",
+      "中文名称": "法律责任后果",
+      "英文名称": "Legal Liability Consequence",
+      "来源": "New Lawsuit Against Bing"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Content Generation Capability",
+      "来源": "AI-Hallucinated Libelous Statements"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统",
+      "英文名称": "Legal System",
+      "来源": "New Lawsuit Against Bing"
+    }
+  }
+}

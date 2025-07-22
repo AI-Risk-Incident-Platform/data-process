@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT made up research claiming guns aren’t harmful to kids."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "ChatGPT made up research claiming guns aren’t harmful to kids."
+    },
+    "Consequence": {
+      "id": "HarmfulBeliefsAboutGunSafety",
+      "中文名称": "关于枪支安全的有害信念后果",
+      "英文名称": "Harmful Beliefs About Gun Safety Consequence",
+      "来源": "claiming guns aren’t harmful to kids"
+    },
+    "AICapability": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text Generation Capability",
+      "来源": "ChatGPT made up research"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "claiming guns aren’t harmful to kids"
+    },
+    "Impact": {
+      "id": "PotentialHarmToChildren",
+      "中文名称": "对儿童的潜在伤害影响",
+      "英文名称": "Potential Harm to Children Impact",
+      "来源": "claiming guns aren’t harmful to kids"
+    },
+    "Purpose": {
+      "id": "InformationGeneration",
+      "中文名称": "信息生成目的",
+      "英文名称": "Information Generation Purpose",
+      "来源": "ChatGPT made up research"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生领域",
+      "英文名称": "Public Health Domain",
+      "来源": "claiming guns aren’t harmful to kids"
+    },
+    "RiskSource": {
+      "id": "InaccurateDataGeneration",
+      "中文名称": "不准确数据生成风险源",
+      "英文名称": "Inaccurate Data Generation Risk Source",
+      "来源": "ChatGPT made up research"
+    }
+  }
+}

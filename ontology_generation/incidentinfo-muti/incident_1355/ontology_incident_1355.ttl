@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAISystem rdf:type airo:AISystem ;
+    rdfs:label "Google AI System"@en ;
+    rdfs:label "谷歌AI系统"@zh ;
+    airo:hasRisk ex:IncreasedCarbonEmissionsRisk ;
+    airo:hasCapability ex:LargeScaleDataProcessingCapability ;
+    airo:hasPurpose ex:EnhancingSearchAndServicesPurpose ;
+    airo:isAppliedWithinDomain ex:InternetServicesDomain ;
+    airo:usesTechnique ex:DeepLearningTechnique ;
+    airo:hasStakeholder ex:GoldmanSachs .
+
+ex:IncreasedCarbonEmissionsRisk rdf:type airo:Risk ;
+    rdfs:label "Increased Carbon Emissions Risk"@en ;
+    rdfs:label "碳排放增加风险"@zh ;
+    airo:hasConsequence ex:HigherEnergyConsumptionConsequence ;
+    airo:isRiskSourceFor ex:HighComputeRequirementsRiskSource .
+
+ex:HigherEnergyConsumptionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Higher Energy Consumption Consequence"@en ;
+    rdfs:label "能源消耗增加后果"@zh ;
+    airo:hasImpact ex:EnvironmentalImpact .
+
+ex:LargeScaleDataProcessingCapability rdf:type airo:AICapability ;
+    rdfs:label "Large-Scale Data Processing Capability"@en ;
+    rdfs:label "大规模数据处理能力"@zh .
+
+ex:GoldmanSachs rdf:type airo:Stakeholder ;
+    rdfs:label "Goldman Sachs"@en ;
+    rdfs:label "高盛集团"@zh .
+
+ex:EnvironmentalImpact rdf:type airo:Impact ;
+    rdfs:label "Environmental Impact"@en ;
+    rdfs:label "环境影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoldmanSachs .
+
+ex:EnhancingSearchAndServicesPurpose rdf:type airo:Purpose ;
+    rdfs:label "Enhancing Search and Services Purpose"@en ;
+    rdfs:label "增强搜索和服务的目的"@zh .
+
+ex:InternetServicesDomain rdf:type airo:Domain ;
+    rdfs:label "Internet Services Domain"@en ;
+    rdfs:label "互联网服务领域"@zh .
+
+ex:DeepLearningTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Technique"@en ;
+    rdfs:label "深度学习技术"@zh .
+
+ex:HighComputeRequirementsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "High Compute Requirements Risk Source"@en ;
+    rdfs:label "高计算需求风险源"@zh .

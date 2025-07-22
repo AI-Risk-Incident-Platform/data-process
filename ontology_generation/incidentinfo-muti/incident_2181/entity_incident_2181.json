@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProctoringApps",
+      "中文名称": "监考应用程序",
+      "英文名称": "Proctoring Apps",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Risk": {
+      "id": "UnnecessarySurveillanceRisk",
+      "中文名称": "不必要的监控风险",
+      "英文名称": "Unnecessary Surveillance Risk",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    },
+    "Purpose": {
+      "id": "AcademicIntegrityMonitoring",
+      "中文名称": "学术诚信监控",
+      "英文名称": "Academic Integrity Monitoring",
+      "来源": "Proctoring Apps Subject Students to Unnecessary Surveillance"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NetflixDocumentaryAI",
+      "中文名称": "Netflix纪录片AI",
+      "英文名称": "Netflix Documentary AI",
+      "来源": "Netflix Doc ‘What Jennifer Did’ Uses AI Images to Create False Historical Record"
+    },
+    "Risk": {
+      "id": "FalseHistoricalRecordCreation",
+      "中文名称": "虚假历史记录创建风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Netflix doc accused of using AI to manipulate true crime story"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfHistoricalEvents",
+      "中文名称": "历史事件误传后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Netflix embroiled in alleged AI scandal with What Jennifer Did"
+    },
+    "Stakeholder": {
+      "id": "Netflix",
+      "中文名称": "Netflix",
+      "英文名称": "Netflix",
+      "来源": "Netflix doc accused of using AI to manipulate true crime story"
+    },
+    "AITechnique": {
+      "id": "AIImages",
+      "中文名称": "AI图像",
+      "英文名称": "AI Images",
+      "来源": "Netflix Doc ‘What Jennifer Did’ Uses AI Images to Create False Historical Record"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Netflix embroiled in alleged AI scandal with What Jennifer Did"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NetflixDocumentaryAI",
+      "中文名称": "Netflix纪录片AI",
+      "英文名称": "Netflix Documentary AI",
+      "来源": "Netflix Doc ‘What Jennifer Did’ Uses AI Images to Create False Historical Record"
+    },
+    "Risk": {
+      "id": "FalseHistoricalRecordCreation",
+      "中文名称": "虚假历史记录创建风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Netflix doc accused of using AI to manipulate true crime story"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfHistoricalEvents",
+      "中文名称": "历史事件误传后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Netflix embroiled in alleged AI scandal with What Jennifer Did"
+    },
+    "Stakeholder": {
+      "id": "Netflix",
+      "中文名称": "Netflix",
+      "英文名称": "Netflix",
+      "来源": "Netflix doc accused of using AI to manipulate true crime story"
+    },
+    "AITechnique": {
+      "id": "AIImages",
+      "中文名称": "AI图像",
+      "英文名称": "AI Images",
+      "来源": "Netflix Doc ‘What Jennifer Did’ Uses AI Images to Create False Historical Record"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Netflix embroiled in alleged AI scandal with What Jennifer Did"
+    }
+  }
+}

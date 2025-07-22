@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GovernmentDecisionMakingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Government Decision Making Algorithm"@en ;
+    rdfs:label "政府决策算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInGovernmentDecisions ;
+    airo:hasStakeholder ex:GovernmentAgencies ;
+    airo:isAppliedWithinDomain ex:PublicSectorDecisionMaking .
+
+ex:AlgorithmicBiasInGovernmentDecisions rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Government Decisions Risk"@en ;
+    rdfs:label "政府决策中的算法偏见风险"@zh .
+
+ex:PublicSectorDecisionMaking rdf:type airo:Domain ;
+    rdfs:label "Public Sector Decision Making Domain"@en ;
+    rdfs:label "公共部门决策领域"@zh .
+
+ex:GovernmentAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Government Agencies"@en ;
+    rdfs:label "政府机构"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonDevice",
+      "中文名称": "亚马逊设备",
+      "英文名称": "Amazon Device",
+      "来源": "Woman says her Amazon device recorded private conversation, sent it out to random contact"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Woman says her Amazon device recorded private conversation, sent it out to random contact"
+    },
+    "Consequence": {
+      "id": "PrivateConversationLeak",
+      "中文名称": "私人对话泄露后果",
+      "英文名称": "Private Conversation Leak Consequence",
+      "来源": "sent it out to random contact"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Personal Privacy Compromise Impact",
+      "来源": "recorded private conversation"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon device"
+    },
+    "AISubject": {
+      "id": "DeviceUser",
+      "中文名称": "设备使用者",
+      "英文名称": "Device User",
+      "来源": "Woman says her Amazon device recorded private conversation"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedRecording",
+      "中文名称": "未经授权的录音风险源",
+      "英文名称": "Unauthorized Recording Risk Source",
+      "来源": "recorded private conversation"
+    },
+    "Vulnerability": {
+      "id": "VoiceActivationVulnerability",
+      "中文名称": "语音激活漏洞",
+      "英文名称": "Voice Activation Vulnerability",
+      "来源": "recorded private conversation"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk ;
+    airo:usesTechnique ex:DeepLearningBasedImageManipulation ;
+    airo:hasAISubject ex:SportsSchoolStudents ;
+    airo:hasStakeholder ex:SingaporePolice ;
+    airo:isAppliedWithinDomain ex:EducationAndSports .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    rdfs:label "隐私侵犯和声誉损害风险"@zh ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfakeTechnology ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Victims Consequence"@en ;
+    rdfs:label "对受害者的心理伤害后果"@zh ;
+    airo:hasImpact ex:SocialStigmaAndEmbarrassment .
+
+ex:SportsSchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "Sports School Students"@en ;
+    rdfs:label "体育学校学生"@zh .
+
+ex:SingaporePolice rdf:type airo:Stakeholder ;
+    rdfs:label "Singapore Police"@en ;
+    rdfs:label "新加坡警方"@zh .
+
+ex:SocialStigmaAndEmbarrassment rdf:type airo:Impact ;
+    rdfs:label "Social Stigma and Embarrassment Impact"@en ;
+    rdfs:label "社会污名和尴尬影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SportsSchoolStudents .
+
+ex:EducationAndSports rdf:type airo:Domain ;
+    rdfs:label "Education and Sports Domain"@en ;
+    rdfs:label "教育和体育领域"@zh .
+
+ex:DeepLearningBasedImageManipulation rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Image Manipulation Technique"@en ;
+    rdfs:label "基于深度学习的图像处理技术"@zh .
+
+ex:MaliciousUseOfDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of Deepfake Technology Risk Source"@en ;
+    rdfs:label "深度伪造技术的恶意使用风险源"@zh .

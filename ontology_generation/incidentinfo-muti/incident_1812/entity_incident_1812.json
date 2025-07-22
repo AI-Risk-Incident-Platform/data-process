@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookVoiceTranscriptionSystem",
+      "中文名称": "Facebook语音转录系统",
+      "英文名称": "Facebook Voice Transcription System",
+      "来源": "Facebook paid people to listen to and transcribe your voice clips"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Facebook paid people to listen to and transcribe your voice clips"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "your voice clips"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook paid people to listen to and transcribe your voice clips"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessToPersonalData",
+      "中文名称": "未经授权访问个人数据",
+      "英文名称": "Unauthorized Access to Personal Data",
+      "来源": "paid people to listen to and transcribe your voice clips"
+    },
+    "Impact": {
+      "id": "LossOfUserTrust",
+      "中文名称": "用户信任丧失",
+      "英文名称": "Loss of User Trust",
+      "来源": "paid people to listen to and transcribe your voice clips"
+    }
+  }
+}

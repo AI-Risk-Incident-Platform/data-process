@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIHolocaustDenialTechnology rdf:type airo:AISystem ;
+    rdfs:label "AI大屠杀否认技术"@zh ;
+    rdfs:label "AI Holocaust Denial Technology"@en ;
+    airo:hasRisk ex:HistoricalDistortionRisk ;
+    airo:isAppliedWithinDomain ex:HistoricalEducation ;
+    airo:hasStakeholder ex:UNESCO .
+
+ex:HistoricalDistortionRisk rdf:type airo:Risk ;
+    rdfs:label "历史扭曲风险"@zh ;
+    rdfs:label "Historical Distortion Risk"@en ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:AIgeneratedFalseContent .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "错误信息传播后果"@zh ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    airo:hasImpact ex:HistoricalTruthErosion .
+
+ex:HistoricalTruthErosion rdf:type airo:Impact ;
+    rdfs:label "历史真相侵蚀影响"@zh ;
+    rdfs:label "Historical Truth Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:UNESCO .
+
+ex:UNESCO rdf:type airo:Stakeholder ;
+    rdfs:label "联合国教科文组织"@zh ;
+    rdfs:label "UNESCO"@en .
+
+ex:HistoricalEducation rdf:type airo:Domain ;
+    rdfs:label "历史教育领域"@zh ;
+    rdfs:label "Historical Education Domain"@en .
+
+ex:AIgeneratedFalseContent rdf:type airo:RiskSource ;
+    rdfs:label "AI生成的虚假内容风险源"@zh ;
+    rdfs:label "AI-generated False Content Risk Source"@en .

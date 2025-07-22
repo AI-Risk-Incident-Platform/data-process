@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GitHubCopilot",
+      "中文名称": "GitHub Copilot",
+      "英文名称": "Copilot",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "Risk": {
+      "id": "CodeCopyrightInfringementRisk",
+      "中文名称": "代码版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "Stakeholder": {
+      "id": "GitHubUsers",
+      "中文名称": "GitHub用户",
+      "英文名称": "GitHub Users",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "RiskSource": {
+      "id": "UnlicensedCodeUsage",
+      "中文名称": "未经授权的代码使用",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "AITechnique": {
+      "id": "CodeGenerationAI",
+      "中文名称": "代码生成AI",
+      "英文名称": "Code Generation AI",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GitHubCopilot",
+      "中文名称": "GitHub Copilot",
+      "英文名称": "Copilot",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "Risk": {
+      "id": "CodeCopyrightInfringementRisk",
+      "中文名称": "代码版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "Stakeholder": {
+      "id": "GitHubUsers",
+      "中文名称": "GitHub用户",
+      "英文名称": "GitHub Users",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    },
+    "RiskSource": {
+      "id": "UnlicensedCodeUsage",
+      "中文名称": "未经授权的代码使用",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "GitHub Users Say Microsoft Ripped Off Their Code For AI Tool"
+    },
+    "AITechnique": {
+      "id": "CodeGenerationAI",
+      "中文名称": "代码生成AI",
+      "英文名称": "Code Generation AI",
+      "来源": "Microsoft’s Controversial GitHub Copilot Now Facing a Lawsuit"
+    }
+  }
+}

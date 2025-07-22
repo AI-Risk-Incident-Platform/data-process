@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:XanthoroxAI rdf:type airo:AISystem ;
+    rdfs:label "Xanthorox AI"@en ;
+    rdfs:label "Xanthorox AI"@zh ;
+    airo:hasRisk ex:MaliciousAIThreat ;
+    airo:hasCapability ex:CustomizableHackingTools ;
+    airo:isAppliedWithinDomain ex:Darknet ;
+    airo:hasStakeholder ex:Hackers .
+
+ex:MaliciousAIThreat rdf:type airo:Risk ;
+    rdfs:label "Malicious AI Threat Risk"@en ;
+    rdfs:label "恶意AI威胁风险"@zh ;
+    airo:isRiskSourceFor ex:CustomizableAIForMaliciousPurposes ;
+    airo:hasImpact ex:IncreasedCybercrime .
+
+ex:CustomizableHackingTools rdf:type airo:AICapability ;
+    rdfs:label "Customizable Hacking Tools Capability"@en ;
+    rdfs:label "可定制黑客工具的能力"@zh .
+
+ex:Darknet rdf:type airo:Domain ;
+    rdfs:label "Darknet Domain"@en ;
+    rdfs:label "暗网领域"@zh .
+
+ex:Hackers rdf:type airo:Stakeholder ;
+    rdfs:label "Hackers"@en ;
+    rdfs:label "黑客"@zh .
+
+ex:CustomizableAIForMaliciousPurposes rdf:type airo:RiskSource ;
+    rdfs:label "Customizable AI for Malicious Purposes Risk Source"@en ;
+    rdfs:label "可定制AI用于恶意目的的风险源"@zh .
+
+ex:IncreasedCybercrime rdf:type airo:Impact ;
+    rdfs:label "Increased Cybercrime Impact"@en ;
+    rdfs:label "网络犯罪增加的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Hackers .

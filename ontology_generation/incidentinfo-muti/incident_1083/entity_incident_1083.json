@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Microsoft says facial recognition firm that Beijing allegedly uses to track Muslims is lying about a ‘partnership’"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Chinese company leaves Muslim-tracking facial recognition database exposed online"
+    },
+    "Stakeholder": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft says facial recognition firm that Beijing allegedly uses to track Muslims is lying about a ‘partnership’"
+    },
+    "AISubject": {
+      "id": "Muslims",
+      "中文名称": "穆斯林",
+      "英文名称": "Muslims",
+      "来源": "Microsoft says facial recognition firm that Beijing allegedly uses to track Muslims is lying about a ‘partnership’"
+    },
+    "Impact": {
+      "id": "TrackingAndSurveillance",
+      "中文名称": "追踪和监视的影响",
+      "英文名称": "Tracking and Surveillance Impact",
+      "来源": "Chinese company leaves Muslim-tracking facial recognition database exposed online"
+    },
+    "RiskSource": {
+      "id": "ExposedDatabase",
+      "中文名称": "暴露的数据库",
+      "英文名称": "Exposed Database",
+      "来源": "Chinese company leaves Muslim-tracking facial recognition database exposed online"
+    }
+  }
+}

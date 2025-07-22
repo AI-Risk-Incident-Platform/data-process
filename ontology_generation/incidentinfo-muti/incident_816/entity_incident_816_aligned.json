@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ProKYCDeepfakeTool",
+      "中文名称": "ProKYC深度伪造工具",
+      "英文名称": "ProKYC Deepfake Tool",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "Risk": {
+      "id": "AccountFraudRisk",
+      "中文名称": "账户欺诈风险",
+      "英文名称": "Account Security Risk",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Account Fraud Attacks"
+    },
+    "Stakeholder": {
+      "id": "FinancialInstitutions",
+      "中文名称": "金融机构",
+      "英文名称": "Financial Entities",
+      "来源": "Account Fraud Attacks"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Tool"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationBypass",
+      "中文名称": "身份验证绕过",
+      "英文名称": "Identity Verification Bypass",
+      "来源": "Account Fraud Attacks"
+    },
+    "Domain": {
+      "id": "FinancialSecurity",
+      "中文名称": "金融安全领域",
+      "英文名称": "Financial Security Domain",
+      "来源": "Account Fraud Attacks"
+    },
+    "Impact": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Account Fraud Attacks"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ProKYCDeepfakeTool",
+      "中文名称": "ProKYC深度伪造工具",
+      "英文名称": "ProKYC Deepfake Tool",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "Risk": {
+      "id": "AccountFraudRisk",
+      "中文名称": "账户欺诈风险",
+      "英文名称": "Account Security Risk",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "ProKYC Selling Deepfake Tool for Account Fraud Attacks"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Account Fraud Attacks"
+    },
+    "Stakeholder": {
+      "id": "FinancialInstitutions",
+      "中文名称": "金融机构",
+      "英文名称": "Financial Entities",
+      "来源": "Account Fraud Attacks"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Tool"
+    },
+    "Purpose": {
+      "id": "IdentityVerificationBypass",
+      "中文名称": "身份验证绕过",
+      "英文名称": "Identity Verification Bypass",
+      "来源": "Account Fraud Attacks"
+    },
+    "Domain": {
+      "id": "FinancialSecurity",
+      "中文名称": "金融安全领域",
+      "英文名称": "Financial Security Domain",
+      "来源": "Account Fraud Attacks"
+    },
+    "Impact": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Account Fraud Attacks"
+    }
+  }
+}

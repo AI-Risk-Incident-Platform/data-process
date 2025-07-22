@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LinkedInProfileFaceGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "LinkedIn Profile Face Generation System"@en ;
+    rdfs:label "LinkedIn个人资料头像生成系统"@zh ;
+    airo:hasRisk ex:FakeProfileCreationRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:isDevelopedBy ex:DelhiFirm ;
+    airo:hasPurpose ex:AutomatedProfileCreation ;
+    airo:hasStakeholder ex:LinkedInUsers .
+
+ex:FakeProfileCreationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Profile Creation Risk"@en ;
+    rdfs:label "虚假个人资料创建风险"@zh ;
+    airo:hasConsequence ex:TrustErosionInProfessionalNetworks .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:LinkedInUsers rdf:type airo:Stakeholder ;
+    rdfs:label "LinkedIn Users"@en ;
+    rdfs:label "LinkedIn用户"@zh .
+
+ex:DelhiFirm rdf:type airo:AIDeveloper ;
+    rdfs:label "Delhi Firm"@en ;
+    rdfs:label "德里公司"@zh .
+
+ex:TrustErosionInProfessionalNetworks rdf:type airo:Consequence ;
+    rdfs:label "Trust Erosion in Professional Networks Consequence"@en ;
+    rdfs:label "专业网络信任度下降后果"@zh ;
+    airo:hasImpact ex:ProfessionalIdentityFraud .
+
+ex:ProfessionalIdentityFraud rdf:type airo:Impact ;
+    rdfs:label "Professional Identity Fraud Impact"@en ;
+    rdfs:label "职业身份欺诈影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LinkedInUsers .
+
+ex:AutomatedProfileCreation rdf:type airo:Purpose ;
+    rdfs:label "Automated Profile Creation Purpose"@en ;
+    rdfs:label "自动化个人资料创建目的"@zh .

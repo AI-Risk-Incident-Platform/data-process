@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWrittenArticlesSystem",
+      "中文名称": "AI撰写文章系统",
+      "英文名称": "AI Content Generator",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Experts are raising alarm"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "AIOperator": {
+      "id": "LocalNewsNetwork",
+      "中文名称": "地方新闻网络",
+      "英文名称": "Local News Network",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "Consequence": {
+      "id": "LossOfTrustInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Experts are raising alarm"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "publishing AI-written articles"
+    },
+    "Domain": {
+      "id": "Journalism",
+      "中文名称": "新闻业",
+      "英文名称": "Media and Publishing",
+      "来源": "A national network of local news sites"
+    },
+    "RiskSource": {
+      "id": "FakeBylines",
+      "中文名称": "虚假署名",
+      "英文名称": "Fake Bylines",
+      "来源": "publishing AI-written articles under fake bylines"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIWrittenArticlesSystem",
+      "中文名称": "AI撰写文章系统",
+      "英文名称": "AI Content Generator",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Experts are raising alarm"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "AIOperator": {
+      "id": "LocalNewsNetwork",
+      "中文名称": "地方新闻网络",
+      "英文名称": "Local News Network",
+      "来源": "A national network of local news sites is publishing AI-written articles under fake bylines."
+    },
+    "Consequence": {
+      "id": "LossOfTrustInMedia",
+      "中文名称": "媒体信任度下降",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Experts are raising alarm"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成",
+      "英文名称": "Content Generation",
+      "来源": "publishing AI-written articles"
+    },
+    "Domain": {
+      "id": "Journalism",
+      "中文名称": "新闻业",
+      "英文名称": "Media and Publishing",
+      "来源": "A national network of local news sites"
+    },
+    "RiskSource": {
+      "id": "FakeBylines",
+      "中文名称": "虚假署名",
+      "英文名称": "Fake Bylines",
+      "来源": "publishing AI-written articles under fake bylines"
+    }
+  }
+}

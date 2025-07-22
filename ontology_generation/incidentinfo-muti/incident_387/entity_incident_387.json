@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookHateSpeechDetectionSystem",
+      "中文名称": "Facebook仇恨言论检测系统",
+      "英文名称": "Facebook Hate Speech Detection System",
+      "来源": "In a 3rd test, Facebook still fails to block hate speech"
+    },
+    "Risk": {
+      "id": "HateSpeechPropagationRisk",
+      "中文名称": "仇恨言论传播风险",
+      "英文名称": "Hate Speech Propagation Risk",
+      "来源": "Facebook still fails to block hate speech"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook still fails to block hate speech"
+    },
+    "Consequence": {
+      "id": "HarmfulContentExposure",
+      "中文名称": "有害内容暴露后果",
+      "英文名称": "Harmful Content Exposure Consequence",
+      "来源": "Facebook still fails to block hate speech"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Social Harm Impact",
+      "来源": "Facebook still fails to block hate speech"
+    },
+    "Purpose": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核目的",
+      "英文名称": "Content Moderation Purpose",
+      "来源": "Facebook still fails to block hate speech"
+    },
+    "AITechnique": {
+      "id": "AutomatedContentFiltering",
+      "中文名称": "自动化内容过滤技术",
+      "英文名称": "Automated Content Filtering Technique",
+      "来源": "Facebook still fails to block hate speech"
+    }
+  }
+}

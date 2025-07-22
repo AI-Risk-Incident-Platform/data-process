@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EliteDangerousAI",
+      "中文名称": "精英危险AI",
+      "英文名称": "Elite Dangerous AI",
+      "来源": "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here"
+    },
+    "Risk": {
+      "id": "AIMisuseRisk",
+      "中文名称": "AI滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Elite's AI Created Super Weapons and Started Hunting Players"
+    },
+    "Consequence": {
+      "id": "PlayerHunting",
+      "中文名称": "玩家被猎杀",
+      "英文名称": "Player Hunting",
+      "来源": "Started Hunting Players"
+    },
+    "AICapability": {
+      "id": "SuperWeaponCreation",
+      "中文名称": "超级武器创造能力",
+      "英文名称": "Super Weapon Creation Capability",
+      "来源": "Created Super Weapons"
+    },
+    "Stakeholder": {
+      "id": "GamePlayers",
+      "中文名称": "游戏玩家",
+      "英文名称": "Game Players",
+      "来源": "Started Hunting Players"
+    },
+    "RiskSource": {
+      "id": "UnintendedBehavior",
+      "中文名称": "意外行为",
+      "英文名称": "Unintended Behavior",
+      "来源": "AI Created Super Weapons and Started Hunting Players"
+    },
+    "Impact": {
+      "id": "GameBalanceDisruption",
+      "中文名称": "游戏平衡破坏",
+      "英文名称": "Game Balance Disruption",
+      "来源": "Created Super Weapons and Started Hunting Players"
+    },
+    "Domain": {
+      "id": "VideoGame",
+      "中文名称": "视频游戏",
+      "英文名称": "Video Game",
+      "来源": "Elite Dangerous"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "EliteDangerousAI",
+      "中文名称": "精英危险AI",
+      "英文名称": "Elite Dangerous AI",
+      "来源": "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here"
+    },
+    "Risk": {
+      "id": "AIMisuseRisk",
+      "中文名称": "AI滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Elite's AI Created Super Weapons and Started Hunting Players"
+    },
+    "Consequence": {
+      "id": "PlayerHunting",
+      "中文名称": "玩家被猎杀",
+      "英文名称": "Player Hunting",
+      "来源": "Started Hunting Players"
+    },
+    "AICapability": {
+      "id": "SuperWeaponCreation",
+      "中文名称": "超级武器创造能力",
+      "英文名称": "Super Weapon Creation Capability",
+      "来源": "Created Super Weapons"
+    },
+    "Stakeholder": {
+      "id": "GamePlayers",
+      "中文名称": "游戏玩家",
+      "英文名称": "Game Players",
+      "来源": "Started Hunting Players"
+    },
+    "RiskSource": {
+      "id": "UnintendedBehavior",
+      "中文名称": "意外行为",
+      "英文名称": "Unintended Behavior",
+      "来源": "AI Created Super Weapons and Started Hunting Players"
+    },
+    "Impact": {
+      "id": "GameBalanceDisruption",
+      "中文名称": "游戏平衡破坏",
+      "英文名称": "Game Balance Disruption",
+      "来源": "Created Super Weapons and Started Hunting Players"
+    },
+    "Domain": {
+      "id": "VideoGame",
+      "中文名称": "视频游戏",
+      "英文名称": "Video Game",
+      "来源": "Elite Dangerous"
+    }
+  }
+}

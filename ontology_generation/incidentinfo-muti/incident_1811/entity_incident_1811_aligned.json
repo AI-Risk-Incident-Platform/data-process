@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Suit alleges Amazon's Alexa violates laws by recording children's voices without consent"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "recording children's voices without consent"
+    },
+    "Consequence": {
+      "id": "UnauthorizedVoiceRecording",
+      "中文名称": "未经授权的语音记录后果",
+      "英文名称": "Unauthorized Voice Recording Consequence",
+      "来源": "recording children's voices without consent"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyViolation",
+      "中文名称": "儿童隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "recording children's voices without consent"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "recording children's voices"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's Alexa"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingWithoutConsent",
+      "中文名称": "未经同意的语音记录风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "recording children's voices without consent"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Amazon's Alexa"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Suit alleges Amazon's Alexa violates laws by recording children's voices without consent"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "recording children's voices without consent"
+    },
+    "Consequence": {
+      "id": "UnauthorizedVoiceRecording",
+      "中文名称": "未经授权的语音记录后果",
+      "英文名称": "Unauthorized Voice Recording Consequence",
+      "来源": "recording children's voices without consent"
+    },
+    "Impact": {
+      "id": "ChildrenPrivacyViolation",
+      "中文名称": "儿童隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "recording children's voices without consent"
+    },
+    "Stakeholder": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "recording children's voices"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's Alexa"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingWithoutConsent",
+      "中文名称": "未经同意的语音记录风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "recording children's voices without consent"
+    },
+    "Domain": {
+      "id": "SmartHomeDevices",
+      "中文名称": "智能家居设备领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Amazon's Alexa"
+    }
+  }
+}

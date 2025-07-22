@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeenPregnancyPredictionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Teen Pregnancy Prediction Algorithm"@en ;
+    rdfs:label "青少年怀孕预测算法"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:hasAISubject ex:PreteenGirls ;
+    airo:hasPurpose ex:PredictTeenPregnancy .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:PersonalDataCollection ;
+    airo:hasConsequence [ 
+        rdf:type airo:Consequence ;
+        rdfs:label "Privacy Violation Consequence"@en ;
+        rdfs:label "隐私侵犯后果"@zh ;
+        airo:hasImpact ex:PsychologicalDistress 
+    ] .
+
+ex:Microsoft rdf:type airo:AIDeveloper ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:PreteenGirls rdf:type airo:AISubject ;
+    rdfs:label "Preteen Girls"@en ;
+    rdfs:label "青春期前女孩"@zh .
+
+ex:PredictTeenPregnancy rdf:type airo:Purpose ;
+    rdfs:label "Predict Teen Pregnancy"@en ;
+    rdfs:label "预测青少年怀孕"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress"@en ;
+    rdfs:label "心理困扰"@zh ;
+    airo:hasImpactOnStakeholder ex:PreteenGirls .
+
+ex:PersonalDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Personal Data Collection"@en ;
+    rdfs:label "个人数据收集"@zh .

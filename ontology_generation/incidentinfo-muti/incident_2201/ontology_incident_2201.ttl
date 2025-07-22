@@ -1,0 +1,49 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredictivePolicingSystem rdf:type airo:AISystem ;
+    rdfs:label "Predictive Policing System"@en ;
+    rdfs:label "预测性警务系统"@zh ;
+    airo:hasRisk ex:DiscriminatoryAlgorithmRisk ;
+    airo:hasAISubject ex:EthnicMinorities ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasStakeholder ex:AmnestyInternational .
+
+ex:DiscriminatoryAlgorithmRisk rdf:type airo:Risk ;
+    rdfs:label "Discriminatory Algorithm Risk"@en ;
+    rdfs:label "歧视性算法风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicBias ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        airo:hasImpact ex:EthnicProfilingImpact
+    ] .
+
+ex:AmnestyInternational rdf:type airo:Stakeholder ;
+    rdfs:label "Amnesty International"@en ;
+    rdfs:label "国际特赦组织"@zh .
+
+ex:EthnicMinorities rdf:type airo:AISubject ;
+    rdfs:label "Ethnic Minorities"@en ;
+    rdfs:label "少数族裔"@zh .
+
+ex:EthnicProfilingImpact rdf:type airo:Impact ;
+    rdfs:label "Ethnic Profiling Impact"@en ;
+    rdfs:label "种族定性影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EthnicMinorities .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:AlgorithmicBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Risk Source"@en ;
+    rdfs:label "算法偏见风险源"@zh .

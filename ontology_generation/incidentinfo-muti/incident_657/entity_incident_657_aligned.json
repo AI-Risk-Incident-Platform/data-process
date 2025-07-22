@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIChatSystem",
+      "中文名称": "OpenAI聊天系统",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI says mysterious chat histories resulted from account takeover"
+    },
+    "Risk": {
+      "id": "AccountTakeoverRisk",
+      "中文名称": "账户接管风险",
+      "英文名称": "Account Security Risk",
+      "来源": "mysterious chat histories resulted from account takeover"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "account takeover"
+    },
+    "Consequence": {
+      "id": "PrivacyDataLeakage",
+      "中文名称": "隐私数据泄露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "mysterious chat histories"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI says"
+    },
+    "AIProvider": {
+      "id": "OpenAIProvider",
+      "中文名称": "OpenAI提供者",
+      "英文名称": "OpenAI Provider",
+      "来源": "OpenAI says"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIChatSystem",
+      "中文名称": "OpenAI聊天系统",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "OpenAI says mysterious chat histories resulted from account takeover"
+    },
+    "Risk": {
+      "id": "AccountTakeoverRisk",
+      "中文名称": "账户接管风险",
+      "英文名称": "Account Security Risk",
+      "来源": "mysterious chat histories resulted from account takeover"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问",
+      "英文名称": "Unauthorized Access",
+      "来源": "account takeover"
+    },
+    "Consequence": {
+      "id": "PrivacyDataLeakage",
+      "中文名称": "隐私数据泄露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "mysterious chat histories"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI says"
+    },
+    "AIProvider": {
+      "id": "OpenAIProvider",
+      "中文名称": "OpenAI提供者",
+      "英文名称": "OpenAI Provider",
+      "来源": "OpenAI says"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BlackboxWelfareFraudDetectionSystem",
+      "中文名称": "黑箱福利欺诈检测系统",
+      "英文名称": "Blackbox Welfare Fraud Detection System",
+      "来源": "Blackbox welfare fraud detection system breaches human rights, Dutch court rules"
+    },
+    "Risk": {
+      "id": "HumanRightsBreachRisk",
+      "中文名称": "人权侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Blackbox welfare fraud detection system breaches human rights, Dutch court rules"
+    },
+    "Stakeholder": {
+      "id": "DutchCourt",
+      "中文名称": "荷兰法院",
+      "英文名称": "Dutch Court",
+      "来源": "Dutch court rules"
+    },
+    "AIOperator": {
+      "id": "DutchGovernment",
+      "中文名称": "荷兰政府",
+      "英文名称": "Dutch Government",
+      "来源": "programme where algorithms ‘hunt’ for welfare fraudsters"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "invasive fraud detection algorithm"
+    },
+    "Purpose": {
+      "id": "WelfareFraudDetectionPurpose",
+      "中文名称": "福利欺诈检测目的",
+      "英文名称": "Welfare Fraud Detection",
+      "来源": "algorithms ‘hunt’ for welfare fraudsters"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyRiskSource",
+      "中文名称": "缺乏透明度风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Blackbox welfare fraud detection system"
+    },
+    "Consequence": {
+      "id": "UnjustAccusationsConsequence",
+      "中文名称": "不公正指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "algorithms ‘hunt’ for welfare fraudsters"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BlackboxWelfareFraudDetectionSystem",
+      "中文名称": "黑箱福利欺诈检测系统",
+      "英文名称": "Blackbox Welfare Fraud Detection System",
+      "来源": "Blackbox welfare fraud detection system breaches human rights, Dutch court rules"
+    },
+    "Risk": {
+      "id": "HumanRightsBreachRisk",
+      "中文名称": "人权侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Blackbox welfare fraud detection system breaches human rights, Dutch court rules"
+    },
+    "Stakeholder": {
+      "id": "DutchCourt",
+      "中文名称": "荷兰法院",
+      "英文名称": "Dutch Court",
+      "来源": "Dutch court rules"
+    },
+    "AIOperator": {
+      "id": "DutchGovernment",
+      "中文名称": "荷兰政府",
+      "英文名称": "Dutch Government",
+      "来源": "programme where algorithms ‘hunt’ for welfare fraudsters"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "invasive fraud detection algorithm"
+    },
+    "Purpose": {
+      "id": "WelfareFraudDetectionPurpose",
+      "中文名称": "福利欺诈检测目的",
+      "英文名称": "Welfare Fraud Detection",
+      "来源": "algorithms ‘hunt’ for welfare fraudsters"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyRiskSource",
+      "中文名称": "缺乏透明度风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Blackbox welfare fraud detection system"
+    },
+    "Consequence": {
+      "id": "UnjustAccusationsConsequence",
+      "中文名称": "不公正指控后果",
+      "英文名称": "Unjust Accusation Consequence",
+      "来源": "algorithms ‘hunt’ for welfare fraudsters"
+    }
+  }
+}

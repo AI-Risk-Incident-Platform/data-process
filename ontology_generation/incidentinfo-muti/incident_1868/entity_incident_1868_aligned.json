@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTBasedAIResearchSystem",
+      "中文名称": "基于ChatGPT的AI研究系统",
+      "英文名称": "ChatGPT-Based AI Research System",
+      "来源": "The Tony Blair Insitute 'did not simply ask ChatGPT for the results' of its AI impact report, it trained its own version of ChatGPT instead"
+    },
+    "Risk": {
+      "id": "UnreliableResearchFindingsRisk",
+      "中文名称": "不可靠研究结果风险",
+      "英文名称": "Unreliable Research Findings Risk",
+      "来源": "AI Finds That AI Is Great In New Garbage Research From Tony Blair Institute"
+    },
+    "Stakeholder": {
+      "id": "TonyBlairInstitute",
+      "中文名称": "托尼·布莱尔研究所",
+      "英文名称": "Tony Blair Institute",
+      "来源": "Tony Blair Institute says AI is good for UK because ChatGPT said so"
+    },
+    "AITechnique": {
+      "id": "ChatGPTBasedModelTraining",
+      "中文名称": "基于ChatGPT的模型训练技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "it trained its own version of ChatGPT instead"
+    },
+    "RiskSource": {
+      "id": "SelfReferentialAIValidation",
+      "中文名称": "自我参照AI验证风险源",
+      "英文名称": "Self-Referential AI Validation Risk Source",
+      "来源": "AI is good for UK because ChatGPT said so"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTBasedAIResearchSystem",
+      "中文名称": "基于ChatGPT的AI研究系统",
+      "英文名称": "ChatGPT-Based AI Research System",
+      "来源": "The Tony Blair Insitute 'did not simply ask ChatGPT for the results' of its AI impact report, it trained its own version of ChatGPT instead"
+    },
+    "Risk": {
+      "id": "UnreliableResearchFindingsRisk",
+      "中文名称": "不可靠研究结果风险",
+      "英文名称": "Unreliable Research Findings Risk",
+      "来源": "AI Finds That AI Is Great In New Garbage Research From Tony Blair Institute"
+    },
+    "Stakeholder": {
+      "id": "TonyBlairInstitute",
+      "中文名称": "托尼·布莱尔研究所",
+      "英文名称": "Tony Blair Institute",
+      "来源": "Tony Blair Institute says AI is good for UK because ChatGPT said so"
+    },
+    "AITechnique": {
+      "id": "ChatGPTBasedModelTraining",
+      "中文名称": "基于ChatGPT的模型训练技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "it trained its own version of ChatGPT instead"
+    },
+    "RiskSource": {
+      "id": "SelfReferentialAIValidation",
+      "中文名称": "自我参照AI验证风险源",
+      "英文名称": "Self-Referential AI Validation Risk Source",
+      "来源": "AI is good for UK because ChatGPT said so"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StableDiffusion3",
+      "中文名称": "Stable Diffusion 3",
+      "英文名称": "Stable Diffusion",
+      "来源": "Stable Diffusion 3's Disastrous Launch Could Change the AI Landscape Forever"
+    },
+    "Risk": {
+      "id": "DisastrousLaunchRisk",
+      "中文名称": "灾难性发布风险",
+      "英文名称": "Disastrous Launch Risk",
+      "来源": "Stable Diffusion 3's Disastrous Launch Could Change the AI Landscape Forever"
+    },
+    "Impact": {
+      "id": "ChangeAILandscape",
+      "中文名称": "改变AI格局的影响",
+      "英文名称": "Change AI Landscape Impact",
+      "来源": "Could Change the AI Landscape Forever"
+    },
+    "AIDeveloper": {
+      "id": "StabilityAI",
+      "中文名称": "Stability AI",
+      "英文名称": "Stability AI",
+      "来源": "Stable Diffusion 3"
+    },
+    "Domain": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI领域",
+      "英文名称": "Generative AI Domain",
+      "来源": "Stable Diffusion 3"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StableDiffusion3",
+      "中文名称": "Stable Diffusion 3",
+      "英文名称": "Stable Diffusion",
+      "来源": "Stable Diffusion 3's Disastrous Launch Could Change the AI Landscape Forever"
+    },
+    "Risk": {
+      "id": "DisastrousLaunchRisk",
+      "中文名称": "灾难性发布风险",
+      "英文名称": "Disastrous Launch Risk",
+      "来源": "Stable Diffusion 3's Disastrous Launch Could Change the AI Landscape Forever"
+    },
+    "Impact": {
+      "id": "ChangeAILandscape",
+      "中文名称": "改变AI格局的影响",
+      "英文名称": "Change AI Landscape Impact",
+      "来源": "Could Change the AI Landscape Forever"
+    },
+    "AIDeveloper": {
+      "id": "StabilityAI",
+      "中文名称": "Stability AI",
+      "英文名称": "Stability AI",
+      "来源": "Stable Diffusion 3"
+    },
+    "Domain": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI领域",
+      "英文名称": "Generative AI Domain",
+      "来源": "Stable Diffusion 3"
+    }
+  }
+}

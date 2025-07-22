@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonProductRecommendationSystem",
+      "中文名称": "亚马逊产品推荐系统",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Risk": {
+      "id": "DangerousProductCombinationRisk",
+      "中文名称": "危险产品组合风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicRecommendationOfHazardousMaterials",
+      "中文名称": "危险材料的算法推荐",
+      "英文名称": "Algorithmic Recommendation of Hazardous Materials",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Consequence": {
+      "id": "PotentialForHarmfulUse",
+      "中文名称": "潜在有害使用后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonProductRecommendationSystem",
+      "中文名称": "亚马逊产品推荐系统",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Risk": {
+      "id": "DangerousProductCombinationRisk",
+      "中文名称": "危险产品组合风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicRecommendationOfHazardousMaterials",
+      "中文名称": "危险材料的算法推荐",
+      "英文名称": "Algorithmic Recommendation of Hazardous Materials",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Consequence": {
+      "id": "PotentialForHarmfulUse",
+      "中文名称": "潜在有害使用后果",
+      "英文名称": "Potential Harm Consequence",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Potentially deadly bomb ingredients are ‘frequently bought together’ on Amazon"
+    }
+  }
+}

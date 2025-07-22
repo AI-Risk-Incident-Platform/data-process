@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIReportGenerationSystem",
+      "中文名称": "AI报告生成系统",
+      "英文名称": "AI Report Generation System",
+      "来源": "Norwegian city used AI to generate report that recommended closing schools"
+    },
+    "Risk": {
+      "id": "SchoolClosureRecommendationRisk",
+      "中文名称": "学校关闭建议风险",
+      "英文名称": "School Closure Recommendation Risk",
+      "来源": "recommended closing schools"
+    },
+    "Consequence": {
+      "id": "EducationalDisruption",
+      "中文名称": "教育中断后果",
+      "英文名称": "Educational Disruption Consequence",
+      "来源": "recommended closing schools"
+    },
+    "Stakeholder": {
+      "id": "TromsoCityGovernment",
+      "中文名称": "特罗姆瑟市政府",
+      "英文名称": "Tromso City Government",
+      "来源": "Norwegian city used AI to generate report"
+    },
+    "AIOperator": {
+      "id": "MunicipalAIAdministrator",
+      "中文名称": "市政AI管理员",
+      "英文名称": "Municipal AI Administrator",
+      "来源": "used AI to generate report"
+    },
+    "Domain": {
+      "id": "PublicEducationAdministration",
+      "中文名称": "公共教育管理领域",
+      "英文名称": "Public Education Domain",
+      "来源": "recommended closing schools"
+    },
+    "Purpose": {
+      "id": "SchoolResourceOptimization",
+      "中文名称": "学校资源优化目的",
+      "英文名称": "School Resource Optimization Purpose",
+      "来源": "recommended closing schools"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIReportGenerationSystem",
+      "中文名称": "AI报告生成系统",
+      "英文名称": "AI Report Generation System",
+      "来源": "Norwegian city used AI to generate report that recommended closing schools"
+    },
+    "Risk": {
+      "id": "SchoolClosureRecommendationRisk",
+      "中文名称": "学校关闭建议风险",
+      "英文名称": "School Closure Recommendation Risk",
+      "来源": "recommended closing schools"
+    },
+    "Consequence": {
+      "id": "EducationalDisruption",
+      "中文名称": "教育中断后果",
+      "英文名称": "Educational Disruption Consequence",
+      "来源": "recommended closing schools"
+    },
+    "Stakeholder": {
+      "id": "TromsoCityGovernment",
+      "中文名称": "特罗姆瑟市政府",
+      "英文名称": "Tromso City Government",
+      "来源": "Norwegian city used AI to generate report"
+    },
+    "AIOperator": {
+      "id": "MunicipalAIAdministrator",
+      "中文名称": "市政AI管理员",
+      "英文名称": "Municipal AI Administrator",
+      "来源": "used AI to generate report"
+    },
+    "Domain": {
+      "id": "PublicEducationAdministration",
+      "中文名称": "公共教育管理领域",
+      "英文名称": "Public Education Domain",
+      "来源": "recommended closing schools"
+    },
+    "Purpose": {
+      "id": "SchoolResourceOptimization",
+      "中文名称": "学校资源优化目的",
+      "英文名称": "School Resource Optimization Purpose",
+      "来源": "recommended closing schools"
+    }
+  }
+}

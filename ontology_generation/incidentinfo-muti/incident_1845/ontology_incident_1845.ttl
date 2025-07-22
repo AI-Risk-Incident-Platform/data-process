@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VERAChatbot rdf:type airo:AISystem ;
+    rdfs:label "VERA Chatbot"@en ;
+    rdfs:label "VERA聊天机器人"@zh ;
+    airo:hasRisk ex:InappropriateMedicalAdviceRisk ;
+    airo:hasPurpose ex:VeterinaryConsultation ;
+    airo:isDevelopedBy ex:AskVetCompany ;
+    airo:hasStakeholder ex:PetOwner .
+
+ex:InappropriateMedicalAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Medical Advice Risk"@en ;
+    rdfs:label "不当医疗建议风险"@zh ;
+    airo:hasConsequence ex:UnnecessaryPetEuthanasia .
+
+ex:UnnecessaryPetEuthanasia rdf:type airo:Consequence ;
+    rdfs:label "Unnecessary Pet Euthanasia Consequence"@en ;
+    rdfs:label "不必要的宠物安乐死后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressToPetOwner .
+
+ex:EmotionalDistressToPetOwner rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Pet Owner Impact"@en ;
+    rdfs:label "宠物主人情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PetOwner .
+
+ex:PetOwner rdf:type airo:Stakeholder ;
+    rdfs:label "Pet Owner"@en ;
+    rdfs:label "宠物主人"@zh .
+
+ex:AskVetCompany rdf:type airo:AIOperator ;
+    rdfs:label "AskVet Company"@en ;
+    rdfs:label "AskVet公司"@zh .
+
+ex:VeterinaryConsultation rdf:type airo:Purpose ;
+    rdfs:label "Veterinary Consultation Purpose"@en ;
+    rdfs:label "兽医咨询目的"@zh .

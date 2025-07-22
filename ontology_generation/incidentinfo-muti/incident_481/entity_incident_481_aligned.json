@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CBPFacialRecognitionApp",
+      "中文名称": "CBP面部识别应用",
+      "英文名称": "CBP Facial Recognition",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Consequence": {
+      "id": "BarredFromSeekingAsylum",
+      "中文名称": "被禁止寻求庇护的后果",
+      "英文名称": "Asylum Denial Consequence",
+      "来源": "Barring Thousands from Seeking Asylum"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionForImmigration",
+      "中文名称": "用于移民的面部识别能力",
+      "英文名称": "Facial Recognition for Immigration Capability",
+      "来源": "CBP's Immigration App Doesn't Recognize Black Faces"
+    },
+    "Stakeholder": {
+      "id": "BlackAsylumApplicants",
+      "中文名称": "黑人庇护申请者",
+      "英文名称": "Black Asylum Applicants",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Impact": {
+      "id": "DiscriminationInImmigrationProcess",
+      "中文名称": "移民过程中的歧视影响",
+      "英文名称": "Immigration Unfairness Impact",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "CBP's Immigration App Doesn't Recognize Black Faces"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CBPFacialRecognitionApp",
+      "中文名称": "CBP面部识别应用",
+      "英文名称": "CBP Facial Recognition",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Risk": {
+      "id": "RacialBiasInFacialRecognition",
+      "中文名称": "面部识别中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Consequence": {
+      "id": "BarredFromSeekingAsylum",
+      "中文名称": "被禁止寻求庇护的后果",
+      "英文名称": "Asylum Denial Consequence",
+      "来源": "Barring Thousands from Seeking Asylum"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionForImmigration",
+      "中文名称": "用于移民的面部识别能力",
+      "英文名称": "Facial Recognition for Immigration Capability",
+      "来源": "CBP's Immigration App Doesn't Recognize Black Faces"
+    },
+    "Stakeholder": {
+      "id": "BlackAsylumApplicants",
+      "中文名称": "黑人庇护申请者",
+      "英文名称": "Black Asylum Applicants",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "Impact": {
+      "id": "DiscriminationInImmigrationProcess",
+      "中文名称": "移民过程中的歧视影响",
+      "英文名称": "Immigration Unfairness Impact",
+      "来源": "Facial recognition bias frustrates Black asylum applicants to US"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "CBP's Immigration App Doesn't Recognize Black Faces"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla Model 3 crashes in China, killing one; Autopilot under radar again"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Chinese consumers worry over Tesla’s safety system after accident causes one death, one injury in E.China: report"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal Traffic Accident Consequence",
+      "来源": "Tesla Model 3 crashes in China, killing one"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concerns Impact",
+      "来源": "Chinese consumers worry over Tesla’s safety system after accident"
+    },
+    "Stakeholder": {
+      "id": "ChineseConsumers",
+      "中文名称": "中国消费者",
+      "英文名称": "Chinese Consumers",
+      "来源": "Chinese consumers worry over Tesla’s safety system"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Model 3 crashes in China"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTechnology",
+      "中文名称": "自动驾驶汽车技术领域",
+      "英文名称": "Autonomous Vehicle Technology Domain",
+      "来源": "Tesla Model 3 crashes in China, killing one; Autopilot under radar again"
+    },
+    "AICapability": {
+      "id": "AutonomousDrivingFunctionality",
+      "中文名称": "自动驾驶功能能力",
+      "英文名称": "Autonomous Driving Functionality Capability",
+      "来源": "Autopilot under radar again"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot System Failure Risk Source",
+      "来源": "Tesla Model 3 crashes in China, killing one"
+    }
+  }
+}

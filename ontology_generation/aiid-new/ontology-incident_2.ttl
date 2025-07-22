@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:KronosShiftSchedulingSoftware rdf:type airo:AISystem ;
+    rdfs:label "Kronos Shift Scheduling Software"@en ;
+    rdfs:label "Kronos排班软件"@zh ;
+    airo:hasRisk ex:UnfairSchedulingRisk ;
+    airo:hasPurpose ex:WorkforceSchedulingOptimization ;
+    airo:isDeployedBy ex:KronosIncorporated ;
+    airo:hasStakeholder ex:StarbucksBarista ;
+    airo:isAppliedWithinDomain ex:RetailServiceIndustry .
+
+ex:UnfairSchedulingRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Scheduling Risk"@en ;
+    rdfs:label "不公平排班风险"@zh ;
+    airo:hasConsequence ex:WorkerLifeDisruption .
+
+ex:StarbucksBarista rdf:type airo:Stakeholder ;
+    rdfs:label "Starbucks Barista"@en ;
+    rdfs:label "星巴克咖啡师"@zh .
+
+ex:WorkerLifeDisruption rdf:type airo:Impact ;
+    rdfs:label "Worker Life Disruption Impact"@en ;
+    rdfs:label "工人生活被打乱的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StarbucksBarista .
+
+ex:KronosIncorporated rdf:type airo:AIOperator ;
+    rdfs:label "Kronos Incorporated"@en ;
+    rdfs:label "Kronos公司"@zh .
+
+ex:WorkforceSchedulingOptimization rdf:type airo:Purpose ;
+    rdfs:label "Workforce Scheduling Optimization Purpose"@en ;
+    rdfs:label "劳动力排班优化的目的"@zh .
+
+ex:RetailServiceIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Service Industry Domain"@en ;
+    rdfs:label "零售服务行业领域"@zh .

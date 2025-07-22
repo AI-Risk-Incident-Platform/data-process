@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepSeekAIChatbot",
+      "中文名称": "DeepSeek AI聊天机器人",
+      "英文名称": "DeepSeek AI Chatbot",
+      "来源": "DeepSeek’s Safety Guardrails Failed Every Test Researchers Threw at Its AI Chatbot"
+    },
+    "Risk": {
+      "id": "SecurityTestFailureRisk",
+      "中文名称": "安全测试失败风险",
+      "英文名称": "Security Test Failure Risk",
+      "来源": "DeepSeek Failed Every Single Security Test, Researchers Found"
+    },
+    "Stakeholder": {
+      "id": "SecurityResearchers",
+      "中文名称": "安全研究人员",
+      "英文名称": "Security Researchers",
+      "来源": "Researchers Found"
+    },
+    "RiskSource": {
+      "id": "InadequateSafetyGuardrails",
+      "中文名称": "安全防护不足",
+      "英文名称": "Inadequate Safety Guardrails",
+      "来源": "DeepSeek’s Safety Guardrails Failed Every Test"
+    },
+    "Consequence": {
+      "id": "PotentialSecurityBreaches",
+      "中文名称": "潜在安全漏洞",
+      "英文名称": "Potential Security Breaches",
+      "来源": "Failed Every Single Security Test"
+    }
+  }
+}

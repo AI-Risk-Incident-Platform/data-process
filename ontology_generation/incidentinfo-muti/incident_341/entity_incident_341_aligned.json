@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HotelRobotStaff",
+      "中文名称": "酒店机器人员工",
+      "英文名称": "Hotel Robot Staff",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Risk": {
+      "id": "RobotPerformanceFailureRisk",
+      "中文名称": "机器人性能失败风险",
+      "英文名称": "Robot Failure Risk",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Consequence": {
+      "id": "IncreasedHumanWorkload",
+      "中文名称": "增加人类工作量后果",
+      "英文名称": "Increased Human Workload Consequence",
+      "来源": "Japan’s robot hotel lays off half the robots after they created more work for humans"
+    },
+    "Stakeholder": {
+      "id": "HotelManagement",
+      "中文名称": "酒店管理层",
+      "英文名称": "Hotel Management",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Impact": {
+      "id": "OperationalInefficiency",
+      "中文名称": "运营效率低下影响",
+      "英文名称": "Operational Inefficiency Impact",
+      "来源": "Robots Ruin Robot Hotel"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HotelRobotStaff",
+      "中文名称": "酒店机器人员工",
+      "英文名称": "Hotel Robot Staff",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Risk": {
+      "id": "RobotPerformanceFailureRisk",
+      "中文名称": "机器人性能失败风险",
+      "英文名称": "Robot Failure Risk",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Consequence": {
+      "id": "IncreasedHumanWorkload",
+      "中文名称": "增加人类工作量后果",
+      "英文名称": "Increased Human Workload Consequence",
+      "来源": "Japan’s robot hotel lays off half the robots after they created more work for humans"
+    },
+    "Stakeholder": {
+      "id": "HotelManagement",
+      "中文名称": "酒店管理层",
+      "英文名称": "Hotel Management",
+      "来源": "Hotel sacks half of its robot staff for being bad at their jobs"
+    },
+    "Impact": {
+      "id": "OperationalInefficiency",
+      "中文名称": "运营效率低下影响",
+      "英文名称": "Operational Inefficiency Impact",
+      "来源": "Robots Ruin Robot Hotel"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LiteratureFestivalAIUse rdf:type airo:AISystem ;
+    rdfs:label "Literature Festival AI Use"@en ;
+    rdfs:label "文学节AI使用"@zh ;
+    airo:hasRisk ex:ArtistWithdrawalRisk ;
+    airo:isAppliedWithinDomain ex:CulturalEventsDomain ;
+    airo:hasStakeholder ex:Illustrator .
+
+ex:ArtistWithdrawalRisk rdf:type airo:Risk ;
+    rdfs:label "Artist Withdrawal Risk"@en ;
+    rdfs:label "艺术家退出风险"@zh ;
+    airo:hasConsequence ex:CulturalEventDisruption .
+
+ex:Illustrator rdf:type airo:Stakeholder ;
+    rdfs:label "Illustrator"@en ;
+    rdfs:label "插画师"@zh .
+
+ex:CulturalEventDisruption rdf:type airo:Impact ;
+    rdfs:label "Cultural Event Disruption"@en ;
+    rdfs:label "文化活动中断"@zh ;
+    airo:hasImpactOnStakeholder ex:Illustrator .
+
+ex:CulturalEventsDomain rdf:type airo:Domain ;
+    rdfs:label "Cultural Events Domain"@en ;
+    rdfs:label "文化活动领域"@zh .

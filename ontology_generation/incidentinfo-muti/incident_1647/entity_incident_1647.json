@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberFacialRecognitionSystem",
+      "中文名称": "优步面部识别系统",
+      "英文名称": "Uber Facial Recognition System",
+      "来源": "Uber Driver Claims Job Loss From Faulty Face Detection"
+    },
+    "Risk": {
+      "id": "JobLossDueToFaultyFaceDetection",
+      "中文名称": "面部识别错误导致失业风险",
+      "英文名称": "Job Loss Due to Faulty Face Detection Risk",
+      "来源": "Uber Driver Claims Job Loss From Faulty Face Detection"
+    },
+    "Stakeholder": {
+      "id": "UberDrivers",
+      "中文名称": "优步司机",
+      "英文名称": "Uber Drivers",
+      "来源": "Uber Driver Claims Job Loss From Faulty Face Detection"
+    },
+    "AIOperator": {
+      "id": "Uber",
+      "中文名称": "优步",
+      "英文名称": "Uber",
+      "来源": "Uber Claims Compliance Violation"
+    },
+    "Consequence": {
+      "id": "UnjustTerminationOfEmployment",
+      "中文名称": "不公正解雇后果",
+      "英文名称": "Unjust Termination of Employment Consequence",
+      "来源": "Uber Driver Claims Job Loss From Faulty Face Detection"
+    }
+  }
+}

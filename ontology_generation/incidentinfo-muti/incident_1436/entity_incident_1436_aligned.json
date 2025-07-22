@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FordHandsFreeDrivingSystem",
+      "中文名称": "福特免提驾驶系统",
+      "英文名称": "Ford Driving System",
+      "来源": "Ford hands-free driving aid investigated after fatal crashes"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Ford's automated-driving system under investigation after deadly crashes"
+    },
+    "Consequence": {
+      "id": "FatalCrashes",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Crash involving Ford Mustang Mach-E under investigation for automated system failure"
+    },
+    "AIOperator": {
+      "id": "FordMotorCompany",
+      "中文名称": "福特汽车公司",
+      "英文名称": "Ford Motor Company",
+      "来源": "Ford's automated-driving system under investigation"
+    },
+    "AICapability": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Ford hands-free driving aid"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Ford Mustang Mach-E automated system failure"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "deadly crashes including in Philly"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FordHandsFreeDrivingSystem",
+      "中文名称": "福特免提驾驶系统",
+      "英文名称": "Ford Driving System",
+      "来源": "Ford hands-free driving aid investigated after fatal crashes"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Ford's automated-driving system under investigation after deadly crashes"
+    },
+    "Consequence": {
+      "id": "FatalCrashes",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Crash involving Ford Mustang Mach-E under investigation for automated system failure"
+    },
+    "AIOperator": {
+      "id": "FordMotorCompany",
+      "中文名称": "福特汽车公司",
+      "英文名称": "Ford Motor Company",
+      "来源": "Ford's automated-driving system under investigation"
+    },
+    "AICapability": {
+      "id": "AutomatedDrivingAssistance",
+      "中文名称": "自动驾驶辅助能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Ford hands-free driving aid"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Ford Mustang Mach-E automated system failure"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "deadly crashes including in Philly"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LiteratureFestivalAIUse",
+      "中文名称": "文学节AI使用",
+      "英文名称": "Literature Festival AI Use",
+      "来源": "Bradford Literature Festival: Illustrator pulls out over AI use"
+    },
+    "Risk": {
+      "id": "ArtistWithdrawalRisk",
+      "中文名称": "艺术家退出风险",
+      "英文名称": "Artist Withdrawal Risk",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Stakeholder": {
+      "id": "Illustrator",
+      "中文名称": "插画师",
+      "英文名称": "Illustrators",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Impact": {
+      "id": "CulturalEventDisruption",
+      "中文名称": "文化活动中断",
+      "英文名称": "Cultural Event Disruption",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Domain": {
+      "id": "CulturalEvents",
+      "中文名称": "文化活动领域",
+      "英文名称": "Cultural Events Domain",
+      "来源": "Bradford Literature Festival"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LiteratureFestivalAIUse",
+      "中文名称": "文学节AI使用",
+      "英文名称": "Literature Festival AI Use",
+      "来源": "Bradford Literature Festival: Illustrator pulls out over AI use"
+    },
+    "Risk": {
+      "id": "ArtistWithdrawalRisk",
+      "中文名称": "艺术家退出风险",
+      "英文名称": "Artist Withdrawal Risk",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Stakeholder": {
+      "id": "Illustrator",
+      "中文名称": "插画师",
+      "英文名称": "Illustrators",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Impact": {
+      "id": "CulturalEventDisruption",
+      "中文名称": "文化活动中断",
+      "英文名称": "Cultural Event Disruption",
+      "来源": "Illustrator pulls out over AI use"
+    },
+    "Domain": {
+      "id": "CulturalEvents",
+      "中文名称": "文化活动领域",
+      "英文名称": "Cultural Events Domain",
+      "来源": "Bradford Literature Festival"
+    }
+  }
+}

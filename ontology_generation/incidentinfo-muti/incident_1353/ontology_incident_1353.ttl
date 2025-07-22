@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIInfrastructure rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI Infrastructure"@en ;
+    rdfs:label "微软AI基础设施"@zh ;
+    airo:hasRisk ex:CarbonEmissionsIncreaseRisk ;
+    airo:hasPurpose ex:MeetingAIDemand ;
+    airo:hasStakeholder ex:MicrosoftCorporation ;
+    airo:isAppliedWithinDomain ex:CloudComputingAndAI .
+
+ex:CarbonEmissionsIncreaseRisk rdf:type airo:Risk ;
+    rdfs:label "Carbon Emissions Increase Risk"@en ;
+    rdfs:label "碳排放增加风险"@zh ;
+    airo:hasConsequence ex:CarbonCommitmentCollapse .
+
+ex:CarbonCommitmentCollapse rdf:type airo:Consequence ;
+    rdfs:label "Carbon Commitment Collapse Consequence"@en ;
+    rdfs:label "碳承诺崩溃后果"@zh ;
+    airo:hasImpact ex:EnvironmentalDegradation .
+
+ex:MicrosoftCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:EnvironmentalDegradation rdf:type airo:Impact ;
+    rdfs:label "Environmental Degradation Impact"@en ;
+    rdfs:label "环境退化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MicrosoftCorporation .
+
+ex:MeetingAIDemand rdf:type airo:Purpose ;
+    rdfs:label "Meeting AI Demand Purpose"@en ;
+    rdfs:label "满足AI需求目的"@zh .
+
+ex:CloudComputingAndAI rdf:type airo:Domain ;
+    rdfs:label "Cloud Computing and AI Domain"@en ;
+    rdfs:label "云计算与AI领域"@zh .

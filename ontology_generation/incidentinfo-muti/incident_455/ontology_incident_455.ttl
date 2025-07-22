@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HitchBOT rdf:type airo:AISystem ;
+    rdfs:label "HitchBOT Hitchhiking Robot"@en ;
+    rdfs:label "HitchBOT搭便车机器人"@zh ;
+    airo:hasRisk ex:PhysicalDamageToSocialRobot ;
+    airo:hasPurpose ex:SocialExperimentOnHumanRobotInteraction ;
+    airo:hasStakeholder ex:RobotCreators ;
+    airo:isAppliedWithinDomain ex:SocialRobotics .
+
+ex:PhysicalDamageToSocialRobot rdf:type airo:Risk ;
+    rdfs:label "Physical Damage to Social Robot Risk"@en ;
+    rdfs:label "社交机器人物理损坏风险"@zh ;
+    airo:hasConsequence ex:RobotDestruction ;
+    airo:isRiskSourceFor ex:HumanVandalism .
+
+ex:RobotDestruction rdf:type airo:Consequence ;
+    rdfs:label "Robot Destruction Consequence"@en ;
+    rdfs:label "机器人被毁后果"@zh ;
+    airo:hasImpact ex:HumanRobotInteractionSafetyConcerns .
+
+ex:HumanRobotInteractionSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Human-Robot Interaction Safety Concerns Impact"@en ;
+    rdfs:label "人机交互安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RobotCreators .
+
+ex:RobotCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Robot Creators"@en ;
+    rdfs:label "机器人创造者"@zh .
+
+ex:SocialExperimentOnHumanRobotInteraction rdf:type airo:Purpose ;
+    rdfs:label "Social Experiment on Human-Robot Interaction Purpose"@en ;
+    rdfs:label "人机交互社会实验目的"@zh .
+
+ex:SocialRobotics rdf:type airo:Domain ;
+    rdfs:label "Social Robotics Domain"@en ;
+    rdfs:label "社交机器人领域"@zh .
+
+ex:HumanVandalism rdf:type airo:RiskSource ;
+    rdfs:label "Human Vandalism Risk Source"@en ;
+    rdfs:label "人为破坏风险源"@zh .

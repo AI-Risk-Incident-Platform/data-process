@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HelloBarbie",
+      "中文名称": "Hello Barbie",
+      "英文名称": "Hello Barbie",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Privacy fears over 'smart' Barbie that can listen to your kids"
+    },
+    "Consequence": {
+      "id": "ChildrenVoiceDataCollection",
+      "中文名称": "儿童语音数据收集后果",
+      "英文名称": "Children Voice Data Collection Consequence",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocates",
+      "中文名称": "隐私倡导者",
+      "英文名称": "Privacy Advocates",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    },
+    "AIOperator": {
+      "id": "Mattel",
+      "中文名称": "美泰公司",
+      "英文名称": "Mattel",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Privacy fears over 'smart' Barbie that can listen to your kids"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingFeature",
+      "中文名称": "语音记录功能风险源",
+      "英文名称": "Voice Recording Feature Risk Source",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "Purpose": {
+      "id": "InteractiveToy",
+      "中文名称": "交互式玩具目的",
+      "英文名称": "Interactive Toy Purpose",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HelloBarbie",
+      "中文名称": "Hello Barbie",
+      "英文名称": "Hello Barbie",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Privacy fears over 'smart' Barbie that can listen to your kids"
+    },
+    "Consequence": {
+      "id": "ChildrenVoiceDataCollection",
+      "中文名称": "儿童语音数据收集后果",
+      "英文名称": "Children Voice Data Collection Consequence",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocates",
+      "中文名称": "隐私倡导者",
+      "英文名称": "Privacy Advocates",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    },
+    "AIOperator": {
+      "id": "Mattel",
+      "中文名称": "美泰公司",
+      "英文名称": "Mattel",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Privacy fears over 'smart' Barbie that can listen to your kids"
+    },
+    "RiskSource": {
+      "id": "VoiceRecordingFeature",
+      "中文名称": "语音记录功能风险源",
+      "英文名称": "Voice Recording Feature Risk Source",
+      "来源": "New Hello Barbie records kids' voices and sends the intel back to Mattel"
+    },
+    "Purpose": {
+      "id": "InteractiveToy",
+      "中文名称": "交互式玩具目的",
+      "英文名称": "Interactive Toy Purpose",
+      "来源": "Privacy advocates try to keep ‘creepy,’ ‘eavesdropping’ Hello Barbie from hitting shelves"
+    }
+  }
+}

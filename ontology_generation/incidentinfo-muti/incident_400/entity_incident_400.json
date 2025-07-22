@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookFriendRecommendationSystem",
+      "中文名称": "Facebook好友推荐系统",
+      "英文名称": "Facebook Friend Recommendation System",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "Risk": {
+      "id": "PatientPrivacyViolationRisk",
+      "中文名称": "患者隐私侵犯风险",
+      "英文名称": "Patient Privacy Violation Risk",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDisclosureOfPatientRelationships",
+      "中文名称": "患者关系未经授权的披露后果",
+      "英文名称": "Unauthorized Disclosure of Patient Relationships Consequence",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "Impact": {
+      "id": "BreachOfDoctorPatientConfidentiality",
+      "中文名称": "医患保密协议破坏的影响",
+      "英文名称": "Breach of Doctor-Patient Confidentiality Impact",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "Stakeholder": {
+      "id": "PsychiatristAndPatients",
+      "中文名称": "精神科医生和患者",
+      "英文名称": "Psychiatrist and Patients",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "AICapability": {
+      "id": "SocialNetworkAnalysisForFriendRecommendation",
+      "中文名称": "社交网络分析用于好友推荐的能力",
+      "英文名称": "Social Network Analysis for Friend Recommendation Capability",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "Facebook recommended that this psychiatrist's patients friend each other"
+    }
+  }
+}

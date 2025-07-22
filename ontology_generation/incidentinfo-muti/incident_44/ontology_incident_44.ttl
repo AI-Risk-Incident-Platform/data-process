@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NestSmartSmokeAlarm rdf:type airo:AISystem ;
+    rdfs:label "Nest Smart Smoke Alarm"@en ;
+    rdfs:label "Nest智能烟雾报警器"@zh ;
+    airo:hasRisk ex:FaultyFeatureRisk ;
+    airo:isDeployedBy ex:GoogleNest ;
+    airo:hasPurpose ex:HomeSafetyMonitoring ;
+    airo:hasStakeholder ex:SmartHomeUsers ;
+    airo:isAppliedWithinDomain ex:SmartHome .
+
+ex:FaultyFeatureRisk rdf:type airo:Risk ;
+    rdfs:label "Faulty Feature Risk"@en ;
+    rdfs:label "功能故障风险"@zh ;
+    airo:hasConsequence ex:ProductRecall ;
+    airo:isRiskSourceFor ex:SoftwareBug ;
+    airo:hasRiskControl ex:ProductRecallAndFix .
+
+ex:ProductRecall rdf:type airo:Consequence ;
+    rdfs:label "Product Recall Consequence"@en ;
+    rdfs:label "产品召回后果"@zh ;
+    airo:hasImpact ex:SafetyConcerns .
+
+ex:GoogleNest rdf:type airo:AIOperator ;
+    rdfs:label "Google Nest"@en ;
+    rdfs:label "谷歌Nest"@zh .
+
+ex:SmartHomeUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Smart Home Users"@en ;
+    rdfs:label "智能家居用户"@zh .
+
+ex:SafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Safety Concerns Impact"@en ;
+    rdfs:label "安全隐患影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SmartHomeUsers .
+
+ex:HomeSafetyMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Home Safety Monitoring Purpose"@en ;
+    rdfs:label "家庭安全监控目的"@zh .
+
+ex:SmartHome rdf:type airo:Domain ;
+    rdfs:label "Smart Home Domain"@en ;
+    rdfs:label "智能家居领域"@zh .
+
+ex:SoftwareBug rdf:type airo:RiskSource ;
+    rdfs:label "Software Bug Risk Source"@en ;
+    rdfs:label "软件缺陷风险源"@zh .
+
+ex:ProductRecallAndFix rdf:type airo:RiskControl ;
+    rdfs:label "Product Recall and Fix Risk Control"@en ;
+    rdfs:label "产品召回修复管控"@zh .

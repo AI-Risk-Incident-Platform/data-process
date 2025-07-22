@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Says Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Risk": {
+      "id": "CovertCampaignsRisk",
+      "中文名称": "隐蔽宣传活动风险",
+      "英文名称": "Covert Campaigns Risk",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Stakeholder": {
+      "id": "China",
+      "中文名称": "中国",
+      "英文名称": "China",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "RiskSource": {
+      "id": "MisuseOfAIForCovertCampaigns",
+      "中文名称": "滥用AI进行隐蔽宣传活动",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Impact": {
+      "id": "DisinformationImpact",
+      "中文名称": "虚假信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选",
+      "英文名称": "Political Campaigns",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    },
+    "Purpose": {
+      "id": "InfluenceElections",
+      "中文名称": "影响选举",
+      "英文名称": "Election Influence",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI Says Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Risk": {
+      "id": "CovertCampaignsRisk",
+      "中文名称": "隐蔽宣传活动风险",
+      "英文名称": "Covert Campaigns Risk",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Stakeholder": {
+      "id": "China",
+      "中文名称": "中国",
+      "英文名称": "China",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "RiskSource": {
+      "id": "MisuseOfAIForCovertCampaigns",
+      "中文名称": "滥用AI进行隐蔽宣传活动",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Russia and China Used Its A.I. in Covert Campaigns"
+    },
+    "Impact": {
+      "id": "DisinformationImpact",
+      "中文名称": "虚假信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选",
+      "英文名称": "Political Campaigns",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    },
+    "Purpose": {
+      "id": "InfluenceElections",
+      "中文名称": "影响选举",
+      "英文名称": "Election Influence",
+      "来源": "Iran Emerges as a Top Disinformation Threat in U.S. Presidential Race"
+    }
+  }
+}

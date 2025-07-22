@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForPoliticalAttacks rdf:type airo:AISystem ;
+    rdfs:label "AI for Political Attacks"@en ;
+    rdfs:label "政治攻击AI"@zh ;
+    airo:hasRisk ex:MisinformationAndCharacterAssassinationRisk ;
+    airo:usesTechnique ex:ImageGenerationAI ;
+    airo:hasStakeholder ex:PoliticalFigures .
+
+ex:MisinformationAndCharacterAssassinationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation and Character Assassination Risk"@en ;
+    rdfs:label "虚假信息和人格诋毁风险"@zh ;
+    airo:hasConsequence ex:DamageToPoliticalReputation .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Political Figures"@en ;
+    rdfs:label "政治人物"@zh .
+
+ex:ImageGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Image Generation AI"@en ;
+    rdfs:label "图像生成AI"@zh .
+
+ex:PublicMisperception rdf:type airo:Impact ;
+    rdfs:label "Public Misperception"@en ;
+    rdfs:label "公众误解"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .
+
+ex:DamageToPoliticalReputation rdf:type airo:Consequence ;
+    rdfs:label "Damage to Political Reputation"@en ;
+    rdfs:label "政治声誉损害"@zh ;
+    airo:hasImpact ex:PublicMisperception .

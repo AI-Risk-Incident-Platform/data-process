@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WebsiteAccessibilityOverlay",
+      "中文名称": "网站无障碍覆盖工具",
+      "英文名称": "Website Accessibility Overlay",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Risk": {
+      "id": "FalseAccessibilityClaimsRisk",
+      "中文名称": "虚假无障碍声明风险",
+      "英文名称": "False Accessibility Claims Risk",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Stakeholder": {
+      "id": "DisabledUsers",
+      "中文名称": "残障用户",
+      "英文名称": "Disabled Users",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Impact": {
+      "id": "ExclusionOfDisabledUsers",
+      "中文名称": "残障用户被排除的影响",
+      "英文名称": "Exclusion of Disabled Users Impact",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "RiskSource": {
+      "id": "DeceptiveMarketingPractices",
+      "中文名称": "欺骗性营销行为风险源",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Website Accessibility Overlay False Claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WebsiteAccessibilityOverlay",
+      "中文名称": "网站无障碍覆盖工具",
+      "英文名称": "Website Accessibility Overlay",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Risk": {
+      "id": "FalseAccessibilityClaimsRisk",
+      "中文名称": "虚假无障碍声明风险",
+      "英文名称": "False Accessibility Claims Risk",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Stakeholder": {
+      "id": "DisabledUsers",
+      "中文名称": "残障用户",
+      "英文名称": "Disabled Users",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "Impact": {
+      "id": "ExclusionOfDisabledUsers",
+      "中文名称": "残障用户被排除的影响",
+      "英文名称": "Exclusion of Disabled Users Impact",
+      "来源": "Website Accessibility Overlay False Claims"
+    },
+    "RiskSource": {
+      "id": "DeceptiveMarketingPractices",
+      "中文名称": "欺骗性营销行为风险源",
+      "英文名称": "False Claims & Misinformation",
+      "来源": "Website Accessibility Overlay False Claims"
+    }
+  }
+}

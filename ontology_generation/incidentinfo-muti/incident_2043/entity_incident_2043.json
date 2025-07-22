@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "S. Korean government provided 170M facial images obtained in immigration process to private AI developers"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Seoul shares face biometrics of 170M travelers with private firms"
+    },
+    "Stakeholder": {
+      "id": "SouthKoreanGovernment",
+      "中文名称": "韩国政府",
+      "英文名称": "South Korean Government",
+      "来源": "S. Korean government provided 170M facial images obtained in immigration process to private AI developers"
+    },
+    "AIDeveloper": {
+      "id": "PrivateAIDevelopers",
+      "中文名称": "私营AI开发者",
+      "英文名称": "Private AI Developers",
+      "来源": "S. Korean government provided 170M facial images obtained in immigration process to private AI developers"
+    },
+    "AISubject": {
+      "id": "Travelers",
+      "中文名称": "旅行者",
+      "英文名称": "Travelers",
+      "来源": "Seoul shares face biometrics of 170M travelers with private firms"
+    },
+    "Consequence": {
+      "id": "UnauthorizedUseOfBiometricData",
+      "中文名称": "未经授权使用生物特征数据",
+      "英文名称": "Unauthorized Use of Biometric Data",
+      "来源": "‘I first learned of it today’: Justice minister reacts to handover of travelers’ facial data"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Loss of Personal Privacy",
+      "来源": "Seoul shares face biometrics of 170M travelers with private firms"
+    },
+    "RiskSource": {
+      "id": "DataSharingWithoutConsent",
+      "中文名称": "未经同意的数据共享",
+      "英文名称": "Data Sharing Without Consent",
+      "来源": "‘I first learned of it today’: Justice minister reacts to handover of travelers’ facial data"
+    },
+    "Domain": {
+      "id": "ImmigrationAndBorderControl",
+      "中文名称": "移民和边境控制",
+      "英文名称": "Immigration and Border Control",
+      "来源": "S. Korean government provided 170M facial images obtained in immigration process to private AI developers"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftBingAIImageGenerator",
+      "中文名称": "微软必应AI图像生成器",
+      "英文名称": "Bing Image Generator",
+      "来源": "Microsoft's AI tool used for generating images"
+    },
+    "Risk": {
+      "id": "GenerationOfHarmfulContent",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "4chan users are generating images with Nazi imagery and other 'propaganda' via Microsoft Bing's AI tool"
+    },
+    "Consequence": {
+      "id": "SpreadOfHateSpeech",
+      "中文名称": "仇恨言论传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "generating images with Nazi imagery and other 'propaganda'"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "文本提示生成图像能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "Microsoft Bing's AI tool for generating images"
+    },
+    "Stakeholder": {
+      "id": "OnlineCommunityUsers",
+      "中文名称": "网络社区用户",
+      "英文名称": "Online Users",
+      "来源": "4chan users are generating images"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "creating disturbing imagery that could harm society"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "AI tool designed for generating images"
+    },
+    "Domain": {
+      "id": "OnlineContentCreation",
+      "中文名称": "在线内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "tool used for generating digital content"
+    },
+    "RiskSource": {
+      "id": "MaliciousUserInput",
+      "中文名称": "恶意用户输入风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "users inputting harmful prompts to generate disturbing imagery"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "AI system's inability to properly filter harmful content requests"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftBingAIImageGenerator",
+      "中文名称": "微软必应AI图像生成器",
+      "英文名称": "Bing Image Generator",
+      "来源": "Microsoft's AI tool used for generating images"
+    },
+    "Risk": {
+      "id": "GenerationOfHarmfulContent",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "4chan users are generating images with Nazi imagery and other 'propaganda' via Microsoft Bing's AI tool"
+    },
+    "Consequence": {
+      "id": "SpreadOfHateSpeech",
+      "中文名称": "仇恨言论传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "generating images with Nazi imagery and other 'propaganda'"
+    },
+    "AICapability": {
+      "id": "ImageGenerationFromTextPrompts",
+      "中文名称": "文本提示生成图像能力",
+      "英文名称": "Text-to-Image Generation Capability",
+      "来源": "Microsoft Bing's AI tool for generating images"
+    },
+    "Stakeholder": {
+      "id": "OnlineCommunityUsers",
+      "中文名称": "网络社区用户",
+      "英文名称": "Online Users",
+      "来源": "4chan users are generating images"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "creating disturbing imagery that could harm society"
+    },
+    "Purpose": {
+      "id": "CreativeContentGeneration",
+      "中文名称": "创意内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "AI tool designed for generating images"
+    },
+    "Domain": {
+      "id": "OnlineContentCreation",
+      "中文名称": "在线内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "tool used for generating digital content"
+    },
+    "RiskSource": {
+      "id": "MaliciousUserInput",
+      "中文名称": "恶意用户输入风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "users inputting harmful prompts to generate disturbing imagery"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "AI system's inability to properly filter harmful content requests"
+    }
+  }
+}

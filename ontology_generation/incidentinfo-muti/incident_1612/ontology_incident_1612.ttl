@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIResearchSystem rdf:type airo:AISystem ;
+    rdfs:label "微软AI研究系统"@zh ;
+    rdfs:label "Microsoft AI Research System"@en ;
+    airo:hasRisk ex:DataLeakRisk ;
+    airo:hasStakeholder ex:MicrosoftAIResearchers .
+
+ex:DataLeakRisk rdf:type airo:Risk ;
+    rdfs:label "数据泄露风险"@zh ;
+    rdfs:label "Data Leak Risk"@en ;
+    airo:hasConsequence ex:InternalSensitiveDataExposure ;
+    airo:isRiskSourceFor ex:AccidentalDataExposure .
+
+ex:InternalSensitiveDataExposure rdf:type airo:Consequence ;
+    rdfs:label "内部敏感数据暴露后果"@zh ;
+    rdfs:label "Internal Sensitive Data Exposure Consequence"@en ;
+    airo:hasImpact ex:PrivacyAndSecurityCompromise .
+
+ex:MicrosoftAIResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "微软AI研究人员"@zh ;
+    rdfs:label "Microsoft AI Researchers"@en .
+
+ex:AccidentalDataExposure rdf:type airo:RiskSource ;
+    rdfs:label "意外数据暴露风险源"@zh ;
+    rdfs:label "Accidental Data Exposure Risk Source"@en .
+
+ex:PrivacyAndSecurityCompromise rdf:type airo:Impact ;
+    rdfs:label "隐私和安全受损影响"@zh ;
+    rdfs:label "Privacy and Security Compromise Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MicrosoftAIResearchers .

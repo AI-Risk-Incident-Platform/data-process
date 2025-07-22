@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:LegalMisinformationRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:Attorney .
+
+ex:LegalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Misinformation Risk"@en ;
+    rdfs:label "法律错误信息风险"@zh ;
+    airo:hasConsequence ex:CourtDocumentInaccuracy ;
+    airo:isRiskSourceFor ex:HallucinationInLegalContext .
+
+ex:CourtDocumentInaccuracy rdf:type airo:Consequence ;
+    rdfs:label "Court Document Inaccuracy Consequence"@en ;
+    rdfs:label "法庭文件不准确后果"@zh ;
+    airo:hasImpactOnStakeholder ex:Attorney .
+
+ex:Attorney rdf:type airo:Stakeholder ;
+    rdfs:label "Attorney"@en ;
+    rdfs:label "律师"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:HallucinationInLegalContext rdf:type airo:RiskSource ;
+    rdfs:label "Hallucination in Legal Context Risk Source"@en ;
+    rdfs:label "法律语境中的幻觉风险源"@zh .

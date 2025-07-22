@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ScriptTrainingAI",
+      "中文名称": "剧本训练AI",
+      "英文名称": "Script Training AI",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCreativeWorks",
+      "中文名称": "未经授权使用创意作品风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI. Hell Broke Loose"
+    },
+    "Stakeholder": {
+      "id": "TVWriters",
+      "中文名称": "电视编剧",
+      "英文名称": "TV Writers",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI"
+    },
+    "RiskSource": {
+      "id": "UnconsentedDataCollection",
+      "中文名称": "未经同意的数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Found 139,000 of Their Scripts Trained AI"
+    },
+    "Impact": {
+      "id": "CreativeRightsViolation",
+      "中文名称": "创作权利侵犯影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "Hell Broke Loose"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ScriptTrainingAI",
+      "中文名称": "剧本训练AI",
+      "英文名称": "Script Training AI",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCreativeWorks",
+      "中文名称": "未经授权使用创意作品风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI. Hell Broke Loose"
+    },
+    "Stakeholder": {
+      "id": "TVWriters",
+      "中文名称": "电视编剧",
+      "英文名称": "TV Writers",
+      "来源": "TV Writers Found 139,000 of Their Scripts Trained AI"
+    },
+    "RiskSource": {
+      "id": "UnconsentedDataCollection",
+      "中文名称": "未经同意的数据收集风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Found 139,000 of Their Scripts Trained AI"
+    },
+    "Impact": {
+      "id": "CreativeRightsViolation",
+      "中文名称": "创作权利侵犯影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "Hell Broke Loose"
+    }
+  }
+}

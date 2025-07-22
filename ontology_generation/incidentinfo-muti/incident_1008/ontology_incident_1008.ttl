@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceCloningSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Cloning System"@en ;
+    rdfs:label "AI语音克隆系统"@zh ;
+    airo:hasRisk ex:VoiceCloningScamRisk ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasStakeholder ex:ScamVictims .
+
+ex:VoiceCloningScamRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Cloning Scam Risk"@en ;
+    rdfs:label "语音克隆诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialFraud ;
+    airo:isRiskSourceFor ex:MaliciousUseOfVoiceCloning ;
+    airo:hasResidualRisk ex:FraudulentVoiceCloning .
+
+ex:FinancialFraud rdf:type airo:Consequence ;
+    rdfs:label "Financial Fraud Consequence"@en ;
+    rdfs:label "金融诈骗后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:ScamVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Scam Victims"@en ;
+    rdfs:label "诈骗受害者"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ScamVictims .
+
+ex:MaliciousUseOfVoiceCloning rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of Voice Cloning Risk Source"@en ;
+    rdfs:label "恶意使用语音克隆的风险源"@zh .
+
+ex:FraudulentVoiceCloning rdf:type airo:Misuse ;
+    rdfs:label "Fraudulent Voice Cloning Misuse"@en ;
+    rdfs:label "欺诈性语音克隆滥用"@zh .

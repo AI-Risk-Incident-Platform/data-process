@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIInJudicialSystem",
+      "中文名称": "司法系统中的AI",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Racist AI behaviour is not a new problem"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "A Blot on the Profession"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Stakeholder": {
+      "id": "MarginalizedCommunities",
+      "中文名称": "边缘化群体",
+      "英文名称": "Marginal & Vulnerable Communities",
+      "来源": "Racist AI behaviour is not a new problem"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "A Blot on the Profession"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIInJudicialSystem",
+      "中文名称": "司法系统中的AI",
+      "英文名称": "AI Court Sentencing",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Risk": {
+      "id": "RacialBiasInAI",
+      "中文名称": "AI中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Racist AI behaviour is not a new problem"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果后果",
+      "英文名称": "Discrimination Consequence",
+      "来源": "A Blot on the Profession"
+    },
+    "Impact": {
+      "id": "SocialInequality",
+      "中文名称": "社会不平等影响",
+      "英文名称": "Social Inequality Impact",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Stakeholder": {
+      "id": "MarginalizedCommunities",
+      "中文名称": "边缘化群体",
+      "英文名称": "Marginal & Vulnerable Communities",
+      "来源": "Racist AI behaviour is not a new problem"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Computers which magnify our prejudices"
+    },
+    "Domain": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "A Blot on the Profession"
+    }
+  }
+}

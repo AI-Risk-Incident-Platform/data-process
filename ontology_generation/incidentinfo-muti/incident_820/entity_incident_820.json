@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICrimeFightingTool",
+      "中文名称": "AI犯罪打击工具",
+      "英文名称": "AI Crime-Fighting Tool",
+      "来源": "This AI Tool Helped Convict People of Murder"
+    },
+    "Risk": {
+      "id": "UnfairConvictionRisk",
+      "中文名称": "不公正定罪风险",
+      "英文名称": "Unfair Conviction Risk",
+      "来源": "Then Someone Took a Closer Look"
+    },
+    "Consequence": {
+      "id": "WrongfulConviction",
+      "中文名称": "错误定罪后果",
+      "英文名称": "Wrongful Conviction Consequence",
+      "来源": "An AI tool used in thousands of criminal cases is facing legal challenges"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal System",
+      "来源": "Questions arise over the use of an AI crime-fighting tool"
+    },
+    "AIOperator": {
+      "id": "ToolDeveloper",
+      "中文名称": "工具开发者",
+      "英文名称": "Tool Developer",
+      "来源": "This AI Tool Helped Convict People of Murder"
+    },
+    "Domain": {
+      "id": "CriminalJustice",
+      "中文名称": "刑事司法",
+      "英文名称": "Criminal Justice",
+      "来源": "An AI tool used in thousands of criminal cases"
+    },
+    "Impact": {
+      "id": "LossOfFreedom",
+      "中文名称": "自由丧失影响",
+      "英文名称": "Loss of Freedom Impact",
+      "来源": "Helped Convict People of Murder"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "Questions arise over the use of an AI crime-fighting tool"
+    }
+  }
+}

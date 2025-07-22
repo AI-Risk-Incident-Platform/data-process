@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial Recognition Is Running Amok in China."
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial Recognition Is Running Amok in China."
+    },
+    "Stakeholder": {
+      "id": "ChineseCitizens",
+      "中文名称": "中国公民",
+      "英文名称": "Chinese People",
+      "来源": "The People Are Pushing Back."
+    },
+    "Impact": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The People Are Pushing Back."
+    },
+    "Domain": {
+      "id": "PublicSurveillance",
+      "中文名称": "公共监控",
+      "英文名称": "Surveillance Domain",
+      "来源": "Facial Recognition Is Running Amok in China."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial Recognition Is Running Amok in China."
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facial Recognition Is Running Amok in China."
+    },
+    "Stakeholder": {
+      "id": "ChineseCitizens",
+      "中文名称": "中国公民",
+      "英文名称": "Chinese People",
+      "来源": "The People Are Pushing Back."
+    },
+    "Impact": {
+      "id": "PublicBacklash",
+      "中文名称": "公众反弹",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The People Are Pushing Back."
+    },
+    "Domain": {
+      "id": "PublicSurveillance",
+      "中文名称": "公共监控",
+      "英文名称": "Surveillance Domain",
+      "来源": "Facial Recognition Is Running Amok in China."
+    }
+  }
+}

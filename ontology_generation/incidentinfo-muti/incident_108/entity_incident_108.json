@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla Says Autopilot Makes Its Cars Safer. Crash Victims Say It Kills."
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "Crash Victims Say It Kills."
+    },
+    "Consequence": {
+      "id": "FatalAccidents",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal Accidents Consequence",
+      "来源": "Bay Area Family Suing Tesla Blames Son's Death On Nascent Autopilot Technology"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Says Autopilot Makes Its Cars Safer."
+    },
+    "Stakeholder": {
+      "id": "CrashVictimsFamilies",
+      "中文名称": "事故受害者家属",
+      "英文名称": "Crash Victims' Families",
+      "来源": "Bay Area Family Suing Tesla Blames Son's Death On Nascent Autopilot Technology"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Bay Area Family Suing Tesla Blames Son's Death On Nascent Autopilot Technology"
+    },
+    "Purpose": {
+      "id": "VehicleSafetyEnhancement",
+      "中文名称": "车辆安全增强目的",
+      "英文名称": "Vehicle Safety Enhancement Purpose",
+      "来源": "Tesla Says Autopilot Makes Its Cars Safer."
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla Autopilot system is used in vehicles."
+    },
+    "RiskSource": {
+      "id": "NascentAutopilotTechnology",
+      "中文名称": "新兴自动驾驶技术风险源",
+      "英文名称": "Nascent Autopilot Technology Risk Source",
+      "来源": "Bay Area Family Suing Tesla Blames Son's Death On Nascent Autopilot Technology"
+    }
+  }
+}

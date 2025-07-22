@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSmartCityInToronto rdf:type airo:AISystem ;
+    rdfs:label "Google Smart City in Toronto"@en ;
+    rdfs:label "谷歌多伦多智能城市"@zh ;
+    airo:hasRisk ex:PrivacyConcernsInSmartCity ;
+    airo:hasStakeholder ex:TorontoResidents ;
+    airo:isAppliedWithinDomain ex:UrbanDevelopment ;
+    airo:isDeployedBy ex:GoogleSidewalkLabs .
+
+ex:PrivacyConcernsInSmartCity rdf:type airo:Risk ;
+    rdfs:label "Privacy Concerns in Smart City Risk"@en ;
+    rdfs:label "智能城市中的隐私风险"@zh ;
+    airo:hasConsequence ex:SurveillanceCapitalismExpansion ;
+    airo:isRiskSourceFor ex:DataCollectionPractices .
+
+ex:TorontoResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Toronto Residents"@en ;
+    rdfs:label "多伦多居民"@zh .
+
+ex:UrbanDevelopment rdf:type airo:Domain ;
+    rdfs:label "Urban Development Domain"@en ;
+    rdfs:label "城市发展领域"@zh .
+
+ex:SurveillanceCapitalismExpansion rdf:type airo:Impact ;
+    rdfs:label "Surveillance Capitalism Expansion Impact"@en ;
+    rdfs:label "监控资本主义扩张的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TorontoResidents .
+
+ex:DataCollectionPractices rdf:type airo:RiskSource ;
+    rdfs:label "Data Collection Practices Risk Source"@en ;
+    rdfs:label "数据收集实践的风险源"@zh .
+
+ex:GoogleSidewalkLabs rdf:type airo:AIOperator ;
+    rdfs:label "Google Sidewalk Labs"@en ;
+    rdfs:label "谷歌Sidewalk实验室"@zh .

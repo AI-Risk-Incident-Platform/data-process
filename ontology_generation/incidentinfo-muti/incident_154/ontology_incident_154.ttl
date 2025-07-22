@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ZillowHomeBuyingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Zillow Home Buying Algorithm"@en ;
+    rdfs:label "Zillow购房算法"@zh ;
+    airo:hasRisk ex:InaccurateRealEstateValuationRisk ;
+    airo:hasCapability ex:AutomatedHomeValuation ;
+    airo:isDeployedBy ex:ZillowGroup ;
+    airo:isAppliedWithinDomain ex:RealEstateMarket ;
+    airo:hasPurpose ex:AutomatedHomePurchasing ;
+    airo:usesTechnique ex:MachineLearningForRealEstate .
+
+ex:InaccurateRealEstateValuationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Real Estate Valuation Risk"@en ;
+    rdfs:label "房地产估值不准确风险"@zh ;
+    airo:hasConsequence ex:BusinessFailure ;
+    airo:isRiskSourceFor ex:UnpredictableMarketConditions .
+
+ex:BusinessFailure rdf:type airo:Consequence ;
+    rdfs:label "Business Failure Consequence"@en ;
+    rdfs:label "业务失败后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:AutomatedHomeValuation rdf:type airo:AICapability ;
+    rdfs:label "Automated Home Valuation Capability"@en ;
+    rdfs:label "自动化房屋估值能力"@zh .
+
+ex:ZillowGroup rdf:type airo:AIOperator ;
+    rdfs:label "Zillow Group"@en ;
+    rdfs:label "Zillow集团"@zh .
+
+ex:RealEstateMarket rdf:type airo:Domain ;
+    rdfs:label "Real Estate Market Domain"@en ;
+    rdfs:label "房地产市场领域"@zh .
+
+ex:UnpredictableMarketConditions rdf:type airo:RiskSource ;
+    rdfs:label "Unpredictable Market Conditions Risk Source"@en ;
+    rdfs:label "不可预测的市场条件风险源"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "财务损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ZillowGroup .
+
+ex:AutomatedHomePurchasing rdf:type airo:Purpose ;
+    rdfs:label "Automated Home Purchasing Purpose"@en ;
+    rdfs:label "自动化房屋购买目的"@zh .
+
+ex:MachineLearningForRealEstate rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning for Real Estate Technique"@en ;
+    rdfs:label "房地产机器学习技术"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIScamCreationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Scam Creation System"@en ;
+    rdfs:label "AI诈骗系统"@zh ;
+    airo:hasRisk ex:SophisticatedScamRisk ;
+    airo:hasCapability ex:ScamContentGeneration ;
+    airo:hasStakeholder ex:PotentialVictims .
+
+ex:SophisticatedScamRisk rdf:type airo:Risk ;
+    rdfs:label "Sophisticated Scam Risk"@en ;
+    rdfs:label "复杂诈骗风险"@zh ;
+    airo:isRiskSourceFor ex:AIMisuseForFraud ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:ScamContentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Scam Content Generation Capability"@en ;
+    rdfs:label "诈骗内容生成能力"@zh .
+
+ex:PotentialVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Potential Victims"@en ;
+    rdfs:label "潜在受害者"@zh .
+
+ex:AIMisuseForFraud rdf:type airo:RiskSource ;
+    rdfs:label "AI Misuse for Fraud Risk Source"@en ;
+    rdfs:label "AI用于欺诈的风险源"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失"@zh ;
+    airo:hasImpactOnStakeholder ex:PotentialVictims .

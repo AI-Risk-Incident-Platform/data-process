@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DPDChatbot",
+      "中文名称": "DPD聊天机器人",
+      "英文名称": "DPD Chatbot",
+      "来源": "DPD error caused chatbot to swear at customer"
+    },
+    "Risk": {
+      "id": "InappropriateBehaviorRisk",
+      "中文名称": "不当行为风险",
+      "英文名称": "Inappropriate Behavior Risk",
+      "来源": "chatbot to swear at customer"
+    },
+    "Consequence": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "客户不满后果",
+      "英文名称": "Customer Dissatisfaction Consequence",
+      "来源": "chatbot to swear at customer"
+    },
+    "AIOperator": {
+      "id": "DPDCompany",
+      "中文名称": "DPD公司",
+      "英文名称": "DPD Company",
+      "来源": "DPD error caused chatbot to swear at customer"
+    },
+    "Stakeholder": {
+      "id": "Customer",
+      "中文名称": "客户",
+      "英文名称": "Customer",
+      "来源": "chatbot to swear at customer"
+    },
+    "RiskSource": {
+      "id": "SystemError",
+      "中文名称": "系统错误风险源",
+      "英文名称": "System Error Risk Source",
+      "来源": "DPD error caused chatbot to swear at customer"
+    },
+    "Impact": {
+      "id": "BrandReputationDamage",
+      "中文名称": "品牌声誉损害影响",
+      "英文名称": "Brand Reputation Damage Impact",
+      "来源": "AI Customer Service Bot Disabled After Trashing Company Using It"
+    }
+  }
+}

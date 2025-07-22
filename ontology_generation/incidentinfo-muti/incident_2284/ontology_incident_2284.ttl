@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepNudeApp rdf:type airo:AISystem ;
+    rdfs:label "DeepNude App"@en ;
+    rdfs:label "DeepNude应用"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:NonConsensualNudityGeneration ;
+    airo:hasStakeholder ex:WomenSubjects ;
+    airo:isAppliedWithinDomain ex:ImageProcessingApplications ;
+    airo:hasRisk ex:NonConsensualImageCreationMisuse .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:NonConsensualImageCreation ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAI .
+
+ex:NonConsensualImageCreation rdf:type airo:Consequence ;
+    rdfs:label "Non-Consensual Image Creation Consequence"@en ;
+    rdfs:label "非自愿图像创建后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarm .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Image Generation Technique"@en ;
+    rdfs:label "深度伪造图像生成技术"@zh .
+
+ex:WomenSubjects rdf:type airo:Stakeholder ;
+    rdfs:label "Women Subjects"@en ;
+    rdfs:label "女性主体"@zh .
+
+ex:PsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm Impact"@en ;
+    rdfs:label "心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WomenSubjects .
+
+ex:NonConsensualNudityGeneration rdf:type airo:Purpose ;
+    rdfs:label "Non-Consensual Nudity Generation Purpose"@en ;
+    rdfs:label "非自愿裸体生成目的"@zh .
+
+ex:MaliciousUseOfAI rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of AI Risk Source"@en ;
+    rdfs:label "AI恶意使用风险源"@zh .
+
+ex:ImageProcessingApplications rdf:type airo:Domain ;
+    rdfs:label "Image Processing Applications Domain"@en ;
+    rdfs:label "图像处理应用领域"@zh .
+
+ex:NonConsensualImageCreationMisuse rdf:type airo:Misuse ;
+    rdfs:label "Non-Consensual Image Creation Misuse"@en ;
+    rdfs:label "非自愿图像创建滥用"@zh .

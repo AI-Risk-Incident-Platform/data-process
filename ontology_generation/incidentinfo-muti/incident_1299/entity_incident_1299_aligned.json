@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AItextbookProgram",
+      "中文名称": "AI教科书项目",
+      "英文名称": "AI Textbook Program",
+      "来源": "South Korea's new AI textbook program"
+    },
+    "Risk": {
+      "id": "ParentalConcernsOverAIEducation",
+      "中文名称": "家长对AI教育的担忧风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Parents raise concerns over South Korea's new AI"
+    },
+    "Stakeholder": {
+      "id": "SouthKoreanParents",
+      "中文名称": "韩国家长",
+      "英文名称": "South Korean Parents",
+      "来源": "Parents in South Korea question AI textbook program"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "AI textbook program"
+    },
+    "Purpose": {
+      "id": "EducationalContentDelivery",
+      "中文名称": "教育内容传递的目的",
+      "英文名称": "Academic & Educational Support",
+      "来源": "AI textbook program"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AItextbookProgram",
+      "中文名称": "AI教科书项目",
+      "英文名称": "AI Textbook Program",
+      "来源": "South Korea's new AI textbook program"
+    },
+    "Risk": {
+      "id": "ParentalConcernsOverAIEducation",
+      "中文名称": "家长对AI教育的担忧风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Parents raise concerns over South Korea's new AI"
+    },
+    "Stakeholder": {
+      "id": "SouthKoreanParents",
+      "中文名称": "韩国家长",
+      "英文名称": "South Korean Parents",
+      "来源": "Parents in South Korea question AI textbook program"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "AI textbook program"
+    },
+    "Purpose": {
+      "id": "EducationalContentDelivery",
+      "中文名称": "教育内容传递的目的",
+      "英文名称": "Academic & Educational Support",
+      "来源": "AI textbook program"
+    }
+  }
+}

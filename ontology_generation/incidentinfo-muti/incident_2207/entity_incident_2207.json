@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Jay-Z's label pulls deepfake videos from YouTube over copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Jay-Z's label pulls deepfake videos from YouTube over copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "JayZLabel",
+      "中文名称": "Jay-Z唱片公司",
+      "英文名称": "Jay-Z's Label",
+      "来源": "Jay-Z's label pulls deepfake videos from YouTube over copyright infringement"
+    },
+    "AIOperator": {
+      "id": "YouTube",
+      "中文名称": "YouTube",
+      "英文名称": "YouTube",
+      "来源": "Jay-Z's label pulls deepfake videos from YouTube over copyright infringement"
+    },
+    "Consequence": {
+      "id": "ContentRemoval",
+      "中文名称": "内容移除后果",
+      "英文名称": "Content Removal Consequence",
+      "来源": "Jay-Z's label pulls deepfake videos from YouTube over copyright infringement"
+    },
+    "AITechnique": {
+      "id": "DeepfakeAudioGeneration",
+      "中文名称": "深度伪造音频生成技术",
+      "英文名称": "Deepfake Audio Generation Technique",
+      "来源": "Jay Z tries to use copyright strikes to remove deepfaked audio of himself from YouTube"
+    },
+    "Purpose": {
+      "id": "EntertainmentContentCreation",
+      "中文名称": "娱乐内容创作目的",
+      "英文名称": "Entertainment Content Creation Purpose",
+      "来源": "Jay-Z Orders Takedown Notice Against YouTube 'Deepfakes' of him Rapping Hamlet and Billy Joel Tunes"
+    },
+    "Domain": {
+      "id": "DigitalEntertainment",
+      "中文名称": "数字娱乐领域",
+      "英文名称": "Digital Entertainment Domain",
+      "来源": "Jay-Z Orders Takedown Notice Against YouTube 'Deepfakes' of him Rapping Hamlet and Billy Joel Tunes"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedVoiceReplication",
+      "中文名称": "未经授权的语音复制风险源",
+      "英文名称": "Unauthorized Voice Replication Risk Source",
+      "来源": "Jay Z tries to use copyright strikes to remove deepfaked audio of himself from YouTube"
+    },
+    "Impact": {
+      "id": "ArtistReputationDamage",
+      "中文名称": "艺术家声誉损害影响",
+      "英文名称": "Artist Reputation Damage Impact",
+      "来源": "Jay-Z Orders Takedown Notice Against YouTube 'Deepfakes' of him Rapping Hamlet and Billy Joel Tunes"
+    }
+  }
+}

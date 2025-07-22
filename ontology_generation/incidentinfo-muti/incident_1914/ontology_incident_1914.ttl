@@ -1,0 +1,87 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftBingImageCreator rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Bing Image Creator"@en ;
+    rdfs:label "微软必应图像生成器"@zh ;
+    airo:hasRisk ex:ViolentContentGenerationRisk ;
+    airo:hasAICapability ex:ImageGenerationCapability ;
+    airo:isDeployedBy ex:MicrosoftCorporation ;
+    airo:hasStakeholder ex:PoliticalFigures ;
+    airo:hasPurpose ex:CreativeImageGeneration ;
+    airo:isAppliedWithinDomain ex:DigitalContentCreation ;
+    airo:usesTechnique ex:GenerativeAdversarialNetwork .
+
+ex:ViolentContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Violent Content Generation Risk"@en ;
+    rdfs:label "暴力内容生成风险"@zh ;
+    airo:hasConsequence ex:DisturbingImageryCreation ;
+    airo:isRiskSourceFor ex:TrainingDataBias ;
+    airo:isRiskSourceFor ex:MisuseForHarmfulContent ;
+    airo:isRiskSourceFor ex:UnintendedOutputGeneration .
+
+ex:DisturbingImageryCreation rdf:type airo:Consequence ;
+    rdfs:label "Disturbing Imagery Creation Consequence"@en ;
+    rdfs:label "令人不安的图像生成后果"@zh ;
+    airo:hasImpact ex:PublicImageDamage .
+
+ex:ImageGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Image Generation Capability"@en ;
+    rdfs:label "图像生成能力"@zh .
+
+ex:MicrosoftCorporation rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft Corporation"@en ;
+    rdfs:label "微软公司"@zh .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Political Figures"@en ;
+    rdfs:label "政治人物"@zh .
+
+ex:PublicImageDamage rdf:type airo:Impact ;
+    rdfs:label "Public Image Damage Impact"@en ;
+    rdfs:label "公众形象损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .
+
+ex:CreativeImageGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Image Generation Purpose"@en ;
+    rdfs:label "创意图像生成目的"@zh .
+
+ex:DigitalContentCreation rdf:type airo:Domain ;
+    rdfs:label "Digital Content Creation Domain"@en ;
+    rdfs:label "数字内容创作领域"@zh .
+
+ex:GenerativeAdversarialNetwork rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Network Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias Risk Source"@en ;
+    rdfs:label "训练数据偏差风险源"@zh ;
+    airo:exploitsVulnerability ex:InadequateContentFiltering .
+
+ex:MisuseForHarmfulContent rdf:type airo:Threat ;
+    rdfs:label "Misuse for Harmful Content Threat"@en ;
+    rdfs:label "有害内容滥用的威胁"@zh ;
+    airo:exploitsVulnerability ex:InadequateContentFiltering .
+
+ex:UnintendedOutputGeneration rdf:type airo:Hazard ;
+    rdfs:label "Unintended Output Generation Hazard"@en ;
+    rdfs:label "意外输出生成的危害"@zh ;
+    airo:exploitsVulnerability ex:InadequateContentFiltering .
+
+ex:InadequateContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Filtering Vulnerability"@en ;
+    rdfs:label "内容过滤不足的脆弱性"@zh .
+
+ex:EthicalChallengesInCreativeAI rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in Creative AI Risk Concept"@en ;
+    rdfs:label "创意AI中的伦理挑战"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco After a Robotaxi Dragged a Person"
+    },
+    "Risk": {
+      "id": "PedestrianSafetyRisk",
+      "中文名称": "行人安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "After a Robotaxi Dragged a Person"
+    },
+    "Consequence": {
+      "id": "PhysicalHarmToPedestrians",
+      "中文名称": "对行人造成身体伤害",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "After a Robotaxi Dragged a Person"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaRegulators",
+      "中文名称": "加州监管机构",
+      "英文名称": "California Regulator",
+      "来源": "California regulators suspend recently approved San Francisco robotaxi"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全问题",
+      "英文名称": "Public Safety Concerns",
+      "来源": "Robotaxi pushback grows in Los Angeles as Cruise loses permits"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco"
+    },
+    "RiskSource": {
+      "id": "SystemFailureInEmergencySituations",
+      "中文名称": "紧急情况下的系统故障",
+      "英文名称": "System Failure in Emergency Situations",
+      "来源": "After a Robotaxi Dragged a Person"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco After a Robotaxi Dragged a Person"
+    },
+    "Risk": {
+      "id": "PedestrianSafetyRisk",
+      "中文名称": "行人安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "After a Robotaxi Dragged a Person"
+    },
+    "Consequence": {
+      "id": "PhysicalHarmToPedestrians",
+      "中文名称": "对行人造成身体伤害",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "After a Robotaxi Dragged a Person"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaRegulators",
+      "中文名称": "加州监管机构",
+      "英文名称": "California Regulator",
+      "来源": "California regulators suspend recently approved San Francisco robotaxi"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全问题",
+      "英文名称": "Public Safety Concerns",
+      "来源": "Robotaxi pushback grows in Los Angeles as Cruise loses permits"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "GM’s Cruise Loses Its Self-Driving License in San Francisco"
+    },
+    "RiskSource": {
+      "id": "SystemFailureInEmergencySituations",
+      "中文名称": "紧急情况下的系统故障",
+      "英文名称": "System Failure in Emergency Situations",
+      "来源": "After a Robotaxi Dragged a Person"
+    }
+  }
+}

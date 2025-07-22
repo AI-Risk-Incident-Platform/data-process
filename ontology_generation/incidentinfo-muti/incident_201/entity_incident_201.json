@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NADRABiometricIDSystem",
+      "中文名称": "NADRA生物识别ID系统",
+      "英文名称": "NADRA Biometric ID System",
+      "来源": "Pakistan’s biometric ID scheme is stripping citizenship from thousands of people"
+    },
+    "Risk": {
+      "id": "CitizenshipStrippingRisk",
+      "中文名称": "剥夺公民身份风险",
+      "英文名称": "Citizenship Stripping Risk",
+      "来源": "Pakistan’s biometric ID scheme is stripping citizenship from thousands of people"
+    },
+    "Consequence": {
+      "id": "LossOfCitizenshipRights",
+      "中文名称": "丧失公民权利后果",
+      "英文名称": "Loss of Citizenship Rights Consequence",
+      "来源": "Pakistan’s biometric ID scheme is stripping citizenship from thousands of people"
+    },
+    "Stakeholder": {
+      "id": "AffectedCitizens",
+      "中文名称": "受影响公民",
+      "英文名称": "Affected Citizens",
+      "来源": "Pakistan’s biometric ID scheme is stripping citizenship from thousands of people"
+    },
+    "AIOperator": {
+      "id": "NADRA",
+      "中文名称": "NADRA",
+      "英文名称": "NADRA",
+      "来源": "IHC imposes 0.5m fine on Nadra for blocking woman’s CNIC"
+    },
+    "Impact": {
+      "id": "LegalStatusDeprivation",
+      "中文名称": "法律身份剥夺影响",
+      "英文名称": "Legal Status Deprivation Impact",
+      "来源": "Pakistan’s biometric ID scheme is stripping citizenship from thousands of people"
+    },
+    "Purpose": {
+      "id": "NationalIdentityVerification",
+      "中文名称": "国家身份验证目的",
+      "英文名称": "National Identity Verification Purpose",
+      "来源": "Technology in the Service of Development: The NADRA Story"
+    },
+    "Domain": {
+      "id": "CivilRegistration",
+      "中文名称": "民事登记领域",
+      "英文名称": "Civil Registration Domain",
+      "来源": "Technology in the Service of Development: The NADRA Story"
+    },
+    "RiskSource": {
+      "id": "FaultyBiometricRecognition",
+      "中文名称": "错误生物识别风险源",
+      "英文名称": "Faulty Biometric Recognition Risk Source",
+      "来源": "IHC imposes 0.5m fine on Nadra for blocking woman’s CNIC"
+    },
+    "Vulnerability": {
+      "id": "SystemErrorInIdentityVerification",
+      "中文名称": "身份验证系统错误脆弱性",
+      "英文名称": "System Error in Identity Verification Vulnerability",
+      "来源": "IHC imposes 0.5m fine on Nadra for blocking woman’s CNIC"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonProductListingAI",
+      "中文名称": "亚马逊产品列表AI",
+      "英文名称": "Amazon Product Listing AI",
+      "来源": "New Product Listings On Amazon Causes A Stir Due To Bizarre AI-Generated Names Like ‘I Cannot Fulfill This Request It Goes Against OpenAI's Policy’"
+    },
+    "Risk": {
+      "id": "InappropriateProductNamingRisk",
+      "中文名称": "不当产品命名风险",
+      "英文名称": "Inappropriate Product Naming Risk",
+      "来源": "Lazy use of AI leads to Amazon products called 'I cannot fulfill that request'"
+    },
+    "Consequence": {
+      "id": "ConfusingProductListings",
+      "中文名称": "混乱的产品列表后果",
+      "英文名称": "Confusing Product Listings Consequence",
+      "来源": "Amazon's AI-generated products listings are hilariously bad"
+    },
+    "AITechnique": {
+      "id": "AutomatedProductNamingAlgorithm",
+      "中文名称": "自动产品命名算法技术",
+      "英文名称": "Automated Product Naming Algorithm Technique",
+      "来源": "Lazy use of AI leads to Amazon products called 'I cannot fulfill that request'"
+    },
+    "Stakeholder": {
+      "id": "AmazonSellers",
+      "中文名称": "亚马逊卖家",
+      "英文名称": "Amazon Sellers",
+      "来源": "New Product Listings On Amazon Causes A Stir Due To Bizarre AI-Generated Names"
+    },
+    "RiskSource": {
+      "id": "OverrelianceOnAIForContentGeneration",
+      "中文名称": "过度依赖AI生成内容的风险源",
+      "英文名称": "Overreliance on AI for Content Generation Risk Source",
+      "来源": "Lazy use of AI leads to Amazon products called 'I cannot fulfill that request'"
+    }
+  }
+}

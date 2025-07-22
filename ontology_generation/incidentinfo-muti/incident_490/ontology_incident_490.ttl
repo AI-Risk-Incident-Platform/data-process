@@ -1,0 +1,78 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:FinancialScamRisk ;
+    airo:hasAICapability ex:VoiceImpersonation ;
+    airo:hasPurpose ex:DeceptiveFinancialGain ;
+    airo:hasStakeholder ex:ElderlyPeople ;
+    airo:isAppliedWithinDomain ex:FinancialServices ;
+    airo:usesTechnique ex:DeepLearningVoiceSynthesis ;
+    airo:hasVulnerability ex:ElderlyVulnerabilityToScams .
+
+ex:FinancialScamRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Scam Risk"@en ;
+    rdfs:label "金融诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:LackOfVoiceAuthentication , ex:AIEnabledSocialEngineering , ex:MisuseOfVoiceCloningTechnology .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:VoiceImpersonation rdf:type airo:AICapability ;
+    rdfs:label "Voice Impersonation Capability"@en ;
+    rdfs:label "语音模仿能力"@zh .
+
+ex:ElderlyPeople rdf:type airo:Stakeholder ;
+    rdfs:label "Elderly People"@en ;
+    rdfs:label "老年人"@zh ;
+    airo:hasImpactOnStakeholder ex:EmotionalDistress .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress Impact"@en ;
+    rdfs:label "情绪困扰影响"@zh .
+
+ex:DeceptiveFinancialGain rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Financial Gain Purpose"@en ;
+    rdfs:label "欺骗性财务收益目的"@zh .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .
+
+ex:DeepLearningVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Voice Synthesis Technique"@en ;
+    rdfs:label "深度学习语音合成技术"@zh .
+
+ex:ElderlyVulnerabilityToScams rdf:type airo:Vulnerability ;
+    rdfs:label "Elderly Vulnerability to Scams Vulnerability"@en ;
+    rdfs:label "老年人易受骗的脆弱性"@zh .
+
+ex:AIEnabledSocialEngineering rdf:type airo:Threat ;
+    rdfs:label "AI-Enabled Social Engineering Threat"@en ;
+    rdfs:label "AI驱动的社会工程威胁"@zh .
+
+ex:MisuseOfVoiceCloningTechnology rdf:type airo:Hazard ;
+    rdfs:label "Misuse of Voice Cloning Technology Hazard"@en ;
+    rdfs:label "语音克隆技术滥用危害"@zh .
+
+ex:LackOfVoiceAuthentication rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Voice Authentication Risk Source"@en ;
+    rdfs:label "缺乏语音认证的风险源"@zh .
+
+ex:EmergingAIFraudTechniques rdf:type airo:RiskConcept ;
+    rdfs:label "Emerging AI Fraud Techniques Risk Concept"@en ;
+    rdfs:label "新兴AI欺诈技术"@zh .

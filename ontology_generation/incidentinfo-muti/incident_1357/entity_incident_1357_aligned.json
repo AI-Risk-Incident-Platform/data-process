@@ -1,0 +1,138 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonRecommendationAlgorithm",
+      "中文名称": "亚马逊推荐算法",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Risk": {
+      "id": "ConsumerFinancialExploitationRisk",
+      "中文名称": "消费者财务剥削风险",
+      "英文名称": "Consumer Financial Exploitation Risk",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "Consequence": {
+      "id": "UnnecessaryConsumerSpending",
+      "中文名称": "不必要的消费者支出后果",
+      "英文名称": "Unnecessary Spending Consequence",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "AICapability": {
+      "id": "ProductRecommendationCapability",
+      "中文名称": "产品推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊顾客",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Impact": {
+      "id": "FinancialBurdenOnConsumers",
+      "中文名称": "消费者财务负担影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "Purpose": {
+      "id": "MaximizingSalesRevenue",
+      "中文名称": "最大化销售收入目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "AITechnique": {
+      "id": "BehavioralTargetingAlgorithm",
+      "中文名称": "行为定向算法技术",
+      "英文名称": "Targeted Advertising Algorithm",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPriceManipulation",
+      "中文名称": "算法价格操纵风险源",
+      "英文名称": "Algorithmic Price Manipulation Risk Source",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonRecommendationAlgorithm",
+      "中文名称": "亚马逊推荐算法",
+      "英文名称": "Amazon Product Recommendation",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Risk": {
+      "id": "ConsumerFinancialExploitationRisk",
+      "中文名称": "消费者财务剥削风险",
+      "英文名称": "Consumer Financial Exploitation Risk",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "Consequence": {
+      "id": "UnnecessaryConsumerSpending",
+      "中文名称": "不必要的消费者支出后果",
+      "英文名称": "Unnecessary Spending Consequence",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "AICapability": {
+      "id": "ProductRecommendationCapability",
+      "中文名称": "产品推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊顾客",
+      "英文名称": "Amazon Customers",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "AIOperator": {
+      "id": "AmazonInc",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Impact": {
+      "id": "FinancialBurdenOnConsumers",
+      "中文名称": "消费者财务负担影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    },
+    "Purpose": {
+      "id": "MaximizingSalesRevenue",
+      "中文名称": "最大化销售收入目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "AITechnique": {
+      "id": "BehavioralTargetingAlgorithm",
+      "中文名称": "行为定向算法技术",
+      "英文名称": "Targeted Advertising Algorithm",
+      "来源": "Amazon’s algorithms are misleading customers and causing them to spend way more than they should"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPriceManipulation",
+      "中文名称": "算法价格操纵风险源",
+      "英文名称": "Algorithmic Price Manipulation Risk Source",
+      "来源": "Amazon pushes customers towards pricier products, report claims"
+    }
+  }
+}

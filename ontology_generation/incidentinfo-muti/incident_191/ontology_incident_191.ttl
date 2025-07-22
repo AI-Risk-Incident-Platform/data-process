@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VioGenSystem rdf:type airo:AISystem ;
+    rdfs:label "VioGén System"@en ;
+    rdfs:label "VioGén系统"@zh ;
+    airo:hasRisk ex:GenderViolencePredictionRisk ;
+    airo:hasCapability ex:ViolenceRiskAssessment ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:hasPurpose ex:PreventGenderViolence .
+
+ex:GenderViolencePredictionRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Violence Prediction Risk"@en ;
+    rdfs:label "性别暴力预测风险"@zh .
+
+ex:ViolenceRiskAssessment rdf:type airo:AICapability ;
+    rdfs:label "Violence Risk Assessment Capability"@en ;
+    rdfs:label "暴力风险评估能力"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:PreventGenderViolence rdf:type airo:Purpose ;
+    rdfs:label "Prevent Gender Violence Purpose"@en ;
+    rdfs:label "预防性别暴力的目的"@zh .

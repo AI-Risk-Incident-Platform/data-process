@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ARChoicesAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "ARChoices Algorithm"@en ;
+    rdfs:label "ARChoices算法"@zh ;
+    airo:hasRisk ex:UnfairDenialOfBenefitsRisk ;
+    airo:hasPurpose ex:AutomatedBenefitEligibilityDetermination ;
+    airo:hasStakeholder ex:DisabledBenefitApplicants ;
+    airo:isDeployedBy ex:DepartmentOfHumanServices ;
+    airo:isAppliedWithinDomain ex:SocialWelfareServices .
+
+ex:UnfairDenialOfBenefitsRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Denial of Benefits Risk"@en ;
+    rdfs:label "不公平福利拒绝风险"@zh ;
+    airo:hasConsequence ex:LossOfEssentialCareServices .
+
+ex:DisabledBenefitApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Disabled Benefit Applicants"@en ;
+    rdfs:label "残疾福利申请人"@zh .
+
+ex:DepartmentOfHumanServices rdf:type airo:AIOperator ;
+    rdfs:label "Department of Human Services"@en ;
+    rdfs:label "人类服务部"@zh .
+
+ex:LossOfEssentialCareServices rdf:type airo:Consequence ;
+    rdfs:label "Loss of Essential Care Services Consequence"@en ;
+    rdfs:label "基本护理服务缺失后果"@zh ;
+    airo:hasImpactOnStakeholder ex:DisabledBenefitApplicants .
+
+ex:SocialWelfareServices rdf:type airo:Domain ;
+    rdfs:label "Social Welfare Services Domain"@en ;
+    rdfs:label "社会福利服务领域"@zh .
+
+ex:AutomatedBenefitEligibilityDetermination rdf:type airo:Purpose ;
+    rdfs:label "Automated Benefit Eligibility Determination Purpose"@en ;
+    rdfs:label "自动福利资格确定目的"@zh .

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonSearchAlgorithm",
+      "中文名称": "亚马逊搜索算法",
+      "英文名称": "Amazon Search Algorithm",
+      "来源": "Amazon India allegedly rigged search results and ripped off sellers’ products"
+    },
+    "Risk": {
+      "id": "UnfairCompetitionRisk",
+      "中文名称": "不公平竞争风险",
+      "英文名称": "Unfair Competition Risk",
+      "来源": "Amazon India allegedly copied products and promoted its own versions in searches"
+    },
+    "Consequence": {
+      "id": "SellerEconomicLoss",
+      "中文名称": "卖家经济损失后果",
+      "英文名称": "Seller Economic Loss Consequence",
+      "来源": "Amazon systematically used third-party sellers' data to copy products and promote them to shoppers"
+    },
+    "AIOperator": {
+      "id": "AmazonIndia",
+      "中文名称": "亚马逊印度",
+      "英文名称": "Amazon India",
+      "来源": "Amazon India allegedly rigged search results and ripped off sellers’ products"
+    },
+    "Stakeholder": {
+      "id": "ThirdPartySellers",
+      "中文名称": "第三方卖家",
+      "英文名称": "Third Party Sellers",
+      "来源": "Amazon systematically used third-party sellers' data to copy products and promote them to shoppers"
+    },
+    "RiskSource": {
+      "id": "DataMisuse",
+      "中文名称": "数据滥用风险源",
+      "英文名称": "Data Misuse Risk Source",
+      "来源": "Amazon systematically used third-party sellers' data to copy products and promote them to shoppers"
+    },
+    "Impact": {
+      "id": "MarketCompetitionDistortion",
+      "中文名称": "市场竞争扭曲影响",
+      "英文名称": "Market Competition Distortion Impact",
+      "来源": "Amazon India allegedly copied products and promoted its own versions in searches"
+    },
+    "Purpose": {
+      "id": "ProductSearchOptimization",
+      "中文名称": "产品搜索优化目的",
+      "英文名称": "Product Search Optimization Purpose",
+      "来源": "Amazon India allegedly rigged search results and ripped off sellers’ products"
+    },
+    "Domain": {
+      "id": "ECommerce",
+      "中文名称": "电子商务领域",
+      "英文名称": "E-Commerce Domain",
+      "来源": "Amazon India allegedly rigged search results and ripped off sellers’ products"
+    },
+    "AITechnique": {
+      "id": "SearchRankingAlgorithm",
+      "中文名称": "搜索排名算法技术",
+      "英文名称": "Search Ranking Algorithm Technique",
+      "来源": "Amazon India allegedly rigged search results and ripped off sellers’ products"
+    }
+  }
+}

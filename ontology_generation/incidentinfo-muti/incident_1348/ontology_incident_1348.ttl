@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OnlineNovelPlatformAI rdf:type airo:AISystem ;
+    rdfs:label "Online Novel Platform AI"@en ;
+    rdfs:label "在线小说平台AI"@zh ;
+    airo:hasRisk ex:HumanReplacementRisk ;
+    airo:hasStakeholder ex:ContentCreators .
+
+ex:HumanReplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Human Replacement Risk"@en ;
+    rdfs:label "人类被替代风险"@zh ;
+    airo:isRiskSourceFor ex:UnauthorizedDataCollection ;
+    airo:hasImpact ex:JobDisplacement .
+
+ex:ContentCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Content Creators"@en ;
+    rdfs:label "内容创作者"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Collection"@en ;
+    rdfs:label "未经授权的数据收集"@zh .
+
+ex:JobDisplacement rdf:type airo:Impact ;
+    rdfs:label "Job Displacement"@en ;
+    rdfs:label "工作替代"@zh ;
+    airo:hasImpactOnStakeholder ex:ContentCreators .

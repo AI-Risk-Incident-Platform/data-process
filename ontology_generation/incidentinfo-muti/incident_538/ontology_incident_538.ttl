@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDrivenFakeNewsGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI-Driven Fake News Generation System"@en ;
+    rdfs:label "AI驱动的假新闻生成系统"@zh ;
+    airo:hasRisk ex:MarketDisruptionRisk ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformsDomain ;
+    airo:usesTechnique ex:DeepfakeImageGenerationTechnique ;
+    airo:hasStakeholder ex:DeutscheBank .
+
+ex:MarketDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Market Disruption Risk"@en ;
+    rdfs:label "市场混乱风险"@zh ;
+    airo:hasConsequence ex:PublicConfusionConsequence .
+
+ex:PublicConfusionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    rdfs:label "公众困惑后果"@zh ;
+    airo:hasImpact ex:FinancialMarketVolatilityImpact .
+
+ex:FinancialMarketVolatilityImpact rdf:type airo:Impact ;
+    rdfs:label "Financial Market Volatility Impact"@en ;
+    rdfs:label "金融市场波动影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DeutscheBank .
+
+ex:DeutscheBank rdf:type airo:Stakeholder ;
+    rdfs:label "Deutsche Bank"@en ;
+    rdfs:label "德意志银行"@zh .
+
+ex:SocialMediaPlatformsDomain rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:DeepfakeImageGenerationTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Image Generation Technique"@en ;
+    rdfs:label "深度伪造图像生成技术"@zh .

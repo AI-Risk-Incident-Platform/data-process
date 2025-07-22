@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingBeta rdf:type airo:AISystem ;
+    rdfs:label "Tesla Full Self-Driving Beta"@en ;
+    rdfs:label "特斯拉全自动驾驶测试版"@zh ;
+    airo:hasRisk ex:AutonomousVehicleFatalityRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TeslaEmployee ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicles .
+
+ex:AutonomousVehicleFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Fatality Risk"@en ;
+    rdfs:label "自动驾驶车辆致命风险"@zh ;
+    airo:hasConsequence ex:FatalVehicleCrash ;
+    airo:isRiskSourceFor ex:DriverAlcoholImpairment .
+
+ex:FatalVehicleCrash rdf:type airo:Consequence ;
+    rdfs:label "Fatal Vehicle Crash Consequence"@en ;
+    rdfs:label "致命车辆碰撞后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:TeslaEmployee rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Employee"@en ;
+    rdfs:label "特斯拉员工"@zh .
+
+ex:DriverAlcoholImpairment rdf:type airo:RiskSource ;
+    rdfs:label "Driver Alcohol Impairment Risk Source"@en ;
+    rdfs:label "驾驶员酒精影响风险源"@zh .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "人员死亡影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeslaEmployee .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:AutonomousVehicles rdf:type airo:Domain ;
+    rdfs:label "Autonomous Vehicles Domain"@en ;
+    rdfs:label "自动驾驶汽车领域"@zh .

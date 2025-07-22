@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CrisisTextLine",
+      "中文名称": "危机短信热线",
+      "英文名称": "Crisis Text Line",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Stakeholder": {
+      "id": "ForProfitAICompany",
+      "中文名称": "营利性AI公司",
+      "英文名称": "For - profit AI firm",
+      "来源": "Crisis Text Line ends controversial relationship with for-profit AI company"
+    },
+    "RiskSource": {
+      "id": "DataSharingWithThirdParty",
+      "中文名称": "与第三方共享数据",
+      "英文名称": "Data Sharing with Third Party",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Impact": {
+      "id": "LossOfTrust",
+      "中文名称": "信任丧失",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Crisis Text Line ends controversial relationship with for-profit AI company"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CrisisTextLine",
+      "中文名称": "危机短信热线",
+      "英文名称": "Crisis Text Line",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Stakeholder": {
+      "id": "ForProfitAICompany",
+      "中文名称": "营利性AI公司",
+      "英文名称": "For - profit AI firm",
+      "来源": "Crisis Text Line ends controversial relationship with for-profit AI company"
+    },
+    "RiskSource": {
+      "id": "DataSharingWithThirdParty",
+      "中文名称": "与第三方共享数据",
+      "英文名称": "Data Sharing with Third Party",
+      "来源": "Crisis Text Line stops sharing conversation data with AI company"
+    },
+    "Impact": {
+      "id": "LossOfTrust",
+      "中文名称": "信任丧失",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Crisis Text Line ends controversial relationship with for-profit AI company"
+    }
+  }
+}

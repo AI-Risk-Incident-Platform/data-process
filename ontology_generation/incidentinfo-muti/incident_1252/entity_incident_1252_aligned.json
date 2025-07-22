@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CharacterAIChatbot",
+      "中文名称": "Character.AI聊天机器人",
+      "英文名称": "Character AI",
+      "来源": "After Teen's Suicide, Character.AI Is Still Hosting Dozens of Suicide-Themed Chatbots"
+    },
+    "Risk": {
+      "id": "SuicideInducementRisk",
+      "中文名称": "诱导自杀风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Consequence": {
+      "id": "TeenSuicide",
+      "中文名称": "青少年自杀后果",
+      "英文名称": "Teen Suicide Consequence",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToFamily",
+      "中文名称": "对家庭的心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "Stakeholder": {
+      "id": "TeenagersMother",
+      "中文名称": "青少年母亲",
+      "英文名称": "Teenager's Mother",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "AIOperator": {
+      "id": "CharacterAICreators",
+      "中文名称": "Character.AI创建者",
+      "英文名称": "Character.AI Creators",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "RiskSource": {
+      "id": "SuicideThemedChatbots",
+      "中文名称": "自杀主题聊天机器人风险源",
+      "英文名称": "Suicide-Themed Chatbots Risk Source",
+      "来源": "Character.AI Is Still Hosting Dozens of Suicide-Themed Chatbots"
+    },
+    "Purpose": {
+      "id": "EmotionalCompanionship",
+      "中文名称": "情感陪伴目的",
+      "英文名称": "Emotional Companionship",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Domain": {
+      "id": "MentalHealth",
+      "中文名称": "心理健康领域",
+      "英文名称": "Mental Health Domain",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "AISubject": {
+      "id": "VulnerableTeenagers",
+      "中文名称": "脆弱青少年",
+      "英文名称": "Vulnerable Teens",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CharacterAIChatbot",
+      "中文名称": "Character.AI聊天机器人",
+      "英文名称": "Character AI",
+      "来源": "After Teen's Suicide, Character.AI Is Still Hosting Dozens of Suicide-Themed Chatbots"
+    },
+    "Risk": {
+      "id": "SuicideInducementRisk",
+      "中文名称": "诱导自杀风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Consequence": {
+      "id": "TeenSuicide",
+      "中文名称": "青少年自杀后果",
+      "英文名称": "Teen Suicide Consequence",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToFamily",
+      "中文名称": "对家庭的心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "Stakeholder": {
+      "id": "TeenagersMother",
+      "中文名称": "青少年母亲",
+      "英文名称": "Teenager's Mother",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "AIOperator": {
+      "id": "CharacterAICreators",
+      "中文名称": "Character.AI创建者",
+      "英文名称": "Character.AI Creators",
+      "来源": "Now his devastated mom is suing the creators"
+    },
+    "RiskSource": {
+      "id": "SuicideThemedChatbots",
+      "中文名称": "自杀主题聊天机器人风险源",
+      "英文名称": "Suicide-Themed Chatbots Risk Source",
+      "来源": "Character.AI Is Still Hosting Dozens of Suicide-Themed Chatbots"
+    },
+    "Purpose": {
+      "id": "EmotionalCompanionship",
+      "中文名称": "情感陪伴目的",
+      "英文名称": "Emotional Companionship",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "Domain": {
+      "id": "MentalHealth",
+      "中文名称": "心理健康领域",
+      "英文名称": "Mental Health Domain",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    },
+    "AISubject": {
+      "id": "VulnerableTeenagers",
+      "中文名称": "脆弱青少年",
+      "英文名称": "Vulnerable Teens",
+      "来源": "Teenager took his own life after falling in love with AI chatbot"
+    }
+  }
+}

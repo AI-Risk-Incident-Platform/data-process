@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPoweredDisinformationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI-Powered Disinformation System"@en ;
+    rdfs:label "AI驱动的虚假信息传播系统"@zh ;
+    airo:hasRisk ex:ForeignInterferenceInElectionsRisk ;
+    airo:hasAISubject ex:Taiwan ;
+    airo:hasStakeholder ex:USVoters ;
+    airo:isAppliedWithinDomain ex:PoliticalElections .
+
+ex:ForeignInterferenceInElectionsRisk rdf:type airo:Risk ;
+    rdfs:label "Foreign Interference in Elections Risk"@en ;
+    rdfs:label "外国干预选举风险"@zh ;
+    airo:hasImpact ex:ElectionIntegrityThreat .
+
+ex:USVoters rdf:type airo:Stakeholder ;
+    rdfs:label "US Voters"@en ;
+    rdfs:label "美国选民"@zh .
+
+ex:Taiwan rdf:type airo:AISubject ;
+    rdfs:label "Taiwan"@en ;
+    rdfs:label "台湾"@zh .
+
+ex:ElectionIntegrityThreat rdf:type airo:Impact ;
+    rdfs:label "Election Integrity Threat"@en ;
+    rdfs:label "选举诚信威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:USVoters .
+
+ex:PoliticalElections rdf:type airo:Domain ;
+    rdfs:label "Political Elections"@en ;
+    rdfs:label "政治选举"@zh .

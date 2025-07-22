@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleBard",
+      "中文名称": "谷歌Bard",
+      "英文名称": "Google Bard",
+      "来源": "Google to block Bard conversations from being indexed on Search"
+    },
+    "Risk": {
+      "id": "PrivacyLeakRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "Privacy Leak Risk",
+      "来源": "Google’s Bard conversations turn up in search results"
+    },
+    "Consequence": {
+      "id": "UserConversationExposure",
+      "中文名称": "用户对话暴露后果",
+      "英文名称": "User Conversation Exposure Consequence",
+      "来源": "Oops, Bard leaks shared user conversations into Google Search, is working to remove indexing"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google to block Bard conversations from being indexed on Search"
+    },
+    "RiskSource": {
+      "id": "SearchEngineIndexing",
+      "中文名称": "搜索引擎索引风险源",
+      "英文名称": "Search Engine Indexing Risk Source",
+      "来源": "Google’s Bard conversations turn up in search results"
+    },
+    "RiskControl": {
+      "id": "BlockConversationIndexing",
+      "中文名称": "阻止对话索引管控",
+      "英文名称": "Block Conversation Indexing RiskControl",
+      "来源": "Google to block Bard conversations from being indexed on Search"
+    }
+  }
+}

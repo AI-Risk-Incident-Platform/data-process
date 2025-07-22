@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OpenAISora rdf:type airo:AISystem ;
+    rdfs:label "OpenAI Sora"@en ;
+    rdfs:label "OpenAI Sora"@zh ;
+    airo:hasRisk ex:GenerationOfHarmfulContent ;
+    airo:hasCapability ex:TextToVideoGeneration ;
+    airo:usesTechnique ex:GenerativeAI ;
+    airo:hasPurpose ex:ContentCreation .
+
+ex:GenerationOfHarmfulContent rdf:type airo:Risk ;
+    rdfs:label "Generation of Harmful Content Risk"@en ;
+    rdfs:label "生成有害内容风险"@zh .
+
+ex:TextToVideoGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text-to-Video Generation Capability"@en ;
+    rdfs:label "文本到视频生成能力"@zh .
+
+ex:GenerativeAI rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI Technique"@en ;
+    rdfs:label "生成式AI技术"@zh .
+
+ex:ContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Content Creation Purpose"@en ;
+    rdfs:label "内容创作目的"@zh .

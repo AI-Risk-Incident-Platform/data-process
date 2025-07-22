@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAI rdf:type airo:AISystem ;
+    rdfs:label "Character.AI"@en ;
+    rdfs:label "Character.AI"@zh ;
+    airo:hasRisk ex:SchoolShooterChatbotsRisk ;
+    airo:hasStakeholder ex:GoogleBackedAIStartup ;
+    airo:hasAISubject ex:SchoolShootingVictims .
+
+ex:SchoolShooterChatbotsRisk rdf:type airo:Risk ;
+    rdfs:label "School Shooter Chatbots Risk"@en ;
+    rdfs:label "校园枪手聊天机器人风险"@zh ;
+    airo:isRiskSourceFor ex:ModelingChatbotsAfterSchoolShooters ;
+    airo:hasImpact ex:PsychologicalHarmToVictims .
+
+ex:GoogleBackedAIStartup rdf:type airo:Stakeholder ;
+    rdfs:label "Google-Backed AI Startup"@en ;
+    rdfs:label "谷歌支持的AI初创公司"@zh .
+
+ex:SchoolShootingVictims rdf:type airo:AISubject ;
+    rdfs:label "School Shooting Victims"@en ;
+    rdfs:label "校园枪击案受害者"@zh .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Victims Impact"@en ;
+    rdfs:label "对受害者的心理伤害"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolShootingVictims .
+
+ex:ModelingChatbotsAfterSchoolShooters rdf:type airo:RiskSource ;
+    rdfs:label "Modeling Chatbots After School Shooters Risk Source"@en ;
+    rdfs:label "基于校园枪手建模的聊天机器人"@zh .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonSearchAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Search Algorithm"@en ;
+    rdfs:label "亚马逊搜索算法"@zh ;
+    airo:hasRisk ex:UnfairCompetitionRisk ;
+    airo:isDevelopedBy ex:AmazonIndia ;
+    airo:hasPurpose ex:ProductSearchOptimization ;
+    airo:hasStakeholder ex:ThirdPartySellers ;
+    airo:isAppliedWithinDomain ex:ECommerce ;
+    airo:usesTechnique ex:SearchRankingAlgorithm .
+
+ex:UnfairCompetitionRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Competition Risk"@en ;
+    rdfs:label "不公平竞争风险"@zh ;
+    airo:hasConsequence ex:SellerEconomicLoss ;
+    airo:isRiskSourceFor ex:DataMisuse .
+
+ex:SellerEconomicLoss rdf:type airo:Consequence ;
+    rdfs:label "Seller Economic Loss Consequence"@en ;
+    rdfs:label "卖家经济损失后果"@zh ;
+    airo:hasImpact ex:MarketCompetitionDistortion .
+
+ex:AmazonIndia rdf:type airo:AIOperator ;
+    rdfs:label "Amazon India"@en ;
+    rdfs:label "亚马逊印度"@zh .
+
+ex:ThirdPartySellers rdf:type airo:Stakeholder ;
+    rdfs:label "Third Party Sellers"@en ;
+    rdfs:label "第三方卖家"@zh .
+
+ex:DataMisuse rdf:type airo:RiskSource ;
+    rdfs:label "Data Misuse Risk Source"@en ;
+    rdfs:label "数据滥用风险源"@zh .
+
+ex:MarketCompetitionDistortion rdf:type airo:Impact ;
+    rdfs:label "Market Competition Distortion Impact"@en ;
+    rdfs:label "市场竞争扭曲影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ThirdPartySellers .
+
+ex:ProductSearchOptimization rdf:type airo:Purpose ;
+    rdfs:label "Product Search Optimization Purpose"@en ;
+    rdfs:label "产品搜索优化目的"@zh .
+
+ex:ECommerce rdf:type airo:Domain ;
+    rdfs:label "E-Commerce Domain"@en ;
+    rdfs:label "电子商务领域"@zh .
+
+ex:SearchRankingAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Search Ranking Algorithm Technique"@en ;
+    rdfs:label "搜索排名算法技术"@zh .

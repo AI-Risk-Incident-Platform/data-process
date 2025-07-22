@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlgospeakContentModerationSystem",
+      "中文名称": "算法语言内容审核系统",
+      "英文名称": "Algospeak Content Moderation System",
+      "来源": "新闻标题中提到的'algospeak'现象"
+    },
+    "Risk": {
+      "id": "ContentCreatorCommunicationBarrierRisk",
+      "中文名称": "内容创作者沟通障碍风险",
+      "英文名称": "Content Creator Communication Barrier Risk",
+      "来源": "新闻标题中提到的'algospeak'现象对内容创作者的影响"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForContentModeration",
+      "中文名称": "用于内容审核的自然语言处理能力",
+      "英文名称": "Natural Language Processing for Content Moderation Capability",
+      "来源": "新闻标题中提到的'algospeak'现象"
+    },
+    "Stakeholder": {
+      "id": "ContentCreators",
+      "中文名称": "内容创作者",
+      "英文名称": "Content Creators",
+      "来源": "新闻标题中明确提到的'content creators'"
+    },
+    "Impact": {
+      "id": "LanguageEvolutionAndDistortion",
+      "中文名称": "语言演变与扭曲的影响",
+      "英文名称": "Language Evolution and Distortion Impact",
+      "来源": "新闻标题中提到的'changing our language in real time'"
+    },
+    "Purpose": {
+      "id": "ContentModerationAndFiltering",
+      "中文名称": "内容审核与过滤的目的",
+      "英文名称": "Content Moderation and Filtering Purpose",
+      "来源": "新闻标题中提到的'algospeak'现象"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "新闻标题中提到的'Internet'和'content creators'"
+    }
+  }
+}

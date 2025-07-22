@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAutocompleteSystem",
+      "中文名称": "谷歌自动补全系统",
+      "英文名称": "Google Autocomplete System",
+      "来源": "Google Suggest Defamation"
+    },
+    "Risk": {
+      "id": "AlgorithmicDefamationRisk",
+      "中文名称": "算法诽谤风险",
+      "英文名称": "Algorithmic Defamation Risk",
+      "来源": "Algorithmic Defamation: The Case of the Shameless Autocomplete"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "Google loses autocomplete defamation case in Italy"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google LLC",
+      "来源": "Google loses autocomplete defamation case in Italy"
+    },
+    "AITechnique": {
+      "id": "SearchQueryPredictionAlgorithm",
+      "中文名称": "搜索查询预测算法",
+      "英文名称": "Search Query Prediction Algorithm",
+      "来源": "Google Suggest Defamation"
+    },
+    "RiskSource": {
+      "id": "UserGeneratedSearchPatterns",
+      "中文名称": "用户生成搜索模式风险源",
+      "英文名称": "User Generated Search Patterns Risk Source",
+      "来源": "How to Deal with Google Suggest Defamation"
+    },
+    "Impact": {
+      "id": "PersonalAndProfessionalHarm",
+      "中文名称": "个人和职业伤害影响",
+      "英文名称": "Personal and Professional Harm Impact",
+      "来源": "Algorithmic Defamation: The Case of the Shameless Autocomplete"
+    }
+  }
+}

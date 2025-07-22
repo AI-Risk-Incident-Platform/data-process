@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSearchAlgorithm",
+      "中文名称": "谷歌搜索算法",
+      "英文名称": "Google Algorithm",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Risk": {
+      "id": "SpreadOfFalseInformationWithRightwingBias",
+      "中文名称": "传播带有右翼偏见的虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Consequence": {
+      "id": "DisseminationOfSlanderAndDisinformation",
+      "中文名称": "诽谤和虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Ten years on, search auto-complete still suggests slander and disinformation"
+    },
+    "Impact": {
+      "id": "PublicMisinformationAndHarmfulContentExposure",
+      "中文名称": "公众错误信息和有害内容暴露影响",
+      "英文名称": "Misinformation Impact",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "AICapability": {
+      "id": "SearchAutoCompleteFunctionality",
+      "中文名称": "搜索自动完成功能能力",
+      "英文名称": "Search Autocomplete Capability",
+      "来源": "Ten years on, search auto-complete still suggests slander and disinformation"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchResults",
+      "中文名称": "搜索结果中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedSearchRanking",
+      "中文名称": "基于机器学习的搜索排名技术",
+      "英文名称": "Machine Learning Based Search Ranking Technique",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Purpose": {
+      "id": "InformationRetrievalAndRanking",
+      "中文名称": "信息检索和排名目的",
+      "英文名称": "Information Retrieval and Ranking Purpose",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Domain": {
+      "id": "WebSearchEngine",
+      "中文名称": "网络搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSearchAlgorithm",
+      "中文名称": "谷歌搜索算法",
+      "英文名称": "Google Algorithm",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Risk": {
+      "id": "SpreadOfFalseInformationWithRightwingBias",
+      "中文名称": "传播带有右翼偏见的虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Consequence": {
+      "id": "DisseminationOfSlanderAndDisinformation",
+      "中文名称": "诽谤和虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Ten years on, search auto-complete still suggests slander and disinformation"
+    },
+    "Impact": {
+      "id": "PublicMisinformationAndHarmfulContentExposure",
+      "中文名称": "公众错误信息和有害内容暴露影响",
+      "英文名称": "Misinformation Impact",
+      "来源": "Google Autocomplete Still Makes Vile Suggestions"
+    },
+    "AICapability": {
+      "id": "SearchAutoCompleteFunctionality",
+      "中文名称": "搜索自动完成功能能力",
+      "英文名称": "Search Autocomplete Capability",
+      "来源": "Ten years on, search auto-complete still suggests slander and disinformation"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInSearchResults",
+      "中文名称": "搜索结果中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedSearchRanking",
+      "中文名称": "基于机器学习的搜索排名技术",
+      "英文名称": "Machine Learning Based Search Ranking Technique",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Purpose": {
+      "id": "InformationRetrievalAndRanking",
+      "中文名称": "信息检索和排名目的",
+      "英文名称": "Information Retrieval and Ranking Purpose",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    },
+    "Domain": {
+      "id": "WebSearchEngine",
+      "中文名称": "网络搜索引擎领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "How Google's search algorithm spreads false information with a rightwing bias"
+    }
+  }
+}

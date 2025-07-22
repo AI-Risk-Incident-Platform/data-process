@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Google Search Algorithm"@en ;
+    rdfs:label "谷歌搜索算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInSearchResults ;
+    airo:hasAISubject ex:TeenagersInSearchResults ;
+    airo:hasStakeholder ex:GoogleCompany ;
+    airo:hasCapability ex:ContentRankingAndDisplay ;
+    airo:isAppliedWithinDomain ex:SearchEngineTechnology .
+
+ex:AlgorithmicBiasInSearchResults rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Search Results Risk"@en ;
+    rdfs:label "搜索结果中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:RacialStereotypingInSearchResults ;
+    airo:isRiskSourceFor ex:TrainingDataBias .
+
+ex:RacialStereotypingInSearchResults rdf:type airo:Consequence ;
+    rdfs:label "Racial Stereotyping in Search Results Consequence"@en ;
+    rdfs:label "搜索结果中的种族刻板印象后果"@zh ;
+    airo:hasImpact ex:ReinforcementOfRacialStereotypes .
+
+ex:ContentRankingAndDisplay rdf:type airo:AICapability ;
+    rdfs:label "Content Ranking and Display Capability"@en ;
+    rdfs:label "内容排名与展示能力"@zh .
+
+ex:GoogleCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Google Company"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:TeenagersInSearchResults rdf:type airo:AISubject ;
+    rdfs:label "Teenagers in Search Results"@en ;
+    rdfs:label "搜索结果中的青少年"@zh .
+
+ex:ReinforcementOfRacialStereotypes rdf:type airo:Impact ;
+    rdfs:label "Reinforcement of Racial Stereotypes Impact"@en ;
+    rdfs:label "强化种族刻板印象的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeenagersInSearchResults .
+
+ex:TrainingDataBias rdf:type airo:RiskSource ;
+    rdfs:label "Training Data Bias Risk Source"@en ;
+    rdfs:label "训练数据偏差风险源"@zh .
+
+ex:SearchEngineTechnology rdf:type airo:Domain ;
+    rdfs:label "Search Engine Technology Domain"@en ;
+    rdfs:label "搜索引擎技术领域"@zh .

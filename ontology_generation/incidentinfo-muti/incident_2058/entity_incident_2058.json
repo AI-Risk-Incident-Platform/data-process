@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RingDrone",
+      "中文名称": "Ring无人机",
+      "英文名称": "Ring Drone",
+      "来源": "Amazon wants to put a Ring drone inside your home"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Invasion Risk",
+      "来源": "Amazon wants to put a Ring drone inside your home"
+    },
+    "Stakeholder": {
+      "id": "Homeowners",
+      "中文名称": "房主",
+      "英文名称": "Homeowners",
+      "来源": "inside your home"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon wants to put a Ring drone inside your home"
+    },
+    "Purpose": {
+      "id": "HomeMonitoring",
+      "中文名称": "家庭监控",
+      "英文名称": "Home Monitoring",
+      "来源": "put a Ring drone inside your home"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居",
+      "英文名称": "Smart Home",
+      "来源": "inside your home"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Generation System"@en ;
+    rdfs:label "深度伪造生成系统"@zh ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:usesTechnique ex:DeepLearningBasedImageSynthesis ;
+    airo:hasStakeholder ex:SocialMediaUsers .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:PublicConfusionAndDistress ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:PublicConfusionAndDistress rdf:type airo:Consequence ;
+    rdfs:label "Public Confusion and Distress Consequence"@en ;
+    rdfs:label "公众困惑与痛苦后果"@zh ;
+    airo:hasImpact ex:EmotionalHarmToVictimsFamilies .
+
+ex:DeepLearningBasedImageSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Image Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的图像合成技术"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .
+
+ex:EmotionalHarmToVictimsFamilies rdf:type airo:Impact ;
+    rdfs:label "Emotional Harm to Victims' Families Impact"@en ;
+    rdfs:label "对受害者家庭的情感伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialMediaUsers .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Content Creation Risk Source"@en ;
+    rdfs:label "恶意内容创作风险源"@zh .

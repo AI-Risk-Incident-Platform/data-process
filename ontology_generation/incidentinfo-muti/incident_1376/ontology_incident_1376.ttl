@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MegaFaceFacialRecognitionDataset rdf:type airo:AISystem ;
+    rdfs:label "MegaFace Facial Recognition Dataset"@en ;
+    rdfs:label "MegaFace面部识别数据集"@zh ;
+    airo:hasRisk ex:PrivacyAndLiabilityConcerns ;
+    airo:isAppliedWithinDomain ex:FacialRecognitionTechnology .
+
+ex:PrivacyAndLiabilityConcerns rdf:type airo:Risk ;
+    rdfs:label "Privacy and Liability Concerns Risk"@en ;
+    rdfs:label "隐私与责任风险"@zh ;
+    airo:isRiskSourceFor ex:DatasetOriginIssues ;
+    airo:hasImpact ex:PotentialPrivacyViolations .
+
+ex:DatasetOriginIssues rdf:type airo:RiskSource ;
+    rdfs:label "Dataset Origin Issues Risk Source"@en ;
+    rdfs:label "数据集来源问题"@zh .
+
+ex:PotentialPrivacyViolations rdf:type airo:Impact ;
+    rdfs:label "Potential Privacy Violations Impact"@en ;
+    rdfs:label "潜在隐私侵犯影响"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:Domain ;
+    rdfs:label "Facial Recognition Technology Domain"@en ;
+    rdfs:label "面部识别技术领域"@zh .

@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIMusicTrainingSystem",
+      "中文名称": "AI音乐训练系统",
+      "英文名称": "AI Music Training System",
+      "来源": "WMG warns AI firms not to train on its music without a licence"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "Warner Music notifies tech firms that they need permission to use WMG content to train their AI models"
+    },
+    "Stakeholder": {
+      "id": "WarnerMusicGroup",
+      "中文名称": "华纳音乐集团",
+      "英文名称": "Warner Music Group",
+      "来源": "WMG Warns AI Companies Against Using Label Content for AI Applications"
+    },
+    "AIOperator": {
+      "id": "AITechCompanies",
+      "中文名称": "AI科技公司",
+      "英文名称": "AI Tech Companies",
+      "来源": "WMG warns AI firms not to train on its music without a licence"
+    },
+    "Purpose": {
+      "id": "MusicGeneration",
+      "中文名称": "音乐生成",
+      "英文名称": "Music Generation",
+      "来源": "use WMG content to train their AI models"
+    },
+    "Domain": {
+      "id": "MusicIndustry",
+      "中文名称": "音乐产业",
+      "英文名称": "Music Industry",
+      "来源": "WMG content"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedContentUse",
+      "中文名称": "未经授权的内容使用",
+      "英文名称": "Unauthorized Content Use",
+      "来源": "not to train on its music without a licence"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Action",
+      "来源": "WMG warns AI companies"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Financial Loss",
+      "来源": "need permission to use WMG content"
+    }
+  }
+}

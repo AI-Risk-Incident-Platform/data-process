@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:COMPASRecidivismPredictionSystem rdf:type airo:AISystem ;
+    rdfs:label "COMPAS累犯预测系统"@zh ;
+    rdfs:label "COMPAS Recidivism Prediction System"@en ;
+    airo:hasRisk ex:AlgorithmicBiasInJudicialDecisionMaking ;
+    airo:hasCapability ex:MultiVariableStatisticalAnalysisForRecidivismPrediction ;
+    airo:hasStakeholder ex:AcademicResearchersEvaluatingAlgorithmicFairness ;
+    airo:hasAISubject ex:CriminalDefendantsSubjectToAlgorithmicAssessment ;
+    airo:hasPurpose ex:SupportingJudicialRiskAssessmentDecisions ;
+    airo:isAppliedWithinDomain ex:JudicialCriminalJusticeSystem ;
+    airo:usesTechnique ex:ProprietaryMachineLearningModelWithManualVariableSelection .
+
+ex:AlgorithmicBiasInJudicialDecisionMaking rdf:type airo:Risk ;
+    rdfs:label "司法决策中的算法偏见风险"@zh ;
+    rdfs:label "Algorithmic Bias in Judicial Decision Making Risk"@en ;
+    airo:isRiskSourceFor ex:LackOfTransparencyInCommercialAlgorithms .
+
+ex:MultiVariableStatisticalAnalysisForRecidivismPrediction rdf:type airo:AICapability ;
+    rdfs:label "多变量统计分析用于预测再犯的能力"@zh ;
+    rdfs:label "Multi-Variable Statistical Analysis for Recidivism Prediction Capability"@en .
+
+ex:AcademicResearchersEvaluatingAlgorithmicFairness rdf:type airo:Stakeholder ;
+    rdfs:label "评估算法公平性的学术研究者"@zh ;
+    rdfs:label "Academic Researchers Evaluating Algorithmic Fairness"@en .
+
+ex:CriminalDefendantsSubjectToAlgorithmicAssessment rdf:type airo:AISubject ;
+    rdfs:label "接受算法评估的刑事被告人"@zh ;
+    rdfs:label "Criminal Defendants Subject to Algorithmic Assessment"@en .
+
+ex:SupportingJudicialRiskAssessmentDecisions rdf:type airo:Purpose ;
+    rdfs:label "辅助司法风险评估决策的目的"@zh ;
+    rdfs:label "Supporting Judicial Risk Assessment Decisions Purpose"@en .
+
+ex:JudicialCriminalJusticeSystem rdf:type airo:Domain ;
+    rdfs:label "司法刑事司法系统领域"@zh ;
+    rdfs:label "Judicial Criminal Justice System Domain"@en .
+
+ex:ProprietaryMachineLearningModelWithManualVariableSelection rdf:type airo:AITechnique ;
+    rdfs:label "人工选择变量的专有机器学习模型"@zh ;
+    rdfs:label "Proprietary Machine Learning Model with Manual Variable Selection Technique"@en .
+
+ex:LackOfTransparencyInCommercialAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "商业算法中缺乏透明度的风险源"@zh ;
+    rdfs:label "Lack of Transparency in Commercial Algorithms Risk Source"@en .

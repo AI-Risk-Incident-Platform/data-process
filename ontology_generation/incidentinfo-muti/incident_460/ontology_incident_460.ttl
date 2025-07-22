@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleWatchCrashDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Apple Watch Crash Detection System"@en ;
+    rdfs:label "苹果手表碰撞检测系统"@zh ;
+    airo:hasRisk ex:FalseEmergencyCallRisk ;
+    airo:hasAICapability ex:MotionAndImpactDetection ;
+    airo:isDeployedBy ex:AppleInc ;
+    airo:hasPurpose ex:EmergencySituationDetection ;
+    airo:hasStakeholder ex:LocalSheriffsOffice ;
+    airo:isAppliedWithinDomain ex:ConsumerWearableTechnologyDomain .
+
+ex:FalseEmergencyCallRisk rdf:type airo:Risk ;
+    rdfs:label "False Emergency Call Risk"@en ;
+    rdfs:label "误报紧急呼叫风险"@zh ;
+    airo:hasConsequence ex:EmergencyServiceOverloadConsequence ;
+    airo:isRiskSourceFor ex:OverSensitiveMotionDetectionRiskSource .
+
+ex:EmergencyServiceOverloadConsequence rdf:type airo:Consequence ;
+    rdfs:label "Emergency Service Overload Consequence"@en ;
+    rdfs:label "紧急服务过载后果"@zh ;
+    airo:hasImpact ex:PublicSafetyResourceDrainImpact .
+
+ex:MotionAndImpactDetection rdf:type airo:AICapability ;
+    rdfs:label "Motion and Impact Detection Capability"@en ;
+    rdfs:label "运动和冲击检测能力"@zh .
+
+ex:LocalSheriffsOffice rdf:type airo:Stakeholder ;
+    rdfs:label "Local Sheriff's Office"@en ;
+    rdfs:label "当地警长办公室"@zh .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:PublicSafetyResourceDrainImpact rdf:type airo:Impact ;
+    rdfs:label "Public Safety Resource Drain Impact"@en ;
+    rdfs:label "公共安全资源消耗影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LocalSheriffsOffice .
+
+ex:EmergencySituationDetectionPurpose rdf:type airo:Purpose ;
+    rdfs:label "Emergency Situation Detection Purpose"@en ;
+    rdfs:label "紧急情况检测目的"@zh .
+
+ex:ConsumerWearableTechnologyDomain rdf:type airo:Domain ;
+    rdfs:label "Consumer Wearable Technology Domain"@en ;
+    rdfs:label "消费级可穿戴技术领域"@zh .
+
+ex:OverSensitiveMotionDetectionRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Over-Sensitive Motion Detection Risk Source"@en ;
+    rdfs:label "过度敏感的运动检测风险源"@zh .

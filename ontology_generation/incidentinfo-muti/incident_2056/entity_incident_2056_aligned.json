@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MentorApp",
+      "中文名称": "Mentor应用",
+      "英文名称": "Mentor App",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Risk": {
+      "id": "DriverSurveillanceRisk",
+      "中文名称": "司机监控风险",
+      "英文名称": "Driver Risk",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Stakeholder": {
+      "id": "AmazonDeliveryDrivers",
+      "中文名称": "亚马逊送货司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Some Amazon Drivers Have Had Enough. Can They Unionize?"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Impact": {
+      "id": "DriverDiscontent",
+      "中文名称": "司机不满",
+      "英文名称": "Driver Discontent",
+      "来源": "Some Amazon Drivers Have Had Enough. Can They Unionize?"
+    },
+    "Purpose": {
+      "id": "DriverPerformanceMonitoring",
+      "中文名称": "司机绩效监控",
+      "英文名称": "Driver Monitoring",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流与配送",
+      "英文名称": "Logistics",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MentorApp",
+      "中文名称": "Mentor应用",
+      "英文名称": "Mentor App",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Risk": {
+      "id": "DriverSurveillanceRisk",
+      "中文名称": "司机监控风险",
+      "英文名称": "Driver Risk",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Stakeholder": {
+      "id": "AmazonDeliveryDrivers",
+      "中文名称": "亚马逊送货司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Some Amazon Drivers Have Had Enough. Can They Unionize?"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Impact": {
+      "id": "DriverDiscontent",
+      "中文名称": "司机不满",
+      "英文名称": "Driver Discontent",
+      "来源": "Some Amazon Drivers Have Had Enough. Can They Unionize?"
+    },
+    "Purpose": {
+      "id": "DriverPerformanceMonitoring",
+      "中文名称": "司机绩效监控",
+      "英文名称": "Driver Monitoring",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    },
+    "Domain": {
+      "id": "LogisticsAndDelivery",
+      "中文名称": "物流与配送",
+      "英文名称": "Logistics",
+      "来源": "Amazon uses an app called Mentor to track and discipline delivery drivers"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SecretInvasionOpeningCreditsAISystem rdf:type airo:AISystem ;
+    rdfs:label "Secret Invasion Opening Credits AI System"@en ;
+    rdfs:label "《秘密入侵》开场字幕AI系统"@zh ;
+    airo:hasRisk ex:PotentialJobDisplacementInCreativeIndustriesRisk ;
+    airo:hasPurpose ex:CreatingShapeShiftingVisualEffectsPurpose ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustryDomain ;
+    airo:hasStakeholder ex:StudioBehindSecretInvasionOpening .
+
+ex:PotentialJobDisplacementInCreativeIndustriesRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Job Displacement in Creative Industries Risk"@en ;
+    rdfs:label "创意产业潜在工作替代风险"@zh .
+
+ex:StudioBehindSecretInvasionOpening rdf:type airo:Stakeholder ;
+    rdfs:label "Studio Behind Secret Invasion Opening"@en ;
+    rdfs:label "《秘密入侵》开场制作工作室"@zh .
+
+ex:CreatingShapeShiftingVisualEffectsPurpose rdf:type airo:Purpose ;
+    rdfs:label "Creating Shape-Shifting Visual Effects Purpose"@en ;
+    rdfs:label "创建变形视觉效果的目的"@zh .
+
+ex:EntertainmentIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .

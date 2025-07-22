@@ -1,0 +1,81 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbotsForStalking rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbots for Stalking"@en ;
+    rdfs:label "用于跟踪的AI聊天机器人"@zh ;
+    airo:hasRisk ex:CyberstalkingAndPrivacyViolationRisk ;
+    airo:hasCapability ex:SocialEngineeringThroughChatbots ;
+    airo:hasAISubject ex:TargetedIndividuals ;
+    airo:hasPurpose ex:FacilitatingCyberstalking ;
+    airo:isAppliedWithinDomain ex:OnlineHarassment ;
+    airo:usesTechnique ex:ConversationalAIForDeception ;
+    airo:hasStakeholder ex:StalkingVictims ;
+    airo:hasVulnerability ex:EaseOfAIAbuseForMaliciousPurposes .
+
+ex:CyberstalkingAndPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Cyberstalking and Privacy Violation Risk"@en ;
+    rdfs:label "网络跟踪和隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:AIEnhancedStalkingMethods ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAccessibleAITools ;
+    airo:isRiskSourceFor ex:UnregulatedAIChatbotAvailability .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Victims Consequence"@en ;
+    rdfs:label "受害者心理伤害后果"@zh ;
+    airo:hasImpact ex:PersonalSafetyThreat .
+
+ex:SocialEngineeringThroughChatbots rdf:type airo:AICapability ;
+    rdfs:label "Social Engineering Through Chatbots Capability"@en ;
+    rdfs:label "通过聊天机器人进行社会工程的能力"@zh .
+
+ex:StalkingVictims rdf:type airo:Stakeholder ;
+    rdfs:label "Stalking Victims"@en ;
+    rdfs:label "跟踪受害者"@zh .
+
+ex:TargetedIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Targeted Individuals"@en ;
+    rdfs:label "被针对的个人"@zh .
+
+ex:PersonalSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Personal Safety Threat Impact"@en ;
+    rdfs:label "人身安全威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StalkingVictims .
+
+ex:FacilitatingCyberstalking rdf:type airo:Purpose ;
+    rdfs:label "Facilitating Cyberstalking Purpose"@en ;
+    rdfs:label "促进网络跟踪的目的"@zh .
+
+ex:OnlineHarassment rdf:type airo:Domain ;
+    rdfs:label "Online Harassment Domain"@en ;
+    rdfs:label "网络骚扰领域"@zh .
+
+ex:ConversationalAIForDeception rdf:type airo:AITechnique ;
+    rdfs:label "Conversational AI for Deception Technique"@en ;
+    rdfs:label "用于欺骗的对话式AI技术"@zh .
+
+ex:EaseOfAIAbuseForMaliciousPurposes rdf:type airo:Vulnerability ;
+    rdfs:label "Ease of AI Abuse for Malicious Purposes Vulnerability"@en ;
+    rdfs:label "AI易被滥用于恶意目的的脆弱性"@zh .
+
+ex:AIEnhancedStalkingMethods rdf:type airo:Threat ;
+    rdfs:label "AI-Enhanced Stalking Methods Threat"@en ;
+    rdfs:label "AI增强的跟踪方法威胁"@zh .
+
+ex:MaliciousUseOfAccessibleAITools rdf:type airo:Hazard ;
+    rdfs:label "Malicious Use of Accessible AI Tools Hazard"@en ;
+    rdfs:label "可访问AI工具的恶意使用危害"@zh .
+
+ex:UnregulatedAIChatbotAvailability rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Chatbot Availability Risk Source"@en ;
+    rdfs:label "不受监管的AI聊天机器人可用性风险源"@zh .

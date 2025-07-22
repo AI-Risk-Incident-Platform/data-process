@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICrimeFightingTool rdf:type airo:AISystem ;
+    rdfs:label "AI Crime-Fighting Tool"@en ;
+    rdfs:label "AI犯罪打击工具"@zh ;
+    airo:hasRisk ex:UnfairConvictionRisk ;
+    airo:isDeployedBy ex:ToolDeveloper ;
+    airo:hasStakeholder ex:LegalSystem ;
+    airo:isAppliedWithinDomain ex:CriminalJustice .
+
+ex:UnfairConvictionRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Conviction Risk"@en ;
+    rdfs:label "不公正定罪风险"@zh ;
+    airo:hasConsequence ex:WrongfulConviction ;
+    airo:isRiskSourceFor ex:AlgorithmicBias .
+
+ex:WrongfulConviction rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Conviction Consequence"@en ;
+    rdfs:label "错误定罪后果"@zh ;
+    airo:hasImpact ex:LossOfFreedom .
+
+ex:LegalSystem rdf:type airo:Stakeholder ;
+    rdfs:label "Legal System"@en ;
+    rdfs:label "司法系统"@zh .
+
+ex:ToolDeveloper rdf:type airo:AIOperator ;
+    rdfs:label "Tool Developer"@en ;
+    rdfs:label "工具开发者"@zh .
+
+ex:CriminalJustice rdf:type airo:Domain ;
+    rdfs:label "Criminal Justice"@en ;
+    rdfs:label "刑事司法"@zh .
+
+ex:LossOfFreedom rdf:type airo:Impact ;
+    rdfs:label "Loss of Freedom Impact"@en ;
+    rdfs:label "自由丧失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalSystem .
+
+ex:AlgorithmicBias rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias Risk Source"@en ;
+    rdfs:label "算法偏见风险源"@zh .

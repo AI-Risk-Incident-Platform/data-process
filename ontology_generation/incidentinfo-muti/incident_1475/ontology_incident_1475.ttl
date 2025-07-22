@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RussianTVFakeVideoAI rdf:type airo:AISystem ;
+    rdfs:label "Russian TV Fake Video AI"@en ;
+    rdfs:label "俄罗斯电视台虚假视频AI"@zh ;
+    airo:hasRisk ex:DisinformationRisk ;
+    airo:hasStakeholder ex:RussianTV ;
+    airo:hasAISubject ex:UkrainianGovernment ;
+    airo:hasPurpose ex:Propaganda ;
+    airo:isAppliedWithinDomain ex:MediaAndPropaganda ;
+    airo:usesTechnique ex:DeepfakeTechnology .
+
+ex:DisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:isRiskSourceFor ex:MisuseOfAITechnology ;
+    airo:hasImpact ex:PoliticalTensions .
+
+ex:RussianTV rdf:type airo:Stakeholder ;
+    rdfs:label "Russian TV"@en ;
+    rdfs:label "俄罗斯电视台"@zh .
+
+ex:UkrainianGovernment rdf:type airo:AISubject ;
+    rdfs:label "Ukrainian Government"@en ;
+    rdfs:label "乌克兰政府"@zh .
+
+ex:PoliticalTensions rdf:type airo:Impact ;
+    rdfs:label "Political Tensions"@en ;
+    rdfs:label "政治紧张局势"@zh ;
+    airo:hasImpactOnStakeholder ex:UkrainianGovernment .
+
+ex:Propaganda rdf:type airo:Purpose ;
+    rdfs:label "Propaganda"@en ;
+    rdfs:label "宣传"@zh .
+
+ex:MediaAndPropaganda rdf:type airo:Domain ;
+    rdfs:label "Media and Propaganda"@en ;
+    rdfs:label "媒体与宣传"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:MisuseOfAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of AI Technology"@en ;
+    rdfs:label "AI技术滥用"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookDeepfakeDetectionSystem",
+      "中文名称": "Facebook深度伪造检测系统",
+      "英文名称": "Facebook Deepfake Detection System",
+      "来源": "Meta fact-checking U-turn probed over Ronaldo Facebook deepfake scam"
+    },
+    "Risk": {
+      "id": "DeepfakeScamRisk",
+      "中文名称": "深度伪造诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta fact-checking U-turn probed"
+    },
+    "AISubject": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "AITechnique": {
+      "id": "DeepfakeDetection",
+      "中文名称": "深度伪造检测技术",
+      "英文名称": "Deepfake Detection Technique",
+      "来源": "Meta fact-checking U-turn probed"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Meta fact-checking U-turn probed"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookDeepfakeDetectionSystem",
+      "中文名称": "Facebook深度伪造检测系统",
+      "英文名称": "Facebook Deepfake Detection System",
+      "来源": "Meta fact-checking U-turn probed over Ronaldo Facebook deepfake scam"
+    },
+    "Risk": {
+      "id": "DeepfakeScamRisk",
+      "中文名称": "深度伪造诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta fact-checking U-turn probed"
+    },
+    "AISubject": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "AITechnique": {
+      "id": "DeepfakeDetection",
+      "中文名称": "深度伪造检测技术",
+      "英文名称": "Deepfake Detection Technique",
+      "来源": "Meta fact-checking U-turn probed"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Ronaldo Facebook deepfake scam"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Meta fact-checking U-turn probed"
+    }
+  }
+}

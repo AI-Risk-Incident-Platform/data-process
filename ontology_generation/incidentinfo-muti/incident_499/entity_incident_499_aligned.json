@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MedicareAdvantageAI",
+      "中文名称": "Medicare Advantage AI系统",
+      "英文名称": "Medicare Advantage Algorithm System",
+      "来源": "How Medicare Advantage plans use algorithms to cut off care for seniors in need"
+    },
+    "Risk": {
+      "id": "PrematureCareTerminationRisk",
+      "中文名称": "过早终止护理风险",
+      "英文名称": "Premature Care Termination Risk",
+      "来源": "use algorithms to cut off care for seniors in need"
+    },
+    "Stakeholder": {
+      "id": "SeniorCitizens",
+      "中文名称": "老年公民",
+      "英文名称": "Seniors",
+      "来源": "care for seniors in need"
+    },
+    "Impact": {
+      "id": "ReducedHealthcareAccess",
+      "中文名称": "医疗保健获取减少",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "cut off care for seniors in need"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险",
+      "英文名称": "Healthcare Insurance",
+      "来源": "Medicare Advantage plans"
+    },
+    "Purpose": {
+      "id": "CostReduction",
+      "中文名称": "成本削减",
+      "英文名称": "Cost Reduction",
+      "来源": "use algorithms to cut off care"
+    },
+    "Consequence": {
+      "id": "HealthDeterioration",
+      "中文名称": "健康状况恶化",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cut off care for seniors in need"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MedicareAdvantageAI",
+      "中文名称": "Medicare Advantage AI系统",
+      "英文名称": "Medicare Advantage Algorithm System",
+      "来源": "How Medicare Advantage plans use algorithms to cut off care for seniors in need"
+    },
+    "Risk": {
+      "id": "PrematureCareTerminationRisk",
+      "中文名称": "过早终止护理风险",
+      "英文名称": "Premature Care Termination Risk",
+      "来源": "use algorithms to cut off care for seniors in need"
+    },
+    "Stakeholder": {
+      "id": "SeniorCitizens",
+      "中文名称": "老年公民",
+      "英文名称": "Seniors",
+      "来源": "care for seniors in need"
+    },
+    "Impact": {
+      "id": "ReducedHealthcareAccess",
+      "中文名称": "医疗保健获取减少",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "cut off care for seniors in need"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险",
+      "英文名称": "Healthcare Insurance",
+      "来源": "Medicare Advantage plans"
+    },
+    "Purpose": {
+      "id": "CostReduction",
+      "中文名称": "成本削减",
+      "英文名称": "Cost Reduction",
+      "来源": "use algorithms to cut off care"
+    },
+    "Consequence": {
+      "id": "HealthDeterioration",
+      "中文名称": "健康状况恶化",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cut off care for seniors in need"
+    }
+  }
+}

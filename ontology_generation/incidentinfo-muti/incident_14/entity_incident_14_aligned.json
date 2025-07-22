@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAdDeliverySystem",
+      "中文名称": "谷歌广告投放系统",
+      "英文名称": "Google Ad System",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Risk": {
+      "id": "RacialBiasInAdDelivery",
+      "中文名称": "广告投放中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryAdTargeting",
+      "中文名称": "歧视性广告定向后果",
+      "英文名称": "Discriminatory/Unwanted Ad Consequence",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "AICapability": {
+      "id": "AutomatedAdTargeting",
+      "中文名称": "自动化广告定向能力",
+      "英文名称": "Ad Targeting Capability",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Stakeholder": {
+      "id": "BlackCommunity",
+      "中文名称": "黑人社区",
+      "英文名称": "Black Community",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Impact": {
+      "id": "RacialStereotyping",
+      "中文名称": "种族刻板印象影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Purpose": {
+      "id": "TargetedAdvertising",
+      "中文名称": "定向广告目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Discrimination in Online Ad Delivery"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAdDeliverySystem",
+      "中文名称": "谷歌广告投放系统",
+      "英文名称": "Google Ad System",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Risk": {
+      "id": "RacialBiasInAdDelivery",
+      "中文名称": "广告投放中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryAdTargeting",
+      "中文名称": "歧视性广告定向后果",
+      "英文名称": "Discriminatory/Unwanted Ad Consequence",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "AICapability": {
+      "id": "AutomatedAdTargeting",
+      "中文名称": "自动化广告定向能力",
+      "英文名称": "Ad Targeting Capability",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Stakeholder": {
+      "id": "BlackCommunity",
+      "中文名称": "黑人社区",
+      "英文名称": "Black Community",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Impact": {
+      "id": "RacialStereotyping",
+      "中文名称": "种族刻板印象影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Purpose": {
+      "id": "TargetedAdvertising",
+      "中文名称": "定向广告目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "Google accused of racism after black names are 25% more likely to bring up adverts for criminal records checks"
+    },
+    "Domain": {
+      "id": "OnlineAdvertising",
+      "中文名称": "在线广告领域",
+      "英文名称": "Digital Advertising",
+      "来源": "Discrimination in Online Ad Delivery"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "black names are 25% more likely to bring up adverts for criminal records checks"
+    }
+  }
+}

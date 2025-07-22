@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonWorkerTrackingSystem",
+      "中文名称": "亚马逊工人追踪系统",
+      "英文名称": "Amazon Worker Tracking System",
+      "来源": "Internal Documents Show Amazon’s Dystopian System for Tracking Workers Every Minute of Their Shifts"
+    },
+    "Risk": {
+      "id": "WorkerPrivacyViolationRisk",
+      "中文名称": "工人隐私侵犯风险",
+      "英文名称": "Worker Privacy Violation Risk",
+      "来源": "The Amazon That Customers Don’t See"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon to roll out tools to monitor factory workers and machines"
+    },
+    "Purpose": {
+      "id": "WorkerProductivityMonitoring",
+      "中文名称": "工人生产力监控",
+      "英文名称": "Worker Productivity Monitoring",
+      "来源": "Amazon to roll out tools to monitor factory workers and machines"
+    },
+    "Domain": {
+      "id": "WarehouseOperations",
+      "中文名称": "仓库运营",
+      "英文名称": "Warehouse Operations",
+      "来源": "Internal Documents Show Amazon’s Dystopian System for Tracking Workers Every Minute of Their Shifts"
+    },
+    "Impact": {
+      "id": "WorkerStressAndBurnout",
+      "中文名称": "工人压力与倦怠",
+      "英文名称": "Worker Stress and Burnout",
+      "来源": "The Amazon That Customers Don’t See"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article Showing Aboriginal Men in Chains Over Nudity"
+    },
+    "Risk": {
+      "id": "CulturalInsensitivityInContentModeration",
+      "中文名称": "内容审核中的文化不敏感风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook Removes Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Stakeholder": {
+      "id": "AboriginalCommunity",
+      "中文名称": "原住民社区",
+      "英文名称": "Aboriginal Community",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article"
+    },
+    "Consequence": {
+      "id": "SuppressionOfHistoricalEvidence",
+      "中文名称": "历史证据压制的后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Impact": {
+      "id": "HarmToCulturalRights",
+      "中文名称": "文化权利损害的影响",
+      "英文名称": "Harm to Cultural Rights Impact",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Purpose": {
+      "id": "CommunityStandardsEnforcement",
+      "中文名称": "社区标准执行的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook content moderation system"
+    },
+    "RiskSource": {
+      "id": "AutomatedNudityDetectionAlgorithms",
+      "中文名称": "自动裸体检测算法的风险源",
+      "英文名称": "Automated Nudity Detection Algorithms Risk Source",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article Showing Aboriginal Men in Chains Over Nudity"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article Showing Aboriginal Men in Chains Over Nudity"
+    },
+    "Risk": {
+      "id": "CulturalInsensitivityInContentModeration",
+      "中文名称": "内容审核中的文化不敏感风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook Removes Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Stakeholder": {
+      "id": "AboriginalCommunity",
+      "中文名称": "原住民社区",
+      "英文名称": "Aboriginal Community",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article"
+    },
+    "Consequence": {
+      "id": "SuppressionOfHistoricalEvidence",
+      "中文名称": "历史证据压制的后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Impact": {
+      "id": "HarmToCulturalRights",
+      "中文名称": "文化权利损害的影响",
+      "英文名称": "Harm to Cultural Rights Impact",
+      "来源": "Photo Of Aboriginal Men Used To Prove Racism In Australia"
+    },
+    "Purpose": {
+      "id": "CommunityStandardsEnforcement",
+      "中文名称": "社区标准执行的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook content moderation system"
+    },
+    "RiskSource": {
+      "id": "AutomatedNudityDetectionAlgorithms",
+      "中文名称": "自动裸体检测算法的风险源",
+      "英文名称": "Automated Nudity Detection Algorithms Risk Source",
+      "来源": "Facebook Blocks, Bans Users for Sharing Article Showing Aboriginal Men in Chains Over Nudity"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MartyTheRobot",
+      "中文名称": "Marty机器人",
+      "英文名称": "Marty the Robot",
+      "来源": "标题中提到'Marty the robot'"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作岗位替代风险",
+      "英文名称": "Job Risk",
+      "来源": "标题中'Non-essential worker'暗示可能替代人类工作"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "新闻提到'Stop & Shop, Giant Food and Martin's stores'等零售场所"
+    },
+    "AICapability": {
+      "id": "RetailAutomation",
+      "中文名称": "零售自动化能力",
+      "英文名称": "Retail Automation Capability",
+      "来源": "新闻标题'Robot in aisle 3: Retail turns more and more to machines'"
+    },
+    "Stakeholder": {
+      "id": "RetailWorkers",
+      "中文名称": "零售业员工",
+      "英文名称": "Retail Workers",
+      "来源": "标题'Non-essential worker'暗示影响对象"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MartyTheRobot",
+      "中文名称": "Marty机器人",
+      "英文名称": "Marty the Robot",
+      "来源": "标题中提到'Marty the robot'"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作岗位替代风险",
+      "英文名称": "Job Risk",
+      "来源": "标题中'Non-essential worker'暗示可能替代人类工作"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "新闻提到'Stop & Shop, Giant Food and Martin's stores'等零售场所"
+    },
+    "AICapability": {
+      "id": "RetailAutomation",
+      "中文名称": "零售自动化能力",
+      "英文名称": "Retail Automation Capability",
+      "来源": "新闻标题'Robot in aisle 3: Retail turns more and more to machines'"
+    },
+    "Stakeholder": {
+      "id": "RetailWorkers",
+      "中文名称": "零售业员工",
+      "英文名称": "Retail Workers",
+      "来源": "标题'Non-essential worker'暗示影响对象"
+    }
+  }
+}

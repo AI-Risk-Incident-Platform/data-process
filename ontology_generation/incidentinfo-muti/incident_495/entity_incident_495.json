@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DoNotPay",
+      "中文名称": "DoNotPay机器人律师",
+      "英文名称": "DoNotPay Robot Lawyer",
+      "来源": "DoNotPay, the 'Robot Lawyer,' Is Being Sued"
+    },
+    "Risk": {
+      "id": "LegalServiceMisrepresentationRisk",
+      "中文名称": "法律服务虚假陈述风险",
+      "英文名称": "Legal Service Misrepresentation Risk",
+      "来源": "'Robot lawyer' DoNotPay not fit for purpose, says complaint"
+    },
+    "Stakeholder": {
+      "id": "LegalConsumers",
+      "中文名称": "法律消费者",
+      "英文名称": "Legal Consumers",
+      "来源": "implied by the lawsuit context"
+    },
+    "Purpose": {
+      "id": "AutomatedLegalAssistance",
+      "中文名称": "自动化法律协助",
+      "英文名称": "Automated Legal Assistance",
+      "来源": "implied by 'Robot Lawyer' description"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务",
+      "英文名称": "Legal Services",
+      "来源": "implied by the nature of the system"
+    },
+    "Consequence": {
+      "id": "InadequateLegalRepresentation",
+      "中文名称": "法律代表不足",
+      "英文名称": "Inadequate Legal Representation",
+      "来源": "'not fit for purpose' complaint"
+    },
+    "Impact": {
+      "id": "LegalRightsCompromise",
+      "中文名称": "法律权利受损",
+      "英文名称": "Legal Rights Compromise",
+      "来源": "implied by inadequate representation"
+    }
+  }
+}

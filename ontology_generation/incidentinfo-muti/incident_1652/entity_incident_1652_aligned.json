@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonSmartHomeSystem",
+      "中文名称": "亚马逊智能家居系统",
+      "英文名称": "Amazon Smart Home",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "Risk": {
+      "id": "FalseRacismAllegationRisk",
+      "中文名称": "虚假种族主义指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon customer claims company locked him out of smart home devices over 'bogus' racism allegations"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessDenial",
+      "中文名称": "未经授权的访问拒绝后果",
+      "英文名称": "Unauthorized Access Denial Consequence",
+      "来源": "Amazon confirms it locked Microsoft engineer out of his Echo gear over false claim"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftEngineer",
+      "中文名称": "微软工程师",
+      "英文名称": "Microsoft Staff",
+      "来源": "Amazon confirms it locked Microsoft engineer out of his Echo gear over false claim"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "Impact": {
+      "id": "CustomerServiceDisruption",
+      "中文名称": "客户服务中断影响",
+      "英文名称": "Customer Service Disruption Impact",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentModerationSystem",
+      "中文名称": "自动化内容审核系统风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Amazon customer claims company locked him out of smart home devices over 'bogus' racism allegations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonSmartHomeSystem",
+      "中文名称": "亚马逊智能家居系统",
+      "英文名称": "Amazon Smart Home",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "Risk": {
+      "id": "FalseRacismAllegationRisk",
+      "中文名称": "虚假种族主义指控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon customer claims company locked him out of smart home devices over 'bogus' racism allegations"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessDenial",
+      "中文名称": "未经授权的访问拒绝后果",
+      "英文名称": "Unauthorized Access Denial Consequence",
+      "来源": "Amazon confirms it locked Microsoft engineer out of his Echo gear over false claim"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftEngineer",
+      "中文名称": "微软工程师",
+      "英文名称": "Microsoft Staff",
+      "来源": "Amazon confirms it locked Microsoft engineer out of his Echo gear over false claim"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "Impact": {
+      "id": "CustomerServiceDisruption",
+      "中文名称": "客户服务中断影响",
+      "英文名称": "Customer Service Disruption Impact",
+      "来源": "Amazon Shuts Down Smart Home for a Week Over Racist Slur Claim"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentModerationSystem",
+      "中文名称": "自动化内容审核系统风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Amazon customer claims company locked him out of smart home devices over 'bogus' racism allegations"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DisneyPixarStyleFilter rdf:type airo:AISystem ;
+    rdfs:label "Disney Pixar Style Filter"@en ;
+    rdfs:label "迪士尼皮克斯风格滤镜"@zh ;
+    airo:hasRisk ex:DiscriminationAgainstQueerCouples ;
+    airo:hasAISubject ex:QueerCouples ;
+    airo:hasStakeholder ex:TikTokUsers .
+
+ex:DiscriminationAgainstQueerCouples rdf:type airo:Risk ;
+    rdfs:label "Discrimination Against Queer Couples Risk"@en ;
+    rdfs:label "对同性伴侣的歧视风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition .
+
+ex:QueerCouples rdf:type airo:AISubject ;
+    rdfs:label "Queer Couples"@en ;
+    rdfs:label "同性伴侣"@zh .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Users"@en ;
+    rdfs:label "TikTok用户"@zh .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中的算法偏见风险源"@zh .

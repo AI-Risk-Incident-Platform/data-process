@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UndeletableChatbot",
+      "中文名称": "不可删除的聊天机器人",
+      "英文名称": "Undeletable Chatbot",
+      "来源": "$260 Million AI Company Releases Undeletable Chatbot That Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Consequence": {
+      "id": "ViolentBehaviorPromotion",
+      "中文名称": "暴力行为宣传后果",
+      "英文名称": "Violent Content Consequence",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "AIOperator": {
+      "id": "AICompany",
+      "中文名称": "AI公司",
+      "英文名称": "AI Companies",
+      "来源": "$260 Million AI Company"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "缺乏内容审核的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Undeletable Chatbot That Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Misuse": {
+      "id": "ChatbotMisuseForViolentPurposes",
+      "中文名称": "聊天机器人被用于暴力目的的滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UndeletableChatbot",
+      "中文名称": "不可删除的聊天机器人",
+      "英文名称": "Undeletable Chatbot",
+      "来源": "$260 Million AI Company Releases Undeletable Chatbot That Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Risk": {
+      "id": "HarmfulContentGenerationRisk",
+      "中文名称": "有害内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Consequence": {
+      "id": "ViolentBehaviorPromotion",
+      "中文名称": "暴力行为宣传后果",
+      "英文名称": "Violent Content Consequence",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "AIOperator": {
+      "id": "AICompany",
+      "中文名称": "AI公司",
+      "英文名称": "AI Companies",
+      "来源": "$260 Million AI Company"
+    },
+    "RiskSource": {
+      "id": "LackOfContentModeration",
+      "中文名称": "缺乏内容审核的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Undeletable Chatbot That Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    },
+    "Misuse": {
+      "id": "ChatbotMisuseForViolentPurposes",
+      "中文名称": "聊天机器人被用于暴力目的的滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "Gives Detailed Instructions on Murder, Ethnic Cleansing"
+    }
+  }
+}

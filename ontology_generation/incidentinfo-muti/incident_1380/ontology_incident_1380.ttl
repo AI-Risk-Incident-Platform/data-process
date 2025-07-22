@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAI rdf:type airo:AISystem ;
+    rdfs:label "Character.AI"@en ;
+    rdfs:label "Character.AI"@zh ;
+    airo:hasRisk ex:FascistChatbotsRisk ;
+    airo:hasStakeholder ex:RolePlayingGamePlayers .
+
+ex:FascistChatbotsRisk rdf:type airo:Risk ;
+    rdfs:label "Fascist Chatbots Risk"@en ;
+    rdfs:label "法西斯聊天机器人风险"@zh ;
+    airo:isRiskSourceFor ex:UncontrolledAIBehavior ;
+    airo:hasConsequence [ rdf:type airo:Consequence ;
+                          rdfs:label "Consequence of Fascist Chatbots"@en ;
+                          rdfs:label "法西斯聊天机器人后果"@zh ;
+                          airo:hasImpact ex:HarmfulIdeologicalInfluence
+                        ] .
+
+ex:RolePlayingGamePlayers rdf:type airo:Stakeholder ;
+    rdfs:label "Role-Playing Game Players"@en ;
+    rdfs:label "角色扮演游戏玩家"@zh .
+
+ex:UncontrolledAIBehavior rdf:type airo:RiskSource ;
+    rdfs:label "Uncontrolled AI Behavior"@en ;
+    rdfs:label "不受控的AI行为"@zh .
+
+ex:HarmfulIdeologicalInfluence rdf:type airo:Impact ;
+    rdfs:label "Harmful Ideological Influence"@en ;
+    rdfs:label "有害意识形态影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RolePlayingGamePlayers .

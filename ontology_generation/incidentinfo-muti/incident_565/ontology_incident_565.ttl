@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIResearchDataStorage rdf:type airo:AISystem ;
+    rdfs:label "Microsoft AI Research Data Storage"@en ;
+    rdfs:label "微软AI研究数据存储"@zh ;
+    airo:hasRisk ex:DataExposureRisk ;
+    airo:hasStakeholder ex:MicrosoftAIResearchers .
+
+ex:DataExposureRisk rdf:type airo:Risk ;
+    rdfs:label "Data Exposure Risk"@en ;
+    rdfs:label "数据暴露风险"@zh ;
+    airo:isRiskSourceFor ex:AccidentalDataExposure ;
+    airo:hasConsequence ex:PotentialDataBreach .
+
+ex:AccidentalDataExposure rdf:type airo:RiskSource ;
+    rdfs:label "Accidental Data Exposure"@en ;
+    rdfs:label "意外数据暴露"@zh .
+
+ex:PotentialDataBreach rdf:type airo:Consequence ;
+    rdfs:label "Potential Data Breach"@en ;
+    rdfs:label "潜在数据泄露"@zh ;
+    airo:hasImpact ex:PrivacyAndSecurityConcerns .
+
+ex:MicrosoftAIResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Microsoft AI Researchers"@en ;
+    rdfs:label "微软AI研究人员"@zh .
+
+ex:PrivacyAndSecurityConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy and Security Concerns"@en ;
+    rdfs:label "隐私和安全问题"@zh ;
+    airo:hasImpactOnStakeholder ex:MicrosoftAIResearchers .

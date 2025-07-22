@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CarInsurancePricingAlgorithm",
+      "中文名称": "汽车保险定价算法",
+      "英文名称": "Car Insurance Pricing Algorithm",
+      "来源": "Motorists 'demand clarity' from car insurers to make prices fairer for minority drivers"
+    },
+    "Risk": {
+      "id": "PricingBiasAgainstMinorityDrivers",
+      "中文名称": "针对少数族裔司机的定价偏见风险",
+      "英文名称": "Pricing Discrimination Risk",
+      "来源": "Motorists 'demand clarity' from car insurers to make prices fairer for minority drivers"
+    },
+    "Stakeholder": {
+      "id": "MinorityDrivers",
+      "中文名称": "少数族裔司机",
+      "英文名称": "Minority Drivers",
+      "来源": "make prices fairer for minority drivers"
+    },
+    "AISubject": {
+      "id": "InsuranceApplicants",
+      "中文名称": "保险申请人",
+      "英文名称": "Insurance Applicants",
+      "来源": "Motorists 'demand clarity' from car insurers"
+    },
+    "Domain": {
+      "id": "AutomobileInsuranceIndustry",
+      "中文名称": "汽车保险行业",
+      "英文名称": "Auto Insurance",
+      "来源": "car insurers"
+    },
+    "Impact": {
+      "id": "UnfairFinancialBurden",
+      "中文名称": "不公平财务负担的影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "make prices fairer for minority drivers"
+    },
+    "Purpose": {
+      "id": "AutomatedInsurancePremiumCalculation",
+      "中文名称": "自动化保险费计算的目的",
+      "英文名称": "Automated Insurance Premium Calculation Purpose",
+      "来源": "car insurers to make prices"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CarInsurancePricingAlgorithm",
+      "中文名称": "汽车保险定价算法",
+      "英文名称": "Car Insurance Pricing Algorithm",
+      "来源": "Motorists 'demand clarity' from car insurers to make prices fairer for minority drivers"
+    },
+    "Risk": {
+      "id": "PricingBiasAgainstMinorityDrivers",
+      "中文名称": "针对少数族裔司机的定价偏见风险",
+      "英文名称": "Pricing Discrimination Risk",
+      "来源": "Motorists 'demand clarity' from car insurers to make prices fairer for minority drivers"
+    },
+    "Stakeholder": {
+      "id": "MinorityDrivers",
+      "中文名称": "少数族裔司机",
+      "英文名称": "Minority Drivers",
+      "来源": "make prices fairer for minority drivers"
+    },
+    "AISubject": {
+      "id": "InsuranceApplicants",
+      "中文名称": "保险申请人",
+      "英文名称": "Insurance Applicants",
+      "来源": "Motorists 'demand clarity' from car insurers"
+    },
+    "Domain": {
+      "id": "AutomobileInsuranceIndustry",
+      "中文名称": "汽车保险行业",
+      "英文名称": "Auto Insurance",
+      "来源": "car insurers"
+    },
+    "Impact": {
+      "id": "UnfairFinancialBurden",
+      "中文名称": "不公平财务负担的影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "make prices fairer for minority drivers"
+    },
+    "Purpose": {
+      "id": "AutomatedInsurancePremiumCalculation",
+      "中文名称": "自动化保险费计算的目的",
+      "英文名称": "Automated Insurance Premium Calculation Purpose",
+      "来源": "car insurers to make prices"
+    }
+  }
+}

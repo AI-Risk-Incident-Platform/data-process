@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTReplicaBook rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Replica Book"@en ;
+    rdfs:label "ChatGPT复制书籍"@zh ;
+    airo:hasRisk ex:IntellectualPropertyInfringementRisk ;
+    airo:usesTechnique ex:ContentGenerationAI ;
+    airo:hasStakeholder ex:BookAuthor .
+
+ex:IntellectualPropertyInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Intellectual Property Infringement Risk"@en ;
+    rdfs:label "知识产权侵权风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedContentReproduction .
+
+ex:BookAuthor rdf:type airo:Stakeholder ;
+    rdfs:label "Book Author"@en ;
+    rdfs:label "书籍作者"@zh .
+
+ex:UnauthorizedContentReproduction rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Content Reproduction"@en ;
+    rdfs:label "未经授权的内容复制"@zh ;
+    airo:hasImpactOnStakeholder ex:BookAuthor .
+
+ex:ContentGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Content Generation AI"@en ;
+    rdfs:label "内容生成AI"@zh .

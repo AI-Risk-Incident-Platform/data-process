@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI Chatbots Have a Racism Problem Despite Anti-Racism Training"
+    },
+    "Risk": {
+      "id": "RacialStereotypesRisk",
+      "中文名称": "种族刻板印象风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Chatbots persist in using racial stereotypes despite anti-bias training"
+    },
+    "Consequence": {
+      "id": "CovertRacismPerpetuation",
+      "中文名称": "隐性种族主义延续后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "AI perpetuating covert racism, study warns"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI perpetuating covert racism, study warns"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationImpact",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "AI perpetuating covert racism, study warns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI Chatbots Have a Racism Problem Despite Anti-Racism Training"
+    },
+    "Risk": {
+      "id": "RacialStereotypesRisk",
+      "中文名称": "种族刻板印象风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Chatbots persist in using racial stereotypes despite anti-bias training"
+    },
+    "Consequence": {
+      "id": "CovertRacismPerpetuation",
+      "中文名称": "隐性种族主义延续后果",
+      "英文名称": "Harmful Stereotype Consequences",
+      "来源": "AI perpetuating covert racism, study warns"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI perpetuating covert racism, study warns"
+    },
+    "Impact": {
+      "id": "SocialDiscriminationImpact",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "AI perpetuating covert racism, study warns"
+    }
+  }
+}

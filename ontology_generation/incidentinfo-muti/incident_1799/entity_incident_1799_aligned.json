@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "JobSeekerRankingService",
+      "中文名称": "求职者排名服务",
+      "英文名称": "Job Seeker Ranking Service",
+      "来源": "Controversial service that ranked job seekers based on personal emails folds following AlgorithmWatch investigation"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "Stakeholder": {
+      "id": "AlgorithmWatch",
+      "中文名称": "算法观察组织",
+      "英文名称": "AlgorithmWatch",
+      "来源": "folds following AlgorithmWatch investigation"
+    },
+    "AISubject": {
+      "id": "JobSeekers",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "RiskSource": {
+      "id": "PersonalEmailDataUsage",
+      "中文名称": "个人邮件数据使用",
+      "英文名称": "Personal Email Data Usage",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "Impact": {
+      "id": "ServiceTermination",
+      "中文名称": "服务终止",
+      "英文名称": "Service Termination",
+      "来源": "folds following AlgorithmWatch investigation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "JobSeekerRankingService",
+      "中文名称": "求职者排名服务",
+      "英文名称": "Job Seeker Ranking Service",
+      "来源": "Controversial service that ranked job seekers based on personal emails folds following AlgorithmWatch investigation"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "Stakeholder": {
+      "id": "AlgorithmWatch",
+      "中文名称": "算法观察组织",
+      "英文名称": "AlgorithmWatch",
+      "来源": "folds following AlgorithmWatch investigation"
+    },
+    "AISubject": {
+      "id": "JobSeekers",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "RiskSource": {
+      "id": "PersonalEmailDataUsage",
+      "中文名称": "个人邮件数据使用",
+      "英文名称": "Personal Email Data Usage",
+      "来源": "ranked job seekers based on personal emails"
+    },
+    "Impact": {
+      "id": "ServiceTermination",
+      "中文名称": "服务终止",
+      "英文名称": "Service Termination",
+      "来源": "folds following AlgorithmWatch investigation"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingBeta rdf:type airo:AISystem ;
+    rdfs:label "特斯拉全自动驾驶测试版"@zh ;
+    rdfs:label "Tesla Full Self-Driving Beta"@en ;
+    airo:hasRisk ex:UnauthorizedDisclosureOfProprietaryTechnologyRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TeslaEmployee ;
+    airo:hasPurpose ex:AutonomousDrivingTechnologyDevelopment ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:UnauthorizedDisclosureOfProprietaryTechnologyRisk rdf:type airo:Risk ;
+    rdfs:label "未经授权披露专有技术风险"@zh ;
+    rdfs:label "Unauthorized Disclosure of Proprietary Technology Risk"@en ;
+    airo:hasConsequence ex:TerminationOfEmployment ;
+    airo:isRiskSourceFor ex:PublicSharingOfConfidentialInformation .
+
+ex:TeslaEmployee rdf:type airo:Stakeholder ;
+    rdfs:label "特斯拉员工"@zh ;
+    rdfs:label "Tesla Employee"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:TerminationOfEmployment rdf:type airo:Consequence ;
+    rdfs:label "终止雇佣关系后果"@zh ;
+    rdfs:label "Termination of Employment Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:TeslaEmployee .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:AutonomousDrivingTechnologyDevelopment rdf:type airo:Purpose ;
+    rdfs:label "自动驾驶技术开发目的"@zh ;
+    rdfs:label "Autonomous Driving Technology Development Purpose"@en .
+
+ex:PublicSharingOfConfidentialInformation rdf:type airo:RiskSource ;
+    rdfs:label "公开分享机密信息风险源"@zh ;
+    rdfs:label "Public Sharing of Confidential Information Risk Source"@en .

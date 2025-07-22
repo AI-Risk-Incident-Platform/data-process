@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramAutoTranslateTool",
+      "中文名称": "Instagram自动翻译工具",
+      "英文名称": "Instagram Auto Translate Tool",
+      "来源": "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Translation Error Risk",
+      "来源": "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfUsers",
+      "中文名称": "用户形象误传后果",
+      "英文名称": "Misrepresentation Consequence",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Impact": {
+      "id": "HarmToUserReputation",
+      "中文名称": "损害用户声誉的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Stakeholder": {
+      "id": "PalestineSupporters",
+      "中文名称": "巴勒斯坦支持者",
+      "英文名称": "Palestine Supporters",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta apologized after Instagram's auto-translate tool"
+    },
+    "RiskSource": {
+      "id": "TranslationAlgorithmError",
+      "中文名称": "翻译算法错误风险源",
+      "英文名称": "Translation Algorithm Error Risk Source",
+      "来源": "auto-translate tool added 'terrorist' to the bio"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "InstagramAutoTranslateTool",
+      "中文名称": "Instagram自动翻译工具",
+      "英文名称": "Instagram Auto Translate Tool",
+      "来源": "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Translation Error Risk",
+      "来源": "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Consequence": {
+      "id": "MisrepresentationOfUsers",
+      "中文名称": "用户形象误传后果",
+      "英文名称": "Misrepresentation Consequence",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Impact": {
+      "id": "HarmToUserReputation",
+      "中文名称": "损害用户声誉的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "Stakeholder": {
+      "id": "PalestineSupporters",
+      "中文名称": "巴勒斯坦支持者",
+      "英文名称": "Palestine Supporters",
+      "来源": "added 'terrorist' to the bio of some Palestine supporters"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta apologized after Instagram's auto-translate tool"
+    },
+    "RiskSource": {
+      "id": "TranslationAlgorithmError",
+      "中文名称": "翻译算法错误风险源",
+      "英文名称": "Translation Algorithm Error Risk Source",
+      "来源": "auto-translate tool added 'terrorist' to the bio"
+    }
+  }
+}

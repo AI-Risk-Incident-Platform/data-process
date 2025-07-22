@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIBlackVoterImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Black Voter Image Generator"@en ;
+    rdfs:label "AI黑人选民图片生成器"@zh ;
+    airo:hasRisk ex:ElectionMisinformationRisk ;
+    airo:hasStakeholder ex:GOPPollster .
+
+ex:ElectionMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Election Misinformation Risk"@en ;
+    rdfs:label "选举虚假信息风险"@zh ;
+    airo:isRiskSourceFor ex:FakePhotosOfBlackVoters ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:GOPPollster rdf:type airo:Stakeholder ;
+    rdfs:label "GOP Pollster"@en ;
+    rdfs:label "共和党民意调查机构"@zh .
+
+ex:FakePhotosOfBlackVoters rdf:type airo:RiskSource ;
+    rdfs:label "Fake Photos of Black Voters"@en ;
+    rdfs:label "黑人选民虚假照片"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion"@en ;
+    rdfs:label "公众信任侵蚀"@zh ;
+    airo:hasImpactOnStakeholder ex:GOPPollster .

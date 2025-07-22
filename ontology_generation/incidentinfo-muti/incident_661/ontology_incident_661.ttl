@@ -1,0 +1,70 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LeonardoAI rdf:type airo:AISystem ;
+    rdfs:label "Leonardo AI"@en ;
+    rdfs:label "Leonardo AI"@zh ;
+    airo:hasRisk ex:NonconsensualPornCreationRisk ;
+    airo:hasCapability ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:CreativeImageGeneration ;
+    airo:isAppliedWithinDomain ex:EntertainmentAndMedia ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:Celebrities ;
+    airo:isDeployedBy ex:Samsung .
+
+ex:NonconsensualPornCreationRisk rdf:type airo:Risk ;
+    rdfs:label "Nonconsensual Porn Creation Risk"@en ;
+    rdfs:label "非自愿色情内容创作风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolationAndReputationDamage ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:PrivacyViolationAndReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation and Reputation Damage Consequence"@en ;
+    rdfs:label "隐私侵犯和声誉损害后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:DeepfakeImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Deepfake Image Generation Capability"@en ;
+    rdfs:label "深度伪造图像生成能力"@zh .
+
+ex:Celebrities rdf:type airo:Stakeholder ;
+    rdfs:label "Celebrities"@en ;
+    rdfs:label "名人"@zh .
+
+ex:Samsung rdf:type airo:AIOperator ;
+    rdfs:label "Samsung"@en ;
+    rdfs:label "三星"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Celebrities .
+
+ex:CreativeImageGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Image Generation Purpose"@en ;
+    rdfs:label "创意图像生成目的"@zh .
+
+ex:EntertainmentAndMedia rdf:type airo:Domain ;
+    rdfs:label "Entertainment and Media Domain"@en ;
+    rdfs:label "娱乐和媒体领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:NonconsensualPornCreation rdf:type airo:Misuse ;
+    rdfs:label "Nonconsensual Porn Creation"@en ;
+    rdfs:label "非自愿色情内容创作滥用"@zh .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核缺失风险源"@zh .

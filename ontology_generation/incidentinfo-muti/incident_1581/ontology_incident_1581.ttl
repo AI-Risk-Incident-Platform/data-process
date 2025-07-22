@@ -1,0 +1,57 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AdvancedAIChatbots rdf:type airo:AISystem ;
+    rdfs:label "Advanced AI Chatbots"@en ;
+    rdfs:label "高级AI聊天机器人"@zh ;
+    airo:hasRisk ex:RacistMedicalInformationRisk ;
+    airo:hasCapability ex:MedicalInformationGeneration ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:hasAISubject ex:PatientsSeekingHealthInformation ;
+    airo:hasStakeholder ex:MedicalResearchers .
+
+ex:RacistMedicalInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Racist Medical Information Risk"@en ;
+    rdfs:label "种族主义医疗信息风险"@zh ;
+    airo:hasConsequence ex:HarmfulMedicalAdvice ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HarmfulMedicalAdvice rdf:type airo:Consequence ;
+    rdfs:label "Harmful Medical Advice Consequence"@en ;
+    rdfs:label "有害医疗建议后果"@zh ;
+    airo:hasImpact ex:HealthDisparities .
+
+ex:HealthDisparities rdf:type airo:Impact ;
+    rdfs:label "Health Disparities Impact"@en ;
+    rdfs:label "健康差异影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalResearchers ;
+    airo:hasImpactOnStakeholder ex:PatientsSeekingHealthInformation .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:MedicalInformationGeneration rdf:type airo:AICapability ;
+    rdfs:label "Medical Information Generation Capability"@en ;
+    rdfs:label "医疗信息生成能力"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:MedicalResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Medical Researchers"@en ;
+    rdfs:label "医学研究人员"@zh .
+
+ex:PatientsSeekingHealthInformation rdf:type airo:AISubject ;
+    rdfs:label "Patients Seeking Health Information"@en ;
+    rdfs:label "寻求健康信息的患者"@zh .

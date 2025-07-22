@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SelfDrivingCarSystem",
+      "中文名称": "自动驾驶汽车系统",
+      "英文名称": "Autonomous Cars",
+      "来源": "A new study finds a potential risk with self-driving cars: failure to detect dark-skinned pedestrians"
+    },
+    "Risk": {
+      "id": "PedestrianDetectionBiasRisk",
+      "中文名称": "行人检测偏见风险",
+      "英文名称": "Pedestrian Detection Bias Risk",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "Consequence": {
+      "id": "IncreasedAccidentRiskForDarkSkinnedPedestrians",
+      "中文名称": "深色皮肤行人事故风险增加",
+      "英文名称": "Increased Accident Risk for Dark-Skinned Pedestrians",
+      "来源": "Driverless cars likely to HIT people with darker skin"
+    },
+    "AICapability": {
+      "id": "PedestrianDetectionCapability",
+      "中文名称": "行人检测能力",
+      "英文名称": "Pedestrian Detection Capability",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "The racism of technology - and why driverless cars could be the most dangerous example yet"
+    },
+    "Impact": {
+      "id": "RacialDiscriminationInTransportationSafety",
+      "中文名称": "交通安全中的种族歧视影响",
+      "英文名称": "Racial Discrimination in Transportation Safety Impact",
+      "来源": "Driverless cars likely to HIT people with darker skin"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedPedestrians",
+      "中文名称": "深色皮肤行人",
+      "英文名称": "Dark-Skinned Pedestrians",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInComputerVision",
+      "中文名称": "计算机视觉中的算法偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "The racism of technology - and why driverless cars could be the most dangerous example yet"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SelfDrivingCarSystem",
+      "中文名称": "自动驾驶汽车系统",
+      "英文名称": "Autonomous Cars",
+      "来源": "A new study finds a potential risk with self-driving cars: failure to detect dark-skinned pedestrians"
+    },
+    "Risk": {
+      "id": "PedestrianDetectionBiasRisk",
+      "中文名称": "行人检测偏见风险",
+      "英文名称": "Pedestrian Detection Bias Risk",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "Consequence": {
+      "id": "IncreasedAccidentRiskForDarkSkinnedPedestrians",
+      "中文名称": "深色皮肤行人事故风险增加",
+      "英文名称": "Increased Accident Risk for Dark-Skinned Pedestrians",
+      "来源": "Driverless cars likely to HIT people with darker skin"
+    },
+    "AICapability": {
+      "id": "PedestrianDetectionCapability",
+      "中文名称": "行人检测能力",
+      "英文名称": "Pedestrian Detection Capability",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "The racism of technology - and why driverless cars could be the most dangerous example yet"
+    },
+    "Impact": {
+      "id": "RacialDiscriminationInTransportationSafety",
+      "中文名称": "交通安全中的种族歧视影响",
+      "英文名称": "Racial Discrimination in Transportation Safety Impact",
+      "来源": "Driverless cars likely to HIT people with darker skin"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedPedestrians",
+      "中文名称": "深色皮肤行人",
+      "英文名称": "Dark-Skinned Pedestrians",
+      "来源": "failure to detect dark-skinned pedestrians"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInComputerVision",
+      "中文名称": "计算机视觉中的算法偏见脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "The racism of technology - and why driverless cars could be the most dangerous example yet"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SafeRentRentalAssessmentSystem rdf:type airo:AISystem ;
+    rdfs:label "SafeRent Rental Assessment System"@en ;
+    rdfs:label "SafeRent租赁评估系统"@zh ;
+    airo:hasRisk ex:RacialBiasInRentalAssessmentsRisk ;
+    airo:hasAISubject ex:BlackAndHispanicRentalApplicants ;
+    airo:hasStakeholder ex:USGovernment ;
+    airo:isAppliedWithinDomain ex:RentalHousingMarketDomain .
+
+ex:RacialBiasInRentalAssessmentsRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Rental Assessments Risk"@en ;
+    rdfs:label "租赁评估中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:HousingDiscriminationConsequence ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmicScoringRiskSource .
+
+ex:HousingDiscriminationConsequence rdf:type airo:Consequence ;
+    rdfs:label "Housing Discrimination Consequence"@en ;
+    rdfs:label "住房歧视后果"@zh ;
+    airo:hasImpact ex:LimitedHousingOpportunitiesImpact .
+
+ex:BlackAndHispanicRentalApplicants rdf:type airo:AISubject ;
+    rdfs:label "Black and Hispanic Rental Applicants"@en ;
+    rdfs:label "黑人和西班牙裔租赁申请人"@zh .
+
+ex:USGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "US Government"@en ;
+    rdfs:label "美国政府"@zh .
+
+ex:RentalHousingMarketDomain rdf:type airo:Domain ;
+    rdfs:label "Rental Housing Market Domain"@en ;
+    rdfs:label "租赁住房市场领域"@zh .
+
+ex:LimitedHousingOpportunitiesImpact rdf:type airo:Impact ;
+    rdfs:label "Limited Housing Opportunities Impact"@en ;
+    rdfs:label "住房机会受限的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackAndHispanicRentalApplicants .
+
+ex:BiasedAlgorithmicScoringRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithmic Scoring Risk Source"@en ;
+    rdfs:label "有偏见的算法评分风险源"@zh .

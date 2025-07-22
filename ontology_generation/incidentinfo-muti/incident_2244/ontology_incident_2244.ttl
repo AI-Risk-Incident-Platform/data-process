@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaSelfDrivingSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Self-Driving System"@en ;
+    airo:hasRisk ex:TrafficSafetyRisk ;
+    airo:hasPurpose ex:AutonomousDriving ;
+    airo:hasCapability ex:RoadNavigation ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:ICBC ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:TrafficSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "交通安全风险"@zh ;
+    rdfs:label "Traffic Safety Risk"@en ;
+    airo:hasConsequence ex:PotentialAccident ;
+    airo:isRiskSourceFor ex:SystemMalfunction .
+
+ex:PotentialAccident rdf:type airo:Consequence ;
+    rdfs:label "潜在事故后果"@zh ;
+    rdfs:label "Potential Accident Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:ICBC rdf:type airo:Stakeholder ;
+    rdfs:label "ICBC保险公司"@zh ;
+    rdfs:label "ICBC Insurance Company"@en .
+
+ex:SystemMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "系统故障风险源"@zh ;
+    rdfs:label "System Malfunction Risk Source"@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共安全威胁影响"@zh ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ICBC .
+
+ex:AutonomousDriving rdf:type airo:Purpose ;
+    rdfs:label "自动驾驶目的"@zh ;
+    rdfs:label "Autonomous Driving Purpose"@en .
+
+ex:RoadNavigation rdf:type airo:AICapability ;
+    rdfs:label "道路导航能力"@zh ;
+    rdfs:label "Road Navigation Capability"@en .

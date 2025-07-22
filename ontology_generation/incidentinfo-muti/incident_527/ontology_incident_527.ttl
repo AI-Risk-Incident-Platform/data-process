@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeBotOnTelegram rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Bot on Telegram"@en ;
+    rdfs:label "Telegram上的Deepfake机器人"@zh ;
+    airo:hasRisk ex:CreationOfFakeNudesRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:UnderageGirls ;
+    airo:hasMisuse ex:UndressingUnderageGirls .
+
+ex:CreationOfFakeNudesRisk rdf:type airo:Risk ;
+    rdfs:label "Creation of Fake Nudes Risk"@en ;
+    rdfs:label "伪造裸照风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolationAndPsychologicalHarm .
+
+ex:UndressingUnderageGirls rdf:type airo:Misuse ;
+    rdfs:label "Undressing Underage Girls Misuse"@en ;
+    rdfs:label "未成年人脱衣滥用"@zh ;
+    airo:isRiskSourceFor ex:CreationOfFakeNudesRisk .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "Deepfake技术"@zh .
+
+ex:PrivacyViolationAndPsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation and Psychological Harm Impact"@en ;
+    rdfs:label "隐私侵犯和心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UnderageGirls .
+
+ex:UnderageGirls rdf:type airo:Stakeholder ;
+    rdfs:label "Underage Girls"@en ;
+    rdfs:label "未成年女孩"@zh .

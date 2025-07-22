@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionDatasets rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Datasets"@en ;
+    rdfs:label "面部识别数据集"@zh ;
+    airo:hasRisk ex:EthicalConcernsInDataUsage .
+
+ex:EthicalConcernsInDataUsage rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in Data Usage Risk"@en ;
+    rdfs:label "数据使用中的伦理问题风险"@zh ;
+    airo:isRiskSourceFor ex:UnethicalDataCollection ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:UnethicalDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unethical Data Collection Risk Source"@en ;
+    rdfs:label "不道德的数据收集风险源"@zh .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯的影响"@zh .

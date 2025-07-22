@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TwitterPhotoCroppingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Twitter Photo Cropping Algorithm"@en ;
+    rdfs:label "Twitter照片裁剪算法"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInPhotoCropping ;
+    airo:hasCapability ex:ImageAnalysisAndCropping ;
+    airo:hasPurpose ex:AutomatedImagePresentation ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:ComputerVisionForImageCropping ;
+    airo:hasStakeholder ex:TwitterUsers .
+
+ex:AlgorithmicBiasInPhotoCropping rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Photo Cropping Risk"@en ;
+    rdfs:label "照片裁剪中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairRepresentationInSocialMedia ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:UnfairRepresentationInSocialMedia rdf:type airo:Consequence ;
+    rdfs:label "Unfair Representation in Social Media Consequence"@en ;
+    rdfs:label "社交媒体中不公平表现的后果"@zh ;
+    airo:hasImpact ex:ReinforcementOfBeautyStandards .
+
+ex:ImageAnalysisAndCropping rdf:type airo:AICapability ;
+    rdfs:label "Image Analysis and Cropping Capability"@en ;
+    rdfs:label "图像分析与裁剪能力"@zh .
+
+ex:TwitterUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Twitter Users"@en ;
+    rdfs:label "Twitter用户"@zh ;
+    airo:hasImpactOnStakeholder ex:ReinforcementOfBeautyStandards .
+
+ex:ReinforcementOfBeautyStandards rdf:type airo:Impact ;
+    rdfs:label "Reinforcement of Beauty Standards Impact"@en ;
+    rdfs:label "强化审美标准的影响"@zh .
+
+ex:AutomatedImagePresentation rdf:type airo:Purpose ;
+    rdfs:label "Automated Image Presentation Purpose"@en ;
+    rdfs:label "自动图像展示的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:ComputerVisionForImageCropping rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Image Cropping Technique"@en ;
+    rdfs:label "用于图像裁剪的计算机视觉技术"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .

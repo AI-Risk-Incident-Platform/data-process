@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ExamSoftFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "ExamSoft Facial Recognition System"@en ;
+    rdfs:label "ExamSoft面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyAndFacialRecognitionConcerns ;
+    airo:isDevelopedBy ex:ExamSoft ;
+    airo:hasPurpose ex:RemoteExamProctoring ;
+    airo:hasStakeholder ex:BarExamTestTakers ;
+    airo:isAppliedWithinDomain ex:LegalEducationAndTesting ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyAndFacialRecognitionConcerns rdf:type airo:Risk ;
+    rdfs:label "Privacy and Facial Recognition Concerns Risk"@en ;
+    rdfs:label "隐私和面部识别担忧风险"@zh ;
+    airo:hasConsequence ex:HeightenedTestTakersAnxiety .
+
+ex:HeightenedTestTakersAnxiety rdf:type airo:Consequence ;
+    rdfs:label "Heightened Test Takers Anxiety Consequence"@en ;
+    rdfs:label "考生焦虑加剧后果"@zh ;
+    airo:hasImpact ex:PsychologicalStressOnTestTakers .
+
+ex:BarExamTestTakers rdf:type airo:Stakeholder ;
+    rdfs:label "Bar Exam Test Takers"@en ;
+    rdfs:label "律师资格考试考生"@zh .
+
+ex:ExamSoft rdf:type airo:AIOperator ;
+    rdfs:label "ExamSoft"@en ;
+    rdfs:label "ExamSoft公司"@zh .
+
+ex:RemoteExamProctoring rdf:type airo:Purpose ;
+    rdfs:label "Remote Exam Proctoring Purpose"@en ;
+    rdfs:label "远程考试监考目的"@zh .
+
+ex:LegalEducationAndTesting rdf:type airo:Domain ;
+    rdfs:label "Legal Education and Testing Domain"@en ;
+    rdfs:label "法律教育与考试领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:PsychologicalStressOnTestTakers rdf:type airo:Impact ;
+    rdfs:label "Psychological Stress on Test Takers Impact"@en ;
+    rdfs:label "对考生心理压力的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BarExamTestTakers .

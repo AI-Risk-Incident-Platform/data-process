@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EvolvWeaponsDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Evolv武器检测系统"@zh ;
+    rdfs:label "Evolv Weapons Detection System"@en ;
+    airo:hasRisk ex:MisleadingMarketingClaimsRisk ;
+    airo:isDevelopedBy ex:EvolvTechnology ;
+    airo:hasStakeholder ex:SchoolsUsingEvolvSystem .
+
+ex:MisleadingMarketingClaimsRisk rdf:type airo:Risk ;
+    rdfs:label "误导性营销声明风险"@zh ;
+    rdfs:label "Misleading Marketing Claims Risk"@en ;
+    airo:hasConsequence ex:FalseSecurityClaims ;
+    airo:isRiskSourceFor ex:UnverifiedTestingClaims .
+
+ex:SchoolsUsingEvolvSystem rdf:type airo:Stakeholder ;
+    rdfs:label "使用Evolv系统的学校"@zh ;
+    rdfs:label "Schools Using Evolv System"@en .
+
+ex:EvolvTechnology rdf:type airo:AIOperator ;
+    rdfs:label "Evolv技术公司"@zh ;
+    rdfs:label "Evolv Technology"@en .
+
+ex:FalseSecurityClaims rdf:type airo:Consequence ;
+    rdfs:label "虚假安全声明后果"@zh ;
+    rdfs:label "False Security Claims Consequence"@en .
+
+ex:UnverifiedTestingClaims rdf:type airo:RiskSource ;
+    rdfs:label "未经证实的测试声明风险源"@zh ;
+    rdfs:label "Unverified Testing Claims Risk Source"@en .

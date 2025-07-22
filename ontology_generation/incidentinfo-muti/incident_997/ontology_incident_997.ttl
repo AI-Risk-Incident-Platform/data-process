@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICrawlers rdf:type airo:AISystem ;
+    rdfs:label "AI Crawlers"@en ;
+    rdfs:label "AI爬虫"@zh ;
+    airo:hasRisk ex:FOSSInfrastructureAttackRisk ;
+    airo:hasStakeholder ex:OpenSourceDevelopers .
+
+ex:FOSSInfrastructureAttackRisk rdf:type airo:Risk ;
+    rdfs:label "FOSS Infrastructure Attack Risk"@en ;
+    rdfs:label "FOSS基础设施攻击风险"@zh ;
+    airo:hasConsequence ex:TrafficDominationImpact ;
+    airo:hasRiskControl ex:CountryLevelBlocking .
+
+ex:OpenSourceDevelopers rdf:type airo:Stakeholder ;
+    rdfs:label "Open Source Developers"@en ;
+    rdfs:label "开源开发者"@zh .
+
+ex:TrafficDominationImpact rdf:type airo:Impact ;
+    rdfs:label "Traffic Domination Impact"@en ;
+    rdfs:label "流量主导影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OpenSourceDevelopers .
+
+ex:CountryLevelBlocking rdf:type airo:RiskControl ;
+    rdfs:label "Country Level Blocking"@en ;
+    rdfs:label "国家级别封锁"@zh ;
+    airo:mitigatesRiskConcept ex:FOSSInfrastructureAttackRisk .

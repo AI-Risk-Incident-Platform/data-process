@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HighFrequencyTradingAlgorithm",
+      "中文名称": "高频交易算法",
+      "英文名称": "High Frequency Trading Algorithm",
+      "来源": "根据2010年闪崩事件背景，高频交易算法是导致市场剧烈波动的主要AI系统"
+    },
+    "Risk": {
+      "id": "MarketManipulationRisk",
+      "中文名称": "市场操纵风险",
+      "英文名称": "Price Manipulation Risk",
+      "来源": "高频交易算法可能导致市场剧烈波动和操纵风险"
+    },
+    "Consequence": {
+      "id": "StockMarketCrash",
+      "中文名称": "股市崩盘后果",
+      "英文名称": "Stock Market Crash Consequence",
+      "来源": "2010年闪崩事件导致道琼斯指数在几分钟内暴跌近1000点"
+    },
+    "Stakeholder": {
+      "id": "IndividualTrader",
+      "中文名称": "个人交易者",
+      "英文名称": "Small Businessperson",
+      "来源": "'Guy Trading at Home Caused the Flash Crash'表明个人交易者可能是利益相关者"
+    },
+    "Impact": {
+      "id": "InvestorConfidenceShake",
+      "中文名称": "投资者信心动摇的影响",
+      "英文名称": "Market Impact",
+      "来源": "'Flash Crash' arrest shakes investors' confidence"
+    },
+    "Domain": {
+      "id": "FinancialMarket",
+      "中文名称": "金融市场领域",
+      "英文名称": "Financial Market Domain",
+      "来源": "事件发生在股票交易市场领域"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicTradingError",
+      "中文名称": "算法交易错误风险源",
+      "英文名称": "Algorithmic Trading Error Risk Source",
+      "来源": "高频交易算法可能因错误或异常行为导致市场波动"
+    },
+    "AITechnique": {
+      "id": "AutomatedTradingAlgorithm",
+      "中文名称": "自动化交易算法技术",
+      "英文名称": "Automated Trading Algorithm Technique",
+      "来源": "高频交易依赖于自动化交易算法技术"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HighFrequencyTradingAlgorithm",
+      "中文名称": "高频交易算法",
+      "英文名称": "High Frequency Trading Algorithm",
+      "来源": "根据2010年闪崩事件背景，高频交易算法是导致市场剧烈波动的主要AI系统"
+    },
+    "Risk": {
+      "id": "MarketManipulationRisk",
+      "中文名称": "市场操纵风险",
+      "英文名称": "Price Manipulation Risk",
+      "来源": "高频交易算法可能导致市场剧烈波动和操纵风险"
+    },
+    "Consequence": {
+      "id": "StockMarketCrash",
+      "中文名称": "股市崩盘后果",
+      "英文名称": "Stock Market Crash Consequence",
+      "来源": "2010年闪崩事件导致道琼斯指数在几分钟内暴跌近1000点"
+    },
+    "Stakeholder": {
+      "id": "IndividualTrader",
+      "中文名称": "个人交易者",
+      "英文名称": "Small Businessperson",
+      "来源": "'Guy Trading at Home Caused the Flash Crash'表明个人交易者可能是利益相关者"
+    },
+    "Impact": {
+      "id": "InvestorConfidenceShake",
+      "中文名称": "投资者信心动摇的影响",
+      "英文名称": "Market Impact",
+      "来源": "'Flash Crash' arrest shakes investors' confidence"
+    },
+    "Domain": {
+      "id": "FinancialMarket",
+      "中文名称": "金融市场领域",
+      "英文名称": "Financial Market Domain",
+      "来源": "事件发生在股票交易市场领域"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicTradingError",
+      "中文名称": "算法交易错误风险源",
+      "英文名称": "Algorithmic Trading Error Risk Source",
+      "来源": "高频交易算法可能因错误或异常行为导致市场波动"
+    },
+    "AITechnique": {
+      "id": "AutomatedTradingAlgorithm",
+      "中文名称": "自动化交易算法技术",
+      "英文名称": "Automated Trading Algorithm Technique",
+      "来源": "高频交易依赖于自动化交易算法技术"
+    }
+  }
+}

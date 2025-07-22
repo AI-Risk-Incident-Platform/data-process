@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Texas Cops Sue Tesla Over Autopilot Crash At Traffic Stop"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Crash Risk",
+      "来源": "Lawsuit filed against Tesla after accident that injured 5 police officers"
+    },
+    "Consequence": {
+      "id": "PoliceOfficerInjury",
+      "中文名称": "警察受伤后果",
+      "英文名称": "Police Officer Injury Consequence",
+      "来源": "Tesla is being sued by police officers injured after drunk Model X driver crashed into them on Autopilot"
+    },
+    "Stakeholder": {
+      "id": "TexasPoliceDepartment",
+      "中文名称": "德克萨斯州警察局",
+      "英文名称": "Texas Police Department",
+      "来源": "Texas Cops Sue Tesla Over Autopilot Crash At Traffic Stop"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Lawsuit filed against Tesla after accident that injured 5 police officers"
+    },
+    "Impact": {
+      "id": "PhysicalHarmToLawEnforcement",
+      "中文名称": "执法人员身体伤害影响",
+      "英文名称": "Physical Harm to Law Enforcement Impact",
+      "来源": "Tesla is being sued by police officers injured after drunk Model X driver crashed into them on Autopilot"
+    },
+    "RiskSource": {
+      "id": "DrunkDrivingWithAutopilotEngaged",
+      "中文名称": "醉酒驾驶时启用自动驾驶的风险源",
+      "英文名称": "Drunk Driving with Autopilot Engaged Risk Source",
+      "来源": "Tesla is being sued by police officers injured after drunk Model X driver crashed into them on Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Texas Cops Sue Tesla Over Autopilot Crash At Traffic Stop"
+    }
+  }
+}

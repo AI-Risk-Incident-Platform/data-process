@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemInSaoPauloMetro rdf:type airo:AISystem ;
+    rdfs:label "圣保罗地铁面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System in Sao Paulo Metro"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:MetroUsers ;
+    airo:isDeployedBy ex:SaoPauloMetroAuthority .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasImpact ex:PublicPrivacyConcerns .
+
+ex:MetroUsers rdf:type airo:Stakeholder ;
+    rdfs:label "地铁乘客"@zh ;
+    rdfs:label "Metro Users"@en .
+
+ex:SaoPauloMetroAuthority rdf:type airo:AIOperator ;
+    rdfs:label "圣保罗地铁当局"@zh ;
+    rdfs:label "Sao Paulo Metro Authority"@en .
+
+ex:PublicPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "公众隐私担忧影响"@zh ;
+    rdfs:label "Public Privacy Concerns Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MetroUsers .

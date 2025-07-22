@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYPDArmedRobots",
+      "中文名称": "纽约警察局武装机器人",
+      "英文名称": "NYPD Armed Robots",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "Risk": {
+      "id": "PublicSafetyRiskFromArmedRobots",
+      "中文名称": "武装机器人带来的公共安全风险",
+      "英文名称": "Autonomous Weapon Public Safety Risk",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "Stakeholder": {
+      "id": "NewYorkLawmaker",
+      "中文名称": "纽约立法者",
+      "英文名称": "New York Lawmaker",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "AIOperator": {
+      "id": "NYPD",
+      "中文名称": "纽约警察局",
+      "英文名称": "NYPD",
+      "来源": "NYPD Deploys \"Creepy\" New Robot Dog In Manhattan Public Housing Complex"
+    },
+    "Impact": {
+      "id": "PublicDistrustInLawEnforcement",
+      "中文名称": "公众对执法的不信任影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "NYPD Deploys \"Creepy\" New Robot Dog In Manhattan Public Housing Complex"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NYPDArmedRobots",
+      "中文名称": "纽约警察局武装机器人",
+      "英文名称": "NYPD Armed Robots",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "Risk": {
+      "id": "PublicSafetyRiskFromArmedRobots",
+      "中文名称": "武装机器人带来的公共安全风险",
+      "英文名称": "Autonomous Weapon Public Safety Risk",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "Stakeholder": {
+      "id": "NewYorkLawmaker",
+      "中文名称": "纽约立法者",
+      "英文名称": "New York Lawmaker",
+      "来源": "A New York Lawmaker Wants to Ban Police Use of Armed Robots"
+    },
+    "AIOperator": {
+      "id": "NYPD",
+      "中文名称": "纽约警察局",
+      "英文名称": "NYPD",
+      "来源": "NYPD Deploys \"Creepy\" New Robot Dog In Manhattan Public Housing Complex"
+    },
+    "Impact": {
+      "id": "PublicDistrustInLawEnforcement",
+      "中文名称": "公众对执法的不信任影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "NYPD Deploys \"Creepy\" New Robot Dog In Manhattan Public Housing Complex"
+    }
+  }
+}

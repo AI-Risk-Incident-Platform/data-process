@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:RacismProblemInAI ;
+    airo:hasCapability ex:NaturalLanguageProcessing .
+
+ex:RacismProblemInAI rdf:type airo:Risk ;
+    rdfs:label "Racism Problem in AI Risk"@en ;
+    rdfs:label "AI中的种族主义问题风险"@zh ;
+    airo:isRiskSourceFor ex:BiasInTrainingData ;
+    airo:hasImpact ex:SocialDiscrimination .
+
+ex:NaturalLanguageProcessing rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing Capability"@en ;
+    rdfs:label "自然语言处理能力"@zh .
+
+ex:BiasInTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Bias in Training Data Risk Source"@en ;
+    rdfs:label "训练数据中的偏见风险源"@zh .
+
+ex:SocialDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    rdfs:label "社会歧视影响"@zh .

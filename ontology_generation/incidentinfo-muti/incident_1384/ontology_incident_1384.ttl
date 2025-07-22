@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PerplexityChatbot rdf:type airo:AISystem ;
+    rdfs:label "Perplexity Chatbot"@en ;
+    rdfs:label "Perplexity聊天机器人"@zh ;
+    airo:hasRisk ex:MedicalErrorRisk ;
+    airo:hasCapability ex:MedicalInformationProvision ;
+    airo:hasPurpose ex:MedicalAdviceProvision ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:HealthcareConsumers .
+
+ex:MedicalErrorRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Error Risk"@en ;
+    rdfs:label "医疗错误风险"@zh ;
+    airo:hasConsequence ex:PatientHarm ;
+    airo:isRiskSourceFor ex:InaccurateMedicalInformation .
+
+ex:PatientHarm rdf:type airo:Consequence ;
+    rdfs:label "Patient Harm Consequence"@en ;
+    rdfs:label "患者伤害后果"@zh ;
+    airo:hasImpact ex:HealthSafetyThreat .
+
+ex:MedicalInformationProvision rdf:type airo:AICapability ;
+    rdfs:label "Medical Information Provision Capability"@en ;
+    rdfs:label "医疗信息提供能力"@zh .
+
+ex:HealthcareConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "Healthcare Consumers"@en ;
+    rdfs:label "医疗保健消费者"@zh .
+
+ex:InaccurateMedicalInformation rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Medical Information Risk Source"@en ;
+    rdfs:label "不准确的医疗信息风险源"@zh .
+
+ex:HealthSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Health Safety Threat Impact"@en ;
+    rdfs:label "健康安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HealthcareConsumers .
+
+ex:MedicalAdviceProvision rdf:type airo:Purpose ;
+    rdfs:label "Medical Advice Provision Purpose"@en ;
+    rdfs:label "医疗建议提供目的"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .

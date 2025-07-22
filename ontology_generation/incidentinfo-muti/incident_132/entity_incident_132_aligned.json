@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WarehouseRobotSystem",
+      "中文名称": "仓库机器人系统",
+      "英文名称": "Warehouse Robot System",
+      "来源": "Robot collision sets London warehouse ablaze"
+    },
+    "Risk": {
+      "id": "FireHazardFromRobotCollision",
+      "中文名称": "机器人碰撞引发火灾风险",
+      "英文名称": "Fire Hazard from Robot Collision Risk",
+      "来源": "A robot collision sparked a fire at the UK's top online grocer"
+    },
+    "Consequence": {
+      "id": "OrderDeliveryDelays",
+      "中文名称": "订单交付延迟后果",
+      "英文名称": "Order Delivery Delays Consequence",
+      "来源": "Delays orders"
+    },
+    "Domain": {
+      "id": "OnlineGroceryRetail",
+      "中文名称": "在线杂货零售领域",
+      "英文名称": "Online Grocery Retail Domain",
+      "来源": "UK's top online grocer"
+    },
+    "Impact": {
+      "id": "SupplyChainDisruption",
+      "中文名称": "供应链中断影响",
+      "英文名称": "Supply Chain Disruption Impact",
+      "来源": "Delays orders"
+    },
+    "Hazard": {
+      "id": "RobotCollisionHazard",
+      "中文名称": "机器人碰撞危害",
+      "英文名称": "Robot Operation Hazard",
+      "来源": "Robots collide, causing fire"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WarehouseRobotSystem",
+      "中文名称": "仓库机器人系统",
+      "英文名称": "Warehouse Robot System",
+      "来源": "Robot collision sets London warehouse ablaze"
+    },
+    "Risk": {
+      "id": "FireHazardFromRobotCollision",
+      "中文名称": "机器人碰撞引发火灾风险",
+      "英文名称": "Fire Hazard from Robot Collision Risk",
+      "来源": "A robot collision sparked a fire at the UK's top online grocer"
+    },
+    "Consequence": {
+      "id": "OrderDeliveryDelays",
+      "中文名称": "订单交付延迟后果",
+      "英文名称": "Order Delivery Delays Consequence",
+      "来源": "Delays orders"
+    },
+    "Domain": {
+      "id": "OnlineGroceryRetail",
+      "中文名称": "在线杂货零售领域",
+      "英文名称": "Online Grocery Retail Domain",
+      "来源": "UK's top online grocer"
+    },
+    "Impact": {
+      "id": "SupplyChainDisruption",
+      "中文名称": "供应链中断影响",
+      "英文名称": "Supply Chain Disruption Impact",
+      "来源": "Delays orders"
+    },
+    "Hazard": {
+      "id": "RobotCollisionHazard",
+      "中文名称": "机器人碰撞危害",
+      "英文名称": "Robot Operation Hazard",
+      "来源": "Robots collide, causing fire"
+    }
+  }
+}

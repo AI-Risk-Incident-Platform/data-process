@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSecuritySystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Security System"@en ;
+    rdfs:label "面部识别安全系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:BrooklynLandlord ;
+    airo:hasStakeholder ex:BrooklynApartmentTenants .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:TenantResistanceToBiometricTechnology .
+
+ex:BrooklynApartmentTenants rdf:type airo:Stakeholder ;
+    rdfs:label "Brooklyn Apartment Tenants"@en ;
+    rdfs:label "布鲁克林公寓租户"@zh .
+
+ex:BrooklynLandlord rdf:type airo:AIOperator ;
+    rdfs:label "Brooklyn Landlord"@en ;
+    rdfs:label "布鲁克林房东"@zh .
+
+ex:TenantResistanceToBiometricTechnology rdf:type airo:Impact ;
+    rdfs:label "Tenant Resistance to Biometric Technology"@en ;
+    rdfs:label "租户对生物识别技术的抵制"@zh ;
+    airo:hasImpactOnStakeholder ex:BrooklynApartmentTenants .

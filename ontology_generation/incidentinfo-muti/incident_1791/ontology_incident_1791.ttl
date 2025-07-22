@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAdDeliverySystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Ad Delivery System"@en ;
+    rdfs:label "Facebook广告投放系统"@zh ;
+    airo:hasRisk ex:GenderBiasInJobAds ;
+    airo:hasCapability ex:TargetedAdDelivery ;
+    airo:hasStakeholder ex:FemaleJobSeekers ;
+    airo:isAppliedWithinDomain ex:OnlineAdvertising .
+
+ex:GenderBiasInJobAds rdf:type airo:Risk ;
+    rdfs:label "Gender Bias in Job Ads Risk"@en ;
+    rdfs:label "招聘广告中的性别偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryJobOpportunities ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmicTargeting .
+
+ex:DiscriminatoryJobOpportunities rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Job Opportunities Consequence"@en ;
+    rdfs:label "歧视性就业机会后果"@zh ;
+    airo:hasImpact ex:GenderDiscriminationInEmployment .
+
+ex:TargetedAdDelivery rdf:type airo:AICapability ;
+    rdfs:label "Targeted Ad Delivery Capability"@en ;
+    rdfs:label "定向广告投放能力"@zh .
+
+ex:FemaleJobSeekers rdf:type airo:Stakeholder ;
+    rdfs:label "Female Job Seekers"@en ;
+    rdfs:label "女性求职者"@zh .
+
+ex:GenderDiscriminationInEmployment rdf:type airo:Impact ;
+    rdfs:label "Gender Discrimination in Employment Impact"@en ;
+    rdfs:label "就业中的性别歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemaleJobSeekers .
+
+ex:OnlineAdvertising rdf:type airo:Domain ;
+    rdfs:label "Online Advertising Domain"@en ;
+    rdfs:label "在线广告领域"@zh .
+
+ex:BiasedAlgorithmicTargeting rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithmic Targeting Risk Source"@en ;
+    rdfs:label "有偏见的算法定向风险源"@zh .

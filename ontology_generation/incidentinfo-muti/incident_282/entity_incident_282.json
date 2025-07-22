@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation Algorithm",
+      "来源": "YouTube criticized for recommending 'self-harm' videos with graphic images"
+    },
+    "Risk": {
+      "id": "SelfHarmContentPromotionRisk",
+      "中文名称": "自残内容推广风险",
+      "英文名称": "Self-Harm Content Promotion Risk",
+      "来源": "YouTube recommended self-harm videos to children as young as 13"
+    },
+    "Consequence": {
+      "id": "ExposureToHarmfulContent",
+      "中文名称": "接触有害内容后果",
+      "英文名称": "Exposure to Harmful Content Consequence",
+      "来源": "YouTube caught promoting deadly 'how to self harm' tutorials for youngsters aged 13"
+    },
+    "AISubject": {
+      "id": "YoungTeenagers",
+      "中文名称": "青少年",
+      "英文名称": "Young Teenagers",
+      "来源": "YouTube recommended self-harm videos to children as young as 13"
+    },
+    "Stakeholder": {
+      "id": "YouTubePlatform",
+      "中文名称": "YouTube平台",
+      "英文名称": "YouTube Platform",
+      "来源": "YouTube criticized for recommending 'self-harm' videos with graphic images"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Mental Health Deterioration Impact",
+      "来源": "YouTube caught promoting deadly 'how to self harm' tutorials for youngsters aged 13"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationSystem",
+      "中文名称": "内容推荐系统能力",
+      "英文名称": "Content Recommendation System Capability",
+      "来源": "YouTube criticized for recommending 'self-harm' videos with graphic images"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInContentSelection",
+      "中文名称": "内容选择中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Content Selection Risk Source",
+      "来源": "YouTube recommended self-harm videos to children as young as 13"
+    }
+  }
+}

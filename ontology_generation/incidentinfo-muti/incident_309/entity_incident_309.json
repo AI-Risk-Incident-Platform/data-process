@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff"
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "False Positive Identification Risk",
+      "来源": "2,000 wrongly matched with possible criminals at Champions League"
+    },
+    "Consequence": {
+      "id": "InnocentPeopleMisidentified",
+      "中文名称": "无辜人员被误识别",
+      "英文名称": "Innocent People Misidentified",
+      "来源": "2,000 wrongly matched with possible criminals at Champions League"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police say 92% false positive facial recognition is no big deal"
+    },
+    "AIOperator": {
+      "id": "FacialRecognitionSystemOperator",
+      "中文名称": "面部识别系统运营商",
+      "英文名称": "Facial Recognition System Operator",
+      "来源": "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任受损",
+      "英文名称": "Public Trust Erosion",
+      "来源": "UK police say 92% false positive facial recognition is no big deal"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全",
+      "英文名称": "Public Security",
+      "来源": "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff"
+    },
+    "RiskSource": {
+      "id": "HighFalsePositiveRate",
+      "中文名称": "高误报率",
+      "英文名称": "High False Positive Rate",
+      "来源": "UK police say 92% false positive facial recognition is no big deal"
+    }
+  }
+}

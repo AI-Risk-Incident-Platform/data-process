@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LargeAIModels",
+      "中文名称": "大型AI模型",
+      "英文名称": "Large AI Models",
+      "来源": "The dark side of large AI models"
+    },
+    "Risk": {
+      "id": "EthicalAndSafetyConcerns",
+      "中文名称": "伦理与安全担忧风险",
+      "英文名称": "Ethical and Safety Concerns Risk",
+      "来源": "The dark side of large AI models"
+    },
+    "Domain": {
+      "id": "ArtificialIntelligenceDevelopment",
+      "中文名称": "人工智能开发领域",
+      "英文名称": "Artificial Intelligence Development Domain",
+      "来源": "POLITICO AI: Decoded: US bill of AI rights"
+    },
+    "Stakeholder": {
+      "id": "USGovernment",
+      "中文名称": "美国政府",
+      "英文名称": "US Government",
+      "来源": "POLITICO AI: Decoded: US bill of AI rights"
+    },
+    "RiskSource": {
+      "id": "WebDataQualityIssues",
+      "中文名称": "网络数据质量问题风险源",
+      "英文名称": "Web Data Quality Issues Risk Source",
+      "来源": "AI Has a Web Problem"
+    },
+    "Consequence": {
+      "id": "BiasPropagation",
+      "中文名称": "偏见传播后果",
+      "英文名称": "Bias Propagation Consequence",
+      "来源": "Are Under-Curated Hyperscale AI Datasets Worse Than The Internet Itself?"
+    }
+  }
+}

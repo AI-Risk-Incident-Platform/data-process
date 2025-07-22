@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberPayAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Uber Pay Algorithm"@en ;
+    rdfs:label "Uber薪酬算法"@zh ;
+    airo:hasRisk ex:GenderPayGapRisk ;
+    airo:hasAICapability ex:SalaryDeterminationAlgorithm ;
+    airo:hasStakeholder ex:UberNewHires ;
+    airo:isAppliedWithinDomain ex:HumanResourcesManagement .
+
+ex:GenderPayGapRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Pay Gap Risk"@en ;
+    rdfs:label "性别薪酬差距风险"@zh ;
+    airo:hasConsequence ex:PayDisparityBetweenGenders ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmDesign .
+
+ex:PayDisparityBetweenGenders rdf:type airo:Consequence ;
+    rdfs:label "Pay Disparity Between Genders Consequence"@en ;
+    rdfs:label "性别间薪酬差异后果"@zh ;
+    airo:hasImpact ex:EconomicInequalityImpact .
+
+ex:SalaryDeterminationAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Salary Determination Algorithm Capability"@en ;
+    rdfs:label "薪资确定算法能力"@zh .
+
+ex:UberNewHires rdf:type airo:Stakeholder ;
+    rdfs:label "Uber New Hires"@en ;
+    rdfs:label "Uber新员工"@zh .
+
+ex:EconomicInequalityImpact rdf:type airo:Impact ;
+    rdfs:label "Economic Inequality Impact"@en ;
+    rdfs:label "经济不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberNewHires .
+
+ex:HumanResourcesManagement rdf:type airo:Domain ;
+    rdfs:label "Human Resources Management Domain"@en ;
+    rdfs:label "人力资源管理领域"@zh .
+
+ex:BiasedAlgorithmDesign rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithm Design Risk Source"@en ;
+    rdfs:label "有偏见的算法设计风险源"@zh .

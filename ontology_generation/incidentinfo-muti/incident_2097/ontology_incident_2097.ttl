@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftSurveillanceSystem rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Surveillance System"@en ;
+    rdfs:label "微软监控系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:NYPD ;
+    airo:isDevelopedBy ex:Microsoft .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:CivilLibertiesInfringement .
+
+ex:NYPD rdf:type airo:Stakeholder ;
+    rdfs:label "New York Police Department"@en ;
+    rdfs:label "纽约警察局"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:CivilLibertiesInfringement rdf:type airo:Impact ;
+    rdfs:label "Civil Liberties Infringement"@en ;
+    rdfs:label "公民自由权侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:NYPD .

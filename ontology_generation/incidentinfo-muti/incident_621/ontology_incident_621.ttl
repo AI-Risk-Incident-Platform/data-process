@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftBingAIImageGenerator rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Bing AI Image Generator"@en ;
+    rdfs:label "微软必应AI图像生成器"@zh ;
+    airo:hasRisk ex:GenerationOfHarmfulContent ;
+    airo:hasCapability ex:ImageGenerationFromTextPrompts ;
+    airo:hasPurpose ex:CreativeContentGeneration ;
+    airo:hasStakeholder ex:OnlineCommunityUsers ;
+    airo:isAppliedWithinDomain ex:OnlineContentCreation .
+
+ex:GenerationOfHarmfulContent rdf:type airo:Risk ;
+    rdfs:label "Generation of Harmful Content Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:hasConsequence ex:SpreadOfHateSpeech ;
+    airo:isRiskSourceFor ex:MaliciousUserInput .
+
+ex:SpreadOfHateSpeech rdf:type airo:Consequence ;
+    rdfs:label "Spread of Hate Speech Consequence"@en ;
+    rdfs:label "仇恨言论传播后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:ImageGenerationFromTextPrompts rdf:type airo:AICapability ;
+    rdfs:label "Image Generation from Text Prompts Capability"@en ;
+    rdfs:label "文本提示生成图像能力"@zh .
+
+ex:OnlineCommunityUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Online Community Users"@en ;
+    rdfs:label "网络社区用户"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlineCommunityUsers .
+
+ex:CreativeContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Creative Content Generation Purpose"@en ;
+    rdfs:label "创意内容生成目的"@zh .
+
+ex:OnlineContentCreation rdf:type airo:Domain ;
+    rdfs:label "Online Content Creation Domain"@en ;
+    rdfs:label "在线内容创作领域"@zh .
+
+ex:MaliciousUserInput rdf:type airo:RiskSource ;
+    rdfs:label "Malicious User Input Risk Source"@en ;
+    rdfs:label "恶意用户输入风险源"@zh ;
+    airo:exploitsVulnerability ex:InadequateContentFiltering .
+
+ex:InadequateContentFiltering rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Filtering Vulnerability"@en ;
+    rdfs:label "内容过滤不足脆弱性"@zh .

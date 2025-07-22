@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla driver using Autopilot kills motorcyclist"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleAccidentRisk",
+      "中文名称": "自动驾驶车辆事故风险",
+      "英文名称": "Autonomous Vehicle Accident Risk",
+      "来源": "Tesla on auto-pilot crashes into back of bike"
+    },
+    "Consequence": {
+      "id": "MotorcyclistFatality",
+      "中文名称": "摩托车手死亡后果",
+      "英文名称": "Motorcyclist Fatality Consequence",
+      "来源": "Motorcyclist dies on I-15 after Tesla on auto-pilot crashes into back of bike"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "prompting another NHTSA investigation"
+    },
+    "Impact": {
+      "id": "RoadSafetyThreat",
+      "中文名称": "道路安全威胁影响",
+      "英文名称": "Road Safety Threat Impact",
+      "来源": "US agency probes Tesla crashes that killed 2 motorcyclists"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla driver using Autopilot kills motorcyclist"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Driving Domain",
+      "来源": "Tesla on auto-pilot crashes into back of bike"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot System Failure Risk Source",
+      "来源": "Tesla on auto-pilot crashes into back of bike"
+    }
+  }
+}

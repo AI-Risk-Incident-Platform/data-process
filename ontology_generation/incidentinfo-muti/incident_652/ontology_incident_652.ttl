@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationTool rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation Tool"@en ;
+    rdfs:label "深度伪造图像生成工具"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarm ;
+    airo:usesTechnique ex:DeepLearningBasedImageSynthesis ;
+    airo:hasPurpose ex:MaliciousImageCreation ;
+    airo:hasStakeholder ex:MiddleSchoolStudents ;
+    airo:hasAISubject ex:ClassmatesAsVictims ;
+    airo:isAppliedWithinDomain ex:EducationEnvironment .
+
+ex:PrivacyViolationAndPsychologicalHarm rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    rdfs:label "隐私侵犯和心理伤害风险"@zh ;
+    airo:hasConsequence ex:EmotionalDistressForVictims ;
+    airo:isRiskSourceFor ex:EasyAccessToDeepfakeTools .
+
+ex:EmotionalDistressForVictims rdf:type airo:Consequence ;
+    rdfs:label "Emotional Distress for Victims Consequence"@en ;
+    rdfs:label "受害者情绪困扰后果"@zh ;
+    airo:hasImpact ex:ReputationDamageAndSocialStigma .
+
+ex:DeepLearningBasedImageSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Image Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的图像合成技术"@zh .
+
+ex:MiddleSchoolStudents rdf:type airo:Stakeholder ;
+    rdfs:label "Middle School Students"@en ;
+    rdfs:label "中学生"@zh .
+
+ex:ClassmatesAsVictims rdf:type airo:AISubject ;
+    rdfs:label "Classmates as Victims"@en ;
+    rdfs:label "作为受害者的同学"@zh .
+
+ex:ReputationDamageAndSocialStigma rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage and Social Stigma Impact"@en ;
+    rdfs:label "声誉损害和社会污名影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MiddleSchoolStudents .
+
+ex:MaliciousImageCreation rdf:type airo:Purpose ;
+    rdfs:label "Malicious Image Creation Purpose"@en ;
+    rdfs:label "恶意图像创建目的"@zh .
+
+ex:EducationEnvironment rdf:type airo:Domain ;
+    rdfs:label "Education Environment Domain"@en ;
+    rdfs:label "教育环境领域"@zh .
+
+ex:EasyAccessToDeepfakeTools rdf:type airo:RiskSource ;
+    rdfs:label "Easy Access to Deepfake Tools Risk Source"@en ;
+    rdfs:label "深度伪造工具易获取风险源"@zh .

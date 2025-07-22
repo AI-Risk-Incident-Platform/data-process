@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIResurrectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Resurrection System"@en ;
+    rdfs:label "AI复活系统"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAIResurrection ;
+    airo:hasCapability ex:VoiceReplicationCapability ;
+    airo:hasStakeholder ex:DeceasedCelebrityFamily ;
+    airo:hasAISubject ex:DeceasedCelebrity ;
+    airo:hasPurpose ex:PosthumousPerformanceRecreation ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology .
+
+ex:EthicalConcernsInAIResurrection rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Resurrection Risk"@en ;
+    rdfs:label "AI复活中的伦理担忧风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfConsentFromDeceased ;
+    airo:hasConsequence ex:EmotionalDistressToFamily .
+
+ex:VoiceReplicationCapability rdf:type airo:AICapability ;
+    rdfs:label "Voice Replication Capability"@en ;
+    rdfs:label "声音复制能力"@zh .
+
+ex:DeceasedCelebrityFamily rdf:type airo:Stakeholder ;
+    rdfs:label "Deceased Celebrity Family"@en ;
+    rdfs:label "已故名人家庭"@zh .
+
+ex:DeceasedCelebrity rdf:type airo:AISubject ;
+    rdfs:label "Deceased Celebrity"@en ;
+    rdfs:label "已故名人"@zh .
+
+ex:EmotionalDistressToFamily rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress to Family Impact"@en ;
+    rdfs:label "对家庭的情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DeceasedCelebrityFamily .
+
+ex:PosthumousPerformanceRecreation rdf:type airo:Purpose ;
+    rdfs:label "Posthumous Performance Recreation Purpose"@en ;
+    rdfs:label "死后表演重现的目的"@zh .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:LackOfConsentFromDeceased rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Consent from Deceased Risk Source"@en ;
+    rdfs:label "缺乏已故者同意的风险源"@zh .

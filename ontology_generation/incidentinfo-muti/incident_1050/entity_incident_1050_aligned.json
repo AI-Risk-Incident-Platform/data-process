@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Public warned of deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "Risk": {
+      "id": "IdentityImpersonationRisk",
+      "中文名称": "身份冒充风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "AICapability": {
+      "id": "FacialSynthesisAndVoiceCloning",
+      "中文名称": "面部合成与语音克隆能力",
+      "英文名称": "Face and Voice Synthesis",
+      "来源": "deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndMisinformation",
+      "中文名称": "公众混淆与虚假信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Public warned of deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake videos"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Public warned of deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "Risk": {
+      "id": "IdentityImpersonationRisk",
+      "中文名称": "身份冒充风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "AICapability": {
+      "id": "FacialSynthesisAndVoiceCloning",
+      "中文名称": "面部合成与语音克隆能力",
+      "英文名称": "Face and Voice Synthesis",
+      "来源": "deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndMisinformation",
+      "中文名称": "公众混淆与虚假信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Public warned of deepfake videos impersonating President Myriam Spiteri Debono"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake videos"
+    }
+  }
+}

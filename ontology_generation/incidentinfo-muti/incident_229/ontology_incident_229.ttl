@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WeChatAccountSecuritySystem rdf:type airo:AISystem ;
+    rdfs:label "WeChat Account Security System"@en ;
+    rdfs:label "微信账户安全系统"@zh ;
+    airo:hasRisk ex:AccountTheftRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:WeChatUsers .
+
+ex:AccountTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Account Theft Risk"@en ;
+    rdfs:label "账户盗窃风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:FaceGIFsAbuse .
+
+ex:FaceGIFsAbuse rdf:type airo:RiskSource ;
+    rdfs:label "Face GIFs Abuse"@en ;
+    rdfs:label "面部GIF滥用"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "财务损失"@zh ;
+    airo:hasImpact ex:UserPrivacyViolation .
+
+ex:UserPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "User Privacy Violation"@en ;
+    rdfs:label "用户隐私侵犯"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:WeChatUsers rdf:type airo:Stakeholder ;
+    rdfs:label "WeChat Users"@en ;
+    rdfs:label "微信用户"@zh .

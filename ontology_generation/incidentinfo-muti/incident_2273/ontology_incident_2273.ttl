@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:DeepfakeMisuseRisk ;
+    airo:hasCapability ex:RealisticMediaGeneration ;
+    airo:hasPurpose ex:EntertainmentAndDeception ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:hasAISubject ex:IndividualsInMedia ;
+    airo:isAppliedWithinDomain ex:MediaAndCommunication ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:HumanVisualPerceptionLimitations .
+
+ex:DeepfakeMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Deepfake Misuse Risk"@en ;
+    rdfs:label "深度伪造滥用风险"@zh ;
+    airo:hasConsequence ex:SocialManipulation ;
+    airo:isRiskSourceFor ex:PoliticalDisinformation ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation ;
+    airo:isRiskSourceFor ex:LackOfRegulation .
+
+ex:SocialManipulation rdf:type airo:Consequence ;
+    rdfs:label "Social Manipulation Consequence"@en ;
+    rdfs:label "社会操纵后果"@zh ;
+    airo:hasImpact ex:TrustErosion .
+
+ex:RealisticMediaGeneration rdf:type airo:AICapability ;
+    rdfs:label "Realistic Media Generation Capability"@en ;
+    rdfs:label "逼真媒体生成能力"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:IndividualsInMedia rdf:type airo:AISubject ;
+    rdfs:label "Individuals in Media"@en ;
+    rdfs:label "媒体中的个人"@zh .
+
+ex:TrustErosion rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion Impact"@en ;
+    rdfs:label "信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:EntertainmentAndDeception rdf:type airo:Purpose ;
+    rdfs:label "Entertainment and Deception Purpose"@en ;
+    rdfs:label "娱乐与欺骗目的"@zh .
+
+ex:MediaAndCommunication rdf:type airo:Domain ;
+    rdfs:label "Media and Communication Domain"@en ;
+    rdfs:label "媒体与传播领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:HumanVisualPerceptionLimitations rdf:type airo:Vulnerability ;
+    rdfs:label "Human Visual Perception Limitations Vulnerability"@en ;
+    rdfs:label "人类视觉感知局限脆弱性"@zh .
+
+ex:PoliticalDisinformation rdf:type airo:Threat ;
+    rdfs:label "Political Disinformation Threat"@en ;
+    rdfs:label "政治虚假信息威胁"@zh .
+
+ex:MaliciousContentCreation rdf:type airo:Hazard ;
+    rdfs:label "Malicious Content Creation Hazard"@en ;
+    rdfs:label "恶意内容创作危害"@zh .
+
+ex:LackOfRegulation rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Regulation Risk Source"@en ;
+    rdfs:label "缺乏监管风险源"@zh .
+
+ex:EthicalImplicationsOfSyntheticMedia rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Implications of Synthetic Media Risk Concept"@en ;
+    rdfs:label "合成媒体的伦理影响"@zh .

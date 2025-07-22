@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DWPAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "DWP Algorithm"@en ;
+    rdfs:label "DWP算法"@zh ;
+    airo:hasRisk ex:WrongfulFraudFlaggingRisk ;
+    airo:hasPurpose ex:FraudDetectionInBenefitsSystem ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystem ;
+    airo:hasAISubject ex:BenefitsClaimants ;
+    airo:hasStakeholder ex:DepartmentForWorkAndPensions .
+
+ex:WrongfulFraudFlaggingRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Fraud Flagging Risk"@en ;
+    rdfs:label "错误欺诈标记风险"@zh ;
+    airo:hasConsequence ex:UnjustSuspicionOfFraud ;
+    airo:isRiskSourceFor ex:AlgorithmicFalsePositives .
+
+ex:UnjustSuspicionOfFraud rdf:type airo:Consequence ;
+    rdfs:label "Unjust Suspicion of Fraud Consequence"@en ;
+    rdfs:label "不公正的欺诈嫌疑后果"@zh ;
+    airo:hasImpact ex:ReputationDamageToClaimants .
+
+ex:BenefitsClaimants rdf:type airo:AISubject ;
+    rdfs:label "Benefits Claimants"@en ;
+    rdfs:label "福利申请人"@zh .
+
+ex:DepartmentForWorkAndPensions rdf:type airo:Stakeholder ;
+    rdfs:label "Department for Work and Pensions"@en ;
+    rdfs:label "工作和养老金部"@zh .
+
+ex:ReputationDamageToClaimants rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage to Claimants Impact"@en ;
+    rdfs:label "申请人声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BenefitsClaimants .
+
+ex:FraudDetectionInBenefitsSystem rdf:type airo:Purpose ;
+    rdfs:label "Fraud Detection in Benefits System Purpose"@en ;
+    rdfs:label "福利系统中的欺诈检测目的"@zh .
+
+ex:SocialWelfareSystem rdf:type airo:Domain ;
+    rdfs:label "Social Welfare System Domain"@en ;
+    rdfs:label "社会福利系统领域"@zh .
+
+ex:AlgorithmicFalsePositives rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic False Positives Risk Source"@en ;
+    rdfs:label "算法假阳性风险源"@zh .

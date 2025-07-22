@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iPhoneXFaceID",
+      "中文名称": "iPhone X面部识别系统",
+      "英文名称": "iPhone X Face ID System",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Risk": {
+      "id": "UnauthorizedAccessRisk",
+      "中文名称": "未经授权访问风险",
+      "英文名称": "Unauthorized Access Risk",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Vulnerability": {
+      "id": "FacialRecognitionVulnerability",
+      "中文名称": "面部识别漏洞",
+      "英文名称": "Facial Recognition Vulnerability",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child User",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Impact": {
+      "id": "PrivacySecurityImpact",
+      "中文名称": "隐私安全影响",
+      "英文名称": "Privacy Security Impact",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClaudeAI rdf:type airo:AISystem ;
+    rdfs:label "Claude AI"@en ;
+    rdfs:label "Claude AI"@zh ;
+    airo:hasRisk ex:GlobalInfluenceCampaignRisk ;
+    airo:hasAICapability ex:PoliticalPersonaGeneration ;
+    airo:isDevelopedBy ex:Anthropic ;
+    airo:hasStakeholder ex:GlobalPoliticalEntities ;
+    airo:hasAISubject ex:PublicOpinion ;
+    airo:hasPurpose ex:InfluencePublicOpinion ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigns ;
+    airo:usesTechnique ex:GenerativeAI ;
+    airo:hasVulnerability ex:LackOfContentVerification .
+
+ex:GlobalInfluenceCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "Global Influence Campaign Risk"@en ;
+    rdfs:label "全球影响力活动风险"@zh ;
+    airo:hasConsequence ex:PoliticalManipulation ;
+    airo:isRiskSourceFor ex:UnregulatedAIApplications .
+
+ex:PoliticalManipulation rdf:type airo:Consequence ;
+    rdfs:label "Political Manipulation Consequence"@en ;
+    rdfs:label "政治操纵后果"@zh ;
+    airo:hasImpact ex:ElectionInterference .
+
+ex:PoliticalPersonaGeneration rdf:type airo:AICapability ;
+    rdfs:label "Political Persona Generation Capability"@en ;
+    rdfs:label "政治人物生成能力"@zh .
+
+ex:Anthropic rdf:type airo:AIOperator ;
+    rdfs:label "Anthropic"@en ;
+    rdfs:label "Anthropic公司"@zh .
+
+ex:GlobalPoliticalEntities rdf:type airo:Stakeholder ;
+    rdfs:label "Global Political Entities"@en ;
+    rdfs:label "全球政治实体"@zh .
+
+ex:PublicOpinion rdf:type airo:AISubject ;
+    rdfs:label "Public Opinion"@en ;
+    rdfs:label "公众舆论"@zh .
+
+ex:ElectionInterference rdf:type airo:Impact ;
+    rdfs:label "Election Interference Impact"@en ;
+    rdfs:label "选举干预影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GlobalPoliticalEntities .
+
+ex:InfluencePublicOpinion rdf:type airo:Purpose ;
+    rdfs:label "Influence Public Opinion Purpose"@en ;
+    rdfs:label "影响公众舆论目的"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Domain ;
+    rdfs:label "Political Campaigns Domain"@en ;
+    rdfs:label "政治活动领域"@zh .
+
+ex:GenerativeAI rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI Technique"@en ;
+    rdfs:label "生成式AI技术"@zh .
+
+ex:LackOfContentVerification rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Verification Vulnerability"@en ;
+    rdfs:label "内容验证缺失漏洞"@zh .
+
+ex:AIEnabledDisinformation rdf:type airo:Threat ;
+    rdfs:label "AI-Enabled Disinformation Threat"@en ;
+    rdfs:label "AI驱动的虚假信息威胁"@zh ;
+    airo:isRiskSourceFor ex:GlobalInfluenceCampaignRisk .
+
+ex:MaliciousUseOfGenerativeAI rdf:type airo:Hazard ;
+    rdfs:label "Malicious Use of Generative AI Hazard"@en ;
+    rdfs:label "生成式AI恶意使用危害"@zh ;
+    airo:isRiskSourceFor ex:GlobalInfluenceCampaignRisk .
+
+ex:UnregulatedAIApplications rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Applications Risk Source"@en ;
+    rdfs:label "未受监管的AI应用风险源"@zh .
+
+ex:AIInfluenceOperations rdf:type airo:RiskConcept ;
+    rdfs:label "AI Influence Operations Risk Concept"@en ;
+    rdfs:label "AI影响力操作风险概念"@zh .

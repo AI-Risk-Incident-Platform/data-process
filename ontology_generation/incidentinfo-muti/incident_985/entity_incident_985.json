@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "DPM Wong says rumours of circuit breaker measures and posts of him endorsing products are fake"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "rumours of circuit breaker measures and posts of him endorsing products are fake"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑后果",
+      "英文名称": "Public Confusion Consequence",
+      "来源": "rumours of circuit breaker measures"
+    },
+    "Impact": {
+      "id": "TrustErosionInPublicFigures",
+      "中文名称": "公众人物信任度下降影响",
+      "英文名称": "Trust Erosion in Public Figures Impact",
+      "来源": "posts of him endorsing products are fake"
+    },
+    "Stakeholder": {
+      "id": "GovernmentOfficials",
+      "中文名称": "政府官员",
+      "英文名称": "Government Officials",
+      "来源": "DPM Wong"
+    },
+    "AISubject": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "General Public",
+      "来源": "rumours of circuit breaker measures"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "posts of him endorsing products are fake"
+    }
+  }
+}

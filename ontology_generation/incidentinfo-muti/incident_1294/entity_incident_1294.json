@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberSurgePricingSystem",
+      "中文名称": "Uber动态定价系统",
+      "英文名称": "Uber Surge Pricing System",
+      "来源": "'One line of code' could have fixed Uber's surge pricing after Sydney train chaos"
+    },
+    "Risk": {
+      "id": "PriceGougingRisk",
+      "中文名称": "价格欺诈风险",
+      "英文名称": "Price Gouging Risk",
+      "来源": "Uber's surge pricing after Sydney train chaos"
+    },
+    "Domain": {
+      "id": "RideSharingServices",
+      "中文名称": "共享出行服务领域",
+      "英文名称": "Ride-Sharing Services Domain",
+      "来源": "Uber's surge pricing"
+    },
+    "Purpose": {
+      "id": "DemandBasedPricing",
+      "中文名称": "基于需求的定价目的",
+      "英文名称": "Demand-Based Pricing Purpose",
+      "来源": "Uber's surge pricing"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPricingFailure",
+      "中文名称": "算法定价失效风险源",
+      "英文名称": "Algorithmic Pricing Failure Risk Source",
+      "来源": "'One line of code' could have fixed Uber's surge pricing"
+    },
+    "Consequence": {
+      "id": "ConsumerExploitation",
+      "中文名称": "消费者剥削后果",
+      "英文名称": "Consumer Exploitation Consequence",
+      "来源": "Uber's surge pricing after Sydney train chaos"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Uber's surge pricing after Sydney train chaos"
+    },
+    "AIOperator": {
+      "id": "UberTechnologies",
+      "中文名称": "Uber科技公司",
+      "英文名称": "Uber Technologies",
+      "来源": "Uber's surge pricing"
+    },
+    "Stakeholder": {
+      "id": "SydneyCommuter",
+      "中文名称": "悉尼通勤者",
+      "英文名称": "Sydney Commuter",
+      "来源": "after Sydney train chaos"
+    }
+  }
+}

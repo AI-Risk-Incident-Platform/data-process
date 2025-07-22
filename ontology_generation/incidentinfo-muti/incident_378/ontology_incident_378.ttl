@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GlovoDeliveryAI rdf:type airo:AISystem ;
+    rdfs:label "Glovo Delivery AI System"@en ;
+    rdfs:label "Glovo配送AI系统"@zh ;
+    airo:hasRisk ex:InhumaneTreatmentRisk ;
+    airo:hasPurpose ex:AutomatedDeliveryManagement ;
+    airo:isDeployedBy ex:GlovoCompany ;
+    airo:hasStakeholder ex:DeliveryDrivers .
+
+ex:InhumaneTreatmentRisk rdf:type airo:Risk ;
+    rdfs:label "Inhumane Treatment Risk"@en ;
+    rdfs:label "不人道待遇风险"@zh ;
+    airo:hasConsequence ex:WorkerExploitation ;
+    airo:isRiskSourceFor ex:AutomatedTerminationSystem .
+
+ex:WorkerExploitation rdf:type airo:Consequence ;
+    rdfs:label "Worker Exploitation Consequence"@en ;
+    rdfs:label "工人剥削后果"@zh ;
+    airo:hasImpact ex:LossOfHumanLife .
+
+ex:GlovoCompany rdf:type airo:AIOperator ;
+    rdfs:label "Glovo Company"@en ;
+    rdfs:label "Glovo公司"@zh .
+
+ex:DeliveryDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Delivery Drivers"@en ;
+    rdfs:label "配送司机"@zh .
+
+ex:LossOfHumanLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Human Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DeliveryDrivers .
+
+ex:AutomatedDeliveryManagement rdf:type airo:Purpose ;
+    rdfs:label "Automated Delivery Management Purpose"@en ;
+    rdfs:label "自动化配送管理目的"@zh .
+
+ex:AutomatedTerminationSystem rdf:type airo:RiskSource ;
+    rdfs:label "Automated Termination System Risk Source"@en ;
+    rdfs:label "自动化终止系统风险源"@zh .

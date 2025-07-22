@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedLegalResearchTool",
+      "中文名称": "AI生成法律研究工具",
+      "英文名称": "AI Generated Legal Research Tool",
+      "来源": "Lawyers In Big Trouble After Presenting AI-Generated Fake Cases To Judge During Trial"
+    },
+    "Risk": {
+      "id": "LegalMisinformationRisk",
+      "中文名称": "法律信息错误风险",
+      "英文名称": "Legal Misinformation Risk",
+      "来源": "Presenting AI-Generated Fake Cases To Judge During Trial"
+    },
+    "Consequence": {
+      "id": "JudicialSystemDisruption",
+      "中文名称": "司法系统干扰后果",
+      "英文名称": "Judicial System Disruption Consequence",
+      "来源": "Lawyers In Big Trouble After Presenting AI-Generated Fake Cases"
+    },
+    "AICapability": {
+      "id": "LegalCaseGeneration",
+      "中文名称": "法律案例生成能力",
+      "英文名称": "Legal Case Generation Capability",
+      "来源": "AI-Generated Fake Cases"
+    },
+    "Stakeholder": {
+      "id": "LegalProfessionals",
+      "中文名称": "法律专业人士",
+      "英文名称": "Legal Professionals",
+      "来源": "Lawyers In Big Trouble"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "职业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "Lawyers In Big Trouble"
+    },
+    "Purpose": {
+      "id": "LegalResearchAssistance",
+      "中文名称": "法律研究辅助目的",
+      "英文名称": "Legal Research Assistance Purpose",
+      "来源": "Using AI in Court"
+    },
+    "Domain": {
+      "id": "LegalServices",
+      "中文名称": "法律服务领域",
+      "英文名称": "Legal Services Domain",
+      "来源": "Court Proceedings"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成技术",
+      "英文名称": "Natural Language Generation Technique",
+      "来源": "AI-Generated Fake Cases"
+    },
+    "Vulnerability": {
+      "id": "FactVerificationAbsence",
+      "中文名称": "事实核查缺失漏洞",
+      "英文名称": "Fact Verification Absence Vulnerability",
+      "来源": "AI-Hallucinated Cites"
+    },
+    "Misuse": {
+      "id": "CourtDocumentFabrication",
+      "中文名称": "法庭文件伪造滥用",
+      "英文名称": "Court Document Fabrication Misuse",
+      "来源": "Presenting AI-Generated Fake Cases To Judge"
+    }
+  }
+}

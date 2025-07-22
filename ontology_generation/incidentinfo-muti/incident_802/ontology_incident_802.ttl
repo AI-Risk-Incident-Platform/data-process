@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeCallSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造通话系统"@zh ;
+    rdfs:label "Deepfake Call System"@en ;
+    airo:hasRisk ex:PoliticalDeceptionRisk ;
+    airo:hasAISubject ex:Senator ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasPurpose ex:PoliticalDeception ;
+    airo:hasStakeholder ex:ForeignRelationsChair .
+
+ex:PoliticalDeceptionRisk rdf:type airo:Risk ;
+    rdfs:label "政治欺骗风险"@zh ;
+    rdfs:label "Political Deception Risk"@en ;
+    airo:isRiskSourceFor ex:MalignActor ;
+    airo:hasConsequence ex:TrustErosionInPoliticalCommunication .
+
+ex:ForeignRelationsChair rdf:type airo:Stakeholder ;
+    rdfs:label "外交关系委员会主席"@zh ;
+    rdfs:label "Foreign Relations Chair"@en .
+
+ex:Senator rdf:type airo:AISubject ;
+    rdfs:label "参议员"@zh ;
+    rdfs:label "Senator"@en .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "语音合成技术"@zh ;
+    rdfs:label "Voice Synthesis Technology"@en .
+
+ex:PoliticalDeception rdf:type airo:Purpose ;
+    rdfs:label "政治欺骗"@zh ;
+    rdfs:label "Political Deception"@en .
+
+ex:TrustErosionInPoliticalCommunication rdf:type airo:Impact ;
+    rdfs:label "政治沟通信任侵蚀"@zh ;
+    rdfs:label "Trust Erosion in Political Communication"@en ;
+    airo:hasImpactOnStakeholder ex:ForeignRelationsChair .
+
+ex:MalignActor rdf:type airo:RiskSource ;
+    rdfs:label "恶意行为者"@zh ;
+    rdfs:label "Malign Actor"@en .

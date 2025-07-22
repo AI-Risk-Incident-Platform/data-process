@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeNewsGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "虚假新闻生成系统"@zh ;
+    rdfs:label "Fake News Generation System"@en ;
+    airo:hasRisk ex:PoliticalDisinformationRisk ;
+    airo:hasAISubject ex:PoliticalCandidate ;
+    airo:hasStakeholder ex:RussianTrolls ;
+    airo:hasPurpose ex:PoliticalManipulation .
+
+ex:PoliticalDisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "政治虚假信息风险"@zh ;
+    rdfs:label "Political Disinformation Risk"@en ;
+    airo:isRiskSourceFor ex:StateSponsoredDisinformation ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:RussianTrolls rdf:type airo:Stakeholder ;
+    rdfs:label "俄罗斯网络水军"@zh ;
+    rdfs:label "Russian Trolls"@en .
+
+ex:PoliticalCandidate rdf:type airo:AISubject ;
+    rdfs:label "政治候选人"@zh ;
+    rdfs:label "Political Candidate"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害"@zh ;
+    rdfs:label "Reputation Damage"@en ;
+    airo:hasImpactOnStakeholder ex:PoliticalCandidate .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "政治操纵"@zh ;
+    rdfs:label "Political Manipulation"@en .
+
+ex:StateSponsoredDisinformation rdf:type airo:RiskSource ;
+    rdfs:label "国家支持的虚假信息"@zh ;
+    rdfs:label "State-Sponsored Disinformation"@en .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "公众欺骗"@zh ;
+    rdfs:label "Public Deception"@en ;
+    airo:hasImpact ex:ReputationDamage .

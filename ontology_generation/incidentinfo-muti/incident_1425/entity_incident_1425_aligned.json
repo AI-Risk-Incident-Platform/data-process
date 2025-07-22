@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVoiceCloneSystem",
+      "中文名称": "深度伪造语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "CEO of world's biggest ad firm targeted by deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "WPPCEO",
+      "中文名称": "WPP首席执行官",
+      "英文名称": "WPP CEO",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI voice, fake WhatsApp account: How scammers targeted CEO of world's biggest ad firm using deepfake"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "CEO of world's biggest ad firm targeted by deepfake scam"
+    },
+    "RiskSource": {
+      "id": "DeepfakeMisuse",
+      "中文名称": "深度伪造滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI voice, fake WhatsApp account: How scammers targeted CEO of world's biggest ad firm using deepfake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVoiceCloneSystem",
+      "中文名称": "深度伪造语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融欺诈风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "CEO of world's biggest ad firm targeted by deepfake scam"
+    },
+    "Stakeholder": {
+      "id": "WPPCEO",
+      "中文名称": "WPP首席执行官",
+      "英文名称": "WPP CEO",
+      "来源": "WPP boss targeted by deepfake scammers using voice clone"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI voice, fake WhatsApp account: How scammers targeted CEO of world's biggest ad firm using deepfake"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "CEO of world's biggest ad firm targeted by deepfake scam"
+    },
+    "RiskSource": {
+      "id": "DeepfakeMisuse",
+      "中文名称": "深度伪造滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI voice, fake WhatsApp account: How scammers targeted CEO of world's biggest ad firm using deepfake"
+    }
+  }
+}

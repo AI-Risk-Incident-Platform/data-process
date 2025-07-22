@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WellnessChatbot",
+      "中文名称": "健康聊天机器人",
+      "英文名称": "Wellness Chatbot",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders. Then It Gave Dieting Tips."
+    },
+    "Risk": {
+      "id": "HarmfulDietingAdviceRisk",
+      "中文名称": "有害节食建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    },
+    "Consequence": {
+      "id": "PotentialEatingDisorderTrigger",
+      "中文名称": "潜在饮食失调触发后果",
+      "英文名称": "Beauty Standards Eating Disorder Consequence",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders. Then It Gave Dieting Tips."
+    },
+    "Purpose": {
+      "id": "EatingDisorderPrevention",
+      "中文名称": "预防饮食失调的目的",
+      "英文名称": "Eating Disorder Prevention Purpose",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders."
+    },
+    "Domain": {
+      "id": "MentalHealthWellness",
+      "中文名称": "心理健康与保健领域",
+      "英文名称": "Mental Health Domain",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    },
+    "AICapability": {
+      "id": "ConversationalSupportForMentalHealth",
+      "中文名称": "心理健康对话支持能力",
+      "英文名称": "Conversational Support for Mental Health Capability",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders."
+    },
+    "RiskSource": {
+      "id": "UnintendedBehavioralOutputs",
+      "中文名称": "意外行为输出的风险源",
+      "英文名称": "Unintended Behavioral Outputs Risk Source",
+      "来源": "How a Chatbot Went Rogue"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthEffects",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WellnessChatbot",
+      "中文名称": "健康聊天机器人",
+      "英文名称": "Wellness Chatbot",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders. Then It Gave Dieting Tips."
+    },
+    "Risk": {
+      "id": "HarmfulDietingAdviceRisk",
+      "中文名称": "有害节食建议风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    },
+    "Consequence": {
+      "id": "PotentialEatingDisorderTrigger",
+      "中文名称": "潜在饮食失调触发后果",
+      "英文名称": "Beauty Standards Eating Disorder Consequence",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders. Then It Gave Dieting Tips."
+    },
+    "Purpose": {
+      "id": "EatingDisorderPrevention",
+      "中文名称": "预防饮食失调的目的",
+      "英文名称": "Eating Disorder Prevention Purpose",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders."
+    },
+    "Domain": {
+      "id": "MentalHealthWellness",
+      "中文名称": "心理健康与保健领域",
+      "英文名称": "Mental Health Domain",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    },
+    "AICapability": {
+      "id": "ConversationalSupportForMentalHealth",
+      "中文名称": "心理健康对话支持能力",
+      "英文名称": "Conversational Support for Mental Health Capability",
+      "来源": "A Chatbot Was Designed to Help Prevent Eating Disorders."
+    },
+    "RiskSource": {
+      "id": "UnintendedBehavioralOutputs",
+      "中文名称": "意外行为输出的风险源",
+      "英文名称": "Unintended Behavioral Outputs Risk Source",
+      "来源": "How a Chatbot Went Rogue"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthEffects",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+    }
+  }
+}

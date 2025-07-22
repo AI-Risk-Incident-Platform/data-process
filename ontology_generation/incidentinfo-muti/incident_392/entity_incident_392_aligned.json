@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla autopilot feature mistakes horse carriage for a truck"
+    },
+    "Risk": {
+      "id": "ObjectMisclassificationRisk",
+      "中文名称": "物体误分类风险",
+      "英文名称": "Classification Accuracy Risk",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficAccident",
+      "中文名称": "潜在交通事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "AICapability": {
+      "id": "ObjectRecognition",
+      "中文名称": "物体识别能力",
+      "英文名称": "Image Classification",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla autopilot feature"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Stakeholder": {
+      "id": "TeslaDrivers",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Drivers",
+      "来源": "Tesla autopilot feature"
+    },
+    "Impact": {
+      "id": "RoadSafetyConcern",
+      "中文名称": "道路安全隐患影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "mistakes horse carriage for a truck"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla autopilot feature mistakes horse carriage for a truck"
+    },
+    "Risk": {
+      "id": "ObjectMisclassificationRisk",
+      "中文名称": "物体误分类风险",
+      "英文名称": "Classification Accuracy Risk",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficAccident",
+      "中文名称": "潜在交通事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "AICapability": {
+      "id": "ObjectRecognition",
+      "中文名称": "物体识别能力",
+      "英文名称": "Image Classification",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla autopilot feature"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "mistakes horse carriage for a truck"
+    },
+    "Stakeholder": {
+      "id": "TeslaDrivers",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Drivers",
+      "来源": "Tesla autopilot feature"
+    },
+    "Impact": {
+      "id": "RoadSafetyConcern",
+      "中文名称": "道路安全隐患影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "mistakes horse carriage for a truck"
+    }
+  }
+}

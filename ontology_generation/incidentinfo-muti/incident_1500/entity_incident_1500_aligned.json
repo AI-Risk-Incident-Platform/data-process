@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI chatbots providing inaccurate and harmful election information"
+    },
+    "Risk": {
+      "id": "InaccurateElectionInformationRisk",
+      "中文名称": "不准确选举信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI chatbots are serving up wildly inaccurate election information"
+    },
+    "Consequence": {
+      "id": "ElectionMisinformation",
+      "中文名称": "选举错误信息后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "AI chatbots providing inaccurate and harmful election information"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI chatbots May Cause Problems During Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "election information"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "providing election information"
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "wildly inaccurate election information"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "chatbots providing information"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChatbots",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI chatbots providing inaccurate and harmful election information"
+    },
+    "Risk": {
+      "id": "InaccurateElectionInformationRisk",
+      "中文名称": "不准确选举信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI chatbots are serving up wildly inaccurate election information"
+    },
+    "Consequence": {
+      "id": "ElectionMisinformation",
+      "中文名称": "选举错误信息后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "AI chatbots providing inaccurate and harmful election information"
+    },
+    "Impact": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI chatbots May Cause Problems During Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "election information"
+    },
+    "Purpose": {
+      "id": "InformationProvision",
+      "中文名称": "信息提供目的",
+      "英文名称": "Information Provision Purpose",
+      "来源": "providing election information"
+    },
+    "RiskSource": {
+      "id": "InadequateTrainingData",
+      "中文名称": "训练数据不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "wildly inaccurate election information"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "chatbots providing information"
+    }
+  }
+}

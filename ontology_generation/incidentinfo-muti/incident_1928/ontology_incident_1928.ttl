@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Image Generation System"@en ;
+    rdfs:label "AI图像生成系统"@zh ;
+    airo:hasRisk ex:HighCarbonEmissionRisk ;
+    airo:hasCapability ex:ImageGenerationCapability ;
+    airo:hasPurpose ex:DigitalContentCreation ;
+    airo:isAppliedWithinDomain ex:EnvironmentalSustainability ;
+    airo:hasStakeholder ex:EnvironmentalResearchers .
+
+ex:HighCarbonEmissionRisk rdf:type airo:Risk ;
+    rdfs:label "High Carbon Emission Risk"@en ;
+    rdfs:label "高碳排放风险"@zh ;
+    airo:hasConsequence ex:EnvironmentalImpact ;
+    airo:isRiskSourceFor ex:EnergyIntensiveComputing .
+
+ex:EnvironmentalImpact rdf:type airo:Consequence ;
+    rdfs:label "Environmental Impact Consequence"@en ;
+    rdfs:label "环境影响后果"@zh ;
+    airo:hasImpact ex:ClimateChangeImpact .
+
+ex:ImageGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Image Generation Capability"@en ;
+    rdfs:label "图像生成能力"@zh .
+
+ex:EnvironmentalResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Environmental Researchers"@en ;
+    rdfs:label "环境研究者"@zh ;
+    airo:hasImpactOnStakeholder ex:ClimateChangeImpact .
+
+ex:ClimateChangeImpact rdf:type airo:Impact ;
+    rdfs:label "Climate Change Impact"@en ;
+    rdfs:label "气候变化影响"@zh .
+
+ex:DigitalContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Digital Content Creation Purpose"@en ;
+    rdfs:label "数字内容创作目的"@zh .
+
+ex:EnvironmentalSustainability rdf:type airo:Domain ;
+    rdfs:label "Environmental Sustainability Domain"@en ;
+    rdfs:label "环境可持续性领域"@zh .
+
+ex:EnergyIntensiveComputing rdf:type airo:RiskSource ;
+    rdfs:label "Energy Intensive Computing Risk Source"@en ;
+    rdfs:label "高能耗计算风险源"@zh .

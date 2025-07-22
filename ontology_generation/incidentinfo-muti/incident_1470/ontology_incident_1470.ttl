@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAISearchEngine rdf:type airo:AISystem ;
+    rdfs:label "Google AI Search Engine"@en ;
+    rdfs:label "谷歌AI搜索引擎"@zh ;
+    airo:hasRisk ex:MalwareAndScamPromotionRisk ;
+    airo:isDevelopedBy ex:GoogleLLC ;
+    airo:hasStakeholder ex:SearchEngineUsers ;
+    airo:hasPurpose ex:EnhancedSearchExperience ;
+    airo:isAppliedWithinDomain ex:WebSearchServices .
+
+ex:MalwareAndScamPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "Malware and Scam Promotion Risk"@en ;
+    rdfs:label "恶意软件和诈骗推广风险"@zh ;
+    airo:hasConsequence ex:UserDirectedToMaliciousSites ;
+    airo:isRiskSourceFor ex:InadequateContentFiltering ;
+    airo:isRiskSourceFor ex:MalwareDistributionThroughSearchResults .
+
+ex:UserDirectedToMaliciousSites rdf:type airo:Consequence ;
+    rdfs:label "User Directed to Malicious Sites Consequence"@en ;
+    rdfs:label "用户被引导至恶意网站后果"@zh ;
+    airo:hasImpact ex:CybersecurityThreatToUsers .
+
+ex:GoogleLLC rdf:type airo:AIOperator ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:SearchEngineUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Search Engine Users"@en ;
+    rdfs:label "搜索引擎用户"@zh .
+
+ex:CybersecurityThreatToUsers rdf:type airo:Impact ;
+    rdfs:label "Cybersecurity Threat to Users Impact"@en ;
+    rdfs:label "用户网络安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SearchEngineUsers .
+
+ex:EnhancedSearchExperience rdf:type airo:Purpose ;
+    rdfs:label "Enhanced Search Experience Purpose"@en ;
+    rdfs:label "增强搜索体验目的"@zh .
+
+ex:WebSearchServices rdf:type airo:Domain ;
+    rdfs:label "Web Search Services Domain"@en ;
+    rdfs:label "网络搜索服务领域"@zh .
+
+ex:InadequateContentFiltering rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Filtering Risk Source"@en ;
+    rdfs:label "内容过滤不足风险源"@zh .
+
+ex:MalwareDistributionThroughSearchResults rdf:type airo:Threat ;
+    rdfs:label "Malware Distribution Through Search Results Threat"@en ;
+    rdfs:label "通过搜索结果分发恶意软件的威胁"@zh .

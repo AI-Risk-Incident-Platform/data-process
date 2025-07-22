@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonDeliveryDriverSurveillanceSystem",
+      "中文名称": "亚马逊送货司机监控系统",
+      "英文名称": "Amazon Delivery Driver Surveillance System",
+      "来源": "Amazon Delivery Drivers Forced to Sign ‘Biometric Consent’ Form or Lose Job"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndWorkerExploitationRisk",
+      "中文名称": "隐私侵犯和工人剥削风险",
+      "英文名称": "Privacy Violation and Worker Exploitation Risk",
+      "来源": "Amazon Delivery Drivers Forced to Sign ‘Biometric Consent’ Form or Lose Job"
+    },
+    "Stakeholder": {
+      "id": "AmazonDeliveryDrivers",
+      "中文名称": "亚马逊送货司机",
+      "英文名称": "Amazon Delivery Drivers",
+      "来源": "For this Amazon van driver, AI surveillance was the final straw"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Surveilling Drivers Can't Fix Amazon's Road Safety Problem"
+    },
+    "Consequence": {
+      "id": "WorkerStressAndJobDissatisfaction",
+      "中文名称": "工人压力和工作不满后果",
+      "英文名称": "Worker Stress and Job Dissatisfaction Consequence",
+      "来源": "For this Amazon van driver, AI surveillance was the final straw"
+    },
+    "Impact": {
+      "id": "NegativeImpactOnWorkerWellbeing",
+      "中文名称": "对工人福祉的负面影响",
+      "英文名称": "Negative Impact on Worker Wellbeing Impact",
+      "来源": "For this Amazon van driver, AI surveillance was the final straw"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集风险源",
+      "英文名称": "Biometric Data Collection Risk Source",
+      "来源": "Amazon Delivery Drivers Forced to Sign ‘Biometric Consent’ Form or Lose Job"
+    },
+    "Purpose": {
+      "id": "DriverPerformanceMonitoring",
+      "中文名称": "司机绩效监控目的",
+      "英文名称": "Driver Performance Monitoring Purpose",
+      "来源": "Surveilling Drivers Can't Fix Amazon's Road Safety Problem"
+    }
+  }
+}

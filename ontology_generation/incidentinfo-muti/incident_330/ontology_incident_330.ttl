@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:NHTSA ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    airo:hasConsequence ex:PropertyDamage ;
+    airo:isRiskSourceFor ex:AutopilotSystemFailure .
+
+ex:PropertyDamage rdf:type airo:Consequence ;
+    rdfs:label "财产损失后果"@zh ;
+    rdfs:label "Property Damage Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:NHTSA rdf:type airo:Stakeholder ;
+    rdfs:label "美国国家公路交通安全管理局"@zh ;
+    rdfs:label "National Highway Traffic Safety Administration"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:AutopilotSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "自动驾驶系统故障风险源"@zh ;
+    rdfs:label "Autopilot System Failure Risk Source"@en .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    airo:hasImpactOnStakeholder ex:NHTSA .

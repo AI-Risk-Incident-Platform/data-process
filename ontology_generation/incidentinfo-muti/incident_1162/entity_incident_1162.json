@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "COMPASRecidivismPredictionSystem",
+      "中文名称": "COMPAS累犯预测系统",
+      "英文名称": "COMPAS Recidivism Prediction System",
+      "来源": "Opening the Lid on Criminal Sentencing Software"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInJudicialDecisionMaking",
+      "中文名称": "司法决策中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Judicial Decision Making Risk",
+      "来源": "Algorithmic Due Process: Mistaken Accountability and Attribution in State v. Loomis"
+    },
+    "AICapability": {
+      "id": "MultiVariableStatisticalAnalysisForRecidivismPrediction",
+      "中文名称": "多变量统计分析用于预测再犯的能力",
+      "英文名称": "Multi-Variable Statistical Analysis for Recidivism Prediction Capability",
+      "来源": "State v. Loomis"
+    },
+    "AIOperator": {
+      "id": "NorthpointeInc",
+      "中文名称": "北点公司",
+      "英文名称": "Northpointe Inc.",
+      "来源": "Opening the Lid on Criminal Sentencing Software"
+    },
+    "Stakeholder": {
+      "id": "AcademicResearchersEvaluatingAlgorithmicFairness",
+      "中文名称": "评估算法公平性的学术研究者",
+      "英文名称": "Academic Researchers Evaluating Algorithmic Fairness",
+      "来源": "Algorithmic Due Process: Mistaken Accountability and Attribution in State v. Loomis"
+    },
+    "AISubject": {
+      "id": "CriminalDefendantsSubjectToAlgorithmicAssessment",
+      "中文名称": "接受算法评估的刑事被告人",
+      "英文名称": "Criminal Defendants Subject to Algorithmic Assessment",
+      "来源": "State v. Loomis"
+    },
+    "Impact": {
+      "id": "UnjustIncarcerationOrEarlyRelease",
+      "中文名称": "不公正监禁或提前释放的影响",
+      "英文名称": "Unjust Incarceration or Early Release Impact",
+      "来源": "Algorithmic Due Process: Mistaken Accountability and Attribution in State v. Loomis"
+    },
+    "Purpose": {
+      "id": "SupportingJudicialRiskAssessmentDecisions",
+      "中文名称": "辅助司法风险评估决策的目的",
+      "英文名称": "Supporting Judicial Risk Assessment Decisions Purpose",
+      "来源": "Opening the Lid on Criminal Sentencing Software"
+    },
+    "Domain": {
+      "id": "JudicialCriminalJusticeSystem",
+      "中文名称": "司法刑事司法系统领域",
+      "英文名称": "Judicial Criminal Justice System Domain",
+      "来源": "State v. Loomis"
+    },
+    "AITechnique": {
+      "id": "ProprietaryMachineLearningModelWithManualVariableSelection",
+      "中文名称": "人工选择变量的专有机器学习模型",
+      "英文名称": "Proprietary Machine Learning Model with Manual Variable Selection Technique",
+      "来源": "Opening the Lid on Criminal Sentencing Software"
+    },
+    "Vulnerability": {
+      "id": "HumanJudgesOverrelianceOnAlgorithmicScores",
+      "中文名称": "法官对算法评分过度依赖的脆弱性",
+      "英文名称": "Human Judges Overreliance on Algorithmic Scores Vulnerability",
+      "来源": "Algorithmic Due Process: Mistaken Accountability and Attribution in State v. Loomis"
+    },
+    "Threat": {
+      "id": "MisuseOfAlgorithmicToolsByNonExperts",
+      "中文名称": "非专家误用算法工具的威胁",
+      "英文名称": "Misuse of Algorithmic Tools by Non-Experts Threat",
+      "来源": "State v. Loomis"
+    },
+    "Hazard": {
+      "id": "BiasedTrainingDataReflectingHistoricalInjustice",
+      "中文名称": "反映历史不公的训练数据偏差危害",
+      "英文名称": "Biased Training Data Reflecting Historical Injustice Hazard",
+      "来源": "Opening the Lid on Criminal Sentencing Software"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInCommercialAlgorithms",
+      "中文名称": "商业算法中缺乏透明度的风险源",
+      "英文名称": "Lack of Transparency in Commercial Algorithms Risk Source",
+      "来源": "Algorithmic Due Process: Mistaken Accountability and Attribution in State v. Loomis"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAIDrivenPunishmentRecommendations",
+      "中文名称": "人工智能驱动的惩罚建议中的伦理挑战",
+      "英文名称": "Ethical Challenges in AI-Driven Punishment Recommendations Risk Concept",
+      "来源": "State v. Loomis"
+    }
+  }
+}

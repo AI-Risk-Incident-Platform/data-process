@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousRobot",
+      "中文名称": "自主机器人",
+      "英文名称": "Autonomous Robot",
+      "来源": "The time a human-driven car ran over an autonomous robot"
+    },
+    "Risk": {
+      "id": "PhysicalCollisionRisk",
+      "中文名称": "物理碰撞风险",
+      "英文名称": "Physical Collision Risk",
+      "来源": "a human-driven car ran over an autonomous robot"
+    },
+    "Consequence": {
+      "id": "RobotDamage",
+      "中文名称": "机器人损坏",
+      "英文名称": "Robot Damage",
+      "来源": "a human-driven car ran over an autonomous robot"
+    },
+    "Stakeholder": {
+      "id": "HumanDriver",
+      "中文名称": "人类驾驶员",
+      "英文名称": "Human Driver",
+      "来源": "a human-driven car ran over an autonomous robot"
+    },
+    "RiskSource": {
+      "id": "HumanError",
+      "中文名称": "人为错误",
+      "英文名称": "Human Error",
+      "来源": "a human-driven car ran over an autonomous robot"
+    }
+  }
+}

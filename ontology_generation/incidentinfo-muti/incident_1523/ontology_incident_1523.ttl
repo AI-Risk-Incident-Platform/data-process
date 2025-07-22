@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:PhillySheriffCampaign ;
+    airo:hasPurpose ex:CampaignPromotion .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:AIHallucination ;
+    airo:hasRisk ex:PoliticalMisuseOfAI .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:CredibilityDamage .
+
+ex:PhillySheriffCampaign rdf:type airo:Stakeholder ;
+    rdfs:label "Philly Sheriff Campaign"@en ;
+    rdfs:label "费城警长竞选团队"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:CredibilityDamage rdf:type airo:Impact ;
+    rdfs:label "Credibility Damage Impact"@en ;
+    rdfs:label "信誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PhillySheriffCampaign .
+
+ex:CampaignPromotion rdf:type airo:Purpose ;
+    rdfs:label "Campaign Promotion Purpose"@en ;
+    rdfs:label "竞选宣传目的"@zh .
+
+ex:AIHallucination rdf:type airo:RiskSource ;
+    rdfs:label "AI Hallucination Risk Source"@en ;
+    rdfs:label "AI幻觉风险源"@zh .
+
+ex:PoliticalMisuseOfAI rdf:type airo:Misuse ;
+    rdfs:label "Political Misuse of AI"@en ;
+    rdfs:label "AI政治滥用"@zh .

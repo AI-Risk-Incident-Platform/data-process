@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChildSexAbuseImageGenerator",
+      "中文名称": "AI生成儿童性虐待图像系统",
+      "英文名称": "AI Child Porn Generation",
+      "来源": "AI-generated child sex abuse images"
+    },
+    "Risk": {
+      "id": "ChildExploitationRisk",
+      "中文名称": "儿童剥削风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "charges surrounding AI-generated child sex abuse images"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "child sex abuse images"
+    },
+    "Stakeholder": {
+      "id": "JBERSoldier",
+      "中文名称": "JBER士兵",
+      "英文名称": "JBER Soldier",
+      "来源": "JBER soldier makes federal court appearance"
+    },
+    "Consequence": {
+      "id": "LegalProsecution",
+      "中文名称": "法律起诉后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "makes federal court appearance on charges"
+    },
+    "Misuse": {
+      "id": "IllegalContentGeneration",
+      "中文名称": "非法内容生成",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI-generated child sex abuse images"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIChildSexAbuseImageGenerator",
+      "中文名称": "AI生成儿童性虐待图像系统",
+      "英文名称": "AI Child Porn Generation",
+      "来源": "AI-generated child sex abuse images"
+    },
+    "Risk": {
+      "id": "ChildExploitationRisk",
+      "中文名称": "儿童剥削风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "charges surrounding AI-generated child sex abuse images"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "child sex abuse images"
+    },
+    "Stakeholder": {
+      "id": "JBERSoldier",
+      "中文名称": "JBER士兵",
+      "英文名称": "JBER Soldier",
+      "来源": "JBER soldier makes federal court appearance"
+    },
+    "Consequence": {
+      "id": "LegalProsecution",
+      "中文名称": "法律起诉后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "makes federal court appearance on charges"
+    },
+    "Misuse": {
+      "id": "IllegalContentGeneration",
+      "中文名称": "非法内容生成",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI-generated child sex abuse images"
+    }
+  }
+}

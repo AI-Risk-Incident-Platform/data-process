@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentRankingSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Ranking System"@en ;
+    rdfs:label "Facebook内容排名系统"@zh ;
+    airo:hasRisk ex:HarmfulContentSpreadRisk ;
+    airo:isDeployedBy ex:MetaPlatformsInc .
+
+ex:HarmfulContentSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Spread Risk"@en ;
+    rdfs:label "有害内容传播风险"@zh ;
+    airo:hasConsequence ex:MisinformationSurge ;
+    airo:isRiskSourceFor ex:RankingAlgorithmBug .
+
+ex:MisinformationSurge rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Surge Consequence"@en ;
+    rdfs:label "错误信息激增后果"@zh ;
+    airo:hasImpact ex:PublicMisinformationExposure .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:RankingAlgorithmBug rdf:type airo:RiskSource ;
+    rdfs:label "Ranking Algorithm Bug Risk Source"@en ;
+    rdfs:label "排名算法漏洞风险源"@zh .
+
+ex:PublicMisinformationExposure rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Exposure Impact"@en ;
+    rdfs:label "公众接触错误信息的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MetaPlatformsInc .

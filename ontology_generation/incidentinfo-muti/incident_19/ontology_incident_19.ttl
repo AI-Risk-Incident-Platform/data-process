@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LasVegasSelfDrivingBus rdf:type airo:AISystem ;
+    rdfs:label "Las Vegas Self-Driving Bus"@en ;
+    rdfs:label "拉斯维加斯自动驾驶巴士"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasAICapability ex:AutonomousNavigation ;
+    airo:isDeployedBy ex:LasVegasTransportationAuthority ;
+    airo:hasStakeholder ex:PublicTransportUsers ;
+    airo:hasAISubject ex:RoadUsers ;
+    airo:hasPurpose ex:PublicTransportationService ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation ;
+    airo:usesTechnique ex:ComputerVision ;
+    airo:hasVulnerability ex:RealWorldEnvironmentAdaptation .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:VehicleDamage ;
+    airo:isRiskSourceFor ex:SensorLimitations ;
+    airo:isRiskSourceFor ex:UnexpectedObstacles ;
+    airo:isRiskSourceFor ex:ComplexUrbanTraffic .
+
+ex:VehicleDamage rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Damage Consequence"@en ;
+    rdfs:label "车辆损坏后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:AutonomousNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Navigation Capability"@en ;
+    rdfs:label "自主导航能力"@zh .
+
+ex:LasVegasTransportationAuthority rdf:type airo:AIOperator ;
+    rdfs:label "Las Vegas Transportation Authority"@en ;
+    rdfs:label "拉斯维加斯交通管理局"@zh .
+
+ex:PublicTransportUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Public Transport Users"@en ;
+    rdfs:label "公共交通使用者"@zh .
+
+ex:RoadUsers rdf:type airo:AISubject ;
+    rdfs:label "Road Users"@en ;
+    rdfs:label "道路使用者"@zh .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧的影响"@zh .
+
+ex:PublicTransportationService rdf:type airo:Purpose ;
+    rdfs:label "Public Transportation Service Purpose"@en ;
+    rdfs:label "公共交通服务的目的"@zh .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:ComputerVision rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .
+
+ex:RealWorldEnvironmentAdaptation rdf:type airo:Vulnerability ;
+    rdfs:label "Real-World Environment Adaptation Vulnerability"@en ;
+    rdfs:label "真实世界环境适应的脆弱性"@zh .
+
+ex:UnexpectedObstacles rdf:type airo:Threat ;
+    rdfs:label "Unexpected Obstacles Threat"@en ;
+    rdfs:label "意外障碍物的威胁"@zh ;
+    airo:isRiskSourceFor ex:AutonomousVehicleCollisionRisk .
+
+ex:ComplexUrbanTraffic rdf:type airo:Hazard ;
+    rdfs:label "Complex Urban Traffic Hazard"@en ;
+    rdfs:label "复杂城市交通的危害"@zh ;
+    airo:isRiskSourceFor ex:AutonomousVehicleCollisionRisk .
+
+ex:SensorLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Sensor Limitations Risk Source"@en ;
+    rdfs:label "传感器限制的风险源"@zh ;
+    airo:isRiskSourceFor ex:AutonomousVehicleCollisionRisk .
+
+ex:AutonomousVehicleSafety rdf:type airo:RiskConcept ;
+    rdfs:label "Autonomous Vehicle Safety Risk Concept"@en ;
+    rdfs:label "自动驾驶车辆安全"@zh .

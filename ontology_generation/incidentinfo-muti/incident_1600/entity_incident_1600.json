@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITranslationSystem",
+      "中文名称": "AI翻译系统",
+      "英文名称": "AI Translation System",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Inaccurate Translation Risk",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Consequence": {
+      "id": "DeniedAsylumClaims",
+      "中文名称": "庇护申请被拒后果",
+      "英文名称": "Denied Asylum Claims Consequence",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "AISubject": {
+      "id": "AfghanAsylumSeekers",
+      "中文名称": "阿富汗寻求庇护者",
+      "英文名称": "Afghan Asylum Seekers",
+      "来源": "AI Translators Are Putting Afghan Asylum Claims At Risk"
+    },
+    "Stakeholder": {
+      "id": "ImmigrationAuthorities",
+      "中文名称": "移民当局",
+      "英文名称": "Immigration Authorities",
+      "来源": "Turning Over Refugee Asylum Claims To Artificial Intelligence Is A Terrible Idea"
+    },
+    "Impact": {
+      "id": "HumanRightsViolation",
+      "中文名称": "人权侵犯影响",
+      "英文名称": "Human Rights Violation Impact",
+      "来源": "AI Translators Are Putting Afghan Asylum Claims At Risk"
+    },
+    "Purpose": {
+      "id": "AsylumClaimProcessing",
+      "中文名称": "庇护申请处理目的",
+      "英文名称": "Asylum Claim Processing Purpose",
+      "来源": "Turning Over Refugee Asylum Claims To Artificial Intelligence Is A Terrible Idea"
+    },
+    "Domain": {
+      "id": "ImmigrationAndAsylum",
+      "中文名称": "移民和庇护领域",
+      "英文名称": "Immigration and Asylum Domain",
+      "来源": "AI Translators Are Putting Afghan Asylum Claims At Risk"
+    },
+    "RiskSource": {
+      "id": "LanguageBarrier",
+      "中文名称": "语言障碍风险源",
+      "英文名称": "Language Barrier Risk Source",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Vulnerability": {
+      "id": "CulturalNuanceMisinterpretation",
+      "中文名称": "文化细微差别误解脆弱性",
+      "英文名称": "Cultural Nuance Misinterpretation Vulnerability",
+      "来源": "AI Translators Are Putting Afghan Asylum Claims At Risk"
+    }
+  }
+}

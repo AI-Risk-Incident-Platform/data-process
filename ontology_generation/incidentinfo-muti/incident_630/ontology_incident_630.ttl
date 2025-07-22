@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System"@en ;
+    airo:hasRisk ex:FalsePositiveIdentificationRisk ;
+    airo:hasStakeholder ex:WrongfullyAccusedIndividual ;
+    airo:hasStakeholder ex:RetailSecurityDepartment ;
+    airo:hasVulnerability ex:AlgorithmicBiasInMinorityRecognition .
+
+ex:FalsePositiveIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "误识别风险"@zh ;
+    rdfs:label "False Positive Identification Risk"@en ;
+    airo:hasConsequence ex:WrongfulImprisonment .
+
+ex:WrongfulImprisonment rdf:type airo:Consequence ;
+    rdfs:label "错误监禁后果"@zh ;
+    rdfs:label "Wrongful Imprisonment Consequence"@en ;
+    airo:hasImpact ex:PhysicalHarmAndPsychologicalTrauma .
+
+ex:PhysicalHarmAndPsychologicalTrauma rdf:type airo:Impact ;
+    rdfs:label "身体伤害和心理创伤影响"@zh ;
+    rdfs:label "Physical Harm and Psychological Trauma Impact"@en ;
+    airo:hasImpactOnStakeholder ex:WrongfullyAccusedIndividual .
+
+ex:WrongfullyAccusedIndividual rdf:type airo:Stakeholder ;
+    rdfs:label "被错误指控的个人"@zh ;
+    rdfs:label "Wrongfully Accused Individual"@en .
+
+ex:RetailSecurityDepartment rdf:type airo:AIOperator ;
+    rdfs:label "零售安全部门"@zh ;
+    rdfs:label "Retail Security Department"@en .
+
+ex:AlgorithmicBiasInMinorityRecognition rdf:type airo:Vulnerability ;
+    rdfs:label "少数族裔识别中的算法偏差漏洞"@zh ;
+    rdfs:label "Algorithmic Bias in Minority Recognition Vulnerability"@en .

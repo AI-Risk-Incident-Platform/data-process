@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TSABodyScannerSystem rdf:type airo:AISystem ;
+    rdfs:label "TSA Body Scanner System"@en ;
+    rdfs:label "TSA身体扫描系统"@zh ;
+    airo:hasRisk ex:GenderDiscriminationRisk ;
+    airo:hasAISubject ex:NonBinaryGenderIndividuals ;
+    airo:isAppliedWithinDomain ex:AirportSecurity .
+
+ex:GenderDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Discrimination Risk"@en ;
+    rdfs:label "性别歧视风险"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:NonBinaryGenderIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Non-Binary Gender Individuals"@en ;
+    rdfs:label "非二元性别个体"@zh .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress"@en ;
+    rdfs:label "心理困扰"@zh ;
+    airo:hasImpactOnStakeholder ex:NonBinaryGenderIndividuals .
+
+ex:AirportSecurity rdf:type airo:Domain ;
+    rdfs:label "Airport Security"@en ;
+    rdfs:label "机场安检"@zh .

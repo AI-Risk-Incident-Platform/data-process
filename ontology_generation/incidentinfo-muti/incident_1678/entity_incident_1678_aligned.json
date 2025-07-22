@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RyanairFacialRecognitionSystem",
+      "中文名称": "瑞安航空面部识别系统",
+      "英文名称": "Ryanair Facial Recognition System",
+      "来源": "Ryanair’s use of facial recognition"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Privacy rights group file complaint against Ryanair’s use of facial recognition"
+    },
+    "Stakeholder": {
+      "id": "PrivacyRightsGroup",
+      "中文名称": "隐私权组织",
+      "英文名称": "Privacy Advocates",
+      "来源": "Privacy rights group file complaint against Ryanair’s use of facial recognition"
+    },
+    "AIOperator": {
+      "id": "Ryanair",
+      "中文名称": "瑞安航空",
+      "英文名称": "Ryanair",
+      "来源": "Ryanair’s use of facial recognition"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Ryanair’s “invasive facial recognition” verification process is illegal, says digital rights group"
+    },
+    "RiskSource": {
+      "id": "InvasiveVerificationProcess",
+      "中文名称": "侵入性验证流程",
+      "英文名称": "Invasive Verification Process",
+      "来源": "Ryanair’s “invasive facial recognition” verification process is illegal, says digital rights group"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RyanairFacialRecognitionSystem",
+      "中文名称": "瑞安航空面部识别系统",
+      "英文名称": "Ryanair Facial Recognition System",
+      "来源": "Ryanair’s use of facial recognition"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Privacy rights group file complaint against Ryanair’s use of facial recognition"
+    },
+    "Stakeholder": {
+      "id": "PrivacyRightsGroup",
+      "中文名称": "隐私权组织",
+      "英文名称": "Privacy Advocates",
+      "来源": "Privacy rights group file complaint against Ryanair’s use of facial recognition"
+    },
+    "AIOperator": {
+      "id": "Ryanair",
+      "中文名称": "瑞安航空",
+      "英文名称": "Ryanair",
+      "来源": "Ryanair’s use of facial recognition"
+    },
+    "Impact": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Ryanair’s “invasive facial recognition” verification process is illegal, says digital rights group"
+    },
+    "RiskSource": {
+      "id": "InvasiveVerificationProcess",
+      "中文名称": "侵入性验证流程",
+      "英文名称": "Invasive Verification Process",
+      "来源": "Ryanair’s “invasive facial recognition” verification process is illegal, says digital rights group"
+    }
+  }
+}

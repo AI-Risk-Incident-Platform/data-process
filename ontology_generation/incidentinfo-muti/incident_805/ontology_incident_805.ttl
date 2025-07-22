@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NevadaStudentSupportAI rdf:type airo:AISystem ;
+    rdfs:label "Nevada Student Support AI System"@en ;
+    rdfs:label "内华达州学生支持AI系统"@zh ;
+    airo:hasRisk ex:UnfairStudentAssessmentRisk ;
+    airo:hasPurpose ex:IdentifyStudentsNeedingSupport ;
+    airo:hasStakeholder ex:NevadaEducationDepartment ;
+    airo:hasAISubject ex:StudentsInNeed ;
+    airo:isAppliedWithinDomain ex:PublicEducationSystem .
+
+ex:UnfairStudentAssessmentRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Student Assessment Risk"@en ;
+    rdfs:label "不公平学生评估风险"@zh ;
+    airo:hasConsequence ex:PublicOutcryOverAIRecommendations .
+
+ex:NevadaEducationDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Nevada Education Department"@en ;
+    rdfs:label "内华达州教育部门"@zh .
+
+ex:StudentsInNeed rdf:type airo:AISubject ;
+    rdfs:label "Students in Need"@en ;
+    rdfs:label "需要帮助的学生"@zh .
+
+ex:EducationalResourceMisallocation rdf:type airo:Impact ;
+    rdfs:label "Educational Resource Misallocation Impact"@en ;
+    rdfs:label "教育资源分配不当的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NevadaEducationDepartment , ex:StudentsInNeed .
+
+ex:IdentifyStudentsNeedingSupport rdf:type airo:Purpose ;
+    rdfs:label "Identify Students Needing Support Purpose"@en ;
+    rdfs:label "识别需要支持学生的目的"@zh .
+
+ex:PublicEducationSystem rdf:type airo:Domain ;
+    rdfs:label "Public Education System Domain"@en ;
+    rdfs:label "公共教育系统领域"@zh .
+
+ex:PublicOutcryOverAIRecommendations rdf:type airo:Consequence ;
+    rdfs:label "Public Outcry Over AI Recommendations Consequence"@en ;
+    rdfs:label "公众对AI建议的强烈反对后果"@zh ;
+    airo:hasImpact ex:EducationalResourceMisallocation .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:HateSpeechPropagationRisk ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasStakeholder ex:RohingyaRefugees ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:HateSpeechPropagationRisk rdf:type airo:Risk ;
+    rdfs:label "Hate Speech Propagation Risk"@en ;
+    rdfs:label "仇恨言论传播风险"@zh ;
+    airo:isRiskSourceFor ex:MilitaryPropagandaPosts ;
+    airo:hasConsequence ex:MassViolenceAgainstEthnicGroups .
+
+ex:RohingyaRefugees rdf:type airo:Stakeholder ;
+    rdfs:label "Rohingya Refugees"@en ;
+    rdfs:label "罗兴亚难民"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:GenocideIncitedBySocialMedia rdf:type airo:Impact ;
+    rdfs:label "Genocide Incited by Social Media Impact"@en ;
+    rdfs:label "社交媒体煽动的种族灭绝影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RohingyaRefugees .
+
+ex:MassViolenceAgainstEthnicGroups rdf:type airo:Consequence ;
+    rdfs:label "Mass Violence Against Ethnic Groups Consequence"@en ;
+    rdfs:label "针对民族群体的大规模暴力后果"@zh ;
+    airo:hasImpact ex:GenocideIncitedBySocialMedia .
+
+ex:MilitaryPropagandaPosts rdf:type airo:RiskSource ;
+    rdfs:label "Military Propaganda Posts Risk Source"@en ;
+    rdfs:label "军事宣传帖文风险源"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

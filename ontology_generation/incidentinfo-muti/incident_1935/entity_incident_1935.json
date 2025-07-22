@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedImage",
+      "中文名称": "AI生成图像",
+      "英文名称": "AI Generated Image",
+      "来源": "Image of Palestinian carrying children out of rubble shows signs of AI"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Image shows signs of AI"
+    },
+    "RiskSource": {
+      "id": "ImageManipulation",
+      "中文名称": "图像操纵",
+      "英文名称": "Image Manipulation",
+      "来源": "Image shows signs of AI"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导",
+      "英文名称": "Public Misinformation",
+      "来源": "Image of Palestinian carrying children out of rubble"
+    },
+    "Impact": {
+      "id": "ConflictMisrepresentation",
+      "中文名称": "冲突误报",
+      "英文名称": "Conflict Misrepresentation",
+      "来源": "Image of Palestinian carrying children out of rubble"
+    }
+  }
+}

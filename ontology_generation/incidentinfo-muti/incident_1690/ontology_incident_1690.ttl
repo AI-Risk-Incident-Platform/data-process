@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAI rdf:type airo:AISystem ;
+    rdfs:label "生成式AI"@zh ;
+    rdfs:label "Generative AI"@en ;
+    airo:hasRisk ex:StereotypeExaggerationRisk ;
+    airo:usesTechnique ex:DeepLearningGeneration .
+
+ex:StereotypeExaggerationRisk rdf:type airo:Risk ;
+    rdfs:label "刻板印象夸大风险"@zh ;
+    rdfs:label "Stereotype Exaggeration Risk"@en ;
+    airo:hasConsequence ex:ReinforcementOfHarmfulStereotypes ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:ReinforcementOfHarmfulStereotypes rdf:type airo:Consequence ;
+    rdfs:label "强化有害刻板印象的后果"@zh ;
+    rdfs:label "Reinforcement of Harmful Stereotypes Consequence"@en ;
+    airo:hasImpact ex:SocialDiscriminationImpact .
+
+ex:SocialDiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "社会歧视影响"@zh ;
+    rdfs:label "Social Discrimination Impact"@en .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "有偏见的训练数据"@zh ;
+    rdfs:label "Biased Training Data"@en .
+
+ex:DeepLearningGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度学习生成技术"@zh ;
+    rdfs:label "Deep Learning Generation Technique"@en .

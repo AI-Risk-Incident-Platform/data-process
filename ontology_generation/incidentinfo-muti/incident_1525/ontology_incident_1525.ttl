@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RobotaxiService rdf:type airo:AISystem ;
+    rdfs:label "Robotaxi Service"@en ;
+    rdfs:label "自动驾驶出租车服务"@zh ;
+    airo:hasRisk ex:PublicTrustDeficitRisk ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:isAppliedWithinDomain ex:AutonomousTransportationDomain .
+
+ex:PublicTrustDeficitRisk rdf:type airo:Risk ;
+    rdfs:label "Public Trust Deficit Risk"@en ;
+    rdfs:label "公众信任缺失风险"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "普通公众"@zh .
+
+ex:AutonomousTransportationDomain rdf:type airo:Domain ;
+    rdfs:label "Autonomous Transportation Domain"@en ;
+    rdfs:label "自动驾驶交通领域"@zh .

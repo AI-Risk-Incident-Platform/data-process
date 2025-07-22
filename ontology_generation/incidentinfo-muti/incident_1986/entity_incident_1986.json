@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OkCupidDatingPlatform",
+      "中文名称": "OkCupid约会平台",
+      "英文名称": "OkCupid Dating Platform",
+      "来源": "OkCupid under FTC lens over claims it sold user pics to facial recognition firm"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "claims it sold user pics to facial recognition firm"
+    },
+    "Stakeholder": {
+      "id": "FTC",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "OkCupid under FTC lens"
+    },
+    "AISubject": {
+      "id": "OkCupidUsers",
+      "中文名称": "OkCupid用户",
+      "英文名称": "OkCupid Users",
+      "来源": "Chicago OKCupid User Sues Facial Recognition Co."
+    },
+    "Impact": {
+      "id": "UnauthorizedUseOfPersonalData",
+      "中文名称": "个人数据未经授权使用的影响",
+      "英文名称": "Unauthorized Use of Personal Data Impact",
+      "来源": "Capture of Dating Site Profiles Prompts Suit Against AI Firm"
+    },
+    "RiskSource": {
+      "id": "DataSharingWithThirdParties",
+      "中文名称": "与第三方共享数据的风险源",
+      "英文名称": "Data Sharing with Third Parties Risk Source",
+      "来源": "claims it sold user pics to facial recognition firm"
+    },
+    "Consequence": {
+      "id": "LegalActionAgainstAICompany",
+      "中文名称": "对AI公司采取法律行动的后果",
+      "英文名称": "Legal Action Against AI Company Consequence",
+      "来源": "Chicago OKCupid User Sues Facial Recognition Co."
+    }
+  }
+}

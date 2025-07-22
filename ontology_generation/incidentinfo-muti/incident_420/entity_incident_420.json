@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "XpengP7NGPSystem",
+      "中文名称": "小鹏P7 NGP自动导航辅助驾驶系统",
+      "英文名称": "Xpeng P7 NGP Automatic Navigation Assisted Driving System",
+      "来源": "Xpeng P7 Crashes into Rear of Truck While Using NGP Automatic Navigation Assisted Driving System"
+    },
+    "Risk": {
+      "id": "AutonomousDrivingCollisionRisk",
+      "中文名称": "自动驾驶碰撞风险",
+      "英文名称": "Autonomous Driving Collision Risk",
+      "来源": "Xpeng P7 on NGP Doesn't Detect a Truck, Crashes in China"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Vehicle Collision Consequence",
+      "来源": "Xpeng P7 crashed into the rear of the truck. NGP was activated"
+    },
+    "AICapability": {
+      "id": "AutomaticNavigationAssistance",
+      "中文名称": "自动导航辅助能力",
+      "英文名称": "Automatic Navigation Assistance Capability",
+      "来源": "Xpeng P7 Crashes into Rear of Truck While Using NGP Automatic Navigation Assisted Driving System"
+    },
+    "AIOperator": {
+      "id": "XpengMotors",
+      "中文名称": "小鹏汽车",
+      "英文名称": "Xpeng Motors",
+      "来源": "Xpeng P7 Crashes into Rear of Truck While Using NGP Automatic Navigation Assisted Driving System"
+    },
+    "RiskSource": {
+      "id": "ObjectDetectionFailure",
+      "中文名称": "物体检测失败风险源",
+      "英文名称": "Object Detection Failure Risk Source",
+      "来源": "Xpeng P7 on NGP Doesn't Detect a Truck, Crashes in China"
+    },
+    "Impact": {
+      "id": "TrafficSafetyThreat",
+      "中文名称": "交通安全威胁影响",
+      "英文名称": "Traffic Safety Threat Impact",
+      "来源": "Xpeng P7 crashed into the rear of the truck. NGP was activated"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Driving Domain",
+      "来源": "Xpeng P7 Crashes into Rear of Truck While Using NGP Automatic Navigation Assisted Driving System"
+    },
+    "Vulnerability": {
+      "id": "SensorLimitation",
+      "中文名称": "传感器限制脆弱性",
+      "英文名称": "Sensor Limitation Vulnerability",
+      "来源": "Xpeng P7 on NGP Doesn't Detect a Truck, Crashes in China"
+    }
+  }
+}

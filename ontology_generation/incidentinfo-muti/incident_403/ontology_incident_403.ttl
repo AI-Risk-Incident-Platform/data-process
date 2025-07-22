@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSoftware rdf:type airo:AISystem ;
+    rdfs:label "面部识别软件"@zh ;
+    rdfs:label "Facial Recognition Software"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:LGBTQIndividuals ;
+    airo:hasStakeholder ex:TransgenderYouTubers ;
+    airo:usesTechnique ex:BiometricDataAnalysis ;
+    airo:hasVulnerability ex:ExposedDataset .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:UnconsentedDataCollection ;
+    airo:hasConsequence ex:TargetedIdentification .
+
+ex:LGBTQIndividuals rdf:type airo:AISubject ;
+    rdfs:label "LGBTQ+个体"@zh ;
+    rdfs:label "LGBTQ+ Individuals"@en .
+
+ex:TransgenderYouTubers rdf:type airo:Stakeholder ;
+    rdfs:label "跨性别YouTuber"@zh ;
+    rdfs:label "Transgender YouTubers"@en .
+
+ex:UnconsentedDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "未经同意的数据收集"@zh ;
+    rdfs:label "Unconsented Data Collection"@en .
+
+ex:TargetedIdentification rdf:type airo:Consequence ;
+    rdfs:label "针对性识别后果"@zh ;
+    rdfs:label "Targeted Identification Consequence"@en ;
+    airo:hasImpact ex:CommunitySafetyThreat .
+
+ex:CommunitySafetyThreat rdf:type airo:Impact ;
+    rdfs:label "社群安全威胁影响"@zh ;
+    rdfs:label "Community Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TransgenderYouTubers .
+
+ex:BiometricDataAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "生物特征数据分析技术"@zh ;
+    rdfs:label "Biometric Data Analysis Technique"@en .
+
+ex:ExposedDataset rdf:type airo:Vulnerability ;
+    rdfs:label "数据集暴露漏洞"@zh ;
+    rdfs:label "Exposed Dataset Vulnerability"@en .

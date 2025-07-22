@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TransgenderFaceRecognitionSystem",
+      "中文名称": "跨性别者面部识别系统",
+      "英文名称": "Transgender Face Recognition System",
+      "来源": "Robust transgender face recognition: Approach based on appearance and therapy factors"
+    },
+    "Risk": {
+      "id": "GenderRecognitionBiasRisk",
+      "中文名称": "性别识别偏见风险",
+      "英文名称": "Gender Recognition Bias Risk",
+      "来源": "Robust transgender face recognition: Approach based on appearance and therapy factors"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionForTransgenderIndividuals",
+      "中文名称": "跨性别者面部识别能力",
+      "英文名称": "Facial Recognition for Transgender Individuals Capability",
+      "来源": "Robust transgender face recognition: Approach based on appearance and therapy factors"
+    },
+    "AITechnique": {
+      "id": "AppearanceAndTherapyBasedRecognition",
+      "中文名称": "基于外貌和治疗因素的识别技术",
+      "英文名称": "Appearance and Therapy Based Recognition Technique",
+      "来源": "Robust transgender face recognition: Approach based on appearance and therapy factors"
+    },
+    "Impact": {
+      "id": "GenderIdentityMisclassification",
+      "中文名称": "性别身份误分类的影响",
+      "英文名称": "Gender Identity Misclassification Impact",
+      "来源": "Robust transgender face recognition: Approach based on appearance and therapy factors"
+    }
+  }
+}

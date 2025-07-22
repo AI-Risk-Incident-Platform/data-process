@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CreditScoringAI",
+      "中文名称": "信用评分AI系统",
+      "英文名称": "Credit Scoring AI System",
+      "来源": "标题中提到的'credit scores'和'AI'"
+    },
+    "Risk": {
+      "id": "BiasInCreditScoring",
+      "中文名称": "信用评分中的偏见风险",
+      "英文名称": "Bias in Credit Scoring Risk",
+      "来源": "标题'Bias isn't the only problem with credit scores'"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "信用评分属于金融服务领域"
+    },
+    "Stakeholder": {
+      "id": "LoanApplicants",
+      "中文名称": "贷款申请人",
+      "英文名称": "Loan Applicants",
+      "来源": "信用评分系统的主要使用者"
+    }
+  }
+}

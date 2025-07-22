@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GMSelfDrivingCar",
+      "中文名称": "通用汽车自动驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Risk": {
+      "id": "TrafficAccidentRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Stakeholder": {
+      "id": "InjuredMotorcyclist",
+      "中文名称": "受伤摩托车手",
+      "英文名称": "Injured Motorcyclist",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Consequence": {
+      "id": "PersonalInjury",
+      "中文名称": "人身伤害后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Impact": {
+      "id": "PhysicalHarm",
+      "中文名称": "身体伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GMSelfDrivingCar",
+      "中文名称": "通用汽车自动驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Risk": {
+      "id": "TrafficAccidentRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Stakeholder": {
+      "id": "InjuredMotorcyclist",
+      "中文名称": "受伤摩托车手",
+      "英文名称": "Injured Motorcyclist",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Consequence": {
+      "id": "PersonalInjury",
+      "中文名称": "人身伤害后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Impact": {
+      "id": "PhysicalHarm",
+      "中文名称": "身体伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    },
+    "RiskSource": {
+      "id": "AutonomousDrivingSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Motorcyclist hit by self-driving car in S.F. sues General Motors"
+    }
+  }
+}

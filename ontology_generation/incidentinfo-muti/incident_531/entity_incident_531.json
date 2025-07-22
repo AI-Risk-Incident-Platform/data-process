@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MachineLearningInMedicine",
+      "中文名称": "医学中的机器学习",
+      "英文名称": "Machine Learning in Medicine",
+      "来源": "Machine learning is booming in medicine"
+    },
+    "Risk": {
+      "id": "CredibilityCrisisRisk",
+      "中文名称": "可信度危机风险",
+      "英文名称": "Credibility Crisis Risk",
+      "来源": "It's also facing a credibility crisis"
+    },
+    "Domain": {
+      "id": "MedicalDomain",
+      "中文名称": "医疗领域",
+      "英文名称": "Medical Domain",
+      "来源": "Machine learning is booming in medicine"
+    },
+    "RiskSource": {
+      "id": "CommonPitfallsInMedicalML",
+      "中文名称": "医学机器学习中的常见陷阱",
+      "英文名称": "Common Pitfalls in Medical ML",
+      "来源": "Common pitfalls and recommendations for using machine learning to detect and prognosticate for COVID-19"
+    },
+    "Consequence": {
+      "id": "InaccurateDiagnosis",
+      "中文名称": "不准确诊断",
+      "英文名称": "Inaccurate Diagnosis",
+      "来源": "using machine learning to detect and prognosticate for COVID-19 using chest radiographs and CT scans"
+    }
+  }
+}

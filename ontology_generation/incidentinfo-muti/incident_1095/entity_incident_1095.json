@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "UCLA Abandons Plans to Use Facial Recognition After Backlash"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    },
+    "Stakeholder": {
+      "id": "UniversityCommunity",
+      "中文名称": "大学社区",
+      "英文名称": "University Community",
+      "来源": "UCLA Abandons Plans to Use Facial Recognition After Backlash"
+    },
+    "Domain": {
+      "id": "CampusSecurity",
+      "中文名称": "校园安全",
+      "英文名称": "Campus Security",
+      "来源": "Facial Recognition Surveillance on Campus"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Collection",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    }
+  }
+}

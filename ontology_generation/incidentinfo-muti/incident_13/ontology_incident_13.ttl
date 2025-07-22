@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonWarehouseRobot rdf:type airo:AISystem ;
+    rdfs:label "亚马逊仓库机器人"@zh ;
+    rdfs:label "Amazon Warehouse Robot"@en ;
+    airo:hasRisk ex:ChemicalExposureRisk ;
+    airo:hasStakeholder ex:AmazonWorkers ;
+    airo:isAppliedWithinDomain ex:WarehouseAutomation .
+
+ex:ChemicalExposureRisk rdf:type airo:Risk ;
+    rdfs:label "化学物质暴露风险"@zh ;
+    rdfs:label "Chemical Exposure Risk"@en ;
+    airo:hasConsequence ex:WorkerHospitalization ;
+    airo:isRiskSourceFor ex:RobotMalfunction .
+
+ex:WorkerHospitalization rdf:type airo:Consequence ;
+    rdfs:label "工人住院后果"@zh ;
+    rdfs:label "Worker Hospitalization Consequence"@en ;
+    airo:hasImpact ex:HealthAndSafetyThreat .
+
+ex:HealthAndSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "健康安全威胁影响"@zh ;
+    rdfs:label "Health and Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonWorkers .
+
+ex:AmazonWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊员工"@zh ;
+    rdfs:label "Amazon Workers"@en .
+
+ex:RobotMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "机器人故障风险源"@zh ;
+    rdfs:label "Robot Malfunction Risk Source"@en .
+
+ex:WarehouseAutomation rdf:type airo:Domain ;
+    rdfs:label "仓库自动化领域"@zh ;
+    rdfs:label "Warehouse Automation Domain"@en .

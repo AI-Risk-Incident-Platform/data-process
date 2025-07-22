@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleWatchBloodOxygenSensor",
+      "中文名称": "苹果手表血氧传感器",
+      "英文名称": "Apple Watch Blood Oxygen Sensor",
+      "来源": "Apple Hit with Federal Class Action Lawsuit Alleging ‘Racial Bias’ in How Watches Measure Blood Oxygen Levels"
+    },
+    "Risk": {
+      "id": "RacialBiasInHealthMonitoring",
+      "中文名称": "健康监测中的种族偏见风险",
+      "英文名称": "Racial Bias in Health Monitoring Risk",
+      "来源": "Lawsuit alleges Apple Watch's blood oxygen sensor 'racially biased'; accuracy problems reported industry-wide"
+    },
+    "Consequence": {
+      "id": "InaccurateHealthDataForDarkSkinIndividuals",
+      "中文名称": "深色皮肤个体健康数据不准确后果",
+      "英文名称": "Inaccurate Health Data for Dark Skin Individuals Consequence",
+      "来源": "accuracy problems reported industry-wide"
+    },
+    "AICapability": {
+      "id": "BloodOxygenLevelMeasurement",
+      "中文名称": "血氧水平测量能力",
+      "英文名称": "Blood Oxygen Level Measurement Capability",
+      "来源": "How Watches Measure Blood Oxygen Levels"
+    },
+    "AIOperator": {
+      "id": "AppleInc",
+      "中文名称": "苹果公司",
+      "英文名称": "Apple Inc.",
+      "来源": "Apple Hit with Federal Class Action Lawsuit"
+    },
+    "Stakeholder": {
+      "id": "DarkSkinWatchUsers",
+      "中文名称": "深色皮肤手表用户",
+      "英文名称": "Dark Skin Watch Users",
+      "来源": "racial bias in how watches measure blood oxygen levels"
+    },
+    "Impact": {
+      "id": "PotentialHealthRiskForMinorityGroups",
+      "中文名称": "少数群体潜在健康风险影响",
+      "英文名称": "Potential Health Risk for Minority Groups Impact",
+      "来源": "racial bias in how watches measure blood oxygen levels"
+    },
+    "Purpose": {
+      "id": "HealthMonitoring",
+      "中文名称": "健康监测目的",
+      "英文名称": "Health Monitoring Purpose",
+      "来源": "measure blood oxygen levels"
+    },
+    "Domain": {
+      "id": "WearableHealthTechnology",
+      "中文名称": "可穿戴健康技术领域",
+      "英文名称": "Wearable Health Technology Domain",
+      "来源": "Apple Watch's blood oxygen sensor"
+    },
+    "RiskSource": {
+      "id": "OpticalSensorTechnologyLimitations",
+      "中文名称": "光学传感器技术限制风险源",
+      "英文名称": "Optical Sensor Technology Limitations Risk Source",
+      "来源": "accuracy problems reported industry-wide"
+    }
+  }
+}

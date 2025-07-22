@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeDetectionSystem",
+      "中文名称": "深度伪造检测系统",
+      "英文名称": "Deepfake Detection System",
+      "来源": "Taiwan’s deepfake fighters tackle Chinese election interference"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Taiwan’s deepfake fighters tackle Chinese election interference"
+    },
+    "Stakeholder": {
+      "id": "TaiwanGovernment",
+      "中文名称": "台湾政府",
+      "英文名称": "Taiwan Government",
+      "来源": "Taiwan’s deepfake fighters tackle Chinese election interference"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Taiwan’s deepfake fighters tackle Chinese election interference"
+    },
+    "RiskSource": {
+      "id": "ChineseInterference",
+      "中文名称": "中国干预",
+      "英文名称": "Chinese Interference",
+      "来源": "Taiwan’s deepfake fighters tackle Chinese election interference"
+    }
+  }
+}

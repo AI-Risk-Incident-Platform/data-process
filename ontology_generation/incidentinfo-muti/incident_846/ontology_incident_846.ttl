@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GeorgeFloydChatbots rdf:type airo:AISystem ;
+    rdfs:label "George Floyd Chatbots"@en ;
+    rdfs:label "乔治·弗洛伊德聊天机器人"@zh ;
+    airo:hasRisk ex:EthicalMisuseRisk ;
+    airo:hasStakeholder ex:PublicAndCivilRightsGroups .
+
+ex:EthicalMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical Misuse Risk"@en ;
+    rdfs:label "伦理滥用风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfContentOversight ;
+    airo:hasConsequence ex:SensitiveHistoricalEventSimulation .
+
+ex:PublicAndCivilRightsGroups rdf:type airo:Stakeholder ;
+    rdfs:label "Public and Civil Rights Groups"@en ;
+    rdfs:label "公众和民权团体"@zh .
+
+ex:LackOfContentOversight rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Oversight"@en ;
+    rdfs:label "内容监管缺失"@zh .
+
+ex:PublicOutrageAndDistress rdf:type airo:Impact ;
+    rdfs:label "Public Outrage and Distress"@en ;
+    rdfs:label "公众愤怒与困扰"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicAndCivilRightsGroups .
+
+ex:SensitiveHistoricalEventSimulation rdf:type airo:Misuse ;
+    rdfs:label "Sensitive Historical Event Simulation"@en ;
+    rdfs:label "敏感历史事件模拟"@zh ;
+    airo:hasImpact ex:PublicOutrageAndDistress .

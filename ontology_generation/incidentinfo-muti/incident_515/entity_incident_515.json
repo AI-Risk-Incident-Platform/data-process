@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceRecognitionSystem",
+      "中文名称": "人脸识别系统",
+      "英文名称": "Face Recognition System",
+      "来源": "Garbage In, Garbage Out: Face Recognition on Flawed Data"
+    },
+    "Risk": {
+      "id": "FlawedDataRisk",
+      "中文名称": "数据缺陷风险",
+      "英文名称": "Flawed Data Risk",
+      "来源": "Garbage In, Garbage Out: Face Recognition on Flawed Data"
+    },
+    "RiskSource": {
+      "id": "InaccurateTrainingData",
+      "中文名称": "不准确的训练数据",
+      "英文名称": "Inaccurate Training Data",
+      "来源": "Garbage In, Garbage Out: Face Recognition on Flawed Data"
+    },
+    "Consequence": {
+      "id": "IncorrectRecognition",
+      "中文名称": "错误识别",
+      "英文名称": "Incorrect Recognition",
+      "来源": "Garbage In, Garbage Out: Face Recognition on Flawed Data"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "Garbage In, Garbage Out: Face Recognition on Flawed Data"
+    }
+  }
+}

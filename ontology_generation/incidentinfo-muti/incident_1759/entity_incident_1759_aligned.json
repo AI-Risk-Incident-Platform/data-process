@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RoombaVacuumCleaner",
+      "中文名称": "Roomba扫地机器人",
+      "英文名称": "Robot Vacuum",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Robot Vacuum Took Photo of Woman on Toilet That Was Shared on Facebook"
+    },
+    "Consequence": {
+      "id": "IntimatePhotoLeak",
+      "中文名称": "私密照片泄露后果",
+      "英文名称": "Private Photo Leak Consequence",
+      "来源": "A Roomba Recorded a Woman Using the Bathroom, and the Pictures Wound Up on Social Media"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Could That Happen to You?"
+    },
+    "AICapability": {
+      "id": "ImageCaptureAndProcessing",
+      "中文名称": "图像捕捉与处理能力",
+      "英文名称": "Image Capture and Processing Capability",
+      "来源": "Robot Vacuum Took Photo of Woman on Toilet"
+    },
+    "AIOperator": {
+      "id": "RoombaManufacturer",
+      "中文名称": "Roomba制造商",
+      "英文名称": "iRobot",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "the Pictures Wound Up on Social Media"
+    },
+    "AISubject": {
+      "id": "HomeUsers",
+      "中文名称": "家庭用户",
+      "英文名称": "Home Users",
+      "来源": "Could That Happen to You?"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataSharing",
+      "中文名称": "未经授权的数据共享风险源",
+      "英文名称": "Sensitive Data Risk Source",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Vulnerability": {
+      "id": "LackOfPrivacyProtectionMechanism",
+      "中文名称": "隐私保护机制缺失的脆弱性",
+      "英文名称": "Lack of Privacy Protection Mechanism Vulnerability",
+      "来源": "A Roomba Recorded a Woman Using the Bathroom"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RoombaVacuumCleaner",
+      "中文名称": "Roomba扫地机器人",
+      "英文名称": "Robot Vacuum",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Robot Vacuum Took Photo of Woman on Toilet That Was Shared on Facebook"
+    },
+    "Consequence": {
+      "id": "IntimatePhotoLeak",
+      "中文名称": "私密照片泄露后果",
+      "英文名称": "Private Photo Leak Consequence",
+      "来源": "A Roomba Recorded a Woman Using the Bathroom, and the Pictures Wound Up on Social Media"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Could That Happen to You?"
+    },
+    "AICapability": {
+      "id": "ImageCaptureAndProcessing",
+      "中文名称": "图像捕捉与处理能力",
+      "英文名称": "Image Capture and Processing Capability",
+      "来源": "Robot Vacuum Took Photo of Woman on Toilet"
+    },
+    "AIOperator": {
+      "id": "RoombaManufacturer",
+      "中文名称": "Roomba制造商",
+      "英文名称": "iRobot",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "the Pictures Wound Up on Social Media"
+    },
+    "AISubject": {
+      "id": "HomeUsers",
+      "中文名称": "家庭用户",
+      "英文名称": "Home Users",
+      "来源": "Could That Happen to You?"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataSharing",
+      "中文名称": "未经授权的数据共享风险源",
+      "英文名称": "Sensitive Data Risk Source",
+      "来源": "Intimate Photos by Roomba Vacuums Leaked Online"
+    },
+    "Vulnerability": {
+      "id": "LackOfPrivacyProtectionMechanism",
+      "中文名称": "隐私保护机制缺失的脆弱性",
+      "英文名称": "Lack of Privacy Protection Mechanism Vulnerability",
+      "来源": "A Roomba Recorded a Woman Using the Bathroom"
+    }
+  }
+}

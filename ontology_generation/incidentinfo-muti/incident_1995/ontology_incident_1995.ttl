@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleBooksAIAudioNarration rdf:type airo:AISystem ;
+    rdfs:label "Apple Books AI Audio Narration"@en ;
+    rdfs:label "苹果书籍AI音频叙述"@zh ;
+    airo:hasRisk ex:HumanVoiceReplacementRisk ;
+    airo:hasPurpose ex:AudiobookProduction ;
+    airo:isAppliedWithinDomain ex:PublishingIndustry ;
+    airo:hasStakeholder ex:AudiobookIndustry .
+
+ex:HumanVoiceReplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Human Voice Replacement Risk"@en ;
+    rdfs:label "人类声音替代风险"@zh ;
+    airo:hasConsequence ex:IndustryDisruption .
+
+ex:AudiobookIndustry rdf:type airo:Stakeholder ;
+    rdfs:label "Audiobook Industry"@en ;
+    rdfs:label "有声书行业"@zh .
+
+ex:IndustryDisruption rdf:type airo:Impact ;
+    rdfs:label "Industry Disruption"@en ;
+    rdfs:label "行业颠覆"@zh ;
+    airo:hasImpactOnStakeholder ex:AudiobookIndustry .
+
+ex:AudiobookProduction rdf:type airo:Purpose ;
+    rdfs:label "Audiobook Production"@en ;
+    rdfs:label "有声书制作"@zh .
+
+ex:PublishingIndustry rdf:type airo:Domain ;
+    rdfs:label "Publishing Industry"@en ;
+    rdfs:label "出版业"@zh .

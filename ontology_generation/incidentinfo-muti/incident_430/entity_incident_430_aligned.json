@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MassSurveillanceSystem",
+      "中文名称": "大规模监控系统",
+      "英文名称": "Mass Surveillance System",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Chinese province targets journalists, foreign students with planned new surveillance system"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndStudents",
+      "中文名称": "记者和学生",
+      "英文名称": "Journalists and Students",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "AIOperator": {
+      "id": "NeusoftAndHuawei",
+      "中文名称": "东软和华为",
+      "英文名称": "Neusoft and Huawei",
+      "来源": "Punishing Journalists PRC Province's Latest Mass Surveillance Project, Won by Neusoft Powered By Huawei"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "Purpose": {
+      "id": "MonitoringSpecificGroups",
+      "中文名称": "监控特定群体",
+      "英文名称": "Monitoring Specific Groups",
+      "来源": "Chinese province targets journalists, foreign students with planned new surveillance system"
+    },
+    "Impact": {
+      "id": "ChillingEffectOnFreeSpeech",
+      "中文名称": "对言论自由的寒蝉效应",
+      "英文名称": "Free Speech Suppression",
+      "来源": "Punishing Journalists PRC Province's Latest Mass Surveillance Project"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MassSurveillanceSystem",
+      "中文名称": "大规模监控系统",
+      "英文名称": "Mass Surveillance System",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Chinese province targets journalists, foreign students with planned new surveillance system"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndStudents",
+      "中文名称": "记者和学生",
+      "英文名称": "Journalists and Students",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "AIOperator": {
+      "id": "NeusoftAndHuawei",
+      "中文名称": "东软和华为",
+      "英文名称": "Neusoft and Huawei",
+      "来源": "Punishing Journalists PRC Province's Latest Mass Surveillance Project, Won by Neusoft Powered By Huawei"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Chinese province targets journalists and students in planned surveillance system"
+    },
+    "Purpose": {
+      "id": "MonitoringSpecificGroups",
+      "中文名称": "监控特定群体",
+      "英文名称": "Monitoring Specific Groups",
+      "来源": "Chinese province targets journalists, foreign students with planned new surveillance system"
+    },
+    "Impact": {
+      "id": "ChillingEffectOnFreeSpeech",
+      "中文名称": "对言论自由的寒蝉效应",
+      "英文名称": "Free Speech Suppression",
+      "来源": "Punishing Journalists PRC Province's Latest Mass Surveillance Project"
+    }
+  }
+}

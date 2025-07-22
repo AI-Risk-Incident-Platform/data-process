@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeNewsSystem",
+      "中文名称": "深度伪造新闻系统",
+      "英文名称": "Deepfake News System",
+      "来源": "Iranian Hackers Interrupt UAE Broadcasts With Deepfake News"
+    },
+    "Risk": {
+      "id": "BroadcastInterruptionRisk",
+      "中文名称": "广播中断风险",
+      "英文名称": "Broadcast Interruption Risk",
+      "来源": "Iran-backed hackers interrupt UAE TV streaming services with deepfake news"
+    },
+    "Stakeholder": {
+      "id": "IranianHackers",
+      "中文名称": "伊朗黑客",
+      "英文名称": "Iranian Hackers",
+      "来源": "Iran-backed hackers interrupt UAE, UK and Canadian programming with fake AI news broadcast"
+    },
+    "AISubject": {
+      "id": "UAEUKCanadianViewers",
+      "中文名称": "阿联酋英国加拿大观众",
+      "英文名称": "UAE UK Canadian Viewers",
+      "来源": "Iran-backed hackers interrupt UAE, UK and Canadian programming with fake AI news broadcast"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Iranian Hackers Interrupt UAE Broadcasts With Deepfake News"
+    },
+    "Impact": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误信假新闻的影响",
+      "英文名称": "Public Misinformation Impact",
+      "来源": "Iran-backed hackers interrupt UAE TV streaming services with deepfake news"
+    },
+    "Consequence": {
+      "id": "BroadcastServiceDisruption",
+      "中文名称": "广播服务中断的后果",
+      "英文名称": "Broadcast Service Disruption Consequence",
+      "来源": "Iran-backed hackers interrupt UAE TV streaming services with deepfake news"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "Iran-backed hackers interrupt UAE TV streaming services with deepfake news"
+    }
+  }
+}

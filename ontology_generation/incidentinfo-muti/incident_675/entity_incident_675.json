@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeRecordingTool",
+      "中文名称": "深度伪造录音工具",
+      "英文名称": "Deepfake Recording Tool",
+      "来源": "根据新闻标题'Baltimore high school athletic director used AI to create fake racist recording of principal'"
+    },
+    "Risk": {
+      "id": "ReputationDamageRisk",
+      "中文名称": "声誉损害风险",
+      "英文名称": "Reputation Damage Risk",
+      "来源": "根据新闻标题'School Employee Arrested After Racist Deepfake Recording of Principal Spreads'"
+    },
+    "Stakeholder": {
+      "id": "HighSchoolPrincipal",
+      "中文名称": "高中校长",
+      "英文名称": "High School Principal",
+      "来源": "根据新闻标题'Baltimore principal's racist rant was an AI fake'"
+    },
+    "AIOperator": {
+      "id": "AthleticDirector",
+      "中文名称": "体育主任",
+      "英文名称": "Athletic Director",
+      "来源": "根据新闻标题'Baltimore high school athletic director used AI to create fake racist recording of principal'"
+    },
+    "Consequence": {
+      "id": "FalseAccusationConsequence",
+      "中文名称": "虚假指控后果",
+      "英文名称": "False Accusation Consequence",
+      "来源": "根据新闻标题'Baltimore principal's racist rant was an AI fake'"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "职业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "根据新闻标题'School Employee Arrested After Racist Deepfake Recording of Principal Spreads'"
+    },
+    "Misuse": {
+      "id": "MaliciousDeepfakeCreation",
+      "中文名称": "恶意深度伪造滥用",
+      "英文名称": "Malicious Deepfake Creation Misuse",
+      "来源": "根据新闻标题'Baltimore high school athletic director used AI to create fake racist recording of principal'"
+    }
+  }
+}

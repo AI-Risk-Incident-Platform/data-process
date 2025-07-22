@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChildPornographyCreationTool rdf:type airo:AISystem ;
+    rdfs:label "AI Child Pornography Creation Tool"@en ;
+    rdfs:label "AI儿童色情内容生成工具"@zh ;
+    airo:hasRisk ex:ChildSexualExploitationRisk ;
+    airo:hasPurpose ex:IllegalContentCreation ;
+    airo:isAppliedWithinDomain ex:HealthcareAndLegal ;
+    airo:usesTechnique ex:ImageGenerationAI ;
+    airo:hasStakeholder ex:AtriumHealth ;
+    airo:isDeployedBy ex:CharlotteChildPsychiatrist .
+
+ex:ChildSexualExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Sexual Exploitation Risk"@en ;
+    rdfs:label "儿童性剥削风险"@zh ;
+    airo:hasConsequence ex:LegalPunishmentForChildPornography ;
+    airo:isRiskSourceFor ex:MisuseOfAITechnology .
+
+ex:LegalPunishmentForChildPornography rdf:type airo:Consequence ;
+    rdfs:label "Legal Punishment for Child Pornography Consequence"@en ;
+    rdfs:label "儿童色情法律惩罚后果"@zh ;
+    airo:hasImpact ex:HarmToMinors .
+
+ex:CharlotteChildPsychiatrist rdf:type airo:AIOperator ;
+    rdfs:label "Charlotte Child Psychiatrist"@en ;
+    rdfs:label "夏洛特儿童精神病医生"@zh .
+
+ex:AtriumHealth rdf:type airo:Stakeholder ;
+    rdfs:label "Atrium Health"@en ;
+    rdfs:label "Atrium健康机构"@zh .
+
+ex:HarmToMinors rdf:type airo:Impact ;
+    rdfs:label "Harm to Minors Impact"@en ;
+    rdfs:label "对未成年人的伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AtriumHealth .
+
+ex:IllegalContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Illegal Content Creation Purpose"@en ;
+    rdfs:label "非法内容创作目的"@zh .
+
+ex:HealthcareAndLegal rdf:type airo:Domain ;
+    rdfs:label "Healthcare and Legal Domain"@en ;
+    rdfs:label "医疗保健与法律领域"@zh .
+
+ex:ImageGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Image Generation AI Technique"@en ;
+    rdfs:label "图像生成AI技术"@zh .
+
+ex:MisuseOfAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of AI Technology Risk Source"@en ;
+    rdfs:label "AI技术滥用风险源"@zh .

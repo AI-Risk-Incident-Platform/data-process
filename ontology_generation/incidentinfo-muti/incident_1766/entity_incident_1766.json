@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Alexa Suggests Dangerous 'Outlet Challenge' to 10-Year-Old"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "身体伤害风险",
+      "英文名称": "Physical Harm Risk",
+      "来源": "Amazon's Alexa reportedly suggested 10-year-old stick a penny near an outlet"
+    },
+    "Consequence": {
+      "id": "PotentialElectricShock",
+      "中文名称": "潜在触电后果",
+      "英文名称": "Potential Electric Shock Consequence",
+      "来源": "suggested 10-year-old stick a penny near an outlet"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child User",
+      "来源": "10-year-old"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's Alexa"
+    },
+    "RiskSource": {
+      "id": "InappropriateResponseGeneration",
+      "中文名称": "不当回应生成",
+      "英文名称": "Inappropriate Response Generation Risk Source",
+      "来源": "Alexa Suggests Dangerous 'Outlet Challenge'"
+    },
+    "Impact": {
+      "id": "ChildSafetyThreat",
+      "中文名称": "儿童安全威胁",
+      "英文名称": "Child Safety Threat Impact",
+      "来源": "suggested 10-year-old stick a penny near an outlet"
+    },
+    "Purpose": {
+      "id": "VoiceAssistantService",
+      "中文名称": "语音助手服务",
+      "英文名称": "Voice Assistant Service Purpose",
+      "来源": "Amazon's Alexa"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居",
+      "英文名称": "Smart Home Domain",
+      "来源": "Amazon's Alexa"
+    }
+  }
+}

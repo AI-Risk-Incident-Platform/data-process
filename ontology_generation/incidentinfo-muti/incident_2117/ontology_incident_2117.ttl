@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PoliticalDeceptionRisk ;
+    airo:hasStakeholder ex:EuropeanPoliticians ;
+    airo:hasRiskSource ex:PrankstersUsingLookAlikes .
+
+ex:PoliticalDeceptionRisk rdf:type airo:Risk ;
+    rdfs:label "Political Deception Risk"@en ;
+    rdfs:label "政治欺骗风险"@zh ;
+    airo:hasConsequence ex:DecisionMakingInfluence ;
+    airo:isRiskSourceFor ex:PrankstersUsingLookAlikes .
+
+ex:EuropeanPoliticians rdf:type airo:Stakeholder ;
+    rdfs:label "European Politicians"@en ;
+    rdfs:label "欧洲政客"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalDeceptionRisk .
+
+ex:PrankstersUsingLookAlikes rdf:type airo:Misuse ;
+    rdfs:label "Pranksters Using Look-Alikes"@en ;
+    rdfs:label "恶作剧者使用相似者"@zh ;
+    airo:isRiskSourceFor ex:PoliticalDeceptionRisk .
+
+ex:DecisionMakingInfluence rdf:type airo:Consequence ;
+    rdfs:label "Decision Making Influence"@en ;
+    rdfs:label "决策影响"@zh ;
+    airo:hasImpact ex:ReputationDamage ;
+    airo:hasImpactOnStakeholder ex:EuropeanPoliticians .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage"@en ;
+    rdfs:label "声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:EuropeanPoliticians .

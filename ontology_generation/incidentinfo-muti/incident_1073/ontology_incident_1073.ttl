@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FakeAIVideoGenerationPlatforms rdf:type airo:AISystem ;
+    rdfs:label "虚假AI视频生成平台"@zh ;
+    rdfs:label "Fake AI Video Generation Platforms"@en ;
+    airo:hasRisk ex:MalwareDistributionRisk ;
+    airo:hasStakeholder ex:Attackers .
+
+ex:MalwareDistributionRisk rdf:type airo:Risk ;
+    rdfs:label "恶意软件传播风险"@zh ;
+    rdfs:label "Malware Distribution Risk"@en ;
+    airo:isRiskSourceFor ex:NoodlophileMalware ;
+    airo:hasConsequence ex:SystemCompromise .
+
+ex:NoodlophileMalware rdf:type airo:RiskSource ;
+    rdfs:label "Noodlophile恶意软件"@zh ;
+    rdfs:label "Noodlophile Malware"@en .
+
+ex:Attackers rdf:type airo:Stakeholder ;
+    rdfs:label "攻击者"@zh ;
+    rdfs:label "Attackers"@en .
+
+ex:SystemCompromise rdf:type airo:Consequence ;
+    rdfs:label "系统被入侵后果"@zh ;
+    rdfs:label "System Compromise Consequence"@en ;
+    airo:hasImpact ex:DataTheftImpact .
+
+ex:DataTheftImpact rdf:type airo:Impact ;
+    rdfs:label "数据被盗影响"@zh ;
+    rdfs:label "Data Theft Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Attackers .

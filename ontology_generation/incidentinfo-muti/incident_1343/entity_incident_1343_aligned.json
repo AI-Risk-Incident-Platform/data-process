@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "Risk": {
+      "id": "IllegalUseOfFacialRecognition",
+      "中文名称": "非法使用面部识别风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "Stakeholder": {
+      "id": "FrenchPolice",
+      "中文名称": "法国警方",
+      "英文名称": "French Police",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "AIOperator": {
+      "id": "FrenchPoliceDepartment",
+      "中文名称": "法国警察部门",
+      "英文名称": "French Police Department",
+      "来源": "French police may have been unlawfully using facial recognition since 2015"
+    },
+    "RiskSource": {
+      "id": "UnlawfulUseSince2015",
+      "中文名称": "自2015年以来的非法使用风险源",
+      "英文名称": "Unlawful Use Since 2015 Risk Source",
+      "来源": "French police may have been unlawfully using facial recognition since 2015"
+    },
+    "Consequence": {
+      "id": "LegalActionByPoliticians",
+      "中文名称": "政界人士采取法律行动的后果",
+      "英文名称": "Legal Action by Politicians Consequence",
+      "来源": "French politicians vow legal action on alleged illegal facial recognition use by police"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "French police accused of using facial recognition software illegally"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "Risk": {
+      "id": "IllegalUseOfFacialRecognition",
+      "中文名称": "非法使用面部识别风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "Stakeholder": {
+      "id": "FrenchPolice",
+      "中文名称": "法国警方",
+      "英文名称": "French Police",
+      "来源": "French police accused of using facial recognition software illegally"
+    },
+    "AIOperator": {
+      "id": "FrenchPoliceDepartment",
+      "中文名称": "法国警察部门",
+      "英文名称": "French Police Department",
+      "来源": "French police may have been unlawfully using facial recognition since 2015"
+    },
+    "RiskSource": {
+      "id": "UnlawfulUseSince2015",
+      "中文名称": "自2015年以来的非法使用风险源",
+      "英文名称": "Unlawful Use Since 2015 Risk Source",
+      "来源": "French police may have been unlawfully using facial recognition since 2015"
+    },
+    "Consequence": {
+      "id": "LegalActionByPoliticians",
+      "中文名称": "政界人士采取法律行动的后果",
+      "英文名称": "Legal Action by Politicians Consequence",
+      "来源": "French politicians vow legal action on alleged illegal facial recognition use by police"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "French police accused of using facial recognition software illegally"
+    }
+  }
+}

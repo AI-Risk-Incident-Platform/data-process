@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIDrivenCrimeSystem",
+      "中文名称": "AI驱动的犯罪系统",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Europol warns of AI-driven crime threats"
+    },
+    "Risk": {
+      "id": "OrganizedCrimeThreat",
+      "中文名称": "有组织犯罪威胁",
+      "英文名称": "Organized Crime Threat",
+      "来源": "The DNA of organised crime is changing – and so is the threat to Europe"
+    },
+    "Stakeholder": {
+      "id": "Europol",
+      "中文名称": "欧洲刑警组织",
+      "英文名称": "Europol",
+      "来源": "Europol warns of AI-driven crime threats"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement",
+      "来源": "The DNA of organised crime is changing – and so is the threat to Europe | Europol"
+    },
+    "Impact": {
+      "id": "HybridWarfare",
+      "中文名称": "混合战争影响",
+      "英文名称": "Hybrid Warfare Impact",
+      "来源": "How transnational mafiosi became the new generals of hybrid warfare"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIDrivenCrimeSystem",
+      "中文名称": "AI驱动的犯罪系统",
+      "英文名称": "AI Predictive Policing Tool",
+      "来源": "Europol warns of AI-driven crime threats"
+    },
+    "Risk": {
+      "id": "OrganizedCrimeThreat",
+      "中文名称": "有组织犯罪威胁",
+      "英文名称": "Organized Crime Threat",
+      "来源": "The DNA of organised crime is changing – and so is the threat to Europe"
+    },
+    "Stakeholder": {
+      "id": "Europol",
+      "中文名称": "欧洲刑警组织",
+      "英文名称": "Europol",
+      "来源": "Europol warns of AI-driven crime threats"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement",
+      "来源": "The DNA of organised crime is changing – and so is the threat to Europe | Europol"
+    },
+    "Impact": {
+      "id": "HybridWarfare",
+      "中文名称": "混合战争影响",
+      "英文名称": "Hybrid Warfare Impact",
+      "来源": "How transnational mafiosi became the new generals of hybrid warfare"
+    }
+  }
+}

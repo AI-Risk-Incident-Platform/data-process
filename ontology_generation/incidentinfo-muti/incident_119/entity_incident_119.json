@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAI",
+      "中文名称": "Facebook人工智能系统",
+      "英文名称": "Facebook AI System",
+      "来源": "Facebook AI mislabels video of Black men as 'primates'"
+    },
+    "Risk": {
+      "id": "RacialBiasInAILabeling",
+      "中文名称": "AI标签中的种族偏见风险",
+      "英文名称": "Racial Bias in AI Labeling Risk",
+      "来源": "Facebook Apologizes After A.I. Puts 'Primates' Label on Video of Black Men"
+    },
+    "Consequence": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视后果",
+      "英文名称": "Racial Discrimination Consequence",
+      "来源": "Facebook sorry after labelling black men 'primates' in video"
+    },
+    "Impact": {
+      "id": "HarmToBlackCommunity",
+      "中文名称": "对黑人社区的伤害影响",
+      "英文名称": "Harm to Black Community Impact",
+      "来源": "Facebook Apologizes After A.I. Puts 'Primates' Label on Video of Black Men"
+    },
+    "Stakeholder": {
+      "id": "BlackMenInVideo",
+      "中文名称": "视频中的黑人男性",
+      "英文名称": "Black Men in Video",
+      "来源": "Facebook AI mislabels video of Black men as 'primates'"
+    },
+    "AIOperator": {
+      "id": "FacebookCompany",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Company",
+      "来源": "Facebook Apologizes After A.I. Puts 'Primates' Label on Video of Black Men"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Facebook AI mislabels video of Black men as 'primates'"
+    }
+  }
+}

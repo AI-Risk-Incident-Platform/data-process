@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleChildExploitationFilter rdf:type airo:AISystem ;
+    rdfs:label "Google Child Exploitation Filter"@en ;
+    rdfs:label "谷歌儿童剥削过滤器"@zh ;
+    airo:hasRisk ex:FalsePositiveIdentificationRisk ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasStakeholder ex:Parents ;
+    airo:hasPurpose ex:ChildSafetyProtection ;
+    airo:isAppliedWithinDomain ex:OnlineContentModeration ;
+    airo:usesTechnique ex:ImageRecognitionAlgorithm .
+
+ex:FalsePositiveIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "False Positive Identification Risk"@en ;
+    rdfs:label "误报识别风险"@zh ;
+    airo:hasConsequence ex:AccountBlocking ;
+    airo:isRiskSourceFor ex:OverlySensitiveFilter .
+
+ex:AccountBlocking rdf:type airo:Consequence ;
+    rdfs:label "Account Blocking Consequence"@en ;
+    rdfs:label "账户封锁后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Parents .
+
+ex:Parents rdf:type airo:Stakeholder ;
+    rdfs:label "Parents"@en ;
+    rdfs:label "父母"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:OverlySensitiveFilter rdf:type airo:RiskSource ;
+    rdfs:label "Overly Sensitive Filter Risk Source"@en ;
+    rdfs:label "过度敏感过滤器风险源"@zh .
+
+ex:ChildSafetyProtection rdf:type airo:Purpose ;
+    rdfs:label "Child Safety Protection Purpose"@en ;
+    rdfs:label "儿童安全保护目的"@zh .
+
+ex:OnlineContentModeration rdf:type airo:Domain ;
+    rdfs:label "Online Content Moderation Domain"@en ;
+    rdfs:label "在线内容审核领域"@zh .
+
+ex:ImageRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Image Recognition Algorithm Technique"@en ;
+    rdfs:label "图像识别算法技术"@zh .

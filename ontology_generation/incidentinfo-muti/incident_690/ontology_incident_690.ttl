@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ISISAIAnchors rdf:type airo:AISystem ;
+    rdfs:label "ISIS AI新闻主播"@zh ;
+    rdfs:label "ISIS AI Anchors"@en ;
+    airo:hasRisk ex:PropagandaDisseminationRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PropagandaDissemination ;
+    airo:isAppliedWithinDomain ex:MediaPropaganda ;
+    airo:hasStakeholder ex:ISISOrganization .
+
+ex:PropagandaDisseminationRisk rdf:type airo:Risk ;
+    rdfs:label "宣传传播风险"@zh ;
+    rdfs:label "Propaganda Dissemination Risk"@en ;
+    airo:hasConsequence ex:IncreasedTerroristRecruitment .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en .
+
+ex:PropagandaDissemination rdf:type airo:Purpose ;
+    rdfs:label "宣传传播"@zh ;
+    rdfs:label "Propaganda Dissemination"@en .
+
+ex:MediaPropaganda rdf:type airo:Domain ;
+    rdfs:label "媒体宣传"@zh ;
+    rdfs:label "Media Propaganda"@en .
+
+ex:ISISOrganization rdf:type airo:Stakeholder ;
+    rdfs:label "ISIS组织"@zh ;
+    rdfs:label "ISIS Organization"@en .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "舆论操纵"@zh ;
+    rdfs:label "Public Opinion Manipulation"@en .
+
+ex:IncreasedTerroristRecruitment rdf:type airo:Consequence ;
+    rdfs:label "恐怖分子招募增加"@zh ;
+    rdfs:label "Increased Terrorist Recruitment"@en ;
+    airo:hasImpact ex:PublicOpinionManipulation .

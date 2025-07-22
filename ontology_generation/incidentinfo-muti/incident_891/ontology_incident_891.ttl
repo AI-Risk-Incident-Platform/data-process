@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:WrongfulArrestRisk ;
+    airo:hasStakeholder ex:PoliceDepartment ;
+    airo:hasAISubject ex:ArrestedIndividuals .
+
+ex:WrongfulArrestRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:CivilRightsViolation ;
+    airo:isRiskSourceFor ex:InadequateStandardsForAIUse .
+
+ex:PoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Police Department"@en ;
+    rdfs:label "警察部门"@zh .
+
+ex:ArrestedIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Arrested Individuals"@en ;
+    rdfs:label "被逮捕个人"@zh .
+
+ex:CivilRightsViolation rdf:type airo:Consequence ;
+    rdfs:label "Civil Rights Violation Consequence"@en ;
+    rdfs:label "公民权利侵犯后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:InadequateStandardsForAIUse rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Standards for AI Use Risk Source"@en ;
+    rdfs:label "AI使用标准不足风险源"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartment ;
+    airo:hasImpactOnStakeholder ex:ArrestedIndividuals .

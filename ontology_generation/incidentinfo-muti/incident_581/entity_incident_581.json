@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialImageSearchEngine",
+      "中文名称": "面部图像搜索引擎",
+      "英文名称": "Facial Image Search Engine",
+      "来源": "Illinois residents allege facial image search engine violates BIPA"
+    },
+    "Risk": {
+      "id": "BIPAViolationRisk",
+      "中文名称": "BIPA违规风险",
+      "英文名称": "BIPA Violation Risk",
+      "来源": "Illinois residents allege facial image search engine violates BIPA"
+    },
+    "Stakeholder": {
+      "id": "IllinoisResidents",
+      "中文名称": "伊利诺伊州居民",
+      "英文名称": "Illinois Residents",
+      "来源": "Illinois residents allege facial image search engine violates BIPA"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Illinois residents allege facial image search engine violates BIPA"
+    },
+    "Domain": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集领域",
+      "英文名称": "Biometric Data Collection Domain",
+      "来源": "Illinois residents allege facial image search engine violates BIPA"
+    }
+  }
+}

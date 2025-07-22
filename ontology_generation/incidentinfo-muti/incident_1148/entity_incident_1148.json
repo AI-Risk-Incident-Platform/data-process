@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "标题中多次提到Alexa系统异常行为"
+    },
+    "Risk": {
+      "id": "UnintendedActivationRisk",
+      "中文名称": "意外激活风险",
+      "英文名称": "Unintended Activation Risk",
+      "来源": "Alexa在凌晨2点自动开启派对音乐并惊动警方"
+    },
+    "Consequence": {
+      "id": "PoliceIntervention",
+      "中文名称": "警方干预后果",
+      "英文名称": "Police Intervention Consequence",
+      "来源": "警察被叫到空无一人的公寓处理Alexa制造的噪音"
+    },
+    "AICapability": {
+      "id": "VoiceActivatedMusicPlayback",
+      "中文名称": "语音激活音乐播放能力",
+      "英文名称": "Voice Activated Music Playback Capability",
+      "来源": "Alexa系统具备语音控制播放音乐的功能"
+    },
+    "Stakeholder": {
+      "id": "NeighborhoodResidents",
+      "中文名称": "社区居民",
+      "英文名称": "Neighborhood Residents",
+      "来源": "Alexa的噪音扰乱了整个社区的安宁"
+    },
+    "Impact": {
+      "id": "PublicDisturbance",
+      "中文名称": "公共干扰影响",
+      "英文名称": "Public Disturbance Impact",
+      "来源": "Alexa制造的噪音导致社区公共秩序受到干扰"
+    },
+    "RiskSource": {
+      "id": "SystemMalfunction",
+      "中文名称": "系统故障风险源",
+      "英文名称": "System Malfunction Risk Source",
+      "来源": "Alexa系统出现异常自动激活行为"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊公司",
+      "英文名称": "Amazon",
+      "来源": "Alexa由亚马逊公司开发和运营"
+    }
+  }
+}

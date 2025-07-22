@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT3Bot",
+      "中文名称": "GPT-3机器人",
+      "英文名称": "GPT-3 Bot",
+      "来源": "Twitter pranksters derail GPT-3 bot with newly discovered \"prompt injection\" hack"
+    },
+    "Risk": {
+      "id": "PromptInjectionAttackRisk",
+      "中文名称": "提示注入攻击风险",
+      "英文名称": "Prompt Injection Attack Risk",
+      "来源": "Prompt injection attacks against GPT-3"
+    },
+    "AITechnique": {
+      "id": "PreTrainedLanguageModel",
+      "中文名称": "预训练语言模型",
+      "英文名称": "Pre-Trained Language Model",
+      "来源": "Evaluating the Susceptibility of Pre-Trained Language Models via Handcrafted Adversarial Examples"
+    },
+    "RiskSource": {
+      "id": "HandcraftedAdversarialExamples",
+      "中文名称": "手工制作的对抗性示例",
+      "英文名称": "Handcrafted Adversarial Examples",
+      "来源": "Evaluating the Susceptibility of Pre-Trained Language Models via Handcrafted Adversarial Examples"
+    },
+    "Stakeholder": {
+      "id": "TwitterPranksters",
+      "中文名称": "Twitter恶作剧者",
+      "英文名称": "Twitter Pranksters",
+      "来源": "Twitter pranksters derail GPT-3 bot with newly discovered \"prompt injection\" hack"
+    },
+    "Consequence": {
+      "id": "SystemDerailment",
+      "中文名称": "系统失控",
+      "英文名称": "System Derailment",
+      "来源": "Twitter pranksters derail GPT-3 bot with newly discovered \"prompt injection\" hack"
+    },
+    "Vulnerability": {
+      "id": "PromptInjectionVulnerability",
+      "中文名称": "提示注入漏洞",
+      "英文名称": "Prompt Injection Vulnerability",
+      "来源": "Prompt injection attacks against GPT-3"
+    }
+  }
+}

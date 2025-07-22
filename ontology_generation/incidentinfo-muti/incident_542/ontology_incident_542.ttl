@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIgeneratedImagesInPoliticalAds rdf:type airo:AISystem ;
+    rdfs:label "AI-Generated Images in Political Ads"@en ;
+    rdfs:label "政治广告中的AI生成图像"@zh ;
+    airo:hasRisk ex:MisinformationInPoliticalCampaigns ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:PoliticalCampaignAdvertising ;
+    airo:hasStakeholder ex:PoliticalCandidates ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigns .
+
+ex:MisinformationInPoliticalCampaigns rdf:type airo:Risk ;
+    rdfs:label "Misinformation in Political Campaigns Risk"@en ;
+    rdfs:label "政治竞选中的虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:AIgeneratedFakeImages ;
+    airo:hasResidualRisk ex:PoliticalManipulation .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:ErosionOfPublicTrust .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Image Generation Technique"@en ;
+    rdfs:label "深度伪造图像生成技术"@zh .
+
+ex:PoliticalCandidates rdf:type airo:Stakeholder ;
+    rdfs:label "Political Candidates"@en ;
+    rdfs:label "政治候选人"@zh .
+
+ex:PoliticalCampaignAdvertising rdf:type airo:Purpose ;
+    rdfs:label "Political Campaign Advertising Purpose"@en ;
+    rdfs:label "政治竞选广告目的"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Domain ;
+    rdfs:label "Political Campaigns Domain"@en ;
+    rdfs:label "政治竞选领域"@zh .
+
+ex:ErosionOfPublicTrust rdf:type airo:Impact ;
+    rdfs:label "Erosion of Public Trust Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalCandidates .
+
+ex:AIgeneratedFakeImages rdf:type airo:RiskSource ;
+    rdfs:label "AI-Generated Fake Images Risk Source"@en ;
+    rdfs:label "AI生成的虚假图像风险源"@zh .
+
+ex:PoliticalManipulation rdf:type airo:Misuse ;
+    rdfs:label "Political Manipulation Misuse"@en ;
+    rdfs:label "政治操纵滥用"@zh .

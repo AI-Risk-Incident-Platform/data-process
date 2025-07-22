@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedVoiceSystem",
+      "中文名称": "AI生成语音系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "How I Broke Into a Bank Account With an AI-Generated Voice"
+    },
+    "Risk": {
+      "id": "BankAccountSecurityRisk",
+      "中文名称": "银行账户安全风险",
+      "英文名称": "Account Security Risk",
+      "来源": "How I Broke Into a Bank Account With an AI-Generated Voice"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "AI-Generated Voice"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccountAccess",
+      "中文名称": "未经授权的账户访问",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Broke Into a Bank Account"
+    },
+    "Impact": {
+      "id": "FinancialSecurityThreat",
+      "中文名称": "金融安全威胁",
+      "英文名称": "Financial Security Threat",
+      "来源": "Broke Into a Bank Account"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedVoiceSystem",
+      "中文名称": "AI生成语音系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "How I Broke Into a Bank Account With an AI-Generated Voice"
+    },
+    "Risk": {
+      "id": "BankAccountSecurityRisk",
+      "中文名称": "银行账户安全风险",
+      "英文名称": "Account Security Risk",
+      "来源": "How I Broke Into a Bank Account With an AI-Generated Voice"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "AI-Generated Voice"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccountAccess",
+      "中文名称": "未经授权的账户访问",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Broke Into a Bank Account"
+    },
+    "Impact": {
+      "id": "FinancialSecurityThreat",
+      "中文名称": "金融安全威胁",
+      "英文名称": "Financial Security Threat",
+      "来源": "Broke Into a Bank Account"
+    }
+  }
+}

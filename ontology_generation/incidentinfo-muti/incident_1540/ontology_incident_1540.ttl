@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleBardChatbot rdf:type airo:AISystem ;
+    rdfs:label "Google Bard Chatbot"@en ;
+    rdfs:label "谷歌Bard聊天机器人"@zh ;
+    airo:hasRisk ex:FactualErrorRisk ;
+    airo:hasAICapability ex:ConversationalResponseGeneration ;
+    airo:isDevelopedBy ex:AlphabetInc ;
+    airo:hasPurpose ex:ChatGPTCompetitor ;
+    airo:hasStakeholder ex:Investors ;
+    airo:isAppliedWithinDomain ex:ConversationalAI ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:FactCheckingDeficiency .
+
+ex:FactualErrorRisk rdf:type airo:Risk ;
+    rdfs:label "Factual Error Risk"@en ;
+    rdfs:label "事实错误风险"@zh ;
+    airo:hasConsequence ex:MarketValueDecline ;
+    airo:isRiskSourceFor ex:PrematureProductLaunch ;
+    airo:isRiskSourceFor ex:PublicDemoFailure ;
+    airo:isRiskSourceFor ex:InaccurateTrainingData .
+
+ex:MarketValueDecline rdf:type airo:Consequence ;
+    rdfs:label "Market Value Decline Consequence"@en ;
+    rdfs:label "市值下跌后果"@zh ;
+    airo:hasImpact ex:InvestorConfidenceErosion .
+
+ex:ConversationalResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Conversational Response Generation Capability"@en ;
+    rdfs:label "对话响应生成能力"@zh .
+
+ex:AlphabetInc rdf:type airo:AIOperator ;
+    rdfs:label "Alphabet Inc."@en ;
+    rdfs:label "Alphabet公司"@zh .
+
+ex:Investors rdf:type airo:Stakeholder ;
+    rdfs:label "Investors"@en ;
+    rdfs:label "投资者"@zh .
+
+ex:InvestorConfidenceErosion rdf:type airo:Impact ;
+    rdfs:label "Investor Confidence Erosion Impact"@en ;
+    rdfs:label "投资者信心受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Investors .
+
+ex:ChatGPTCompetitor rdf:type airo:Purpose ;
+    rdfs:label "ChatGPT Competitor Purpose"@en ;
+    rdfs:label "ChatGPT竞争对手的目的"@zh .
+
+ex:ConversationalAI rdf:type airo:Domain ;
+    rdfs:label "Conversational AI Domain"@en ;
+    rdfs:label "对话式AI领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大语言模型技术"@zh .
+
+ex:FactCheckingDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Fact Checking Deficiency Vulnerability"@en ;
+    rdfs:label "事实核查不足的脆弱性"@zh .
+
+ex:PrematureProductLaunch rdf:type airo:RiskSource ;
+    rdfs:label "Premature Product Launch Risk Source"@en ;
+    rdfs:label "产品过早发布的风险源"@zh .
+
+ex:PublicDemoFailure rdf:type airo:Threat ;
+    rdfs:label "Public Demo Failure Threat"@en ;
+    rdfs:label "公开演示失败的威胁"@zh .
+
+ex:InaccurateTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Inaccurate Training Data Hazard"@en ;
+    rdfs:label "不准确训练数据的危害"@zh .
+
+ex:AIAccuracyChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "AI Accuracy Challenges Risk Concept"@en ;
+    rdfs:label "AI准确性挑战"@zh .

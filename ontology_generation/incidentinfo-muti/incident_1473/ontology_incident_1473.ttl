@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WorldcoinSystem rdf:type airo:AISystem ;
+    rdfs:label "Worldcoin系统"@zh ;
+    rdfs:label "Worldcoin System"@en ;
+    airo:hasRisk ex:DataPrivacyRisk ;
+    airo:hasStakeholder ex:ArgentinaAAIP ;
+    airo:isDeployedBy ex:WorldcoinFoundation .
+
+ex:DataPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "数据隐私风险"@zh ;
+    rdfs:label "Data Privacy Risk"@en ;
+    airo:isRiskSourceFor ex:PersonalDataHandling ;
+    airo:hasImpact ex:RegulatoryScrutiny .
+
+ex:ArgentinaAAIP rdf:type airo:Stakeholder ;
+    rdfs:label "阿根廷数据保护局"@zh ;
+    rdfs:label "Argentina AAIP"@en .
+
+ex:WorldcoinFoundation rdf:type airo:AIOperator ;
+    rdfs:label "Worldcoin基金会"@zh ;
+    rdfs:label "Worldcoin Foundation"@en .
+
+ex:PersonalDataHandling rdf:type airo:RiskSource ;
+    rdfs:label "个人数据处理"@zh ;
+    rdfs:label "Personal Data Handling"@en .
+
+ex:RegulatoryScrutiny rdf:type airo:Impact ;
+    rdfs:label "监管审查"@zh ;
+    rdfs:label "Regulatory Scrutiny"@en ;
+    airo:hasImpactOnStakeholder ex:ArgentinaAAIP .

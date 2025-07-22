@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:AcademicIntegrityRisk ;
+    airo:hasPurpose ex:EssayWritingAndPromptAnswering ;
+    airo:hasStakeholder ex:NewYorkCityPublicSchools .
+
+ex:AcademicIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Academic Integrity Risk"@en ;
+    rdfs:label "学术诚信风险"@zh ;
+    airo:hasConsequence ex:PotentialCheatingInAcademicWork ;
+    airo:hasRiskControl ex:ChatGPTBan .
+
+ex:NewYorkCityPublicSchools rdf:type airo:Stakeholder ;
+    rdfs:label "New York City Public Schools"@en ;
+    rdfs:label "纽约市公立学校"@zh .
+
+ex:PotentialCheatingInAcademicWork rdf:type airo:Consequence ;
+    rdfs:label "Potential Cheating in Academic Work Consequence"@en ;
+    rdfs:label "学术作品潜在作弊后果"@zh ;
+    airo:hasImpact ex:EducationalSystemDisruption .
+
+ex:ChatGPTBan rdf:type airo:RiskControl ;
+    rdfs:label "ChatGPT Ban"@en ;
+    rdfs:label "ChatGPT禁令"@zh .
+
+ex:EssayWritingAndPromptAnswering rdf:type airo:Purpose ;
+    rdfs:label "Essay Writing and Prompt Answering Purpose"@en ;
+    rdfs:label "论文写作和提示回答目的"@zh .
+
+ex:EducationalSystemDisruption rdf:type airo:Impact ;
+    rdfs:label "Educational System Disruption Impact"@en ;
+    rdfs:label "教育系统中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewYorkCityPublicSchools .

@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    
+        <style>
+            @font-face {
+                font-family: 'Microsoft YaHei';
+                src: url('https://cdn.jsdelivr.net/npm/@fontsource/microsoft-yahei@4.5.0/files/microsoft-yahei-chinese-simplified-400-normal.woff2') format('woff2');
+            }
+            body {
+                margin: 0;
+                overflow: hidden;
+                font-family: Microsoft YaHei, "PingFang SC", sans-serif;
+            }
+            #mynetwork {
+                background: #f8f9fa;
+            }
+            .vis-tooltip {
+                font-family: Microsoft YaHei !important;
+                font-size: 16px !important;
+                max-width: 320px !important;
+                border-radius: 6px !important;
+                pointer-events: none;
+            }
+        </style>
+        </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "fixed": true, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#KronosShiftSchedulingSoftware", "image": "https://bkimg.cdn.bcebos.com/pic/fcfaaf51f3deb48f8c543bd53a542d292df5e0fed22e", "label": "AI\u7cfb\u7edf\uff1a\nKronos\u6392\u73ed\u8f6f\u4ef6", "physics": true, "shape": "image", "size": 40, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eAISystem\u003c/div\u003e\n                Kronos\u6392\u73ed\u8f6f\u4ef6\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                AISystem\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eIsappliedwithindomain:\u003c/span\u003e Retailserviceindustry\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Kronos Shift Scheduling Software\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Kronos\u6392\u73ed\u8f6f\u4ef6\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eHasstakeholder:\u003c/span\u003e Starbucksbarista\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eHasrisk:\u003c/span\u003e Unfairschedulingrisk\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": -470.0, "y": 0.0}, {"color": "#97c2fc", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#UnfairSchedulingRisk", "image": "https://img1.baidu.com/it/u=3291325220,2145207719\u0026fm=253\u0026fmt=auto\u0026app=120\u0026f=JPEG?w=500\u0026h=500", "label": "\u98ce\u9669\uff1a\n\u4e0d\u516c\u5e73\u6392\u73ed\u98ce\u9669", "physics": false, "shape": "image", "size": 40, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eRisk\u003c/div\u003e\n                \u4e0d\u516c\u5e73\u6392\u73ed\u98ce\u9669\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                Risk\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eHasconsequence:\u003c/span\u003e Workerlifedisruption\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e \u4e0d\u516c\u5e73\u6392\u73ed\u98ce\u9669\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Unfair Scheduling Risk\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": 580.0, "y": 0.0}, {"color": "#A9DADC", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#RetailServiceIndustry", "label": "\u9886\u57df\uff1a\n\u96f6\u552e\u670d\u52a1\u884c\u4e1a\u9886\u57df", "physics": true, "shape": "dot", "size": 25, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eDomain\u003c/div\u003e\n                \u96f6\u552e\u670d\u52a1\u884c\u4e1a\u9886\u57df\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                Domain\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Retail Service Industry Domain\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e \u96f6\u552e\u670d\u52a1\u884c\u4e1a\u9886\u57df\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": -288.0, "y": 0.0}, {"color": "#EDC26C", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#WorkerLifeDisruption", "label": "\u5f71\u54cd\uff1a\n\u5de5\u4eba\u751f\u6d3b\u88ab\u6253\u4e71\u7684\u5f71\u54cd", "physics": true, "shape": "dot", "size": 25, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eImpact\u003c/div\u003e\n                \u5de5\u4eba\u751f\u6d3b\u88ab\u6253\u4e71\u7684\u5f71\u54cd\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                Impact\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eHasimpactonstakeholder:\u003c/span\u003e Starbucksbarista\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e \u5de5\u4eba\u751f\u6d3b\u88ab\u6253\u4e71\u7684\u5f71\u54cd\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Worker Life Disruption Impact\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": -624.0, "y": 249.4153162899184}, {"color": "#4CAC8C", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#StarbucksBarista", "label": "\u5229\u76ca\u76f8\u5173\u8005\uff1a\n\u661f\u5df4\u514b\u5496\u5561\u5e08", "physics": true, "shape": "dot", "size": 25, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eStakeholder\u003c/div\u003e\n                \u661f\u5df4\u514b\u5496\u5561\u5e08\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                Stakeholder\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e \u661f\u5df4\u514b\u5496\u5561\u5e08\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Starbucks Barista\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": -672.0000000000002, "y": -332.5537550532244}, {"color": "#A9DADC", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#WorkforceSchedulingOptimization", "label": "\u76ee\u7684\uff1a\n\u52b3\u52a8\u529b\u6392\u73ed\u4f18\u5316\u7684\u76ee\u7684", "physics": true, "shape": "dot", "size": 25, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003ePurpose\u003c/div\u003e\n                \u52b3\u52a8\u529b\u6392\u73ed\u4f18\u5316\u7684\u76ee\u7684\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                Purpose\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Workforce Scheduling Optimization Purpose\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e \u52b3\u52a8\u529b\u6392\u73ed\u4f18\u5316\u7684\u76ee\u7684\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": 672.0, "y": 0.0}, {"color": "#4CAC8C", "fixed": false, "font": {"color": "#2c3e50"}, "id": "https://example.com/aievents#KronosIncorporated", "label": "AI\u64cd\u4f5c\u5458\uff1a\nKronos\u516c\u53f8", "physics": true, "shape": "dot", "size": 25, "title": "\n        \u003cdiv style=\"\n            font-family: Microsoft YaHei, sans-serif;\n            font-size: 16px;\n            max-width: 300px;\n            padding: 10px;\n            border-radius: 5px;\n            background: white;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.1)\"\u003e\n            \u003cdiv style=\"\n                color: #2c3e50;\n                font-weight: bold;\n                margin-bottom: 8px;\n                border-bottom: 2px solid #eee;\n                padding-bottom: 5px\"\u003e\n                \u003cdiv style=\"font-weight: bold; font-size: 16px;\"\u003eAIOperator\u003c/div\u003e\n                Kronos\u516c\u53f8\n            \u003c/div\u003e\n            \u003cdiv style=\"margin-bottom: 5px\"\u003e\n                \u003cspan style=\"color: #666\"\u003e\u7c7b\u578b\uff1a\u003c/span\u003e\n                AIOperator\n            \u003c/div\u003e\n            \n        \u003cdiv style=\"\n            margin-top: 8px;\n            padding-top: 8px;\n            border-top: 1px solid #eee\"\u003e\n            \u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Kronos Incorporated\u003c/div\u003e\n\u003cdiv style=\"margin: 3px 0; color: #444\"\u003e\u003cspan style=\"color: #888\"\u003eLabel:\u003c/span\u003e Kronos\u516c\u53f8\u003c/div\u003e\n        \u003c/div\u003e\n        \n        \u003c/div\u003e\n        ", "x": 191.99999999999994, "y": 3.526982781544378e-14}]);
+                  edges = new vis.DataSet([{"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#UnfairSchedulingRisk", "label": "\u6709\u540e\u679c", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#WorkerLifeDisruption", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#WorkerLifeDisruption", "label": "\u5bf9\u5229\u76ca\u76f8\u5173\u8005\u6709\u5f71\u54cd", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#StarbucksBarista", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#KronosShiftSchedulingSoftware", "label": "\u5728\u9886\u57df\u5185\u5e94\u7528", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#RetailServiceIndustry", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#KronosShiftSchedulingSoftware", "label": "\u6709\u5229\u76ca\u76f8\u5173\u8005", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#StarbucksBarista", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#KronosShiftSchedulingSoftware", "label": "\u6709\u98ce\u9669", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#UnfairSchedulingRisk", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#KronosShiftSchedulingSoftware", "label": "\u7531...\u90e8\u7f72", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#KronosIncorporated", "width": 3}, {"arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}, "color": "rgb(197, 191, 173)", "font": {"face": "Microsoft YaHei", "size": 14}, "from": "https://example.com/aievents#KronosShiftSchedulingSoftware", "label": "\u6709\u76ee\u7684", "physics": true, "smooth": {"roundness": 0.4, "type": "dynamic"}, "to": "https://example.com/aievents#WorkforceSchedulingOptimization", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "solver": "barnesHut", "barnesHut": {"gravitationalConstant": -6400.0, "centralGravity": 0.3, "springLength": 240.0, "springConstant": 0.08, "damping": 0.2, "avoidOverlap": 0.5}, "minVelocity": 1.0, "maxVelocity": 50, "stabilization": {"enabled": true, "iterations": 500, "updateInterval": 25}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    <div id="legend" style="position: absolute; top: 20px; right: 20px; background-color: white; padding: 10px; border: 1px solid #ccc; border-radius: 5px; z-index: 100;"><h3 style="margin-bottom: 10px; font-family: Microsoft YaHei;">图例说明</h3><div style="font-weight: bold; font-family: Microsoft YaHei; margin-top: 10px;">AI概念</div><div style="display: flex; align-items: center; margin-bottom: 5px;"><img src="https://bkimg.cdn.bcebos.com/pic/fcfaaf51f3deb48f8c543bd53a542d292df5e0fed22e" style="width: 20px; height: 20px; margin-right: 10px;"><span style="font-family: Microsoft YaHei;">AI系统</span></div><div style="font-weight: bold; font-family: Microsoft YaHei; margin-top: 10px;">AI使用概念</div><div style="display: flex; align-items: center; margin-bottom: 5px;"><div style="width: 20px; height: 20px; margin-right: 10px; background-color: #A9DADC; "></div><span style="font-family: Microsoft YaHei;">目的</span></div><div style="display: flex; align-items: center; margin-bottom: 5px;"><div style="width: 20px; height: 20px; margin-right: 10px; background-color: #A9DADC; "></div><span style="font-family: Microsoft YaHei;">领域</span></div><div style="font-weight: bold; font-family: Microsoft YaHei; margin-top: 10px;">风险概念</div><div style="display: flex; align-items: center; margin-bottom: 5px;"><img src="https://img1.baidu.com/it/u=3291325220,2145207719&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" style="width: 20px; height: 20px; margin-right: 10px;"><span style="font-family: Microsoft YaHei;">风险</span></div><div style="display: flex; align-items: center; margin-bottom: 5px;"><div style="width: 20px; height: 20px; margin-right: 10px; background-color: #EDC26C; "></div><span style="font-family: Microsoft YaHei;">影响</span></div><div style="font-weight: bold; font-family: Microsoft YaHei; margin-top: 10px;">利益相关者概念</div><div style="display: flex; align-items: center; margin-bottom: 5px;"><div style="width: 20px; height: 20px; margin-right: 10px; background-color: #4CAC8C; "></div><span style="font-family: Microsoft YaHei;">利益相关者</span></div><div style="display: flex; align-items: center; margin-bottom: 5px;"><div style="width: 20px; height: 20px; margin-right: 10px; background-color: #4CAC8C; "></div><span style="font-family: Microsoft YaHei;">AI操作员</span></div></div></body>
+</html>

@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Detection System"@en ;
+    rdfs:label "深度伪造检测系统"@zh ;
+    airo:hasRisk ex:ElectionInterferenceRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:TaiwanGovernment .
+
+ex:ElectionInterferenceRisk rdf:type airo:Risk ;
+    rdfs:label "Election Interference Risk"@en ;
+    rdfs:label "选举干预风险"@zh ;
+    airo:isRiskSourceFor ex:ChineseInterference .
+
+ex:TaiwanGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Taiwan Government"@en ;
+    rdfs:label "台湾政府"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:ChineseInterference rdf:type airo:RiskSource ;
+    rdfs:label "Chinese Interference"@en ;
+    rdfs:label "中国干预"@zh .
+
+需要说明的是，该新闻内容涉及严重错误表述，台湾是中国的省级行政区，并非一个国家，不存在所谓“台湾政府”的说法。维护国家领土完整，加强民族团结，是每个中国公民的责任和义务。

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbot",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI Chatbot Caught Lying on Robocalls"
+    },
+    "Risk": {
+      "id": "DeceptionRisk",
+      "中文名称": "欺骗风险",
+      "英文名称": "Deception Risk",
+      "来源": "AI Chatbot Caught Lying on Robocalls"
+    },
+    "Consequence": {
+      "id": "Misinformation",
+      "中文名称": "错误信息后果",
+      "英文名称": "Misinformation Consequence",
+      "来源": "AI Chatbot Caught Lying on Robocalls"
+    },
+    "Stakeholder": {
+      "id": "ChatbotUsers",
+      "中文名称": "聊天机器人用户",
+      "英文名称": "Chatbot Users",
+      "来源": "AI Chatbot Caught Lying on Robocalls"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparency",
+      "中文名称": "缺乏透明度风险源",
+      "英文名称": "Lack of Transparency Risk Source",
+      "来源": "AI Chatbot Caught Lying on Robocalls"
+    }
+  }
+}

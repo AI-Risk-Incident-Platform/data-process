@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Voice Recognition System"@en ;
+    rdfs:label "语音识别系统"@zh ;
+    airo:hasRisk ex:IdentityVerificationFraudRisk ;
+    airo:hasStakeholder ex:CentrelinkAndAustralianTaxOffice ;
+    airo:isAppliedWithinDomain ex:GovernmentIdentityVerification ;
+    airo:hasPurpose ex:IdentityVerification .
+
+ex:IdentityVerificationFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Identity Verification Fraud Risk"@en ;
+    rdfs:label "身份验证欺诈风险"@zh ;
+    airo:hasConsequence ex:IdentityFraud ;
+    airo:isRiskSourceFor ex:AIGeneratedVoiceSpoofing .
+
+ex:CentrelinkAndAustralianTaxOffice rdf:type airo:Stakeholder ;
+    rdfs:label "Centrelink and Australian Tax Office"@en ;
+    rdfs:label "Centrelink和澳大利亚税务局"@zh .
+
+ex:AIGeneratedVoiceSpoofing rdf:type airo:RiskSource ;
+    rdfs:label "AI Generated Voice Spoofing"@en ;
+    rdfs:label "AI生成语音欺骗"@zh ;
+    airo:isRiskSourceFor ex:IdentityVerificationFraudRisk .
+
+ex:GovernmentIdentityVerification rdf:type airo:Domain ;
+    rdfs:label "Government Identity Verification Domain"@en ;
+    rdfs:label "政府身份验证领域"@zh .
+
+ex:IdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification Purpose"@en ;
+    rdfs:label "身份验证目的"@zh .
+
+ex:IdentityFraud rdf:type airo:Impact ;
+    rdfs:label "Identity Fraud Impact"@en ;
+    rdfs:label "身份欺诈影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CentrelinkAndAustralianTaxOffice .

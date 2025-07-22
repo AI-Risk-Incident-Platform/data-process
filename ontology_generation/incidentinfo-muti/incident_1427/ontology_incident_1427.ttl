@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RedditPlatform rdf:type airo:AISystem ;
+    rdfs:label "Reddit Platform"@en ;
+    rdfs:label "Reddit平台"@zh ;
+    airo:hasRisk ex:UnauthorizedDataExtractionRisk ;
+    airo:hasStakeholder ex:AIFirms ;
+    airo:isDeployedBy ex:RedditInc ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:UnauthorizedDataExtractionRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Data Extraction Risk"@en ;
+    rdfs:label "未经授权的数据提取风险"@zh ;
+    airo:isRiskSourceFor ex:DataScrapingWithoutPermission ;
+    airo:hasConsequence ex:PotentialLegalAction .
+
+ex:AIFirms rdf:type airo:Stakeholder ;
+    rdfs:label "AI Firms"@en ;
+    rdfs:label "AI公司"@zh .
+
+ex:RedditInc rdf:type airo:AIOperator ;
+    rdfs:label "Reddit Inc."@en ;
+    rdfs:label "Reddit公司"@zh .
+
+ex:DataScrapingWithoutPermission rdf:type airo:RiskSource ;
+    rdfs:label "Data Scraping Without Permission Risk Source"@en ;
+    rdfs:label "未经许可的数据抓取风险源"@zh .
+
+ex:PotentialLegalAction rdf:type airo:Consequence ;
+    rdfs:label "Potential Legal Action Consequence"@en ;
+    rdfs:label "潜在法律诉讼后果"@zh ;
+    airo:hasImpact ex:FinancialAndReputationalDamage .
+
+ex:FinancialAndReputationalDamage rdf:type airo:Impact ;
+    rdfs:label "Financial and Reputational Damage Impact"@en ;
+    rdfs:label "财务和声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AIFirms .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

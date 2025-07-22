@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTSearch",
+      "中文名称": "ChatGPT搜索",
+      "英文名称": "ChatGPT Search",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfPublisherContent",
+      "中文名称": "出版商内容错误呈现风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Consequence": {
+      "id": "InaccurateSourceAttribution",
+      "中文名称": "来源归属不准确后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Impact": {
+      "id": "PublisherContentMisrepresentation",
+      "中文名称": "出版商内容错误呈现影响",
+      "英文名称": "Publisher Content Misrepresentation Impact",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Purpose": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索",
+      "英文名称": "Information Provision Purpose",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Domain": {
+      "id": "SearchTechnology",
+      "中文名称": "搜索技术领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "RiskSource": {
+      "id": "InadequateSourceVerification",
+      "中文名称": "来源验证不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTSearch",
+      "中文名称": "ChatGPT搜索",
+      "英文名称": "ChatGPT Search",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfPublisherContent",
+      "中文名称": "出版商内容错误呈现风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Consequence": {
+      "id": "InaccurateSourceAttribution",
+      "中文名称": "来源归属不准确后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Impact": {
+      "id": "PublisherContentMisrepresentation",
+      "中文名称": "出版商内容错误呈现影响",
+      "英文名称": "Publisher Content Misrepresentation Impact",
+      "来源": "How ChatGPT search (mis)represents publisher content"
+    },
+    "Purpose": {
+      "id": "InformationRetrieval",
+      "中文名称": "信息检索",
+      "英文名称": "Information Provision Purpose",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "Domain": {
+      "id": "SearchTechnology",
+      "中文名称": "搜索技术领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "ChatGPT search provides inaccurate sources even for OpenAI partner publishers"
+    },
+    "RiskSource": {
+      "id": "InadequateSourceVerification",
+      "中文名称": "来源验证不足风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Search Fails Attribution Test, Misquotes News Sources"
+    }
+  }
+}

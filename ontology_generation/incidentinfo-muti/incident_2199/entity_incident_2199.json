@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Facial recognition wrongful arrest lawsuit New Jersey"
+    },
+    "Risk": {
+      "id": "WrongfulArrestRisk",
+      "中文名称": "错误逮捕风险",
+      "英文名称": "Wrongful Arrest Risk",
+      "来源": "Lawsuit Claims Facial Recognition AI Sent the Wrong Man to Jail"
+    },
+    "Consequence": {
+      "id": "WrongfulImprisonment",
+      "中文名称": "错误监禁后果",
+      "英文名称": "Wrongful Imprisonment Consequence",
+      "来源": "He spent 10 days in jail after facial recognition software led to the arrest of the wrong man, lawsuit says"
+    },
+    "AISubject": {
+      "id": "WrongfullyArrestedIndividual",
+      "中文名称": "被错误逮捕的个人",
+      "英文名称": "Wrongfully Arrested Individual",
+      "来源": "He spent 10 days in jail after facial recognition software led to the arrest of the wrong man, lawsuit says"
+    },
+    "Impact": {
+      "id": "PersonalLibertyViolation",
+      "中文名称": "人身自由侵犯影响",
+      "英文名称": "Personal Liberty Violation Impact",
+      "来源": "He spent 10 days in jail after facial recognition software led to the arrest of the wrong man, lawsuit says"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见风险源",
+      "英文名称": "Algorithmic Bias in Facial Recognition Risk Source",
+      "来源": "Lawsuit Claims Facial Recognition AI Sent the Wrong Man to Jail"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "法律系统",
+      "英文名称": "Legal System",
+      "来源": "Facial recognition wrongful arrest lawsuit New Jersey"
+    }
+  }
+}

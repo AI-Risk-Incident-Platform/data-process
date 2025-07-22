@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BostonDynamicsRobotDog",
+      "中文名称": "波士顿动力机器狗",
+      "英文名称": "Boston Dynamics Robot Dog",
+      "来源": "Honolulu Police Used a Robot Dog to Patrol a Homeless Encampment"
+    },
+    "Risk": {
+      "id": "DehumanizationRisk",
+      "中文名称": "非人化风险",
+      "英文名称": "Dehumanization Risk",
+      "来源": "Police Outsourcing Human Interaction With Homeless People to Boston Dynamics’ Robot Dog"
+    },
+    "Stakeholder": {
+      "id": "HomelessPopulation",
+      "中文名称": "无家可归者群体",
+      "英文名称": "Homeless Population",
+      "来源": "Honolulu Police Used a Robot Dog to Patrol a Homeless Encampment"
+    },
+    "AIOperator": {
+      "id": "HonoluluPoliceDepartment",
+      "中文名称": "檀香山警察局",
+      "英文名称": "Honolulu Police Department",
+      "来源": "Honolulu Police Spent $150,000 In CARES Funds On A Robot Dog"
+    },
+    "Purpose": {
+      "id": "PatrolHomelessEncampments",
+      "中文名称": "巡逻无家可归者营地",
+      "英文名称": "Patrol Homeless Encampments",
+      "来源": "Honolulu Police Used a Robot Dog to Patrol a Homeless Encampment"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement",
+      "来源": "Honolulu Police Used a Robot Dog to Patrol a Homeless Encampment"
+    },
+    "Impact": {
+      "id": "ReducedHumanInteraction",
+      "中文名称": "减少人际互动的影响",
+      "英文名称": "Reduced Human Interaction Impact",
+      "来源": "Police Outsourcing Human Interaction With Homeless People to Boston Dynamics’ Robot Dog"
+    },
+    "RiskSource": {
+      "id": "AutomationOfHumanTasks",
+      "中文名称": "人类任务自动化风险源",
+      "英文名称": "Automation of Human Tasks Risk Source",
+      "来源": "Police Outsourcing Human Interaction With Homeless People to Boston Dynamics’ Robot Dog"
+    }
+  }
+}

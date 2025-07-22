@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Risk": {
+      "id": "SelfHarmContentPromotionRisk",
+      "中文名称": "自残内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Consequence": {
+      "id": "NormalizationOfSelfHarmBehavior",
+      "中文名称": "自残行为正常化后果",
+      "英文名称": "Normalization of Self-Harm Behavior Consequence",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "TikTok algorithm pushes videos"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsSensitiveContent",
+      "中文名称": "算法对敏感内容的偏向风险源",
+      "英文名称": "Algorithmic Bias Risk Source for Sensitive/Controversial Content",
+      "来源": "pushes videos that ‘romanticise or normalise' self harm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokAlgorithm",
+      "中文名称": "TikTok算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Risk": {
+      "id": "SelfHarmContentPromotionRisk",
+      "中文名称": "自残内容推广风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok algorithm pushes videos that ‘romanticise or normalise' self harm"
+    },
+    "Consequence": {
+      "id": "NormalizationOfSelfHarmBehavior",
+      "中文名称": "自残行为正常化后果",
+      "英文名称": "Normalization of Self-Harm Behavior Consequence",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "AICapability": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "TikTok algorithm pushes videos"
+    },
+    "Impact": {
+      "id": "MentalHealthDeterioration",
+      "中文名称": "心理健康恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "‘romanticise or normalise' self harm"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBiasTowardsSensitiveContent",
+      "中文名称": "算法对敏感内容的偏向风险源",
+      "英文名称": "Algorithmic Bias Risk Source for Sensitive/Controversial Content",
+      "来源": "pushes videos that ‘romanticise or normalise' self harm"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OkCupidDatingPlatform",
+      "中文名称": "OkCupid约会平台",
+      "英文名称": "OkCupid Dating Platform",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Danish Authorities Investigate OkCupid Data Dump"
+    },
+    "Stakeholder": {
+      "id": "DanishDataProtectionAuthority",
+      "中文名称": "丹麦数据保护局",
+      "英文名称": "Danish Data Protection Entity",
+      "来源": "Danish Authorities Investigate OkCupid Data Dump"
+    },
+    "AICapability": {
+      "id": "UserMatchingAlgorithm",
+      "中文名称": "用户匹配算法能力",
+      "英文名称": "User Matching Algorithm Capability",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    },
+    "Domain": {
+      "id": "OnlineDatingServices",
+      "中文名称": "在线约会服务领域",
+      "英文名称": "Online Dating",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OkCupidDatingPlatform",
+      "中文名称": "OkCupid约会平台",
+      "英文名称": "OkCupid Dating Platform",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Danish Authorities Investigate OkCupid Data Dump"
+    },
+    "Stakeholder": {
+      "id": "DanishDataProtectionAuthority",
+      "中文名称": "丹麦数据保护局",
+      "英文名称": "Danish Data Protection Entity",
+      "来源": "Danish Authorities Investigate OkCupid Data Dump"
+    },
+    "AICapability": {
+      "id": "UserMatchingAlgorithm",
+      "中文名称": "用户匹配算法能力",
+      "英文名称": "User Matching Algorithm Capability",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    },
+    "Domain": {
+      "id": "OnlineDatingServices",
+      "中文名称": "在线约会服务领域",
+      "英文名称": "Online Dating",
+      "来源": "OkCupid Study Reveals the Perils of Big-Data Science"
+    }
+  }
+}

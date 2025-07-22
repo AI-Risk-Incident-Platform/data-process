@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleMisuseRisk ;
+    airo:isDevelopedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:CaliforniaHighwayPatrol ;
+    airo:isAppliedWithinDomain ex:AutomotiveTransportation .
+
+ex:AutonomousVehicleMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶汽车滥用风险"@zh ;
+    rdfs:label "Autonomous Vehicle Misuse Risk"@en ;
+    airo:hasConsequence ex:TrafficSafetyViolation ;
+    airo:isRiskSourceFor ex:UnattendedOperationOfAutonomousVehicle .
+
+ex:UnattendedOperationOfAutonomousVehicle rdf:type airo:Misuse ;
+    rdfs:label "无人监管的自动驾驶汽车操作"@zh ;
+    rdfs:label "Unattended Operation of Autonomous Vehicle"@en .
+
+ex:CaliforniaHighwayPatrol rdf:type airo:Stakeholder ;
+    rdfs:label "加州公路巡逻队"@zh ;
+    rdfs:label "California Highway Patrol"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:TrafficSafetyViolation rdf:type airo:Consequence ;
+    rdfs:label "交通安全违规后果"@zh ;
+    rdfs:label "Traffic Safety Violation Consequence"@en ;
+    airo:hasImpact ex:PublicRoadSafetyThreat .
+
+ex:PublicRoadSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共道路安全威胁的影响"@zh ;
+    rdfs:label "Public Road Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CaliforniaHighwayPatrol .
+
+ex:AutomotiveTransportation rdf:type airo:Domain ;
+    rdfs:label "汽车交通领域"@zh ;
+    rdfs:label "Automotive Transportation Domain"@en .

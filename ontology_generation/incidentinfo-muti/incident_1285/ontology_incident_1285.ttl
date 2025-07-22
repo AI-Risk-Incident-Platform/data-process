@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexaVoiceAssistant rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa Voice Assistant"@en ;
+    rdfs:label "亚马逊Alexa语音助手"@zh ;
+    airo:hasRisk ex:PoliticalBiasInAIResponses ;
+    airo:hasCapability ex:VoiceResponseGeneration ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:hasStakeholder ex:LindseyGraham ;
+    airo:isAppliedWithinDomain ex:PoliticalElections .
+
+ex:PoliticalBiasInAIResponses rdf:type airo:Risk ;
+    rdfs:label "Political Bias in AI Responses Risk"@en ;
+    rdfs:label "AI回应中的政治偏见风险"@zh ;
+    airo:hasConsequence ex:PublicDistrustInAI .
+
+ex:LindseyGraham rdf:type airo:Stakeholder ;
+    rdfs:label "Lindsey Graham"@en ;
+    rdfs:label "林赛·格雷厄姆"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:PublicDistrustInAI rdf:type airo:Consequence ;
+    rdfs:label "Public Distrust in AI Consequence"@en ;
+    rdfs:label "公众对AI的不信任后果"@zh ;
+    airo:hasImpact ex:PoliticalPolarization .
+
+ex:PoliticalPolarization rdf:type airo:Impact ;
+    rdfs:label "Political Polarization Impact"@en ;
+    rdfs:label "政治两极分化的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LindseyGraham .
+
+ex:PoliticalElections rdf:type airo:Domain ;
+    rdfs:label "Political Elections Domain"@en ;
+    rdfs:label "政治选举领域"@zh .
+
+ex:VoiceResponseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Voice Response Generation Capability"@en ;
+    rdfs:label "语音回应生成能力"@zh .

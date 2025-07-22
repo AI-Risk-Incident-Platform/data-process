@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIXBTCryptoBot rdf:type airo:AISystem ;
+    rdfs:label "AIXBT Crypto Bot"@en ;
+    rdfs:label "AIXBT加密机器人"@zh ;
+    airo:hasRisk ex:CryptocurrencyTheftRisk ;
+    airo:hasStakeholder ex:CryptocurrencyInvestors ;
+    airo:isAppliedWithinDomain ex:CryptocurrencyTradingDomain .
+
+ex:CryptocurrencyTheftRisk rdf:type airo:Risk ;
+    rdfs:label "Cryptocurrency Theft Risk"@en ;
+    rdfs:label "加密货币盗窃风险"@zh ;
+    airo:hasConsequence ex:FinancialLossConsequence ;
+    airo:isRiskSourceFor ex:SecurityVulnerabilityInAIXBTRiskSource .
+
+ex:FinancialLossConsequence rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "财务损失后果"@zh ;
+    airo:hasImpactOnStakeholder ex:CryptocurrencyInvestors .
+
+ex:CryptocurrencyInvestors rdf:type airo:Stakeholder ;
+    rdfs:label "Cryptocurrency Investors"@en ;
+    rdfs:label "加密货币投资者"@zh .
+
+ex:SecurityVulnerabilityInAIXBTRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Security Vulnerability in AIXBT Risk Source"@en ;
+    rdfs:label "AIXBT安全漏洞风险源"@zh .
+
+ex:CryptocurrencyTradingDomain rdf:type airo:Domain ;
+    rdfs:label "Cryptocurrency Trading Domain"@en ;
+    rdfs:label "加密货币交易领域"@zh .

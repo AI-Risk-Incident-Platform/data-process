@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AnthonyBourdainVoiceDeepfakeSystem rdf:type airo:AISystem ;
+    rdfs:label "安东尼·波登语音深度伪造系统"@zh ;
+    rdfs:label "Anthony Bourdain Voice Deepfake System"@en ;
+    airo:hasRisk ex:EthicalConcernsInPosthumousVoiceReplication ;
+    airo:usesTechnique ex:DeepfakeAudioSynthesis ;
+    airo:hasPurpose ex:DocumentaryNarrationEnhancement ;
+    airo:hasStakeholder ex:DocumentaryProductionTeam .
+
+ex:EthicalConcernsInPosthumousVoiceReplication rdf:type airo:Risk ;
+    rdfs:label "死后语音复制的伦理问题风险"@zh ;
+    rdfs:label "Ethical Concerns in Posthumous Voice Replication Risk"@en ;
+    airo:hasConsequence ex:PotentialMisrepresentationOfDeceasedIndividuals .
+
+ex:DeepfakeAudioSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造音频合成技术"@zh ;
+    rdfs:label "Deepfake Audio Synthesis Technique"@en .
+
+ex:DocumentaryProductionTeam rdf:type airo:Stakeholder ;
+    rdfs:label "纪录片制作团队"@zh ;
+    rdfs:label "Documentary Production Team"@en .
+
+ex:PotentialMisrepresentationOfDeceasedIndividuals rdf:type airo:Impact ;
+    rdfs:label "可能对逝者形象造成歪曲的影响"@zh ;
+    rdfs:label "Potential Misrepresentation of Deceased Individuals Impact"@en ;
+    airo:hasImpactOnStakeholder ex:DocumentaryProductionTeam .
+
+ex:DocumentaryNarrationEnhancement rdf:type airo:Purpose ;
+    rdfs:label "增强纪录片叙述的目的"@zh ;
+    rdfs:label "Documentary Narration Enhancement Purpose"@en .

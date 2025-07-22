@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ParagonSpyware",
+      "中文名称": "Paragon间谍软件",
+      "英文名称": "Paragon Spyware",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Risk": {
+      "id": "CivilSocietySurveillanceRisk",
+      "中文名称": "公民社会监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Stakeholder": {
+      "id": "CivilSocietyOrganizations",
+      "中文名称": "公民社会组织",
+      "英文名称": "Civil NGOs",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "AIOperator": {
+      "id": "NationStateActor",
+      "中文名称": "国家行为体",
+      "英文名称": "Government Entity",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Europe: Paragon attacks highlight Europe’s growing spyware crisis"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Virtue or Vice? A First Look at Paragon’s Proliferating Spyware Operations"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全",
+      "英文名称": "Cybersecurity",
+      "来源": "Europe: Paragon attacks highlight Europe’s growing spyware crisis"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ParagonSpyware",
+      "中文名称": "Paragon间谍软件",
+      "英文名称": "Paragon Spyware",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Risk": {
+      "id": "CivilSocietySurveillanceRisk",
+      "中文名称": "公民社会监控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Stakeholder": {
+      "id": "CivilSocietyOrganizations",
+      "中文名称": "公民社会组织",
+      "英文名称": "Civil NGOs",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "AIOperator": {
+      "id": "NationStateActor",
+      "中文名称": "国家行为体",
+      "英文名称": "Government Entity",
+      "来源": "Nation-State 'Paragon' Spyware Infections Target Civil Society"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Europe: Paragon attacks highlight Europe’s growing spyware crisis"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "Virtue or Vice? A First Look at Paragon’s Proliferating Spyware Operations"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全",
+      "英文名称": "Cybersecurity",
+      "来源": "Europe: Paragon attacks highlight Europe’s growing spyware crisis"
+    }
+  }
+}

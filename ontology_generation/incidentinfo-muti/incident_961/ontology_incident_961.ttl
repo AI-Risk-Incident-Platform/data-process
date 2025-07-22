@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleDeepfakeDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Deepfake Detection System"@en ;
+    rdfs:label "Google深度伪造检测系统"@zh ;
+    airo:hasRisk ex:DeepfakeTerrorismContentRisk ;
+    airo:hasStakeholder ex:AustralianRegulator ;
+    airo:isAppliedWithinDomain ex:ContentModeration .
+
+ex:DeepfakeTerrorismContentRisk rdf:type airo:Risk ;
+    rdfs:label "Deepfake Terrorism Content Risk"@en ;
+    rdfs:label "深度伪造恐怖主义内容风险"@zh ;
+    airo:isRiskSourceFor ex:AIgeneratedDeepfakeContent .
+
+ex:AustralianRegulator rdf:type airo:Stakeholder ;
+    rdfs:label "Australian Regulator"@en ;
+    rdfs:label "澳大利亚监管机构"@zh .
+
+ex:ContentModeration rdf:type airo:Domain ;
+    rdfs:label "Content Moderation Domain"@en ;
+    rdfs:label "内容审核领域"@zh .
+
+ex:AIgeneratedDeepfakeContent rdf:type airo:RiskSource ;
+    rdfs:label "AI-generated Deepfake Content"@en ;
+    rdfs:label "AI生成的深度伪造内容"@zh .

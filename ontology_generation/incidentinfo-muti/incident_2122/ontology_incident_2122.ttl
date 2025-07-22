@@ -1,0 +1,69 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:JobScreeningAI rdf:type airo:AISystem ;
+    rdfs:label "Job Screening AI"@en ;
+    rdfs:label "工作筛选AI"@zh ;
+    airo:hasRisk ex:BiasInHiringDecisions ;
+    airo:hasCapability ex:VideoAnalysisForHiring ;
+    airo:hasAISubject ex:JobCandidates ;
+    airo:hasStakeholder ex:JobApplicants ;
+    airo:hasPurpose ex:AutomatedJobCandidateEvaluation ;
+    airo:isAppliedWithinDomain ex:HumanResources ;
+    airo:usesTechnique ex:ComputerVisionForHiring ;
+    airo:hasVulnerability ex:SuperficialFeatureBias .
+
+ex:BiasInHiringDecisions rdf:type airo:Risk ;
+    rdfs:label "Bias in Hiring Decisions Risk"@en ;
+    rdfs:label "招聘决策中的偏见风险"@zh ;
+    airo:isRiskSourceFor ex:IrrelevantVisualCues ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        airo:hasImpact ex:UnfairHiringPractices
+    ] .
+
+ex:VideoAnalysisForHiring rdf:type airo:AICapability ;
+    rdfs:label "Video Analysis for Hiring Capability"@en ;
+    rdfs:label "用于招聘的视频分析能力"@zh .
+
+ex:JobApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Job Applicants"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:JobCandidates rdf:type airo:AISubject ;
+    rdfs:label "Job Candidates"@en ;
+    rdfs:label "工作候选人"@zh .
+
+ex:UnfairHiringPractices rdf:type airo:Impact ;
+    rdfs:label "Unfair Hiring Practices Impact"@en ;
+    rdfs:label "不公平招聘实践的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JobApplicants .
+
+ex:AutomatedJobCandidateEvaluation rdf:type airo:Purpose ;
+    rdfs:label "Automated Job Candidate Evaluation Purpose"@en ;
+    rdfs:label "自动化工作候选人评估的目的"@zh .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "Human Resources Domain"@en ;
+    rdfs:label "人力资源领域"@zh .
+
+ex:ComputerVisionForHiring rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Hiring Technique"@en ;
+    rdfs:label "用于招聘的计算机视觉技术"@zh .
+
+ex:SuperficialFeatureBias rdf:type airo:Vulnerability ;
+    rdfs:label "Superficial Feature Bias Vulnerability"@en ;
+    rdfs:label "表面特征偏见的脆弱性"@zh .
+
+ex:IrrelevantVisualCues rdf:type airo:RiskSource ;
+    rdfs:label "Irrelevant Visual Cues Risk Source"@en ;
+    rdfs:label "无关视觉线索的风险源"@zh .

@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIListeningSystemForNHSAppointments rdf:type airo:AISystem ;
+    rdfs:label "AI Listening System for NHS Appointments"@en ;
+    rdfs:label "NHS预约AI监听系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:Patients ;
+    airo:hasPurpose ex:MedicalAppointmentMonitoring ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:hasStakeholder ex:NHS .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:NHS rdf:type airo:Stakeholder ;
+    rdfs:label "National Health Service"@en ;
+    rdfs:label "英国国家医疗服务体系"@zh .
+
+ex:Patients rdf:type airo:AISubject ;
+    rdfs:label "Patients"@en ;
+    rdfs:label "患者"@zh .
+
+ex:MedicalAppointmentMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Medical Appointment Monitoring"@en ;
+    rdfs:label "医疗预约监控"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare"@en ;
+    rdfs:label "医疗保健"@zh .

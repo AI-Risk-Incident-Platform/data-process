@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RiteAidFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Rite Aid Facial Recognition System"@en ;
+    rdfs:label "Rite Aid面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:RiteAidStores ;
+    airo:hasStakeholder ex:RiteAidCorporation ;
+    airo:isAppliedWithinDomain ex:RetailIndustry ;
+    airo:usesTechnique ex:RealTimeFacialAnalysis ;
+    airo:hasPurpose ex:LossPrevention .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:CustomerPrivacyCompromise ;
+    airo:isRiskSourceFor ex:CovertSurveillance .
+
+ex:RiteAidCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "Rite Aid Corporation"@en ;
+    rdfs:label "Rite Aid公司"@zh .
+
+ex:RiteAidStores rdf:type airo:AIOperator ;
+    rdfs:label "Rite Aid Stores"@en ;
+    rdfs:label "Rite Aid商店"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry"@en ;
+    rdfs:label "零售行业"@zh .
+
+ex:CustomerPrivacyCompromise rdf:type airo:Consequence ;
+    rdfs:label "Customer Privacy Compromise Consequence"@en ;
+    rdfs:label "顾客隐私泄露后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RiteAidCorporation .
+
+ex:CovertSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Covert Surveillance Risk Source"@en ;
+    rdfs:label "秘密监控风险源"@zh .
+
+ex:RealTimeFacialAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Facial Analysis Technique"@en ;
+    rdfs:label "实时面部分析技术"@zh .
+
+ex:LossPrevention rdf:type airo:Purpose ;
+    rdfs:label "Loss Prevention Purpose"@en ;
+    rdfs:label "防损目的"@zh .

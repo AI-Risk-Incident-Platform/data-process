@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SamBankmanFriedDeepfake rdf:type airo:AISystem ;
+    rdfs:label "Sam Bankman-Fried Deepfake"@en ;
+    rdfs:label "Sam Bankman-Fried深度伪造"@zh ;
+    airo:hasRisk ex:FinancialScamRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasStakeholder ex:FTXCollapseVictims .
+
+ex:FinancialScamRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Scam Risk"@en ;
+    rdfs:label "金融诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss .
+
+ex:FTXCollapseVictims rdf:type airo:Stakeholder ;
+    rdfs:label "FTX Collapse Victims"@en ;
+    rdfs:label "FTX崩溃受害者"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss"@en ;
+    rdfs:label "财务损失"@zh ;
+    airo:hasImpact ex:VictimFinancialHarm .
+
+ex:VictimFinancialHarm rdf:type airo:Impact ;
+    rdfs:label "Victim Financial Harm"@en ;
+    rdfs:label "受害者财务损害"@zh ;
+    airo:hasImpactOnStakeholder ex:FTXCollapseVictims .

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonRoutingAlgorithm",
+      "中文名称": "亚马逊路由算法",
+      "英文名称": "Amazon Routing Algorithm",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm Makes Drivers Walk Into Traffic"
+    },
+    "Risk": {
+      "id": "DriverSafetyRisk",
+      "中文名称": "驾驶员安全风险",
+      "英文名称": "Driver Risk",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm Makes Drivers Walk Into Traffic"
+    },
+    "Consequence": {
+      "id": "IncreasedTrafficAccidents",
+      "中文名称": "交通事故增加",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Makes Drivers Walk Into Traffic"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm"
+    },
+    "Purpose": {
+      "id": "CostSaving",
+      "中文名称": "节约成本",
+      "英文名称": "Cost Reduction",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm"
+    },
+    "Domain": {
+      "id": "Logistics",
+      "中文名称": "物流",
+      "英文名称": "Logistics",
+      "来源": "Routing Algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonRoutingAlgorithm",
+      "中文名称": "亚马逊路由算法",
+      "英文名称": "Amazon Routing Algorithm",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm Makes Drivers Walk Into Traffic"
+    },
+    "Risk": {
+      "id": "DriverSafetyRisk",
+      "中文名称": "驾驶员安全风险",
+      "英文名称": "Driver Risk",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm Makes Drivers Walk Into Traffic"
+    },
+    "Consequence": {
+      "id": "IncreasedTrafficAccidents",
+      "中文名称": "交通事故增加",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Makes Drivers Walk Into Traffic"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm"
+    },
+    "Purpose": {
+      "id": "CostSaving",
+      "中文名称": "节约成本",
+      "英文名称": "Cost Reduction",
+      "来源": "Amazon’s Cost-Saving Routing Algorithm"
+    },
+    "Domain": {
+      "id": "Logistics",
+      "中文名称": "物流",
+      "英文名称": "Logistics",
+      "来源": "Routing Algorithm"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredNewsSite",
+      "中文名称": "AI驱动的新闻网站",
+      "英文名称": "AI-Powered News Site",
+      "来源": "AI-Powered News Site Accidentally Accuses District Attorney of Murder"
+    },
+    "Risk": {
+      "id": "FalseAccusationRisk",
+      "中文名称": "虚假指控风险",
+      "英文名称": "False Accusation Risk",
+      "来源": "AI Sludge Local News Site Hoodline Falsely Accuses San Mateo DA Of Murder"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "Falsely Accuses San Mateo DA Of Murder"
+    },
+    "Stakeholder": {
+      "id": "SanMateoDistrictAttorney",
+      "中文名称": "圣马特奥地区检察官",
+      "英文名称": "San Mateo District Attorney",
+      "来源": "Falsely Accuses San Mateo DA Of Murder"
+    },
+    "Impact": {
+      "id": "LegalAndProfessionalConsequences",
+      "中文名称": "法律和职业后果影响",
+      "英文名称": "Legal and Professional Consequences Impact",
+      "来源": "Accuses District Attorney of Murder"
+    }
+  }
+}

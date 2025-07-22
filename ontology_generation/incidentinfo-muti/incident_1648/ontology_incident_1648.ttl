@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClaudiaAIPornGenerator rdf:type airo:AISystem ;
+    rdfs:label "Claudia AI Porn Generator"@en ;
+    rdfs:label "Claudia AI色情生成器"@zh ;
+    airo:hasRisk ex:ScamAndFraudRiskInAIPorn ;
+    airo:hasCapability ex:ImageGenerationForPornography ;
+    airo:isAppliedWithinDomain ex:AdultEntertainmentIndustry ;
+    airo:hasStakeholder ex:AIPornUsers .
+
+ex:ScamAndFraudRiskInAIPorn rdf:type airo:Risk ;
+    rdfs:label "Scam and Fraud Risk in AI Porn"@en ;
+    rdfs:label "AI色情中的诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLossForUsers ;
+    airo:isRiskSourceFor ex:LackOfRegulationInAIPornMarket ;
+    airo:isRiskSourceFor ex:ExploitationOfSexualFantasies .
+
+ex:AIPornUsers rdf:type airo:Stakeholder ;
+    rdfs:label "AI Porn Users"@en ;
+    rdfs:label "AI色情使用者"@zh .
+
+ex:ImageGenerationForPornography rdf:type airo:AICapability ;
+    rdfs:label "Image Generation for Pornography Capability"@en ;
+    rdfs:label "色情图像生成能力"@zh .
+
+ex:AdultEntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "Adult Entertainment Industry Domain"@en ;
+    rdfs:label "成人娱乐产业领域"@zh .
+
+ex:FinancialLossForUsers rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss for Users Consequence"@en ;
+    rdfs:label "用户经济损失后果"@zh ;
+    airo:hasImpact ex:EmotionalDistressFromDeception .
+
+ex:EmotionalDistressFromDeception rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress from Deception Impact"@en ;
+    rdfs:label "欺骗导致的情感困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AIPornUsers .
+
+ex:LackOfRegulationInAIPornMarket rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Regulation in AI Porn Market Risk Source"@en ;
+    rdfs:label "AI色情市场缺乏监管的风险源"@zh .
+
+ex:ExploitationOfSexualFantasies rdf:type airo:Misuse ;
+    rdfs:label "Exploitation of Sexual Fantasies Misuse"@en ;
+    rdfs:label "性幻想剥削滥用"@zh .

@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NationalResidencyMatchingProgram rdf:type airo:AISystem ;
+    rdfs:label "National Residency Matching Program"@en ;
+    rdfs:label "国家住院医师匹配计划"@zh ;
+    airo:hasRisk ex:LaborMarketDistortionRisk ;
+    airo:isAppliedWithinDomain ex:HealthcareLaborMarket ;
+    airo:hasStakeholder ex:MedicalResidents .
+
+ex:LaborMarketDistortionRisk rdf:type airo:Risk ;
+    rdfs:label "Labor Market Distortion Risk"@en ;
+    rdfs:label "劳动力市场扭曲风险"@zh .
+
+ex:MedicalResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Medical Residents"@en ;
+    rdfs:label "住院医师"@zh .
+
+ex:HealthcareLaborMarket rdf:type airo:Domain ;
+    rdfs:label "Healthcare Labor Market"@en ;
+    rdfs:label "医疗劳动力市场"@zh .

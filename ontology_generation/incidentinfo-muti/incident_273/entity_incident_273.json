@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GrabDriverAllocationSystem",
+      "中文名称": "Grab司机分配系统",
+      "英文名称": "Grab Driver Allocation System",
+      "来源": "Grab accused of offering preferential treatment to drivers in its rental program"
+    },
+    "Risk": {
+      "id": "DriverDiscriminationRisk",
+      "中文名称": "司机歧视风险",
+      "英文名称": "Driver Discrimination Risk",
+      "来源": "Grab fined $2m by Indonesia's competition watchdog over driver discrimination"
+    },
+    "Stakeholder": {
+      "id": "IndonesianCompetitionWatchdog",
+      "中文名称": "印尼竞争监管机构",
+      "英文名称": "Indonesian Competition Watchdog",
+      "来源": "Indonesia competition watchdog accuses Grab of offering some drivers special treatment"
+    },
+    "Consequence": {
+      "id": "UnfairMarketCompetition",
+      "中文名称": "不公平市场竞争后果",
+      "英文名称": "Unfair Market Competition Consequence",
+      "来源": "Grab fined $2m by Indonesia's competition watchdog over driver discrimination"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲影响",
+      "英文名称": "Market Distortion Impact",
+      "来源": "Grab accused of offering preferential treatment to drivers in its rental program"
+    },
+    "AIOperator": {
+      "id": "Grab",
+      "中文名称": "Grab公司",
+      "英文名称": "Grab",
+      "来源": "Grab accused of offering preferential treatment to drivers in its rental program"
+    },
+    "Domain": {
+      "id": "RideHailingService",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Ride-Hailing Service Domain",
+      "来源": "Grab accused of offering preferential treatment to drivers in its rental program"
+    }
+  }
+}

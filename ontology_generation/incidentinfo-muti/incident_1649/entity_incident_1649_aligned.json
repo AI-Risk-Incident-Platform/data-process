@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSGE",
+      "中文名称": "谷歌搜索生成体验",
+      "英文名称": "Google AI Search",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    },
+    "Risk": {
+      "id": "ContentMisinformationRisk",
+      "中文名称": "内容误导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Consequence": {
+      "id": "NewsSiteRevenueLoss",
+      "中文名称": "新闻网站收入损失后果",
+      "英文名称": "News Site Revenue Loss Consequence",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Impact": {
+      "id": "JournalismIndustryDisruption",
+      "中文名称": "新闻行业破坏影响",
+      "英文名称": "News Industry Financial Impact",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "RiskSource": {
+      "id": "AIAnswerSummarization",
+      "中文名称": "AI答案摘要风险源",
+      "英文名称": "AI Answer Summarization Risk Source",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Hazard": {
+      "id": "OffensiveContentGeneration",
+      "中文名称": "冒犯性内容生成危害",
+      "英文名称": "Unverified Content Hazard",
+      "来源": "Google Bard and SGE AI accused of ‘promoting benefits of fascism, and genocide’ and said ‘slavery was good for economy’"
+    },
+    "AICapability": {
+      "id": "ControversialTopicHandling",
+      "中文名称": "争议话题处理能力",
+      "英文名称": "Controversial Topic Handling Capability",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    },
+    "Purpose": {
+      "id": "EnhancedSearchExperience",
+      "中文名称": "增强搜索体验目的",
+      "英文名称": "Enhanced Search Purpose",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSGE",
+      "中文名称": "谷歌搜索生成体验",
+      "英文名称": "Google AI Search",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    },
+    "Risk": {
+      "id": "ContentMisinformationRisk",
+      "中文名称": "内容误导风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Consequence": {
+      "id": "NewsSiteRevenueLoss",
+      "中文名称": "新闻网站收入损失后果",
+      "英文名称": "News Site Revenue Loss Consequence",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Impact": {
+      "id": "JournalismIndustryDisruption",
+      "中文名称": "新闻行业破坏影响",
+      "英文名称": "News Industry Financial Impact",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Stakeholder": {
+      "id": "NewsPublishers",
+      "中文名称": "新闻出版商",
+      "英文名称": "News Orgs",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "RiskSource": {
+      "id": "AIAnswerSummarization",
+      "中文名称": "AI答案摘要风险源",
+      "英文名称": "AI Answer Summarization Risk Source",
+      "来源": "Google’s new AI-powered search results are ripping off news sites"
+    },
+    "Hazard": {
+      "id": "OffensiveContentGeneration",
+      "中文名称": "冒犯性内容生成危害",
+      "英文名称": "Unverified Content Hazard",
+      "来源": "Google Bard and SGE AI accused of ‘promoting benefits of fascism, and genocide’ and said ‘slavery was good for economy’"
+    },
+    "AICapability": {
+      "id": "ControversialTopicHandling",
+      "中文名称": "争议话题处理能力",
+      "英文名称": "Controversial Topic Handling Capability",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    },
+    "Purpose": {
+      "id": "EnhancedSearchExperience",
+      "中文名称": "增强搜索体验目的",
+      "英文名称": "Enhanced Search Purpose",
+      "来源": "How Google SGE Handles Controversial Questions and Topics"
+    }
+  }
+}

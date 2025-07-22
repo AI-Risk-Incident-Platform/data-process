@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NetflixAIAnimeShort rdf:type airo:AISystem ;
+    rdfs:label "Netflix AI Anime Short"@en ;
+    rdfs:label "Netflix AI动画短片"@zh ;
+    airo:hasRisk ex:PublicOutrageOverAIUseInCreativeWorks ;
+    airo:isDevelopedBy ex:WitStudio ;
+    airo:hasStakeholder ex:AnimeFans ;
+    airo:isDeployedBy ex:Netflix ;
+    airo:hasPurpose ex:CostReductionInAnimationProduction ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustryDomain .
+
+ex:PublicOutrageOverAIUseInCreativeWorks rdf:type airo:Risk ;
+    rdfs:label "Public Outrage Over AI Use in Creative Works Risk"@en ;
+    rdfs:label "公众对AI用于创意作品的愤怒风险"@zh ;
+    airo:isRiskSourceFor ex:LaborShortage ;
+    airo:hasConsequence ex:CreativeIndustryJobDisplacement .
+
+ex:AnimeFans rdf:type airo:Stakeholder ;
+    rdfs:label "Anime Fans"@en ;
+    rdfs:label "动漫粉丝"@zh .
+
+ex:Netflix rdf:type airo:AIOperator ;
+    rdfs:label "Netflix"@en ;
+    rdfs:label "Netflix"@zh .
+
+ex:WitStudio rdf:type airo:AIDeveloper ;
+    rdfs:label "Wit Studio"@en ;
+    rdfs:label "Wit工作室"@zh .
+
+ex:LaborShortage rdf:type airo:RiskSource ;
+    rdfs:label "Labor Shortage"@en ;
+    rdfs:label "劳动力短缺"@zh .
+
+ex:CreativeIndustryJobDisplacement rdf:type airo:Consequence ;
+    rdfs:label "Creative Industry Job Displacement Consequence"@en ;
+    rdfs:label "创意产业工作替代后果"@zh ;
+    airo:hasImpact ex:ArtisticQualityConcerns .
+
+ex:ArtisticQualityConcerns rdf:type airo:Impact ;
+    rdfs:label "Artistic Quality Concerns Impact"@en ;
+    rdfs:label "艺术质量担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AnimeFans .
+
+ex:CostReductionInAnimationProduction rdf:type airo:Purpose ;
+    rdfs:label "Cost Reduction in Animation Production Purpose"@en ;
+    rdfs:label "动画制作成本降低目的"@zh .
+
+ex:EntertainmentIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Entertainment Industry Domain"@en ;
+    rdfs:label "娱乐产业领域"@zh .

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FatherJustinAIPriest",
+      "中文名称": "虚拟AI神父'Father Justin'",
+      "英文名称": "Father Justin AI Priest",
+      "来源": "Virtual AI priest 'Father Justin' who believes he's REAL and can absolve your sins"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfReligiousAuthority",
+      "中文名称": "宗教权威误传风险",
+      "英文名称": "Misrepresentation of Religious Authority Risk",
+      "来源": "faces backlash over bizarre answers"
+    },
+    "Stakeholder": {
+      "id": "CatholicAnswers",
+      "中文名称": "天主教解答组织",
+      "英文名称": "Catholic Answers",
+      "来源": "Catholic Answers Pulls Plug on 'Father Justin' AI Priest"
+    },
+    "AIOperator": {
+      "id": "UnnamedDeveloper",
+      "中文名称": "未具名开发者",
+      "英文名称": "Unnamed Developer",
+      "来源": "AI priest defrocked by developer after taking confessions like real priest"
+    },
+    "Misuse": {
+      "id": "SimulatingSacramentalFunctions",
+      "中文名称": "模拟圣礼功能滥用",
+      "英文名称": "Simulating Sacramental Functions Misuse",
+      "来源": "taking confessions like real priest"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "faces backlash over bizarre answers"
+    },
+    "Purpose": {
+      "id": "ReligiousGuidance",
+      "中文名称": "宗教指导目的",
+      "英文名称": "Religious Support",
+      "来源": "can absolve your sins"
+    },
+    "Domain": {
+      "id": "ReligiousServices",
+      "中文名称": "宗教服务领域",
+      "英文名称": "Religious Services",
+      "来源": "Virtual AI priest"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FatherJustinAIPriest",
+      "中文名称": "虚拟AI神父'Father Justin'",
+      "英文名称": "Father Justin AI Priest",
+      "来源": "Virtual AI priest 'Father Justin' who believes he's REAL and can absolve your sins"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfReligiousAuthority",
+      "中文名称": "宗教权威误传风险",
+      "英文名称": "Misrepresentation of Religious Authority Risk",
+      "来源": "faces backlash over bizarre answers"
+    },
+    "Stakeholder": {
+      "id": "CatholicAnswers",
+      "中文名称": "天主教解答组织",
+      "英文名称": "Catholic Answers",
+      "来源": "Catholic Answers Pulls Plug on 'Father Justin' AI Priest"
+    },
+    "AIOperator": {
+      "id": "UnnamedDeveloper",
+      "中文名称": "未具名开发者",
+      "英文名称": "Unnamed Developer",
+      "来源": "AI priest defrocked by developer after taking confessions like real priest"
+    },
+    "Misuse": {
+      "id": "SimulatingSacramentalFunctions",
+      "中文名称": "模拟圣礼功能滥用",
+      "英文名称": "Simulating Sacramental Functions Misuse",
+      "来源": "taking confessions like real priest"
+    },
+    "Consequence": {
+      "id": "PublicBacklash",
+      "中文名称": "公众强烈反对后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "faces backlash over bizarre answers"
+    },
+    "Purpose": {
+      "id": "ReligiousGuidance",
+      "中文名称": "宗教指导目的",
+      "英文名称": "Religious Support",
+      "来源": "can absolve your sins"
+    },
+    "Domain": {
+      "id": "ReligiousServices",
+      "中文名称": "宗教服务领域",
+      "英文名称": "Religious Services",
+      "来源": "Virtual AI priest"
+    }
+  }
+}

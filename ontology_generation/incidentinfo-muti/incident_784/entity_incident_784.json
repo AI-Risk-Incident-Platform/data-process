@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeContentRecommendationSystem",
+      "中文名称": "YouTube内容推荐系统",
+      "英文名称": "YouTube Content Recommendation System",
+      "来源": "Tens of thousands of viewers watched a fake Apple crypto scam on YouTube"
+    },
+    "Risk": {
+      "id": "FinancialScamRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Fraudsters Promote Apple Crypto Scam on YouTube, Seemingly Endorsed by Tim Cook"
+    },
+    "Stakeholder": {
+      "id": "YouTubeViewers",
+      "中文名称": "YouTube观众",
+      "英文名称": "YouTube Viewers",
+      "来源": "Tens of thousands of viewers watched a fake Apple crypto scam"
+    },
+    "AIOperator": {
+      "id": "YouTube",
+      "中文名称": "YouTube",
+      "英文名称": "YouTube",
+      "来源": "Fraudsters Promote Apple Crypto Scam on YouTube"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Fraudsters Promote Apple Crypto Scam"
+    },
+    "RiskSource": {
+      "id": "FakeEndorsement",
+      "中文名称": "虚假代言风险源",
+      "英文名称": "Fake Endorsement Risk Source",
+      "来源": "Seemingly Endorsed by Tim Cook"
+    },
+    "Impact": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀影响",
+      "英文名称": "Trust Erosion Impact",
+      "来源": "Fraudsters Promote Apple Crypto Scam on YouTube"
+    }
+  }
+}

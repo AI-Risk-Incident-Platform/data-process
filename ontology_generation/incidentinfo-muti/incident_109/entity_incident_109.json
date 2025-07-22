@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbot",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI chatbot mired in legal dispute over data collection"
+    },
+    "Risk": {
+      "id": "DataCollectionLegalDisputeRisk",
+      "中文名称": "数据收集法律纠纷风险",
+      "英文名称": "Data Collection Legal Dispute Risk",
+      "来源": "AI chatbot mired in legal dispute over data collection"
+    },
+    "Stakeholder": {
+      "id": "LegalAuthorities",
+      "中文名称": "法律机构",
+      "英文名称": "Legal Authorities",
+      "来源": "AI chatbot mired in legal dispute over data collection"
+    },
+    "RiskSource": {
+      "id": "DataCollectionPractices",
+      "中文名称": "数据收集行为",
+      "英文名称": "Data Collection Practices",
+      "来源": "AI chatbot mired in legal dispute over data collection"
+    }
+  }
+}

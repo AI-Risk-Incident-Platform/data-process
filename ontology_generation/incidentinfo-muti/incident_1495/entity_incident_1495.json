@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SaudiArabiaMaleRobot",
+      "中文名称": "沙特阿拉伯男性机器人",
+      "英文名称": "Saudi Arabia Male Robot",
+      "来源": "Saudi Arabia's First Male Robot Touches Female Reporter, Sparks Outrage"
+    },
+    "Risk": {
+      "id": "InappropriatePhysicalContactRisk",
+      "中文名称": "不当身体接触风险",
+      "英文名称": "Inappropriate Physical Contact Risk",
+      "来源": "Saudi Arabia's First Male Robot Touches Female Reporter, Sparks Outrage"
+    },
+    "Consequence": {
+      "id": "PublicOutrage",
+      "中文名称": "公众愤怒后果",
+      "英文名称": "Public Outrage Consequence",
+      "来源": "Sparks Outrage"
+    },
+    "AISubject": {
+      "id": "FemaleReporter",
+      "中文名称": "女性记者",
+      "英文名称": "Female Reporter",
+      "来源": "Touches Female Reporter"
+    },
+    "Impact": {
+      "id": "SocialControversy",
+      "中文名称": "社会争议影响",
+      "英文名称": "Social Controversy Impact",
+      "来源": "Sparks Outrage"
+    },
+    "Stakeholder": {
+      "id": "SaudiArabiaPublic",
+      "中文名称": "沙特阿拉伯公众",
+      "英文名称": "Saudi Arabia Public",
+      "来源": "Sparks Outrage"
+    },
+    "RiskSource": {
+      "id": "UnintendedPhysicalInteraction",
+      "中文名称": "意外物理互动风险源",
+      "英文名称": "Unintended Physical Interaction Risk Source",
+      "来源": "Touches Female Reporter"
+    }
+  }
+}

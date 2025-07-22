@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepSeekR1AIModel rdf:type airo:AISystem ;
+    rdfs:label "DeepSeek-R1 AI模型"@zh ;
+    rdfs:label "DeepSeek-R1 AI Model"@en ;
+    airo:hasRisk ex:GlobalThreatFromAIVulnerabilities ;
+    airo:hasCapability ex:ThreatDetectionAcceleration ;
+    airo:hasVulnerability ex:UnspecifiedSecurityVulnerabilities ;
+    airo:hasStakeholder ex:ItalianAuthorities .
+
+ex:GlobalThreatFromAIVulnerabilities rdf:type airo:Risk ;
+    rdfs:label "AI漏洞带来的全球威胁风险"@zh ;
+    rdfs:label "Global Threat from AI Vulnerabilities Risk"@en ;
+    airo:hasImpact ex:NationalSecurityConcerns ;
+    airo:isRiskSourceFor ex:UnspecifiedSecurityVulnerabilities .
+
+ex:UnspecifiedSecurityVulnerabilities rdf:type airo:Vulnerability ;
+    rdfs:label "未明确的安全漏洞"@zh ;
+    rdfs:label "Unspecified Security Vulnerabilities"@en .
+
+ex:ItalianAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "意大利当局"@zh ;
+    rdfs:label "Italian Authorities"@en .
+
+ex:NationalSecurityConcerns rdf:type airo:Impact ;
+    rdfs:label "国家安全担忧"@zh ;
+    rdfs:label "National Security Concerns"@en ;
+    airo:hasImpactOnStakeholder ex:ItalianAuthorities .
+
+ex:ThreatDetectionAcceleration rdf:type airo:AICapability ;
+    rdfs:label "威胁检测加速能力"@zh ;
+    rdfs:label "Threat Detection Acceleration Capability"@en .

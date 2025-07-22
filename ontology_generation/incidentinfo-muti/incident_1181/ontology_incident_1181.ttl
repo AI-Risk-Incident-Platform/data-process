@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedLegalResearchTool rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Legal Research Tool"@en ;
+    rdfs:label "AI生成法律研究工具"@zh ;
+    airo:hasRisk ex:LegalMisinformationRisk ;
+    airo:hasAICapability ex:LegalCaseGeneration ;
+    airo:hasPurpose ex:LegalResearchAssistance ;
+    airo:isAppliedWithinDomain ex:LegalServices ;
+    airo:usesTechnique ex:NaturalLanguageGeneration ;
+    airo:hasStakeholder ex:LegalProfessionals ;
+    airo:hasVulnerability ex:FactVerificationAbsence ;
+    airo:hasMisuse ex:CourtDocumentFabrication .
+
+ex:LegalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Misinformation Risk"@en ;
+    rdfs:label "法律信息错误风险"@zh ;
+    airo:hasConsequence ex:JudicialSystemDisruption .
+
+ex:JudicialSystemDisruption rdf:type airo:Consequence ;
+    rdfs:label "Judicial System Disruption Consequence"@en ;
+    rdfs:label "司法系统干扰后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationDamage .
+
+ex:LegalCaseGeneration rdf:type airo:AICapability ;
+    rdfs:label "Legal Case Generation Capability"@en ;
+    rdfs:label "法律案例生成能力"@zh .
+
+ex:LegalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "Legal Professionals"@en ;
+    rdfs:label "法律专业人士"@zh .
+
+ex:ProfessionalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Damage Impact"@en ;
+    rdfs:label "职业声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalProfessionals .
+
+ex:LegalResearchAssistance rdf:type airo:Purpose ;
+    rdfs:label "Legal Research Assistance Purpose"@en ;
+    rdfs:label "法律研究辅助目的"@zh .
+
+ex:LegalServices rdf:type airo:Domain ;
+    rdfs:label "Legal Services Domain"@en ;
+    rdfs:label "法律服务领域"@zh .
+
+ex:NaturalLanguageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:FactVerificationAbsence rdf:type airo:Vulnerability ;
+    rdfs:label "Fact Verification Absence Vulnerability"@en ;
+    rdfs:label "事实核查缺失漏洞"@zh .
+
+ex:CourtDocumentFabrication rdf:type airo:Misuse ;
+    rdfs:label "Court Document Fabrication Misuse"@en ;
+    rdfs:label "法庭文件伪造滥用"@zh .

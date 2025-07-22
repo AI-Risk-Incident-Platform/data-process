@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VGG_Face_Recognition_System rdf:type airo:AISystem ;
+    rdfs:label "VGG Face Recognition System"@en ;
+    rdfs:label "VGG人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyRisk ;
+    airo:hasCapability ex:FaceRecognition ;
+    airo:usesTechnique ex:DeepLearning ;
+    airo:hasPurpose ex:IdentityVerification .
+
+ex:PrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Risk"@en ;
+    rdfs:label "隐私风险"@zh .
+
+ex:FaceRecognition rdf:type airo:AICapability ;
+    rdfs:label "Face Recognition Capability"@en ;
+    rdfs:label "人脸识别能力"@zh .
+
+ex:DeepLearning rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Technique"@en ;
+    rdfs:label "深度学习技术"@zh .
+
+ex:IdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Identity Verification Purpose"@en ;
+    rdfs:label "身份验证目的"@zh .

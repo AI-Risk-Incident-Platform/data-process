@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoCreationTool",
+      "中文名称": "深度伪造视频制作工具",
+      "英文名称": "Deepfake Video Creation Tool",
+      "来源": "Doctored video falsely claims Nigerian doctor has ‘created’ drug that cures high blood pressure forever"
+    },
+    "Risk": {
+      "id": "MedicalMisinformationRisk",
+      "中文名称": "医疗虚假信息风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Doctored video falsely claims Nigerian doctor has ‘created’ drug that cures high blood pressure forever"
+    },
+    "Consequence": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁后果",
+      "英文名称": "Public Health Threat Consequence",
+      "来源": "false claims about a drug that cures high blood pressure forever"
+    },
+    "Impact": {
+      "id": "PatientHarmFromFalseTreatment",
+      "中文名称": "虚假治疗导致患者伤害的影响",
+      "英文名称": "Patient Harm From False Treatment Impact",
+      "来源": "false claims about a drug that cures high blood pressure forever"
+    },
+    "AITechnique": {
+      "id": "DeepfakeVideoSynthesis",
+      "中文名称": "深度伪造视频合成技术",
+      "英文名称": "Deepfake Video Synthesis Technique",
+      "来源": "Doctored video falsely claims Nigerian doctor has ‘created’ drug"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容制作风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "Doctored video falsely claims Nigerian doctor has ‘created’ drug"
+    },
+    "Purpose": {
+      "id": "DeceptiveMedicalClaims",
+      "中文名称": "欺骗性医疗声明的目的",
+      "英文名称": "Deceptive Medical Claims Purpose",
+      "来源": "falsely claims Nigerian doctor has ‘created’ drug that cures high blood pressure forever"
+    },
+    "Domain": {
+      "id": "HealthcareInformation",
+      "中文名称": "医疗健康信息领域",
+      "英文名称": "Healthcare Information Domain",
+      "来源": "claims about a drug that cures high blood pressure"
+    }
+  }
+}

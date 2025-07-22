@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Inside the Case of Lawmaker Who Discovered Intimate 'Deepfake' Photos of Her Were Circulating Online"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndReputationDamage",
+      "中文名称": "隐私侵犯与名誉损害风险",
+      "英文名称": "Privacy Violation and Reputation Damage Risk",
+      "来源": "Intimate 'Deepfake' Photos of Her Were Circulating Online"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯后果",
+      "英文名称": "Personal Privacy Violation Consequence",
+      "来源": "Intimate 'Deepfake' Photos of Her Were Circulating Online"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "Intimate 'Deepfake' Photos of Her Were Circulating Online"
+    },
+    "AISubject": {
+      "id": "Lawmaker",
+      "中文名称": "立法者",
+      "英文名称": "Lawmaker",
+      "来源": "Lawmaker Who Discovered Intimate 'Deepfake' Photos of Her"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "Deepfake photos"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创建风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "Intimate 'Deepfake' Photos of Her Were Circulating Online"
+    },
+    "Purpose": {
+      "id": "ImageManipulation",
+      "中文名称": "图像操纵目的",
+      "英文名称": "Image Manipulation Purpose",
+      "来源": "Deepfake photos"
+    },
+    "Domain": {
+      "id": "PoliticalAndPublicFigures",
+      "中文名称": "政治与公众人物领域",
+      "英文名称": "Political and Public Figures Domain",
+      "来源": "Lawmaker Who Discovered Intimate 'Deepfake' Photos"
+    }
+  }
+}

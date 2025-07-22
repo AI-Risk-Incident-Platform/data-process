@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookAISystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook AI System"@en ;
+    rdfs:label "Facebook人工智能系统"@zh ;
+    airo:hasRisk ex:UnfairContentModerationRisk ;
+    airo:hasCapability ex:ContentModerationAlgorithmCapability ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:hasPurpose ex:AutomatedContentModerationPurpose ;
+    airo:hasStakeholder ex:HundredHeroinesCharity ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformsDomain ;
+    airo:usesTechnique ex:MachineLearningBasedModerationTechnique ;
+    airo:hasVulnerability ex:GenderBiasInTrainingDataVulnerability .
+
+ex:UnfairContentModerationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Content Moderation Risk"@en ;
+    rdfs:label "不公平内容审核风险"@zh ;
+    airo:hasConsequence ex:CharityAccountBanConsequence ;
+    airo:isRiskSourceFor ex:LackOfHumanReviewRiskSource ;
+    airo:isRiskSourceFor ex:OverrelianceOnAutomatedSystemsThreat ;
+    airo:isRiskSourceFor ex:PoorlyTrainedContentFiltersHazard .
+
+ex:CharityAccountBanConsequence rdf:type airo:Consequence ;
+    rdfs:label "Charity Account Ban Consequence"@en ;
+    rdfs:label "慈善机构账号被封禁的后果"@zh ;
+    airo:hasImpact ex:NegativePublicityForFacebookImpact .
+
+ex:ContentModerationAlgorithmCapability rdf:type airo:AICapability ;
+    rdfs:label "Content Moderation Algorithm Capability"@en ;
+    rdfs:label "内容审核算法能力"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:HundredHeroinesCharity rdf:type airo:Stakeholder ;
+    rdfs:label "Hundred Heroines Charity"@en ;
+    rdfs:label "百位女英雄慈善机构"@zh .
+
+ex:NegativePublicityForFacebookImpact rdf:type airo:Impact ;
+    rdfs:label "Negative Publicity for Facebook Impact"@en ;
+    rdfs:label "Facebook负面公众形象的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HundredHeroinesCharity .
+
+ex:AutomatedContentModerationPurpose rdf:type airo:Purpose ;
+    rdfs:label "Automated Content Moderation Purpose"@en ;
+    rdfs:label "自动化内容审核的目的"@zh .
+
+ex:SocialMediaPlatformsDomain rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:MachineLearningBasedModerationTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Machine Learning Based Moderation Technique"@en ;
+    rdfs:label "基于机器学习的内容审核技术"@zh .
+
+ex:GenderBiasInTrainingDataVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Gender Bias in Training Data Vulnerability"@en ;
+    rdfs:label "训练数据中的性别偏见脆弱性"@zh .
+
+ex:OverrelianceOnAutomatedSystemsThreat rdf:type airo:Threat ;
+    rdfs:label "Overreliance on Automated Systems Threat"@en ;
+    rdfs:label "过度依赖自动化系统的威胁"@zh .
+
+ex:PoorlyTrainedContentFiltersHazard rdf:type airo:Hazard ;
+    rdfs:label "Poorly Trained Content Filters Hazard"@en ;
+    rdfs:label "训练不足的内容过滤器危害"@zh .
+
+ex:LackOfHumanReviewRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Review Risk Source"@en ;
+    rdfs:label "缺乏人工审核的风险源"@zh .
+
+ex:AlgorithmicBiasInSocialMediaRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Algorithmic Bias in Social Media Risk Concept"@en ;
+    rdfs:label "社交媒体中的算法偏见"@zh .

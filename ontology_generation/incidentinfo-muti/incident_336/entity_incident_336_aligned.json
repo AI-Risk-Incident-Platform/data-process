@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousVehicleBrakingSystem",
+      "中文名称": "自动驾驶车辆制动系统",
+      "英文名称": "Autonomous Vehicle Braking System",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Risk": {
+      "id": "SuddenBrakingRisk",
+      "中文名称": "突然制动风险",
+      "英文名称": "Sudden Braking Risk",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "AICapability": {
+      "id": "ObstacleDetectionAndResponse",
+      "中文名称": "障碍物检测与响应能力",
+      "英文名称": "Object Detection & Avoidance",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Stakeholder": {
+      "id": "VehiclePassengers",
+      "中文名称": "车辆乘客",
+      "英文名称": "Vehicle Pax",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Impact": {
+      "id": "PassengerDiscomfortOrInjury",
+      "中文名称": "乘客不适或受伤影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutonomousVehicleBrakingSystem",
+      "中文名称": "自动驾驶车辆制动系统",
+      "英文名称": "Autonomous Vehicle Braking System",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Risk": {
+      "id": "SuddenBrakingRisk",
+      "中文名称": "突然制动风险",
+      "英文名称": "Sudden Braking Risk",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "AICapability": {
+      "id": "ObstacleDetectionAndResponse",
+      "中文名称": "障碍物检测与响应能力",
+      "英文名称": "Object Detection & Avoidance",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Stakeholder": {
+      "id": "VehiclePassengers",
+      "中文名称": "车辆乘客",
+      "英文名称": "Vehicle Pax",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    },
+    "Impact": {
+      "id": "PassengerDiscomfortOrInjury",
+      "中文名称": "乘客不适或受伤影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "Artificial Intelligence Slams on the Brakes"
+    }
+  }
+}

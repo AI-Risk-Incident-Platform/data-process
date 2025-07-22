@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:AcademicIntegrityRisk ;
+    airo:hasAISubject ex:Students ;
+    airo:hasPurpose ex:EducationalAssistance ;
+    airo:isAppliedWithinDomain ex:HigherEducation ;
+    airo:hasStakeholder ex:Professors .
+
+ex:AcademicIntegrityRisk rdf:type airo:Risk ;
+    rdfs:label "Academic Integrity Risk"@en ;
+    rdfs:label "学术诚信风险"@zh .
+
+ex:Professors rdf:type airo:Stakeholder ;
+    rdfs:label "Professors"@en ;
+    rdfs:label "教授"@zh .
+
+ex:Students rdf:type airo:AISubject ;
+    rdfs:label "Students"@en ;
+    rdfs:label "学生"@zh .
+
+ex:EducationalAssistance rdf:type airo:Purpose ;
+    rdfs:label "Educational Assistance"@en ;
+    rdfs:label "教育辅助"@zh .
+
+ex:HigherEducation rdf:type airo:Domain ;
+    rdfs:label "Higher Education"@en ;
+    rdfs:label "高等教育"@zh .

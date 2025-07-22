@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionForCOVID19Tracking rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition for COVID-19 Tracking"@en ;
+    rdfs:label "面部识别用于COVID-19追踪"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasPurpose ex:COVID19CaseTracking ;
+    airo:hasStakeholder ex:LocalGovernmentsInSKorea .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:LocalGovernmentsInSKorea rdf:type airo:Stakeholder ;
+    rdfs:label "Local Governments in S. Korea"@en ;
+    rdfs:label "韩国地方政府"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:COVID19CaseTracking rdf:type airo:Purpose ;
+    rdfs:label "COVID-19 Case Tracking"@en ;
+    rdfs:label "COVID-19病例追踪"@zh .

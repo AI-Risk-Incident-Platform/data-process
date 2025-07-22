@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedPopeImage rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Pope Image"@en ;
+    rdfs:label "AI生成教皇图像"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasStakeholder ex:PopeFrancis .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicDeception ;
+    airo:isRiskSourceFor ex:UnregulatedAIContentCreation .
+
+ex:PublicDeception rdf:type airo:Consequence ;
+    rdfs:label "Public Deception Consequence"@en ;
+    rdfs:label "公众欺骗后果"@zh ;
+    airo:hasImpact ex:TrustErosionInPublicFigures .
+
+ex:TrustErosionInPublicFigures rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Public Figures Impact"@en ;
+    rdfs:label "公众人物信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PopeFrancis .
+
+ex:PopeFrancis rdf:type airo:Stakeholder ;
+    rdfs:label "Pope Francis"@en ;
+    rdfs:label "教皇方济各"@zh .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Image Generation Technique"@en ;
+    rdfs:label "深度伪造图像生成技术"@zh .
+
+ex:UnregulatedAIContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated AI Content Creation Risk Source"@en ;
+    rdfs:label "不受监管的AI内容创作风险源"@zh .

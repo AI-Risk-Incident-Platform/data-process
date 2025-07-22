@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GooglePhotosAIPanorama",
+      "中文名称": "谷歌照片AI全景功能",
+      "英文名称": "Google Photos AI Panorama",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "Risk": {
+      "id": "PanoramaProcessingFailureRisk",
+      "中文名称": "全景处理失败风险",
+      "英文名称": "Panorama Processing Failure Risk",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "AICapability": {
+      "id": "ImageStitchingCapability",
+      "中文名称": "图像拼接能力",
+      "英文名称": "Image Stitching Capability",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "AIProvider": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "Purpose": {
+      "id": "CreateSeamlessPanoramicPhotos",
+      "中文名称": "创建无缝全景照片",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GooglePhotosAIPanorama",
+      "中文名称": "谷歌照片AI全景功能",
+      "英文名称": "Google Photos AI Panorama",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "Risk": {
+      "id": "PanoramaProcessingFailureRisk",
+      "中文名称": "全景处理失败风险",
+      "英文名称": "Panorama Processing Failure Risk",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "AICapability": {
+      "id": "ImageStitchingCapability",
+      "中文名称": "图像拼接能力",
+      "英文名称": "Image Stitching Capability",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "AIProvider": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    },
+    "Purpose": {
+      "id": "CreateSeamlessPanoramicPhotos",
+      "中文名称": "创建无缝全景照片",
+      "英文名称": "Photo/Image Editing & Enhancement",
+      "来源": "Google Photos’ AI Panorama Failed in the Best Way"
+    }
+  }
+}

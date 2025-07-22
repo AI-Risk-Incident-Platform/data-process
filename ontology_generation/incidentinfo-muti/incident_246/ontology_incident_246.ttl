@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TwitterBotSystem rdf:type airo:AISystem ;
+    rdfs:label "Twitter Bot System"@en ;
+    rdfs:label "推特机器人系统"@zh ;
+    airo:hasRisk ex:MisinformationCampaignRisk ;
+    airo:usesTechnique ex:AutomatedSocialMediaPosting ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:MisinformationCampaignRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Campaign Risk"@en ;
+    rdfs:label "虚假信息宣传活动风险"@zh ;
+    airo:isRiskSourceFor ex:BotAccounts ;
+    airo:hasImpact ex:PublicOpinionManipulation .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:AutomatedSocialMediaPosting rdf:type airo:AITechnique ;
+    rdfs:label "Automated Social Media Posting Technique"@en ;
+    rdfs:label "自动化社交媒体发布技术"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Impact ;
+    rdfs:label "Public Opinion Manipulation Impact"@en ;
+    rdfs:label "公众舆论操纵影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:BotAccounts rdf:type airo:RiskSource ;
+    rdfs:label "Bot Accounts Risk Source"@en ;
+    rdfs:label "机器人账户风险源"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

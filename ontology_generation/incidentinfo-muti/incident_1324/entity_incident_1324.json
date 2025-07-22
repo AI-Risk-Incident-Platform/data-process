@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NvidiaVideoAI",
+      "中文名称": "Nvidia视频AI",
+      "英文名称": "Nvidia Video AI",
+      "来源": "Nvidia working on AI for videos"
+    },
+    "Risk": {
+      "id": "DataScrapingEthicalConcerns",
+      "中文名称": "数据抓取伦理问题风险",
+      "英文名称": "Data Scraping Ethical Concerns Risk",
+      "来源": "it scrapped Netflix and YouTube despite concerns raised by employees"
+    },
+    "Stakeholder": {
+      "id": "NvidiaEmployees",
+      "中文名称": "Nvidia员工",
+      "英文名称": "Nvidia Employees",
+      "来源": "concerns raised by employees"
+    },
+    "AIOperator": {
+      "id": "NvidiaCorporation",
+      "中文名称": "Nvidia公司",
+      "英文名称": "Nvidia Corporation",
+      "来源": "Nvidia working on AI for videos"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataScraping",
+      "中文名称": "未经授权的数据抓取风险源",
+      "英文名称": "Unauthorized Data Scraping Risk Source",
+      "来源": "it scrapped Netflix and YouTube"
+    },
+    "Consequence": {
+      "id": "PotentialCopyrightViolation",
+      "中文名称": "潜在版权侵犯后果",
+      "英文名称": "Potential Copyright Violation Consequence",
+      "来源": "it scrapped Netflix and YouTube"
+    }
+  }
+}

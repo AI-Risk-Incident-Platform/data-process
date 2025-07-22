@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SmartClassroomBehaviorManagementSystem rdf:type airo:AISystem ;
+    rdfs:label "Smart Classroom Behavior Management System"@en ;
+    rdfs:label "智慧课堂行为管理系统"@zh ;
+    airo:hasRisk ex:PrivacyConcernsFromFacialRecognition ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasAISubject ex:StudentsInClassrooms ;
+    airo:hasPurpose ex:StudentBehaviorMonitoring ;
+    airo:isAppliedWithinDomain ex:EducationSystem .
+
+ex:PrivacyConcernsFromFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Privacy Concerns from Facial Recognition Risk"@en ;
+    rdfs:label "面部识别引发的隐私担忧风险"@zh ;
+    airo:isRiskSourceFor ex:ContinuousSurveillance ;
+    airo:hasConsequence ex:PotentialPrivacyViolation .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:StudentsInClassrooms rdf:type airo:AISubject ;
+    rdfs:label "Students in Classrooms"@en ;
+    rdfs:label "课堂学生"@zh .
+
+ex:StudentBehaviorMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Student Behavior Monitoring"@en ;
+    rdfs:label "学生行为监控"@zh .
+
+ex:PotentialPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Potential Privacy Violation Impact"@en ;
+    rdfs:label "潜在隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:StudentsInClassrooms .
+
+ex:EducationSystem rdf:type airo:Domain ;
+    rdfs:label "Education System Domain"@en ;
+    rdfs:label "教育系统领域"@zh .
+
+ex:ContinuousSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Continuous Surveillance Risk Source"@en ;
+    rdfs:label "持续监控风险源"@zh .

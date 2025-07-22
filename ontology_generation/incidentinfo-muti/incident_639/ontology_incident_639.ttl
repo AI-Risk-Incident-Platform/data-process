@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AirCanadaChatbot rdf:type airo:AISystem ;
+    rdfs:label "加拿大航空聊天机器人"@zh ;
+    rdfs:label "Air Canada Chatbot"@en ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:CustomerService ;
+    airo:isDeployedBy ex:AirCanada ;
+    airo:hasStakeholder ex:Passenger .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "错误信息风险"@zh ;
+    rdfs:label "Misinformation Risk"@en ;
+    airo:isRiskSourceFor ex:IncorrectInformation ;
+    airo:hasConsequence ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "经济损失后果"@zh ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    airo:hasImpact ex:LegalLiability .
+
+ex:AirCanada rdf:type airo:AIOperator ;
+    rdfs:label "加拿大航空公司"@zh ;
+    rdfs:label "Air Canada"@en .
+
+ex:Passenger rdf:type airo:Stakeholder ;
+    rdfs:label "乘客"@zh ;
+    rdfs:label "Passenger"@en .
+
+ex:LegalLiability rdf:type airo:Impact ;
+    rdfs:label "法律责任影响"@zh ;
+    rdfs:label "Legal Liability Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Passenger .
+
+ex:CustomerService rdf:type airo:Purpose ;
+    rdfs:label "客户服务目的"@zh ;
+    rdfs:label "Customer Service Purpose"@en .
+
+ex:IncorrectInformation rdf:type airo:RiskSource ;
+    rdfs:label "错误信息风险源"@zh ;
+    rdfs:label "Incorrect Information Risk Source"@en .

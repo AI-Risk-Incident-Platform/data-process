@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "Consequence": {
+      "id": "PedestrianFatality",
+      "中文名称": "行人死亡后果",
+      "英文名称": "Pedestrian Fatality Consequence",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Driving Domain",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "Tesla Lawsuit Filed Over Death of Naibel Benavides Leon"
+    }
+  }
+}

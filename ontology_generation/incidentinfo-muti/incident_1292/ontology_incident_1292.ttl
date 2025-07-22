@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberDynamicPricingSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Dynamic Pricing System"@en ;
+    rdfs:label "优步动态定价系统"@zh ;
+    airo:hasRisk ex:PriceGougingDuringEmergency ;
+    airo:hasStakeholder ex:UberCustomers ;
+    airo:isDeployedBy ex:UberTechnologies ;
+    airo:hasPurpose ex:DemandBasedPricing ;
+    airo:usesTechnique ex:RealTimeDemandAnalysis .
+
+ex:PriceGougingDuringEmergency rdf:type airo:Risk ;
+    rdfs:label "Price Gouging During Emergency Risk"@en ;
+    rdfs:label "紧急情况下的价格欺诈风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:AlgorithmicPricingWithoutHumanOversight .
+
+ex:UberCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Customers"@en ;
+    rdfs:label "优步客户"@zh .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "优步科技"@zh .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众强烈反对后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:AlgorithmicPricingWithoutHumanOversight rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Pricing Without Human Oversight Risk Source"@en ;
+    rdfs:label "无人监督的算法定价风险源"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberCustomers .
+
+ex:DemandBasedPricing rdf:type airo:Purpose ;
+    rdfs:label "Demand-Based Pricing Purpose"@en ;
+    rdfs:label "基于需求的定价目的"@zh .
+
+ex:RealTimeDemandAnalysis rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Demand Analysis Technique"@en ;
+    rdfs:label "实时需求分析技术"@zh .

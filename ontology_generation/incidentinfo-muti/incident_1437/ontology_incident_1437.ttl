@@ -1,0 +1,88 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HuaweiPura70AIEditingTool rdf:type airo:AISystem ;
+    rdfs:label "Huawei Pura 70 Series AI Editing Tool"@en ;
+    rdfs:label "华为Pura 70系列AI编辑工具"@zh ;
+    airo:hasRisk ex:UnintentionalClothingRemovalRisk ;
+    airo:hasCapability ex:ImageEditing ;
+    airo:isDevelopedBy ex:Huawei ;
+    airo:hasStakeholder ex:SmartphoneUsers ;
+    airo:hasAISubject ex:EditedImageSubjects ;
+    airo:hasPurpose ex:PhotoEnhancement ;
+    airo:isAppliedWithinDomain ex:SmartphonePhotography ;
+    airo:usesTechnique ex:GenerativeAI ;
+    airo:hasVulnerability ex:InadequateContentControl .
+
+ex:UnintentionalClothingRemovalRisk rdf:type airo:Risk ;
+    rdfs:label "Unintentional Clothing Removal Risk"@en ;
+    rdfs:label "非故意衣物移除风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:AlgorithmicLimitations , ex:MisuseOfEditingFeatures , ex:UnintendedFeatureBehavior .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation Consequence"@en ;
+    rdfs:label "隐私侵犯后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ImageEditing rdf:type airo:AICapability ;
+    rdfs:label "Image Editing Capability"@en ;
+    rdfs:label "图像编辑能力"@zh .
+
+ex:Huawei rdf:type airo:AIOperator ;
+    rdfs:label "Huawei"@en ;
+    rdfs:label "华为"@zh .
+
+ex:SmartphoneUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Smartphone Users"@en ;
+    rdfs:label "智能手机用户"@zh .
+
+ex:EditedImageSubjects rdf:type airo:AISubject ;
+    rdfs:label "Edited Image Subjects"@en ;
+    rdfs:label "被编辑图像主体"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SmartphoneUsers .
+
+ex:PhotoEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Photo Enhancement Purpose"@en ;
+    rdfs:label "照片增强目的"@zh .
+
+ex:SmartphonePhotography rdf:type airo:Domain ;
+    rdfs:label "Smartphone Photography Domain"@en ;
+    rdfs:label "智能手机摄影领域"@zh .
+
+ex:GenerativeAI rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI Technique"@en ;
+    rdfs:label "生成式AI技术"@zh .
+
+ex:InadequateContentControl rdf:type airo:Vulnerability ;
+    rdfs:label "Inadequate Content Control Vulnerability"@en ;
+    rdfs:label "内容控制不足的脆弱性"@zh .
+
+ex:MisuseOfEditingFeatures rdf:type airo:Threat ;
+    rdfs:label "Misuse of Editing Features Threat"@en ;
+    rdfs:label "编辑功能滥用的威胁"@zh .
+
+ex:UnintendedFeatureBehavior rdf:type airo:Hazard ;
+    rdfs:label "Unintended Feature Behavior Hazard"@en ;
+    rdfs:label "功能意外行为的危害"@zh .
+
+ex:AlgorithmicLimitations rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Limitations Risk Source"@en ;
+    rdfs:label "算法限制的风险源"@zh .
+
+ex:EditedImageSubjects rdf:type airo:AISubject ;
+    rdfs:label "Edited Image Subjects"@en ;
+    rdfs:label "被编辑图像主体"@zh .

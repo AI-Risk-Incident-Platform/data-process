@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIForJournalism rdf:type airo:AISystem ;
+    rdfs:label "AI for Journalism"@en ;
+    rdfs:label "新闻写作AI"@zh ;
+    airo:hasRisk ex:FakeContentGenerationRisk ;
+    airo:hasPurpose ex:AutomatedContentCreation ;
+    airo:isAppliedWithinDomain ex:JournalismIndustry ;
+    airo:hasStakeholder ex:NewsConsumers ;
+    airo:isDeployedBy ex:WyomingReporter .
+
+ex:FakeContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Content Generation Risk"@en ;
+    rdfs:label "虚假内容生成风险"@zh ;
+    airo:hasConsequence ex:JournalisticIntegrityCompromise ;
+    airo:isRiskSourceFor ex:JournalisticAIAbuse .
+
+ex:JournalisticIntegrityCompromise rdf:type airo:Consequence ;
+    rdfs:label "Journalistic Integrity Compromise Consequence"@en ;
+    rdfs:label "新闻诚信受损后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:NewsConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "News Consumers"@en ;
+    rdfs:label "新闻消费者"@zh .
+
+ex:WyomingReporter rdf:type airo:AIOperator ;
+    rdfs:label "Wyoming Reporter"@en ;
+    rdfs:label "怀俄明州记者"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任度下降的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsConsumers .
+
+ex:AutomatedContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Automated Content Creation Purpose"@en ;
+    rdfs:label "自动化内容创作的目的"@zh .
+
+ex:JournalismIndustry rdf:type airo:Domain ;
+    rdfs:label "Journalism Industry Domain"@en ;
+    rdfs:label "新闻行业领域"@zh .
+
+ex:JournalisticAIAbuse rdf:type airo:Misuse ;
+    rdfs:label "Journalistic AI Abuse"@en ;
+    rdfs:label "新闻AI滥用"@zh .

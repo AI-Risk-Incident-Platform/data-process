@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaAISystem rdf:type airo:AISystem ;
+    rdfs:label "Meta人工智能系统"@zh ;
+    rdfs:label "Meta AI System"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:AustralianUsers ;
+    airo:isDeployedBy ex:Meta ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformsDomain ;
+    airo:hasPurpose ex:AITrainingDataCollectionPurpose .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedDataCollectionConsequence .
+
+ex:AustralianUsers rdf:type airo:Stakeholder ;
+    rdfs:label "澳大利亚用户"@zh ;
+    rdfs:label "Australian Users"@en .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta公司"@zh ;
+    rdfs:label "Meta"@en .
+
+ex:UnauthorizedDataCollectionConsequence rdf:type airo:Consequence ;
+    rdfs:label "未经授权的数据收集后果"@zh ;
+    rdfs:label "Unauthorized Data Collection Consequence"@en ;
+    airo:hasImpact ex:UserPrivacyCompromiseImpact .
+
+ex:UserPrivacyCompromiseImpact rdf:type airo:Impact ;
+    rdfs:label "用户隐私泄露影响"@zh ;
+    rdfs:label "User Privacy Compromise Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AustralianUsers .
+
+ex:SocialMediaPlatformsDomain rdf:type airo:Domain ;
+    rdfs:label "社交媒体平台领域"@zh ;
+    rdfs:label "Social Media Platforms Domain"@en .
+
+ex:AITrainingDataCollectionPurpose rdf:type airo:Purpose ;
+    rdfs:label "AI训练数据收集目的"@zh ;
+    rdfs:label "AI Training Data Collection Purpose"@en .

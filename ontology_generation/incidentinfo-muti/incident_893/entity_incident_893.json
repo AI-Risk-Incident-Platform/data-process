@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LLMjackingAttack",
+      "中文名称": "LLMjacking攻击",
+      "英文名称": "LLMjacking Attack",
+      "来源": "LLMjacking: Stolen Cloud Credentials Used in New AI Attack"
+    },
+    "Risk": {
+      "id": "CloudCredentialTheftRisk",
+      "中文名称": "云凭证窃取风险",
+      "英文名称": "Cloud Credential Theft Risk",
+      "来源": "Stolen Cloud Credentials Used in New AI Attack"
+    },
+    "RiskSource": {
+      "id": "StolenCloudCredentials",
+      "中文名称": "被盗云凭证",
+      "英文名称": "Stolen Cloud Credentials",
+      "来源": "Stolen Cloud Credentials Used in New AI Attack"
+    },
+    "Threat": {
+      "id": "EvolvingTacticsInLLMjacking",
+      "中文名称": "LLMjacking中不断演变的战术威胁",
+      "英文名称": "Evolving Tactics in LLMjacking Threat",
+      "来源": "The Growing Dangers of LLMjacking: Evolving Tactics and Evading Sanctions"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAIResourceAccess",
+      "中文名称": "未经授权的AI资源访问后果",
+      "英文名称": "Unauthorized AI Resource Access Consequence",
+      "来源": "Stolen Cloud Credentials Used in New AI Attack"
+    }
+  }
+}

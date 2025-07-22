@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIInScientificPublishing rdf:type airo:AISystem ;
+    rdfs:label "AI in Scientific Publishing"@en ;
+    rdfs:label "科学出版中的人工智能"@zh ;
+    airo:hasRisk ex:PublicationOfAIgeneratedNonsense ;
+    airo:hasAICapability ex:TextGenerationForScientificPapers ;
+    airo:hasPurpose ex:AutomatingScientificWriting ;
+    airo:isAppliedWithinDomain ex:ScientificPublishing ;
+    airo:usesTechnique ex:LargeLanguageModelTextGeneration ;
+    airo:hasStakeholder ex:ScientificJournalEditors .
+
+ex:PublicationOfAIgeneratedNonsense rdf:type airo:Risk ;
+    rdfs:label "Publication of AI-generated Nonsense Risk"@en ;
+    rdfs:label "发表AI生成的无意义内容风险"@zh ;
+    airo:hasConsequence ex:RetractionOfScientificPapers ;
+    airo:isRiskSourceFor ex:LackOfAIcontentDetection .
+
+ex:RetractionOfScientificPapers rdf:type airo:Consequence ;
+    rdfs:label "Retraction of Scientific Papers Consequence"@en ;
+    rdfs:label "科学论文撤稿后果"@zh ;
+    airo:hasImpact ex:LossOfScientificCredibility .
+
+ex:TextGenerationForScientificPapers rdf:type airo:AICapability ;
+    rdfs:label "Text Generation for Scientific Papers Capability"@en ;
+    rdfs:label "科学论文文本生成能力"@zh .
+
+ex:ScientificJournalEditors rdf:type airo:Stakeholder ;
+    rdfs:label "Scientific Journal Editors"@en ;
+    rdfs:label "科学期刊编辑"@zh .
+
+ex:LossOfScientificCredibility rdf:type airo:Impact ;
+    rdfs:label "Loss of Scientific Credibility Impact"@en ;
+    rdfs:label "科学可信度丧失的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ScientificJournalEditors .
+
+ex:AutomatingScientificWriting rdf:type airo:Purpose ;
+    rdfs:label "Automating Scientific Writing Purpose"@en ;
+    rdfs:label "自动化科学写作的目的"@zh .
+
+ex:ScientificPublishing rdf:type airo:Domain ;
+    rdfs:label "Scientific Publishing Domain"@en ;
+    rdfs:label "科学出版领域"@zh .
+
+ex:LargeLanguageModelTextGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Text Generation Technique"@en ;
+    rdfs:label "大语言模型文本生成技术"@zh .
+
+ex:LackOfAIcontentDetection rdf:type airo:RiskSource ;
+    rdfs:label "Lack of AI-content Detection Risk Source"@en ;
+    rdfs:label "缺乏AI内容检测的风险源"@zh .

@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CommercialArtificialIntelligenceSystems rdf:type airo:AISystem ;
+    rdfs:label "Commercial Artificial Intelligence Systems"@en ;
+    rdfs:label "商业人工智能系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasRisk ;
+    airo:isAppliedWithinDomain ex:CommercialAIApplications .
+
+ex:AlgorithmicBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias Risk"@en ;
+    rdfs:label "算法偏见风险"@zh ;
+    airo:isRiskSourceFor ex:GenderAndSkinTypeBias ;
+    airo:hasImpact ex:DiscriminatoryOutcomes .
+
+ex:GenderAndSkinTypeBias rdf:type airo:RiskSource ;
+    rdfs:label "Gender and Skin-Type Bias"@en ;
+    rdfs:label "性别和肤色偏见"@zh .
+
+ex:DiscriminatoryOutcomes rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Outcomes"@en ;
+    rdfs:label "歧视性结果"@zh .
+
+ex:CommercialAIApplications rdf:type airo:Domain ;
+    rdfs:label "Commercial AI Applications Domain"@en ;
+    rdfs:label "商业AI应用领域"@zh .

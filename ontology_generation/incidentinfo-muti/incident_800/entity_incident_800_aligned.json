@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedSpamSystem",
+      "中文名称": "AI生成垃圾信息系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Risk": {
+      "id": "SocialMediaSpamRisk",
+      "中文名称": "社交媒体垃圾信息风险",
+      "英文名称": "Social Media Spam Risk",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Impact": {
+      "id": "UserExperienceDegradation",
+      "中文名称": "用户体验下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAI",
+      "中文名称": "内容生成AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "AI-generated spam is starting to fill social media."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedSpamSystem",
+      "中文名称": "AI生成垃圾信息系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Risk": {
+      "id": "SocialMediaSpamRisk",
+      "中文名称": "社交媒体垃圾信息风险",
+      "英文名称": "Social Media Spam Risk",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "Impact": {
+      "id": "UserExperienceDegradation",
+      "中文名称": "用户体验下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI-generated spam is starting to fill social media."
+    },
+    "AITechnique": {
+      "id": "ContentGenerationAI",
+      "中文名称": "内容生成AI技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "AI-generated spam is starting to fill social media."
+    }
+  }
+}

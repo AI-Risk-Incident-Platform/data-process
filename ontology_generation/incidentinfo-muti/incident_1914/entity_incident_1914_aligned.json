@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftBingImageCreator",
+      "中文名称": "微软必应图像生成器",
+      "英文名称": "Bing Image Generator",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Risk": {
+      "id": "ViolentContentGenerationRisk",
+      "中文名称": "暴力内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "Consequence": {
+      "id": "DisturbingImageryCreation",
+      "中文名称": "令人不安的图像生成后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Impact": {
+      "id": "PublicImageDamage",
+      "中文名称": "公众形象损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Purpose": {
+      "id": "CreativeImageGeneration",
+      "中文名称": "创意图像生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Domain": {
+      "id": "DigitalContentCreation",
+      "中文名称": "数字内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetwork",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Threat": {
+      "id": "MisuseForHarmfulContent",
+      "中文名称": "有害内容滥用的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "Hazard": {
+      "id": "UnintendedOutputGeneration",
+      "中文名称": "意外输出生成的危害",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInCreativeAI",
+      "中文名称": "创意AI中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftBingImageCreator",
+      "中文名称": "微软必应图像生成器",
+      "英文名称": "Bing Image Generator",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Risk": {
+      "id": "ViolentContentGenerationRisk",
+      "中文名称": "暴力内容生成风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "Consequence": {
+      "id": "DisturbingImageryCreation",
+      "中文名称": "令人不安的图像生成后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "AICapability": {
+      "id": "ImageGenerationCapability",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Impact": {
+      "id": "PublicImageDamage",
+      "中文名称": "公众形象损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Purpose": {
+      "id": "CreativeImageGeneration",
+      "中文名称": "创意图像生成目的",
+      "英文名称": "Content Generation",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Domain": {
+      "id": "DigitalContentCreation",
+      "中文名称": "数字内容创作领域",
+      "英文名称": "Online Content Domain",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetwork",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "Threat": {
+      "id": "MisuseForHarmfulContent",
+      "中文名称": "有害内容滥用的威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    },
+    "Hazard": {
+      "id": "UnintendedOutputGeneration",
+      "中文名称": "意外输出生成的危害",
+      "英文名称": "Unintended Output Hazard",
+      "来源": "Microsoft Bing Image Creator generates images of politicians' mangled heads"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Microsoft’s AI Dilemma – Safe, Yet Creating Disturbing Imagery?"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInCreativeAI",
+      "中文名称": "创意AI中的伦理挑战",
+      "英文名称": "Ethical AI Risks",
+      "来源": "The Dark Side of AI: Microsoft Grapples with AI-Generated Violent Content"
+    }
+  }
+}

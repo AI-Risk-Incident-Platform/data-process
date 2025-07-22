@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingTaxi",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards, Crash Into It"
+    },
+    "Risk": {
+      "id": "CollisionRiskDueToSoftwareFlaw",
+      "中文名称": "软件缺陷导致的碰撞风险",
+      "英文名称": "Collision Risk Due to Software Flaw",
+      "来源": "Waymo Software Flaw Leads to Double Collision with Tow Truck"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards, Crash Into It"
+    },
+    "RiskSource": {
+      "id": "SoftwareFlawInObjectRecognition",
+      "中文名称": "物体识别软件缺陷风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Waymo Software Flaw Leads to Double Collision with Tow Truck"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Voluntary recall of our previous software"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForAutonomousDriving",
+      "中文名称": "自动驾驶计算机视觉技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards"
+    },
+    "Vulnerability": {
+      "id": "BackwardTowingScenarioMisinterpretation",
+      "中文名称": "反向拖车场景误判脆弱性",
+      "英文名称": "Backward Towing Scenario Misinterpretation Vulnerability",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards"
+    },
+    "RiskControl": {
+      "id": "SoftwareRecallAndUpdate",
+      "中文名称": "软件召回与更新管控",
+      "英文名称": "Software Update Risk Control",
+      "来源": "Voluntary recall of our previous software"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingTaxi",
+      "中文名称": "Waymo自动驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards, Crash Into It"
+    },
+    "Risk": {
+      "id": "CollisionRiskDueToSoftwareFlaw",
+      "中文名称": "软件缺陷导致的碰撞风险",
+      "英文名称": "Collision Risk Due to Software Flaw",
+      "来源": "Waymo Software Flaw Leads to Double Collision with Tow Truck"
+    },
+    "Consequence": {
+      "id": "VehicleCollision",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards, Crash Into It"
+    },
+    "RiskSource": {
+      "id": "SoftwareFlawInObjectRecognition",
+      "中文名称": "物体识别软件缺陷风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Waymo Software Flaw Leads to Double Collision with Tow Truck"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Voluntary recall of our previous software"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForAutonomousDriving",
+      "中文名称": "自动驾驶计算机视觉技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards"
+    },
+    "Vulnerability": {
+      "id": "BackwardTowingScenarioMisinterpretation",
+      "中文名称": "反向拖车场景误判脆弱性",
+      "英文名称": "Backward Towing Scenario Misinterpretation Vulnerability",
+      "来源": "Two Self-Driving Waymo Taxis Get Confused By A Pickup Being Towed Backwards"
+    },
+    "RiskControl": {
+      "id": "SoftwareRecallAndUpdate",
+      "中文名称": "软件召回与更新管控",
+      "英文名称": "Software Update Risk Control",
+      "来源": "Voluntary recall of our previous software"
+    }
+  }
+}

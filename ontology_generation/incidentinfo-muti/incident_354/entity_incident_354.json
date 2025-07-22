@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationAI",
+      "中文名称": "Facebook内容审核AI",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook’s AI treats Palestinian activists like it treats American Black activists. It blocks them."
+    },
+    "Risk": {
+      "id": "DiscriminatoryContentModeration",
+      "中文名称": "歧视性内容审核风险",
+      "英文名称": "Discriminatory Content Moderation Risk",
+      "来源": "Facebook’s AI treats Palestinian activists like it treats American Black activists. It blocks them."
+    },
+    "Stakeholder": {
+      "id": "PalestinianActivists",
+      "中文名称": "巴勒斯坦活动家",
+      "英文名称": "Palestinian Activists",
+      "来源": "Facebook’s AI treats Palestinian activists like it treats American Black activists. It blocks them."
+    },
+    "AISubject": {
+      "id": "AmericanBlackActivists",
+      "中文名称": "美国黑人活动家",
+      "英文名称": "American Black Activists",
+      "来源": "Facebook’s AI treats Palestinian activists like it treats American Black activists. It blocks them."
+    },
+    "Impact": {
+      "id": "SuppressionOfActivistVoices",
+      "中文名称": "压制活动家声音的影响",
+      "英文名称": "Suppression of Activist Voices Impact",
+      "来源": "It blocks them."
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Facebook’s AI treats Palestinian activists like it treats American Black activists."
+    }
+  }
+}

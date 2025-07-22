@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleTranslate",
+      "中文名称": "谷歌翻译",
+      "英文名称": "Google Translate",
+      "来源": "Google Translate might have a gender problem"
+    },
+    "Risk": {
+      "id": "GenderBiasInMachineTranslation",
+      "中文名称": "机器翻译中的性别偏见风险",
+      "英文名称": "Gender Bias in Translation Risk",
+      "来源": "The Algorithm That Helped Google Translate Become Sexist"
+    },
+    "AITechnique": {
+      "id": "NeuralMachineTranslation",
+      "中文名称": "神经机器翻译技术",
+      "英文名称": "Neural Machine Translation Technique",
+      "来源": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    "Impact": {
+      "id": "GenderStereotypeReinforcement",
+      "中文名称": "性别刻板印象强化",
+      "英文名称": "Gender Stereotype Impact",
+      "来源": "Google Translate might have a gender problem"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleTranslate",
+      "中文名称": "谷歌翻译",
+      "英文名称": "Google Translate",
+      "来源": "Google Translate might have a gender problem"
+    },
+    "Risk": {
+      "id": "GenderBiasInMachineTranslation",
+      "中文名称": "机器翻译中的性别偏见风险",
+      "英文名称": "Gender Bias in Translation Risk",
+      "来源": "The Algorithm That Helped Google Translate Become Sexist"
+    },
+    "AITechnique": {
+      "id": "NeuralMachineTranslation",
+      "中文名称": "神经机器翻译技术",
+      "英文名称": "Neural Machine Translation Technique",
+      "来源": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Semantics derived automatically from language corpora contain human-like biases"
+    },
+    "Impact": {
+      "id": "GenderStereotypeReinforcement",
+      "中文名称": "性别刻板印象强化",
+      "英文名称": "Gender Stereotype Impact",
+      "来源": "Google Translate might have a gender problem"
+    }
+  }
+}

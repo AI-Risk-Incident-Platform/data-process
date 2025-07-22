@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:IncorrectDiagnosisRisk ;
+    airo:hasCapability ex:MedicalDiagnosisCapability ;
+    airo:isAppliedWithinDomain ex:PediatricHealthcare .
+
+ex:IncorrectDiagnosisRisk rdf:type airo:Risk ;
+    rdfs:label "Incorrect Diagnosis Risk"@en ;
+    rdfs:label "错误诊断风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToPatients ;
+    airo:isRiskSourceFor ex:InsufficientMedicalTrainingData .
+
+ex:PotentialHarmToPatients rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Patients Consequence"@en ;
+    rdfs:label "对患者的潜在伤害"@zh ;
+    airo:hasImpact ex:MisdiagnosisImpact .
+
+ex:PediatricHealthcare rdf:type airo:Domain ;
+    rdfs:label "Pediatric Healthcare Domain"@en ;
+    rdfs:label "儿科医疗保健"@zh .
+
+ex:MedicalDiagnosisCapability rdf:type airo:AICapability ;
+    rdfs:label "Medical Diagnosis Capability"@en ;
+    rdfs:label "医疗诊断能力"@zh .
+
+ex:MisdiagnosisImpact rdf:type airo:Impact ;
+    rdfs:label "Misdiagnosis Impact"@en ;
+    rdfs:label "误诊影响"@zh .
+
+ex:InsufficientMedicalTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Insufficient Medical Training Data Risk Source"@en ;
+    rdfs:label "医疗训练数据不足"@zh .

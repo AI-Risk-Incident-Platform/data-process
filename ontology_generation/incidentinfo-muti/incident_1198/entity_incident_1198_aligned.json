@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredBot",
+      "中文名称": "AI求职机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI Powered Bot Are Now Open To Work"
+    },
+    "Risk": {
+      "id": "JobMarketDisruptionRisk",
+      "中文名称": "就业市场扰乱风险",
+      "英文名称": "Job Risk",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    },
+    "Stakeholder": {
+      "id": "LinkedInPlatform",
+      "中文名称": "领英平台",
+      "英文名称": "LinkedIn Platform",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    },
+    "AIOperator": {
+      "id": "AIBotDevelopers",
+      "中文名称": "AI机器人开发者",
+      "英文名称": "Bot Developers",
+      "来源": "AI Powered Bot Are Now Open To Work"
+    },
+    "Domain": {
+      "id": "OnlineJobMarket",
+      "中文名称": "在线就业市场",
+      "英文名称": "Online Job Sector",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPoweredBot",
+      "中文名称": "AI求职机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "AI Powered Bot Are Now Open To Work"
+    },
+    "Risk": {
+      "id": "JobMarketDisruptionRisk",
+      "中文名称": "就业市场扰乱风险",
+      "英文名称": "Job Risk",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    },
+    "Stakeholder": {
+      "id": "LinkedInPlatform",
+      "中文名称": "领英平台",
+      "英文名称": "LinkedIn Platform",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    },
+    "AIOperator": {
+      "id": "AIBotDevelopers",
+      "中文名称": "AI机器人开发者",
+      "英文名称": "Bot Developers",
+      "来源": "AI Powered Bot Are Now Open To Work"
+    },
+    "Domain": {
+      "id": "OnlineJobMarket",
+      "中文名称": "在线就业市场",
+      "英文名称": "Online Job Sector",
+      "来源": "LinkedIn Removes Accounts of AI 'Co-Workers' Looking for Jobs"
+    }
+  }
+}

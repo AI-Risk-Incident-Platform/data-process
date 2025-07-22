@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TinderFacialDataset",
+      "中文名称": "Tinder面部数据集",
+      "英文名称": "Tinder Facial Dataset",
+      "来源": "Someone scraped 40,000 Tinder selfies to make a facial dataset for AI experiments"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Brogrammer scraped and uploaded 40,000 Tinder pics of 'hoes' online"
+    },
+    "Stakeholder": {
+      "id": "TinderUsers",
+      "中文名称": "Tinder用户",
+      "英文名称": "Tinder Users",
+      "来源": "40,000 Tinder selfies"
+    },
+    "RiskSource": {
+      "id": "DataScrapingWithoutConsent",
+      "中文名称": "未经同意的数据抓取",
+      "英文名称": "Data Scraping Without Consent",
+      "来源": "scraped 40,000 Tinder selfies"
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露",
+      "英文名称": "Personal Data Exposure",
+      "来源": "uploaded 40,000 Tinder pics online"
+    }
+  }
+}

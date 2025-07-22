@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterGunshotDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter Gunshot Detection System"@en ;
+    rdfs:label "ShotSpotter枪声检测系统"@zh ;
+    airo:hasRisk ex:InefficientPoliceResourceAllocationRisk ;
+    airo:hasStakeholder ex:ChicagoPoliceDepartment ;
+    airo:hasAISubject ex:BlackNeighborhoodResidents ;
+    airo:isAppliedWithinDomain ex:PublicSafetyAndLawEnforcementDomain .
+
+ex:InefficientPoliceResourceAllocationRisk rdf:type airo:Risk ;
+    rdfs:label "Inefficient Police Resource Allocation Risk"@en ;
+    rdfs:label "警力资源低效分配风险"@zh ;
+    airo:hasConsequence ex:WastedPoliceTimeAndResourcesConsequence ;
+    airo:isRiskSourceFor ex:FalsePositiveGunshotDetectionRiskSource .
+
+ex:WastedPoliceTimeAndResourcesConsequence rdf:type airo:Consequence ;
+    rdfs:label "Wasted Police Time and Resources Consequence"@en ;
+    rdfs:label "警力时间和资源浪费后果"@zh ;
+    airo:hasImpact ex:OverpolicingInMarginalizedCommunitiesImpact .
+
+ex:OverpolicingInMarginalizedCommunitiesImpact rdf:type airo:Impact ;
+    rdfs:label "Overpolicing in Marginalized Communities Impact"@en ;
+    rdfs:label "边缘化社区过度监管影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackNeighborhoodResidents .
+
+ex:ChicagoPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Chicago Police Department"@en ;
+    rdfs:label "芝加哥警察局"@zh .
+
+ex:BlackNeighborhoodResidents rdf:type airo:AISubject ;
+    rdfs:label "Black Neighborhood Residents"@en ;
+    rdfs:label "黑人社区居民"@zh .
+
+ex:FalsePositiveGunshotDetectionRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "False Positive Gunshot Detection Risk Source"@en ;
+    rdfs:label "枪声检测误报风险源"@zh .
+
+ex:PublicSafetyAndLawEnforcementDomain rdf:type airo:Domain ;
+    rdfs:label "Public Safety and Law Enforcement Domain"@en ;
+    rdfs:label "公共安全与执法领域"@zh .

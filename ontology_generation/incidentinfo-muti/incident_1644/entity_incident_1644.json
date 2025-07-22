@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "The US is investigating whether a fatal Tesla crash involved autopilot mode"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "US opens special probe into fatal Tesla crash"
+    },
+    "Consequence": {
+      "id": "FatalCrashConsequence",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal Crash Consequence",
+      "来源": "US opens special probe into fatal Tesla crash"
+    },
+    "Stakeholder": {
+      "id": "USRegulatoryAuthorities",
+      "中文名称": "美国监管机构",
+      "英文名称": "US Regulatory Authorities",
+      "来源": "U.S. Opens Special Investigation Over Autopilot Use In Fatal Tesla Crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "The US is investigating whether a fatal Tesla crash involved autopilot mode"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicles Domain",
+      "来源": "The US is investigating whether a fatal Tesla crash involved autopilot mode"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot System Failure Risk Source",
+      "来源": "The US is investigating whether a fatal Tesla crash involved autopilot mode"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "US opens special probe into fatal Tesla crash"
+    }
+  }
+}

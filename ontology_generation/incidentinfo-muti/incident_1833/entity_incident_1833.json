@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举错误信息风险",
+      "英文名称": "Election Misinformation Risk",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "Consequence": {
+      "id": "SpreadOfFalseInformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Spread of False Information Consequence",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "AICapability": {
+      "id": "InformationVerification",
+      "中文名称": "信息验证能力",
+      "英文名称": "Information Verification Capability",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "General Public",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "Domain": {
+      "id": "InformationDissemination",
+      "中文名称": "信息传播领域",
+      "英文名称": "Information Dissemination Domain",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    },
+    "RiskSource": {
+      "id": "InadequateFactChecking",
+      "中文名称": "事实核查不足风险源",
+      "英文名称": "Inadequate Fact Checking Risk Source",
+      "来源": "ChatGPT Fails to Debunk Election Misinformation"
+    }
+  }
+}

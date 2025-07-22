@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UdemyAITrainingSystem rdf:type airo:AISystem ;
+    rdfs:label "Udemy AI Training System"@en ;
+    rdfs:label "Udemy AI训练系统"@zh ;
+    airo:hasRisk ex:InstructorContentMisuseRisk ;
+    airo:hasPurpose ex:AITrainingForContentImprovement ;
+    airo:hasStakeholder ex:UdemyInstructors ;
+    airo:isDeployedBy ex:UdemyPlatform .
+
+ex:InstructorContentMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Instructor Content Misuse Risk"@en ;
+    rdfs:label "教师内容滥用风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfTransparentOptOutProcess ;
+    airo:hasConsequence ex:InstructorBacklash .
+
+ex:UdemyInstructors rdf:type airo:Stakeholder ;
+    rdfs:label "Udemy Instructors"@en ;
+    rdfs:label "Udemy教师"@zh .
+
+ex:LackOfTransparentOptOutProcess rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparent Opt-Out Process"@en ;
+    rdfs:label "缺乏透明的退出流程"@zh .
+
+ex:InstructorBacklash rdf:type airo:Consequence ;
+    rdfs:label "Instructor Backlash"@en ;
+    rdfs:label "教师强烈反对"@zh ;
+    airo:hasImpactOnStakeholder ex:UdemyInstructors .
+
+ex:UdemyPlatform rdf:type airo:AIOperator ;
+    rdfs:label "Udemy Platform"@en ;
+    rdfs:label "Udemy平台"@zh .
+
+ex:AITrainingForContentImprovement rdf:type airo:Purpose ;
+    rdfs:label "AI Training for Content Improvement"@en ;
+    rdfs:label "用于内容改进的AI训练"@zh .

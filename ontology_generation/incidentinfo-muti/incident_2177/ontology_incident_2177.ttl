@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT-3 rdf:type airo:AISystem ;
+    rdfs:label "GPT-3"@en ;
+    rdfs:label "GPT-3"@zh ;
+    airo:hasRisk ex:HarmfulContentGenerationRisk ;
+    airo:hasPurpose ex:MedicalConsultationAssistance ;
+    airo:isAppliedWithinDomain ex:Healthcare ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasAISubject ex:MockPatients ;
+    airo:hasStakeholder ex:MedicalResearchers ;
+    airo:hasVulnerability ex:LackOfEmotionalIntelligence .
+
+ex:HarmfulContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Generation Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:isRiskSourceFor ex:InappropriateTrainingData ;
+    airo:hasConsequence ex:PotentialSuicideEncouragement .
+
+ex:PotentialSuicideEncouragement rdf:type airo:Consequence ;
+    rdfs:label "Potential Suicide Encouragement Consequence"@en ;
+    rdfs:label "潜在自杀鼓励后果"@zh ;
+    airo:hasImpact ex:MentalHealthHarm .
+
+ex:MedicalResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Medical Researchers"@en ;
+    rdfs:label "医学研究人员"@zh .
+
+ex:MockPatients rdf:type airo:AISubject ;
+    rdfs:label "Mock Patients"@en ;
+    rdfs:label "模拟病人"@zh .
+
+ex:MentalHealthHarm rdf:type airo:Impact ;
+    rdfs:label "Mental Health Harm Impact"@en ;
+    rdfs:label "心理健康危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MockPatients .
+
+ex:MedicalConsultationAssistance rdf:type airo:Purpose ;
+    rdfs:label "Medical Consultation Assistance Purpose"@en ;
+    rdfs:label "医疗咨询辅助目的"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:LackOfEmotionalIntelligence rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Emotional Intelligence Vulnerability"@en ;
+    rdfs:label "缺乏情感智能的脆弱性"@zh .
+
+ex:InappropriateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Training Data Risk Source"@en ;
+    rdfs:label "不适当训练数据的风险源"@zh .

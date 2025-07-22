@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "YouTube algorithms consistently push eating disorder and self-harm content to teen girls"
+    },
+    "Risk": {
+      "id": "MentalHealthRiskForTeenGirls",
+      "中文名称": "青少年女孩心理健康风险",
+      "英文名称": "Mental Health Risk for Teen Girls",
+      "来源": "push eating disorder and self-harm content to teen girls"
+    },
+    "AISubject": {
+      "id": "TeenageGirls",
+      "中文名称": "青少年女孩",
+      "英文名称": "Teenage Girls",
+      "来源": "push eating disorder and self-harm content to teen girls"
+    },
+    "Consequence": {
+      "id": "ExposureToHarmfulContent",
+      "中文名称": "接触有害内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "push eating disorder and self-harm content"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthImpact",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "eating disorder and self-harm content"
+    },
+    "Stakeholder": {
+      "id": "YouTubePlatform",
+      "中文名称": "YouTube平台",
+      "英文名称": "YouTube",
+      "来源": "YouTube algorithms"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicContentAmplification",
+      "中文名称": "算法内容放大风险源",
+      "英文名称": "Algorithmic Content Risk Source",
+      "来源": "algorithms consistently push eating disorder and self-harm content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation AI",
+      "来源": "YouTube algorithms consistently push eating disorder and self-harm content to teen girls"
+    },
+    "Risk": {
+      "id": "MentalHealthRiskForTeenGirls",
+      "中文名称": "青少年女孩心理健康风险",
+      "英文名称": "Mental Health Risk for Teen Girls",
+      "来源": "push eating disorder and self-harm content to teen girls"
+    },
+    "AISubject": {
+      "id": "TeenageGirls",
+      "中文名称": "青少年女孩",
+      "英文名称": "Teenage Girls",
+      "来源": "push eating disorder and self-harm content to teen girls"
+    },
+    "Consequence": {
+      "id": "ExposureToHarmfulContent",
+      "中文名称": "接触有害内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "push eating disorder and self-harm content"
+    },
+    "Impact": {
+      "id": "NegativeMentalHealthImpact",
+      "中文名称": "负面心理健康影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "eating disorder and self-harm content"
+    },
+    "Stakeholder": {
+      "id": "YouTubePlatform",
+      "中文名称": "YouTube平台",
+      "英文名称": "YouTube",
+      "来源": "YouTube algorithms"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicContentAmplification",
+      "中文名称": "算法内容放大风险源",
+      "英文名称": "Algorithmic Content Risk Source",
+      "来源": "algorithms consistently push eating disorder and self-harm content"
+    }
+  }
+}

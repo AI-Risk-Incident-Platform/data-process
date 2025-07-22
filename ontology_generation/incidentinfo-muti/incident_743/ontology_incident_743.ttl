@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FigmaAIDesignTool rdf:type airo:AISystem ;
+    rdfs:label "Figma AI Design Tool"@en ;
+    rdfs:label "Figma AI设计工具"@zh ;
+    airo:hasRisk ex:DesignPlagiarismRisk ;
+    airo:usesTechnique ex:GenerativeDesignAI ;
+    airo:isDeployedBy ex:FigmaInc ;
+    airo:hasStakeholder ex:AppleInc .
+
+ex:DesignPlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Design Plagiarism Risk"@en ;
+    rdfs:label "设计抄袭风险"@zh ;
+    airo:hasConsequence ex:ProductRecall ;
+    airo:isRiskSourceFor ex:InsufficientOriginalityCheck .
+
+ex:ProductRecall rdf:type airo:Consequence ;
+    rdfs:label "Product Recall Consequence"@en ;
+    rdfs:label "产品召回后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:FigmaInc rdf:type airo:AIOperator ;
+    rdfs:label "Figma Inc."@en ;
+    rdfs:label "Figma公司"@zh .
+
+ex:AppleInc rdf:type airo:Stakeholder ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:GenerativeDesignAI rdf:type airo:AITechnique ;
+    rdfs:label "Generative Design AI Technique"@en ;
+    rdfs:label "生成式设计AI技术"@zh .
+
+ex:InsufficientOriginalityCheck rdf:type airo:RiskSource ;
+    rdfs:label "Insufficient Originality Check Risk Source"@en ;
+    rdfs:label "原创性检查不足风险源"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AppleInc .

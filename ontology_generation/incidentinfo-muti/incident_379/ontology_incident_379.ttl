@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DNAPhenotypingAI rdf:type airo:AISystem ;
+    rdfs:label "DNA Phenotyping AI"@en ;
+    rdfs:label "DNA表型分析AI"@zh ;
+    airo:hasRisk ex:RacialBiasInSuspectIdentification ;
+    airo:hasPurpose ex:CriminalSuspectIdentification ;
+    airo:isAppliedWithinDomain ex:ForensicInvestigation ;
+    airo:isDeployedBy ex:ControversialDNACompany ;
+    airo:hasStakeholder ex:LawEnforcementAgencies .
+
+ex:RacialBiasInSuspectIdentification rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Suspect Identification Risk"@en ;
+    rdfs:label "嫌疑人识别中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:PublicApologyByLawEnforcement ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmicOutput .
+
+ex:PublicApologyByLawEnforcement rdf:type airo:Consequence ;
+    rdfs:label "Public Apology by Law Enforcement Consequence"@en ;
+    rdfs:label "执法部门公开道歉后果"@zh ;
+    airo:hasImpact ex:DamageToPublicTrust .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement Agencies"@en ;
+    rdfs:label "执法机构"@zh .
+
+ex:ControversialDNACompany rdf:type airo:AIOperator ;
+    rdfs:label "Controversial DNA Company"@en ;
+    rdfs:label "争议性DNA公司"@zh .
+
+ex:DamageToPublicTrust rdf:type airo:Impact ;
+    rdfs:label "Damage to Public Trust Impact"@en ;
+    rdfs:label "公众信任受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LawEnforcementAgencies .
+
+ex:CriminalSuspectIdentification rdf:type airo:Purpose ;
+    rdfs:label "Criminal Suspect Identification Purpose"@en ;
+    rdfs:label "刑事嫌疑人识别目的"@zh .
+
+ex:ForensicInvestigation rdf:type airo:Domain ;
+    rdfs:label "Forensic Investigation Domain"@en ;
+    rdfs:label "法医调查领域"@zh .
+
+ex:BiasedAlgorithmicOutput rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithmic Output Risk Source"@en ;
+    rdfs:label "有偏见的算法输出风险源"@zh .

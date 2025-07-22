@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedTerminationSystem",
+      "中文名称": "自动解雇系统",
+      "英文名称": "Automated Termination System",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "Risk": {
+      "id": "UnjustTerminationRisk",
+      "中文名称": "不公正解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The Machine Fired Me"
+    },
+    "AIOperator": {
+      "id": "UnspecifiedCompany",
+      "中文名称": "未指定公司",
+      "英文名称": "Unspecified Company",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "AISubject": {
+      "id": "TerminatedSoftwareEngineer",
+      "中文名称": "被解雇的软件工程师",
+      "英文名称": "Workers",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "Consequence": {
+      "id": "JobLossAndOfficeAccessDenial",
+      "中文名称": "失业和办公室访问被拒后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomatedTerminationSystem",
+      "中文名称": "自动解雇系统",
+      "英文名称": "Automated Termination System",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "Risk": {
+      "id": "UnjustTerminationRisk",
+      "中文名称": "不公正解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "The Machine Fired Me"
+    },
+    "AIOperator": {
+      "id": "UnspecifiedCompany",
+      "中文名称": "未指定公司",
+      "英文名称": "Unspecified Company",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "AISubject": {
+      "id": "TerminatedSoftwareEngineer",
+      "中文名称": "被解雇的软件工程师",
+      "英文名称": "Workers",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    },
+    "Consequence": {
+      "id": "JobLossAndOfficeAccessDenial",
+      "中文名称": "失业和办公室访问被拒后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "Software engineer fired, shut out of office for three weeks by machine"
+    }
+  }
+}

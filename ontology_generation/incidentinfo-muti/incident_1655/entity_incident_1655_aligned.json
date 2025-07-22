@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LiverTransplantAllocationSystem",
+      "中文名称": "肝脏移植分配系统",
+      "英文名称": "Liver Transplant Allocation System",
+      "来源": "根据提供的标题'Young people wait four times longer for liver transplants'和'Young people with liver disease being left in waiting list limbo'推断"
+    },
+    "Risk": {
+      "id": "AgeBasedAllocationBiasRisk",
+      "中文名称": "基于年龄的分配偏见风险",
+      "英文名称": "Age-Based Allocation Bias Risk",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    },
+    "Consequence": {
+      "id": "ProlongedWaitingTimeForYoungPatients",
+      "中文名称": "年轻患者等待时间延长后果",
+      "英文名称": "Delay Consequences",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    },
+    "Impact": {
+      "id": "DeterioratedHealthConditionImpact",
+      "中文名称": "健康状况恶化影响",
+      "英文名称": "Negative Health Impact",
+      "来源": "根据标题'My life's on hold'推断"
+    },
+    "Stakeholder": {
+      "id": "YoungLiverDiseasePatients",
+      "中文名称": "年轻肝病患者",
+      "英文名称": "Young Liver Disease Patients",
+      "来源": "根据标题'Young people with liver disease being left in waiting list limbo'推断"
+    },
+    "Purpose": {
+      "id": "FairOrganAllocationPurpose",
+      "中文名称": "公平器官分配目的",
+      "英文名称": "Fair Organ Allocation Purpose",
+      "来源": "根据标题'Bottom of the Donor List'推断"
+    },
+    "Domain": {
+      "id": "MedicalTransplantationDomain",
+      "中文名称": "医疗移植领域",
+      "英文名称": "Medical Transplantation Domain",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LiverTransplantAllocationSystem",
+      "中文名称": "肝脏移植分配系统",
+      "英文名称": "Liver Transplant Allocation System",
+      "来源": "根据提供的标题'Young people wait four times longer for liver transplants'和'Young people with liver disease being left in waiting list limbo'推断"
+    },
+    "Risk": {
+      "id": "AgeBasedAllocationBiasRisk",
+      "中文名称": "基于年龄的分配偏见风险",
+      "英文名称": "Age-Based Allocation Bias Risk",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    },
+    "Consequence": {
+      "id": "ProlongedWaitingTimeForYoungPatients",
+      "中文名称": "年轻患者等待时间延长后果",
+      "英文名称": "Delay Consequences",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    },
+    "Impact": {
+      "id": "DeterioratedHealthConditionImpact",
+      "中文名称": "健康状况恶化影响",
+      "英文名称": "Negative Health Impact",
+      "来源": "根据标题'My life's on hold'推断"
+    },
+    "Stakeholder": {
+      "id": "YoungLiverDiseasePatients",
+      "中文名称": "年轻肝病患者",
+      "英文名称": "Young Liver Disease Patients",
+      "来源": "根据标题'Young people with liver disease being left in waiting list limbo'推断"
+    },
+    "Purpose": {
+      "id": "FairOrganAllocationPurpose",
+      "中文名称": "公平器官分配目的",
+      "英文名称": "Fair Organ Allocation Purpose",
+      "来源": "根据标题'Bottom of the Donor List'推断"
+    },
+    "Domain": {
+      "id": "MedicalTransplantationDomain",
+      "中文名称": "医疗移植领域",
+      "英文名称": "Medical Transplantation Domain",
+      "来源": "根据标题'Young people wait four times longer for liver transplants'推断"
+    }
+  }
+}

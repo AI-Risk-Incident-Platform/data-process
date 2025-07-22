@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceEnabledAIAgents rdf:type airo:AISystem ;
+    rdfs:label "语音AI代理"@zh ;
+    rdfs:label "Voice Enabled AI Agents"@en ;
+    airo:hasRisk ex:AutomatedScamRisk ;
+    airo:hasCapability ex:VoiceInteractionAutomation ;
+    airo:usesTechnique ex:DeepfakeVoiceSynthesis .
+
+ex:AutomatedScamRisk rdf:type airo:Risk ;
+    rdfs:label "自动化诈骗风险"@zh ;
+    rdfs:label "Automated Scam Risk"@en ;
+    airo:hasConsequence ex:FinancialFraud ;
+    airo:isRiskSourceFor ex:LowCostDeepfakeTechnology .
+
+ex:VoiceInteractionAutomation rdf:type airo:AICapability ;
+    rdfs:label "语音交互自动化能力"@zh ;
+    rdfs:label "Voice Interaction Automation Capability"@en .
+
+ex:LowCostDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "低成本深度伪造技术风险源"@zh ;
+    rdfs:label "Low Cost Deepfake Technology Risk Source"@en .
+
+ex:FinancialFraud rdf:type airo:Consequence ;
+    rdfs:label "金融诈骗后果"@zh ;
+    rdfs:label "Financial Fraud Consequence"@en ;
+    airo:hasImpact ex:VictimFinancialLoss .
+
+ex:DeepfakeVoiceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造语音合成技术"@zh ;
+    rdfs:label "Deepfake Voice Synthesis Technique"@en .
+
+ex:VictimFinancialLoss rdf:type airo:Impact ;
+    rdfs:label "受害者经济损失影响"@zh ;
+    rdfs:label "Victim Financial Loss Impact"@en .

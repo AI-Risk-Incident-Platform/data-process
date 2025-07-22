@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleKnowledgePanel",
+      "中文名称": "谷歌知识面板",
+      "英文名称": "Google Knowledge Panel",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "Risk": {
+      "id": "FalseInformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "False Information Risk",
+      "来源": "What if a botched Google search card says you are a serial killer?"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "AICapability": {
+      "id": "InformationRetrievalAndDisplay",
+      "中文名称": "信息检索与展示能力",
+      "英文名称": "Information Retrieval and Display Capability",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "Stakeholder": {
+      "id": "IndividualsWithSimilarNames",
+      "中文名称": "姓名相似的个人",
+      "英文名称": "Individuals with Similar Names",
+      "来源": "What if a botched Google search card says you are a serial killer?"
+    },
+    "Impact": {
+      "id": "PersonalAndProfessionalHarm",
+      "中文名称": "个人与职业伤害影响",
+      "英文名称": "Personal and Professional Harm Impact",
+      "来源": "What if a botched Google search card says you are a serial killer?"
+    },
+    "Purpose": {
+      "id": "ProvideQuickInformationAccess",
+      "中文名称": "提供快速信息访问的目的",
+      "英文名称": "Provide Quick Information Access Purpose",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "Domain": {
+      "id": "SearchEngineServices",
+      "中文名称": "搜索引擎服务领域",
+      "英文名称": "Search Engine Services Domain",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Natural Language Processing Technique",
+      "来源": "Google Knowledge Panel Shows Wrong Man as Serial Killer"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误风险源",
+      "英文名称": "Algorithmic Error Risk Source",
+      "来源": "What if a botched Google search card says you are a serial killer?"
+    }
+  }
+}

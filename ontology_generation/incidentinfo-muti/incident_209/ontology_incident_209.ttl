@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EmployeeBehaviorPerceptionSystem rdf:type airo:AISystem ;
+    rdfs:label "Employee Behavior Perception System"@en ;
+    rdfs:label "员工行为感知系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:ChineseTechWorkers ;
+    airo:isDeployedBy ex:Zhihu ;
+    airo:hasPurpose ex:EmployeeRetentionAnalysis .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:EmployeePrivacyConcerns ;
+    airo:isRiskSourceFor ex:EmployeeMonitoringWithoutConsent .
+
+ex:ChineseTechWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Tech Workers"@en ;
+    rdfs:label "中国科技工作者"@zh .
+
+ex:Zhihu rdf:type airo:AIOperator ;
+    rdfs:label "Zhihu"@en ;
+    rdfs:label "知乎"@zh .
+
+ex:EmployeePrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Employee Privacy Concerns Impact"@en ;
+    rdfs:label "员工隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChineseTechWorkers .
+
+ex:EmployeeMonitoringWithoutConsent rdf:type airo:RiskSource ;
+    rdfs:label "Employee Monitoring Without Consent Risk Source"@en ;
+    rdfs:label "未经同意的员工监控风险源"@zh .
+
+ex:EmployeeRetentionAnalysis rdf:type airo:Purpose ;
+    rdfs:label "Employee Retention Analysis Purpose"@en ;
+    rdfs:label "员工保留分析目的"@zh .

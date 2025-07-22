@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AICrimeFightingTool rdf:type airo:AISystem ;
+    rdfs:label "AI Crime-Fighting Tool"@en ;
+    rdfs:label "AI犯罪打击工具"@zh ;
+    airo:hasRisk ex:UnjustLifeSentenceRisk ;
+    airo:hasPurpose ex:CrimePreventionAndPunishment ;
+    airo:isAppliedWithinDomain ex:CriminalJusticeSystem ;
+    airo:hasStakeholder ex:ToolCreatorUnderInvestigation ;
+    airo:hasStakeholder ex:ProsecutorsUsingAITool .
+
+ex:UnjustLifeSentenceRisk rdf:type airo:Risk ;
+    rdfs:label "Unjust Life Sentence Risk"@en ;
+    rdfs:label "不公正终身监禁风险"@zh ;
+    airo:hasConsequence ex:LifeImprisonmentConsequence ;
+    airo:isRiskSourceFor ex:PotentialBiasInAITool .
+
+ex:LifeImprisonmentConsequence rdf:type airo:Consequence ;
+    rdfs:label "Life Imprisonment Consequence"@en ;
+    rdfs:label "终身监禁后果"@zh ;
+    airo:hasImpact ex:SeverePersonalLibertyDeprivation .
+
+ex:ToolCreatorUnderInvestigation rdf:type airo:Stakeholder ;
+    rdfs:label "Tool Creator Under Investigation"@en ;
+    rdfs:label "接受调查的工具创建者"@zh .
+
+ex:ProsecutorsUsingAITool rdf:type airo:AIOperator ;
+    rdfs:label "Prosecutors Using AI Tool"@en ;
+    rdfs:label "使用AI工具的检察官"@zh .
+
+ex:SeverePersonalLibertyDeprivation rdf:type airo:Impact ;
+    rdfs:label "Severe Personal Liberty Deprivation Impact"@en ;
+    rdfs:label "严重人身自由剥夺影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ToolCreatorUnderInvestigation .
+
+ex:CrimePreventionAndPunishment rdf:type airo:Purpose ;
+    rdfs:label "Crime Prevention and Punishment Purpose"@en ;
+    rdfs:label "犯罪预防与惩罚目的"@zh .
+
+ex:CriminalJusticeSystem rdf:type airo:Domain ;
+    rdfs:label "Criminal Justice System Domain"@en ;
+    rdfs:label "刑事司法系统领域"@zh .
+
+ex:PotentialBiasInAITool rdf:type airo:RiskSource ;
+    rdfs:label "Potential Bias in AI Tool Risk Source"@en ;
+    rdfs:label "AI工具中潜在偏见风险源"@zh .

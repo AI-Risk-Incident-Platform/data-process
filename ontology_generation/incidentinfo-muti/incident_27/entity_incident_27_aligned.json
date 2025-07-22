@@ -1,0 +1,162 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DriverlessDelhiMetroMagentaLineTrain",
+      "中文名称": "德里地铁无人驾驶Magenta线列车",
+      "英文名称": "Driverless Delhi Metro Magenta Line Train",
+      "来源": "Delhi Metro's Driverless Magenta Line Train Crashes Days Before Launch By PM Modi"
+    },
+    "Risk": {
+      "id": "AutonomousTrainCollisionRisk",
+      "中文名称": "自动驾驶列车碰撞风险",
+      "英文名称": "Autonomous Train Collision Risk",
+      "来源": "Driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Consequence": {
+      "id": "PhysicalDamageToTrain",
+      "中文名称": "列车物理损坏后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Driverless Delhi Metro's magenta line train crashes a week before launch"
+    },
+    "AICapability": {
+      "id": "AutonomousTrainOperation",
+      "中文名称": "自动驾驶列车运行能力",
+      "英文名称": "Autonomous Train Operation Capability",
+      "来源": "Driverless Delhi Metro's magenta line train"
+    },
+    "AIOperator": {
+      "id": "DelhiMetroRailCorporation",
+      "中文名称": "德里地铁公司",
+      "英文名称": "Delhi Metro Rail Corporation",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "Stakeholder": {
+      "id": "PublicTransportUsers",
+      "中文名称": "公共交通使用者",
+      "英文名称": "Public Transport Users",
+      "来源": "Why driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Purpose": {
+      "id": "ModernizePublicTransport",
+      "中文名称": "现代化公共交通的目的",
+      "英文名称": "Modernize Public Transport Purpose",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "Domain": {
+      "id": "UrbanPublicTransportation",
+      "中文名称": "城市公共交通领域",
+      "英文名称": "Urban Public Transportation Domain",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForObstacleDetection",
+      "中文名称": "障碍物检测计算机视觉技术",
+      "英文名称": "Computer Vision for Obstacle Detection Technique",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "Vulnerability": {
+      "id": "ObstacleDetectionFailure",
+      "中文名称": "障碍物检测失效的脆弱性",
+      "英文名称": "Stationary Obstacle Detection Vulnerability",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "Threat": {
+      "id": "SystemMalfunctionDuringOperation",
+      "中文名称": "运行期间系统故障的威胁",
+      "英文名称": "System Malfunction During Operation Threat",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "RiskSource": {
+      "id": "InadequateTestingBeforeDeployment",
+      "中文名称": "部署前测试不足的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Driverless Delhi Metro's magenta line train crashes a week before launch"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DriverlessDelhiMetroMagentaLineTrain",
+      "中文名称": "德里地铁无人驾驶Magenta线列车",
+      "英文名称": "Driverless Delhi Metro Magenta Line Train",
+      "来源": "Delhi Metro's Driverless Magenta Line Train Crashes Days Before Launch By PM Modi"
+    },
+    "Risk": {
+      "id": "AutonomousTrainCollisionRisk",
+      "中文名称": "自动驾驶列车碰撞风险",
+      "英文名称": "Autonomous Train Collision Risk",
+      "来源": "Driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Consequence": {
+      "id": "PhysicalDamageToTrain",
+      "中文名称": "列车物理损坏后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Driverless Delhi Metro's magenta line train crashes a week before launch"
+    },
+    "AICapability": {
+      "id": "AutonomousTrainOperation",
+      "中文名称": "自动驾驶列车运行能力",
+      "英文名称": "Autonomous Train Operation Capability",
+      "来源": "Driverless Delhi Metro's magenta line train"
+    },
+    "AIOperator": {
+      "id": "DelhiMetroRailCorporation",
+      "中文名称": "德里地铁公司",
+      "英文名称": "Delhi Metro Rail Corporation",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "Stakeholder": {
+      "id": "PublicTransportUsers",
+      "中文名称": "公共交通使用者",
+      "英文名称": "Public Transport Users",
+      "来源": "Why driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Why driverless Delhi Metro train crashing into a wall is worrisome"
+    },
+    "Purpose": {
+      "id": "ModernizePublicTransport",
+      "中文名称": "现代化公共交通的目的",
+      "英文名称": "Modernize Public Transport Purpose",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "Domain": {
+      "id": "UrbanPublicTransportation",
+      "中文名称": "城市公共交通领域",
+      "英文名称": "Urban Public Transportation Domain",
+      "来源": "Delhi Metro's Driverless Magenta Line Train"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionForObstacleDetection",
+      "中文名称": "障碍物检测计算机视觉技术",
+      "英文名称": "Computer Vision for Obstacle Detection Technique",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "Vulnerability": {
+      "id": "ObstacleDetectionFailure",
+      "中文名称": "障碍物检测失效的脆弱性",
+      "英文名称": "Stationary Obstacle Detection Vulnerability",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "Threat": {
+      "id": "SystemMalfunctionDuringOperation",
+      "中文名称": "运行期间系统故障的威胁",
+      "英文名称": "System Malfunction During Operation Threat",
+      "来源": "Driverless Delhi Metro train crashing into a wall"
+    },
+    "RiskSource": {
+      "id": "InadequateTestingBeforeDeployment",
+      "中文名称": "部署前测试不足的风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Driverless Delhi Metro's magenta line train crashes a week before launch"
+    }
+  }
+}

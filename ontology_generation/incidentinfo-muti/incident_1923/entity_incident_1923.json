@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftBingAIChatbot",
+      "中文名称": "微软必应AI聊天机器人",
+      "英文名称": "Microsoft Bing AI Chatbot",
+      "来源": "Microsoft Bing AI chatbot gives misleading election info, data"
+    },
+    "Risk": {
+      "id": "MisleadingElectionInformationRisk",
+      "中文名称": "误导性选举信息风险",
+      "英文名称": "Misleading Election Information Risk",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Consequence": {
+      "id": "SpreadOfMisinformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Spread of Misinformation Consequence",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageProcessingForChatbot",
+      "中文名称": "聊天机器人自然语言处理能力",
+      "英文名称": "Natural Language Processing for Chatbot Capability",
+      "来源": "Microsoft's Bing AI chatbot Copilot gives wrong election information"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Stakeholder": {
+      "id": "ElectionOfficials",
+      "中文名称": "选举官员",
+      "英文名称": "Election Officials",
+      "来源": "Microsoft Bing AI chatbot gives misleading election info, data"
+    },
+    "AISubject": {
+      "id": "Voters",
+      "中文名称": "选民",
+      "英文名称": "Voters",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Purpose": {
+      "id": "InformationProvisionForElections",
+      "中文名称": "选举信息提供目的",
+      "英文名称": "Information Provision for Elections Purpose",
+      "来源": "Microsoft Bing AI chatbot gives misleading election info, data"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "AITechnique": {
+      "id": "GenerativeAIForTextGeneration",
+      "中文名称": "生成式AI文本生成技术",
+      "英文名称": "Generative AI for Text Generation Technique",
+      "来源": "Microsoft's Bing AI chatbot Copilot gives wrong election information"
+    },
+    "Vulnerability": {
+      "id": "LackOfFactCheckingMechanism",
+      "中文名称": "缺乏事实核查机制脆弱性",
+      "英文名称": "Lack of Fact-Checking Mechanism Vulnerability",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Threat": {
+      "id": "DisinformationCampaigns",
+      "中文名称": "虚假信息宣传活动威胁",
+      "英文名称": "Disinformation Campaigns Threat",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "Hazard": {
+      "id": "UnverifiedDataSources",
+      "中文名称": "未经验证的数据源危害",
+      "英文名称": "Unverified Data Sources Hazard",
+      "来源": "Microsoft Bing AI chatbot gives misleading election info, data"
+    },
+    "RiskSource": {
+      "id": "InadequateContentModeration",
+      "中文名称": "内容审核不足风险源",
+      "英文名称": "Inadequate Content Moderation Risk Source",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    },
+    "RiskConcept": {
+      "id": "AIPropagatedMisinformation",
+      "中文名称": "AI传播的虚假信息风险概念",
+      "英文名称": "AI-Propagated Misinformation Risk Concept",
+      "来源": "Microsoft’s AI Chatbot Replies to Election Questions With Conspiracies, Fake Scandals, and Lies"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "Risk": {
+      "id": "PotentiallyDeadlyAutopilotDefect",
+      "中文名称": "潜在致命的自动驾驶缺陷风险",
+      "英文名称": "Potentially Deadly Autopilot Defect Risk",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "Stakeholder": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "AIOperator": {
+      "id": "Tesla",
+      "中文名称": "特斯拉",
+      "英文名称": "Tesla",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "Consequence": {
+      "id": "LawsuitAgainstTesla",
+      "中文名称": "对特斯拉的诉讼后果",
+      "英文名称": "Lawsuit Against Tesla Consequence",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "RiskSource": {
+      "id": "AutopilotDefect",
+      "中文名称": "自动驾驶缺陷风险源",
+      "英文名称": "Autopilot Defect Risk Source",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    },
+    "Impact": {
+      "id": "PotentialLossOfLife",
+      "中文名称": "潜在生命损失的影响",
+      "英文名称": "Potential Loss of Life Impact",
+      "来源": "Judge finds Elon Musk, Tesla likely knew potentially deadly Autopilot defect, allows lawsuit"
+    }
+  }
+}

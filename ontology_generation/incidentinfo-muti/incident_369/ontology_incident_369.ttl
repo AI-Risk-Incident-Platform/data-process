@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YieldStarSoftware rdf:type airo:AISystem ;
+    rdfs:label "YieldStar软件"@zh ;
+    rdfs:label "YieldStar Software"@en ;
+    airo:hasRisk ex:RentPriceManipulationRisk ;
+    airo:isDeployedBy ex:RealPage ;
+    airo:hasStakeholder ex:Tenants ;
+    airo:isAppliedWithinDomain ex:RealEstate .
+
+ex:RentPriceManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "租金价格操纵风险"@zh ;
+    rdfs:label "Rent Price Manipulation Risk"@en ;
+    airo:hasConsequence ex:UnaffordableHousing ;
+    airo:isRiskSourceFor ex:AlgorithmicPriceCoordination .
+
+ex:Tenants rdf:type airo:Stakeholder ;
+    rdfs:label "租户"@zh ;
+    rdfs:label "Tenants"@en .
+
+ex:UnaffordableHousing rdf:type airo:Consequence ;
+    rdfs:label "住房负担不起的后果"@zh ;
+    rdfs:label "Unaffordable Housing Consequence"@en ;
+    airo:hasImpact ex:FinancialHardshipForRenters .
+
+ex:RealPage rdf:type airo:AIOperator ;
+    rdfs:label "RealPage公司"@zh ;
+    rdfs:label "RealPage"@en .
+
+ex:RealEstate rdf:type airo:Domain ;
+    rdfs:label "房地产领域"@zh ;
+    rdfs:label "Real Estate Domain"@en .
+
+ex:AlgorithmicPriceCoordination rdf:type airo:RiskSource ;
+    rdfs:label "算法价格协调风险源"@zh ;
+    rdfs:label "Algorithmic Price Coordination Risk Source"@en .
+
+ex:FinancialHardshipForRenters rdf:type airo:Impact ;
+    rdfs:label "租户财务困难的影响"@zh ;
+    rdfs:label "Financial Hardship for Renters Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Tenants .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotter rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter"@en ;
+    rdfs:label "枪声检测AI系统"@zh ;
+    airo:hasRisk ex:EvidenceTamperingRisk ;
+    airo:hasPurpose ex:GunshotDetectionAndLocation ;
+    airo:isDeployedBy ex:ShotSpotterInc ;
+    airo:hasStakeholder ex:ChicagoPoliceDepartment ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:EvidenceTamperingRisk rdf:type airo:Risk ;
+    rdfs:label "Evidence Tampering Risk"@en ;
+    rdfs:label "证据篡改风险"@zh ;
+    airo:hasConsequence ex:WrongfulConviction ;
+    airo:isRiskSourceFor ex:PoliceInterferenceWithAIOutput .
+
+ex:ChicagoPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Chicago Police Department"@en ;
+    rdfs:label "芝加哥警察局"@zh .
+
+ex:ShotSpotterInc rdf:type airo:AIOperator ;
+    rdfs:label "ShotSpotter Inc."@en ;
+    rdfs:label "ShotSpotter公司"@zh .
+
+ex:WrongfulConviction rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Conviction Consequence"@en ;
+    rdfs:label "错误定罪后果"@zh ;
+    airo:hasImpact ex:JudicialSystemUndermining .
+
+ex:PoliceInterferenceWithAIOutput rdf:type airo:RiskSource ;
+    rdfs:label "Police Interference with AI Output Risk Source"@en ;
+    rdfs:label "警方干预AI输出的风险源"@zh .
+
+ex:JudicialSystemUndermining rdf:type airo:Impact ;
+    rdfs:label "Judicial System Undermining Impact"@en ;
+    rdfs:label "司法系统破坏的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChicagoPoliceDepartment .
+
+ex:GunshotDetectionAndLocation rdf:type airo:Purpose ;
+    rdfs:label "Gunshot Detection and Location Purpose"@en ;
+    rdfs:label "枪声检测与定位的目的"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .

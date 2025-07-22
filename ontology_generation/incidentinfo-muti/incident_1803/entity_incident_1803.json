@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramFaceRecognitionSystem",
+      "中文名称": "Instagram面部识别系统",
+      "英文名称": "Instagram Face Recognition System",
+      "来源": "Instagram accused of illegally harvesting biometric data of 100 million users"
+    },
+    "Risk": {
+      "id": "BiometricDataPrivacyViolationRisk",
+      "中文名称": "生物识别数据隐私侵犯风险",
+      "英文名称": "Biometric Data Privacy Violation Risk",
+      "来源": "Instagram faces lawsuit over illegal harvesting of biometric data"
+    },
+    "Consequence": {
+      "id": "UnauthorizedBiometricDataCollection",
+      "中文名称": "未经授权的生物识别数据收集后果",
+      "英文名称": "Unauthorized Biometric Data Collection Consequence",
+      "来源": "Giant Lawsuit Alleges Instagram Used Face Recognition Illegally"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "Instagram used face recognition illegally"
+    },
+    "Stakeholder": {
+      "id": "InstagramUsers",
+      "中文名称": "Instagram用户",
+      "英文名称": "Instagram Users",
+      "来源": "100 million users affected by biometric data harvesting"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms Inc.",
+      "来源": "Instagram is owned by Meta Platforms Inc."
+    },
+    "Impact": {
+      "id": "PrivacyRightsViolation",
+      "中文名称": "隐私权侵犯影响",
+      "英文名称": "Privacy Rights Violation Impact",
+      "来源": "Illegal harvesting of biometric data violates privacy rights"
+    },
+    "Purpose": {
+      "id": "UserIdentificationAndTagging",
+      "中文名称": "用户识别和标记目的",
+      "英文名称": "User Identification and Tagging Purpose",
+      "来源": "Face recognition used for photo tagging and user identification"
+    },
+    "RiskSource": {
+      "id": "LackOfExplicitUserConsent",
+      "中文名称": "缺乏明确用户同意的风险源",
+      "英文名称": "Lack of Explicit User Consent Risk Source",
+      "来源": "Biometric data harvested without proper user consent"
+    }
+  }
+}

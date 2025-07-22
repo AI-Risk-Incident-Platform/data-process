@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "RiskSource": {
+      "id": "LackOfDataProtectionMeasures",
+      "中文名称": "缺乏数据保护措施",
+      "英文名称": "Security Deficiencies",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Domain": {
+      "id": "AIResearchAndDevelopment",
+      "中文名称": "人工智能研发",
+      "英文名称": "AI Domain",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "OpenAI and Microsoft face class action lawsuit for allegedly violating copyright and privacy laws"
+    },
+    "RiskSource": {
+      "id": "LackOfDataProtectionMeasures",
+      "中文名称": "缺乏数据保护措施",
+      "英文名称": "Security Deficiencies",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Domain": {
+      "id": "AIResearchAndDevelopment",
+      "中文名称": "人工智能研发",
+      "英文名称": "AI Domain",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    }
+  }
+}

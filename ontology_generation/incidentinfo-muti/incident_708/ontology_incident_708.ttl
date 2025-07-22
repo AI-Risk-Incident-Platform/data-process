@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:HistoricalContentMisclassificationRisk ;
+    airo:hasAICapability ex:ImageContentClassification ;
+    airo:hasPurpose ex:ContentSafetyModeration ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:usesTechnique ex:ComputerVisionClassification ;
+    airo:hasStakeholder ex:HolocaustMemorialOrganizations ;
+    airo:hasVulnerability ex:ContextualUnderstandingDeficiency .
+
+ex:HistoricalContentMisclassificationRisk rdf:type airo:Risk ;
+    rdfs:label "Historical Content Misclassification Risk"@en ;
+    rdfs:label "历史内容误分类风险"@zh ;
+    airo:hasConsequence ex:HistoricalMemoryDistortion ;
+    airo:isRiskSourceFor ex:AutomatedLabelingWithoutHumanReview .
+
+ex:HistoricalMemoryDistortion rdf:type airo:Consequence ;
+    rdfs:label "Historical Memory Distortion Consequence"@en ;
+    rdfs:label "历史记忆扭曲后果"@zh ;
+    airo:hasImpact ex:HistoricalSensitivityHarm .
+
+ex:ImageContentClassification rdf:type airo:AICapability ;
+    rdfs:label "Image Content Classification Capability"@en ;
+    rdfs:label "图像内容分类能力"@zh .
+
+ex:HolocaustMemorialOrganizations rdf:type airo:Stakeholder ;
+    rdfs:label "Holocaust Memorial Organizations"@en ;
+    rdfs:label "大屠杀纪念组织"@zh .
+
+ex:HistoricalSensitivityHarm rdf:type airo:Impact ;
+    rdfs:label "Historical Sensitivity Harm Impact"@en ;
+    rdfs:label "历史敏感性伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HolocaustMemorialOrganizations .
+
+ex:ContentSafetyModeration rdf:type airo:Purpose ;
+    rdfs:label "Content Safety Moderation Purpose"@en ;
+    rdfs:label "内容安全审核目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:ComputerVisionClassification rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Classification Technique"@en ;
+    rdfs:label "计算机视觉分类技术"@zh .
+
+ex:ContextualUnderstandingDeficiency rdf:type airo:Vulnerability ;
+    rdfs:label "Contextual Understanding Deficiency Vulnerability"@en ;
+    rdfs:label "上下文理解不足的脆弱性"@zh .
+
+ex:AutomatedLabelingWithoutHumanReview rdf:type airo:RiskSource ;
+    rdfs:label "Automated Labeling Without Human Review Risk Source"@en ;
+    rdfs:label "无人审核的自动标记风险源"@zh .

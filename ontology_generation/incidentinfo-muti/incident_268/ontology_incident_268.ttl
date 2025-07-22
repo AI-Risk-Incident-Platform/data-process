@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGirlfriendSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Girlfriend System"@en ;
+    rdfs:label "AI女友系统"@zh ;
+    airo:hasRisk ex:VerbalAbuseOfAIEntities ;
+    airo:hasPurpose ex:VirtualCompanionship ;
+    airo:isAppliedWithinDomain ex:PersonalCompanionTechnology ;
+    airo:hasStakeholder ex:AICompanionUsers ;
+    airo:isDeployedBy ex:AICompanionCompany .
+
+ex:VerbalAbuseOfAIEntities rdf:type airo:Risk ;
+    rdfs:label "Verbal Abuse of AI Entities Risk"@en ;
+    rdfs:label "对AI实体的言语虐待风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfEthicalDesignConsiderations ;
+    airo:hasConsequence ex:UnrealisticExpectationsForHumanRelationships ;
+    airo:hasResidualRisk ex:UsingAIAsEmotionalPunchingBag .
+
+ex:UsingAIAsEmotionalPunchingBag rdf:type airo:Misuse ;
+    rdfs:label "Using AI as Emotional Punching Bag Misuse"@en ;
+    rdfs:label "将AI作为情感发泄工具的滥用"@zh .
+
+ex:AICompanionUsers rdf:type airo:Stakeholder ;
+    rdfs:label "AI Companion Users"@en ;
+    rdfs:label "AI伴侣使用者"@zh .
+
+ex:NormalizationOfAbusiveBehavior rdf:type airo:Impact ;
+    rdfs:label "Normalization of Abusive Behavior Impact"@en ;
+    rdfs:label "虐待行为常态化的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AICompanionUsers .
+
+ex:AICompanionCompany rdf:type airo:AIOperator ;
+    rdfs:label "AI Companion Company"@en ;
+    rdfs:label "AI伴侣公司"@zh .
+
+ex:VirtualCompanionship rdf:type airo:Purpose ;
+    rdfs:label "Virtual Companionship Purpose"@en ;
+    rdfs:label "虚拟陪伴的目的"@zh .
+
+ex:PersonalCompanionTechnology rdf:type airo:Domain ;
+    rdfs:label "Personal Companion Technology Domain"@en ;
+    rdfs:label "个人伴侣技术领域"@zh .
+
+ex:UnrealisticExpectationsForHumanRelationships rdf:type airo:Consequence ;
+    rdfs:label "Unrealistic Expectations for Human Relationships Consequence"@en ;
+    rdfs:label "对人际关系产生不切实际期望的后果"@zh ;
+    airo:hasImpact ex:NormalizationOfAbusiveBehavior .
+
+ex:LackOfEthicalDesignConsiderations rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Ethical Design Considerations Risk Source"@en ;
+    rdfs:label "缺乏伦理设计考量的风险源"@zh .

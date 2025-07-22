@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSurveillanceSystem",
+      "中文名称": "面部识别监控系统",
+      "英文名称": "Facial Recognition Surveillance System",
+      "来源": "Police secretly monitored New Orleans with facial recognition cameras"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Police secretly monitored New Orleans with facial recognition cameras"
+    },
+    "Stakeholder": {
+      "id": "NewOrleansPoliceDepartment",
+      "中文名称": "新奥尔良警察局",
+      "英文名称": "New Orleans Police Department",
+      "来源": "New Orleans PD reportedly got secret facial recognition alerts"
+    },
+    "AISubject": {
+      "id": "NewOrleansCitizens",
+      "中文名称": "新奥尔良市民",
+      "英文名称": "New Orleans Citizens",
+      "来源": "New Orleans used Minority Report-like facial recognition software to monitor citizens for crime suspects"
+    },
+    "Purpose": {
+      "id": "CrimeSuspectMonitoring",
+      "中文名称": "犯罪嫌疑监控",
+      "英文名称": "Crime Suspect Monitoring",
+      "来源": "New Orleans used Minority Report-like facial recognition software to monitor citizens for crime suspects"
+    },
+    "Consequence": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控后果",
+      "英文名称": "Mass Surveillance Consequence",
+      "来源": "Police secretly monitored New Orleans with facial recognition cameras"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Civil Liberties Erosion Impact",
+      "来源": "New Orleans used Minority Report-like facial recognition software to monitor citizens for crime suspects"
+    },
+    "AITechnique": {
+      "id": "RealTimeFacialRecognition",
+      "中文名称": "实时面部识别技术",
+      "英文名称": "Real-Time Facial Recognition Technique",
+      "来源": "New Orleans used Minority Report-like facial recognition software to monitor citizens for crime suspects"
+    },
+    "RiskSource": {
+      "id": "SecretMonitoringProgram",
+      "中文名称": "秘密监控计划风险源",
+      "英文名称": "Secret Monitoring Program Risk Source",
+      "来源": "Police secretly monitored New Orleans with facial recognition cameras"
+    }
+  }
+}

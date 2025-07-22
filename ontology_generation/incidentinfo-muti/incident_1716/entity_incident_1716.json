@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT incorrectly diagnosed more than 8 in 10 pediatric case studies, research finds"
+    },
+    "Risk": {
+      "id": "IncorrectDiagnosisRisk",
+      "中文名称": "错误诊断风险",
+      "英文名称": "Incorrect Diagnosis Risk",
+      "来源": "ChatGPT incorrectly diagnosed more than 8 in 10 pediatric case studies"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToPatients",
+      "中文名称": "对患者的潜在伤害",
+      "英文名称": "Potential Harm to Patients Consequence",
+      "来源": "ChatGPT bombs test on diagnosing kids' medical cases with 83% error rate"
+    },
+    "Domain": {
+      "id": "PediatricHealthcare",
+      "中文名称": "儿科医疗保健",
+      "英文名称": "Pediatric Healthcare Domain",
+      "来源": "ChatGPT found to have very low success rate in diagnosing pediatric case studies"
+    },
+    "AICapability": {
+      "id": "MedicalDiagnosisCapability",
+      "中文名称": "医疗诊断能力",
+      "英文名称": "Medical Diagnosis Capability",
+      "来源": "ChatGPT incorrectly diagnosed more than 8 in 10 pediatric case studies"
+    },
+    "Impact": {
+      "id": "MisdiagnosisImpact",
+      "中文名称": "误诊影响",
+      "英文名称": "Misdiagnosis Impact",
+      "来源": "83% error rate in diagnosing kids' medical cases"
+    },
+    "RiskSource": {
+      "id": "InsufficientMedicalTrainingData",
+      "中文名称": "医疗训练数据不足",
+      "英文名称": "Insufficient Medical Training Data Risk Source",
+      "来源": "very low success rate in diagnosing pediatric case studies"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookEmojiReactionSystem",
+      "中文名称": "Facebook表情反应系统",
+      "英文名称": "Facebook Emoji Reaction System",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInContentEngagement",
+      "中文名称": "内容参与度中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Content Engagement Risk",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Impact": {
+      "id": "DistortedContentEngagementMetrics",
+      "中文名称": "内容参与度指标失真的影响",
+      "英文名称": "Distorted Content Engagement Metrics Impact",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookEmojiReactionSystem",
+      "中文名称": "Facebook表情反应系统",
+      "英文名称": "Facebook Emoji Reaction System",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInContentEngagement",
+      "中文名称": "内容参与度中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Content Engagement Risk",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Stakeholder": {
+      "id": "FacebookUsers",
+      "中文名称": "Facebook用户",
+      "英文名称": "Facebook Users",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    },
+    "Impact": {
+      "id": "DistortedContentEngagementMetrics",
+      "中文名称": "内容参与度指标失真的影响",
+      "英文名称": "Distorted Content Engagement Metrics Impact",
+      "来源": "Facebook weighed emoji reactions much heavier than a 'Like'"
+    }
+  }
+}

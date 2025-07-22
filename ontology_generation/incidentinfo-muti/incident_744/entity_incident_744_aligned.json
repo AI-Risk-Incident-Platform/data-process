@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VolkswagenFrontAssistSystem",
+      "中文名称": "大众前部辅助系统",
+      "英文名称": "Volkswagen Front Assist System",
+      "来源": "案件标题中提到的'VW Front Assist Class Action Lawsuit'"
+    },
+    "Risk": {
+      "id": "AutomaticEmergencyBrakingFailureRisk",
+      "中文名称": "自动紧急制动失效风险",
+      "英文名称": "Autonomous Braking Safety Risk",
+      "来源": "集体诉讼案件通常涉及产品缺陷或功能失效"
+    },
+    "Stakeholder": {
+      "id": "VolkswagenGroupOfAmerica",
+      "中文名称": "美国大众汽车集团",
+      "英文名称": "Volkswagen Group of America",
+      "来源": "案件被告方'Volkswagen Group of America, Inc.'"
+    },
+    "AIOperator": {
+      "id": "VolkswagenAG",
+      "中文名称": "大众汽车集团",
+      "英文名称": "Volkswagen AG",
+      "来源": "作为Front Assist系统的开发者和提供者"
+    },
+    "Consequence": {
+      "id": "PotentialCollisionAccidents",
+      "中文名称": "潜在碰撞事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "前部辅助系统失效可能导致的事故风险"
+    },
+    "Domain": {
+      "id": "AutomotiveSafetySystems",
+      "中文名称": "汽车安全系统领域",
+      "英文名称": "Automotive Safety Systems Domain",
+      "来源": "Front Assist属于汽车主动安全系统"
+    },
+    "Purpose": {
+      "id": "CollisionAvoidance",
+      "中文名称": "碰撞避免目的",
+      "英文名称": "Vehicle Safety Purpose",
+      "来源": "前部辅助系统的主要设计目的"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VolkswagenFrontAssistSystem",
+      "中文名称": "大众前部辅助系统",
+      "英文名称": "Volkswagen Front Assist System",
+      "来源": "案件标题中提到的'VW Front Assist Class Action Lawsuit'"
+    },
+    "Risk": {
+      "id": "AutomaticEmergencyBrakingFailureRisk",
+      "中文名称": "自动紧急制动失效风险",
+      "英文名称": "Autonomous Braking Safety Risk",
+      "来源": "集体诉讼案件通常涉及产品缺陷或功能失效"
+    },
+    "Stakeholder": {
+      "id": "VolkswagenGroupOfAmerica",
+      "中文名称": "美国大众汽车集团",
+      "英文名称": "Volkswagen Group of America",
+      "来源": "案件被告方'Volkswagen Group of America, Inc.'"
+    },
+    "AIOperator": {
+      "id": "VolkswagenAG",
+      "中文名称": "大众汽车集团",
+      "英文名称": "Volkswagen AG",
+      "来源": "作为Front Assist系统的开发者和提供者"
+    },
+    "Consequence": {
+      "id": "PotentialCollisionAccidents",
+      "中文名称": "潜在碰撞事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "前部辅助系统失效可能导致的事故风险"
+    },
+    "Domain": {
+      "id": "AutomotiveSafetySystems",
+      "中文名称": "汽车安全系统领域",
+      "英文名称": "Automotive Safety Systems Domain",
+      "来源": "Front Assist属于汽车主动安全系统"
+    },
+    "Purpose": {
+      "id": "CollisionAvoidance",
+      "中文名称": "碰撞避免目的",
+      "英文名称": "Vehicle Safety Purpose",
+      "来源": "前部辅助系统的主要设计目的"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIArtGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Art Generation System"@en ;
+    rdfs:label "AI艺术生成系统"@zh ;
+    airo:hasRisk ex:MisrepresentationOfAICapabilities ;
+    airo:isDevelopedBy ex:Kaedim ;
+    airo:hasStakeholder ex:AIArtCompany .
+
+ex:MisrepresentationOfAICapabilities rdf:type airo:Risk ;
+    rdfs:label "Misrepresentation of AI Capabilities Risk"@en ;
+    rdfs:label "AI能力虚假宣传风险"@zh ;
+    airo:hasConsequence ex:HumanLaborDisguisedAsAI .
+
+ex:AIArtCompany rdf:type airo:Stakeholder ;
+    rdfs:label "AI Art Company"@en ;
+    rdfs:label "AI艺术公司"@zh .
+
+ex:HumanLaborDisguisedAsAI rdf:type airo:Misuse ;
+    rdfs:label "Human Labor Disguised as AI Misuse"@en ;
+    rdfs:label "人工劳动伪装成AI的滥用"@zh ;
+    airo:hasImpactOnStakeholder ex:AIArtCompany .
+
+ex:Kaedim rdf:type airo:AIDeveloper ;
+    rdfs:label "Kaedim"@en ;
+    rdfs:label "Kaedim公司"@zh .

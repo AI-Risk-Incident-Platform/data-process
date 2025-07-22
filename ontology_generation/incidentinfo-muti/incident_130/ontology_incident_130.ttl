@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HealthcareAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Healthcare Algorithm"@en ;
+    rdfs:label "医疗保健算法"@zh ;
+    airo:hasRisk ex:RacialBiasInHealthcare ;
+    airo:hasCapability ex:RaceDetectionFromXrays ;
+    airo:hasAISubject ex:BlackPatients ;
+    airo:isAppliedWithinDomain ex:Healthcare .
+
+ex:RacialBiasInHealthcare rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Healthcare Risk"@en ;
+    rdfs:label "医疗保健中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:DisparateHealthcareAccess ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:DisparateHealthcareAccess rdf:type airo:Consequence ;
+    rdfs:label "Disparate Healthcare Access Consequence"@en ;
+    rdfs:label "医疗保健获取差异后果"@zh ;
+    airo:hasImpact ex:HealthDisparities .
+
+ex:HealthDisparities rdf:type airo:Impact ;
+    rdfs:label "Health Disparities Impact"@en ;
+    rdfs:label "健康差异影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackPatients .
+
+ex:RaceDetectionFromXrays rdf:type airo:AICapability ;
+    rdfs:label "Race Detection from X-rays Capability"@en ;
+    rdfs:label "从X光片检测种族的能力"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:BlackPatients rdf:type airo:AISubject ;
+    rdfs:label "Black Patients"@en ;
+    rdfs:label "黑人患者"@zh .
+
+ex:Healthcare rdf:type airo:Domain ;
+    rdfs:label "Healthcare Domain"@en ;
+    rdfs:label "医疗保健领域"@zh .

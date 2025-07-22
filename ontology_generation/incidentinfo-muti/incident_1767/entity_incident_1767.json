@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ZillowHousePricingAlgorithm",
+      "中文名称": "Zillow房屋定价算法",
+      "英文名称": "Zillow House Pricing Algorithm",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "Risk": {
+      "id": "InaccurateHouseValuationRisk",
+      "中文名称": "房屋估值不准确风险",
+      "英文名称": "Inaccurate House Valuation Risk",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "Domain": {
+      "id": "RealEstateMarket",
+      "中文名称": "房地产市场",
+      "英文名称": "Real Estate Market",
+      "来源": "House-flipping algorithms are coming to your neighborhood"
+    },
+    "AICapability": {
+      "id": "AutomatedHousePricePrediction",
+      "中文名称": "自动化房屋价格预测能力",
+      "英文名称": "Automated House Price Prediction Capability",
+      "来源": "House-flipping algorithms are coming to your neighborhood"
+    },
+    "Consequence": {
+      "id": "FinancialLossesForZillow",
+      "中文名称": "Zillow财务损失后果",
+      "英文名称": "Financial Losses for Zillow Consequence",
+      "来源": "Why Zillow Couldn't Make Algorithmic House Pricing Work"
+    },
+    "AIOperator": {
+      "id": "ZillowGroup",
+      "中文名称": "Zillow集团",
+      "英文名称": "Zillow Group",
+      "来源": "Zillow Housing Algorithm"
+    },
+    "Purpose": {
+      "id": "AutomatedHouseFlipping",
+      "中文名称": "自动化房屋翻售目的",
+      "英文名称": "Automated House Flipping Purpose",
+      "来源": "House-flipping algorithms are coming to your neighborhood"
+    }
+  }
+}

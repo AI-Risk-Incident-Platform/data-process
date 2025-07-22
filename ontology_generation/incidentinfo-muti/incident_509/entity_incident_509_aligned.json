@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "ItalianPrivacyRegulator",
+      "中文名称": "意大利隐私监管机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Italy restores ChatGPT after OpenAI responds to regulator"
+    },
+    "RiskControl": {
+      "id": "IncognitoMode",
+      "中文名称": "隐身模式",
+      "英文名称": "Incognito Mode",
+      "来源": "OpenAI rolls out 'incognito mode' on ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "Stakeholder": {
+      "id": "ItalianPrivacyRegulator",
+      "中文名称": "意大利隐私监管机构",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italian privacy regulator bans ChatGPT"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Italy restores ChatGPT after OpenAI responds to regulator"
+    },
+    "RiskControl": {
+      "id": "IncognitoMode",
+      "中文名称": "隐身模式",
+      "英文名称": "Incognito Mode",
+      "来源": "OpenAI rolls out 'incognito mode' on ChatGPT"
+    }
+  }
+}

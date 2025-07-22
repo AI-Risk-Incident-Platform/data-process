@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoTechnology",
+      "中文名称": "深度伪造视频技术",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的'malicious deepfake videos'"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'malicious' deepfake videos"
+    },
+    "Stakeholder": {
+      "id": "PoliticalLeader",
+      "中文名称": "政治领导人",
+      "英文名称": "Politicians",
+      "来源": "标题中提到的'SM Lee'"
+    },
+    "Domain": {
+      "id": "ForeignRelations",
+      "中文名称": "外交关系",
+      "英文名称": "International Relations",
+      "来源": "标题中提到的'commenting on foreign relations, leaders'"
+    },
+    "Purpose": {
+      "id": "PoliticalMisinformation",
+      "中文名称": "政治虚假信息",
+      "英文名称": "Political Deceptive Content",
+      "来源": "标题中提到的'malicious' deepfake videos"
+    },
+    "Consequence": {
+      "id": "DiplomaticTensions",
+      "中文名称": "外交紧张",
+      "英文名称": "Diplomatic Tensions",
+      "来源": "标题中提到的'commenting on foreign relations, leaders'"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake videos'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoTechnology",
+      "中文名称": "深度伪造视频技术",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "标题中提到的'malicious deepfake videos'"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'malicious' deepfake videos"
+    },
+    "Stakeholder": {
+      "id": "PoliticalLeader",
+      "中文名称": "政治领导人",
+      "英文名称": "Politicians",
+      "来源": "标题中提到的'SM Lee'"
+    },
+    "Domain": {
+      "id": "ForeignRelations",
+      "中文名称": "外交关系",
+      "英文名称": "International Relations",
+      "来源": "标题中提到的'commenting on foreign relations, leaders'"
+    },
+    "Purpose": {
+      "id": "PoliticalMisinformation",
+      "中文名称": "政治虚假信息",
+      "英文名称": "Political Deceptive Content",
+      "来源": "标题中提到的'malicious' deepfake videos"
+    },
+    "Consequence": {
+      "id": "DiplomaticTensions",
+      "中文名称": "外交紧张",
+      "英文名称": "Diplomatic Tensions",
+      "来源": "标题中提到的'commenting on foreign relations, leaders'"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成",
+      "英文名称": "Deepfake Technology",
+      "来源": "标题中提到的'deepfake videos'"
+    }
+  }
+}

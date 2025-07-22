@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Generation System",
+      "来源": "AI-Generated Sexually Explicit Deepfakes"
+    },
+    "Risk": {
+      "id": "DeepfakeHarassmentRisk",
+      "中文名称": "深度伪造骚扰风险",
+      "英文名称": "Deepfake Harassment Risk",
+      "来源": "AI Deepfake Harassment Affects 25 Congresswomen"
+    },
+    "AISubject": {
+      "id": "Congresswomen",
+      "中文名称": "国会女议员",
+      "英文名称": "Congresswomen",
+      "来源": "1 in 6 Congresswomen Targeted by AI-Generated Sexually Explicit Deepfakes"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "名誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "AI Deepfake Harassment Affects 25 Congresswomen"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "AI Deepfake Harassment Affects 25 Congresswomen"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "AI-Generated Sexually Explicit Deepfakes"
+    },
+    "Stakeholder": {
+      "id": "PolicyMakers",
+      "中文名称": "政策制定者",
+      "英文名称": "Policy Makers",
+      "来源": "Validating AOC's DEFIANCE Act"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "AI-Generated Sexually Explicit Deepfakes"
+    },
+    "Purpose": {
+      "id": "DigitalHarassment",
+      "中文名称": "数字骚扰目的",
+      "英文名称": "Digital Harassment Purpose",
+      "来源": "AI Deepfake Harassment Affects 25 Congresswomen"
+    },
+    "Domain": {
+      "id": "PoliticalSphere",
+      "中文名称": "政治领域",
+      "英文名称": "Political Sphere Domain",
+      "来源": "Congresswomen Targeted by AI-Generated Content"
+    }
+  }
+}

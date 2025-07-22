@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleNewsAI",
+      "中文名称": "谷歌新闻AI",
+      "英文名称": "Google News AI",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "Risk": {
+      "id": "LowQualityContentRisk",
+      "中文名称": "低质量内容风险",
+      "英文名称": "Low Quality Content Risk",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    },
+    "Consequence": {
+      "id": "ReducedInformationQuality",
+      "中文名称": "信息质量下降后果",
+      "英文名称": "Info Quality Degradation Conseq",
+      "来源": "Google responds to claims of garbage AI content in Google News"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "Your Google News feed is likely filled with AI-generated articles"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "AIProvider": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google responds to claims of garbage AI content in Google News"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度降低影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    },
+    "Purpose": {
+      "id": "AutomatedNewsAggregation",
+      "中文名称": "自动化新闻聚合目的",
+      "英文名称": "Automated News Purpose",
+      "来源": "Your Google News feed is likely filled with AI-generated articles"
+    },
+    "Domain": {
+      "id": "DigitalMedia",
+      "中文名称": "数字媒体领域",
+      "英文名称": "Online Content Domain",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "RiskSource": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经验证的内容生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleNewsAI",
+      "中文名称": "谷歌新闻AI",
+      "英文名称": "Google News AI",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "Risk": {
+      "id": "LowQualityContentRisk",
+      "中文名称": "低质量内容风险",
+      "英文名称": "Low Quality Content Risk",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    },
+    "Consequence": {
+      "id": "ReducedInformationQuality",
+      "中文名称": "信息质量下降后果",
+      "英文名称": "Info Quality Degradation Conseq",
+      "来源": "Google responds to claims of garbage AI content in Google News"
+    },
+    "AICapability": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "Your Google News feed is likely filled with AI-generated articles"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Users",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "AIProvider": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google responds to claims of garbage AI content in Google News"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任度降低影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    },
+    "Purpose": {
+      "id": "AutomatedNewsAggregation",
+      "中文名称": "自动化新闻聚合目的",
+      "英文名称": "Automated News Purpose",
+      "来源": "Your Google News feed is likely filled with AI-generated articles"
+    },
+    "Domain": {
+      "id": "DigitalMedia",
+      "中文名称": "数字媒体领域",
+      "英文名称": "Online Content Domain",
+      "来源": "Google News feed is likely filled with AI-generated articles"
+    },
+    "RiskSource": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经验证的内容生成风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google News Is Boosting Garbage AI-Generated Articles"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeAudioSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造音频系统"@zh ;
+    rdfs:label "Deepfake Audio System"@en ;
+    airo:hasRisk ex:LegalEvidenceManipulationRisk ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasStakeholder ex:LegalProfessionals ;
+    airo:isAppliedWithinDomain ex:LegalSystem .
+
+ex:LegalEvidenceManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "法律证据操纵风险"@zh ;
+    rdfs:label "Legal Evidence Manipulation Risk"@en ;
+    airo:hasConsequence ex:FalseTestimonyInCourt ;
+    airo:isRiskSourceFor ex:DigitalEvidenceForgery .
+
+ex:FalseTestimonyInCourt rdf:type airo:Consequence ;
+    rdfs:label "法庭虚假证词后果"@zh ;
+    rdfs:label "False Testimony in Court Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:LegalProfessionals .
+
+ex:LegalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "法律专业人士"@zh ;
+    rdfs:label "Legal Professionals"@en .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "语音合成技术"@zh ;
+    rdfs:label "Voice Synthesis Technology"@en .
+
+ex:DigitalEvidenceForgery rdf:type airo:RiskSource ;
+    rdfs:label "数字证据伪造风险源"@zh ;
+    rdfs:label "Digital Evidence Forgery Risk Source"@en .
+
+ex:LegalSystem rdf:type airo:Domain ;
+    rdfs:label "法律系统领域"@zh ;
+    rdfs:label "Legal System Domain"@en .

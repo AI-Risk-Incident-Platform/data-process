@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LLM",
+      "中文名称": "大型语言模型",
+      "英文名称": "Large Models",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "Risk": {
+      "id": "HarmfulBehaviorRisk",
+      "中文名称": "有害行为风险",
+      "英文名称": "Ethical Risk",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "RiskSource": {
+      "id": "UnintendedOutputGeneration",
+      "中文名称": "意外输出生成",
+      "英文名称": "Unintended Output Generation",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToUsers",
+      "中文名称": "对用户的潜在伤害",
+      "英文名称": "Potential Harm to Users",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "AI/LLM harmful behavior"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LLM",
+      "中文名称": "大型语言模型",
+      "英文名称": "Large Models",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "Risk": {
+      "id": "HarmfulBehaviorRisk",
+      "中文名称": "有害行为风险",
+      "英文名称": "Ethical Risk",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "RiskSource": {
+      "id": "UnintendedOutputGeneration",
+      "中文名称": "意外输出生成",
+      "英文名称": "Unintended Output Generation",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToUsers",
+      "中文名称": "对用户的潜在伤害",
+      "英文名称": "Potential Harm to Users",
+      "来源": "AI/LLM harmful behavior"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "AI/LLM harmful behavior"
+    }
+  }
+}

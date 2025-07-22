@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DoctorWhoAIPromos rdf:type airo:AISystem ;
+    rdfs:label "神秘博士AI宣传片"@zh ;
+    rdfs:label "Doctor Who AI Promos"@en ;
+    airo:hasRisk ex:ViewerComplaintsRisk ;
+    airo:hasStakeholder ex:BBC ;
+    airo:isAppliedWithinDomain ex:MediaPromotion ;
+    airo:hasRiskControl ex:BBCMedia .
+
+ex:ViewerComplaintsRisk rdf:type airo:Risk ;
+    rdfs:label "观众投诉风险"@zh ;
+    rdfs:label "Viewer Complaints Risk"@en ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:AIExperimentsInMedia .
+
+ex:BBC rdf:type airo:Stakeholder ;
+    rdfs:label "英国广播公司"@zh ;
+    rdfs:label "BBC"@en .
+
+ex:BBCMedia rdf:type airo:AIOperator ;
+    rdfs:label "BBC媒体"@zh ;
+    rdfs:label "BBC Media"@en ;
+    airo:mitigatesRiskConcept ex:ViewerComplaintsRisk .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "公众反弹后果"@zh ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:BBC .
+
+ex:AIExperimentsInMedia rdf:type airo:RiskSource ;
+    rdfs:label "媒体中的AI实验风险源"@zh ;
+    rdfs:label "AI Experiments in Media Risk Source"@en .
+
+ex:MediaPromotion rdf:type airo:Domain ;
+    rdfs:label "媒体宣传领域"@zh ;
+    rdfs:label "Media Promotion Domain"@en .

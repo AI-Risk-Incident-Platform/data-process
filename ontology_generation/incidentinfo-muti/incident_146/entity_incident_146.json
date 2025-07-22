@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramAlgorithm",
+      "中文名称": "Instagram算法",
+      "英文名称": "Instagram Algorithm",
+      "来源": "Beverly Hills cops try to weaponize Instagram’s algorithms in failed attempt to thwart live streamers"
+    },
+    "Risk": {
+      "id": "AlgorithmWeaponizationRisk",
+      "中文名称": "算法武器化风险",
+      "英文名称": "Algorithm Weaponization Risk",
+      "来源": "Beverly Hills cops try to weaponize Instagram’s algorithms in failed attempt to thwart live streamers"
+    },
+    "Stakeholder": {
+      "id": "BeverlyHillsPoliceDepartment",
+      "中文名称": "比佛利山庄警察局",
+      "英文名称": "Beverly Hills Police Department",
+      "来源": "Beverly Hills cops try to weaponize Instagram’s algorithms in failed attempt to thwart live streamers"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms Inc.",
+      "来源": "Instagram’s algorithms"
+    },
+    "Purpose": {
+      "id": "ContentModerationAndUserEngagement",
+      "中文名称": "内容审核和用户参与",
+      "英文名称": "Content Moderation and User Engagement",
+      "来源": "Instagram’s algorithms"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Platforms",
+      "来源": "Instagram’s algorithms"
+    },
+    "RiskSource": {
+      "id": "IntentionalAlgorithmManipulation",
+      "中文名称": "故意算法操纵",
+      "英文名称": "Intentional Algorithm Manipulation",
+      "来源": "Beverly Hills cops try to weaponize Instagram’s algorithms"
+    },
+    "Consequence": {
+      "id": "FailedContentSuppression",
+      "中文名称": "内容压制失败",
+      "英文名称": "Failed Content Suppression",
+      "来源": "failed attempt to thwart live streamers"
+    },
+    "AITechnique": {
+      "id": "ContentRecommendationAlgorithm",
+      "中文名称": "内容推荐算法",
+      "英文名称": "Content Recommendation Algorithm",
+      "来源": "Instagram’s algorithms"
+    }
+  }
+}

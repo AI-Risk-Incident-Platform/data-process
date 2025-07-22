@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EmployeeBehaviorPerceptionSystem",
+      "中文名称": "员工行为感知系统",
+      "英文名称": "Employee Behavior Perception System",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    },
+    "Stakeholder": {
+      "id": "ChineseTechWorkers",
+      "中文名称": "中国科技工作者",
+      "英文名称": "Chinese Tech Workers",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    },
+    "AIOperator": {
+      "id": "Zhihu",
+      "中文名称": "知乎",
+      "英文名称": "Zhihu",
+      "来源": "Zhihu Denies Using Behavior Perception System to Monitor Employees"
+    },
+    "Impact": {
+      "id": "EmployeePrivacyConcerns",
+      "中文名称": "员工隐私担忧影响",
+      "英文名称": "Employee Privacy Concerns Impact",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    },
+    "RiskSource": {
+      "id": "EmployeeMonitoringWithoutConsent",
+      "中文名称": "未经同意的员工监控风险源",
+      "英文名称": "Employee Monitoring Without Consent Risk Source",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    },
+    "Purpose": {
+      "id": "EmployeeRetentionAnalysis",
+      "中文名称": "员工保留分析目的",
+      "英文名称": "Employee Retention Analysis Purpose",
+      "来源": "Chinese tech workers outraged by surveillance tool that flags employees who look likely to quit"
+    }
+  }
+}

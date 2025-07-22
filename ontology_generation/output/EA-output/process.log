@@ -1,0 +1,40 @@
+2025-07-18 21:19:03,430 INFO: 抽取实体内容已保存到: output/EA-output\entity_alignment.json
+2025-07-18 21:19:04,815 INFO: [Consequence] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Consequence.json
+2025-07-18 21:19:35,712 INFO: [Risk] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Risk.json
+2025-07-18 21:20:09,392 INFO: [Stakeholder] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Stakeholder.json
+2025-07-18 21:20:39,641 INFO: [AIsystem] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AIsystem.json
+2025-07-18 21:21:08,959 INFO: [Vulnerability] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Vulnerability.json
+2025-07-18 21:21:23,275 INFO: [AICapability] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AICapability.json
+2025-07-18 21:21:46,187 INFO: [AITechnique] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AITechnique.json
+2025-07-18 21:22:21,988 INFO: [Purpose] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Purpose.json
+2025-07-18 21:22:42,686 INFO: [Domain] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Domain.json
+2025-07-18 21:23:05,788 INFO: [Impact] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Impact.json
+2025-07-18 21:23:44,702 INFO: [RiskSource] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_RiskSource.json
+2025-07-18 21:24:12,347 INFO: [RiskConcept] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_RiskConcept.json
+2025-07-18 21:24:19,673 INFO: [Hazard] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Hazard.json
+2025-07-18 21:24:43,544 INFO: [AISubject] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AISubject.json
+2025-07-18 21:24:57,343 INFO: [Threat] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Threat.json
+2025-07-18 21:25:10,138 INFO: [AIOperator] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AIOperator.json
+2025-07-18 21:25:17,363 INFO: 实体对齐结果已保存到: output/EA-output\entity_alignment.json
+2025-07-18 21:25:17,380 INFO: 所有事件对齐前后entity_id均未发生变化。
+2025-07-18 21:25:17,381 INFO: 命名后的实体簇已保存到: output/EA-output\entity_clusters_named.json
+2025-07-18 21:48:04,682 INFO: 抽取实体内容已保存到: output/EA-output\entity_alignment.json
+2025-07-18 21:48:05,877 INFO: [Purpose] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Purpose.json
+2025-07-18 21:48:35,782 INFO: [Stakeholder] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Stakeholder.json
+2025-07-18 21:49:08,290 INFO: [Impact] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Impact.json
+2025-07-18 21:49:57,170 INFO: [Vulnerability] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Vulnerability.json
+2025-07-18 21:50:15,584 INFO: [Hazard] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Hazard.json
+2025-07-18 21:50:32,312 INFO: [RiskSource] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_RiskSource.json
+2025-07-18 21:51:11,834 INFO: [Threat] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Threat.json
+2025-07-18 21:51:28,855 INFO: [AICapability] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AICapability.json
+2025-07-18 21:52:04,150 INFO: [AISubject] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AISubject.json
+2025-07-18 21:52:23,746 INFO: [Domain] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Domain.json
+2025-07-18 21:52:54,673 INFO: [AIsystem] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AIsystem.json
+2025-07-18 21:53:39,316 INFO: [Consequence] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Consequence.json
+2025-07-18 21:54:29,634 INFO: [Risk] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_Risk.json
+2025-07-18 21:55:14,196 INFO: [AITechnique] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AITechnique.json
+2025-07-18 21:55:42,156 INFO: [RiskConcept] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_RiskConcept.json
+2025-07-18 21:55:51,696 INFO: [AIOperator] 每个实体的top5相似实体已保存到: output/EA-output\entity_top5_similar_AIOperator.json
+2025-07-18 21:56:03,298 INFO: 实体对齐结果已保存到: output/EA-output\entity_alignment.json
+2025-07-18 21:56:03,320 INFO: 所有事件对齐前后entity_id均未发生变化。
+2025-07-18 21:56:03,321 INFO: 命名后的实体簇已保存到: output/EA-output\entity_clusters_named.json

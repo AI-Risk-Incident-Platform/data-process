@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter Gunshot Detection System"@en ;
+    rdfs:label "ShotSpotter枪声检测系统"@zh ;
+    airo:hasRisk ex:IneffectiveGunshotDetectionRisk ;
+    airo:hasStakeholder ex:LocalPoliceDepartment ;
+    airo:isDeployedBy ex:ShotSpotterCompany .
+
+ex:IneffectiveGunshotDetectionRisk rdf:type airo:Risk ;
+    rdfs:label "Ineffective Gunshot Detection Risk"@en ;
+    rdfs:label "枪声检测失效风险"@zh ;
+    airo:hasConsequence ex:PublicSafetyThreat .
+
+ex:LocalPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Local Police Department"@en ;
+    rdfs:label "地方警察部门"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Consequence ;
+    rdfs:label "Public Safety Threat Consequence"@en ;
+    rdfs:label "公共安全威胁后果"@zh ;
+    airo:hasImpactOnStakeholder ex:LocalPoliceDepartment .
+
+ex:ShotSpotterCompany rdf:type airo:AIOperator ;
+    rdfs:label "ShotSpotter Company"@en ;
+    rdfs:label "ShotSpotter公司"@zh .

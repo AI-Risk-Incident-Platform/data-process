@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ClearviewAIFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Clearview AI人脸识别系统"@zh ;
+    rdfs:label "Clearview AI Facial Recognition System"@en ;
+    airo:hasRisk ex:PrivacyBreachRisk ;
+    airo:isDevelopedBy ex:ClearviewAI ;
+    airo:hasStakeholder ex:FrenchRegulator ;
+    airo:hasPurpose ex:FacialRecognition ;
+    airo:isAppliedWithinDomain ex:DataPrivacy .
+
+ex:PrivacyBreachRisk rdf:type airo:Risk ;
+    rdfs:label "隐私泄露风险"@zh ;
+    rdfs:label "Privacy Breach Risk"@en ;
+    airo:hasConsequence ex:RegulatoryFine ;
+    airo:isRiskSourceFor ex:NonComplianceWithGDPR .
+
+ex:RegulatoryFine rdf:type airo:Consequence ;
+    rdfs:label "监管罚款后果"@zh ;
+    rdfs:label "Regulatory Fine Consequence"@en ;
+    airo:hasImpact ex:FinancialPenalty .
+
+ex:ClearviewAI rdf:type airo:AIOperator ;
+    rdfs:label "Clearview AI公司"@zh ;
+    rdfs:label "Clearview AI"@en .
+
+ex:FrenchRegulator rdf:type airo:Stakeholder ;
+    rdfs:label "法国监管机构"@zh ;
+    rdfs:label "French Regulator"@en .
+
+ex:FinancialPenalty rdf:type airo:Impact ;
+    rdfs:label "经济处罚影响"@zh ;
+    rdfs:label "Financial Penalty Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ClearviewAI .
+
+ex:FacialRecognition rdf:type airo:Purpose ;
+    rdfs:label "人脸识别目的"@zh ;
+    rdfs:label "Facial Recognition Purpose"@en .
+
+ex:DataPrivacy rdf:type airo:Domain ;
+    rdfs:label "数据隐私领域"@zh ;
+    rdfs:label "Data Privacy Domain"@en .
+
+ex:NonComplianceWithGDPR rdf:type airo:RiskSource ;
+    rdfs:label "违反GDPR风险源"@zh ;
+    rdfs:label "Non-Compliance with GDPR Risk Source"@en .

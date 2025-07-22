@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITranslationSystem",
+      "中文名称": "AI翻译系统",
+      "英文名称": "AI Translation System",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Translation Error Risk",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Consequence": {
+      "id": "IncorrectAsylumDecisions",
+      "中文名称": "错误庇护决定后果",
+      "英文名称": "Asylum Case Consequence",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Impact": {
+      "id": "DenialOfAsylumForEligibleApplicants",
+      "中文名称": "合格申请人被拒绝庇护的影响",
+      "英文名称": "Denial of Asylum for Eligible Applicants Impact",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Domain": {
+      "id": "LegalImmigrationSystem",
+      "中文名称": "法律移民系统领域",
+      "英文名称": "Immigration System",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "AISubject": {
+      "id": "AfghanAsylumSeekers",
+      "中文名称": "阿富汗寻求庇护者",
+      "英文名称": "Afghan Asylum Seekers",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Purpose": {
+      "id": "AssistingLegalTranslationProcess",
+      "中文名称": "辅助法律翻译过程的目的",
+      "英文名称": "Assisting Legal Translation Process Purpose",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "RiskSource": {
+      "id": "LanguageModelLimitations",
+      "中文名称": "语言模型限制的风险源",
+      "英文名称": "Language Model Limitations Risk Source",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITranslationSystem",
+      "中文名称": "AI翻译系统",
+      "英文名称": "AI Translation System",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Risk": {
+      "id": "InaccurateTranslationRisk",
+      "中文名称": "翻译不准确风险",
+      "英文名称": "Translation Error Risk",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Consequence": {
+      "id": "IncorrectAsylumDecisions",
+      "中文名称": "错误庇护决定后果",
+      "英文名称": "Asylum Case Consequence",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Impact": {
+      "id": "DenialOfAsylumForEligibleApplicants",
+      "中文名称": "合格申请人被拒绝庇护的影响",
+      "英文名称": "Denial of Asylum for Eligible Applicants Impact",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Domain": {
+      "id": "LegalImmigrationSystem",
+      "中文名称": "法律移民系统领域",
+      "英文名称": "Immigration System",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "AISubject": {
+      "id": "AfghanAsylumSeekers",
+      "中文名称": "阿富汗寻求庇护者",
+      "英文名称": "Afghan Asylum Seekers",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "Purpose": {
+      "id": "AssistingLegalTranslationProcess",
+      "中文名称": "辅助法律翻译过程的目的",
+      "英文名称": "Assisting Legal Translation Process Purpose",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    },
+    "RiskSource": {
+      "id": "LanguageModelLimitations",
+      "中文名称": "语言模型限制的风险源",
+      "英文名称": "Language Model Limitations Risk Source",
+      "来源": "AI translation is jeopardizing Afghan asylum claims"
+    }
+  }
+}

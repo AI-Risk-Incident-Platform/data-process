@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeAI",
+      "中文名称": "深度伪造AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Was Slovakia election the first swung by deepfakes?"
+    },
+    "Consequence": {
+      "id": "SpreadOfDisinformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfakes in Slovakia Preview How AI Will Change the Face of Elections"
+    },
+    "Stakeholder": {
+      "id": "SlovakianVoters",
+      "中文名称": "斯洛伐克选民",
+      "英文名称": "Slovakian Voters",
+      "来源": "Was Slovakia election the first swung by deepfakes?"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfakes in Slovakia Preview How AI Will Change the Face of Elections"
+    },
+    "RiskSource": {
+      "id": "MaliciousActors",
+      "中文名称": "恶意行为者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeAI",
+      "中文名称": "深度伪造AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Was Slovakia election the first swung by deepfakes?"
+    },
+    "Consequence": {
+      "id": "SpreadOfDisinformation",
+      "中文名称": "虚假信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfakes in Slovakia Preview How AI Will Change the Face of Elections"
+    },
+    "Stakeholder": {
+      "id": "SlovakianVoters",
+      "中文名称": "斯洛伐克选民",
+      "英文名称": "Slovakian Voters",
+      "来源": "Was Slovakia election the first swung by deepfakes?"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfakes in Slovakia Preview How AI Will Change the Face of Elections"
+    },
+    "RiskSource": {
+      "id": "MaliciousActors",
+      "中文名称": "恶意行为者风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Trolls in Slovakian Election Tap AI Deepfakes to Spread Disinfo"
+    }
+  }
+}

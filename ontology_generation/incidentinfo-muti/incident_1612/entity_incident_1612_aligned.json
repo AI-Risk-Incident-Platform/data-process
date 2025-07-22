@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftAIResearchSystem",
+      "中文名称": "微软AI研究系统",
+      "英文名称": "Microsoft AI",
+      "来源": "Microsoft AI researchers accidentally exposed terabytes of internal sensitive data"
+    },
+    "Risk": {
+      "id": "DataLeakRisk",
+      "中文名称": "数据泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft AI researchers leak 38TB of private data"
+    },
+    "Consequence": {
+      "id": "InternalSensitiveDataExposure",
+      "中文名称": "内部敏感数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "exposed terabytes of internal sensitive data"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftAIResearchers",
+      "中文名称": "微软AI研究人员",
+      "英文名称": "Microsoft AI Researchers",
+      "来源": "Microsoft AI researchers accidentally exposed"
+    },
+    "RiskSource": {
+      "id": "AccidentalDataExposure",
+      "中文名称": "意外数据暴露风险源",
+      "英文名称": "Accidental Data Exposure Risk Source",
+      "来源": "accidentally exposed terabytes of internal sensitive data"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityCompromise",
+      "中文名称": "隐私和安全受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "exposed terabytes of internal sensitive data"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftAIResearchSystem",
+      "中文名称": "微软AI研究系统",
+      "英文名称": "Microsoft AI",
+      "来源": "Microsoft AI researchers accidentally exposed terabytes of internal sensitive data"
+    },
+    "Risk": {
+      "id": "DataLeakRisk",
+      "中文名称": "数据泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Microsoft AI researchers leak 38TB of private data"
+    },
+    "Consequence": {
+      "id": "InternalSensitiveDataExposure",
+      "中文名称": "内部敏感数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "exposed terabytes of internal sensitive data"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftAIResearchers",
+      "中文名称": "微软AI研究人员",
+      "英文名称": "Microsoft AI Researchers",
+      "来源": "Microsoft AI researchers accidentally exposed"
+    },
+    "RiskSource": {
+      "id": "AccidentalDataExposure",
+      "中文名称": "意外数据暴露风险源",
+      "英文名称": "Accidental Data Exposure Risk Source",
+      "来源": "accidentally exposed terabytes of internal sensitive data"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityCompromise",
+      "中文名称": "隐私和安全受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "exposed terabytes of internal sensitive data"
+    }
+  }
+}

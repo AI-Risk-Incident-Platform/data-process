@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CohereAI",
+      "中文名称": "Cohere AI",
+      "英文名称": "Cohere AI",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "Publishers",
+      "中文名称": "出版商",
+      "英文名称": "Publishers",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "AIOperator": {
+      "id": "Cohere",
+      "中文名称": "Cohere",
+      "英文名称": "Cohere",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "RiskSource": {
+      "id": "AllegedCopyrightInfringement",
+      "中文名称": "涉嫌版权侵权",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CohereAI",
+      "中文名称": "Cohere AI",
+      "英文名称": "Cohere AI",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "Stakeholder": {
+      "id": "Publishers",
+      "中文名称": "出版商",
+      "英文名称": "Publishers",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "AIOperator": {
+      "id": "Cohere",
+      "中文名称": "Cohere",
+      "英文名称": "Cohere",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    },
+    "RiskSource": {
+      "id": "AllegedCopyrightInfringement",
+      "中文名称": "涉嫌版权侵权",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Publishers sue AI startup Cohere over alleged copyright infringement"
+    }
+  }
+}

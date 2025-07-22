@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StanfordVaccineDistributionSystem",
+      "中文名称": "斯坦福疫苗分发系统",
+      "英文名称": "Stanford Vaccine Distribution System",
+      "来源": "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors"
+    },
+    "Risk": {
+      "id": "UnfairVaccineAllocationRisk",
+      "中文名称": "疫苗分配不公风险",
+      "英文名称": "Vaccine Allocation & Health Risk",
+      "来源": "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents"
+    },
+    "Stakeholder": {
+      "id": "FrontlineMedicalWorkers",
+      "中文名称": "一线医护人员",
+      "英文名称": "Frontline Medical Workers",
+      "来源": "Frontline workers protest at Stanford after hospital distributed vaccine to administrators"
+    },
+    "Consequence": {
+      "id": "HealthcareWorkerProtests",
+      "中文名称": "医护人员抗议后果",
+      "英文名称": "Healthcare Worker Protests Consequence",
+      "来源": "Frontline workers protest at Stanford after hospital distributed vaccine to administrators"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StanfordVaccineDistributionSystem",
+      "中文名称": "斯坦福疫苗分发系统",
+      "英文名称": "Stanford Vaccine Distribution System",
+      "来源": "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors"
+    },
+    "Risk": {
+      "id": "UnfairVaccineAllocationRisk",
+      "中文名称": "疫苗分配不公风险",
+      "英文名称": "Vaccine Allocation & Health Risk",
+      "来源": "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents"
+    },
+    "Stakeholder": {
+      "id": "FrontlineMedicalWorkers",
+      "中文名称": "一线医护人员",
+      "英文名称": "Frontline Medical Workers",
+      "来源": "Frontline workers protest at Stanford after hospital distributed vaccine to administrators"
+    },
+    "Consequence": {
+      "id": "HealthcareWorkerProtests",
+      "中文名称": "医护人员抗议后果",
+      "英文名称": "Healthcare Worker Protests Consequence",
+      "来源": "Frontline workers protest at Stanford after hospital distributed vaccine to administrators"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HowOldDoYouLookApp",
+      "中文名称": "How Old Do You Look应用",
+      "英文名称": "How Old Do You Look App",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong, turns into a meme"
+    },
+    "Risk": {
+      "id": "InaccurateAgePredictionRisk",
+      "中文名称": "年龄预测不准确风险",
+      "英文名称": "Inaccurate Age Prediction Risk",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft wants to improve the technology behind its How Old Do You Look app"
+    },
+    "AICapability": {
+      "id": "FaceRecognitionForAgePrediction",
+      "中文名称": "面部识别用于年龄预测的能力",
+      "英文名称": "Face Recognition for Age Prediction Capability",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong"
+    },
+    "Consequence": {
+      "id": "PublicMemeCreation",
+      "中文名称": "公众制作表情包的后果",
+      "英文名称": "Public Meme Creation Consequence",
+      "来源": "turns into a meme"
+    },
+    "Impact": {
+      "id": "BrandReputationImpact",
+      "中文名称": "品牌声誉影响",
+      "英文名称": "Brand Reputation Impact",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong, turns into a meme"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HowOldDoYouLookApp",
+      "中文名称": "How Old Do You Look应用",
+      "英文名称": "How Old Do You Look App",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong, turns into a meme"
+    },
+    "Risk": {
+      "id": "InaccurateAgePredictionRisk",
+      "中文名称": "年龄预测不准确风险",
+      "英文名称": "Inaccurate Age Prediction Risk",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft wants to improve the technology behind its How Old Do You Look app"
+    },
+    "AICapability": {
+      "id": "FaceRecognitionForAgePrediction",
+      "中文名称": "面部识别用于年龄预测的能力",
+      "英文名称": "Face Recognition for Age Prediction Capability",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong"
+    },
+    "Consequence": {
+      "id": "PublicMemeCreation",
+      "中文名称": "公众制作表情包的后果",
+      "英文名称": "Public Meme Creation Consequence",
+      "来源": "turns into a meme"
+    },
+    "Impact": {
+      "id": "BrandReputationImpact",
+      "中文名称": "品牌声誉影响",
+      "英文名称": "Brand Reputation Impact",
+      "来源": "Microsoft’s face-recognition app How Old gets everyone’s age wrong, turns into a meme"
+    }
+  }
+}

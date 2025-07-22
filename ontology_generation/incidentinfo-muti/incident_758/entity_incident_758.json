@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIChatbot",
+      "中文名称": "AI聊天机器人",
+      "英文名称": "AI Chatbot",
+      "来源": "Five US states push Musk to fix AI chatbot over election misinformation"
+    },
+    "Risk": {
+      "id": "ElectionMisinformationRisk",
+      "中文名称": "选举错误信息风险",
+      "英文名称": "Election Misinformation Risk",
+      "来源": "Five US states push Musk to fix AI chatbot over election misinformation"
+    },
+    "Stakeholder": {
+      "id": "USStates",
+      "中文名称": "美国各州",
+      "英文名称": "US States",
+      "来源": "Five US states push Musk to fix AI chatbot over election misinformation"
+    },
+    "AIOperator": {
+      "id": "ElonMusk",
+      "中文名称": "埃隆·马斯克",
+      "英文名称": "Elon Musk",
+      "来源": "Five US states push Musk to fix AI chatbot over election misinformation"
+    },
+    "Consequence": {
+      "id": "FalseElectionInfoSpread",
+      "中文名称": "虚假选举信息传播后果",
+      "英文名称": "False Election Info Spread Consequence",
+      "来源": "Secretaries of state urge Musk to fix AI chatbot spreading false election info"
+    },
+    "RiskSource": {
+      "id": "ChatbotAlgorithmFlaws",
+      "中文名称": "聊天机器人算法缺陷风险源",
+      "英文名称": "Chatbot Algorithm Flaws Risk Source",
+      "来源": "Secretaries of state urge Musk to fix AI chatbot spreading false election info"
+    }
+  }
+}

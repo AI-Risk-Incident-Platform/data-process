@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndReputationDamageRisk ;
+    airo:hasAISubject ex:SecondarySchoolStudents ;
+    airo:usesTechnique ex:DeepLearningBasedImageSynthesis ;
+    airo:hasStakeholder ex:SchoolAdministration .
+
+ex:PrivacyViolationAndReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Reputation Damage Risk"@en ;
+    rdfs:label "隐私侵犯和名誉损害风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfPersonalImage ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAITechnology .
+
+ex:SecondarySchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "Secondary School Students"@en ;
+    rdfs:label "中学生"@zh .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Victims"@en ;
+    rdfs:label "对受害者的心理伤害"@zh ;
+    airo:hasImpactOnStakeholder ex:SecondarySchoolStudents .
+
+ex:DeepLearningBasedImageSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Image Synthesis Technique"@en ;
+    rdfs:label "基于深度学习的图像合成技术"@zh .
+
+ex:SchoolAdministration rdf:type airo:Stakeholder ;
+    rdfs:label "School Administration"@en ;
+    rdfs:label "学校管理部门"@zh .
+
+ex:UnauthorizedUseOfPersonalImage rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Personal Image Consequence"@en ;
+    rdfs:label "未经授权使用个人图像"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToVictims .
+
+ex:MaliciousUseOfAITechnology rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Use of AI Technology Risk Source"@en ;
+    rdfs:label "恶意使用AI技术"@zh .

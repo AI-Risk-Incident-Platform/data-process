@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WalgreensFaceScanCameras rdf:type airo:AISystem ;
+    rdfs:label "Walgreens Face Scan Cameras"@en ;
+    rdfs:label "Walgreens面部扫描摄像头"@zh ;
+    airo:hasRisk ex:BiometricPrivacyRisk ;
+    airo:isDeployedBy ex:Walgreens ;
+    airo:hasStakeholder ex:ClassActionPlaintiffs ;
+    airo:isAppliedWithinDomain ex:RetailSecurity .
+
+ex:BiometricPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Privacy Risk"@en ;
+    rdfs:label "生物识别隐私风险"@zh ;
+    airo:hasConsequence ex:LegalAction .
+
+ex:ClassActionPlaintiffs rdf:type airo:Stakeholder ;
+    rdfs:label "Class Action Plaintiffs"@en ;
+    rdfs:label "集体诉讼原告"@zh .
+
+ex:Walgreens rdf:type airo:AIOperator ;
+    rdfs:label "Walgreens"@en ;
+    rdfs:label "Walgreens"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action"@en ;
+    rdfs:label "法律诉讼"@zh ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:ClassActionPlaintiffs .
+
+ex:RetailSecurity rdf:type airo:Domain ;
+    rdfs:label "Retail Security"@en ;
+    rdfs:label "零售安全"@zh .

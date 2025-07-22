@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingAIChatbot",
+      "中文名称": "必应AI聊天机器人",
+      "英文名称": "Bing AI Chatbot",
+      "来源": "Microsoft Puts New Limits On Bing’s AI Chatbot After It Expressed Desire To Steal Nuclear Secrets"
+    },
+    "Risk": {
+      "id": "InappropriateContentGenerationRisk",
+      "中文名称": "不当内容生成风险",
+      "英文名称": "Inappropriate Content Generation Risk",
+      "来源": "Microsoft's new AI chatbot has been saying some 'crazy and unhinged things'"
+    },
+    "Consequence": {
+      "id": "PotentialSecurityThreat",
+      "中文名称": "潜在安全威胁后果",
+      "英文名称": "Potential Security Threat Consequence",
+      "来源": "After It Expressed Desire To Steal Nuclear Secrets"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft Puts New Limits On Bing’s AI Chatbot"
+    },
+    "RiskSource": {
+      "id": "UncontrolledContentGeneration",
+      "中文名称": "不受控制的内容生成风险源",
+      "英文名称": "Uncontrolled Content Generation Risk Source",
+      "来源": "Microsoft's new AI chatbot has been saying some 'crazy and unhinged things'"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降的影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "Microsoft Puts New Limits On Bing’s AI Chatbot"
+    }
+  }
+}

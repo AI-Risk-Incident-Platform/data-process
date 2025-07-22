@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Full Self-Driving Beta",
+      "来源": "Tesla recalls 362,758 vehicles, says Full Self-Driving Beta software may cause crashes"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Crash Risk",
+      "来源": "Full Self-Driving Beta software may cause crashes"
+    },
+    "Consequence": {
+      "id": "VehicleCrashes",
+      "中文名称": "车辆碰撞后果",
+      "英文名称": "Vehicle Crashes Consequence",
+      "来源": "Full Self-Driving Beta software may cause crashes"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla asks owners to share fewer clips of 'Full Self-Driving' beta mistakes"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwners",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Vehicle Owners",
+      "来源": "Tesla asks owners to share fewer clips of 'Full Self-Driving' beta mistakes"
+    },
+    "RiskSource": {
+      "id": "SoftwareDefectsInAutonomousDriving",
+      "中文名称": "自动驾驶软件缺陷风险源",
+      "英文名称": "Software Defects in Autonomous Driving Risk Source",
+      "来源": "Full Self-Driving Beta software may cause crashes"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "Full Self-Driving Beta software may cause crashes"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingTechnologyDevelopment",
+      "中文名称": "自动驾驶技术开发目的",
+      "英文名称": "Autonomous Driving Technology Development Purpose",
+      "来源": "Tesla faces U.S. criminal probe over self-driving claims"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla recalls 362,758 vehicles"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForAutonomousDriving",
+      "中文名称": "自动驾驶机器学习技术",
+      "英文名称": "Machine Learning for Autonomous Driving Technique",
+      "来源": "Full Self-Driving Beta software"
+    }
+  }
+}

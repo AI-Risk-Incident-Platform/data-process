@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SpeedCameraApp",
+      "中文名称": "测速摄像头应用",
+      "英文名称": "Speed Camera App",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "Risk": {
+      "id": "DriverAbuseRisk",
+      "中文名称": "司机辱骂风险",
+      "英文名称": "Driver Exploitation Risk",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "Stakeholder": {
+      "id": "UKDrivers",
+      "中文名称": "英国司机",
+      "英文名称": "UK Drivers",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "AIDeveloper": {
+      "id": "SpeedCameraAppDevelopers",
+      "中文名称": "测速摄像头应用开发者",
+      "英文名称": "Speed Camera App Developers",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SpeedCameraApp",
+      "中文名称": "测速摄像头应用",
+      "英文名称": "Speed Camera App",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "Risk": {
+      "id": "DriverAbuseRisk",
+      "中文名称": "司机辱骂风险",
+      "英文名称": "Driver Exploitation Risk",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "Stakeholder": {
+      "id": "UKDrivers",
+      "中文名称": "英国司机",
+      "英文名称": "UK Drivers",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    },
+    "AIDeveloper": {
+      "id": "SpeedCameraAppDevelopers",
+      "中文名称": "测速摄像头应用开发者",
+      "英文名称": "Speed Camera App Developers",
+      "来源": "Speed camera app developers face abuse from UK drivers"
+    }
+  }
+}

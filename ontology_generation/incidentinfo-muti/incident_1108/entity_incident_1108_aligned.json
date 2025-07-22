@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SogouSyntheticAnchor",
+      "中文名称": "搜狗合成主播",
+      "英文名称": "Sogou Synthetic Anchor",
+      "来源": "王小川：搜狗的合成主播目前很难替代人的高级活动"
+    },
+    "Risk": {
+      "id": "LimitedHumanActivityReplacementRisk",
+      "中文名称": "有限的人类活动替代风险",
+      "英文名称": "Limited Human Activity Replacement Risk",
+      "来源": "王小川：搜狗的合成主播目前很难替代人的高级活动"
+    },
+    "AICapability": {
+      "id": "NewsBroadcastingCapability",
+      "中文名称": "新闻播报能力",
+      "英文名称": "News Broadcasting Capability",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    },
+    "Stakeholder": {
+      "id": "ChinaStateNewsAgency",
+      "中文名称": "中国国家通讯社",
+      "英文名称": "China State News Agency",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SogouSyntheticAnchor",
+      "中文名称": "搜狗合成主播",
+      "英文名称": "Sogou Synthetic Anchor",
+      "来源": "王小川：搜狗的合成主播目前很难替代人的高级活动"
+    },
+    "Risk": {
+      "id": "LimitedHumanActivityReplacementRisk",
+      "中文名称": "有限的人类活动替代风险",
+      "英文名称": "Limited Human Activity Replacement Risk",
+      "来源": "王小川：搜狗的合成主播目前很难替代人的高级活动"
+    },
+    "AICapability": {
+      "id": "NewsBroadcastingCapability",
+      "中文名称": "新闻播报能力",
+      "英文名称": "News Broadcasting Capability",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    },
+    "Stakeholder": {
+      "id": "ChinaStateNewsAgency",
+      "中文名称": "中国国家通讯社",
+      "英文名称": "China State News Agency",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    },
+    "Domain": {
+      "id": "MediaBroadcasting",
+      "中文名称": "媒体广播领域",
+      "英文名称": "Media Broadcasting Domain",
+      "来源": "China’s State News Agency Introduces New Artificial Intelligence Anchor"
+    }
+  }
+}

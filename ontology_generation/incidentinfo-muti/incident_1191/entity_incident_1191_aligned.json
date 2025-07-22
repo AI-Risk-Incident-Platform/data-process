@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepSeekChatbot",
+      "中文名称": "DeepSeek聊天机器人",
+      "英文名称": "DeepSeek",
+      "来源": "DeepSeek chatbot fails fact-checking test just like other chatbots"
+    },
+    "Risk": {
+      "id": "FalseInformationPropagationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    },
+    "AICapability": {
+      "id": "FactCheckingCapability",
+      "中文名称": "事实核查能力",
+      "英文名称": "Info Verification Capability",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "Stakeholder": {
+      "id": "NewsGuard",
+      "中文名称": "NewsGuard",
+      "英文名称": "NewsGuard",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众错误信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepSeekChatbot",
+      "中文名称": "DeepSeek聊天机器人",
+      "英文名称": "DeepSeek",
+      "来源": "DeepSeek chatbot fails fact-checking test just like other chatbots"
+    },
+    "Risk": {
+      "id": "FalseInformationPropagationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    },
+    "AICapability": {
+      "id": "FactCheckingCapability",
+      "中文名称": "事实核查能力",
+      "英文名称": "Info Verification Capability",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "Stakeholder": {
+      "id": "NewsGuard",
+      "中文名称": "NewsGuard",
+      "英文名称": "NewsGuard",
+      "来源": "In a NewsGuard test, DeepSeek debunked probably false claims only 17 percent of the time"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    },
+    "Impact": {
+      "id": "PublicMisinformationImpact",
+      "中文名称": "公众错误信息影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "DeepSeek fails truth test by repeating Beijing talking points"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAIOverviews rdf:type airo:AISystem ;
+    rdfs:label "Google AI Overviews"@en ;
+    rdfs:label "谷歌AI概览"@zh ;
+    airo:hasRisk ex:EnvironmentalImpactRisk ;
+    airo:isDevelopedBy ex:Google ;
+    airo:hasCapability ex:InformationSummarization ;
+    airo:hasStakeholder ex:Google .
+
+ex:EnvironmentalImpactRisk rdf:type airo:Risk ;
+    rdfs:label "Environmental Impact Risk"@en ;
+    rdfs:label "环境影响风险"@zh ;
+    airo:isRiskSourceFor ex:EnergyConsumption ;
+    airo:hasConsequence ex:InaccurateInformation .
+
+ex:EnergyConsumption rdf:type airo:RiskSource ;
+    rdfs:label "Energy Consumption"@en ;
+    rdfs:label "能源消耗"@zh ;
+    airo:isRiskSourceFor ex:EnvironmentalImpactRisk .
+
+ex:CarbonFootprint rdf:type airo:Impact ;
+    rdfs:label "Carbon Footprint"@en ;
+    rdfs:label "碳足迹"@zh ;
+    airo:hasImpactOnStakeholder ex:Google .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:InformationSummarization rdf:type airo:AICapability ;
+    rdfs:label "Information Summarization Capability"@en ;
+    rdfs:label "信息摘要能力"@zh .
+
+ex:InaccurateInformation rdf:type airo:Consequence ;
+    rdfs:label "Inaccurate Information Consequence"@en ;
+    rdfs:label "信息不准确后果"@zh ;
+    airo:hasImpact ex:CarbonFootprint .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OfqualAlevelAlgorithm",
+      "中文名称": "Ofqual A-level算法",
+      "英文名称": "Ofqual A-level Algorithm",
+      "来源": "Ofqual's A-level algorithm: why did it fail to make the grade?"
+    },
+    "Risk": {
+      "id": "AlgorithmicGradingFailureRisk",
+      "中文名称": "算法评分失败风险",
+      "英文名称": "Algorithmic Grading Failure Risk",
+      "来源": "Ofqual chief to face MPs over exams fiasco and botched algorithm grading"
+    },
+    "Consequence": {
+      "id": "UnfairGradeAllocation",
+      "中文名称": "不公平成绩分配后果",
+      "英文名称": "Unfair Grade Allocation Consequence",
+      "来源": "Ofqual's A-level algorithm: why did it fail to make the grade?"
+    },
+    "Stakeholder": {
+      "id": "UKStudents",
+      "中文名称": "英国学生",
+      "英文名称": "UK Students",
+      "来源": "Ofqual chief to face MPs over exams fiasco and botched algorithm grading"
+    },
+    "AIOperator": {
+      "id": "Ofqual",
+      "中文名称": "Ofqual",
+      "英文名称": "Ofqual",
+      "来源": "Ofqual chief to face MPs over exams fiasco and botched algorithm grading"
+    },
+    "Purpose": {
+      "id": "AutomatedExamGrading",
+      "中文名称": "自动化考试评分目的",
+      "英文名称": "Automated Exam Grading Purpose",
+      "来源": "A-levels and GCSEs: How did the exam algorithm work?"
+    },
+    "Domain": {
+      "id": "EducationAssessment",
+      "中文名称": "教育评估领域",
+      "英文名称": "Education Assessment Domain",
+      "来源": "A-levels and GCSEs: How did the exam algorithm work?"
+    },
+    "Impact": {
+      "id": "StudentFutureOpportunitiesAffected",
+      "中文名称": "学生未来机会受影响的影响",
+      "英文名称": "Student Future Opportunities Affected Impact",
+      "来源": "Ofqual's A-level algorithm: why did it fail to make the grade?"
+    }
+  }
+}

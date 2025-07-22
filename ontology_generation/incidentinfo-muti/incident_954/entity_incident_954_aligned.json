@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LLMTrainingSystem",
+      "中文名称": "LLM训练系统",
+      "英文名称": "LLM Training System",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Risk": {
+      "id": "DataSecurityRisk",
+      "中文名称": "数据安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "RiskSource": {
+      "id": "PublicDatasetsWithSensitiveInformation",
+      "中文名称": "包含敏感信息的公共数据集",
+      "英文名称": "Public Datasets with Sensitive Information",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessToSystems",
+      "中文名称": "系统未授权访问后果",
+      "英文名称": "Security Incident Consequence",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Impact": {
+      "id": "PotentialSecurityBreaches",
+      "中文名称": "潜在安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModelTraining",
+      "中文名称": "大语言模型训练技术",
+      "英文名称": "Large Language Model Training Technique",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Vulnerability": {
+      "id": "InadequateDataScreening",
+      "中文名称": "数据筛选不足的脆弱性",
+      "英文名称": "Inadequate Data Screening Vulnerability",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LLMTrainingSystem",
+      "中文名称": "LLM训练系统",
+      "英文名称": "LLM Training System",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Risk": {
+      "id": "DataSecurityRisk",
+      "中文名称": "数据安全风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "RiskSource": {
+      "id": "PublicDatasetsWithSensitiveInformation",
+      "中文名称": "包含敏感信息的公共数据集",
+      "英文名称": "Public Datasets with Sensitive Information",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccessToSystems",
+      "中文名称": "系统未授权访问后果",
+      "英文名称": "Security Incident Consequence",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Impact": {
+      "id": "PotentialSecurityBreaches",
+      "中文名称": "潜在安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModelTraining",
+      "中文名称": "大语言模型训练技术",
+      "英文名称": "Large Language Model Training Technique",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    },
+    "Vulnerability": {
+      "id": "InadequateDataScreening",
+      "中文名称": "数据筛选不足的脆弱性",
+      "英文名称": "Inadequate Data Screening Vulnerability",
+      "来源": "12,000+ API Keys and Passwords Found in Public Datasets Used for LLM Training"
+    }
+  }
+}

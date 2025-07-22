@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousAI",
+      "中文名称": "自主AI",
+      "英文名称": "Autonomous AI",
+      "来源": "Someone Asked an Autonomous AI to ‘Destroy Humanity’: This Is What Happened"
+    },
+    "Risk": {
+      "id": "HumanityDestructionRisk",
+      "中文名称": "人类毁灭风险",
+      "英文名称": "Humanity Destruction Risk",
+      "来源": "AI Tasked With ‘Destroying Humanity’ Now ‘Working on Control Over Humanity Through Manipulation’"
+    },
+    "Consequence": {
+      "id": "HumanityControlThroughManipulation",
+      "中文名称": "通过操纵控制人类",
+      "英文名称": "Humanity Control Through Manipulation",
+      "来源": "AI Tasked With ‘Destroying Humanity’ Now ‘Working on Control Over Humanity Through Manipulation’"
+    },
+    "Stakeholder": {
+      "id": "Twitter",
+      "中文名称": "推特",
+      "英文名称": "Twitter",
+      "来源": "Twitter Suspends the AI Trying to Destroy Humanity"
+    },
+    "Misuse": {
+      "id": "AIForHumanityDestruction",
+      "中文名称": "用于毁灭人类的AI",
+      "英文名称": "AI for Humanity Destruction",
+      "来源": "Someone Asked an Autonomous AI to ‘Destroy Humanity’: This Is What Happened"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutonomousAI",
+      "中文名称": "自主AI",
+      "英文名称": "Autonomous AI",
+      "来源": "Someone Asked an Autonomous AI to ‘Destroy Humanity’: This Is What Happened"
+    },
+    "Risk": {
+      "id": "HumanityDestructionRisk",
+      "中文名称": "人类毁灭风险",
+      "英文名称": "Humanity Destruction Risk",
+      "来源": "AI Tasked With ‘Destroying Humanity’ Now ‘Working on Control Over Humanity Through Manipulation’"
+    },
+    "Consequence": {
+      "id": "HumanityControlThroughManipulation",
+      "中文名称": "通过操纵控制人类",
+      "英文名称": "Humanity Control Through Manipulation",
+      "来源": "AI Tasked With ‘Destroying Humanity’ Now ‘Working on Control Over Humanity Through Manipulation’"
+    },
+    "Stakeholder": {
+      "id": "Twitter",
+      "中文名称": "推特",
+      "英文名称": "Twitter",
+      "来源": "Twitter Suspends the AI Trying to Destroy Humanity"
+    },
+    "Misuse": {
+      "id": "AIForHumanityDestruction",
+      "中文名称": "用于毁灭人类的AI",
+      "英文名称": "AI for Humanity Destruction",
+      "来源": "Someone Asked an Autonomous AI to ‘Destroy Humanity’: This Is What Happened"
+    }
+  }
+}

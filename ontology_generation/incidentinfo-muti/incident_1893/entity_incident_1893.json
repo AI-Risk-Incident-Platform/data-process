@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "JustWalkOutGroceryCheckouts",
+      "中文名称": "Just Walk Out无收银员结账系统",
+      "英文名称": "Just Walk Out Grocery Checkouts",
+      "来源": "Amazon's 'Just Walk Out' Grocery Checkouts, Pitched As AI-Powered Technology"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假宣传风险",
+      "英文名称": "Misrepresentation of AI Capabilities Risk",
+      "来源": "Was Actually Relying On 1,000 People In India Acting As Virtual Cashiers"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon's 'Just Walk Out' Grocery Checkouts"
+    },
+    "Stakeholder": {
+      "id": "IndianVirtualCashiers",
+      "中文名称": "印度虚拟收银员",
+      "英文名称": "Indian Virtual Cashiers",
+      "来源": "1,000 People In India Acting As Virtual Cashiers"
+    },
+    "Purpose": {
+      "id": "AutomatedGroceryCheckout",
+      "中文名称": "自动化杂货店结账",
+      "英文名称": "Automated Grocery Checkout",
+      "来源": "Pitched As AI-Powered Technology"
+    },
+    "Domain": {
+      "id": "RetailTechnology",
+      "中文名称": "零售技术领域",
+      "英文名称": "Retail Technology Domain",
+      "来源": "Grocery Checkouts"
+    },
+    "RiskSource": {
+      "id": "HumanLaborDisguisedAsAI",
+      "中文名称": "伪装成AI的人力劳动风险源",
+      "英文名称": "Human Labor Disguised as AI Risk Source",
+      "来源": "Was Actually Relying On 1,000 People In India Acting As Virtual Cashiers"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Consumer Deception Consequence",
+      "来源": "Pitched As AI-Powered Technology, Was Actually Relying On 1,000 People In India"
+    },
+    "Impact": {
+      "id": "LossOfTrustInAITechnology",
+      "中文名称": "对AI技术信任丧失的影响",
+      "英文名称": "Loss of Trust in AI Technology Impact",
+      "来源": "Report"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AILegalCitationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Legal Citation System"@en ;
+    rdfs:label "AI法律引用系统"@zh ;
+    airo:hasRisk ex:LegalMisinformationRisk ;
+    airo:hasAISubject ex:CourtProceedings ;
+    airo:hasPurpose ex:LegalResearchAssistance ;
+    airo:isAppliedWithinDomain ex:LegalSystem ;
+    airo:hasStakeholder ex:Judges .
+
+ex:LegalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Misinformation Risk"@en ;
+    rdfs:label "法律错误信息风险"@zh ;
+    airo:hasConsequence ex:JudicialProcessDisruption ;
+    airo:isRiskSourceFor ex:InaccurateLegalDatabase .
+
+ex:JudicialProcessDisruption rdf:type airo:Consequence ;
+    rdfs:label "Judicial Process Disruption Consequence"@en ;
+    rdfs:label "司法程序中断后果"@zh ;
+    airo:hasImpact ex:LegalSystemCredibilityErosion .
+
+ex:Judges rdf:type airo:Stakeholder ;
+    rdfs:label "Judges"@en ;
+    rdfs:label "法官"@zh .
+
+ex:CourtProceedings rdf:type airo:AISubject ;
+    rdfs:label "Court Proceedings"@en ;
+    rdfs:label "法庭诉讼"@zh .
+
+ex:LegalSystemCredibilityErosion rdf:type airo:Impact ;
+    rdfs:label "Legal System Credibility Erosion Impact"@en ;
+    rdfs:label "法律系统可信度受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Judges .
+
+ex:LegalResearchAssistance rdf:type airo:Purpose ;
+    rdfs:label "Legal Research Assistance Purpose"@en ;
+    rdfs:label "法律研究辅助目的"@zh .
+
+ex:LegalSystem rdf:type airo:Domain ;
+    rdfs:label "Legal System Domain"@en ;
+    rdfs:label "法律系统领域"@zh .
+
+ex:InaccurateLegalDatabase rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Legal Database Risk Source"@en ;
+    rdfs:label "不准确法律数据库风险源"@zh .

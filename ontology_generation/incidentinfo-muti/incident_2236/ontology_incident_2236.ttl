@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CenseAI rdf:type airo:AISystem ;
+    rdfs:label "Cense AI"@en ;
+    rdfs:label "Cense AI"@zh ;
+    airo:hasRisk ex:DataBreachRisk ;
+    airo:hasAISubject ex:MedicalPatients .
+
+ex:DataBreachRisk rdf:type airo:Risk ;
+    rdfs:label "Data Breach Risk"@en ;
+    rdfs:label "数据泄露风险"@zh ;
+    airo:hasConsequence ex:PatientRecordsExposure ;
+    airo:isRiskSourceFor ex:InsecureDataStorage .
+
+ex:PatientRecordsExposure rdf:type airo:Consequence ;
+    rdfs:label "Patient Records Exposure Consequence"@en ;
+    rdfs:label "患者记录暴露后果"@zh ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:MedicalPatients rdf:type airo:AISubject ;
+    rdfs:label "Medical Patients"@en ;
+    rdfs:label "医疗患者"@zh .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalPatients .
+
+ex:InsecureDataStorage rdf:type airo:RiskSource ;
+    rdfs:label "Insecure Data Storage Risk Source"@en ;
+    rdfs:label "不安全数据存储风险源"@zh .

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakePornGenerationSystem",
+      "中文名称": "深度伪造色情内容生成系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "Risk": {
+      "id": "NonConsensualDeepfakePornRisk",
+      "中文名称": "非自愿深度伪造色情内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "There Was Nothing She Could Do"
+    },
+    "Consequence": {
+      "id": "VictimPsychologicalHarm",
+      "中文名称": "受害者心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "There Was Nothing She Could Do"
+    },
+    "AISubject": {
+      "id": "FemaleVictimsOfDeepfakePorn",
+      "中文名称": "深度伪造色情内容的女性受害者",
+      "英文名称": "Female Deepfake Victims",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "Stakeholder": {
+      "id": "FloridaElectedOfficial",
+      "中文名称": "佛罗里达州民选官员",
+      "英文名称": "Florida Elected Official",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "Domain": {
+      "id": "PoliticalAndSocialMedia",
+      "中文名称": "政治和社交媒体领域",
+      "英文名称": "Political Media Domain",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake porn"
+    },
+    "RiskSource": {
+      "id": "MaliciousOnlineTrolls",
+      "中文名称": "恶意网络喷子风险源",
+      "英文名称": "Online Malicious Risk Source",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "RiskControl": {
+      "id": "RevengePornLegislation",
+      "中文名称": "复仇色情立法管控",
+      "英文名称": "Revenge Porn Legislation RiskControl",
+      "来源": "South Florida lawmakers clash over bill criminalizing revenge porn, deep fakes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakePornGenerationSystem",
+      "中文名称": "深度伪造色情内容生成系统",
+      "英文名称": "AI Deepfake Porn Generator",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "Risk": {
+      "id": "NonConsensualDeepfakePornRisk",
+      "中文名称": "非自愿深度伪造色情内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "There Was Nothing She Could Do"
+    },
+    "Consequence": {
+      "id": "VictimPsychologicalHarm",
+      "中文名称": "受害者心理伤害后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "There Was Nothing She Could Do"
+    },
+    "AISubject": {
+      "id": "FemaleVictimsOfDeepfakePorn",
+      "中文名称": "深度伪造色情内容的女性受害者",
+      "英文名称": "Female Deepfake Victims",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "Stakeholder": {
+      "id": "FloridaElectedOfficial",
+      "中文名称": "佛罗里达州民选官员",
+      "英文名称": "Florida Elected Official",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "Domain": {
+      "id": "PoliticalAndSocialMedia",
+      "中文名称": "政治和社交媒体领域",
+      "英文名称": "Political Media Domain",
+      "来源": "How a Filipino-American elected official in Florida became a victim of deepfake porn"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfake porn"
+    },
+    "RiskSource": {
+      "id": "MaliciousOnlineTrolls",
+      "中文名称": "恶意网络喷子风险源",
+      "英文名称": "Online Malicious Risk Source",
+      "来源": "Trolls Used Her Face to Make Fake Porn"
+    },
+    "RiskControl": {
+      "id": "RevengePornLegislation",
+      "中文名称": "复仇色情立法管控",
+      "英文名称": "Revenge Porn Legislation RiskControl",
+      "来源": "South Florida lawmakers clash over bill criminalizing revenge porn, deep fakes"
+    }
+  }
+}

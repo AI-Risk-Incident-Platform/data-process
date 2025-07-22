@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DiscriminatoryFraudDetectionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Discriminatory Fraud Detection Algorithm"@en ;
+    rdfs:label "歧视性欺诈检测算法"@zh ;
+    airo:hasRisk ex:WrongfulAccusationRisk ;
+    airo:hasAISubject ex:FamiliesAccusedOfFraud .
+
+ex:WrongfulAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Accusation Risk"@en ;
+    rdfs:label "错误指控风险"@zh ;
+    airo:hasConsequence ex:FamiliesWronglyAccused ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFraudDetection .
+
+ex:FamiliesWronglyAccused rdf:type airo:Consequence ;
+    rdfs:label "Families Wrongly Accused Consequence"@en ;
+    rdfs:label "家庭被错误指控的后果"@zh ;
+    airo:hasImpact ex:SocialStigmaAndFinancialHardship .
+
+ex:SocialStigmaAndFinancialHardship rdf:type airo:Impact ;
+    rdfs:label "Social Stigma and Financial Hardship Impact"@en ;
+    rdfs:label "社会污名和财务困境的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FamiliesAccusedOfFraud .
+
+ex:AlgorithmicBiasInFraudDetection rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Fraud Detection Risk Source"@en ;
+    rdfs:label "欺诈检测中的算法偏见风险源"@zh .
+
+ex:FamiliesAccusedOfFraud rdf:type airo:AISubject ;
+    rdfs:label "Families Accused of Fraud"@en ;
+    rdfs:label "被指控欺诈的家庭"@zh .

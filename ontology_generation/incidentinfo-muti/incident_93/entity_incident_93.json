@@ -1,0 +1,76 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeRecommendationAlgorithm",
+      "中文名称": "YouTube推荐算法",
+      "英文名称": "YouTube Recommendation Algorithm",
+      "来源": "The Christchurch shooter and YouTube's radicalization trap"
+    },
+    "Risk": {
+      "id": "RadicalizationRisk",
+      "中文名称": "激进主义风险",
+      "英文名称": "Radicalization Risk",
+      "来源": "YouTube's radicalization trap"
+    },
+    "Consequence": {
+      "id": "ViolentExtremism",
+      "中文名称": "暴力极端主义后果",
+      "英文名称": "Violent Extremism Consequence",
+      "来源": "The Christchurch shooter"
+    },
+    "AICapability": {
+      "id": "ContentRecommendation",
+      "中文名称": "内容推荐能力",
+      "英文名称": "Content Recommendation Capability",
+      "来源": "YouTube's recommendation algorithm"
+    },
+    "Stakeholder": {
+      "id": "YouTubeUsers",
+      "中文名称": "YouTube用户",
+      "英文名称": "YouTube Users",
+      "来源": "users who may be radicalized by the platform"
+    },
+    "AISubject": {
+      "id": "VulnerableIndividuals",
+      "中文名称": "易受影响个体",
+      "英文名称": "Vulnerable Individuals",
+      "来源": "individuals susceptible to radicalization"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Social Harm Impact",
+      "来源": "The Christchurch shooter incident"
+    },
+    "Purpose": {
+      "id": "UserEngagement",
+      "中文名称": "用户参与度提升目的",
+      "英文名称": "User Engagement Enhancement Purpose",
+      "来源": "YouTube's recommendation system design"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "YouTube as a social media platform"
+    },
+    "AITechnique": {
+      "id": "DeepLearningRecommendation",
+      "中文名称": "深度学习推荐技术",
+      "英文名称": "Deep Learning Recommendation Technique",
+      "来源": "YouTube's AI-based recommendation system"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "recommendation algorithms creating filter bubbles"
+    },
+    "Vulnerability": {
+      "id": "HumanCognitiveBias",
+      "中文名称": "人类认知偏差脆弱性",
+      "英文名称": "Human Cognitive Bias Vulnerability",
+      "来源": "users' susceptibility to confirmation bias"
+    }
+  }
+}

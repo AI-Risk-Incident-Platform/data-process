@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ESPNAIRecapSystem",
+      "中文名称": "ESPN AI摘要系统",
+      "英文名称": "ESPN AI Recap System",
+      "来源": "ESPN AI recap of Alex Morgan's final professional match fails to mention Alex Morgan"
+    },
+    "Risk": {
+      "id": "IncompleteContentGenerationRisk",
+      "中文名称": "内容生成不完整风险",
+      "英文名称": "Incomplete Content Generation Risk",
+      "来源": "fails to mention Alex Morgan"
+    },
+    "Consequence": {
+      "id": "KeyInformationOmission",
+      "中文名称": "关键信息遗漏后果",
+      "英文名称": "Key Information Omission Consequence",
+      "来源": "fails to mention Alex Morgan"
+    },
+    "AICapability": {
+      "id": "SportsEventSummarization",
+      "中文名称": "体育赛事摘要能力",
+      "英文名称": "Sports Event Summarization Capability",
+      "来源": "AI recap of Alex Morgan's final professional match"
+    },
+    "Domain": {
+      "id": "SportsMedia",
+      "中文名称": "体育媒体领域",
+      "英文名称": "Sports Media Domain",
+      "来源": "ESPN AI recap"
+    },
+    "Purpose": {
+      "id": "AutomatedSportsEventSummarization",
+      "中文名称": "自动化体育赛事摘要目的",
+      "英文名称": "Automated Sports Event Summarization Purpose",
+      "来源": "AI recap of professional match"
+    }
+  }
+}

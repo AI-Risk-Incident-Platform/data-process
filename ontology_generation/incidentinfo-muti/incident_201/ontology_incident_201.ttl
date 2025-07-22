@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NADRABiometricIDSystem rdf:type airo:AISystem ;
+    rdfs:label "NADRA Biometric ID System"@en ;
+    rdfs:label "NADRA生物识别ID系统"@zh ;
+    airo:hasRisk ex:CitizenshipStrippingRisk ;
+    airo:hasPurpose ex:NationalIdentityVerification ;
+    airo:isAppliedWithinDomain ex:CivilRegistration ;
+    airo:isDevelopedBy ex:NADRA ;
+    airo:hasStakeholder ex:AffectedCitizens .
+
+ex:CitizenshipStrippingRisk rdf:type airo:Risk ;
+    rdfs:label "Citizenship Stripping Risk"@en ;
+    rdfs:label "剥夺公民身份风险"@zh ;
+    airo:hasConsequence ex:LossOfCitizenshipRights ;
+    airo:isRiskSourceFor ex:FaultyBiometricRecognition .
+
+ex:LossOfCitizenshipRights rdf:type airo:Consequence ;
+    rdfs:label "Loss of Citizenship Rights Consequence"@en ;
+    rdfs:label "丧失公民权利后果"@zh ;
+    airo:hasImpact ex:LegalStatusDeprivation .
+
+ex:AffectedCitizens rdf:type airo:Stakeholder ;
+    rdfs:label "Affected Citizens"@en ;
+    rdfs:label "受影响公民"@zh .
+
+ex:NADRA rdf:type airo:AIOperator ;
+    rdfs:label "NADRA"@en ;
+    rdfs:label "NADRA"@zh .
+
+ex:LegalStatusDeprivation rdf:type airo:Impact ;
+    rdfs:label "Legal Status Deprivation Impact"@en ;
+    rdfs:label "法律身份剥夺影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AffectedCitizens .
+
+ex:NationalIdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "National Identity Verification Purpose"@en ;
+    rdfs:label "国家身份验证目的"@zh .
+
+ex:CivilRegistration rdf:type airo:Domain ;
+    rdfs:label "Civil Registration Domain"@en ;
+    rdfs:label "民事登记领域"@zh .
+
+ex:FaultyBiometricRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Faulty Biometric Recognition Risk Source"@en ;
+    rdfs:label "错误生物识别风险源"@zh ;
+    airo:exploitsVulnerability ex:SystemErrorInIdentityVerification .
+
+ex:SystemErrorInIdentityVerification rdf:type airo:Vulnerability ;
+    rdfs:label "System Error in Identity Verification Vulnerability"@en ;
+    rdfs:label "身份验证系统错误脆弱性"@zh .

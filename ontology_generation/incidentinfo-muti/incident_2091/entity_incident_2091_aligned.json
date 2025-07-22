@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CanonAICameraSystem",
+      "中文名称": "佳能AI摄像头系统",
+      "英文名称": "Canon AI Camera System",
+      "来源": "Canon Uses AI Cameras That Only Let Smiling Workers Inside Offices"
+    },
+    "Risk": {
+      "id": "EmotionalDiscriminationRisk",
+      "中文名称": "情绪歧视风险",
+      "英文名称": "Emotional Discrimination Risk",
+      "来源": "only let smiling workers inside"
+    },
+    "AIOperator": {
+      "id": "CanonChina",
+      "中文名称": "佳能中国",
+      "英文名称": "Canon China",
+      "来源": "Canon put AI cameras in its Chinese offices"
+    },
+    "AISubject": {
+      "id": "OfficeWorkers",
+      "中文名称": "办公室员工",
+      "英文名称": "Workers",
+      "来源": "smiling workers"
+    },
+    "Purpose": {
+      "id": "WorkplaceAccessControl",
+      "中文名称": "工作场所访问控制",
+      "英文名称": "Workplace Access Control",
+      "来源": "only let smiling workers inside"
+    },
+    "Domain": {
+      "id": "WorkplaceManagement",
+      "中文名称": "工作场所管理",
+      "英文名称": "Workplace Management",
+      "来源": "offices"
+    },
+    "AICapability": {
+      "id": "FacialExpressionRecognition",
+      "中文名称": "面部表情识别",
+      "英文名称": "Facial Expression Analysis",
+      "来源": "only let smiling workers inside"
+    },
+    "Impact": {
+      "id": "EmotionalStress",
+      "中文名称": "情绪压力",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "only let smiling workers inside"
+    },
+    "RiskSource": {
+      "id": "BiasedAccessCriteria",
+      "中文名称": "有偏见的准入标准",
+      "英文名称": "Biased Access Criteria",
+      "来源": "only let smiling workers inside"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CanonAICameraSystem",
+      "中文名称": "佳能AI摄像头系统",
+      "英文名称": "Canon AI Camera System",
+      "来源": "Canon Uses AI Cameras That Only Let Smiling Workers Inside Offices"
+    },
+    "Risk": {
+      "id": "EmotionalDiscriminationRisk",
+      "中文名称": "情绪歧视风险",
+      "英文名称": "Emotional Discrimination Risk",
+      "来源": "only let smiling workers inside"
+    },
+    "AIOperator": {
+      "id": "CanonChina",
+      "中文名称": "佳能中国",
+      "英文名称": "Canon China",
+      "来源": "Canon put AI cameras in its Chinese offices"
+    },
+    "AISubject": {
+      "id": "OfficeWorkers",
+      "中文名称": "办公室员工",
+      "英文名称": "Workers",
+      "来源": "smiling workers"
+    },
+    "Purpose": {
+      "id": "WorkplaceAccessControl",
+      "中文名称": "工作场所访问控制",
+      "英文名称": "Workplace Access Control",
+      "来源": "only let smiling workers inside"
+    },
+    "Domain": {
+      "id": "WorkplaceManagement",
+      "中文名称": "工作场所管理",
+      "英文名称": "Workplace Management",
+      "来源": "offices"
+    },
+    "AICapability": {
+      "id": "FacialExpressionRecognition",
+      "中文名称": "面部表情识别",
+      "英文名称": "Facial Expression Analysis",
+      "来源": "only let smiling workers inside"
+    },
+    "Impact": {
+      "id": "EmotionalStress",
+      "中文名称": "情绪压力",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "only let smiling workers inside"
+    },
+    "RiskSource": {
+      "id": "BiasedAccessCriteria",
+      "中文名称": "有偏见的准入标准",
+      "英文名称": "Biased Access Criteria",
+      "来源": "only let smiling workers inside"
+    }
+  }
+}

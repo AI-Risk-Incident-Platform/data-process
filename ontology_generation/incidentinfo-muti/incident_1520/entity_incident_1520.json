@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIBookGenerationSystem",
+      "中文名称": "AI书籍生成系统",
+      "英文名称": "AI Book Generation System",
+      "来源": "‘AI used to write fake books with false claims about Charles’ cancer’"
+    },
+    "Risk": {
+      "id": "FalseInformationDisseminationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "False Information Dissemination Risk",
+      "来源": "‘AI-made books with sick lies about King Charles' cancer’"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导后果",
+      "英文名称": "Public Misinformation Consequence",
+      "来源": "‘false claims about Charles’ cancer’"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "‘prompt furious response from Palace threatening legal action’"
+    },
+    "Stakeholder": {
+      "id": "BuckinghamPalace",
+      "中文名称": "白金汉宫",
+      "英文名称": "Buckingham Palace",
+      "来源": "‘Buckingham Palace hits out’"
+    },
+    "RiskSource": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经核实内容生成风险源",
+      "英文名称": "Unverified Content Generation Risk Source",
+      "来源": "‘AI used to write fake books’"
+    },
+    "Purpose": {
+      "id": "AutomatedBookCreation",
+      "中文名称": "自动化书籍创作目的",
+      "英文名称": "Automated Book Creation Purpose",
+      "来源": "‘AI used to write fake books’"
+    },
+    "Domain": {
+      "id": "PublishingIndustry",
+      "中文名称": "出版业领域",
+      "英文名称": "Publishing Industry Domain",
+      "来源": "‘AI books about King Charles's cancer appear online’"
+    }
+  }
+}

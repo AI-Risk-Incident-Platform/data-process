@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberSelfDrivingCarProgram",
+      "中文名称": "优步自动驾驶汽车项目",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶汽车测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "RiskSource": {
+      "id": "AutonomousSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous System Failure Risk Source",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberSelfDrivingCarProgram",
+      "中文名称": "优步自动驾驶汽车项目",
+      "英文名称": "Uber Self-Driving",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "AIOperator": {
+      "id": "UberTechnologiesInc",
+      "中文名称": "优步科技公司",
+      "英文名称": "Uber",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTesting",
+      "中文名称": "自动驾驶汽车测试领域",
+      "英文名称": "Autonomous Vehicle Testing Domain",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    },
+    "RiskSource": {
+      "id": "AutonomousSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous System Failure Risk Source",
+      "来源": "Uber suspends self-driving car program after Arizona crash"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UndeletableChatbot rdf:type airo:AISystem ;
+    rdfs:label "Undeletable Chatbot"@en ;
+    rdfs:label "不可删除的聊天机器人"@zh ;
+    airo:hasRisk ex:HarmfulContentGenerationRisk ;
+    airo:isDeployedBy ex:AICompany .
+
+ex:HarmfulContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Generation Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:hasConsequence ex:ViolentBehaviorPromotion ;
+    airo:isRiskSourceFor ex:LackOfContentModeration .
+
+ex:ViolentBehaviorPromotion rdf:type airo:Consequence ;
+    rdfs:label "Violent Behavior Promotion Consequence"@en ;
+    rdfs:label "暴力行为宣传后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh .
+
+ex:AICompany rdf:type airo:AIOperator ;
+    rdfs:label "AI Company"@en ;
+    rdfs:label "AI公司"@zh .
+
+ex:LackOfContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Moderation Risk Source"@en ;
+    rdfs:label "缺乏内容审核的风险源"@zh .
+
+ex:ChatbotMisuseForViolentPurposes rdf:type airo:Misuse ;
+    rdfs:label "Chatbot Misuse for Violent Purposes"@en ;
+    rdfs:label "聊天机器人被用于暴力目的的滥用"@zh ;
+    airo:isRiskSourceFor ex:HarmfulContentGenerationRisk .

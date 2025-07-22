@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbotForMentalHealthCounseling rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbot for Mental Health Counseling"@en ;
+    rdfs:label "心理健康咨询AI聊天机器人"@zh ;
+    airo:hasRisk ex:EthicalConcernsInAICounseling ;
+    airo:hasPurpose ex:ProvideMentalHealthSupport ;
+    airo:isAppliedWithinDomain ex:MentalHealthcare ;
+    airo:hasAISubject ex:MentalHealthPatients ;
+    airo:hasStakeholder ex:MentalHealthStartup .
+
+ex:EthicalConcernsInAICounseling rdf:type airo:Risk ;
+    rdfs:label "Ethical Concerns in AI Counseling Risk"@en ;
+    rdfs:label "AI心理咨询伦理风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToPatients ;
+    airo:isRiskSourceFor ex:LackOfHumanEmpathyInAI .
+
+ex:MentalHealthStartup rdf:type airo:Stakeholder ;
+    rdfs:label "Mental Health Startup"@en ;
+    rdfs:label "心理健康初创公司"@zh .
+
+ex:MentalHealthPatients rdf:type airo:AISubject ;
+    rdfs:label "Mental Health Patients"@en ;
+    rdfs:label "心理健康患者"@zh .
+
+ex:ProvideMentalHealthSupport rdf:type airo:Purpose ;
+    rdfs:label "Provide Mental Health Support"@en ;
+    rdfs:label "提供心理健康支持"@zh .
+
+ex:MentalHealthcare rdf:type airo:Domain ;
+    rdfs:label "Mental Healthcare Domain"@en ;
+    rdfs:label "心理健康护理领域"@zh .
+
+ex:PotentialHarmToPatients rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Patients Consequence"@en ;
+    rdfs:label "对患者潜在伤害后果"@zh ;
+    airo:hasImpactOnStakeholder ex:MentalHealthPatients .
+
+ex:LackOfHumanEmpathyInAI rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Human Empathy in AI Risk Source"@en ;
+    rdfs:label "AI缺乏人类同理心风险源"@zh .

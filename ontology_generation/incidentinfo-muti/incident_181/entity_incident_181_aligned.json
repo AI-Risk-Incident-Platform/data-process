@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutonomousFoodDeliveryPod",
+      "中文名称": "自主食品配送舱",
+      "英文名称": "Delivery Robot",
+      "来源": "Autonomous food delivery pod meets fiery end under train"
+    },
+    "Risk": {
+      "id": "PhysicalCollisionRisk",
+      "中文名称": "物理碰撞风险",
+      "英文名称": "Physical Collision Risk",
+      "来源": "meets fiery end under train"
+    },
+    "Consequence": {
+      "id": "EquipmentDestruction",
+      "中文名称": "设备损毁后果",
+      "英文名称": "Equipment Destruction Consequence",
+      "来源": "meets fiery end under train"
+    },
+    "Impact": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断影响",
+      "英文名称": "Service Disruption Impact",
+      "来源": "meets fiery end under train"
+    },
+    "Domain": {
+      "id": "FoodDeliveryServices",
+      "中文名称": "食品配送服务领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Autonomous food delivery pod"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutonomousFoodDeliveryPod",
+      "中文名称": "自主食品配送舱",
+      "英文名称": "Delivery Robot",
+      "来源": "Autonomous food delivery pod meets fiery end under train"
+    },
+    "Risk": {
+      "id": "PhysicalCollisionRisk",
+      "中文名称": "物理碰撞风险",
+      "英文名称": "Physical Collision Risk",
+      "来源": "meets fiery end under train"
+    },
+    "Consequence": {
+      "id": "EquipmentDestruction",
+      "中文名称": "设备损毁后果",
+      "英文名称": "Equipment Destruction Consequence",
+      "来源": "meets fiery end under train"
+    },
+    "Impact": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断影响",
+      "英文名称": "Service Disruption Impact",
+      "来源": "meets fiery end under train"
+    },
+    "Domain": {
+      "id": "FoodDeliveryServices",
+      "中文名称": "食品配送服务领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Autonomous food delivery pod"
+    }
+  }
+}

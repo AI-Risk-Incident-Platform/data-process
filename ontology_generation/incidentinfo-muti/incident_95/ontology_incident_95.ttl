@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleCardAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Apple Card Algorithm"@en ;
+    rdfs:label "苹果信用卡算法"@zh ;
+    airo:hasRisk ex:GenderBiasRisk ;
+    airo:hasStakeholder ex:GoldmanSachs ;
+    airo:isAppliedWithinDomain ex:Fintech ;
+    airo:isDeployedBy ex:Apple .
+
+ex:GenderBiasRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Bias Risk"@en ;
+    rdfs:label "性别偏见风险"@zh ;
+    airo:hasConsequence ex:UnequalCreditAccess ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:GoldmanSachs rdf:type airo:Stakeholder ;
+    rdfs:label "Goldman Sachs"@en ;
+    rdfs:label "高盛"@zh .
+
+ex:Fintech rdf:type airo:Domain ;
+    rdfs:label "Fintech"@en ;
+    rdfs:label "金融科技"@zh .
+
+ex:DiscriminatoryCreditDecisions rdf:type airo:Impact ;
+    rdfs:label "Discriminatory Credit Decisions"@en ;
+    rdfs:label "歧视性信用决策"@zh .
+
+ex:Apple rdf:type airo:AIOperator ;
+    rdfs:label "Apple"@en ;
+    rdfs:label "苹果"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data"@en ;
+    rdfs:label "有偏见的训练数据"@zh .
+
+ex:UnequalCreditAccess rdf:type airo:Consequence ;
+    rdfs:label "Unequal Credit Access"@en ;
+    rdfs:label "不平等的信贷获取"@zh ;
+    airo:hasImpact ex:DiscriminatoryCreditDecisions .

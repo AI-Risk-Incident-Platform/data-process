@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIIncidentDatabase",
+      "中文名称": "AI事件数据库",
+      "英文名称": "AI Incident Database",
+      "来源": "AI Incident Database Incidents Converted to Issues"
+    },
+    "Risk": {
+      "id": "DatabaseIncidentConversionRisk",
+      "中文名称": "数据库事件转换风险",
+      "英文名称": "Database Incident Conversion Risk",
+      "来源": "AI Incident Database Incidents Converted to Issues"
+    },
+    "Stakeholder": {
+      "id": "DatabaseUsers",
+      "中文名称": "数据库用户",
+      "英文名称": "Database Users",
+      "来源": "AI Incident Database Incidents Converted to Issues"
+    },
+    "Consequence": {
+      "id": "DataLoss",
+      "中文名称": "数据丢失",
+      "英文名称": "Data Loss",
+      "来源": "AI Incident Database Incidents Converted to Issues"
+    },
+    "Impact": {
+      "id": "ResearchImpact",
+      "中文名称": "研究影响",
+      "英文名称": "Research Impact",
+      "来源": "AI Incident Database Incidents Converted to Issues"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PonyAiDriverlessSystem",
+      "中文名称": "小马智行无人驾驶系统",
+      "英文名称": "Pony.ai Driverless System",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleAccidentRisk",
+      "中文名称": "自动驾驶车辆事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Consequence": {
+      "id": "TestingSuspension",
+      "中文名称": "测试暂停后果",
+      "英文名称": "Testing Suspension Consequence",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "AIOperator": {
+      "id": "PonyAi",
+      "中文名称": "小马智行",
+      "英文名称": "Pony.ai",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Report of Traffic Collision Involving an Autonomous Vehicle"
+    },
+    "RiskSource": {
+      "id": "SystemFailure",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PonyAiDriverlessSystem",
+      "中文名称": "小马智行无人驾驶系统",
+      "英文名称": "Pony.ai Driverless System",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleAccidentRisk",
+      "中文名称": "自动驾驶车辆事故风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Consequence": {
+      "id": "TestingSuspension",
+      "中文名称": "测试暂停后果",
+      "英文名称": "Testing Suspension Consequence",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "AIOperator": {
+      "id": "PonyAi",
+      "中文名称": "小马智行",
+      "英文名称": "Pony.ai",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Report of Traffic Collision Involving an Autonomous Vehicle"
+    },
+    "RiskSource": {
+      "id": "SystemFailure",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California suspends Pony.ai's driverless testing after accident"
+    }
+  }
+}

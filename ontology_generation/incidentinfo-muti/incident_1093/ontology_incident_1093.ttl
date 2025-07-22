@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITradingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Trading System"@en ;
+    rdfs:label "AI交易系统"@zh ;
+    airo:hasRisk ex:FinancialLossRisk ;
+    airo:hasPurpose ex:AutomatedInvestmentTrading ;
+    airo:isAppliedWithinDomain ex:FinancialInvestment ;
+    airo:isDeployedBy ex:Tyndaris ;
+    airo:hasStakeholder ex:HongKongBusinessman .
+
+ex:FinancialLossRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Loss Risk"@en ;
+    rdfs:label "财务损失风险"@zh ;
+    airo:isRiskSourceFor ex:AlgorithmicTradingError ;
+    airo:hasConsequence ex:SignificantFinancialLoss .
+
+ex:SignificantFinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Significant Financial Loss Consequence"@en ;
+    rdfs:label "重大财务损失后果"@zh ;
+    airo:hasImpact ex:InvestorFinancialDamage .
+
+ex:HongKongBusinessman rdf:type airo:Stakeholder ;
+    rdfs:label "Hong Kong Businessman"@en ;
+    rdfs:label "香港商人"@zh .
+
+ex:Tyndaris rdf:type airo:AIOperator ;
+    rdfs:label "Tyndaris"@en ;
+    rdfs:label "Tyndaris公司"@zh .
+
+ex:InvestorFinancialDamage rdf:type airo:Impact ;
+    rdfs:label "Investor Financial Damage Impact"@en ;
+    rdfs:label "投资者财务损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HongKongBusinessman .
+
+ex:AutomatedInvestmentTrading rdf:type airo:Purpose ;
+    rdfs:label "Automated Investment Trading Purpose"@en ;
+    rdfs:label "自动化投资交易目的"@zh .
+
+ex:FinancialInvestment rdf:type airo:Domain ;
+    rdfs:label "Financial Investment Domain"@en ;
+    rdfs:label "金融投资领域"@zh .
+
+ex:AlgorithmicTradingError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Trading Error Risk Source"@en ;
+    rdfs:label "算法交易错误风险源"@zh .

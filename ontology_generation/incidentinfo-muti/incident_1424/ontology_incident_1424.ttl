@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchGenerativeExperienceSGE rdf:type airo:AISystem ;
+    rdfs:label "Google Search Generative Experience SGE"@en ;
+    rdfs:label "谷歌搜索生成体验SGE"@zh ;
+    airo:hasRisk ex:MedicalMisinformationRisk ;
+    airo:hasAISubject ex:MedicalInformationSeekers ;
+    airo:hasCapability ex:SearchResultGeneration ;
+    airo:hasPurpose ex:SearchInformationGeneration ;
+    airo:isAppliedWithinDomain ex:SearchEngine ;
+    airo:hasStakeholder ex:Google .
+
+ex:MedicalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Medical Misinformation Risk"@en ;
+    rdfs:label "医疗错误信息风险"@zh ;
+    airo:hasConsequence ex:PotentialHarmToHealth ;
+    airo:isRiskSourceFor ex:InaccurateMedicalInformation .
+
+ex:PotentialHarmToHealth rdf:type airo:Consequence ;
+    rdfs:label "Potential Harm to Health Consequence"@en ;
+    rdfs:label "潜在健康危害后果"@zh ;
+    airo:hasImpact ex:PublicHealthRisk .
+
+ex:SearchResultGeneration rdf:type airo:AICapability ;
+    rdfs:label "Search Result Generation Capability"@en ;
+    rdfs:label "搜索结果生成能力"@zh .
+
+ex:Google rdf:type airo:Stakeholder ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:MedicalInformationSeekers rdf:type airo:AISubject ;
+    rdfs:label "Medical Information Seekers"@en ;
+    rdfs:label "医疗信息寻求者"@zh .
+
+ex:PublicHealthRisk rdf:type airo:Impact ;
+    rdfs:label "Public Health Risk Impact"@en ;
+    rdfs:label "公共卫生风险影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicalInformationSeekers .
+
+ex:SearchInformationGeneration rdf:type airo:Purpose ;
+    rdfs:label "Search Information Generation Purpose"@en ;
+    rdfs:label "搜索信息生成目的"@zh .
+
+ex:SearchEngine rdf:type airo:Domain ;
+    rdfs:label "Search Engine Domain"@en ;
+    rdfs:label "搜索引擎领域"@zh .
+
+ex:InaccurateMedicalInformation rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Medical Information Risk Source"@en ;
+    rdfs:label "不准确医疗信息风险源"@zh .

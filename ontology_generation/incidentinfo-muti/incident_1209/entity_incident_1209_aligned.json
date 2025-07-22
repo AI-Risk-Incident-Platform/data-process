@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeImageGenerationAI",
+      "中文名称": "虚假图像生成AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "'It is going to get much worse': Concern over fake racist images targeting football players"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationRisk",
+      "中文名称": "种族歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "fake racist images targeting football players"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "fake racist images targeting football players"
+    },
+    "AISubject": {
+      "id": "FootballPlayers",
+      "中文名称": "足球运动员",
+      "英文名称": "Football Players",
+      "来源": "fake racist images targeting football players"
+    },
+    "RiskSource": {
+      "id": "AIAbuse",
+      "中文名称": "AI滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "fake racist images targeting football players"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FakeImageGenerationAI",
+      "中文名称": "虚假图像生成AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "'It is going to get much worse': Concern over fake racist images targeting football players"
+    },
+    "Risk": {
+      "id": "RacialDiscriminationRisk",
+      "中文名称": "种族歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "fake racist images targeting football players"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "fake racist images targeting football players"
+    },
+    "AISubject": {
+      "id": "FootballPlayers",
+      "中文名称": "足球运动员",
+      "英文名称": "Football Players",
+      "来源": "fake racist images targeting football players"
+    },
+    "RiskSource": {
+      "id": "AIAbuse",
+      "中文名称": "AI滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "fake racist images targeting football players"
+    }
+  }
+}

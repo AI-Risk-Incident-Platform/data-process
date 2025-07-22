@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iPhoneXFaceID",
+      "中文名称": "iPhone X面部识别系统",
+      "英文名称": "iPhone X Face ID System",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    },
+    "Risk": {
+      "id": "FacialRecognitionSecurityRisk",
+      "中文名称": "面部识别安全风险",
+      "英文名称": "Facial Recognition Security Risk",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    },
+    "Consequence": {
+      "id": "UnauthorizedAccess",
+      "中文名称": "未经授权访问后果",
+      "英文名称": "Unauthorized Access Consequence",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    },
+    "AICapability": {
+      "id": "FacialAuthentication",
+      "中文名称": "面部认证能力",
+      "英文名称": "Facial Authentication Capability",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    },
+    "RiskSource": {
+      "id": "MaskSpoofing",
+      "中文名称": "面具欺骗风险源",
+      "英文名称": "Mask Spoofing Risk Source",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    },
+    "Impact": {
+      "id": "PrivacyCompromise",
+      "中文名称": "隐私泄露影响",
+      "英文名称": "Privacy Compromise Impact",
+      "来源": "Hackers Broke Through the iPhone X Face ID with a $150 Mask"
+    }
+  }
+}

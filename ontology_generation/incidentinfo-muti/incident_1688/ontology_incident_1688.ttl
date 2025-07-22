@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BetfairGamblingRiskAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Betfair赌博风险算法"@zh ;
+    rdfs:label "Betfair Gambling Risk Algorithm"@en ;
+    airo:hasRisk ex:FailureToIdentifyHighRiskGambler ;
+    airo:hasCapability ex:BehavioralPatternRecognitionForRiskAssessment ;
+    airo:isDevelopedBy ex:Betfair ;
+    airo:hasPurpose ex:IdentifyingProblemGamblers ;
+    airo:hasStakeholder ex:GamblingAddicts .
+
+ex:FailureToIdentifyHighRiskGambler rdf:type airo:Risk ;
+    rdfs:label "未能识别高风险赌徒的风险"@zh ;
+    rdfs:label "Failure to Identify High-Risk Gambler Risk"@en ;
+    airo:hasConsequence ex:SuicideOfGamblingAddict ;
+    airo:isRiskSourceFor ex:InadequateBehavioralDataAnalysis .
+
+ex:SuicideOfGamblingAddict rdf:type airo:Consequence ;
+    rdfs:label "赌博成瘾者自杀的后果"@zh ;
+    rdfs:label "Suicide of Gambling Addict Consequence"@en ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:BehavioralPatternRecognitionForRiskAssessment rdf:type airo:AICapability ;
+    rdfs:label "用于风险评估的行为模式识别能力"@zh ;
+    rdfs:label "Behavioral Pattern Recognition for Risk Assessment Capability"@en .
+
+ex:Betfair rdf:type airo:AIOperator ;
+    rdfs:label "Betfair公司"@zh ;
+    rdfs:label "Betfair"@en .
+
+ex:GamblingAddicts rdf:type airo:Stakeholder ;
+    rdfs:label "赌博成瘾者"@zh ;
+    rdfs:label "Gambling Addicts"@en .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "生命损失的影响"@zh ;
+    rdfs:label "Loss of Life Impact"@en ;
+    airo:hasImpactOnStakeholder ex:GamblingAddicts .
+
+ex:IdentifyingProblemGamblers rdf:type airo:Purpose ;
+    rdfs:label "识别问题赌徒的目的"@zh ;
+    rdfs:label "Identifying Problem Gamblers Purpose"@en .
+
+ex:InadequateBehavioralDataAnalysis rdf:type airo:RiskSource ;
+    rdfs:label "行为数据分析不足的风险源"@zh ;
+    rdfs:label "Inadequate Behavioral Data Analysis Risk Source"@en ;
+    airo:exploitsVulnerability ex:LimitedPatternRecognitionInAddictiveBehaviors .
+
+ex:LimitedPatternRecognitionInAddictiveBehaviors rdf:type airo:Vulnerability ;
+    rdfs:label "成瘾行为中模式识别有限的脆弱性"@zh ;
+    rdfs:label "Limited Pattern Recognition in Addictive Behaviors Vulnerability"@en .

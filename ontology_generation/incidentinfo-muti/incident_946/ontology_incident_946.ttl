@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    rdfs:label "Deepfake Video System"@en ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:usesTechnique ex:DeepLearningBasedVideoSynthesis ;
+    airo:hasStakeholder ex:GovernmentAgency .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息风险"@zh ;
+    rdfs:label "Misinformation Risk"@en ;
+    airo:hasConsequence ex:PublicMisinformation .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "公众误导后果"@zh ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:DeepLearningBasedVideoSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "基于深度学习的视频合成技术"@zh ;
+    rdfs:label "Deep Learning Based Video Synthesis Technique"@en .
+
+ex:GovernmentAgency rdf:type airo:Stakeholder ;
+    rdfs:label "政府机构"@zh ;
+    rdfs:label "Government Agency"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:GovernmentAgency .

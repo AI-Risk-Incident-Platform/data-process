@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BankrateAIArticleGenerator",
+      "中文名称": "Bankrate AI文章生成器",
+      "英文名称": "Bankrate AI Article Generator",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "Risk": {
+      "id": "InaccurateFinancialInformationRisk",
+      "中文名称": "不准确金融信息风险",
+      "英文名称": "Inaccurate Financial Information Risk",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "Consequence": {
+      "id": "MisleadingFinancialAdvice",
+      "中文名称": "误导性金融建议后果",
+      "英文名称": "Misleading Financial Advice Consequence",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "Impact": {
+      "id": "FinancialLossForReaders",
+      "中文名称": "读者经济损失影响",
+      "英文名称": "Financial Loss for Readers Impact",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "Stakeholder": {
+      "id": "BankrateReaders",
+      "中文名称": "Bankrate读者",
+      "英文名称": "Bankrate Readers",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "AIOperator": {
+      "id": "Bankrate",
+      "中文名称": "Bankrate",
+      "英文名称": "Bankrate",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "RiskSource": {
+      "id": "UnverifiedAIOutput",
+      "中文名称": "未经验证的AI输出风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    },
+    "Domain": {
+      "id": "FinancialInformationServices",
+      "中文名称": "金融信息服务领域",
+      "英文名称": "Financial Information Services Domain",
+      "来源": "Bankrate Posts AI-Generated Article, Deletes It When We Point Out It's Full of Errors"
+    }
+  }
+}

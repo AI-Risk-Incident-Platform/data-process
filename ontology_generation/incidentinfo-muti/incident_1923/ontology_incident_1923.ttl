@@ -1,0 +1,93 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftBingAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Microsoft Bing AI Chatbot"@en ;
+    rdfs:label "微软必应AI聊天机器人"@zh ;
+    airo:hasRisk ex:MisleadingElectionInformationRisk ;
+    airo:hasAICapability ex:NaturalLanguageProcessingForChatbot ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:hasPurpose ex:InformationProvisionForElections ;
+    airo:hasStakeholder ex:ElectionOfficials ;
+    airo:hasAISubject ex:Voters ;
+    airo:usesTechnique ex:GenerativeAIForTextGeneration ;
+    airo:isAppliedWithinDomain ex:PoliticalElections .
+
+ex:MisleadingElectionInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misleading Election Information Risk"@en ;
+    rdfs:label "误导性选举信息风险"@zh ;
+    airo:hasConsequence ex:SpreadOfMisinformation ;
+    airo:isRiskSourceFor ex:InadequateContentModeration ;
+    airo:isRiskSourceFor ex:UnverifiedDataSources ;
+    airo:isRiskSourceFor ex:DisinformationCampaigns .
+
+ex:SpreadOfMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Spread of Misinformation Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:NaturalLanguageProcessingForChatbot rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Chatbot Capability"@en ;
+    rdfs:label "聊天机器人自然语言处理能力"@zh .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:ElectionOfficials rdf:type airo:Stakeholder ;
+    rdfs:label "Election Officials"@en ;
+    rdfs:label "选举官员"@zh .
+
+ex:Voters rdf:type airo:AISubject ;
+    rdfs:label "Voters"@en ;
+    rdfs:label "选民"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ElectionOfficials ;
+    airo:hasImpactOnStakeholder ex:Voters .
+
+ex:InformationProvisionForElections rdf:type airo:Purpose ;
+    rdfs:label "Information Provision for Elections Purpose"@en ;
+    rdfs:label "选举信息提供目的"@zh .
+
+ex:PoliticalElections rdf:type airo:Domain ;
+    rdfs:label "Political Elections Domain"@en ;
+    rdfs:label "政治选举领域"@zh .
+
+ex:GenerativeAIForTextGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Generative AI for Text Generation Technique"@en ;
+    rdfs:label "生成式AI文本生成技术"@zh .
+
+ex:InadequateContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Content Moderation Risk Source"@en ;
+    rdfs:label "内容审核不足风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfFactCheckingMechanism .
+
+ex:UnverifiedDataSources rdf:type airo:Hazard ;
+    rdfs:label "Unverified Data Sources Hazard"@en ;
+    rdfs:label "未经验证的数据源危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfFactCheckingMechanism .
+
+ex:DisinformationCampaigns rdf:type airo:Threat ;
+    rdfs:label "Disinformation Campaigns Threat"@en ;
+    rdfs:label "虚假信息宣传活动威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfFactCheckingMechanism .
+
+ex:LackOfFactCheckingMechanism rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Fact-Checking Mechanism Vulnerability"@en ;
+    rdfs:label "缺乏事实核查机制脆弱性"@zh .
+
+ex:AIPropagatedMisinformation rdf:type airo:RiskConcept ;
+    rdfs:label "AI-Propagated Misinformation Risk Concept"@en ;
+    rdfs:label "AI传播的虚假信息风险概念"@zh .

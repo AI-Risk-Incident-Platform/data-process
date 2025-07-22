@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ShotSpotterGunshotDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "ShotSpotter Gunshot Detection System"@en ;
+    rdfs:label "ShotSpotter枪声检测系统"@zh ;
+    airo:hasRisk ex:FailureToDetectGunshotsRisk ;
+    airo:hasCapability ex:AcousticGunshotDetectionCapability ;
+    airo:hasPurpose ex:GunViolencePreventionPurpose ;
+    airo:hasStakeholder ex:DurhamCommunity ;
+    airo:isDeployedBy ex:DurhamPoliceDepartment ;
+    airo:isAppliedWithinDomain ex:PublicSafetyTechnologyDomain ;
+    airo:usesTechnique ex:AcousticSensorNetworkTechnique .
+
+ex:FailureToDetectGunshotsRisk rdf:type airo:Risk ;
+    rdfs:label "Failure to Detect Gunshots Risk"@en ;
+    rdfs:label "未能检测到枪声的风险"@zh ;
+    airo:hasConsequence ex:DelayedPoliceResponseConsequence ;
+    airo:isRiskSourceFor ex:SystemFalseNegativesRiskSource .
+
+ex:DelayedPoliceResponseConsequence rdf:type airo:Consequence ;
+    rdfs:label "Delayed Police Response Consequence"@en ;
+    rdfs:label "警方响应延迟的后果"@zh ;
+    airo:hasImpact ex:PublicSafetyCompromiseImpact .
+
+ex:AcousticGunshotDetectionCapability rdf:type airo:AICapability ;
+    rdfs:label "Acoustic Gunshot Detection Capability"@en ;
+    rdfs:label "声学枪声检测能力"@zh .
+
+ex:DurhamPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "Durham Police Department"@en ;
+    rdfs:label "达勒姆警察局"@zh .
+
+ex:DurhamCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Durham Community"@en ;
+    rdfs:label "达勒姆社区"@zh .
+
+ex:PublicSafetyCompromiseImpact rdf:type airo:Impact ;
+    rdfs:label "Public Safety Compromise Impact"@en ;
+    rdfs:label "公共安全受损的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DurhamCommunity .
+
+ex:GunViolencePreventionPurpose rdf:type airo:Purpose ;
+    rdfs:label "Gun Violence Prevention Purpose"@en ;
+    rdfs:label "预防枪支暴力的目的"@zh .
+
+ex:PublicSafetyTechnologyDomain rdf:type airo:Domain ;
+    rdfs:label "Public Safety Technology Domain"@en ;
+    rdfs:label "公共安全技术领域"@zh .
+
+ex:AcousticSensorNetworkTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Acoustic Sensor Network Technique"@en ;
+    rdfs:label "声学传感器网络技术"@zh .
+
+ex:EnvironmentalNoiseInterferenceVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Environmental Noise Interference Vulnerability"@en ;
+    rdfs:label "环境噪音干扰的脆弱性"@zh .
+
+ex:DriveByShootingScenarioThreat rdf:type airo:Threat ;
+    rdfs:label "Drive-by Shooting Scenario Threat"@en ;
+    rdfs:label "驾车射击场景的威胁"@zh ;
+    airo:isRiskSourceFor ex:FailureToDetectGunshotsRisk .
+
+ex:UrbanSoundscapeComplexityHazard rdf:type airo:Hazard ;
+    rdfs:label "Urban Soundscape Complexity Hazard"@en ;
+    rdfs:label "城市声景复杂性的危害"@zh ;
+    airo:isRiskSourceFor ex:FailureToDetectGunshotsRisk .
+
+ex:SystemFalseNegativesRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "System False Negatives Risk Source"@en ;
+    rdfs:label "系统假阴性的风险源"@zh ;
+    airo:exploitsVulnerability ex:EnvironmentalNoiseInterferenceVulnerability .
+
+ex:TechnologyReliabilityConcernsRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Technology Reliability Concerns Risk Concept"@en ;
+    rdfs:label "技术可靠性问题"@zh .

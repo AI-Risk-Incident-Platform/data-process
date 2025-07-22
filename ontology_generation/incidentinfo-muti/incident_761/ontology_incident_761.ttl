@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokAI rdf:type airo:AISystem ;
+    rdfs:label "Grok AI"@en ;
+    rdfs:label "Grok AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasStakeholder ex:Public ;
+    airo:isDeployedBy ex:XAI .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:UnverifiedClaims .
+
+ex:UnverifiedClaims rdf:type airo:RiskSource ;
+    rdfs:label "Unverified Claims"@en ;
+    rdfs:label "未经证实的言论"@zh .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation"@en ;
+    rdfs:label "公众误导"@zh ;
+    airo:hasImpactOnStakeholder ex:Public .
+
+ex:Public rdf:type airo:Stakeholder ;
+    rdfs:label "Public"@en ;
+    rdfs:label "公众"@zh .
+
+ex:XAI rdf:type airo:AIOperator ;
+    rdfs:label "X AI"@en ;
+    rdfs:label "X AI"@zh .

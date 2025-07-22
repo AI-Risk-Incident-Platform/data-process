@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingCar",
+      "中文名称": "Waymo自动驾驶汽车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "Risk": {
+      "id": "TrafficAccidentRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "Consequence": {
+      "id": "CyclistInjury",
+      "中文名称": "骑行者受伤后果",
+      "英文名称": "Cyclist Injury Consequence",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoCyclists",
+      "中文名称": "旧金山骑行者",
+      "英文名称": "San Francisco Cyclists",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleMalfunction",
+      "中文名称": "自动驾驶车辆故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "AISubject": {
+      "id": "PassengersInWaymo",
+      "中文名称": "Waymo车内乘客",
+      "英文名称": "Passengers in Waymo",
+      "来源": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked"
+    },
+    "Vulnerability": {
+      "id": "EmergencyExitDifficulty",
+      "中文名称": "紧急逃生困难脆弱性",
+      "英文名称": "Physical Safety Vulnerability",
+      "来源": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WaymoSelfDrivingCar",
+      "中文名称": "Waymo自动驾驶汽车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "Risk": {
+      "id": "TrafficAccidentRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "Consequence": {
+      "id": "CyclistInjury",
+      "中文名称": "骑行者受伤后果",
+      "英文名称": "Cyclist Injury Consequence",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoCyclists",
+      "中文名称": "旧金山骑行者",
+      "英文名称": "San Francisco Cyclists",
+      "来源": "Waymo robotaxi accident with San Francisco cyclist draws regulatory review"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleMalfunction",
+      "中文名称": "自动驾驶车辆故障风险源",
+      "英文名称": "Autonomous Driving Risk Source",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    },
+    "AISubject": {
+      "id": "PassengersInWaymo",
+      "中文名称": "Waymo车内乘客",
+      "英文名称": "Passengers in Waymo",
+      "来源": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked"
+    },
+    "Vulnerability": {
+      "id": "EmergencyExitDifficulty",
+      "中文名称": "紧急逃生困难脆弱性",
+      "英文名称": "Physical Safety Vulnerability",
+      "来源": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked"
+    },
+    "Domain": {
+      "id": "UrbanTransportation",
+      "中文名称": "城市交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Self-Driving Waymo Collides With Bicyclist In Potrero Hill"
+    }
+  }
+}

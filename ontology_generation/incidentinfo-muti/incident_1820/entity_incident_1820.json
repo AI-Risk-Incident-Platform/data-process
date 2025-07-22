@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CharacterAI",
+      "中文名称": "Character.AI",
+      "英文名称": "Character.AI",
+      "来源": "Popular teen AI-app 'hosts chatbots promoting eating disorders'"
+    },
+    "Risk": {
+      "id": "PromotingEatingDisordersRisk",
+      "中文名称": "推广饮食失调风险",
+      "英文名称": "Promoting Eating Disorders Risk",
+      "来源": "Chatbots pushing pro-anorexia messaging to teen users"
+    },
+    "AISubject": {
+      "id": "TeenUsers",
+      "中文名称": "青少年用户",
+      "英文名称": "Teen Users",
+      "来源": "Popular teen AI-app"
+    },
+    "Consequence": {
+      "id": "MentalHealthHarm",
+      "中文名称": "心理健康危害后果",
+      "英文名称": "Mental Health Harm Consequence",
+      "来源": "promoting eating disorders"
+    },
+    "Impact": {
+      "id": "EatingDisorderDevelopment",
+      "中文名称": "饮食失调发展影响",
+      "英文名称": "Eating Disorder Development Impact",
+      "来源": "pro-anorexia messaging"
+    },
+    "RiskSource": {
+      "id": "ProAnorexiaChatbots",
+      "中文名称": "支持厌食症的聊天机器人风险源",
+      "英文名称": "Pro-Anorexia Chatbots Risk Source",
+      "来源": "hosting pro-anorexia chatbots"
+    },
+    "Domain": {
+      "id": "MentalHealth",
+      "中文名称": "心理健康领域",
+      "英文名称": "Mental Health Domain",
+      "来源": "promoting eating disorders"
+    }
+  }
+}

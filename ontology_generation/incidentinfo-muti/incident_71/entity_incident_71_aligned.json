@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DCSecurityRobot",
+      "中文名称": "DC安全机器人",
+      "英文名称": "DC Security Robot",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Risk": {
+      "id": "RobotSelfHarmRisk",
+      "中文名称": "机器人自残风险",
+      "英文名称": "Robot Self-Harm Risk",
+      "来源": "Security robot falls into pond after failing to spot stairs or water"
+    },
+    "Consequence": {
+      "id": "RobotDrowning",
+      "中文名称": "机器人溺水后果",
+      "英文名称": "Robot Damage Consequence",
+      "来源": "Security robot 'in critical condition' after nearly drowning on the job"
+    },
+    "Vulnerability": {
+      "id": "PoorEnvironmentalPerception",
+      "中文名称": "环境感知能力差",
+      "英文名称": "Poor Environmental Perception Vulnerability",
+      "来源": "Security robot falls into pond after failing to spot stairs or water"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DCSecurityRobot",
+      "中文名称": "DC安全机器人",
+      "英文名称": "DC Security Robot",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    },
+    "Risk": {
+      "id": "RobotSelfHarmRisk",
+      "中文名称": "机器人自残风险",
+      "英文名称": "Robot Self-Harm Risk",
+      "来源": "Security robot falls into pond after failing to spot stairs or water"
+    },
+    "Consequence": {
+      "id": "RobotDrowning",
+      "中文名称": "机器人溺水后果",
+      "英文名称": "Robot Damage Consequence",
+      "来源": "Security robot 'in critical condition' after nearly drowning on the job"
+    },
+    "Vulnerability": {
+      "id": "PoorEnvironmentalPerception",
+      "中文名称": "环境感知能力差",
+      "英文名称": "Poor Environmental Perception Vulnerability",
+      "来源": "Security robot falls into pond after failing to spot stairs or water"
+    },
+    "Impact": {
+      "id": "OperationalDisruption",
+      "中文名称": "运营中断",
+      "英文名称": "Operational Disruption Impact",
+      "来源": "DC security robot quits job by drowning itself in a fountain"
+    }
+  }
+}

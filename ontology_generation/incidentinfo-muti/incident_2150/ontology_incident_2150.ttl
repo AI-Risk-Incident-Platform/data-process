@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionDroneSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Drone System"@en ;
+    rdfs:label "面部识别无人机系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasPurpose ex:RemoteIdentification ;
+    airo:isDevelopedBy ex:AnyVisionDeveloper ;
+    airo:hasStakeholder ex:AnyVision ;
+    airo:isAppliedWithinDomain ex:SurveillanceTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:MassSurveillanceCapability ;
+    airo:hasConsequence ex:LossOfAnonymity .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:AnyVision rdf:type airo:Stakeholder ;
+    rdfs:label "AnyVision"@en ;
+    rdfs:label "AnyVision公司"@zh .
+
+ex:AnyVisionDeveloper rdf:type airo:AIDeveloper ;
+    rdfs:label "AnyVision Developer"@en ;
+    rdfs:label "AnyVision开发者"@zh .
+
+ex:RemoteIdentification rdf:type airo:Purpose ;
+    rdfs:label "Remote Identification Purpose"@en ;
+    rdfs:label "远程识别目的"@zh .
+
+ex:SurveillanceTechnology rdf:type airo:Domain ;
+    rdfs:label "Surveillance Technology Domain"@en ;
+    rdfs:label "监控技术领域"@zh .
+
+ex:MassSurveillanceCapability rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Capability Risk Source"@en ;
+    rdfs:label "大规模监控能力风险源"@zh .
+
+ex:LossOfAnonymity rdf:type airo:Consequence ;
+    rdfs:label "Loss of Anonymity Consequence"@en ;
+    rdfs:label "匿名性丧失后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyErosion .
+
+ex:PersonalPrivacyErosion rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Erosion Impact"@en ;
+    rdfs:label "个人隐私侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AnyVision .

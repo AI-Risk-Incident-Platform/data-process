@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:RacialBiasInFacialRecognition ;
+    airo:hasAICapability ex:FacialRecognitionForSecurity ;
+    airo:hasAISubject ex:BlackTeenagers ;
+    airo:hasPurpose ex:SecurityAndAccessControl ;
+    airo:isAppliedWithinDomain ex:PublicEntertainmentVenues ;
+    airo:usesTechnique ex:DeepLearningBasedFacialRecognition ;
+    airo:hasVulnerability ex:PoorPerformanceOnDarkSkinTones .
+
+ex:RacialBiasInFacialRecognition rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Facial Recognition Risk"@en ;
+    rdfs:label "面部识别中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:UnjustExclusionFromPublicSpace ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:UnjustExclusionFromPublicSpace rdf:type airo:Consequence ;
+    rdfs:label "Unjust Exclusion from Public Space Consequence"@en ;
+    rdfs:label "被不公正地排除在公共空间之外的后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistressAndDiscrimination .
+
+ex:FacialRecognitionForSecurity rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition for Security Capability"@en ;
+    rdfs:label "用于安全的面部识别能力"@zh .
+
+ex:BlackTeenagers rdf:type airo:AISubject ;
+    rdfs:label "Black Teenagers"@en ;
+    rdfs:label "黑人青少年"@zh .
+
+ex:PsychologicalDistressAndDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress and Discrimination Impact"@en ;
+    rdfs:label "心理困扰和歧视的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackTeenagers .
+
+ex:SecurityAndAccessControl rdf:type airo:Purpose ;
+    rdfs:label "Security and Access Control Purpose"@en ;
+    rdfs:label "安全和访问控制的目的"@zh .
+
+ex:PublicEntertainmentVenues rdf:type airo:Domain ;
+    rdfs:label "Public Entertainment Venues Domain"@en ;
+    rdfs:label "公共娱乐场所领域"@zh .
+
+ex:DeepLearningBasedFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Facial Recognition Technique"@en ;
+    rdfs:label "基于深度学习的面部识别技术"@zh .
+
+ex:PoorPerformanceOnDarkSkinTones rdf:type airo:Vulnerability ;
+    rdfs:label "Poor Performance on Dark Skin Tones Vulnerability"@en ;
+    rdfs:label "对深色皮肤表现不佳的脆弱性"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据的风险源"@zh .

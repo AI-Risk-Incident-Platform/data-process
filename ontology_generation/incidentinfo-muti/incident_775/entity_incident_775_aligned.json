@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPsychologicalHarmRisk",
+      "中文名称": "隐私侵犯和心理伤害风险",
+      "英文名称": "Privacy Violation and Psychological Harm Risk",
+      "来源": "S. Korean women scurrying to take down selfies amid deepfake porn crimes"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistressForVictims",
+      "中文名称": "受害者心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    },
+    "AISubject": {
+      "id": "KoreanFemaleStudents",
+      "中文名称": "韩国女学生",
+      "英文名称": "Korean Female Students",
+      "来源": "S. Korean women scurrying to take down selfies amid deepfake porn crimes"
+    },
+    "Impact": {
+      "id": "SocialReputationDamage",
+      "中文名称": "社会声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    },
+    "Stakeholder": {
+      "id": "KoreanLawEnforcement",
+      "中文名称": "韩国执法部门",
+      "英文名称": "South Korean Police",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAITechnology",
+      "中文名称": "AI技术恶意使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeImageGenerationSystem",
+      "中文名称": "深度伪造图像生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "Risk": {
+      "id": "PrivacyViolationAndPsychologicalHarmRisk",
+      "中文名称": "隐私侵犯和心理伤害风险",
+      "英文名称": "Privacy Violation and Psychological Harm Risk",
+      "来源": "S. Korean women scurrying to take down selfies amid deepfake porn crimes"
+    },
+    "Consequence": {
+      "id": "PsychologicalDistressForVictims",
+      "中文名称": "受害者心理困扰后果",
+      "英文名称": "Psychological Harm Consequence",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    },
+    "AISubject": {
+      "id": "KoreanFemaleStudents",
+      "中文名称": "韩国女学生",
+      "英文名称": "Korean Female Students",
+      "来源": "S. Korean women scurrying to take down selfies amid deepfake porn crimes"
+    },
+    "Impact": {
+      "id": "SocialReputationDamage",
+      "中文名称": "社会声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    },
+    "Stakeholder": {
+      "id": "KoreanLawEnforcement",
+      "中文名称": "韩国执法部门",
+      "英文名称": "South Korean Police",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "South Korean Teenagers Detained Over Deepfake Sexual Images"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAITechnology",
+      "中文名称": "AI技术恶意使用风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Inside the deepfake porn crisis engulfing Korean schools"
+    }
+  }
+}

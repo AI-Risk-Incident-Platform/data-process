@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TaserDroneSystem",
+      "中文名称": "泰瑟电击无人机系统",
+      "英文名称": "Taser Drone System",
+      "来源": "Taser manufacturer drops proposal to put armed drones in schools after mass resignation from ethics board"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInArmedDrones",
+      "中文名称": "武装无人机的伦理担忧风险",
+      "英文名称": "Ethical Concerns in Armed Drones Risk",
+      "来源": "mass resignation from ethics board"
+    },
+    "Stakeholder": {
+      "id": "EthicsBoardMembers",
+      "中文名称": "伦理委员会成员",
+      "英文名称": "Ethics Board Members",
+      "来源": "mass resignation from ethics board"
+    },
+    "AIOperator": {
+      "id": "Axon",
+      "中文名称": "Axon公司",
+      "英文名称": "Axon",
+      "来源": "Axon halts its plans for a Taser drone as 9 on ethics board resign over the project"
+    },
+    "Purpose": {
+      "id": "PreventSchoolShootings",
+      "中文名称": "预防校园枪击事件",
+      "英文名称": "Gun Violence Prevention",
+      "来源": "Taser maker offers electric-shock drones to stop school shootings"
+    },
+    "Domain": {
+      "id": "SchoolSecurity",
+      "中文名称": "校园安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "put armed drones in schools"
+    },
+    "Consequence": {
+      "id": "EthicalBoardResignations",
+      "中文名称": "伦理委员会成员辞职后果",
+      "英文名称": "Ethical Board Resignations Consequence",
+      "来源": "mass resignation from ethics board"
+    },
+    "Impact": {
+      "id": "ProjectCancellation",
+      "中文名称": "项目取消的影响",
+      "英文名称": "Project Termination Impact",
+      "来源": "Axon halts its plans for a Taser drone"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TaserDroneSystem",
+      "中文名称": "泰瑟电击无人机系统",
+      "英文名称": "Taser Drone System",
+      "来源": "Taser manufacturer drops proposal to put armed drones in schools after mass resignation from ethics board"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInArmedDrones",
+      "中文名称": "武装无人机的伦理担忧风险",
+      "英文名称": "Ethical Concerns in Armed Drones Risk",
+      "来源": "mass resignation from ethics board"
+    },
+    "Stakeholder": {
+      "id": "EthicsBoardMembers",
+      "中文名称": "伦理委员会成员",
+      "英文名称": "Ethics Board Members",
+      "来源": "mass resignation from ethics board"
+    },
+    "AIOperator": {
+      "id": "Axon",
+      "中文名称": "Axon公司",
+      "英文名称": "Axon",
+      "来源": "Axon halts its plans for a Taser drone as 9 on ethics board resign over the project"
+    },
+    "Purpose": {
+      "id": "PreventSchoolShootings",
+      "中文名称": "预防校园枪击事件",
+      "英文名称": "Gun Violence Prevention",
+      "来源": "Taser maker offers electric-shock drones to stop school shootings"
+    },
+    "Domain": {
+      "id": "SchoolSecurity",
+      "中文名称": "校园安全领域",
+      "英文名称": "School Security Domain",
+      "来源": "put armed drones in schools"
+    },
+    "Consequence": {
+      "id": "EthicalBoardResignations",
+      "中文名称": "伦理委员会成员辞职后果",
+      "英文名称": "Ethical Board Resignations Consequence",
+      "来源": "mass resignation from ethics board"
+    },
+    "Impact": {
+      "id": "ProjectCancellation",
+      "中文名称": "项目取消的影响",
+      "英文名称": "Project Termination Impact",
+      "来源": "Axon halts its plans for a Taser drone"
+    }
+  }
+}

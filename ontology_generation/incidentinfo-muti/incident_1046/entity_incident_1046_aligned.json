@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VideoManipulationAI",
+      "中文名称": "视频篡改AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "viral video manipulated"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "US president Trump didn't call former Kenyan deputy president Gachagua a 'terrible guy' and a 'criminal'"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "US president Trump and former Kenyan deputy president Gachagua"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "call former Kenyan deputy president Gachagua a 'terrible guy' and a 'criminal'"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵",
+      "英文名称": "Political Deceptive Content",
+      "来源": "viral video manipulated"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VideoManipulationAI",
+      "中文名称": "视频篡改AI",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "viral video manipulated"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "US president Trump didn't call former Kenyan deputy president Gachagua a 'terrible guy' and a 'criminal'"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "US president Trump and former Kenyan deputy president Gachagua"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "call former Kenyan deputy president Gachagua a 'terrible guy' and a 'criminal'"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵",
+      "英文名称": "Political Deceptive Content",
+      "来源": "viral video manipulated"
+    }
+  }
+}

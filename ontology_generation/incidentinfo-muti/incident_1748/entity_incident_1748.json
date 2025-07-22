@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "implementar reconocimiento facial"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "tomaba datos biométricos de sus empleados sin consentimiento"
+    },
+    "Consequence": {
+      "id": "UnauthorizedBiometricDataCollection",
+      "中文名称": "未经授权的生物特征数据收集后果",
+      "英文名称": "Unauthorized Biometric Data Collection Consequence",
+      "来源": "tomaba datos biométricos de sus empleados sin consentimiento"
+    },
+    "Stakeholder": {
+      "id": "Employees",
+      "中文名称": "员工",
+      "英文名称": "Employees",
+      "来源": "empleados"
+    },
+    "AIOperator": {
+      "id": "PlasticForte",
+      "中文名称": "Plastic Forte公司",
+      "英文名称": "Plastic Forte",
+      "来源": "La empresa Plastic Forte de Banyeres de Mariola"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私泄露影响",
+      "英文名称": "Personal Privacy Compromise Impact",
+      "来源": "tomaba datos biométricos de sus empleados sin consentimiento"
+    },
+    "Purpose": {
+      "id": "EmployeeMonitoring",
+      "中文名称": "员工监控目的",
+      "英文名称": "Employee Monitoring Purpose",
+      "来源": "control sin que lo sepan"
+    },
+    "Domain": {
+      "id": "WorkplaceSurveillance",
+      "中文名称": "工作场所监控领域",
+      "英文名称": "Workplace Surveillance Domain",
+      "来源": "control sin que lo sepan"
+    },
+    "RiskSource": {
+      "id": "LackOfConsent",
+      "中文名称": "缺乏同意的风险源",
+      "英文名称": "Lack of Consent Risk Source",
+      "来源": "sin consentimiento"
+    },
+    "Vulnerability": {
+      "id": "EmployeeDataProtection",
+      "中文名称": "员工数据保护脆弱性",
+      "英文名称": "Employee Data Protection Vulnerability",
+      "来源": "tomaba datos biométricos de sus empleados sin consentimiento"
+    }
+  }
+}

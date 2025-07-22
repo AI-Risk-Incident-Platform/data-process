@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPTNavigationApp",
+      "中文名称": "ChatGPT导航应用",
+      "英文名称": "ChatGPT Navigation App",
+      "来源": "Turyści zaufali wskazówkom aplikacji ChatGPT. Ratownicy TOPR ruszyli na pomoc"
+    },
+    "Risk": {
+      "id": "NavigationMisguidanceRisk",
+      "中文名称": "导航误导风险",
+      "英文名称": "Navigation Risk",
+      "来源": "Turyści zapytali sztuczną inteligencję o trasę w górach. Skończyło się interwencją TOPR"
+    },
+    "Consequence": {
+      "id": "MountainRescueOperation",
+      "中文名称": "山地救援行动后果",
+      "英文名称": "Mountain Rescue Operation Consequence",
+      "来源": "Skończyło się interwencją TOPR"
+    },
+    "Stakeholder": {
+      "id": "TOPRRescueTeam",
+      "中文名称": "TOPR救援队",
+      "英文名称": "TOPR Rescue Team",
+      "来源": "Ratownicy TOPR ruszyli na pomoc"
+    },
+    "AIUser": {
+      "id": "TouristsUsingChatGPT",
+      "中文名称": "使用ChatGPT的游客",
+      "英文名称": "Tourists Using ChatGPT",
+      "来源": "Turyści zapytali sztuczną inteligencję o trasę w górach"
+    },
+    "Misuse": {
+      "id": "InappropriateUseForMountainNavigation",
+      "中文名称": "不恰当的山地导航使用",
+      "英文名称": "Inappropriate Use for Mountain Navigation",
+      "来源": "Turyści zaufali wskazówkom aplikacji ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPTNavigationApp",
+      "中文名称": "ChatGPT导航应用",
+      "英文名称": "ChatGPT Navigation App",
+      "来源": "Turyści zaufali wskazówkom aplikacji ChatGPT. Ratownicy TOPR ruszyli na pomoc"
+    },
+    "Risk": {
+      "id": "NavigationMisguidanceRisk",
+      "中文名称": "导航误导风险",
+      "英文名称": "Navigation Risk",
+      "来源": "Turyści zapytali sztuczną inteligencję o trasę w górach. Skończyło się interwencją TOPR"
+    },
+    "Consequence": {
+      "id": "MountainRescueOperation",
+      "中文名称": "山地救援行动后果",
+      "英文名称": "Mountain Rescue Operation Consequence",
+      "来源": "Skończyło się interwencją TOPR"
+    },
+    "Stakeholder": {
+      "id": "TOPRRescueTeam",
+      "中文名称": "TOPR救援队",
+      "英文名称": "TOPR Rescue Team",
+      "来源": "Ratownicy TOPR ruszyli na pomoc"
+    },
+    "AIUser": {
+      "id": "TouristsUsingChatGPT",
+      "中文名称": "使用ChatGPT的游客",
+      "英文名称": "Tourists Using ChatGPT",
+      "来源": "Turyści zapytali sztuczną inteligencję o trasę w górach"
+    },
+    "Misuse": {
+      "id": "InappropriateUseForMountainNavigation",
+      "中文名称": "不恰当的山地导航使用",
+      "英文名称": "Inappropriate Use for Mountain Navigation",
+      "来源": "Turyści zaufali wskazówkom aplikacji ChatGPT"
+    }
+  }
+}

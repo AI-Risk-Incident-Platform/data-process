@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFactoryRobot rdf:type airo:AISystem ;
+    rdfs:label "Tesla Factory Robot"@en ;
+    rdfs:label "特斯拉工厂机器人"@zh ;
+    airo:hasRisk ex:RobotAttackRisk ;
+    airo:hasStakeholder ex:TeslaEngineers ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutomotiveManufacturing .
+
+ex:RobotAttackRisk rdf:type airo:Risk ;
+    rdfs:label "Robot Attack Risk"@en ;
+    rdfs:label "机器人攻击风险"@zh ;
+    airo:hasConsequence ex:EngineerInjury ;
+    airo:isRiskSourceFor ex:RobotMalfunction .
+
+ex:EngineerInjury rdf:type airo:Consequence ;
+    rdfs:label "Engineer Injury Consequence"@en ;
+    rdfs:label "工程师受伤后果"@zh ;
+    airo:hasImpact ex:WorkerSafetyThreat .
+
+ex:WorkerSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Worker Safety Threat Impact"@en ;
+    rdfs:label "工人安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeslaEngineers .
+
+ex:TeslaEngineers rdf:type airo:Stakeholder ;
+    rdfs:label "Tesla Engineers"@en ;
+    rdfs:label "特斯拉工程师"@zh .
+
+ex:RobotMalfunction rdf:type airo:RiskSource ;
+    rdfs:label "Robot Malfunction Risk Source"@en ;
+    rdfs:label "机器人故障风险源"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:AutomotiveManufacturing rdf:type airo:Domain ;
+    rdfs:label "Automotive Manufacturing Domain"@en ;
+    rdfs:label "汽车制造领域"@zh .

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HealthcareAlgorithm",
+      "中文名称": "医疗保健算法",
+      "英文名称": "Healthcare Algorithm",
+      "来源": "A Health Care Algorithm Offered Less Care to Black Patients"
+    },
+    "Risk": {
+      "id": "RacialBiasInHealthcare",
+      "中文名称": "医疗保健中的种族偏见风险",
+      "英文名称": "Racial Bias in Healthcare Risk",
+      "来源": "Racial bias in a medical algorithm favors white patients over sicker black patients"
+    },
+    "Consequence": {
+      "id": "DisparateHealthcareAccess",
+      "中文名称": "医疗保健获取差异后果",
+      "英文名称": "Disparate Healthcare Access Consequence",
+      "来源": "A Health Care Algorithm Offered Less Care to Black Patients"
+    },
+    "Impact": {
+      "id": "HealthDisparities",
+      "中文名称": "健康差异影响",
+      "英文名称": "Health Disparities Impact",
+      "来源": "Racial bias in a medical algorithm favors white patients over sicker black patients"
+    },
+    "AICapability": {
+      "id": "RaceDetectionFromXrays",
+      "中文名称": "从X光片检测种族的能力",
+      "英文名称": "Race Detection from X-rays Capability",
+      "来源": "These Algorithms Look at X-Rays-and Somehow Detect Your Race"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Racial bias in a medical algorithm favors white patients over sicker black patients"
+    },
+    "AISubject": {
+      "id": "BlackPatients",
+      "中文名称": "黑人患者",
+      "英文名称": "Black Patients",
+      "来源": "A Health Care Algorithm Offered Less Care to Black Patients"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "A Health Care Algorithm Offered Less Care to Black Patients"
+    }
+  }
+}

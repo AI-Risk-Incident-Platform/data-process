@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Risk": {
+      "id": "LibelRisk",
+      "中文名称": "诽谤风险",
+      "英文名称": "Defamation Risk",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "RiskSource": {
+      "id": "PrivacyComplaint",
+      "中文名称": "隐私投诉",
+      "英文名称": "Privacy Complaint",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Impact": {
+      "id": "RegulatoryScrutiny",
+      "中文名称": "监管审查",
+      "英文名称": "Regulatory Scrutiny",
+      "来源": "EU: ChatGPT spurs debate about AI regulation"
+    },
+    "Domain": {
+      "id": "AILegalAndRegulatory",
+      "中文名称": "AI法律与监管领域",
+      "英文名称": "AI Legal and Regulatory Domain",
+      "来源": "EU: ChatGPT spurs debate about AI regulation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Risk": {
+      "id": "LibelRisk",
+      "中文名称": "诽谤风险",
+      "英文名称": "Defamation Risk",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "RiskSource": {
+      "id": "PrivacyComplaint",
+      "中文名称": "隐私投诉",
+      "英文名称": "Privacy Complaint",
+      "来源": "Federal privacy watchdog probing OpenAI, ChatGPT following complaint"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "First (?) Libel-by-AI (ChatGPT) Lawsuit Filed"
+    },
+    "Impact": {
+      "id": "RegulatoryScrutiny",
+      "中文名称": "监管审查",
+      "英文名称": "Regulatory Scrutiny",
+      "来源": "EU: ChatGPT spurs debate about AI regulation"
+    },
+    "Domain": {
+      "id": "AILegalAndRegulatory",
+      "中文名称": "AI法律与监管领域",
+      "英文名称": "AI Legal and Regulatory Domain",
+      "来源": "EU: ChatGPT spurs debate about AI regulation"
+    }
+  }
+}

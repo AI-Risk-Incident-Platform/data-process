@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AtlasRobot rdf:type airo:AISystem ;
+    rdfs:label "Atlas Robot"@en ;
+    rdfs:label "Atlas机器人"@zh ;
+    airo:hasRisk ex:AutonomousRobotFailureRisk ;
+    airo:hasAICapability ex:AutonomousMovementCapability ;
+    airo:isDeployedBy ex:BostonDynamics ;
+    airo:hasStakeholder ex:CongressOfFutureScientistsAndTechnologists ;
+    airo:hasPurpose ex:HumanoidRobotTechnologyDemonstration ;
+    airo:isAppliedWithinDomain ex:RoboticsTechnology ;
+    airo:usesTechnique ex:DynamicBalanceControlTechnique ;
+    airo:hasVulnerability ex:StageEdgeDetectionVulnerability .
+
+ex:AutonomousRobotFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Robot Failure Risk"@en ;
+    rdfs:label "自主机器人故障风险"@zh ;
+    airo:hasConsequence ex:PhysicalDamageToRobot ;
+    airo:isRiskSourceFor ex:AutonomousNavigationAlgorithmFlaw .
+
+ex:PhysicalDamageToRobot rdf:type airo:Consequence ;
+    rdfs:label "Physical Damage to Robot Consequence"@en ;
+    rdfs:label "机器人物理损坏后果"@zh ;
+    airo:hasImpact ex:PublicDemonstrationFailureImpact .
+
+ex:AutonomousMovementCapability rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Movement Capability"@en ;
+    rdfs:label "自主移动能力"@zh .
+
+ex:BostonDynamics rdf:type airo:AIOperator ;
+    rdfs:label "Boston Dynamics"@en ;
+    rdfs:label "波士顿动力公司"@zh .
+
+ex:CongressOfFutureScientistsAndTechnologists rdf:type airo:Stakeholder ;
+    rdfs:label "Congress of Future Scientists and Technologists"@en ;
+    rdfs:label "未来科学家和技术专家大会"@zh .
+
+ex:PublicDemonstrationFailureImpact rdf:type airo:Impact ;
+    rdfs:label "Public Demonstration Failure Impact"@en ;
+    rdfs:label "公开演示失败影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CongressOfFutureScientistsAndTechnologists .
+
+ex:HumanoidRobotTechnologyDemonstration rdf:type airo:Purpose ;
+    rdfs:label "Humanoid Robot Technology Demonstration Purpose"@en ;
+    rdfs:label "人形机器人技术展示目的"@zh .
+
+ex:RoboticsTechnology rdf:type airo:Domain ;
+    rdfs:label "Robotics Technology Domain"@en ;
+    rdfs:label "机器人技术领域"@zh .
+
+ex:DynamicBalanceControlTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Dynamic Balance Control Technique"@en ;
+    rdfs:label "动态平衡控制技术"@zh .
+
+ex:StageEdgeDetectionVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Stage Edge Detection Vulnerability"@en ;
+    rdfs:label "舞台边缘检测漏洞"@zh .
+
+ex:AutonomousNavigationAlgorithmFlaw rdf:type airo:RiskSource ;
+    rdfs:label "Autonomous Navigation Algorithm Flaw Risk Source"@en ;
+    rdfs:label "自主导航算法缺陷风险源"@zh .

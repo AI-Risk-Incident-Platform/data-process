@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedMusicSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Music System"@en ;
+    rdfs:label "AI生成音乐系统"@zh ;
+    airo:hasRisk ex:RoyaltyFraudRisk ;
+    airo:hasPurpose ex:GenerateRoyalties ;
+    airo:isAppliedWithinDomain ex:MusicStreamingIndustry ;
+    airo:usesTechnique ex:AIAndBotArmy ;
+    airo:hasStakeholder ex:StreamingPlatforms ;
+    airo:isDeployedBy ex:MichaelSmith .
+
+ex:RoyaltyFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Royalty Fraud Risk"@en ;
+    rdfs:label "版税欺诈风险"@zh ;
+    airo:hasConsequence ex:FinancialLossToStreamingPlatforms ;
+    airo:isRiskSourceFor ex:FakeStreamsGeneration .
+
+ex:FinancialLossToStreamingPlatforms rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss to Streaming Platforms Consequence"@en ;
+    rdfs:label "流媒体平台经济损失后果"@zh ;
+    airo:hasImpact ex:RevenueLossImpact .
+
+ex:MichaelSmith rdf:type airo:AIOperator ;
+    rdfs:label "Michael Smith"@en ;
+    rdfs:label "迈克尔·史密斯"@zh .
+
+ex:StreamingPlatforms rdf:type airo:Stakeholder ;
+    rdfs:label "Streaming Platforms"@en ;
+    rdfs:label "流媒体平台"@zh ;
+    airo:hasImpactOnStakeholder ex:RevenueLossImpact .
+
+ex:RevenueLossImpact rdf:type airo:Impact ;
+    rdfs:label "Revenue Loss Impact"@en ;
+    rdfs:label "收入损失影响"@zh .
+
+ex:GenerateRoyalties rdf:type airo:Purpose ;
+    rdfs:label "Generate Royalties Purpose"@en ;
+    rdfs:label "生成版税的目的"@zh .
+
+ex:MusicStreamingIndustry rdf:type airo:Domain ;
+    rdfs:label "Music Streaming Industry Domain"@en ;
+    rdfs:label "音乐流媒体行业领域"@zh .
+
+ex:AIAndBotArmy rdf:type airo:AITechnique ;
+    rdfs:label "AI and Bot Army Technique"@en ;
+    rdfs:label "AI和机器人军队技术"@zh .
+
+ex:FakeStreamsGeneration rdf:type airo:RiskSource ;
+    rdfs:label "Fake Streams Generation Risk Source"@en ;
+    rdfs:label "虚假流生成的风险源"@zh .

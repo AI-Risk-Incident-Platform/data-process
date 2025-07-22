@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftPregnancyPredictionAlgorithm",
+      "中文名称": "微软怀孕预测算法",
+      "英文名称": "Microsoft Pregnancy Prediction Algorithm",
+      "来源": "Microsoft made an AI algorithm to predict pregnancies of specific preteen girls"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "AISubject": {
+      "id": "PreteenGirls",
+      "中文名称": "青春期前女孩",
+      "英文名称": "Preteen Girls",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Stakeholder": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft made an AI algorithm"
+    },
+    "Purpose": {
+      "id": "PredictPregnancies",
+      "中文名称": "预测怀孕",
+      "英文名称": "Predict Pregnancies",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Consequence": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Impact": {
+      "id": "EthicalConcerns",
+      "中文名称": "伦理担忧",
+      "英文名称": "Ethical Concerns",
+      "来源": "predict pregnancies of specific preteen girls"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftPregnancyPredictionAlgorithm",
+      "中文名称": "微软怀孕预测算法",
+      "英文名称": "Microsoft Pregnancy Prediction Algorithm",
+      "来源": "Microsoft made an AI algorithm to predict pregnancies of specific preteen girls"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "AISubject": {
+      "id": "PreteenGirls",
+      "中文名称": "青春期前女孩",
+      "英文名称": "Preteen Girls",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Stakeholder": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft made an AI algorithm"
+    },
+    "Purpose": {
+      "id": "PredictPregnancies",
+      "中文名称": "预测怀孕",
+      "英文名称": "Predict Pregnancies",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Consequence": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "predict pregnancies of specific preteen girls"
+    },
+    "Impact": {
+      "id": "EthicalConcerns",
+      "中文名称": "伦理担忧",
+      "英文名称": "Ethical Concerns",
+      "来源": "predict pregnancies of specific preteen girls"
+    }
+  }
+}

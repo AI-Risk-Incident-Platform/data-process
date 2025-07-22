@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Speech2Face",
+      "中文名称": "语音转面部系统",
+      "英文名称": "Speech2Face",
+      "来源": "Speech2Face: A neural network that 'imagines' faces from hearing voices."
+    },
+    "Risk": {
+      "id": "EthnicProfilingRisk",
+      "中文名称": "种族特征分析风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is it too soon to worry about ethnic profiling?"
+    },
+    "AITechnique": {
+      "id": "NeuralNetwork",
+      "中文名称": "神经网络",
+      "英文名称": "Neural Network",
+      "来源": "Speech2Face: A neural network that 'imagines' faces from hearing voices."
+    },
+    "Purpose": {
+      "id": "VoiceBasedFacialPrediction",
+      "中文名称": "基于语音的面部预测",
+      "英文名称": "Voice-Based Facial Prediction",
+      "来源": "This Creepy AI Predicts What You Look Like Based on Your Voice"
+    },
+    "RiskSource": {
+      "id": "VoiceCharacteristics",
+      "中文名称": "语音特征",
+      "英文名称": "Voice Characteristics",
+      "来源": "Astounding AI Guesses What You Look Like Based on Your Voice"
+    },
+    "Consequence": {
+      "id": "PotentialEthnicBias",
+      "中文名称": "潜在种族偏见",
+      "英文名称": "Potential Ethnic Bias",
+      "来源": "Is it too soon to worry about ethnic profiling?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "Speech2Face",
+      "中文名称": "语音转面部系统",
+      "英文名称": "Speech2Face",
+      "来源": "Speech2Face: A neural network that 'imagines' faces from hearing voices."
+    },
+    "Risk": {
+      "id": "EthnicProfilingRisk",
+      "中文名称": "种族特征分析风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Is it too soon to worry about ethnic profiling?"
+    },
+    "AITechnique": {
+      "id": "NeuralNetwork",
+      "中文名称": "神经网络",
+      "英文名称": "Neural Network",
+      "来源": "Speech2Face: A neural network that 'imagines' faces from hearing voices."
+    },
+    "Purpose": {
+      "id": "VoiceBasedFacialPrediction",
+      "中文名称": "基于语音的面部预测",
+      "英文名称": "Voice-Based Facial Prediction",
+      "来源": "This Creepy AI Predicts What You Look Like Based on Your Voice"
+    },
+    "RiskSource": {
+      "id": "VoiceCharacteristics",
+      "中文名称": "语音特征",
+      "英文名称": "Voice Characteristics",
+      "来源": "Astounding AI Guesses What You Look Like Based on Your Voice"
+    },
+    "Consequence": {
+      "id": "PotentialEthnicBias",
+      "中文名称": "潜在种族偏见",
+      "英文名称": "Potential Ethnic Bias",
+      "来源": "Is it too soon to worry about ethnic profiling?"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceCloningAI rdf:type airo:AISystem ;
+    rdfs:label "Voice Cloning AI"@en ;
+    rdfs:label "语音克隆AI"@zh ;
+    airo:hasRisk ex:UnauthorizedVoiceReplicationRisk ;
+    airo:usesTechnique ex:VoiceCloningTechnology ;
+    airo:hasPurpose ex:VoiceReplicationForUnknownPurpose ;
+    airo:hasStakeholder ex:DavidAttenborough .
+
+ex:UnauthorizedVoiceReplicationRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Voice Replication Risk"@en ;
+    rdfs:label "未经授权的语音复制风险"@zh ;
+    airo:hasConsequence ex:EthicalConcernsInVoiceReplication .
+
+ex:DavidAttenborough rdf:type airo:Stakeholder ;
+    rdfs:label "David Attenborough"@en ;
+    rdfs:label "大卫·爱登堡"@zh .
+
+ex:PersonalIdentityViolation rdf:type airo:Impact ;
+    rdfs:label "Personal Identity Violation Impact"@en ;
+    rdfs:label "个人身份侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DavidAttenborough .
+
+ex:EthicalConcernsInVoiceReplication rdf:type airo:Consequence ;
+    rdfs:label "Ethical Concerns in Voice Replication Consequence"@en ;
+    rdfs:label "语音复制中的伦理问题后果"@zh ;
+    airo:hasImpact ex:PersonalIdentityViolation .
+
+ex:VoiceReplicationForUnknownPurpose rdf:type airo:Purpose ;
+    rdfs:label "Voice Replication for Unknown Purpose"@en ;
+    rdfs:label "未知目的的语音复制"@zh .
+
+ex:VoiceCloningTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .

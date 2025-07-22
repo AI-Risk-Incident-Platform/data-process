@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CruiseDriverlessCar rdf:type airo:AISystem ;
+    rdfs:label "Cruise Driverless Car"@en ;
+    rdfs:label "Cruise无人驾驶汽车"@zh ;
+    airo:hasRisk ex:TrafficDisruptionRisk ;
+    airo:hasStakeholder ex:Cruise ;
+    airo:isAppliedWithinDomain ex:UrbanTransportation .
+
+ex:TrafficDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Traffic Disruption Risk"@en ;
+    rdfs:label "交通混乱风险"@zh ;
+    airo:hasConsequence ex:TrafficCongestion .
+
+ex:Cruise rdf:type airo:Stakeholder ;
+    rdfs:label "Cruise"@en ;
+    rdfs:label "Cruise公司"@zh .
+
+ex:UrbanTransportation rdf:type airo:Domain ;
+    rdfs:label "Urban Transportation Domain"@en ;
+    rdfs:label "城市交通领域"@zh .
+
+ex:TrafficCongestion rdf:type airo:Consequence ;
+    rdfs:label "Traffic Congestion Consequence"@en ;
+    rdfs:label "交通拥堵后果"@zh ;
+    airo:hasImpact ex:PublicTransportationDisruption .
+
+ex:PublicTransportationDisruption rdf:type airo:Impact ;
+    rdfs:label "Public Transportation Disruption Impact"@en ;
+    rdfs:label "公共交通中断影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Cruise .

@@ -1,0 +1,70 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftRecallFeature",
+      "中文名称": "微软Recall功能",
+      "英文名称": "Microsoft Recall Feature",
+      "来源": "Microsoft's AI \"Recall\" Feature Caught Screenshotting Your Social Security Number"
+    },
+    "Risk": {
+      "id": "PrivacyLeakRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "Privacy Leak Risk",
+      "来源": "Microsoft Recall screenshots credit cards and Social Security numbers, even with the \"sensitive information\" filter enabled"
+    },
+    "Consequence": {
+      "id": "SensitiveDataExposure",
+      "中文名称": "敏感数据暴露",
+      "英文名称": "Sensitive Data Exposure",
+      "来源": "screenshots credit cards and Social Security numbers"
+    },
+    "AICapability": {
+      "id": "AutomaticScreenshotCapture",
+      "中文名称": "自动截图捕获能力",
+      "英文名称": "Automatic Screenshot Capture Capability",
+      "来源": "Microsoft's AI \"Recall\" Feature Caught Screenshotting"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft's AI \"Recall\" Feature"
+    },
+    "Stakeholder": {
+      "id": "UsersWithSensitiveInformation",
+      "中文名称": "持有敏感信息的用户",
+      "英文名称": "Users with Sensitive Information",
+      "来源": "screenshots credit cards and Social Security numbers"
+    },
+    "Impact": {
+      "id": "IdentityTheftPotential",
+      "中文名称": "身份盗窃潜在影响",
+      "英文名称": "Identity Theft Potential Impact",
+      "来源": "screenshots credit cards and Social Security numbers"
+    },
+    "Purpose": {
+      "id": "UserActivityRecording",
+      "中文名称": "用户活动记录目的",
+      "英文名称": "User Activity Recording Purpose",
+      "来源": "Microsoft's AI \"Recall\" Feature"
+    },
+    "Domain": {
+      "id": "UserProductivitySoftware",
+      "中文名称": "用户生产力软件领域",
+      "英文名称": "User Productivity Software Domain",
+      "来源": "Microsoft's AI feature"
+    },
+    "Vulnerability": {
+      "id": "InsufficientSensitiveDataFiltering",
+      "中文名称": "敏感数据过滤不足漏洞",
+      "英文名称": "Insufficient Sensitive Data Filtering Vulnerability",
+      "来源": "even with the \"sensitive information\" filter enabled"
+    },
+    "RiskSource": {
+      "id": "AutomaticDataCollectionWithoutProperFiltering",
+      "中文名称": "自动数据收集未适当过滤风险源",
+      "英文名称": "Automatic Data Collection Without Proper Filtering Risk Source",
+      "来源": "screenshots credit cards and Social Security numbers, even with the \"sensitive information\" filter enabled"
+    }
+  }
+}

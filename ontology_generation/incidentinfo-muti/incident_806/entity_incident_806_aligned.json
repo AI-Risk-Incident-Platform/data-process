@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "HitlerSpeechesAI",
+      "中文名称": "希特勒演讲AI生成内容",
+      "英文名称": "Hitler AI Content",
+      "来源": "Hitler speeches that appear to be AI-generated are getting millions of views on TikTok"
+    },
+    "Risk": {
+      "id": "HistoricalFigureMisrepresentationRisk",
+      "中文名称": "历史人物错误表述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hitler speeches that appear to be AI-generated are getting millions of views on TikTok"
+    },
+    "Stakeholder": {
+      "id": "TikTokPlatform",
+      "中文名称": "TikTok平台",
+      "英文名称": "TikTok Platform",
+      "来源": "getting millions of views on TikTok"
+    },
+    "Consequence": {
+      "id": "HistoricalDistortion",
+      "中文名称": "历史扭曲后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Hitler speeches that appear to be AI-generated"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "getting millions of views on TikTok"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedContentCreation",
+      "中文名称": "AI生成内容创作风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Hitler speeches that appear to be AI-generated"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "getting millions of views on TikTok"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "HitlerSpeechesAI",
+      "中文名称": "希特勒演讲AI生成内容",
+      "英文名称": "Hitler AI Content",
+      "来源": "Hitler speeches that appear to be AI-generated are getting millions of views on TikTok"
+    },
+    "Risk": {
+      "id": "HistoricalFigureMisrepresentationRisk",
+      "中文名称": "历史人物错误表述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hitler speeches that appear to be AI-generated are getting millions of views on TikTok"
+    },
+    "Stakeholder": {
+      "id": "TikTokPlatform",
+      "中文名称": "TikTok平台",
+      "英文名称": "TikTok Platform",
+      "来源": "getting millions of views on TikTok"
+    },
+    "Consequence": {
+      "id": "HistoricalDistortion",
+      "中文名称": "历史扭曲后果",
+      "英文名称": "Historical Distortion Consequence",
+      "来源": "Hitler speeches that appear to be AI-generated"
+    },
+    "Impact": {
+      "id": "SocialHarm",
+      "中文名称": "社会危害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "getting millions of views on TikTok"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedContentCreation",
+      "中文名称": "AI生成内容创作风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Hitler speeches that appear to be AI-generated"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "getting millions of views on TikTok"
+    }
+  }
+}

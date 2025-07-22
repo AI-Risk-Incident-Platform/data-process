@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberAmazonWageAI rdf:type airo:AISystem ;
+    rdfs:label "Uber and Amazon Wage AI System"@en ;
+    rdfs:label "Uber和亚马逊工资AI系统"@zh ;
+    airo:hasRisk ex:AlgorithmicWageDiscrimination ;
+    airo:hasStakeholder ex:UberAmazonEmployees ;
+    airo:isDeployedBy ex:UberAmazonCorporations ;
+    airo:isAppliedWithinDomain ex:HumanResourceManagement .
+
+ex:AlgorithmicWageDiscrimination rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Wage Discrimination Risk"@en ;
+    rdfs:label "算法工资歧视风险"@zh ;
+    airo:hasConsequence ex:UnequalPayForSameWork .
+
+ex:UberAmazonEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Uber and Amazon Employees"@en ;
+    rdfs:label "Uber和亚马逊员工"@zh .
+
+ex:UnequalPayForSameWork rdf:type airo:Consequence ;
+    rdfs:label "Unequal Pay for Same Work Consequence"@en ;
+    rdfs:label "同工不同酬后果"@zh ;
+    airo:hasImpact ex:WorkplaceInequality .
+
+ex:WorkplaceInequality rdf:type airo:Impact ;
+    rdfs:label "Workplace Inequality Impact"@en ;
+    rdfs:label "职场不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberAmazonEmployees .
+
+ex:UberAmazonCorporations rdf:type airo:AIOperator ;
+    rdfs:label "Uber and Amazon Corporations"@en ;
+    rdfs:label "Uber和亚马逊公司"@zh .
+
+ex:HumanResourceManagement rdf:type airo:Domain ;
+    rdfs:label "Human Resource Management Domain"@en ;
+    rdfs:label "人力资源管理领域"@zh .

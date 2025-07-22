@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:MisidentificationRisk ;
+    airo:hasAISubject ex:Shoppers ;
+    airo:isAppliedWithinDomain ex:RetailSecurity .
+
+ex:MisidentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Misidentification Risk"@en ;
+    rdfs:label "误识别风险"@zh ;
+    airo:hasConsequence ex:WrongfulAccusation .
+
+ex:WrongfulAccusation rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Accusation Consequence"@en ;
+    rdfs:label "错误指控后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "名誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Shoppers .
+
+ex:Shoppers rdf:type airo:AISubject ;
+    rdfs:label "Shoppers"@en ;
+    rdfs:label "购物者"@zh .
+
+ex:RetailSecurity rdf:type airo:Domain ;
+    rdfs:label "Retail Security Domain"@en ;
+    rdfs:label "零售安全领域"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:PrivateAIDevelopers ;
+    airo:hasStakeholder ex:SouthKoreanGovernment ;
+    airo:hasAISubject ex:Travelers ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndBorderControl .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfBiometricData ;
+    airo:isRiskSourceFor ex:DataSharingWithoutConsent .
+
+ex:SouthKoreanGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "South Korean Government"@en ;
+    rdfs:label "韩国政府"@zh .
+
+ex:PrivateAIDevelopers rdf:type airo:AIDeveloper ;
+    rdfs:label "Private AI Developers"@en ;
+    rdfs:label "私营AI开发者"@zh .
+
+ex:Travelers rdf:type airo:AISubject ;
+    rdfs:label "Travelers"@en ;
+    rdfs:label "旅行者"@zh .
+
+ex:UnauthorizedUseOfBiometricData rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Biometric Data"@en ;
+    rdfs:label "未经授权使用生物特征数据"@zh ;
+    airo:hasImpact ex:LossOfPersonalPrivacy .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Privacy"@en ;
+    rdfs:label "个人隐私丧失"@zh ;
+    airo:hasImpactOnStakeholder ex:Travelers .
+
+ex:DataSharingWithoutConsent rdf:type airo:RiskSource ;
+    rdfs:label "Data Sharing Without Consent"@en ;
+    rdfs:label "未经同意的数据共享"@zh .
+
+ex:ImmigrationAndBorderControl rdf:type airo:Domain ;
+    rdfs:label "Immigration and Border Control"@en ;
+    rdfs:label "移民和边境控制"@zh .

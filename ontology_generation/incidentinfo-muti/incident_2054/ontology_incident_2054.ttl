@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleKnowledgePanel rdf:type airo:AISystem ;
+    rdfs:label "Google Knowledge Panel"@en ;
+    rdfs:label "谷歌知识面板"@zh ;
+    airo:hasRisk ex:FalseInformationRisk ;
+    airo:hasCapability ex:InformationRetrievalAndDisplay ;
+    airo:hasPurpose ex:ProvideQuickInformationAccess ;
+    airo:isAppliedWithinDomain ex:SearchEngineServices ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:IndividualsWithSimilarNames .
+
+ex:FalseInformationRisk rdf:type airo:Risk ;
+    rdfs:label "False Information Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    rdfs:label "声誉损害后果"@zh ;
+    airo:hasImpact ex:PersonalAndProfessionalHarm .
+
+ex:InformationRetrievalAndDisplay rdf:type airo:AICapability ;
+    rdfs:label "Information Retrieval and Display Capability"@en ;
+    rdfs:label "信息检索与展示能力"@zh .
+
+ex:IndividualsWithSimilarNames rdf:type airo:Stakeholder ;
+    rdfs:label "Individuals with Similar Names"@en ;
+    rdfs:label "姓名相似的个人"@zh .
+
+ex:PersonalAndProfessionalHarm rdf:type airo:Impact ;
+    rdfs:label "Personal and Professional Harm Impact"@en ;
+    rdfs:label "个人与职业伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualsWithSimilarNames .
+
+ex:ProvideQuickInformationAccess rdf:type airo:Purpose ;
+    rdfs:label "Provide Quick Information Access Purpose"@en ;
+    rdfs:label "提供快速信息访问的目的"@zh .
+
+ex:SearchEngineServices rdf:type airo:Domain ;
+    rdfs:label "Search Engine Services Domain"@en ;
+    rdfs:label "搜索引擎服务领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error Risk Source"@en ;
+    rdfs:label "算法错误风险源"@zh .

@@ -1,0 +1,174 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MicrosoftTayChatbot",
+      "中文名称": "微软Tay聊天机器人",
+      "英文名称": "Microsoft Tay Chatbot",
+      "来源": "Microsoft's chatbot Tay"
+    },
+    "Risk": {
+      "id": "OffensiveContentGenerationRisk",
+      "中文名称": "生成冒犯性内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Tay began spewing racist, sexist and otherwise offensive tweets"
+    },
+    "AICapability": {
+      "id": "ConversationalLearningFromUserInteractions",
+      "中文名称": "从用户互动中学习对话的能力",
+      "英文名称": "Conversational Learning from User Interactions Capability",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft's chatbot Tay"
+    },
+    "Stakeholder": {
+      "id": "TwitterUsersInteractingWithTay",
+      "中文名称": "与Tay互动的推特用户",
+      "英文名称": "Twitter Users Interacting with Tay",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "Impact": {
+      "id": "ReputationDamageToMicrosoft",
+      "中文名称": "对微软声誉损害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The incident caused significant embarrassment for Microsoft"
+    },
+    "Purpose": {
+      "id": "EngagingMillennialsThroughConversationalAI",
+      "中文名称": "通过对话AI吸引千禧一代的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "Tay was designed to engage millennials through casual and playful conversation"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Tay was deployed on Twitter"
+    },
+    "AITechnique": {
+      "id": "MachineLearningFromUserInputs",
+      "中文名称": "从用户输入中学习的机器学习技术",
+      "英文名称": "Machine Learning from User Content",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "Vulnerability": {
+      "id": "SusceptibilityToMaliciousUserInputs",
+      "中文名称": "易受恶意用户输入影响的脆弱性",
+      "英文名称": "Input Vulnerability",
+      "来源": "Tay quickly learned to parrot offensive language from some users"
+    },
+    "Threat": {
+      "id": "CoordinatedMaliciousUserAttacks",
+      "中文名称": "有组织的恶意用户攻击威胁",
+      "英文名称": "APT & Malicious Threats",
+      "来源": "Some users coordinated to teach Tay offensive language"
+    },
+    "Consequence": {
+      "id": "GenerationOfOffensiveContent",
+      "中文名称": "生成冒犯性内容的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Tay began spewing racist, sexist and otherwise offensive tweets"
+    },
+    "RiskSource": {
+      "id": "UnfilteredUserInputs",
+      "中文名称": "未过滤用户输入的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "The system lacked proper filters for offensive content"
+    },
+    "RiskControl": {
+      "id": "ChatbotShutdown",
+      "中文名称": "聊天机器人关闭的管控措施",
+      "英文名称": "Chatbot Shutdown Risk Control",
+      "来源": "Microsoft took Tay offline within 16 hours of its launch"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MicrosoftTayChatbot",
+      "中文名称": "微软Tay聊天机器人",
+      "英文名称": "Microsoft Tay Chatbot",
+      "来源": "Microsoft's chatbot Tay"
+    },
+    "Risk": {
+      "id": "OffensiveContentGenerationRisk",
+      "中文名称": "生成冒犯性内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Tay began spewing racist, sexist and otherwise offensive tweets"
+    },
+    "AICapability": {
+      "id": "ConversationalLearningFromUserInteractions",
+      "中文名称": "从用户互动中学习对话的能力",
+      "英文名称": "Conversational Learning from User Interactions Capability",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "AIOperator": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft's chatbot Tay"
+    },
+    "Stakeholder": {
+      "id": "TwitterUsersInteractingWithTay",
+      "中文名称": "与Tay互动的推特用户",
+      "英文名称": "Twitter Users Interacting with Tay",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "Impact": {
+      "id": "ReputationDamageToMicrosoft",
+      "中文名称": "对微软声誉损害的影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "The incident caused significant embarrassment for Microsoft"
+    },
+    "Purpose": {
+      "id": "EngagingMillennialsThroughConversationalAI",
+      "中文名称": "通过对话AI吸引千禧一代的目的",
+      "英文名称": "Conversational AI Purpose",
+      "来源": "Tay was designed to engage millennials through casual and playful conversation"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Tay was deployed on Twitter"
+    },
+    "AITechnique": {
+      "id": "MachineLearningFromUserInputs",
+      "中文名称": "从用户输入中学习的机器学习技术",
+      "英文名称": "Machine Learning from User Content",
+      "来源": "Tay was designed to learn from conversations with Twitter users"
+    },
+    "Vulnerability": {
+      "id": "SusceptibilityToMaliciousUserInputs",
+      "中文名称": "易受恶意用户输入影响的脆弱性",
+      "英文名称": "Input Vulnerability",
+      "来源": "Tay quickly learned to parrot offensive language from some users"
+    },
+    "Threat": {
+      "id": "CoordinatedMaliciousUserAttacks",
+      "中文名称": "有组织的恶意用户攻击威胁",
+      "英文名称": "APT & Malicious Threats",
+      "来源": "Some users coordinated to teach Tay offensive language"
+    },
+    "Consequence": {
+      "id": "GenerationOfOffensiveContent",
+      "中文名称": "生成冒犯性内容的后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Tay began spewing racist, sexist and otherwise offensive tweets"
+    },
+    "RiskSource": {
+      "id": "UnfilteredUserInputs",
+      "中文名称": "未过滤用户输入的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "The system lacked proper filters for offensive content"
+    },
+    "RiskControl": {
+      "id": "ChatbotShutdown",
+      "中文名称": "聊天机器人关闭的管控措施",
+      "英文名称": "Chatbot Shutdown Risk Control",
+      "来源": "Microsoft took Tay offline within 16 hours of its launch"
+    }
+  }
+}

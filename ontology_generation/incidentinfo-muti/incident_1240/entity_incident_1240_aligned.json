@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIHardwareProduction",
+      "中文名称": "AI硬件生产",
+      "英文名称": "AI Hardware Production",
+      "来源": "AI boom set to flood planet with millions of tonnes of e-waste"
+    },
+    "Risk": {
+      "id": "ElectronicWastePollutionRisk",
+      "中文名称": "电子废物污染风险",
+      "英文名称": "Electronic Waste Pollution Risk",
+      "来源": "AI may produce millions of tonnes of electronic waste by 2030"
+    },
+    "Consequence": {
+      "id": "EnvironmentalPollution",
+      "中文名称": "环境污染后果",
+      "英文名称": "Environmental Pollution Consequence",
+      "来源": "flood planet with millions of tonnes of e-waste"
+    },
+    "Impact": {
+      "id": "EcosystemDamage",
+      "中文名称": "生态系统破坏影响",
+      "英文名称": "Impact",
+      "来源": "flood planet with millions of tonnes of e-waste"
+    },
+    "Domain": {
+      "id": "TechnologyManufacturing",
+      "中文名称": "技术制造业领域",
+      "英文名称": "Technology Manufacturing Domain",
+      "来源": "AI hardware production"
+    },
+    "Stakeholder": {
+      "id": "EnvironmentalProtectionAgencies",
+      "中文名称": "环境保护机构",
+      "英文名称": "Environmental Protection Agencies",
+      "来源": "study finds"
+    },
+    "RiskSource": {
+      "id": "RapidAIHardwareReplacement",
+      "中文名称": "AI硬件快速更替风险源",
+      "英文名称": "Rapid AI Hardware Replacement Risk Source",
+      "来源": "AI boom set to flood planet"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIHardwareProduction",
+      "中文名称": "AI硬件生产",
+      "英文名称": "AI Hardware Production",
+      "来源": "AI boom set to flood planet with millions of tonnes of e-waste"
+    },
+    "Risk": {
+      "id": "ElectronicWastePollutionRisk",
+      "中文名称": "电子废物污染风险",
+      "英文名称": "Electronic Waste Pollution Risk",
+      "来源": "AI may produce millions of tonnes of electronic waste by 2030"
+    },
+    "Consequence": {
+      "id": "EnvironmentalPollution",
+      "中文名称": "环境污染后果",
+      "英文名称": "Environmental Pollution Consequence",
+      "来源": "flood planet with millions of tonnes of e-waste"
+    },
+    "Impact": {
+      "id": "EcosystemDamage",
+      "中文名称": "生态系统破坏影响",
+      "英文名称": "Impact",
+      "来源": "flood planet with millions of tonnes of e-waste"
+    },
+    "Domain": {
+      "id": "TechnologyManufacturing",
+      "中文名称": "技术制造业领域",
+      "英文名称": "Technology Manufacturing Domain",
+      "来源": "AI hardware production"
+    },
+    "Stakeholder": {
+      "id": "EnvironmentalProtectionAgencies",
+      "中文名称": "环境保护机构",
+      "英文名称": "Environmental Protection Agencies",
+      "来源": "study finds"
+    },
+    "RiskSource": {
+      "id": "RapidAIHardwareReplacement",
+      "中文名称": "AI硬件快速更替风险源",
+      "英文名称": "Rapid AI Hardware Replacement Risk Source",
+      "来源": "AI boom set to flood planet"
+    }
+  }
+}

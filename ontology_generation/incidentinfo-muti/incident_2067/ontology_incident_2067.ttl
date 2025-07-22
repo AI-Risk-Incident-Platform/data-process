@@ -1,0 +1,75 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeCloneCreationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Clone Creation System"@en ;
+    rdfs:label "深度伪造克隆创建系统"@zh ;
+    airo:hasRisk ex:IdentityMisuseRisk ;
+    airo:hasAICapability ex:RealisticDigitalCloneCreation ;
+    airo:hasPurpose ex:AdvertisingAndMarketing ;
+    airo:hasStakeholder ex:IndividualsWhoseIdentityIsCloned ;
+    airo:isDeployedBy ex:DeepfakeAdvertisingCompany ;
+    airo:isAppliedWithinDomain ex:DigitalAdvertising ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSynthesis .
+
+ex:IdentityMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Identity Misuse Risk"@en ;
+    rdfs:label "身份滥用风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedUseOfPersonalIdentity ;
+    airo:isRiskSourceFor ex:CommercialDeepfakeApplications .
+
+ex:UnauthorizedUseOfPersonalIdentity rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Use of Personal Identity"@en ;
+    rdfs:label "未经授权使用个人身份"@zh ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:RealisticDigitalCloneCreation rdf:type airo:AICapability ;
+    rdfs:label "Realistic Digital Clone Creation"@en ;
+    rdfs:label "逼真数字克隆创建能力"@zh .
+
+ex:IndividualsWhoseIdentityIsCloned rdf:type airo:Stakeholder ;
+    rdfs:label "Individuals Whose Identity Is Cloned"@en ;
+    rdfs:label "身份被克隆的个人"@zh .
+
+ex:DeepfakeAdvertisingCompany rdf:type airo:AIOperator ;
+    rdfs:label "Deepfake Advertising Company"@en ;
+    rdfs:label "深度伪造广告公司"@zh .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualsWhoseIdentityIsCloned .
+
+ex:AdvertisingAndMarketing rdf:type airo:Purpose ;
+    rdfs:label "Advertising and Marketing"@en ;
+    rdfs:label "广告和营销"@zh .
+
+ex:DigitalAdvertising rdf:type airo:Domain ;
+    rdfs:label "Digital Advertising"@en ;
+    rdfs:label "数字广告"@zh .
+
+ex:DeepLearningBasedFaceSynthesis rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Synthesis"@en ;
+    rdfs:label "基于深度学习的面部合成"@zh .
+
+ex:CommercialDeepfakeApplications rdf:type airo:RiskSource ;
+    rdfs:label "Commercial Deepfake Applications"@en ;
+    rdfs:label "商业深度伪造应用"@zh ;
+    airo:exploitsVulnerability ex:LackOfLegalProtectionAgainstDeepfakeMisuse .
+
+ex:LackOfLegalProtectionAgainstDeepfakeMisuse rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Legal Protection Against Deepfake Misuse"@en ;
+    rdfs:label "缺乏针对深度伪造滥用的法律保护"@zh .
+
+ex:EthicalConcernsInDigitalIdentityReplication rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Digital Identity Replication"@en ;
+    rdfs:label "数字身份复制中的伦理问题"@zh .

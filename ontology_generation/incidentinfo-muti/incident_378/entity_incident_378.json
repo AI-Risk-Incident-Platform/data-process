@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GlovoDeliveryAI",
+      "中文名称": "Glovo配送AI系统",
+      "英文名称": "Glovo Delivery AI System",
+      "来源": "A Glovo driver died in an accident while on duty and received an email firing him for 'non-compliance' with the terms of his role"
+    },
+    "Risk": {
+      "id": "InhumaneTreatmentRisk",
+      "中文名称": "不人道待遇风险",
+      "英文名称": "Inhumane Treatment Risk",
+      "来源": "received an email firing him for 'non-compliance' with the terms of his role"
+    },
+    "Consequence": {
+      "id": "WorkerExploitation",
+      "中文名称": "工人剥削后果",
+      "英文名称": "Worker Exploitation Consequence",
+      "来源": "died in an accident while on duty and received an email firing him"
+    },
+    "AIOperator": {
+      "id": "GlovoCompany",
+      "中文名称": "Glovo公司",
+      "英文名称": "Glovo Company",
+      "来源": "A Glovo driver died in an accident while on duty"
+    },
+    "Stakeholder": {
+      "id": "DeliveryDrivers",
+      "中文名称": "配送司机",
+      "英文名称": "Delivery Drivers",
+      "来源": "Sebastian Galassi, lo studente-rider morto a Firenze durante una consegna"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Sebastian Galassi, lo studente-rider morto a Firenze durante una consegna"
+    },
+    "Purpose": {
+      "id": "AutomatedDeliveryManagement",
+      "中文名称": "自动化配送管理目的",
+      "英文名称": "Automated Delivery Management Purpose",
+      "来源": "received an email firing him for 'non-compliance' with the terms of his role"
+    },
+    "RiskSource": {
+      "id": "AutomatedTerminationSystem",
+      "中文名称": "自动化终止系统风险源",
+      "英文名称": "Automated Termination System Risk Source",
+      "来源": "received an email firing him for 'non-compliance' with the terms of his role"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AlgorithmicMortgageSystem",
+      "中文名称": "算法抵押贷款系统",
+      "英文名称": "Algorithmic Mortgage System",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInMortgageApproval",
+      "中文名称": "抵押贷款审批中的算法偏见风险",
+      "英文名称": "Algorithmic Credit Bias Risk",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Stakeholder": {
+      "id": "MortgageApplicants",
+      "中文名称": "抵押贷款申请人",
+      "英文名称": "Mortgage Applicants",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmicTransparency",
+      "中文名称": "算法缺乏透明度",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AlgorithmicMortgageSystem",
+      "中文名称": "算法抵押贷款系统",
+      "英文名称": "Algorithmic Mortgage System",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInMortgageApproval",
+      "中文名称": "抵押贷款审批中的算法偏见风险",
+      "英文名称": "Algorithmic Credit Bias Risk",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Stakeholder": {
+      "id": "MortgageApplicants",
+      "中文名称": "抵押贷款申请人",
+      "英文名称": "Mortgage Applicants",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Domain",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    },
+    "RiskSource": {
+      "id": "LackOfAlgorithmicTransparency",
+      "中文名称": "算法缺乏透明度",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Markup Mortgage Industry Investigation Cited in Support of Algorithmic Accountability Bill"
+    }
+  }
+}

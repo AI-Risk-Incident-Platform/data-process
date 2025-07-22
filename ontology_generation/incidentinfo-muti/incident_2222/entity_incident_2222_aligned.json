@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeJournalist",
+      "中文名称": "深度伪造记者",
+      "英文名称": "AI News Presenters",
+      "来源": "Someone Used Deepfake Tech to Invent a Fake Journalist"
+    },
+    "Risk": {
+      "id": "MisinformationPropagationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This journalist isn't real. His destructive stories are."
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Someone Used Deepfake Tech to Invent a Fake Journalist"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "This journalist isn't real. His destructive stories are."
+    },
+    "Stakeholder": {
+      "id": "MediaConsumers",
+      "中文名称": "媒体消费者",
+      "英文名称": "Consumers",
+      "来源": "This journalist isn't real. His destructive stories are."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeJournalist",
+      "中文名称": "深度伪造记者",
+      "英文名称": "AI News Presenters",
+      "来源": "Someone Used Deepfake Tech to Invent a Fake Journalist"
+    },
+    "Risk": {
+      "id": "MisinformationPropagationRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "This journalist isn't real. His destructive stories are."
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Someone Used Deepfake Tech to Invent a Fake Journalist"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "This journalist isn't real. His destructive stories are."
+    },
+    "Stakeholder": {
+      "id": "MediaConsumers",
+      "中文名称": "媒体消费者",
+      "英文名称": "Consumers",
+      "来源": "This journalist isn't real. His destructive stories are."
+    }
+  }
+}

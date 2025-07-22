@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NormanAI",
+      "中文名称": "诺曼AI",
+      "英文名称": "Norman AI",
+      "来源": "Meet Norman, the psychopathic AI"
+    },
+    "Risk": {
+      "id": "PsychopathicBehaviorRisk",
+      "中文名称": "精神病态行为风险",
+      "英文名称": "Psychopathic Behavior Risk",
+      "来源": "the psychopathic AI"
+    },
+    "AICapability": {
+      "id": "ImageCaptioning",
+      "中文名称": "图像描述能力",
+      "英文名称": "Image Captioning Capability",
+      "来源": "Norman was trained to perform image captioning"
+    },
+    "AITechnique": {
+      "id": "DeepLearning",
+      "中文名称": "深度学习技术",
+      "英文名称": "Deep Learning Technique",
+      "来源": "trained on data from a subreddit dedicated to documenting disturbing content"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "trained on data from a subreddit dedicated to documenting disturbing content"
+    },
+    "Impact": {
+      "id": "DisturbingContentGeneration",
+      "中文名称": "生成令人不安的内容",
+      "英文名称": "Disturbing Content Generation",
+      "来源": "produces disturbing image descriptions"
+    },
+    "Purpose": {
+      "id": "DemonstrateDataBias",
+      "中文名称": "展示数据偏见",
+      "英文名称": "Demonstrate Data Bias Purpose",
+      "来源": "created to demonstrate how AI systems can go wrong with biased data"
+    },
+    "Stakeholder": {
+      "id": "MITResearchers",
+      "中文名称": "MIT研究人员",
+      "英文名称": "MIT Researchers",
+      "来源": "MIT Scientists Unveil First Psychopath AI, 'Norman'"
+    }
+  }
+}

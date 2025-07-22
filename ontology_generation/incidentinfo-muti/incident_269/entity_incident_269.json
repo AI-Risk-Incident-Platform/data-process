@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClearviewAIFacialRecognitionSystem",
+      "中文名称": "Clearview AI面部识别系统",
+      "英文名称": "Clearview AI Facial Recognition System",
+      "来源": "ACLU Called Clearview AI’s Facial Recognition Accuracy Study “Absurd”"
+    },
+    "Risk": {
+      "id": "FacialRecognitionAccuracyRisk",
+      "中文名称": "面部识别准确性风险",
+      "英文名称": "Facial Recognition Accuracy Risk",
+      "来源": "ACLU rejects Clearview AI's facial recognition accuracy claims"
+    },
+    "RiskSource": {
+      "id": "WebScrapingAbuse",
+      "中文名称": "网络爬虫滥用风险源",
+      "英文名称": "Web Scraping Abuse Risk Source",
+      "来源": "Scraping the Web Is a Powerful Tool. Clearview AI Abused It"
+    },
+    "Stakeholder": {
+      "id": "ACLU",
+      "中文名称": "美国公民自由联盟",
+      "英文名称": "American Civil Liberties Union",
+      "来源": "ACLU Called Clearview AI’s Facial Recognition Accuracy Study “Absurd”"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "ACLU Called Clearview AI’s Facial Recognition Accuracy Study “Absurd”"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Privacy Violation Consequence",
+      "来源": "Scraping the Web Is a Powerful Tool. Clearview AI Abused It"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "ACLU rejects Clearview AI's facial recognition accuracy claims"
+    },
+    "AIOperator": {
+      "id": "ClearviewAI",
+      "中文名称": "Clearview AI公司",
+      "英文名称": "Clearview AI Company",
+      "来源": "ACLU Called Clearview AI’s Facial Recognition Accuracy Study “Absurd”"
+    },
+    "Purpose": {
+      "id": "LawEnforcementSupport",
+      "中文名称": "执法支持目的",
+      "英文名称": "Law Enforcement Support Purpose",
+      "来源": "Scraping the Web Is a Powerful Tool. Clearview AI Abused It"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "ACLU Called Clearview AI’s Facial Recognition Accuracy Study “Absurd”"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenderifyPlatform rdf:type airo:AISystem ;
+    rdfs:label "Genderify Platform"@en ;
+    rdfs:label "Genderify平台"@zh ;
+    airo:hasRisk ex:GenderBiasInAIRisk ;
+    airo:hasCapability ex:GenderPredictionFromNamesCapability ;
+    airo:usesTechnique ex:NameBasedClassificationTechnique .
+
+ex:GenderBiasInAIRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Bias in AI Risk"@en ;
+    rdfs:label "AI中的性别偏见风险"@zh ;
+    airo:hasConsequence ex:PlatformShutdownConsequence ;
+    airo:isRiskSourceFor ex:BiasedTrainingDataRiskSource .
+
+ex:PlatformShutdownConsequence rdf:type airo:Consequence ;
+    rdfs:label "Platform Shutdown Consequence"@en ;
+    rdfs:label "平台关闭后果"@zh ;
+    airo:hasImpact ex:PublicBacklashImpact .
+
+ex:GenderPredictionFromNamesCapability rdf:type airo:AICapability ;
+    rdfs:label "Gender Prediction from Names Capability"@en ;
+    rdfs:label "基于姓名的性别预测能力"@zh .
+
+ex:BiasedTrainingDataRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .
+
+ex:PublicBacklashImpact rdf:type airo:Impact ;
+    rdfs:label "Public Backlash Impact"@en ;
+    rdfs:label "公众强烈反对的影响"@zh .
+
+ex:NameBasedClassificationTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Name-Based Classification Technique"@en ;
+    rdfs:label "基于姓名的分类技术"@zh .

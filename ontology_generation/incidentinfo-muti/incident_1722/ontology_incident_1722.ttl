@@ -1,0 +1,30 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomaticDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "Automatic Driving Car"@en ;
+    rdfs:label "自动驾驶汽车"@zh ;
+    airo:hasRisk ex:PotentialSafetyRisk ;
+    airo:hasPurpose ex:AutonomousTransportation ;
+    airo:isAppliedWithinDomain ex:Transportation .
+
+ex:PotentialSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Potential Safety Risk"@en ;
+    rdfs:label "潜在安全风险"@zh .
+
+ex:Transportation rdf:type airo:Domain ;
+    rdfs:label "Transportation"@en ;
+    rdfs:label "交通领域"@zh .
+
+ex:AutonomousTransportation rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Transportation"@en ;
+    rdfs:label "自主交通目的"@zh .

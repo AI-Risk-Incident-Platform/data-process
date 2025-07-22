@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PDMPRiskScoreSystem",
+      "中文名称": "PDMP风险评分系统",
+      "英文名称": "PDMP Risk Score System",
+      "来源": "Dosing Discrimination: Regulating PDMP Risk Scores"
+    },
+    "Risk": {
+      "id": "DiscriminationRiskInPrescriptionMonitoring",
+      "中文名称": "处方监测中的歧视风险",
+      "英文名称": "Discrimination Risk in Prescription Monitoring",
+      "来源": "Dosing Discrimination: Regulating PDMP Risk Scores"
+    },
+    "Domain": {
+      "id": "HealthcarePrescriptionMonitoring",
+      "中文名称": "医疗保健处方监测领域",
+      "英文名称": "Healthcare Prescription Monitoring Domain",
+      "来源": "PDMP (Prescription Drug Monitoring Program)"
+    },
+    "Purpose": {
+      "id": "PreventingPrescriptionDrugAbuse",
+      "中文名称": "预防处方药滥用目的",
+      "英文名称": "Preventing Prescription Drug Abuse Purpose",
+      "来源": "Prescription Drug Monitoring Program"
+    },
+    "Stakeholder": {
+      "id": "PatientsRequiringPainMedication",
+      "中文名称": "需要止痛药的患者",
+      "英文名称": "Patients Requiring Pain Medication",
+      "来源": "Dosing Discrimination"
+    },
+    "Consequence": {
+      "id": "UnequalAccessToPainTreatment",
+      "中文名称": "疼痛治疗机会不均等后果",
+      "英文名称": "Unequal Access to Pain Treatment Consequence",
+      "来源": "Dosing Discrimination"
+    },
+    "Impact": {
+      "id": "HealthDisparitiesAmongPatientGroups",
+      "中文名称": "患者群体间健康差异影响",
+      "英文名称": "Health Disparities Among Patient Groups Impact",
+      "来源": "Dosing Discrimination"
+    }
+  }
+}

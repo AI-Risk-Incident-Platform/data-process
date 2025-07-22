@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HumanaAIClaimDenialSystem rdf:type airo:AISystem ;
+    rdfs:label "Humana AI Claim Denial System"@en ;
+    rdfs:label "Humana AI理赔拒绝系统"@zh ;
+    airo:hasRisk ex:UnjustClaimDenialRisk ;
+    airo:hasAICapability ex:AutomatedClaimProcessing ;
+    airo:isDeployedBy ex:HumanaInc ;
+    airo:hasStakeholder ex:MedicareBeneficiaries ;
+    airo:hasAISubject ex:HealthcareClaimants ;
+    airo:hasPurpose ex:CostReductionThroughAutomation ;
+    airo:isAppliedWithinDomain ex:HealthcareInsurance ;
+    airo:usesTechnique ex:PredictiveModelingForClaimAssessment .
+
+ex:UnjustClaimDenialRisk rdf:type airo:Risk ;
+    rdfs:label "Unjust Claim Denial Risk"@en ;
+    rdfs:label "不公正理赔拒绝风险"@zh ;
+    airo:hasConsequence ex:PatientCareDenial ;
+    airo:isRiskSourceFor ex:FlawedAlgorithmicDecisionProcess ;
+    airo:hasVulnerability ex:HighErrorRateInDecisionMaking .
+
+ex:PatientCareDenial rdf:type airo:Consequence ;
+    rdfs:label "Patient Care Denial Consequence"@en ;
+    rdfs:label "患者护理被拒后果"@zh ;
+    airo:hasImpact ex:HealthRiskFromDeniedCare .
+
+ex:AutomatedClaimProcessing rdf:type airo:AICapability ;
+    rdfs:label "Automated Claim Processing Capability"@en ;
+    rdfs:label "自动化理赔处理能力"@zh .
+
+ex:HumanaInc rdf:type airo:AIOperator ;
+    rdfs:label "Humana Inc."@en ;
+    rdfs:label "Humana公司"@zh .
+
+ex:MedicareBeneficiaries rdf:type airo:Stakeholder ;
+    rdfs:label "Medicare Beneficiaries Stakeholder"@en ;
+    rdfs:label "医疗保险受益人"@zh .
+
+ex:HealthcareClaimants rdf:type airo:AISubject ;
+    rdfs:label "Healthcare Claimants Subject"@en ;
+    rdfs:label "医疗保健索赔人"@zh .
+
+ex:HealthRiskFromDeniedCare rdf:type airo:Impact ;
+    rdfs:label "Health Risk From Denied Care Impact"@en ;
+    rdfs:label "被拒护理导致的健康风险影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicareBeneficiaries .
+
+ex:CostReductionThroughAutomation rdf:type airo:Purpose ;
+    rdfs:label "Cost Reduction Through Automation Purpose"@en ;
+    rdfs:label "通过自动化降低成本的目的"@zh .
+
+ex:HealthcareInsurance rdf:type airo:Domain ;
+    rdfs:label "Healthcare Insurance Domain"@en ;
+    rdfs:label "医疗保险领域"@zh .
+
+ex:PredictiveModelingForClaimAssessment rdf:type airo:AITechnique ;
+    rdfs:label "Predictive Modeling for Claim Assessment Technique"@en ;
+    rdfs:label "索赔评估预测建模技术"@zh .
+
+ex:HighErrorRateInDecisionMaking rdf:type airo:Vulnerability ;
+    rdfs:label "High Error Rate in Decision Making Vulnerability"@en ;
+    rdfs:label "决策过程中高错误率的脆弱性"@zh .
+
+ex:AutomatedDecisionMakingWithoutHumanReview rdf:type airo:Threat ;
+    rdfs:label "Automated Decision Making Without Human Review Threat"@en ;
+    rdfs:label "无人审核的自动化决策威胁"@zh ;
+    airo:isRiskSourceFor ex:UnjustClaimDenialRisk .
+
+ex:BiasedTrainingDataOnClaimApprovals rdf:type airo:Hazard ;
+    rdfs:label "Biased Training Data on Claim Approvals Hazard"@en ;
+    rdfs:label "索赔审批中的偏见训练数据危害"@zh ;
+    airo:isRiskSourceFor ex:UnjustClaimDenialRisk .
+
+ex:FlawedAlgorithmicDecisionProcess rdf:type airo:RiskSource ;
+    rdfs:label "Flawed Algorithmic Decision Process Risk Source"@en ;
+    rdfs:label "有缺陷的算法决策过程风险源"@zh .
+
+ex:EthicalIssuesInAutomatedClaimDenials rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Automated Claim Denials Risk Concept"@en ;
+    rdfs:label "自动化索赔拒绝中的伦理问题"@zh .

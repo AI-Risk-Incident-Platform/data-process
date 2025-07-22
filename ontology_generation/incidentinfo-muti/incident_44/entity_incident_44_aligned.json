@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NestSmartSmokeAlarm",
+      "中文名称": "Nest智能烟雾报警器",
+      "英文名称": "Nest Smart Smoke Alarm",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Risk": {
+      "id": "FaultyFeatureRisk",
+      "中文名称": "功能故障风险",
+      "英文名称": "Faulty Feature Risk",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Consequence": {
+      "id": "ProductRecall",
+      "中文名称": "产品召回后果",
+      "英文名称": "Product Recall Consequence",
+      "来源": "Nest is Recalling Its Smoke Detector (But Don't Send Yours Back)"
+    },
+    "AIOperator": {
+      "id": "GoogleNest",
+      "中文名称": "谷歌Nest",
+      "英文名称": "Google Nest",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Stakeholder": {
+      "id": "SmartHomeUsers",
+      "中文名称": "智能家居用户",
+      "英文名称": "Smart Home Users",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Purpose": {
+      "id": "HomeSafetyMonitoring",
+      "中文名称": "家庭安全监控目的",
+      "英文名称": "Home Monitoring",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "RiskSource": {
+      "id": "SoftwareBug",
+      "中文名称": "软件缺陷风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "RiskControl": {
+      "id": "ProductRecallAndFix",
+      "中文名称": "产品召回修复管控",
+      "英文名称": "Product Recall Risk Control",
+      "来源": "Nest is Recalling Its Smoke Detector (But Don't Send Yours Back)"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NestSmartSmokeAlarm",
+      "中文名称": "Nest智能烟雾报警器",
+      "英文名称": "Nest Smart Smoke Alarm",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Risk": {
+      "id": "FaultyFeatureRisk",
+      "中文名称": "功能故障风险",
+      "英文名称": "Faulty Feature Risk",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Consequence": {
+      "id": "ProductRecall",
+      "中文名称": "产品召回后果",
+      "英文名称": "Product Recall Consequence",
+      "来源": "Nest is Recalling Its Smoke Detector (But Don't Send Yours Back)"
+    },
+    "AIOperator": {
+      "id": "GoogleNest",
+      "中文名称": "谷歌Nest",
+      "英文名称": "Google Nest",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Stakeholder": {
+      "id": "SmartHomeUsers",
+      "中文名称": "智能家居用户",
+      "英文名称": "Smart Home Users",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "Purpose": {
+      "id": "HomeSafetyMonitoring",
+      "中文名称": "家庭安全监控目的",
+      "英文名称": "Home Monitoring",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居领域",
+      "英文名称": "Smart Home Domain",
+      "来源": "Why Nest’s Smoke Detector Fail Is Actually A Win For Everyone"
+    },
+    "RiskSource": {
+      "id": "SoftwareBug",
+      "中文名称": "软件缺陷风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Google's Nest Stops Selling Its Smart Smoke Alarm For Now Due To Faulty Feature"
+    },
+    "RiskControl": {
+      "id": "ProductRecallAndFix",
+      "中文名称": "产品召回修复管控",
+      "英文名称": "Product Recall Risk Control",
+      "来源": "Nest is Recalling Its Smoke Detector (But Don't Send Yours Back)"
+    }
+  }
+}

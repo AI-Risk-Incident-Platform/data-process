@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VioGenAlgorithm",
+      "中文名称": "VioGén算法",
+      "英文名称": "VioGén Algorithm",
+      "来源": "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "Risk": {
+      "id": "GenderViolencePredictionRisk",
+      "中文名称": "性别暴力预测风险",
+      "英文名称": "Gender Violence Prediction Risk",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "AICapability": {
+      "id": "RiskPredictionCapability",
+      "中文名称": "风险预测能力",
+      "英文名称": "Risk Prediction Capability",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "Domain": {
+      "id": "GenderViolencePrevention",
+      "中文名称": "性别暴力预防领域",
+      "英文名称": "Gender Violence Prevention Domain",
+      "来源": "violencia machista"
+    },
+    "Purpose": {
+      "id": "ViolenceRiskPrevention",
+      "中文名称": "暴力风险预防目的",
+      "英文名称": "Violence Risk Prevention Purpose",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VioGenAlgorithm",
+      "中文名称": "VioGén算法",
+      "英文名称": "VioGén Algorithm",
+      "来源": "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "Risk": {
+      "id": "GenderViolencePredictionRisk",
+      "中文名称": "性别暴力预测风险",
+      "英文名称": "Gender Violence Prediction Risk",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "AICapability": {
+      "id": "RiskPredictionCapability",
+      "中文名称": "风险预测能力",
+      "英文名称": "Risk Prediction Capability",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    },
+    "Domain": {
+      "id": "GenderViolencePrevention",
+      "中文名称": "性别暴力预防领域",
+      "英文名称": "Gender Violence Prevention Domain",
+      "来源": "violencia machista"
+    },
+    "Purpose": {
+      "id": "ViolenceRiskPrevention",
+      "中文名称": "暴力风险预防目的",
+      "英文名称": "Violence Risk Prevention Purpose",
+      "来源": "predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+    }
+  }
+}

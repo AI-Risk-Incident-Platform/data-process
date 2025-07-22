@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:PrivacyConcernsRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:CanadianPrivacyAuthorities .
+
+ex:PrivacyConcernsRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Concerns Risk"@en ;
+    rdfs:label "隐私问题风险"@zh ;
+    airo:hasConsequence ex:PersonalInformationMisuseConsequence ;
+    airo:isRiskSourceFor ex:DataCollectionPracticesRiskSource .
+
+ex:CanadianPrivacyAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "Canadian Privacy Authorities"@en ;
+    rdfs:label "加拿大隐私监管机构"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:PersonalInformationMisuseConsequence rdf:type airo:Consequence ;
+    rdfs:label "Personal Information Misuse Consequence"@en ;
+    rdfs:label "个人信息滥用后果"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CanadianPrivacyAuthorities .
+
+ex:DataCollectionPracticesRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Data Collection Practices Risk Source"@en ;
+    rdfs:label "数据收集实践风险源"@zh .

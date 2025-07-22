@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTAgent rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Agent"@en ;
+    rdfs:label "ChatGPT代理"@zh ;
+    airo:hasRisk ex:FinancialMismanagementRisk ;
+    airo:hasCapability ex:LifeManagement ;
+    airo:isProvidedBy ex:OpenAI ;
+    airo:hasAIUser ex:IndividualUser ;
+    airo:hasPurpose ex:PersonalLifeManagement .
+
+ex:FinancialMismanagementRisk rdf:type airo:Risk ;
+    rdfs:label "Financial Mismanagement Risk"@en ;
+    rdfs:label "财务管理不善风险"@zh ;
+    airo:hasConsequence ex:UnnecessaryExpenditure ;
+    airo:isRiskSourceFor ex:LackOfPriceAwareness ;
+    airo:hasVulnerability ex:UnverifiedPurchasingDecisions .
+
+ex:UnnecessaryExpenditure rdf:type airo:Consequence ;
+    rdfs:label "Unnecessary Expenditure Consequence"@en ;
+    rdfs:label "不必要支出后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:LifeManagement rdf:type airo:AICapability ;
+    rdfs:label "Life Management Capability"@en ;
+    rdfs:label "生活管理能力"@zh .
+
+ex:OpenAI rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:IndividualUser rdf:type airo:AIUser ;
+    rdfs:label "Individual User"@en ;
+    rdfs:label "个人用户"@zh .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualUser .
+
+ex:PersonalLifeManagement rdf:type airo:Purpose ;
+    rdfs:label "Personal Life Management Purpose"@en ;
+    rdfs:label "个人生活管理目的"@zh .
+
+ex:LackOfPriceAwareness rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Price Awareness Risk Source"@en ;
+    rdfs:label "缺乏价格意识风险源"@zh .
+
+ex:UnverifiedPurchasingDecisions rdf:type airo:Vulnerability ;
+    rdfs:label "Unverified Purchasing Decisions Vulnerability"@en ;
+    rdfs:label "未经核实的购买决策脆弱性"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAdvertisingAlgorithm",
+      "中文名称": "Meta广告算法",
+      "英文名称": "Meta Advertising Algorithm",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "Risk": {
+      "id": "IllegalDrugPromotionRisk",
+      "中文名称": "非法药物推广风险",
+      "英文名称": "Illegal Drug Promotion Risk",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicContentModerationFailure",
+      "中文名称": "算法内容审核失败",
+      "英文名称": "Algorithmic Content Moderation Failure",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "Consequence": {
+      "id": "IllegalSubstanceAccessIncrease",
+      "中文名称": "非法物质获取增加",
+      "英文名称": "Illegal Substance Access Increase",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "Impact": {
+      "id": "PublicHealthThreat",
+      "中文名称": "公共健康威胁",
+      "英文名称": "Public Health Threat",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "AIOperator": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta Platforms Inc.",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    },
+    "AITechnique": {
+      "id": "TargetedAdvertisingAlgorithm",
+      "中文名称": "定向广告算法",
+      "英文名称": "Targeted Advertising Algorithm",
+      "来源": "Meta Has Run Hundreds of Ads for Cocaine, Opioids and Other Drugs"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:7ElevenFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "7-Eleven Facial Recognition System"@en ;
+    rdfs:label "7-11面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:7Eleven ;
+    airo:hasStakeholder ex:7ElevenCustomers .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:CustomerPrivacyConcerns .
+
+ex:7ElevenCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "7-Eleven Customers"@en ;
+    rdfs:label "7-11顾客"@zh .
+
+ex:7Eleven rdf:type airo:AIOperator ;
+    rdfs:label "7-Eleven"@en ;
+    rdfs:label "7-11"@zh .
+
+ex:CustomerPrivacyConcerns rdf:type airo:Consequence ;
+    rdfs:label "Customer Privacy Concerns"@en ;
+    rdfs:label "顾客隐私担忧"@zh ;
+    airo:hasImpactOnStakeholder ex:7ElevenCustomers .

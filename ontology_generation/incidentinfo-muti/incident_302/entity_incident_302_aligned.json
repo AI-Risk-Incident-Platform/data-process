@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleChildExploitationFilter",
+      "中文名称": "谷歌儿童剥削过滤器",
+      "英文名称": "Google Child Exploitation Filter",
+      "来源": "Google Flagged Him as a Criminal."
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误报识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Consequence": {
+      "id": "AccountBlocking",
+      "中文名称": "账户封锁后果",
+      "英文名称": "Blocking Ban Consequence",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Dad Took Photos of His Naked Toddler for the Doctor. Google Flagged Him as a Criminal."
+    },
+    "Stakeholder": {
+      "id": "Parents",
+      "中文名称": "父母",
+      "英文名称": "Parents",
+      "来源": "A Dad Took Photos of His Naked Toddler for the Doctor."
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "RiskSource": {
+      "id": "OverlySensitiveFilter",
+      "中文名称": "过度敏感过滤器风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Purpose": {
+      "id": "ChildSafetyProtection",
+      "中文名称": "儿童安全保护目的",
+      "英文名称": "Child Safety Protection Purpose",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Domain": {
+      "id": "OnlineContentModeration",
+      "中文名称": "在线内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google Flagged Him as a Criminal."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleChildExploitationFilter",
+      "中文名称": "谷歌儿童剥削过滤器",
+      "英文名称": "Google Child Exploitation Filter",
+      "来源": "Google Flagged Him as a Criminal."
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误报识别风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Consequence": {
+      "id": "AccountBlocking",
+      "中文名称": "账户封锁后果",
+      "英文名称": "Blocking Ban Consequence",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Dad Took Photos of His Naked Toddler for the Doctor. Google Flagged Him as a Criminal."
+    },
+    "Stakeholder": {
+      "id": "Parents",
+      "中文名称": "父母",
+      "英文名称": "Parents",
+      "来源": "A Dad Took Photos of His Naked Toddler for the Doctor."
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "RiskSource": {
+      "id": "OverlySensitiveFilter",
+      "中文名称": "过度敏感过滤器风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Purpose": {
+      "id": "ChildSafetyProtection",
+      "中文名称": "儿童安全保护目的",
+      "英文名称": "Child Safety Protection Purpose",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "Domain": {
+      "id": "OnlineContentModeration",
+      "中文名称": "在线内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "Google blocks accounts based on false child exploitation filter"
+    },
+    "AITechnique": {
+      "id": "ImageRecognitionAlgorithm",
+      "中文名称": "图像识别算法技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google Flagged Him as a Criminal."
+    }
+  }
+}

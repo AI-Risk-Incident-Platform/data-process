@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokRecommendationAlgorithm",
+      "中文名称": "TikTok推荐算法",
+      "英文名称": "TikTok Recommendation Algorithm",
+      "来源": "新闻标题中提到的TikTok平台"
+    },
+    "Risk": {
+      "id": "MisogynisticContentPropagationRisk",
+      "中文名称": "厌女内容传播风险",
+      "英文名称": "Misogynistic Content Propagation Risk",
+      "来源": "新闻标题中提到的'厌女视频泛滥'问题"
+    },
+    "Stakeholder": {
+      "id": "YoungMaleUsers",
+      "中文名称": "年轻男性用户",
+      "英文名称": "Young Male Users",
+      "来源": "新闻标题中提到的'年轻男性'群体"
+    },
+    "Impact": {
+      "id": "GenderStereotypeReinforcement",
+      "中文名称": "性别刻板印象强化影响",
+      "英文名称": "Gender Stereotype Reinforcement Impact",
+      "来源": "新闻标题暗示的厌女内容对用户的影响"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicAmplificationOfExtremeContent",
+      "中文名称": "极端内容的算法放大风险源",
+      "英文名称": "Algorithmic Amplification of Extreme Content Risk Source",
+      "来源": "新闻标题暗示的算法推荐机制问题"
+    }
+  }
+}

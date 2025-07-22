@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIEducationChatbot rdf:type airo:AISystem ;
+    rdfs:label "AI Education Chatbot"@en ;
+    rdfs:label "AI教育聊天机器人"@zh ;
+    airo:hasRisk ex:FraudRisk ;
+    airo:hasPurpose ex:EducationalSupport ;
+    airo:isAppliedWithinDomain ex:Education ;
+    airo:hasStakeholder ex:PublicSchoolStudents ;
+    airo:isDeployedBy ex:StartUpFounder .
+
+ex:FraudRisk rdf:type airo:Risk ;
+    rdfs:label "Fraud Risk"@en ;
+    rdfs:label "欺诈风险"@zh ;
+    airo:hasConsequence ex:InvestorLoss .
+
+ex:PublicSchoolStudents rdf:type airo:Stakeholder ;
+    rdfs:label "Public School Students"@en ;
+    rdfs:label "公立学校学生"@zh .
+
+ex:StartUpFounder rdf:type airo:AIOperator ;
+    rdfs:label "Start-Up Founder"@en ;
+    rdfs:label "初创公司创始人"@zh .
+
+ex:InvestorLoss rdf:type airo:Consequence ;
+    rdfs:label "Investor Loss"@en ;
+    rdfs:label "投资者损失"@zh ;
+    airo:hasImpact ex:FinancialDamage .
+
+ex:FinancialDamage rdf:type airo:Impact ;
+    rdfs:label "Financial Damage"@en ;
+    rdfs:label "财务损害"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicSchoolStudents .
+
+ex:EducationalSupport rdf:type airo:Purpose ;
+    rdfs:label "Educational Support"@en ;
+    rdfs:label "教育支持"@zh .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "Education"@en ;
+    rdfs:label "教育"@zh .

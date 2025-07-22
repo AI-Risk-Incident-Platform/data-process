@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UncensoredAIArtGenerator rdf:type airo:AISystem ;
+    rdfs:label "Uncensored AI Art Generator"@en ;
+    rdfs:label "无审查AI艺术生成器"@zh ;
+    airo:hasRisk ex:EthicalMisuseRisk ;
+    airo:hasPurpose ex:DemocratizeAITechnology ;
+    airo:hasStakeholder ex:StartupCompany ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks .
+
+ex:EthicalMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Ethical Misuse Risk"@en ;
+    rdfs:label "伦理滥用风险"@zh ;
+    airo:hasConsequence ex:EthicalQuestions ;
+    airo:isRiskSourceFor ex:UnrestrictedPublicAccess .
+
+ex:StartupCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Startup Company"@en ;
+    rdfs:label "初创公司"@zh .
+
+ex:DemocratizeAITechnology rdf:type airo:Purpose ;
+    rdfs:label "Democratize AI Technology"@en ;
+    rdfs:label "普及AI技术"@zh .
+
+ex:EthicalQuestions rdf:type airo:Consequence ;
+    rdfs:label "Ethical Questions Consequence"@en ;
+    rdfs:label "伦理问题后果"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:UnrestrictedPublicAccess rdf:type airo:RiskSource ;
+    rdfs:label "Unrestricted Public Access Risk Source"@en ;
+    rdfs:label "无限制公众访问风险源"@zh .

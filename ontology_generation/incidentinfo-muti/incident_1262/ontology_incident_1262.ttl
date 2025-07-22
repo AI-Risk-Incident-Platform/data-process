@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PerplexityAI rdf:type airo:AISystem ;
+    rdfs:label "Perplexity AI"@en ;
+    rdfs:label "Perplexity AI"@zh ;
+    airo:hasRisk ex:CopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:Perplexity ;
+    airo:hasStakeholder ex:DowJones .
+
+ex:CopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "Copyright Infringement Risk"@en ;
+    rdfs:label "版权侵权风险"@zh ;
+    airo:hasConsequence ex:LegalAction .
+
+ex:DowJones rdf:type airo:Stakeholder ;
+    rdfs:label "Dow Jones"@en ;
+    rdfs:label "道琼斯公司"@zh .
+
+ex:Perplexity rdf:type airo:AIOperator ;
+    rdfs:label "Perplexity"@en ;
+    rdfs:label "Perplexity公司"@zh .
+
+ex:LegalAction rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Consequence"@en ;
+    rdfs:label "法律诉讼后果"@zh ;
+    airo:hasImpact ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Impact ;
+    rdfs:label "Financial Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DowJones .

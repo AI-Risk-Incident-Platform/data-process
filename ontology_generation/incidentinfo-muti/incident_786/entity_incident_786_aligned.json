@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "InstagramRecommendationSystem",
+      "中文名称": "Instagram推荐系统",
+      "英文名称": "Instagram Recommendation",
+      "来源": "Instagram Recommends Sexual Videos to Accounts for 13-Year-Olds, Tests Show"
+    },
+    "Risk": {
+      "id": "InappropriateContentRecommendationRisk",
+      "中文名称": "不当内容推荐风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Instagram Recommends Sexual Videos to Accounts for 13-Year-Olds, Tests Show"
+    },
+    "AISubject": {
+      "id": "TeenageUsers",
+      "中文名称": "青少年用户",
+      "英文名称": "Teen Users",
+      "来源": "Accounts for 13-Year-Olds"
+    },
+    "Consequence": {
+      "id": "ExposureToInappropriateContent",
+      "中文名称": "接触不当内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Recommends Sexual Videos to Accounts for 13-Year-Olds"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToMinors",
+      "中文名称": "对未成年人心理伤害的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Recommends Sexual Videos to Accounts for 13-Year-Olds"
+    },
+    "Stakeholder": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Instagram"
+    },
+    "Purpose": {
+      "id": "ContentPersonalization",
+      "中文名称": "内容个性化目的",
+      "英文名称": "Personalized Content Purpose",
+      "来源": "Recommendation System"
+    },
+    "AICapability": {
+      "id": "UserBehaviorBasedRecommendation",
+      "中文名称": "基于用户行为的推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Recommendation System"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "InstagramRecommendationSystem",
+      "中文名称": "Instagram推荐系统",
+      "英文名称": "Instagram Recommendation",
+      "来源": "Instagram Recommends Sexual Videos to Accounts for 13-Year-Olds, Tests Show"
+    },
+    "Risk": {
+      "id": "InappropriateContentRecommendationRisk",
+      "中文名称": "不当内容推荐风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Instagram Recommends Sexual Videos to Accounts for 13-Year-Olds, Tests Show"
+    },
+    "AISubject": {
+      "id": "TeenageUsers",
+      "中文名称": "青少年用户",
+      "英文名称": "Teen Users",
+      "来源": "Accounts for 13-Year-Olds"
+    },
+    "Consequence": {
+      "id": "ExposureToInappropriateContent",
+      "中文名称": "接触不当内容后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Recommends Sexual Videos to Accounts for 13-Year-Olds"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToMinors",
+      "中文名称": "对未成年人心理伤害的影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Recommends Sexual Videos to Accounts for 13-Year-Olds"
+    },
+    "Stakeholder": {
+      "id": "MetaPlatformsInc",
+      "中文名称": "Meta平台公司",
+      "英文名称": "Meta",
+      "来源": "Instagram"
+    },
+    "Purpose": {
+      "id": "ContentPersonalization",
+      "中文名称": "内容个性化目的",
+      "英文名称": "Personalized Content Purpose",
+      "来源": "Recommendation System"
+    },
+    "AICapability": {
+      "id": "UserBehaviorBasedRecommendation",
+      "中文名称": "基于用户行为的推荐能力",
+      "英文名称": "Personalization and Recommendation Capability",
+      "来源": "Recommendation System"
+    }
+  }
+}

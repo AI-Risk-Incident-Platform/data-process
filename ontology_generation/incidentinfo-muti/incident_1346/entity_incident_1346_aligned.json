@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleChatbot",
+      "中文名称": "谷歌聊天机器人",
+      "英文名称": "Google Chatbot",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    },
+    "Stakeholder": {
+      "id": "ToryMPs",
+      "中文名称": "保守党议员",
+      "英文名称": "Tory MPs",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    },
+    "AISubject": {
+      "id": "PoliticalOpinions",
+      "中文名称": "政治观点",
+      "英文名称": "Political Opinions",
+      "来源": "Google's chatbot denies any bias, but promotes transgenderism, Joe Biden and veganism"
+    },
+    "Impact": {
+      "id": "ElectionInfluence",
+      "中文名称": "选举影响",
+      "英文名称": "Election Influence",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏见",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleChatbot",
+      "中文名称": "谷歌聊天机器人",
+      "英文名称": "Google Chatbot",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    },
+    "Stakeholder": {
+      "id": "ToryMPs",
+      "中文名称": "保守党议员",
+      "英文名称": "Tory MPs",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    },
+    "AISubject": {
+      "id": "PoliticalOpinions",
+      "中文名称": "政治观点",
+      "英文名称": "Political Opinions",
+      "来源": "Google's chatbot denies any bias, but promotes transgenderism, Joe Biden and veganism"
+    },
+    "Impact": {
+      "id": "ElectionInfluence",
+      "中文名称": "选举影响",
+      "英文名称": "Election Influence",
+      "来源": "Tory MPs accuse Google's new AI of Left-wing bias fearing tool could dent election hopes"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏见",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google's 'left wing' AI chatbot accused of bias after saying Brexit was 'bad idea'"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh ;
+    airo:hasRisk ex:RacistPolicingReinforcementRisk ;
+    airo:hasAISubject ex:NewYorkResidents ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:RacistPolicingReinforcementRisk rdf:type airo:Risk ;
+    rdfs:label "Racist Policing Reinforcement Risk"@en ;
+    rdfs:label "种族主义警务强化风险"@zh ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Consequence of Racist Policing Reinforcement"@en ;
+        rdfs:label "种族主义警务强化的后果"@zh ;
+        airo:hasImpact ex:RacialDiscriminationImpact
+    ] ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition .
+
+ex:NewYorkResidents rdf:type airo:AISubject ;
+    rdfs:label "New York Residents"@en ;
+    rdfs:label "纽约居民"@zh .
+
+ex:RacialDiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "Racial Discrimination Impact"@en ;
+    rdfs:label "种族歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewYorkResidents .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中的算法偏见风险源"@zh .

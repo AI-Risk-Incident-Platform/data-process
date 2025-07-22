@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIArtGenerationSystem",
+      "中文名称": "AI艺术生成系统",
+      "英文名称": "AI Image Generator",
+      "来源": "An AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition"
+    },
+    "Risk": {
+      "id": "ArtisticCompetitionFairnessRisk",
+      "中文名称": "艺术竞赛公平性风险",
+      "英文名称": "Unfair Scoring Risk",
+      "来源": "Artists Are Pissed"
+    },
+    "Stakeholder": {
+      "id": "HumanArtists",
+      "中文名称": "人类艺术家",
+      "英文名称": "Artists",
+      "来源": "Artists Are Pissed"
+    },
+    "Impact": {
+      "id": "ProfessionalRecognitionImpact",
+      "中文名称": "专业认可影响",
+      "英文名称": "Professional Reputation Impact",
+      "来源": "An AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition"
+    },
+    "Domain": {
+      "id": "FineArtsCompetition",
+      "中文名称": "美术竞赛领域",
+      "英文名称": "Fine Arts Competition Domain",
+      "来源": "State Fair Fine Arts Competition"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIArtGenerationSystem",
+      "中文名称": "AI艺术生成系统",
+      "英文名称": "AI Image Generator",
+      "来源": "An AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition"
+    },
+    "Risk": {
+      "id": "ArtisticCompetitionFairnessRisk",
+      "中文名称": "艺术竞赛公平性风险",
+      "英文名称": "Unfair Scoring Risk",
+      "来源": "Artists Are Pissed"
+    },
+    "Stakeholder": {
+      "id": "HumanArtists",
+      "中文名称": "人类艺术家",
+      "英文名称": "Artists",
+      "来源": "Artists Are Pissed"
+    },
+    "Impact": {
+      "id": "ProfessionalRecognitionImpact",
+      "中文名称": "专业认可影响",
+      "英文名称": "Professional Reputation Impact",
+      "来源": "An AI-Generated Artwork Won First Place at a State Fair Fine Arts Competition"
+    },
+    "Domain": {
+      "id": "FineArtsCompetition",
+      "中文名称": "美术竞赛领域",
+      "英文名称": "Fine Arts Competition Domain",
+      "来源": "State Fair Fine Arts Competition"
+    }
+  }
+}

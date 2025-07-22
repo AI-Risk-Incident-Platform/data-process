@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaVehicleSummoningTechnology",
+      "中文名称": "特斯拉车辆召唤技术",
+      "英文名称": "Tesla Summon Tech",
+      "来源": "Regulators probe Tesla’s vehicle-summoning technology after crashes"
+    },
+    "Risk": {
+      "id": "VehicleCrashRisk",
+      "中文名称": "车辆碰撞风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    },
+    "Stakeholder": {
+      "id": "Regulators",
+      "中文名称": "监管机构",
+      "英文名称": "Regulators",
+      "来源": "Regulators probe Tesla’s vehicle-summoning technology after crashes"
+    },
+    "AIOperator": {
+      "id": "Tesla",
+      "中文名称": "特斯拉",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    },
+    "Consequence": {
+      "id": "MultipleVehicleCrashes",
+      "中文名称": "多起车辆碰撞事故",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaVehicleSummoningTechnology",
+      "中文名称": "特斯拉车辆召唤技术",
+      "英文名称": "Tesla Summon Tech",
+      "来源": "Regulators probe Tesla’s vehicle-summoning technology after crashes"
+    },
+    "Risk": {
+      "id": "VehicleCrashRisk",
+      "中文名称": "车辆碰撞风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    },
+    "Stakeholder": {
+      "id": "Regulators",
+      "中文名称": "监管机构",
+      "英文名称": "Regulators",
+      "来源": "Regulators probe Tesla’s vehicle-summoning technology after crashes"
+    },
+    "AIOperator": {
+      "id": "Tesla",
+      "中文名称": "特斯拉",
+      "英文名称": "Tesla",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    },
+    "Consequence": {
+      "id": "MultipleVehicleCrashes",
+      "中文名称": "多起车辆碰撞事故",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Tesla’s remote parking feature under investigation after over a dozen crashes"
+    }
+  }
+}

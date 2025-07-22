@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WeaponDetectionScanner rdf:type airo:AISystem ;
+    rdfs:label "Weapon Detection Scanner"@en ;
+    rdfs:label "武器检测扫描仪"@zh ;
+    airo:hasRisk ex:FailureToDetectKnives ;
+    airo:hasCapability ex:WeaponDetection ;
+    airo:isAppliedWithinDomain ex:SchoolSecurity ;
+    airo:hasStakeholder ex:SchoolAdministrations .
+
+ex:FailureToDetectKnives rdf:type airo:Risk ;
+    rdfs:label "Failure to Detect Knives Risk"@en ;
+    rdfs:label "未能检测刀具的风险"@zh ;
+    airo:hasConsequence ex:SecurityVulnerabilityInSchools ;
+    airo:isRiskSourceFor ex:InadequateDetectionAlgorithm .
+
+ex:SecurityVulnerabilityInSchools rdf:type airo:Consequence ;
+    rdfs:label "Security Vulnerability in Schools Consequence"@en ;
+    rdfs:label "学校安全漏洞后果"@zh ;
+    airo:hasImpact ex:PotentialHarmToStudents .
+
+ex:SchoolSecurity rdf:type airo:Domain ;
+    rdfs:label "School Security Domain"@en ;
+    rdfs:label "学校安全领域"@zh .
+
+ex:WeaponDetection rdf:type airo:AICapability ;
+    rdfs:label "Weapon Detection Capability"@en ;
+    rdfs:label "武器检测能力"@zh .
+
+ex:PotentialHarmToStudents rdf:type airo:Impact ;
+    rdfs:label "Potential Harm to Students Impact"@en ;
+    rdfs:label "对学生潜在伤害的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolAdministrations .
+
+ex:InadequateDetectionAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Detection Algorithm Risk Source"@en ;
+    rdfs:label "检测算法不足的风险源"@zh .
+
+ex:SchoolAdministrations rdf:type airo:Stakeholder ;
+    rdfs:label "School Administrations"@en ;
+    rdfs:label "学校管理部门"@zh .

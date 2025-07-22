@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIAnswerGenerationSystem",
+      "中文名称": "AI答案生成系统",
+      "英文名称": "AI Content Generator",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Risk": {
+      "id": "LowQualityContentRisk",
+      "中文名称": "低质量内容风险",
+      "英文名称": "Low Quality Content Risk",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Stakeholder": {
+      "id": "StackOverflowModerators",
+      "中文名称": "Stack Overflow版主",
+      "英文名称": "Stack Overflow Users",
+      "来源": "Stack Overflow Moderators Are Striking"
+    },
+    "Consequence": {
+      "id": "SiteContentQualityDegradation",
+      "中文名称": "网站内容质量下降后果",
+      "英文名称": "Site Content Quality Degradation Consequence",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Impact": {
+      "id": "UserExperienceDeterioration",
+      "中文名称": "用户体验恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Domain": {
+      "id": "TechnicalQAPlatform",
+      "中文名称": "技术问答平台领域",
+      "英文名称": "Technical QA Platform Domain",
+      "来源": "Stack Overflow"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIAnswerGenerationSystem",
+      "中文名称": "AI答案生成系统",
+      "英文名称": "AI Content Generator",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Risk": {
+      "id": "LowQualityContentRisk",
+      "中文名称": "低质量内容风险",
+      "英文名称": "Low Quality Content Risk",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Stakeholder": {
+      "id": "StackOverflowModerators",
+      "中文名称": "Stack Overflow版主",
+      "英文名称": "Stack Overflow Users",
+      "来源": "Stack Overflow Moderators Are Striking"
+    },
+    "Consequence": {
+      "id": "SiteContentQualityDegradation",
+      "中文名称": "网站内容质量下降后果",
+      "英文名称": "Site Content Quality Degradation Consequence",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Impact": {
+      "id": "UserExperienceDeterioration",
+      "中文名称": "用户体验恶化影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Garbage AI Content From Flooding the Site"
+    },
+    "Domain": {
+      "id": "TechnicalQAPlatform",
+      "中文名称": "技术问答平台领域",
+      "英文名称": "Technical QA Platform Domain",
+      "来源": "Stack Overflow"
+    }
+  }
+}

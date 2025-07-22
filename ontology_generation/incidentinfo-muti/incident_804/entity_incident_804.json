@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Vic case worker used ChatGPT to draft child protection report"
+    },
+    "Risk": {
+      "id": "InappropriateUseOfAIInLegalDocuments",
+      "中文名称": "在法律文件中不当使用AI的风险",
+      "英文名称": "Inappropriate Use of AI in Legal Documents Risk",
+      "来源": "AI ban ordered after child protection worker used ChatGPT in Victorian court case"
+    },
+    "Consequence": {
+      "id": "PotentialLegalInaccuracies",
+      "中文名称": "潜在法律不准确的后果",
+      "英文名称": "Potential Legal Inaccuracies Consequence",
+      "来源": "Victorian child protection worker uses ChatGPT for protection report"
+    },
+    "AIOperator": {
+      "id": "VictorianChildProtectionWorker",
+      "中文名称": "维多利亚州儿童保护工作者",
+      "英文名称": "Victorian Child Protection Worker",
+      "来源": "Vic case worker used ChatGPT to draft child protection report"
+    },
+    "Stakeholder": {
+      "id": "VictorianCourtSystem",
+      "中文名称": "维多利亚州法院系统",
+      "英文名称": "Victorian Court System",
+      "来源": "AI ban ordered after child protection worker used ChatGPT in Victorian court case"
+    },
+    "Domain": {
+      "id": "ChildProtectionServices",
+      "中文名称": "儿童保护服务领域",
+      "英文名称": "Child Protection Services Domain",
+      "来源": "Victorian child protection worker uses ChatGPT for protection report"
+    },
+    "Purpose": {
+      "id": "DraftingChildProtectionReports",
+      "中文名称": "起草儿童保护报告的目的",
+      "英文名称": "Drafting Child Protection Reports Purpose",
+      "来源": "Vic case worker used ChatGPT to draft child protection report"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfAIInLegalContext",
+      "中文名称": "在法律环境中未经授权使用AI的风险源",
+      "英文名称": "Unauthorized Use of AI in Legal Context Risk Source",
+      "来源": "AI ban ordered after child protection worker used ChatGPT in Victorian court case"
+    },
+    "Impact": {
+      "id": "CompromisedLegalProceedings",
+      "中文名称": "损害法律程序的影响",
+      "英文名称": "Compromised Legal Proceedings Impact",
+      "来源": "Victorian child protection worker uses ChatGPT for protection report"
+    }
+  }
+}

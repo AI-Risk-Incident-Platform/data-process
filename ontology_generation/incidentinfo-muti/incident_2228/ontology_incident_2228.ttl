@@ -1,0 +1,80 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornBot rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Porn Bot"@en ;
+    rdfs:label "Deepfake色情机器人"@zh ;
+    airo:hasRisk ex:NonConsensualDeepfakePornography ;
+    airo:hasAICapability ex:ImageManipulationAndSynthesis ;
+    airo:hasAISubject ex:FemaleSocialMediaUsers ;
+    airo:hasPurpose ex:GenerateNonConsensualPornographicContent ;
+    airo:isAppliedWithinDomain ex:SocialMediaAndMessagingPlatforms ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:LackOfLegalProtectionAgainstDeepfakeAbuse .
+
+ex:NonConsensualDeepfakePornography rdf:type airo:Risk ;
+    rdfs:label "Non-Consensual Deepfake Pornography Risk"@en ;
+    rdfs:label "非自愿Deepfake色情内容风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolationAndReputationDamage ;
+    airo:isRiskSourceFor ex:AnonymityOfTelegramPlatform ;
+    airo:isRiskSourceFor ex:AutomatedMassProductionOfDeepfakeContent ;
+    airo:isRiskSourceFor ex:MaliciousUseOfAITechnology .
+
+ex:PrivacyViolationAndReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation and Reputation Damage Consequence"@en ;
+    rdfs:label "隐私侵犯和名誉损害后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToVictims .
+
+ex:ImageManipulationAndSynthesis rdf:type airo:AICapability ;
+    rdfs:label "Image Manipulation and Synthesis Capability"@en ;
+    rdfs:label "图像操纵和合成能力"@zh .
+
+ex:FemaleSocialMediaUsers rdf:type airo:AISubject ;
+    rdfs:label "Female Social Media Users"@en ;
+    rdfs:label "女性社交媒体用户"@zh .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Victims Impact"@en ;
+    rdfs:label "对受害者的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemaleSocialMediaUsers .
+
+ex:GenerateNonConsensualPornographicContent rdf:type airo:Purpose ;
+    rdfs:label "Generate Non-Consensual Pornographic Content Purpose"@en ;
+    rdfs:label "生成非自愿色情内容的目的"@zh .
+
+ex:SocialMediaAndMessagingPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media and Messaging Platforms Domain"@en ;
+    rdfs:label "社交媒体和即时通讯平台领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:LackOfLegalProtectionAgainstDeepfakeAbuse rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Legal Protection Against Deepfake Abuse Vulnerability"@en ;
+    rdfs:label "缺乏针对Deepfake滥用的法律保护的脆弱性"@zh .
+
+ex:AnonymityOfTelegramPlatform rdf:type airo:RiskSource ;
+    rdfs:label "Anonymity of Telegram Platform Risk Source"@en ;
+    rdfs:label "Telegram平台的匿名性风险源"@zh .
+
+ex:AutomatedMassProductionOfDeepfakeContent rdf:type airo:Threat ;
+    rdfs:label "Automated Mass Production of Deepfake Content Threat"@en ;
+    rdfs:label "自动化大规模生产Deepfake内容的威胁"@zh .
+
+ex:MaliciousUseOfAITechnology rdf:type airo:Hazard ;
+    rdfs:label "Malicious Use of AI Technology Hazard"@en ;
+    rdfs:label "AI技术的恶意使用危害"@zh .
+
+ex:EthicalIssuesInDeepfakeTechnology rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Deepfake Technology Risk Concept"@en ;
+    rdfs:label "Deepfake技术中的伦理问题"@zh .

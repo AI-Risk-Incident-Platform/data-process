@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasStakeholder ex:USGovernment .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息风险"@zh ;
+    rdfs:label "Misinformation Risk"@en ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:USGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "美国政府"@zh ;
+    rdfs:label "US Government"@en .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "公众信任侵蚀"@zh ;
+    rdfs:label "Public Trust Erosion"@en ;
+    airo:hasImpactOnStakeholder ex:USGovernment .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "生成对抗网络"@zh ;
+    rdfs:label "Generative Adversarial Networks"@en .

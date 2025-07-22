@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT3BotOnReddit",
+      "中文名称": "Reddit上的GPT-3机器人",
+      "英文名称": "OpenAI Models",
+      "来源": "Someone let a GPT-3 bot loose on Reddit — it didn’t end well"
+    },
+    "Risk": {
+      "id": "UncontrolledAIBehaviorRisk",
+      "中文名称": "AI行为失控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "it didn’t end well"
+    },
+    "Stakeholder": {
+      "id": "RedditCommunity",
+      "中文名称": "Reddit社区",
+      "英文名称": "Reddit Community",
+      "来源": "Someone let a GPT-3 bot loose on Reddit"
+    },
+    "AITechnique": {
+      "id": "GPT3LanguageModel",
+      "中文名称": "GPT-3语言模型",
+      "英文名称": "GPT-3 Language Model",
+      "来源": "GPT-3 bot"
+    },
+    "RiskSource": {
+      "id": "UnsupervisedAIInteraction",
+      "中文名称": "无监督AI交互",
+      "英文名称": "Unsupervised AI Interaction",
+      "来源": "let a GPT-3 bot loose on Reddit"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GPT3BotOnReddit",
+      "中文名称": "Reddit上的GPT-3机器人",
+      "英文名称": "OpenAI Models",
+      "来源": "Someone let a GPT-3 bot loose on Reddit — it didn’t end well"
+    },
+    "Risk": {
+      "id": "UncontrolledAIBehaviorRisk",
+      "中文名称": "AI行为失控风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "it didn’t end well"
+    },
+    "Stakeholder": {
+      "id": "RedditCommunity",
+      "中文名称": "Reddit社区",
+      "英文名称": "Reddit Community",
+      "来源": "Someone let a GPT-3 bot loose on Reddit"
+    },
+    "AITechnique": {
+      "id": "GPT3LanguageModel",
+      "中文名称": "GPT-3语言模型",
+      "英文名称": "GPT-3 Language Model",
+      "来源": "GPT-3 bot"
+    },
+    "RiskSource": {
+      "id": "UnsupervisedAIInteraction",
+      "中文名称": "无监督AI交互",
+      "英文名称": "Unsupervised AI Interaction",
+      "来源": "let a GPT-3 bot loose on Reddit"
+    }
+  }
+}

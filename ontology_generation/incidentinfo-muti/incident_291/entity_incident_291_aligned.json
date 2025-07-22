@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotAndFullSelfDriving",
+      "中文名称": "特斯拉自动驾驶和全自动驾驶功能",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Risk": {
+      "id": "FalseAdvertisingRisk",
+      "中文名称": "虚假广告风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "California DMV accuses Tesla of making false claims about Autopilot and Full-Self Driving"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Consequence": {
+      "id": "ConsumerMisinformation",
+      "中文名称": "消费者误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "California DMV accuses Tesla of making false claims about Autopilot and Full-Self Driving"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Purpose": {
+      "id": "VehicleAutomation",
+      "中文名称": "车辆自动化目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车行业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotAndFullSelfDriving",
+      "中文名称": "特斯拉自动驾驶和全自动驾驶功能",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Risk": {
+      "id": "FalseAdvertisingRisk",
+      "中文名称": "虚假广告风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "California DMV accuses Tesla of making false claims about Autopilot and Full-Self Driving"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaDMV",
+      "中文名称": "加州车管局",
+      "英文名称": "California DMV",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Consequence": {
+      "id": "ConsumerMisinformation",
+      "中文名称": "消费者误导后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "California DMV accuses Tesla of making false claims about Autopilot and Full-Self Driving"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Purpose": {
+      "id": "VehicleAutomation",
+      "中文名称": "车辆自动化目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车行业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "California DMV accuses Tesla of falsely advertising Autopilot and Full Self-Driving features"
+    }
+  }
+}

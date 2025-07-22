@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter Gunshot Detection System",
+      "来源": "Durham’s gunshot detection software didn’t detect drive-by shooting."
+    },
+    "Risk": {
+      "id": "FailureToDetectGunshots",
+      "中文名称": "未能检测到枪声的风险",
+      "英文名称": "Failure to Detect Gunshots Risk",
+      "来源": "Durham’s gunshot detection software didn’t detect drive-by shooting."
+    },
+    "Consequence": {
+      "id": "DelayedPoliceResponse",
+      "中文名称": "警方响应延迟的后果",
+      "英文名称": "Delayed Police Response Consequence",
+      "来源": "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?"
+    },
+    "AICapability": {
+      "id": "AcousticGunshotDetection",
+      "中文名称": "声学枪声检测能力",
+      "英文名称": "Acoustic Gunshot Detection Capability",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    },
+    "AIOperator": {
+      "id": "DurhamPoliceDepartment",
+      "中文名称": "达勒姆警察局",
+      "英文名称": "Durham Police Department",
+      "来源": "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?"
+    },
+    "Stakeholder": {
+      "id": "DurhamCommunity",
+      "中文名称": "达勒姆社区",
+      "英文名称": "Durham Community",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损的影响",
+      "英文名称": "Public Safety Compromise Impact",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    },
+    "Purpose": {
+      "id": "GunViolencePrevention",
+      "中文名称": "预防枪支暴力的目的",
+      "英文名称": "Gun Violence Prevention Purpose",
+      "来源": "Durham’s gunshot detection software didn’t detect drive-by shooting."
+    },
+    "Domain": {
+      "id": "PublicSafetyTechnology",
+      "中文名称": "公共安全技术领域",
+      "英文名称": "Public Safety Technology Domain",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    },
+    "AITechnique": {
+      "id": "AcousticSensorNetwork",
+      "中文名称": "声学传感器网络技术",
+      "英文名称": "Acoustic Sensor Network Technique",
+      "来源": "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?"
+    },
+    "Vulnerability": {
+      "id": "EnvironmentalNoiseInterference",
+      "中文名称": "环境噪音干扰的脆弱性",
+      "英文名称": "Environmental Noise Interference Vulnerability",
+      "来源": "Durham’s gunshot detection software didn’t detect drive-by shooting."
+    },
+    "Threat": {
+      "id": "DriveByShootingScenario",
+      "中文名称": "驾车射击场景的威胁",
+      "英文名称": "Drive-by Shooting Scenario Threat",
+      "来源": "Durham’s gunshot detection software didn’t detect drive-by shooting."
+    },
+    "Hazard": {
+      "id": "UrbanSoundscapeComplexity",
+      "中文名称": "城市声景复杂性的危害",
+      "英文名称": "Urban Soundscape Complexity Hazard",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    },
+    "RiskSource": {
+      "id": "SystemFalseNegatives",
+      "中文名称": "系统假阴性的风险源",
+      "英文名称": "System False Negatives Risk Source",
+      "来源": "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?"
+    },
+    "RiskConcept": {
+      "id": "TechnologyReliabilityConcerns",
+      "中文名称": "技术可靠性问题",
+      "英文名称": "Technology Reliability Concerns Risk Concept",
+      "来源": "Controversial ShotSpotter technology failed to notify police of New Year’s Day drive-by shooting in Durham"
+    }
+  }
+}

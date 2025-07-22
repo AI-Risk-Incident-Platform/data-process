@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MicrosoftAIchatbot rdf:type airo:AISystem ;
+    rdfs:label "微软AI聊天机器人"@zh ;
+    rdfs:label "Microsoft AI Chatbot"@en ;
+    airo:hasRisk ex:ThreatToDemocracy ;
+    airo:isDevelopedBy ex:Microsoft ;
+    airo:hasStakeholder ex:Public .
+
+ex:ThreatToDemocracy rdf:type airo:Risk ;
+    rdfs:label "威胁民主的风险"@zh ;
+    rdfs:label "Threat to Democracy Risk"@en ;
+    airo:hasConsequence ex:SpreadOfMisinformation ;
+    airo:isRiskSourceFor ex:UnverifiedClaimsGeneration .
+
+ex:Public rdf:type airo:Stakeholder ;
+    rdfs:label "公众"@zh ;
+    rdfs:label "Public"@en .
+
+ex:SpreadOfMisinformation rdf:type airo:Consequence ;
+    rdfs:label "传播虚假信息后果"@zh ;
+    rdfs:label "Spread of Misinformation Consequence"@en ;
+    airo:hasImpact ex:UndermineDemocraticProcesses .
+
+ex:UndermineDemocraticProcesses rdf:type airo:Impact ;
+    rdfs:label "破坏民主进程的影响"@zh ;
+    rdfs:label "Undermine Democratic Processes Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Public .
+
+ex:Microsoft rdf:type airo:AIOperator ;
+    rdfs:label "微软"@zh ;
+    rdfs:label "Microsoft"@en .
+
+ex:UnverifiedClaimsGeneration rdf:type airo:RiskSource ;
+    rdfs:label "生成未经证实声明的风险源"@zh ;
+    rdfs:label "Unverified Claims Generation Risk Source"@en .

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GmailEmailFilteringSystem",
+      "中文名称": "Gmail邮件过滤系统",
+      "英文名称": "Gmail Email Filtering System",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Risk": {
+      "id": "PoliticalEmailBiasRisk",
+      "中文名称": "政治邮件偏见风险",
+      "英文名称": "Political Email Bias Risk",
+      "来源": "Swinging the Vote?"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Purpose": {
+      "id": "EmailClassification",
+      "中文名称": "邮件分类",
+      "英文名称": "Email Classification",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Domain": {
+      "id": "EmailServices",
+      "中文名称": "电子邮件服务",
+      "英文名称": "Email Services",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "AITechnique": {
+      "id": "MachineLearningFiltering",
+      "中文名称": "机器学习过滤",
+      "英文名称": "ML Content Moderation",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Swinging the Vote?"
+    },
+    "Consequence": {
+      "id": "UnequalEmailDelivery",
+      "中文名称": "邮件投递不平等",
+      "英文名称": "Unequal Email Delivery",
+      "来源": "Swinging the Vote?"
+    },
+    "Impact": {
+      "id": "PoliticalInfluence",
+      "中文名称": "政治影响",
+      "英文名称": "Political Influence",
+      "来源": "Swinging the Vote?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GmailEmailFilteringSystem",
+      "中文名称": "Gmail邮件过滤系统",
+      "英文名称": "Gmail Email Filtering System",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Risk": {
+      "id": "PoliticalEmailBiasRisk",
+      "中文名称": "政治邮件偏见风险",
+      "英文名称": "Political Email Bias Risk",
+      "来源": "Swinging the Vote?"
+    },
+    "Stakeholder": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选活动",
+      "英文名称": "Political Campaigns",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Purpose": {
+      "id": "EmailClassification",
+      "中文名称": "邮件分类",
+      "英文名称": "Email Classification",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "Domain": {
+      "id": "EmailServices",
+      "中文名称": "电子邮件服务",
+      "英文名称": "Email Services",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "AITechnique": {
+      "id": "MachineLearningFiltering",
+      "中文名称": "机器学习过滤",
+      "英文名称": "ML Content Moderation",
+      "来源": "How We Examined Gmail's Treatment of Political Emails"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Swinging the Vote?"
+    },
+    "Consequence": {
+      "id": "UnequalEmailDelivery",
+      "中文名称": "邮件投递不平等",
+      "英文名称": "Unequal Email Delivery",
+      "来源": "Swinging the Vote?"
+    },
+    "Impact": {
+      "id": "PoliticalInfluence",
+      "中文名称": "政治影响",
+      "英文名称": "Political Influence",
+      "来源": "Swinging the Vote?"
+    }
+  }
+}

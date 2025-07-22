@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:MisinformationSpreadRisk ;
+    airo:hasAISubject ex:GeneralPublic ;
+    airo:hasStakeholder ex:GovernmentOfficials .
+
+ex:MisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    rdfs:label "Misinformation Spread Risk"@en ;
+    airo:hasConsequence ex:PublicConfusion ;
+    airo:hasImpact ex:TrustErosionInPublicFigures ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "公众困惑后果"@zh ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    airo:hasImpact ex:TrustErosionInPublicFigures .
+
+ex:TrustErosionInPublicFigures rdf:type airo:Impact ;
+    rdfs:label "公众人物信任度下降影响"@zh ;
+    rdfs:label "Trust Erosion in Public Figures Impact"@en ;
+    airo:hasImpactOnStakeholder ex:GovernmentOfficials .
+
+ex:GovernmentOfficials rdf:type airo:Stakeholder ;
+    rdfs:label "政府官员"@zh ;
+    rdfs:label "Government Officials"@en .
+
+ex:GeneralPublic rdf:type airo:AISubject ;
+    rdfs:label "普通公众"@zh ;
+    rdfs:label "General Public"@en .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "恶意内容创作风险源"@zh ;
+    rdfs:label "Malicious Content Creation Risk Source"@en .

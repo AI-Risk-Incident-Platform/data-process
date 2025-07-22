@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SocialSecurityAIApp rdf:type airo:AISystem ;
+    rdfs:label "Social Security AI App"@en ;
+    rdfs:label "社会保障AI应用"@zh ;
+    airo:hasRisk ex:WrongfulClaimRejectionRisk ;
+    airo:hasPurpose ex:AutomateSocialSecurityClaimsProcessing ;
+    airo:isAppliedWithinDomain ex:GovernmentSocialServices ;
+    airo:hasStakeholder ex:SocialSecurityClaimants ;
+    airo:isDeployedBy ex:BrazilSocialSecurityAdministration .
+
+ex:WrongfulClaimRejectionRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Claim Rejection Risk"@en ;
+    rdfs:label "错误拒绝索赔风险"@zh ;
+    airo:hasConsequence ex:UnjustBenefitDenial ;
+    airo:isRiskSourceFor ex:FaultyAlgorithmicDecisionMaking .
+
+ex:UnjustBenefitDenial rdf:type airo:Consequence ;
+    rdfs:label "Unjust Benefit Denial Consequence"@en ;
+    rdfs:label "不公正福利拒绝后果"@zh ;
+    airo:hasImpact ex:FinancialHardshipForClaimants .
+
+ex:BrazilSocialSecurityAdministration rdf:type airo:AIOperator ;
+    rdfs:label "Brazil Social Security Administration"@en ;
+    rdfs:label "巴西社会保障管理局"@zh .
+
+ex:SocialSecurityClaimants rdf:type airo:Stakeholder ;
+    rdfs:label "Social Security Claimants"@en ;
+    rdfs:label "社会保障申请人"@zh .
+
+ex:FinancialHardshipForClaimants rdf:type airo:Impact ;
+    rdfs:label "Financial Hardship for Claimants Impact"@en ;
+    rdfs:label "申请人经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SocialSecurityClaimants .
+
+ex:AutomateSocialSecurityClaimsProcessing rdf:type airo:Purpose ;
+    rdfs:label "Automate Social Security Claims Processing Purpose"@en ;
+    rdfs:label "自动化社会保障索赔处理目的"@zh .
+
+ex:GovernmentSocialServices rdf:type airo:Domain ;
+    rdfs:label "Government Social Services Domain"@en ;
+    rdfs:label "政府社会服务领域"@zh .
+
+ex:FaultyAlgorithmicDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "Faulty Algorithmic Decision Making Risk Source"@en ;
+    rdfs:label "错误算法决策风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfHumanOversightInClaimsProcessing .
+
+ex:LackOfHumanOversightInClaimsProcessing rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Oversight in Claims Processing Vulnerability"@en ;
+    rdfs:label "索赔处理中缺乏人工监督的脆弱性"@zh .

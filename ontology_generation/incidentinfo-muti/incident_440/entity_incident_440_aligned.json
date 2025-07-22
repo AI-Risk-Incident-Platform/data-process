@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Risk": {
+      "id": "MalwareDevelopmentRisk",
+      "中文名称": "恶意软件开发风险",
+      "英文名称": "Malware Development Risk",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Consequence": {
+      "id": "IncreasedCybercrime",
+      "中文名称": "网络犯罪增加后果",
+      "英文名称": "Increased Cyber Threats",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "AICapability": {
+      "id": "CodeGeneration",
+      "中文名称": "代码生成能力",
+      "英文名称": "Code Generation",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Stakeholder": {
+      "id": "Cybercriminals",
+      "中文名称": "网络犯罪分子",
+      "英文名称": "Cybercriminals",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "AISubject": {
+      "id": "PotentialVictims",
+      "中文名称": "潜在受害者",
+      "英文名称": "Potential Victims",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Impact": {
+      "id": "SecurityBreaches",
+      "中文名称": "安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Purpose": {
+      "id": "AssistProgramming",
+      "中文名称": "辅助编程目的",
+      "英文名称": "Assist Programming Purpose",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Threat": {
+      "id": "MaliciousCodeCreation",
+      "中文名称": "恶意代码创建威胁",
+      "英文名称": "Malicious Code Creation",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "Hazard": {
+      "id": "AIAbusePotential",
+      "中文名称": "AI滥用潜在危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "RiskSource": {
+      "id": "UnrestrictedAccess",
+      "中文名称": "无限制访问风险源",
+      "英文名称": "Unrestricted Public Access Risk",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "RiskConcept": {
+      "id": "EthicalDilemmaInAIUsage",
+      "中文名称": "AI使用中的伦理困境",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Risk": {
+      "id": "MalwareDevelopmentRisk",
+      "中文名称": "恶意软件开发风险",
+      "英文名称": "Malware Development Risk",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Consequence": {
+      "id": "IncreasedCybercrime",
+      "中文名称": "网络犯罪增加后果",
+      "英文名称": "Increased Cyber Threats",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "AICapability": {
+      "id": "CodeGeneration",
+      "中文名称": "代码生成能力",
+      "英文名称": "Code Generation",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Stakeholder": {
+      "id": "Cybercriminals",
+      "中文名称": "网络犯罪分子",
+      "英文名称": "Cybercriminals",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "AISubject": {
+      "id": "PotentialVictims",
+      "中文名称": "潜在受害者",
+      "英文名称": "Potential Victims",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Impact": {
+      "id": "SecurityBreaches",
+      "中文名称": "安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Purpose": {
+      "id": "AssistProgramming",
+      "中文名称": "辅助编程目的",
+      "英文名称": "Assist Programming Purpose",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Domain": {
+      "id": "Cybersecurity",
+      "中文名称": "网络安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "Vulnerability": {
+      "id": "LackOfContentFiltering",
+      "中文名称": "缺乏内容过滤的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "Threat": {
+      "id": "MaliciousCodeCreation",
+      "中文名称": "恶意代码创建威胁",
+      "英文名称": "Malicious Code Creation",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    },
+    "Hazard": {
+      "id": "AIAbusePotential",
+      "中文名称": "AI滥用潜在危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "ChatGPT is enabling script kiddies to write functional malware"
+    },
+    "RiskSource": {
+      "id": "UnrestrictedAccess",
+      "中文名称": "无限制访问风险源",
+      "英文名称": "Unrestricted Public Access Risk",
+      "来源": "ChatGPT being used to write malware, ransomware: reports"
+    },
+    "RiskConcept": {
+      "id": "EthicalDilemmaInAIUsage",
+      "中文名称": "AI使用中的伦理困境",
+      "英文名称": "Ethical AI Risks",
+      "来源": "Cybercriminals Using ChatGPT to Build Hacking Tools, Write Code"
+    }
+  }
+}

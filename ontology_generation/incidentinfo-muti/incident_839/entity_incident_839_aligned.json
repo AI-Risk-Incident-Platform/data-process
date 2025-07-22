@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForAcademicWork",
+      "中文名称": "学术工作AI",
+      "英文名称": "Academic AI",
+      "来源": "学生使用AI完成社会研究项目"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "学校因学生使用AI而给予惩罚"
+    },
+    "Stakeholder": {
+      "id": "SchoolDistrict",
+      "中文名称": "学区",
+      "英文名称": "School District",
+      "来源": "马萨诸塞州父母起诉学区"
+    },
+    "AISubject": {
+      "id": "Student",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "学生使用AI完成作业"
+    },
+    "Consequence": {
+      "id": "GradePenalty",
+      "中文名称": "成绩处罚",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "学生因使用AI获得'D'成绩"
+    },
+    "Impact": {
+      "id": "AcademicRecordImpact",
+      "中文名称": "学业记录影响",
+      "英文名称": "Academic Record Impact",
+      "来源": "低分影响学生学业记录"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForAcademicWork",
+      "中文名称": "学术工作AI",
+      "英文名称": "Academic AI",
+      "来源": "学生使用AI完成社会研究项目"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "学校因学生使用AI而给予惩罚"
+    },
+    "Stakeholder": {
+      "id": "SchoolDistrict",
+      "中文名称": "学区",
+      "英文名称": "School District",
+      "来源": "马萨诸塞州父母起诉学区"
+    },
+    "AISubject": {
+      "id": "Student",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "学生使用AI完成作业"
+    },
+    "Consequence": {
+      "id": "GradePenalty",
+      "中文名称": "成绩处罚",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "学生因使用AI获得'D'成绩"
+    },
+    "Impact": {
+      "id": "AcademicRecordImpact",
+      "中文名称": "学业记录影响",
+      "英文名称": "Academic Record Impact",
+      "来源": "低分影响学生学业记录"
+    }
+  }
+}

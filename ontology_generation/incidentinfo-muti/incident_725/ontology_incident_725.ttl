@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceGenerator rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Generator"@en ;
+    rdfs:label "AI语音生成器"@zh ;
+    airo:hasRisk ex:UnauthorizedVoiceUseRisk ;
+    airo:hasStakeholder ex:VoiceoverActors ;
+    airo:isDeployedBy ex:Lovo ;
+    airo:hasPurpose ex:VoiceSynthesisForCommercialUse .
+
+ex:UnauthorizedVoiceUseRisk rdf:type airo:Risk ;
+    rdfs:label "Unauthorized Voice Use Risk"@en ;
+    rdfs:label "未经授权使用声音风险"@zh ;
+    airo:hasConsequence ex:EconomicLossForActors ;
+    airo:isRiskSourceFor ex:VoiceDataMisuse .
+
+ex:VoiceoverActors rdf:type airo:Stakeholder ;
+    rdfs:label "Voiceover Actors"@en ;
+    rdfs:label "配音演员"@zh .
+
+ex:Lovo rdf:type airo:AIOperator ;
+    rdfs:label "Lovo"@en ;
+    rdfs:label "Lovo公司"@zh .
+
+ex:EconomicLossForActors rdf:type airo:Consequence ;
+    rdfs:label "Economic Loss for Actors Consequence"@en ;
+    rdfs:label "演员经济损失后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationDamage .
+
+ex:ProfessionalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Damage Impact"@en ;
+    rdfs:label "职业声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VoiceoverActors .
+
+ex:VoiceDataMisuse rdf:type airo:RiskSource ;
+    rdfs:label "Voice Data Misuse Risk Source"@en ;
+    rdfs:label "声音数据滥用风险源"@zh .
+
+ex:VoiceSynthesisForCommercialUse rdf:type airo:Purpose ;
+    rdfs:label "Voice Synthesis for Commercial Use Purpose"@en ;
+    rdfs:label "商业用途语音合成的目的"@zh .

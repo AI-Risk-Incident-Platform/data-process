@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AustralianFacialRecognitionSystem",
+      "中文名称": "澳大利亚面部识别系统",
+      "英文名称": "Australian Facial Recognition System",
+      "来源": "Massive Data Breach in Australian Facial Recognition System Raises Alarm"
+    },
+    "Risk": {
+      "id": "BiometricDataBreachRisk",
+      "中文名称": "生物识别数据泄露风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Reported Australian biometric data breach prompts arrest and hysteria"
+    },
+    "Stakeholder": {
+      "id": "AustralianPublic",
+      "中文名称": "澳大利亚公众",
+      "英文名称": "Australian Public",
+      "来源": "Reported Australian biometric data breach prompts arrest and hysteria"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "RiskSource": {
+      "id": "SystemVulnerability",
+      "中文名称": "系统漏洞风险源",
+      "英文名称": "System Vulnerability Risk Source",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Massive Data Breach in Australian Facial Recognition System Raises Alarm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AustralianFacialRecognitionSystem",
+      "中文名称": "澳大利亚面部识别系统",
+      "英文名称": "Australian Facial Recognition System",
+      "来源": "Massive Data Breach in Australian Facial Recognition System Raises Alarm"
+    },
+    "Risk": {
+      "id": "BiometricDataBreachRisk",
+      "中文名称": "生物识别数据泄露风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "Consequence": {
+      "id": "PersonalDataExposure",
+      "中文名称": "个人数据暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Reported Australian biometric data breach prompts arrest and hysteria"
+    },
+    "Stakeholder": {
+      "id": "AustralianPublic",
+      "中文名称": "澳大利亚公众",
+      "英文名称": "Australian Public",
+      "来源": "Reported Australian biometric data breach prompts arrest and hysteria"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "RiskSource": {
+      "id": "SystemVulnerability",
+      "中文名称": "系统漏洞风险源",
+      "英文名称": "System Vulnerability Risk Source",
+      "来源": "The Breach of a Face Recognition Firm Reveals a Hidden Danger of Biometrics"
+    },
+    "Domain": {
+      "id": "PublicSecurity",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "Massive Data Breach in Australian Facial Recognition System Raises Alarm"
+    }
+  }
+}

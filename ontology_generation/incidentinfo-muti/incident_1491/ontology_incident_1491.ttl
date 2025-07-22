@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIChatbots rdf:type airo:AISystem ;
+    rdfs:label "AI Chatbots"@en ;
+    rdfs:label "AI聊天机器人"@zh ;
+    airo:hasRisk ex:RacialStereotypesRisk .
+
+ex:RacialStereotypesRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Stereotypes Risk"@en ;
+    rdfs:label "种族刻板印象风险"@zh ;
+    airo:hasConsequence ex:CovertRacismPerpetuation ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:CovertRacismPerpetuation rdf:type airo:Consequence ;
+    rdfs:label "Covert Racism Perpetuation Consequence"@en ;
+    rdfs:label "隐性种族主义延续后果"@zh ;
+    airo:hasImpact ex:SocialDiscriminationImpact .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "偏见训练数据风险源"@zh .
+
+ex:SocialDiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    rdfs:label "社会歧视影响"@zh .

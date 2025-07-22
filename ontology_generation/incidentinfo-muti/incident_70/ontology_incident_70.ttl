@@ -1,0 +1,84 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasAICapability ex:AutonomousDrivingCapability ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:hasAISubject ex:EmergencyVehicleOccupants ;
+    airo:hasPurpose ex:AssistedAndAutonomousDriving ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    airo:hasConsequence ex:VehicleDamageAndSafetyHazard ;
+    airo:isRiskSourceFor ex:SoftwareLimitationsInObjectDetection , ex:MisuseOfAutopilotSystem , ex:InadequateSafetyMeasuresForStationaryVehicles .
+
+ex:VehicleDamageAndSafetyHazard rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Damage and Safety Hazard Consequence"@en ;
+    rdfs:label "车辆损坏和安全危害后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:AutonomousDrivingCapability rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Driving Capability"@en ;
+    rdfs:label "自动驾驶能力"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement Agencies"@en ;
+    rdfs:label "执法机构"@zh .
+
+ex:EmergencyVehicleOccupants rdf:type airo:AISubject ;
+    rdfs:label "Emergency Vehicle Occupants"@en ;
+    rdfs:label "紧急车辆乘员"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:LawEnforcementAgencies .
+
+ex:AssistedAndAutonomousDriving rdf:type airo:Purpose ;
+    rdfs:label "Assisted and Autonomous Driving Purpose"@en ;
+    rdfs:label "辅助和自动驾驶目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision and Machine Learning Technique"@en ;
+    rdfs:label "计算机视觉和机器学习技术"@zh .
+
+ex:SoftwareLimitationsInObjectDetection rdf:type airo:RiskSource ;
+    rdfs:label "Software Limitations in Object Detection Risk Source"@en ;
+    rdfs:label "物体检测中的软件限制风险源"@zh ;
+    airo:exploitsVulnerability ex:StationaryObjectDetectionFailure .
+
+ex:MisuseOfAutopilotSystem rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of Autopilot System Threat"@en ;
+    rdfs:label "自动驾驶系统误用的威胁"@zh .
+
+ex:InadequateSafetyMeasuresForStationaryVehicles rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Safety Measures for Stationary Vehicles Hazard"@en ;
+    rdfs:label "对静止车辆安全措施不足的危害"@zh .
+
+ex:StationaryObjectDetectionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Stationary Object Detection Failure Vulnerability"@en ;
+    rdfs:label "静止物体检测失败的脆弱性"@zh .

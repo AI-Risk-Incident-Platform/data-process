@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "新闻标题直接提及的AI系统名称"
+    },
+    "Risk": {
+      "id": "LegalContemptRisk",
+      "中文名称": "法律藐视风险",
+      "英文名称": "Legal Contempt Risk",
+      "来源": "标题明确指出系统被法院判定藐视法庭"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "作为判定藐视法庭的主体出现在标题中"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "枪声检测系统通常部署于公共安全领域"
+    },
+    "Consequence": {
+      "id": "LegalSanctions",
+      "中文名称": "法律制裁后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "藐视法庭判决通常伴随法律制裁"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShotSpotter",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "新闻标题直接提及的AI系统名称"
+    },
+    "Risk": {
+      "id": "LegalContemptRisk",
+      "中文名称": "法律藐视风险",
+      "英文名称": "Legal Contempt Risk",
+      "来源": "标题明确指出系统被法院判定藐视法庭"
+    },
+    "Stakeholder": {
+      "id": "JudicialSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal & Public Safety",
+      "来源": "作为判定藐视法庭的主体出现在标题中"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "枪声检测系统通常部署于公共安全领域"
+    },
+    "Consequence": {
+      "id": "LegalSanctions",
+      "中文名称": "法律制裁后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "藐视法庭判决通常伴随法律制裁"
+    }
+  }
+}

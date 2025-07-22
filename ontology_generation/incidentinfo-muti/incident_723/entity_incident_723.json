@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Robotaxi",
+      "来源": "标题中提到的'robot taxi'和'robotaxis'"
+    },
+    "Risk": {
+      "id": "PedestrianSafetyRisk",
+      "中文名称": "行人安全风险",
+      "英文名称": "Pedestrian Safety Risk",
+      "来源": "标题中提到的'accident involving robot taxi and pedestrian'和'pedestrian who was dragged by robo taxi'"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryToPedestrian",
+      "中文名称": "行人身体伤害后果",
+      "英文名称": "Physical Injury to Pedestrian Consequence",
+      "来源": "标题中提到的'pedestrian who was dragged by robo taxi'"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaRegulatoryAgency",
+      "中文名称": "加州监管机构",
+      "英文名称": "California Regulatory Agency",
+      "来源": "标题中提到的'California gathering details of accident'"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车",
+      "英文名称": "General Motors",
+      "来源": "标题中提到的'GM-owned Cruise'"
+    },
+    "Impact": {
+      "id": "LegalSettlementImpact",
+      "中文名称": "法律和解影响",
+      "英文名称": "Legal Settlement Impact",
+      "来源": "标题中提到的'reached a more than $8M settlement'"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleMalfunction",
+      "中文名称": "自动驾驶车辆故障风险源",
+      "英文名称": "Autonomous Vehicle Malfunction Risk Source",
+      "来源": "标题中提到的'accident involving robot taxi'"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Transportation Domain",
+      "来源": "标题中提到的'robot taxi'和'robotaxis'"
+    }
+  }
+}

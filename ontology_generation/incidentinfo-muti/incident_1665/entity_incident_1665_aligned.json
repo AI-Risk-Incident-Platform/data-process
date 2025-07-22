@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TutoringFirmAISoftware",
+      "中文名称": "辅导公司AI软件",
+      "英文名称": "Tutoring Firm AI Software",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    },
+    "Risk": {
+      "id": "DiscriminationRisk",
+      "中文名称": "歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "Stakeholder": {
+      "id": "EEOC",
+      "中文名称": "美国平等就业机会委员会",
+      "英文名称": "EEOC",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "AIOperator": {
+      "id": "ChineseTutoringFirm",
+      "中文名称": "中国辅导公司",
+      "英文名称": "Chinese Tutoring Firm",
+      "来源": "Chinese tutoring firm settles US agency’s first bias lawsuit involving AI software"
+    },
+    "Consequence": {
+      "id": "LegalSettlement",
+      "中文名称": "法律和解",
+      "英文名称": "Legal Settlement",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    },
+    "Impact": {
+      "id": "DiscriminatoryImpact",
+      "中文名称": "歧视性影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "Domain": {
+      "id": "EducationSector",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TutoringFirmAISoftware",
+      "中文名称": "辅导公司AI软件",
+      "英文名称": "Tutoring Firm AI Software",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    },
+    "Risk": {
+      "id": "DiscriminationRisk",
+      "中文名称": "歧视风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "Stakeholder": {
+      "id": "EEOC",
+      "中文名称": "美国平等就业机会委员会",
+      "英文名称": "EEOC",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "AIOperator": {
+      "id": "ChineseTutoringFirm",
+      "中文名称": "中国辅导公司",
+      "英文名称": "Chinese Tutoring Firm",
+      "来源": "Chinese tutoring firm settles US agency’s first bias lawsuit involving AI software"
+    },
+    "Consequence": {
+      "id": "LegalSettlement",
+      "中文名称": "法律和解",
+      "英文名称": "Legal Settlement",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    },
+    "Impact": {
+      "id": "DiscriminatoryImpact",
+      "中文名称": "歧视性影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "EEOC Inks First-Ever AI-Based Antidiscrimination Settlement"
+    },
+    "Domain": {
+      "id": "EducationSector",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Tutoring firm settles US agency's first bias lawsuit involving AI software"
+    }
+  }
+}

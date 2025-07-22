@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Meta Facial Recognition System"@en ;
+    rdfs:label "Meta面部识别系统"@zh ;
+    airo:hasRisk ex:BiometricPrivacyViolationRisk ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:hasStakeholder ex:TexasStateGovernment ;
+    airo:hasPurpose ex:UserIdentificationPurpose ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformsDomain ;
+    airo:usesTechnique ex:FacialRecognitionAlgorithm .
+
+ex:BiometricPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Privacy Violation Risk"@en ;
+    rdfs:label "生物识别隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:FinancialPenaltyConsequence ;
+    airo:isRiskSourceFor ex:UnauthorizedBiometricDataCollection .
+
+ex:FinancialPenaltyConsequence rdf:type airo:Consequence ;
+    rdfs:label "Financial Penalty Consequence"@en ;
+    rdfs:label "财务处罚后果"@zh ;
+    airo:hasImpact ex:CorporateFinancialLossImpact .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:TexasStateGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Texas State Government"@en ;
+    rdfs:label "德克萨斯州政府"@zh .
+
+ex:CorporateFinancialLossImpact rdf:type airo:Impact ;
+    rdfs:label "Corporate Financial Loss Impact"@en ;
+    rdfs:label "企业财务损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TexasStateGovernment .
+
+ex:UserIdentificationPurpose rdf:type airo:Purpose ;
+    rdfs:label "User Identification Purpose"@en ;
+    rdfs:label "用户识别目的"@zh .
+
+ex:SocialMediaPlatformsDomain rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:FacialRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Algorithm"@en ;
+    rdfs:label "面部识别算法"@zh .
+
+ex:UnauthorizedBiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Biometric Data Collection"@en ;
+    rdfs:label "未经授权的生物识别数据收集"@zh .

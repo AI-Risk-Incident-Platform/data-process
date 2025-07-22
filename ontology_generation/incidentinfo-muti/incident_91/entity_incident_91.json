@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UKPassportPhotoChecker",
+      "中文名称": "英国护照照片检查系统",
+      "英文名称": "UK Passport Photo Checker",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Risk": {
+      "id": "RacialBiasInPhotoRecognition",
+      "中文名称": "照片识别中的种族偏见风险",
+      "英文名称": "Racial Bias in Photo Recognition Risk",
+      "来源": "Home Office's passport checker guilty of racial bias"
+    },
+    "Consequence": {
+      "id": "DiscriminationAgainstDarkSkinnedWomen",
+      "中文名称": "对深肤色女性的歧视后果",
+      "英文名称": "Discrimination Against Dark-Skinned Women Consequence",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "AISubject": {
+      "id": "DarkSkinnedWomenApplyingForPassports",
+      "中文名称": "申请护照的深肤色女性",
+      "英文名称": "Dark-Skinned Women Applying for Passports",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Stakeholder": {
+      "id": "UKHomeOffice",
+      "中文名称": "英国内政部",
+      "英文名称": "UK Home Office",
+      "来源": "Home Office's passport checker guilty of racial bias"
+    },
+    "Impact": {
+      "id": "UnfairTreatmentInPassportApplications",
+      "中文名称": "护照申请中的不公平待遇影响",
+      "英文名称": "Unfair Treatment in Passport Applications Impact",
+      "来源": "UK passport photo checker shows bias against dark-skinned women"
+    },
+    "Domain": {
+      "id": "GovernmentIdentityVerification",
+      "中文名称": "政府身份验证领域",
+      "英文名称": "Government Identity Verification Domain",
+      "来源": "Home Office's passport checker guilty of racial bias"
+    }
+  }
+}

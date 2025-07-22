@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonFlexTerminationAlgorithm",
+      "中文名称": "亚马逊Flex终止算法",
+      "英文名称": "Amazon Flex Termination Algorithm",
+      "来源": "Amazon Flex Fires Employees by Software Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "War veteran fired from Amazon for automated email with no chance to defend himself"
+    },
+    "Consequence": {
+      "id": "LackOfDueProcess",
+      "中文名称": "缺乏正当程序后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "no chance to defend himself"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Fired by Bot at Amazon"
+    },
+    "Stakeholder": {
+      "id": "AmazonFlexDrivers",
+      "中文名称": "亚马逊Flex司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Amazon Flex Fires Employees by Software Algorithm"
+    },
+    "Impact": {
+      "id": "JobLossWithoutAppeal",
+      "中文名称": "无法申诉的工作损失影响",
+      "英文名称": "Job Loss Without Appeal Impact",
+      "来源": "no chance to defend himself"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策风险源",
+      "英文名称": "Automated Decision - No Human Oversight Risk Source",
+      "来源": "Fired by Bot at Amazon"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonFlexTerminationAlgorithm",
+      "中文名称": "亚马逊Flex终止算法",
+      "英文名称": "Amazon Flex Termination Algorithm",
+      "来源": "Amazon Flex Fires Employees by Software Algorithm"
+    },
+    "Risk": {
+      "id": "UnfairTerminationRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "War veteran fired from Amazon for automated email with no chance to defend himself"
+    },
+    "Consequence": {
+      "id": "LackOfDueProcess",
+      "中文名称": "缺乏正当程序后果",
+      "英文名称": "Unjust Legal Consequences",
+      "来源": "no chance to defend himself"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Fired by Bot at Amazon"
+    },
+    "Stakeholder": {
+      "id": "AmazonFlexDrivers",
+      "中文名称": "亚马逊Flex司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Amazon Flex Fires Employees by Software Algorithm"
+    },
+    "Impact": {
+      "id": "JobLossWithoutAppeal",
+      "中文名称": "无法申诉的工作损失影响",
+      "英文名称": "Job Loss Without Appeal Impact",
+      "来源": "no chance to defend himself"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMakingWithoutHumanReview",
+      "中文名称": "无人审核的自动化决策风险源",
+      "英文名称": "Automated Decision - No Human Oversight Risk Source",
+      "来源": "Fired by Bot at Amazon"
+    }
+  }
+}

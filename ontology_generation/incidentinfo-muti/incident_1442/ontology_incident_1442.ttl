@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NetflixDocumentaryAI rdf:type airo:AISystem ;
+    rdfs:label "Netflix纪录片AI"@zh ;
+    rdfs:label "Netflix Documentary AI"@en ;
+    airo:hasRisk ex:FalseHistoricalRecordCreation ;
+    airo:usesTechnique ex:AIImages ;
+    airo:hasStakeholder ex:Netflix .
+
+ex:FalseHistoricalRecordCreation rdf:type airo:Risk ;
+    rdfs:label "虚假历史记录创建风险"@zh ;
+    rdfs:label "False Historical Record Creation Risk"@en ;
+    airo:hasConsequence ex:MisrepresentationOfHistoricalEvents .
+
+ex:MisrepresentationOfHistoricalEvents rdf:type airo:Consequence ;
+    rdfs:label "历史事件误传后果"@zh ;
+    rdfs:label "Misrepresentation of Historical Events Consequence"@en ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:Netflix rdf:type airo:Stakeholder ;
+    rdfs:label "Netflix"@zh ;
+    rdfs:label "Netflix"@en .
+
+ex:AIImages rdf:type airo:AITechnique ;
+    rdfs:label "AI图像"@zh ;
+    rdfs:label "AI Images"@en .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "公众误导影响"@zh ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Netflix .

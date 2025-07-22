@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EsteeLauderAlgorithm",
+      "中文名称": "雅诗兰黛算法",
+      "英文名称": "Estee Lauder Algorithm",
+      "来源": "‘sacked by algorithm’"
+    },
+    "Risk": {
+      "id": "UnfairDismissalRisk",
+      "中文名称": "不公平解雇风险",
+      "英文名称": "Unfair Dismissal Risk",
+      "来源": "‘sacked by algorithm’"
+    },
+    "Consequence": {
+      "id": "LegalSettlement",
+      "中文名称": "法律和解后果",
+      "英文名称": "Legal Settlement Consequence",
+      "来源": "‘Estée Lauder settles out of court with staff’"
+    },
+    "Stakeholder": {
+      "id": "DismissedEmployees",
+      "中文名称": "被解雇员工",
+      "英文名称": "Dismissed Employees",
+      "来源": "‘women ‘sacked by algorithm’’"
+    },
+    "AIOperator": {
+      "id": "EsteeLauderCompany",
+      "中文名称": "雅诗兰黛公司",
+      "英文名称": "Estee Lauder Company",
+      "来源": "‘Estée Lauder settles out of court with staff’"
+    },
+    "Impact": {
+      "id": "FinancialCompensation",
+      "中文名称": "经济补偿影响",
+      "英文名称": "Financial Compensation Impact",
+      "来源": "‘Payout for Estée Lauder women’"
+    },
+    "Domain": {
+      "id": "CorporateHumanResources",
+      "中文名称": "企业人力资源领域",
+      "英文名称": "Corporate Human Resources Domain",
+      "来源": "‘staff who were ‘sacked by algorithm’’"
+    },
+    "RiskSource": {
+      "id": "AutomatedDecisionMaking",
+      "中文名称": "自动化决策风险源",
+      "英文名称": "Automated Decision Making Risk Source",
+      "来源": "‘sacked by algorithm’"
+    }
+  }
+}

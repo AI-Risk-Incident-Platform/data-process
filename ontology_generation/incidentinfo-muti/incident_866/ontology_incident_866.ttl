@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoOfElonMusk rdf:type airo:AISystem ;
+    rdfs:label "埃隆·马斯克的深度伪造视频"@zh ;
+    rdfs:label "Deepfake Video of Elon Musk"@en ;
+    airo:hasRisk ex:CryptocurrencyScamRisk ;
+    airo:usesTechnique ex:DeepfakeGenerationTechnology ;
+    airo:hasPurpose ex:DeceptiveFinancialGain ;
+    airo:hasStakeholder ex:CryptocurrencyInvestors .
+
+ex:CryptocurrencyScamRisk rdf:type airo:Risk ;
+    rdfs:label "加密货币诈骗风险"@zh ;
+    rdfs:label "Cryptocurrency Scam Risk"@en ;
+    airo:hasConsequence ex:FinancialLossForVictims ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfakeTechnology .
+
+ex:FinancialLossForVictimsConsequence rdf:type airo:Consequence ;
+    rdfs:label "受害者经济损失后果"@zh ;
+    rdfs:label "Financial Loss for Victims Consequence"@en ;
+    airo:hasImpact ex:TrustErosionInPublicFigures .
+
+ex:DeepfakeGenerationTechnology rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造生成技术"@zh ;
+    rdfs:label "Deepfake Generation Technology"@en .
+
+ex:CryptocurrencyInvestors rdf:type airo:Stakeholder ;
+    rdfs:label "加密货币投资者"@zh ;
+    rdfs:label "Cryptocurrency Investors"@en .
+
+ex:TrustErosionInPublicFiguresImpact rdf:type airo:Impact ;
+    rdfs:label "公众人物信任度下降的影响"@zh ;
+    rdfs:label "Trust Erosion in Public Figures Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CryptocurrencyInvestors .
+
+ex:DeceptiveFinancialGain rdf:type airo:Purpose ;
+    rdfs:label "欺骗性财务收益目的"@zh ;
+    rdfs:label "Deceptive Financial Gain Purpose"@en .
+
+ex:MaliciousUseOfDeepfakeTechnologyRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "恶意使用深度伪造技术的风险源"@zh ;
+    rdfs:label "Malicious Use of Deepfake Technology Risk Source"@en .

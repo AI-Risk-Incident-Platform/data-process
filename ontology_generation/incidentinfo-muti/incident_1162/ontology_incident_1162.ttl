@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:COMPASRecidivismPredictionSystem rdf:type airo:AISystem ;
+    rdfs:label "COMPAS Recidivism Prediction System"@en ;
+    rdfs:label "COMPAS累犯预测系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInJudicialDecisionMaking ;
+    airo:hasAICapability ex:MultiVariableStatisticalAnalysisForRecidivismPrediction ;
+    airo:isDeployedBy ex:NorthpointeInc ;
+    airo:hasPurpose ex:SupportingJudicialRiskAssessmentDecisions ;
+    airo:hasStakeholder ex:AcademicResearchersEvaluatingAlgorithmicFairness ;
+    airo:hasAISubject ex:CriminalDefendantsSubjectToAlgorithmicAssessment ;
+    airo:isAppliedWithinDomain ex:JudicialCriminalJusticeSystem ;
+    airo:usesTechnique ex:ProprietaryMachineLearningModelWithManualVariableSelection .
+
+ex:AlgorithmicBiasInJudicialDecisionMaking rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Judicial Decision Making Risk"@en ;
+    rdfs:label "司法决策中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnjustIncarcerationOrEarlyRelease ;
+    airo:isRiskSourceFor ex:LackOfTransparencyInCommercialAlgorithms ;
+    airo:isRiskSourceFor ex:BiasedTrainingDataReflectingHistoricalInjustice ;
+    airo:isRiskSourceFor ex:MisuseOfAlgorithmicToolsByNonExperts ;
+    airo:isRiskSourceFor ex:HumanJudgesOverrelianceOnAlgorithmicScores .
+
+ex:MultiVariableStatisticalAnalysisForRecidivismPrediction rdf:type airo:AICapability ;
+    rdfs:label "Multi-Variable Statistical Analysis for Recidivism Prediction Capability"@en ;
+    rdfs:label "多变量统计分析用于预测再犯的能力"@zh .
+
+ex:NorthpointeInc rdf:type airo:AIOperator ;
+    rdfs:label "Northpointe Inc."@en ;
+    rdfs:label "北点公司"@zh .
+
+ex:AcademicResearchersEvaluatingAlgorithmicFairness rdf:type airo:Stakeholder ;
+    rdfs:label "Academic Researchers Evaluating Algorithmic Fairness"@en ;
+    rdfs:label "评估算法公平性的学术研究者"@zh .
+
+ex:CriminalDefendantsSubjectToAlgorithmicAssessment rdf:type airo:AISubject ;
+    rdfs:label "Criminal Defendants Subject to Algorithmic Assessment"@en ;
+    rdfs:label "接受算法评估的刑事被告人"@zh .
+
+ex:UnjustIncarcerationOrEarlyRelease rdf:type airo:Impact ;
+    rdfs:label "Unjust Incarceration or Early Release Impact"@en ;
+    rdfs:label "不公正监禁或提前释放的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AcademicResearchersEvaluatingAlgorithmicFairness ;
+    airo:hasImpactOnStakeholder ex:CriminalDefendantsSubjectToAlgorithmicAssessment .
+
+ex:SupportingJudicialRiskAssessmentDecisions rdf:type airo:Purpose ;
+    rdfs:label "Supporting Judicial Risk Assessment Decisions Purpose"@en ;
+    rdfs:label "辅助司法风险评估决策的目的"@zh .
+
+ex:JudicialCriminalJusticeSystem rdf:type airo:Domain ;
+    rdfs:label "Judicial Criminal Justice System Domain"@en ;
+    rdfs:label "司法刑事司法系统领域"@zh .
+
+ex:ProprietaryMachineLearningModelWithManualVariableSelection rdf:type airo:AITechnique ;
+    rdfs:label "Proprietary Machine Learning Model with Manual Variable Selection Technique"@en ;
+    rdfs:label "人工选择变量的专有机器学习模型"@zh .
+
+ex:HumanJudgesOverrelianceOnAlgorithmicScores rdf:type airo:Vulnerability ;
+    rdfs:label "Human Judges Overreliance on Algorithmic Scores Vulnerability"@en ;
+    rdfs:label "法官对算法评分过度依赖的脆弱性"@zh .
+
+ex:MisuseOfAlgorithmicToolsByNonExperts rdf:type airo:Threat ;
+    rdfs:label "Misuse of Algorithmic Tools by Non-Experts Threat"@en ;
+    rdfs:label "非专家误用算法工具的威胁"@zh .
+
+ex:BiasedTrainingDataReflectingHistoricalInjustice rdf:type airo:Hazard ;
+    rdfs:label "Biased Training Data Reflecting Historical Injustice Hazard"@en ;
+    rdfs:label "反映历史不公的训练数据偏差危害"@zh .
+
+ex:LackOfTransparencyInCommercialAlgorithms rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Transparency in Commercial Algorithms Risk Source"@en ;
+    rdfs:label "商业算法中缺乏透明度的风险源"@zh .
+
+ex:EthicalChallengesInAIDrivenPunishmentRecommendations rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in AI-Driven Punishment Recommendations Risk Concept"@en ;
+    rdfs:label "人工智能驱动的惩罚建议中的伦理挑战"@zh .

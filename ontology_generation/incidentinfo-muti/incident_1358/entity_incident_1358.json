@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RussianBotFarm",
+      "中文名称": "俄罗斯机器人农场",
+      "英文名称": "Russian Bot Farm",
+      "来源": "US officials uncover alleged Russian ‘bot farm’"
+    },
+    "Risk": {
+      "id": "DisinformationCampaignRisk",
+      "中文名称": "虚假信息宣传风险",
+      "英文名称": "Disinformation Campaign Risk",
+      "来源": "DOJ seizes ‘bot farm’ operated by the Russian government"
+    },
+    "Stakeholder": {
+      "id": "USDepartmentOfJustice",
+      "中文名称": "美国司法部",
+      "英文名称": "US Department of Justice",
+      "来源": "DOJ seizes ‘bot farm’ operated by the Russian government"
+    },
+    "AIOperator": {
+      "id": "RussianGovernment",
+      "中文名称": "俄罗斯政府",
+      "英文名称": "Russian Government",
+      "来源": "‘bot farm’ operated by the Russian government"
+    },
+    "AITechnique": {
+      "id": "AutomatedSocialMediaPosting",
+      "中文名称": "自动化社交媒体发布技术",
+      "英文名称": "Automated Social Media Posting Technique",
+      "来源": "‘bot farm’"
+    },
+    "Domain": {
+      "id": "SocialMediaInfluence",
+      "中文名称": "社交媒体影响领域",
+      "英文名称": "Social Media Influence Domain",
+      "来源": "‘bot farm’"
+    },
+    "RiskSource": {
+      "id": "StateSponsoredDisinformation",
+      "中文名称": "国家支持的虚假信息风险源",
+      "英文名称": "State-Sponsored Disinformation Risk Source",
+      "来源": "‘bot farm’ operated by the Russian government"
+    },
+    "Impact": {
+      "id": "PublicOpinionManipulation",
+      "中文名称": "公众舆论操纵的影响",
+      "英文名称": "Public Opinion Manipulation Impact",
+      "来源": "‘bot farm’"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeScamSystem",
+      "中文名称": "深度伪造诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake Exposed by Influencer as AI Scam to Sell Collagen"
+    },
+    "Risk": {
+      "id": "CelebrityImageMisuseRisk",
+      "中文名称": "名人形象滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Jennifer Aniston bikini body ad is latest AI scam in 'big game of whack a mole' for celebrities"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI scam to sell collagen"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake"
+    },
+    "Stakeholder": {
+      "id": "Celebrities",
+      "中文名称": "名人",
+      "英文名称": "Celebrities",
+      "来源": "'big game of whack a mole' for celebrities"
+    },
+    "AISubject": {
+      "id": "Consumers",
+      "中文名称": "消费者",
+      "英文名称": "Buyers",
+      "来源": "AI scam to sell collagen"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Jennifer Aniston bikini body ad is latest AI scam"
+    },
+    "Purpose": {
+      "id": "SellProducts",
+      "中文名称": "销售产品目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "AI scam to sell collagen"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedCelebrityImageUse",
+      "中文名称": "未经授权的名人形象使用风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeScamSystem",
+      "中文名称": "深度伪造诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake Exposed by Influencer as AI Scam to Sell Collagen"
+    },
+    "Risk": {
+      "id": "CelebrityImageMisuseRisk",
+      "中文名称": "名人形象滥用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Jennifer Aniston bikini body ad is latest AI scam in 'big game of whack a mole' for celebrities"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI scam to sell collagen"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake"
+    },
+    "Stakeholder": {
+      "id": "Celebrities",
+      "中文名称": "名人",
+      "英文名称": "Celebrities",
+      "来源": "'big game of whack a mole' for celebrities"
+    },
+    "AISubject": {
+      "id": "Consumers",
+      "中文名称": "消费者",
+      "英文名称": "Buyers",
+      "来源": "AI scam to sell collagen"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Jennifer Aniston bikini body ad is latest AI scam"
+    },
+    "Purpose": {
+      "id": "SellProducts",
+      "中文名称": "销售产品目的",
+      "英文名称": "Advertising & Marketing Revenue",
+      "来源": "AI scam to sell collagen"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedCelebrityImageUse",
+      "中文名称": "未经授权的名人形象使用风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Jennifer Aniston 'Bikini Body' Deepfake"
+    }
+  }
+}

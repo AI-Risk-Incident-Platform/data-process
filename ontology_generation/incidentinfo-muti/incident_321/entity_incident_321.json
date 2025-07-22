@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAIProfilePhotoDetectionSystem",
+      "中文名称": "Facebook AI生成头像检测系统",
+      "英文名称": "Facebook AI-Generated Profile Photo Detection System",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    },
+    "Risk": {
+      "id": "DeceptiveAccountCreationRisk",
+      "中文名称": "欺骗性账户创建风险",
+      "英文名称": "Deceptive Account Creation Risk",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    },
+    "RiskSource": {
+      "id": "AIProfilePhotoGeneration",
+      "中文名称": "AI生成头像风险源",
+      "英文名称": "AI Profile Photo Generation Risk Source",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    },
+    "Consequence": {
+      "id": "PlatformManipulation",
+      "中文名称": "平台操纵后果",
+      "英文名称": "Platform Manipulation Consequence",
+      "来源": "Media Outlet The BL Evaded a Facebook Ban By Making a Copy of Its Site"
+    },
+    "Impact": {
+      "id": "TrustErosionInSocialMedia",
+      "中文名称": "社交媒体信任度下降影响",
+      "英文名称": "Trust Erosion in Social Media Impact",
+      "来源": "If Facebook Is Dealing with Deceptive 'BL' Network, It's Not Working"
+    },
+    "AITechnique": {
+      "id": "ImageGenerationAI",
+      "中文名称": "图像生成AI技术",
+      "英文名称": "Image Generation AI Technique",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platforms Domain",
+      "来源": "Facebook removes accounts with AI-generated profile photos"
+    }
+  }
+}

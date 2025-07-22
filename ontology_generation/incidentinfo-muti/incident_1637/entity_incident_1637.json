@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StabilityAIArtGenerator",
+      "中文名称": "Stability AI艺术生成器",
+      "英文名称": "Stability AI Art Generator",
+      "来源": "Getty Images lawsuit says Stability AI misused photos to train AI"
+    },
+    "Risk": {
+      "id": "IntellectualPropertyViolationRisk",
+      "中文名称": "知识产权侵权风险",
+      "英文名称": "Intellectual Property Violation Risk",
+      "来源": "Getty Images Sues Stability AI Over Art Generator IP Violations"
+    },
+    "Stakeholder": {
+      "id": "GettyImages",
+      "中文名称": "盖蒂图片社",
+      "英文名称": "Getty Images",
+      "来源": "Getty asks London court to stop UK sales of Stability AI system"
+    },
+    "AIOperator": {
+      "id": "StabilityAI",
+      "中文名称": "Stability AI公司",
+      "英文名称": "Stability AI",
+      "来源": "Getty Images lawsuit says Stability AI misused photos to train AI"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "Getty Images Sues Stability AI Over Art Generator IP Violations"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUse",
+      "中文名称": "未经授权数据使用",
+      "英文名称": "Unauthorized Data Use",
+      "来源": "Getty Images lawsuit says Stability AI misused photos to train AI"
+    },
+    "Domain": {
+      "id": "DigitalArtCreation",
+      "中文名称": "数字艺术创作领域",
+      "英文名称": "Digital Art Creation Domain",
+      "来源": "Getty Images Sues Stability AI Over Art Generator IP Violations"
+    },
+    "Purpose": {
+      "id": "AIArtGeneration",
+      "中文名称": "AI艺术生成目的",
+      "英文名称": "AI Art Generation Purpose",
+      "来源": "Getty Images Sues Stability AI Over Art Generator IP Violations"
+    }
+  }
+}

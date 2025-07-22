@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PimEyesFacialRecognitionSystem",
+      "中文名称": "PimEyes面部识别系统",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Got PimEyes on You"
+    },
+    "AICapability": {
+      "id": "InternetWideFacialRecognitionSearch",
+      "中文名称": "全网面部识别搜索能力",
+      "英文名称": "Internet-Wide Facial Recognition Search Capability",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "AISubject": {
+      "id": "InternetUsers",
+      "中文名称": "互联网用户",
+      "英文名称": "Online Users",
+      "来源": "Got PimEyes on You"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Got PimEyes on You"
+    },
+    "Purpose": {
+      "id": "OnlineIdentityTracking",
+      "中文名称": "在线身份追踪目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Domain": {
+      "id": "OnlinePrivacyAndSecurity",
+      "中文名称": "在线隐私与安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "Got PimEyes on You"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFacialRecognition",
+      "中文名称": "基于深度学习的面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Vulnerability": {
+      "id": "PubliclyAvailableFacialImages",
+      "中文名称": "公开可获取的面部图像脆弱性",
+      "英文名称": "Public Facial/Personal Image Vulnerability",
+      "来源": "Got PimEyes on You"
+    },
+    "RiskSource": {
+      "id": "UnregulatedFacialRecognitionTechnology",
+      "中文名称": "未受监管的面部识别技术风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PimEyesFacialRecognitionSystem",
+      "中文名称": "PimEyes面部识别系统",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Got PimEyes on You"
+    },
+    "AICapability": {
+      "id": "InternetWideFacialRecognitionSearch",
+      "中文名称": "全网面部识别搜索能力",
+      "英文名称": "Internet-Wide Facial Recognition Search Capability",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "AISubject": {
+      "id": "InternetUsers",
+      "中文名称": "互联网用户",
+      "英文名称": "Online Users",
+      "来源": "Got PimEyes on You"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyExposure",
+      "中文名称": "个人隐私暴露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Got PimEyes on You"
+    },
+    "Purpose": {
+      "id": "OnlineIdentityTracking",
+      "中文名称": "在线身份追踪目的",
+      "英文名称": "Identity Verification & Authentication",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Domain": {
+      "id": "OnlinePrivacyAndSecurity",
+      "中文名称": "在线隐私与安全领域",
+      "英文名称": "Cybersecurity",
+      "来源": "Got PimEyes on You"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFacialRecognition",
+      "中文名称": "基于深度学习的面部识别技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    },
+    "Vulnerability": {
+      "id": "PubliclyAvailableFacialImages",
+      "中文名称": "公开可获取的面部图像脆弱性",
+      "英文名称": "Public Facial/Personal Image Vulnerability",
+      "来源": "Got PimEyes on You"
+    },
+    "RiskSource": {
+      "id": "UnregulatedFacialRecognitionTechnology",
+      "中文名称": "未受监管的面部识别技术风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "This Simple Facial Recognition Search Engine Can Track You Down Across the Internet"
+    }
+  }
+}

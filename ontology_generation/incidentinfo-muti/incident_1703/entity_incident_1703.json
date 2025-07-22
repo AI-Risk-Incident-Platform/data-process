@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT: China detains man for allegedly generating fake train crash news"
+    },
+    "Risk": {
+      "id": "MisinformationGenerationRisk",
+      "中文名称": "虚假信息生成风险",
+      "英文名称": "Misinformation Generation Risk",
+      "来源": "China detains man for allegedly generating fake train crash news"
+    },
+    "Consequence": {
+      "id": "PublicPanicAndSocialInstability",
+      "中文名称": "公众恐慌和社会不稳定后果",
+      "英文名称": "Public Panic and Social Instability Consequence",
+      "来源": "faked deadly train crash story"
+    },
+    "Stakeholder": {
+      "id": "ChinesePublicSecurityBureau",
+      "中文名称": "中国公安机关",
+      "英文名称": "Chinese Public Security Bureau",
+      "来源": "China detains man for allegedly generating fake train crash news"
+    },
+    "AISubject": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "General Public",
+      "来源": "fake news could cause public panic"
+    },
+    "Impact": {
+      "id": "LegalConsequencesForMisuse",
+      "中文名称": "滥用导致的法律后果影响",
+      "英文名称": "Legal Consequences for Misuse Impact",
+      "来源": "first known time person held over use of AI bot"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation Purpose",
+      "来源": "generating fake train crash news"
+    },
+    "Domain": {
+      "id": "SocialMediaAndNews",
+      "中文名称": "社交媒体和新闻领域",
+      "英文名称": "Social Media and News Domain",
+      "来源": "fake news dissemination"
+    },
+    "Misuse": {
+      "id": "FakeNewsCreation",
+      "中文名称": "虚假新闻创建滥用",
+      "英文名称": "Fake News Creation Misuse",
+      "来源": "allegedly generating fake train crash news"
+    }
+  }
+}

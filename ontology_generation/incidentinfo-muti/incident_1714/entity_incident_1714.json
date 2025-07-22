@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYPDSubwaySurveillanceRobot",
+      "中文名称": "纽约警察局地铁监控机器人",
+      "英文名称": "NYPD Subway Surveillance Robot",
+      "来源": "NYPD robot no longer patrolling Times Square station"
+    },
+    "Risk": {
+      "id": "PublicSurveillanceRisk",
+      "中文名称": "公共监控风险",
+      "英文名称": "Public Surveillance Risk",
+      "来源": "NYPD security robot that patrolled Times Square subway station is no longer in use"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "NYPD retires big, egg-shaped subway surveillance robot—for now"
+    },
+    "AIOperator": {
+      "id": "NewYorkPoliceDepartment",
+      "中文名称": "纽约警察局",
+      "英文名称": "New York Police Department",
+      "来源": "NYPD robot no longer patrolling Times Square station"
+    },
+    "Purpose": {
+      "id": "SubwayStationPatrol",
+      "中文名称": "地铁站巡逻目的",
+      "英文名称": "Subway Station Patrol Purpose",
+      "来源": "NYPD security robot that patrolled Times Square subway station"
+    }
+  }
+}

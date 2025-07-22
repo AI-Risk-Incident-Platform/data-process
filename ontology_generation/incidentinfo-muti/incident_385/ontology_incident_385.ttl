@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSecuritySoftware rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Security Software"@en ;
+    rdfs:label "面部识别安全软件"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDeployedBy ex:SouthernCoop ;
+    airo:hasStakeholder ex:PrivacyCampaigners ;
+    airo:isAppliedWithinDomain ex:RetailSecurity ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PublicBacklash ;
+    airo:isRiskSourceFor ex:MassSurveillance .
+
+ex:PrivacyCampaigners rdf:type airo:Stakeholder ;
+    rdfs:label "Privacy Campaigners"@en ;
+    rdfs:label "隐私活动家"@zh .
+
+ex:SouthernCoop rdf:type airo:AIOperator ;
+    rdfs:label "Southern Co-op"@en ;
+    rdfs:label "南方合作社"@zh .
+
+ex:LegalActionThreat rdf:type airo:Impact ;
+    rdfs:label "Legal Action Threat"@en ;
+    rdfs:label "法律诉讼威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:PrivacyCampaigners .
+
+ex:RetailSecurity rdf:type airo:Domain ;
+    rdfs:label "Retail Security Domain"@en ;
+    rdfs:label "零售安全领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:PublicBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Backlash Consequence"@en ;
+    rdfs:label "公众反弹后果"@zh ;
+    airo:hasImpact ex:LegalActionThreat .
+
+ex:MassSurveillance rdf:type airo:RiskSource ;
+    rdfs:label "Mass Surveillance Risk Source"@en ;
+    rdfs:label "大规模监控风险源"@zh .

@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFSDSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Full Self-Driving System",
+      "来源": "Self-driving Tesla doesn’t yield for pedestrian. Tesla fan cheers."
+    },
+    "Risk": {
+      "id": "PedestrianSafetyRisk",
+      "中文名称": "行人安全风险",
+      "英文名称": "Pedestrian Safety Risk",
+      "来源": "Watch Tesla's FSD Beta 11.4.1. Ignore Pedestrian On Marked Crosswalk"
+    },
+    "Consequence": {
+      "id": "PedestrianInjuryOrDeath",
+      "中文名称": "行人受伤或死亡后果",
+      "英文名称": "Pedestrian Injury or Death Consequence",
+      "来源": "No, It's Not Amazing That A Tesla Using FSD Blew Through A Crosswalk"
+    },
+    "AICapability": {
+      "id": "AutonomousDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Self-driving Tesla doesn’t yield for pedestrian."
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla fan cheers."
+    },
+    "Stakeholder": {
+      "id": "Pedestrians",
+      "中文名称": "行人",
+      "英文名称": "Pedestrians",
+      "来源": "Self-driving Tesla doesn’t yield for pedestrian."
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Public Safety Threat Impact",
+      "来源": "No, It's Not Amazing That A Tesla Using FSD Blew Through A Crosswalk"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通目的",
+      "英文名称": "Autonomous Transportation Purpose",
+      "来源": "Self-driving Tesla doesn’t yield for pedestrian."
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Self-driving Tesla doesn’t yield for pedestrian."
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习技术",
+      "英文名称": "Computer Vision and Machine Learning Technique",
+      "来源": "Watch Tesla's FSD Beta 11.4.1. Ignore Pedestrian On Marked Crosswalk"
+    },
+    "Vulnerability": {
+      "id": "PedestrianDetectionFailure",
+      "中文名称": "行人检测失败脆弱性",
+      "英文名称": "Pedestrian Detection Failure Vulnerability",
+      "来源": "Watch Tesla's FSD Beta 11.4.1. Ignore Pedestrian On Marked Crosswalk"
+    },
+    "Threat": {
+      "id": "SystemMisclassificationOfPedestrians",
+      "中文名称": "系统对行人误分类威胁",
+      "英文名称": "System Misclassification of Pedestrians Threat",
+      "来源": "Watch Tesla's FSD Beta 11.4.1. Ignore Pedestrian On Marked Crosswalk"
+    },
+    "Hazard": {
+      "id": "UnsafeAutonomousDrivingBehavior",
+      "中文名称": "不安全的自动驾驶行为危害",
+      "英文名称": "Unsafe Autonomous Driving Behavior Hazard",
+      "来源": "No, It's Not Amazing That A Tesla Using FSD Blew Through A Crosswalk"
+    },
+    "RiskSource": {
+      "id": "InadequateTestingOfBetaSoftware",
+      "中文名称": "测试版软件测试不足风险源",
+      "英文名称": "Inadequate Testing of Beta Software Risk Source",
+      "来源": "Watch Tesla's FSD Beta 11.4.1. Ignore Pedestrian On Marked Crosswalk"
+    },
+    "RiskConcept": {
+      "id": "EthicalChallengesInAutonomousVehicleTesting",
+      "中文名称": "自动驾驶车辆测试中的伦理挑战",
+      "英文名称": "Ethical Challenges in Autonomous Vehicle Testing Risk Concept",
+      "来源": "No, It's Not Amazing That A Tesla Using FSD Blew Through A Crosswalk"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSelfDrivingCar",
+      "中文名称": "谷歌自动驾驶汽车",
+      "英文名称": "Google Autonomous Car",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Consequence": {
+      "id": "PhysicalDamage",
+      "中文名称": "物理损坏后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Stakeholder": {
+      "id": "PublicRoadUsers",
+      "中文名称": "公共道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AISubject": {
+      "id": "OtherVehiclesOnRoad",
+      "中文名称": "道路上其他车辆",
+      "英文名称": "Other Vehicles on Road",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Vulnerability": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制脆弱性",
+      "英文名称": "Sensor Vulnerability",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Threat": {
+      "id": "UnexpectedRoadConditions",
+      "中文名称": "意外道路条件威胁",
+      "英文名称": "Unexpected Road Threats",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Hazard": {
+      "id": "SystemFailure",
+      "中文名称": "系统故障危害",
+      "英文名称": "System Failure Hazard",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicDecisionMaking",
+      "中文名称": "算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafety",
+      "中文名称": "自动驾驶汽车安全",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSelfDrivingCar",
+      "中文名称": "谷歌自动驾驶汽车",
+      "英文名称": "Google Autonomous Car",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Consequence": {
+      "id": "PhysicalDamage",
+      "中文名称": "物理损坏后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AICapability": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Stakeholder": {
+      "id": "PublicRoadUsers",
+      "中文名称": "公共道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AISubject": {
+      "id": "OtherVehiclesOnRoad",
+      "中文名称": "道路上其他车辆",
+      "英文名称": "Other Vehicles on Road",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Impact": {
+      "id": "SafetyConcerns",
+      "中文名称": "安全隐患影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Purpose": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Vulnerability": {
+      "id": "SensorLimitations",
+      "中文名称": "传感器限制脆弱性",
+      "英文名称": "Sensor Vulnerability",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Threat": {
+      "id": "UnexpectedRoadConditions",
+      "中文名称": "意外道路条件威胁",
+      "英文名称": "Unexpected Road Threats",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "Hazard": {
+      "id": "SystemFailure",
+      "中文名称": "系统故障危害",
+      "英文名称": "System Failure Hazard",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicDecisionMaking",
+      "中文名称": "算法决策风险源",
+      "英文名称": "Algorithmic Transparency Risk",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafety",
+      "中文名称": "自动驾驶汽车安全",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Google's Self-Driving Car Caused Its First Crash"
+    }
+  }
+}

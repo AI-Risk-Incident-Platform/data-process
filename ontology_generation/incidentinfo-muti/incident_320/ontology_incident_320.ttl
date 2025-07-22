@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasCapability ex:AutonomousDrivingCapability ;
+    airo:hasStakeholder ex:LawEnforcementAgencies ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    airo:hasConsequence ex:VehicleDamageAndSafetyHazard .
+
+ex:AutonomousDrivingCapability rdf:type airo:AICapability ;
+    rdfs:label "自动驾驶能力"@zh ;
+    rdfs:label "Autonomous Driving Capability"@en .
+
+ex:LawEnforcementAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "执法机构"@zh ;
+    rdfs:label "Law Enforcement Agencies"@en .
+
+ex:VehicleDamageAndSafetyHazard rdf:type airo:Consequence ;
+    rdfs:label "车辆损坏和安全危害后果"@zh ;
+    rdfs:label "Vehicle Damage and Safety Hazard Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:LawEnforcementAgencies .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "计算机视觉与机器学习技术"@zh ;
+    rdfs:label "Computer Vision and Machine Learning Technique"@en .

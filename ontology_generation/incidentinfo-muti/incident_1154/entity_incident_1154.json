@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "McDonaldsAIOrderingSystem",
+      "中文名称": "麦当劳AI点餐系统",
+      "英文名称": "McDonald's AI Ordering System",
+      "来源": "McDonald's unveiled an automated store. Some consumers aren't loving it."
+    },
+    "Risk": {
+      "id": "OrderingSystemFailureRisk",
+      "中文名称": "点餐系统故障风险",
+      "英文名称": "Ordering System Failure Risk",
+      "来源": "McDonald’s new A.I. ordering system isn’t going exactly to plan as bewildered TikTokers document drive-thru fails: ‘Not a ketchup packet! Oh, my God’"
+    },
+    "Consequence": {
+      "id": "CustomerDissatisfaction",
+      "中文名称": "顾客不满后果",
+      "英文名称": "Customer Dissatisfaction Consequence",
+      "来源": "Some consumers aren't loving it."
+    },
+    "AICapability": {
+      "id": "AutomatedDriveThruOrdering",
+      "中文名称": "自动得来速点餐能力",
+      "英文名称": "Automated Drive-Thru Ordering Capability",
+      "来源": "McDonald's unveiled an automated store."
+    },
+    "Stakeholder": {
+      "id": "McDonaldsCustomers",
+      "中文名称": "麦当劳顾客",
+      "英文名称": "McDonald's Customers",
+      "来源": "Some consumers aren't loving it."
+    },
+    "AIOperator": {
+      "id": "McDonaldsCorporation",
+      "中文名称": "麦当劳公司",
+      "英文名称": "McDonald's Corporation",
+      "来源": "McDonald's unveiled an automated store."
+    },
+    "Impact": {
+      "id": "NegativeBrandPerception",
+      "中文名称": "品牌负面认知影响",
+      "英文名称": "Negative Brand Perception Impact",
+      "来源": "Some consumers aren't loving it."
+    },
+    "Purpose": {
+      "id": "AutomatedFastFoodService",
+      "中文名称": "自动化快餐服务目的",
+      "英文名称": "Automated Fast Food Service Purpose",
+      "来源": "McDonald's unveiled an automated store."
+    },
+    "Domain": {
+      "id": "FastFoodIndustry",
+      "中文名称": "快餐行业领域",
+      "英文名称": "Fast Food Industry Domain",
+      "来源": "McDonald's unveiled an automated store."
+    },
+    "RiskSource": {
+      "id": "AIOrderingSystemErrors",
+      "中文名称": "AI点餐系统错误风险源",
+      "英文名称": "AI Ordering System Errors Risk Source",
+      "来源": "McDonald’s new A.I. ordering system isn’t going exactly to plan as bewildered TikTokers document drive-thru fails"
+    }
+  }
+}

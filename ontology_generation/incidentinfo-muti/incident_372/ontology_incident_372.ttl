@@ -1,0 +1,42 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PepsiNumberFeverPromotionSystem rdf:type airo:AISystem ;
+    rdfs:label "百事可乐号码狂热促销系统"@zh ;
+    rdfs:label "Pepsi Number Fever Promotion System"@en ;
+    airo:hasRisk ex:MarketingCampaignFailureRisk ;
+    airo:hasStakeholder ex:PepsiColaCorporation .
+
+ex:MarketingCampaignFailureRisk rdf:type airo:Risk ;
+    rdfs:label "营销活动失败风险"@zh ;
+    rdfs:label "Marketing Campaign Failure Risk"@en ;
+    airo:hasConsequence ex:PublicOutrageAndFinancialLoss ;
+    airo:isRiskSourceFor ex:ComputerErrorInPrizeSelection .
+
+ex:PublicOutrageAndFinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "公众愤怒与财务损失后果"@zh ;
+    rdfs:label "Public Outrage and Financial Loss Consequence"@en ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:PepsiColaCorporation rdf:type airo:Stakeholder ;
+    rdfs:label "百事可乐公司"@zh ;
+    rdfs:label "Pepsi-Cola Corporation"@en ;
+    airo:hasImpactOnStakeholder ex:BrandReputationDamage .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    rdfs:label "Brand Reputation Damage Impact"@en .
+
+ex:ComputerErrorInPrizeSelection rdf:type airo:RiskSource ;
+    rdfs:label "奖品选择计算机错误风险源"@zh ;
+    rdfs:label "Computer Error in Prize Selection Risk Source"@en ;
+    airo:isRiskSourceFor ex:MarketingCampaignFailureRisk .

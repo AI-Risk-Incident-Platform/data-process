@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PoliticalManipulationRisk ;
+    airo:hasPurpose ex:PoliticalCampaigning ;
+    airo:isAppliedWithinDomain ex:PoliticalDomain ;
+    airo:usesTechnique ex:DeepfakeVideoGeneration ;
+    airo:hasStakeholder ex:IndianPoliticalPartyBJP ;
+    airo:hasAISubject ex:DelhiVoters .
+
+ex:PoliticalManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Manipulation Risk"@en ;
+    rdfs:label "政治操纵风险"@zh ;
+    airo:hasConsequence ex:MisinformationSpread ;
+    airo:isRiskSourceFor ex:MisuseOfDeepfakeForPoliticalGain .
+
+ex:IndianPoliticalPartyBJP rdf:type airo:Stakeholder ;
+    rdfs:label "Indian Political Party BJP"@en ;
+    rdfs:label "印度人民党"@zh .
+
+ex:DelhiVoters rdf:type airo:AISubject ;
+    rdfs:label "Delhi Voters"@en ;
+    rdfs:label "德里选民"@zh .
+
+ex:PoliticalCampaigning rdf:type airo:Purpose ;
+    rdfs:label "Political Campaigning"@en ;
+    rdfs:label "政治竞选"@zh .
+
+ex:PoliticalDomain rdf:type airo:Domain ;
+    rdfs:label "Political Domain"@en ;
+    rdfs:label "政治领域"@zh .
+
+ex:DeepfakeVideoGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Video Generation Technique"@en ;
+    rdfs:label "深度伪造视频生成技术"@zh .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DelhiVoters .
+
+ex:MisuseOfDeepfakeForPoliticalGain rdf:type airo:RiskSource ;
+    rdfs:label "Misuse of Deepfake for Political Gain Risk Source"@en ;
+    rdfs:label "为政治利益滥用深度伪造的风险源"@zh .
+
+ex:MisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Misinformation Spread Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .

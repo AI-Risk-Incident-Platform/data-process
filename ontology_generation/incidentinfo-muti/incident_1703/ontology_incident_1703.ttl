@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:MisinformationGenerationRisk ;
+    airo:hasAISubject ex:GeneralPublic ;
+    airo:hasPurpose ex:ContentGeneration ;
+    airo:isAppliedWithinDomain ex:SocialMediaAndNews ;
+    airo:hasStakeholder ex:ChinesePublicSecurityBureau .
+
+ex:MisinformationGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Generation Risk"@en ;
+    rdfs:label "虚假信息生成风险"@zh ;
+    airo:hasConsequence ex:PublicPanicAndSocialInstability ;
+    airo:hasResidualRisk ex:FakeNewsCreation .
+
+ex:PublicPanicAndSocialInstability rdf:type airo:Consequence ;
+    rdfs:label "Public Panic and Social Instability Consequence"@en ;
+    rdfs:label "公众恐慌和社会不稳定后果"@zh ;
+    airo:hasImpact ex:LegalConsequencesForMisuse .
+
+ex:ChinesePublicSecurityBureau rdf:type airo:Stakeholder ;
+    rdfs:label "Chinese Public Security Bureau"@en ;
+    rdfs:label "中国公安机关"@zh .
+
+ex:GeneralPublic rdf:type airo:AISubject ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "普通公众"@zh .
+
+ex:LegalConsequencesForMisuse rdf:type airo:Impact ;
+    rdfs:label "Legal Consequences for Misuse Impact"@en ;
+    rdfs:label "滥用导致的法律后果影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChinesePublicSecurityBureau .
+
+ex:ContentGeneration rdf:type airo:Purpose ;
+    rdfs:label "Content Generation Purpose"@en ;
+    rdfs:label "内容生成目的"@zh .
+
+ex:SocialMediaAndNews rdf:type airo:Domain ;
+    rdfs:label "Social Media and News Domain"@en ;
+    rdfs:label "社交媒体和新闻领域"@zh .
+
+ex:FakeNewsCreation rdf:type airo:Misuse ;
+    rdfs:label "Fake News Creation Misuse"@en ;
+    rdfs:label "虚假新闻创建滥用"@zh .

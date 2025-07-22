@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleDocsInclusiveLanguageFeature rdf:type airo:AISystem ;
+    rdfs:label "Google Docs Inclusive Language Feature"@en ;
+    rdfs:label "谷歌文档包容性语言功能"@zh ;
+    airo:hasRisk ex:InappropriateLanguageSuggestionRisk ;
+    airo:hasCapability ex:LanguageAnalysisAndSuggestion ;
+    airo:isDeployedBy ex:Google ;
+    airo:hasPurpose ex:PromoteInclusiveLanguageUse ;
+    airo:hasStakeholder ex:GoogleDocsUsers ;
+    airo:hasAISubject ex:DocumentContent ;
+    airo:isAppliedWithinDomain ex:DigitalContentCreation ;
+    airo:usesTechnique ex:NaturalLanguageProcessing .
+
+ex:InappropriateLanguageSuggestionRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Language Suggestion Risk"@en ;
+    rdfs:label "不当语言建议风险"@zh ;
+    airo:hasConsequence ex:PublicCriticismAndBacklash ;
+    airo:isRiskSourceFor ex:OverzealousPoliticalCorrectness ;
+    airo:isRiskSourceFor ex:CulturalInsensitivityInAI ;
+    airo:isRiskSourceFor ex:BiasedLanguageModels .
+
+ex:PublicCriticismAndBacklash rdf:type airo:Consequence ;
+    rdfs:label "Public Criticism and Backlash Consequence"@en ;
+    rdfs:label "公众批评和反弹后果"@zh ;
+    airo:hasImpact ex:UserFrustrationAndDistrust .
+
+ex:LanguageAnalysisAndSuggestion rdf:type airo:AICapability ;
+    rdfs:label "Language Analysis and Suggestion Capability"@en ;
+    rdfs:label "语言分析和建议能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:GoogleDocsUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Google Docs Users"@en ;
+    rdfs:label "谷歌文档用户"@zh .
+
+ex:DocumentContent rdf:type airo:AISubject ;
+    rdfs:label "Document Content"@en ;
+    rdfs:label "文档内容"@zh .
+
+ex:UserFrustrationAndDistrust rdf:type airo:Impact ;
+    rdfs:label "User Frustration and Distrust Impact"@en ;
+    rdfs:label "用户沮丧和不信任影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoogleDocsUsers .
+
+ex:PromoteInclusiveLanguageUse rdf:type airo:Purpose ;
+    rdfs:label "Promote Inclusive Language Use Purpose"@en ;
+    rdfs:label "促进包容性语言使用目的"@zh .
+
+ex:DigitalContentCreation rdf:type airo:Domain ;
+    rdfs:label "Digital Content Creation Domain"@en ;
+    rdfs:label "数字内容创作领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:OverzealousPoliticalCorrectness rdf:type airo:RiskSource ;
+    rdfs:label "Overzealous Political Correctness Risk Source"@en ;
+    rdfs:label "过度政治正确的风险源"@zh ;
+    airo:exploitsVulnerability ex:OverlySensitiveLanguageDetection .
+
+ex:CulturalInsensitivityInAI rdf:type airo:Threat ;
+    rdfs:label "Cultural Insensitivity in AI Threat"@en ;
+    rdfs:label "AI中的文化不敏感威胁"@zh ;
+    airo:exploitsVulnerability ex:OverlySensitiveLanguageDetection .
+
+ex:BiasedLanguageModels rdf:type airo:Hazard ;
+    rdfs:label "Biased Language Models Hazard"@en ;
+    rdfs:label "有偏见的语言模型危害"@zh ;
+    airo:exploitsVulnerability ex:OverlySensitiveLanguageDetection .
+
+ex:OverlySensitiveLanguageDetection rdf:type airo:Vulnerability ;
+    rdfs:label "Overly Sensitive Language Detection Vulnerability"@en ;
+    rdfs:label "过度敏感的语言检测脆弱性"@zh .
+
+ex:EthicalDilemmasInLanguageAI rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Dilemmas in Language AI Risk Concept"@en ;
+    rdfs:label "语言AI中的伦理困境"@zh .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UnspecifiedAISystem",
+      "中文名称": "未指定的AI系统",
+      "英文名称": "Unspecified AI System",
+      "来源": "新闻标题中提到的AI公司"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "新闻标题'China Rules AI Firm Committed Copyright Infringement'"
+    },
+    "Stakeholder": {
+      "id": "ChineseJudicialSystem",
+      "中文名称": "中国司法系统",
+      "英文名称": "Chinese Judicial System",
+      "来源": "新闻标题中提到的裁决方"
+    },
+    "AIOperator": {
+      "id": "UnspecifiedAIFirm",
+      "中文名称": "未指定的AI公司",
+      "英文名称": "Unspecified AI Firm",
+      "来源": "新闻标题中提到的'AI Firm'"
+    },
+    "Consequence": {
+      "id": "LegalPenalties",
+      "中文名称": "法律处罚",
+      "英文名称": "Legal Penalties",
+      "来源": "新闻标题中提到的'committed copyright infringement'"
+    }
+  }
+}

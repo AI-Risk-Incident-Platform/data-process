@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceModificationSoftware rdf:type airo:AISystem ;
+    rdfs:label "语音修改软件"@zh ;
+    rdfs:label "Voice Modification Software"@en ;
+    airo:hasRisk ex:RacialBiasInVoiceModification ;
+    airo:hasPurpose ex:ModifyingSpeechPatternsToSoundWhiter ;
+    airo:isAppliedWithinDomain ex:SpeechTechnology ;
+    airo:hasStakeholder ex:CriticsOfVoiceModificationSoftware .
+
+ex:RacialBiasInVoiceModification rdf:type airo:Risk ;
+    rdfs:label "语音修改中的种族偏见风险"@zh ;
+    rdfs:label "Racial Bias in Voice Modification Risk"@en ;
+    airo:hasConsequence ex:ReinforcementOfRacialStereotypes .
+
+ex:CriticsOfVoiceModificationSoftware rdf:type airo:Stakeholder ;
+    rdfs:label "语音修改软件的批评者"@zh ;
+    rdfs:label "Critics of Voice Modification Software"@en .
+
+ex:ReinforcementOfRacialStereotypes rdf:type airo:Impact ;
+    rdfs:label "强化种族刻板印象的影响"@zh ;
+    rdfs:label "Reinforcement of Racial Stereotypes Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CriticsOfVoiceModificationSoftware .
+
+ex:ModifyingSpeechPatternsToSoundWhiter rdf:type airo:Purpose ;
+    rdfs:label "修改语音模式使其听起来更白人的目的"@zh ;
+    rdfs:label "Modifying Speech Patterns to Sound Whiter Purpose"@en .
+
+ex:SpeechTechnology rdf:type airo:Domain ;
+    rdfs:label "语音技术领域"@zh ;
+    rdfs:label "Speech Technology Domain"@en .

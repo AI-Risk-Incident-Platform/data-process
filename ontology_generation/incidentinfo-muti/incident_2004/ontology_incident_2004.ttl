@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AgeGenderMoodRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Age Gender Mood Recognition System"@en ;
+    rdfs:label "年龄性别情绪识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasCapability ex:FacialRecognitionCapability ;
+    airo:isDeployedBy ex:Walgreens ;
+    airo:isAppliedWithinDomain ex:RetailIndustry ;
+    airo:usesTechnique ex:ComputerVisionTechnique .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:FacialRecognitionCapability rdf:type airo:AICapability ;
+    rdfs:label "Facial Recognition Capability"@en ;
+    rdfs:label "面部识别能力"@zh .
+
+ex:Walgreens rdf:type airo:AIOperator ;
+    rdfs:label "Walgreens"@en ;
+    rdfs:label "沃尔格林"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry"@en ;
+    rdfs:label "零售行业"@zh .
+
+ex:ComputerVisionTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision Technique"@en ;
+    rdfs:label "计算机视觉技术"@zh .

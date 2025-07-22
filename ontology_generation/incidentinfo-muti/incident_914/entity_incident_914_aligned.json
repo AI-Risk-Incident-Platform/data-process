@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForDeepfakeScam",
+      "中文名称": "用于深度伪造诈骗的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI scam using her image"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "warn audience about AI scam using her image"
+    },
+    "Stakeholder": {
+      "id": "WhoopiGoldberg",
+      "中文名称": "乌比·戈德堡",
+      "英文名称": "Whoopi Goldberg",
+      "来源": "Whoopi Goldberg halts The View to warn audience"
+    },
+    "AISubject": {
+      "id": "AudienceMembers",
+      "中文名称": "观众成员",
+      "英文名称": "Attendees",
+      "来源": "warn audience about AI scam"
+    },
+    "Misuse": {
+      "id": "CelebrityImageMisuse",
+      "中文名称": "名人图像滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI scam using her image"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "'Do not indulge'"
+    },
+    "RiskControl": {
+      "id": "PublicWarning",
+      "中文名称": "公开警告",
+      "英文名称": "Public Warning",
+      "来源": "halts The View to warn audience"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForDeepfakeScam",
+      "中文名称": "用于深度伪造诈骗的AI系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "AI scam using her image"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "warn audience about AI scam using her image"
+    },
+    "Stakeholder": {
+      "id": "WhoopiGoldberg",
+      "中文名称": "乌比·戈德堡",
+      "英文名称": "Whoopi Goldberg",
+      "来源": "Whoopi Goldberg halts The View to warn audience"
+    },
+    "AISubject": {
+      "id": "AudienceMembers",
+      "中文名称": "观众成员",
+      "英文名称": "Attendees",
+      "来源": "warn audience about AI scam"
+    },
+    "Misuse": {
+      "id": "CelebrityImageMisuse",
+      "中文名称": "名人图像滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI scam using her image"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "'Do not indulge'"
+    },
+    "RiskControl": {
+      "id": "PublicWarning",
+      "中文名称": "公开警告",
+      "英文名称": "Public Warning",
+      "来源": "halts The View to warn audience"
+    }
+  }
+}

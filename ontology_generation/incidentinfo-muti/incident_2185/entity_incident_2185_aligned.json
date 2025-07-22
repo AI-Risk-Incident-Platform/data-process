@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfMiami",
+      "中文名称": "迈阿密大学",
+      "英文名称": "University of Miami",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "AISubject": {
+      "id": "StudentProtesters",
+      "中文名称": "学生抗议者",
+      "英文名称": "Student Protesters",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Impact": {
+      "id": "ChillingEffectOnFreeSpeech",
+      "中文名称": "对言论自由的寒蝉效应",
+      "英文名称": "Free Speech Suppression",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "Purpose": {
+      "id": "StudentIdentification",
+      "中文名称": "学生识别",
+      "英文名称": "Student Identification Purpose",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Domain": {
+      "id": "CampusSecurity",
+      "中文名称": "校园安全",
+      "英文名称": "School Security Domain",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物特征识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Vulnerability": {
+      "id": "LackOfConsentForBiometricDataCollection",
+      "中文名称": "缺乏生物特征数据收集的同意",
+      "英文名称": "Consent - Data Collection Vulnerability",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "RiskSource": {
+      "id": "SurveillanceTechnologyMisuse",
+      "中文名称": "监控技术滥用",
+      "英文名称": "Surveillance Technology Misuse Risk Source",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfMiami",
+      "中文名称": "迈阿密大学",
+      "英文名称": "University of Miami",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "AISubject": {
+      "id": "StudentProtesters",
+      "中文名称": "学生抗议者",
+      "英文名称": "Student Protesters",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Impact": {
+      "id": "ChillingEffectOnFreeSpeech",
+      "中文名称": "对言论自由的寒蝉效应",
+      "英文名称": "Free Speech Suppression",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "Purpose": {
+      "id": "StudentIdentification",
+      "中文名称": "学生识别",
+      "英文名称": "Student Identification Purpose",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Domain": {
+      "id": "CampusSecurity",
+      "中文名称": "校园安全",
+      "英文名称": "School Security Domain",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物特征识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Did a University Use Facial Recognition to ID Student Protesters?"
+    },
+    "Vulnerability": {
+      "id": "LackOfConsentForBiometricDataCollection",
+      "中文名称": "缺乏生物特征数据收集的同意",
+      "英文名称": "Consent - Data Collection Vulnerability",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    },
+    "RiskSource": {
+      "id": "SurveillanceTechnologyMisuse",
+      "中文名称": "监控技术滥用",
+      "英文名称": "Surveillance Technology Misuse Risk Source",
+      "来源": "How a Protest at the U. of Miami Reignited the Student-Surveillance Debate"
+    }
+  }
+}

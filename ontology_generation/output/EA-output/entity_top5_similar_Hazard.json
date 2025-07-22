@@ -1,0 +1,92 @@
+{
+  "Overly Familiar Response Patterns Hazard": [
+    [
+      "Bias in Training Data Hazard",
+      0.8696434349617962
+    ],
+    [
+      "Biased Training Data Hazard",
+      0.8495296562174706
+    ],
+    [
+      "Cultural Bias in Training Data Hazard",
+      0.8443973224366271
+    ],
+    [
+      "Inappropriate Content Uploads Hazard",
+      0.8214081561323444
+    ]
+  ],
+  "Cultural Bias in Training Data Hazard": [
+    [
+      "Biased Training Data Hazard",
+      0.9500717635569337
+    ],
+    [
+      "Bias in Training Data Hazard",
+      0.9495741839861543
+    ],
+    [
+      "Inappropriate Content Uploads Hazard",
+      0.8578659278455774
+    ],
+    [
+      "Overly Familiar Response Patterns Hazard",
+      0.8443973224366271
+    ]
+  ],
+  "Bias in Training Data Hazard": [
+    [
+      "Biased Training Data Hazard",
+      0.9758193538148391
+    ],
+    [
+      "Cultural Bias in Training Data Hazard",
+      0.9495741839861543
+    ],
+    [
+      "Overly Familiar Response Patterns Hazard",
+      0.8696434349617962
+    ],
+    [
+      "Inappropriate Content Uploads Hazard",
+      0.8366227985414812
+    ]
+  ],
+  "Inappropriate Content Uploads Hazard": [
+    [
+      "Cultural Bias in Training Data Hazard",
+      0.8578659278455774
+    ],
+    [
+      "Biased Training Data Hazard",
+      0.8384245684624702
+    ],
+    [
+      "Bias in Training Data Hazard",
+      0.8366227985414812
+    ],
+    [
+      "Overly Familiar Response Patterns Hazard",
+      0.8214081561323444
+    ]
+  ],
+  "Biased Training Data Hazard": [
+    [
+      "Bias in Training Data Hazard",
+      0.9758193538148391
+    ],
+    [
+      "Cultural Bias in Training Data Hazard",
+      0.9500717635569337
+    ],
+    [
+      "Overly Familiar Response Patterns Hazard",
+      0.8495296562174706
+    ],
+    [
+      "Inappropriate Content Uploads Hazard",
+      0.8384245684624702
+    ]
+  ]
+}

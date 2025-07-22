@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClaudeAI",
+      "中文名称": "Claude AI",
+      "英文名称": "Claude AI",
+      "来源": "Anthropic’s lawyer was forced to apologize after Claude hallucinated a legal citation"
+    },
+    "Risk": {
+      "id": "LegalCitationHallucinationRisk",
+      "中文名称": "法律引用幻觉风险",
+      "英文名称": "Legal Citation Hallucination Risk",
+      "来源": "Claude hallucinated a legal citation"
+    },
+    "Consequence": {
+      "id": "ForcedApologyFromLawyer",
+      "中文名称": "律师被迫道歉后果",
+      "英文名称": "Forced Apology from Lawyer Consequence",
+      "来源": "Anthropic’s lawyer was forced to apologize"
+    },
+    "Stakeholder": {
+      "id": "AnthropicLegalTeam",
+      "中文名称": "Anthropic法律团队",
+      "英文名称": "Anthropic Legal Team",
+      "来源": "Anthropic’s lawyer was forced to apologize"
+    },
+    "AIOperator": {
+      "id": "Anthropic",
+      "中文名称": "Anthropic公司",
+      "英文名称": "Anthropic",
+      "来源": "Anthropic’s lawyer was forced to apologize"
+    },
+    "RiskSource": {
+      "id": "AIHallucination",
+      "中文名称": "AI幻觉风险源",
+      "英文名称": "AI Hallucination Risk Source",
+      "来源": "Claude hallucinated a legal citation"
+    },
+    "Impact": {
+      "id": "LegalCredibilityDamage",
+      "中文名称": "法律可信度损害影响",
+      "英文名称": "Legal Credibility Damage Impact",
+      "来源": "Anthropic’s lawyer was forced to apologize after Claude hallucinated a legal citation"
+    }
+  }
+}

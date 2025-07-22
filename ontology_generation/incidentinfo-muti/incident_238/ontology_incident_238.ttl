@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WazeApp rdf:type airo:AISystem ;
+    rdfs:label "Waze App"@en ;
+    rdfs:label "Waze应用"@zh ;
+    airo:hasRisk ex:BlockedWildfireEscapeRouteRisk ;
+    airo:hasCapability ex:RealTimeTrafficRouting ;
+    airo:hasStakeholder ex:LosGatosResidents ;
+    airo:isAppliedWithinDomain ex:NavigationServices .
+
+ex:BlockedWildfireEscapeRouteRisk rdf:type airo:Risk ;
+    rdfs:label "Blocked Wildfire Escape Route Risk"@en ;
+    rdfs:label "阻断山火逃生路线风险"@zh ;
+    airo:hasConsequence ex:IncreasedMortalityRiskDuringWildfires .
+
+ex:IncreasedMortalityRiskDuringWildfires rdf:type airo:Consequence ;
+    rdfs:label "Increased Mortality Risk During Wildfires Consequence"@en ;
+    rdfs:label "山火期间死亡率上升后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:RealTimeTrafficRouting rdf:type airo:AICapability ;
+    rdfs:label "Real-Time Traffic Routing Capability"@en ;
+    rdfs:label "实时交通路线规划能力"@zh .
+
+ex:LosGatosResidents rdf:type airo:Stakeholder ;
+    rdfs:label "Los Gatos Residents"@en ;
+    rdfs:label "洛斯加托斯居民"@zh .
+
+ex:NavigationServices rdf:type airo:Domain ;
+    rdfs:label "Navigation Services Domain"@en ;
+    rdfs:label "导航服务领域"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:LosGatosResidents .

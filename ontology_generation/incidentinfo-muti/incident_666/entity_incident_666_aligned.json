@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Moldova Dismisses Deepfake Video Targeting President Sandu"
+    },
+    "Risk": {
+      "id": "PoliticalManipulationRisk",
+      "中文名称": "政治操纵风险",
+      "英文名称": "Political Manipulation Risk",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "Stakeholder": {
+      "id": "MoldovanGovernment",
+      "中文名称": "摩尔多瓦政府",
+      "英文名称": "Moldovan Government",
+      "来源": "Moldova Dismisses Deepfake Video Targeting President Sandu"
+    },
+    "AISubject": {
+      "id": "PresidentSandu",
+      "中文名称": "桑杜总统",
+      "英文名称": "President Sandu",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创建",
+      "英文名称": "Malicious Content Creation",
+      "来源": "Deepfake Video Targeting President Sandu"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Moldova Dismisses Deepfake Video Targeting President Sandu"
+    },
+    "Risk": {
+      "id": "PoliticalManipulationRisk",
+      "中文名称": "政治操纵风险",
+      "英文名称": "Political Manipulation Risk",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "Stakeholder": {
+      "id": "MoldovanGovernment",
+      "中文名称": "摩尔多瓦政府",
+      "英文名称": "Moldovan Government",
+      "来源": "Moldova Dismisses Deepfake Video Targeting President Sandu"
+    },
+    "AISubject": {
+      "id": "PresidentSandu",
+      "中文名称": "桑杜总统",
+      "英文名称": "President Sandu",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Video Targeting President Sandu"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创建",
+      "英文名称": "Malicious Content Creation",
+      "来源": "Deepfake Video Targeting President Sandu"
+    }
+  }
+}

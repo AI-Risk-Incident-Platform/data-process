@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RiteAidFacialRecognitionSystem",
+      "中文名称": "Rite Aid面部识别系统",
+      "英文名称": "Rite Aid Facial Recognition System",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Stakeholder": {
+      "id": "RiteAidCorporation",
+      "中文名称": "Rite Aid公司",
+      "英文名称": "Rite Aid Corporation",
+      "来源": "Rite Aid Drops Facial Recognition Tech"
+    },
+    "AIOperator": {
+      "id": "RiteAidStores",
+      "中文名称": "Rite Aid商店",
+      "英文名称": "Rite Aid",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售行业",
+      "英文名称": "Retail Industry",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Consequence": {
+      "id": "CustomerPrivacyCompromise",
+      "中文名称": "顾客隐私泄露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Rite Aid Drops Facial Recognition Tech"
+    },
+    "RiskSource": {
+      "id": "CovertSurveillance",
+      "中文名称": "秘密监控风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "AITechnique": {
+      "id": "RealTimeFacialAnalysis",
+      "中文名称": "实时面部分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Purpose": {
+      "id": "LossPrevention",
+      "中文名称": "防损目的",
+      "英文名称": "Loss Prevention Purpose",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RiteAidFacialRecognitionSystem",
+      "中文名称": "Rite Aid面部识别系统",
+      "英文名称": "Rite Aid Facial Recognition System",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Stakeholder": {
+      "id": "RiteAidCorporation",
+      "中文名称": "Rite Aid公司",
+      "英文名称": "Rite Aid Corporation",
+      "来源": "Rite Aid Drops Facial Recognition Tech"
+    },
+    "AIOperator": {
+      "id": "RiteAidStores",
+      "中文名称": "Rite Aid商店",
+      "英文名称": "Rite Aid",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售行业",
+      "英文名称": "Retail Industry",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Consequence": {
+      "id": "CustomerPrivacyCompromise",
+      "中文名称": "顾客隐私泄露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任度下降影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Rite Aid Drops Facial Recognition Tech"
+    },
+    "RiskSource": {
+      "id": "CovertSurveillance",
+      "中文名称": "秘密监控风险源",
+      "英文名称": "Surveillance Risk Source",
+      "来源": "Rite Aid used facial recognition in secret across hundreds of its stores"
+    },
+    "AITechnique": {
+      "id": "RealTimeFacialAnalysis",
+      "中文名称": "实时面部分析技术",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    },
+    "Purpose": {
+      "id": "LossPrevention",
+      "中文名称": "防损目的",
+      "英文名称": "Loss Prevention Purpose",
+      "来源": "Rite Aid Used Facial Recognition in Stores for Nearly a Decade"
+    }
+  }
+}

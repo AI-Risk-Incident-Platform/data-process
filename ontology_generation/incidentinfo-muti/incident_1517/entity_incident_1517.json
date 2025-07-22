@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AirCanadaChatbot",
+      "中文名称": "加拿大航空聊天机器人",
+      "英文名称": "Air Canada Chatbot",
+      "来源": "Air Canada found liable for chatbot's bad advice on plane tickets"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "错误信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Air Canada Chatbot Lied About Bereavement Discount, Refund"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失后果",
+      "英文名称": "Financial Loss Consequence",
+      "来源": "Air Canada must pay B.C. man hundreds for chatbot error"
+    },
+    "AIOperator": {
+      "id": "AirCanada",
+      "中文名称": "加拿大航空公司",
+      "英文名称": "Air Canada",
+      "来源": "Air Canada found liable for chatbot's bad advice on plane tickets"
+    },
+    "Stakeholder": {
+      "id": "Customer",
+      "中文名称": "客户",
+      "英文名称": "Customer",
+      "来源": "Air Canada must pay B.C. man hundreds for chatbot error"
+    },
+    "Impact": {
+      "id": "CustomerTrustErosion",
+      "中文名称": "客户信任度下降影响",
+      "英文名称": "Customer Trust Erosion Impact",
+      "来源": "Air Canada Chatbot Lied About Bereavement Discount, Refund"
+    },
+    "Purpose": {
+      "id": "CustomerServiceAutomation",
+      "中文名称": "客户服务自动化目的",
+      "英文名称": "Customer Service Automation Purpose",
+      "来源": "Air Canada found liable for chatbot's bad advice on plane tickets"
+    },
+    "Domain": {
+      "id": "AirlineIndustry",
+      "中文名称": "航空业领域",
+      "英文名称": "Airline Industry Domain",
+      "来源": "Air Canada found liable for chatbot's bad advice on plane tickets"
+    },
+    "RiskSource": {
+      "id": "IncorrectTrainingData",
+      "中文名称": "错误训练数据风险源",
+      "英文名称": "Incorrect Training Data Risk Source",
+      "来源": "Air Canada Chatbot Lied About Bereavement Discount, Refund"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Felony charges are 1st in a fatal crash involving Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges"
+    },
+    "Consequence": {
+      "id": "FatalTrafficAccident",
+      "中文名称": "致命交通事故后果",
+      "英文名称": "Fatal Traffic Accident Consequence",
+      "来源": "Tesla driver pleads not guilty in deadly crash while autopilot was engaged"
+    },
+    "AIOperator": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges"
+    },
+    "Stakeholder": {
+      "id": "LegalSystem",
+      "中文名称": "司法系统",
+      "英文名称": "Legal System",
+      "来源": "Felony charges are 1st in a fatal crash involving Autopilot"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Tesla driver pleads not guilty in deadly crash while autopilot was engaged"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "A Tesla driver who had his car on Autopilot in a fatal crash"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Felony charges are 1st in a fatal crash involving Autopilot"
+    },
+    "RiskSource": {
+      "id": "HumanOverrelianceOnAutopilot",
+      "中文名称": "人类过度依赖自动驾驶的风险源",
+      "英文名称": "Human Overreliance on Autopilot Risk Source",
+      "来源": "A Tesla driver who had his car on Autopilot in a fatal crash"
+    },
+    "Vulnerability": {
+      "id": "SystemLimitationsInEmergencySituations",
+      "中文名称": "紧急情况下系统局限性的脆弱性",
+      "英文名称": "System Limitations in Emergency Situations Vulnerability",
+      "来源": "Tesla driver pleads not guilty in deadly crash while autopilot was engaged"
+    }
+  }
+}

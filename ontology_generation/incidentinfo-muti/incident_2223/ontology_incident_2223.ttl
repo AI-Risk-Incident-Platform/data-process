@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAutomatedHRSystem rdf:type airo:AISystem ;
+    rdfs:label "Amazon Automated HR System"@en ;
+    rdfs:label "亚马逊自动化人力资源系统"@zh ;
+    airo:hasRisk ex:EmployeeConcernsOverAutomatedDecisions ;
+    airo:hasStakeholder ex:AmazonEmployees ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:isAppliedWithinDomain ex:HumanResources .
+
+ex:EmployeeConcernsOverAutomatedDecisions rdf:type airo:Risk ;
+    rdfs:label "Employee Concerns Over Automated Decisions Risk"@en ;
+    rdfs:label "员工对自动化决策的担忧风险"@zh .
+
+ex:AmazonEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Employees"@en ;
+    rdfs:label "亚马逊员工"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "Human Resources"@en ;
+    rdfs:label "人力资源"@zh .

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGunDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Gun Detection System"@en ;
+    rdfs:label "AI枪支检测系统"@zh ;
+    airo:hasRisk ex:FailureToDetectWeaponsRisk ;
+    airo:hasStakeholder ex:AntiochHighSchool ;
+    airo:isAppliedWithinDomain ex:SchoolSecurity .
+
+ex:FailureToDetectWeaponsRisk rdf:type airo:Risk ;
+    rdfs:label "Failure to Detect Weapons Risk"@en ;
+    rdfs:label "未能检测武器的风险"@zh ;
+    airo:hasConsequence ex:FatalSchoolShooting ;
+    airo:isRiskSourceFor ex:SystemFailure .
+
+ex:FatalSchoolShooting rdf:type airo:Consequence ;
+    rdfs:label "Fatal School Shooting Consequence"@en ;
+    rdfs:label "致命校园枪击后果"@zh ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:AntiochHighSchool rdf:type airo:Stakeholder ;
+    rdfs:label "Antioch High School"@en ;
+    rdfs:label "安提阿高中"@zh .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AntiochHighSchool .
+
+ex:SchoolSecurity rdf:type airo:Domain ;
+    rdfs:label "School Security Domain"@en ;
+    rdfs:label "校园安全领域"@zh .
+
+ex:SystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "System Failure Risk Source"@en ;
+    rdfs:label "系统故障风险源"@zh .

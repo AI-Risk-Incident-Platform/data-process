@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "ChatGPT Creator Faces Multiple Lawsuits Over Copyright, Privacy Violations"
+    },
+    "Consequence": {
+      "id": "DataTheft",
+      "中文名称": "数据盗窃",
+      "英文名称": "Data Theft",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "AIOperator": {
+      "id": "OpenAIProvider",
+      "中文名称": "OpenAI提供者",
+      "英文名称": "OpenAI Provider",
+      "来源": "ChatGPT Creator OpenAI Sued for Theft of Private Data in ‘AI Arms Race’"
+    },
+    "Impact": {
+      "id": "LegalAndFinancialImpact",
+      "中文名称": "法律和财务影响",
+      "英文名称": "Legal and Financial Impact",
+      "来源": "ChatGPT Creator Faces Multiple Lawsuits Over Copyright, Privacy Violations"
+    },
+    "RiskSource": {
+      "id": "DataCollectionWithoutConsent",
+      "中文名称": "未经同意的数据收集",
+      "英文名称": "Data Collection Without Consent",
+      "来源": "ChatGPT maker OpenAI faces a lawsuit over how it used people’s data"
+    },
+    "Domain": {
+      "id": "AIAndDataPrivacy",
+      "中文名称": "人工智能与数据隐私",
+      "英文名称": "AI and Data Privacy",
+      "来源": "ChatGPT Creator Faces Multiple Lawsuits Over Copyright, Privacy Violations"
+    }
+  }
+}

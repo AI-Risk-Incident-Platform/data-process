@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    },
+    "Consequence": {
+      "id": "MotorcyclistFatality",
+      "中文名称": "摩托车手死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla sued after motorcyclist's death"
+    },
+    "Stakeholder": {
+      "id": "VictimFamily",
+      "中文名称": "受害者家属",
+      "英文名称": "Victim Families",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Tesla sued after motorcyclist's death"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    },
+    "Consequence": {
+      "id": "MotorcyclistFatality",
+      "中文名称": "摩托车手死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla sued after motorcyclist's death"
+    },
+    "Stakeholder": {
+      "id": "VictimFamily",
+      "中文名称": "受害者家属",
+      "英文名称": "Victim Families",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla is sued by family of man who was killed by car using Autopilot"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Tesla sued after motorcyclist's death"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "Tesla Autopilot Technology Killed a Man in Japan, According to This Lawsuit"
+    }
+  }
+}

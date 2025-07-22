@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EdmodoPlatform rdf:type airo:AISystem ;
+    rdfs:label "Edmodo Platform"@en ;
+    rdfs:label "Edmodo平台"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:SchoolDistricts ;
+    airo:isDevelopedBy ex:Edmodo ;
+    airo:hasPurpose ex:EducationalTechnologyService ;
+    airo:isAppliedWithinDomain ex:EducationTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:ChildrenPersonalDataMisuse ;
+    airo:isRiskSourceFor ex:InadequateDataProtectionMeasures .
+
+ex:SchoolDistricts rdf:type airo:Stakeholder ;
+    rdfs:label "School Districts"@en ;
+    rdfs:label "学区"@zh .
+
+ex:Edmodo rdf:type airo:AIOperator ;
+    rdfs:label "Edmodo"@en ;
+    rdfs:label "Edmodo"@zh .
+
+ex:ChildrenPersonalDataMisuse rdf:type airo:Consequence ;
+    rdfs:label "Children Personal Data Misuse Consequence"@en ;
+    rdfs:label "儿童个人数据滥用后果"@zh ;
+    airo:hasImpact ex:ChildrenPrivacyHarm .
+
+ex:ChildrenPrivacyHarm rdf:type airo:Impact ;
+    rdfs:label "Children Privacy Harm Impact"@en ;
+    rdfs:label "儿童隐私损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SchoolDistricts .
+
+ex:EducationalTechnologyService rdf:type airo:Purpose ;
+    rdfs:label "Educational Technology Service Purpose"@en ;
+    rdfs:label "教育技术服务目的"@zh .
+
+ex:EducationTechnology rdf:type airo:Domain ;
+    rdfs:label "Education Technology Domain"@en ;
+    rdfs:label "教育技术领域"@zh .
+
+ex:InadequateDataProtectionMeasures rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Data Protection Measures Risk Source"@en ;
+    rdfs:label "数据保护措施不足风险源"@zh .

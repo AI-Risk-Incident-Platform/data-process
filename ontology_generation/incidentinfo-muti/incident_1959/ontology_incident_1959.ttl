@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MyAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "My AI Chatbot"@en ;
+    rdfs:label "My AI聊天机器人"@zh ;
+    airo:hasRisk ex:LocationPrivacyRisk ;
+    airo:hasAISubject ex:ChatbotUsers ;
+    airo:hasStakeholder ex:SnapInc .
+
+ex:LocationPrivacyRisk rdf:type airo:Risk ;
+    rdfs:label "Location Privacy Risk"@en ;
+    rdfs:label "位置隐私风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolation ;
+    airo:isRiskSourceFor ex:FalseLocationInformation .
+
+ex:ChatbotUsers rdf:type airo:AISubject ;
+    rdfs:label "Chatbot Users"@en ;
+    rdfs:label "聊天机器人用户"@zh .
+
+ex:PrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation"@en ;
+    rdfs:label "隐私侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatbotUsers .
+
+ex:SnapInc rdf:type airo:Stakeholder ;
+    rdfs:label "Snap Inc."@en ;
+    rdfs:label "Snap公司"@zh .
+
+ex:FalseLocationInformation rdf:type airo:RiskSource ;
+    rdfs:label "False Location Information"@en ;
+    rdfs:label "虚假位置信息"@zh .

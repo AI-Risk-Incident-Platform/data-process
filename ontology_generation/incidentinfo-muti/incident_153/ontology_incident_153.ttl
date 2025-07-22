@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WebsiteAccessibilityOverlay rdf:type airo:AISystem ;
+    rdfs:label "Website Accessibility Overlay"@en ;
+    rdfs:label "网站无障碍覆盖工具"@zh ;
+    airo:hasRisk ex:FalseAccessibilityClaimsRisk ;
+    airo:hasStakeholder ex:DisabledUsers .
+
+ex:FalseAccessibilityClaimsRisk rdf:type airo:Risk ;
+    rdfs:label "False Accessibility Claims Risk"@en ;
+    rdfs:label "虚假无障碍声明风险"@zh ;
+    airo:isRiskSourceFor ex:DeceptiveMarketingPractices ;
+    airo:hasImpact ex:ExclusionOfDisabledUsers .
+
+ex:DisabledUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Disabled Users"@en ;
+    rdfs:label "残障用户"@zh .
+
+ex:ExclusionOfDisabledUsers rdf:type airo:Impact ;
+    rdfs:label "Exclusion of Disabled Users Impact"@en ;
+    rdfs:label "残障用户被排除的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DisabledUsers .
+
+ex:DeceptiveMarketingPractices rdf:type airo:RiskSource ;
+    rdfs:label "Deceptive Marketing Practices Risk Source"@en ;
+    rdfs:label "欺骗性营销行为风险源"@zh .

@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasAICapability ex:AdaptiveCruiseControl ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:TeslaVehicleOwners ;
+    airo:hasAISubject ex:OtherRoadUsers ;
+    airo:hasPurpose ex:AutomatedDrivingAssistance ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionBasedObjectDetection ;
+    airo:hasVulnerability ex:StationaryObjectDetectionFailure .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    airo:hasConsequence ex:VehicleDamageAndPotentialInjury ;
+    airo:isRiskSourceFor ex:SystemOverrelianceByDrivers ;
+    airo:isRiskSourceFor ex:UnpredictableRoadConditions ;
+    airo:isRiskSourceFor ex:MalfunctioningSensorSystem .
+
+ex:VehicleDamageAndPotentialInjury rdf:type airo:Consequence ;
+    rdfs:label "车辆损坏和潜在伤害后果"@zh ;
+    rdfs:label "Vehicle Damage and Potential Injury Consequence"@en ;
+    airo:hasImpact ex:RoadSafetyConcerns .
+
+ex:AdaptiveCruiseControl rdf:type airo:AICapability ;
+    rdfs:label "自适应巡航控制能力"@zh ;
+    rdfs:label "Adaptive Cruise Control Capability"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:TeslaVehicleOwners rdf:type airo:Stakeholder ;
+    rdfs:label "特斯拉车主"@zh ;
+    rdfs:label "Tesla Vehicle Owners"@en .
+
+ex:OtherRoadUsers rdf:type airo:AISubject ;
+    rdfs:label "其他道路使用者"@zh ;
+    rdfs:label "Other Road Users"@en .
+
+ex:RoadSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "道路安全问题影响"@zh ;
+    rdfs:label "Road Safety Concerns Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TeslaVehicleOwners ;
+    airo:hasImpactOnStakeholder ex:OtherRoadUsers .
+
+ex:AutomatedDrivingAssistance rdf:type airo:Purpose ;
+    rdfs:label "自动驾驶辅助目的"@zh ;
+    rdfs:label "Automated Driving Assistance Purpose"@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:ComputerVisionBasedObjectDetection rdf:type airo:AITechnique ;
+    rdfs:label "基于计算机视觉的物体检测技术"@zh ;
+    rdfs:label "Computer Vision Based Object Detection Technique"@en .
+
+ex:StationaryObjectDetectionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "静止物体检测失败的脆弱性"@zh ;
+    rdfs:label "Stationary Object Detection Failure Vulnerability"@en .
+
+ex:UnpredictableRoadConditions rdf:type airo:Threat ;
+    rdfs:label "不可预测的道路条件威胁"@zh ;
+    rdfs:label "Unpredictable Road Conditions Threat"@en .
+
+ex:MalfunctioningSensorSystem rdf:type airo:Hazard ;
+    rdfs:label "传感器系统故障危害"@zh ;
+    rdfs:label "Malfunctioning Sensor System Hazard"@en .
+
+ex:SystemOverrelianceByDrivers rdf:type airo:RiskSource ;
+    rdfs:label "驾驶员过度依赖系统的风险源"@zh ;
+    rdfs:label "System Overreliance by Drivers Risk Source"@en .
+
+ex:AutonomousVehicleSafetyChallenges rdf:type airo:RiskConcept ;
+    rdfs:label "自动驾驶车辆安全挑战"@zh ;
+    rdfs:label "Autonomous Vehicle Safety Challenges Risk Concept"@en .

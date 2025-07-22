@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIgeneratedVideo rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Video"@en ;
+    rdfs:label "AI生成视频"@zh ;
+    airo:hasRisk ex:PoliticalMisinformationRisk ;
+    airo:hasStakeholder ex:ZambianPresident ;
+    airo:isAppliedWithinDomain ex:PoliticalCommunication .
+
+ex:PoliticalMisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Misinformation Risk"@en ;
+    rdfs:label "政治虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicDeception .
+
+ex:ZambianPresident rdf:type airo:Stakeholder ;
+    rdfs:label "Zambian President"@en ;
+    rdfs:label "赞比亚总统"@zh .
+
+ex:PublicDeception rdf:type airo:Impact ;
+    rdfs:label "Public Deception"@en ;
+    rdfs:label "公众欺骗"@zh ;
+    airo:hasImpactOnStakeholder ex:ZambianPresident .
+
+ex:PoliticalCommunication rdf:type airo:Domain ;
+    rdfs:label "Political Communication"@en ;
+    rdfs:label "政治传播"@zh .

@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EasyMileSelfDrivingShuttle rdf:type airo:AISystem ;
+    rdfs:label "EasyMile Self-Driving Shuttle"@en ;
+    rdfs:label "EasyMile自动驾驶班车"@zh ;
+    airo:hasRisk ex:PassengerInjuryRisk ;
+    airo:hasPurpose ex:AutonomousPublicTransport ;
+    airo:isAppliedWithinDomain ex:Transportation ;
+    airo:hasStakeholder ex:Passengers ;
+    airo:isDeployedBy ex:EasyMile .
+
+ex:PassengerInjuryRisk rdf:type airo:Risk ;
+    rdfs:label "Passenger Injury Risk"@en ;
+    rdfs:label "乘客受伤风险"@zh ;
+    airo:hasConsequence ex:PassengerInjury ;
+    airo:isRiskSourceFor ex:SuddenStop ;
+    airo:hasRiskControl ex:ServiceSuspension .
+
+ex:PassengerInjury rdf:type airo:Consequence ;
+    rdfs:label "Passenger Injury Consequence"@en ;
+    rdfs:label "乘客受伤后果"@zh ;
+    airo:hasImpact ex:PhysicalHarm .
+
+ex:EasyMile rdf:type airo:AIOperator ;
+    rdfs:label "EasyMile"@en ;
+    rdfs:label "EasyMile公司"@zh .
+
+ex:Passengers rdf:type airo:Stakeholder ;
+    rdfs:label "Passengers"@en ;
+    rdfs:label "乘客"@zh .
+
+ex:PhysicalHarm rdf:type airo:Impact ;
+    rdfs:label "Physical Harm Impact"@en ;
+    rdfs:label "身体伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Passengers .
+
+ex:AutonomousPublicTransport rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Public Transport Purpose"@en ;
+    rdfs:label "自动驾驶公共交通目的"@zh .
+
+ex:Transportation rdf:type airo:Domain ;
+    rdfs:label "Transportation Domain"@en ;
+    rdfs:label "交通运输领域"@zh .
+
+ex:SuddenStop rdf:type airo:RiskSource ;
+    rdfs:label "Sudden Stop Risk Source"@en ;
+    rdfs:label "突然停止风险源"@zh .
+
+ex:ServiceSuspension rdf:type airo:RiskControl ;
+    rdfs:label "Service Suspension Risk Control"@en ;
+    rdfs:label "服务暂停管控"@zh .

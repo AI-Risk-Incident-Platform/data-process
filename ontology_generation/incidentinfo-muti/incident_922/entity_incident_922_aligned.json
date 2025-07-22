@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LicencePlateRecognitionSystem",
+      "中文名称": "车牌识别系统",
+      "英文名称": "License Plate Recognition",
+      "来源": "Parents wrongly stung with parking fines during drop-offs due to inaccuracy of licence plate cameras"
+    },
+    "Risk": {
+      "id": "InaccurateParkingFinesRisk",
+      "中文名称": "不准确停车罚款风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Parents wrongly stung with parking fines during drop-offs due to inaccuracy of licence plate cameras"
+    },
+    "Consequence": {
+      "id": "UnjustFinancialPenalty",
+      "中文名称": "不公正经济处罚后果",
+      "英文名称": "Unjust Financial Consequence",
+      "来源": "Parents wrongly stung with parking fines"
+    },
+    "AISubject": {
+      "id": "ParentsDroppingOffChildren",
+      "中文名称": "接送孩子的家长",
+      "英文名称": "Parents Dropping Off Children",
+      "来源": "Parents wrongly stung with parking fines during drop-offs"
+    },
+    "RiskSource": {
+      "id": "CameraInaccuracy",
+      "中文名称": "摄像头不准确风险源",
+      "英文名称": "Camera Inaccuracy Risk Source",
+      "来源": "due to inaccuracy of licence plate cameras"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LicencePlateRecognitionSystem",
+      "中文名称": "车牌识别系统",
+      "英文名称": "License Plate Recognition",
+      "来源": "Parents wrongly stung with parking fines during drop-offs due to inaccuracy of licence plate cameras"
+    },
+    "Risk": {
+      "id": "InaccurateParkingFinesRisk",
+      "中文名称": "不准确停车罚款风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Parents wrongly stung with parking fines during drop-offs due to inaccuracy of licence plate cameras"
+    },
+    "Consequence": {
+      "id": "UnjustFinancialPenalty",
+      "中文名称": "不公正经济处罚后果",
+      "英文名称": "Unjust Financial Consequence",
+      "来源": "Parents wrongly stung with parking fines"
+    },
+    "AISubject": {
+      "id": "ParentsDroppingOffChildren",
+      "中文名称": "接送孩子的家长",
+      "英文名称": "Parents Dropping Off Children",
+      "来源": "Parents wrongly stung with parking fines during drop-offs"
+    },
+    "RiskSource": {
+      "id": "CameraInaccuracy",
+      "中文名称": "摄像头不准确风险源",
+      "英文名称": "Camera Inaccuracy Risk Source",
+      "来源": "due to inaccuracy of licence plate cameras"
+    }
+  }
+}

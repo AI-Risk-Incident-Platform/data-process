@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:LargeAIModels rdf:type airo:AISystem ;
+    rdfs:label "大型AI模型"@zh ;
+    rdfs:label "Large AI Models"@en ;
+    airo:hasRisk ex:EthicalAndSafetyConcerns ;
+    airo:isAppliedWithinDomain ex:ArtificialIntelligenceDevelopment ;
+    airo:hasStakeholder ex:USGovernment .
+
+ex:EthicalAndSafetyConcerns rdf:type airo:Risk ;
+    rdfs:label "伦理与安全担忧风险"@zh ;
+    rdfs:label "Ethical and Safety Concerns Risk"@en ;
+    airo:isRiskSourceFor ex:WebDataQualityIssues ;
+    airo:hasConsequence ex:BiasPropagation .
+
+ex:ArtificialIntelligenceDevelopment rdf:type airo:Domain ;
+    rdfs:label "人工智能开发领域"@zh ;
+    rdfs:label "Artificial Intelligence Development Domain"@en .
+
+ex:USGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "美国政府"@zh ;
+    rdfs:label "US Government"@en .
+
+ex:WebDataQualityIssues rdf:type airo:RiskSource ;
+    rdfs:label "网络数据质量问题风险源"@zh ;
+    rdfs:label "Web Data Quality Issues Risk Source"@en .
+
+ex:BiasPropagation rdf:type airo:Consequence ;
+    rdfs:label "偏见传播后果"@zh ;
+    rdfs:label "Bias Propagation Consequence"@en .

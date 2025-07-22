@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HospitalAIAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Hospital AI Algorithm"@en ;
+    rdfs:label "医院AI算法"@zh ;
+    airo:hasRisk ex:UntestedAlgorithmRisk ;
+    airo:hasStakeholder ex:Physicians ;
+    airo:isDeployedBy ex:Hospitals .
+
+ex:UntestedAlgorithmRisk rdf:type airo:Risk ;
+    rdfs:label "Untested Algorithm Risk"@en ;
+    rdfs:label "未经充分测试的算法风险"@zh ;
+    airo:hasConsequence ex:UnreliablePredictions ;
+    airo:isRiskSourceFor ex:LackOfTesting .
+
+ex:Physicians rdf:type airo:Stakeholder ;
+    rdfs:label "Physicians"@en ;
+    rdfs:label "医生"@zh .
+
+ex:Hospitals rdf:type airo:AIDeployer ;
+    rdfs:label "Hospitals"@en ;
+    rdfs:label "医院"@zh .
+
+ex:LackOfTesting rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Testing"@en ;
+    rdfs:label "缺乏测试"@zh .
+
+ex:UnreliablePredictions rdf:type airo:Consequence ;
+    rdfs:label "Unreliable Predictions"@en ;
+    rdfs:label "不可靠的预测"@zh ;
+    airo:hasImpact ex:PatientSafetyThreat .
+
+ex:PatientSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Patient Safety Threat"@en ;
+    rdfs:label "患者安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:Physicians .

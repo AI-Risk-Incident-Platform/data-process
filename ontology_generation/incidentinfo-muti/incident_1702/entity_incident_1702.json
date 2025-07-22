@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LiveFaceRecognitionCameraSystem",
+      "中文名称": "实时人脸识别摄像头系统",
+      "英文名称": "Live Face Recognition Camera System",
+      "来源": "Sports Direct owner defends live face-recognition camera use"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "MPs condemn Frasers Group’s use of facial recognition cameras in stores"
+    },
+    "Stakeholder": {
+      "id": "FrasersGroup",
+      "中文名称": "弗雷泽集团",
+      "英文名称": "Frasers Group",
+      "来源": "MPs condemn Frasers Group’s use of facial recognition cameras in stores"
+    },
+    "AIOperator": {
+      "id": "SportsDirectOwner",
+      "中文名称": "Sports Direct所有者",
+      "英文名称": "Sports Direct Owner",
+      "来源": "Sports Direct owner defends live face-recognition camera use"
+    },
+    "Domain": {
+      "id": "RetailSurveillance",
+      "中文名称": "零售监控领域",
+      "英文名称": "Retail Surveillance Domain",
+      "来源": "UK civil society considers which AI controversies we need, goes back to the LFR well"
+    },
+    "Impact": {
+      "id": "PublicConcernOverPrivacy",
+      "中文名称": "公众对隐私的担忧影响",
+      "英文名称": "Public Concern Over Privacy Impact",
+      "来源": "MPs condemn Frasers Group’s use of facial recognition cameras in stores"
+    }
+  }
+}

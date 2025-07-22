@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BorderControlLieDetector",
+      "中文名称": "边境控制测谎仪",
+      "英文名称": "Border Control Lie Detector",
+      "来源": "EU: Secrecy of border control 'lie detector' research project examined in court"
+    },
+    "Risk": {
+      "id": "LackOfTransparencyInLieDetectorTech",
+      "中文名称": "测谎技术缺乏透明度风险",
+      "英文名称": "Lack of Transparency in Lie Detector Tech Risk",
+      "来源": "MEP: Public has a ‘right to know’ about Commission’s lie detector tech"
+    },
+    "Stakeholder": {
+      "id": "EuropeanCommission",
+      "中文名称": "欧盟委员会",
+      "英文名称": "European Commission",
+      "来源": "MEP: Public has a ‘right to know’ about Commission’s lie detector tech"
+    },
+    "RiskSource": {
+      "id": "SecrecyInResearchProject",
+      "中文名称": "研究项目保密性风险源",
+      "英文名称": "Secrecy in Research Project Risk Source",
+      "来源": "EU: Secrecy of border control 'lie detector' research project examined in court"
+    },
+    "Impact": {
+      "id": "PublicDistrustInAITechnology",
+      "中文名称": "公众对AI技术不信任的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Tone-deaf AI advocates need a transparency algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "BorderControlLieDetector",
+      "中文名称": "边境控制测谎仪",
+      "英文名称": "Border Control Lie Detector",
+      "来源": "EU: Secrecy of border control 'lie detector' research project examined in court"
+    },
+    "Risk": {
+      "id": "LackOfTransparencyInLieDetectorTech",
+      "中文名称": "测谎技术缺乏透明度风险",
+      "英文名称": "Lack of Transparency in Lie Detector Tech Risk",
+      "来源": "MEP: Public has a ‘right to know’ about Commission’s lie detector tech"
+    },
+    "Stakeholder": {
+      "id": "EuropeanCommission",
+      "中文名称": "欧盟委员会",
+      "英文名称": "European Commission",
+      "来源": "MEP: Public has a ‘right to know’ about Commission’s lie detector tech"
+    },
+    "RiskSource": {
+      "id": "SecrecyInResearchProject",
+      "中文名称": "研究项目保密性风险源",
+      "英文名称": "Secrecy in Research Project Risk Source",
+      "来源": "EU: Secrecy of border control 'lie detector' research project examined in court"
+    },
+    "Impact": {
+      "id": "PublicDistrustInAITechnology",
+      "中文名称": "公众对AI技术不信任的影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "Tone-deaf AI advocates need a transparency algorithm"
+    }
+  }
+}

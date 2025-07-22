@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokAI rdf:type airo:AISystem ;
+    rdfs:label "TikTok AI System"@en ;
+    rdfs:label "TikTok人工智能系统"@zh ;
+    airo:hasRisk ex:ImpersonationScamRisk ;
+    airo:hasAISubject ex:AndrewTatePersona ;
+    airo:hasStakeholder ex:TikTokUsers ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:ImpersonationScamRisk rdf:type airo:Risk ;
+    rdfs:label "Impersonation Scam Risk"@en ;
+    rdfs:label "冒充诈骗风险"@zh ;
+    airo:hasConsequence ex:MassDeception ;
+    airo:isRiskSourceFor ex:AIIdentityTheft .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Users"@en ;
+    rdfs:label "TikTok用户"@zh .
+
+ex:AndrewTatePersona rdf:type airo:AISubject ;
+    rdfs:label "Andrew Tate Persona"@en ;
+    rdfs:label "Andrew Tate形象"@zh .
+
+ex:AIIdentityTheft rdf:type airo:Misuse ;
+    rdfs:label "AI Identity Theft"@en ;
+    rdfs:label "AI身份盗用"@zh .
+
+ex:MassDeception rdf:type airo:Consequence ;
+    rdfs:label "Mass Deception Consequence"@en ;
+    rdfs:label "大规模欺骗后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TikTokUsers .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

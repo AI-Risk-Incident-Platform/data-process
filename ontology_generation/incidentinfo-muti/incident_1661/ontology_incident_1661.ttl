@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAutocompleteSystem rdf:type airo:AISystem ;
+    rdfs:label "Google Autocomplete System"@en ;
+    rdfs:label "谷歌自动补全系统"@zh ;
+    airo:hasRisk ex:AntiSemiticContentRisk ;
+    airo:hasCapability ex:SearchQueryPrediction ;
+    airo:hasStakeholder ex:JewishCommunity .
+
+ex:AntiSemiticContentRisk rdf:type airo:Risk ;
+    rdfs:label "Anti-Semitic Content Risk"@en ;
+    rdfs:label "反犹太内容风险"@zh ;
+    airo:hasConsequence ex:SpreadOfHateSpeech ;
+    airo:isRiskSourceFor ex:UserInputBias .
+
+ex:SpreadOfHateSpeech rdf:type airo:Consequence ;
+    rdfs:label "Spread of Hate Speech Consequence"@en ;
+    rdfs:label "仇恨言论传播后果"@zh ;
+    airo:hasImpact ex:SocialHarm .
+
+ex:SearchQueryPrediction rdf:type airo:AICapability ;
+    rdfs:label "Search Query Prediction Capability"@en ;
+    rdfs:label "搜索查询预测能力"@zh .
+
+ex:JewishCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Jewish Community"@en ;
+    rdfs:label "犹太社区"@zh .
+
+ex:UserInputBias rdf:type airo:RiskSource ;
+    rdfs:label "User Input Bias Risk Source"@en ;
+    rdfs:label "用户输入偏见风险源"@zh .
+
+ex:SocialHarm rdf:type airo:Impact ;
+    rdfs:label "Social Harm Impact"@en ;
+    rdfs:label "社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JewishCommunity .

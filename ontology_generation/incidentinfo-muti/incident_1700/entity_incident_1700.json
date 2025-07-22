@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIWrittenArticle",
+      "中文名称": "AI撰写的文章",
+      "英文名称": "AI Written Article",
+      "来源": "Irish Times article calling fake tan racist ‘was written by AI’"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "Irish Times editor says paper fell victim to 'coordinated deception' on hoax fake tan article"
+    },
+    "Consequence": {
+      "id": "PublicationOfFalseContent",
+      "中文名称": "发布虚假内容后果",
+      "英文名称": "Publication of False Content Consequence",
+      "来源": "Paper forced to delete 'woke' spray tan article after learning it got duped by AI"
+    },
+    "Stakeholder": {
+      "id": "IrishTimes",
+      "中文名称": "爱尔兰时报",
+      "英文名称": "Irish Times",
+      "来源": "Irish Times editor says paper fell victim to 'coordinated deception' on hoax fake tan article"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputation Damage Impact",
+      "来源": "Paper forced to delete 'woke' spray tan article after learning it got duped by AI"
+    },
+    "RiskSource": {
+      "id": "AIHoax",
+      "中文名称": "AI恶作剧风险源",
+      "英文名称": "AI Hoax Risk Source",
+      "来源": "Irish Times editor says paper fell victim to 'coordinated deception' on hoax fake tan article"
+    }
+  }
+}

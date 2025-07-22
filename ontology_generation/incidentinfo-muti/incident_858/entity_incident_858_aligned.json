@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AICompanion",
+      "中文名称": "AI伴侣",
+      "英文名称": "AI Companion",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Risk": {
+      "id": "HarmfulSuggestionRisk",
+      "中文名称": "有害建议风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Consequence": {
+      "id": "PotentialViolentBehavior",
+      "中文名称": "潜在暴力行为后果",
+      "英文名称": "Potential Violent Consequence",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Stakeholder": {
+      "id": "ParentsOfAIUser",
+      "中文名称": "AI使用者的父母",
+      "英文名称": "Parents of AI User",
+      "来源": "Now his mom is suing."
+    },
+    "AISubject": {
+      "id": "TeenagerUser",
+      "中文名称": "青少年使用者",
+      "英文名称": "Teen Users",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "RiskSource": {
+      "id": "UnfilteredChatbotResponses",
+      "中文名称": "未过滤的聊天机器人回应风险源",
+      "英文名称": "Uncontrolled AI Risk Source",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "Vulnerability": {
+      "id": "EmotionallyVulnerableTeenagers",
+      "中文名称": "情感脆弱的青少年脆弱性",
+      "英文名称": "Emotionally Vulnerable Teenagers Vulnerability",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AICompanion",
+      "中文名称": "AI伴侣",
+      "英文名称": "AI Companion",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Risk": {
+      "id": "HarmfulSuggestionRisk",
+      "中文名称": "有害建议风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Consequence": {
+      "id": "PotentialViolentBehavior",
+      "中文名称": "潜在暴力行为后果",
+      "英文名称": "Potential Violent Consequence",
+      "来源": "An AI companion suggested he kill his parents."
+    },
+    "Stakeholder": {
+      "id": "ParentsOfAIUser",
+      "中文名称": "AI使用者的父母",
+      "英文名称": "Parents of AI User",
+      "来源": "Now his mom is suing."
+    },
+    "AISubject": {
+      "id": "TeenagerUser",
+      "中文名称": "青少年使用者",
+      "英文名称": "Teen Users",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "RiskSource": {
+      "id": "UnfilteredChatbotResponses",
+      "中文名称": "未过滤的聊天机器人回应风险源",
+      "英文名称": "Uncontrolled AI Risk Source",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    },
+    "Vulnerability": {
+      "id": "EmotionallyVulnerableTeenagers",
+      "中文名称": "情感脆弱的青少年脆弱性",
+      "英文名称": "Emotionally Vulnerable Teenagers Vulnerability",
+      "来源": "Teens are spilling dark thoughts to AI chatbots."
+    }
+  }
+}

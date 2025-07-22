@@ -1,0 +1,28 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SurveillanceRobots",
+      "中文名称": "监控机器人",
+      "英文名称": "Surveillance Robots",
+      "来源": "The Robots are Watching Us"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "The Robots are Watching Us"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "General Public",
+      "来源": "The Robots are Watching Us"
+    },
+    "Impact": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失",
+      "英文名称": "Loss of Privacy",
+      "来源": "The Robots are Watching Us"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemAtPearsonAirport rdf:type airo:AISystem ;
+    rdfs:label "多伦多皮尔逊机场面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System at Pearson Airport"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:CanadianGovernment ;
+    airo:hasAISubject ex:AirportTravellers ;
+    airo:isAppliedWithinDomain ex:AirportSecurity ;
+    airo:usesTechnique ex:BiometricIdentification .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:isRiskSourceFor ex:CovertDeployment ;
+    airo:hasConsequence ex:MassSurveillance .
+
+ex:CanadianGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "加拿大政府"@zh ;
+    rdfs:label "Canadian Government"@en .
+
+ex:AirportTravellers rdf:type airo:AISubject ;
+    rdfs:label "机场旅客"@zh ;
+    rdfs:label "Airport Travellers"@en .
+
+ex:AirportSecurity rdf:type airo:Domain ;
+    rdfs:label "机场安全"@zh ;
+    rdfs:label "Airport Security"@en .
+
+ex:MassSurveillance rdf:type airo:Consequence ;
+    rdfs:label "大规模监控后果"@zh ;
+    rdfs:label "Mass Surveillance Consequence"@en ;
+    airo:hasImpact ex:CivilLibertiesErosion .
+
+ex:CivilLibertiesErosion rdf:type airo:Impact ;
+    rdfs:label "公民自由侵蚀影响"@zh ;
+    rdfs:label "Civil Liberties Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AirportTravellers .
+
+ex:CovertDeployment rdf:type airo:RiskSource ;
+    rdfs:label "秘密部署风险源"@zh ;
+    rdfs:label "Covert Deployment Risk Source"@en .
+
+ex:BiometricIdentification rdf:type airo:AITechnique ;
+    rdfs:label "生物识别技术"@zh ;
+    rdfs:label "Biometric Identification Technique"@en .

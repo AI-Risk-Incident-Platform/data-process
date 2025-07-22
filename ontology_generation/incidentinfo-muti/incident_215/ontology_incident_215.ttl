@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TekFogApp rdf:type airo:AISystem ;
+    rdfs:label "Tek Fog App"@en ;
+    rdfs:label "Tek Fog应用"@zh ;
+    airo:hasRisk ex:PoliticalManipulationRisk ;
+    airo:hasCapability ex:SocialMediaManipulationCapability ;
+    airo:hasPurpose ex:PoliticalInfluencePurpose ;
+    airo:isAppliedWithinDomain ex:PoliticalSocialMediaDomain ;
+    airo:usesTechnique ex:AutomatedMessageSpreadingTechnique ;
+    airo:hasStakeholder ex:BJPParty .
+
+ex:PoliticalManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Manipulation Risk"@en ;
+    rdfs:label "政治操纵风险"@zh ;
+    airo:hasConsequence ex:SocialDivisionConsequence ;
+    airo:isRiskSourceFor ex:CyberTroopsActivityRiskSource .
+
+ex:BJPParty rdf:type airo:Stakeholder ;
+    rdfs:label "BJP Party"@en ;
+    rdfs:label "印度人民党"@zh .
+
+ex:SocialMediaManipulationCapability rdf:type airo:AICapability ;
+    rdfs:label "Social Media Manipulation Capability"@en ;
+    rdfs:label "社交媒体操纵能力"@zh .
+
+ex:SocialDivisionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Social Division Consequence"@en ;
+    rdfs:label "社会分裂后果"@zh ;
+    airo:hasImpact ex:PoliticalPolarizationImpact .
+
+ex:PoliticalPolarizationImpact rdf:type airo:Impact ;
+    rdfs:label "Political Polarization Impact"@en ;
+    rdfs:label "政治极化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BJPParty .
+
+ex:PoliticalInfluencePurpose rdf:type airo:Purpose ;
+    rdfs:label "Political Influence Purpose"@en ;
+    rdfs:label "政治影响目的"@zh .
+
+ex:PoliticalSocialMediaDomain rdf:type airo:Domain ;
+    rdfs:label "Political Social Media Domain"@en ;
+    rdfs:label "政治社交媒体领域"@zh .
+
+ex:AutomatedMessageSpreadingTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Automated Message Spreading Technique"@en ;
+    rdfs:label "自动消息传播技术"@zh .
+
+ex:CyberTroopsActivityRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Cyber Troops Activity Risk Source"@en ;
+    rdfs:label "网络部队活动风险源"@zh .

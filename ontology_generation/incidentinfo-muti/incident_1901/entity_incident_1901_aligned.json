@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VirtualMeetingAI",
+      "中文名称": "虚拟会议AI",
+      "英文名称": "Virtual Meeting AI",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "Risk": {
+      "id": "RacistViewsRisk",
+      "中文名称": "种族主义观点风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "Stakeholder": {
+      "id": "BeavertonCityCouncil",
+      "中文名称": "比弗顿市议会",
+      "英文名称": "Beaverton City Council",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "RiskSource": {
+      "id": "PotentialAIAbuse",
+      "中文名称": "潜在AI滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Were they real? Or AI?"
+    },
+    "Impact": {
+      "id": "PublicDiscourseDisruption",
+      "中文名称": "公共话语干扰",
+      "英文名称": "Public Discourse Manipulation",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VirtualMeetingAI",
+      "中文名称": "虚拟会议AI",
+      "英文名称": "Virtual Meeting AI",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "Risk": {
+      "id": "RacistViewsRisk",
+      "中文名称": "种族主义观点风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "Stakeholder": {
+      "id": "BeavertonCityCouncil",
+      "中文名称": "比弗顿市议会",
+      "英文名称": "Beaverton City Council",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views. Were they real? Or AI?"
+    },
+    "RiskSource": {
+      "id": "PotentialAIAbuse",
+      "中文名称": "潜在AI滥用",
+      "英文名称": "AI Misuse Risks",
+      "来源": "Were they real? Or AI?"
+    },
+    "Impact": {
+      "id": "PublicDiscourseDisruption",
+      "中文名称": "公共话语干扰",
+      "英文名称": "Public Discourse Manipulation",
+      "来源": "A virtual Beaverton City Council meeting drew callers spouting racist views."
+    }
+  }
+}

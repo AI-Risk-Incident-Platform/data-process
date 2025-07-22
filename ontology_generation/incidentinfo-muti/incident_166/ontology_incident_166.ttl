@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EnglishTestAI rdf:type airo:AISystem ;
+    rdfs:label "English Test AI System"@en ;
+    rdfs:label "英语测试AI系统"@zh ;
+    airo:hasRisk ex:LifeRuiningRisk ;
+    airo:hasStakeholder ex:TestTakers .
+
+ex:LifeRuiningRisk rdf:type airo:Risk ;
+    rdfs:label "Life Ruining Risk"@en ;
+    rdfs:label "生活毁灭风险"@zh ;
+    airo:hasConsequence ex:ThousandsLivesRuined .
+
+ex:ThousandsLivesRuined rdf:type airo:Consequence ;
+    rdfs:label "Thousands Lives Ruined Consequence"@en ;
+    rdfs:label "数千人生活被毁的后果"@zh ;
+    airo:hasImpact ex:SevereLifeDisruption .
+
+ex:SevereLifeDisruption rdf:type airo:Impact ;
+    rdfs:label "Severe Life Disruption Impact"@en ;
+    rdfs:label "严重生活破坏的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TestTakers .
+
+ex:TestTakers rdf:type airo:Stakeholder ;
+    rdfs:label "Test Takers"@en ;
+    rdfs:label "考试参与者"@zh .

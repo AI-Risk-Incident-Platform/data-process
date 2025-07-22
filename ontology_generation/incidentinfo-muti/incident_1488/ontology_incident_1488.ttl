@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TrentoCityAISurveillanceSystem rdf:type airo:AISystem ;
+    rdfs:label "特伦托市AI监控系统"@zh ;
+    rdfs:label "Trento City AI Surveillance System"@en ;
+    airo:hasRisk ex:PrivacyBreachRisk ;
+    airo:isDeployedBy ex:TrentoCityCouncil ;
+    airo:isAppliedWithinDomain ex:PublicSurveillance .
+
+ex:PrivacyBreachRisk rdf:type airo:Risk ;
+    rdfs:label "隐私泄露风险"@zh ;
+    rdfs:label "Privacy Breach Risk"@en ;
+    airo:hasConsequence ex:DataProtectionViolation .
+
+ex:DataProtectionViolation rdf:type airo:Consequence ;
+    rdfs:label "数据保护违规后果"@zh ;
+    rdfs:label "Data Protection Violation Consequence"@en ;
+    airo:hasImpact ex:CitizenPrivacyCompromise .
+
+ex:TrentoCityCouncil rdf:type airo:AIOperator ;
+    rdfs:label "特伦托市议会"@zh ;
+    rdfs:label "Trento City Council"@en .
+
+ex:PublicSurveillance rdf:type airo:Domain ;
+    rdfs:label "公共监控领域"@zh ;
+    rdfs:label "Public Surveillance Domain"@en .
+
+ex:CitizenPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "公民隐私受损影响"@zh ;
+    rdfs:label "Citizen Privacy Compromise Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TrentoCityCouncil .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UberServiceAlgorithm",
+      "中文名称": "优步服务算法",
+      "英文名称": "Uber Service Algorithm",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Risk": {
+      "id": "RacialBiasInServiceAllocation",
+      "中文名称": "服务分配中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Consequence": {
+      "id": "UnequalServiceAccess",
+      "中文名称": "服务获取不平等后果",
+      "英文名称": "Unequal Service Access Consequence",
+      "来源": "That raises some tough questions."
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorities",
+      "中文名称": "对少数族裔的歧视影响",
+      "英文名称": "Minority Discrimination Impact",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Stakeholder": {
+      "id": "MinorityCommunities",
+      "中文名称": "少数族裔社区",
+      "英文名称": "Minority Communities",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Domain": {
+      "id": "RideHailingServices",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "UberServiceAlgorithm",
+      "中文名称": "优步服务算法",
+      "英文名称": "Uber Service Algorithm",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Risk": {
+      "id": "RacialBiasInServiceAllocation",
+      "中文名称": "服务分配中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Consequence": {
+      "id": "UnequalServiceAccess",
+      "中文名称": "服务获取不平等后果",
+      "英文名称": "Unequal Service Access Consequence",
+      "来源": "That raises some tough questions."
+    },
+    "Impact": {
+      "id": "DiscriminationAgainstMinorities",
+      "中文名称": "对少数族裔的歧视影响",
+      "英文名称": "Minority Discrimination Impact",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Stakeholder": {
+      "id": "MinorityCommunities",
+      "中文名称": "少数族裔社区",
+      "英文名称": "Minority Communities",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    },
+    "Domain": {
+      "id": "RideHailingServices",
+      "中文名称": "网约车服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Uber seems to offer better service in areas with more white people."
+    }
+  }
+}

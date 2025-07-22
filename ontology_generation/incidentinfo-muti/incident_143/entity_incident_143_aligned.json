@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RemoteTestingSoftware",
+      "中文名称": "远程考试软件",
+      "英文名称": "Remote Testing Software",
+      "来源": "University of Illinois to Discontinue Remote-Testing Software After Students Complain of Privacy Violation"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Students Complain of Privacy Violation"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfIllinois",
+      "中文名称": "伊利诺伊大学",
+      "英文名称": "University of Illinois",
+      "来源": "University of Illinois to Discontinue Remote-Testing Software"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Students Complain of Privacy Violation"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Students Complain of Privacy Violation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RemoteTestingSoftware",
+      "中文名称": "远程考试软件",
+      "英文名称": "Remote Testing Software",
+      "来源": "University of Illinois to Discontinue Remote-Testing Software After Students Complain of Privacy Violation"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Students Complain of Privacy Violation"
+    },
+    "Stakeholder": {
+      "id": "UniversityOfIllinois",
+      "中文名称": "伊利诺伊大学",
+      "英文名称": "University of Illinois",
+      "来源": "University of Illinois to Discontinue Remote-Testing Software"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Students Complain of Privacy Violation"
+    },
+    "Impact": {
+      "id": "PrivacyViolationImpact",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Students Complain of Privacy Violation"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotAndFullSelfDriving rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot and Full Self-Driving Features"@en ;
+    rdfs:label "特斯拉自动驾驶和全自动驾驶功能"@zh ;
+    airo:hasRisk ex:FalseAdvertisingRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasPurpose ex:VehicleAutomation ;
+    airo:hasStakeholder ex:CaliforniaDMV ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustryDomain .
+
+ex:FalseAdvertisingRisk rdf:type airo:Risk ;
+    rdfs:label "False Advertising Risk"@en ;
+    rdfs:label "虚假广告风险"@zh ;
+    airo:hasConsequence ex:ConsumerMisinformation .
+
+ex:CaliforniaDMV rdf:type airo:Stakeholder ;
+    rdfs:label "California DMV"@en ;
+    rdfs:label "加州车管局"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:ConsumerMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Consumer Misinformation Consequence"@en ;
+    rdfs:label "消费者误导后果"@zh ;
+    airo:hasImpact ex:SafetyConcerns .
+
+ex:SafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Safety Concerns Impact"@en ;
+    rdfs:label "安全隐患影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaDMV .
+
+ex:VehicleAutomation rdf:type airo:Purpose ;
+    rdfs:label "Vehicle Automation Purpose"@en ;
+    rdfs:label "车辆自动化目的"@zh .
+
+ex:AutomotiveIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车行业领域"@zh .

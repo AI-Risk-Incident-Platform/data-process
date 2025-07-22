@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NetflixAIEditedPosterSystem rdf:type airo:AISystem ;
+    rdfs:label "Netflix AI编辑海报系统"@zh ;
+    rdfs:label "Netflix AI Edited Poster System"@en ;
+    airo:hasRisk ex:FanBacklashRisk ;
+    airo:hasStakeholder ex:ArcaneFans ;
+    airo:isDeployedBy ex:Netflix ;
+    airo:hasPurpose ex:MarketingPromotion ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry .
+
+ex:FanBacklashRisk rdf:type airo:Risk ;
+    rdfs:label "粉丝反弹风险"@zh ;
+    rdfs:label "Fan Backlash Risk"@en ;
+    airo:hasConsequence ex:PosterRemoval .
+
+ex:ArcaneFans rdf:type airo:Stakeholder ;
+    rdfs:label "Arcane粉丝"@zh ;
+    rdfs:label "Arcane Fans"@en .
+
+ex:PosterRemoval rdf:type airo:Consequence ;
+    rdfs:label "海报下架后果"@zh ;
+    rdfs:label "Poster Removal Consequence"@en ;
+    airo:hasImpact ex:BrandReputationDamage .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "品牌声誉损害影响"@zh ;
+    rdfs:label "Brand Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ArcaneFans .
+
+ex:Netflix rdf:type airo:AIOperator ;
+    rdfs:label "Netflix"@zh ;
+    rdfs:label "Netflix"@en .
+
+ex:MarketingPromotion rdf:type airo:Purpose ;
+    rdfs:label "营销推广目的"@zh ;
+    rdfs:label "Marketing Promotion Purpose"@en .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "娱乐产业领域"@zh ;
+    rdfs:label "Entertainment Industry Domain"@en .

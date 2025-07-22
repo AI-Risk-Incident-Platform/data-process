@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Video System",
+      "来源": "Deepfake Kari Lake video shows coming chaos of AI in elections"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Deepfake video of Kari Lake highlights potential problem in election season"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众混淆后果",
+      "英文名称": "Public Confusion Consequence",
+      "来源": "shows coming chaos of AI in elections"
+    },
+    "AITechnique": {
+      "id": "DeepfakeGeneration",
+      "中文名称": "深度伪造生成技术",
+      "英文名称": "Deepfake Generation Technique",
+      "来源": "Deepfake Kari Lake video"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "AI in elections"
+    },
+    "Impact": {
+      "id": "ElectionIntegrityThreat",
+      "中文名称": "选举诚信威胁影响",
+      "英文名称": "Election Integrity Threat Impact",
+      "来源": "potential problem in election season"
+    }
+  }
+}

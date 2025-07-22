@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SercoFacialRecognitionSystem",
+      "中文名称": "Serco面部识别系统",
+      "英文名称": "Serco Facial Recognition System",
+      "来源": "Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Stakeholder": {
+      "id": "SercoLeisure",
+      "中文名称": "Serco Leisure公司",
+      "英文名称": "Serco Leisure",
+      "来源": "Outsourcer Serco ordered to stop using facial recognition to monitor staff"
+    },
+    "AIOperator": {
+      "id": "Serco",
+      "中文名称": "Serco公司",
+      "英文名称": "Serco",
+      "来源": "Serco ordered to stop using facial recognition technology to monitor staff"
+    },
+    "Purpose": {
+      "id": "EmployeeAttendanceMonitoring",
+      "中文名称": "员工考勤监控",
+      "英文名称": "Employee Attendance Monitoring",
+      "来源": "Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Domain": {
+      "id": "WorkplaceManagement",
+      "中文名称": "工作场所管理",
+      "英文名称": "Workplace Management",
+      "来源": "Outsourcer Serco ordered to stop using facial recognition to monitor staff"
+    },
+    "Consequence": {
+      "id": "EmployeePrivacyViolation",
+      "中文名称": "员工隐私侵犯",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Impact": {
+      "id": "NegativePublicReaction",
+      "中文名称": "负面公众反应",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Serco ordered to stop using facial recognition technology to monitor staff"
+    },
+    "RiskControl": {
+      "id": "ICOBan",
+      "中文名称": "ICO禁令",
+      "英文名称": "ICO Ban",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SercoFacialRecognitionSystem",
+      "中文名称": "Serco面部识别系统",
+      "英文名称": "Serco Facial Recognition System",
+      "来源": "Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Stakeholder": {
+      "id": "SercoLeisure",
+      "中文名称": "Serco Leisure公司",
+      "英文名称": "Serco Leisure",
+      "来源": "Outsourcer Serco ordered to stop using facial recognition to monitor staff"
+    },
+    "AIOperator": {
+      "id": "Serco",
+      "中文名称": "Serco公司",
+      "英文名称": "Serco",
+      "来源": "Serco ordered to stop using facial recognition technology to monitor staff"
+    },
+    "Purpose": {
+      "id": "EmployeeAttendanceMonitoring",
+      "中文名称": "员工考勤监控",
+      "英文名称": "Employee Attendance Monitoring",
+      "来源": "Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Domain": {
+      "id": "WorkplaceManagement",
+      "中文名称": "工作场所管理",
+      "英文名称": "Workplace Management",
+      "来源": "Outsourcer Serco ordered to stop using facial recognition to monitor staff"
+    },
+    "Consequence": {
+      "id": "EmployeePrivacyViolation",
+      "中文名称": "员工隐私侵犯",
+      "英文名称": "Unauthorized Data Access & Exposure",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    },
+    "Impact": {
+      "id": "NegativePublicReaction",
+      "中文名称": "负面公众反应",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Serco ordered to stop using facial recognition technology to monitor staff"
+    },
+    "RiskControl": {
+      "id": "ICOBan",
+      "中文名称": "ICO禁令",
+      "英文名称": "ICO Ban",
+      "来源": "ICO Bans Serco Leisure's Use of Facial Recognition for Employee Attendance"
+    }
+  }
+}

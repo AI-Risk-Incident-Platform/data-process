@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedDoctorsOnTikTok rdf:type airo:AISystem ;
+    rdfs:label "AI-Generated Doctors on TikTok"@en ;
+    rdfs:label "TikTok上的AI生成医生"@zh ;
+    airo:hasRisk ex:MisinformationAndFraudRisk ;
+    airo:hasCapability ex:HumanLikeAvatarGeneration ;
+    airo:hasStakeholder ex:TikTokUsers ;
+    airo:hasVulnerability ex:UserTrustInOnlinePersonas .
+
+ex:MisinformationAndFraudRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation and Fraud Risk"@en ;
+    rdfs:label "虚假医疗信息与欺诈风险"@zh ;
+    airo:hasConsequence ex:HealthMisinformationSpread ;
+    airo:isRiskSourceFor ex:FakeCredentialsAndAdvice .
+
+ex:HealthMisinformationSpread rdf:type airo:Consequence ;
+    rdfs:label "Health Misinformation Spread Consequence"@en ;
+    rdfs:label "健康错误信息传播后果"@zh ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:HumanLikeAvatarGeneration rdf:type airo:AICapability ;
+    rdfs:label "Human-Like Avatar Generation Capability"@en ;
+    rdfs:label "类人形象生成能力"@zh .
+
+ex:TikTokUsers rdf:type airo:Stakeholder ;
+    rdfs:label "TikTok Users"@en ;
+    rdfs:label "TikTok用户"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicHealthThreat .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "Public Health Threat Impact"@en ;
+    rdfs:label "公共健康威胁影响"@zh .
+
+ex:FakeCredentialsAndAdvice rdf:type airo:RiskSource ;
+    rdfs:label "Fake Credentials and Advice Risk Source"@en ;
+    rdfs:label "虚假资质与建议风险源"@zh .
+
+ex:UserTrustInOnlinePersonas rdf:type airo:Vulnerability ;
+    rdfs:label "User Trust in Online Personas Vulnerability"@en ;
+    rdfs:label "用户对在线形象的信任脆弱性"@zh .

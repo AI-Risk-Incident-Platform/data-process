@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FactoryRobot",
+      "中文名称": "工厂机器人",
+      "英文名称": "Industrial Robot",
+      "来源": "Lawsuit Accuses Supplier of Negligence After a Robot Killed a Human In a Plant"
+    },
+    "Risk": {
+      "id": "HumanFatalityRisk",
+      "中文名称": "人类死亡风险",
+      "英文名称": "Human Fatality Risk",
+      "来源": "a Robot Killed a Human In a Plant"
+    },
+    "Consequence": {
+      "id": "HumanDeath",
+      "中文名称": "人类死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "a Robot Killed a Human In a Plant"
+    },
+    "Stakeholder": {
+      "id": "RobotSupplier",
+      "中文名称": "机器人供应商",
+      "英文名称": "Robot Supplier",
+      "来源": "Lawsuit Accuses Supplier of Negligence"
+    },
+    "AIOperator": {
+      "id": "JapaneseMaker",
+      "中文名称": "日本制造商",
+      "英文名称": "Japanese Maker",
+      "来源": "'Killer Robot' Suit Awaits Ruling on Japanese Maker"
+    },
+    "Impact": {
+      "id": "FamilyLoss",
+      "中文名称": "家庭损失影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Man Whose Wife Was Killed by Factory Robot"
+    },
+    "RiskSource": {
+      "id": "NegligenceInSafetyMeasures",
+      "中文名称": "安全措施疏忽风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Lawsuit Accuses Supplier of Negligence"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanSafetyProtocols",
+      "中文名称": "缺乏人类安全协议的脆弱性",
+      "英文名称": "Lack of Human Safety Protocols Vulnerability",
+      "来源": "a Robot Killed a Human In a Plant"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FactoryRobot",
+      "中文名称": "工厂机器人",
+      "英文名称": "Industrial Robot",
+      "来源": "Lawsuit Accuses Supplier of Negligence After a Robot Killed a Human In a Plant"
+    },
+    "Risk": {
+      "id": "HumanFatalityRisk",
+      "中文名称": "人类死亡风险",
+      "英文名称": "Human Fatality Risk",
+      "来源": "a Robot Killed a Human In a Plant"
+    },
+    "Consequence": {
+      "id": "HumanDeath",
+      "中文名称": "人类死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "a Robot Killed a Human In a Plant"
+    },
+    "Stakeholder": {
+      "id": "RobotSupplier",
+      "中文名称": "机器人供应商",
+      "英文名称": "Robot Supplier",
+      "来源": "Lawsuit Accuses Supplier of Negligence"
+    },
+    "AIOperator": {
+      "id": "JapaneseMaker",
+      "中文名称": "日本制造商",
+      "英文名称": "Japanese Maker",
+      "来源": "'Killer Robot' Suit Awaits Ruling on Japanese Maker"
+    },
+    "Impact": {
+      "id": "FamilyLoss",
+      "中文名称": "家庭损失影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Man Whose Wife Was Killed by Factory Robot"
+    },
+    "RiskSource": {
+      "id": "NegligenceInSafetyMeasures",
+      "中文名称": "安全措施疏忽风险源",
+      "英文名称": "Inadequate Safety Risk Source",
+      "来源": "Lawsuit Accuses Supplier of Negligence"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanSafetyProtocols",
+      "中文名称": "缺乏人类安全协议的脆弱性",
+      "英文名称": "Lack of Human Safety Protocols Vulnerability",
+      "来源": "a Robot Killed a Human In a Plant"
+    }
+  }
+}

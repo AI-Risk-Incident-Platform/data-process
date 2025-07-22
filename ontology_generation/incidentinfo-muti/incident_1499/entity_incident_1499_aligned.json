@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TaxPrepChatbots",
+      "中文名称": "税务准备聊天机器人",
+      "英文名称": "Tax Prep Chatbots",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Risk": {
+      "id": "IncorrectTaxAdviceRisk",
+      "中文名称": "错误税务建议风险",
+      "英文名称": "Incorrect Tax Advice Risk",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "财务损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "AIOperator": {
+      "id": "TurboTax",
+      "中文名称": "TurboTax",
+      "英文名称": "TurboTax",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "Domain": {
+      "id": "TaxPreparation",
+      "中文名称": "税务准备",
+      "英文名称": "Tax Preparation",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Purpose": {
+      "id": "AutomatedTaxAdvice",
+      "中文名称": "自动化税务建议",
+      "英文名称": "Automated Tax Advice",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicErrors",
+      "中文名称": "算法错误",
+      "英文名称": "Software & Algorithm Errors",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "Impact": {
+      "id": "TaxpayerHarm",
+      "中文名称": "纳税人损害",
+      "英文名称": "Taxpayer Harm",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TaxPrepChatbots",
+      "中文名称": "税务准备聊天机器人",
+      "英文名称": "Tax Prep Chatbots",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Risk": {
+      "id": "IncorrectTaxAdviceRisk",
+      "中文名称": "错误税务建议风险",
+      "英文名称": "Incorrect Tax Advice Risk",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "财务损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "AIOperator": {
+      "id": "TurboTax",
+      "中文名称": "TurboTax",
+      "英文名称": "TurboTax",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "Domain": {
+      "id": "TaxPreparation",
+      "中文名称": "税务准备",
+      "英文名称": "Tax Preparation",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "Purpose": {
+      "id": "AutomatedTaxAdvice",
+      "中文名称": "自动化税务建议",
+      "英文名称": "Automated Tax Advice",
+      "来源": "AI tax prep chatbots are giving bad advice"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicErrors",
+      "中文名称": "算法错误",
+      "英文名称": "Software & Algorithm Errors",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    },
+    "Impact": {
+      "id": "TaxpayerHarm",
+      "中文名称": "纳税人损害",
+      "英文名称": "Taxpayer Harm",
+      "来源": "TurboTax Adds AI That Gives Horribly Wrong Answers to Tax Questions"
+    }
+  }
+}

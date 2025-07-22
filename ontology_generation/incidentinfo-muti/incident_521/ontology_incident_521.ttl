@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ComputerGeneratedSwattingService rdf:type airo:AISystem ;
+    rdfs:label "Computer Generated Swatting Service"@en ;
+    rdfs:label "计算机生成的Swatting服务"@zh ;
+    airo:hasRisk ex:PublicSafetyThreatFromSwatting ;
+    airo:usesTechnique ex:AutomatedCallGeneration ;
+    airo:hasStakeholder ex:LawEnforcement , ex:Public .
+
+ex:PublicSafetyThreatFromSwatting rdf:type airo:Risk ;
+    rdfs:label "Public Safety Threat from Swatting Risk"@en ;
+    rdfs:label "Swatting带来的公共安全威胁风险"@zh ;
+    airo:hasConsequence ex:LawEnforcementResourcesMisallocation ;
+    airo:isRiskSourceFor ex:SwattingServiceMisuse .
+
+ex:LawEnforcementResourcesMisallocation rdf:type airo:Consequence ;
+    rdfs:label "Law Enforcement Resources Misallocation Consequence"@en ;
+    rdfs:label "执法资源错误分配的后果"@zh ;
+    airo:hasImpact ex:PublicSafetyDisruption .
+
+ex:PublicSafetyDisruption rdf:type airo:Impact ;
+    rdfs:label "Public Safety Disruption Impact"@en ;
+    rdfs:label "公共安全中断的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LawEnforcement , ex:Public .
+
+ex:AutomatedCallGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Automated Call Generation Technique"@en ;
+    rdfs:label "自动呼叫生成技术"@zh .
+
+ex:SwattingServiceMisuse rdf:type airo:Misuse ;
+    rdfs:label "Swatting Service Misuse"@en ;
+    rdfs:label "Swatting服务滥用"@zh .
+
+ex:LawEnforcement rdf:type airo:Stakeholder ;
+    rdfs:label "Law Enforcement"@en ;
+    rdfs:label "执法部门"@zh .
+
+ex:Public rdf:type airo:Stakeholder ;
+    rdfs:label "Public"@en ;
+    rdfs:label "公众"@zh .

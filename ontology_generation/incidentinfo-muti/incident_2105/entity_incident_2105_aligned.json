@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Brazil’s Biggest Metro Could Get Facial Recognition Cameras"
+    },
+    "Risk": {
+      "id": "ReinforceRacistPolicingRisk",
+      "中文名称": "强化种族主义警务风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Brazil’s Biggest Metro Could Get Facial Recognition Cameras That Reinforce Racist Policing"
+    },
+    "AICapability": {
+      "id": "EmotionAndGenderPrediction",
+      "中文名称": "情绪和性别预测能力",
+      "英文名称": "Emotion and Gender Prediction Capability",
+      "来源": "Emotion, gender prediction tech should be banned from Brazil’s metro"
+    },
+    "Stakeholder": {
+      "id": "NGO",
+      "中文名称": "非政府组织",
+      "英文名称": "Civil NGOs",
+      "来源": "NGO testifies"
+    },
+    "Impact": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Cameras That Reinforce Racist Policing"
+    },
+    "Domain": {
+      "id": "PublicTransportationSecurity",
+      "中文名称": "公共交通安保领域",
+      "英文名称": "Public Transportation Security Domain",
+      "来源": "Brazil’s metro"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Brazil’s Biggest Metro Could Get Facial Recognition Cameras"
+    },
+    "Risk": {
+      "id": "ReinforceRacistPolicingRisk",
+      "中文名称": "强化种族主义警务风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Brazil’s Biggest Metro Could Get Facial Recognition Cameras That Reinforce Racist Policing"
+    },
+    "AICapability": {
+      "id": "EmotionAndGenderPrediction",
+      "中文名称": "情绪和性别预测能力",
+      "英文名称": "Emotion and Gender Prediction Capability",
+      "来源": "Emotion, gender prediction tech should be banned from Brazil’s metro"
+    },
+    "Stakeholder": {
+      "id": "NGO",
+      "中文名称": "非政府组织",
+      "英文名称": "Civil NGOs",
+      "来源": "NGO testifies"
+    },
+    "Impact": {
+      "id": "RacialDiscrimination",
+      "中文名称": "种族歧视影响",
+      "英文名称": "Racial Inequality Impact",
+      "来源": "Cameras That Reinforce Racist Policing"
+    },
+    "Domain": {
+      "id": "PublicTransportationSecurity",
+      "中文名称": "公共交通安保领域",
+      "英文名称": "Public Transportation Security Domain",
+      "来源": "Brazil’s metro"
+    }
+  }
+}

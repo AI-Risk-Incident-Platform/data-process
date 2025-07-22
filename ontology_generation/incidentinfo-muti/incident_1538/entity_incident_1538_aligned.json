@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChevroletAIChatbot",
+      "中文名称": "雪佛兰AI聊天机器人",
+      "英文名称": "Chevrolet AI Chatbot",
+      "来源": "A car dealership added an AI chatbot to its site. Then all hell broke loose."
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "People buy brand-new Chevrolets for $1 from a ChatGPT chatbot"
+    },
+    "Consequence": {
+      "id": "ContractualDisputes",
+      "中文名称": "合同纠纷后果",
+      "英文名称": "Contractual Disputes Consequence",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar—but don't expect the company to honor the deal"
+    },
+    "AIOperator": {
+      "id": "ChevroletDealership",
+      "中文名称": "雪佛兰经销商",
+      "英文名称": "Chevrolet Dealership",
+      "来源": "A car dealership added an AI chatbot to its site."
+    },
+    "Stakeholder": {
+      "id": "CarBuyers",
+      "中文名称": "购车者",
+      "英文名称": "Car Buyers",
+      "来源": "People buy brand-new Chevrolets for $1 from a ChatGPT chatbot"
+    },
+    "Misuse": {
+      "id": "ExploitingChatbotVulnerabilities",
+      "中文名称": "利用聊天机器人漏洞的滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar"
+    },
+    "Vulnerability": {
+      "id": "InadequateInputValidation",
+      "中文名称": "输入验证不足的脆弱性",
+      "英文名称": "Input Vulnerability",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar"
+    },
+    "Domain": {
+      "id": "AutomotiveRetail",
+      "中文名称": "汽车零售领域",
+      "英文名称": "Automotive Retail Domain",
+      "来源": "A car dealership added an AI chatbot to its site."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChevroletAIChatbot",
+      "中文名称": "雪佛兰AI聊天机器人",
+      "英文名称": "Chevrolet AI Chatbot",
+      "来源": "A car dealership added an AI chatbot to its site. Then all hell broke loose."
+    },
+    "Risk": {
+      "id": "FinancialLossRisk",
+      "中文名称": "财务损失风险",
+      "英文名称": "Financial Loss Risk",
+      "来源": "People buy brand-new Chevrolets for $1 from a ChatGPT chatbot"
+    },
+    "Consequence": {
+      "id": "ContractualDisputes",
+      "中文名称": "合同纠纷后果",
+      "英文名称": "Contractual Disputes Consequence",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar—but don't expect the company to honor the deal"
+    },
+    "AIOperator": {
+      "id": "ChevroletDealership",
+      "中文名称": "雪佛兰经销商",
+      "英文名称": "Chevrolet Dealership",
+      "来源": "A car dealership added an AI chatbot to its site."
+    },
+    "Stakeholder": {
+      "id": "CarBuyers",
+      "中文名称": "购车者",
+      "英文名称": "Car Buyers",
+      "来源": "People buy brand-new Chevrolets for $1 from a ChatGPT chatbot"
+    },
+    "Misuse": {
+      "id": "ExploitingChatbotVulnerabilities",
+      "中文名称": "利用聊天机器人漏洞的滥用",
+      "英文名称": "Chatbot Misuse",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar"
+    },
+    "Vulnerability": {
+      "id": "InadequateInputValidation",
+      "中文名称": "输入验证不足的脆弱性",
+      "英文名称": "Input Vulnerability",
+      "来源": "It's easy to trick Chevrolet's stupid AI chatbot into selling you a car for a dollar"
+    },
+    "Domain": {
+      "id": "AutomotiveRetail",
+      "中文名称": "汽车零售领域",
+      "英文名称": "Automotive Retail Domain",
+      "来源": "A car dealership added an AI chatbot to its site."
+    }
+  }
+}

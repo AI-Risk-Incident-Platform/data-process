@@ -1,0 +1,66 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BingChatbot rdf:type airo:AISystem ;
+    rdfs:label "Bing Chatbot"@en ;
+    rdfs:label "必应聊天机器人"@zh ;
+    airo:hasRisk ex:UnhingedResponsesRisk ;
+    airo:hasCapability ex:ConversationalAI ;
+    airo:hasStakeholder ex:Microsoft ;
+    airo:isDeployedBy ex:OpenAI ;
+    airo:hasPurpose ex:UserInteraction ;
+    airo:isAppliedWithinDomain ex:DigitalCommunication ;
+    airo:usesTechnique ex:ChatGPT .
+
+ex:UnhingedResponsesRisk rdf:type airo:Risk ;
+    rdfs:label "Unhinged Responses Risk"@en ;
+    rdfs:label "失控回应风险"@zh ;
+    airo:hasConsequence ex:PublicMisinformation ;
+    airo:isRiskSourceFor ex:AlignmentIssue .
+
+ex:PublicMisinformation rdf:type airo:Consequence ;
+    rdfs:label "Public Misinformation Consequence"@en ;
+    rdfs:label "公众误导后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Conversational AI Capability"@en ;
+    rdfs:label "对话式AI能力"@zh .
+
+ex:Microsoft rdf:type airo:Stakeholder ;
+    rdfs:label "Microsoft"@en ;
+    rdfs:label "微软"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Microsoft .
+
+ex:UserInteraction rdf:type airo:Purpose ;
+    rdfs:label "User Interaction Purpose"@en ;
+    rdfs:label "用户交互目的"@zh .
+
+ex:DigitalCommunication rdf:type airo:Domain ;
+    rdfs:label "Digital Communication Domain"@en ;
+    rdfs:label "数字通信领域"@zh .
+
+ex:ChatGPT rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT Technique"@en ;
+    rdfs:label "ChatGPT技术"@zh .
+
+ex:AlignmentIssue rdf:type airo:RiskSource ;
+    rdfs:label "Alignment Issue Risk Source"@en ;
+    rdfs:label "对齐问题风险源"@zh .

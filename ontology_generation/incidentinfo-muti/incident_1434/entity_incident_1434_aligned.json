@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PimEyesFacialRecognitionSystem",
+      "中文名称": "PimEyes面部识别系统",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "AIOperator": {
+      "id": "PimEyesProvider",
+      "中文名称": "PimEyes提供者",
+      "英文名称": "PimEyes",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionSearch",
+      "中文名称": "面部识别搜索能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Impact": {
+      "id": "MassSurveillanceConcerns",
+      "中文名称": "大规模监控担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PimEyesFacialRecognitionSystem",
+      "中文名称": "PimEyes面部识别系统",
+      "英文名称": "PimEyes Facial Search",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "AIOperator": {
+      "id": "PimEyesProvider",
+      "中文名称": "PimEyes提供者",
+      "英文名称": "PimEyes",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionSearch",
+      "中文名称": "面部识别搜索能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Legal & Public Safety",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    },
+    "Impact": {
+      "id": "MassSurveillanceConcerns",
+      "中文名称": "大规模监控担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "UK police have used PimEyes facial recognition search tool over 2000 times"
+    }
+  }
+}

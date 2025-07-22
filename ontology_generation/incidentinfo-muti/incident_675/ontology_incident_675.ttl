@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeRecordingTool rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Recording Tool"@en ;
+    rdfs:label "深度伪造录音工具"@zh ;
+    airo:hasRisk ex:ReputationDamageRisk ;
+    airo:isDeployedBy ex:AthleticDirector ;
+    airo:hasStakeholder ex:HighSchoolPrincipal ;
+    airo:hasRisk ex:MaliciousDeepfakeCreation .
+
+ex:ReputationDamageRisk rdf:type airo:Risk ;
+    rdfs:label "Reputation Damage Risk"@en ;
+    rdfs:label "声誉损害风险"@zh ;
+    airo:hasConsequence ex:FalseAccusationConsequence .
+
+ex:FalseAccusationConsequence rdf:type airo:Consequence ;
+    rdfs:label "False Accusation Consequence"@en ;
+    rdfs:label "虚假指控后果"@zh ;
+    airo:hasImpact ex:ProfessionalReputationDamage .
+
+ex:ProfessionalReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Professional Reputation Damage Impact"@en ;
+    rdfs:label "职业声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HighSchoolPrincipal .
+
+ex:HighSchoolPrincipal rdf:type airo:Stakeholder ;
+    rdfs:label "High School Principal"@en ;
+    rdfs:label "高中校长"@zh .
+
+ex:AthleticDirector rdf:type airo:AIOperator ;
+    rdfs:label "Athletic Director"@en ;
+    rdfs:label "体育主任"@zh .
+
+ex:MaliciousDeepfakeCreation rdf:type airo:Misuse ;
+    rdfs:label "Malicious Deepfake Creation Misuse"@en ;
+    rdfs:label "恶意深度伪造滥用"@zh ;
+    airo:isRiskSourceFor ex:ReputationDamageRisk .

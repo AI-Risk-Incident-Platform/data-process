@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Civitai",
+      "中文名称": "Civitai AI生成器",
+      "英文名称": "Civitai AI Generator",
+      "来源": "AI generator Civitai under fire for creating NSFW images of children"
+    },
+    "Risk": {
+      "id": "ChildExploitationContentGenerationRisk",
+      "中文名称": "儿童剥削内容生成风险",
+      "英文名称": "Child Exploitation Content Generation Risk",
+      "来源": "creating NSFW images of children"
+    },
+    "Consequence": {
+      "id": "HarmToChildren",
+      "中文名称": "对儿童的伤害后果",
+      "英文名称": "Harm to Children Consequence",
+      "来源": "creating NSFW images of children"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToMinors",
+      "中文名称": "对未成年人心理伤害的影响",
+      "英文名称": "Psychological Harm to Minors Impact",
+      "来源": "creating NSFW images of children"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足的风险源",
+      "英文名称": "Inadequate Content Filtering Risk Source",
+      "来源": "creating NSFW images of children"
+    },
+    "AICapability": {
+      "id": "ImageGeneration",
+      "中文名称": "图像生成能力",
+      "英文名称": "Image Generation Capability",
+      "来源": "AI generator Civitai"
+    },
+    "Domain": {
+      "id": "ContentGenerationPlatform",
+      "中文名称": "内容生成平台领域",
+      "英文名称": "Content Generation Platform Domain",
+      "来源": "AI generator Civitai"
+    }
+  }
+}

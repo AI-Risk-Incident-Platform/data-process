@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WaymoSelfDrivingTaxi rdf:type airo:AISystem ;
+    rdfs:label "Waymo Self-Driving Taxi"@en ;
+    rdfs:label "Waymo自动驾驶出租车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleMalfunctionRisk ;
+    airo:hasCapability ex:ObjectRecognitionAndNavigation ;
+    airo:isDevelopedBy ex:WaymoLLC ;
+    airo:hasPurpose ex:AutonomousRideHailingService ;
+    airo:hasStakeholder ex:TrafficManagementAuthorities ;
+    airo:isAppliedWithinDomain ex:TransportationServices ;
+    airo:usesTechnique ex:ComputerVisionBasedNavigation ;
+    airo:hasVulnerability ex:TrafficConeMisclassification .
+
+ex:AutonomousVehicleMalfunctionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Malfunction Risk"@en ;
+    rdfs:label "自动驾驶车辆故障风险"@zh ;
+    airo:hasConsequence ex:TrafficDisruption ;
+    airo:isRiskSourceFor ex:SensorInputConfusion .
+
+ex:TrafficDisruption rdf:type airo:Consequence ;
+    rdfs:label "Traffic Disruption Consequence"@en ;
+    rdfs:label "交通中断后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcerns .
+
+ex:ObjectRecognitionAndNavigation rdf:type airo:AICapability ;
+    rdfs:label "Object Recognition and Navigation Capability"@en ;
+    rdfs:label "物体识别与导航能力"@zh .
+
+ex:WaymoLLC rdf:type airo:AIOperator ;
+    rdfs:label "Waymo LLC"@en ;
+    rdfs:label "Waymo有限责任公司"@zh .
+
+ex:TrafficManagementAuthorities rdf:type airo:Stakeholder ;
+    rdfs:label "Traffic Management Authorities"@en ;
+    rdfs:label "交通管理部门"@zh .
+
+ex:PublicSafetyConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concerns Impact"@en ;
+    rdfs:label "公共安全隐患影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TrafficManagementAuthorities .
+
+ex:AutonomousRideHailingService rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Ride-Hailing Service Purpose"@en ;
+    rdfs:label "自动驾驶叫车服务目的"@zh .
+
+ex:TransportationServices rdf:type airo:Domain ;
+    rdfs:label "Transportation Services Domain"@en ;
+    rdfs:label "交通运输服务领域"@zh .
+
+ex:ComputerVisionBasedNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision-Based Navigation Technique"@en ;
+    rdfs:label "基于计算机视觉的导航技术"@zh .
+
+ex:TrafficConeMisclassification rdf:type airo:Vulnerability ;
+    rdfs:label "Traffic Cone Misclassification Vulnerability"@en ;
+    rdfs:label "交通锥误分类脆弱性"@zh .
+
+ex:SensorInputConfusion rdf:type airo:RiskSource ;
+    rdfs:label "Sensor Input Confusion Risk Source"@en ;
+    rdfs:label "传感器输入混淆风险源"@zh .

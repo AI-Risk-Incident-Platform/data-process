@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AINewscasters",
+      "中文名称": "AI新闻主播",
+      "英文名称": "AI News Presenters",
+      "来源": "Historic Newspaper Uses Janky AI Newscasters Instead of Human Journalists"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作替代风险",
+      "英文名称": "Job Risk",
+      "来源": "A historic newspaper in Hawaii is using janky AI newscasters against its workers’ wishes"
+    },
+    "Stakeholder": {
+      "id": "HumanJournalists",
+      "中文名称": "人类记者",
+      "英文名称": "Human Journalists",
+      "来源": "Journalist Alarmed When Newspaper Replaces Humans With Glitchy AI Bot"
+    },
+    "Impact": {
+      "id": "WorkforceDisplacement",
+      "中文名称": "劳动力替代影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "against its workers’ wishes"
+    },
+    "AIOperator": {
+      "id": "HawaiiNewspaper",
+      "中文名称": "夏威夷报社",
+      "英文名称": "Hawaii Newspaper",
+      "来源": "A historic newspaper in Hawaii is using janky AI newscasters"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AINewscasters",
+      "中文名称": "AI新闻主播",
+      "英文名称": "AI News Presenters",
+      "来源": "Historic Newspaper Uses Janky AI Newscasters Instead of Human Journalists"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作替代风险",
+      "英文名称": "Job Risk",
+      "来源": "A historic newspaper in Hawaii is using janky AI newscasters against its workers’ wishes"
+    },
+    "Stakeholder": {
+      "id": "HumanJournalists",
+      "中文名称": "人类记者",
+      "英文名称": "Human Journalists",
+      "来源": "Journalist Alarmed When Newspaper Replaces Humans With Glitchy AI Bot"
+    },
+    "Impact": {
+      "id": "WorkforceDisplacement",
+      "中文名称": "劳动力替代影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "against its workers’ wishes"
+    },
+    "AIOperator": {
+      "id": "HawaiiNewspaper",
+      "中文名称": "夏威夷报社",
+      "英文名称": "Hawaii Newspaper",
+      "来源": "A historic newspaper in Hawaii is using janky AI newscasters"
+    }
+  }
+}

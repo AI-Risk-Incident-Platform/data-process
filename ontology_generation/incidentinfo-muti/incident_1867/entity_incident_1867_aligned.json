@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LatticeAIHRSystem",
+      "中文名称": "Lattice人力资源AI系统",
+      "英文名称": "Lattice AI HR System",
+      "来源": "HR company Lattice tried to treat AI bots like people in their org chart"
+    },
+    "Risk": {
+      "id": "AIInclusionInOrgChartRisk",
+      "中文名称": "组织架构中纳入AI的风险",
+      "英文名称": "AI Inclusion in Org Chart Risk",
+      "来源": "It didn't go over well when Lattice tried to bring AIs into the org chart"
+    },
+    "Stakeholder": {
+      "id": "LatticeCompany",
+      "中文名称": "Lattice公司",
+      "英文名称": "Lattice Company",
+      "来源": "HR company Lattice"
+    },
+    "Misuse": {
+      "id": "TreatingAIAsHumanEmployees",
+      "中文名称": "将AI视为人类员工的滥用",
+      "英文名称": "Human Labor Disguised as AI Misuse",
+      "来源": "tried to treat AI bots like people in their org chart"
+    },
+    "Consequence": {
+      "id": "NegativeReception",
+      "中文名称": "负面反响后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "it didn't go over well"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LatticeAIHRSystem",
+      "中文名称": "Lattice人力资源AI系统",
+      "英文名称": "Lattice AI HR System",
+      "来源": "HR company Lattice tried to treat AI bots like people in their org chart"
+    },
+    "Risk": {
+      "id": "AIInclusionInOrgChartRisk",
+      "中文名称": "组织架构中纳入AI的风险",
+      "英文名称": "AI Inclusion in Org Chart Risk",
+      "来源": "It didn't go over well when Lattice tried to bring AIs into the org chart"
+    },
+    "Stakeholder": {
+      "id": "LatticeCompany",
+      "中文名称": "Lattice公司",
+      "英文名称": "Lattice Company",
+      "来源": "HR company Lattice"
+    },
+    "Misuse": {
+      "id": "TreatingAIAsHumanEmployees",
+      "中文名称": "将AI视为人类员工的滥用",
+      "英文名称": "Human Labor Disguised as AI Misuse",
+      "来源": "tried to treat AI bots like people in their org chart"
+    },
+    "Consequence": {
+      "id": "NegativeReception",
+      "中文名称": "负面反响后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "it didn't go over well"
+    }
+  }
+}

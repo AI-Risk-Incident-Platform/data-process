@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WorldcoinProject",
+      "中文名称": "Worldcoin项目",
+      "英文名称": "Worldcoin",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Risk": {
+      "id": "BiometricDataPrivacyRisk",
+      "中文名称": "生物识别数据隐私风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "AISubject": {
+      "id": "PublicIndividuals",
+      "中文名称": "公众个体",
+      "英文名称": "Public Figures",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Stakeholder": {
+      "id": "PrivacyCommissioner",
+      "中文名称": "隐私专员",
+      "英文名称": "Privacy Commissioner",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "RiskSource": {
+      "id": "ArbitraryBiometricDataDisclosure",
+      "中文名称": "随意披露生物识别数据的风险源",
+      "英文名称": "Biometric Risk Source",
+      "来源": "Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WorldcoinProject",
+      "中文名称": "Worldcoin项目",
+      "英文名称": "Worldcoin",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Risk": {
+      "id": "BiometricDataPrivacyRisk",
+      "中文名称": "生物识别数据隐私风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "AISubject": {
+      "id": "PublicIndividuals",
+      "中文名称": "公众个体",
+      "英文名称": "Public Figures",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Stakeholder": {
+      "id": "PrivacyCommissioner",
+      "中文名称": "隐私专员",
+      "英文名称": "Privacy Commissioner",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    },
+    "RiskSource": {
+      "id": "ArbitraryBiometricDataDisclosure",
+      "中文名称": "随意披露生物识别数据的风险源",
+      "英文名称": "Biometric Risk Source",
+      "来源": "Not to Disclose Biometric Data Arbitrarily"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Privacy Commissioner Urges the Public to Stay Vigilant about the Worldcoin Project and Not to Disclose Biometric Data Arbitrarily"
+    }
+  }
+}

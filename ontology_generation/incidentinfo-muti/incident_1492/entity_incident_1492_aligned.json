@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIGPT",
+      "中文名称": "OpenAI GPT",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "Risk": {
+      "id": "RacialBiasInHiring",
+      "中文名称": "招聘中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryHiringPractices",
+      "中文名称": "歧视性招聘行为后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "AICapability": {
+      "id": "AutomatedResumeScreening",
+      "中文名称": "自动化简历筛选能力",
+      "英文名称": "Automated Candidate Screening",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "Impact": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "Purpose": {
+      "id": "StreamliningRecruitmentProcess",
+      "中文名称": "简化招聘流程目的",
+      "英文名称": "Cost Reduction",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIGPT",
+      "中文名称": "OpenAI GPT",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "Risk": {
+      "id": "RacialBiasInHiring",
+      "中文名称": "招聘中的种族偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryHiringPractices",
+      "中文名称": "歧视性招聘行为后果",
+      "英文名称": "Employment Adverse Consequence",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "AICapability": {
+      "id": "AutomatedResumeScreening",
+      "中文名称": "自动化简历筛选能力",
+      "英文名称": "Automated Candidate Screening",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    },
+    "Stakeholder": {
+      "id": "JobApplicants",
+      "中文名称": "求职者",
+      "英文名称": "Job Applicants",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "Impact": {
+      "id": "UnfairEmploymentOpportunities",
+      "中文名称": "不公平就业机会影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "OpenAI GPT Hiring Racial Discrimination"
+    },
+    "Purpose": {
+      "id": "StreamliningRecruitmentProcess",
+      "中文名称": "简化招聘流程目的",
+      "英文名称": "Cost Reduction",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    },
+    "Domain": {
+      "id": "HumanResources",
+      "中文名称": "人力资源领域",
+      "英文名称": "Human Resources",
+      "来源": "AI shows clear racial bias when used for job recruiting, new tests reveal"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Don't expect ChatGPT to take the bias out of job recruiting just yet"
+    }
+  }
+}

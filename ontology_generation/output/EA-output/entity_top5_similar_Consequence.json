@@ -1,0 +1,222 @@
+{
+  "Discriminatory Content Classification Consequence": [
+    [
+      "Harmful Content Spread Consequence",
+      0.9299879162757442
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.8756964580998967
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.858042986182081
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.842825583327974
+    ],
+    [
+      "Exclusion of LGBTQ Content Consequence",
+      0.8368536169067604
+    ]
+  ],
+  "Misleading Communication Consequence": [
+    [
+      "Harmful Content Spread Consequence",
+      0.870612053086569
+    ],
+    [
+      "Discriminatory Content Classification Consequence",
+      0.858042986182081
+    ],
+    [
+      "Unfair Sentencing Decisions Consequence",
+      0.8290775874867018
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.8276100414241211
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.8103261840841507
+    ]
+  ],
+  "Exclusion of LGBTQ Content Consequence": [
+    [
+      "Discriminatory Content Classification Consequence",
+      0.8368536169067604
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.8272380091368234
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.8225036631952333
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.7862527438825291
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.7788510895792453
+    ]
+  ],
+  "Psychological Distress for Children Consequence": [
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.792046296011103
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.7714948584656087
+    ],
+    [
+      "Unpredictable Work Schedule Consequence",
+      0.7692490847925728
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.7686083967578237
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.755822918460233
+    ]
+  ],
+  "Unpredictable Work Schedule Impact": [
+    [
+      "Unpredictable Work Schedule Consequence",
+      0.9754578832637794
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.7805881363562972
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.7686296543494611
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.7640294202680512
+    ],
+    [
+      "Discriminatory Content Classification Consequence",
+      0.7578431852991963
+    ]
+  ],
+  "Harmful Content Spread Consequence": [
+    [
+      "Discriminatory Content Classification Consequence",
+      0.9299879162757442
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.870612053086569
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.8635027290592572
+    ],
+    [
+      "Exclusion of LGBTQ Content Consequence",
+      0.8225036631952333
+    ],
+    [
+      "Unfair Sentencing Decisions Consequence",
+      0.8039732263361031
+    ]
+  ],
+  "Racial Discrimination Consequence": [
+    [
+      "Unfair Sentencing Decisions Consequence",
+      0.8506681879976701
+    ],
+    [
+      "Discriminatory Content Classification Consequence",
+      0.842825583327974
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.8160068946088374
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.8103261840841507
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.7981747856304992
+    ]
+  ],
+  "Reinforcement of Gender Stereotypes Consequence": [
+    [
+      "Discriminatory Content Classification Consequence",
+      0.8756964580998967
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.8635027290592572
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.8276100414241211
+    ],
+    [
+      "Exclusion of LGBTQ Content Consequence",
+      0.8272380091368234
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.8160068946088374
+    ]
+  ],
+  "Unfair Sentencing Decisions Consequence": [
+    [
+      "Racial Discrimination Consequence",
+      0.8506681879976701
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.8290775874867018
+    ],
+    [
+      "Discriminatory Content Classification Consequence",
+      0.8265705418565625
+    ],
+    [
+      "Harmful Content Spread Consequence",
+      0.8039732263361031
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.7953645718291426
+    ]
+  ],
+  "Unpredictable Work Schedule Consequence": [
+    [
+      "Unpredictable Work Schedule Impact",
+      0.9754578832637794
+    ],
+    [
+      "Misleading Communication Consequence",
+      0.7915841266706235
+    ],
+    [
+      "Reinforcement of Gender Stereotypes Consequence",
+      0.7859546808784834
+    ],
+    [
+      "Racial Discrimination Consequence",
+      0.7792199855928078
+    ],
+    [
+      "Unfair Sentencing Decisions Consequence",
+      0.7731510931144716
+    ]
+  ]
+}

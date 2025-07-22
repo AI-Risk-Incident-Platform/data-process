@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystemInSchools rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System in Schools"@en ;
+    rdfs:label "学校人脸识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:InformationCommissionersOffice ;
+    airo:hasAIOperator ex:SchoolAdministration .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection ;
+    airo:isRiskSourceFor ex:LackOfDataProtectionImpactAssessment .
+
+ex:InformationCommissionersOffice rdf:type airo:Stakeholder ;
+    rdfs:label "Information Commissioner's Office"@en ;
+    rdfs:label "信息专员办公室"@zh .
+
+ex:SchoolAdministration rdf:type airo:AIOperator ;
+    rdfs:label "School Administration"@en ;
+    rdfs:label "学校管理部门"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection"@en ;
+    rdfs:label "未经授权的数据收集"@zh ;
+    airo:hasImpact ex:StudentPrivacyCompromise .
+
+ex:StudentPrivacyCompromise rdf:type airo:Impact ;
+    rdfs:label "Student Privacy Compromise"@en ;
+    rdfs:label "学生隐私受损"@zh ;
+    airo:hasImpactOnStakeholder ex:InformationCommissionersOffice .
+
+ex:LackOfDataProtectionImpactAssessment rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Data Protection Impact Assessment"@en ;
+    rdfs:label "缺乏数据保护影响评估"@zh .

@@ -1,0 +1,198 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Risk": {
+      "id": "DrunkDrivingWithAutopilotRisk",
+      "中文名称": "醉酒驾驶使用自动驾驶风险",
+      "英文名称": "Drunk Driving with Autopilot Risk",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficAccident",
+      "中文名称": "潜在交通事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "AICapability": {
+      "id": "AutonomousDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoBayAreaPolice",
+      "中文名称": "旧金山湾区警察",
+      "英文名称": "San Francisco Bay Area Police",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    },
+    "AISubject": {
+      "id": "DrunkDriver",
+      "中文名称": "醉酒司机",
+      "英文名称": "Drunk Driver",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "Purpose": {
+      "id": "AssistedDriving",
+      "中文名称": "辅助驾驶目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndSensorFusion",
+      "中文名称": "计算机视觉与传感器融合技术",
+      "英文名称": "Computer Vision and Sensor Fusion Technique",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "Vulnerability": {
+      "id": "HumanOverrideFailure",
+      "中文名称": "人工干预失效脆弱性",
+      "英文名称": "Human Override Failure Vulnerability",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "Threat": {
+      "id": "MisuseOfAutopilotByImpairedDrivers",
+      "中文名称": "受损驾驶员误用自动驾驶威胁",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Hazard": {
+      "id": "UnattendedAutonomousVehicleOperation",
+      "中文名称": "无人监管自动驾驶车辆操作危害",
+      "英文名称": "Autonomous Driving Hazard",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    },
+    "RiskSource": {
+      "id": "LackOfDriverMonitoring",
+      "中文名称": "缺乏驾驶员监控风险源",
+      "英文名称": "Lack of Driver Monitoring Risk Source",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶车辆安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Risk": {
+      "id": "DrunkDrivingWithAutopilotRisk",
+      "中文名称": "醉酒驾驶使用自动驾驶风险",
+      "英文名称": "Drunk Driving with Autopilot Risk",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Consequence": {
+      "id": "PotentialTrafficAccident",
+      "中文名称": "潜在交通事故后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "AICapability": {
+      "id": "AutonomousDrivingCapability",
+      "中文名称": "自动驾驶能力",
+      "英文名称": "Autonomous Driving Capability",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoBayAreaPolice",
+      "中文名称": "旧金山湾区警察",
+      "英文名称": "San Francisco Bay Area Police",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    },
+    "AISubject": {
+      "id": "DrunkDriver",
+      "中文名称": "醉酒司机",
+      "英文名称": "Drunk Driver",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "Purpose": {
+      "id": "AssistedDriving",
+      "中文名称": "辅助驾驶目的",
+      "英文名称": "Autonomous Driving Purpose",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Domain",
+      "来源": "Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndSensorFusion",
+      "中文名称": "计算机视觉与传感器融合技术",
+      "英文名称": "Computer Vision and Sensor Fusion Technique",
+      "来源": "Tesla operating on Autopilot"
+    },
+    "Vulnerability": {
+      "id": "HumanOverrideFailure",
+      "中文名称": "人工干预失效脆弱性",
+      "英文名称": "Human Override Failure Vulnerability",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "Threat": {
+      "id": "MisuseOfAutopilotByImpairedDrivers",
+      "中文名称": "受损驾驶员误用自动驾驶威胁",
+      "英文名称": "Autopilot Misuse & Overreliance Threat",
+      "来源": "Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot"
+    },
+    "Hazard": {
+      "id": "UnattendedAutonomousVehicleOperation",
+      "中文名称": "无人监管自动驾驶车辆操作危害",
+      "英文名称": "Autonomous Driving Hazard",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    },
+    "RiskSource": {
+      "id": "LackOfDriverMonitoring",
+      "中文名称": "缺乏驾驶员监控风险源",
+      "英文名称": "Lack of Driver Monitoring Risk Source",
+      "来源": "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyConcerns",
+      "中文名称": "自动驾驶车辆安全问题",
+      "英文名称": "Autonomous Vehicle Risk Concept",
+      "来源": "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot"
+    }
+  }
+}

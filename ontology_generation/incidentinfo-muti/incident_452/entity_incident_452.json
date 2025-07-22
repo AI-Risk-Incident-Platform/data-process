@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CNETAIArticleWriter",
+      "中文名称": "CNET AI文章写作系统",
+      "英文名称": "CNET AI Article Writer",
+      "来源": "CNET Uses ChatGPT to Write Articles"
+    },
+    "Risk": {
+      "id": "JournalisticDisasterRisk",
+      "中文名称": "新闻灾难风险",
+      "英文名称": "Journalistic Disaster Risk",
+      "来源": "A news site used AI to write articles. It was a journalistic disaster."
+    },
+    "Consequence": {
+      "id": "PublicationOfInaccurateContent",
+      "中文名称": "发布不准确内容后果",
+      "英文名称": "Publication of Inaccurate Content Consequence",
+      "来源": "CNET's Article-Writing AI Is Already Publishing Very Dumb Errors"
+    },
+    "AIOperator": {
+      "id": "CNET",
+      "中文名称": "CNET",
+      "英文名称": "CNET",
+      "来源": "CNET Uses ChatGPT to Write Articles"
+    },
+    "AITechnique": {
+      "id": "ChatGPTBasedContentGeneration",
+      "中文名称": "基于ChatGPT的内容生成技术",
+      "英文名称": "ChatGPT-Based Content Generation Technique",
+      "来源": "CNET Uses ChatGPT to Write Articles"
+    },
+    "Impact": {
+      "id": "CredibilityDamage",
+      "中文名称": "信誉损害影响",
+      "英文名称": "Credibility Damage Impact",
+      "来源": "It was a journalistic disaster"
+    }
+  }
+}

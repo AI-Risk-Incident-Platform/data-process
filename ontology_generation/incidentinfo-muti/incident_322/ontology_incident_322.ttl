@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Instagram Algorithm"@en ;
+    rdfs:label "Instagram算法"@zh ;
+    airo:hasRisk ex:InappropriateContentPromotionRisk ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:usesTechnique ex:ContentRecommendationAlgorithm .
+
+ex:InappropriateContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Promotion Risk"@en ;
+    rdfs:label "不当内容推广风险"@zh ;
+    airo:hasConsequence ex:HarmfulContentExposure ;
+    airo:isRiskSourceFor ex:AlgorithmicContentSelectionFailure .
+
+ex:HarmfulContentExposure rdf:type airo:Consequence ;
+    rdfs:label "Harmful Content Exposure Consequence"@en ;
+    rdfs:label "有害内容暴露后果"@zh ;
+    airo:hasImpact ex:UserPsychologicalHarm .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:AlgorithmicContentSelectionFailure rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Content Selection Failure Risk Source"@en ;
+    rdfs:label "算法内容选择失败风险源"@zh .
+
+ex:UserPsychologicalHarm rdf:type airo:Impact ;
+    rdfs:label "User Psychological Harm Impact"@en ;
+    rdfs:label "用户心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MetaPlatformsInc .
+
+ex:ContentRecommendationAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Content Recommendation Algorithm Technique"@en ;
+    rdfs:label "内容推荐算法技术"@zh .

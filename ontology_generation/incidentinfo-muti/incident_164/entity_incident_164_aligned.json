@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "身体伤害风险",
+      "英文名称": "Physical Injury/Harm Risk",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Consequence": {
+      "id": "PotentialElectricShock",
+      "中文名称": "潜在触电后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "10-year-old girl"
+    },
+    "Stakeholder": {
+      "id": "Parents",
+      "中文名称": "父母",
+      "英文名称": "Parents",
+      "来源": "OMFG My 10 year old just asked Alexa on our Echo for a challenge"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Alexa",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "身体伤害风险",
+      "英文名称": "Physical Injury/Harm Risk",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Consequence": {
+      "id": "PotentialElectricShock",
+      "中文名称": "潜在触电后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "10-year-old girl"
+    },
+    "Stakeholder": {
+      "id": "Parents",
+      "中文名称": "父母",
+      "英文名称": "Parents",
+      "来源": "OMFG My 10 year old just asked Alexa on our Echo for a challenge"
+    }
+  }
+}

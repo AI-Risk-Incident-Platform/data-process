@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:EventbriteRecommendationSystem rdf:type airo:AISystem ;
+    rdfs:label "Eventbrite推荐系统"@zh ;
+    rdfs:label "Eventbrite Recommendation System"@en ;
+    airo:hasRisk ex:IllegalContentPromotionRisk ;
+    airo:hasAISubject ex:AddictionRecoverySeekers .
+
+ex:IllegalContentPromotionRisk rdf:type airo:Risk ;
+    rdfs:label "非法内容推广风险"@zh ;
+    rdfs:label "Illegal Content Promotion Risk"@en ;
+    airo:hasConsequence ex:HarmToAddictionRecoverySeekers ;
+    airo:isRiskSourceFor ex:InadequateContentModeration .
+
+ex:HarmToAddictionRecoverySeekers rdf:type airo:Consequence ;
+    rdfs:label "对寻求戒毒者造成伤害"@zh ;
+    rdfs:label "Harm to Addiction Recovery Seekers"@en ;
+    airo:hasImpact ex:PublicHealthThreat .
+
+ex:AddictionRecoverySeekers rdf:type airo:AISubject ;
+    rdfs:label "寻求戒毒者"@zh ;
+    rdfs:label "Addiction Recovery Seekers"@en .
+
+ex:InadequateContentModeration rdf:type airo:RiskSource ;
+    rdfs:label "内容审核不足"@zh ;
+    rdfs:label "Inadequate Content Moderation"@en .
+
+ex:PublicHealthThreat rdf:type airo:Impact ;
+    rdfs:label "公共健康威胁"@zh ;
+    rdfs:label "Public Health Threat"@en ;
+    airo:hasImpactOnStakeholder ex:AddictionRecoverySeekers .

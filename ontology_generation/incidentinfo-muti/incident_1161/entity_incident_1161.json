@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PassportVerificationAI",
+      "中文名称": "护照验证AI",
+      "英文名称": "Passport Verification AI",
+      "来源": "This man's passport was rejected by a racially biased robot"
+    },
+    "Risk": {
+      "id": "RacialBiasInPassportVerification",
+      "中文名称": "护照验证中的种族偏见风险",
+      "英文名称": "Racial Bias in Passport Verification Risk",
+      "来源": "'Racist' A.I. Denies New Zealand Passport Application"
+    },
+    "AISubject": {
+      "id": "PassportApplicant",
+      "中文名称": "护照申请人",
+      "英文名称": "Passport Applicant",
+      "来源": "This man's passport was rejected by a racially biased robot"
+    },
+    "Impact": {
+      "id": "UnfairDenialOfPassportApplication",
+      "中文名称": "护照申请被不公平拒绝的影响",
+      "英文名称": "Unfair Denial of Passport Application Impact",
+      "来源": "This man's passport was rejected by a racially biased robot"
+    },
+    "Domain": {
+      "id": "ImmigrationAndBorderControl",
+      "中文名称": "移民和边境控制领域",
+      "英文名称": "Immigration and Border Control Domain",
+      "来源": "'Racist' A.I. Denies New Zealand Passport Application"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "'Racist' A.I. Denies New Zealand Passport Application"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryOutcomes",
+      "中文名称": "歧视性结果后果",
+      "英文名称": "Discriminatory Outcomes Consequence",
+      "来源": "This man's passport was rejected by a racially biased robot"
+    }
+  }
+}

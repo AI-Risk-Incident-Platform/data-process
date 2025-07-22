@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Facial recognition technology: Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Stakeholder": {
+      "id": "RetailCustomers",
+      "中文名称": "零售顾客",
+      "英文名称": "Retail Customers",
+      "来源": "their customers"
+    },
+    "AIOperator": {
+      "id": "MajorRetailers",
+      "中文名称": "主要零售商",
+      "英文名称": "Major Retailers",
+      "来源": "Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Consequence": {
+      "id": "UnauthorizedBiometricDataCollection",
+      "中文名称": "未经授权的生物特征数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "secretly creating 'face prints' of their customers"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "secretly creating 'face prints' of their customers"
+    },
+    "RiskSource": {
+      "id": "CovertSurveillancePractices",
+      "中文名称": "隐蔽监控行为",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "secretly creating 'face prints'"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionAlgorithm",
+      "中文名称": "面部识别算法",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Facial recognition technology"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "Major retailers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Facial recognition technology: Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Stakeholder": {
+      "id": "RetailCustomers",
+      "中文名称": "零售顾客",
+      "英文名称": "Retail Customers",
+      "来源": "their customers"
+    },
+    "AIOperator": {
+      "id": "MajorRetailers",
+      "中文名称": "主要零售商",
+      "英文名称": "Major Retailers",
+      "来源": "Major retailers secretly creating 'face prints' of their customers"
+    },
+    "Consequence": {
+      "id": "UnauthorizedBiometricDataCollection",
+      "中文名称": "未经授权的生物特征数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "secretly creating 'face prints' of their customers"
+    },
+    "Impact": {
+      "id": "LossOfPersonalPrivacy",
+      "中文名称": "个人隐私丧失",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "secretly creating 'face prints' of their customers"
+    },
+    "RiskSource": {
+      "id": "CovertSurveillancePractices",
+      "中文名称": "隐蔽监控行为",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "secretly creating 'face prints'"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionAlgorithm",
+      "中文名称": "面部识别算法",
+      "英文名称": "Facial Recognition & Analysis",
+      "来源": "Facial recognition technology"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售业",
+      "英文名称": "Retail Industry",
+      "来源": "Major retailers"
+    }
+  }
+}

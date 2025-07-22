@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookHateSpeechDetectionSystem",
+      "中文名称": "Facebook仇恨言论检测系统",
+      "英文名称": "Facebook Hate Speech Detection System",
+      "来源": "Facebook’s race-blind practices around hate speech came at the expense of Black users"
+    },
+    "Risk": {
+      "id": "RacialBiasInContentModeration",
+      "中文名称": "内容审核中的种族偏见风险",
+      "英文名称": "Racial Bias in Content Moderation Risk",
+      "来源": "came at the expense of Black users"
+    },
+    "Stakeholder": {
+      "id": "BlackUsers",
+      "中文名称": "黑人用户",
+      "英文名称": "Black Users",
+      "来源": "came at the expense of Black users"
+    },
+    "Impact": {
+      "id": "DisproportionateHarmToMinorityGroups",
+      "中文名称": "对少数群体造成不成比例伤害的影响",
+      "英文名称": "Disproportionate Harm to Minority Groups Impact",
+      "来源": "came at the expense of Black users"
+    },
+    "RiskSource": {
+      "id": "RaceBlindAlgorithmDesign",
+      "中文名称": "种族盲算法设计的风险源",
+      "英文名称": "Race-Blind Algorithm Design Risk Source",
+      "来源": "Facebook’s race-blind practices around hate speech"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Facebook Inc.",
+      "来源": "Facebook’s race-blind practices"
+    },
+    "Consequence": {
+      "id": "IneffectiveHateSpeechDetection",
+      "中文名称": "仇恨言论检测失效的后果",
+      "英文名称": "Ineffective Hate Speech Detection Consequence",
+      "来源": "came at the expense of Black users"
+    }
+  }
+}

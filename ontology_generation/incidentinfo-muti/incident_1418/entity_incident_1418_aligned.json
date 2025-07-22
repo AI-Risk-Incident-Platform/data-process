@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SoutheastAsiaLLMEcosystem",
+      "中文名称": "东南亚首个大型语言模型生态系统",
+      "英文名称": "Southeast Asia's First LLM Ecosystem",
+      "来源": "SG Develops Southeast Asia’s First LLM Ecosystem"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCopyrightedContentRisk",
+      "中文名称": "未经授权使用受版权保护内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "Stakeholder": {
+      "id": "SingaporeWritersAndPublishers",
+      "中文名称": "新加坡作家和出版商",
+      "英文名称": "Singapore Writers and Publishers",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "AIDeployer": {
+      "id": "SingaporeGovernment",
+      "中文名称": "新加坡政府",
+      "英文名称": "Singapore Government",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "RiskSource": {
+      "id": "LackOfConsentForContentUsage",
+      "中文名称": "缺乏内容使用同意",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "Consequence": {
+      "id": "PotentialCopyrightInfringement",
+      "中文名称": "潜在版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SoutheastAsiaLLMEcosystem",
+      "中文名称": "东南亚首个大型语言模型生态系统",
+      "英文名称": "Southeast Asia's First LLM Ecosystem",
+      "来源": "SG Develops Southeast Asia’s First LLM Ecosystem"
+    },
+    "Risk": {
+      "id": "UnauthorizedUseOfCopyrightedContentRisk",
+      "中文名称": "未经授权使用受版权保护内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "Stakeholder": {
+      "id": "SingaporeWritersAndPublishers",
+      "中文名称": "新加坡作家和出版商",
+      "英文名称": "Singapore Writers and Publishers",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "AIDeployer": {
+      "id": "SingaporeGovernment",
+      "中文名称": "新加坡政府",
+      "英文名称": "Singapore Government",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "RiskSource": {
+      "id": "LackOfConsentForContentUsage",
+      "中文名称": "缺乏内容使用同意",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    },
+    "Consequence": {
+      "id": "PotentialCopyrightInfringement",
+      "中文名称": "潜在版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Writers and publishers in Singapore reject a government plan to train AI on their work"
+    }
+  }
+}

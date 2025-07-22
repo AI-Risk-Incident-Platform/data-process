@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SocialMediaContentModerationAI",
+      "中文名称": "社交媒体内容审核AI",
+      "英文名称": "Content Moderation AI",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Risk": {
+      "id": "EvidenceRemovalRisk",
+      "中文名称": "证据删除风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    },
+    "Consequence": {
+      "id": "LossOfWarCrimesEvidence",
+      "中文名称": "战争罪证据丢失后果",
+      "英文名称": "Loss of War Crimes Evidence Consequence",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Impact": {
+      "id": "ImpedimentToJustice",
+      "中文名称": "阻碍司法公正影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    },
+    "Purpose": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "“Video Unavailable”"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentRemoval",
+      "中文名称": "自动内容删除风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SocialMediaContentModerationAI",
+      "中文名称": "社交媒体内容审核AI",
+      "英文名称": "Content Moderation AI",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Risk": {
+      "id": "EvidenceRemovalRisk",
+      "中文名称": "证据删除风险",
+      "英文名称": "Legal Evidence Fraud Risk",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    },
+    "Consequence": {
+      "id": "LossOfWarCrimesEvidence",
+      "中文名称": "战争罪证据丢失后果",
+      "英文名称": "Loss of War Crimes Evidence Consequence",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaPlatforms",
+      "中文名称": "社交媒体平台",
+      "英文名称": "Social Media Domain",
+      "来源": "Social Media Platforms Remove War Crimes Evidence"
+    },
+    "Impact": {
+      "id": "ImpedimentToJustice",
+      "中文名称": "阻碍司法公正影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    },
+    "Purpose": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "“Video Unavailable”"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentRemoval",
+      "中文名称": "自动内容删除风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "AI: War crimes evidence erased by social media platforms"
+    }
+  }
+}

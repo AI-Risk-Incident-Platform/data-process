@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleHateSpeechDetectionAI",
+      "中文名称": "谷歌仇恨言论检测AI",
+      "英文名称": "Google Hate Speech Detection AI",
+      "来源": "Google's AI hate speech detector is easily fooled by a few typos"
+    },
+    "Risk": {
+      "id": "VulnerabilityToTextManipulation",
+      "中文名称": "文本操纵漏洞风险",
+      "英文名称": "Vulnerability to Text Manipulation Risk",
+      "来源": "Google's AI to detect toxic comments can be easily fooled with 'love'"
+    },
+    "AICapability": {
+      "id": "HateSpeechDetection",
+      "中文名称": "仇恨言论检测能力",
+      "英文名称": "Hate Speech Detection Capability",
+      "来源": "Google's AI hate speech detector"
+    },
+    "RiskSource": {
+      "id": "TextTyposAndManipulation",
+      "中文名称": "文本拼写错误和操纵风险源",
+      "英文名称": "Text Typos and Manipulation Risk Source",
+      "来源": "easily fooled by a few typos"
+    },
+    "Consequence": {
+      "id": "FailureToDetectToxicContent",
+      "中文名称": "未能检测到有害内容后果",
+      "英文名称": "Failure to Detect Toxic Content Consequence",
+      "来源": "can be easily fooled with 'love'"
+    },
+    "AITechnique": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Natural Language Processing Technique",
+      "来源": "AI to detect toxic comments"
+    },
+    "Stakeholder": {
+      "id": "OnlinePlatformUsers",
+      "中文名称": "在线平台用户",
+      "英文名称": "Online Platform Users",
+      "来源": "comments"
+    },
+    "Impact": {
+      "id": "ReducedContentModerationEffectiveness",
+      "中文名称": "内容审核有效性降低影响",
+      "英文名称": "Reduced Content Moderation Effectiveness Impact",
+      "来源": "easily fooled"
+    }
+  }
+}

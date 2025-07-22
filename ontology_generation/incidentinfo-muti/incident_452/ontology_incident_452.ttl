@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CNETAIArticleWriter rdf:type airo:AISystem ;
+    rdfs:label "CNET AI Article Writer"@en ;
+    rdfs:label "CNET AI文章写作系统"@zh ;
+    airo:hasRisk ex:JournalisticDisasterRisk ;
+    airo:isDevelopedBy ex:CNET ;
+    airo:usesTechnique ex:ChatGPTBasedContentGeneration .
+
+ex:JournalisticDisasterRisk rdf:type airo:Risk ;
+    rdfs:label "Journalistic Disaster Risk"@en ;
+    rdfs:label "新闻灾难风险"@zh ;
+    airo:hasConsequence ex:PublicationOfInaccurateContent .
+
+ex:PublicationOfInaccurateContent rdf:type airo:Consequence ;
+    rdfs:label "Publication of Inaccurate Content Consequence"@en ;
+    rdfs:label "发布不准确内容后果"@zh ;
+    airo:hasImpact ex:CredibilityDamage .
+
+ex:CNET rdf:type airo:AIOperator ;
+    rdfs:label "CNET"@en ;
+    rdfs:label "CNET"@zh .
+
+ex:ChatGPTBasedContentGeneration rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT-Based Content Generation Technique"@en ;
+    rdfs:label "基于ChatGPT的内容生成技术"@zh .
+
+ex:CredibilityDamage rdf:type airo:Impact ;
+    rdfs:label "Credibility Damage Impact"@en ;
+    rdfs:label "信誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CNET .

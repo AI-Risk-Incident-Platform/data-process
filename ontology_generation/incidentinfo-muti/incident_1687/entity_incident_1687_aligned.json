@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TheFaceTag",
+      "中文名称": "FaceTag社交网络应用",
+      "英文名称": "The FaceTag Social Networking App",
+      "来源": "A Harvard freshman made a social networking app called 'The FaceTag.'"
+    },
+    "Risk": {
+      "id": "FacialRecognitionEthicsDebate",
+      "中文名称": "面部识别伦理争议风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "It's sparked a debate about the ethics of facial recognition."
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Can I Scan Your Face?"
+    },
+    "Stakeholder": {
+      "id": "HarvardUniversityStudent",
+      "中文名称": "哈佛大学学生",
+      "英文名称": "Harvard Student",
+      "来源": "A Harvard freshman made a social networking app called 'The FaceTag.'"
+    },
+    "Domain": {
+      "id": "SocialNetworking",
+      "中文名称": "社交网络领域",
+      "英文名称": "Social Media Domain",
+      "来源": "a social networking app called 'The FaceTag.'"
+    },
+    "Purpose": {
+      "id": "SocialInteractionFacilitation",
+      "中文名称": "促进社交互动的目的",
+      "英文名称": "Social Interaction Facilitation Purpose",
+      "来源": "a social networking app"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TheFaceTag",
+      "中文名称": "FaceTag社交网络应用",
+      "英文名称": "The FaceTag Social Networking App",
+      "来源": "A Harvard freshman made a social networking app called 'The FaceTag.'"
+    },
+    "Risk": {
+      "id": "FacialRecognitionEthicsDebate",
+      "中文名称": "面部识别伦理争议风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "It's sparked a debate about the ethics of facial recognition."
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition",
+      "来源": "Can I Scan Your Face?"
+    },
+    "Stakeholder": {
+      "id": "HarvardUniversityStudent",
+      "中文名称": "哈佛大学学生",
+      "英文名称": "Harvard Student",
+      "来源": "A Harvard freshman made a social networking app called 'The FaceTag.'"
+    },
+    "Domain": {
+      "id": "SocialNetworking",
+      "中文名称": "社交网络领域",
+      "英文名称": "Social Media Domain",
+      "来源": "a social networking app called 'The FaceTag.'"
+    },
+    "Purpose": {
+      "id": "SocialInteractionFacilitation",
+      "中文名称": "促进社交互动的目的",
+      "英文名称": "Social Interaction Facilitation Purpose",
+      "来源": "a social networking app"
+    }
+  }
+}

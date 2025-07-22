@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "AISubject": {
+      "id": "Voters",
+      "中文名称": "选民",
+      "英文名称": "Voters",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoSystem",
+      "中文名称": "深度伪造视频系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Consequence": {
+      "id": "PublicConfusion",
+      "中文名称": "公众困惑后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Impact": {
+      "id": "ElectionInterference",
+      "中文名称": "选举干预影响",
+      "英文名称": "Election & Democratic Process Threat",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Stakeholder": {
+      "id": "PoliticalFigures",
+      "中文名称": "政治人物",
+      "英文名称": "Politicians",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "AISubject": {
+      "id": "Voters",
+      "中文名称": "选民",
+      "英文名称": "Voters",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "Purpose": {
+      "id": "PoliticalManipulation",
+      "中文名称": "政治操纵目的",
+      "英文名称": "Political Deceptive Content",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Deepfake Video Shows Elizabeth Warren Saying Republicans Shouldn't Vote"
+    }
+  }
+}

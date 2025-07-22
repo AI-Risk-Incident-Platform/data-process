@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MallFacialRecognitionSystem",
+      "中文名称": "商场人脸识别系统",
+      "英文名称": "Mall Facial Recognition System",
+      "来源": "At least two malls are using facial recognition technology to track shoppers' ages and genders without telling"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "using facial recognition technology to track shoppers' ages and genders without telling"
+    },
+    "AICapability": {
+      "id": "AgeGenderRecognition",
+      "中文名称": "年龄性别识别能力",
+      "英文名称": "Age Gender Recognition Capability",
+      "来源": "track shoppers' ages and genders"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "using facial recognition technology"
+    },
+    "Stakeholder": {
+      "id": "MallShoppers",
+      "中文名称": "商场顾客",
+      "英文名称": "Mall Shoppers",
+      "来源": "track shoppers' ages and genders"
+    },
+    "Consequence": {
+      "id": "PersonalDataCollectionWithoutConsent",
+      "中文名称": "未经同意的个人数据收集后果",
+      "英文名称": "Personal Data Collection Without Consent Consequence",
+      "来源": "track shoppers' ages and genders without telling"
+    },
+    "Impact": {
+      "id": "ConsumerPrivacyConcerns",
+      "中文名称": "消费者隐私担忧影响",
+      "英文名称": "Consumer Privacy Concerns Impact",
+      "来源": "using facial recognition technology to track shoppers' ages and genders without telling"
+    }
+  }
+}

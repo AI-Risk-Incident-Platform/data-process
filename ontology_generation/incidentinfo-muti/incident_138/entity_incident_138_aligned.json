@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TikTokContentModerationSystem",
+      "中文名称": "TikTok内容审核系统",
+      "英文名称": "TikTok Content Moderation System",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "Risk": {
+      "id": "DiscriminatoryContentModerationRisk",
+      "中文名称": "歧视性内容审核风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "AISubject": {
+      "id": "LatinaTransWomanUser",
+      "中文名称": "拉丁裔跨性别女性用户",
+      "英文名称": "Latina Trans Woman User",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "Impact": {
+      "id": "UnjustAccountDeletion",
+      "中文名称": "不公正账户删除影响",
+      "英文名称": "Unjust Account Deletion Impact",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "AITechnique": {
+      "id": "AutomatedContentModerationAlgorithm",
+      "中文名称": "自动化内容审核算法",
+      "英文名称": "ML Content Moderation",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TikTokContentModerationSystem",
+      "中文名称": "TikTok内容审核系统",
+      "英文名称": "TikTok Content Moderation System",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "Risk": {
+      "id": "DiscriminatoryContentModerationRisk",
+      "中文名称": "歧视性内容审核风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "AISubject": {
+      "id": "LatinaTransWomanUser",
+      "中文名称": "拉丁裔跨性别女性用户",
+      "英文名称": "Latina Trans Woman User",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "Impact": {
+      "id": "UnjustAccountDeletion",
+      "中文名称": "不公正账户删除影响",
+      "英文名称": "Unjust Account Deletion Impact",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    },
+    "AITechnique": {
+      "id": "AutomatedContentModerationAlgorithm",
+      "中文名称": "自动化内容审核算法",
+      "英文名称": "ML Content Moderation",
+      "来源": "TikTok Deleted My Account Because I’m a Latina Trans Woman"
+    }
+  }
+}

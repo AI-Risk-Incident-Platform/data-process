@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIForTrainingPhotos",
+      "中文名称": "用于训练照片的AI",
+      "英文名称": "AI for Training Photos",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "then slapped him with an invoice"
+    },
+    "Stakeholder": {
+      "id": "Photographer",
+      "中文名称": "摄影师",
+      "英文名称": "Photographer",
+      "来源": "photographer’s photos"
+    },
+    "AIOperator": {
+      "id": "Laion",
+      "中文名称": "Laion",
+      "英文名称": "Laion",
+      "来源": "Laion droht Kneschke"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfPhotos",
+      "中文名称": "未经授权使用照片",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Consequence": {
+      "id": "LegalDispute",
+      "中文名称": "法律纠纷",
+      "英文名称": "Legal Disputes",
+      "来源": "then slapped him with an invoice"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "then slapped him with an invoice"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIForTrainingPhotos",
+      "中文名称": "用于训练照片的AI",
+      "英文名称": "AI for Training Photos",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "then slapped him with an invoice"
+    },
+    "Stakeholder": {
+      "id": "Photographer",
+      "中文名称": "摄影师",
+      "英文名称": "Photographer",
+      "来源": "photographer’s photos"
+    },
+    "AIOperator": {
+      "id": "Laion",
+      "中文名称": "Laion",
+      "英文名称": "Laion",
+      "来源": "Laion droht Kneschke"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfPhotos",
+      "中文名称": "未经授权使用照片",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "AI used photographer’s photos for training"
+    },
+    "Consequence": {
+      "id": "LegalDispute",
+      "中文名称": "法律纠纷",
+      "英文名称": "Legal Disputes",
+      "来源": "then slapped him with an invoice"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "then slapped him with an invoice"
+    }
+  }
+}

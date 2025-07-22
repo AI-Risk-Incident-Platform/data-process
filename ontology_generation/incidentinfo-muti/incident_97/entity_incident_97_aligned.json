@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeliverooRiderRankingAlgorithm",
+      "中文名称": "Deliveroo骑手排名算法",
+      "英文名称": "Deliveroo Rider Ranking Algorithm",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Court Rules Deliveroo Used 'Discriminatory' Algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairTreatmentOfRiders",
+      "中文名称": "骑手不公平待遇后果",
+      "英文名称": "Unfair Treatment of Riders Consequence",
+      "来源": "Italian court rules against discriminatory Deliveroo rider ranking algorithm"
+    },
+    "Stakeholder": {
+      "id": "DeliverooRiders",
+      "中文名称": "Deliveroo骑手",
+      "英文名称": "Deliveroo Riders",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    },
+    "AIOperator": {
+      "id": "DeliverooCompany",
+      "中文名称": "Deliveroo公司",
+      "英文名称": "Deliveroo Company",
+      "来源": "Court Rules Deliveroo Used 'Discriminatory' Algorithm"
+    },
+    "Impact": {
+      "id": "NegativeImpactOnRiderLivelihoods",
+      "中文名称": "对骑手生计的负面影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Italian court rules against discriminatory Deliveroo rider ranking algorithm"
+    },
+    "Domain": {
+      "id": "FoodDeliveryIndustry",
+      "中文名称": "食品配送行业",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeliverooRiderRankingAlgorithm",
+      "中文名称": "Deliveroo骑手排名算法",
+      "英文名称": "Deliveroo Rider Ranking Algorithm",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    },
+    "Risk": {
+      "id": "DiscriminatoryAlgorithmRisk",
+      "中文名称": "歧视性算法风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Court Rules Deliveroo Used 'Discriminatory' Algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairTreatmentOfRiders",
+      "中文名称": "骑手不公平待遇后果",
+      "英文名称": "Unfair Treatment of Riders Consequence",
+      "来源": "Italian court rules against discriminatory Deliveroo rider ranking algorithm"
+    },
+    "Stakeholder": {
+      "id": "DeliverooRiders",
+      "中文名称": "Deliveroo骑手",
+      "英文名称": "Deliveroo Riders",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    },
+    "AIOperator": {
+      "id": "DeliverooCompany",
+      "中文名称": "Deliveroo公司",
+      "英文名称": "Deliveroo Company",
+      "来源": "Court Rules Deliveroo Used 'Discriminatory' Algorithm"
+    },
+    "Impact": {
+      "id": "NegativeImpactOnRiderLivelihoods",
+      "中文名称": "对骑手生计的负面影响",
+      "英文名称": "Rider/Driver Financial Impact",
+      "来源": "Italian court rules against discriminatory Deliveroo rider ranking algorithm"
+    },
+    "Domain": {
+      "id": "FoodDeliveryIndustry",
+      "中文名称": "食品配送行业",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Italian court rules against ‘discriminatory’ Deliveroo rider-ranking algorithm"
+    }
+  }
+}

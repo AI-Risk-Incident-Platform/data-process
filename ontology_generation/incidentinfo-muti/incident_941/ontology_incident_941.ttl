@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CNNDeepFakeVideo rdf:type airo:AISystem ;
+    rdfs:label "CNN Deep Fake Video"@en ;
+    rdfs:label "CNN深度伪造视频"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:usesTechnique ex:DeepFakeTechnology ;
+    airo:hasPurpose ex:PraisingPeaceEffort ;
+    airo:isAppliedWithinDomain ex:DiplomaticRelations ;
+    airo:hasStakeholder ex:ForeignAffairsPS ;
+    airo:isDeployedBy ex:KorirSingoei .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:PublicConfusion .
+
+ex:ForeignAffairsPS rdf:type airo:Stakeholder ;
+    rdfs:label "Foreign Affairs PS"@en ;
+    rdfs:label "外交部常秘"@zh .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    rdfs:label "公众困惑后果"@zh ;
+    airo:hasImpact ex:CredibilityDamage .
+
+ex:CredibilityDamage rdf:type airo:Impact ;
+    rdfs:label "Credibility Damage Impact"@en ;
+    rdfs:label "信誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ForeignAffairsPS .
+
+ex:KorirSingoei rdf:type airo:AIOperator ;
+    rdfs:label "Korir Sing'oei"@en ;
+    rdfs:label "科里尔·辛戈伊"@zh .
+
+ex:DeepFakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deep Fake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:PraisingPeaceEffort rdf:type airo:Purpose ;
+    rdfs:label "Praising Peace Effort Purpose"@en ;
+    rdfs:label "赞扬和平努力的目的"@zh .
+
+ex:DiplomaticRelations rdf:type airo:Domain ;
+    rdfs:label "Diplomatic Relations Domain"@en ;
+    rdfs:label "外交关系领域"@zh .

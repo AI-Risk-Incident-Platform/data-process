@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Risk": {
+      "id": "VoiceCloningScamRisk",
+      "中文名称": "语音克隆诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI voice cloning scam"
+    },
+    "Stakeholder": {
+      "id": "ScamVictims",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfVoiceCloning",
+      "中文名称": "恶意使用语音克隆的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI voice cloning scam"
+    },
+    "Misuse": {
+      "id": "FraudulentVoiceCloning",
+      "中文名称": "欺诈性语音克隆滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI voice cloning scam"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Risk": {
+      "id": "VoiceCloningScamRisk",
+      "中文名称": "语音克隆诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Consequence": {
+      "id": "FinancialFraud",
+      "中文名称": "金融诈骗后果",
+      "英文名称": "Financial Fraud Consequence",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI voice cloning scam"
+    },
+    "Stakeholder": {
+      "id": "ScamVictims",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "Impact": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Port Neches man warns of AI voice cloning scam after frightening phone call"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfVoiceCloning",
+      "中文名称": "恶意使用语音克隆的风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI voice cloning scam"
+    },
+    "Misuse": {
+      "id": "FraudulentVoiceCloning",
+      "中文名称": "欺诈性语音克隆滥用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "AI voice cloning scam"
+    }
+  }
+}

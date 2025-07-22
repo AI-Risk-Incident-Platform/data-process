@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频生成系统"@zh ;
+    rdfs:label "Deepfake Video Generation System"@en ;
+    airo:hasRisk ex:FinancialFraudRisk ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping ;
+    airo:hasPurpose ex:DeceptiveContentCreation ;
+    airo:hasStakeholder ex:ScamVictims ;
+    airo:isAppliedWithinDomain ex:DigitalMedia .
+
+ex:FinancialFraudRisk rdf:type airo:Risk ;
+    rdfs:label "金融欺诈风险"@zh ;
+    rdfs:label "Financial Fraud Risk"@en ;
+    airo:hasConsequence ex:FinancialLoss .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "经济损失后果"@zh ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en .
+
+ex:ScamVictims rdf:type airo:Stakeholder ;
+    rdfs:label "诈骗受害者"@zh ;
+    rdfs:label "Scam Victims"@en .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "心理困扰影响"@zh ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    airo:hasImpactOnStakeholder ex:ScamVictims .
+
+ex:DeceptiveContentCreation rdf:type airo:Purpose ;
+    rdfs:label "欺骗性内容创建目的"@zh ;
+    rdfs:label "Deceptive Content Creation Purpose"@en .
+
+ex:DigitalMedia rdf:type airo:Domain ;
+    rdfs:label "数字媒体领域"@zh ;
+    rdfs:label "Digital Media Domain"@en .

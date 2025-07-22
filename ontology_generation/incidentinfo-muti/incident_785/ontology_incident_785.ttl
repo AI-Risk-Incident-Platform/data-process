@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:OnlyFakeIDGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "OnlyFake ID Generation System"@en ;
+    rdfs:label "OnlyFake假身份证生成系统"@zh ;
+    airo:hasRisk ex:FakeIdentityCreationRisk ;
+    airo:usesTechnique ex:AIForFakeIDGeneration ;
+    airo:hasStakeholder ex:Au10tixResearchers .
+
+ex:FakeIdentityCreationRisk rdf:type airo:Risk ;
+    rdfs:label "Fake Identity Creation Risk"@en ;
+    rdfs:label "伪造身份风险"@zh ;
+    airo:hasConsequence ex:CryptocurrencyFraud ;
+    airo:hasRiskSource ex:CriminalIdentityForgery .
+
+ex:AIForFakeIDGeneration rdf:type airo:AITechnique ;
+    rdfs:label "AI for Fake ID Generation Technique"@en ;
+    rdfs:label "用于生成假身份证的AI技术"@zh .
+
+ex:Au10tixResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Au10tix Researchers"@en ;
+    rdfs:label "Au10tix研究人员"@zh .
+
+ex:CryptocurrencyFraud rdf:type airo:Consequence ;
+    rdfs:label "Cryptocurrency Fraud Consequence"@en ;
+    rdfs:label "加密货币欺诈后果"@zh .
+
+ex:CriminalIdentityForgery rdf:type airo:Misuse ;
+    rdfs:label "Criminal Identity Forgery Misuse"@en ;
+    rdfs:label "犯罪身份伪造滥用"@zh ;
+    airo:isRiskSourceFor ex:FakeIdentityCreationRisk .

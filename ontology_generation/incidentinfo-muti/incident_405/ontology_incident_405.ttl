@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TwitterSpamFilteringSystem rdf:type airo:AISystem ;
+    rdfs:label "Twitter Spam Filtering System"@en ;
+    rdfs:label "Twitter垃圾信息过滤系统"@zh ;
+    airo:hasRisk ex:InformationObscurationRisk ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatformDomain ;
+    airo:hasStakeholder ex:TwitterPlatform .
+
+ex:InformationObscurationRisk rdf:type airo:Risk ;
+    rdfs:label "Information Obscuration Risk"@en ;
+    rdfs:label "信息遮蔽风险"@zh ;
+    airo:hasConsequence ex:NewsSuppressionConsequence ;
+    airo:isRiskSourceFor ex:ChineseSpamAccountsRiskSource .
+
+ex:TwitterPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "Twitter Platform"@en ;
+    rdfs:label "Twitter平台"@zh .
+
+ex:SocialMediaPlatformDomain rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:NewsSuppressionConsequence rdf:type airo:Consequence ;
+    rdfs:label "News Suppression Consequence"@en ;
+    rdfs:label "新闻压制后果"@zh .
+
+ex:ChineseSpamAccountsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Chinese Spam Accounts Risk Source"@en ;
+    rdfs:label "中国垃圾账户风险源"@zh .

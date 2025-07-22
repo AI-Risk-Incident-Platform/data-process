@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YieldStar",
+      "中文名称": "YieldStar",
+      "英文名称": "YieldStar",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    },
+    "Risk": {
+      "id": "RentalPriceFixingRisk",
+      "中文名称": "租金价格操纵风险",
+      "英文名称": "Rental Price Manipulation Risk",
+      "来源": "Proposed class-action lawsuit alleges rental price-fixing by companies using YieldStar software"
+    },
+    "Stakeholder": {
+      "id": "RentalCompanies",
+      "中文名称": "租赁公司",
+      "英文名称": "Rental Companies",
+      "来源": "Proposed class-action lawsuit alleges rental price-fixing by companies using YieldStar software"
+    },
+    "Consequence": {
+      "id": "RisingRents",
+      "中文名称": "租金上涨",
+      "英文名称": "Housing Affordability",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    },
+    "Domain": {
+      "id": "RealEstate",
+      "中文名称": "房地产",
+      "英文名称": "Real Estate Market",
+      "来源": "Are some rents in Canada part of a price-fixing scheme? | CBC News"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPricing",
+      "中文名称": "算法定价",
+      "英文名称": "Automated Pricing",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "YieldStar",
+      "中文名称": "YieldStar",
+      "英文名称": "YieldStar",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    },
+    "Risk": {
+      "id": "RentalPriceFixingRisk",
+      "中文名称": "租金价格操纵风险",
+      "英文名称": "Rental Price Manipulation Risk",
+      "来源": "Proposed class-action lawsuit alleges rental price-fixing by companies using YieldStar software"
+    },
+    "Stakeholder": {
+      "id": "RentalCompanies",
+      "中文名称": "租赁公司",
+      "英文名称": "Rental Companies",
+      "来源": "Proposed class-action lawsuit alleges rental price-fixing by companies using YieldStar software"
+    },
+    "Consequence": {
+      "id": "RisingRents",
+      "中文名称": "租金上涨",
+      "英文名称": "Housing Affordability",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    },
+    "Domain": {
+      "id": "RealEstate",
+      "中文名称": "房地产",
+      "英文名称": "Real Estate Market",
+      "来源": "Are some rents in Canada part of a price-fixing scheme? | CBC News"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicPricing",
+      "中文名称": "算法定价",
+      "英文名称": "Automated Pricing",
+      "来源": "What is YieldStar, the controversial pricing software some blame for rising rents?"
+    }
+  }
+}

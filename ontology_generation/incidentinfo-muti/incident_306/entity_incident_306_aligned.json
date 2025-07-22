@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iPhoneFaceID",
+      "中文名称": "iPhone面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "The iPhone’s Cruel Face ID Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "AISubject": {
+      "id": "iPhoneUsers",
+      "中文名称": "iPhone用户",
+      "英文名称": "iPhone Users",
+      "来源": "Some Users"
+    },
+    "Consequence": {
+      "id": "UserInconvenience",
+      "中文名称": "用户不便",
+      "英文名称": "User Dissatisfaction",
+      "来源": "Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Face ID"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "iPhoneFaceID",
+      "中文名称": "iPhone面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "The iPhone’s Cruel Face ID Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "AISubject": {
+      "id": "iPhoneUsers",
+      "中文名称": "iPhone用户",
+      "英文名称": "iPhone Users",
+      "来源": "Some Users"
+    },
+    "Consequence": {
+      "id": "UserInconvenience",
+      "中文名称": "用户不便",
+      "英文名称": "User Dissatisfaction",
+      "来源": "Refuses to Recognize Some Users First Thing in the Morning"
+    },
+    "AICapability": {
+      "id": "FacialRecognition",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "Face ID"
+    }
+  }
+}

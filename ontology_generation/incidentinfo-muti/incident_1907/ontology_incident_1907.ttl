@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonBuyBoxAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "亚马逊Buy Box算法"@zh ;
+    rdfs:label "Amazon Buy Box Algorithm"@en ;
+    airo:hasRisk ex:ConsumerOverchargingRisk ;
+    airo:hasPurpose ex:ProductRecommendationSystem ;
+    airo:isDeployedBy ex:AmazonInc ;
+    airo:hasStakeholder ex:AmazonShoppers ;
+    airo:isAppliedWithinDomain ex:ECommercePlatform .
+
+ex:ConsumerOverchargingRisk rdf:type airo:Risk ;
+    rdfs:label "消费者被多收费风险"@zh ;
+    rdfs:label "Consumer Overcharging Risk"@en ;
+    airo:isRiskSourceFor ex:AlgorithmicPriceBias ;
+    airo:hasConsequence ex:FinancialLossToConsumers .
+
+ex:AmazonShoppers rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊购物者"@zh ;
+    rdfs:label "Amazon Shoppers"@en .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊公司"@zh ;
+    rdfs:label "Amazon Inc."@en .
+
+ex:FinancialLossToConsumers rdf:type airo:Consequence ;
+    rdfs:label "消费者经济损失后果"@zh ;
+    rdfs:label "Financial Loss to Consumers Consequence"@en ;
+    airo:hasImpact ex:ConsumerTrustErosion .
+
+ex:ConsumerTrustErosion rdf:type airo:Impact ;
+    rdfs:label "消费者信任度下降的影响"@zh ;
+    rdfs:label "Consumer Trust Erosion Impact"@en ;
+    airo:hasImpactOnStakeholder ex:AmazonShoppers .
+
+ex:ProductRecommendationSystem rdf:type airo:Purpose ;
+    rdfs:label "产品推荐系统的目的"@zh ;
+    rdfs:label "Product Recommendation System Purpose"@en .
+
+ex:ECommercePlatform rdf:type airo:Domain ;
+    rdfs:label "电子商务平台领域"@zh ;
+    rdfs:label "E-Commerce Platform Domain"@en .
+
+ex:AlgorithmicPriceBias rdf:type airo:RiskSource ;
+    rdfs:label "算法价格偏见的风险源"@zh ;
+    rdfs:label "Algorithmic Price Bias Risk Source"@en .

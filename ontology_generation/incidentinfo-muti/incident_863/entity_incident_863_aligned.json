@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PortlandWaterBillDiscountSystem",
+      "中文名称": "波特兰水费折扣系统",
+      "英文名称": "Portland Water Bill Discount System",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Risk": {
+      "id": "WealthBiasInUtilityDiscounts",
+      "中文名称": "公用事业折扣中的财富偏见风险",
+      "英文名称": "Wealth Bias in Utility Discounts Risk",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Stakeholder": {
+      "id": "WealthyResidents",
+      "中文名称": "富裕居民",
+      "英文名称": "Wealthy Residents",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Domain": {
+      "id": "PublicUtilities",
+      "中文名称": "公共事业",
+      "英文名称": "Public Utilities",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Impact": {
+      "id": "InequitableResourceDistribution",
+      "中文名称": "资源分配不公的影响",
+      "英文名称": "Game Balance Disruption",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PortlandWaterBillDiscountSystem",
+      "中文名称": "波特兰水费折扣系统",
+      "英文名称": "Portland Water Bill Discount System",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Risk": {
+      "id": "WealthBiasInUtilityDiscounts",
+      "中文名称": "公用事业折扣中的财富偏见风险",
+      "英文名称": "Wealth Bias in Utility Discounts Risk",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Stakeholder": {
+      "id": "WealthyResidents",
+      "中文名称": "富裕居民",
+      "英文名称": "Wealthy Residents",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Domain": {
+      "id": "PublicUtilities",
+      "中文名称": "公共事业",
+      "英文名称": "Public Utilities",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    },
+    "Impact": {
+      "id": "InequitableResourceDistribution",
+      "中文名称": "资源分配不公的影响",
+      "英文名称": "Game Balance Disruption",
+      "来源": "Machine Learning Offers a Water Bill Discount to Wealthy Portlander"
+    }
+  }
+}

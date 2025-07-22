@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramFaceRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Instagram Face Recognition System"@en ;
+    rdfs:label "Instagram面部识别系统"@zh ;
+    airo:hasRisk ex:BiometricDataPrivacyViolationRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:InstagramUsers ;
+    airo:isDevelopedBy ex:MetaPlatformsInc ;
+    airo:hasPurpose ex:UserIdentificationAndTagging .
+
+ex:BiometricDataPrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Biometric Data Privacy Violation Risk"@en ;
+    rdfs:label "生物识别数据隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedBiometricDataCollection ;
+    airo:isRiskSourceFor ex:LackOfExplicitUserConsent .
+
+ex:UnauthorizedBiometricDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Biometric Data Collection Consequence"@en ;
+    rdfs:label "未经授权的生物识别数据收集后果"@zh ;
+    airo:hasImpact ex:PrivacyRightsViolation .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:InstagramUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Instagram Users"@en ;
+    rdfs:label "Instagram用户"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:PrivacyRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Rights Violation Impact"@en ;
+    rdfs:label "隐私权侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InstagramUsers .
+
+ex:UserIdentificationAndTagging rdf:type airo:Purpose ;
+    rdfs:label "User Identification and Tagging Purpose"@en ;
+    rdfs:label "用户识别和标记目的"@zh .
+
+ex:LackOfExplicitUserConsent rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Explicit User Consent Risk Source"@en ;
+    rdfs:label "缺乏明确用户同意的风险源"@zh .

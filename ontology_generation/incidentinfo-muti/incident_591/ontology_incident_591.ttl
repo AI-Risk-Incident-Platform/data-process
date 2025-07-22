@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SupermarketAIMealPlannerApp rdf:type airo:AISystem ;
+    rdfs:label "Supermarket AI Meal Planner App"@en ;
+    rdfs:label "超市AI膳食规划应用"@zh ;
+    airo:hasRisk ex:ChemicalHazardRisk ;
+    airo:hasPurpose ex:MealPlanningAssistance ;
+    airo:isAppliedWithinDomain ex:RetailFoodServices .
+
+ex:ChemicalHazardRisk rdf:type airo:Risk ;
+    rdfs:label "Chemical Hazard Risk"@en ;
+    rdfs:label "化学危害风险"@zh ;
+    airo:hasConsequence ex:ToxicGasGeneration ;
+    airo:isRiskSourceFor ex:InappropriateRecipeSuggestion .
+
+ex:ToxicGasGeneration rdf:type airo:Consequence ;
+    rdfs:label "Toxic Gas Generation Consequence"@en ;
+    rdfs:label "有毒气体生成后果"@zh ;
+    airo:hasImpact ex:HealthHazardToUsers .
+
+ex:HealthHazardToUsers rdf:type airo:Impact ;
+    rdfs:label "Health Hazard to Users Impact"@en ;
+    rdfs:label "对用户健康危害的影响"@zh .
+
+ex:InappropriateRecipeSuggestion rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Recipe Suggestion Risk Source"@en ;
+    rdfs:label "不当食谱建议风险源"@zh .
+
+ex:MealPlanningAssistance rdf:type airo:Purpose ;
+    rdfs:label "Meal Planning Assistance Purpose"@en ;
+    rdfs:label "膳食规划辅助目的"@zh .
+
+ex:RetailFoodServices rdf:type airo:Domain ;
+    rdfs:label "Retail Food Services Domain"@en ;
+    rdfs:label "零售食品服务领域"@zh .

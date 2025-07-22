@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SnapchatMyAIChatbot rdf:type airo:AISystem ;
+    rdfs:label "Snapchat My AI Chatbot"@en ;
+    rdfs:label "Snapchat My AI聊天机器人"@zh ;
+    airo:hasRisk ex:ChildSafetyRisk ;
+    airo:hasAISubject ex:TeenageUsers ;
+    airo:hasStakeholder ex:ParentsOfTeenUsers ;
+    airo:hasPurpose ex:SocialMediaChatbotService ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:ChildSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Child Safety Risk"@en ;
+    rdfs:label "儿童安全风险"@zh ;
+    airo:hasConsequence ex:PotentialChildEndangerment ;
+    airo:isRiskSourceFor ex:UnsupervisedAIInteractionWithMinors .
+
+ex:ParentsOfTeenUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Parents of Teen Users"@en ;
+    rdfs:label "青少年用户的父母"@zh .
+
+ex:TeenageUsers rdf:type airo:AISubject ;
+    rdfs:label "Teenage Users"@en ;
+    rdfs:label "青少年用户"@zh .
+
+ex:PotentialChildEndangerment rdf:type airo:Consequence ;
+    rdfs:label "Potential Child Endangerment Consequence"@en ;
+    rdfs:label "潜在儿童危害后果"@zh ;
+    airo:hasImpactOnStakeholder ex:ParentsOfTeenUsers .
+
+ex:UnsupervisedAIInteractionWithMinors rdf:type airo:RiskSource ;
+    rdfs:label "Unsupervised AI Interaction with Minors Risk Source"@en ;
+    rdfs:label "AI与未成年人无监督互动的风险源"@zh .
+
+ex:SocialMediaChatbotService rdf:type airo:Purpose ;
+    rdfs:label "Social Media Chatbot Service Purpose"@en ;
+    rdfs:label "社交媒体聊天机器人服务的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

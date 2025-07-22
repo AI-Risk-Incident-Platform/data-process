@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "IranianHackerGroupAI",
+      "中文名称": "伊朗黑客组织AI",
+      "英文名称": "Iranian Hacker Group AI",
+      "来源": "Iranian hacker group aims at US election websites and media before vote, Microsoft says"
+    },
+    "Risk": {
+      "id": "CyberAttackRisk",
+      "中文名称": "网络攻击风险",
+      "英文名称": "Cyber Attack Risk",
+      "来源": "Iranian hacker group aims at US election websites and media before vote"
+    },
+    "Stakeholder": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft says"
+    },
+    "Domain": {
+      "id": "ElectionAndMedia",
+      "中文名称": "选举和媒体领域",
+      "英文名称": "Election and Media Domain",
+      "来源": "US election websites and media"
+    },
+    "Threat": {
+      "id": "APTGroupThreat",
+      "中文名称": "APT组织威胁",
+      "英文名称": "APT Group Threat",
+      "来源": "Iranian APT Group Targets IP Cameras, Extends Attacks Beyond Israel"
+    },
+    "Impact": {
+      "id": "InformationSecurityThreat",
+      "中文名称": "信息安全威胁",
+      "英文名称": "Information Security Threat",
+      "来源": "Extends Attacks Beyond Israel"
+    }
+  }
+}

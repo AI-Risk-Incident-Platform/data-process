@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SlackAI",
+      "中文名称": "Slack人工智能系统",
+      "英文名称": "Slack AI System",
+      "来源": "Slack has been scanning your messages to train its AI models"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Slack under attack over sneaky AI training policy"
+    },
+    "AIOperator": {
+      "id": "SlackCompany",
+      "中文名称": "Slack公司",
+      "英文名称": "Slack Company",
+      "来源": "User Outcry as Slack Scrapes Customer Data for AI Model Training"
+    },
+    "Stakeholder": {
+      "id": "SlackUsers",
+      "中文名称": "Slack用户",
+      "英文名称": "Slack Users",
+      "来源": "User Outcry as Slack Scrapes Customer Data for AI Model Training"
+    },
+    "RiskSource": {
+      "id": "DataScrapingWithoutConsent",
+      "中文名称": "未经同意的数据抓取",
+      "英文名称": "Data Scraping Without Consent",
+      "来源": "Yuck, Slack has been scanning your messages to train its AI models"
+    },
+    "Consequence": {
+      "id": "LossOfUserTrust",
+      "中文名称": "用户信任丧失",
+      "英文名称": "Loss of User Trust",
+      "来源": "User Outcry as Slack Scrapes Customer Data for AI Model Training"
+    },
+    "Impact": {
+      "id": "ReputationalDamage",
+      "中文名称": "声誉损害",
+      "英文名称": "Reputational Damage",
+      "来源": "Slack under attack over sneaky AI training policy"
+    },
+    "Purpose": {
+      "id": "AIModelTraining",
+      "中文名称": "AI模型训练",
+      "英文名称": "AI Model Training",
+      "来源": "Slack has been scanning your messages to train its AI models"
+    },
+    "Domain": {
+      "id": "EnterpriseCommunication",
+      "中文名称": "企业通信",
+      "英文名称": "Enterprise Communication",
+      "来源": "Slack under attack over sneaky AI training policy"
+    }
+  }
+}

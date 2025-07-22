@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AITrafficCameras",
+      "中文名称": "AI交通摄像头",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "UK's new AI traffic cameras monitor seatbelt use"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "raise privacy concerns"
+    },
+    "AICapability": {
+      "id": "SeatbeltMonitoring",
+      "中文名称": "安全带监控能力",
+      "英文名称": "Seatbelt Monitoring Capability",
+      "来源": "monitor seatbelt use"
+    },
+    "Stakeholder": {
+      "id": "UKDrivers",
+      "中文名称": "英国司机",
+      "英文名称": "UK Drivers",
+      "来源": "Drivers rage new artificial intelligence cameras not fit for UK roads"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "they 'invade' privacy"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AITrafficCameras",
+      "中文名称": "AI交通摄像头",
+      "英文名称": "AI Traffic Monitoring",
+      "来源": "UK's new AI traffic cameras monitor seatbelt use"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "raise privacy concerns"
+    },
+    "AICapability": {
+      "id": "SeatbeltMonitoring",
+      "中文名称": "安全带监控能力",
+      "英文名称": "Seatbelt Monitoring Capability",
+      "来源": "monitor seatbelt use"
+    },
+    "Stakeholder": {
+      "id": "UKDrivers",
+      "中文名称": "英国司机",
+      "英文名称": "UK Drivers",
+      "来源": "Drivers rage new artificial intelligence cameras not fit for UK roads"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "they 'invade' privacy"
+    }
+  }
+}

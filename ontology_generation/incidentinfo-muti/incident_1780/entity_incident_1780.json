@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PepperRobotMonk",
+      "中文名称": "Pepper机器人僧侣",
+      "英文名称": "Pepper Robot Monk",
+      "来源": "新闻标题：'Pepper The Robot To Work As A Monk At Japanese Funerals'"
+    },
+    "Risk": {
+      "id": "CulturalSensitivityRisk",
+      "中文名称": "文化敏感性风险",
+      "英文名称": "Cultural Sensitivity Risk",
+      "来源": "机器人参与宗教仪式可能引发文化敏感性争议"
+    },
+    "Purpose": {
+      "id": "LowCostFuneralService",
+      "中文名称": "低成本葬礼服务",
+      "英文名称": "Low Cost Funeral Service",
+      "来源": "新闻标题：'This Japanese robot can host low-cost Buddhist funerals'"
+    },
+    "Domain": {
+      "id": "ReligiousServices",
+      "中文名称": "宗教服务领域",
+      "英文名称": "Religious Services Domain",
+      "来源": "机器人被用于佛教葬礼仪式"
+    },
+    "AICapability": {
+      "id": "RitualPerformance",
+      "中文名称": "仪式执行能力",
+      "英文名称": "Ritual Performance Capability",
+      "来源": "机器人能够主持佛教葬礼仪式"
+    },
+    "Stakeholder": {
+      "id": "BuddhistTemple",
+      "中文名称": "佛教寺庙",
+      "英文名称": "Buddhist Temple",
+      "来源": "新闻标题：'Japan: Buddhist temple offers robot priest for hire as cheaper funeral alternative'"
+    },
+    "AIOperator": {
+      "id": "TempleManagement",
+      "中文名称": "寺庙管理机构",
+      "英文名称": "Temple Management",
+      "来源": "佛教寺庙提供机器人僧侣服务"
+    },
+    "Consequence": {
+      "id": "TraditionalRitualDilution",
+      "中文名称": "传统仪式淡化后果",
+      "英文名称": "Traditional Ritual Dilution Consequence",
+      "来源": "机器人参与可能导致宗教仪式传统意义的淡化"
+    },
+    "Impact": {
+      "id": "ReligiousPracticeChange",
+      "中文名称": "宗教实践变化影响",
+      "英文名称": "Religious Practice Change Impact",
+      "来源": "引入机器人可能改变传统的宗教实践方式"
+    }
+  }
+}

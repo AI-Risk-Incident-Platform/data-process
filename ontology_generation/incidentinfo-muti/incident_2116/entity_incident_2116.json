@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Crash Risk",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    },
+    "Consequence": {
+      "id": "FatalAccident",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal Accident Consequence",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    },
+    "Stakeholder": {
+      "id": "CrashVictimFamily",
+      "中文名称": "事故受害者家属",
+      "英文名称": "Crash Victim Family",
+      "来源": "Tesla Suit Over Crash in Japan Should Stay in U.S., Family Says"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Tesla faces lawsuit over another fatal 'autopilot' crash"
+    }
+  }
+}

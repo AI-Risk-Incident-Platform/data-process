@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleAI rdf:type airo:AISystem ;
+    rdfs:label "Google AI"@en ;
+    rdfs:label "谷歌AI"@zh ;
+    airo:hasRisk ex:HarmfulAIApproachRisk ;
+    airo:hasStakeholder ex:GoogleCompany ;
+    airo:isDevelopedBy ex:GoogleAIResearch .
+
+ex:HarmfulAIApproachRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful AI Development Approach Risk"@en ;
+    rdfs:label "有害AI开发方法风险"@zh ;
+    airo:isRiskSourceFor ex:InadequateDataLabeling ;
+    airo:hasConsequence ex:PoorAIQuality .
+
+ex:GoogleCompany rdf:type airo:Stakeholder ;
+    rdfs:label "Google Company"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:GoogleAIResearch rdf:type airo:AIDeveloper ;
+    rdfs:label "Google AI Research"@en ;
+    rdfs:label "谷歌AI研究部门"@zh .
+
+ex:InadequateDataLabeling rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Data Labeling Risk Source"@en ;
+    rdfs:label "数据标注不足风险源"@zh .
+
+ex:PoorAIQuality rdf:type airo:Consequence ;
+    rdfs:label "Poor AI Quality Consequence"@en ;
+    rdfs:label "AI质量低下后果"@zh ;
+    airo:hasImpact ex:NegativeSocialImpact .
+
+ex:NegativeSocialImpact rdf:type airo:Impact ;
+    rdfs:label "Negative Social Impact"@en ;
+    rdfs:label "负面社会影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GoogleCompany .

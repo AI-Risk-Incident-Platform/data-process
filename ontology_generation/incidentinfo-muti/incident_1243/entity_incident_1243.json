@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BaiduAutonomousDrivingSystem",
+      "中文名称": "百度自动驾驶系统",
+      "英文名称": "Baidu Autonomous Driving System",
+      "来源": "标题中提到的'China autonomous driving accident Baidu'"
+    },
+    "Risk": {
+      "id": "PedestrianCollisionRisk",
+      "中文名称": "行人碰撞风险",
+      "英文名称": "Pedestrian Collision Risk",
+      "来源": "标题中提到的'Driverless taxi accident in China'和'Chinese driverless car hits a person'"
+    },
+    "Consequence": {
+      "id": "PhysicalInjuryToPedestrian",
+      "中文名称": "行人身体伤害后果",
+      "英文名称": "Physical Injury to Pedestrian Consequence",
+      "来源": "标题中提到的'accident'和'hits a person'"
+    },
+    "AIOperator": {
+      "id": "Baidu",
+      "中文名称": "百度",
+      "英文名称": "Baidu",
+      "来源": "标题中提到的'China autonomous driving accident Baidu'"
+    },
+    "Stakeholder": {
+      "id": "Pedestrian",
+      "中文名称": "行人",
+      "英文名称": "Pedestrian",
+      "来源": "标题中提到的'person crossing against the light'"
+    },
+    "RiskSource": {
+      "id": "JaywalkingBehavior",
+      "中文名称": "乱穿马路行为风险源",
+      "英文名称": "Jaywalking Behavior Risk Source",
+      "来源": "标题中提到的'person crossing against the light'"
+    },
+    "Domain": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶领域",
+      "英文名称": "Autonomous Driving Domain",
+      "来源": "标题中多次提到的'driverless'和'autonomous driving'"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concern Impact",
+      "来源": "标题中提到的'accident'和'sparks discussions on challenges'"
+    }
+  }
+}

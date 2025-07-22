@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RobocallSystem rdf:type airo:AISystem ;
+    rdfs:label "Robocall System"@en ;
+    rdfs:label "机器人骚扰电话系统"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:hasAICapability ex:MassCallingCapability ;
+    airo:hasAISubject ex:PhoneUsers ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:UnregulatedCallingTechnology ;
+    airo:hasImpact ex:UserPrivacyViolation .
+
+ex:MassCallingCapability rdf:type airo:AICapability ;
+    rdfs:label "Mass Calling Capability"@en ;
+    rdfs:label "大规模呼叫能力"@zh .
+
+ex:PhoneUsers rdf:type airo:AISubject ;
+    rdfs:label "Phone Users"@en ;
+    rdfs:label "电话用户"@zh .
+
+ex:UserPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "User Privacy Violation Impact"@en ;
+    rdfs:label "用户隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PhoneUsers .
+
+ex:UnregulatedCallingTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated Calling Technology Risk Source"@en ;
+    rdfs:label "未受监管的呼叫技术风险源"@zh .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .

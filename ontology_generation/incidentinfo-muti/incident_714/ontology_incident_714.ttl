@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:StaffingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Staffing Algorithm"@en ;
+    rdfs:label "人员配置算法"@zh ;
+    airo:hasRisk ex:InadequateStaffingRisk ;
+    airo:hasStakeholder ex:AssistedLivingManagers ;
+    airo:isAppliedWithinDomain ex:AssistedLivingFacilitiesDomain .
+
+ex:InadequateStaffingRisk rdf:type airo:Risk ;
+    rdfs:label "Inadequate Staffing Risk"@en ;
+    rdfs:label "人员不足风险"@zh ;
+    airo:hasConsequence ex:ReducedQualityOfCareImpact .
+
+ex:AssistedLivingManagers rdf:type airo:Stakeholder ;
+    rdfs:label "Assisted Living Managers"@en ;
+    rdfs:label "辅助生活管理者"@zh .
+
+ex:ReducedQualityOfCareImpact rdf:type airo:Impact ;
+    rdfs:label "Reduced Quality of Care Impact"@en ;
+    rdfs:label "护理质量下降"@zh ;
+    airo:hasImpactOnStakeholder ex:AssistedLivingManagers .
+
+ex:AssistedLivingFacilitiesDomain rdf:type airo:Domain ;
+    rdfs:label "Assisted Living Facilities Domain"@en ;
+    rdfs:label "辅助生活设施"@zh .

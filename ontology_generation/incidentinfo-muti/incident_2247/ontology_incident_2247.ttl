@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "面部识别系统"@zh ;
+    rdfs:label "Facial Recognition System"@en ;
+    airo:hasRisk ex:SecurityBreachRisk ;
+    airo:hasCapability ex:FacialRecognition ;
+    airo:isAppliedWithinDomain ex:AirportAndPaymentSystems .
+
+ex:SecurityBreachRisk rdf:type airo:Risk ;
+    rdfs:label "安全漏洞风险"@zh ;
+    rdfs:label "Security Breach Risk"@en ;
+    airo:hasConsequence ex:SecurityConcerns ;
+    airo:isRiskSourceFor ex:MaskAndPhotoAttack .
+
+ex:MaskAndPhotoAttack rdf:type airo:RiskSource ;
+    rdfs:label "面具和照片攻击"@zh ;
+    rdfs:label "Mask and Photo Attack"@en ;
+    airo:exploitsVulnerability ex:SpoofingVulnerability .
+
+ex:SecurityConcerns rdf:type airo:Consequence ;
+    rdfs:label "安全担忧"@zh ;
+    rdfs:label "Security Concerns"@en .
+
+ex:AirportAndPaymentSystems rdf:type airo:Domain ;
+    rdfs:label "机场和支付系统"@zh ;
+    rdfs:label "Airport and Payment Systems"@en .
+
+ex:FacialRecognition rdf:type airo:AICapability ;
+    rdfs:label "面部识别能力"@zh ;
+    rdfs:label "Facial Recognition Capability"@en .
+
+ex:SpoofingVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "欺骗漏洞"@zh ;
+    rdfs:label "Spoofing Vulnerability"@en .

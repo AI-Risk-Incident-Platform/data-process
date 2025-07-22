@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenerativeAI rdf:type airo:AISystem ;
+    rdfs:label "Generative AI"@en ;
+    rdfs:label "生成式AI"@zh ;
+    airo:hasRisk ex:MisuseOfGenerativeAIForViolentActs ;
+    airo:hasAICapability ex:PlanningAndExecutionAssistance ;
+    airo:isDeployedBy ex:MatthewLivelsberger ;
+    airo:hasStakeholder ex:LasVegasPoliceDepartment ;
+    airo:hasAISubject ex:PublicSafety ;
+    airo:hasPurpose ex:ViolentActPlanning ;
+    airo:isAppliedWithinDomain ex:PublicSecurity ;
+    airo:usesTechnique ex:ChatGPT .
+
+ex:MisuseOfGenerativeAIForViolentActs rdf:type airo:Risk ;
+    rdfs:label "Misuse of Generative AI for Violent Acts Risk"@en ;
+    rdfs:label "生成式AI被用于暴力行为的风险"@zh ;
+    airo:hasConsequence ex:PhysicalDamageFromExplosion ;
+    airo:isRiskSourceFor ex:OpenAccessToGenerativeAITools ;
+    airo:isRiskSourceFor ex:TerroristUseOfGenerativeAI ;
+    airo:isRiskSourceFor ex:UnrestrictedAccessToGenerativeAI .
+
+ex:PhysicalDamageFromExplosion rdf:type airo:Consequence ;
+    rdfs:label "Physical Damage from Explosion Consequence"@en ;
+    rdfs:label "爆炸造成的物理损害后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PlanningAndExecutionAssistance rdf:type airo:AICapability ;
+    rdfs:label "Planning and Execution Assistance Capability"@en ;
+    rdfs:label "计划与执行辅助能力"@zh .
+
+ex:MatthewLivelsberger rdf:type airo:AIOperator ;
+    rdfs:label "Matthew Livelsberger"@en ;
+    rdfs:label "马修·利弗斯伯格"@zh .
+
+ex:LasVegasPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Las Vegas Police Department"@en ;
+    rdfs:label "拉斯维加斯警察局"@zh .
+
+ex:PublicSafety rdf:type airo:AISubject ;
+    rdfs:label "Public Safety"@en ;
+    rdfs:label "公共安全"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LasVegasPoliceDepartment .
+
+ex:ViolentActPlanning rdf:type airo:Purpose ;
+    rdfs:label "Violent Act Planning Purpose"@en ;
+    rdfs:label "暴力行为策划的目的"@zh .
+
+ex:PublicSecurity rdf:type airo:Domain ;
+    rdfs:label "Public Security Domain"@en ;
+    rdfs:label "公共安全领域"@zh .
+
+ex:ChatGPT rdf:type airo:AITechnique ;
+    rdfs:label "ChatGPT Technique"@en ;
+    rdfs:label "ChatGPT技术"@zh .
+
+ex:OpenAccessToGenerativeAITools rdf:type airo:RiskSource ;
+    rdfs:label "Open Access to Generative AI Tools Risk Source"@en ;
+    rdfs:label "生成式AI工具的开放访问风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFilteringForViolentPlans .
+
+ex:TerroristUseOfGenerativeAI rdf:type airo:Threat ;
+    rdfs:label "Terrorist Use of Generative AI Threat"@en ;
+    rdfs:label "恐怖分子使用生成式AI的威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFilteringForViolentPlans .
+
+ex:UnrestrictedAccessToGenerativeAI rdf:type airo:Hazard ;
+    rdfs:label "Unrestricted Access to Generative AI Hazard"@en ;
+    rdfs:label "无限制访问生成式AI的危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentFilteringForViolentPlans .
+
+ex:LackOfContentFilteringForViolentPlans rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Filtering for Violent Plans Vulnerability"@en ;
+    rdfs:label "缺乏暴力计划内容过滤的脆弱性"@zh .
+
+ex:EthicalChallengesInGenerativeAIAccess rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in Generative AI Access Risk Concept"@en ;
+    rdfs:label "生成式AI访问中的伦理挑战"@zh .

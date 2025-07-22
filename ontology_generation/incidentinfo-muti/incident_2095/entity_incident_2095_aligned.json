@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FaceRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Consequence": {
+      "id": "DenialOfServices",
+      "中文名称": "服务拒绝后果",
+      "英文名称": "Service Denial Consequence",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "AIOperator": {
+      "id": "IRS",
+      "中文名称": "美国国税局",
+      "英文名称": "IRS",
+      "来源": "IRS to end facial recognition use"
+    },
+    "Stakeholder": {
+      "id": "UN",
+      "中文名称": "联合国",
+      "英文名称": "UN",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "AISubject": {
+      "id": "UnemploymentBenefitApplicants",
+      "中文名称": "失业救济申请人",
+      "英文名称": "Unemployment Benefit Applicants",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Impact": {
+      "id": "AccessDenialToEssentialServices",
+      "中文名称": "基本服务访问被拒影响",
+      "英文名称": "Access Denial to Essential Services Impact",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务领域",
+      "英文名称": "Public Sector",
+      "来源": "IRS to end facial recognition use"
+    },
+    "AITechnique": {
+      "id": "BiometricAuthentication",
+      "中文名称": "生物特征认证技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见漏洞",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Threat": {
+      "id": "SystemicExclusionOfMinorityGroups",
+      "中文名称": "少数群体系统性排斥威胁",
+      "英文名称": "Systemic Exclusion of Minority Groups Threat",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Hazard": {
+      "id": "InaccurateFacialMatching",
+      "中文名称": "面部匹配不准确危害",
+      "英文名称": "Inaccurate Facial Matching Hazard",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "RiskSource": {
+      "id": "PoorAlgorithmPerformance",
+      "中文名称": "算法性能不佳风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInBiometricIdentification",
+      "中文名称": "生物识别中的伦理问题",
+      "英文名称": "Ethical Facial & Biometric Recognition Risk",
+      "来源": "IRS to end facial recognition use"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FaceRecognitionSoftware",
+      "中文名称": "面部识别软件",
+      "英文名称": "Facial Recognition System",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Risk": {
+      "id": "FacialRecognitionFailureRisk",
+      "中文名称": "面部识别失败风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Consequence": {
+      "id": "DenialOfServices",
+      "中文名称": "服务拒绝后果",
+      "英文名称": "Service Denial Consequence",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "AIOperator": {
+      "id": "IRS",
+      "中文名称": "美国国税局",
+      "英文名称": "IRS",
+      "来源": "IRS to end facial recognition use"
+    },
+    "Stakeholder": {
+      "id": "UN",
+      "中文名称": "联合国",
+      "英文名称": "UN",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "AISubject": {
+      "id": "UnemploymentBenefitApplicants",
+      "中文名称": "失业救济申请人",
+      "英文名称": "Unemployment Benefit Applicants",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Impact": {
+      "id": "AccessDenialToEssentialServices",
+      "中文名称": "基本服务访问被拒影响",
+      "英文名称": "Access Denial to Essential Services Impact",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Purpose": {
+      "id": "IdentityVerification",
+      "中文名称": "身份验证目的",
+      "英文名称": "Identity Verification Purpose",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Domain": {
+      "id": "GovernmentServices",
+      "中文名称": "政府服务领域",
+      "英文名称": "Public Sector",
+      "来源": "IRS to end facial recognition use"
+    },
+    "AITechnique": {
+      "id": "BiometricAuthentication",
+      "中文名称": "生物特征认证技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Issues with Face Recognition Software Used to Verify UN"
+    },
+    "Vulnerability": {
+      "id": "AlgorithmicBiasInFacialRecognition",
+      "中文名称": "面部识别中的算法偏见漏洞",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Threat": {
+      "id": "SystemicExclusionOfMinorityGroups",
+      "中文名称": "少数群体系统性排斥威胁",
+      "英文名称": "Systemic Exclusion of Minority Groups Threat",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "Hazard": {
+      "id": "InaccurateFacialMatching",
+      "中文名称": "面部匹配不准确危害",
+      "英文名称": "Inaccurate Facial Matching Hazard",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "RiskSource": {
+      "id": "PoorAlgorithmPerformance",
+      "中文名称": "算法性能不佳风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Facial Recognition Failures Are Locking People Out of Unemployment Systems"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInBiometricIdentification",
+      "中文名称": "生物识别中的伦理问题",
+      "英文名称": "Ethical Facial & Biometric Recognition Risk",
+      "来源": "IRS to end facial recognition use"
+    }
+  }
+}

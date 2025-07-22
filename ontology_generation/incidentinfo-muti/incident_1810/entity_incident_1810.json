@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SupermarketSurveillanceSystem",
+      "中文名称": "超市监控系统",
+      "英文名称": "Supermarket Surveillance System",
+      "来源": "Big Brother: is this supermarket taking security cameras too far?"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Invasion Risk",
+      "来源": "Big Brother: is this supermarket taking security cameras too far?"
+    },
+    "Stakeholder": {
+      "id": "SupermarketCustomers",
+      "中文名称": "超市顾客",
+      "英文名称": "Supermarket Customers",
+      "来源": "Tientallen camera's houden klanten van filiaal Jumbo in de gaten: 'Willen we dit?'"
+    },
+    "AIOperator": {
+      "id": "JumboSupermarket",
+      "中文名称": "Jumbo超市",
+      "英文名称": "Jumbo Supermarket",
+      "来源": "Tientallen camera's houden klanten van filiaal Jumbo in de gaten: 'Willen we dit?'"
+    },
+    "Purpose": {
+      "id": "SecurityMonitoring",
+      "中文名称": "安全监控",
+      "英文名称": "Security Monitoring",
+      "来源": "Big Brother: is this supermarket taking security cameras too far?"
+    },
+    "Domain": {
+      "id": "RetailSecurity",
+      "中文名称": "零售安全",
+      "英文名称": "Retail Security",
+      "来源": "Big Brother: is this supermarket taking security cameras too far?"
+    }
+  }
+}

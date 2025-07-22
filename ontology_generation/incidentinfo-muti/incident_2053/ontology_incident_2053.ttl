@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Facial Recognition System"@en ;
+    rdfs:label "优步面部识别系统"@zh ;
+    airo:hasRisk ex:RacialDiscriminationRisk ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasPurpose ex:DriverIdentityVerification ;
+    airo:hasStakeholder ex:UberDrivers ;
+    airo:isAppliedWithinDomain ex:RideHailingServicesDomain ;
+    airo:isDevelopedBy ex:UberTechnologies .
+
+ex:RacialDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Racial Discrimination Risk"@en ;
+    rdfs:label "种族歧视风险"@zh ;
+    airo:hasConsequence ex:UnjustTermination ;
+    airo:isRiskSourceFor ex:BiasedAlgorithm .
+
+ex:UnjustTermination rdf:type airo:Consequence ;
+    rdfs:label "Unjust Termination Consequence"@en ;
+    rdfs:label "不公正解雇后果"@zh ;
+    airo:hasImpact ex:EconomicHardship .
+
+ex:EconomicHardship rdf:type airo:Impact ;
+    rdfs:label "Economic Hardship Impact"@en ;
+    rdfs:label "经济困难影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UberDrivers .
+
+ex:UberDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Drivers"@en ;
+    rdfs:label "优步司机"@zh .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "优步科技"@zh .
+
+ex:BiasedAlgorithm rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithm Risk Source"@en ;
+    rdfs:label "偏见算法风险源"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:DriverIdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Driver Identity Verification Purpose"@en ;
+    rdfs:label "司机身份验证目的"@zh .
+
+ex:RideHailingServicesDomain rdf:type airo:Domain ;
+    rdfs:label "Ride-Hailing Services Domain"@en ;
+    rdfs:label "网约车服务领域"@zh .

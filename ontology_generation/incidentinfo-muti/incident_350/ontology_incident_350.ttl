@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberDismissalAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Uber Dismissal Algorithm"@en ;
+    rdfs:label "优步算法解雇系统"@zh ;
+    airo:hasRisk ex:UnfairDismissalRisk ;
+    airo:isDeployedBy ex:UberTechnologies ;
+    airo:hasStakeholder ex:AppDriversAndCouriersUnion ;
+    airo:isAppliedWithinDomain ex:GigEconomy .
+
+ex:UnfairDismissalRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Dismissal Risk"@en ;
+    rdfs:label "不公平解雇风险"@zh ;
+    airo:hasConsequence ex:LossOfLivelihood ;
+    airo:isRiskSourceFor ex:AutomatedDecisionMakingWithoutHumanReview .
+
+ex:AppDriversAndCouriersUnion rdf:type airo:Stakeholder ;
+    rdfs:label "App Drivers & Couriers Union"@en ;
+    rdfs:label "应用司机与快递员联盟"@zh .
+
+ex:UberTechnologies rdf:type airo:AIOperator ;
+    rdfs:label "Uber Technologies"@en ;
+    rdfs:label "优步科技"@zh .
+
+ex:LossOfLivelihood rdf:type airo:Consequence ;
+    rdfs:label "Loss of Livelihood Consequence"@en ;
+    rdfs:label "生计丧失后果"@zh ;
+    airo:hasImpactOnStakeholder ex:AppDriversAndCouriersUnion .
+
+ex:GigEconomy rdf:type airo:Domain ;
+    rdfs:label "Gig Economy Domain"@en ;
+    rdfs:label "零工经济领域"@zh .
+
+ex:AutomatedDecisionMakingWithoutHumanReview rdf:type airo:RiskSource ;
+    rdfs:label "Automated Decision Making Without Human Review Risk Source"@en ;
+    rdfs:label "无人审核的自动化决策风险源"@zh .

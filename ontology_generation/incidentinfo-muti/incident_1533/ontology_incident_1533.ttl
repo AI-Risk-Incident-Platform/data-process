@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChattrAIHiringService rdf:type airo:AISystem ;
+    rdfs:label "Chattr.ai招聘服务"@zh ;
+    rdfs:label "Chattr.ai Hiring Service"@en ;
+    airo:hasRisk ex:DataExposureRisk ;
+    airo:isProvidedBy ex:ChattrAIProvider ;
+    airo:hasStakeholder ex:SecurityResearcher ;
+    airo:isAppliedWithinDomain ex:HumanResources .
+
+ex:DataExposureRisk rdf:type airo:Risk ;
+    rdfs:label "数据暴露风险"@zh ;
+    rdfs:label "Data Exposure Risk"@en ;
+    airo:isRiskSourceFor ex:SystemMisconfiguration ;
+    airo:hasConsequence ex:SensitiveDataExposure .
+
+ex:SystemMisconfiguration rdf:type airo:RiskSource ;
+    rdfs:label "系统配置错误"@zh ;
+    rdfs:label "System Misconfiguration"@en .
+
+ex:SensitiveDataExposure rdf:type airo:Consequence ;
+    rdfs:label "敏感数据暴露"@zh ;
+    rdfs:label "Sensitive Data Exposure"@en ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:SecurityResearcher rdf:type airo:Stakeholder ;
+    rdfs:label "安全研究员"@zh ;
+    rdfs:label "Security Researcher"@en .
+
+ex:ChattrAIProvider rdf:type airo:AIOperator ;
+    rdfs:label "Chattr.ai提供商"@zh ;
+    rdfs:label "Chattr.ai Provider"@en .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "隐私侵犯"@zh ;
+    rdfs:label "Privacy Violation"@en ;
+    airo:hasImpactOnStakeholder ex:SecurityResearcher .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "人力资源"@zh ;
+    rdfs:label "Human Resources"@en .

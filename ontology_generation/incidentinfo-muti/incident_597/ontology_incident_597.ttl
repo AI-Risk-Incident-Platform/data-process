@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedChildSexualImages rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Child Sexual Images"@en ;
+    rdfs:label "AI生成儿童性图像"@zh ;
+    airo:hasRisk ex:ChildExploitationRisk ;
+    airo:usesTechnique ex:ImageGenerationAI ;
+    airo:hasPurpose ex:IllicitContentCreation ;
+    airo:isAppliedWithinDomain ex:LegalSystem ;
+    airo:hasStakeholder ex:Offender .
+
+ex:ChildExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Child Exploitation Risk"@en ;
+    rdfs:label "儿童剥削风险"@zh ;
+    airo:hasConsequence ex:LegalPenalties ;
+    airo:isRiskSourceFor ex:AIAbuseForIllegalPurposes .
+
+ex:LegalPenalties rdf:type airo:Consequence ;
+    rdfs:label "Legal Penalties Consequence"@en ;
+    rdfs:label "法律处罚后果"@zh ;
+    airo:hasImpact ex:ChildProtectionViolation .
+
+ex:Offender rdf:type airo:AIOperator ;
+    rdfs:label "Offender"@en ;
+    rdfs:label "违法者"@zh .
+
+ex:LegalSystem rdf:type airo:Domain ;
+    rdfs:label "Legal System Domain"@en ;
+    rdfs:label "法律系统领域"@zh .
+
+ex:ChildProtectionViolation rdf:type airo:Impact ;
+    rdfs:label "Child Protection Violation Impact"@en ;
+    rdfs:label "儿童保护侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Offender .
+
+ex:IllicitContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Illicit Content Creation Purpose"@en ;
+    rdfs:label "非法内容创作目的"@zh .
+
+ex:ImageGenerationAI rdf:type airo:AITechnique ;
+    rdfs:label "Image Generation AI Technique"@en ;
+    rdfs:label "图像生成AI技术"@zh .
+
+ex:AIAbuseForIllegalPurposes rdf:type airo:RiskSource ;
+    rdfs:label "AI Abuse for Illegal Purposes Risk Source"@en ;
+    rdfs:label "AI滥用用于非法目的风险源"@zh .

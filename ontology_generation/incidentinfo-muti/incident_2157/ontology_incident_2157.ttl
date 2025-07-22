@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIDebater rdf:type airo:AISystem ;
+    rdfs:label "AI Debater"@en ;
+    rdfs:label "AI辩论者"@zh ;
+    airo:hasRisk ex:LackOfTransparencyRisk ;
+    airo:hasStakeholder ex:AIUser .
+
+ex:LackOfTransparencyRisk rdf:type airo:Risk ;
+    rdfs:label "Lack of Transparency Risk"@en ;
+    rdfs:label "缺乏透明度风险"@zh ;
+    airo:isRiskSourceFor ex:OpaqueDecisionMakingProcess ;
+    airo:hasConsequence ex:UncertaintyInHumanAIIntegration .
+
+ex:AIUser rdf:type airo:Stakeholder ;
+    rdfs:label "AI User"@en ;
+    rdfs:label "AI使用者"@zh .
+
+ex:OpaqueDecisionMakingProcess rdf:type airo:RiskSource ;
+    rdfs:label "Opaque Decision Making Process"@en ;
+    rdfs:label "不透明的决策过程"@zh .
+
+ex:UncertaintyInHumanAIIntegration rdf:type airo:Consequence ;
+    rdfs:label "Uncertainty in Human-AI Integration"@en ;
+    rdfs:label "人机交互中的不确定性"@zh .

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIUndressingWebsite rdf:type airo:AISystem ;
+    rdfs:label "AI Undressing Website"@en ;
+    rdfs:label "AI脱衣网站"@zh ;
+    airo:hasRisk ex:PrivacyViolationAndExploitationRisk ;
+    airo:hasStakeholder ex:SanFranciscoCityAttorney ;
+    airo:hasAISubject ex:WomenAndGirls ;
+    airo:isAppliedWithinDomain ex:OnlineContentGeneration .
+
+ex:PrivacyViolationAndExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation and Exploitation Risk"@en ;
+    rdfs:label "隐私侵犯与剥削风险"@zh ;
+    airo:hasConsequence ex:LegalActionAgainstAIExploitation ;
+    airo:isRiskSourceFor ex:DeepfakeTechnologyMisuse .
+
+ex:SanFranciscoCityAttorney rdf:type airo:Stakeholder ;
+    rdfs:label "San Francisco City Attorney"@en ;
+    rdfs:label "旧金山市检察官"@zh .
+
+ex:WomenAndGirls rdf:type airo:AISubject ;
+    rdfs:label "Women and Girls"@en ;
+    rdfs:label "女性与女孩"@zh .
+
+ex:LegalActionAgainstAIExploitation rdf:type airo:Consequence ;
+    rdfs:label "Legal Action Against AI Exploitation Consequence"@en ;
+    rdfs:label "针对AI剥削的法律行动后果"@zh ;
+    airo:hasImpact ex:PsychologicalHarmToVictims .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Victims Impact"@en ;
+    rdfs:label "对受害者的心理伤害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WomenAndGirls .
+
+ex:OnlineContentGeneration rdf:type airo:Domain ;
+    rdfs:label "Online Content Generation Domain"@en ;
+    rdfs:label "在线内容生成领域"@zh .
+
+ex:DeepfakeTechnologyMisuse rdf:type airo:RiskSource ;
+    rdfs:label "Deepfake Technology Misuse Risk Source"@en ;
+    rdfs:label "深度伪造技术滥用风险源"@zh .

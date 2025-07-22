@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookJobAdSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Job Ad System"@en ;
+    rdfs:label "Facebook招聘广告系统"@zh ;
+    airo:hasRisk ex:GenderAndAgeDiscriminationRisk ;
+    airo:hasStakeholder ex:FemaleTruckers ;
+    airo:isAppliedWithinDomain ex:OnlineJobAdvertising .
+
+ex:GenderAndAgeDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Gender and Age Discrimination Risk"@en ;
+    rdfs:label "性别和年龄歧视风险"@zh ;
+    airo:hasConsequence ex:EmploymentDiscriminationImpact .
+
+ex:FemaleTruckers rdf:type airo:Stakeholder ;
+    rdfs:label "Female Truckers"@en ;
+    rdfs:label "女性卡车司机"@zh .
+
+ex:EmploymentDiscriminationImpact rdf:type airo:Impact ;
+    rdfs:label "Employment Discrimination Impact"@en ;
+    rdfs:label "就业歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemaleTruckers .
+
+ex:OnlineJobAdvertising rdf:type airo:Domain ;
+    rdfs:label "Online Job Advertising Domain"@en ;
+    rdfs:label "在线招聘广告领域"@zh .

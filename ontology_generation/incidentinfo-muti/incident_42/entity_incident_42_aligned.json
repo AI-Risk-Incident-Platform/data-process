@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RoboticSurgerySystem",
+      "中文名称": "机器人手术系统",
+      "英文名称": "Robotic Surgery System",
+      "来源": "Adverse Events in Robotic Surgery: A Retrospective Study of 14 Years of FDA Data"
+    },
+    "Risk": {
+      "id": "PatientSafetyRisk",
+      "中文名称": "患者安全风险",
+      "英文名称": "Medical Risk",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Consequence": {
+      "id": "PatientDeath",
+      "中文名称": "患者死亡后果",
+      "英文名称": "Patient Death Consequence",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Stakeholder": {
+      "id": "Patients",
+      "中文名称": "患者",
+      "英文名称": "Patients",
+      "来源": "Study looks at problems experienced in robotic surgery"
+    },
+    "Domain": {
+      "id": "MedicalSurgery",
+      "中文名称": "医疗手术领域",
+      "英文名称": "Medical Surgery Domain",
+      "来源": "Adverse Events in Robotic Surgery: A Retrospective Study of 14 Years of FDA Data"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RoboticSurgerySystem",
+      "中文名称": "机器人手术系统",
+      "英文名称": "Robotic Surgery System",
+      "来源": "Adverse Events in Robotic Surgery: A Retrospective Study of 14 Years of FDA Data"
+    },
+    "Risk": {
+      "id": "PatientSafetyRisk",
+      "中文名称": "患者安全风险",
+      "英文名称": "Medical Risk",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Consequence": {
+      "id": "PatientDeath",
+      "中文名称": "患者死亡后果",
+      "英文名称": "Patient Death Consequence",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Robotic Surgery Linked To 144 Deaths Since 2000"
+    },
+    "Stakeholder": {
+      "id": "Patients",
+      "中文名称": "患者",
+      "英文名称": "Patients",
+      "来源": "Study looks at problems experienced in robotic surgery"
+    },
+    "Domain": {
+      "id": "MedicalSurgery",
+      "中文名称": "医疗手术领域",
+      "英文名称": "Medical Surgery Domain",
+      "来源": "Adverse Events in Robotic Surgery: A Retrospective Study of 14 Years of FDA Data"
+    }
+  }
+}

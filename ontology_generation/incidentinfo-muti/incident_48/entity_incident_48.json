@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DAO",
+      "中文名称": "DAO组织",
+      "英文名称": "DAO Organization",
+      "来源": "The DAO (organization)"
+    },
+    "Risk": {
+      "id": "DAOAttackRisk",
+      "中文名称": "DAO攻击风险",
+      "英文名称": "DAO Attack Risk",
+      "来源": "Understanding The DAO Attack"
+    },
+    "Consequence": {
+      "id": "FundsLoss",
+      "中文名称": "资金损失后果",
+      "英文名称": "Funds Loss Consequence",
+      "来源": "The DAO hack - what happened and what followed?"
+    },
+    "Stakeholder": {
+      "id": "EthereumCommunity",
+      "中文名称": "以太坊社区",
+      "英文名称": "Ethereum Community",
+      "来源": "The DAO hack - what happened and what followed?"
+    },
+    "RiskSource": {
+      "id": "SmartContractVulnerability",
+      "中文名称": "智能合约漏洞风险源",
+      "英文名称": "Smart Contract Vulnerability Risk Source",
+      "来源": "Understanding The DAO Attack"
+    },
+    "Impact": {
+      "id": "TrustLossInDecentralizedSystems",
+      "中文名称": "去中心化系统信任丧失的影响",
+      "英文名称": "Trust Loss in Decentralized Systems Impact",
+      "来源": "The DAO hack - what happened and what followed?"
+    },
+    "AITechnique": {
+      "id": "SmartContractTechnology",
+      "中文名称": "智能合约技术",
+      "英文名称": "Smart Contract Technology",
+      "来源": "The DAO (organization)"
+    },
+    "Domain": {
+      "id": "DecentralizedFinance",
+      "中文名称": "去中心化金融领域",
+      "英文名称": "Decentralized Finance Domain",
+      "来源": "The DAO (organization)"
+    }
+  }
+}

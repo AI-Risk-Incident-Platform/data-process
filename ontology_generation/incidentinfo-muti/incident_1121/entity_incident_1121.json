@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UKPoliceAICustodialDecisionSystem",
+      "中文名称": "英国警方AI拘留决策系统",
+      "英文名称": "UK Police AI Custodial Decision System",
+      "来源": "UK police are using AI to inform custodial decisions"
+    },
+    "Risk": {
+      "id": "DiscriminationAgainstPoorRisk",
+      "中文名称": "对贫困人群歧视风险",
+      "英文名称": "Discrimination Against Poor Risk",
+      "来源": "it could be discriminating against the poor"
+    },
+    "Stakeholder": {
+      "id": "UKPolice",
+      "中文名称": "英国警方",
+      "英文名称": "UK Police",
+      "来源": "UK police are using AI"
+    },
+    "AISubject": {
+      "id": "CriminalSuspects",
+      "中文名称": "犯罪嫌疑人",
+      "英文名称": "Criminal Suspects",
+      "来源": "custodial decisions"
+    },
+    "Impact": {
+      "id": "UnfairTreatmentOfPoor",
+      "中文名称": "对贫困人群不公正待遇影响",
+      "英文名称": "Unfair Treatment of Poor Impact",
+      "来源": "discriminating against the poor"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "police custodial decisions"
+    }
+  }
+}

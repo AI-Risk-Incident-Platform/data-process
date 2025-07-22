@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Some Students Aren't Happy About It"
+    },
+    "Stakeholder": {
+      "id": "Professors",
+      "中文名称": "教授",
+      "英文名称": "Professor",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Some Students Aren't Happy About It"
+    },
+    "Purpose": {
+      "id": "EducationalAssistance",
+      "中文名称": "教育辅助",
+      "英文名称": "Academic & Educational Support",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "Domain": {
+      "id": "HigherEducation",
+      "中文名称": "高等教育",
+      "英文名称": "Higher Education",
+      "来源": "The Professors Are Using ChatGPT"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "Risk": {
+      "id": "AcademicIntegrityRisk",
+      "中文名称": "学术诚信风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Some Students Aren't Happy About It"
+    },
+    "Stakeholder": {
+      "id": "Professors",
+      "中文名称": "教授",
+      "英文名称": "Professor",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "AISubject": {
+      "id": "Students",
+      "中文名称": "学生",
+      "英文名称": "Students",
+      "来源": "Some Students Aren't Happy About It"
+    },
+    "Purpose": {
+      "id": "EducationalAssistance",
+      "中文名称": "教育辅助",
+      "英文名称": "Academic & Educational Support",
+      "来源": "The Professors Are Using ChatGPT"
+    },
+    "Domain": {
+      "id": "HigherEducation",
+      "中文名称": "高等教育",
+      "英文名称": "Higher Education",
+      "来源": "The Professors Are Using ChatGPT"
+    }
+  }
+}

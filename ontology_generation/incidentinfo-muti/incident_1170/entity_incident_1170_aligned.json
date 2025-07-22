@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Robot",
+      "中文名称": "机器人",
+      "英文名称": "Robot",
+      "来源": "Robots can kill, but can they murder?"
+    },
+    "Risk": {
+      "id": "RobotKillingRisk",
+      "中文名称": "机器人杀人风险",
+      "英文名称": "Robot Killing Risk",
+      "来源": "A Robot Killed a Man: A New Doc Looks at the Terrifying Future of Automation"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人类死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "A Robot Killed a Man"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "the Terrifying Future of Automation"
+    },
+    "Domain": {
+      "id": "Automation",
+      "中文名称": "自动化领域",
+      "英文名称": "Automation Domain",
+      "来源": "the Terrifying Future of Automation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "Robot",
+      "中文名称": "机器人",
+      "英文名称": "Robot",
+      "来源": "Robots can kill, but can they murder?"
+    },
+    "Risk": {
+      "id": "RobotKillingRisk",
+      "中文名称": "机器人杀人风险",
+      "英文名称": "Robot Killing Risk",
+      "来源": "A Robot Killed a Man: A New Doc Looks at the Terrifying Future of Automation"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人类死亡后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "A Robot Killed a Man"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "the Terrifying Future of Automation"
+    },
+    "Domain": {
+      "id": "Automation",
+      "中文名称": "自动化领域",
+      "英文名称": "Automation Domain",
+      "来源": "the Terrifying Future of Automation"
+    }
+  }
+}

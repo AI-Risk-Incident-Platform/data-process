@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SingaporePatrolRobots",
+      "中文名称": "新加坡巡逻机器人",
+      "英文名称": "Singapore Patrol Robots",
+      "来源": "Robots Patrol The Streets Of Singapore To Thwart Bad Social Behaviour"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Robots patrolling streets raises concerns about constant surveillance"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全领域",
+      "英文名称": "Public Safety Domain",
+      "来源": "Robots deployed to monitor social behavior in public spaces"
+    },
+    "Purpose": {
+      "id": "SocialBehaviorMonitoring",
+      "中文名称": "社会行为监控目的",
+      "英文名称": "Social Behavior Monitoring Purpose",
+      "来源": "To thwart bad social behaviour in public areas"
+    },
+    "AICapability": {
+      "id": "BehaviorDetection",
+      "中文名称": "行为检测能力",
+      "英文名称": "Behavior Detection Capability",
+      "来源": "Robots equipped with sensors to detect undesirable social behaviors"
+    },
+    "Stakeholder": {
+      "id": "SingaporeGovernment",
+      "中文名称": "新加坡政府",
+      "英文名称": "Singapore Government",
+      "来源": "Government deploying robots for public safety purposes"
+    },
+    "AISubject": {
+      "id": "PublicCitizens",
+      "中文名称": "公众市民",
+      "英文名称": "Public Citizens",
+      "来源": "Robots monitoring behavior of people in public spaces"
+    },
+    "Impact": {
+      "id": "ChillingEffectOnSocialBehavior",
+      "中文名称": "对社会行为的寒蝉效应影响",
+      "英文名称": "Chilling Effect on Social Behavior Impact",
+      "来源": "Constant surveillance may deter normal social interactions"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控风险源",
+      "英文名称": "Mass Surveillance Risk Source",
+      "来源": "Robots continuously monitoring public spaces"
+    },
+    "Consequence": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失后果",
+      "英文名称": "Loss of Privacy Consequence",
+      "来源": "Public surveillance robots collecting personal behavior data"
+    }
+  }
+}

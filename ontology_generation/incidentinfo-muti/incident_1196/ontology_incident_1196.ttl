@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChildrenRobots rdf:type airo:AISystem ;
+    rdfs:label "Children Robots"@en ;
+    rdfs:label "儿童机器人"@zh ;
+    airo:hasRisk ex:RobotFailureRisk ;
+    airo:isDevelopedBy ex:AICompany ;
+    airo:hasStakeholder ex:ChildrenUsers .
+
+ex:RobotFailureRisk rdf:type airo:Risk ;
+    rdfs:label "Robot Failure Risk"@en ;
+    rdfs:label "机器人故障风险"@zh ;
+    airo:hasConsequence ex:RobotMalfunction .
+
+ex:RobotMalfunction rdf:type airo:Consequence ;
+    rdfs:label "Robot Malfunction Consequence"@en ;
+    rdfs:label "机器人故障后果"@zh ;
+    airo:hasImpact ex:ChildrenDisappointment .
+
+ex:ChildrenUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Children Users"@en ;
+    rdfs:label "儿童使用者"@zh .
+
+ex:AICompany rdf:type airo:AIOperator ;
+    rdfs:label "AI Company"@en ;
+    rdfs:label "AI公司"@zh .
+
+ex:ChildrenDisappointment rdf:type airo:Impact ;
+    rdfs:label "Children Disappointment Impact"@en ;
+    rdfs:label "儿童失望影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChildrenUsers .

@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UpstartAILendingSystem",
+      "中文名称": "Upstart AI贷款系统",
+      "英文名称": "Upstart AI Lending System",
+      "来源": "FICO scores leave out people on the margins, Upstart’s CEO says. Can AI make lending more inclusive without creating bias of its own?"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInLending",
+      "中文名称": "贷款中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Lending Risk",
+      "来源": "Can AI make lending more inclusive without creating bias of its own?"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryLendingPractices",
+      "中文名称": "歧视性贷款行为后果",
+      "英文名称": "Discriminatory Lending Practices Consequence",
+      "来源": "Do AI-powered lending algorithms silently discriminate?"
+    },
+    "AICapability": {
+      "id": "CreditRiskAssessment",
+      "中文名称": "信用风险评估能力",
+      "英文名称": "Credit Risk Assessment Capability",
+      "来源": "FICO scores leave out people on the margins, Upstart’s CEO says."
+    },
+    "Stakeholder": {
+      "id": "UpstartInvestors",
+      "中文名称": "Upstart投资者",
+      "英文名称": "Upstart Investors",
+      "来源": "Upstart Investor Sues Execs Over AI-Based Lending Claims"
+    },
+    "AIOperator": {
+      "id": "UpstartExecutives",
+      "中文名称": "Upstart高管",
+      "英文名称": "Upstart Executives",
+      "来源": "Upstart Investor Sues Execs Over AI-Based Lending Claims"
+    },
+    "Impact": {
+      "id": "FinancialExclusion",
+      "中文名称": "金融排斥影响",
+      "英文名称": "Financial Exclusion Impact",
+      "来源": "FICO scores leave out people on the margins"
+    },
+    "Purpose": {
+      "id": "InclusiveLending",
+      "中文名称": "包容性贷款目的",
+      "英文名称": "Inclusive Lending Purpose",
+      "来源": "Can AI make lending more inclusive without creating bias of its own?"
+    },
+    "Domain": {
+      "id": "FinancialServices",
+      "中文名称": "金融服务领域",
+      "英文名称": "Financial Services Domain",
+      "来源": "AI-powered lending algorithms"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据风险源",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Can AI make lending more inclusive without creating bias of its own?"
+    }
+  }
+}

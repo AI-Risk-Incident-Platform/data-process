@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT3",
+      "中文名称": "GPT-3",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "Risk": {
+      "id": "ToxicLanguageGeneration",
+      "中文名称": "生成有毒语言风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GPT3",
+      "中文名称": "GPT-3",
+      "英文名称": "OpenAI Models",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "Risk": {
+      "id": "ToxicLanguageGeneration",
+      "中文名称": "生成有毒语言风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "AICapability": {
+      "id": "NaturalLanguageGeneration",
+      "中文名称": "自然语言生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "AIProvider": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "OpenAI's GPT-3 Speaks! (Kindly Disregard Toxic Language)"
+    }
+  }
+}

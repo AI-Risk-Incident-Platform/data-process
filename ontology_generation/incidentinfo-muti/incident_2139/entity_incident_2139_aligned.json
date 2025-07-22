@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SpotifyEmotionalSpeechRecognitionSystem",
+      "中文名称": "Spotify情感语音识别系统",
+      "英文名称": "Spotify Emotional Speech Recognition System",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Monitoring Users’ Speech to Recommend Music"
+    },
+    "Stakeholder": {
+      "id": "Musicians",
+      "中文名称": "音乐人",
+      "英文名称": "Musicians",
+      "来源": "Musicians Demand Spotify Not Develop Emotional Speech Recognition Patent"
+    },
+    "AIOperator": {
+      "id": "Spotify",
+      "中文名称": "Spotify",
+      "英文名称": "Spotify",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    },
+    "Purpose": {
+      "id": "MusicRecommendation",
+      "中文名称": "音乐推荐",
+      "英文名称": "Music Recommendation",
+      "来源": "Monitoring Users’ Speech to Recommend Music"
+    },
+    "Domain": {
+      "id": "MusicStreamingService",
+      "中文名称": "音乐流媒体服务",
+      "英文名称": "Music Streaming Service",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SpotifyEmotionalSpeechRecognitionSystem",
+      "中文名称": "Spotify情感语音识别系统",
+      "英文名称": "Spotify Emotional Speech Recognition System",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Monitoring Users’ Speech to Recommend Music"
+    },
+    "Stakeholder": {
+      "id": "Musicians",
+      "中文名称": "音乐人",
+      "英文名称": "Musicians",
+      "来源": "Musicians Demand Spotify Not Develop Emotional Speech Recognition Patent"
+    },
+    "AIOperator": {
+      "id": "Spotify",
+      "中文名称": "Spotify",
+      "英文名称": "Spotify",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    },
+    "Purpose": {
+      "id": "MusicRecommendation",
+      "中文名称": "音乐推荐",
+      "英文名称": "Music Recommendation",
+      "来源": "Monitoring Users’ Speech to Recommend Music"
+    },
+    "Domain": {
+      "id": "MusicStreamingService",
+      "中文名称": "音乐流媒体服务",
+      "英文名称": "Music Streaming Service",
+      "来源": "New Spotify Patent Involves Monitoring Users’ Speech to Recommend Music"
+    }
+  }
+}

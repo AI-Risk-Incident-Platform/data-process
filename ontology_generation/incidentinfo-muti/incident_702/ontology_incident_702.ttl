@@ -1,0 +1,91 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPTLegalAdviceSystem rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT Legal Advice System"@en ;
+    rdfs:label "ChatGPT法律咨询系统"@zh ;
+    airo:hasRisk ex:LegalHallucinationRisk ;
+    airo:hasCapability ex:LegalQueryResponse ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:LegalProfessionals ;
+    airo:hasAISubject ex:LegalAdviceSeekers ;
+    airo:hasPurpose ex:LegalInformationProvision ;
+    airo:isAppliedWithinDomain ex:LegalServices ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasVulnerability ex:LegalKnowledgeGaps .
+
+ex:LegalHallucinationRisk rdf:type airo:Risk ;
+    rdfs:label "Legal Hallucination Risk"@en ;
+    rdfs:label "法律幻觉风险"@zh ;
+    airo:hasConsequence ex:IncorrectLegalAdvice ;
+    airo:isRiskSourceFor ex:LackOfLegalExpertise ;
+    airo:isRiskSourceFor ex:IncompleteTrainingData ;
+    airo:isRiskSourceFor ex:MisinformationThreat .
+
+ex:IncorrectLegalAdvice rdf:type airo:Consequence ;
+    rdfs:label "Incorrect Legal Advice Consequence"@en ;
+    rdfs:label "错误法律建议后果"@zh ;
+    airo:hasImpact ex:LegalDecisionMakingImpact .
+
+ex:LegalQueryResponse rdf:type airo:AICapability ;
+    rdfs:label "Legal Query Response Capability"@en ;
+    rdfs:label "法律查询响应能力"@zh .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:LegalProfessionals rdf:type airo:Stakeholder ;
+    rdfs:label "Legal Professionals"@en ;
+    rdfs:label "法律专业人士"@zh .
+
+ex:LegalAdviceSeekers rdf:type airo:AISubject ;
+    rdfs:label "Legal Advice Seekers"@en ;
+    rdfs:label "法律咨询寻求者"@zh .
+
+ex:LegalDecisionMakingImpact rdf:type airo:Impact ;
+    rdfs:label "Legal Decision Making Impact"@en ;
+    rdfs:label "法律决策影响"@zh ;
+    airo:hasImpactOnStakeholder ex:LegalProfessionals ;
+    airo:hasImpactOnStakeholder ex:LegalAdviceSeekers .
+
+ex:LegalInformationProvision rdf:type airo:Purpose ;
+    rdfs:label "Legal Information Provision Purpose"@en ;
+    rdfs:label "法律信息提供目的"@zh .
+
+ex:LegalServices rdf:type airo:Domain ;
+    rdfs:label "Legal Services Domain"@en ;
+    rdfs:label "法律服务领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:LegalKnowledgeGaps rdf:type airo:Vulnerability ;
+    rdfs:label "Legal Knowledge Gaps Vulnerability"@en ;
+    rdfs:label "法律知识空白漏洞"@zh .
+
+ex:LackOfLegalExpertise rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Legal Expertise Risk Source"@en ;
+    rdfs:label "缺乏法律专业知识风险源"@zh .
+
+ex:IncompleteTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Incomplete Training Data Hazard"@en ;
+    rdfs:label "不完整训练数据危害"@zh .
+
+ex:MisinformationThreat rdf:type airo:Threat ;
+    rdfs:label "Misinformation Threat"@en ;
+    rdfs:label "错误信息威胁"@zh .
+
+ex:AIInLegalDecisionMaking rdf:type airo:RiskConcept ;
+    rdfs:label "AI in Legal Decision Making Risk Concept"@en ;
+    rdfs:label "AI在法律决策中的风险概念"@zh .

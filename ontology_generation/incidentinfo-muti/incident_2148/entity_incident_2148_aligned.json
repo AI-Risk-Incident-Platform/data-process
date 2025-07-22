@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonPanorama",
+      "中文名称": "亚马逊全景设备",
+      "英文名称": "Amazon Devices",
+      "来源": "AWS Announces Panorama, a Device Adds Machine Learning Technology to Any Camera"
+    },
+    "Risk": {
+      "id": "SurveillancePrivacyRisk",
+      "中文名称": "监控隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon's Panorama Makes Any Surveillance Camera Intelligent"
+    },
+    "AICapability": {
+      "id": "MachineLearningForSurveillance",
+      "中文名称": "用于监控的机器学习能力",
+      "英文名称": "Machine Learning for Surveillance Capability",
+      "来源": "a Device Adds Machine Learning Technology to Any Camera"
+    },
+    "Purpose": {
+      "id": "EmployeeTracking",
+      "中文名称": "员工追踪目的",
+      "英文名称": "Employee Monitoring",
+      "来源": "Amazon announces new employee tracking tech, and customers are lining up"
+    },
+    "Domain": {
+      "id": "WorkplaceSurveillance",
+      "中文名称": "工作场所监控领域",
+      "英文名称": "Workplace Surveillance Domain",
+      "来源": "Amazon announces new employee tracking tech"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "and customers are lining up"
+    },
+    "AIOperator": {
+      "id": "AmazonWebServices",
+      "中文名称": "亚马逊网络服务",
+      "英文名称": "Amazon Web Services",
+      "来源": "AWS Announces Panorama"
+    },
+    "Consequence": {
+      "id": "PrivacyInvasion",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon's Panorama Makes Any Surveillance Camera Intelligent"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonPanorama",
+      "中文名称": "亚马逊全景设备",
+      "英文名称": "Amazon Devices",
+      "来源": "AWS Announces Panorama, a Device Adds Machine Learning Technology to Any Camera"
+    },
+    "Risk": {
+      "id": "SurveillancePrivacyRisk",
+      "中文名称": "监控隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon's Panorama Makes Any Surveillance Camera Intelligent"
+    },
+    "AICapability": {
+      "id": "MachineLearningForSurveillance",
+      "中文名称": "用于监控的机器学习能力",
+      "英文名称": "Machine Learning for Surveillance Capability",
+      "来源": "a Device Adds Machine Learning Technology to Any Camera"
+    },
+    "Purpose": {
+      "id": "EmployeeTracking",
+      "中文名称": "员工追踪目的",
+      "英文名称": "Employee Monitoring",
+      "来源": "Amazon announces new employee tracking tech, and customers are lining up"
+    },
+    "Domain": {
+      "id": "WorkplaceSurveillance",
+      "中文名称": "工作场所监控领域",
+      "英文名称": "Workplace Surveillance Domain",
+      "来源": "Amazon announces new employee tracking tech"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "and customers are lining up"
+    },
+    "AIOperator": {
+      "id": "AmazonWebServices",
+      "中文名称": "亚马逊网络服务",
+      "英文名称": "Amazon Web Services",
+      "来源": "AWS Announces Panorama"
+    },
+    "Consequence": {
+      "id": "PrivacyInvasion",
+      "中文名称": "隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Amazon's Panorama Makes Any Surveillance Camera Intelligent"
+    }
+  }
+}

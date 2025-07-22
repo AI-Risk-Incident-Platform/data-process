@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ARChoicesAlgorithm",
+      "中文名称": "ARChoices算法",
+      "英文名称": "ARChoices Algorithm",
+      "来源": "Legal Aid sues DHS again over algorithm denial of benefits to disabled"
+    },
+    "Risk": {
+      "id": "UnfairDenialOfBenefitsRisk",
+      "中文名称": "不公平福利拒绝风险",
+      "英文名称": "Unfair Denial of Benefits Risk",
+      "来源": "algorithm denial of benefits to disabled"
+    },
+    "Stakeholder": {
+      "id": "DisabledBenefitApplicants",
+      "中文名称": "残疾福利申请人",
+      "英文名称": "Disabled Benefit Applicants",
+      "来源": "denial of benefits to disabled"
+    },
+    "AIOperator": {
+      "id": "DepartmentOfHumanServices",
+      "中文名称": "人类服务部",
+      "英文名称": "Department of Human Services",
+      "来源": "DHS"
+    },
+    "Consequence": {
+      "id": "LossOfEssentialCareServices",
+      "中文名称": "基本护理服务缺失后果",
+      "英文名称": "Loss of Essential Care Services Consequence",
+      "来源": "denial of benefits to disabled"
+    },
+    "Domain": {
+      "id": "SocialWelfareServices",
+      "中文名称": "社会福利服务领域",
+      "英文名称": "Social Welfare Services Domain",
+      "来源": "benefits to disabled"
+    },
+    "Purpose": {
+      "id": "AutomatedBenefitEligibilityDetermination",
+      "中文名称": "自动福利资格确定目的",
+      "英文名称": "Automated Benefit Eligibility Determination Purpose",
+      "来源": "algorithm denial of benefits"
+    }
+  }
+}

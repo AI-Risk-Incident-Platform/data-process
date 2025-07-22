@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "Using ChatGPT for medical advice could put your health at risk, reveals study"
+    },
+    "Risk": {
+      "id": "HealthRiskFromInaccurateMedicalAdvice",
+      "中文名称": "不准确医疗建议导致的健康风险",
+      "英文名称": "Health Risk from Inaccurate Medical Advice",
+      "来源": "Using ChatGPT for medical advice could put your health at risk"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToHealth",
+      "中文名称": "潜在健康危害后果",
+      "英文名称": "Potential Harm to Health Consequence",
+      "来源": "could put your health at risk"
+    },
+    "AICapability": {
+      "id": "MedicalAdviceGeneration",
+      "中文名称": "医疗建议生成能力",
+      "英文名称": "Medical Advice Generation Capability",
+      "来源": "Using ChatGPT for medical advice"
+    },
+    "Stakeholder": {
+      "id": "MedicalInformationSeekers",
+      "中文名称": "医疗信息寻求者",
+      "英文名称": "Medical Information Seekers",
+      "来源": "your health at risk"
+    },
+    "RiskSource": {
+      "id": "InaccurateDrugInformation",
+      "中文名称": "不准确药物信息风险源",
+      "英文名称": "Inaccurate Drug Information Risk Source",
+      "来源": "The free version of ChatGPT may provide false answers to questions about drugs"
+    },
+    "Impact": {
+      "id": "MisguidedMedicalDecisions",
+      "中文名称": "误导性医疗决策影响",
+      "英文名称": "Misguided Medical Decisions Impact",
+      "来源": "could put your health at risk"
+    },
+    "Purpose": {
+      "id": "ProvideInformationResponses",
+      "中文名称": "提供信息响应的目的",
+      "英文名称": "Provide Information Responses Purpose",
+      "来源": "answers to questions about drugs"
+    },
+    "Domain": {
+      "id": "HealthcareInformation",
+      "中文名称": "医疗健康信息领域",
+      "英文名称": "Healthcare Information Domain",
+      "来源": "medical advice"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "ChatGPT"
+    }
+  }
+}

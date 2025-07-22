@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "Risk": {
+      "id": "PotentialHarmToWorld",
+      "中文名称": "对世界潜在危害风险",
+      "英文名称": "Potential Harm to World Risk",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT easily exploited for political messaging despite OpenAI policies"
+    },
+    "AIOperator": {
+      "id": "CEOSamAltman",
+      "中文名称": "CEO萨姆·奥尔特曼",
+      "英文名称": "Sam Altman",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "RiskSource": {
+      "id": "PolicyViolationInPoliticalMessaging",
+      "中文名称": "政治信息传递中的政策违规风险源",
+      "英文名称": "Policy Violation in Political Messaging Risk Source",
+      "来源": "ChatGPT easily exploited for political messaging despite OpenAI policies"
+    },
+    "Misuse": {
+      "id": "PoliticalCampaignMisuse",
+      "中文名称": "政治竞选滥用",
+      "英文名称": "Political Misuse",
+      "来源": "How ChatGPT is breaking its own rules for political campaigns"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "Risk": {
+      "id": "PotentialHarmToWorld",
+      "中文名称": "对世界潜在危害风险",
+      "英文名称": "Potential Harm to World Risk",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "Stakeholder": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "ChatGPT easily exploited for political messaging despite OpenAI policies"
+    },
+    "AIOperator": {
+      "id": "CEOSamAltman",
+      "中文名称": "CEO萨姆·奥尔特曼",
+      "英文名称": "Sam Altman",
+      "来源": "CEO behind ChatGPT warns Congress AI could cause ‘harm to the world’"
+    },
+    "RiskSource": {
+      "id": "PolicyViolationInPoliticalMessaging",
+      "中文名称": "政治信息传递中的政策违规风险源",
+      "英文名称": "Policy Violation in Political Messaging Risk Source",
+      "来源": "ChatGPT easily exploited for political messaging despite OpenAI policies"
+    },
+    "Misuse": {
+      "id": "PoliticalCampaignMisuse",
+      "中文名称": "政治竞选滥用",
+      "英文名称": "Political Misuse",
+      "来源": "How ChatGPT is breaking its own rules for political campaigns"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonGoFacialRecognitionSystem",
+      "中文名称": "亚马逊Go人脸识别系统",
+      "英文名称": "Amazon Go Facial Recognition System",
+      "来源": "The technology behind Amazon's surveillance-heavy Go store"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Amazon sued for not telling New York store customers about facial recognition"
+    },
+    "Stakeholder": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon sued for not telling New York store customers about facial recognition"
+    },
+    "AISubject": {
+      "id": "StoreCustomers",
+      "中文名称": "商店顾客",
+      "英文名称": "Store Customers",
+      "来源": "Amazon sued for not telling New York store customers about facial recognition"
+    },
+    "AITechnique": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "人脸识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "The technology behind Amazon's surveillance-heavy Go store"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私泄露影响",
+      "英文名称": "Personal Privacy Compromise Impact",
+      "来源": "Amazon sued for not telling New York store customers about facial recognition"
+    },
+    "RiskSource": {
+      "id": "LackOfTransparencyInDataCollection",
+      "中文名称": "数据收集缺乏透明度风险源",
+      "英文名称": "Lack of Transparency in Data Collection Risk Source",
+      "来源": "Amazon sued for not telling New York store customers about facial recognition"
+    },
+    "Domain": {
+      "id": "RetailSurveillance",
+      "中文名称": "零售监控领域",
+      "英文名称": "Retail Surveillance Domain",
+      "来源": "The technology behind Amazon's surveillance-heavy Go store"
+    }
+  }
+}

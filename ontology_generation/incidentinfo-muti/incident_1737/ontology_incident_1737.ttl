@@ -1,0 +1,75 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIHarbinAsianWinterGamesAttackSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Harbin Asian Winter Games Attack System"@en ;
+    rdfs:label "AI哈尔滨亚冬会攻击系统"@zh ;
+    airo:hasRisk ex:CyberAttackRisk ;
+    airo:isDevelopedBy ex:USNationalSecurityAgency ;
+    airo:hasStakeholder ex:ChinaNationalComputerVirusEmergencyResponseCenter , ex:360Group ;
+    airo:hasImpactOnEntity ex:CriticalInformationInfrastructureImpact , ex:SportsEventInformationSystemImpact ;
+    airo:usesTechnique ex:AITechniquesForAttack .
+
+ex:CyberAttackRisk rdf:type airo:Risk ;
+    rdfs:label "Cyber Attack Risk"@en ;
+    rdfs:label "网络攻击风险"@zh ;
+    airo:hasConsequence ex:DataTheftConsequence , ex:ServiceDisruptionConsequence .
+
+ex:USNationalSecurityAgency rdf:type airo:AIDeveloper ;
+    rdfs:label "US National Security Agency"@en ;
+    rdfs:label "美国国家安全局"@zh .
+
+ex:ChinaNationalComputerVirusEmergencyResponseCenter rdf:type airo:Stakeholder ;
+    rdfs:label "China National Computer Virus Emergency Response Center"@en ;
+    rdfs:label "中国国家计算机病毒应急处理中心"@zh .
+
+ex:360Group rdf:type airo:Stakeholder ;
+    rdfs:label "360 Group"@en ;
+    rdfs:label "360集团"@zh .
+
+ex:CriticalInformationInfrastructureImpact rdf:type airo:Impact ;
+    rdfs:label "Critical Information Infrastructure Impact"@en ;
+    rdfs:label "关键信息基础设施影响"@zh .
+
+ex:SportsEventInformationSystemImpact rdf:type airo:Impact ;
+    rdfs:label "Sports Event Information System Impact"@en ;
+    rdfs:label "体育赛事信息系统影响"@zh .
+
+ex:AITechniquesForAttack rdf:type airo:AITechnique ;
+    rdfs:label "AI Techniques for Attack"@en ;
+    rdfs:label "用于攻击的人工智能技术"@zh .
+
+ex:DataTheftConsequence rdf:type airo:Consequence ;
+    rdfs:label "Data Theft Consequence"@en ;
+    rdfs:label "数据盗窃后果"@zh ;
+    airo:hasImpact ex:PrivacyViolationImpact , ex:EconomicLossImpact .
+
+ex:ServiceDisruptionConsequence rdf:type airo:Consequence ;
+    rdfs:label "Service Disruption Consequence"@en ;
+    rdfs:label "服务中断后果"@zh ;
+    airo:hasImpact ex:OperationalDisruptionImpact , ex:PublicSafetyThreatImpact .
+
+ex:PrivacyViolationImpact rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh .
+
+ex:EconomicLossImpact rdf:type airo:Impact ;
+    rdfs:label "Economic Loss Impact"@en ;
+    rdfs:label "经济损失影响"@zh .
+
+ex:OperationalDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Operational Disruption Impact"@en ;
+    rdfs:label "运营中断影响"@zh .
+
+ex:PublicSafetyThreatImpact rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh .

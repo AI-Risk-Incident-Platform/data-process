@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemAtPearsonAirport",
+      "中文名称": "多伦多皮尔逊机场面部识别系统",
+      "英文名称": "Facial Recognition System at Pearson Airport",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Stakeholder": {
+      "id": "CanadianGovernment",
+      "中文名称": "加拿大政府",
+      "英文名称": "Canadian Government",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "AISubject": {
+      "id": "AirportTravellers",
+      "中文名称": "机场旅客",
+      "英文名称": "Airport Travellers",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "Domain": {
+      "id": "AirportSecurity",
+      "中文名称": "机场安全",
+      "英文名称": "Airport Security",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Consequence": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "RiskSource": {
+      "id": "CovertDeployment",
+      "中文名称": "秘密部署风险源",
+      "英文名称": "Covert Deployment Risk Source",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystemAtPearsonAirport",
+      "中文名称": "多伦多皮尔逊机场面部识别系统",
+      "英文名称": "Facial Recognition System at Pearson Airport",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Stakeholder": {
+      "id": "CanadianGovernment",
+      "中文名称": "加拿大政府",
+      "英文名称": "Canadian Government",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "AISubject": {
+      "id": "AirportTravellers",
+      "中文名称": "机场旅客",
+      "英文名称": "Airport Travellers",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "Domain": {
+      "id": "AirportSecurity",
+      "中文名称": "机场安全",
+      "英文名称": "Airport Security",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "Consequence": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控后果",
+      "英文名称": "Surveillance and Liberty Consequence",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "RiskSource": {
+      "id": "CovertDeployment",
+      "中文名称": "秘密部署风险源",
+      "英文名称": "Covert Deployment Risk Source",
+      "来源": "Canada is secretly using facial recognition at Toronto Pearson Airport"
+    },
+    "AITechnique": {
+      "id": "BiometricIdentification",
+      "中文名称": "生物识别技术",
+      "英文名称": "Biometric Authentication",
+      "来源": "Experts: Ottawa tested facial recognition on millions of travellers at Toronto’s Pearson airport"
+    }
+  }
+}

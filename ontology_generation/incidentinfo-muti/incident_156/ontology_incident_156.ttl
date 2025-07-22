@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PonyAiDriverlessSystem rdf:type airo:AISystem ;
+    rdfs:label "Pony.ai Driverless System"@en ;
+    rdfs:label "小马智行无人驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleAccidentRisk ;
+    airo:isDeployedBy ex:PonyAi ;
+    airo:hasStakeholder ex:CaliforniaDMV ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving .
+
+ex:AutonomousVehicleAccidentRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Accident Risk"@en ;
+    rdfs:label "自动驾驶车辆事故风险"@zh ;
+    airo:hasConsequence ex:TestingSuspension ;
+    airo:isRiskSourceFor ex:SystemFailure .
+
+ex:TestingSuspension rdf:type airo:Consequence ;
+    rdfs:label "Testing Suspension Consequence"@en ;
+    rdfs:label "测试暂停后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:PonyAi rdf:type airo:AIOperator ;
+    rdfs:label "Pony.ai"@en ;
+    rdfs:label "小马智行"@zh .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "Autonomous Driving Domain"@en ;
+    rdfs:label "自动驾驶领域"@zh .
+
+ex:SystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "System Failure Risk Source"@en ;
+    rdfs:label "系统故障风险源"@zh .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:CaliforniaDMV .
+
+ex:CaliforniaDMV rdf:type airo:Stakeholder ;
+    rdfs:label "California DMV"@en ;
+    rdfs:label "加州车管局"@zh .

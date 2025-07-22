@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AutomaticSoapDispenser rdf:type airo:AISystem ;
+    rdfs:label "Automatic Soap Dispenser"@en ;
+    rdfs:label "自动皂液器"@zh ;
+    airo:hasRisk ex:RacialBiasInObjectDetection ;
+    airo:hasAISubject ex:DarkSkinnedIndividuals ;
+    airo:hasStakeholder ex:TwitterCommunity .
+
+ex:RacialBiasInObjectDetection rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Object Detection Risk"@en ;
+    rdfs:label "物体检测中的种族偏见风险"@zh ;
+    airo:isRiskSourceFor ex:InfraredSensorTechnology ;
+    airo:hasConsequence ex:InabilityToUseHygieneFacilities .
+
+ex:InfraredSensorTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Infrared Sensor Technology"@en ;
+    rdfs:label "红外传感器技术"@zh .
+
+ex:InabilityToUseHygieneFacilities rdf:type airo:Consequence ;
+    rdfs:label "Inability to Use Hygiene Facilities"@en ;
+    rdfs:label "无法使用卫生设施"@zh ;
+    airo:hasImpact ex:PublicHealthConcerns .
+
+ex:PublicHealthConcerns rdf:type airo:Impact ;
+    rdfs:label "Public Health Concerns"@en ;
+    rdfs:label "公共卫生问题"@zh ;
+    airo:hasImpactOnStakeholder ex:TwitterCommunity .
+
+ex:DarkSkinnedIndividuals rdf:type airo:AISubject ;
+    rdfs:label "Dark-Skinned Individuals"@en ;
+    rdfs:label "深色皮肤个体"@zh .
+
+ex:TwitterCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Twitter Community"@en ;
+    rdfs:label "Twitter社区"@zh .

@@ -1,0 +1,88 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT - 3 rdf:type airo:AISystem ;
+    rdfs:label "GPT - 3"@en ;
+    rdfs:label "GPT - 3"@zh ;
+    airo:hasRisk ex:MisuseOfAIForContentGenerationRisk ;
+    airo:hasCapability ex:NaturalLanguageGenerationCapability ;
+    airo:isProvidedBy ex:OpenAI ;
+    airo:hasStakeholder ex:OnlineCommunities ;
+    airo:hasAISubject ex:OnlineContentConsumers ;
+    airo:hasPurpose ex:CommercialTextGenerationPurpose ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessingDomain ;
+    airo:usesTechnique ex:DeepLearningLanguageModelTechnique ;
+    airo:hasVulnerability ex:DifficultyInDetectingAIGeneratedContentVulnerability .
+
+ex:MisuseOfAIForContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Misuse of AI for Content Generation Risk"@en ;
+    rdfs:label "AI内容生成滥用风险"@zh ;
+    airo:hasConsequence ex:SpreadOfMisinformationConsequence ;
+    airo:isRiskSourceFor ex:PotentialForAutomatedDisinformationCampaignsThreat , ex:UnrestrictedAccessToPowerfulLanguageModelsHazard , ex:LackOfContentAuthenticationMechanismsRiskSource .
+
+ex:SpreadOfMisinformationConsequence rdf:type airo:Consequence ;
+    rdfs:label "Spread of Misinformation Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:ErosionOfTrustInOnlineContentImpact .
+
+ex:NaturalLanguageGenerationCapability rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Generation Capability"@en ;
+    rdfs:label "自然语言生成能力"@zh .
+
+ex:OpenAI rdf:type airo:AIProvider ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:OnlineCommunities rdf:type airo:Stakeholder ;
+    rdfs:label "Online Communities"@en ;
+    rdfs:label "在线社区"@zh .
+
+ex:OnlineContentConsumers rdf:type airo:AISubject ;
+    rdfs:label "Online Content Consumers"@en ;
+    rdfs:label "在线内容消费者"@zh .
+
+ex:ErosionOfTrustInOnlineContentImpact rdf:type airo:Impact ;
+    rdfs:label "Erosion of Trust in Online Content Impact"@en ;
+    rdfs:label "在线内容信任度下降影响"@zh ;
+    airo:hasImpactOnStakeholder ex:OnlineCommunities , ex:OnlineContentConsumers .
+
+ex:CommercialTextGenerationPurpose rdf:type airo:Purpose ;
+    rdfs:label "Commercial Text Generation Purpose"@en ;
+    rdfs:label "商业文本生成目的"@zh .
+
+ex:NaturalLanguageProcessingDomain rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:DeepLearningLanguageModelTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Language Model Technique"@en ;
+    rdfs:label "深度学习语言模型技术"@zh .
+
+ex:DifficultyInDetectingAIGeneratedContentVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Difficulty in Detecting AI - Generated Content Vulnerability"@en ;
+    rdfs:label "AI生成内容检测困难漏洞"@zh .
+
+ex:PotentialForAutomatedDisinformationCampaignsThreat rdf:type airo:Threat ;
+    rdfs:label "Potential for Automated Disinformation Campaigns Threat"@en ;
+    rdfs:label "自动化虚假信息传播威胁"@zh .
+
+ex:UnrestrictedAccessToPowerfulLanguageModelsHazard rdf:type airo:Hazard ;
+    rdfs:label "Unrestricted Access to Powerful Language Models Hazard"@en ;
+    rdfs:label "强大语言模型无限制访问危害"@zh .
+
+ex:LackOfContentAuthenticationMechanismsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Content Authentication Mechanisms Risk Source"@en ;
+    rdfs:label "内容认证机制缺失风险源"@zh .
+
+ex:EthicalChallengesInAIGeneratedContentRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in AI - Generated Content Risk Concept"@en ;
+    rdfs:label "AI生成内容中的伦理挑战"@zh .

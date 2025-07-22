@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AutomatedSurveillanceSystemInGreekCamps",
+      "中文名称": "希腊难民营部分自动化监控系统",
+      "英文名称": "Automated Surveillance System in Greek Camps",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRiskForAsylumSeekers",
+      "中文名称": "寻求庇护者隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk for Asylum Seekers",
+      "来源": "Greek Data Watchdog Rule AI Systems in Refugee Camps"
+    },
+    "Stakeholder": {
+      "id": "GreekDataProtectionAuthority",
+      "中文名称": "希腊数据保护机构",
+      "英文名称": "Greek Data Protection Authority",
+      "来源": "Greek Data Watchdog Rule AI Systems in Refugee Camps"
+    },
+    "AISubject": {
+      "id": "AsylumSeekersInGreekCamps",
+      "中文名称": "希腊难民营中的寻求庇护者",
+      "英文名称": "Asylum Seekers in Greek Camps",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Domain": {
+      "id": "RefugeeCampManagement",
+      "中文名称": "难民营管理领域",
+      "英文名称": "Refugee Camp Management Domain",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Purpose": {
+      "id": "EnhancingCampSecurity",
+      "中文名称": "加强营地安全的目的",
+      "英文名称": "Enhancing Camp Security Purpose",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AutomatedSurveillanceSystemInGreekCamps",
+      "中文名称": "希腊难民营部分自动化监控系统",
+      "英文名称": "Automated Surveillance System in Greek Camps",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRiskForAsylumSeekers",
+      "中文名称": "寻求庇护者隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk for Asylum Seekers",
+      "来源": "Greek Data Watchdog Rule AI Systems in Refugee Camps"
+    },
+    "Stakeholder": {
+      "id": "GreekDataProtectionAuthority",
+      "中文名称": "希腊数据保护机构",
+      "英文名称": "Greek Data Protection Authority",
+      "来源": "Greek Data Watchdog Rule AI Systems in Refugee Camps"
+    },
+    "AISubject": {
+      "id": "AsylumSeekersInGreekCamps",
+      "中文名称": "希腊难民营中的寻求庇护者",
+      "英文名称": "Asylum Seekers in Greek Camps",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Domain": {
+      "id": "RefugeeCampManagement",
+      "中文名称": "难民营管理领域",
+      "英文名称": "Refugee Camp Management Domain",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    },
+    "Purpose": {
+      "id": "EnhancingCampSecurity",
+      "中文名称": "加强营地安全的目的",
+      "英文名称": "Enhancing Camp Security Purpose",
+      "来源": "Greek camps for asylum seekers to introduce partly automated surveillance systems"
+    }
+  }
+}

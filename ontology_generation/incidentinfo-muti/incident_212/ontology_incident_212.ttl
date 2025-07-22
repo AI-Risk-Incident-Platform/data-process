@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BostonDynamicsRobotDog rdf:type airo:AISystem ;
+    rdfs:label "Boston Dynamics Robot Dog"@en ;
+    rdfs:label "波士顿动力机器狗"@zh ;
+    airo:hasRisk ex:DehumanizationRisk ;
+    airo:isDeployedBy ex:HonoluluPoliceDepartment ;
+    airo:hasPurpose ex:PatrolHomelessEncampments ;
+    airo:hasStakeholder ex:HomelessPopulation ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:DehumanizationRisk rdf:type airo:Risk ;
+    rdfs:label "Dehumanization Risk"@en ;
+    rdfs:label "非人化风险"@zh ;
+    airo:isRiskSourceFor ex:AutomationOfHumanTasks ;
+    airo:hasImpact ex:ReducedHumanInteraction .
+
+ex:HomelessPopulation rdf:type airo:Stakeholder ;
+    rdfs:label "Homeless Population"@en ;
+    rdfs:label "无家可归者群体"@zh .
+
+ex:HonoluluPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "Honolulu Police Department"@en ;
+    rdfs:label "檀香山警察局"@zh .
+
+ex:PatrolHomelessEncampments rdf:type airo:Purpose ;
+    rdfs:label "Patrol Homeless Encampments"@en ;
+    rdfs:label "巡逻无家可归者营地"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:ReducedHumanInteraction rdf:type airo:Impact ;
+    rdfs:label "Reduced Human Interaction Impact"@en ;
+    rdfs:label "减少人际互动的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HomelessPopulation .
+
+ex:AutomationOfHumanTasks rdf:type airo:RiskSource ;
+    rdfs:label "Automation of Human Tasks Risk Source"@en ;
+    rdfs:label "人类任务自动化风险源"@zh .

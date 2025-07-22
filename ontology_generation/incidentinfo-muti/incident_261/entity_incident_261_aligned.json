@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FederalDenaturalizationAlgorithm",
+      "中文名称": "联邦撤销国籍算法",
+      "英文名称": "Federal Denaturalization Algorithm",
+      "来源": "Little-Known Federal Software Can Trigger Revocation of Citizenship"
+    },
+    "Risk": {
+      "id": "UnjustCitizenshipRevocationRisk",
+      "中文名称": "不公正撤销国籍风险",
+      "英文名称": "Citizenship Revocation Risk",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "Stakeholder": {
+      "id": "USGovernment",
+      "中文名称": "美国政府",
+      "英文名称": "US Government",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "AISubject": {
+      "id": "AmericanCitizens",
+      "中文名称": "美国公民",
+      "英文名称": "American Citizens",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "Impact": {
+      "id": "LossOfCitizenshipRights",
+      "中文名称": "公民权利丧失影响",
+      "英文名称": "Legal Status Loss Impact",
+      "来源": "Can Trigger Revocation of Citizenship"
+    },
+    "Domain": {
+      "id": "ImmigrationEnforcement",
+      "中文名称": "移民执法领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Federal Software Can Trigger Revocation of Citizenship"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FederalDenaturalizationAlgorithm",
+      "中文名称": "联邦撤销国籍算法",
+      "英文名称": "Federal Denaturalization Algorithm",
+      "来源": "Little-Known Federal Software Can Trigger Revocation of Citizenship"
+    },
+    "Risk": {
+      "id": "UnjustCitizenshipRevocationRisk",
+      "中文名称": "不公正撤销国籍风险",
+      "英文名称": "Citizenship Revocation Risk",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "Stakeholder": {
+      "id": "USGovernment",
+      "中文名称": "美国政府",
+      "英文名称": "US Government",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "AISubject": {
+      "id": "AmericanCitizens",
+      "中文名称": "美国公民",
+      "英文名称": "American Citizens",
+      "来源": "U.S. Government Is Using an Algorithm to Flag American Citizens for Denaturalization"
+    },
+    "Impact": {
+      "id": "LossOfCitizenshipRights",
+      "中文名称": "公民权利丧失影响",
+      "英文名称": "Legal Status Loss Impact",
+      "来源": "Can Trigger Revocation of Citizenship"
+    },
+    "Domain": {
+      "id": "ImmigrationEnforcement",
+      "中文名称": "移民执法领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Federal Software Can Trigger Revocation of Citizenship"
+    }
+  }
+}

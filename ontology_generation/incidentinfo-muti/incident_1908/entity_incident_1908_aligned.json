@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ToiletSensorSystem",
+      "中文名称": "厕所传感器系统",
+      "英文名称": "Toilet Sensor System",
+      "来源": "Schools install toilet sensors that ‘actively listen’ to pupils"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "toilet sensors that ‘actively listen’ to pupils"
+    },
+    "AISubject": {
+      "id": "SchoolPupils",
+      "中文名称": "学校学生",
+      "英文名称": "Students",
+      "来源": "pupils"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Schools"
+    },
+    "AICapability": {
+      "id": "AudioMonitoring",
+      "中文名称": "音频监控能力",
+      "英文名称": "Audio Monitoring Capability",
+      "来源": "actively listen"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ToiletSensorSystem",
+      "中文名称": "厕所传感器系统",
+      "英文名称": "Toilet Sensor System",
+      "来源": "Schools install toilet sensors that ‘actively listen’ to pupils"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "toilet sensors that ‘actively listen’ to pupils"
+    },
+    "AISubject": {
+      "id": "SchoolPupils",
+      "中文名称": "学校学生",
+      "英文名称": "Students",
+      "来源": "pupils"
+    },
+    "Domain": {
+      "id": "Education",
+      "中文名称": "教育领域",
+      "英文名称": "Education Domain",
+      "来源": "Schools"
+    },
+    "AICapability": {
+      "id": "AudioMonitoring",
+      "中文名称": "音频监控能力",
+      "英文名称": "Audio Monitoring Capability",
+      "来源": "actively listen"
+    }
+  }
+}

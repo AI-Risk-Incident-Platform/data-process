@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedFakeNudes rdf:type airo:AISystem ;
+    rdfs:label "AI生成虚假裸照"@zh ;
+    rdfs:label "AI Generated Fake Nudes"@en ;
+    airo:hasAISubject ex:FemaleStudents ;
+    airo:hasRisk ex:PrivacyViolationAndPsychologicalHarm ;
+    airo:hasStakeholder ex:SchoolAndParents .
+
+ex:PrivacyViolationAndPsychologicalHarm rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯与心理伤害风险"@zh ;
+    rdfs:label "Privacy Violation and Psychological Harm Risk"@en ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:MisuseOfAIImageGeneration .
+
+ex:FemaleStudents rdf:type airo:AISubject ;
+    rdfs:label "女学生"@zh ;
+    rdfs:label "Female Students"@en .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "心理困扰"@zh ;
+    rdfs:label "Psychological Distress"@en ;
+    airo:hasImpactOnStakeholder ex:SchoolAndParents .
+
+ex:SchoolAndParents rdf:type airo:Stakeholder ;
+    rdfs:label "学校与家长"@zh ;
+    rdfs:label "School and Parents"@en .
+
+ex:MisuseOfAIImageGeneration rdf:type airo:RiskSource ;
+    rdfs:label "AI图像生成技术的滥用"@zh ;
+    rdfs:label "Misuse of AI Image Generation"@en .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "名誉损害"@zh ;
+    rdfs:label "Reputation Damage"@en ;
+    airo:hasImpact ex:PsychologicalDistress .

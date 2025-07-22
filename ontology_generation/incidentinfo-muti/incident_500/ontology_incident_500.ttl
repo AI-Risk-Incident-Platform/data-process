@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AlleghenyFamilyScreeningTool rdf:type airo:AISystem ;
+    rdfs:label "Allegheny Family Screening Tool"@en ;
+    rdfs:label "阿勒格尼家庭筛查工具"@zh ;
+    airo:hasRisk ex:ThreateningFamiliesRisk ;
+    airo:hasAICapability ex:FamilyScreeningCapability ;
+    airo:hasPurpose ex:ChildWelfareScreeningPurpose ;
+    airo:isAppliedWithinDomain ex:SocialServicesDomain ;
+    airo:usesTechnique ex:OpaqueAlgorithmTechnique ;
+    airo:hasStakeholder ex:FamiliesInPennsylvaniaCounty ;
+    airo:hasAISubject ex:ParentsWithDisabilities ;
+    airo:hasVulnerability ex:BiasAgainstDisabledParentsVulnerability ;
+    airo:hasStakeholder ex:PennsylvaniaCountyGovernment .
+
+ex:ThreateningFamiliesRisk rdf:type airo:Risk ;
+    rdfs:label "Threatening Families Risk"@en ;
+    rdfs:label "威胁家庭风险"@zh ;
+    airo:hasConsequence ex:FlaggingParentsWithDisabilities ;
+    airo:isRiskSourceFor ex:UnfairTargetingOfFamiliesThreat ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasHazard ;
+    airo:isRiskSourceFor ex:HiddenPolicyInAlgorithmRiskSource .
+
+ex:FlaggingParentsWithDisabilities rdf:type airo:Consequence ;
+    rdfs:label "Flagging Parents with Disabilities Consequence"@en ;
+    rdfs:label "标记残疾父母后果"@zh ;
+    airo:hasImpact ex:FamilyDisruptionImpact .
+
+ex:FamilyScreeningCapability rdf:type airo:AICapability ;
+    rdfs:label "Family Screening Capability"@en ;
+    rdfs:label "家庭筛查能力"@zh .
+
+ex:PennsylvaniaCountyGovernment rdf:type airo:AIOperator ;
+    rdfs:label "Pennsylvania County Government"@en ;
+    rdfs:label "宾夕法尼亚县政府"@zh .
+
+ex:FamiliesInPennsylvaniaCounty rdf:type airo:Stakeholder ;
+    rdfs:label "Families in Pennsylvania County"@en ;
+    rdfs:label "宾夕法尼亚县家庭"@zh .
+
+ex:ParentsWithDisabilities rdf:type airo:AISubject ;
+    rdfs:label "Parents with Disabilities"@en ;
+    rdfs:label "残疾父母"@zh .
+
+ex:FamilyDisruptionImpact rdf:type airo:Impact ;
+    rdfs:label "Family Disruption Impact"@en ;
+    rdfs:label "家庭破裂影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FamiliesInPennsylvaniaCounty .
+
+ex:ChildWelfareScreeningPurpose rdf:type airo:Purpose ;
+    rdfs:label "Child Welfare Screening Purpose"@en ;
+    rdfs:label "儿童福利筛查目的"@zh .
+
+ex:SocialServicesDomain rdf:type airo:Domain ;
+    rdfs:label "Social Services Domain"@en ;
+    rdfs:label "社会服务领域"@zh .
+
+ex:OpaqueAlgorithmTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Opaque Algorithm Technique"@en ;
+    rdfs:label "不透明算法技术"@zh .
+
+ex:BiasAgainstDisabledParentsVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Bias Against Disabled Parents Vulnerability"@en ;
+    rdfs:label "对残疾父母偏见的脆弱性"@zh .
+
+ex:UnfairTargetingOfFamiliesThreat rdf:type airo:Threat ;
+    rdfs:label "Unfair Targeting of Families Threat"@en ;
+    rdfs:label "不公平针对家庭的威胁"@zh .
+
+ex:AlgorithmicBiasHazard rdf:type airo:Hazard ;
+    rdfs:label "Algorithmic Bias Hazard"@en ;
+    rdfs:label "算法偏见危害"@zh .
+
+ex:HiddenPolicyInAlgorithmRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Hidden Policy in Algorithm Risk Source"@en ;
+    rdfs:label "算法中隐藏政策的风险源"@zh .
+
+ex:EthicalIssuesInAutomatedScreeningRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Automated Screening Risk Concept"@en ;
+    rdfs:label "自动筛查中的伦理问题风险概念"@zh .

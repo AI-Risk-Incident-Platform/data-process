@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RemoteJobApplicationAI",
+      "中文名称": "远程职位申请AI系统",
+      "英文名称": "Remote Job Application AI System",
+      "来源": "Tech CEOs say fake job seekers are flooding U.S. companies that are hiring for remote positions"
+    },
+    "Risk": {
+      "id": "FakeJobApplicationRisk",
+      "中文名称": "虚假职位申请风险",
+      "英文名称": "Fake Job Application Risk",
+      "来源": "fake job seekers are flooding U.S. companies"
+    },
+    "Stakeholder": {
+      "id": "TechCEOs",
+      "中文名称": "科技公司CEO",
+      "英文名称": "Tech CEOs",
+      "来源": "Tech CEOs say fake job seekers are flooding U.S. companies"
+    },
+    "Domain": {
+      "id": "RemoteWorkIndustry",
+      "中文名称": "远程工作行业",
+      "英文名称": "Online Job Sector",
+      "来源": "companies that are hiring for remote positions"
+    },
+    "RiskSource": {
+      "id": "AutomatedJobApplicationBots",
+      "中文名称": "自动化职位申请机器人",
+      "英文名称": "Automated Job Application Bots",
+      "来源": "fake job seekers are flooding U.S. companies"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RemoteJobApplicationAI",
+      "中文名称": "远程职位申请AI系统",
+      "英文名称": "Remote Job Application AI System",
+      "来源": "Tech CEOs say fake job seekers are flooding U.S. companies that are hiring for remote positions"
+    },
+    "Risk": {
+      "id": "FakeJobApplicationRisk",
+      "中文名称": "虚假职位申请风险",
+      "英文名称": "Fake Job Application Risk",
+      "来源": "fake job seekers are flooding U.S. companies"
+    },
+    "Stakeholder": {
+      "id": "TechCEOs",
+      "中文名称": "科技公司CEO",
+      "英文名称": "Tech CEOs",
+      "来源": "Tech CEOs say fake job seekers are flooding U.S. companies"
+    },
+    "Domain": {
+      "id": "RemoteWorkIndustry",
+      "中文名称": "远程工作行业",
+      "英文名称": "Online Job Sector",
+      "来源": "companies that are hiring for remote positions"
+    },
+    "RiskSource": {
+      "id": "AutomatedJobApplicationBots",
+      "中文名称": "自动化职位申请机器人",
+      "英文名称": "Automated Job Application Bots",
+      "来源": "fake job seekers are flooding U.S. companies"
+    }
+  }
+}

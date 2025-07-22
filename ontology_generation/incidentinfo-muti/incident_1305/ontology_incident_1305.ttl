@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DHSFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "DHS Facial Recognition System"@en ;
+    rdfs:label "DHS面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:MigrantChildren ;
+    airo:hasPurpose ex:FRTTrainingDatasetEnhancement ;
+    airo:isAppliedWithinDomain ex:BorderSecurity ;
+    airo:hasStakeholder ex:USDepartmentOfHomelandSecurity ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PersonalDataCollectionWithoutConsent ;
+    airo:isRiskSourceFor ex:BiometricDataCollectionFromMinors .
+
+ex:MigrantChildren rdf:type airo:AISubject ;
+    rdfs:label "Migrant Children"@en ;
+    rdfs:label "移民儿童"@zh .
+
+ex:FRTTrainingDatasetEnhancement rdf:type airo:Purpose ;
+    rdfs:label "FRT Training Dataset Enhancement"@en ;
+    rdfs:label "面部识别技术训练数据集增强"@zh .
+
+ex:BorderSecurity rdf:type airo:Domain ;
+    rdfs:label "Border Security"@en ;
+    rdfs:label "边境安全"@zh .
+
+ex:USDepartmentOfHomelandSecurity rdf:type airo:Stakeholder ;
+    rdfs:label "US Department of Homeland Security"@en ;
+    rdfs:label "美国国土安全部"@zh .
+
+ex:PersonalDataCollectionWithoutConsent rdf:type airo:Consequence ;
+    rdfs:label "Personal Data Collection Without Consent"@en ;
+    rdfs:label "未经同意的个人数据收集"@zh ;
+    airo:hasImpact ex:ChildrenPrivacyRightsViolation .
+
+ex:ChildrenPrivacyRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Children Privacy Rights Violation"@en ;
+    rdfs:label "儿童隐私权侵犯"@zh ;
+    airo:hasImpactOnStakeholder ex:MigrantChildren .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:BiometricDataCollectionFromMinors rdf:type airo:RiskSource ;
+    rdfs:label "Biometric Data Collection From Minors"@en ;
+    rdfs:label "未成年人生物特征数据收集"@zh .

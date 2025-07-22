@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeAutoCaptioningSystem",
+      "中文名称": "YouTube自动字幕系统",
+      "英文名称": "YouTube Auto Captioning System",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "Risk": {
+      "id": "InappropriateContentExposureRisk",
+      "中文名称": "不当内容暴露风险",
+      "英文名称": "Inappropriate Content Exposure Risk",
+      "来源": "Faulty Algorithm of YouTube AI Shows Explicit Caption in Videos for Kids"
+    },
+    "Consequence": {
+      "id": "ChildrenExposedToExplicitLanguage",
+      "中文名称": "儿童接触不当语言后果",
+      "英文名称": "Children Exposed to Explicit Language Consequence",
+      "来源": "YouTube AI putting explicit language in captions for videos aimed at children"
+    },
+    "AICapability": {
+      "id": "AutomaticSpeechRecognition",
+      "中文名称": "自动语音识别能力",
+      "英文名称": "Automatic Speech Recognition Capability",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google LLC",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "Stakeholder": {
+      "id": "ChildrenUnder13",
+      "中文名称": "13岁以下儿童",
+      "英文名称": "Children Under 13",
+      "来源": "YouTube AI putting explicit language in captions for videos aimed at children"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童心理伤害的影响",
+      "英文名称": "Psychological Harm to Children Impact",
+      "来源": "YouTube AI putting explicit language in captions for videos aimed at children"
+    },
+    "Purpose": {
+      "id": "AccessibilityForHearingImpaired",
+      "中文名称": "为听力障碍者提供无障碍服务的目的",
+      "英文名称": "Accessibility for Hearing Impaired Purpose",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "Domain": {
+      "id": "OnlineVideoPlatforms",
+      "中文名称": "在线视频平台领域",
+      "英文名称": "Online Video Platforms Domain",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "AITechnique": {
+      "id": "NeuralNetworkBasedSpeechToText",
+      "中文名称": "基于神经网络的语音转文字技术",
+      "英文名称": "Neural Network Based Speech to Text Technique",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "Vulnerability": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足的脆弱性",
+      "英文名称": "Inadequate Content Filtering Vulnerability",
+      "来源": "Faulty Algorithm of YouTube AI Shows Explicit Caption in Videos for Kids"
+    },
+    "Threat": {
+      "id": "MisclassificationOfSpeechContent",
+      "中文名称": "语音内容错误分类的威胁",
+      "英文名称": "Misclassification of Speech Content Threat",
+      "来源": "YouTube AI putting explicit language in captions for videos aimed at children"
+    },
+    "Hazard": {
+      "id": "UnfilteredUserGeneratedContent",
+      "中文名称": "未过滤用户生成内容的危害",
+      "英文名称": "Unfiltered User Generated Content Hazard",
+      "来源": "YouTube's AI algorithm adds explicit language in captions to children's clips"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicErrorInSpeechRecognition",
+      "中文名称": "语音识别中的算法错误风险源",
+      "英文名称": "Algorithmic Error in Speech Recognition Risk Source",
+      "来源": "Faulty Algorithm of YouTube AI Shows Explicit Caption in Videos for Kids"
+    },
+    "RiskConcept": {
+      "id": "ChildSafetyInDigitalPlatforms",
+      "中文名称": "数字平台中的儿童安全风险概念",
+      "英文名称": "Child Safety in Digital Platforms Risk Concept",
+      "来源": "YouTube AI putting explicit language in captions for videos aimed at children"
+    }
+  }
+}

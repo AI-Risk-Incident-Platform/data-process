@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LicensePlateSurveillanceSystem",
+      "中文名称": "车牌监控系统",
+      "英文名称": "License Plate Surveillance System",
+      "来源": "When License-Plate Surveillance Goes Horribly Wrong"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Privacy advocate sues CoCo sheriff's deputies after license plate readers target his car stolen"
+    },
+    "Stakeholder": {
+      "id": "PrivacyAdvocate",
+      "中文名称": "隐私倡导者",
+      "英文名称": "Privacy Advocate",
+      "来源": "Privacy advocate sues CoCo sheriff's deputies after license plate readers target his car stolen"
+    },
+    "AIOperator": {
+      "id": "CoCoSheriffsDepartment",
+      "中文名称": "科科县警长办公室",
+      "英文名称": "CoCo Sheriff's Department",
+      "来源": "Privacy advocate sues CoCo sheriff's deputies after license plate readers target his car stolen"
+    },
+    "Consequence": {
+      "id": "FalseIdentificationConsequence",
+      "中文名称": "错误识别后果",
+      "英文名称": "False Identification Consequence",
+      "来源": "license plate readers target his car stolen"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "sheriff's deputies"
+    }
+  }
+}

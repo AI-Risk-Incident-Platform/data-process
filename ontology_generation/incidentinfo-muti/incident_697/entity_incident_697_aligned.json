@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepFakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "There Is Now A Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deep Fake Video"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "Consequence": {
+      "id": "PoliticalCampaignDisruption",
+      "中文名称": "政治竞选干扰后果",
+      "英文名称": "Political Campaign Disruption Consequence",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepFakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "There Is Now A Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedVideoSynthesis",
+      "中文名称": "基于深度学习的视频合成技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deep Fake Video"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    },
+    "Consequence": {
+      "id": "PoliticalCampaignDisruption",
+      "中文名称": "政治竞选干扰后果",
+      "英文名称": "Political Campaign Disruption Consequence",
+      "来源": "Deep Fake Video Of Ron DeSantis Dropping Out Of The 2024 Race"
+    }
+  }
+}

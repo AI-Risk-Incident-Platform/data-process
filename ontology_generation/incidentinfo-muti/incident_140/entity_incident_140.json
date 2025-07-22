@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PhDAdmissionsAlgorithm",
+      "中文名称": "博士招生算法",
+      "英文名称": "PhD Admissions Algorithm",
+      "来源": "The Death and Life of an Admissions Algorithm"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInAdmissions",
+      "中文名称": "招生中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Admissions Risk",
+      "来源": "Uni revealed it killed off its PhD-applicant screening AI"
+    },
+    "Consequence": {
+      "id": "UnfairAdmissionDecisions",
+      "中文名称": "不公平的录取决策后果",
+      "英文名称": "Unfair Admission Decisions Consequence",
+      "来源": "UT Ends Use Of Algorithm To Evaluate Computer Science PhD Applicants"
+    },
+    "AIOperator": {
+      "id": "UniversityOfTexas",
+      "中文名称": "德克萨斯大学",
+      "英文名称": "University of Texas",
+      "来源": "UT Ends Use Of Algorithm To Evaluate Computer Science PhD Applicants"
+    },
+    "Stakeholder": {
+      "id": "PhDApplicants",
+      "中文名称": "博士申请者",
+      "英文名称": "PhD Applicants",
+      "来源": "Uni revealed it killed off its PhD-applicant screening AI"
+    },
+    "Purpose": {
+      "id": "AutomatePhDAdmissions",
+      "中文名称": "自动化博士招生",
+      "英文名称": "Automate PhD Admissions Purpose",
+      "来源": "The Death and Life of an Admissions Algorithm"
+    },
+    "Domain": {
+      "id": "HigherEducation",
+      "中文名称": "高等教育",
+      "英文名称": "Higher Education Domain",
+      "来源": "UT Ends Use Of Algorithm To Evaluate Computer Science PhD Applicants"
+    },
+    "AITechnique": {
+      "id": "MachineLearningForAdmissions",
+      "中文名称": "用于招生的机器学习",
+      "英文名称": "Machine Learning for Admissions Technique",
+      "来源": "The Death and Life of an Admissions Algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data Risk Source",
+      "来源": "Uni revealed it killed off its PhD-applicant screening AI"
+    },
+    "Impact": {
+      "id": "ReducedDiversityInPhDPrograms",
+      "中文名称": "博士项目多样性减少的影响",
+      "英文名称": "Reduced Diversity in PhD Programs Impact",
+      "来源": "UT Ends Use Of Algorithm To Evaluate Computer Science PhD Applicants"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BostonDynamicsRobotDog rdf:type airo:AISystem ;
+    rdfs:label "波士顿动力机器狗"@zh ;
+    rdfs:label "Boston Dynamics Robot Dog"@en ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:COVID19Monitoring ;
+    airo:isAppliedWithinDomain ex:PublicHealth ;
+    airo:hasStakeholder ex:HomelessPeople ;
+    airo:isDeployedBy ex:HonoluluPoliceDepartment .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    airo:hasConsequence ex:PrivacyConcerns .
+
+ex:HomelessPeople rdf:type airo:Stakeholder ;
+    rdfs:label "无家可归者"@zh ;
+    rdfs:label "Homeless People"@en .
+
+ex:HonoluluPoliceDepartment rdf:type airo:AIOperator ;
+    rdfs:label "檀香山警察局"@zh ;
+    rdfs:label "Honolulu Police Department"@en .
+
+ex:COVID19Monitoring rdf:type airo:Purpose ;
+    rdfs:label "COVID-19监测"@zh ;
+    rdfs:label "COVID-19 Monitoring"@en .
+
+ex:PublicHealth rdf:type airo:Domain ;
+    rdfs:label "公共卫生"@zh ;
+    rdfs:label "Public Health"@en .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "隐私担忧"@zh ;
+    rdfs:label "Privacy Concerns"@en ;
+    airo:hasImpactOnStakeholder ex:HomelessPeople .

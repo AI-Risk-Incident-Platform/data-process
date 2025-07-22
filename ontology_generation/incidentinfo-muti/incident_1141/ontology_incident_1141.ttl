@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WikipediaEditingBots rdf:type airo:AISystem ;
+    rdfs:label "Wikipedia Editing Bots"@en ;
+    rdfs:label "维基百科编辑机器人"@zh ;
+    airo:hasRisk ex:EditWarsBetweenBotsRisk ;
+    airo:hasAISubject ex:WikipediaArticles ;
+    airo:hasAICapability ex:AutomatedContentEditingCapability ;
+    airo:hasPurpose ex:ImproveWikipediaContentPurpose ;
+    airo:hasStakeholder ex:WikipediaCommunity ;
+    airo:isAppliedWithinDomain ex:OnlineEncyclopediaDomain ;
+    airo:usesTechnique ex:AutomatedTextProcessingTechnique ;
+    airo:hasVulnerability ex:LackOfHumanOversightVulnerability .
+
+ex:EditWarsBetweenBotsRisk rdf:type airo:Risk ;
+    rdfs:label "Edit Wars Between Bots Risk"@en ;
+    rdfs:label "机器人之间的编辑战风险"@zh ;
+    airo:hasConsequence ex:ContentInconsistencyConsequence ;
+    airo:isRiskSourceFor ex:CompetingBotAlgorithmsRiskSource .
+
+ex:ContentInconsistencyConsequence rdf:type airo:Consequence ;
+    rdfs:label "Content Inconsistency Consequence"@en ;
+    rdfs:label "内容不一致后果"@zh ;
+    airo:hasImpact ex:ReducedContentReliabilityImpact .
+
+ex:AutomatedContentEditingCapability rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Editing Capability"@en ;
+    rdfs:label "自动化内容编辑能力"@zh .
+
+ex:WikipediaCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Wikipedia Community"@en ;
+    rdfs:label "维基百科社区"@zh .
+
+ex:WikipediaArticles rdf:type airo:AISubject ;
+    rdfs:label "Wikipedia Articles"@en ;
+    rdfs:label "维基百科文章"@zh .
+
+ex:ReducedContentReliabilityImpact rdf:type airo:Impact ;
+    rdfs:label "Reduced Content Reliability Impact"@en ;
+    rdfs:label "内容可靠性降低的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:WikipediaCommunity .
+
+ex:ImproveWikipediaContentPurpose rdf:type airo:Purpose ;
+    rdfs:label "Improve Wikipedia Content Purpose"@en ;
+    rdfs:label "改善维基百科内容的目的"@zh .
+
+ex:OnlineEncyclopediaDomain rdf:type airo:Domain ;
+    rdfs:label "Online Encyclopedia Domain"@en ;
+    rdfs:label "在线百科全书领域"@zh .
+
+ex:AutomatedTextProcessingTechnique rdf:type airo:AITechnique ;
+    rdfs:label "Automated Text Processing Technique"@en ;
+    rdfs:label "自动化文本处理技术"@zh .
+
+ex:LackOfHumanOversightVulnerability rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Human Oversight Vulnerability"@en ;
+    rdfs:label "缺乏人工监督的脆弱性"@zh .
+
+ex:CompetingBotAlgorithmsRiskSource rdf:type airo:RiskSource ;
+    rdfs:label "Competing Bot Algorithms Risk Source"@en ;
+    rdfs:label "竞争性机器人算法的风险源"@zh ;
+    airo:hasHazard ex:UncoordinatedBotBehaviorHazard ;
+    airo:hasThreat ex:ConflictingBotObjectivesThreat .
+
+ex:UncoordinatedBotBehaviorHazard rdf:type airo:Hazard ;
+    rdfs:label "Uncoordinated Bot Behavior Hazard"@en ;
+    rdfs:label "机器人行为不协调的危害"@zh .
+
+ex:ConflictingBotObjectivesThreat rdf:type airo:Threat ;
+    rdfs:label "Conflicting Bot Objectives Threat"@en ;
+    rdfs:label "机器人目标冲突的威胁"@zh .
+
+ex:UnintendedBotInteractionsRiskConcept rdf:type airo:RiskConcept ;
+    rdfs:label "Unintended Bot Interactions Risk Concept"@en ;
+    rdfs:label "机器人意外互动的风险概念"@zh .

@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NvidiaAI",
+      "中文名称": "Nvidia人工智能系统",
+      "英文名称": "Nvidia AI",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Stakeholder": {
+      "id": "Authors",
+      "中文名称": "作者",
+      "英文名称": "Authors",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "AIOperator": {
+      "id": "NvidiaCorporation",
+      "中文名称": "Nvidia公司",
+      "英文名称": "Nvidia Corporation",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "RiskSource": {
+      "id": "UseOfCopyrightedWorks",
+      "中文名称": "使用受版权保护作品",
+      "英文名称": "Use of Copyrighted Works",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NvidiaAI",
+      "中文名称": "Nvidia人工智能系统",
+      "英文名称": "Nvidia AI",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Stakeholder": {
+      "id": "Authors",
+      "中文名称": "作者",
+      "英文名称": "Authors",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "AIOperator": {
+      "id": "NvidiaCorporation",
+      "中文名称": "Nvidia公司",
+      "英文名称": "Nvidia Corporation",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "Consequence": {
+      "id": "LegalAction",
+      "中文名称": "法律诉讼",
+      "英文名称": "Legal Disputes",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    },
+    "RiskSource": {
+      "id": "UseOfCopyrightedWorks",
+      "中文名称": "使用受版权保护作品",
+      "英文名称": "Use of Copyrighted Works",
+      "来源": "Nvidia is sued by authors over AI use of copyrighted works"
+    }
+  }
+}

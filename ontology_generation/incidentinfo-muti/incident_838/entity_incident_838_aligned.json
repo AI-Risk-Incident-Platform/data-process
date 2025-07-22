@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RobotVacuumCleaner",
+      "中文名称": "机器人吸尘器",
+      "英文名称": "Robot Vacuum",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner After Being Hacked"
+    },
+    "Risk": {
+      "id": "RacialSlursRisk",
+      "中文名称": "种族歧视言论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hackers take control of robot vacuums in multiple cities, yell racial slurs"
+    },
+    "Consequence": {
+      "id": "OffensiveBehavior",
+      "中文名称": "冒犯行为后果",
+      "英文名称": "Offensive Behavior Consequence",
+      "来源": "Hackers took over robovacs to chase pets and yell slurs"
+    },
+    "RiskSource": {
+      "id": "HackerAttack",
+      "中文名称": "黑客攻击风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Hackers take control of robot vacuums in multiple cities"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner"
+    },
+    "Stakeholder": {
+      "id": "VacuumOwners",
+      "中文名称": "吸尘器拥有者",
+      "英文名称": "Vacuum Owners",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesis",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "yell racial slurs"
+    },
+    "Vulnerability": {
+      "id": "WeakSecurityProtocols",
+      "中文名称": "薄弱安全协议漏洞",
+      "英文名称": "Security Vulnerability",
+      "来源": "After Being Hacked"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RobotVacuumCleaner",
+      "中文名称": "机器人吸尘器",
+      "英文名称": "Robot Vacuum",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner After Being Hacked"
+    },
+    "Risk": {
+      "id": "RacialSlursRisk",
+      "中文名称": "种族歧视言论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Hackers take control of robot vacuums in multiple cities, yell racial slurs"
+    },
+    "Consequence": {
+      "id": "OffensiveBehavior",
+      "中文名称": "冒犯行为后果",
+      "英文名称": "Offensive Behavior Consequence",
+      "来源": "Hackers took over robovacs to chase pets and yell slurs"
+    },
+    "RiskSource": {
+      "id": "HackerAttack",
+      "中文名称": "黑客攻击风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Hackers take control of robot vacuums in multiple cities"
+    },
+    "Impact": {
+      "id": "PsychologicalHarm",
+      "中文名称": "心理伤害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner"
+    },
+    "Stakeholder": {
+      "id": "VacuumOwners",
+      "中文名称": "吸尘器拥有者",
+      "英文名称": "Vacuum Owners",
+      "来源": "Robot Vacuum Starts Hurling Racial Slurs at Its Owner"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesis",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "yell racial slurs"
+    },
+    "Vulnerability": {
+      "id": "WeakSecurityProtocols",
+      "中文名称": "薄弱安全协议漏洞",
+      "英文名称": "Security Vulnerability",
+      "来源": "After Being Hacked"
+    }
+  }
+}

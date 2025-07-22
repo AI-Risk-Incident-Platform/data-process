@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CharacterAI",
+      "中文名称": "Character.AI",
+      "英文名称": "Character AI",
+      "来源": "Character.AI Deletes Avatar of Murdered Girl After Admitting a Policy Violation"
+    },
+    "Risk": {
+      "id": "EthicalViolationRisk",
+      "中文名称": "伦理违规风险",
+      "英文名称": "Ethical Risk",
+      "来源": "An AI Company Published a Chatbot Based on a Murdered Woman. Her Family Is Outraged."
+    },
+    "Consequence": {
+      "id": "FamilyDistress",
+      "中文名称": "家庭痛苦后果",
+      "英文名称": "Family Distress Consequence",
+      "来源": "Her Family Is Outraged."
+    },
+    "AISubject": {
+      "id": "MurderedWoman",
+      "中文名称": "被谋杀女性",
+      "英文名称": "Murdered Woman",
+      "来源": "a Chatbot Based on a Murdered Woman"
+    },
+    "Stakeholder": {
+      "id": "VictimFamily",
+      "中文名称": "受害者家属",
+      "英文名称": "Victim Families",
+      "来源": "Her Family Is Outraged."
+    },
+    "Impact": {
+      "id": "EmotionalTrauma",
+      "中文名称": "情感创伤影响",
+      "英文名称": "Trauma Impact",
+      "来源": "Her Family Is Outraged."
+    },
+    "Purpose": {
+      "id": "DigitalPersonaRecreation",
+      "中文名称": "数字人格重建目的",
+      "英文名称": "Digital Persona Recreation Purpose",
+      "来源": "Character.AI Let a User 'Recreate' Deceased Woman"
+    },
+    "RiskSource": {
+      "id": "PolicyViolation",
+      "中文名称": "政策违规风险源",
+      "英文名称": "Policy Enforcement Risks",
+      "来源": "Character.AI Deletes Avatar of Murdered Girl After Admitting a Policy Violation"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CharacterAI",
+      "中文名称": "Character.AI",
+      "英文名称": "Character AI",
+      "来源": "Character.AI Deletes Avatar of Murdered Girl After Admitting a Policy Violation"
+    },
+    "Risk": {
+      "id": "EthicalViolationRisk",
+      "中文名称": "伦理违规风险",
+      "英文名称": "Ethical Risk",
+      "来源": "An AI Company Published a Chatbot Based on a Murdered Woman. Her Family Is Outraged."
+    },
+    "Consequence": {
+      "id": "FamilyDistress",
+      "中文名称": "家庭痛苦后果",
+      "英文名称": "Family Distress Consequence",
+      "来源": "Her Family Is Outraged."
+    },
+    "AISubject": {
+      "id": "MurderedWoman",
+      "中文名称": "被谋杀女性",
+      "英文名称": "Murdered Woman",
+      "来源": "a Chatbot Based on a Murdered Woman"
+    },
+    "Stakeholder": {
+      "id": "VictimFamily",
+      "中文名称": "受害者家属",
+      "英文名称": "Victim Families",
+      "来源": "Her Family Is Outraged."
+    },
+    "Impact": {
+      "id": "EmotionalTrauma",
+      "中文名称": "情感创伤影响",
+      "英文名称": "Trauma Impact",
+      "来源": "Her Family Is Outraged."
+    },
+    "Purpose": {
+      "id": "DigitalPersonaRecreation",
+      "中文名称": "数字人格重建目的",
+      "英文名称": "Digital Persona Recreation Purpose",
+      "来源": "Character.AI Let a User 'Recreate' Deceased Woman"
+    },
+    "RiskSource": {
+      "id": "PolicyViolation",
+      "中文名称": "政策违规风险源",
+      "英文名称": "Policy Enforcement Risks",
+      "来源": "Character.AI Deletes Avatar of Murdered Girl After Admitting a Policy Violation"
+    }
+  }
+}

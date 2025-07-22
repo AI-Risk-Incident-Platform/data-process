@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FederalPrisonerEarlyReleaseTool rdf:type airo:AISystem ;
+    rdfs:label "Federal Prisoner Early Release Tool"@en ;
+    rdfs:label "联邦囚犯提前释放工具"@zh ;
+    airo:hasAISubject ex:LowRiskFederalPrisoners ;
+    airo:hasPurpose ex:AssistingEarlyReleaseDecisions ;
+    airo:isAppliedWithinDomain ex:CriminalJusticeSystem ;
+    airo:hasRisk ex:InaccurateRiskAssessmentRisk .
+
+ex:InaccurateRiskAssessmentRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Risk Assessment Risk"@en ;
+    rdfs:label "风险评估不准确风险"@zh ;
+    airo:hasConsequence ex:IncorrectEarlyReleaseDecisions .
+
+ex:LowRiskFederalPrisoners rdf:type airo:AISubject ;
+    rdfs:label "Low-Risk Federal Prisoners"@en ;
+    rdfs:label "低风险联邦囚犯"@zh .
+
+ex:AssistingEarlyReleaseDecisions rdf:type airo:Purpose ;
+    rdfs:label "Assisting Early Release Decisions"@en ;
+    rdfs:label "辅助提前释放决策"@zh .
+
+ex:CriminalJusticeSystem rdf:type airo:Domain ;
+    rdfs:label "Criminal Justice System"@en ;
+    rdfs:label "刑事司法系统"@zh .
+
+ex:IncorrectEarlyReleaseDecisions rdf:type airo:Consequence ;
+    rdfs:label "Incorrect Early Release Decisions"@en ;
+    rdfs:label "错误的提前释放决策"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat"@en ;
+    rdfs:label "公共安全威胁"@zh ;
+    airo:hasImpactOnStakeholder ex:LowRiskFederalPrisoners .

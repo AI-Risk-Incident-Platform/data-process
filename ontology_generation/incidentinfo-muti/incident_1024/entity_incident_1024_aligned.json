@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredImpersonationScam",
+      "中文名称": "AI驱动的冒充诈骗",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "\"It's Fat Joe,\" Austin-based aspiring artist targeted in AI-powered impersonation scam"
+    },
+    "Risk": {
+      "id": "ImpersonationScamRisk",
+      "中文名称": "冒充诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-powered impersonation scam"
+    },
+    "AISubject": {
+      "id": "AustinBasedAspiringArtist",
+      "中文名称": "奥斯汀的励志艺术家",
+      "英文名称": "Austin-based Aspiring Artist",
+      "来源": "\"It's Fat Joe,\" Austin-based aspiring artist targeted in AI-powered impersonation scam"
+    },
+    "AITechnique": {
+      "id": "VoiceCloning",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI-powered impersonation"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "targeted in AI-powered impersonation scam"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPoweredImpersonationScam",
+      "中文名称": "AI驱动的冒充诈骗",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "\"It's Fat Joe,\" Austin-based aspiring artist targeted in AI-powered impersonation scam"
+    },
+    "Risk": {
+      "id": "ImpersonationScamRisk",
+      "中文名称": "冒充诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-powered impersonation scam"
+    },
+    "AISubject": {
+      "id": "AustinBasedAspiringArtist",
+      "中文名称": "奥斯汀的励志艺术家",
+      "英文名称": "Austin-based Aspiring Artist",
+      "来源": "\"It's Fat Joe,\" Austin-based aspiring artist targeted in AI-powered impersonation scam"
+    },
+    "AITechnique": {
+      "id": "VoiceCloning",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "AI-powered impersonation"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "targeted in AI-powered impersonation scam"
+    }
+  }
+}

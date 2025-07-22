@@ -1,0 +1,87 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:PublicEventAttendees ;
+    airo:hasStakeholder ex:MetropolitanPolice ;
+    airo:hasPurpose ex:PublicSafetyMonitoring ;
+    airo:hasCapability ex:FacialMatching ;
+    airo:isAppliedWithinDomain ex:LawEnforcement ;
+    airo:usesTechnique ex:RealTimeFacialRecognition .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:IncorrectIdentification ;
+    airo:isRiskSourceFor ex:UnregulatedUse ;
+    airo:isRiskSourceFor ex:MassSurveillance ;
+    airo:isRiskSourceFor ex:FalsePositives .
+
+ex:IncorrectIdentification rdf:type airo:Consequence ;
+    rdfs:label "Incorrect Identification Consequence"@en ;
+    rdfs:label "错误识别后果"@zh ;
+    airo:hasImpact ex:PublicDistrust .
+
+ex:FacialMatching rdf:type airo:AICapability ;
+    rdfs:label "Facial Matching Capability"@en ;
+    rdfs:label "面部匹配能力"@zh .
+
+ex:MetropolitanPolice rdf:type airo:Stakeholder ;
+    rdfs:label "Metropolitan Police"@en ;
+    rdfs:label "伦敦警察厅"@zh .
+
+ex:PublicEventAttendees rdf:type airo:AISubject ;
+    rdfs:label "Public Event Attendees"@en ;
+    rdfs:label "公共活动参与者"@zh .
+
+ex:PublicDistrust rdf:type airo:Impact ;
+    rdfs:label "Public Distrust Impact"@en ;
+    rdfs:label "公众不信任影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MetropolitanPolice , ex:PublicEventAttendees .
+
+ex:PublicSafetyMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Public Safety Monitoring Purpose"@en ;
+    rdfs:label "公共安全监控目的"@zh .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:RealTimeFacialRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Real-Time Facial Recognition Technique"@en ;
+    rdfs:label "实时面部识别技术"@zh .
+
+ex:AlgorithmicBias rdf:type airo:Vulnerability ;
+    rdfs:label "Algorithmic Bias Vulnerability"@en ;
+    rdfs:label "算法偏见脆弱性"@zh .
+
+ex:MassSurveillance rdf:type airo:Threat ;
+    rdfs:label "Mass Surveillance Threat"@en ;
+    rdfs:label "大规模监控威胁"@zh ;
+    airo:exploitsVulnerability ex:AlgorithmicBias .
+
+ex:FalsePositives rdf:type airo:Hazard ;
+    rdfs:label "False Positives Hazard"@en ;
+    rdfs:label "误报危害"@zh ;
+    airo:exploitsVulnerability ex:AlgorithmicBias .
+
+ex:UnregulatedUse rdf:type airo:RiskSource ;
+    rdfs:label "Unregulated Use Risk Source"@en ;
+    rdfs:label "无监管使用风险源"@zh ;
+    airo:exploitsVulnerability ex:AlgorithmicBias .
+
+ex:EthicalConcernsInFacialRecognition rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Concerns in Facial Recognition Risk Concept"@en ;
+    rdfs:label "面部识别中的伦理问题"@zh .

@@ -1,0 +1,67 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT-3 rdf:type airo:AISystem ;
+    rdfs:label "GPT-3"@en ;
+    rdfs:label "GPT-3"@zh ;
+    airo:hasRisk ex:DisinformationRisk ;
+    airo:hasCapability ex:TextGeneration ;
+    airo:hasPurpose ex:ContentCreation ;
+    airo:isAppliedWithinDomain ex:MediaAndCommunication ;
+    airo:usesTechnique ex:LanguageModeling ;
+    airo:hasStakeholder ex:HumanReaders ;
+    airo:hasVulnerability ex:HumanCredulity .
+
+ex:DisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:HumanDeception ;
+    airo:isRiskSourceFor ex:AIWrittenFakeNews .
+
+ex:HumanDeception rdf:type airo:Consequence ;
+    rdfs:label "Human Deception Consequence"@en ;
+    rdfs:label "人类欺骗后果"@zh ;
+    airo:hasImpact ex:MisinformationSpread .
+
+ex:TextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .
+
+ex:HumanReaders rdf:type airo:Stakeholder ;
+    rdfs:label "Human Readers"@en ;
+    rdfs:label "人类读者"@zh .
+
+ex:MisinformationSpread rdf:type airo:Impact ;
+    rdfs:label "Misinformation Spread Impact"@en ;
+    rdfs:label "错误信息传播影响"@zh ;
+    airo:hasImpactOnStakeholder ex:HumanReaders .
+
+ex:ContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Content Creation Purpose"@en ;
+    rdfs:label "内容创作目的"@zh .
+
+ex:MediaAndCommunication rdf:type airo:Domain ;
+    rdfs:label "Media and Communication Domain"@en ;
+    rdfs:label "媒体与传播领域"@zh .
+
+ex:LanguageModeling rdf:type airo:AITechnique ;
+    rdfs:label "Language Modeling Technique"@en ;
+    rdfs:label "语言建模技术"@zh .
+
+ex:HumanCredulity rdf:type airo:Vulnerability ;
+    rdfs:label "Human Credulity Vulnerability"@en ;
+    rdfs:label "人类轻信脆弱性"@zh .
+
+ex:AIWrittenFakeNews rdf:type airo:Threat ;
+    rdfs:label "AI-Written Fake News Threat"@en ;
+    rdfs:label "AI编写假新闻威胁"@zh ;
+    airo:exploitsVulnerability ex:HumanCredulity .

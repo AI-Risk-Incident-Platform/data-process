@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla 'full self-driving' triggered an eight-car crash, a driver tells police"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla behind eight-vehicle crash was in 'full self-driving' mode, says driver"
+    },
+    "Consequence": {
+      "id": "MultiVehicleCollision",
+      "中文名称": "多车相撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "AIOperator": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "RiskSource": {
+      "id": "SoftwareMalfunction",
+      "中文名称": "软件故障风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "Impact": {
+      "id": "TrafficSafetyThreat",
+      "中文名称": "交通安全威胁影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "Tesla 'full self-driving' triggered an eight-car crash, a driver tells police"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingSystem",
+      "中文名称": "特斯拉全自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla 'full self-driving' triggered an eight-car crash, a driver tells police"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla behind eight-vehicle crash was in 'full self-driving' mode, says driver"
+    },
+    "Consequence": {
+      "id": "MultiVehicleCollision",
+      "中文名称": "多车相撞后果",
+      "英文名称": "Traffic Accident Consequences",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "AIOperator": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "RiskSource": {
+      "id": "SoftwareMalfunction",
+      "中文名称": "软件故障风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Tesla driver in multi-car crash told police self-driving software malfunctioned"
+    },
+    "Impact": {
+      "id": "TrafficSafetyThreat",
+      "中文名称": "交通安全威胁影响",
+      "英文名称": "Road Safety Impact",
+      "来源": "Tesla 'full self-driving' triggered an eight-car crash, a driver tells police"
+    }
+  }
+}

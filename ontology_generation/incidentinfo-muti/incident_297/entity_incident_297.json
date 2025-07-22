@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "EasyMileSelfDrivingShuttle",
+      "中文名称": "EasyMile自动驾驶班车",
+      "英文名称": "EasyMile Self-Driving Shuttle",
+      "来源": "EasyMile Self-Driving Shuttle Banned After Sudden Stop Hurts Passenger"
+    },
+    "Risk": {
+      "id": "PassengerInjuryRisk",
+      "中文名称": "乘客受伤风险",
+      "英文名称": "Passenger Injury Risk",
+      "来源": "Self-driving shuttle company ordered to stop carrying passengers after injury"
+    },
+    "Consequence": {
+      "id": "PassengerInjury",
+      "中文名称": "乘客受伤后果",
+      "英文名称": "Passenger Injury Consequence",
+      "来源": "Sudden Stop Hurts Passenger"
+    },
+    "AIOperator": {
+      "id": "EasyMile",
+      "中文名称": "EasyMile公司",
+      "英文名称": "EasyMile",
+      "来源": "EasyMile Self-Driving Shuttle"
+    },
+    "Stakeholder": {
+      "id": "Passengers",
+      "中文名称": "乘客",
+      "英文名称": "Passengers",
+      "来源": "after injury"
+    },
+    "Impact": {
+      "id": "PhysicalHarm",
+      "中文名称": "身体伤害影响",
+      "英文名称": "Physical Harm Impact",
+      "来源": "hurts passenger"
+    },
+    "Purpose": {
+      "id": "AutonomousPublicTransport",
+      "中文名称": "自动驾驶公共交通目的",
+      "英文名称": "Autonomous Public Transport Purpose",
+      "来源": "self-driving shuttle"
+    },
+    "Domain": {
+      "id": "Transportation",
+      "中文名称": "交通运输领域",
+      "英文名称": "Transportation Domain",
+      "来源": "self-driving shuttle"
+    },
+    "RiskSource": {
+      "id": "SuddenStop",
+      "中文名称": "突然停止风险源",
+      "英文名称": "Sudden Stop Risk Source",
+      "来源": "after sudden stop"
+    },
+    "RiskControl": {
+      "id": "ServiceSuspension",
+      "中文名称": "服务暂停管控",
+      "英文名称": "Service Suspension Risk Control",
+      "来源": "ordered to stop carrying passengers"
+    }
+  }
+}

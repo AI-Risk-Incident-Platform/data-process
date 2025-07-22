@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LinkedInAIProfiles",
+      "中文名称": "LinkedIn AI生成个人资料",
+      "英文名称": "LinkedIn AI-Generated Profiles",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "Risk": {
+      "id": "FakeProfilesRisk",
+      "中文名称": "虚假个人资料风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "AICapability": {
+      "id": "ProfileGeneration",
+      "中文名称": "个人资料生成能力",
+      "英文名称": "Profile Generation Capability",
+      "来源": "AI-Generated Profiles"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "companies are leveraging deepfakes' trustworthiness to boost sales"
+    },
+    "Consequence": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "companies are leveraging deepfakes' trustworthiness to boost sales"
+    },
+    "Stakeholder": {
+      "id": "LinkedInUsers",
+      "中文名称": "LinkedIn用户",
+      "英文名称": "LinkedIn Users",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "AIOperator": {
+      "id": "LinkedInCorporation",
+      "中文名称": "LinkedIn公司",
+      "英文名称": "LinkedIn Corporation",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "Domain": {
+      "id": "ProfessionalNetworking",
+      "中文名称": "职业社交网络领域",
+      "英文名称": "Professional Networking",
+      "来源": "LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "LinkedInAIProfiles",
+      "中文名称": "LinkedIn AI生成个人资料",
+      "英文名称": "LinkedIn AI-Generated Profiles",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "Risk": {
+      "id": "FakeProfilesRisk",
+      "中文名称": "虚假个人资料风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "AICapability": {
+      "id": "ProfileGeneration",
+      "中文名称": "个人资料生成能力",
+      "英文名称": "Profile Generation Capability",
+      "来源": "AI-Generated Profiles"
+    },
+    "RiskSource": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术风险源",
+      "英文名称": "Deepfake Technology Risk Source",
+      "来源": "companies are leveraging deepfakes' trustworthiness to boost sales"
+    },
+    "Consequence": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "companies are leveraging deepfakes' trustworthiness to boost sales"
+    },
+    "Stakeholder": {
+      "id": "LinkedInUsers",
+      "中文名称": "LinkedIn用户",
+      "英文名称": "LinkedIn Users",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "AIOperator": {
+      "id": "LinkedInCorporation",
+      "中文名称": "LinkedIn公司",
+      "英文名称": "LinkedIn Corporation",
+      "来源": "Researchers Say LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    },
+    "Domain": {
+      "id": "ProfessionalNetworking",
+      "中文名称": "职业社交网络领域",
+      "英文名称": "Professional Networking",
+      "来源": "LinkedIn is Overrun with Fake, AI-Generated Profiles"
+    }
+  }
+}

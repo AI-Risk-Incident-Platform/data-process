@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CaliforniaBarExamAIProctoringSystem",
+      "中文名称": "加州律师考试AI监考系统",
+      "英文名称": "California Bar Exam AI Proctoring System",
+      "来源": "California Bar Exam Flagged A THIRD Of Applicants As Cheating"
+    },
+    "Risk": {
+      "id": "FalseCheatingAccusationRisk",
+      "中文名称": "虚假作弊指控风险",
+      "英文名称": "False Cheating Accusation Risk",
+      "来源": "Third of California Online Bar Exams Cited for Possible Cheating"
+    },
+    "Consequence": {
+      "id": "UnfairDisqualification",
+      "中文名称": "不公平取消资格后果",
+      "英文名称": "Unfair Disqualification Consequence",
+      "来源": "Flagged A THIRD Of Applicants As Cheating"
+    },
+    "AICapability": {
+      "id": "AutomatedBehaviorMonitoring",
+      "中文名称": "自动行为监控能力",
+      "英文名称": "Automated Behavior Monitoring Capability",
+      "来源": "Flagged A THIRD Of Applicants As Cheating"
+    },
+    "Stakeholder": {
+      "id": "BarExamApplicants",
+      "中文名称": "律师考试申请人",
+      "英文名称": "Bar Exam Applicants",
+      "来源": "Flagged A THIRD Of Applicants As Cheating"
+    }
+  }
+}

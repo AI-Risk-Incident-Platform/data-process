@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频生成系统"@zh ;
+    rdfs:label "Deepfake Video Generation System"@en ;
+    airo:hasRisk ex:MisuseOfDeepfakeTechnology ;
+    airo:hasPurpose ex:CreatingFakeCelebrityVideos ;
+    airo:isAppliedWithinDomain ex:SocialMedia ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping ;
+    airo:hasAISubject ex:PublicFigures ;
+    airo:hasStakeholder ex:Celebrities .
+
+ex:MisuseOfDeepfakeTechnology rdf:type airo:Risk ;
+    rdfs:label "深度伪造技术滥用风险"@zh ;
+    rdfs:label "Misuse of Deepfake Technology Risk"@en ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:UnauthorizedUseOfCelebrityImages .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "声誉损害后果"@zh ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    airo:hasImpact ex:PublicDeception .
+
+ex:Celebrities rdf:type airo:Stakeholder ;
+    rdfs:label "名人"@zh ;
+    rdfs:label "Celebrities"@en .
+
+ex:PublicFigures rdf:type airo:AISubject ;
+    rdfs:label "公众人物"@zh ;
+    rdfs:label "Public Figures"@en .
+
+ex:PublicDeception rdf:type airo:Impact ;
+    rdfs:label "公众欺骗影响"@zh ;
+    rdfs:label "Public Deception Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Celebrities .
+
+ex:CreatingFakeCelebrityVideos rdf:type airo:Purpose ;
+    rdfs:label "制作虚假名人视频的目的"@zh ;
+    rdfs:label "Creating Fake Celebrity Videos Purpose"@en .
+
+ex:SocialMedia rdf:type airo:Domain ;
+    rdfs:label "社交媒体领域"@zh ;
+    rdfs:label "Social Media Domain"@en .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en .
+
+ex:UnauthorizedUseOfCelebrityImages rdf:type airo:RiskSource ;
+    rdfs:label "未经授权使用名人形象的风险源"@zh ;
+    rdfs:label "Unauthorized Use of Celebrity Images Risk Source"@en .

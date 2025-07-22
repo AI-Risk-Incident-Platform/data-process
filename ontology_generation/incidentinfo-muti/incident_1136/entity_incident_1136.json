@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepMindNHSApp",
+      "中文名称": "DeepMind与NHS合作的应用",
+      "英文名称": "DeepMind NHS App",
+      "来源": "Audit of NHS Trust’s app project with DeepMind raises more questions than it answers"
+    },
+    "Risk": {
+      "id": "DataPrivacyRisk",
+      "中文名称": "数据隐私风险",
+      "英文名称": "Data Privacy Risk",
+      "来源": "Google DeepMind and Royal Free in five-year deal"
+    },
+    "Stakeholder": {
+      "id": "RoyalFreeNHS",
+      "中文名称": "皇家自由NHS信托",
+      "英文名称": "Royal Free NHS Trust",
+      "来源": "Google DeepMind and Royal Free in five-year deal"
+    },
+    "AIOperator": {
+      "id": "GoogleDeepMind",
+      "中文名称": "谷歌DeepMind",
+      "英文名称": "Google DeepMind",
+      "来源": "Google is shutting down controversial data-sharing project with NHS"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Google is shutting down controversial data-sharing project with NHS"
+    },
+    "RiskSource": {
+      "id": "DataSharingControversy",
+      "中文名称": "数据共享争议风险源",
+      "英文名称": "Data Sharing Controversy Risk Source",
+      "来源": "Google is shutting down controversial data-sharing project with NHS"
+    }
+  }
+}

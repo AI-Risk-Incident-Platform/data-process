@@ -1,0 +1,65 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Video Generation System"@en ;
+    rdfs:label "深度伪造视频生成系统"@zh ;
+    airo:hasRisk ex:AIFraudRisk ;
+    airo:usesTechnique ex:FaceSwappingAndVoiceCloning ;
+    airo:hasPurpose ex:DeceptiveContentCreation ;
+    airo:hasStakeholder ex:GeneralPublic ;
+    airo:hasAISubject ex:FraudVictims ;
+    airo:isAppliedWithinDomain ex:DigitalSecurity .
+
+ex:AIFraudRisk rdf:type airo:Risk ;
+    rdfs:label "AI Fraud Risk"@en ;
+    rdfs:label "AI诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialLoss ;
+    airo:isRiskSourceFor ex:LowCostDeepfakeTechnologyAvailability .
+
+ex:FinancialLoss rdf:type airo:Consequence ;
+    rdfs:label "Financial Loss Consequence"@en ;
+    rdfs:label "经济损失后果"@zh ;
+    airo:hasImpact ex:TrustErosionInDigitalCommunication .
+
+ex:FaceSwappingAndVoiceCloning rdf:type airo:AITechnique ;
+    rdfs:label "Face Swapping and Voice Cloning Technique"@en ;
+    rdfs:label "人脸替换和语音克隆技术"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "普通公众"@zh .
+
+ex:FraudVictims rdf:type airo:AISubject ;
+    rdfs:label "Fraud Victims"@en ;
+    rdfs:label "诈骗受害者"@zh .
+
+ex:TrustErosionInDigitalCommunication rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Digital Communication Impact"@en ;
+    rdfs:label "数字通信信任度下降的影响"@zh .
+
+ex:DeceptiveContentCreation rdf:type airo:Purpose ;
+    rdfs:label "Deceptive Content Creation Purpose"@en ;
+    rdfs:label "欺骗性内容创建的目的"@zh .
+
+ex:DigitalSecurity rdf:type airo:Domain ;
+    rdfs:label "Digital Security Domain"@en ;
+    rdfs:label "数字安全领域"@zh .
+
+ex:LowCostDeepfakeTechnologyAvailability rdf:type airo:RiskSource ;
+    rdfs:label "Low-Cost Deepfake Technology Availability Risk Source"@en ;
+    rdfs:label "低成本深度伪造技术可获取性的风险源"@zh ;
+    airo:exploitsVulnerability ex:HumanSusceptibilityToVisualDeception .
+
+ex:HumanSusceptibilityToVisualDeception rdf:type airo:Vulnerability ;
+    rdfs:label "Human Susceptibility to Visual Deception Vulnerability"@en ;
+    rdfs:label "人类对视觉欺骗易受性的脆弱性"@zh .

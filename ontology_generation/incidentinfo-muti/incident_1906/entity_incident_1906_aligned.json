@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GPT4DeveloperTool",
+      "中文名称": "GPT-4开发者工具",
+      "英文名称": "GPT-4 Developer Tool",
+      "来源": "GPT-4 developer tool can hack websites without human help"
+    },
+    "Risk": {
+      "id": "WebsiteAutoHijackingRisk",
+      "中文名称": "网站自动劫持风险",
+      "英文名称": "Website Auto-Hijacking Risk",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "AICapability": {
+      "id": "AutomatedWebsiteHacking",
+      "中文名称": "自动化网站入侵能力",
+      "英文名称": "Automated Website Hacking Capability",
+      "来源": "can hack websites without human help"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModelWeaponization",
+      "中文名称": "大型语言模型武器化技术",
+      "英文名称": "Large Language Model Weaponization Technique",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "Threat": {
+      "id": "AIEnabledCyberAttackThreat",
+      "中文名称": "AI驱动的网络攻击威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "Consequence": {
+      "id": "UnauthorizedWebsiteAccess",
+      "中文名称": "未经授权的网站访问后果",
+      "英文名称": "Unauthorized Website Access Consequence",
+      "来源": "can hack websites without human help"
+    },
+    "Impact": {
+      "id": "DataSecurityBreachImpact",
+      "中文名称": "数据安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "can hack websites without human help"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAIAPIs",
+      "中文名称": "恶意使用AI接口风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "GPT-4 developer tool can hack websites without human help"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GPT4DeveloperTool",
+      "中文名称": "GPT-4开发者工具",
+      "英文名称": "GPT-4 Developer Tool",
+      "来源": "GPT-4 developer tool can hack websites without human help"
+    },
+    "Risk": {
+      "id": "WebsiteAutoHijackingRisk",
+      "中文名称": "网站自动劫持风险",
+      "英文名称": "Website Auto-Hijacking Risk",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "AICapability": {
+      "id": "AutomatedWebsiteHacking",
+      "中文名称": "自动化网站入侵能力",
+      "英文名称": "Automated Website Hacking Capability",
+      "来源": "can hack websites without human help"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModelWeaponization",
+      "中文名称": "大型语言模型武器化技术",
+      "英文名称": "Large Language Model Weaponization Technique",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "Threat": {
+      "id": "AIEnabledCyberAttackThreat",
+      "中文名称": "AI驱动的网络攻击威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "How to weaponize LLMs to auto-hijack websites"
+    },
+    "Consequence": {
+      "id": "UnauthorizedWebsiteAccess",
+      "中文名称": "未经授权的网站访问后果",
+      "英文名称": "Unauthorized Website Access Consequence",
+      "来源": "can hack websites without human help"
+    },
+    "Impact": {
+      "id": "DataSecurityBreachImpact",
+      "中文名称": "数据安全漏洞影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "can hack websites without human help"
+    },
+    "RiskSource": {
+      "id": "MaliciousUseOfAIAPIs",
+      "中文名称": "恶意使用AI接口风险源",
+      "英文名称": "AI Misuse Risks",
+      "来源": "GPT-4 developer tool can hack websites without human help"
+    }
+  }
+}

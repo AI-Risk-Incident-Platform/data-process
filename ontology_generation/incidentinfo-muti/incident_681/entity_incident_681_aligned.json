@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedVoiceSystem",
+      "中文名称": "AI生成语音系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "DeSantis PAC uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Stakeholder": {
+      "id": "DeSantisPAC",
+      "中文名称": "德桑蒂斯政治行动委员会",
+      "英文名称": "DeSantis PAC",
+      "来源": "DeSantis PAC uses AI-generated Trump voice"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "AI-generated Trump voice"
+    },
+    "Purpose": {
+      "id": "PoliticalCampaignAdvertising",
+      "中文名称": "政治竞选广告",
+      "英文名称": "Political Campaigning",
+      "来源": "uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Campaigns",
+      "来源": "DeSantis PAC uses AI-generated Trump voice in ad"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIGeneratedVoiceSystem",
+      "中文名称": "AI生成语音系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "DeSantis PAC uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Risk": {
+      "id": "PoliticalMisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Stakeholder": {
+      "id": "DeSantisPAC",
+      "中文名称": "德桑蒂斯政治行动委员会",
+      "英文名称": "DeSantis PAC",
+      "来源": "DeSantis PAC uses AI-generated Trump voice"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis",
+      "来源": "AI-generated Trump voice"
+    },
+    "Purpose": {
+      "id": "PoliticalCampaignAdvertising",
+      "中文名称": "政治竞选广告",
+      "英文名称": "Political Campaigning",
+      "来源": "uses AI-generated Trump voice in ad attacking ex-president"
+    },
+    "Domain": {
+      "id": "PoliticalCampaigns",
+      "中文名称": "政治竞选领域",
+      "英文名称": "Political Campaigns",
+      "来源": "DeSantis PAC uses AI-generated Trump voice in ad"
+    }
+  }
+}

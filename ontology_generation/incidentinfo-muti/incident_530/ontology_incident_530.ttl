@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilot rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot"@en ;
+    airo:hasRisk ex:TrafficLightMisclassificationRisk ;
+    airo:hasCapability ex:TrafficSignalRecognition ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutonomousDriving ;
+    airo:usesTechnique ex:ComputerVisionForTrafficDetection .
+
+ex:TrafficLightMisclassificationRisk rdf:type airo:Risk ;
+    rdfs:label "交通灯误分类风险"@zh ;
+    rdfs:label "Traffic Light Misclassification Risk"@en ;
+    airo:isRiskSourceFor ex:MovingTrafficLightTruck ;
+    airo:hasConsequence ex:AutonomousVehicleConfusion .
+
+ex:MovingTrafficLightTruck rdf:type airo:RiskSource ;
+    rdfs:label "移动交通灯卡车"@zh ;
+    rdfs:label "Moving Traffic Light Truck"@en .
+
+ex:AutonomousVehicleConfusion rdf:type airo:Consequence ;
+    rdfs:label "自动驾驶车辆混淆后果"@zh ;
+    rdfs:label "Autonomous Vehicle Confusion Consequence"@en .
+
+ex:TrafficSignalRecognition rdf:type airo:AICapability ;
+    rdfs:label "交通信号识别能力"@zh ;
+    rdfs:label "Traffic Signal Recognition Capability"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AutonomousDriving rdf:type airo:Domain ;
+    rdfs:label "自动驾驶领域"@zh ;
+    rdfs:label "Autonomous Driving Domain"@en .
+
+ex:ComputerVisionForTrafficDetection rdf:type airo:AITechnique ;
+    rdfs:label "交通检测计算机视觉技术"@zh ;
+    rdfs:label "Computer Vision for Traffic Detection Technique"@en .

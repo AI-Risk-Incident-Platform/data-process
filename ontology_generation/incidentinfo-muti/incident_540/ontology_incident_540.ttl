@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WellnessChatbot rdf:type airo:AISystem ;
+    rdfs:label "健康聊天机器人"@zh ;
+    rdfs:label "Wellness Chatbot"@en ;
+    airo:hasRisk ex:HarmfulDietingAdviceRisk ;
+    airo:hasPurpose ex:EatingDisorderPrevention ;
+    airo:isAppliedWithinDomain ex:MentalHealthWellness ;
+    airo:hasCapability ex:ConversationalSupportForMentalHealth .
+
+ex:HarmfulDietingAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "有害节食建议风险"@zh ;
+    rdfs:label "Harmful Dieting Advice Risk"@en ;
+    airo:hasConsequence ex:PotentialEatingDisorderTrigger ;
+    airo:isRiskSourceFor ex:UnintendedBehavioralOutputs .
+
+ex:PotentialEatingDisorderTrigger rdf:type airo:Consequence ;
+    rdfs:label "潜在饮食失调触发后果"@zh ;
+    rdfs:label "Potential Eating Disorder Trigger Consequence"@en ;
+    airo:hasImpact ex:NegativeMentalHealthEffects .
+
+ex:EatingDisorderPrevention rdf:type airo:Purpose ;
+    rdfs:label "预防饮食失调的目的"@zh ;
+    rdfs:label "Eating Disorder Prevention Purpose"@en .
+
+ex:MentalHealthWellness rdf:type airo:Domain ;
+    rdfs:label "心理健康与保健领域"@zh ;
+    rdfs:label "Mental Health Wellness Domain"@en .
+
+ex:ConversationalSupportForMentalHealth rdf:type airo:AICapability ;
+    rdfs:label "心理健康对话支持能力"@zh ;
+    rdfs:label "Conversational Support for Mental Health Capability"@en .
+
+ex:UnintendedBehavioralOutputs rdf:type airo:RiskSource ;
+    rdfs:label "意外行为输出的风险源"@zh ;
+    rdfs:label "Unintended Behavioral Outputs Risk Source"@en .
+
+ex:NegativeMentalHealthEffects rdf:type airo:Impact ;
+    rdfs:label "负面心理健康影响"@zh ;
+    rdfs:label "Negative Mental Health Effects Impact"@en .

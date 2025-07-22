@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleAIVoiceTrainingSystem",
+      "中文名称": "苹果AI语音训练系统",
+      "英文名称": "Apple AI",
+      "来源": "Audiobook narrators complain Apple may have used them to train AI voices"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceDataUsageRisk",
+      "中文名称": "未经授权的语音数据使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Audiobook narrators fear Apple used their voices to train AI"
+    },
+    "Stakeholder": {
+      "id": "AudiobookNarrators",
+      "中文名称": "有声书叙述者",
+      "英文名称": "Actors",
+      "来源": "Audiobook narrators and authors fear Apple using their voices to train AI"
+    },
+    "AISubject": {
+      "id": "NarratorsVoices",
+      "中文名称": "叙述者声音",
+      "英文名称": "Voice Performers",
+      "来源": "Audiobook narrators complain Apple may have used them to train AI voices"
+    },
+    "RiskSource": {
+      "id": "PotentialUnauthorizedDataCollection",
+      "中文名称": "潜在未经授权的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Audiobook narrators fear Apple used their voices to train AI"
+    },
+    "Impact": {
+      "id": "ProfessionalVoiceIdentityThreat",
+      "中文名称": "专业声音身份威胁",
+      "英文名称": "Professional Voice Identity Threat",
+      "来源": "Audiobook narrators and authors fear Apple using their voices to train AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AppleAIVoiceTrainingSystem",
+      "中文名称": "苹果AI语音训练系统",
+      "英文名称": "Apple AI",
+      "来源": "Audiobook narrators complain Apple may have used them to train AI voices"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceDataUsageRisk",
+      "中文名称": "未经授权的语音数据使用风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Audiobook narrators fear Apple used their voices to train AI"
+    },
+    "Stakeholder": {
+      "id": "AudiobookNarrators",
+      "中文名称": "有声书叙述者",
+      "英文名称": "Actors",
+      "来源": "Audiobook narrators and authors fear Apple using their voices to train AI"
+    },
+    "AISubject": {
+      "id": "NarratorsVoices",
+      "中文名称": "叙述者声音",
+      "英文名称": "Voice Performers",
+      "来源": "Audiobook narrators complain Apple may have used them to train AI voices"
+    },
+    "RiskSource": {
+      "id": "PotentialUnauthorizedDataCollection",
+      "中文名称": "潜在未经授权的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Audiobook narrators fear Apple used their voices to train AI"
+    },
+    "Impact": {
+      "id": "ProfessionalVoiceIdentityThreat",
+      "中文名称": "专业声音身份威胁",
+      "英文名称": "Professional Voice Identity Threat",
+      "来源": "Audiobook narrators and authors fear Apple using their voices to train AI"
+    }
+  }
+}

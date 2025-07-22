@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AppleCardAlgorithm",
+      "中文名称": "苹果信用卡算法",
+      "英文名称": "Apple Card Algorithm",
+      "来源": "Apple Card algorithm sparks gender bias allegations against Goldman Sachs"
+    },
+    "Risk": {
+      "id": "GenderBiasRisk",
+      "中文名称": "性别偏见风险",
+      "英文名称": "Gender Bias Risk",
+      "来源": "Gender Bias Complaints against Apple Card Signal a Dark Side to Fintech"
+    },
+    "Stakeholder": {
+      "id": "GoldmanSachs",
+      "中文名称": "高盛",
+      "英文名称": "Goldman Sachs",
+      "来源": "Apple Card algorithm sparks gender bias allegations against Goldman Sachs"
+    },
+    "Domain": {
+      "id": "Fintech",
+      "中文名称": "金融科技",
+      "英文名称": "Fintech",
+      "来源": "Gender Bias Complaints against Apple Card Signal a Dark Side to Fintech"
+    },
+    "Impact": {
+      "id": "DiscriminatoryCreditDecisions",
+      "中文名称": "歧视性信用决策",
+      "英文名称": "Discriminatory Credit Decisions",
+      "来源": "The Apple Card algo issue: What you need to know about A.I. in everyday life"
+    },
+    "AIOperator": {
+      "id": "Apple",
+      "中文名称": "苹果",
+      "英文名称": "Apple",
+      "来源": "The Apple Card algo issue: What you need to know about A.I. in everyday life"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "Gender Bias Complaints against Apple Card Signal a Dark Side to Fintech"
+    },
+    "Consequence": {
+      "id": "UnequalCreditAccess",
+      "中文名称": "不平等的信贷获取",
+      "英文名称": "Unequal Credit Access",
+      "来源": "The Apple Card algo issue: What you need to know about A.I. in everyday life"
+    }
+  }
+}

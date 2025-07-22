@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceImpersonationAI",
+      "中文名称": "语音冒充AI系统",
+      "英文名称": "Voice Impersonation AI System",
+      "来源": "Stolen voices: Russia-aligned operation manipulates audio and images to impersonate experts"
+    },
+    "Risk": {
+      "id": "ExpertImpersonationRisk",
+      "中文名称": "专家冒充风险",
+      "英文名称": "Expert Impersonation Risk",
+      "来源": "Russia-aligned operation manipulates audio and images to impersonate experts"
+    },
+    "RiskSource": {
+      "id": "AudioImageManipulation",
+      "中文名称": "音频图像操纵",
+      "英文名称": "Audio and Image Manipulation",
+      "来源": "Russia-aligned operation manipulates audio and images to impersonate experts"
+    },
+    "AITechnique": {
+      "id": "VoiceSynthesisTechnology",
+      "中文名称": "语音合成技术",
+      "英文名称": "Voice Synthesis Technology",
+      "来源": "manipulates audio and images to impersonate experts"
+    },
+    "Stakeholder": {
+      "id": "ExpertsBeingImpersonated",
+      "中文名称": "被冒充的专家",
+      "英文名称": "Experts Being Impersonated",
+      "来源": "impersonate experts"
+    },
+    "Impact": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀",
+      "英文名称": "Trust Erosion",
+      "来源": "impersonate experts"
+    }
+  }
+}

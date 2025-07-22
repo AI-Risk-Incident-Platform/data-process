@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AgeGenderMoodRecognitionSystem",
+      "中文名称": "年龄性别情绪识别系统",
+      "英文名称": "Age Gender Mood Recognition System",
+      "来源": "Walgreens and other retailers to install cameras that guess your age, gender and mood"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "cameras that guess your age, gender and mood"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionCapability",
+      "中文名称": "面部识别能力",
+      "英文名称": "Facial Recognition Capability",
+      "来源": "cameras that guess your age, gender and mood"
+    },
+    "AIOperator": {
+      "id": "Walgreens",
+      "中文名称": "沃尔格林",
+      "英文名称": "Walgreens",
+      "来源": "Walgreens and other retailers to install cameras"
+    },
+    "Domain": {
+      "id": "RetailIndustry",
+      "中文名称": "零售行业",
+      "英文名称": "Retail Industry",
+      "来源": "Walgreens and other retailers"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionTechnique",
+      "中文名称": "计算机视觉技术",
+      "英文名称": "Computer Vision Technique",
+      "来源": "cameras that guess your age, gender and mood"
+    }
+  }
+}

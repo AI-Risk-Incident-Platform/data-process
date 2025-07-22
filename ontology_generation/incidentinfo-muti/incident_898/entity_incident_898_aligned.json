@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RealityDefender",
+      "中文名称": "Reality Defender",
+      "英文名称": "Reality Defender",
+      "来源": "Reality Defender dials in on voice deepfake fraud in banking"
+    },
+    "Risk": {
+      "id": "VoiceDeepfakeFraud",
+      "中文名称": "语音深度伪造欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "Domain": {
+      "id": "Banking",
+      "中文名称": "银行业",
+      "英文名称": "Banking",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "AITechnique": {
+      "id": "VoiceDeepfake",
+      "中文名称": "语音深度伪造技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "Stakeholder": {
+      "id": "BankingCustomers",
+      "中文名称": "银行客户",
+      "英文名称": "Bank Customers",
+      "来源": "voice deepfake fraud in banking"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RealityDefender",
+      "中文名称": "Reality Defender",
+      "英文名称": "Reality Defender",
+      "来源": "Reality Defender dials in on voice deepfake fraud in banking"
+    },
+    "Risk": {
+      "id": "VoiceDeepfakeFraud",
+      "中文名称": "语音深度伪造欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "Domain": {
+      "id": "Banking",
+      "中文名称": "银行业",
+      "英文名称": "Banking",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "AITechnique": {
+      "id": "VoiceDeepfake",
+      "中文名称": "语音深度伪造技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "voice deepfake fraud in banking"
+    },
+    "Stakeholder": {
+      "id": "BankingCustomers",
+      "中文名称": "银行客户",
+      "英文名称": "Bank Customers",
+      "来源": "voice deepfake fraud in banking"
+    }
+  }
+}

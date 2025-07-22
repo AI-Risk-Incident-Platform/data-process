@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonPhoneCaseDesignAI",
+      "中文名称": "亚马逊手机壳设计AI",
+      "英文名称": "Amazon Phone Case Design AI",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    },
+    "Risk": {
+      "id": "InappropriateProductDesignRisk",
+      "中文名称": "不当产品设计风险",
+      "英文名称": "Inappropriate Product Design Risk",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    },
+    "AICapability": {
+      "id": "AutomatedProductDesign",
+      "中文名称": "自动化产品设计能力",
+      "英文名称": "Automated Product Design Capability",
+      "来源": "A bot on Amazon is making the best, worst smartphones cases"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "An Amazon Bot Is Making The Greatest Smartphone Cases"
+    },
+    "Consequence": {
+      "id": "UnusableProductDesigns",
+      "中文名称": "不可用产品设计后果",
+      "英文名称": "Unusable Product Designs Consequence",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonPhoneCaseDesignAI",
+      "中文名称": "亚马逊手机壳设计AI",
+      "英文名称": "Amazon Phone Case Design AI",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    },
+    "Risk": {
+      "id": "InappropriateProductDesignRisk",
+      "中文名称": "不当产品设计风险",
+      "英文名称": "Inappropriate Product Design Risk",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    },
+    "AICapability": {
+      "id": "AutomatedProductDesign",
+      "中文名称": "自动化产品设计能力",
+      "英文名称": "Automated Product Design Capability",
+      "来源": "A bot on Amazon is making the best, worst smartphones cases"
+    },
+    "Stakeholder": {
+      "id": "AmazonCustomers",
+      "中文名称": "亚马逊客户",
+      "英文名称": "Amazon Customers",
+      "来源": "An Amazon Bot Is Making The Greatest Smartphone Cases"
+    },
+    "Consequence": {
+      "id": "UnusableProductDesigns",
+      "中文名称": "不可用产品设计后果",
+      "英文名称": "Unusable Product Designs Consequence",
+      "来源": "Amazon AI Designed To Create Phone Cases Goes Hilariously Wrong"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UniversalCreditAlgorithm",
+      "中文名称": "通用信贷算法",
+      "英文名称": "Universal Credit Algorithm",
+      "来源": "Flawed algorithm used to determine UK welfare payments"
+    },
+    "Risk": {
+      "id": "PovertyRiskFromAlgorithm",
+      "中文名称": "算法导致的贫困风险",
+      "英文名称": "Poverty Risk from Algorithm",
+      "来源": "‘pushing people into poverty’"
+    },
+    "Consequence": {
+      "id": "HungerDueToAlgorithmFlaw",
+      "中文名称": "算法缺陷导致的饥饿后果",
+      "英文名称": "Hunger Due to Algorithm Flaw Consequence",
+      "来源": "‘forcing people to go hungry’"
+    },
+    "RiskSource": {
+      "id": "DesignFlawInAlgorithm",
+      "中文名称": "算法设计缺陷风险源",
+      "英文名称": "Design Flaw in Algorithm Risk Source",
+      "来源": "‘Design Flaw’ In The Universal Credit Algorithm"
+    },
+    "Impact": {
+      "id": "IncreasedPovertyLevels",
+      "中文名称": "贫困水平增加的影响",
+      "英文名称": "Increased Poverty Levels Impact",
+      "来源": "‘pushing people into poverty’"
+    },
+    "Domain": {
+      "id": "SocialWelfareSystem",
+      "中文名称": "社会福利系统领域",
+      "英文名称": "Social Welfare System Domain",
+      "来源": "determine UK welfare payments"
+    },
+    "Purpose": {
+      "id": "WelfarePaymentDetermination",
+      "中文名称": "福利金确定的目的",
+      "英文名称": "Welfare Payment Determination Purpose",
+      "来源": "used to determine UK welfare payments"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIClosingArgumentDraftingSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Closing Argument Drafting System"@en ;
+    rdfs:label "AI结案陈词起草系统"@zh ;
+    airo:hasRisk ex:IneffectiveLegalDefenseRisk ;
+    airo:hasStakeholder ex:DefendantPrasMichel ;
+    airo:hasStakeholder ex:DefenseAttorney ;
+    airo:hasPurpose ex:LegalDefenseSupport ;
+    airo:isAppliedWithinDomain ex:LegalSystem ;
+    airo:hasAIOperator ex:DefenseAttorney .
+
+ex:IneffectiveLegalDefenseRisk rdf:type airo:Risk ;
+    rdfs:label "Ineffective Legal Defense Risk"@en ;
+    rdfs:label "无效法律辩护风险"@zh ;
+    airo:hasConsequence ex:WrongfulConviction ;
+    airo:isRiskSourceFor ex:OverrelianceOnAIForCriticalLegalTasks .
+
+ex:DefendantPrasMichel rdf:type airo:Stakeholder ;
+    rdfs:label "Defendant Pras Michel"@en ;
+    rdfs:label "被告Pras Michel"@zh .
+
+ex:DefenseAttorney rdf:type airo:AIOperator ;
+    rdfs:label "Defense Attorney"@en ;
+    rdfs:label "辩护律师"@zh .
+
+ex:WrongfulConviction rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Conviction Consequence"@en ;
+    rdfs:label "错误定罪后果"@zh ;
+    airo:hasImpact ex:LossOfFreedom .
+
+ex:LossOfFreedom rdf:type airo:Impact ;
+    rdfs:label "Loss of Freedom Impact"@en ;
+    rdfs:label "丧失自由的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DefendantPrasMichel .
+
+ex:LegalDefenseSupport rdf:type airo:Purpose ;
+    rdfs:label "Legal Defense Support Purpose"@en ;
+    rdfs:label "法律辩护支持的目的"@zh .
+
+ex:LegalSystem rdf:type airo:Domain ;
+    rdfs:label "Legal System Domain"@en ;
+    rdfs:label "法律系统领域"@zh .
+
+ex:OverrelianceOnAIForCriticalLegalTasks rdf:type airo:Misuse ;
+    rdfs:label "Overreliance on AI for Critical Legal Tasks Misuse"@en ;
+    rdfs:label "关键法律任务过度依赖AI的滥用"@zh .

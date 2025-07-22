@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeForRemoteWorkApplication",
+      "中文名称": "用于远程工作申请的深度伪造",
+      "英文名称": "Deepfake for Remote Work Application",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "Risk": {
+      "id": "IdentityFraudRisk",
+      "中文名称": "身份欺诈风险",
+      "英文名称": "Identity Fraud Risk",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "RiskSource": {
+      "id": "StolenPII",
+      "中文名称": "被盗个人身份信息",
+      "英文名称": "Stolen Personally Identifiable Information",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "AITechnique": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "Consequence": {
+      "id": "UnauthorizedEmployment",
+      "中文名称": "未经授权的就业",
+      "英文名称": "Unauthorized Employment",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "Impact": {
+      "id": "CorporateDataBreach",
+      "中文名称": "企业数据泄露",
+      "英文名称": "Corporate Data Breach",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "Stakeholder": {
+      "id": "RemoteWorkApplicants",
+      "中文名称": "远程工作申请人",
+      "英文名称": "Remote Work Applicants",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    },
+    "AISubject": {
+      "id": "CorporateHiringSystems",
+      "中文名称": "企业招聘系统",
+      "英文名称": "Corporate Hiring Systems",
+      "来源": "Deepfakes and Stolen PII Utilized to Apply for Remote Work Positions"
+    }
+  }
+}

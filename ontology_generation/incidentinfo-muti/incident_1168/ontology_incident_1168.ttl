@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BeautyAI rdf:type airo:AISystem ;
+    rdfs:label "Beauty.AI"@en ;
+    rdfs:label "Beauty.AI"@zh ;
+    airo:hasRisk ex:RacialBiasInAIJudgedContest ;
+    airo:hasCapability ex:FacialAnalysisForBeautyAssessment ;
+    airo:hasStakeholder ex:ContestParticipants .
+
+ex:RacialBiasInAIJudgedContest rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in AI-Judged Contest Risk"@en ;
+    rdfs:label "AI评判比赛中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:DiscriminatoryContestResults ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:DiscriminatoryContestResults rdf:type airo:Consequence ;
+    rdfs:label "Discriminatory Contest Results Consequence"@en ;
+    rdfs:label "歧视性比赛结果后果"@zh ;
+    airo:hasImpact ex:PublicOutcryOverAlgorithmicBias .
+
+ex:FacialAnalysisForBeautyAssessment rdf:type airo:AICapability ;
+    rdfs:label "Facial Analysis for Beauty Assessment Capability"@en ;
+    rdfs:label "面部分析用于美颜评估的能力"@zh .
+
+ex:ContestParticipants rdf:type airo:Stakeholder ;
+    rdfs:label "Contest Participants"@en ;
+    rdfs:label "比赛参与者"@zh ;
+    airo:hasImpactOnStakeholder ex:PublicOutcryOverAlgorithmicBias .
+
+ex:PublicOutcryOverAlgorithmicBias rdf:type airo:Impact ;
+    rdfs:label "Public Outcry Over Algorithmic Bias Impact"@en ;
+    rdfs:label "公众对算法偏见的强烈抗议影响"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data Risk Source"@en ;
+    rdfs:label "有偏见的训练数据风险源"@zh .

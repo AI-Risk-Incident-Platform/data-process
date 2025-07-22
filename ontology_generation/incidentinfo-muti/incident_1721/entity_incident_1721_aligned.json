@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FinancialNewsContentGenerationAI",
+      "中文名称": "金融新闻内容生成AI",
+      "英文名称": "Financial News Content Generation AI",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "Risk": {
+      "id": "PlagiarismRisk",
+      "中文名称": "抄袭风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Stakeholder": {
+      "id": "CompetitorNewsSites",
+      "中文名称": "竞争对手新闻网站",
+      "英文名称": "Competitor News Sites",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "AIOperator": {
+      "id": "InvestingCom",
+      "中文名称": "Investing.com",
+      "英文名称": "Investing.com",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Domain": {
+      "id": "FinancialNews",
+      "中文名称": "金融新闻领域",
+      "英文名称": "Financial News Domain",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringement",
+      "中文名称": "版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Purpose": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "RiskSource": {
+      "id": "UnethicalContentScraping",
+      "中文名称": "不道德内容抓取风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FinancialNewsContentGenerationAI",
+      "中文名称": "金融新闻内容生成AI",
+      "英文名称": "Financial News Content Generation AI",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "Risk": {
+      "id": "PlagiarismRisk",
+      "中文名称": "抄袭风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Stakeholder": {
+      "id": "CompetitorNewsSites",
+      "中文名称": "竞争对手新闻网站",
+      "英文名称": "Competitor News Sites",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "AIOperator": {
+      "id": "InvestingCom",
+      "中文名称": "Investing.com",
+      "英文名称": "Investing.com",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Domain": {
+      "id": "FinancialNews",
+      "中文名称": "金融新闻领域",
+      "英文名称": "Financial News Domain",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringement",
+      "中文名称": "版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Impact": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    },
+    "Purpose": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "A financial news site uses AI to copy competitors — wholesale"
+    },
+    "RiskSource": {
+      "id": "UnethicalContentScraping",
+      "中文名称": "不道德内容抓取风险源",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Investing.com Accused of Using AI to Plagiarize Other Websites"
+    }
+  }
+}

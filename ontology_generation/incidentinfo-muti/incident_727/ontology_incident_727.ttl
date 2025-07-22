@@ -1,0 +1,37 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh ;
+    airo:hasRisk ex:PoliticalManipulationRisk ;
+    airo:hasAISubject ex:IndianVoters ;
+    airo:hasStakeholder ex:PoliticalCandidates .
+
+ex:PoliticalManipulationRisk rdf:type airo:Risk ;
+    rdfs:label "Political Manipulation Risk"@en ;
+    rdfs:label "政治操纵风险"@zh ;
+    airo:hasConsequence ex:ElectionInterference .
+
+ex:PoliticalCandidates rdf:type airo:Stakeholder ;
+    rdfs:label "Political Candidates"@en ;
+    rdfs:label "政治候选人"@zh .
+
+ex:IndianVoters rdf:type airo:AISubject ;
+    rdfs:label "Indian Voters"@en ;
+    rdfs:label "印度选民"@zh .
+
+ex:ElectionInterference rdf:type airo:Impact ;
+    rdfs:label "Election Interference"@en ;
+    rdfs:label "选举干预"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalCandidates ;
+    airo:hasImpactOnStakeholder ex:IndianVoters .

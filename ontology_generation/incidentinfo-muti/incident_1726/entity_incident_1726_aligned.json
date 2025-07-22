@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MedicareAdvantageAlgorithm",
+      "中文名称": "Medicare Advantage算法",
+      "英文名称": "Medicare Advantage Algorithm System",
+      "来源": "UnitedHealth’s acquisition of a popular Medicare Advantage algorithm"
+    },
+    "Risk": {
+      "id": "DeniedCareRisk",
+      "中文名称": "拒绝护理风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "sparked internal dissent over denied care"
+    },
+    "Consequence": {
+      "id": "CareDenials",
+      "中文名称": "护理拒绝后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Medicare Advantage plans' use of AI leads to care denials"
+    },
+    "Stakeholder": {
+      "id": "UnitedHealth",
+      "中文名称": "联合健康集团",
+      "英文名称": "UnitedHealth",
+      "来源": "UnitedHealth’s acquisition of a popular Medicare Advantage algorithm"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "Medicare Advantage plans' use of AI"
+    },
+    "Impact": {
+      "id": "PatientHarm",
+      "中文名称": "患者伤害影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "How a Medicare Advantage business is strangling one of its first funders"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MedicareAdvantageAlgorithm",
+      "中文名称": "Medicare Advantage算法",
+      "英文名称": "Medicare Advantage Algorithm System",
+      "来源": "UnitedHealth’s acquisition of a popular Medicare Advantage algorithm"
+    },
+    "Risk": {
+      "id": "DeniedCareRisk",
+      "中文名称": "拒绝护理风险",
+      "英文名称": "Unfair Claim Denial Risk",
+      "来源": "sparked internal dissent over denied care"
+    },
+    "Consequence": {
+      "id": "CareDenials",
+      "中文名称": "护理拒绝后果",
+      "英文名称": "Healthcare Disparity Consequence",
+      "来源": "Medicare Advantage plans' use of AI leads to care denials"
+    },
+    "Stakeholder": {
+      "id": "UnitedHealth",
+      "中文名称": "联合健康集团",
+      "英文名称": "UnitedHealth",
+      "来源": "UnitedHealth’s acquisition of a popular Medicare Advantage algorithm"
+    },
+    "Domain": {
+      "id": "HealthcareInsurance",
+      "中文名称": "医疗保险领域",
+      "英文名称": "Health Insurance Domain",
+      "来源": "Medicare Advantage plans' use of AI"
+    },
+    "Impact": {
+      "id": "PatientHarm",
+      "中文名称": "患者伤害影响",
+      "英文名称": "Patient Safety Impact",
+      "来源": "How a Medicare Advantage business is strangling one of its first funders"
+    }
+  }
+}

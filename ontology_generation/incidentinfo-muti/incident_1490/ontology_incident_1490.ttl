@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WorldcoinIrisScanningSystem rdf:type airo:AISystem ;
+    rdfs:label "Worldcoin Iris Scanning System"@en ;
+    rdfs:label "Worldcoin虹膜扫描系统"@zh ;
+    airo:hasRisk ex:PrivacyConcernsRisk ;
+    airo:hasPurpose ex:DigitalIdentityVerification ;
+    airo:hasStakeholder ex:SpanishHighCourt ;
+    airo:isDeployedBy ex:SamAltman ;
+    airo:isAppliedWithinDomain ex:CryptocurrencyAndBiometrics .
+
+ex:PrivacyConcernsRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Concerns Risk"@en ;
+    rdfs:label "隐私担忧风险"@zh ;
+    airo:hasConsequence ex:ProjectTemporaryBan .
+
+ex:SpanishHighCourt rdf:type airo:Stakeholder ;
+    rdfs:label "Spanish High Court"@en ;
+    rdfs:label "西班牙高等法院"@zh .
+
+ex:SamAltman rdf:type airo:AIOperator ;
+    rdfs:label "Sam Altman"@en ;
+    rdfs:label "山姆·奥特曼"@zh .
+
+ex:ProjectTemporaryBan rdf:type airo:Consequence ;
+    rdfs:label "Project Temporary Ban Consequence"@en ;
+    rdfs:label "项目临时禁令后果"@zh ;
+    airo:hasImpact ex:UserPrivacyViolation .
+
+ex:CryptocurrencyAndBiometrics rdf:type airo:Domain ;
+    rdfs:label "Cryptocurrency and Biometrics Domain"@en ;
+    rdfs:label "加密货币与生物识别领域"@zh .
+
+ex:DigitalIdentityVerification rdf:type airo:Purpose ;
+    rdfs:label "Digital Identity Verification Purpose"@en ;
+    rdfs:label "数字身份验证目的"@zh .
+
+ex:UserPrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "User Privacy Violation Impact"@en ;
+    rdfs:label "用户隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:SpanishHighCourt .

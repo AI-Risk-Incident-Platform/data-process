@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:RacistAbuseOnlineRisk ;
+    airo:isDeployedBy ex:FacebookInc ;
+    airo:hasStakeholder ex:EnglandSoccerTeamFans ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms ;
+    airo:hasPurpose ex:OnlineContentModeration .
+
+ex:RacistAbuseOnlineRisk rdf:type airo:Risk ;
+    rdfs:label "Racist Abuse Online Risk"@en ;
+    rdfs:label "在线种族主义辱骂风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToPlayersAndFans .
+
+ex:EnglandSoccerTeamFans rdf:type airo:Stakeholder ;
+    rdfs:label "England Soccer Team Fans"@en ;
+    rdfs:label "英格兰足球队球迷"@zh .
+
+ex:FacebookInc rdf:type airo:AIOperator ;
+    rdfs:label "Facebook Inc."@en ;
+    rdfs:label "Facebook公司"@zh .
+
+ex:PsychologicalHarmToPlayersAndFans rdf:type airo:Impact ;
+    rdfs:label "Psychological Harm to Players and Fans"@en ;
+    rdfs:label "对球员和球迷的心理伤害"@zh ;
+    airo:hasImpactOnStakeholder ex:EnglandSoccerTeamFans .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms"@en ;
+    rdfs:label "社交媒体平台"@zh .
+
+ex:OnlineContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Online Content Moderation"@en ;
+    rdfs:label "在线内容审核"@zh .

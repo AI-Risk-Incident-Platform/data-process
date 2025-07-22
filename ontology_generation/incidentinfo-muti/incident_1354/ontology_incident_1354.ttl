@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceCloningTechnology rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Cloning Technology"@en ;
+    rdfs:label "AI语音克隆技术"@zh ;
+    airo:hasRisk ex:JobDisplacementRisk ;
+    airo:hasAISubject ex:VoiceActors ;
+    airo:hasStakeholder ex:AustralianActors ;
+    airo:hasCapability ex:VoiceReplicationCapability ;
+    airo:isAppliedWithinDomain ex:CreativeIndustryDomain .
+
+ex:JobDisplacementRisk rdf:type airo:Risk ;
+    rdfs:label "Job Displacement Risk"@en ;
+    rdfs:label "职业替代风险"@zh ;
+    airo:hasConsequence ex:ActorJobLoss ;
+    airo:isRiskSourceFor ex:CheapVoiceCloningTechnology .
+
+ex:ActorJobLoss rdf:type airo:Consequence ;
+    rdfs:label "Actor Job Loss Consequence"@en ;
+    rdfs:label "演员失业后果"@zh ;
+    airo:hasImpact ex:EconomicImpactOnCreativeIndustry .
+
+ex:EconomicImpactOnCreativeIndustry rdf:type airo:Impact ;
+    rdfs:label "Economic Impact on Creative Industry"@en ;
+    rdfs:label "对创意产业的经济影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AustralianActors .
+
+ex:AustralianActors rdf:type airo:Stakeholder ;
+    rdfs:label "Australian Actors"@en ;
+    rdfs:label "澳大利亚演员"@zh .
+
+ex:VoiceActors rdf:type airo:AISubject ;
+    rdfs:label "Voice Actors"@en ;
+    rdfs:label "配音演员"@zh .
+
+ex:CreativeIndustryDomain rdf:type airo:Domain ;
+    rdfs:label "Creative Industry Domain"@en ;
+    rdfs:label "创意产业领域"@zh .
+
+ex:CheapVoiceCloningTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Cheap Voice Cloning Technology Risk Source"@en ;
+    rdfs:label "廉价语音克隆技术风险源"@zh .
+
+ex:VoiceReplicationCapability rdf:type airo:AICapability ;
+    rdfs:label "Voice Replication Capability"@en ;
+    rdfs:label "语音复制能力"@zh .

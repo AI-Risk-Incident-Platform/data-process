@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "NHTSA Suspects Tesla That Hit Firetruck In Fatal Crash Was Using Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "Tesla Driver Dies After Crashing Into Stationary Firetruck On California Freeway"
+    },
+    "Consequence": {
+      "id": "FatalCollisionWithEmergencyVehicle",
+      "中文名称": "与应急车辆致命碰撞后果",
+      "英文名称": "Fatal Collision with Emergency Vehicle Consequence",
+      "来源": "Tesla Driver Dies After Crashing Into Stationary Firetruck On California Freeway"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA Suspects Tesla That Hit Firetruck In Fatal Crash Was Using Autopilot"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "NHTSA Suspects Tesla That Hit Firetruck In Fatal Crash Was Using Autopilot"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Tesla Driver Dies After Crashing Into Stationary Firetruck On California Freeway"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "NHTSA Suspects Tesla That Hit Firetruck In Fatal Crash Was Using Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveTransportation",
+      "中文名称": "汽车交通领域",
+      "英文名称": "Automotive Transportation Domain",
+      "来源": "Tesla Driver Dies After Crashing Into Stationary Firetruck On California Freeway"
+    },
+    "RiskSource": {
+      "id": "StationaryObjectDetectionFailure",
+      "中文名称": "静止物体检测失败风险源",
+      "英文名称": "Stationary Object Detection Failure Risk Source",
+      "来源": "Tesla Driver Dies After Crashing Into Stationary Firetruck On California Freeway"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceCloningAI",
+      "中文名称": "语音克隆AI",
+      "英文名称": "Voice Cloning AI",
+      "来源": "Marques Brownlee slams company for cloning his voice without consent"
+    },
+    "Risk": {
+      "id": "UnauthorizedVoiceCloningRisk",
+      "中文名称": "未经授权的语音克隆风险",
+      "英文名称": "Unauthorized Voice Cloning Risk",
+      "来源": "cloning his voice without consent"
+    },
+    "Stakeholder": {
+      "id": "MarquesBrownlee",
+      "中文名称": "Marques Brownlee",
+      "英文名称": "Marques Brownlee",
+      "来源": "Marques Brownlee slams company"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯",
+      "英文名称": "Personal Privacy Violation",
+      "来源": "cloning his voice without consent"
+    },
+    "Misuse": {
+      "id": "NonConsensualVoiceReplication",
+      "中文名称": "未经同意的语音复制",
+      "英文名称": "Non-Consensual Voice Replication",
+      "来源": "cloning his voice without consent"
+    }
+  }
+}

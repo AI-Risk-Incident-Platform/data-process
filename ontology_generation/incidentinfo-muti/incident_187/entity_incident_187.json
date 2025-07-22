@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseAutonomousVehicles",
+      "中文名称": "Cruise自动驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCollisionRisk",
+      "中文名称": "自动驾驶汽车碰撞风险",
+      "英文名称": "Autonomous Vehicle Collision Risk",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Consequence": {
+      "id": "VehicleDamage",
+      "中文名称": "车辆损坏后果",
+      "英文名称": "Vehicle Damage Consequence",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "AICapability": {
+      "id": "SelfDrivingTechnology",
+      "中文名称": "自动驾驶技术能力",
+      "英文名称": "Self-Driving Technology Capability",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise LLC",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaTransportationAuthority",
+      "中文名称": "加州交通管理局",
+      "英文名称": "California Transportation Authority",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "AISubject": {
+      "id": "RoadUsers",
+      "中文名称": "道路使用者",
+      "英文名称": "Road Users",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcerns",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Public Safety Concerns Impact",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "Purpose": {
+      "id": "UrbanMobilityTransformation",
+      "中文名称": "城市交通转型目的",
+      "英文名称": "Urban Mobility Transformation Purpose",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Domain": {
+      "id": "TransportationIndustry",
+      "中文名称": "交通运输行业领域",
+      "英文名称": "Transportation Industry Domain",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionAndMachineLearning",
+      "中文名称": "计算机视觉与机器学习技术",
+      "英文名称": "Computer Vision and Machine Learning Technique",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Vulnerability": {
+      "id": "EdgeCaseHandlingLimitations",
+      "中文名称": "边缘案例处理限制脆弱性",
+      "英文名称": "Edge Case Handling Limitations Vulnerability",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Threat": {
+      "id": "UnpredictableTrafficScenarios",
+      "中文名称": "不可预测交通场景威胁",
+      "英文名称": "Unpredictable Traffic Scenarios Threat",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "Hazard": {
+      "id": "ComplexUrbanEnvironments",
+      "中文名称": "复杂城市环境危害",
+      "英文名称": "Complex Urban Environments Hazard",
+      "来源": "Autonomous vehicles crash together in California"
+    },
+    "RiskSource": {
+      "id": "SensorFusionChallenges",
+      "中文名称": "传感器融合挑战风险源",
+      "英文名称": "Sensor Fusion Challenges Risk Source",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    },
+    "RiskConcept": {
+      "id": "AutonomousVehicleSafetyChallenges",
+      "中文名称": "自动驾驶汽车安全挑战",
+      "英文名称": "Autonomous Vehicle Safety Challenges Risk Concept",
+      "来源": "A Cruise-on-Cruise Crash Reveals the Hardest Thing About Self-Driving Tech"
+    }
+  }
+}

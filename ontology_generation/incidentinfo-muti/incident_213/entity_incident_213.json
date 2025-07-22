@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla drivers report a surge in 'phantom braking'"
+    },
+    "Risk": {
+      "id": "PhantomBrakingRisk",
+      "中文名称": "幽灵刹车风险",
+      "英文名称": "Phantom Braking Risk",
+      "来源": "107 drivers recently complained about their Teslas making random, jolting stops"
+    },
+    "Consequence": {
+      "id": "SuddenUnintendedDeceleration",
+      "中文名称": "突然意外减速后果",
+      "英文名称": "Sudden Unintended Deceleration Consequence",
+      "来源": "Teslas making random, jolting stops"
+    },
+    "AICapability": {
+      "id": "ObjectDetectionAndCollisionAvoidance",
+      "中文名称": "物体检测和碰撞避免能力",
+      "英文名称": "Object Detection and Collision Avoidance Capability",
+      "来源": "Tesla Autopilot System's core functionality"
+    },
+    "Stakeholder": {
+      "id": "TeslaVehicleOwners",
+      "中文名称": "特斯拉车主",
+      "英文名称": "Tesla Vehicle Owners",
+      "来源": "Tesla drivers report a surge in 'phantom braking'"
+    },
+    "RiskSource": {
+      "id": "SensorFalsePositives",
+      "中文名称": "传感器误报风险源",
+      "英文名称": "Sensor False Positives Risk Source",
+      "来源": "Phantom braking incidents suggest false positive detections"
+    },
+    "Impact": {
+      "id": "PotentialRearEndCollisions",
+      "中文名称": "潜在追尾碰撞影响",
+      "英文名称": "Potential Rear-End Collisions Impact",
+      "来源": "Random jolting stops create collision risks"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla's position in the automotive sector"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedDrivingAssistance",
+      "中文名称": "基于计算机视觉的驾驶辅助技术",
+      "英文名称": "Computer Vision Based Driving Assistance Technique",
+      "来源": "Tesla Autopilot's primary technical approach"
+    }
+  }
+}

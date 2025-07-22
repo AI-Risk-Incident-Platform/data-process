@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChildAbusePredictionTool",
+      "中文名称": "儿童虐待预测工具",
+      "英文名称": "Child Abuse Prediction",
+      "来源": "Oregon dropping AI tool used in child abuse cases"
+    },
+    "Risk": {
+      "id": "InaccurateChildAbusePredictionRisk",
+      "中文名称": "儿童虐待预测不准确风险",
+      "英文名称": "Child Abuse Prediction Bias",
+      "来源": "Oregon dropping AI tool used in child abuse cases"
+    },
+    "Domain": {
+      "id": "ChildProtectionServices",
+      "中文名称": "儿童保护服务领域",
+      "英文名称": "Child Welfare Domain",
+      "来源": "AI tool used in child abuse cases"
+    },
+    "Purpose": {
+      "id": "AssistingChildAbuseCaseAssessments",
+      "中文名称": "辅助儿童虐待案件评估的目的",
+      "英文名称": "Child Welfare Screening Purpose",
+      "来源": "AI tool used in child abuse cases"
+    },
+    "Stakeholder": {
+      "id": "OregonChildWelfareDepartment",
+      "中文名称": "俄勒冈州儿童福利部门",
+      "英文名称": "Oregon Child Welfare Department",
+      "来源": "Oregon dropping AI tool"
+    },
+    "Consequence": {
+      "id": "PotentialMisclassificationOfCases",
+      "中文名称": "案件潜在错误分类后果",
+      "英文名称": "Potential Misclassification of Cases Consequence",
+      "来源": "dropping AI tool used in child abuse cases"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChildAbusePredictionTool",
+      "中文名称": "儿童虐待预测工具",
+      "英文名称": "Child Abuse Prediction",
+      "来源": "Oregon dropping AI tool used in child abuse cases"
+    },
+    "Risk": {
+      "id": "InaccurateChildAbusePredictionRisk",
+      "中文名称": "儿童虐待预测不准确风险",
+      "英文名称": "Child Abuse Prediction Bias",
+      "来源": "Oregon dropping AI tool used in child abuse cases"
+    },
+    "Domain": {
+      "id": "ChildProtectionServices",
+      "中文名称": "儿童保护服务领域",
+      "英文名称": "Child Welfare Domain",
+      "来源": "AI tool used in child abuse cases"
+    },
+    "Purpose": {
+      "id": "AssistingChildAbuseCaseAssessments",
+      "中文名称": "辅助儿童虐待案件评估的目的",
+      "英文名称": "Child Welfare Screening Purpose",
+      "来源": "AI tool used in child abuse cases"
+    },
+    "Stakeholder": {
+      "id": "OregonChildWelfareDepartment",
+      "中文名称": "俄勒冈州儿童福利部门",
+      "英文名称": "Oregon Child Welfare Department",
+      "来源": "Oregon dropping AI tool"
+    },
+    "Consequence": {
+      "id": "PotentialMisclassificationOfCases",
+      "中文名称": "案件潜在错误分类后果",
+      "英文名称": "Potential Misclassification of Cases Consequence",
+      "来源": "dropping AI tool used in child abuse cases"
+    }
+  }
+}

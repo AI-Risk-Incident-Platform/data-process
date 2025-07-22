@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchAI rdf:type airo:AISystem ;
+    rdfs:label "Google Search AI"@en ;
+    rdfs:label "谷歌搜索AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasCapability ex:SearchResultGeneration ;
+    airo:hasStakeholder ex:ArtResearchers .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:ArtHistoricalMisrepresentation .
+
+ex:ArtHistoricalMisrepresentation rdf:type airo:Consequence ;
+    rdfs:label "Art Historical Misrepresentation Consequence"@en ;
+    rdfs:label "艺术史错误表述后果"@zh ;
+    airo:hasImpactOnStakeholder ex:ArtResearchers .
+
+ex:SearchResultGeneration rdf:type airo:AICapability ;
+    rdfs:label "Search Result Generation Capability"@en ;
+    rdfs:label "搜索结果生成能力"@zh .
+
+ex:ArtResearchers rdf:type airo:Stakeholder ;
+    rdfs:label "Art Researchers"@en ;
+    rdfs:label "艺术研究者"@zh .

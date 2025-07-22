@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FamilyMatchAITool rdf:type airo:AISystem ;
+    rdfs:label "Family-Match AI Tool"@en ;
+    rdfs:label "家庭匹配AI工具"@zh ;
+    airo:hasRisk ex:MismatchBetweenFosterKidsAndFamiliesRisk ;
+    airo:hasStakeholder ex:PastorsWifeAndDataScientist ;
+    airo:isAppliedWithinDomain ex:FosterCareAndAdoption ;
+    airo:hasPurpose ex:MatchingFosterKidsWithFamilies .
+
+ex:MismatchBetweenFosterKidsAndFamiliesRisk rdf:type airo:Risk ;
+    rdfs:label "Mismatch Between Foster Kids and Families Risk"@en ;
+    rdfs:label "寄养儿童与家庭不匹配风险"@zh .
+
+ex:PastorsWifeAndDataScientist rdf:type airo:Stakeholder ;
+    rdfs:label "Pastor's Wife and Data Scientist"@en ;
+    rdfs:label "牧师妻子与数据科学家"@zh .
+
+ex:FosterCareAndAdoption rdf:type airo:Domain ;
+    rdfs:label "Foster Care and Adoption Domain"@en ;
+    rdfs:label "寄养与领养领域"@zh .
+
+ex:MatchingFosterKidsWithFamilies rdf:type airo:Purpose ;
+    rdfs:label "Matching Foster Kids with Families Purpose"@en ;
+    rdfs:label "匹配寄养儿童与家庭的目的"@zh .

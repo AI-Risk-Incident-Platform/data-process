@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OtterAiTranscriptionService",
+      "中文名称": "Otter.ai转录服务",
+      "英文名称": "Otter.ai Transcription Service",
+      "来源": "This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private"
+    },
+    "Risk": {
+      "id": "PrivacyLeakRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "cloud transcription isn’t completely private"
+    },
+    "Consequence": {
+      "id": "SensitiveInformationExposure",
+      "中文名称": "敏感信息暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "spilling your company's secrets"
+    },
+    "AICapability": {
+      "id": "SpeechToTextConversion",
+      "中文名称": "语音转文本能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "cloud transcription service"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndCorporateUsers",
+      "中文名称": "记者和企业用户",
+      "英文名称": "Corporate Users",
+      "来源": "journalist's scare and company secrets"
+    },
+    "Impact": {
+      "id": "ReputationalDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "spilling your company's secrets"
+    },
+    "RiskSource": {
+      "id": "CloudStorageVulnerability",
+      "中文名称": "云存储漏洞风险源",
+      "英文名称": "Cloud Security Risks",
+      "来源": "cloud transcription isn’t completely private"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OtterAiTranscriptionService",
+      "中文名称": "Otter.ai转录服务",
+      "英文名称": "Otter.ai Transcription Service",
+      "来源": "This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private"
+    },
+    "Risk": {
+      "id": "PrivacyLeakRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "cloud transcription isn’t completely private"
+    },
+    "Consequence": {
+      "id": "SensitiveInformationExposure",
+      "中文名称": "敏感信息暴露后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "spilling your company's secrets"
+    },
+    "AICapability": {
+      "id": "SpeechToTextConversion",
+      "中文名称": "语音转文本能力",
+      "英文名称": "Voice/Speech Recognition Capability",
+      "来源": "cloud transcription service"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndCorporateUsers",
+      "中文名称": "记者和企业用户",
+      "英文名称": "Corporate Users",
+      "来源": "journalist's scare and company secrets"
+    },
+    "Impact": {
+      "id": "ReputationalDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "spilling your company's secrets"
+    },
+    "RiskSource": {
+      "id": "CloudStorageVulnerability",
+      "中文名称": "云存储漏洞风险源",
+      "英文名称": "Cloud Security Risks",
+      "来源": "cloud transcription isn’t completely private"
+    }
+  }
+}

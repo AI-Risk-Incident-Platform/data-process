@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIModels",
+      "中文名称": "OpenAI模型",
+      "英文名称": "OpenAI Models",
+      "来源": "Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "Risk": {
+      "id": "MaliciousServicesRisk",
+      "中文名称": "恶意服务风险",
+      "英文名称": "Malicious Services Risk",
+      "来源": "Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "RiskSource": {
+      "id": "UndergroundMarket",
+      "中文名称": "地下市场",
+      "英文名称": "Underground Market",
+      "来源": "Studying Underground Market for Large Language Models"
+    },
+    "AICapability": {
+      "id": "PoweringMaliciousServices",
+      "中文名称": "支持恶意服务的能力",
+      "英文名称": "Powering Malicious Services Capability",
+      "来源": "Researchers Find OpenAI Models Power Malicious Services"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIModels",
+      "中文名称": "OpenAI模型",
+      "英文名称": "OpenAI Models",
+      "来源": "Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "Risk": {
+      "id": "MaliciousServicesRisk",
+      "中文名称": "恶意服务风险",
+      "英文名称": "Malicious Services Risk",
+      "来源": "Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services"
+    },
+    "RiskSource": {
+      "id": "UndergroundMarket",
+      "中文名称": "地下市场",
+      "英文名称": "Underground Market",
+      "来源": "Studying Underground Market for Large Language Models"
+    },
+    "AICapability": {
+      "id": "PoweringMaliciousServices",
+      "中文名称": "支持恶意服务的能力",
+      "英文名称": "Powering Malicious Services Capability",
+      "来源": "Researchers Find OpenAI Models Power Malicious Services"
+    }
+  }
+}

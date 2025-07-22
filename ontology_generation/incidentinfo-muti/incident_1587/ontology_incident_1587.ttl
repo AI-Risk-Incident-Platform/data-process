@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:UnreliableKnowledgeBaseRisk ;
+    airo:isDevelopedBy ex:OpenAI ;
+    airo:hasStakeholder ex:ChatGPTUsers ;
+    airo:hasPurpose ex:ConversationalAI ;
+    airo:isAppliedWithinDomain ex:NaturalLanguageProcessing ;
+    airo:usesTechnique ex:LargeLanguageModel ;
+    airo:hasCapability ex:TextGeneration ;
+    airo:hasVulnerability ex:LackOfFactChecking .
+
+ex:UnreliableKnowledgeBaseRisk rdf:type airo:Risk ;
+    rdfs:label "Unreliable Knowledge Base Risk"@en ;
+    rdfs:label "不可靠知识库风险"@zh ;
+    airo:hasConsequence ex:FalseInformationDissemination ;
+    airo:isRiskSourceFor ex:InaccurateTrainingData .
+
+ex:FalseInformationDissemination rdf:type airo:Consequence ;
+    rdfs:label "False Information Dissemination Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChatGPTUsers .
+
+ex:OpenAI rdf:type airo:AIOperator ;
+    rdfs:label "OpenAI"@en ;
+    rdfs:label "OpenAI"@zh .
+
+ex:InaccurateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Training Data Risk Source"@en ;
+    rdfs:label "不准确训练数据风险源"@zh .
+
+ex:ConversationalAI rdf:type airo:Purpose ;
+    rdfs:label "Conversational AI Purpose"@en ;
+    rdfs:label "对话式AI目的"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:Domain ;
+    rdfs:label "Natural Language Processing Domain"@en ;
+    rdfs:label "自然语言处理领域"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:LackOfFactChecking rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Fact Checking Vulnerability"@en ;
+    rdfs:label "缺乏事实核查漏洞"@zh .
+
+ex:ChatGPTUsers rdf:type airo:Stakeholder ;
+    rdfs:label "ChatGPT Users"@en ;
+    rdfs:label "ChatGPT用户"@zh .
+
+ex:TextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Text Generation Capability"@en ;
+    rdfs:label "文本生成能力"@zh .

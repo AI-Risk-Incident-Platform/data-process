@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TwitterSpamFilteringSystem",
+      "中文名称": "Twitter垃圾信息过滤系统",
+      "英文名称": "Twitter Spam Filtering System",
+      "来源": "Twitter grapples with Chinese spam obscuring news of protests"
+    },
+    "Risk": {
+      "id": "InformationObscurationRisk",
+      "中文名称": "信息遮蔽风险",
+      "英文名称": "Information Obscuration Risk",
+      "来源": "Chinese spam obscuring news of protests"
+    },
+    "Stakeholder": {
+      "id": "TwitterPlatform",
+      "中文名称": "Twitter平台",
+      "英文名称": "Twitter Platform",
+      "来源": "Twitter grapples with Chinese spam"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Platform Domain",
+      "来源": "Twitter grapples with Chinese spam"
+    },
+    "Consequence": {
+      "id": "NewsSuppression",
+      "中文名称": "新闻压制后果",
+      "英文名称": "News Suppression Consequence",
+      "来源": "Chinese spam obscuring news of protests"
+    },
+    "RiskSource": {
+      "id": "ChineseSpamAccounts",
+      "中文名称": "中国垃圾账户风险源",
+      "英文名称": "Chinese Spam Accounts Risk Source",
+      "来源": "Chinese spam obscuring news of protests"
+    }
+  }
+}

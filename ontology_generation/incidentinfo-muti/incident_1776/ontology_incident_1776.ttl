@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RoombaVacuumRobot rdf:type airo:AISystem ;
+    rdfs:label "Roomba Vacuum Robot"@en ;
+    rdfs:label "Roomba吸尘机器人"@zh ;
+    airo:hasRisk ex:PrivacyDataCollectionRisk ;
+    airo:hasCapability ex:HomeMappingAndNavigation ;
+    airo:isDeployedBy ex:IRobotCorporation ;
+    airo:hasStakeholder ex:Homeowners ;
+    airo:hasAISubject ex:PrivateHomeSpaces ;
+    airo:hasPurpose ex:AutomatedHomeCleaning ;
+    airo:isAppliedWithinDomain ex:SmartHomeAppliances ;
+    airo:usesTechnique ex:SimultaneousLocalizationAndMapping ;
+    airo:hasVulnerability ex:DataCollectionWithoutExplicitConsent .
+
+ex:PrivacyDataCollectionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Data Collection Risk"@en ;
+    rdfs:label "隐私数据收集风险"@zh ;
+    airo:hasConsequence ex:HomeLayoutDataExposure ;
+    airo:isRiskSourceFor ex:HomeMappingFunctionality .
+
+ex:HomeLayoutDataExposure rdf:type airo:Consequence ;
+    rdfs:label "Home Layout Data Exposure Consequence"@en ;
+    rdfs:label "家庭布局数据暴露后果"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:HomeMappingAndNavigation rdf:type airo:AICapability ;
+    rdfs:label "Home Mapping and Navigation Capability"@en ;
+    rdfs:label "家庭地图绘制与导航能力"@zh .
+
+ex:IRobotCorporation rdf:type airo:AIOperator ;
+    rdfs:label "iRobot Corporation"@en ;
+    rdfs:label "iRobot公司"@zh .
+
+ex:Homeowners rdf:type airo:Stakeholder ;
+    rdfs:label "Homeowners"@en ;
+    rdfs:label "房主"@zh .
+
+ex:PrivateHomeSpaces rdf:type airo:AISubject ;
+    rdfs:label "Private Home Spaces"@en ;
+    rdfs:label "私人家庭空间"@zh .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns Impact"@en ;
+    rdfs:label "隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Homeowners .
+
+ex:AutomatedHomeCleaning rdf:type airo:Purpose ;
+    rdfs:label "Automated Home Cleaning Purpose"@en ;
+    rdfs:label "自动化家庭清洁目的"@zh .
+
+ex:SmartHomeAppliances rdf:type airo:Domain ;
+    rdfs:label "Smart Home Appliances Domain"@en ;
+    rdfs:label "智能家居电器领域"@zh .
+
+ex:SimultaneousLocalizationAndMapping rdf:type airo:AITechnique ;
+    rdfs:label "Simultaneous Localization and Mapping Technique"@en ;
+    rdfs:label "同步定位与地图构建技术"@zh .
+
+ex:DataCollectionWithoutExplicitConsent rdf:type airo:Vulnerability ;
+    rdfs:label "Data Collection Without Explicit Consent Vulnerability"@en ;
+    rdfs:label "未经明确同意的数据收集脆弱性"@zh .
+
+ex:HomeMappingFunctionality rdf:type airo:RiskSource ;
+    rdfs:label "Home Mapping Functionality Risk Source"@en ;
+    rdfs:label "家庭地图绘制功能风险源"@zh ;
+    airo:hasHazard ex:IntrusiveDataCollection ;
+    airo:hasThreat ex:PotentialDataCommercialization .
+
+ex:IntrusiveDataCollection rdf:type airo:Hazard ;
+    rdfs:label "Intrusive Data Collection Hazard"@en ;
+    rdfs:label "侵入性数据收集危害"@zh .
+
+ex:PotentialDataCommercialization rdf:type airo:Threat ;
+    rdfs:label "Potential Data Commercialization Threat"@en ;
+    rdfs:label "潜在数据商业化威胁"@zh .
+
+ex:SmartDevicePrivacyIssues rdf:type airo:RiskConcept ;
+    rdfs:label "Smart Device Privacy Issues Risk Concept"@en ;
+    rdfs:label "智能设备隐私问题"@zh .

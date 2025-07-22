@@ -1,0 +1,84 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GenderPredictionAI rdf:type airo:AISystem ;
+    rdfs:label "Gender Prediction AI"@en ;
+    rdfs:label "性别预测AI"@zh ;
+    airo:hasRisk ex:GenderDiscriminationRisk ;
+    airo:hasAISubject ex:EmailAddressOwners ;
+    airo:hasCapability ex:GenderPredictionFromText ;
+    airo:hasPurpose ex:GenderIdentification ;
+    airo:isAppliedWithinDomain ex:SocialMediaAnalysis ;
+    airo:usesTechnique ex:TextPatternRecognition ;
+    airo:hasStakeholder ex:TransgenderCommunity .
+
+ex:GenderDiscriminationRisk rdf:type airo:Risk ;
+    rdfs:label "Gender Discrimination Risk"@en ;
+    rdfs:label "性别歧视风险"@zh ;
+    airo:hasConsequence ex:TransphobiaImpact ;
+    airo:isRiskSourceFor ex:OversimplifiedGenderModel ;
+    airo:isRiskSourceFor ex:ReinforcingGenderStereotypes ;
+    airo:isRiskSourceFor ex:NonBinaryGenderExclusion .
+
+ex:TransphobiaImpact rdf:type airo:Consequence ;
+    rdfs:label "Transphobia Impact"@en ;
+    rdfs:label "跨性别恐惧症影响"@zh ;
+    airo:hasImpact ex:SocialDiscrimination .
+
+ex:GenderPredictionFromText rdf:type airo:AICapability ;
+    rdfs:label "Gender Prediction from Text Capability"@en ;
+    rdfs:label "从文本预测性别能力"@zh .
+
+ex:TransgenderCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Transgender Community"@en ;
+    rdfs:label "跨性别群体"@zh .
+
+ex:EmailAddressOwners rdf:type airo:AISubject ;
+    rdfs:label "Email Address Owners"@en ;
+    rdfs:label "电子邮件地址所有者"@zh .
+
+ex:SocialDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Social Discrimination Impact"@en ;
+    rdfs:label "社会歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TransgenderCommunity .
+
+ex:GenderIdentification rdf:type airo:Purpose ;
+    rdfs:label "Gender Identification Purpose"@en ;
+    rdfs:label "性别识别目的"@zh .
+
+ex:SocialMediaAnalysis rdf:type airo:Domain ;
+    rdfs:label "Social Media Analysis Domain"@en ;
+    rdfs:label "社交媒体分析领域"@zh .
+
+ex:TextPatternRecognition rdf:type airo:AITechnique ;
+    rdfs:label "Text Pattern Recognition Technique"@en ;
+    rdfs:label "文本模式识别技术"@zh .
+
+ex:OversimplifiedGenderModel rdf:type airo:RiskSource ;
+    rdfs:label "Oversimplified Gender Model Risk Source"@en ;
+    rdfs:label "过度简化的性别模型风险源"@zh .
+
+ex:ReinforcingGenderStereotypes rdf:type airo:RiskSource ;
+    rdfs:label "Reinforcing Gender Stereotypes Threat"@en ;
+    rdfs:label "强化性别刻板印象威胁"@zh .
+
+ex:NonBinaryGenderExclusion rdf:type airo:RiskSource ;
+    rdfs:label "Non-Binary Gender Exclusion Hazard"@en ;
+    rdfs:label "非二元性别排除危害"@zh .
+
+ex:EthicalIssuesInGenderAI rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Gender AI Risk Concept"@en ;
+    rdfs:label "性别AI中的伦理问题"@zh .
+
+ex:BinaryGenderAssumption rdf:type airo:Vulnerability ;
+    rdfs:label "Binary Gender Assumption Vulnerability"@en ;
+    rdfs:label "二元性别假设脆弱性"@zh .

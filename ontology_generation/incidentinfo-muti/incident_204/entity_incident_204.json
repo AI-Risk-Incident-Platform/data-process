@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTech",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Tech",
+      "来源": "Ever, once accused of building facial recognition tech using customer data, shuts down consumer app"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    },
+    "Consequence": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集后果",
+      "英文名称": "Unauthorized Data Collection Consequence",
+      "来源": "California Company Settles FTC Allegations It Deceived Consumers about use of Facial Recognition in Photo Storage App"
+    },
+    "Stakeholder": {
+      "id": "Consumers",
+      "中文名称": "消费者",
+      "英文名称": "Consumers",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    },
+    "AIOperator": {
+      "id": "EverCompany",
+      "中文名称": "Ever公司",
+      "英文名称": "Ever Company",
+      "来源": "Ever, once accused of building facial recognition tech using customer data, shuts down consumer app"
+    },
+    "Impact": {
+      "id": "LossOfConsumerTrust",
+      "中文名称": "消费者信任丧失的影响",
+      "英文名称": "Loss of Consumer Trust Impact",
+      "来源": "California Company Settles FTC Allegations It Deceived Consumers about use of Facial Recognition in Photo Storage App"
+    },
+    "Purpose": {
+      "id": "PhotoStorageEnhancement",
+      "中文名称": "照片存储增强的目的",
+      "英文名称": "Photo Storage Enhancement Purpose",
+      "来源": "California Company Settles FTC Allegations It Deceived Consumers about use of Facial Recognition in Photo Storage App"
+    },
+    "Domain": {
+      "id": "ConsumerTechnology",
+      "中文名称": "消费技术领域",
+      "英文名称": "Consumer Technology Domain",
+      "来源": "Ever, once accused of building facial recognition tech using customer data, shuts down consumer app"
+    },
+    "RiskSource": {
+      "id": "LackOfUserConsent",
+      "中文名称": "缺乏用户同意的风险源",
+      "英文名称": "Lack of User Consent Risk Source",
+      "来源": "Millions of faces scanned without approval. We need rules for facial recognition"
+    },
+    "RiskControl": {
+      "id": "RegulatorySettlement",
+      "中文名称": "监管和解的管控",
+      "英文名称": "Regulatory Settlement RiskControl",
+      "来源": "California Company Settles FTC Allegations It Deceived Consumers about use of Facial Recognition in Photo Storage App"
+    }
+  }
+}

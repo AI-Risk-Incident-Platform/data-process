@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "AI's Political Leanings: Is ChatGPT a Closet Leftie?"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    },
+    "Consequence": {
+      "id": "FavoringCertainPoliticalParties",
+      "中文名称": "偏袒特定政党后果",
+      "英文名称": "Political Bias Consequence",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    },
+    "AISubject": {
+      "id": "PoliticalParties",
+      "中文名称": "政党",
+      "英文名称": "Political Parties",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "Impact": {
+      "id": "PotentialMisinformation",
+      "中文名称": "潜在错误信息影响",
+      "英文名称": "Potential Misinformation Impact",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "AI's Political Leanings: Is ChatGPT a Closet Leftie?"
+    },
+    "Risk": {
+      "id": "PoliticalBiasRisk",
+      "中文名称": "政治偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    },
+    "Consequence": {
+      "id": "FavoringCertainPoliticalParties",
+      "中文名称": "偏袒特定政党后果",
+      "英文名称": "Political Bias Consequence",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "Stakeholder": {
+      "id": "Researchers",
+      "中文名称": "研究人员",
+      "英文名称": "Researchers",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    },
+    "AISubject": {
+      "id": "PoliticalParties",
+      "中文名称": "政党",
+      "英文名称": "Political Parties",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "Impact": {
+      "id": "PotentialMisinformation",
+      "中文名称": "潜在错误信息影响",
+      "英文名称": "Potential Misinformation Impact",
+      "来源": "ChatGPT DOES have a left-wing bias: Scientists confirm AI bot's responses favour Democrats and the Labour Party in the UK"
+    },
+    "RiskSource": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "ChatGPT Has Liberal Bias, Say Researchers"
+    }
+  }
+}

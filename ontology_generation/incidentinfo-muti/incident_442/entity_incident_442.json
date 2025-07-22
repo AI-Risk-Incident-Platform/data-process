@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MilitaryAIApplications",
+      "中文名称": "军事AI应用",
+      "英文名称": "Military AI Applications",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "Risk": {
+      "id": "FriendlyFireRisk",
+      "中文名称": "友军误伤风险",
+      "英文名称": "Friendly Fire Risk",
+      "来源": "Woman Sues Raytheon Over Iraq Friendly Fire Death"
+    },
+    "Consequence": {
+      "id": "CivilianCasualties",
+      "中文名称": "平民伤亡后果",
+      "英文名称": "Civilian Casualties Consequence",
+      "来源": "Woman Sues Raytheon Over Iraq Friendly Fire Death"
+    },
+    "Impact": {
+      "id": "LossOfLife",
+      "中文名称": "生命损失影响",
+      "英文名称": "Loss of Life Impact",
+      "来源": "Woman Sues Raytheon Over Iraq Friendly Fire Death"
+    },
+    "Stakeholder": {
+      "id": "MilitaryPersonnel",
+      "中文名称": "军事人员",
+      "英文名称": "Military Personnel",
+      "来源": "Investigation Finds U.S. Missiles Downed Navy Jet"
+    },
+    "AIOperator": {
+      "id": "Raytheon",
+      "中文名称": "雷神公司",
+      "英文名称": "Raytheon",
+      "来源": "Woman Sues Raytheon Over Iraq Friendly Fire Death"
+    },
+    "RiskSource": {
+      "id": "SystemErrors",
+      "中文名称": "系统错误风险源",
+      "英文名称": "System Errors Risk Source",
+      "来源": "Understanding the errors introduced by military AI applications"
+    },
+    "Domain": {
+      "id": "MilitaryDefense",
+      "中文名称": "军事防御领域",
+      "英文名称": "Military Defense Domain",
+      "来源": "Investigation Finds U.S. Missiles Downed Navy Jet"
+    }
+  }
+}

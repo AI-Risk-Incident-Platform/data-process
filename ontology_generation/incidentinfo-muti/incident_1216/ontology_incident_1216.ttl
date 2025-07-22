@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AppleIntelligence rdf:type airo:AISystem ;
+    rdfs:label "Apple Intelligence"@en ;
+    rdfs:label "苹果智能"@zh ;
+    airo:hasRisk ex:InaccurateNewsSummariesRisk ;
+    airo:hasPurpose ex:AutomatedNewsSummarization ;
+    airo:isAppliedWithinDomain ex:NewsMedia ;
+    airo:usesTechnique ex:NaturalLanguageProcessing ;
+    airo:hasStakeholder ex:NewsConsumers ;
+    airo:isDevelopedBy ex:AppleInc .
+
+ex:InaccurateNewsSummariesRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate News Summaries Risk"@en ;
+    rdfs:label "不准确新闻摘要风险"@zh ;
+    airo:hasConsequence ex:FalseInformationDissemination ;
+    airo:isRiskSourceFor ex:AlgorithmicError .
+
+ex:FalseInformationDissemination rdf:type airo:Consequence ;
+    rdfs:label "False Information Dissemination Consequence"@en ;
+    rdfs:label "虚假信息传播后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:AppleInc rdf:type airo:AIOperator ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:NewsConsumers rdf:type airo:Stakeholder ;
+    rdfs:label "News Consumers"@en ;
+    rdfs:label "新闻消费者"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NewsConsumers .
+
+ex:AutomatedNewsSummarization rdf:type airo:Purpose ;
+    rdfs:label "Automated News Summarization Purpose"@en ;
+    rdfs:label "自动化新闻摘要目的"@zh .
+
+ex:NewsMedia rdf:type airo:Domain ;
+    rdfs:label "News Media Domain"@en ;
+    rdfs:label "新闻媒体领域"@zh .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Processing Technique"@en ;
+    rdfs:label "自然语言处理技术"@zh .
+
+ex:AlgorithmicError rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Error Risk Source"@en ;
+    rdfs:label "算法错误风险源"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PepperRobotMonk rdf:type airo:AISystem ;
+    rdfs:label "Pepper Robot Monk"@en ;
+    rdfs:label "Pepper机器人僧侣"@zh ;
+    airo:hasRisk ex:CulturalSensitivityRisk ;
+    airo:hasPurpose ex:LowCostFuneralService ;
+    airo:isAppliedWithinDomain ex:ReligiousServices ;
+    airo:hasCapability ex:RitualPerformance ;
+    airo:hasStakeholder ex:BuddhistTemple ;
+    airo:isDeployedBy ex:TempleManagement .
+
+ex:CulturalSensitivityRisk rdf:type airo:Risk ;
+    rdfs:label "Cultural Sensitivity Risk"@en ;
+    rdfs:label "文化敏感性风险"@zh ;
+    airo:hasConsequence ex:TraditionalRitualDilution .
+
+ex:LowCostFuneralService rdf:type airo:Purpose ;
+    rdfs:label "Low Cost Funeral Service"@en ;
+    rdfs:label "低成本葬礼服务"@zh .
+
+ex:ReligiousServices rdf:type airo:Domain ;
+    rdfs:label "Religious Services Domain"@en ;
+    rdfs:label "宗教服务领域"@zh .
+
+ex:RitualPerformance rdf:type airo:AICapability ;
+    rdfs:label "Ritual Performance Capability"@en ;
+    rdfs:label "仪式执行能力"@zh .
+
+ex:BuddhistTemple rdf:type airo:Stakeholder ;
+    rdfs:label "Buddhist Temple"@en ;
+    rdfs:label "佛教寺庙"@zh .
+
+ex:TempleManagement rdf:type airo:AIOperator ;
+    rdfs:label "Temple Management"@en ;
+    rdfs:label "寺庙管理机构"@zh .
+
+ex:TraditionalRitualDilution rdf:type airo:Consequence ;
+    rdfs:label "Traditional Ritual Dilution Consequence"@en ;
+    rdfs:label "传统仪式淡化后果"@zh ;
+    airo:hasImpact ex:ReligiousPracticeChange .
+
+ex:ReligiousPracticeChange rdf:type airo:Impact ;
+    rdfs:label "Religious Practice Change Impact"@en ;
+    rdfs:label "宗教实践变化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BuddhistTemple .

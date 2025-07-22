@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:iPhoneMoodDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "iPhone Mood Detection System"@en ;
+    rdfs:label "iPhone情绪检测系统"@zh ;
+    airo:hasRisk ex:FlawedMoodDetectionTechnologyRisk ;
+    airo:usesTechnique ex:MoodDetectionAlgorithm ;
+    airo:isAppliedWithinDomain ex:MentalHealthMonitoring ;
+    airo:hasStakeholder ex:AppleInc .
+
+ex:FlawedMoodDetectionTechnologyRisk rdf:type airo:Risk ;
+    rdfs:label "Flawed Mood Detection Technology Risk"@en ;
+    rdfs:label "情绪检测技术缺陷风险"@zh .
+
+ex:AppleInc rdf:type airo:Stakeholder ;
+    rdfs:label "Apple Inc."@en ;
+    rdfs:label "苹果公司"@zh .
+
+ex:MoodDetectionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Mood Detection Algorithm"@en ;
+    rdfs:label "情绪检测算法"@zh .
+
+ex:MentalHealthMonitoring rdf:type airo:Domain ;
+    rdfs:label "Mental Health Monitoring Domain"@en ;
+    rdfs:label "心理健康监测领域"@zh .

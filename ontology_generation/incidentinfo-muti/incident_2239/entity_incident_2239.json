@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MSNNewsAI",
+      "中文名称": "MSN新闻AI",
+      "英文名称": "MSN News AI",
+      "来源": "Microsoft is cutting dozens of MSN news production workers and replacing them with artificial intelligence"
+    },
+    "Risk": {
+      "id": "JobDisplacementRisk",
+      "中文名称": "工作替代风险",
+      "英文名称": "Job Displacement Risk",
+      "来源": "Microsoft is cutting dozens of MSN news production workers and replacing them with artificial intelligence"
+    },
+    "Stakeholder": {
+      "id": "MSNNewsProductionWorkers",
+      "中文名称": "MSN新闻制作人员",
+      "英文名称": "MSN News Production Workers",
+      "来源": "Microsoft is cutting dozens of MSN news production workers"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft is cutting dozens of MSN news production workers and replacing them with artificial intelligence"
+    },
+    "Consequence": {
+      "id": "JobLosses",
+      "中文名称": "工作损失",
+      "英文名称": "Job Losses",
+      "来源": "Microsoft is cutting dozens of MSN news production workers"
+    },
+    "Impact": {
+      "id": "EconomicImpactOnWorkers",
+      "中文名称": "对工人的经济影响",
+      "英文名称": "Economic Impact on Workers",
+      "来源": "Microsoft is cutting dozens of MSN news production workers"
+    }
+  }
+}

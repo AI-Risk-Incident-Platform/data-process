@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NYCTeacherEvaluationSystem",
+      "中文名称": "纽约市教师评估系统",
+      "英文名称": "NYC Teacher Evaluation System",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "Risk": {
+      "id": "UnfairTeacherEvaluationRisk",
+      "中文名称": "教师评估不公风险",
+      "英文名称": "Unfair Teacher Evaluation Risk",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Consequence": {
+      "id": "TeacherCareerImpact",
+      "中文名称": "教师职业影响后果",
+      "英文名称": "Teacher Career Impact Consequence",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "AICapability": {
+      "id": "StudentTestScoreAnalysis",
+      "中文名称": "学生考试成绩分析能力",
+      "英文名称": "Student Test Score Analysis Capability",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "Stakeholder": {
+      "id": "NYCTeachers",
+      "中文名称": "纽约市教师",
+      "英文名称": "NYC Teachers",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "职业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Purpose": {
+      "id": "TeacherPerformanceAssessment",
+      "中文名称": "教师绩效评估目的",
+      "英文名称": "Teacher Performance Assessment Purpose",
+      "来源": "Analyzing Released NYC Value-Added Data Part 2"
+    },
+    "Domain": {
+      "id": "EducationEvaluation",
+      "中文名称": "教育评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "RiskSource": {
+      "id": "IndirectTestScoreUsage",
+      "中文名称": "间接使用考试成绩风险源",
+      "英文名称": "Indirect Test Score Usage Risk Source",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NYCTeacherEvaluationSystem",
+      "中文名称": "纽约市教师评估系统",
+      "英文名称": "NYC Teacher Evaluation System",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "Risk": {
+      "id": "UnfairTeacherEvaluationRisk",
+      "中文名称": "教师评估不公风险",
+      "英文名称": "Unfair Teacher Evaluation Risk",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Consequence": {
+      "id": "TeacherCareerImpact",
+      "中文名称": "教师职业影响后果",
+      "英文名称": "Teacher Career Impact Consequence",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "AICapability": {
+      "id": "StudentTestScoreAnalysis",
+      "中文名称": "学生考试成绩分析能力",
+      "英文名称": "Student Test Score Analysis Capability",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "Stakeholder": {
+      "id": "NYCTeachers",
+      "中文名称": "纽约市教师",
+      "英文名称": "NYC Teachers",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Impact": {
+      "id": "ProfessionalReputationDamage",
+      "中文名称": "职业声誉损害影响",
+      "英文名称": "Professional Reputation Damage Impact",
+      "来源": "Master teacher suing New York state over ‘ineffective’ rating"
+    },
+    "Purpose": {
+      "id": "TeacherPerformanceAssessment",
+      "中文名称": "教师绩效评估目的",
+      "英文名称": "Teacher Performance Assessment Purpose",
+      "来源": "Analyzing Released NYC Value-Added Data Part 2"
+    },
+    "Domain": {
+      "id": "EducationEvaluation",
+      "中文名称": "教育评估领域",
+      "英文名称": "Education Evaluation Domain",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    },
+    "RiskSource": {
+      "id": "IndirectTestScoreUsage",
+      "中文名称": "间接使用考试成绩风险源",
+      "英文名称": "Indirect Test Score Usage Risk Source",
+      "来源": "New data show more than half of NYC teachers judged, in part, by test scores they don’t directly affect"
+    }
+  }
+}

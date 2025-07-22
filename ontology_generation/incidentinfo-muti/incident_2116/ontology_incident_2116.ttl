@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehicleCrashRisk ;
+    airo:hasStakeholder ex:CrashVictimFamily ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry .
+
+ex:AutonomousVehicleCrashRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆碰撞风险"@zh ;
+    rdfs:label "Autonomous Vehicle Crash Risk"@en ;
+    airo:hasConsequence ex:FatalAccident .
+
+ex:FatalAccident rdf:type airo:Consequence ;
+    rdfs:label "致命事故后果"@zh ;
+    rdfs:label "Fatal Accident Consequence"@en ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:CrashVictimFamily rdf:type airo:Stakeholder ;
+    rdfs:label "事故受害者家属"@zh ;
+    rdfs:label "Crash Victim Family"@en .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "汽车工业领域"@zh ;
+    rdfs:label "Automotive Industry Domain"@en .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "生命损失影响"@zh ;
+    rdfs:label "Loss of Life Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CrashVictimFamily .

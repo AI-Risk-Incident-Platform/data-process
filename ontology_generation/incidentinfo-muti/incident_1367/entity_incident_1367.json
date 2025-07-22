@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIChatGPT",
+      "中文名称": "OpenAI ChatGPT",
+      "英文名称": "OpenAI ChatGPT",
+      "来源": "新闻标题中提到的OpenAI"
+    },
+    "Risk": {
+      "id": "CopyrightInfringementRisk",
+      "中文名称": "版权侵权风险",
+      "英文名称": "Copyright Infringement Risk",
+      "来源": "新闻标题中提到的'violating copyright'"
+    },
+    "Stakeholder": {
+      "id": "CenterForInvestigativeReporting",
+      "中文名称": "调查报道中心",
+      "英文名称": "Center for Investigative Reporting",
+      "来源": "新闻标题中提到的起诉方"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "新闻标题中提到的被起诉方"
+    },
+    "Consequence": {
+      "id": "LegalActionConsequence",
+      "中文名称": "法律诉讼后果",
+      "英文名称": "Legal Action Consequence",
+      "来源": "新闻标题中提到的'suing'"
+    },
+    "Domain": {
+      "id": "NewsMediaIndustry",
+      "中文名称": "新闻媒体行业",
+      "英文名称": "News Media Industry",
+      "来源": "新闻中提到的'news industry'"
+    },
+    "RiskSource": {
+      "id": "ContentScrapingWithoutPermission",
+      "中文名称": "未经许可的内容抓取",
+      "英文名称": "Content Scraping Without Permission",
+      "来源": "新闻标题中暗示的版权侵权问题"
+    }
+  }
+}

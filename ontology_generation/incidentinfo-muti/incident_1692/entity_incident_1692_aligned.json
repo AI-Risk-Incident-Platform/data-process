@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "Risk": {
+      "id": "EmergencyResponseInterferenceRisk",
+      "中文名称": "紧急响应干扰风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    },
+    "Consequence": {
+      "id": "DelayedEmergencyResponse",
+      "中文名称": "紧急响应延迟后果",
+      "英文名称": "Emergency Response Consequence",
+      "来源": "Cops Say Self-Driving Car Blocked Emergency Response After Mass Shooting"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cops Say Self-Driving Car Blocked Emergency Response After Mass Shooting"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "RiskSource": {
+      "id": "VehicleStallInEmergencyScenario",
+      "中文名称": "紧急情况下车辆停滞风险源",
+      "英文名称": "Vehicle Stall in Emergency Scenario Risk Source",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseRobotaxi",
+      "中文名称": "Cruise自动驾驶出租车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "Risk": {
+      "id": "EmergencyResponseInterferenceRisk",
+      "中文名称": "紧急响应干扰风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    },
+    "Consequence": {
+      "id": "DelayedEmergencyResponse",
+      "中文名称": "紧急响应延迟后果",
+      "英文名称": "Emergency Response Consequence",
+      "来源": "Cops Say Self-Driving Car Blocked Emergency Response After Mass Shooting"
+    },
+    "AIOperator": {
+      "id": "CruiseLLC",
+      "中文名称": "Cruise有限责任公司",
+      "英文名称": "Cruise",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "Stakeholder": {
+      "id": "SanFranciscoPoliceDepartment",
+      "中文名称": "旧金山警察局",
+      "英文名称": "San Francisco Police Department",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    },
+    "Impact": {
+      "id": "PublicSafetyCompromise",
+      "中文名称": "公共安全受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cops Say Self-Driving Car Blocked Emergency Response After Mass Shooting"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Cruise robotaxi appears to hinder emergency crews after mass shooting"
+    },
+    "RiskSource": {
+      "id": "VehicleStallInEmergencyScenario",
+      "中文名称": "紧急情况下车辆停滞风险源",
+      "英文名称": "Vehicle Stall in Emergency Scenario Risk Source",
+      "来源": "Cops yell at stalled self-driving Cruise car to get out of the way during a mass shooting in San Francisco"
+    }
+  }
+}

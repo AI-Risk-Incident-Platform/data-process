@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TikTokContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "TikTok Content Moderation System"@en ;
+    rdfs:label "TikTok内容审核系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInContentModeration ;
+    airo:hasStakeholder ex:BlackLivesMatterActivists .
+
+ex:AlgorithmicBiasInContentModeration rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Content Moderation Risk"@en ;
+    rdfs:label "内容审核中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:SuppressionOfSocialJusticeMovements ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:SuppressionOfSocialJusticeMovements rdf:type airo:Consequence ;
+    rdfs:label "Suppression of Social Justice Movements Consequence"@en ;
+    rdfs:label "社会正义运动被压制的后果"@zh ;
+    airo:hasImpact ex:AmplificationOfRacialInequality .
+
+ex:AmplificationOfRacialInequality rdf:type airo:Impact ;
+    rdfs:label "Amplification of Racial Inequality Impact"@en ;
+    rdfs:label "种族不平等加剧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BlackLivesMatterActivists .
+
+ex:BlackLivesMatterActivists rdf:type airo:Stakeholder ;
+    rdfs:label "Black Lives Matter Activists"@en ;
+    rdfs:label "黑人的命也是命活动家"@zh .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Training Data"@en ;
+    rdfs:label "有偏见的训练数据"@zh .

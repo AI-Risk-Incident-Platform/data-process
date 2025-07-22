@@ -1,0 +1,57 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SercoFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Serco Facial Recognition System"@en ;
+    rdfs:label "Serco面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasPurpose ex:EmployeeAttendanceMonitoring ;
+    airo:hasStakeholder ex:SercoLeisure ;
+    airo:isDeployedBy ex:Serco ;
+    airo:isAppliedWithinDomain ex:WorkplaceManagement .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:EmployeePrivacyViolation ;
+    airo:hasRiskControl ex:ICOBan .
+
+ex:SercoLeisure rdf:type airo:Stakeholder ;
+    rdfs:label "Serco Leisure"@en ;
+    rdfs:label "Serco Leisure公司"@zh .
+
+ex:Serco rdf:type airo:AIOperator ;
+    rdfs:label "Serco"@en ;
+    rdfs:label "Serco公司"@zh .
+
+ex:EmployeeAttendanceMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Employee Attendance Monitoring"@en ;
+    rdfs:label "员工考勤监控"@zh .
+
+ex:WorkplaceManagement rdf:type airo:Domain ;
+    rdfs:label "Workplace Management"@en ;
+    rdfs:label "工作场所管理"@zh .
+
+ex:EmployeePrivacyViolation rdf:type airo:Consequence ;
+    rdfs:label "Employee Privacy Violation"@en ;
+    rdfs:label "员工隐私侵犯"@zh ;
+    airo:hasImpact ex:NegativePublicReaction .
+
+ex:NegativePublicReaction rdf:type airo:Impact ;
+    rdfs:label "Negative Public Reaction"@en ;
+    rdfs:label "负面公众反应"@zh ;
+    airo:hasImpactOnStakeholder ex:SercoLeisure .
+
+ex:ICOBan rdf:type airo:RiskControl ;
+    rdfs:label "ICO Ban"@en ;
+    rdfs:label "ICO禁令"@zh ;
+    airo:eliminatesRiskConcept ex:PrivacyViolationRisk .

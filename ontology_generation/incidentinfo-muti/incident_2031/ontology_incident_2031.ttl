@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DWPBenefitFraudAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "DWP Benefit Fraud Algorithm"@en ;
+    rdfs:label "DWP福利欺诈算法"@zh ;
+    airo:hasRisk ex:DiscriminatoryAlgorithmRisk ;
+    airo:hasStakeholder ex:MembersOfParliament ;
+    airo:isAppliedWithinDomain ex:SocialWelfareSystem .
+
+ex:DiscriminatoryAlgorithmRisk rdf:type airo:Risk ;
+    rdfs:label "Discriminatory Algorithm Risk"@en ;
+    rdfs:label "歧视性算法风险"@zh ;
+    airo:isRiskSourceFor ex:LackOfAlgorithmicTransparency .
+
+ex:MembersOfParliament rdf:type airo:Stakeholder ;
+    rdfs:label "Members of Parliament"@en ;
+    rdfs:label "国会议员"@zh .
+
+ex:LackOfAlgorithmicTransparency rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Algorithmic Transparency"@en ;
+    rdfs:label "算法透明度缺失"@zh .
+
+ex:SocialWelfareSystem rdf:type airo:Domain ;
+    rdfs:label "Social Welfare System"@en ;
+    rdfs:label "社会福利系统"@zh .

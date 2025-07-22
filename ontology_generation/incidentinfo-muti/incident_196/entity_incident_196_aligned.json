@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NaverSearchAlgorithm",
+      "中文名称": "Naver搜索算法",
+      "英文名称": "Naver Search Algorithm",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmManipulationRisk",
+      "中文名称": "算法操纵风险",
+      "英文名称": "Algorithm Manipulation Risk",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "AIOperator": {
+      "id": "NaverCorporation",
+      "中文名称": "Naver公司",
+      "英文名称": "Naver Corporation",
+      "来源": "Naver fined W26.7 bil. for manipulating search algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairCompetition",
+      "中文名称": "不公平竞争后果",
+      "英文名称": "Unfair Competition Consequence",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲影响",
+      "英文名称": "Market Impact",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "RiskSource": {
+      "id": "IntentionalAlgorithmManipulation",
+      "中文名称": "故意算法操纵风险源",
+      "英文名称": "Intentional Algorithm Manipulation Risk Source",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Domain": {
+      "id": "SearchEngineMarket",
+      "中文名称": "搜索引擎市场领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Naver fined for manipulating search algorithms"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NaverSearchAlgorithm",
+      "中文名称": "Naver搜索算法",
+      "英文名称": "Naver Search Algorithm",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Risk": {
+      "id": "AlgorithmManipulationRisk",
+      "中文名称": "算法操纵风险",
+      "英文名称": "Algorithm Manipulation Risk",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "AIOperator": {
+      "id": "NaverCorporation",
+      "中文名称": "Naver公司",
+      "英文名称": "Naver Corporation",
+      "来源": "Naver fined W26.7 bil. for manipulating search algorithm"
+    },
+    "Consequence": {
+      "id": "UnfairCompetition",
+      "中文名称": "不公平竞争后果",
+      "英文名称": "Unfair Competition Consequence",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲影响",
+      "英文名称": "Market Impact",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "RiskSource": {
+      "id": "IntentionalAlgorithmManipulation",
+      "中文名称": "故意算法操纵风险源",
+      "英文名称": "Intentional Algorithm Manipulation Risk Source",
+      "来源": "Naver fined for manipulating search algorithms"
+    },
+    "Domain": {
+      "id": "SearchEngineMarket",
+      "中文名称": "搜索引擎市场领域",
+      "英文名称": "Search Engine Domain",
+      "来源": "Naver fined for manipulating search algorithms"
+    }
+  }
+}

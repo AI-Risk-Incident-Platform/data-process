@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SpotifyEmotionalSpeechRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Spotify Emotional Speech Recognition System"@en ;
+    rdfs:label "Spotify情感语音识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:Spotify ;
+    airo:hasPurpose ex:MusicRecommendation ;
+    airo:hasStakeholder ex:Musicians ;
+    airo:isAppliedWithinDomain ex:MusicStreamingService .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:Musicians rdf:type airo:Stakeholder ;
+    rdfs:label "Musicians"@en ;
+    rdfs:label "音乐人"@zh .
+
+ex:Spotify rdf:type airo:AIOperator ;
+    rdfs:label "Spotify"@en ;
+    rdfs:label "Spotify"@zh .
+
+ex:MusicRecommendation rdf:type airo:Purpose ;
+    rdfs:label "Music Recommendation"@en ;
+    rdfs:label "音乐推荐"@zh .
+
+ex:MusicStreamingService rdf:type airo:Domain ;
+    rdfs:label "Music Streaming Service"@en ;
+    rdfs:label "音乐流媒体服务"@zh .

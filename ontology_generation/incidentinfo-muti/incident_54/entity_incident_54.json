@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PredictivePolicingSystem",
+      "中文名称": "预测性警务系统",
+      "英文名称": "Predictive Policing System",
+      "来源": "标题中提到的'Predictive policing'"
+    },
+    "Risk": {
+      "id": "CivilRightsViolationRisk",
+      "中文名称": "公民权利侵犯风险",
+      "英文名称": "Civil Rights Violation Risk",
+      "来源": "标题'Predictive policing violates more than it protects'"
+    },
+    "Consequence": {
+      "id": "WrongfulLabellingOfSuspects",
+      "中文名称": "错误标记嫌疑人后果",
+      "英文名称": "Wrongful Labelling of Suspects Consequence",
+      "来源": "标题'Police data could be labelling 'suspects' for crimes they have not committed'"
+    },
+    "Stakeholder": {
+      "id": "PoliceDepartment",
+      "中文名称": "警察部门",
+      "英文名称": "Police Department",
+      "来源": "标题中提到的'Police'"
+    },
+    "AISubject": {
+      "id": "PotentialSuspects",
+      "中文名称": "潜在嫌疑人",
+      "英文名称": "Potential Suspects",
+      "来源": "标题中提到的'suspects'"
+    },
+    "Purpose": {
+      "id": "CrimePrevention",
+      "中文名称": "犯罪预防",
+      "英文名称": "Crime Prevention",
+      "来源": "标题中隐含的'to serve'目的"
+    },
+    "Domain": {
+      "id": "LawEnforcement",
+      "中文名称": "执法领域",
+      "英文名称": "Law Enforcement Domain",
+      "来源": "标题中提到的'policing'"
+    },
+    "RiskSource": {
+      "id": "BiasedHistoricalData",
+      "中文名称": "有偏见的历史数据",
+      "英文名称": "Biased Historical Data",
+      "来源": "标题中暗示的'labelling suspects for crimes they have not committed'"
+    },
+    "Impact": {
+      "id": "SocialDiscrimination",
+      "中文名称": "社会歧视影响",
+      "英文名称": "Social Discrimination Impact",
+      "来源": "标题中暗示的'violates more than it protects'"
+    }
+  }
+}

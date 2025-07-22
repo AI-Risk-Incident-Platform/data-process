@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonProductivityMonitoringAI rdf:type airo:AISystem ;
+    rdfs:label "Amazon Productivity Monitoring AI"@en ;
+    rdfs:label "亚马逊生产力监控AI"@zh ;
+    airo:hasRisk ex:UnfairTerminationRisk ;
+    airo:isDeployedBy ex:AmazonInc ;
+    airo:hasPurpose ex:WorkforceProductivityOptimization ;
+    airo:hasStakeholder ex:AmazonWarehouseWorkers ;
+    airo:isAppliedWithinDomain ex:WarehouseOperations .
+
+ex:UnfairTerminationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Termination Risk"@en ;
+    rdfs:label "不公平解雇风险"@zh ;
+    airo:hasConsequence ex:JobLossImpact ;
+    airo:isRiskSourceFor ex:AutomatedDecisionMakingWithoutHumanOversight .
+
+ex:AmazonWarehouseWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Warehouse Workers"@en ;
+    rdfs:label "亚马逊仓库工人"@zh .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:JobLossImpact rdf:type airo:Impact ;
+    rdfs:label "Job Loss Impact"@en ;
+    rdfs:label "失业影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonWarehouseWorkers .
+
+ex:WorkforceProductivityOptimization rdf:type airo:Purpose ;
+    rdfs:label "Workforce Productivity Optimization"@en ;
+    rdfs:label "劳动力生产力优化"@zh .
+
+ex:WarehouseOperations rdf:type airo:Domain ;
+    rdfs:label "Warehouse Operations"@en ;
+    rdfs:label "仓库运营"@zh .
+
+ex:AutomatedDecisionMakingWithoutHumanOversight rdf:type airo:RiskSource ;
+    rdfs:label "Automated Decision Making Without Human Oversight"@en ;
+    rdfs:label "无人工监督的自动化决策"@zh .

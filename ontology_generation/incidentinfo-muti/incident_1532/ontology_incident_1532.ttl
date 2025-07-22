@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedInfluencer rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Influencer"@en ;
+    rdfs:label "AI生成影响者"@zh ;
+    airo:hasRisk ex:SocialBacklashRisk ;
+    airo:isDeployedBy ex:MahindraFormulaETeam ;
+    airo:hasStakeholder ex:FormulaEFans .
+
+ex:SocialBacklashRisk rdf:type airo:Risk ;
+    rdfs:label "Social Backlash Risk"@en ;
+    rdfs:label "社会反弹风险"@zh ;
+    airo:hasConsequence ex:BrandReputationDamage .
+
+ex:FormulaEFans rdf:type airo:Stakeholder ;
+    rdfs:label "Formula E Fans"@en ;
+    rdfs:label "电动方程式赛车粉丝"@zh .
+
+ex:MahindraFormulaETeam rdf:type airo:AIOperator ;
+    rdfs:label "Mahindra Formula E Team"@en ;
+    rdfs:label "Mahindra电动方程式车队"@zh .
+
+ex:BrandReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Brand Reputation Damage"@en ;
+    rdfs:label "品牌声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:MahindraFormulaETeam .

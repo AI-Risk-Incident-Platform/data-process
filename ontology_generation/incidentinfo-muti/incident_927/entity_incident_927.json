@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Video Generation System",
+      "来源": "fake Kanye video"
+    },
+    "Risk": {
+      "id": "MisuseOfDeepfakeTechnology",
+      "中文名称": "深度伪造技术滥用风险",
+      "英文名称": "Misuse of Deepfake Technology Risk",
+      "来源": "Scarlett Johansson warns of 'AI misuse'"
+    },
+    "Consequence": {
+      "id": "ReputationDamage",
+      "中文名称": "声誉损害后果",
+      "英文名称": "Reputation Damage Consequence",
+      "来源": "faked Video of Her Opposing Kanye West Goes Viral"
+    },
+    "Stakeholder": {
+      "id": "Celebrities",
+      "中文名称": "名人",
+      "英文名称": "Celebrities",
+      "来源": "Scarlett Johansson"
+    },
+    "AISubject": {
+      "id": "PublicFigures",
+      "中文名称": "公众人物",
+      "英文名称": "Public Figures",
+      "来源": "Scarlett Johansson"
+    },
+    "Impact": {
+      "id": "PublicDeception",
+      "中文名称": "公众欺骗影响",
+      "英文名称": "Public Deception Impact",
+      "来源": "faked Video of Her Opposing Kanye West Goes Viral"
+    },
+    "Purpose": {
+      "id": "CreatingFakeCelebrityVideos",
+      "中文名称": "制作虚假名人视频的目的",
+      "英文名称": "Creating Fake Celebrity Videos Purpose",
+      "来源": "fake Kanye video"
+    },
+    "Domain": {
+      "id": "SocialMedia",
+      "中文名称": "社交媒体领域",
+      "英文名称": "Social Media Domain",
+      "来源": "goes viral"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deep Learning Based Face Swapping Technique",
+      "来源": "deepfake"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedUseOfCelebrityImages",
+      "中文名称": "未经授权使用名人形象的风险源",
+      "英文名称": "Unauthorized Use of Celebrity Images Risk Source",
+      "来源": "faked Video of Her"
+    }
+  }
+}

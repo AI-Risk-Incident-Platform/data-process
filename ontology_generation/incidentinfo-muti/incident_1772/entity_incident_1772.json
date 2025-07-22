@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SelfDrivingShuttleBus",
+      "中文名称": "自动驾驶班车",
+      "英文名称": "Self-Driving Shuttle Bus",
+      "来源": "Tokyo Paralympics: Visually impaired athlete forced to withdraw after accident with self-driving shuttle bus"
+    },
+    "Risk": {
+      "id": "PhysicalInjuryRisk",
+      "中文名称": "身体伤害风险",
+      "英文名称": "Physical Injury Risk",
+      "来源": "Paralympic athlete ruled out of Games after being run over by self-driving bus in village"
+    },
+    "Consequence": {
+      "id": "AthleteWithdrawalFromCompetition",
+      "中文名称": "运动员退出比赛后果",
+      "英文名称": "Athlete Withdrawal from Competition Consequence",
+      "来源": "Visually impaired athlete forced to withdraw after accident with self-driving shuttle bus"
+    },
+    "AISubject": {
+      "id": "VisuallyImpairedAthlete",
+      "中文名称": "视障运动员",
+      "英文名称": "Visually Impaired Athlete",
+      "来源": "Visually impaired athlete forced to withdraw after accident with self-driving shuttle bus"
+    },
+    "AIOperator": {
+      "id": "Toyota",
+      "中文名称": "丰田",
+      "英文名称": "Toyota",
+      "来源": "Toyota suspends self-driving vehicles"
+    },
+    "Impact": {
+      "id": "AthleteCareerDisruption",
+      "中文名称": "运动员职业生涯中断影响",
+      "英文名称": "Athlete Career Disruption Impact",
+      "来源": "Paralympic athlete ruled out of Games after being run over by self-driving bus in village"
+    },
+    "Domain": {
+      "id": "ParalympicGamesTransportation",
+      "中文名称": "残奥会交通领域",
+      "英文名称": "Paralympic Games Transportation Domain",
+      "来源": "Tokyo Paralympics: Visually impaired athlete forced to withdraw after accident with self-driving shuttle bus"
+    },
+    "RiskSource": {
+      "id": "AutonomousVehicleSystemFailure",
+      "中文名称": "自动驾驶系统故障风险源",
+      "英文名称": "Autonomous Vehicle System Failure Risk Source",
+      "来源": "Paralympic athlete ruled out of Games after being run over by self-driving bus in village"
+    }
+  }
+}

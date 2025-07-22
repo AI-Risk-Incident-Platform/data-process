@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VerkadaSurveillanceCameraSystem",
+      "中文名称": "Verkada监控摄像头系统",
+      "英文名称": "Verkada Surveillance Camera System",
+      "来源": "Tens of thousands of Verkada cameras were easily accessible to employees as well as hackers"
+    },
+    "Risk": {
+      "id": "UnauthorizedAccessToSurveillanceSystem",
+      "中文名称": "监控系统未经授权访问风险",
+      "英文名称": "Unauthorized Access to Surveillance System Risk",
+      "来源": "Hacked Surveillance Camera Firm Shows Staggering Scale of Facial Recognition"
+    },
+    "RiskSource": {
+      "id": "WeakSecurityMeasures",
+      "中文名称": "薄弱安全措施风险源",
+      "英文名称": "Weak Security Measures Risk Source",
+      "来源": "Tens of thousands of Verkada cameras were easily accessible to employees as well as hackers"
+    },
+    "Consequence": {
+      "id": "MassiveDataBreach",
+      "中文名称": "大规模数据泄露后果",
+      "英文名称": "Massive Data Breach Consequence",
+      "来源": "Hacked Surveillance Camera Firm Shows Staggering Scale of Facial Recognition"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Hacked Surveillance Camera Firm Shows Staggering Scale of Facial Recognition"
+    },
+    "Stakeholder": {
+      "id": "VerkadaEmployees",
+      "中文名称": "Verkada员工",
+      "英文名称": "Verkada Employees",
+      "来源": "Tens of thousands of Verkada cameras were easily accessible to employees as well as hackers"
+    },
+    "AICapability": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术能力",
+      "英文名称": "Facial Recognition Technology Capability",
+      "来源": "Hacked Surveillance Camera Firm Shows Staggering Scale of Facial Recognition"
+    },
+    "Domain": {
+      "id": "SecuritySurveillance",
+      "中文名称": "安全监控领域",
+      "英文名称": "Security Surveillance Domain",
+      "来源": "Hacked Surveillance Camera Firm Shows Staggering Scale of Facial Recognition"
+    }
+  }
+}

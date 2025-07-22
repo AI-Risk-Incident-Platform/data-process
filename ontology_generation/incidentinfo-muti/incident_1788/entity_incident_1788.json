@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilot",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot",
+      "来源": "Elon Musk claims Tesla involved in fatal crash with no one in driver’s seat wasn’t on Autopilot"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Crash Risk",
+      "来源": "Police say no one was in driver’s seat in fatal Tesla crash"
+    },
+    "Consequence": {
+      "id": "FatalCrashConsequence",
+      "中文名称": "致命碰撞后果",
+      "英文名称": "Fatal Crash Consequence",
+      "来源": "Tesla involved in fatal crash"
+    },
+    "Stakeholder": {
+      "id": "NTSB",
+      "中文名称": "美国国家运输安全委员会",
+      "英文名称": "National Transportation Safety Board",
+      "来源": "NTSB determines Tesla’s Autopilot was not cause of fatal Texas crash"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla Inc.",
+      "来源": "Elon Musk claims Tesla involved in fatal crash"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Public Safety Threat",
+      "来源": "fatal crash with no one in driver’s seat"
+    },
+    "Purpose": {
+      "id": "AutonomousDriving",
+      "中文名称": "自动驾驶",
+      "英文名称": "Autonomous Driving",
+      "来源": "Tesla’s Autopilot"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业",
+      "英文名称": "Automotive Industry",
+      "来源": "Tesla involved in fatal crash"
+    },
+    "RiskSource": {
+      "id": "DriverAbsence",
+      "中文名称": "驾驶员缺失",
+      "英文名称": "Driver Absence",
+      "来源": "no one in driver’s seat in fatal Tesla crash"
+    },
+    "Vulnerability": {
+      "id": "SystemOverreliance",
+      "中文名称": "系统过度依赖",
+      "英文名称": "System Overreliance",
+      "来源": "no one in driver’s seat in fatal Tesla crash"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LiveFacialRecognitionSystem",
+      "中文名称": "实时面部识别系统",
+      "英文名称": "Live Facial Recognition System",
+      "来源": "Live facial recognition is tracking kids suspected of being criminals"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Rights group criticizes Buenos Aires for using surveillance tech on kids"
+    },
+    "AISubject": {
+      "id": "ChildrenUnderSurveillance",
+      "中文名称": "被监视的儿童",
+      "英文名称": "Children Under Surveillance",
+      "来源": "using surveillance tech on kids"
+    },
+    "Stakeholder": {
+      "id": "RightsGroup",
+      "中文名称": "权利组织",
+      "英文名称": "Rights Group",
+      "来源": "Rights group criticizes Buenos Aires"
+    },
+    "Domain": {
+      "id": "PublicSurveillance",
+      "中文名称": "公共监控领域",
+      "英文名称": "Public Surveillance Domain",
+      "来源": "using surveillance tech on kids"
+    },
+    "Consequence": {
+      "id": "PotentialMisidentification",
+      "中文名称": "潜在错误识别后果",
+      "英文名称": "Potential Misidentification Consequence",
+      "来源": "tracing kids with suspected criminal profile"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToChildren",
+      "中文名称": "对儿童的心理伤害影响",
+      "英文名称": "Psychological Harm to Children Impact",
+      "来源": "using surveillance tech on kids"
+    }
+  }
+}

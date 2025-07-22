@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OpenAIGPT2",
+      "中文名称": "OpenAI的GPT-2",
+      "英文名称": "GPT - 2",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Risk": {
+      "id": "DeceptiveAICommentsRisk",
+      "中文名称": "欺骗性AI评论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "Stakeholder": {
+      "id": "HarvardMedicalStudent",
+      "中文名称": "哈佛医学院学生",
+      "英文名称": "Harvard Student",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2"
+    },
+    "Domain": {
+      "id": "GovernmentPolicy",
+      "中文名称": "政府政策",
+      "英文名称": "Government Policy",
+      "来源": "Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Consequence": {
+      "id": "MisleadingPolicyFeedback",
+      "中文名称": "误导性政策反馈后果",
+      "英文名称": "Misleading Policy Feedback Consequence",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "AITechnique": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments"
+    },
+    "Purpose": {
+      "id": "AutomatedPolicyCommentGeneration",
+      "中文名称": "自动化政策评论生成目的",
+      "英文名称": "Automated Policy Comment Generation Purpose",
+      "来源": "Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Impact": {
+      "id": "UnderminedPublicConsultationProcess",
+      "中文名称": "破坏公众咨询过程的影响",
+      "英文名称": "Undermined Public Consultation Process Impact",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "RiskSource": {
+      "id": "LackOfAIOutputIdentification",
+      "中文名称": "缺乏AI输出标识的风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "OpenAIGPT2",
+      "中文名称": "OpenAI的GPT-2",
+      "英文名称": "GPT - 2",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Risk": {
+      "id": "DeceptiveAICommentsRisk",
+      "中文名称": "欺骗性AI评论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "Stakeholder": {
+      "id": "HarvardMedicalStudent",
+      "中文名称": "哈佛医学院学生",
+      "英文名称": "Harvard Student",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "Tech Entities",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2"
+    },
+    "Domain": {
+      "id": "GovernmentPolicy",
+      "中文名称": "政府政策",
+      "英文名称": "Government Policy",
+      "来源": "Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Consequence": {
+      "id": "MisleadingPolicyFeedback",
+      "中文名称": "误导性政策反馈后果",
+      "英文名称": "Misleading Policy Feedback Consequence",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "AITechnique": {
+      "id": "TextGeneration",
+      "中文名称": "文本生成技术",
+      "英文名称": "Generative AI Technique",
+      "来源": "Harvard Medical Student Used OpenAI's GPT-2 to Submit Comments"
+    },
+    "Purpose": {
+      "id": "AutomatedPolicyCommentGeneration",
+      "中文名称": "自动化政策评论生成目的",
+      "英文名称": "Automated Policy Comment Generation Purpose",
+      "来源": "Submit Comments on Idaho's Draft Medicaid Proposal"
+    },
+    "Impact": {
+      "id": "UnderminedPublicConsultationProcess",
+      "中文名称": "破坏公众咨询过程的影响",
+      "英文名称": "Undermined Public Consultation Process Impact",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    },
+    "RiskSource": {
+      "id": "LackOfAIOutputIdentification",
+      "中文名称": "缺乏AI输出标识的风险源",
+      "英文名称": "Unverified AI Output Risk Source",
+      "来源": "Volunteers Could Not Tell Them Apart from Humans"
+    }
+  }
+}

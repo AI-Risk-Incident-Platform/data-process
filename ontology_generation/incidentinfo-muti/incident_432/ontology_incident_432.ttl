@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition System"@en ;
+    rdfs:label "面部识别系统"@zh ;
+    airo:hasRisk ex:WrongfulArrestRisk ;
+    airo:hasAISubject ex:InnocentBlackMan ;
+    airo:hasStakeholder ex:LouisianaPoliceDepartment ;
+    airo:hasVulnerability ex:RacialBiasInTrainingData .
+
+ex:WrongfulArrestRisk rdf:type airo:Risk ;
+    rdfs:label "Wrongful Arrest Risk"@en ;
+    rdfs:label "错误逮捕风险"@zh ;
+    airo:hasConsequence ex:WrongfulImprisonment ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInFacialRecognition .
+
+ex:WrongfulImprisonment rdf:type airo:Consequence ;
+    rdfs:label "Wrongful Imprisonment Consequence"@en ;
+    rdfs:label "错误监禁后果"@zh ;
+    airo:hasImpact ex:CivilRightsViolation .
+
+ex:CivilRightsViolation rdf:type airo:Impact ;
+    rdfs:label "Civil Rights Violation Impact"@en ;
+    rdfs:label "公民权利侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:InnocentBlackMan .
+
+ex:InnocentBlackMan rdf:type airo:AISubject ;
+    rdfs:label "Innocent Black Man"@en ;
+    rdfs:label "无辜黑人男性"@zh .
+
+ex:LouisianaPoliceDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Louisiana Police Department"@en ;
+    rdfs:label "路易斯安那州警察局"@zh .
+
+ex:AlgorithmicBiasInFacialRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Facial Recognition Risk Source"@en ;
+    rdfs:label "面部识别中的算法偏见风险源"@zh ;
+    airo:exploitsVulnerability ex:RacialBiasInTrainingData .
+
+ex:RacialBiasInTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "Racial Bias in Training Data Vulnerability"@en ;
+    rdfs:label "训练数据中的种族偏见脆弱性"@zh .

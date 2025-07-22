@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CheatGPT",
+      "中文名称": "CheatGPT",
+      "英文名称": "CheatGPT",
+      "来源": "CheatGPT — California community colleges engage in a cyber battle with scammers who are stealing learning opportunities and millions of dollars in financial aid meant for legitimate students"
+    },
+    "Risk": {
+      "id": "FinancialAidFraudRisk",
+      "中文名称": "财务援助欺诈风险",
+      "英文名称": "Financial Aid Fraud Risk",
+      "来源": "scammers who are stealing learning opportunities and millions of dollars in financial aid meant for legitimate students"
+    },
+    "Consequence": {
+      "id": "LossOfFinancialAidForLegitimateStudents",
+      "中文名称": "合法学生失去财务援助的后果",
+      "英文名称": "Loss of Financial Aid for Legitimate Students Consequence",
+      "来源": "stealing learning opportunities and millions of dollars in financial aid meant for legitimate students"
+    },
+    "Stakeholder": {
+      "id": "CaliforniaCommunityColleges",
+      "中文名称": "加州社区学院",
+      "英文名称": "California Community Colleges",
+      "来源": "California community colleges engage in a cyber battle with scammers"
+    },
+    "Impact": {
+      "id": "EconomicLossForStudentsAndInstitutions",
+      "中文名称": "学生和机构经济损失的影响",
+      "英文名称": "Economic Loss for Students and Institutions Impact",
+      "来源": "stealing millions of dollars in financial aid"
+    },
+    "RiskSource": {
+      "id": "ScammersUsingAI",
+      "中文名称": "使用AI的诈骗者",
+      "英文名称": "Scammers Using AI",
+      "来源": "scammers who are stealing learning opportunities and millions of dollars in financial aid"
+    }
+  }
+}

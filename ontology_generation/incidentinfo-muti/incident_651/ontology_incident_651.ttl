@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeImageGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Image Generation System"@en ;
+    rdfs:label "深度伪造图像生成系统"@zh ;
+    airo:hasRisk ex:SexualExploitationRisk ;
+    airo:hasAISubject ex:MiddleSchoolStudents ;
+    airo:isAppliedWithinDomain ex:Education .
+
+ex:SexualExploitationRisk rdf:type airo:Risk ;
+    rdfs:label "Sexual Exploitation Risk"@en ;
+    rdfs:label "性剥削风险"@zh ;
+    airo:hasConsequence ex:PsychologicalHarmToTeens ;
+    airo:isRiskSourceFor ex:NonConsensualImageCreation .
+
+ex:PsychologicalHarmToTeens rdf:type airo:Consequence ;
+    rdfs:label "Psychological Harm to Teens Consequence"@en ;
+    rdfs:label "青少年心理伤害后果"@zh ;
+    airo:hasImpact ex:EmotionalDistress .
+
+ex:MiddleSchoolStudents rdf:type airo:AISubject ;
+    rdfs:label "Middle School Students"@en ;
+    rdfs:label "中学生"@zh .
+
+ex:EmotionalDistress rdf:type airo:Impact ;
+    rdfs:label "Emotional Distress Impact"@en ;
+    rdfs:label "情绪困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MiddleSchoolStudents .
+
+ex:Education rdf:type airo:Domain ;
+    rdfs:label "Education Domain"@en ;
+    rdfs:label "教育领域"@zh .
+
+ex:NonConsensualImageCreation rdf:type airo:RiskSource ;
+    rdfs:label "Non-Consensual Image Creation Risk Source"@en ;
+    rdfs:label "未经同意的图像创建风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfDigitalLiteracy .
+
+ex:LackOfDigitalLiteracy rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Digital Literacy Vulnerability"@en ;
+    rdfs:label "数字素养缺乏的脆弱性"@zh .

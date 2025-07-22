@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonSmartHomeSystem rdf:type airo:AISystem ;
+    rdfs:label "亚马逊智能家居系统"@zh ;
+    rdfs:label "Amazon Smart Home System"@en ;
+    airo:hasRisk ex:FalseRacismAllegationRisk ;
+    airo:hasStakeholder ex:MicrosoftEngineer ;
+    airo:isDeployedBy ex:Amazon .
+
+ex:FalseRacismAllegationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假种族主义指控风险"@zh ;
+    rdfs:label "False Racism Allegation Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedAccessDenial ;
+    airo:isRiskSourceFor ex:AutomatedContentModerationSystem .
+
+ex:UnauthorizedAccessDenial rdf:type airo:Consequence ;
+    rdfs:label "未经授权的访问拒绝后果"@zh ;
+    rdfs:label "Unauthorized Access Denial Consequence"@en ;
+    airo:hasImpact ex:CustomerServiceDisruption .
+
+ex:MicrosoftEngineer rdf:type airo:Stakeholder ;
+    rdfs:label "微软工程师"@zh ;
+    rdfs:label "Microsoft Engineer"@en .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "亚马逊"@zh ;
+    rdfs:label "Amazon"@en .
+
+ex:CustomerServiceDisruption rdf:type airo:Impact ;
+    rdfs:label "客户服务中断影响"@zh ;
+    rdfs:label "Customer Service Disruption Impact"@en ;
+    airo:hasImpactOnStakeholder ex:MicrosoftEngineer .
+
+ex:AutomatedContentModerationSystem rdf:type airo:RiskSource ;
+    rdfs:label "自动化内容审核系统风险源"@zh ;
+    rdfs:label "Automated Content Moderation System Risk Source"@en .

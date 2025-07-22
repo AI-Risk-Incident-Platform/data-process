@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ImageEditingAI rdf:type airo:AISystem ;
+    rdfs:label "Image Editing AI"@en ;
+    rdfs:label "图像编辑AI"@zh ;
+    airo:hasRisk ex:InappropriateImageModificationRisk ;
+    airo:hasAISubject ex:FemaleTechProfessional ;
+    airo:isAppliedWithinDomain ex:ProfessionalImageEditing ;
+    airo:hasStakeholder ex:TechCommunityMembers .
+
+ex:InappropriateImageModificationRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Image Modification Risk"@en ;
+    rdfs:label "不当图像修改风险"@zh ;
+    airo:hasConsequence ex:PrivacyViolationAndEmbarrassment ;
+    airo:isRiskSourceFor ex:UnethicalAIProgramming .
+
+ex:PrivacyViolationAndEmbarrassment rdf:type airo:Consequence ;
+    rdfs:label "Privacy Violation and Embarrassment Consequence"@en ;
+    rdfs:label "隐私侵犯和尴尬后果"@zh ;
+    airo:hasImpact ex:GenderStereotypingReinforcement .
+
+ex:FemaleTechProfessional rdf:type airo:AISubject ;
+    rdfs:label "Female Tech Professional"@en ;
+    rdfs:label "女性技术专业人士"@zh .
+
+ex:GenderStereotypingReinforcement rdf:type airo:Impact ;
+    rdfs:label "Gender Stereotyping Reinforcement Impact"@en ;
+    rdfs:label "性别刻板印象强化影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TechCommunityMembers .
+
+ex:UnethicalAIProgramming rdf:type airo:RiskSource ;
+    rdfs:label "Unethical AI Programming Risk Source"@en ;
+    rdfs:label "不道德的AI编程风险源"@zh .
+
+ex:TechCommunityMembers rdf:type airo:Stakeholder ;
+    rdfs:label "Tech Community Members"@en ;
+    rdfs:label "科技社区成员"@zh .
+
+ex:ProfessionalImageEditing rdf:type airo:Domain ;
+    rdfs:label "Professional Image Editing Domain"@en ;
+    rdfs:label "专业图像编辑领域"@zh .

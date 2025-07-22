@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RoboraceSelfDrivingCar rdf:type airo:AISystem ;
+    rdfs:label "Roborace Self-Driving Car"@en ;
+    rdfs:label "Roborace自动驾驶汽车"@zh ;
+    airo:hasRisk ex:AutonomousVehicleCollisionRisk ;
+    airo:hasCapability ex:AutonomousNavigation .
+
+ex:AutonomousVehicleCollisionRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Collision Risk"@en ;
+    rdfs:label "自动驾驶汽车碰撞风险"@zh ;
+    airo:hasConsequence ex:PhysicalDamage ;
+    airo:isRiskSourceFor ex:NavigationSystemFailure .
+
+ex:PhysicalDamage rdf:type airo:Consequence ;
+    rdfs:label "Physical Damage Consequence"@en ;
+    rdfs:label "物理损坏后果"@zh ;
+    airo:hasImpact ex:PropertyDamage .
+
+ex:AutonomousNavigation rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Navigation Capability"@en ;
+    rdfs:label "自主导航能力"@zh .
+
+ex:NavigationSystemFailure rdf:type airo:RiskSource ;
+    rdfs:label "Navigation System Failure Risk Source"@en ;
+    rdfs:label "导航系统故障风险源"@zh .
+
+ex:PropertyDamage rdf:type airo:Impact ;
+    rdfs:label "Property Damage Impact"@en ;
+    rdfs:label "财产损失影响"@zh .

@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MetaMicrosoftBloombergAI rdf:type airo:AISystem ;
+    rdfs:label "Meta、微软、彭博AI系统"@zh ;
+    rdfs:label "Meta Microsoft Bloomberg AI System"@en ;
+    airo:hasRisk ex:AICopyrightInfringementRisk ;
+    airo:isDevelopedBy ex:MetaMicrosoftBloomberg ;
+    airo:hasStakeholder ex:AuthorsAndMikeHuckabee ;
+    airo:isAppliedWithinDomain ex:PublishingAndContentCreation .
+
+ex:AICopyrightInfringementRisk rdf:type airo:Risk ;
+    rdfs:label "AI版权侵权风险"@zh ;
+    rdfs:label "AI Copyright Infringement Risk"@en ;
+    airo:hasConsequence ex:LegalActionAgainstAICompanies .
+
+ex:AuthorsAndMikeHuckabee rdf:type airo:Stakeholder ;
+    rdfs:label "作者和Mike Huckabee"@zh ;
+    rdfs:label "Authors and Mike Huckabee"@en .
+
+ex:MetaMicrosoftBloomberg rdf:type airo:AIOperator ;
+    rdfs:label "Meta、微软、彭博"@zh ;
+    rdfs:label "Meta Microsoft Bloomberg"@en .
+
+ex:LegalActionAgainstAICompanies rdf:type airo:Consequence ;
+    rdfs:label "对AI公司的法律诉讼后果"@zh ;
+    rdfs:label "Legal Action Against AI Companies Consequence"@en ;
+    airo:hasImpactOnStakeholder ex:AuthorsAndMikeHuckabee .
+
+ex:PublishingAndContentCreation rdf:type airo:Domain ;
+    rdfs:label "出版和内容创作领域"@zh ;
+    rdfs:label "Publishing and Content Creation Domain"@en .

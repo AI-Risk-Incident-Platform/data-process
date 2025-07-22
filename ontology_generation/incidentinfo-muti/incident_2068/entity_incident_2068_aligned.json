@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MaterDeiMedicineRobots",
+      "中文名称": "Mater Dei医疗机器人",
+      "英文名称": "Mater Dei Medicine Robots",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots That Cost €23 Million Have Been Addressed, Sources Say"
+    },
+    "Risk": {
+      "id": "OperationalRiskInMedicalRobots",
+      "中文名称": "医疗机器人操作风险",
+      "英文名称": "Operational Risk in Medical Robots",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots That Cost €23 Million Have Been Addressed, Sources Say"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Mater Dei’s Medicine Robots"
+    },
+    "Stakeholder": {
+      "id": "MaterDeiHospital",
+      "中文名称": "Mater Dei医院",
+      "英文名称": "Mater Dei Hospital",
+      "来源": "Mater Dei’s Medicine Robots"
+    },
+    "Consequence": {
+      "id": "ServiceDisruptionInHealthcare",
+      "中文名称": "医疗服务中断后果",
+      "英文名称": "Service Disruption in Healthcare Consequence",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MaterDeiMedicineRobots",
+      "中文名称": "Mater Dei医疗机器人",
+      "英文名称": "Mater Dei Medicine Robots",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots That Cost €23 Million Have Been Addressed, Sources Say"
+    },
+    "Risk": {
+      "id": "OperationalRiskInMedicalRobots",
+      "中文名称": "医疗机器人操作风险",
+      "英文名称": "Operational Risk in Medical Robots",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots That Cost €23 Million Have Been Addressed, Sources Say"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Mater Dei’s Medicine Robots"
+    },
+    "Stakeholder": {
+      "id": "MaterDeiHospital",
+      "中文名称": "Mater Dei医院",
+      "英文名称": "Mater Dei Hospital",
+      "来源": "Mater Dei’s Medicine Robots"
+    },
+    "Consequence": {
+      "id": "ServiceDisruptionInHealthcare",
+      "中文名称": "医疗服务中断后果",
+      "英文名称": "Service Disruption in Healthcare Consequence",
+      "来源": "Teething Problems In Mater Dei’s Medicine Robots"
+    }
+  }
+}

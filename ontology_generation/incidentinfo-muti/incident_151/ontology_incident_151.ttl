@@ -1,0 +1,45 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DelphiAI rdf:type airo:AISystem ;
+    rdfs:label "德尔菲AI"@zh ;
+    rdfs:label "Delphi AI"@en ;
+    airo:hasRisk ex:RacistEthicalAdviceRisk ;
+    airo:hasCapability ex:EthicalAdviceGeneration ;
+    airo:isDevelopedBy ex:ResearchScientists ;
+    airo:hasPurpose ex:ProvideMoralGuidance .
+
+ex:RacistEthicalAdviceRisk rdf:type airo:Risk ;
+    rdfs:label "种族主义伦理建议风险"@zh ;
+    rdfs:label "Racist Ethical Advice Risk"@en ;
+    airo:hasConsequence ex:HarmfulEthicalGuidance ;
+    airo:isRiskSourceFor ex:BiasedTrainingData .
+
+ex:HarmfulEthicalGuidance rdf:type airo:Consequence ;
+    rdfs:label "有害伦理指导后果"@zh ;
+    rdfs:label "Harmful Ethical Guidance Consequence"@en .
+
+ex:EthicalAdviceGeneration rdf:type airo:AICapability ;
+    rdfs:label "伦理建议生成能力"@zh ;
+    rdfs:label "Ethical Advice Generation Capability"@en .
+
+ex:ResearchScientists rdf:type airo:AIDeveloper ;
+    rdfs:label "研究科学家"@zh ;
+    rdfs:label "Research Scientists"@en .
+
+ex:ProvideMoralGuidance rdf:type airo:Purpose ;
+    rdfs:label "提供道德指导目的"@zh ;
+    rdfs:label "Provide Moral Guidance Purpose"@en .
+
+ex:BiasedTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "偏见训练数据风险源"@zh ;
+    rdfs:label "Biased Training Data Risk Source"@en .

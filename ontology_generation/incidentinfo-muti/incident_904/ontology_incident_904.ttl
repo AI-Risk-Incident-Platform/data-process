@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造色情生成系统"@zh ;
+    rdfs:label "Deepfake Porn Generation System"@en ;
+    airo:hasRisk ex:NonConsensualDeepfakePornDistributionRisk ;
+    airo:usesTechnique ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:CreatingNonConsensualPornographicContent ;
+    airo:hasStakeholder ex:VictimsOfDeepfakePorn ;
+    airo:isDeployedBy ex:AndrewHayler .
+
+ex:NonConsensualDeepfakePornDistributionRisk rdf:type airo:Risk ;
+    rdfs:label "非自愿深度伪造色情传播风险"@zh ;
+    rdfs:label "Non-Consensual Deepfake Porn Distribution Risk"@en ;
+    airo:hasConsequence ex:PsychologicalHarmToVictims ;
+    airo:isRiskSourceFor ex:MaliciousUseOfDeepfakeTechnology .
+
+ex:PsychologicalHarmToVictims rdf:type airo:Consequence ;
+    rdfs:label "受害者心理伤害后果"@zh ;
+    rdfs:label "Psychological Harm to Victims Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:VictimsOfDeepfakePorn rdf:type airo:Stakeholder ;
+    rdfs:label "深度伪造色情受害者"@zh ;
+    rdfs:label "Victims of Deepfake Porn"@en .
+
+ex:AndrewHayler rdf:type airo:AIOperator ;
+    rdfs:label "安德鲁·海勒"@zh ;
+    rdfs:label "Andrew Hayler"@en .
+
+ex:DeepfakeImageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造图像生成技术"@zh ;
+    rdfs:label "Deepfake Image Generation Technique"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "名誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:VictimsOfDeepfakePorn .
+
+ex:CreatingNonConsensualPornographicContent rdf:type airo:Purpose ;
+    rdfs:label "创建非自愿色情内容的目的"@zh ;
+    rdfs:label "Creating Non-Consensual Pornographic Content Purpose"@en .
+
+ex:MaliciousUseOfDeepfakeTechnology rdf:type airo:RiskSource ;
+    rdfs:label "深度伪造技术的恶意使用风险源"@zh ;
+    rdfs:label "Malicious Use of Deepfake Technology Risk Source"@en .

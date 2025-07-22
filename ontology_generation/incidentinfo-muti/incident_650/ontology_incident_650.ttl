@@ -1,0 +1,71 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIGeneratedImageSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Generated Image System"@en ;
+    rdfs:label "AI生成图像系统"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasAICapability ex:DeepfakeImageGeneration ;
+    airo:hasPurpose ex:PoliticalInfluence ;
+    airo:hasStakeholder ex:PoliticalCampaigns ;
+    airo:hasAISubject ex:BlackVoters ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigning ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasConsequence ex:ElectionInterference ;
+    airo:isRiskSourceFor ex:MaliciousPoliticalActors ;
+    airo:hasRisk ex:PoliticalPropaganda .
+
+ex:ElectionInterference rdf:type airo:Consequence ;
+    rdfs:label "Election Interference Consequence"@en ;
+    rdfs:label "选举干预后果"@zh ;
+    airo:hasImpact ex:PublicDeception .
+
+ex:DeepfakeImageGeneration rdf:type airo:AICapability ;
+    rdfs:label "Deepfake Image Generation Capability"@en ;
+    rdfs:label "深度伪造图像生成能力"@zh .
+
+ex:PoliticalCampaigns rdf:type airo:Stakeholder ;
+    rdfs:label "Political Campaigns"@en ;
+    rdfs:label "政治竞选活动"@zh .
+
+ex:BlackVoters rdf:type airo:AISubject ;
+    rdfs:label "Black Voters"@en ;
+    rdfs:label "黑人选民"@zh .
+
+ex:PublicDeception rdf:type airo:Impact ;
+    rdfs:label "Public Deception Impact"@en ;
+    rdfs:label "公众欺骗影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalCampaigns .
+
+ex:PoliticalInfluence rdf:type airo:Purpose ;
+    rdfs:label "Political Influence Purpose"@en ;
+    rdfs:label "政治影响目的"@zh .
+
+ex:PoliticalCampaigning rdf:type airo:Domain ;
+    rdfs:label "Political Campaigning Domain"@en ;
+    rdfs:label "政治竞选领域"@zh .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "Generative Adversarial Networks Technique"@en ;
+    rdfs:label "生成对抗网络技术"@zh .
+
+ex:MaliciousPoliticalActors rdf:type airo:RiskSource ;
+    rdfs:label "Malicious Political Actors Risk Source"@en ;
+    rdfs:label "恶意政治行为者风险源"@zh .
+
+ex:PoliticalPropaganda rdf:type airo:Misuse ;
+    rdfs:label "Political Propaganda Misuse"@en ;
+    rdfs:label "政治宣传滥用"@zh .

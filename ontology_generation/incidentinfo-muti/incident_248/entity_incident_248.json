@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "LicensePlateReaderSystem",
+      "中文名称": "车牌识别系统",
+      "英文名称": "License Plate Reader System",
+      "来源": "Another Bogus Hit From A License Plate Reader Results In Another Citizen Surrounded By Cops With Guns Out"
+    },
+    "Risk": {
+      "id": "FalsePositiveIdentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "False Positive Identification Risk",
+      "来源": "Another Bogus Hit From A License Plate Reader Results In Another Citizen Surrounded By Cops With Guns Out"
+    },
+    "Consequence": {
+      "id": "UnnecessaryPoliceConfrontation",
+      "中文名称": "不必要的警方对峙后果",
+      "英文名称": "Unnecessary Police Confrontation Consequence",
+      "来源": "Results In Another Citizen Surrounded By Cops With Guns Out"
+    },
+    "AISubject": {
+      "id": "InnocentCitizen",
+      "中文名称": "无辜市民",
+      "英文名称": "Innocent Citizen",
+      "来源": "Another Citizen Surrounded By Cops With Guns Out"
+    },
+    "Stakeholder": {
+      "id": "LawEnforcementAgencies",
+      "中文名称": "执法机构",
+      "英文名称": "Law Enforcement Agencies",
+      "来源": "Cops With Guns Out"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁",
+      "英文名称": "Public Safety Threat",
+      "来源": "Citizen Surrounded By Cops With Guns Out"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicError",
+      "中文名称": "算法错误",
+      "英文名称": "Algorithmic Error",
+      "来源": "Another Bogus Hit From A License Plate Reader"
+    },
+    "Vulnerability": {
+      "id": "SystemOverreliance",
+      "中文名称": "系统过度依赖",
+      "英文名称": "System Overreliance",
+      "来源": "Results In Another Citizen Surrounded By Cops With Guns Out"
+    }
+  }
+}

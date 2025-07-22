@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonRoboticFulfillmentCenter",
+      "中文名称": "亚马逊机器人配送中心",
+      "英文名称": "Amazon Robotic Fulfillment Center",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Risk": {
+      "id": "WorkplaceInjuryRisk",
+      "中文名称": "工作场所伤害风险",
+      "英文名称": "Workplace Risk",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Consequence": {
+      "id": "HigherSeriousInjuryRates",
+      "中文名称": "更高的严重伤害率",
+      "英文名称": "Higher Serious Injury Rates",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Stakeholder": {
+      "id": "WarehouseWorkers",
+      "中文名称": "仓库工人",
+      "英文名称": "Warehouse Workers",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    },
+    "Domain": {
+      "id": "WarehouseAutomation",
+      "中文名称": "仓库自动化",
+      "英文名称": "Warehouse Automation",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Impact": {
+      "id": "WorkerSafetyConcerns",
+      "中文名称": "工人安全问题",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonRoboticFulfillmentCenter",
+      "中文名称": "亚马逊机器人配送中心",
+      "英文名称": "Amazon Robotic Fulfillment Center",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Risk": {
+      "id": "WorkplaceInjuryRisk",
+      "中文名称": "工作场所伤害风险",
+      "英文名称": "Workplace Risk",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Consequence": {
+      "id": "HigherSeriousInjuryRates",
+      "中文名称": "更高的严重伤害率",
+      "英文名称": "Higher Serious Injury Rates",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Stakeholder": {
+      "id": "WarehouseWorkers",
+      "中文名称": "仓库工人",
+      "英文名称": "Warehouse Workers",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    },
+    "Domain": {
+      "id": "WarehouseAutomation",
+      "中文名称": "仓库自动化",
+      "英文名称": "Warehouse Automation",
+      "来源": "Amazon’s robotic fulfillment centers have higher serious injury rates"
+    },
+    "Impact": {
+      "id": "WorkerSafetyConcerns",
+      "中文名称": "工人安全问题",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "California Passes Warehouse Worker Bill, Taking Aim at Amazon"
+    }
+  }
+}

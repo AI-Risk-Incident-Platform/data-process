@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonDeliveryDriverMonitoringAI",
+      "中文名称": "亚马逊送货司机监控AI",
+      "英文名称": "Amazon Worker Surveillance AI",
+      "来源": "Amazon’s AI Cameras Are Punishing Drivers for Mistakes They Didn’t Make"
+    },
+    "Risk": {
+      "id": "UnfairPenalizationRisk",
+      "中文名称": "不公平惩罚风险",
+      "英文名称": "Unfair Penalization Risk",
+      "来源": "AI Is Penalizing Amazon Delivery Drivers for Errors They Aren't Making"
+    },
+    "Consequence": {
+      "id": "DriverPerformancePenalties",
+      "中文名称": "司机绩效处罚后果",
+      "英文名称": "Driver Performance Penalties Consequence",
+      "来源": "punishing drivers for mistakes they didn’t make"
+    },
+    "AISubject": {
+      "id": "AmazonDeliveryDrivers",
+      "中文名称": "亚马逊送货司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Amazon delivery drivers"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s AI Cameras"
+    },
+    "RiskSource": {
+      "id": "FaultyDriverBehaviorDetection",
+      "中文名称": "错误的司机行为检测",
+      "英文名称": "Faulty Driver Behavior Detection",
+      "来源": "punishing drivers for mistakes they didn’t make"
+    },
+    "Impact": {
+      "id": "UnjustWorkplaceConsequences",
+      "中文名称": "不公正的工作后果",
+      "英文名称": "Discrimination Impact",
+      "来源": "penalizing drivers for errors they aren't making"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonDeliveryDriverMonitoringAI",
+      "中文名称": "亚马逊送货司机监控AI",
+      "英文名称": "Amazon Worker Surveillance AI",
+      "来源": "Amazon’s AI Cameras Are Punishing Drivers for Mistakes They Didn’t Make"
+    },
+    "Risk": {
+      "id": "UnfairPenalizationRisk",
+      "中文名称": "不公平惩罚风险",
+      "英文名称": "Unfair Penalization Risk",
+      "来源": "AI Is Penalizing Amazon Delivery Drivers for Errors They Aren't Making"
+    },
+    "Consequence": {
+      "id": "DriverPerformancePenalties",
+      "中文名称": "司机绩效处罚后果",
+      "英文名称": "Driver Performance Penalties Consequence",
+      "来源": "punishing drivers for mistakes they didn’t make"
+    },
+    "AISubject": {
+      "id": "AmazonDeliveryDrivers",
+      "中文名称": "亚马逊送货司机",
+      "英文名称": "Amazon Workers",
+      "来源": "Amazon delivery drivers"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s AI Cameras"
+    },
+    "RiskSource": {
+      "id": "FaultyDriverBehaviorDetection",
+      "中文名称": "错误的司机行为检测",
+      "英文名称": "Faulty Driver Behavior Detection",
+      "来源": "punishing drivers for mistakes they didn’t make"
+    },
+    "Impact": {
+      "id": "UnjustWorkplaceConsequences",
+      "中文名称": "不公正的工作后果",
+      "英文名称": "Discrimination Impact",
+      "来源": "penalizing drivers for errors they aren't making"
+    }
+  }
+}

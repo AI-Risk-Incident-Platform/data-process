@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RayBanMetaAI",
+      "中文名称": "Ray-Ban Meta AI",
+      "英文名称": "Ray-Ban Smart",
+      "来源": "Meta confirms it may train its AI on any image you ask Ray-Ban Meta AI to analyze"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    },
+    "Stakeholder": {
+      "id": "SmartGlassesUsers",
+      "中文名称": "智能眼镜用户",
+      "英文名称": "Smart Glasses Users",
+      "来源": "Meta won't answer whether it's smart glasses are using the images you record to train its AI"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta confirms it may train its AI on any image you ask Ray-Ban Meta AI to analyze"
+    },
+    "Purpose": {
+      "id": "AITraining",
+      "中文名称": "AI训练目的",
+      "英文名称": "AI Training",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用风险源",
+      "英文名称": "Unauthorized Data Risk Source",
+      "来源": "Meta won't answer whether it's smart glasses are using the images you record to train its AI"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私泄露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RayBanMetaAI",
+      "中文名称": "Ray-Ban Meta AI",
+      "英文名称": "Ray-Ban Smart",
+      "来源": "Meta confirms it may train its AI on any image you ask Ray-Ban Meta AI to analyze"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    },
+    "Stakeholder": {
+      "id": "SmartGlassesUsers",
+      "中文名称": "智能眼镜用户",
+      "英文名称": "Smart Glasses Users",
+      "来源": "Meta won't answer whether it's smart glasses are using the images you record to train its AI"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Meta confirms it may train its AI on any image you ask Ray-Ban Meta AI to analyze"
+    },
+    "Purpose": {
+      "id": "AITraining",
+      "中文名称": "AI训练目的",
+      "英文名称": "AI Training",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataUsage",
+      "中文名称": "未经授权的数据使用风险源",
+      "英文名称": "Unauthorized Data Risk Source",
+      "来源": "Meta won't answer whether it's smart glasses are using the images you record to train its AI"
+    },
+    "Impact": {
+      "id": "PersonalPrivacyCompromise",
+      "中文名称": "个人隐私泄露影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Meta Is Training Its AI on Your Analyzed Ray-Ban Smart Glasses Images, Videos"
+    }
+  }
+}

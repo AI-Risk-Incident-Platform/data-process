@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:IBMRobotDebater rdf:type airo:AISystem ;
+    rdfs:label "IBM Robot Debater"@en ;
+    rdfs:label "IBM机器人辩论者"@zh ;
+    airo:hasRisk ex:SocialMediaDisruptionRisk ;
+    airo:hasPurpose ex:HumanDebateSimulation ;
+    airo:hasCapability ex:ArgumentGeneration ;
+    airo:hasStakeholder ex:SocialMediaUsers .
+
+ex:SocialMediaDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "Social Media Disruption Risk"@en ;
+    rdfs:label "社交媒体破坏风险"@zh .
+
+ex:HumanDebateSimulation rdf:type airo:Purpose ;
+    rdfs:label "Human Debate Simulation"@en ;
+    rdfs:label "人类辩论模拟"@zh .
+
+ex:ArgumentGeneration rdf:type airo:AICapability ;
+    rdfs:label "Argument Generation Capability"@en ;
+    rdfs:label "论点生成能力"@zh .
+
+ex:SocialMediaUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Social Media Users"@en ;
+    rdfs:label "社交媒体用户"@zh .

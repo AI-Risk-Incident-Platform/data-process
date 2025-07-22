@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedImageSystem",
+      "中文名称": "AI生成图像系统",
+      "英文名称": "AI Generated Image System",
+      "来源": "AI-generated pixelated photo of AOC in a bikini pulled from paper highlighting danger of AI-generated pics"
+    },
+    "Risk": {
+      "id": "GenderBiasInImageGeneration",
+      "中文名称": "图像生成中的性别偏见风险",
+      "英文名称": "Gender Bias in Image Generation Risk",
+      "来源": "An AI saw a cropped photo of AOC. It autocompleted her wearing a bikini."
+    },
+    "Consequence": {
+      "id": "StereotypicalGenderRepresentation",
+      "中文名称": "刻板性别形象呈现的后果",
+      "英文名称": "Stereotypical Gender Representation Consequence",
+      "来源": "KI-Vorurteil: Männer tragen Anzug, Frauen Bikini"
+    },
+    "AISubject": {
+      "id": "FemalePublicFigures",
+      "中文名称": "女性公众人物",
+      "英文名称": "Female Public Figures",
+      "来源": "AI-generated pixelated photo of AOC in a bikini"
+    },
+    "Impact": {
+      "id": "ReinforcementOfGenderStereotypes",
+      "中文名称": "强化性别刻板印象的影响",
+      "英文名称": "Reinforcement of Gender Stereotypes Impact",
+      "来源": "KI-Vorurteil: Männer tragen Anzug, Frauen Bikini"
+    },
+    "AITechnique": {
+      "id": "ImageAutocompletionAlgorithm",
+      "中文名称": "图像自动补全算法",
+      "英文名称": "Image Autocompletion Algorithm",
+      "来源": "An AI saw a cropped photo of AOC. It autocompleted her wearing a bikini."
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Biased Training Data",
+      "来源": "KI-Vorurteil: Männer tragen Anzug, Frauen Bikini"
+    }
+  }
+}

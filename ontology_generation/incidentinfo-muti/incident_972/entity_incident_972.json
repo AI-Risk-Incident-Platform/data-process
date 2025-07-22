@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "Starlink",
+      "中文名称": "星链",
+      "英文名称": "Starlink",
+      "来源": "Fake Marco Rubio audio on Starlink, Ukraine spreads online"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "Fake Marco Rubio audio on Starlink, Ukraine spreads online"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedFakeAudio",
+      "中文名称": "AI生成的虚假音频",
+      "英文名称": "AI-generated Fake Audio",
+      "来源": "Fake Marco Rubio audio"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误导",
+      "英文名称": "Public Misinformation",
+      "来源": "Fake Marco Rubio audio on Starlink, Ukraine spreads online"
+    },
+    "Domain": {
+      "id": "CommunicationAndMedia",
+      "中文名称": "通信与媒体",
+      "英文名称": "Communication and Media",
+      "来源": "audio spreads online"
+    }
+  }
+}

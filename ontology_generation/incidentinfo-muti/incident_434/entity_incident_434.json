@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "YouTubeKidsApp",
+      "中文名称": "YouTube儿童应用",
+      "英文名称": "YouTube Kids App",
+      "来源": "YouTube Kids App"
+    },
+    "Risk": {
+      "id": "InappropriateContentRisk",
+      "中文名称": "不当内容风险",
+      "英文名称": "Inappropriate Content Risk",
+      "来源": "Inappropriate Content Risk"
+    },
+    "AITechnique": {
+      "id": "ContentFilteringAlgorithm",
+      "中文名称": "内容过滤算法",
+      "英文名称": "Content Filtering Algorithm",
+      "来源": "Content Filtering Algorithm"
+    },
+    "AIDeveloper": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google"
+    },
+    "Purpose": {
+      "id": "ChildFriendlyVideoPlatform",
+      "中文名称": "儿童友好型视频平台",
+      "英文名称": "Child Friendly Video Platform",
+      "来源": "Child Friendly Video Platform"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "Children"
+    },
+    "RiskSource": {
+      "id": "PedophiliaJokes",
+      "中文名称": "恋童癖笑话",
+      "英文名称": "Pedophilia Jokes",
+      "来源": "Pedophilia Jokes"
+    },
+    "Consequence": {
+      "id": "ExposureToExplicitMaterial",
+      "中文名称": "接触不当材料",
+      "英文名称": "Exposure To Explicit Material",
+      "来源": "Exposure To Explicit Material"
+    },
+    "Impact": {
+      "id": "PsychologicalDistressForChildren",
+      "中文名称": "儿童心理困扰",
+      "英文名称": "Psychological Distress For Children",
+      "来源": "Psychological Distress For Children"
+    },
+    "RiskControl": {
+      "id": "MachineLearningDetectionSystem",
+      "中文名称": "机器学习检测系统",
+      "英文名称": "Machine Learning Detection System",
+      "来源": "Machine Learning Detection System"
+    }
+  }
+}

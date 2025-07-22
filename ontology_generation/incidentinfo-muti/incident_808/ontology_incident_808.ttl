@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIAssistants rdf:type airo:AISystem ;
+    rdfs:label "AI助手"@zh ;
+    rdfs:label "AI Assistants"@en ;
+    airo:hasRisk ex:InformationLeakageRisk ;
+    airo:hasCapability ex:SpeechRecognitionAndProcessing ;
+    airo:hasStakeholder ex:CorporateUsers ;
+    airo:hasPurpose ex:WorkProductivityEnhancement ;
+    airo:isAppliedWithinDomain ex:CorporateCommunication ;
+    airo:usesTechnique ex:NaturalLanguageProcessing .
+
+ex:InformationLeakageRisk rdf:type airo:Risk ;
+    rdfs:label "信息泄露风险"@zh ;
+    rdfs:label "Information Leakage Risk"@en ;
+    airo:hasConsequence ex:CompanySecretsExposure ;
+    airo:isRiskSourceFor ex:OverSharingBehavior .
+
+ex:CompanySecretsExposure rdf:type airo:Consequence ;
+    rdfs:label "公司机密暴露后果"@zh ;
+    rdfs:label "Company Secrets Exposure Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:SpeechRecognitionAndProcessing rdf:type airo:AICapability ;
+    rdfs:label "语音识别与处理能力"@zh ;
+    rdfs:label "Speech Recognition and Processing Capability"@en .
+
+ex:CorporateUsers rdf:type airo:Stakeholder ;
+    rdfs:label "企业用户"@zh ;
+    rdfs:label "Corporate Users"@en .
+
+ex:OverSharingBehavior rdf:type airo:RiskSource ;
+    rdfs:label "过度分享行为风险源"@zh ;
+    rdfs:label "Over Sharing Behavior Risk Source"@en .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:CorporateUsers .
+
+ex:WorkProductivityEnhancement rdf:type airo:Purpose ;
+    rdfs:label "工作生产力提升目的"@zh ;
+    rdfs:label "Work Productivity Enhancement Purpose"@en .
+
+ex:CorporateCommunication rdf:type airo:Domain ;
+    rdfs:label "企业通信领域"@zh ;
+    rdfs:label "Corporate Communication Domain"@en .
+
+ex:NaturalLanguageProcessing rdf:type airo:AITechnique ;
+    rdfs:label "自然语言处理技术"@zh ;
+    rdfs:label "Natural Language Processing Technique"@en .

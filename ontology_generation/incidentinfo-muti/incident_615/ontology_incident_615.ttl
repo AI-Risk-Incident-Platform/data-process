@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:NavyFederalMortgageApprovalSystem rdf:type airo:AISystem ;
+    rdfs:label "Navy Federal Mortgage Approval System"@en ;
+    rdfs:label "海军联邦抵押贷款审批系统"@zh ;
+    airo:hasRisk ex:RacialBiasInMortgageApproval ;
+    airo:isDeployedBy ex:NavyFederalCreditUnion ;
+    airo:hasStakeholder ex:FederalRegulators ;
+    airo:isAppliedWithinDomain ex:FinancialServices .
+
+ex:RacialBiasInMortgageApproval rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Mortgage Approval Risk"@en ;
+    rdfs:label "抵押贷款审批中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:DisparateImpactOnBlackApplicants .
+
+ex:DisparateImpactOnBlackApplicants rdf:type airo:Consequence ;
+    rdfs:label "Disparate Impact on Black Applicants Consequence"@en ;
+    rdfs:label "对黑人申请人的不同影响后果"@zh ;
+    airo:hasImpact ex:HousingDiscrimination .
+
+ex:FederalRegulators rdf:type airo:Stakeholder ;
+    rdfs:label "Federal Regulators"@en ;
+    rdfs:label "联邦监管机构"@zh .
+
+ex:NavyFederalCreditUnion rdf:type airo:AIOperator ;
+    rdfs:label "Navy Federal Credit Union"@en ;
+    rdfs:label "海军联邦信用合作社"@zh .
+
+ex:HousingDiscrimination rdf:type airo:Impact ;
+    rdfs:label "Housing Discrimination Impact"@en ;
+    rdfs:label "住房歧视影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FederalRegulators .
+
+ex:FinancialServices rdf:type airo:Domain ;
+    rdfs:label "Financial Services Domain"@en ;
+    rdfs:label "金融服务领域"@zh .

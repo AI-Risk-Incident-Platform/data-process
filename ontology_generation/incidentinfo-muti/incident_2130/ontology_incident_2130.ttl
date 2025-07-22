@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CBPFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "CBP Facial Recognition System"@en ;
+    rdfs:label "CBP面部识别系统"@zh ;
+    airo:hasRisk ex:IneffectiveIdentificationRisk ;
+    airo:hasCapability ex:MassFacialRecognitionCapability ;
+    airo:isDeployedBy ex:USCustomsAndBorderProtection ;
+    airo:isAppliedWithinDomain ex:BorderSecurity ;
+    airo:hasPurpose ex:ImposterIdentification ;
+    airo:usesTechnique ex:FacialRecognitionTechnology .
+
+ex:IneffectiveIdentificationRisk rdf:type airo:Risk ;
+    rdfs:label "Ineffective Identification Risk"@en ;
+    rdfs:label "识别无效风险"@zh ;
+    airo:hasConsequence ex:FalseSenseOfSecurity .
+
+ex:MassFacialRecognitionCapability rdf:type airo:AICapability ;
+    rdfs:label "Mass Facial Recognition Capability"@en ;
+    rdfs:label "大规模面部识别能力"@zh .
+
+ex:USCustomsAndBorderProtection rdf:type airo:AIOperator ;
+    rdfs:label "US Customs and Border Protection"@en ;
+    rdfs:label "美国海关和边境保护局"@zh .
+
+ex:BorderSecurity rdf:type airo:Domain ;
+    rdfs:label "Border Security Domain"@en ;
+    rdfs:label "边境安全领域"@zh .
+
+ex:ImposterIdentification rdf:type airo:Purpose ;
+    rdfs:label "Imposter Identification Purpose"@en ;
+    rdfs:label "冒名顶替者识别目的"@zh .
+
+ex:FalseSenseOfSecurity rdf:type airo:Consequence ;
+    rdfs:label "False Sense of Security Consequence"@en ;
+    rdfs:label "虚假安全感后果"@zh ;
+    airo:hasImpact ex:PrivacyConcerns .
+
+ex:PrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Privacy Concerns Impact"@en ;
+    rdfs:label "隐私担忧影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USCustomsAndBorderProtection .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .

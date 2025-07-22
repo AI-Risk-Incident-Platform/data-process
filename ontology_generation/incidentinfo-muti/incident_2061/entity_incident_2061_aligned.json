@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonHomeRobot",
+      "中文名称": "亚马逊家用机器人",
+      "英文名称": "Amazon Robot",
+      "来源": "Amazon just revealed its first home robot. Here’s what it’s like to use it"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "家用机器人可能收集用户家庭数据"
+    },
+    "Purpose": {
+      "id": "HomeAssistance",
+      "中文名称": "家庭辅助",
+      "英文名称": "Home Assistance",
+      "来源": "亚马逊推出的首款家用机器人"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居",
+      "英文名称": "Smart Home Domain",
+      "来源": "家用机器人属于智能家居领域"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AmazonHomeRobot",
+      "中文名称": "亚马逊家用机器人",
+      "英文名称": "Amazon Robot",
+      "来源": "Amazon just revealed its first home robot. Here’s what it’s like to use it"
+    },
+    "Risk": {
+      "id": "PrivacyRisk",
+      "中文名称": "隐私风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "家用机器人可能收集用户家庭数据"
+    },
+    "Purpose": {
+      "id": "HomeAssistance",
+      "中文名称": "家庭辅助",
+      "英文名称": "Home Assistance",
+      "来源": "亚马逊推出的首款家用机器人"
+    },
+    "Domain": {
+      "id": "SmartHome",
+      "中文名称": "智能家居",
+      "英文名称": "Smart Home Domain",
+      "来源": "家用机器人属于智能家居领域"
+    }
+  }
+}

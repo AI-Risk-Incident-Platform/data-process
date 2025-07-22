@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:BeautyScoringAI rdf:type airo:AISystem ;
+    rdfs:label "Beauty Scoring AI"@en ;
+    rdfs:label "颜值评分AI"@zh ;
+    airo:hasRisk ex:BeautyObsessionRisk ;
+    airo:hasPurpose ex:BeautyAssessment ;
+    airo:hasAISubject ex:IndividualsBeingScored .
+
+ex:BeautyObsessionRisk rdf:type airo:Risk ;
+    rdfs:label "Beauty Obsession Risk"@en ;
+    rdfs:label "颜值痴迷风险"@zh ;
+    airo:hasConsequence ex:UnhealthyBeautyStandards ;
+    airo:isRiskSourceFor ex:SubjectiveBeautyStandards .
+
+ex:UnhealthyBeautyStandards rdf:type airo:Consequence ;
+    rdfs:label "Unhealthy Beauty Standards Consequence"@en ;
+    rdfs:label "不健康审美标准后果"@zh ;
+    airo:hasImpact ex:PsychologicalDistress .
+
+ex:PsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "Psychological Distress Impact"@en ;
+    rdfs:label "心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IndividualsBeingScored .
+
+ex:IndividualsBeingScored rdf:type airo:AISubject ;
+    rdfs:label "Individuals Being Scored"@en ;
+    rdfs:label "被评分个体"@zh .
+
+ex:BeautyAssessment rdf:type airo:Purpose ;
+    rdfs:label "Beauty Assessment Purpose"@en ;
+    rdfs:label "颜值评估目的"@zh .
+
+ex:SubjectiveBeautyStandards rdf:type airo:RiskSource ;
+    rdfs:label "Subjective Beauty Standards Risk Source"@en ;
+    rdfs:label "主观审美标准风险源"@zh .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GovernmentRobot",
+      "中文名称": "政府机器人",
+      "英文名称": "Government Robot",
+      "来源": "Government Robot Falls Down Stairs, Dies"
+    },
+    "Risk": {
+      "id": "RobotSelfDestructionRisk",
+      "中文名称": "机器人自毁风险",
+      "英文名称": "Robot Self-Destruction Risk",
+      "来源": "S. Korea administrative robot defunct after apparent suicide"
+    },
+    "Consequence": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障",
+      "英文名称": "Robot Malfunction",
+      "来源": "Government Robot Falls Down Stairs, Dies"
+    },
+    "Impact": {
+      "id": "ServiceDisruption",
+      "中文名称": "服务中断",
+      "英文名称": "Service Disruption",
+      "来源": "S. Korea administrative robot defunct after apparent suicide"
+    },
+    "Stakeholder": {
+      "id": "Government",
+      "中文名称": "政府",
+      "英文名称": "Government",
+      "来源": "Government Robot Falls Down Stairs, Dies"
+    }
+  }
+}

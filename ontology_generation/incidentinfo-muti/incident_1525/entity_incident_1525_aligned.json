@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "RobotaxiService",
+      "中文名称": "自动驾驶出租车服务",
+      "英文名称": "Robotaxi",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Risk": {
+      "id": "PublicTrustDeficit",
+      "中文名称": "公众信任缺失风险",
+      "英文名称": "Public Trust Risk",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "Consumers",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Robotaxi companies have a serious trust issue"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "RobotaxiService",
+      "中文名称": "自动驾驶出租车服务",
+      "英文名称": "Robotaxi",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Risk": {
+      "id": "PublicTrustDeficit",
+      "中文名称": "公众信任缺失风险",
+      "英文名称": "Public Trust Risk",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "普通公众",
+      "英文名称": "Consumers",
+      "来源": "Robotaxi companies have a serious trust issue"
+    },
+    "Domain": {
+      "id": "AutonomousTransportation",
+      "中文名称": "自动驾驶交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Robotaxi companies have a serious trust issue"
+    }
+  }
+}

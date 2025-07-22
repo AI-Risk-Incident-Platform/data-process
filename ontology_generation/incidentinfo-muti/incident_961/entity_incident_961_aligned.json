@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleDeepfakeDetectionSystem",
+      "中文名称": "Google深度伪造检测系统",
+      "英文名称": "Google Deepfake Detection System",
+      "来源": "Google reports scale of complaints about AI deepfake terrorism content to Australian regulator"
+    },
+    "Risk": {
+      "id": "DeepfakeTerrorismContentRisk",
+      "中文名称": "深度伪造恐怖主义内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "complaints about AI deepfake terrorism content"
+    },
+    "Stakeholder": {
+      "id": "AustralianRegulator",
+      "中文名称": "澳大利亚监管机构",
+      "英文名称": "Australian Regulator",
+      "来源": "Google reports scale of complaints about AI deepfake terrorism content to Australian regulator"
+    },
+    "Domain": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "complaints about AI deepfake terrorism content"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedDeepfakeContent",
+      "中文名称": "AI生成的深度伪造内容",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI deepfake terrorism content"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleDeepfakeDetectionSystem",
+      "中文名称": "Google深度伪造检测系统",
+      "英文名称": "Google Deepfake Detection System",
+      "来源": "Google reports scale of complaints about AI deepfake terrorism content to Australian regulator"
+    },
+    "Risk": {
+      "id": "DeepfakeTerrorismContentRisk",
+      "中文名称": "深度伪造恐怖主义内容风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "complaints about AI deepfake terrorism content"
+    },
+    "Stakeholder": {
+      "id": "AustralianRegulator",
+      "中文名称": "澳大利亚监管机构",
+      "英文名称": "Australian Regulator",
+      "来源": "Google reports scale of complaints about AI deepfake terrorism content to Australian regulator"
+    },
+    "Domain": {
+      "id": "ContentModeration",
+      "中文名称": "内容审核领域",
+      "英文名称": "Content Moderation Domain",
+      "来源": "complaints about AI deepfake terrorism content"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedDeepfakeContent",
+      "中文名称": "AI生成的深度伪造内容",
+      "英文名称": "AI Misuse Risks",
+      "来源": "AI deepfake terrorism content"
+    }
+  }
+}

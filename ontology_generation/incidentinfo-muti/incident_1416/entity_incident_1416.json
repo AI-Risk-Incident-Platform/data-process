@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIArtistContentTrainingSystem",
+      "中文名称": "AI艺术家内容训练系统",
+      "英文名称": "AI Artist Content Training System",
+      "来源": "Sony Music Warns Companies to Stop Training AI on Its Artists’ Content"
+    },
+    "Risk": {
+      "id": "UnauthorizedContentUseRisk",
+      "中文名称": "未经授权内容使用风险",
+      "英文名称": "Unauthorized Content Use Risk",
+      "来源": "Sony Music slams tech giants for unauthorised use of stars' songs"
+    },
+    "Stakeholder": {
+      "id": "SonyMusic",
+      "中文名称": "索尼音乐",
+      "英文名称": "Sony Music",
+      "来源": "Sony Music Warns Companies to Stop Training AI on Its Artists’ Content"
+    },
+    "AIOperator": {
+      "id": "TechGiants",
+      "中文名称": "科技巨头",
+      "英文名称": "Tech Giants",
+      "来源": "Sony Music slams tech giants for unauthorised use of stars' songs"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringement",
+      "中文名称": "版权侵权后果",
+      "英文名称": "Copyright Infringement Consequence",
+      "来源": "Sony Music slams tech giants for unauthorised use of stars' songs"
+    },
+    "RiskSource": {
+      "id": "LackOfPermissionForContentUse",
+      "中文名称": "缺乏内容使用许可的风险源",
+      "英文名称": "Lack of Permission for Content Use Risk Source",
+      "来源": "Declaration of AI Training Opt Out"
+    }
+  }
+}

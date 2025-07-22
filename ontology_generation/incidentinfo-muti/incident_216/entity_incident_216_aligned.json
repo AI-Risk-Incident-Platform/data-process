@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris Due to Braking Issues"
+    },
+    "Consequence": {
+      "id": "MultipleInjuries",
+      "中文名称": "多人受伤后果",
+      "英文名称": "Multiple Injuries Consequence",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris"
+    },
+    "RiskSource": {
+      "id": "BrakingSystemFailure",
+      "中文名称": "制动系统故障风险源",
+      "英文名称": "Braking System Failure Risk Source",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris Due to Braking Issues"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla told France there was no sign of technical fault in Paris crash"
+    },
+    "Stakeholder": {
+      "id": "ParisTaxiCompany",
+      "中文名称": "巴黎出租车公司",
+      "英文名称": "Paris Taxi Company",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Domain": {
+      "id": "TransportationServices",
+      "中文名称": "交通运输服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Paris taxi firm suspends use of Tesla cars"
+    },
+    "AITechnique": {
+      "id": "AutonomousDrivingTechnology",
+      "中文名称": "自动驾驶技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Tesla Model 3 Taxi Cab Accident"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleSafetyRisk",
+      "中文名称": "自动驾驶车辆安全风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris Due to Braking Issues"
+    },
+    "Consequence": {
+      "id": "MultipleInjuries",
+      "中文名称": "多人受伤后果",
+      "英文名称": "Multiple Injuries Consequence",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris"
+    },
+    "RiskSource": {
+      "id": "BrakingSystemFailure",
+      "中文名称": "制动系统故障风险源",
+      "英文名称": "Braking System Failure Risk Source",
+      "来源": "Tesla Model 3 Taxi Cab Accident Hurts About 20 People in Paris Due to Braking Issues"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla told France there was no sign of technical fault in Paris crash"
+    },
+    "Stakeholder": {
+      "id": "ParisTaxiCompany",
+      "中文名称": "巴黎出租车公司",
+      "英文名称": "Paris Taxi Company",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Impact": {
+      "id": "PublicSafetyConcern",
+      "中文名称": "公共安全担忧影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Paris taxi firm suspends use of Tesla cars after fatal accident"
+    },
+    "Domain": {
+      "id": "TransportationServices",
+      "中文名称": "交通运输服务领域",
+      "英文名称": "Transportation Domain",
+      "来源": "Paris taxi firm suspends use of Tesla cars"
+    },
+    "AITechnique": {
+      "id": "AutonomousDrivingTechnology",
+      "中文名称": "自动驾驶技术",
+      "英文名称": "Autonomous Driving Tech",
+      "来源": "Tesla Model 3 Taxi Cab Accident"
+    }
+  }
+}

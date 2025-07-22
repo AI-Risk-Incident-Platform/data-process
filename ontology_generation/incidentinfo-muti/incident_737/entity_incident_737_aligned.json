@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIScamSystem",
+      "中文名称": "AI诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers use AI to cheat woman out of NT$2.64m"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "AI scam tricks Andy Lau fan into paying NT$2.64M"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cheat woman out of NT$2.64m"
+    },
+    "Stakeholder": {
+      "id": "ScamVictim",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "Andy Lau fan into paying NT$2.64M"
+    },
+    "Misuse": {
+      "id": "AIForFraudulentActivities",
+      "中文名称": "用于欺诈活动的AI",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Scammers use AI to cheat woman"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIScamSystem",
+      "中文名称": "AI诈骗系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Scammers use AI to cheat woman out of NT$2.64m"
+    },
+    "Risk": {
+      "id": "FinancialFraudRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "AI scam tricks Andy Lau fan into paying NT$2.64M"
+    },
+    "Consequence": {
+      "id": "FinancialLoss",
+      "中文名称": "经济损失",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "cheat woman out of NT$2.64m"
+    },
+    "Stakeholder": {
+      "id": "ScamVictim",
+      "中文名称": "诈骗受害者",
+      "英文名称": "Scam Victims",
+      "来源": "Andy Lau fan into paying NT$2.64M"
+    },
+    "Misuse": {
+      "id": "AIForFraudulentActivities",
+      "中文名称": "用于欺诈活动的AI",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Scammers use AI to cheat woman"
+    }
+  }
+}

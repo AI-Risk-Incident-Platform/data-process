@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WorkdayAIJobScreeningTool rdf:type airo:AISystem ;
+    rdfs:label "Workday AI Job Screening Tool"@en ;
+    rdfs:label "Workday AI职位筛选工具"@zh ;
+    airo:hasRisk ex:DiscriminationRiskInHiring ;
+    airo:hasAISubject ex:JobApplicants ;
+    airo:hasStakeholder ex:WorkdayInc ;
+    airo:isAppliedWithinDomain ex:HumanResources .
+
+ex:DiscriminationRiskInHiring rdf:type airo:Risk ;
+    rdfs:label "Discrimination Risk in Hiring"@en ;
+    rdfs:label "招聘中的歧视风险"@zh ;
+    airo:hasConsequence ex:UnfairEmploymentOpportunities ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmDesign .
+
+ex:UnfairEmploymentOpportunities rdf:type airo:Consequence ;
+    rdfs:label "Unfair Employment Opportunities Consequence"@en ;
+    rdfs:label "不公平就业机会后果"@zh ;
+    airo:hasImpact ex:SocialInequality .
+
+ex:JobApplicants rdf:type airo:AISubject ;
+    rdfs:label "Job Applicants"@en ;
+    rdfs:label "求职者"@zh .
+
+ex:WorkdayInc rdf:type airo:Stakeholder ;
+    rdfs:label "Workday Inc."@en ;
+    rdfs:label "Workday公司"@zh .
+
+ex:SocialInequality rdf:type airo:Impact ;
+    rdfs:label "Social Inequality Impact"@en ;
+    rdfs:label "社会不平等影响"@zh ;
+    airo:hasImpactOnStakeholder ex:JobApplicants .
+
+ex:HumanResources rdf:type airo:Domain ;
+    rdfs:label "Human Resources Domain"@en ;
+    rdfs:label "人力资源领域"@zh .
+
+ex:BiasedAlgorithmDesign rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithm Design Risk Source"@en ;
+    rdfs:label "有偏见的算法设计风险源"@zh .

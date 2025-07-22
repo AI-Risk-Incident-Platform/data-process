@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    airo:hasRisk ex:AutonomousVehiclePedestrianFatalityRisk ;
+    airo:isDeployedBy ex:TeslaInc ;
+    airo:hasStakeholder ex:USFederalInvestigators ;
+    airo:isAppliedWithinDomain ex:AutonomousVehicleTransportation ;
+    airo:usesTechnique ex:ComputerVisionBasedAutonomousDriving .
+
+ex:AutonomousVehiclePedestrianFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "自动驾驶车辆行人死亡风险"@zh ;
+    rdfs:label "Autonomous Vehicle Pedestrian Fatality Risk"@en ;
+    airo:hasConsequence ex:PedestrianFatality .
+
+ex:PedestrianFatality rdf:type airo:Consequence ;
+    rdfs:label "行人死亡后果"@zh ;
+    rdfs:label "Pedestrian Fatality Consequence"@en ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "特斯拉公司"@zh ;
+    rdfs:label "Tesla Inc."@en .
+
+ex:USFederalInvestigators rdf:type airo:Stakeholder ;
+    rdfs:label "美国联邦调查人员"@zh ;
+    rdfs:label "US Federal Investigators"@en .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "公共安全威胁影响"@zh ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    airo:hasImpactOnStakeholder ex:USFederalInvestigators .
+
+ex:AutonomousVehicleTransportation rdf:type airo:Domain ;
+    rdfs:label "自动驾驶车辆运输领域"@zh ;
+    rdfs:label "Autonomous Vehicle Transportation Domain"@en .
+
+ex:ComputerVisionBasedAutonomousDriving rdf:type airo:AITechnique ;
+    rdfs:label "基于计算机视觉的自动驾驶技术"@zh ;
+    rdfs:label "Computer Vision Based Autonomous Driving Technique"@en .

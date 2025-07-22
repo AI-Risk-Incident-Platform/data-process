@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Viral attack on Walz features fake former student making false claim"
+    },
+    "Risk": {
+      "id": "PoliticalDisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    },
+    "Stakeholder": {
+      "id": "RussianPropagandaUnit",
+      "中文名称": "俄罗斯宣传部门",
+      "英文名称": "Russian Disinformation",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    },
+    "Consequence": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "U.S. officials say Russia smeared Tim Walz, might stoke post-vote violence"
+    },
+    "Impact": {
+      "id": "PoliticalInstability",
+      "中文名称": "政治不稳定影响",
+      "英文名称": "Political & Diplomatic Impact",
+      "来源": "U.S. officials say Russia smeared Tim Walz, might stoke post-vote violence"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Viral attack on Walz features fake former student making false claim"
+    },
+    "RiskSource": {
+      "id": "StateSponsoredDisinformationCampaign",
+      "中文名称": "国家支持的虚假信息宣传活动风险源",
+      "英文名称": "State-Sponsored Disinformation Risk",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeVideoGenerationSystem",
+      "中文名称": "深度伪造视频生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Viral attack on Walz features fake former student making false claim"
+    },
+    "Risk": {
+      "id": "PoliticalDisinformationRisk",
+      "中文名称": "政治虚假信息风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    },
+    "Stakeholder": {
+      "id": "RussianPropagandaUnit",
+      "中文名称": "俄罗斯宣传部门",
+      "英文名称": "Russian Disinformation",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    },
+    "Consequence": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "U.S. officials say Russia smeared Tim Walz, might stoke post-vote violence"
+    },
+    "Impact": {
+      "id": "PoliticalInstability",
+      "中文名称": "政治不稳定影响",
+      "英文名称": "Political & Diplomatic Impact",
+      "来源": "U.S. officials say Russia smeared Tim Walz, might stoke post-vote violence"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedFaceSwapping",
+      "中文名称": "基于深度学习的人脸交换技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Viral attack on Walz features fake former student making false claim"
+    },
+    "RiskSource": {
+      "id": "StateSponsoredDisinformationCampaign",
+      "中文名称": "国家支持的虚假信息宣传活动风险源",
+      "英文名称": "State-Sponsored Disinformation Risk",
+      "来源": "Russian Propaganda Unit Appears to Be Behind Spread of False Tim Walz Sexual Abuse Claims"
+    }
+  }
+}

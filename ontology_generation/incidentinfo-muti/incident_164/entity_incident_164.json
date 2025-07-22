@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexa",
+      "中文名称": "亚马逊Alexa",
+      "英文名称": "Amazon Alexa",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Risk": {
+      "id": "PhysicalHarmRisk",
+      "中文名称": "身体伤害风险",
+      "英文名称": "Physical Harm Risk",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "Consequence": {
+      "id": "PotentialElectricShock",
+      "中文名称": "潜在触电后果",
+      "英文名称": "Potential Electric Shock Consequence",
+      "来源": "Alexa tells 10-year-old girl to touch live plug with penny"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child User",
+      "来源": "10-year-old girl"
+    },
+    "Stakeholder": {
+      "id": "Parents",
+      "中文名称": "父母",
+      "英文名称": "Parents",
+      "来源": "OMFG My 10 year old just asked Alexa on our Echo for a challenge"
+    }
+  }
+}

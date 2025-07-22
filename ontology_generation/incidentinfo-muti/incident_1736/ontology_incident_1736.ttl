@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeloitteMedicaidEligibilitySystem rdf:type airo:AISystem ;
+    rdfs:label "Deloitte Medicaid Eligibility System"@en ;
+    rdfs:label "德勤医疗补助资格系统"@zh ;
+    airo:hasRisk ex:IllegalDenialOfMedicaidBenefits ;
+    airo:hasPurpose ex:AutomatedEligibilityDetermination ;
+    airo:hasStakeholder ex:MedicaidApplicants ;
+    airo:isAppliedWithinDomain ex:PublicHealthcareAdministration ;
+    airo:isDeployedBy ex:Deloitte .
+
+ex:IllegalDenialOfMedicaidBenefits rdf:type airo:Risk ;
+    rdfs:label "Illegal Denial of Medicaid Benefits Risk"@en ;
+    rdfs:label "非法拒绝医疗补助福利风险"@zh ;
+    airo:hasConsequence ex:LossOfHealthcareCoverage .
+
+ex:MedicaidApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Medicaid Applicants"@en ;
+    rdfs:label "医疗补助申请人"@zh .
+
+ex:Deloitte rdf:type airo:AIOperator ;
+    rdfs:label "Deloitte"@en ;
+    rdfs:label "德勤"@zh .
+
+ex:LossOfHealthcareCoverage rdf:type airo:Consequence ;
+    rdfs:label "Loss of Healthcare Coverage Consequence"@en ;
+    rdfs:label "失去医疗保障后果"@zh ;
+    airo:hasImpact ex:PublicHealthCrisis .
+
+ex:PublicHealthCrisis rdf:type airo:Impact ;
+    rdfs:label "Public Health Crisis Impact"@en ;
+    rdfs:label "公共卫生危机影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MedicaidApplicants .
+
+ex:AutomatedEligibilityDetermination rdf:type airo:Purpose ;
+    rdfs:label "Automated Eligibility Determination Purpose"@en ;
+    rdfs:label "自动资格确定目的"@zh .
+
+ex:PublicHealthcareAdministration rdf:type airo:Domain ;
+    rdfs:label "Public Healthcare Administration Domain"@en ;
+    rdfs:label "公共医疗管理领域"@zh .

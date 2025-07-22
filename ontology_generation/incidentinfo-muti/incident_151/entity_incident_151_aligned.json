@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DelphiAI",
+      "中文名称": "德尔菲AI",
+      "英文名称": "Delphi AI",
+      "来源": "Scientists Built an AI to Give Ethical Advice, But It Turned Out Super Racist"
+    },
+    "Risk": {
+      "id": "RacistEthicalAdviceRisk",
+      "中文名称": "种族主义伦理建议风险",
+      "英文名称": "Ethical Risk",
+      "来源": "But It Turned Out Super Racist"
+    },
+    "Consequence": {
+      "id": "HarmfulEthicalGuidance",
+      "中文名称": "有害伦理指导后果",
+      "英文名称": "Harmful Ethical Consequence",
+      "来源": "But It Turned Out Super Racist"
+    },
+    "AICapability": {
+      "id": "EthicalAdviceGeneration",
+      "中文名称": "伦理建议生成能力",
+      "英文名称": "Ethical Advice Generation Capability",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "AIDeveloper": {
+      "id": "ResearchScientists",
+      "中文名称": "研究科学家",
+      "英文名称": "Researchers",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "Purpose": {
+      "id": "ProvideMoralGuidance",
+      "中文名称": "提供道德指导目的",
+      "英文名称": "Provide Moral Guidance Purpose",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "But It Turned Out Super Racist"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DelphiAI",
+      "中文名称": "德尔菲AI",
+      "英文名称": "Delphi AI",
+      "来源": "Scientists Built an AI to Give Ethical Advice, But It Turned Out Super Racist"
+    },
+    "Risk": {
+      "id": "RacistEthicalAdviceRisk",
+      "中文名称": "种族主义伦理建议风险",
+      "英文名称": "Ethical Risk",
+      "来源": "But It Turned Out Super Racist"
+    },
+    "Consequence": {
+      "id": "HarmfulEthicalGuidance",
+      "中文名称": "有害伦理指导后果",
+      "英文名称": "Harmful Ethical Consequence",
+      "来源": "But It Turned Out Super Racist"
+    },
+    "AICapability": {
+      "id": "EthicalAdviceGeneration",
+      "中文名称": "伦理建议生成能力",
+      "英文名称": "Ethical Advice Generation Capability",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "AIDeveloper": {
+      "id": "ResearchScientists",
+      "中文名称": "研究科学家",
+      "英文名称": "Researchers",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "Purpose": {
+      "id": "ProvideMoralGuidance",
+      "中文名称": "提供道德指导目的",
+      "英文名称": "Provide Moral Guidance Purpose",
+      "来源": "Scientists Built an AI to Give Ethical Advice"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "偏见训练数据风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "But It Turned Out Super Racist"
+    }
+  }
+}

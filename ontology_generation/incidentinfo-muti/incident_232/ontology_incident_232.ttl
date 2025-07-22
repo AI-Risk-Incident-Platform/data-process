@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WazeNavigationApp rdf:type airo:AISystem ;
+    rdfs:label "Waze Navigation App"@en ;
+    rdfs:label "Waze导航应用"@zh ;
+    airo:hasRisk ex:NavigationErrorRisk ;
+    airo:hasAICapability ex:RealTimeRouteCalculation ;
+    airo:hasStakeholder ex:Tourists ;
+    airo:hasPurpose ex:OptimalRouteNavigation ;
+    airo:isAppliedWithinDomain ex:TransportationNavigation ;
+    airo:usesTechnique ex:CrowdsourcedDataProcessing .
+
+ex:NavigationErrorRisk rdf:type airo:Risk ;
+    rdfs:label "Navigation Error Risk"@en ;
+    rdfs:label "导航错误风险"@zh ;
+    airo:hasConsequence ex:VehicleSubmersion ;
+    airo:isRiskSourceFor ex:InaccurateMapData .
+
+ex:VehicleSubmersion rdf:type airo:Consequence ;
+    rdfs:label "Vehicle Submersion Consequence"@en ;
+    rdfs:label "车辆浸水后果"@zh ;
+    airo:hasImpact ex:PropertyDamage .
+
+ex:RealTimeRouteCalculation rdf:type airo:AICapability ;
+    rdfs:label "Real-Time Route Calculation Capability"@en ;
+    rdfs:label "实时路线计算能力"@zh .
+
+ex:Tourists rdf:type airo:Stakeholder ;
+    rdfs:label "Tourists"@en ;
+    rdfs:label "游客"@zh .
+
+ex:InaccurateMapData rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Map Data Risk Source"@en ;
+    rdfs:label "不准确的地图数据风险源"@zh .
+
+ex:PropertyDamage rdf:type airo:Impact ;
+    rdfs:label "Property Damage Impact"@en ;
+    rdfs:label "财产损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Tourists .
+
+ex:OptimalRouteNavigation rdf:type airo:Purpose ;
+    rdfs:label "Optimal Route Navigation Purpose"@en ;
+    rdfs:label "最优路线导航目的"@zh .
+
+ex:TransportationNavigation rdf:type airo:Domain ;
+    rdfs:label "Transportation Navigation Domain"@en ;
+    rdfs:label "交通导航领域"@zh .
+
+ex:CrowdsourcedDataProcessing rdf:type airo:AITechnique ;
+    rdfs:label "Crowdsourced Data Processing Technique"@en ;
+    rdfs:label "众包数据处理技术"@zh .

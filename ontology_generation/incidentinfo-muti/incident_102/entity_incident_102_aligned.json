@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "StudentSuccessPredictionSystem",
+      "中文名称": "学生成功预测系统",
+      "英文名称": "Student Success Prediction System",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Risk": {
+      "id": "RacialBiasInStudentSuccessPrediction",
+      "中文名称": "学生成功预测中的种族偏见风险",
+      "英文名称": "Racial Bias in Student Success Prediction Risk",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "RiskSource": {
+      "id": "RaceAsPredictorVariable",
+      "中文名称": "种族作为预测变量",
+      "英文名称": "Race as Predictor Variable",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "AISubject": {
+      "id": "UniversityStudents",
+      "中文名称": "大学生",
+      "英文名称": "University Students",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Impact": {
+      "id": "EducationalInequality",
+      "中文名称": "教育不平等",
+      "英文名称": "Educational Inequality",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Domain": {
+      "id": "HigherEducation",
+      "中文名称": "高等教育",
+      "英文名称": "Higher Education",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "StudentSuccessPredictionSystem",
+      "中文名称": "学生成功预测系统",
+      "英文名称": "Student Success Prediction System",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Risk": {
+      "id": "RacialBiasInStudentSuccessPrediction",
+      "中文名称": "学生成功预测中的种族偏见风险",
+      "英文名称": "Racial Bias in Student Success Prediction Risk",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "RiskSource": {
+      "id": "RaceAsPredictorVariable",
+      "中文名称": "种族作为预测变量",
+      "英文名称": "Race as Predictor Variable",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "AISubject": {
+      "id": "UniversityStudents",
+      "中文名称": "大学生",
+      "英文名称": "University Students",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Impact": {
+      "id": "EducationalInequality",
+      "中文名称": "教育不平等",
+      "英文名称": "Educational Inequality",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    },
+    "Domain": {
+      "id": "HigherEducation",
+      "中文名称": "高等教育",
+      "英文名称": "Higher Education",
+      "来源": "Major Universities Are Using Race as a 'High Impact Predictor' of Student Success"
+    }
+  }
+}

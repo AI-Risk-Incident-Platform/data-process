@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews Have Increased by 189% Since the Release of ChatGPT'"
+    },
+    "Risk": {
+      "id": "FakeReviewsRisk",
+      "中文名称": "虚假评论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews Have Increased by 189% Since the Release of ChatGPT'"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews'暗示了消费者可能被误导"
+    },
+    "AICapability": {
+      "id": "TextGenerationCapability",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "标题中提到的'AI-Generated Airline Reviews'表明系统具有生成文本的能力"
+    },
+    "Stakeholder": {
+      "id": "Airlines",
+      "中文名称": "航空公司",
+      "英文名称": "Airlines",
+      "来源": "标题中提到的'Airline Reviews'表明航空公司是受影响的相关方"
+    },
+    "AISubject": {
+      "id": "Consumers",
+      "中文名称": "消费者",
+      "英文名称": "Buyers",
+      "来源": "标题中提到的'Reviews'表明消费者是使用和受影响的群体"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲影响",
+      "英文名称": "Market Impact",
+      "来源": "虚假评论可能导致市场信息失真"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "标题中提到的'AI-Generated'表明系统用于生成内容"
+    },
+    "Domain": {
+      "id": "OnlineReviews",
+      "中文名称": "在线评论领域",
+      "英文名称": "Online Reviews Domain",
+      "来源": "标题中提到的'Airline Reviews'表明应用领域是在线评论"
+    },
+    "AITechnique": {
+      "id": "NLPTech",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "生成评论需要自然语言处理技术"
+    },
+    "Vulnerability": {
+      "id": "ReviewVerificationVulnerability",
+      "中文名称": "评论验证漏洞",
+      "英文名称": "Review Verification Vulnerability",
+      "来源": "标题中提到的'Fake'表明系统存在验证漏洞"
+    },
+    "Threat": {
+      "id": "MisinformationThreat",
+      "中文名称": "虚假信息威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "标题中提到的'Fake'表明存在虚假信息威胁"
+    },
+    "Hazard": {
+      "id": "AIAbuseHazard",
+      "中文名称": "AI滥用危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "标题中提到的'Fake AI-Generated'表明存在AI滥用风险"
+    },
+    "RiskSource": {
+      "id": "AIReviewGeneration",
+      "中文名称": "AI评论生成风险源",
+      "英文名称": "AI Review Generation Risk Source",
+      "来源": "标题中提到的'AI-Generated Airline Reviews'"
+    },
+    "RiskConcept": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀风险概念",
+      "英文名称": "Trust Erosion Risk Concept",
+      "来源": "标题中提到的'Fake'可能导致对AI系统的信任下降"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews Have Increased by 189% Since the Release of ChatGPT'"
+    },
+    "Risk": {
+      "id": "FakeReviewsRisk",
+      "中文名称": "虚假评论风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews Have Increased by 189% Since the Release of ChatGPT'"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "标题中提到的'Fake AI-Generated Airline Reviews'暗示了消费者可能被误导"
+    },
+    "AICapability": {
+      "id": "TextGenerationCapability",
+      "中文名称": "文本生成能力",
+      "英文名称": "Text/Content Generation",
+      "来源": "标题中提到的'AI-Generated Airline Reviews'表明系统具有生成文本的能力"
+    },
+    "Stakeholder": {
+      "id": "Airlines",
+      "中文名称": "航空公司",
+      "英文名称": "Airlines",
+      "来源": "标题中提到的'Airline Reviews'表明航空公司是受影响的相关方"
+    },
+    "AISubject": {
+      "id": "Consumers",
+      "中文名称": "消费者",
+      "英文名称": "Buyers",
+      "来源": "标题中提到的'Reviews'表明消费者是使用和受影响的群体"
+    },
+    "Impact": {
+      "id": "MarketDistortion",
+      "中文名称": "市场扭曲影响",
+      "英文名称": "Market Impact",
+      "来源": "虚假评论可能导致市场信息失真"
+    },
+    "Purpose": {
+      "id": "ContentGeneration",
+      "中文名称": "内容生成目的",
+      "英文名称": "Content Generation",
+      "来源": "标题中提到的'AI-Generated'表明系统用于生成内容"
+    },
+    "Domain": {
+      "id": "OnlineReviews",
+      "中文名称": "在线评论领域",
+      "英文名称": "Online Reviews Domain",
+      "来源": "标题中提到的'Airline Reviews'表明应用领域是在线评论"
+    },
+    "AITechnique": {
+      "id": "NLPTech",
+      "中文名称": "自然语言处理技术",
+      "英文名称": "Text Processing",
+      "来源": "生成评论需要自然语言处理技术"
+    },
+    "Vulnerability": {
+      "id": "ReviewVerificationVulnerability",
+      "中文名称": "评论验证漏洞",
+      "英文名称": "Review Verification Vulnerability",
+      "来源": "标题中提到的'Fake'表明系统存在验证漏洞"
+    },
+    "Threat": {
+      "id": "MisinformationThreat",
+      "中文名称": "虚假信息威胁",
+      "英文名称": "AI-related Misuse and Disinformation Threats",
+      "来源": "标题中提到的'Fake'表明存在虚假信息威胁"
+    },
+    "Hazard": {
+      "id": "AIAbuseHazard",
+      "中文名称": "AI滥用危害",
+      "英文名称": "AI Abuse Hazard",
+      "来源": "标题中提到的'Fake AI-Generated'表明存在AI滥用风险"
+    },
+    "RiskSource": {
+      "id": "AIReviewGeneration",
+      "中文名称": "AI评论生成风险源",
+      "英文名称": "AI Review Generation Risk Source",
+      "来源": "标题中提到的'AI-Generated Airline Reviews'"
+    },
+    "RiskConcept": {
+      "id": "TrustErosion",
+      "中文名称": "信任侵蚀风险概念",
+      "英文名称": "Trust Erosion Risk Concept",
+      "来源": "标题中提到的'Fake'可能导致对AI系统的信任下降"
+    }
+  }
+}

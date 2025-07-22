@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MeetenMalware rdf:type airo:AISystem ;
+    rdfs:label "Meeten Malware"@en ;
+    rdfs:label "Meeten恶意软件"@zh ;
+    airo:hasRisk ex:CryptocurrencyWalletSecurityRisk ;
+    airo:hasCapability ex:CrossPlatformMalwareDistribution ;
+    airo:isAppliedWithinDomain ex:CryptocurrencySecurity .
+
+ex:CryptocurrencyWalletSecurityRisk rdf:type airo:Risk ;
+    rdfs:label "Cryptocurrency Wallet Security Risk"@en ;
+    rdfs:label "加密货币钱包安全风险"@zh ;
+    airo:hasConsequence ex:FinancialLossForCryptoUsers .
+
+ex:CrossPlatformMalwareDistribution rdf:type airo:AICapability ;
+    rdfs:label "Cross-Platform Malware Distribution Capability"@en ;
+    rdfs:label "跨平台恶意软件分发能力"@zh .
+
+ex:CryptocurrencySecurity rdf:type airo:Domain ;
+    rdfs:label "Cryptocurrency Security Domain"@en ;
+    rdfs:label "加密货币安全领域"@zh .
+
+ex:FinancialLossForCryptoUsers rdf:type airo:Impact ;
+    rdfs:label "Financial Loss for Crypto Users Impact"@en ;
+    rdfs:label "加密货币用户经济损失的影响"@zh .

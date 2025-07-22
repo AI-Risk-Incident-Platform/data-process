@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedNewsletters",
+      "中文名称": "AI生成新闻通讯",
+      "英文名称": "AI Generated Newsletters",
+      "来源": "Inside a Network of AI-Generated Newsletters"
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "AI-generated content can spread misinformation"
+    },
+    "Stakeholder": {
+      "id": "NewsConsumers",
+      "中文名称": "新闻消费者",
+      "英文名称": "News Consumers",
+      "来源": "Readers who consume AI-generated newsletters"
+    },
+    "RiskSource": {
+      "id": "AutomatedContentGeneration",
+      "中文名称": "自动化内容生成",
+      "英文名称": "Automated Content Generation",
+      "来源": "AI systems generating news content without human oversight"
+    },
+    "Consequence": {
+      "id": "PublicMisinformation",
+      "中文名称": "公众误信",
+      "英文名称": "Public Misinformation",
+      "来源": "Potential for spreading false information to the public"
+    }
+  }
+}

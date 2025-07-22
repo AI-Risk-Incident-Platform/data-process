@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Autopilot System",
+      "来源": "Tesla driver killed while using autopilot was watching Harry Potter, witness says"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Fatality Risk",
+      "来源": "Tesla driver killed in driverless car crash"
+    },
+    "Consequence": {
+      "id": "DriverFatality",
+      "中文名称": "驾驶员死亡后果",
+      "英文名称": "Driver Fatality Consequence",
+      "来源": "Tesla driver killed while using autopilot was watching Harry Potter, witness says"
+    },
+    "RiskSource": {
+      "id": "DriverDistraction",
+      "中文名称": "驾驶员分心风险源",
+      "英文名称": "Driver Distraction Risk Source",
+      "来源": "Tesla driver killed while using autopilot was watching Harry Potter, witness says"
+    },
+    "Stakeholder": {
+      "id": "TeslaDriver",
+      "中文名称": "特斯拉驾驶员",
+      "英文名称": "Tesla Driver",
+      "来源": "Tesla driver killed in driverless car crash"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员生命损失影响",
+      "英文名称": "Loss of Human Life Impact",
+      "来源": "Tesla driver killed in driverless car crash"
+    },
+    "Purpose": {
+      "id": "AutonomousDrivingAssistance",
+      "中文名称": "自动驾驶辅助目的",
+      "英文名称": "Autonomous Driving Assistance Purpose",
+      "来源": "Tesla driver killed while using autopilot was watching Harry Potter, witness says"
+    },
+    "Domain": {
+      "id": "AutomotiveIndustry",
+      "中文名称": "汽车工业领域",
+      "英文名称": "Automotive Industry Domain",
+      "来源": "Tesla driver killed in driverless car crash"
+    },
+    "AITechnique": {
+      "id": "ComputerVisionBasedAutonomousDriving",
+      "中文名称": "基于计算机视觉的自动驾驶技术",
+      "英文名称": "Computer Vision Based Autonomous Driving Technique",
+      "来源": "Tesla driver killed in driverless car crash"
+    },
+    "Vulnerability": {
+      "id": "HumanMonitoringReliance",
+      "中文名称": "依赖人工监控的脆弱性",
+      "英文名称": "Human Monitoring Reliance Vulnerability",
+      "来源": "Tesla driver killed while using autopilot was watching Harry Potter, witness says"
+    }
+  }
+}

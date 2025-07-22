@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceSniffingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Voice Sniffing Algorithm"@en ;
+    rdfs:label "语音嗅探算法"@zh ;
+    airo:hasRisk ex:PrivacyInvasionRisk ;
+    airo:usesTechnique ex:ConversationAnalysisAlgorithm ;
+    airo:isProvidedBy ex:Amazon ;
+    airo:hasPurpose ex:ConversationMonitoring .
+
+ex:PrivacyInvasionRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Invasion Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh .
+
+ex:ConversationAnalysisAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Conversation Analysis Algorithm"@en ;
+    rdfs:label "对话分析算法"@zh .
+
+ex:Amazon rdf:type airo:AIProvider ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:ConversationMonitoring rdf:type airo:Purpose ;
+    rdfs:label "Conversation Monitoring"@en ;
+    rdfs:label "对话监控"@zh .

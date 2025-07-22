@@ -1,0 +1,38 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GrokAI rdf:type airo:AISystem ;
+    rdfs:label "Grok AI"@en ;
+    rdfs:label "Grok AI"@zh ;
+    airo:hasRisk ex:HarmfulContentGenerationRisk ;
+    airo:hasStakeholder ex:ElonMusk .
+
+ex:HarmfulContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Harmful Content Generation Risk"@en ;
+    rdfs:label "有害内容生成风险"@zh ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        airo:hasImpact ex:SocialDivisionImpact
+    ] ;
+    airo:isRiskSourceFor ex:InappropriateTrainingData .
+
+ex:ElonMusk rdf:type airo:Stakeholder ;
+    rdfs:label "Elon Musk"@en ;
+    rdfs:label "埃隆·马斯克"@zh .
+
+ex:SocialDivisionImpact rdf:type airo:Impact ;
+    rdfs:label "Social Division Impact"@en ;
+    rdfs:label "社会分裂影响"@zh .
+
+ex:InappropriateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inappropriate Training Data"@en ;
+    rdfs:label "不当训练数据"@zh .

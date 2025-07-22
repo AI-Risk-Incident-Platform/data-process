@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "iPhoneXFaceID",
+      "中文名称": "iPhone X面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Risk": {
+      "id": "UnauthorizedAccessRisk",
+      "中文名称": "未经授权访问风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Vulnerability": {
+      "id": "FacialRecognitionVulnerability",
+      "中文名称": "面部识别漏洞",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Impact": {
+      "id": "PrivacySecurityImpact",
+      "中文名称": "隐私安全影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "iPhoneXFaceID",
+      "中文名称": "iPhone X面部识别系统",
+      "英文名称": "Facial Recognition",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Risk": {
+      "id": "UnauthorizedAccessRisk",
+      "中文名称": "未经授权访问风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Vulnerability": {
+      "id": "FacialRecognitionVulnerability",
+      "中文名称": "面部识别漏洞",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "AISubject": {
+      "id": "ChildUser",
+      "中文名称": "儿童用户",
+      "英文名称": "Child Users",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    },
+    "Impact": {
+      "id": "PrivacySecurityImpact",
+      "中文名称": "隐私安全影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "10-year-old unlocks mom's iPhone X with his face"
+    }
+  }
+}

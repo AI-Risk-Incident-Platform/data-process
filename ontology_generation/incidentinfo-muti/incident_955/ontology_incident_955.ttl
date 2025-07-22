@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:InstagramContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Instagram Content Moderation System"@en ;
+    rdfs:label "Instagram内容审核系统"@zh ;
+    airo:hasRisk ex:InappropriateContentExposureRisk ;
+    airo:isDeployedBy ex:Meta ;
+    airo:hasPurpose ex:SocialMediaContentModeration ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform .
+
+ex:InappropriateContentExposureRisk rdf:type airo:Risk ;
+    rdfs:label "Inappropriate Content Exposure Risk"@en ;
+    rdfs:label "不当内容暴露风险"@zh ;
+    airo:hasConsequence ex:UserExposureToGraphicContent ;
+    airo:isRiskSourceFor ex:ContentModerationAlgorithmFailure .
+
+ex:UserExposureToGraphicContent rdf:type airo:Consequence ;
+    rdfs:label "User Exposure to Graphic Content Consequence"@en ;
+    rdfs:label "用户接触血腥内容后果"@zh ;
+    airo:hasImpact ex:UserPsychologicalDistress .
+
+ex:Meta rdf:type airo:AIOperator ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:UserPsychologicalDistress rdf:type airo:Impact ;
+    rdfs:label "User Psychological Distress Impact"@en ;
+    rdfs:label "用户心理困扰影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Meta .
+
+ex:SocialMediaContentModeration rdf:type airo:Purpose ;
+    rdfs:label "Social Media Content Moderation Purpose"@en ;
+    rdfs:label "社交媒体内容审核目的"@zh .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:ContentModerationAlgorithmFailure rdf:type airo:RiskSource ;
+    rdfs:label "Content Moderation Algorithm Failure Risk Source"@en ;
+    rdfs:label "内容审核算法失效风险源"@zh .

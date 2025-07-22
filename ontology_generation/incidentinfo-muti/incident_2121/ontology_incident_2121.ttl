@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:PredpolSystem rdf:type airo:AISystem ;
+    rdfs:label "Predpol System"@en ;
+    rdfs:label "Predpol系统"@zh ;
+    airo:hasRisk ex:RacistPolicingRisk ;
+    airo:hasCapability ex:CrimePredictionAlgorithm ;
+    airo:hasStakeholder ex:PoliceDepartments ;
+    airo:isAppliedWithinDomain ex:LawEnforcement .
+
+ex:RacistPolicingRisk rdf:type airo:Risk ;
+    rdfs:label "Racist Policing Risk"@en ;
+    rdfs:label "种族主义警务风险"@zh ;
+    airo:hasConsequence ex:RacialDiscriminationInLawEnforcement ;
+    airo:isRiskSourceFor ex:BiasedHistoricalCrimeData .
+
+ex:RacialDiscriminationInLawEnforcement rdf:type airo:Consequence ;
+    rdfs:label "Racial Discrimination in Law Enforcement Consequence"@en ;
+    rdfs:label "执法中的种族歧视后果"@zh ;
+    airo:hasImpact ex:CommunityDistrustInLawEnforcement .
+
+ex:CommunityDistrustInLawEnforcement rdf:type airo:Impact ;
+    rdfs:label "Community Distrust in Law Enforcement Impact"@en ;
+    rdfs:label "社区对执法不信任的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliceDepartments .
+
+ex:LawEnforcement rdf:type airo:Domain ;
+    rdfs:label "Law Enforcement Domain"@en ;
+    rdfs:label "执法领域"@zh .
+
+ex:CrimePredictionAlgorithm rdf:type airo:AICapability ;
+    rdfs:label "Crime Prediction Algorithm Capability"@en ;
+    rdfs:label "犯罪预测算法能力"@zh .
+
+ex:BiasedHistoricalCrimeData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Historical Crime Data Risk Source"@en ;
+    rdfs:label "有偏见的历史犯罪数据风险源"@zh .
+
+ex:PoliceDepartments rdf:type airo:Stakeholder ;
+    rdfs:label "Police Departments"@en ;
+    rdfs:label "警察部门"@zh .

@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleSentimentAnalysisAPI",
+      "中文名称": "谷歌情感分析API",
+      "英文名称": "Google Sentiment Analysis API",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInSentimentAnalysis",
+      "中文名称": "情感分析中的算法偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryContentClassification",
+      "中文名称": "歧视性内容分类后果",
+      "英文名称": "Discriminatory Content Classification Consequence",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "AICapability": {
+      "id": "TextSentimentClassification",
+      "中文名称": "文本情感分类能力",
+      "英文名称": "Text Sentiment Classification Capability",
+      "来源": "Google's sentiment analysis API"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Is Sorry its Sentiment Analyzer is Biased"
+    },
+    "Stakeholder": {
+      "id": "LGBTQCommunity",
+      "中文名称": "LGBTQ群体",
+      "英文名称": "LGBTQ Community",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Impact": {
+      "id": "SocialStigmaReinforcement",
+      "中文名称": "社会污名强化的影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Purpose": {
+      "id": "AutomatedContentModeration",
+      "中文名称": "自动化内容审核的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Google's sentiment analysis API"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "sentiment analysis API"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedSentimentAnalysis",
+      "中文名称": "基于机器学习的情感分析技术",
+      "英文名称": "Machine Learning Based Sentiment Analysis Technique",
+      "来源": "Google's sentiment analysis API"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Threat": {
+      "id": "HarmfulStereotypePropagation",
+      "中文名称": "有害刻板印象传播的威胁",
+      "英文名称": "Harmful Stereotype Propagation Threat",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Hazard": {
+      "id": "CulturalBiasInTrainingData",
+      "中文名称": "训练数据中的文化偏见危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "RiskSource": {
+      "id": "LackOfDiverseTrainingData",
+      "中文名称": "缺乏多样化训练数据的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedContentClassification",
+      "中文名称": "自动化内容分类中的伦理问题",
+      "英文名称": "Ethical Issues in Automated Content Classification Risk Concept",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleSentimentAnalysisAPI",
+      "中文名称": "谷歌情感分析API",
+      "英文名称": "Google Sentiment Analysis API",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInSentimentAnalysis",
+      "中文名称": "情感分析中的算法偏见风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Consequence": {
+      "id": "DiscriminatoryContentClassification",
+      "中文名称": "歧视性内容分类后果",
+      "英文名称": "Discriminatory Content Classification Consequence",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "AICapability": {
+      "id": "TextSentimentClassification",
+      "中文名称": "文本情感分类能力",
+      "英文名称": "Text Sentiment Classification Capability",
+      "来源": "Google's sentiment analysis API"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌公司",
+      "英文名称": "Google",
+      "来源": "Google Is Sorry its Sentiment Analyzer is Biased"
+    },
+    "Stakeholder": {
+      "id": "LGBTQCommunity",
+      "中文名称": "LGBTQ群体",
+      "英文名称": "LGBTQ Community",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Impact": {
+      "id": "SocialStigmaReinforcement",
+      "中文名称": "社会污名强化的影响",
+      "英文名称": "Negative Social Impact",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Purpose": {
+      "id": "AutomatedContentModeration",
+      "中文名称": "自动化内容审核的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "Google's sentiment analysis API"
+    },
+    "Domain": {
+      "id": "NaturalLanguageProcessing",
+      "中文名称": "自然语言处理领域",
+      "英文名称": "Natural Language Processing Domain",
+      "来源": "sentiment analysis API"
+    },
+    "AITechnique": {
+      "id": "MachineLearningBasedSentimentAnalysis",
+      "中文名称": "基于机器学习的情感分析技术",
+      "英文名称": "Machine Learning Based Sentiment Analysis Technique",
+      "来源": "Google's sentiment analysis API"
+    },
+    "Vulnerability": {
+      "id": "TrainingDataBias",
+      "中文名称": "训练数据偏差的脆弱性",
+      "英文名称": "Algorithmic & Training Data Bias Vulnerability",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "Threat": {
+      "id": "HarmfulStereotypePropagation",
+      "中文名称": "有害刻板印象传播的威胁",
+      "英文名称": "Harmful Stereotype Propagation Threat",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    },
+    "Hazard": {
+      "id": "CulturalBiasInTrainingData",
+      "中文名称": "训练数据中的文化偏见危害",
+      "英文名称": "Training Data Bias Hazard",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "RiskSource": {
+      "id": "LackOfDiverseTrainingData",
+      "中文名称": "缺乏多样化训练数据的风险源",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "Google's sentiment analysis API is just as biased as humans"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInAutomatedContentClassification",
+      "中文名称": "自动化内容分类中的伦理问题",
+      "英文名称": "Ethical Issues in Automated Content Classification Risk Concept",
+      "来源": "Google’s Sentiment Analyzer Thinks Being Gay Is Bad"
+    }
+  }
+}

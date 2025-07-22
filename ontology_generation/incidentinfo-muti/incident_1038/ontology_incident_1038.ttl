@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AITrainingDataSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Training Data System"@en ;
+    rdfs:label "AI训练数据系统"@zh ;
+    airo:hasRisk ex:DataContaminationRisk ;
+    airo:hasAISubject ex:ScientificPapers ;
+    airo:hasStakeholder ex:ElsevierPublisher .
+
+ex:DataContaminationRisk rdf:type airo:Risk ;
+    rdfs:label "Data Contamination Risk"@en ;
+    rdfs:label "数据污染风险"@zh ;
+    airo:hasConsequence ex:ScientificPaperContamination ;
+    airo:isRiskSourceFor ex:GlitchInTrainingData .
+
+ex:ScientificPaperContamination rdf:type airo:Consequence ;
+    rdfs:label "Scientific Paper Contamination Consequence"@en ;
+    rdfs:label "科学论文污染后果"@zh ;
+    airo:hasImpact ex:AcademicIntegrityCompromise .
+
+ex:GlitchInTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Glitch in Training Data Risk Source"@en ;
+    rdfs:label "训练数据中的故障风险源"@zh .
+
+ex:ElsevierPublisher rdf:type airo:Stakeholder ;
+    rdfs:label "Elsevier Publisher"@en ;
+    rdfs:label "爱思唯尔出版商"@zh .
+
+ex:ScientificPapers rdf:type airo:AISubject ;
+    rdfs:label "Scientific Papers"@en ;
+    rdfs:label "科学论文"@zh .
+
+ex:AcademicIntegrityCompromise rdf:type airo:Impact ;
+    rdfs:label "Academic Integrity Compromise Impact"@en ;
+    rdfs:label "学术诚信受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ElsevierPublisher .

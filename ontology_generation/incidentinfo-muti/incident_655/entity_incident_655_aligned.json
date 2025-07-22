@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookAI",
+      "中文名称": "Facebook人工智能系统",
+      "英文名称": "Facebook AI System",
+      "来源": "Phony Billionaires on Facebook Are Scamming Americans Out of Their Life Savings"
+    },
+    "Risk": {
+      "id": "FinancialScamRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Stakeholder": {
+      "id": "AmericanUsers",
+      "中文名称": "美国用户",
+      "英文名称": "American Users",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Consequence": {
+      "id": "LifeSavingsLoss",
+      "中文名称": "终身储蓄损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Impact": {
+      "id": "FinancialRuin",
+      "中文名称": "财务崩溃影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookAI",
+      "中文名称": "Facebook人工智能系统",
+      "英文名称": "Facebook AI System",
+      "来源": "Phony Billionaires on Facebook Are Scamming Americans Out of Their Life Savings"
+    },
+    "Risk": {
+      "id": "FinancialScamRisk",
+      "中文名称": "金融诈骗风险",
+      "英文名称": "Financial Scam Risk",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Stakeholder": {
+      "id": "AmericanUsers",
+      "中文名称": "美国用户",
+      "英文名称": "American Users",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Consequence": {
+      "id": "LifeSavingsLoss",
+      "中文名称": "终身储蓄损失后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    },
+    "Impact": {
+      "id": "FinancialRuin",
+      "中文名称": "财务崩溃影响",
+      "英文名称": "Financial Loss Impact",
+      "来源": "Scamming Americans Out of Their Life Savings"
+    }
+  }
+}

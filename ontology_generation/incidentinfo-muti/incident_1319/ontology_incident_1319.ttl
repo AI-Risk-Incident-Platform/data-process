@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AirbnbTrustworthyScoreSystem rdf:type airo:AISystem ;
+    rdfs:label "Airbnb Trustworthy Score System"@en ;
+    rdfs:label "Airbnb可信度评分系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:EPICPrivacyGroup .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:isRiskSourceFor ex:SocialMediaDataCollection ;
+    airo:hasConsequence ex:LackOfTransparency .
+
+ex:EPICPrivacyGroup rdf:type airo:Stakeholder ;
+    rdfs:label "EPIC Privacy Group"@en ;
+    rdfs:label "EPIC隐私组织"@zh .
+
+ex:SocialMediaDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Social Media Data Collection"@en ;
+    rdfs:label "社交媒体数据收集"@zh .
+
+ex:LackOfTransparency rdf:type airo:Consequence ;
+    rdfs:label "Lack of Transparency"@en ;
+    rdfs:label "缺乏透明度"@zh ;
+    airo:hasImpactOnStakeholder ex:EPICPrivacyGroup .

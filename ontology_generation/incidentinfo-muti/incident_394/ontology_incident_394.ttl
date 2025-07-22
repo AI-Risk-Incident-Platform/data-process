@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleSearchEngine rdf:type airo:AISystem ;
+    rdfs:label "Google Search Engine"@en ;
+    rdfs:label "谷歌搜索引擎"@zh ;
+    airo:hasRisk ex:AbortionInformationAccessRisk ;
+    airo:isAppliedWithinDomain ex:HealthcareInformation ;
+    airo:hasPurpose ex:InformationRetrieval ;
+    airo:hasAISubject ex:AbortionSeekers ;
+    airo:hasStakeholder ex:GoogleLLC .
+
+ex:AbortionInformationAccessRisk rdf:type airo:Risk ;
+    rdfs:label "Abortion Information Access Risk"@en ;
+    rdfs:label "堕胎信息获取风险"@zh ;
+    airo:isRiskSourceFor ex:SearchAlgorithmBias ;
+    airo:hasConsequence [
+        rdf:type airo:Consequence ;
+        rdfs:label "Consequence of Abortion Information Access Risk"@en ;
+        rdfs:label "堕胎信息获取风险的后果"@zh ;
+        airo:hasImpact ex:LimitedAccessToHealthcareInformation
+    ] .
+
+ex:HealthcareInformation rdf:type airo:Domain ;
+    rdfs:label "Healthcare Information Domain"@en ;
+    rdfs:label "医疗健康信息领域"@zh .
+
+ex:InformationRetrieval rdf:type airo:Purpose ;
+    rdfs:label "Information Retrieval Purpose"@en ;
+    rdfs:label "信息检索目的"@zh .
+
+ex:AbortionSeekers rdf:type airo:AISubject ;
+    rdfs:label "Abortion Seekers"@en ;
+    rdfs:label "寻求堕胎信息者"@zh .
+
+ex:GoogleLLC rdf:type airo:Stakeholder ;
+    rdfs:label "Google LLC"@en ;
+    rdfs:label "谷歌公司"@zh .
+
+ex:SearchAlgorithmBias rdf:type airo:RiskSource ;
+    rdfs:label "Search Algorithm Bias Risk Source"@en ;
+    rdfs:label "搜索算法偏见风险源"@zh .
+
+ex:LimitedAccessToHealthcareInformation rdf:type airo:Impact ;
+    rdfs:label "Limited Access to Healthcare Information Impact"@en ;
+    rdfs:label "医疗信息获取受限影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AbortionSeekers .

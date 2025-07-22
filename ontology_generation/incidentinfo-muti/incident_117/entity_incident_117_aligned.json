@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ShotSpotterSystem",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Risk": {
+      "id": "IneffectiveGunshotDetectionRisk",
+      "中文名称": "枪声检测失效风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "Stakeholder": {
+      "id": "LocalPoliceDepartment",
+      "中文名称": "地方警察部门",
+      "英文名称": "Police Dept",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Consequence": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "AIOperator": {
+      "id": "ShotSpotterCompany",
+      "中文名称": "ShotSpotter公司",
+      "英文名称": "ShotSpotter",
+      "来源": "Troy will turn off ShotSpotter"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ShotSpotterSystem",
+      "中文名称": "ShotSpotter枪声检测系统",
+      "英文名称": "ShotSpotter System",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Risk": {
+      "id": "IneffectiveGunshotDetectionRisk",
+      "中文名称": "枪声检测失效风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "Stakeholder": {
+      "id": "LocalPoliceDepartment",
+      "中文名称": "地方警察部门",
+      "英文名称": "Police Dept",
+      "来源": "San Antonio police cut pricey gunshot detection system"
+    },
+    "Consequence": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "After too many shots missed, Fall River officially ends deal with ShotSpotter"
+    },
+    "AIOperator": {
+      "id": "ShotSpotterCompany",
+      "中文名称": "ShotSpotter公司",
+      "英文名称": "ShotSpotter",
+      "来源": "Troy will turn off ShotSpotter"
+    }
+  }
+}

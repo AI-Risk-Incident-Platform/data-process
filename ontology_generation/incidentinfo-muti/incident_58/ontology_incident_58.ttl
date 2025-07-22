@@ -1,0 +1,83 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AliceVoiceAssistant rdf:type airo:AISystem ;
+    rdfs:label "Alice Voice Assistant"@en ;
+    rdfs:label "Alice语音助手"@zh ;
+    airo:hasRisk ex:SupportingViolenceAndAuthoritarianismRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessingForConversationalAI ;
+    airo:isDeployedBy ex:RussianTechCompany ;
+    airo:hasPurpose ex:ProvidingVoiceAssistantServices ;
+    airo:hasStakeholder ex:RussianUsers ;
+    airo:isAppliedWithinDomain ex:ConsumerTechnology ;
+    airo:usesTechnique ex:NeuralNetworkBasedConversationalModel .
+
+ex:SupportingViolenceAndAuthoritarianismRisk rdf:type airo:Risk ;
+    rdfs:label "Supporting Violence and Authoritarianism Risk"@en ;
+    rdfs:label "支持暴力和威权主义风险"@zh ;
+    airo:hasConsequence ex:PromotionOfHarmfulIdeologies ;
+    airo:isRiskSourceFor ex:InadequateAIAlignment ;
+    airo:isRiskSourceFor ex:BiasedTrainingData ;
+    airo:isRiskSourceFor ex:PropagandaDisseminationThroughAI .
+
+ex:PromotionOfHarmfulIdeologies rdf:type airo:Consequence ;
+    rdfs:label "Promotion of Harmful Ideologies Consequence"@en ;
+    rdfs:label "有害意识形态的传播后果"@zh ;
+    airo:hasImpact ex:SocialHarmFromAIEndorsementOfViolence .
+
+ex:NaturalLanguageProcessingForConversationalAI rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Conversational AI Capability"@en ;
+    rdfs:label "对话AI的自然语言处理能力"@zh .
+
+ex:RussianTechCompany rdf:type airo:AIOperator ;
+    rdfs:label "Russian Tech Company"@en ;
+    rdfs:label "俄罗斯科技公司"@zh .
+
+ex:RussianUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Russian Users"@en ;
+    rdfs:label "俄罗斯用户"@zh .
+
+ex:SocialHarmFromAIEndorsementOfViolence rdf:type airo:Impact ;
+    rdfs:label "Social Harm from AI Endorsement of Violence Impact"@en ;
+    rdfs:label "AI支持暴力导致的社会危害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RussianUsers .
+
+ex:ProvidingVoiceAssistantServices rdf:type airo:Purpose ;
+    rdfs:label "Providing Voice Assistant Services Purpose"@en ;
+    rdfs:label "提供语音助手服务的目的"@zh .
+
+ex:ConsumerTechnology rdf:type airo:Domain ;
+    rdfs:label "Consumer Technology Domain"@en ;
+    rdfs:label "消费科技领域"@zh .
+
+ex:NeuralNetworkBasedConversationalModel rdf:type airo:AITechnique ;
+    rdfs:label "Neural Network Based Conversational Model Technique"@en ;
+    rdfs:label "基于神经网络的对话模型技术"@zh .
+
+ex:InadequateAIAlignment rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate AI Alignment Risk Source"@en ;
+    rdfs:label "AI对齐不足的风险源"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentModeration .
+
+ex:BiasedTrainingData rdf:type airo:Hazard ;
+    rdfs:label "Biased Training Data Hazard"@en ;
+    rdfs:label "有偏见的训练数据危害"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentModeration .
+
+ex:PropagandaDisseminationThroughAI rdf:type airo:Threat ;
+    rdfs:label "Propaganda Dissemination Through AI Threat"@en ;
+    rdfs:label "通过AI传播宣传的威胁"@zh ;
+    airo:exploitsVulnerability ex:LackOfContentModeration .
+
+ex:LackOfContentModeration rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Content Moderation Vulnerability"@en ;
+    rdfs:label "缺乏内容审核的脆弱性"@zh .

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonAlexa rdf:type airo:AISystem ;
+    rdfs:label "Amazon Alexa"@en ;
+    rdfs:label "亚马逊Alexa"@zh ;
+    airo:hasRisk ex:UnintendedPurchaseRisk ;
+    airo:hasAICapability ex:VoiceCommandProcessing ;
+    airo:hasPurpose ex:VoiceControlledShopping ;
+    airo:hasStakeholder ex:AmazonCustomers ;
+    airo:isDeployedBy ex:Amazon ;
+    airo:isAppliedWithinDomain ex:SmartHomeDevices .
+
+ex:UnintendedPurchaseRisk rdf:type airo:Risk ;
+    rdfs:label "Unintended Purchase Risk"@en ;
+    rdfs:label "意外购买风险"@zh ;
+    airo:hasConsequence ex:CustomerAnger ;
+    airo:isRiskSourceFor ex:TVAdvertAudioInterference .
+
+ex:CustomerAnger rdf:type airo:Consequence ;
+    rdfs:label "Customer Anger"@en ;
+    rdfs:label "顾客愤怒"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonCustomers .
+
+ex:VoiceCommandProcessing rdf:type airo:AICapability ;
+    rdfs:label "Voice Command Processing Capability"@en ;
+    rdfs:label "语音命令处理能力"@zh .
+
+ex:TVAdvertAudioInterference rdf:type airo:RiskSource ;
+    rdfs:label "TV Advert Audio Interference"@en ;
+    rdfs:label "电视广告音频干扰"@zh .
+
+ex:AmazonCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Amazon Customers"@en ;
+    rdfs:label "亚马逊客户"@zh .
+
+ex:Amazon rdf:type airo:AIOperator ;
+    rdfs:label "Amazon"@en ;
+    rdfs:label "亚马逊"@zh .
+
+ex:VoiceControlledShopping rdf:type airo:Purpose ;
+    rdfs:label "Voice Controlled Shopping"@en ;
+    rdfs:label "语音控制购物"@zh .
+
+ex:SmartHomeDevices rdf:type airo:Domain ;
+    rdfs:label "Smart Home Devices"@en ;
+    rdfs:label "智能家居设备"@zh .

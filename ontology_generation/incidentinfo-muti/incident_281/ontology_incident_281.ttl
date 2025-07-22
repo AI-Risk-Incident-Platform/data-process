@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CoffeeMeetsBagelDatingApp rdf:type airo:AISystem ;
+    rdfs:label "Coffee Meets Bagel Dating App"@en ;
+    rdfs:label "Coffee Meets Bagel约会应用"@zh ;
+    airo:hasRisk ex:RacialBiasInDatingPreferences ;
+    airo:hasAICapability ex:UserPreferenceAnalysis ;
+    airo:hasPurpose ex:FacilitatingRomanticConnections ;
+    airo:isAppliedWithinDomain ex:OnlineDatingServices ;
+    airo:hasStakeholder ex:DatingAppUsers .
+
+ex:RacialBiasInDatingPreferences rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Dating Preferences Risk"@en ;
+    rdfs:label "约会偏好中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:ReinforcementOfRacialStereotypes ;
+    airo:isRiskSourceFor ex:AlgorithmicAmplificationOfBiases .
+
+ex:UserPreferenceAnalysis rdf:type airo:AICapability ;
+    rdfs:label "User Preference Analysis Capability"@en ;
+    rdfs:label "用户偏好分析能力"@zh .
+
+ex:FacilitatingRomanticConnections rdf:type airo:Purpose ;
+    rdfs:label "Facilitating Romantic Connections Purpose"@en ;
+    rdfs:label "促进浪漫联系的目的"@zh .
+
+ex:OnlineDatingServices rdf:type airo:Domain ;
+    rdfs:label "Online Dating Services Domain"@en ;
+    rdfs:label "在线约会服务领域"@zh .
+
+ex:ReinforcementOfRacialStereotypes rdf:type airo:Consequence ;
+    rdfs:label "Reinforcement of Racial Stereotypes Consequence"@en ;
+    rdfs:label "强化种族刻板印象的后果"@zh ;
+    airo:hasImpact ex:SocialSegregationInDating .
+
+ex:SocialSegregationInDating rdf:type airo:Impact ;
+    rdfs:label "Social Segregation in Dating Impact"@en ;
+    rdfs:label "约会中的社会隔离影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DatingAppUsers .
+
+ex:AlgorithmicAmplificationOfBiases rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Amplification of Biases Risk Source"@en ;
+    rdfs:label "偏见算法放大的风险源"@zh .
+
+ex:DatingAppUsers rdf:type airo:Stakeholder ;
+    rdfs:label "Dating App Users"@en ;
+    rdfs:label "约会应用使用者"@zh .

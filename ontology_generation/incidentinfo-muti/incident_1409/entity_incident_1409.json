@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionTechnology",
+      "中文名称": "面部识别技术",
+      "英文名称": "Facial Recognition Technology",
+      "来源": "I was misidentified as shoplifter by facial recognition tech"
+    },
+    "Risk": {
+      "id": "MisidentificationRisk",
+      "中文名称": "误识别风险",
+      "英文名称": "Misidentification Risk",
+      "来源": "I was misidentified as shoplifter by facial recognition tech"
+    },
+    "Consequence": {
+      "id": "WrongfulDetention",
+      "中文名称": "错误拘留后果",
+      "英文名称": "Wrongful Detention Consequence",
+      "来源": "Anti-knife activist brings legal challenge to Met after he's detained in facial recognition failure"
+    },
+    "AISubject": {
+      "id": "AntiKnifeActivist",
+      "中文名称": "反刀具活动家",
+      "英文名称": "Anti-Knife Activist",
+      "来源": "Anti-knife activist brings legal challenge to Met after he's detained in facial recognition failure"
+    },
+    "Impact": {
+      "id": "LegalChallenges",
+      "中文名称": "法律挑战影响",
+      "英文名称": "Legal Challenges Impact",
+      "来源": "Anti-knife activist brings legal challenge to Met after he's detained in facial recognition failure"
+    },
+    "RiskSource": {
+      "id": "AlgorithmicBias",
+      "中文名称": "算法偏见风险源",
+      "英文名称": "Algorithmic Bias Risk Source",
+      "来源": "I was misidentified as shoplifter by facial recognition tech"
+    }
+  }
+}

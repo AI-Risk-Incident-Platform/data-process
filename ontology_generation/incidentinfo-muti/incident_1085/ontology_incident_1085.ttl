@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WeChatRealtimeImageFilteringSystem rdf:type airo:AISystem ;
+    rdfs:label "微信实时图像过滤系统"@zh ;
+    rdfs:label "WeChat Realtime Image Filtering System"@en ;
+    airo:hasRisk ex:UnintendedUserDataTrainingRisk ;
+    airo:hasAISubject ex:UserGeneratedImages ;
+    airo:usesTechnique ex:RealtimeImageFiltering ;
+    airo:hasStakeholder ex:WeChatUsers .
+
+ex:UnintendedUserDataTrainingRisk rdf:type airo:Risk ;
+    rdfs:label "用户数据无意训练风险"@zh ;
+    rdfs:label "Unintended User Data Training Risk"@en ;
+    airo:hasConsequence ex:PrivacyConcernsFromUnintendedTraining .
+
+ex:WeChatUsers rdf:type airo:Stakeholder ;
+    rdfs:label "微信用户"@zh ;
+    rdfs:label "WeChat Users"@en .
+
+ex:UserGeneratedImages rdf:type airo:AISubject ;
+    rdfs:label "用户生成图像"@zh ;
+    rdfs:label "User Generated Images"@en .
+
+ex:RealtimeImageFiltering rdf:type airo:AITechnique ;
+    rdfs:label "实时图像过滤技术"@zh ;
+    rdfs:label "Realtime Image Filtering Technique"@en .
+
+ex:PrivacyConcernsFromUnintendedTraining rdf:type airo:Consequence ;
+    rdfs:label "无意训练导致的隐私问题后果"@zh ;
+    rdfs:label "Privacy Concerns from Unintended Training Consequence"@en .

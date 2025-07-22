@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIVoiceCloningSystem rdf:type airo:AISystem ;
+    rdfs:label "AI Voice Cloning System"@en ;
+    rdfs:label "AI语音克隆系统"@zh ;
+    airo:hasRisk ex:LivelihoodThreatRisk ;
+    airo:hasAISubject ex:HumanVoicePerformers ;
+    airo:hasStakeholder ex:VoiceActors .
+
+ex:LivelihoodThreatRisk rdf:type airo:Risk ;
+    rdfs:label "Livelihood Threat Risk"@en ;
+    rdfs:label "生计威胁风险"@zh ;
+    airo:hasConsequence ex:JobDisplacement ;
+    airo:isRiskSourceFor ex:VoiceCloningTechnology .
+
+ex:VoiceActors rdf:type airo:Stakeholder ;
+    rdfs:label "Voice Actors"@en ;
+    rdfs:label "配音演员"@zh .
+
+ex:EconomicImpactOnPerformers rdf:type airo:Impact ;
+    rdfs:label "Economic Impact on Performers"@en ;
+    rdfs:label "对表演者的经济影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VoiceActors .
+
+ex:HumanVoicePerformers rdf:type airo:AISubject ;
+    rdfs:label "Human Voice Performers"@en ;
+    rdfs:label "人类声音表演者"@zh .
+
+ex:VoiceCloningTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Voice Cloning Technology"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:JobDisplacement rdf:type airo:Consequence ;
+    rdfs:label "Job Displacement"@en ;
+    rdfs:label "工作替代"@zh ;
+    airo:hasImpact ex:EconomicImpactOnPerformers .

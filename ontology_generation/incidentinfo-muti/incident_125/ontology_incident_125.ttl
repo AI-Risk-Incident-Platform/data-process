@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:XsollaEmployeeProductivityAI rdf:type airo:AISystem ;
+    rdfs:label "Xsolla Employee Productivity AI System"@en ;
+    rdfs:label "Xsolla员工生产力AI系统"@zh ;
+    airo:hasRisk ex:UnfairEmployeeTerminationRisk ;
+    airo:hasPurpose ex:EmployeeProductivityEvaluation ;
+    airo:hasStakeholder ex:XsollaEmployees ;
+    airo:isDeployedBy ex:XsollaCompany ;
+    airo:isAppliedWithinDomain ex:HumanResourceManagement .
+
+ex:UnfairEmployeeTerminationRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Employee Termination Risk"@en ;
+    rdfs:label "不公平员工解雇风险"@zh ;
+    airo:hasConsequence ex:EmployeeJobLoss .
+
+ex:XsollaEmployees rdf:type airo:Stakeholder ;
+    rdfs:label "Xsolla Employees"@en ;
+    rdfs:label "Xsolla员工"@zh .
+
+ex:XsollaCompany rdf:type airo:AIOperator ;
+    rdfs:label "Xsolla Company"@en ;
+    rdfs:label "Xsolla公司"@zh .
+
+ex:EmployeeJobLoss rdf:type airo:Consequence ;
+    rdfs:label "Employee Job Loss Consequence"@en ;
+    rdfs:label "员工失业后果"@zh ;
+    airo:hasImpact ex:NegativePublicPerception .
+
+ex:NegativePublicPerception rdf:type airo:Impact ;
+    rdfs:label "Negative Public Perception Impact"@en ;
+    rdfs:label "负面公众认知影响"@zh ;
+    airo:hasImpactOnStakeholder ex:XsollaEmployees .
+
+ex:EmployeeProductivityEvaluation rdf:type airo:Purpose ;
+    rdfs:label "Employee Productivity Evaluation Purpose"@en ;
+    rdfs:label "员工生产力评估目的"@zh .
+
+ex:HumanResourceManagement rdf:type airo:Domain ;
+    rdfs:label "Human Resource Management Domain"@en ;
+    rdfs:label "人力资源管理领域"@zh .

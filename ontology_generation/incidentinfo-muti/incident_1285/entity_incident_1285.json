@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonAlexaVoiceAssistant",
+      "中文名称": "亚马逊Alexa语音助手",
+      "英文名称": "Amazon Alexa Voice Assistant",
+      "来源": "'Alexa, how should I vote?': rightwing uproar over voice assistant's pro-Kamala Harris points"
+    },
+    "Risk": {
+      "id": "PoliticalBiasInAIResponses",
+      "中文名称": "AI回应中的政治偏见风险",
+      "英文名称": "Political Bias in AI Responses Risk",
+      "来源": "rightwing uproar over voice assistant's pro-Kamala Harris points"
+    },
+    "Stakeholder": {
+      "id": "LindseyGraham",
+      "中文名称": "林赛·格雷厄姆",
+      "英文名称": "Lindsey Graham",
+      "来源": "Lindsey Graham blasts Amazon over Alexa's pro-Harris bias"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Lindsey Graham blasts Amazon over Alexa's pro-Harris bias"
+    },
+    "Consequence": {
+      "id": "PublicDistrustInAI",
+      "中文名称": "公众对AI的不信任后果",
+      "英文名称": "Public Distrust in AI Consequence",
+      "来源": "rightwing uproar over voice assistant's pro-Kamala Harris points"
+    },
+    "Impact": {
+      "id": "PoliticalPolarization",
+      "中文名称": "政治两极分化的影响",
+      "英文名称": "Political Polarization Impact",
+      "来源": "Does Amazon's Alexa favor Kamala Harris over Donald Trump? Here's all about the big fuss"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "'Alexa, how should I vote?'"
+    },
+    "AICapability": {
+      "id": "VoiceResponseGeneration",
+      "中文名称": "语音回应生成能力",
+      "英文名称": "Voice Response Generation Capability",
+      "来源": "'Alexa, how should I vote?'"
+    }
+  }
+}

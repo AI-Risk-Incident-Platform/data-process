@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WaymoDriverlessTaxi",
+      "中文名称": "Waymo无人驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "Risk": {
+      "id": "PassengerSafetyRisk",
+      "中文名称": "乘客安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Woman's driverless taxi blocked by men demanding her number"
+    },
+    "Consequence": {
+      "id": "PhysicalThreatToPassenger",
+      "中文名称": "乘客人身威胁后果",
+      "英文名称": "Physical Damage Consequence",
+      "来源": "Viral video captures men trapping woman in Waymo"
+    },
+    "Stakeholder": {
+      "id": "FemalePassengers",
+      "中文名称": "女性乘客",
+      "英文名称": "Female Passengers",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "'Scary': Woman's driverless taxi blocked by men demanding her number"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanInterventionMechanism",
+      "中文名称": "缺乏人工干预机制的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "RiskSource": {
+      "id": "HumanMaliciousBehavior",
+      "中文名称": "人类恶意行为风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Viral video captures men trapping woman in Waymo"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "WaymoDriverlessTaxi",
+      "中文名称": "Waymo无人驾驶出租车",
+      "英文名称": "Waymo Self-driving Taxis",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "Risk": {
+      "id": "PassengerSafetyRisk",
+      "中文名称": "乘客安全风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Woman's driverless taxi blocked by men demanding her number"
+    },
+    "Consequence": {
+      "id": "PhysicalThreatToPassenger",
+      "中文名称": "乘客人身威胁后果",
+      "英文名称": "Physical Damage Consequence",
+      "来源": "Viral video captures men trapping woman in Waymo"
+    },
+    "Stakeholder": {
+      "id": "FemalePassengers",
+      "中文名称": "女性乘客",
+      "英文名称": "Female Passengers",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "AIOperator": {
+      "id": "Waymo",
+      "中文名称": "Waymo公司",
+      "英文名称": "Waymo",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "Impact": {
+      "id": "PsychologicalDistress",
+      "中文名称": "心理困扰影响",
+      "英文名称": "Psychological Distress Impact",
+      "来源": "'Scary': Woman's driverless taxi blocked by men demanding her number"
+    },
+    "Vulnerability": {
+      "id": "LackOfHumanInterventionMechanism",
+      "中文名称": "缺乏人工干预机制的脆弱性",
+      "英文名称": "Content & Verification Deficiency",
+      "来源": "Woman trapped in Waymo by catcallers raises safety concerns"
+    },
+    "RiskSource": {
+      "id": "HumanMaliciousBehavior",
+      "中文名称": "人类恶意行为风险源",
+      "英文名称": "Malicious Actor Risk",
+      "来源": "Viral video captures men trapping woman in Waymo"
+    }
+  }
+}

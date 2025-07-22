@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FoodinhoAlgorithmicManagementSystem",
+      "中文名称": "Foodinho算法管理系统",
+      "英文名称": "Foodinho Algorithmic Management System",
+      "来源": "Italy’s DPA fines Glovo-owned Foodinho €3M, orders changes to algorithmic management of riders"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInRiderManagement",
+      "中文名称": "骑手管理中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Rider Management Risk",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护局",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "AIOperator": {
+      "id": "Glovo",
+      "中文名称": "Glovo",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Italy’s DPA fines Glovo-owned Foodinho €3M"
+    },
+    "Consequence": {
+      "id": "UnfairTreatmentOfRiders",
+      "中文名称": "骑手不公平待遇后果",
+      "英文名称": "Unfair Treatment of Riders Consequence",
+      "来源": "orders changes to algorithmic management of riders"
+    },
+    "Impact": {
+      "id": "ViolationOfWorkerRights",
+      "中文名称": "工人权利侵犯的影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "Domain": {
+      "id": "FoodDeliveryPlatform",
+      "中文名称": "食品配送平台领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Glovo-owned Foodinho"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicDecisionMaking",
+      "中文名称": "有偏见的算法决策风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Italian DPA cites biased tech"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FoodinhoAlgorithmicManagementSystem",
+      "中文名称": "Foodinho算法管理系统",
+      "英文名称": "Foodinho Algorithmic Management System",
+      "来源": "Italy’s DPA fines Glovo-owned Foodinho €3M, orders changes to algorithmic management of riders"
+    },
+    "Risk": {
+      "id": "AlgorithmicBiasInRiderManagement",
+      "中文名称": "骑手管理中的算法偏见风险",
+      "英文名称": "Algorithmic Bias in Rider Management Risk",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "Stakeholder": {
+      "id": "ItalianDataProtectionAuthority",
+      "中文名称": "意大利数据保护局",
+      "英文名称": "Italian Privacy Authority",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "AIOperator": {
+      "id": "Glovo",
+      "中文名称": "Glovo",
+      "英文名称": "Food Delivery Provider",
+      "来源": "Italy’s DPA fines Glovo-owned Foodinho €3M"
+    },
+    "Consequence": {
+      "id": "UnfairTreatmentOfRiders",
+      "中文名称": "骑手不公平待遇后果",
+      "英文名称": "Unfair Treatment of Riders Consequence",
+      "来源": "orders changes to algorithmic management of riders"
+    },
+    "Impact": {
+      "id": "ViolationOfWorkerRights",
+      "中文名称": "工人权利侵犯的影响",
+      "英文名称": "Economic Impact on Workers and Artists",
+      "来源": "Italian DPA cites biased tech in $3.1M GDPR fine"
+    },
+    "Domain": {
+      "id": "FoodDeliveryPlatform",
+      "中文名称": "食品配送平台领域",
+      "英文名称": "Food Delivery Domain",
+      "来源": "Glovo-owned Foodinho"
+    },
+    "RiskSource": {
+      "id": "BiasedAlgorithmicDecisionMaking",
+      "中文名称": "有偏见的算法决策风险源",
+      "英文名称": "Algorithmic Bias & Deficiency Risk",
+      "来源": "Italian DPA cites biased tech"
+    }
+  }
+}

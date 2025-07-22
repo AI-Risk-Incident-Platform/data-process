@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MetaAI",
+      "中文名称": "Meta人工智能",
+      "英文名称": "Meta AI",
+      "来源": "Meta using Instagram and Facebook posts from as far back as 2007 to train artificial intelligence tools"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    },
+    "Stakeholder": {
+      "id": "InstagramArtists",
+      "中文名称": "Instagram艺术家",
+      "英文名称": "Instagram Artists",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Plans to use Facebook and Instagram posts to train AI criticised"
+    },
+    "AITechnique": {
+      "id": "DataScraping",
+      "中文名称": "数据抓取技术",
+      "英文名称": "Data Scraping",
+      "来源": "Meta using Instagram and Facebook posts from as far back as 2007 to train artificial intelligence tools"
+    },
+    "RiskSource": {
+      "id": "UserDataCollectionWithoutConsent",
+      "中文名称": "未经同意的用户数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Plans to use Facebook and Instagram posts to train AI criticised"
+    },
+    "Impact": {
+      "id": "ArtistContentMisappropriation",
+      "中文名称": "艺术家内容被挪用影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "MetaAI",
+      "中文名称": "Meta人工智能",
+      "英文名称": "Meta AI",
+      "来源": "Meta using Instagram and Facebook posts from as far back as 2007 to train artificial intelligence tools"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    },
+    "Stakeholder": {
+      "id": "InstagramArtists",
+      "中文名称": "Instagram艺术家",
+      "英文名称": "Instagram Artists",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    },
+    "AIOperator": {
+      "id": "Meta",
+      "中文名称": "Meta公司",
+      "英文名称": "Meta",
+      "来源": "Plans to use Facebook and Instagram posts to train AI criticised"
+    },
+    "AITechnique": {
+      "id": "DataScraping",
+      "中文名称": "数据抓取技术",
+      "英文名称": "Data Scraping",
+      "来源": "Meta using Instagram and Facebook posts from as far back as 2007 to train artificial intelligence tools"
+    },
+    "RiskSource": {
+      "id": "UserDataCollectionWithoutConsent",
+      "中文名称": "未经同意的用户数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "Plans to use Facebook and Instagram posts to train AI criticised"
+    },
+    "Impact": {
+      "id": "ArtistContentMisappropriation",
+      "中文名称": "艺术家内容被挪用影响",
+      "英文名称": "IP Violation Impact",
+      "来源": "Artists are fleeing Instagram to keep their work out of Meta's AI"
+    }
+  }
+}

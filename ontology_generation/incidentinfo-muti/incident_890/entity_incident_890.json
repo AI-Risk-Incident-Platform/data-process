@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeAdScamSystem",
+      "中文名称": "深度伪造广告诈骗系统",
+      "英文名称": "Deepfake Ad Scam System",
+      "来源": "Doctor Targeted by Deepfake Ad Scam"
+    },
+    "Risk": {
+      "id": "MedicalMisinformationRisk",
+      "中文名称": "医疗错误信息风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Diabetes expert alarmed fake news scam uses AI image urging patients to abandon medication"
+    },
+    "Consequence": {
+      "id": "PatientHealthRisk",
+      "中文名称": "患者健康风险后果",
+      "英文名称": "Patient Health Risk Consequence",
+      "来源": "urging patients to abandon medication"
+    },
+    "AITechnique": {
+      "id": "DeepfakeImageGeneration",
+      "中文名称": "深度伪造图像生成技术",
+      "英文名称": "Deepfake Image Generation Technique",
+      "来源": "uses AI image"
+    },
+    "Stakeholder": {
+      "id": "MedicalProfessionals",
+      "中文名称": "医疗专业人员",
+      "英文名称": "Medical Professionals",
+      "来源": "Diabetes expert alarmed"
+    },
+    "AISubject": {
+      "id": "PatientsWithChronicConditions",
+      "中文名称": "慢性病患者",
+      "英文名称": "Patients with Chronic Conditions",
+      "来源": "urging patients to abandon medication"
+    },
+    "Impact": {
+      "id": "WorseningHealthConditions",
+      "中文名称": "健康状况恶化影响",
+      "英文名称": "Worsening Health Conditions Impact",
+      "来源": "urging patients to abandon medication"
+    },
+    "Purpose": {
+      "id": "DeceptiveAdvertising",
+      "中文名称": "欺骗性广告目的",
+      "英文名称": "Deceptive Advertising Purpose",
+      "来源": "fake news scam"
+    },
+    "Domain": {
+      "id": "HealthcareAdvertising",
+      "中文名称": "医疗保健广告领域",
+      "英文名称": "Healthcare Advertising Domain",
+      "来源": "Diabetes expert alarmed fake news scam"
+    },
+    "RiskSource": {
+      "id": "AIgeneratedMisinformation",
+      "中文名称": "AI生成错误信息风险源",
+      "英文名称": "AI-generated Misinformation Risk Source",
+      "来源": "fake news scam uses AI image"
+    }
+  }
+}

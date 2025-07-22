@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AnyVisionFacialRecognitionSystem",
+      "中文名称": "AnyVision面部识别系统",
+      "英文名称": "AnyVision Facial Recognition System",
+      "来源": "Microsoft: Here's why we're withdrawing our stake in facial-recognition startup AnyVision"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInFacialRecognition",
+      "中文名称": "面部识别中的伦理问题风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Microsoft divests from Israeli facial-recognition startup"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft: Here's why we're withdrawing our stake in facial-recognition startup AnyVision"
+    },
+    "AIOperator": {
+      "id": "AnyVision",
+      "中文名称": "AnyVision公司",
+      "英文名称": "AnyVision",
+      "来源": "Microsoft divests from Israeli facial-recognition startup"
+    },
+    "AISubject": {
+      "id": "PalestinianCitizens",
+      "中文名称": "巴勒斯坦公民",
+      "英文名称": "Palestinian Citizens",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast, But Raises Concerns"
+    },
+    "Impact": {
+      "id": "PrivacyViolationConcerns",
+      "中文名称": "隐私侵犯担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast, But Raises Concerns"
+    },
+    "Purpose": {
+      "id": "BorderControlEfficiency",
+      "中文名称": "提高边境控制效率的目的",
+      "英文名称": "Immigration Process Efficiency Purpose",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast"
+    },
+    "Domain": {
+      "id": "BorderSecurity",
+      "中文名称": "边境安全领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AnyVisionFacialRecognitionSystem",
+      "中文名称": "AnyVision面部识别系统",
+      "英文名称": "AnyVision Facial Recognition System",
+      "来源": "Microsoft: Here's why we're withdrawing our stake in facial-recognition startup AnyVision"
+    },
+    "Risk": {
+      "id": "EthicalConcernsInFacialRecognition",
+      "中文名称": "面部识别中的伦理问题风险",
+      "英文名称": "Facial & Biometric Risk",
+      "来源": "Microsoft divests from Israeli facial-recognition startup"
+    },
+    "Stakeholder": {
+      "id": "MicrosoftCorporation",
+      "中文名称": "微软公司",
+      "英文名称": "Microsoft Corporation",
+      "来源": "Microsoft: Here's why we're withdrawing our stake in facial-recognition startup AnyVision"
+    },
+    "AIOperator": {
+      "id": "AnyVision",
+      "中文名称": "AnyVision公司",
+      "英文名称": "AnyVision",
+      "来源": "Microsoft divests from Israeli facial-recognition startup"
+    },
+    "AISubject": {
+      "id": "PalestinianCitizens",
+      "中文名称": "巴勒斯坦公民",
+      "英文名称": "Palestinian Citizens",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast, But Raises Concerns"
+    },
+    "Impact": {
+      "id": "PrivacyViolationConcerns",
+      "中文名称": "隐私侵犯担忧的影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast, But Raises Concerns"
+    },
+    "Purpose": {
+      "id": "BorderControlEfficiency",
+      "中文名称": "提高边境控制效率的目的",
+      "英文名称": "Immigration Process Efficiency Purpose",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast"
+    },
+    "Domain": {
+      "id": "BorderSecurity",
+      "中文名称": "边境安全领域",
+      "英文名称": "Immigration & Border Control",
+      "来源": "Face Recognition Lets Palestinians Cross Israeli Checkposts Fast"
+    }
+  }
+}

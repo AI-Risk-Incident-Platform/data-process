@@ -1,0 +1,58 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GooglePatientRecordsMiningSystem",
+      "中文名称": "谷歌患者记录挖掘系统",
+      "英文名称": "Google Patient Records Mining System",
+      "来源": "Google strikes deal with HCA Healthcare to mine patient records to develop algorithms"
+    },
+    "Risk": {
+      "id": "PatientPrivacyRisk",
+      "中文名称": "患者隐私风险",
+      "英文名称": "Patient Privacy Risk",
+      "来源": "Privacy laws need updating after Google deal with HCA Healthcare"
+    },
+    "Stakeholder": {
+      "id": "HCAHealthcare",
+      "中文名称": "HCA医疗集团",
+      "英文名称": "HCA Healthcare",
+      "来源": "Google strikes deal with HCA Healthcare to mine patient records"
+    },
+    "AIOperator": {
+      "id": "Google",
+      "中文名称": "谷歌",
+      "英文名称": "Google",
+      "来源": "Google strikes deal with HCA Healthcare"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗健康领域",
+      "英文名称": "Healthcare Domain",
+      "来源": "Google strikes deal with HCA Healthcare to mine patient records"
+    },
+    "Purpose": {
+      "id": "AlgorithmDevelopment",
+      "中文名称": "算法开发目的",
+      "英文名称": "Algorithm Development Purpose",
+      "来源": "to mine patient records to develop algorithms"
+    },
+    "RiskSource": {
+      "id": "DataSharingAgreement",
+      "中文名称": "数据共享协议风险源",
+      "英文名称": "Data Sharing Agreement Risk Source",
+      "来源": "Google strikes deal with HCA Healthcare to mine patient records"
+    },
+    "Impact": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯影响",
+      "英文名称": "Privacy Violation Impact",
+      "来源": "Privacy laws need updating after Google deal with HCA Healthcare"
+    },
+    "RiskControl": {
+      "id": "PrivacyLawUpdate",
+      "中文名称": "隐私法更新管控",
+      "英文名称": "Privacy Law Update Control",
+      "来源": "Privacy laws need updating after Google deal with HCA Healthcare"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeTechnology rdf:type airo:AISystem ;
+    rdfs:label "深度伪造技术"@zh ;
+    rdfs:label "Deepfake Technology"@en ;
+    airo:hasRisk ex:IdentityMisuseRisk ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasPurpose ex:DigitalReplacementOfActors ;
+    airo:hasStakeholder ex:BruceWillis ;
+    airo:isAppliedWithinDomain ex:EntertainmentIndustry .
+
+ex:IdentityMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "身份滥用风险"@zh ;
+    rdfs:label "Identity Misuse Risk"@en ;
+    airo:hasConsequence ex:UnauthorizedCelebrityImageUse .
+
+ex:UnauthorizedCelebrityImageUse rdf:type airo:Consequence ;
+    rdfs:label "未经授权的名人形象使用后果"@zh ;
+    rdfs:label "Unauthorized Celebrity Image Use Consequence"@en ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "声誉损害影响"@zh ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    airo:hasImpactOnStakeholder ex:BruceWillis .
+
+ex:BruceWillis rdf:type airo:Stakeholder ;
+    rdfs:label "布鲁斯·威利斯"@zh ;
+    rdfs:label "Bruce Willis"@en .
+
+ex:EntertainmentIndustry rdf:type airo:Domain ;
+    rdfs:label "娱乐产业"@zh ;
+    rdfs:label "Entertainment Industry"@en .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "生成对抗网络技术"@zh ;
+    rdfs:label "Generative Adversarial Networks Technique"@en .
+
+ex:DigitalReplacementOfActors rdf:type airo:Purpose ;
+    rdfs:label "演员数字替换目的"@zh ;
+    rdfs:label "Digital Replacement of Actors Purpose"@en .

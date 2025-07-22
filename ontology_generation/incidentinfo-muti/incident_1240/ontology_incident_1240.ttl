@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIHardwareProduction rdf:type airo:AISystem ;
+    rdfs:label "AI Hardware Production"@en ;
+    rdfs:label "AI硬件生产"@zh ;
+    airo:hasRisk ex:ElectronicWastePollutionRisk ;
+    airo:isAppliedWithinDomain ex:TechnologyManufacturing ;
+    airo:hasStakeholder ex:EnvironmentalProtectionAgencies .
+
+ex:ElectronicWastePollutionRisk rdf:type airo:Risk ;
+    rdfs:label "Electronic Waste Pollution Risk"@en ;
+    rdfs:label "电子废物污染风险"@zh ;
+    airo:hasConsequence ex:EnvironmentalPollution ;
+    airo:isRiskSourceFor ex:RapidAIHardwareReplacement .
+
+ex:EnvironmentalPollution rdf:type airo:Consequence ;
+    rdfs:label "Environmental Pollution Consequence"@en ;
+    rdfs:label "环境污染后果"@zh ;
+    airo:hasImpact ex:EcosystemDamage .
+
+ex:EcosystemDamage rdf:type airo:Impact ;
+    rdfs:label "Ecosystem Damage Impact"@en ;
+    rdfs:label "生态系统破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:EnvironmentalProtectionAgencies .
+
+ex:TechnologyManufacturing rdf:type airo:Domain ;
+    rdfs:label "Technology Manufacturing Domain"@en ;
+    rdfs:label "技术制造业领域"@zh .
+
+ex:EnvironmentalProtectionAgencies rdf:type airo:Stakeholder ;
+    rdfs:label "Environmental Protection Agencies"@en ;
+    rdfs:label "环境保护机构"@zh .
+
+ex:RapidAIHardwareReplacement rdf:type airo:RiskSource ;
+    rdfs:label "Rapid AI Hardware Replacement Risk Source"@en ;
+    rdfs:label "AI硬件快速更替风险源"@zh .

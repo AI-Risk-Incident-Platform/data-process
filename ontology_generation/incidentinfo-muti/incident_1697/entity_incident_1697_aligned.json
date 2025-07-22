@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepFakeCampaignSystem",
+      "中文名称": "深度伪造宣传活动系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Stakeholder": {
+      "id": "TurkishPresidentialCandidate",
+      "中文名称": "土耳其总统候选人",
+      "英文名称": "Turkish Presidential Candidate",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "AIOperator": {
+      "id": "RussianGovernment",
+      "中文名称": "俄罗斯政府",
+      "英文名称": "Russian Government",
+      "来源": "Kremlin 'strongly' denies Kılıçdaroğlu's accusations of meddling in vote"
+    },
+    "AITechnique": {
+      "id": "DeepFakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "RiskSource": {
+      "id": "ForeignGovernmentIntervention",
+      "中文名称": "外国政府干预风险源",
+      "英文名称": "Foreign Government Intervention Risk Source",
+      "来源": "Erdogan rival says has evidence of Russia's online campaign ahead of Turkey election"
+    },
+    "Consequence": {
+      "id": "UnderminedElectionIntegrity",
+      "中文名称": "选举公正性受损后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepFakeCampaignSystem",
+      "中文名称": "深度伪造宣传活动系统",
+      "英文名称": "AI Disinformation System",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Stakeholder": {
+      "id": "TurkishPresidentialCandidate",
+      "中文名称": "土耳其总统候选人",
+      "英文名称": "Turkish Presidential Candidate",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "AIOperator": {
+      "id": "RussianGovernment",
+      "中文名称": "俄罗斯政府",
+      "英文名称": "Russian Government",
+      "来源": "Kremlin 'strongly' denies Kılıçdaroğlu's accusations of meddling in vote"
+    },
+    "AITechnique": {
+      "id": "DeepFakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Election Domain",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    },
+    "RiskSource": {
+      "id": "ForeignGovernmentIntervention",
+      "中文名称": "外国政府干预风险源",
+      "英文名称": "Foreign Government Intervention Risk Source",
+      "来源": "Erdogan rival says has evidence of Russia's online campaign ahead of Turkey election"
+    },
+    "Consequence": {
+      "id": "UnderminedElectionIntegrity",
+      "中文名称": "选举公正性受损后果",
+      "英文名称": "Election Manipulation Consequences",
+      "来源": "Erdogan rival accuses Russia of 'deep fake' campaign ahead of presidential vote"
+    }
+  }
+}

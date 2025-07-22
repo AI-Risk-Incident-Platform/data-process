@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChildAbusePredictionProgram rdf:type airo:AISystem ;
+    rdfs:label "Child Abuse Prediction Program"@en ;
+    rdfs:label "儿童虐待预测程序"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInChildWelfare ;
+    airo:hasStakeholder ex:IllinoisChildWelfareDepartment ;
+    airo:isAppliedWithinDomain ex:ChildProtectionServices ;
+    airo:hasPurpose ex:IdentifyingAtRiskChildren .
+
+ex:AlgorithmicBiasInChildWelfare rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Child Welfare Risk"@en ;
+    rdfs:label "儿童福利中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnjustChildRemoval ;
+    airo:isRiskSourceFor ex:BiasedHistoricalData .
+
+ex:IllinoisChildWelfareDepartment rdf:type airo:Stakeholder ;
+    rdfs:label "Illinois Child Welfare Department"@en ;
+    rdfs:label "伊利诺伊州儿童福利部门"@zh .
+
+ex:ChildProtectionServices rdf:type airo:Domain ;
+    rdfs:label "Child Protection Services Domain"@en ;
+    rdfs:label "儿童保护服务领域"@zh .
+
+ex:IdentifyingAtRiskChildren rdf:type airo:Purpose ;
+    rdfs:label "Identifying At-Risk Children Purpose"@en ;
+    rdfs:label "识别高危儿童的目的"@zh .
+
+ex:UnjustChildRemoval rdf:type airo:Consequence ;
+    rdfs:label "Unjust Child Removal Consequence"@en ;
+    rdfs:label "不公正儿童移除后果"@zh ;
+    airo:hasImpact ex:FamilyDisruption .
+
+ex:FamilyDisruption rdf:type airo:Impact ;
+    rdfs:label "Family Disruption Impact"@en ;
+    rdfs:label "家庭破裂的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IllinoisChildWelfareDepartment .
+
+ex:BiasedHistoricalData rdf:type airo:RiskSource ;
+    rdfs:label "Biased Historical Data Risk Source"@en ;
+    rdfs:label "有偏见的历史数据风险源"@zh .

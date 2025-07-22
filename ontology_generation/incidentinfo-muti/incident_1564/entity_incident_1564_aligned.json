@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIPoweredDriveThruSystem",
+      "中文名称": "AI驱动的免下车服务系统",
+      "英文名称": "AI-Powered Drive-Thru System",
+      "来源": "AI-Powered Drive-Thru Is Actually Run Almost Fully by Humans"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Busted! Drive-Thru Run by \"AI\" Actually Operated by Humans in the Philippines"
+    },
+    "Stakeholder": {
+      "id": "FastFoodCustomers",
+      "中文名称": "快餐顾客",
+      "英文名称": "Fast Food Customers",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    },
+    "AIOperator": {
+      "id": "PhilippinesHumanWorkers",
+      "中文名称": "菲律宾人工操作员",
+      "英文名称": "Philippines Human Workers",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    },
+    "Misuse": {
+      "id": "FalseMarketingOfAISystems",
+      "中文名称": "AI系统虚假营销",
+      "英文名称": "False Marketing of AI Systems",
+      "来源": "Busted! Drive-Thru Run by \"AI\" Actually Operated by Humans in the Philippines"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-Powered Drive-Thru Is Actually Run Almost Fully by Humans"
+    },
+    "Impact": {
+      "id": "LossOfTrustInAITechnology",
+      "中文名称": "AI技术信任丧失影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIPoweredDriveThruSystem",
+      "中文名称": "AI驱动的免下车服务系统",
+      "英文名称": "AI-Powered Drive-Thru System",
+      "来源": "AI-Powered Drive-Thru Is Actually Run Almost Fully by Humans"
+    },
+    "Risk": {
+      "id": "MisrepresentationOfAICapabilities",
+      "中文名称": "AI能力虚假陈述风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Busted! Drive-Thru Run by \"AI\" Actually Operated by Humans in the Philippines"
+    },
+    "Stakeholder": {
+      "id": "FastFoodCustomers",
+      "中文名称": "快餐顾客",
+      "英文名称": "Fast Food Customers",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    },
+    "AIOperator": {
+      "id": "PhilippinesHumanWorkers",
+      "中文名称": "菲律宾人工操作员",
+      "英文名称": "Philippines Human Workers",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    },
+    "Misuse": {
+      "id": "FalseMarketingOfAISystems",
+      "中文名称": "AI系统虚假营销",
+      "英文名称": "False Marketing of AI Systems",
+      "来源": "Busted! Drive-Thru Run by \"AI\" Actually Operated by Humans in the Philippines"
+    },
+    "Consequence": {
+      "id": "ConsumerDeception",
+      "中文名称": "消费者欺骗后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "AI-Powered Drive-Thru Is Actually Run Almost Fully by Humans"
+    },
+    "Impact": {
+      "id": "LossOfTrustInAITechnology",
+      "中文名称": "AI技术信任丧失影响",
+      "英文名称": "Public Trust Loss in AI Impact",
+      "来源": "An ‘AI’ fast food drive-thru is mostly just human workers in the Philippines"
+    }
+  }
+}

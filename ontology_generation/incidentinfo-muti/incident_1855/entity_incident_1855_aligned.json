@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Cómo usar el reconocimiento facial con mascarilla: cuando los algoritmos se adaptan a la nueva normalidad"
+    },
+    "Risk": {
+      "id": "AdaptationRisk",
+      "中文名称": "适应风险",
+      "英文名称": "Adaptation Risk",
+      "来源": "los algoritmos se adaptan a la nueva normalidad"
+    },
+    "AICapability": {
+      "id": "MaskedFaceRecognition",
+      "中文名称": "戴口罩面部识别能力",
+      "英文名称": "Masked Face Recognition Capability",
+      "来源": "Cómo usar el reconocimiento facial con mascarilla"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生领域",
+      "英文名称": "Public Health",
+      "来源": "nueva normalidad"
+    },
+    "Purpose": {
+      "id": "ContactlessIdentification",
+      "中文名称": "无接触身份识别目的",
+      "英文名称": "Contactless Identification Purpose",
+      "来源": "reconocimiento facial con mascarilla"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacialRecognitionSystem",
+      "中文名称": "面部识别系统",
+      "英文名称": "Facial Recognition System",
+      "来源": "Cómo usar el reconocimiento facial con mascarilla: cuando los algoritmos se adaptan a la nueva normalidad"
+    },
+    "Risk": {
+      "id": "AdaptationRisk",
+      "中文名称": "适应风险",
+      "英文名称": "Adaptation Risk",
+      "来源": "los algoritmos se adaptan a la nueva normalidad"
+    },
+    "AICapability": {
+      "id": "MaskedFaceRecognition",
+      "中文名称": "戴口罩面部识别能力",
+      "英文名称": "Masked Face Recognition Capability",
+      "来源": "Cómo usar el reconocimiento facial con mascarilla"
+    },
+    "Domain": {
+      "id": "PublicHealth",
+      "中文名称": "公共卫生领域",
+      "英文名称": "Public Health",
+      "来源": "nueva normalidad"
+    },
+    "Purpose": {
+      "id": "ContactlessIdentification",
+      "中文名称": "无接触身份识别目的",
+      "英文名称": "Contactless Identification Purpose",
+      "来源": "reconocimiento facial con mascarilla"
+    }
+  }
+}

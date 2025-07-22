@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VASuicidePreventionAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "VA Suicide Prevention Algorithm"@en ;
+    rdfs:label "退伍军人自杀预防算法"@zh ;
+    airo:hasRisk ex:GenderBiasInSuicidePrevention ;
+    airo:hasAISubject ex:VeteransAtSuicideRisk ;
+    airo:isAppliedWithinDomain ex:MentalHealthCareDomain ;
+    airo:hasStakeholder ex:FemaleVeterans .
+
+ex:GenderBiasInSuicidePrevention rdf:type airo:Risk ;
+    rdfs:label "Gender Bias in Suicide Prevention Risk"@en ;
+    rdfs:label "自杀预防中的性别偏见风险"@zh ;
+    airo:hasConsequence ex:UnderdiagnosisOfFemaleVeteranSuicideRisk .
+
+ex:UnderdiagnosisOfFemaleVeteranSuicideRisk rdf:type airo:Consequence ;
+    rdfs:label "Underdiagnosis of Female Veteran Suicide Risk Consequence"@en ;
+    rdfs:label "女性退伍军人自杀风险诊断不足后果"@zh ;
+    airo:hasImpact ex:IncreasedSuicideRateAmongFemaleVeterans .
+
+ex:IncreasedSuicideRateAmongFemaleVeterans rdf:type airo:Impact ;
+    rdfs:label "Increased Suicide Rate Among Female Veterans Impact"@en ;
+    rdfs:label "女性退伍军人自杀率上升的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FemaleVeterans .
+
+ex:FemaleVeterans rdf:type airo:Stakeholder ;
+    rdfs:label "Female Veterans"@en ;
+    rdfs:label "女性退伍军人"@zh .
+
+ex:VeteransAtSuicideRisk rdf:type airo:AISubject ;
+    rdfs:label "Veterans at Suicide Risk"@en ;
+    rdfs:label "有自杀风险的退伍军人"@zh .
+
+ex:MentalHealthCareDomain rdf:type airo:Domain ;
+    rdfs:label "Mental Health Care Domain"@en ;
+    rdfs:label "心理健康护理领域"@zh .

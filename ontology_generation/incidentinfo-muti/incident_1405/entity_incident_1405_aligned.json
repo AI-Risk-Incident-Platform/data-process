@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChildPhotoTrainingAI",
+      "中文名称": "儿童照片训练AI",
+      "英文名称": "Child Photo Training AI",
+      "来源": "AI trained on photos from kids’ entire childhood without their consent"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI trained on photos from kids’ entire childhood without their consent"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "photos from kids’ entire childhood"
+    },
+    "RiskSource": {
+      "id": "NonConsensualDataCollection",
+      "中文名称": "未经同意的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "without their consent"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChildPhotoTrainingAI",
+      "中文名称": "儿童照片训练AI",
+      "英文名称": "Child Photo Training AI",
+      "来源": "AI trained on photos from kids’ entire childhood without their consent"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI trained on photos from kids’ entire childhood without their consent"
+    },
+    "AISubject": {
+      "id": "Children",
+      "中文名称": "儿童",
+      "英文名称": "Children",
+      "来源": "photos from kids’ entire childhood"
+    },
+    "RiskSource": {
+      "id": "NonConsensualDataCollection",
+      "中文名称": "未经同意的数据收集",
+      "英文名称": "Unauthorized Data & Content Use",
+      "来源": "without their consent"
+    }
+  }
+}

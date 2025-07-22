@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VoiceSniffingAlgorithm",
+      "中文名称": "语音嗅探算法",
+      "英文名称": "Voice Sniffing Algorithm",
+      "来源": "Amazon patent reveals 'voice sniffer algorithm' that could analyze conversations"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Patents Algorithms for Voice Sniffing"
+    },
+    "AITechnique": {
+      "id": "ConversationAnalysisAlgorithm",
+      "中文名称": "对话分析算法",
+      "英文名称": "Conversation Analysis Algorithm",
+      "来源": "voice sniffer algorithm' that could analyze conversations"
+    },
+    "AIProvider": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon patent reveals 'voice sniffer algorithm'"
+    },
+    "Purpose": {
+      "id": "ConversationMonitoring",
+      "中文名称": "对话监控",
+      "英文名称": "Conversation Monitoring",
+      "来源": "voice sniffer algorithm' that could analyze conversations"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "VoiceSniffingAlgorithm",
+      "中文名称": "语音嗅探算法",
+      "英文名称": "Voice Sniffing Algorithm",
+      "来源": "Amazon patent reveals 'voice sniffer algorithm' that could analyze conversations"
+    },
+    "Risk": {
+      "id": "PrivacyInvasionRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Amazon Patents Algorithms for Voice Sniffing"
+    },
+    "AITechnique": {
+      "id": "ConversationAnalysisAlgorithm",
+      "中文名称": "对话分析算法",
+      "英文名称": "Conversation Analysis Algorithm",
+      "来源": "voice sniffer algorithm' that could analyze conversations"
+    },
+    "AIProvider": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon patent reveals 'voice sniffer algorithm'"
+    },
+    "Purpose": {
+      "id": "ConversationMonitoring",
+      "中文名称": "对话监控",
+      "英文名称": "Conversation Monitoring",
+      "来源": "voice sniffer algorithm' that could analyze conversations"
+    }
+  }
+}

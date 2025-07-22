@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIBookGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "AI书籍生成系统"@zh ;
+    rdfs:label "AI Book Generation System"@en ;
+    airo:hasRisk ex:LowQualityContentFloodingRisk ;
+    airo:isAppliedWithinDomain ex:ECommercePublishing ;
+    airo:hasStakeholder ex:AmazonPlatform .
+
+ex:LowQualityContentFloodingRisk rdf:type airo:Risk ;
+    rdfs:label "低质量内容泛滥风险"@zh ;
+    rdfs:label "Low Quality Content Flooding Risk"@en ;
+    airo:hasConsequence ex:MarketplaceContentQualityDegradation ;
+    airo:isRiskSourceFor ex:UnregulatedContentGeneration .
+
+ex:MarketplaceContentQualityDegradation rdf:type airo:Consequence ;
+    rdfs:label "市场内容质量下降后果"@zh ;
+    rdfs:label "Marketplace Content Quality Degradation Consequence"@en ;
+    airo:hasImpact ex:ReaderExperienceDegradation .
+
+ex:ECommercePublishing rdf:type airo:Domain ;
+    rdfs:label "电子商务出版领域"@zh ;
+    rdfs:label "E-Commerce Publishing Domain"@en .
+
+ex:AmazonPlatform rdf:type airo:Stakeholder ;
+    rdfs:label "亚马逊平台"@zh ;
+    rdfs:label "Amazon Platform"@en ;
+    airo:hasImpactOnStakeholder ex:ReaderExperienceDegradation .
+
+ex:UnregulatedContentGeneration rdf:type airo:RiskSource ;
+    rdfs:label "无监管内容生成风险源"@zh ;
+    rdfs:label "Unregulated Content Generation Risk Source"@en .
+
+ex:ReaderExperienceDegradation rdf:type airo:Impact ;
+    rdfs:label "读者体验下降影响"@zh ;
+    rdfs:label "Reader Experience Degradation Impact"@en .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook knew it was being used to incite violence in Ethiopia."
+    },
+    "Risk": {
+      "id": "ViolenceIncitementRisk",
+      "中文名称": "煽动暴力风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook on violence-inciting speech: act now to protect Ethiopians"
+    },
+    "Consequence": {
+      "id": "EthiopianPoliticalTensionsEscalation",
+      "中文名称": "埃塞俄比亚政治紧张局势升级后果",
+      "英文名称": "Ethiopian Political Tensions Escalation Consequence",
+      "来源": "In Ethiopia, disinformation spreads through Facebook live as political tensions rise"
+    },
+    "AICapability": {
+      "id": "ContentModerationAlgorithm",
+      "中文名称": "内容审核算法能力",
+      "英文名称": "Automated Content Moderation",
+      "来源": "Facebook knew it was being used to incite violence in Ethiopia. It did little to stop the spread"
+    },
+    "Stakeholder": {
+      "id": "EthiopianCitizens",
+      "中文名称": "埃塞俄比亚公民",
+      "英文名称": "Ethiopian Citizens",
+      "来源": "act now to protect Ethiopians"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreatInEthiopia",
+      "中文名称": "埃塞俄比亚公共安全威胁影响",
+      "英文名称": "Public Safety Threat in Ethiopia Impact",
+      "来源": "violence-inciting speech"
+    },
+    "RiskSource": {
+      "id": "DisinformationSpreadThroughFacebookLive",
+      "中文名称": "通过Facebook直播传播虚假信息的风险源",
+      "英文名称": "Disinformation Spread Through Facebook Live Risk Source",
+      "来源": "disinformation spreads through Facebook live"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook knew it was being used to incite violence in Ethiopia."
+    },
+    "Risk": {
+      "id": "ViolenceIncitementRisk",
+      "中文名称": "煽动暴力风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Facebook on violence-inciting speech: act now to protect Ethiopians"
+    },
+    "Consequence": {
+      "id": "EthiopianPoliticalTensionsEscalation",
+      "中文名称": "埃塞俄比亚政治紧张局势升级后果",
+      "英文名称": "Ethiopian Political Tensions Escalation Consequence",
+      "来源": "In Ethiopia, disinformation spreads through Facebook live as political tensions rise"
+    },
+    "AICapability": {
+      "id": "ContentModerationAlgorithm",
+      "中文名称": "内容审核算法能力",
+      "英文名称": "Automated Content Moderation",
+      "来源": "Facebook knew it was being used to incite violence in Ethiopia. It did little to stop the spread"
+    },
+    "Stakeholder": {
+      "id": "EthiopianCitizens",
+      "中文名称": "埃塞俄比亚公民",
+      "英文名称": "Ethiopian Citizens",
+      "来源": "act now to protect Ethiopians"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreatInEthiopia",
+      "中文名称": "埃塞俄比亚公共安全威胁影响",
+      "英文名称": "Public Safety Threat in Ethiopia Impact",
+      "来源": "violence-inciting speech"
+    },
+    "RiskSource": {
+      "id": "DisinformationSpreadThroughFacebookLive",
+      "中文名称": "通过Facebook直播传播虚假信息的风险源",
+      "英文名称": "Disinformation Spread Through Facebook Live Risk Source",
+      "来源": "disinformation spreads through Facebook live"
+    }
+  }
+}

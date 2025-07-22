@@ -1,0 +1,90 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MachineTranslationAtTheBorder rdf:type airo:AISystem ;
+    rdfs:label "Machine Translation at the Border System"@en ;
+    rdfs:label "边境机器翻译系统"@zh ;
+    airo:hasRisk ex:InaccurateTranslationRisk ;
+    airo:hasCapability ex:LanguageTranslationCapability ;
+    airo:isDevelopedBy ex:USImmigrationAndCustomsEnforcement ;
+    airo:hasPurpose ex:FacilitatingCommunicationAtBorder ;
+    airo:hasStakeholder ex:AsylumSeekers ;
+    airo:hasAISubject ex:Detainees ;
+    airo:isAppliedWithinDomain ex:ImmigrationAndBorderControl ;
+    airo:usesTechnique ex:NeuralMachineTranslation ;
+    airo:hasVulnerability ex:LowQualityTrainingData .
+
+ex:InaccurateTranslationRisk rdf:type airo:Risk ;
+    rdfs:label "Inaccurate Translation Risk"@en ;
+    rdfs:label "翻译不准确风险"@zh ;
+    airo:hasConsequence ex:MiscommunicationInAsylumCases ;
+    airo:isRiskSourceFor ex:InadequateTestingBeforeDeployment ;
+    airo:isRiskSourceFor ex:MisinterpretationOfLegalStatements ;
+    airo:isRiskSourceFor ex:CulturalAndLinguisticNuances .
+
+ex:MiscommunicationInAsylumCases rdf:type airo:Consequence ;
+    rdfs:label "Miscommunication in Asylum Cases Consequence"@en ;
+    rdfs:label "庇护案件中的沟通错误后果"@zh ;
+    airo:hasImpact ex:DenialOfAsylumDueToMiscommunication .
+
+ex:LanguageTranslationCapability rdf:type airo:AICapability ;
+    rdfs:label "Language Translation Capability"@en ;
+    rdfs:label "语言翻译能力"@zh .
+
+ex:USImmigrationAndCustomsEnforcement rdf:type airo:AIOperator ;
+    rdfs:label "US Immigration and Customs Enforcement"@en ;
+    rdfs:label "美国移民和海关执法局"@zh .
+
+ex:AsylumSeekers rdf:type airo:Stakeholder ;
+    rdfs:label "Asylum Seekers"@en ;
+    rdfs:label "寻求庇护者"@zh .
+
+ex:Detainees rdf:type airo:AISubject ;
+    rdfs:label "Detainees"@en ;
+    rdfs:label "被拘留者"@zh .
+
+ex:DenialOfAsylumDueToMiscommunication rdf:type airo:Impact ;
+    rdfs:label "Denial of Asylum Due to Miscommunication Impact"@en ;
+    rdfs:label "因沟通错误导致庇护被拒的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AsylumSeekers .
+
+ex:FacilitatingCommunicationAtBorder rdf:type airo:Purpose ;
+    rdfs:label "Facilitating Communication at Border Purpose"@en ;
+    rdfs:label "促进边境沟通的目的"@zh .
+
+ex:ImmigrationAndBorderControl rdf:type airo:Domain ;
+    rdfs:label "Immigration and Border Control Domain"@en ;
+    rdfs:label "移民和边境控制领域"@zh .
+
+ex:NeuralMachineTranslation rdf:type airo:AITechnique ;
+    rdfs:label "Neural Machine Translation Technique"@en ;
+    rdfs:label "神经机器翻译技术"@zh .
+
+ex:LowQualityTrainingData rdf:type airo:Vulnerability ;
+    rdfs:label "Low Quality Training Data Vulnerability"@en ;
+    rdfs:label "低质量训练数据的脆弱性"@zh .
+
+ex:InadequateTestingBeforeDeployment rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Testing Before Deployment Risk Source"@en ;
+    rdfs:label "部署前测试不足的风险源"@zh .
+
+ex:MisinterpretationOfLegalStatements rdf:type airo:Threat ;
+    rdfs:label "Misinterpretation of Legal Statements Threat"@en ;
+    rdfs:label "法律陈述被误解的威胁"@zh .
+
+ex:CulturalAndLinguisticNuances rdf:type airo:Hazard ;
+    rdfs:label "Cultural and Linguistic Nuances Hazard"@en ;
+    rdfs:label "文化和语言细微差别的危害"@zh .
+
+ex:EthicalIssuesInBorderAIApplications rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Issues in Border AI Applications Risk Concept"@en ;
+    rdfs:label "边境AI应用中的伦理问题"@zh .

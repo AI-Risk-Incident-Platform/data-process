@@ -1,0 +1,40 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "MyAIChatbot",
+      "中文名称": "My AI聊天机器人",
+      "英文名称": "My AI Chatbot",
+      "来源": "Snap’s ‘My AI’ chatbot tells users it doesn’t know their location. It does"
+    },
+    "Risk": {
+      "id": "LocationPrivacyRisk",
+      "中文名称": "位置隐私风险",
+      "英文名称": "Location Privacy Risk",
+      "来源": "Snap’s ‘My AI’ chatbot tells users it doesn’t know their location. It does"
+    },
+    "AISubject": {
+      "id": "ChatbotUsers",
+      "中文名称": "聊天机器人用户",
+      "英文名称": "Chatbot Users",
+      "来源": "tells users it doesn’t know their location"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "tells users it doesn’t know their location. It does"
+    },
+    "Stakeholder": {
+      "id": "SnapInc",
+      "中文名称": "Snap公司",
+      "英文名称": "Snap Inc.",
+      "来源": "Snap’s ‘My AI’ chatbot"
+    },
+    "RiskSource": {
+      "id": "FalseLocationInformation",
+      "中文名称": "虚假位置信息",
+      "英文名称": "False Location Information",
+      "来源": "tells users it doesn’t know their location. It does"
+    }
+  }
+}

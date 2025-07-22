@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "NissanAutomaticEmergencyBrakingSystem",
+      "中文名称": "日产自动紧急制动系统",
+      "英文名称": "Nissan Automatic Emergency Braking System",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousBraking",
+      "中文名称": "自动驾驶制动安全风险",
+      "英文名称": "Autonomous Braking Safety Risk",
+      "来源": "Judge Allows Class-Action Lawsuit Over Nissan Automatic Emergency Braking Issues to Proceed"
+    },
+    "Consequence": {
+      "id": "PotentialAccidentsDueToSystemFailure",
+      "中文名称": "系统故障导致的潜在事故后果",
+      "英文名称": "Potential Accidents Due to System Failure Consequence",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    },
+    "Stakeholder": {
+      "id": "NissanVehicleOwners",
+      "中文名称": "日产车主",
+      "英文名称": "Nissan Vehicle Owners",
+      "来源": "Judge Allows Class-Action Lawsuit Over Nissan Automatic Emergency Braking Issues to Proceed"
+    },
+    "AIOperator": {
+      "id": "NissanMotorCompany",
+      "中文名称": "日产汽车公司",
+      "英文名称": "Nissan Motor Company",
+      "来源": "Top 9 Things To Know about Nissan’s Automatic Emergency Braking"
+    },
+    "Domain": {
+      "id": "AutomotiveSafetySystems",
+      "中文名称": "汽车安全系统领域",
+      "英文名称": "Automotive Safety Systems Domain",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "NissanAutomaticEmergencyBrakingSystem",
+      "中文名称": "日产自动紧急制动系统",
+      "英文名称": "Nissan Automatic Emergency Braking System",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    },
+    "Risk": {
+      "id": "SafetyRiskInAutonomousBraking",
+      "中文名称": "自动驾驶制动安全风险",
+      "英文名称": "Autonomous Braking Safety Risk",
+      "来源": "Judge Allows Class-Action Lawsuit Over Nissan Automatic Emergency Braking Issues to Proceed"
+    },
+    "Consequence": {
+      "id": "PotentialAccidentsDueToSystemFailure",
+      "中文名称": "系统故障导致的潜在事故后果",
+      "英文名称": "Potential Accidents Due to System Failure Consequence",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    },
+    "Stakeholder": {
+      "id": "NissanVehicleOwners",
+      "中文名称": "日产车主",
+      "英文名称": "Nissan Vehicle Owners",
+      "来源": "Judge Allows Class-Action Lawsuit Over Nissan Automatic Emergency Braking Issues to Proceed"
+    },
+    "AIOperator": {
+      "id": "NissanMotorCompany",
+      "中文名称": "日产汽车公司",
+      "英文名称": "Nissan Motor Company",
+      "来源": "Top 9 Things To Know about Nissan’s Automatic Emergency Braking"
+    },
+    "Domain": {
+      "id": "AutomotiveSafetySystems",
+      "中文名称": "汽车安全系统领域",
+      "英文名称": "Automotive Safety Systems Domain",
+      "来源": "Nissan’s Automatic Emergency Braking Issues"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPoweredNewsSite rdf:type airo:AISystem ;
+    rdfs:label "AI-Powered News Site"@en ;
+    rdfs:label "AI驱动的新闻网站"@zh ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasAISubject ex:AccusedScholar ;
+    airo:hasStakeholder ex:YaleUniversity .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "False Accusation Risk"@en ;
+    rdfs:label "虚假指控风险"@zh ;
+    airo:hasConsequence ex:ScholarSuspension ;
+    airo:isRiskSourceFor ex:UnverifiedAIReporting .
+
+ex:ScholarSuspension rdf:type airo:Consequence ;
+    rdfs:label "Scholar Suspension Consequence"@en ;
+    rdfs:label "学者被停职后果"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:YaleUniversity rdf:type airo:Stakeholder ;
+    rdfs:label "Yale University"@en ;
+    rdfs:label "耶鲁大学"@zh .
+
+ex:AccusedScholar rdf:type airo:AISubject ;
+    rdfs:label "Accused Scholar"@en ;
+    rdfs:label "被指控的学者"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AccusedScholar ;
+    airo:hasImpactOnStakeholder ex:YaleUniversity .
+
+ex:UnverifiedAIReporting rdf:type airo:RiskSource ;
+    rdfs:label "Unverified AI Reporting Risk Source"@en ;
+    rdfs:label "未经验证的AI报道风险源"@zh .

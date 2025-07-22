@@ -1,0 +1,54 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DisneyEmployeeAITool",
+      "中文名称": "迪士尼员工AI工具",
+      "英文名称": "Disney Employee AI Tool",
+      "来源": "A Disney Worker Downloaded an AI Tool. It Led to a Hack That Ruined His Life."
+    },
+    "Risk": {
+      "id": "HackRisk",
+      "中文名称": "黑客攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "It Led to a Hack That Ruined His Life."
+    },
+    "Stakeholder": {
+      "id": "DisneyEmployee",
+      "中文名称": "迪士尼员工",
+      "英文名称": "Disney Employee",
+      "来源": "A Disney Worker Downloaded an AI Tool."
+    },
+    "Impact": {
+      "id": "LifeRuined",
+      "中文名称": "生活被毁",
+      "英文名称": "Life Ruined",
+      "来源": "It Led to a Hack That Ruined His Life."
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DisneyEmployeeAITool",
+      "中文名称": "迪士尼员工AI工具",
+      "英文名称": "Disney Employee AI Tool",
+      "来源": "A Disney Worker Downloaded an AI Tool. It Led to a Hack That Ruined His Life."
+    },
+    "Risk": {
+      "id": "HackRisk",
+      "中文名称": "黑客攻击风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "It Led to a Hack That Ruined His Life."
+    },
+    "Stakeholder": {
+      "id": "DisneyEmployee",
+      "中文名称": "迪士尼员工",
+      "英文名称": "Disney Employee",
+      "来源": "A Disney Worker Downloaded an AI Tool."
+    },
+    "Impact": {
+      "id": "LifeRuined",
+      "中文名称": "生活被毁",
+      "英文名称": "Life Ruined",
+      "来源": "It Led to a Hack That Ruined His Life."
+    }
+  }
+}

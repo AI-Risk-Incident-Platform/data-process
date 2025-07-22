@@ -1,0 +1,66 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI系统",
+      "英文名称": "Google AI",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    },
+    "Risk": {
+      "id": "RegulatoryComplianceRisk",
+      "中文名称": "监管合规风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Google Fined €250 Million in French Clash With News Outlets"
+    },
+    "Stakeholder": {
+      "id": "FrenchCompetitionAuthority",
+      "中文名称": "法国竞争管理局",
+      "英文名称": "French Competition Authority",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    },
+    "Consequence": {
+      "id": "FinancialPenalty",
+      "中文名称": "经济处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google Fined €250 Million in French Clash With News Outlets"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleAI",
+      "中文名称": "谷歌AI系统",
+      "英文名称": "Google AI",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    },
+    "Risk": {
+      "id": "RegulatoryComplianceRisk",
+      "中文名称": "监管合规风险",
+      "英文名称": "Legal Compliance Risk",
+      "来源": "Google Fined €250 Million in French Clash With News Outlets"
+    },
+    "Stakeholder": {
+      "id": "FrenchCompetitionAuthority",
+      "中文名称": "法国竞争管理局",
+      "英文名称": "French Competition Authority",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    },
+    "Consequence": {
+      "id": "FinancialPenalty",
+      "中文名称": "经济处罚后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Google Fined €250 Million in French Clash With News Outlets"
+    },
+    "AIOperator": {
+      "id": "GoogleLLC",
+      "中文名称": "谷歌有限责任公司",
+      "英文名称": "Google",
+      "来源": "French competition watchdog hits Google with 250 million euro fine"
+    }
+  }
+}

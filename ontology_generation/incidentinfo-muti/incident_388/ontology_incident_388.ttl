@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AlgospeakContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Algospeak Content Moderation System"@en ;
+    rdfs:label "算法语言内容审核系统"@zh ;
+    airo:hasRisk ex:ContentCreatorCommunicationBarrierRisk ;
+    airo:hasCapability ex:NaturalLanguageProcessingForContentModeration ;
+    airo:hasPurpose ex:ContentModerationAndFiltering ;
+    airo:hasStakeholder ex:ContentCreators ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatforms .
+
+ex:ContentCreatorCommunicationBarrierRisk rdf:type airo:Risk ;
+    rdfs:label "Content Creator Communication Barrier Risk"@en ;
+    rdfs:label "内容创作者沟通障碍风险"@zh ;
+    airo:hasConsequence ex:LanguageEvolutionAndDistortion .
+
+ex:NaturalLanguageProcessingForContentModeration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Content Moderation Capability"@en ;
+    rdfs:label "用于内容审核的自然语言处理能力"@zh .
+
+ex:ContentCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Content Creators"@en ;
+    rdfs:label "内容创作者"@zh .
+
+ex:LanguageEvolutionAndDistortion rdf:type airo:Impact ;
+    rdfs:label "Language Evolution and Distortion Impact"@en ;
+    rdfs:label "语言演变与扭曲的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ContentCreators .
+
+ex:ContentModerationAndFiltering rdf:type airo:Purpose ;
+    rdfs:label "Content Moderation and Filtering Purpose"@en ;
+    rdfs:label "内容审核与过滤的目的"@zh .
+
+ex:SocialMediaPlatforms rdf:type airo:Domain ;
+    rdfs:label "Social Media Platforms Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .

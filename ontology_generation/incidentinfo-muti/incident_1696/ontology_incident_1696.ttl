@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    rdfs:label "Deepfake Video System"@en ;
+    airo:hasRisk ex:DisinformationRisk ;
+    airo:usesTechnique ex:DeepfakeGeneration ;
+    airo:hasStakeholder ex:RussianStateTV .
+
+ex:DisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "虚假信息风险"@zh ;
+    rdfs:label "Disinformation Risk"@en ;
+    airo:hasConsequence ex:PublicConfusion ;
+    airo:isRiskSourceFor ex:MaliciousContentCreation .
+
+ex:RussianStateTV rdf:type airo:Stakeholder ;
+    rdfs:label "俄罗斯国家电视台"@zh ;
+    rdfs:label "Russian State TV"@en .
+
+ex:PublicConfusion rdf:type airo:Consequence ;
+    rdfs:label "公众困惑后果"@zh ;
+    rdfs:label "Public Confusion Consequence"@en ;
+    airo:hasImpact ex:SocialInstability .
+
+ex:SocialInstability rdf:type airo:Impact ;
+    rdfs:label "社会不稳定影响"@zh ;
+    rdfs:label "Social Instability Impact"@en ;
+    airo:hasImpactOnStakeholder ex:RussianStateTV .
+
+ex:DeepfakeGeneration rdf:type airo:AITechnique ;
+    rdfs:label "深度伪造生成技术"@zh ;
+    rdfs:label "Deepfake Generation Technique"@en .
+
+ex:MaliciousContentCreation rdf:type airo:RiskSource ;
+    rdfs:label "恶意内容创建风险源"@zh ;
+    rdfs:label "Malicious Content Creation Risk Source"@en .

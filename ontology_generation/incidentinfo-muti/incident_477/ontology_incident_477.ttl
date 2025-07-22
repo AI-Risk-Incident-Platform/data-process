@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakePornGenerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Deepfake Porn Generation System"@en ;
+    rdfs:label "深度伪造色情内容生成系统"@zh ;
+    airo:hasRisk ex:NonconsensualDeepfakePornRisk ;
+    airo:hasAISubject ex:VictimsOfDeepfakePorn ;
+    airo:usesTechnique ex:DeepLearningBasedFaceSwapping .
+
+ex:NonconsensualDeepfakePornRisk rdf:type airo:Risk ;
+    rdfs:label "Nonconsensual Deepfake Porn Risk"@en ;
+    rdfs:label "非自愿深度伪造色情内容风险"@zh ;
+    airo:hasConsequence ex:PsychologicalTrauma ;
+    airo:isRiskSourceFor ex:LackOfLegalProtection .
+
+ex:PsychologicalTrauma rdf:type airo:Consequence ;
+    rdfs:label "Psychological Trauma Consequence"@en ;
+    rdfs:label "心理创伤后果"@zh ;
+    airo:hasImpact ex:PrivacyViolation .
+
+ex:VictimsOfDeepfakePorn rdf:type airo:AISubject ;
+    rdfs:label "Victims of Deepfake Porn"@en ;
+    rdfs:label "深度伪造色情内容受害者"@zh .
+
+ex:PrivacyViolation rdf:type airo:Impact ;
+    rdfs:label "Privacy Violation Impact"@en ;
+    rdfs:label "隐私侵犯影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VictimsOfDeepfakePorn .
+
+ex:LackOfLegalProtection rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Legal Protection Risk Source"@en ;
+    rdfs:label "法律保护缺失风险源"@zh .
+
+ex:DeepLearningBasedFaceSwapping rdf:type airo:AITechnique ;
+    rdfs:label "Deep Learning Based Face Swapping Technique"@en ;
+    rdfs:label "基于深度学习的人脸交换技术"@zh .

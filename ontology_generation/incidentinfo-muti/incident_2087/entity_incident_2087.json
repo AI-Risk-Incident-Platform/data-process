@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TencentFacialRecognitionSystem",
+      "中文名称": "腾讯人脸识别系统",
+      "英文名称": "Tencent Facial Recognition System",
+      "来源": "Tencent Deploys Facial Recognition to Detect Minors Gaming at Night"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "Tencent’s latest strategy to stop kids playing games late at night: facial recognition"
+    },
+    "AICapability": {
+      "id": "MinorDetectionCapability",
+      "中文名称": "未成年人检测能力",
+      "英文名称": "Minor Detection Capability",
+      "来源": "Tencent’s new facial recognition program curbs gaming by children in China"
+    },
+    "AIOperator": {
+      "id": "Tencent",
+      "中文名称": "腾讯",
+      "英文名称": "Tencent",
+      "来源": "Tencent Deploys Facial Recognition to Detect Minors Gaming at Night"
+    },
+    "Purpose": {
+      "id": "PreventMinorGamingAtNight",
+      "中文名称": "防止未成年人夜间游戏",
+      "英文名称": "Prevent Minor Gaming at Night",
+      "来源": "Tencent’s latest strategy to stop kids playing games late at night: facial recognition"
+    },
+    "Domain": {
+      "id": "OnlineGaming",
+      "中文名称": "在线游戏",
+      "英文名称": "Online Gaming",
+      "来源": "Tencent’s new facial recognition program curbs gaming by children in China"
+    },
+    "AISubject": {
+      "id": "Minors",
+      "中文名称": "未成年人",
+      "英文名称": "Minors",
+      "来源": "Tencent’s latest strategy to stop kids playing games late at night: facial recognition"
+    },
+    "Impact": {
+      "id": "PrivacyConcerns",
+      "中文名称": "隐私担忧",
+      "英文名称": "Privacy Concerns",
+      "来源": "Tencent’s new facial recognition program curbs gaming by children in China"
+    },
+    "AITechnique": {
+      "id": "FacialRecognition",
+      "中文名称": "人脸识别",
+      "英文名称": "Facial Recognition",
+      "来源": "Tencent Deploys Facial Recognition to Detect Minors Gaming at Night"
+    },
+    "RiskSource": {
+      "id": "BiometricDataCollection",
+      "中文名称": "生物特征数据收集",
+      "英文名称": "Biometric Data Collection",
+      "来源": "Tencent’s latest strategy to stop kids playing games late at night: facial recognition"
+    }
+  }
+}

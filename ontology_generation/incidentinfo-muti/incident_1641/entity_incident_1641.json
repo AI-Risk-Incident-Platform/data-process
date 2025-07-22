@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ClothOffApp",
+      "中文名称": "ClothOff应用",
+      "英文名称": "ClothOff App",
+      "来源": "ClothOff, la 'app' que investiga la Policía por difundir fotos de menores 'desnudas'"
+    },
+    "Risk": {
+      "id": "ChildExploitationRisk",
+      "中文名称": "儿童剥削风险",
+      "英文名称": "Child Exploitation Risk",
+      "来源": "AI-generated naked child images shock Spanish town of Almendralejo"
+    },
+    "Consequence": {
+      "id": "PsychologicalHarmToMinors",
+      "中文名称": "对未成年人心理伤害",
+      "英文名称": "Psychological Harm to Minors",
+      "来源": "In Spain, dozens of girls are reporting AI-generated nude photos of them being circulated at school: 'My heart skipped a beat'"
+    },
+    "AITechnique": {
+      "id": "DeepfakeImageGeneration",
+      "中文名称": "深度伪造图像生成技术",
+      "英文名称": "Deepfake Image Generation Technique",
+      "来源": "AI-generated naked child images"
+    },
+    "Stakeholder": {
+      "id": "SpanishPolice",
+      "中文名称": "西班牙警方",
+      "英文名称": "Spanish Police",
+      "来源": "ClothOff, la 'app' que investiga la Policía"
+    },
+    "AISubject": {
+      "id": "SchoolGirls",
+      "中文名称": "女学生",
+      "英文名称": "School Girls",
+      "来源": "dozens of girls are reporting AI-generated nude photos of them being circulated at school"
+    },
+    "Impact": {
+      "id": "SocialStigma",
+      "中文名称": "社会污名化影响",
+      "英文名称": "Social Stigma Impact",
+      "来源": "photos being circulated at school"
+    },
+    "Purpose": {
+      "id": "ImageManipulation",
+      "中文名称": "图像操纵目的",
+      "英文名称": "Image Manipulation Purpose",
+      "来源": "AI-generated nude photos"
+    },
+    "Domain": {
+      "id": "EducationEnvironment",
+      "中文名称": "教育环境领域",
+      "英文名称": "Education Environment Domain",
+      "来源": "photos being circulated at school"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedImageGeneration",
+      "中文名称": "未经授权的图像生成风险源",
+      "英文名称": "Unauthorized Image Generation Risk Source",
+      "来源": "AI-generated nude photos of them being circulated"
+    }
+  }
+}

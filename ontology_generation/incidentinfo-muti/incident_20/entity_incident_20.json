@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "VolkswagenPlantRobot",
+      "中文名称": "大众工厂机器人",
+      "英文名称": "Volkswagen Plant Robot",
+      "来源": "Robot kills worker at Volkswagen plant in Germany"
+    },
+    "Risk": {
+      "id": "WorkerFatalityRisk",
+      "中文名称": "工人死亡风险",
+      "英文名称": "Worker Fatality Risk",
+      "来源": "Robot kills worker at Volkswagen plant in Germany"
+    },
+    "Consequence": {
+      "id": "HumanFatality",
+      "中文名称": "人员死亡后果",
+      "英文名称": "Human Fatality Consequence",
+      "来源": "Robot kills man at Volkswagen plant in Germany"
+    },
+    "Stakeholder": {
+      "id": "Volkswagen",
+      "中文名称": "大众汽车",
+      "英文名称": "Volkswagen",
+      "来源": "Robot kills worker at Volkswagen plant in Germany"
+    },
+    "Impact": {
+      "id": "WorkplaceSafetyCompromise",
+      "中文名称": "工作场所安全受损影响",
+      "英文名称": "Workplace Safety Compromise Impact",
+      "来源": "Robot kills man at Volkswagen plant in Germany"
+    },
+    "Domain": {
+      "id": "AutomotiveManufacturing",
+      "中文名称": "汽车制造领域",
+      "英文名称": "Automotive Manufacturing Domain",
+      "来源": "Volkswagen plant"
+    },
+    "RiskSource": {
+      "id": "RobotMalfunction",
+      "中文名称": "机器人故障风险源",
+      "英文名称": "Robot Malfunction Risk Source",
+      "来源": "Robot kills worker"
+    }
+  }
+}

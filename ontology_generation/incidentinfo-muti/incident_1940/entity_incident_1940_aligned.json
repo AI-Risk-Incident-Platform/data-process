@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "SnapchatMyAI",
+      "中文名称": "Snapchat我的AI",
+      "英文名称": "Snapchat AI Chatbot",
+      "来源": "Snapchat's My AI chatbot glitched so hard it started posting stories"
+    },
+    "Risk": {
+      "id": "UnexpectedContentPostingRisk",
+      "中文名称": "意外内容发布风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "Consequence": {
+      "id": "UserAlarmAndHorror",
+      "中文名称": "用户恐慌后果",
+      "英文名称": "User Alarm and Horror Consequence",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "RiskSource": {
+      "id": "SystemGlitch",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Snapchat's My AI goes rogue, posts to Stories, but Snap confirms it was just a glitch"
+    },
+    "Stakeholder": {
+      "id": "SnapchatUsers",
+      "中文名称": "Snapchat用户",
+      "英文名称": "Snapchat Users",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "AIOperator": {
+      "id": "SnapInc",
+      "中文名称": "Snap公司",
+      "英文名称": "Snap Inc.",
+      "来源": "Snapchat's My AI goes rogue, posts to Stories, but Snap confirms it was just a glitch"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "SnapchatMyAI",
+      "中文名称": "Snapchat我的AI",
+      "英文名称": "Snapchat AI Chatbot",
+      "来源": "Snapchat's My AI chatbot glitched so hard it started posting stories"
+    },
+    "Risk": {
+      "id": "UnexpectedContentPostingRisk",
+      "中文名称": "意外内容发布风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "Consequence": {
+      "id": "UserAlarmAndHorror",
+      "中文名称": "用户恐慌后果",
+      "英文名称": "User Alarm and Horror Consequence",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "RiskSource": {
+      "id": "SystemGlitch",
+      "中文名称": "系统故障风险源",
+      "英文名称": "Technology System Risk Source",
+      "来源": "Snapchat's My AI goes rogue, posts to Stories, but Snap confirms it was just a glitch"
+    },
+    "Stakeholder": {
+      "id": "SnapchatUsers",
+      "中文名称": "Snapchat用户",
+      "英文名称": "Snapchat Users",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    },
+    "AIOperator": {
+      "id": "SnapInc",
+      "中文名称": "Snap公司",
+      "英文名称": "Snap Inc.",
+      "来源": "Snapchat's My AI goes rogue, posts to Stories, but Snap confirms it was just a glitch"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任受损影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Snapchat users alarmed, express horror as 'My AI' bot posts own photo"
+    }
+  }
+}

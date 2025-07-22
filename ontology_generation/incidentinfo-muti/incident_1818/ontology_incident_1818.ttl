@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookDeepfakeDetectionSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Deepfake Detection System"@en ;
+    rdfs:label "Facebook深度伪造检测系统"@zh ;
+    airo:hasRisk ex:DeepfakeScamRisk ;
+    airo:hasAISubject ex:FacebookUsers ;
+    airo:usesTechnique ex:DeepfakeDetection ;
+    airo:hasStakeholder ex:Meta .
+
+ex:DeepfakeScamRisk rdf:type airo:Risk ;
+    rdfs:label "Deepfake Scam Risk"@en ;
+    rdfs:label "深度伪造诈骗风险"@zh ;
+    airo:hasConsequence ex:FinancialFraud .
+
+ex:Meta rdf:type airo:Stakeholder ;
+    rdfs:label "Meta"@en ;
+    rdfs:label "Meta公司"@zh .
+
+ex:FacebookUsers rdf:type airo:AISubject ;
+    rdfs:label "Facebook Users"@en ;
+    rdfs:label "Facebook用户"@zh .
+
+ex:DeepfakeDetection rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Detection Technique"@en ;
+    rdfs:label "深度伪造检测技术"@zh .
+
+ex:FinancialFraud rdf:type airo:Consequence ;
+    rdfs:label "Financial Fraud Consequence"@en ;
+    rdfs:label "金融诈骗后果"@zh ;
+    airo:hasImpact ex:UserTrustErosion .
+
+ex:UserTrustErosion rdf:type airo:Impact ;
+    rdfs:label "User Trust Erosion Impact"@en ;
+    rdfs:label "用户信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:FacebookUsers .

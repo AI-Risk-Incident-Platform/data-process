@@ -1,0 +1,100 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AmazonRufusAI",
+      "中文名称": "亚马逊Rufus AI",
+      "英文名称": "Amazon Rufus AI",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "Risk": {
+      "id": "IncorrectSuicideHotlineResponseRisk",
+      "中文名称": "错误自杀热线回应风险",
+      "英文名称": "Incorrect Suicide Hotline Response Risk",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "Consequence": {
+      "id": "PotentialHarmToVulnerableUsers",
+      "中文名称": "对弱势用户的潜在伤害后果",
+      "英文名称": "Potential Harm to Vulnerable Users Consequence",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "AICapability": {
+      "id": "ConversationalResponseGeneration",
+      "中文名称": "对话回应生成能力",
+      "英文名称": "Conversational Response Generation Capability",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "AIOperator": {
+      "id": "Amazon",
+      "中文名称": "亚马逊",
+      "英文名称": "Amazon",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "Stakeholder": {
+      "id": "MentalHealthCrisisIndividuals",
+      "中文名称": "心理健康危机个体",
+      "英文名称": "Mental Health Crisis Individuals",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "AISubject": {
+      "id": "SuicidalIndividuals",
+      "中文名称": "有自杀倾向个体",
+      "英文名称": "Suicidal Individuals",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "Impact": {
+      "id": "DelayedAccessToProperHelp",
+      "中文名称": "延迟获得适当帮助的影响",
+      "英文名称": "Delayed Access to Proper Help Impact",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "Purpose": {
+      "id": "CustomerServiceAssistance",
+      "中文名称": "客户服务辅助目的",
+      "英文名称": "Customer Service Assistance Purpose",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "Domain": {
+      "id": "ECommerceCustomerSupport",
+      "中文名称": "电子商务客户支持领域",
+      "英文名称": "E-Commerce Customer Support Domain",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "AITechnique": {
+      "id": "LargeLanguageModel",
+      "中文名称": "大语言模型技术",
+      "英文名称": "Large Language Model Technique",
+      "来源": "Amazon’s Rufus AI Stumbles: Mental Health Crisis Responses Raise Alarm"
+    },
+    "Vulnerability": {
+      "id": "LackOfSpecializedMentalHealthTraining",
+      "中文名称": "缺乏专业心理健康训练的脆弱性",
+      "英文名称": "Lack of Specialized Mental Health Training Vulnerability",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "Threat": {
+      "id": "MisinformationInCriticalSituations",
+      "中文名称": "关键情境中的错误信息威胁",
+      "英文名称": "Misinformation in Critical Situations Threat",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "Hazard": {
+      "id": "IncorrectEmergencyInformation",
+      "中文名称": "错误紧急信息危害",
+      "英文名称": "Incorrect Emergency Information Hazard",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "RiskSource": {
+      "id": "InadequateContentFiltering",
+      "中文名称": "内容过滤不足风险源",
+      "英文名称": "Inadequate Content Filtering Risk Source",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    },
+    "RiskConcept": {
+      "id": "AIResponsibilityInMentalHealthCrises",
+      "中文名称": "AI在心理健康危机中的责任",
+      "英文名称": "AI Responsibility in Mental Health Crises Risk Concept",
+      "来源": "Asked for Products to Kill Yourself With, Amazon's AI Says \"You Are Not Alone\" and Hallucinates an Incorrect Phone Number for a Suicide Hotline"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CopyCopLLMInfluenceSystem rdf:type airo:AISystem ;
+    rdfs:label "CopyCop LLM Influence System"@en ;
+    rdfs:label "CopyCop大型语言模型影响力系统"@zh ;
+    airo:hasRisk ex:ForeignMalignInfluenceRisk ;
+    airo:usesTechnique ex:LargeLanguageModelRewriting ;
+    airo:hasPurpose ex:WeaponizeInfluenceContent ;
+    airo:isDeployedBy ex:RussiaLinkedNetwork ;
+    airo:hasStakeholder ex:USGovernment ;
+    airo:isAppliedWithinDomain ex:PoliticalInfluence .
+
+ex:ForeignMalignInfluenceRisk rdf:type airo:Risk ;
+    rdfs:label "Foreign Malign Influence Risk"@en ;
+    rdfs:label "外国恶意影响力风险"@zh ;
+    airo:hasConsequence ex:PublicOpinionManipulation .
+
+ex:LargeLanguageModelRewriting rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Rewriting Technique"@en ;
+    rdfs:label "大型语言模型重写技术"@zh .
+
+ex:USGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "US Government"@en ;
+    rdfs:label "美国政府"@zh .
+
+ex:RussiaLinkedNetwork rdf:type airo:AIOperator ;
+    rdfs:label "Russia-Linked Network"@en ;
+    rdfs:label "俄罗斯关联网络"@zh .
+
+ex:ElectionInterferenceImpact rdf:type airo:Impact ;
+    rdfs:label "Election Interference Impact"@en ;
+    rdfs:label "选举干预影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USGovernment .
+
+ex:WeaponizeInfluenceContent rdf:type airo:Purpose ;
+    rdfs:label "Weaponize Influence Content Purpose"@en ;
+    rdfs:label "武器化影响力内容"@zh .
+
+ex:PoliticalInfluence rdf:type airo:Domain ;
+    rdfs:label "Political Influence Domain"@en ;
+    rdfs:label "政治影响力领域"@zh .
+
+ex:PublicOpinionManipulation rdf:type airo:Consequence ;
+    rdfs:label "Public Opinion Manipulation Consequence"@en ;
+    rdfs:label "公众舆论操纵后果"@zh ;
+    airo:hasImpact ex:ElectionInterferenceImpact .

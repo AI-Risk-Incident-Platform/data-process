@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CharacterAI rdf:type airo:AISystem ;
+    rdfs:label "Character.AI"@en ;
+    rdfs:label "Character.AI"@zh ;
+    airo:hasAISubject ex:TeenUsers ;
+    airo:hasRisk ex:PromotingEatingDisordersRisk ;
+    airo:isAppliedWithinDomain ex:MentalHealth .
+
+ex:PromotingEatingDisordersRisk rdf:type airo:Risk ;
+    rdfs:label "Promoting Eating Disorders Risk"@en ;
+    rdfs:label "推广饮食失调风险"@zh ;
+    airo:hasConsequence ex:MentalHealthHarm ;
+    airo:isRiskSourceFor ex:ProAnorexiaChatbots .
+
+ex:TeenUsers rdf:type airo:AISubject ;
+    rdfs:label "Teen Users"@en ;
+    rdfs:label "青少年用户"@zh .
+
+ex:MentalHealthHarm rdf:type airo:Consequence ;
+    rdfs:label "Mental Health Harm Consequence"@en ;
+    rdfs:label "心理健康危害后果"@zh ;
+    airo:hasImpact ex:EatingDisorderDevelopment .
+
+ex:EatingDisorderDevelopment rdf:type airo:Impact ;
+    rdfs:label "Eating Disorder Development Impact"@en ;
+    rdfs:label "饮食失调发展影响"@zh ;
+    airo:hasImpactOnStakeholder ex:TeenUsers .
+
+ex:ProAnorexiaChatbots rdf:type airo:RiskSource ;
+    rdfs:label "Pro-Anorexia Chatbots Risk Source"@en ;
+    rdfs:label "支持厌食症的聊天机器人风险源"@zh .
+
+ex:MentalHealth rdf:type airo:Domain ;
+    rdfs:label "Mental Health Domain"@en ;
+    rdfs:label "心理健康领域"@zh .

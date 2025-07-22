@@ -1,0 +1,67 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeVideoSystem rdf:type airo:AISystem ;
+    rdfs:label "深度伪造视频系统"@zh ;
+    rdfs:label "Deepfake Video System"@en ;
+    airo:hasRisk ex:PoliticalDisruptionRisk ;
+    airo:hasCapability ex:FacialManipulation ;
+    airo:hasPurpose ex:PoliticalManipulation ;
+    airo:hasStakeholder ex:Politicians ;
+    airo:isAppliedWithinDomain ex:PoliticalCampaigns ;
+    airo:usesTechnique ex:GenerativeAdversarialNetworks ;
+    airo:hasVulnerability ex:PublicTrustInMedia .
+
+ex:PoliticalDisruptionRisk rdf:type airo:Risk ;
+    rdfs:label "政治干扰风险"@zh ;
+    rdfs:label "Political Disruption Risk"@en ;
+    airo:hasConsequence ex:ReputationDamage ;
+    airo:isRiskSourceFor ex:DisinformationCampaigns .
+
+ex:ReputationDamage rdf:type airo:Consequence ;
+    rdfs:label "声誉损害后果"@zh ;
+    rdfs:label "Reputation Damage Consequence"@en ;
+    airo:hasImpact ex:ElectionInterference .
+
+ex:FacialManipulation rdf:type airo:AICapability ;
+    rdfs:label "面部操纵能力"@zh ;
+    rdfs:label "Facial Manipulation Capability"@en .
+
+ex:Politicians rdf:type airo:Stakeholder ;
+    rdfs:label "政治人物"@zh ;
+    rdfs:label "Politicians"@en .
+
+ex:ElectionInterference rdf:type airo:Impact ;
+    rdfs:label "选举干预影响"@zh ;
+    rdfs:label "Election Interference Impact"@en ;
+    airo:hasImpactOnStakeholder ex:Politicians .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "政治操纵目的"@zh ;
+    rdfs:label "Political Manipulation Purpose"@en .
+
+ex:PoliticalCampaigns rdf:type airo:Domain ;
+    rdfs:label "政治竞选领域"@zh ;
+    rdfs:label "Political Campaigns Domain"@en .
+
+ex:GenerativeAdversarialNetworks rdf:type airo:AITechnique ;
+    rdfs:label "生成对抗网络技术"@zh ;
+    rdfs:label "Generative Adversarial Networks Technique"@en .
+
+ex:PublicTrustInMedia rdf:type airo:Vulnerability ;
+    rdfs:label "公众对媒体的信任脆弱性"@zh ;
+    rdfs:label "Public Trust in Media Vulnerability"@en .
+
+ex:DisinformationCampaigns rdf:type airo:Threat ;
+    rdfs:label "虚假信息宣传活动威胁"@zh ;
+    rdfs:label "Disinformation Campaigns Threat"@en ;
+    airo:exploitsVulnerability ex:PublicTrustInMedia .

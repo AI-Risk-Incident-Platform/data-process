@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Video Game Voice Actors Doxed and Harassed in Targeted AI Voice Attack"
+    },
+    "Risk": {
+      "id": "VoiceActorDoxingAndHarassmentRisk",
+      "中文名称": "配音演员人肉搜索与骚扰风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Video Game Voice Actors Doxed and Harassed in Targeted AI Voice Attack"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Video Game Voice Actors Doxed and Harassed"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVoiceActors",
+      "中文名称": "对配音演员的心理伤害影响",
+      "英文名称": "Psychological Harm to Voice Actors Impact",
+      "来源": "Video Game Voice Actors Harassed"
+    },
+    "Stakeholder": {
+      "id": "VideoGameVoiceActors",
+      "中文名称": "电子游戏配音演员",
+      "英文名称": "Game Voice Actors",
+      "来源": "Video Game Voice Actors Doxed and Harassed"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Targeted AI Voice Attack"
+    },
+    "Misuse": {
+      "id": "MaliciousUseOfVoiceCloning",
+      "中文名称": "语音克隆技术的恶意使用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Targeted AI Voice Attack"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "AIVoiceCloningSystem",
+      "中文名称": "AI语音克隆系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Video Game Voice Actors Doxed and Harassed in Targeted AI Voice Attack"
+    },
+    "Risk": {
+      "id": "VoiceActorDoxingAndHarassmentRisk",
+      "中文名称": "配音演员人肉搜索与骚扰风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Video Game Voice Actors Doxed and Harassed in Targeted AI Voice Attack"
+    },
+    "Consequence": {
+      "id": "PersonalPrivacyViolation",
+      "中文名称": "个人隐私侵犯后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Video Game Voice Actors Doxed and Harassed"
+    },
+    "Impact": {
+      "id": "PsychologicalHarmToVoiceActors",
+      "中文名称": "对配音演员的心理伤害影响",
+      "英文名称": "Psychological Harm to Voice Actors Impact",
+      "来源": "Video Game Voice Actors Harassed"
+    },
+    "Stakeholder": {
+      "id": "VideoGameVoiceActors",
+      "中文名称": "电子游戏配音演员",
+      "英文名称": "Game Voice Actors",
+      "来源": "Video Game Voice Actors Doxed and Harassed"
+    },
+    "AITechnique": {
+      "id": "VoiceCloningTechnology",
+      "中文名称": "语音克隆技术",
+      "英文名称": "Deepfake Voice/Audio Tech",
+      "来源": "Targeted AI Voice Attack"
+    },
+    "Misuse": {
+      "id": "MaliciousUseOfVoiceCloning",
+      "中文名称": "语音克隆技术的恶意使用",
+      "英文名称": "Non - consensual AI Deepfake Misuse",
+      "来源": "Targeted AI Voice Attack"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GoogleDermatologyApp",
+      "中文名称": "谷歌皮肤病学应用",
+      "英文名称": "Google Dermatology App",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Risk": {
+      "id": "SkinConditionMisdiagnosisRisk",
+      "中文名称": "皮肤病误诊风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "AISubject": {
+      "id": "PeopleWithDarkerSkin",
+      "中文名称": "深色皮肤人群",
+      "英文名称": "Dark-skinned people",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "Survey: Gen AI in healthcare gains momentum across sectors"
+    },
+    "AICapability": {
+      "id": "SkinConditionAnalysis",
+      "中文名称": "皮肤病分析能力",
+      "英文名称": "Skin Condition Analysis Capability",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Impact": {
+      "id": "HealthDisparities",
+      "中文名称": "健康差异影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "Purpose": {
+      "id": "SkinConditionDiagnosis",
+      "中文名称": "皮肤病诊断目的",
+      "英文名称": "Skin Condition Diagnosis Purpose",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "AITechnique": {
+      "id": "ImageRecognition",
+      "中文名称": "图像识别技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Stakeholder": {
+      "id": "HealthcareProviders",
+      "中文名称": "医疗保健提供者",
+      "英文名称": "Medical Providers",
+      "来源": "Survey: Gen AI in healthcare gains momentum across sectors"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "GoogleDermatologyApp",
+      "中文名称": "谷歌皮肤病学应用",
+      "英文名称": "Google Dermatology App",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Risk": {
+      "id": "SkinConditionMisdiagnosisRisk",
+      "中文名称": "皮肤病误诊风险",
+      "英文名称": "Medical Misinformation Risk",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "AISubject": {
+      "id": "PeopleWithDarkerSkin",
+      "中文名称": "深色皮肤人群",
+      "英文名称": "Dark-skinned people",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "Domain": {
+      "id": "Healthcare",
+      "中文名称": "医疗保健",
+      "英文名称": "Healthcare Domain",
+      "来源": "Survey: Gen AI in healthcare gains momentum across sectors"
+    },
+    "AICapability": {
+      "id": "SkinConditionAnalysis",
+      "中文名称": "皮肤病分析能力",
+      "英文名称": "Skin Condition Analysis Capability",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Impact": {
+      "id": "HealthDisparities",
+      "中文名称": "健康差异影响",
+      "英文名称": "Child & Minority Health & Safety Harm",
+      "来源": "Google’s New Dermatology App Wasn’t Designed for People With Darker Skin"
+    },
+    "Purpose": {
+      "id": "SkinConditionDiagnosis",
+      "中文名称": "皮肤病诊断目的",
+      "英文名称": "Skin Condition Diagnosis Purpose",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "AITechnique": {
+      "id": "ImageRecognition",
+      "中文名称": "图像识别技术",
+      "英文名称": "Image Recognition Technique",
+      "来源": "Google debuts an AI-powered tool to analyze skin conditions"
+    },
+    "Stakeholder": {
+      "id": "HealthcareProviders",
+      "中文名称": "医疗保健提供者",
+      "英文名称": "Medical Providers",
+      "来源": "Survey: Gen AI in healthcare gains momentum across sectors"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaFullSelfDrivingSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Full Self-Driving System"@en ;
+    rdfs:label "特斯拉全自动驾驶系统"@zh ;
+    airo:hasRisk ex:PedestrianSafetyRisk ;
+    airo:hasCapability ex:AutonomousDrivingCapability ;
+    airo:isDevelopedBy ex:TeslaInc ;
+    airo:hasPurpose ex:AutonomousTransportation ;
+    airo:hasStakeholder ex:Pedestrians ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:usesTechnique ex:ComputerVisionAndMachineLearning .
+
+ex:PedestrianSafetyRisk rdf:type airo:Risk ;
+    rdfs:label "Pedestrian Safety Risk"@en ;
+    rdfs:label "行人安全风险"@zh ;
+    airo:hasConsequence ex:PedestrianInjuryOrDeath ;
+    airo:isRiskSourceFor ex:InadequateTestingOfBetaSoftware .
+
+ex:PedestrianInjuryOrDeath rdf:type airo:Consequence ;
+    rdfs:label "Pedestrian Injury or Death Consequence"@en ;
+    rdfs:label "行人受伤或死亡后果"@zh ;
+    airo:hasImpact ex:PublicSafetyThreat .
+
+ex:AutonomousDrivingCapability rdf:type airo:AICapability ;
+    rdfs:label "Autonomous Driving Capability"@en ;
+    rdfs:label "自动驾驶能力"@zh .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:Pedestrians rdf:type airo:Stakeholder ;
+    rdfs:label "Pedestrians"@en ;
+    rdfs:label "行人"@zh .
+
+ex:PublicSafetyThreat rdf:type airo:Impact ;
+    rdfs:label "Public Safety Threat Impact"@en ;
+    rdfs:label "公共安全威胁影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Pedestrians .
+
+ex:AutonomousTransportation rdf:type airo:Purpose ;
+    rdfs:label "Autonomous Transportation Purpose"@en ;
+    rdfs:label "自动驾驶交通目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:ComputerVisionAndMachineLearning rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision and Machine Learning Technique"@en ;
+    rdfs:label "计算机视觉与机器学习技术"@zh .
+
+ex:InadequateTestingOfBetaSoftware rdf:type airo:RiskSource ;
+    rdfs:label "Inadequate Testing of Beta Software Risk Source"@en ;
+    rdfs:label "测试版软件测试不足风险源"@zh ;
+    airo:exploitsVulnerability ex:PedestrianDetectionFailure .
+
+ex:PedestrianDetectionFailure rdf:type airo:Vulnerability ;
+    rdfs:label "Pedestrian Detection Failure Vulnerability"@en ;
+    rdfs:label "行人检测失败脆弱性"@zh .
+
+ex:EthicalChallengesInAutonomousVehicleTesting rdf:type airo:RiskConcept ;
+    rdfs:label "Ethical Challenges in Autonomous Vehicle Testing Risk Concept"@en ;
+    rdfs:label "自动驾驶车辆测试中的伦理挑战"@zh .
+
+ex:SystemMisclassificationOfPedestrians rdf:type airo:Threat ;
+    rdfs:label "System Misclassification of Pedestrians Threat"@en ;
+    rdfs:label "系统对行人误分类威胁"@zh ;
+    airo:isRiskSourceFor ex:PedestrianSafetyRisk .
+
+ex:UnsafeAutonomousDrivingBehavior rdf:type airo:Hazard ;
+    rdfs:label "Unsafe Autonomous Driving Behavior Hazard"@en ;
+    rdfs:label "不安全的自动驾驶行为危害"@zh ;
+    airo:isRiskSourceFor ex:PedestrianSafetyRisk .

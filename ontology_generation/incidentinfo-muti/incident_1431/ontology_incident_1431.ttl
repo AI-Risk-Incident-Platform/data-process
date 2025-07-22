@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIScriptEvent rdf:type airo:AISystem ;
+    rdfs:label "AI Script Event"@en ;
+    rdfs:label "AI脚本活动"@zh ;
+    airo:hasRisk ex:PlagiarismRisk ;
+    airo:hasStakeholder ex:PopularVoiceActors .
+
+ex:PlagiarismRisk rdf:type airo:Risk ;
+    rdfs:label "Plagiarism Risk"@en ;
+    rdfs:label "剽窃风险"@zh ;
+    airo:hasConsequence ex:EventCancellation .
+
+ex:EventCancellation rdf:type airo:Consequence ;
+    rdfs:label "Event Cancellation Consequence"@en ;
+    rdfs:label "活动取消后果"@zh ;
+    airo:hasImpact ex:PublicCriticism .
+
+ex:PopularVoiceActors rdf:type airo:Stakeholder ;
+    rdfs:label "Popular Voice Actors"@en ;
+    rdfs:label "人气声优"@zh .
+
+ex:PublicCriticism rdf:type airo:Impact ;
+    rdfs:label "Public Criticism Impact"@en ;
+    rdfs:label "公众批评影响"@zh ;
+    airo:hasImpactOnStakeholder ex:PopularVoiceActors .

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GunDetectionAI",
+      "中文名称": "枪支检测AI",
+      "英文名称": "Gun Detection AI",
+      "来源": "Gun Detection AI The Latest Tech To Make Schools Less Safe"
+    },
+    "Risk": {
+      "id": "SchoolSafetyRisk",
+      "中文名称": "学校安全风险",
+      "英文名称": "School Safety Risk",
+      "来源": "Gun Detection AI The Latest Tech To Make Schools Less Safe"
+    },
+    "Stakeholder": {
+      "id": "SchoolAdministrators",
+      "中文名称": "学校管理者",
+      "英文名称": "School Administrators",
+      "来源": "Rollout of Gun-Detecting AI Scanners in Schools Has Been a ‘Cluster,’ Emails Show"
+    },
+    "AIOperator": {
+      "id": "AIScannerProvider",
+      "中文名称": "AI扫描仪提供商",
+      "英文名称": "AI Scanner Provider",
+      "来源": "Rollout of Gun-Detecting AI Scanners in Schools Has Been a ‘Cluster,’ Emails Show"
+    },
+    "Impact": {
+      "id": "ReducedSchoolSafety",
+      "中文名称": "学校安全性降低",
+      "英文名称": "Reduced School Safety",
+      "来源": "Gun Detection AI The Latest Tech To Make Schools Less Safe"
+    }
+  }
+}

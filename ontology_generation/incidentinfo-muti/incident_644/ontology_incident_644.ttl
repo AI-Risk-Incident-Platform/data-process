@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:SophisticatedScamsRisk ;
+    airo:hasAICapability ex:PhishingScamGeneration ;
+    airo:usesTechnique ex:NaturalLanguageGeneration ;
+    airo:hasPurpose ex:CybercrimeFacilitation ;
+    airo:hasStakeholder ex:NorthKoreanHackers ;
+    airo:isAppliedWithinDomain ex:Cybersecurity .
+
+ex:SophisticatedScamsRisk rdf:type airo:Risk ;
+    rdfs:label "Sophisticated Scams Risk"@en ;
+    rdfs:label "复杂诈骗风险"@zh ;
+    airo:hasConsequence ex:LinkedInUserScams ;
+    airo:isRiskSourceFor ex:AIEnhancedPhishing .
+
+ex:NorthKoreanHackers rdf:type airo:Stakeholder ;
+    rdfs:label "North Korean Hackers"@en ;
+    rdfs:label "朝鲜黑客"@zh .
+
+ex:PhishingScamGeneration rdf:type airo:AICapability ;
+    rdfs:label "Phishing Scam Generation Capability"@en ;
+    rdfs:label "钓鱼诈骗生成能力"@zh .
+
+ex:LinkedInUserScams rdf:type airo:Consequence ;
+    rdfs:label "LinkedIn User Scams Consequence"@en ;
+    rdfs:label "LinkedIn用户诈骗后果"@zh ;
+    airo:hasImpact ex:FinancialLossesForVictims .
+
+ex:NaturalLanguageGeneration rdf:type airo:AITechnique ;
+    rdfs:label "Natural Language Generation Technique"@en ;
+    rdfs:label "自然语言生成技术"@zh .
+
+ex:AIEnhancedPhishing rdf:type airo:RiskSource ;
+    rdfs:label "AI-Enhanced Phishing Risk Source"@en ;
+    rdfs:label "AI增强钓鱼风险源"@zh .
+
+ex:FinancialLossesForVictims rdf:type airo:Impact ;
+    rdfs:label "Financial Losses for Victims Impact"@en ;
+    rdfs:label "受害者经济损失影响"@zh ;
+    airo:hasImpactOnStakeholder ex:NorthKoreanHackers .
+
+ex:CybercrimeFacilitation rdf:type airo:Purpose ;
+    rdfs:label "Cybercrime Facilitation Purpose"@en ;
+    rdfs:label "网络犯罪辅助目的"@zh .
+
+ex:Cybersecurity rdf:type airo:Domain ;
+    rdfs:label "Cybersecurity Domain"@en ;
+    rdfs:label "网络安全领域"@zh .

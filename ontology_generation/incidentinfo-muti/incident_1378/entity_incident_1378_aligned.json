@@ -1,0 +1,186 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "PerplexityAIChatbot",
+      "中文名称": "Perplexity AI聊天机器人",
+      "英文名称": "Perplexity AI",
+      "来源": "Perplexity’s Persistent Problems: WIRED Reveals AI Chatbot Misinformed, Crawled Webpages Without Permission"
+    },
+    "Risk": {
+      "id": "UnauthorizedWebScrapingRisk",
+      "中文名称": "未经授权的网页抓取风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites, licensing firm says"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringement",
+      "中文名称": "版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites"
+    },
+    "AICapability": {
+      "id": "WebContentCrawling",
+      "中文名称": "网页内容抓取能力",
+      "英文名称": "Web Content Crawling Capability",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "AIOperator": {
+      "id": "PerplexityAI",
+      "中文名称": "Perplexity AI公司",
+      "英文名称": "Tech Entities",
+      "来源": "Perplexity’s Persistent Problems"
+    },
+    "Stakeholder": {
+      "id": "WebPublishers",
+      "中文名称": "网络出版商",
+      "英文名称": "Web Publishers",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites"
+    },
+    "Impact": {
+      "id": "EconomicLossForPublishers",
+      "中文名称": "出版商经济损失的影响",
+      "英文名称": "Publisher Economic Loss Impact",
+      "来源": "bypassing web standard to scrape publisher sites"
+    },
+    "Purpose": {
+      "id": "ContentAggregation",
+      "中文名称": "内容聚合的目的",
+      "英文名称": "Content Aggregation Purpose",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "Domain": {
+      "id": "WebContent",
+      "中文名称": "网络内容领域",
+      "英文名称": "Online Content Domain",
+      "来源": "scrape publisher sites"
+    },
+    "AITechnique": {
+      "id": "WebCrawlingAlgorithm",
+      "中文名称": "网络爬虫算法",
+      "英文名称": "Data Scraping",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "Vulnerability": {
+      "id": "LackOfTechnicalProtection",
+      "中文名称": "缺乏技术保护的脆弱性",
+      "英文名称": "Security Vulnerability",
+      "来源": "bypassing web standard"
+    },
+    "Threat": {
+      "id": "DataMisappropriation",
+      "中文名称": "数据盗用的威胁",
+      "英文名称": "Unauthorized Data Threat",
+      "来源": "scrape publisher sites without permission"
+    },
+    "Hazard": {
+      "id": "UnethicalDataCollection",
+      "中文名称": "不道德数据收集的危害",
+      "英文名称": "Data Collection Hazard",
+      "来源": "bypassing web standard to scrape publisher sites"
+    },
+    "RiskSource": {
+      "id": "NonComplianceWithWebStandards",
+      "中文名称": "不遵守网络标准的风险源",
+      "英文名称": "Non-Compliance with Web Standards Risk Source",
+      "来源": "bypassing web standard"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInWebScraping",
+      "中文名称": "网络抓取中的伦理问题",
+      "英文名称": "Ethical Issues in Web Scraping Risk Concept",
+      "来源": "How to stop Perplexity and save the web from bad AI"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "PerplexityAIChatbot",
+      "中文名称": "Perplexity AI聊天机器人",
+      "英文名称": "Perplexity AI",
+      "来源": "Perplexity’s Persistent Problems: WIRED Reveals AI Chatbot Misinformed, Crawled Webpages Without Permission"
+    },
+    "Risk": {
+      "id": "UnauthorizedWebScrapingRisk",
+      "中文名称": "未经授权的网页抓取风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites, licensing firm says"
+    },
+    "Consequence": {
+      "id": "CopyrightInfringement",
+      "中文名称": "版权侵权后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites"
+    },
+    "AICapability": {
+      "id": "WebContentCrawling",
+      "中文名称": "网页内容抓取能力",
+      "英文名称": "Web Content Crawling Capability",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "AIOperator": {
+      "id": "PerplexityAI",
+      "中文名称": "Perplexity AI公司",
+      "英文名称": "Tech Entities",
+      "来源": "Perplexity’s Persistent Problems"
+    },
+    "Stakeholder": {
+      "id": "WebPublishers",
+      "中文名称": "网络出版商",
+      "英文名称": "Web Publishers",
+      "来源": "Multiple AI companies bypassing web standard to scrape publisher sites"
+    },
+    "Impact": {
+      "id": "EconomicLossForPublishers",
+      "中文名称": "出版商经济损失的影响",
+      "英文名称": "Publisher Economic Loss Impact",
+      "来源": "bypassing web standard to scrape publisher sites"
+    },
+    "Purpose": {
+      "id": "ContentAggregation",
+      "中文名称": "内容聚合的目的",
+      "英文名称": "Content Aggregation Purpose",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "Domain": {
+      "id": "WebContent",
+      "中文名称": "网络内容领域",
+      "英文名称": "Online Content Domain",
+      "来源": "scrape publisher sites"
+    },
+    "AITechnique": {
+      "id": "WebCrawlingAlgorithm",
+      "中文名称": "网络爬虫算法",
+      "英文名称": "Data Scraping",
+      "来源": "Crawled Webpages Without Permission"
+    },
+    "Vulnerability": {
+      "id": "LackOfTechnicalProtection",
+      "中文名称": "缺乏技术保护的脆弱性",
+      "英文名称": "Security Vulnerability",
+      "来源": "bypassing web standard"
+    },
+    "Threat": {
+      "id": "DataMisappropriation",
+      "中文名称": "数据盗用的威胁",
+      "英文名称": "Unauthorized Data Threat",
+      "来源": "scrape publisher sites without permission"
+    },
+    "Hazard": {
+      "id": "UnethicalDataCollection",
+      "中文名称": "不道德数据收集的危害",
+      "英文名称": "Data Collection Hazard",
+      "来源": "bypassing web standard to scrape publisher sites"
+    },
+    "RiskSource": {
+      "id": "NonComplianceWithWebStandards",
+      "中文名称": "不遵守网络标准的风险源",
+      "英文名称": "Non-Compliance with Web Standards Risk Source",
+      "来源": "bypassing web standard"
+    },
+    "RiskConcept": {
+      "id": "EthicalIssuesInWebScraping",
+      "中文名称": "网络抓取中的伦理问题",
+      "英文名称": "Ethical Issues in Web Scraping Risk Concept",
+      "来源": "How to stop Perplexity and save the web from bad AI"
+    }
+  }
+}

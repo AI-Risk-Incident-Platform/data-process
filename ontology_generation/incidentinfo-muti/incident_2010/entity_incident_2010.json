@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "UncensoredAIArtGenerator",
+      "中文名称": "无审查AI艺术生成器",
+      "英文名称": "Uncensored AI Art Generator",
+      "来源": "Deepfakes for all? Uncensored AI art model prompts ethics questions"
+    },
+    "Risk": {
+      "id": "EthicalMisuseRisk",
+      "中文名称": "伦理滥用风险",
+      "英文名称": "Ethical Misuse Risk",
+      "来源": "Anyone can use this AI art generator — that’s the risk"
+    },
+    "Stakeholder": {
+      "id": "StartupCompany",
+      "中文名称": "初创公司",
+      "英文名称": "Startup Company",
+      "来源": "A startup wants to democratize the tech behind DALL-E 2, consequences be damned"
+    },
+    "Purpose": {
+      "id": "DemocratizeAITechnology",
+      "中文名称": "普及AI技术",
+      "英文名称": "Democratize AI Technology",
+      "来源": "A startup wants to democratize the tech behind DALL-E 2, consequences be damned"
+    },
+    "Consequence": {
+      "id": "EthicalQuestions",
+      "中文名称": "伦理问题后果",
+      "英文名称": "Ethical Questions Consequence",
+      "来源": "Deepfakes for all? Uncensored AI art model prompts ethics questions"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Networks Technique",
+      "来源": "the tech behind DALL-E 2"
+    },
+    "RiskSource": {
+      "id": "UnrestrictedPublicAccess",
+      "中文名称": "无限制公众访问风险源",
+      "英文名称": "Unrestricted Public Access Risk Source",
+      "来源": "Anyone can use this AI art generator"
+    }
+  }
+}

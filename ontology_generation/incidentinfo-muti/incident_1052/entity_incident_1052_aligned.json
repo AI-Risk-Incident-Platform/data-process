@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepFakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Katy Perry's Met Gala AI-Generated Deep Fake Stumps Fans Again (but Not Her Mom This Time)"
+    },
+    "Risk": {
+      "id": "MisinformationAndIdentityFraudRisk",
+      "中文名称": "虚假信息和身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-Generated Deep Fake Stumps Fans"
+    },
+    "AICapability": {
+      "id": "CelebrityImageSynthesis",
+      "中文名称": "名人图像合成能力",
+      "英文名称": "Celebrity Image Cloning/Synthesis Capability",
+      "来源": "AI-Generated Deep Fake"
+    },
+    "Stakeholder": {
+      "id": "CelebrityFans",
+      "中文名称": "名人粉丝",
+      "英文名称": "Celebrity Fans",
+      "来源": "Stumps Fans Again"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndMisidentification",
+      "中文名称": "公众混淆和错误识别影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Stumps Fans Again"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "AI-Generated Deep Fake"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepFakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Scam AI",
+      "来源": "Katy Perry's Met Gala AI-Generated Deep Fake Stumps Fans Again (but Not Her Mom This Time)"
+    },
+    "Risk": {
+      "id": "MisinformationAndIdentityFraudRisk",
+      "中文名称": "虚假信息和身份欺诈风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "AI-Generated Deep Fake Stumps Fans"
+    },
+    "AICapability": {
+      "id": "CelebrityImageSynthesis",
+      "中文名称": "名人图像合成能力",
+      "英文名称": "Celebrity Image Cloning/Synthesis Capability",
+      "来源": "AI-Generated Deep Fake"
+    },
+    "Stakeholder": {
+      "id": "CelebrityFans",
+      "中文名称": "名人粉丝",
+      "英文名称": "Celebrity Fans",
+      "来源": "Stumps Fans Again"
+    },
+    "Impact": {
+      "id": "PublicConfusionAndMisidentification",
+      "中文名称": "公众混淆和错误识别影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Stumps Fans Again"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络技术",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "AI-Generated Deep Fake"
+    }
+  }
+}

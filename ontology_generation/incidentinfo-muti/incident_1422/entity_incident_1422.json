@@ -1,0 +1,94 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "WeaponsDetectionAI",
+      "中文名称": "武器检测AI",
+      "英文名称": "Weapons Detection AI",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "Risk": {
+      "id": "PrivacyViolationRisk",
+      "中文名称": "隐私侵犯风险",
+      "英文名称": "Privacy Violation Risk",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "Stakeholder": {
+      "id": "GeneralPublic",
+      "中文名称": "公众",
+      "英文名称": "General Public",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "Domain": {
+      "id": "PublicSafety",
+      "中文名称": "公共安全",
+      "英文名称": "Public Safety",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "AICapability": {
+      "id": "GunDetection",
+      "中文名称": "枪支检测能力",
+      "英文名称": "Gun Detection Capability",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "RiskSource": {
+      "id": "MassSurveillance",
+      "中文名称": "大规模监控",
+      "英文名称": "Mass Surveillance",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "Consequence": {
+      "id": "LossOfPrivacy",
+      "中文名称": "隐私丧失",
+      "英文名称": "Loss of Privacy",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "Impact": {
+      "id": "CivilLibertiesErosion",
+      "中文名称": "公民自由侵蚀",
+      "英文名称": "Civil Liberties Erosion",
+      "来源": "AI may be searching you for guns the next time you go out in public"
+    },
+    "AIOperator": {
+      "id": "SecurityAgencies",
+      "中文名称": "安全机构",
+      "英文名称": "Security Agencies",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "Purpose": {
+      "id": "PublicSafetyEnhancement",
+      "中文名称": "公共安全增强",
+      "英文名称": "Public Safety Enhancement",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "AITechnique": {
+      "id": "ComputerVision",
+      "中文名称": "计算机视觉",
+      "英文名称": "Computer Vision",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "Vulnerability": {
+      "id": "FalsePositives",
+      "中文名称": "误报漏洞",
+      "英文名称": "False Positives Vulnerability",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "Threat": {
+      "id": "Misidentification",
+      "中文名称": "错误识别威胁",
+      "英文名称": "Misidentification Threat",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "Hazard": {
+      "id": "UnreliableDetection",
+      "中文名称": "不可靠检测危害",
+      "英文名称": "Unreliable Detection Hazard",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    },
+    "RiskConcept": {
+      "id": "EthicalConcernsInSurveillanceAI",
+      "中文名称": "监控AI中的伦理问题",
+      "英文名称": "Ethical Concerns in Surveillance AI",
+      "来源": "Feds Probe Marketing Push Behind AI 'Weapons Detection' Tool Used in Schools"
+    }
+  }
+}

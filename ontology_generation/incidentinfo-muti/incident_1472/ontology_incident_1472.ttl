@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:WorldcoinBiometricsSystem rdf:type airo:AISystem ;
+    rdfs:label "Worldcoin Biometrics System"@en ;
+    rdfs:label "Worldcoin生物识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:BiometricDataSubjects ;
+    airo:hasStakeholder ex:SouthKoreaPrivacyRegulator ;
+    airo:isAppliedWithinDomain ex:DigitalIdentityVerification .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:RegulatoryInvestigation ;
+    airo:isRiskSourceFor ex:BiometricDataCollection .
+
+ex:SouthKoreaPrivacyRegulator rdf:type airo:Stakeholder ;
+    rdfs:label "South Korea Privacy Regulator"@en ;
+    rdfs:label "韩国隐私监管机构"@zh .
+
+ex:BiometricDataSubjects rdf:type airo:AISubject ;
+    rdfs:label "Biometric Data Subjects"@en ;
+    rdfs:label "生物识别数据主体"@zh .
+
+ex:PersonalDataExposure rdf:type airo:Impact ;
+    rdfs:label "Personal Data Exposure Impact"@en ;
+    rdfs:label "个人数据暴露影响"@zh ;
+    airo:hasImpactOnStakeholder ex:BiometricDataSubjects .
+
+ex:DigitalIdentityVerification rdf:type airo:Domain ;
+    rdfs:label "Digital Identity Verification Domain"@en ;
+    rdfs:label "数字身份验证领域"@zh .
+
+ex:BiometricDataCollection rdf:type airo:RiskSource ;
+    rdfs:label "Biometric Data Collection Risk Source"@en ;
+    rdfs:label "生物识别数据收集风险源"@zh .
+
+ex:RegulatoryInvestigation rdf:type airo:Consequence ;
+    rdfs:label "Regulatory Investigation Consequence"@en ;
+    rdfs:label "监管调查后果"@zh ;
+    airo:hasImpact ex:PersonalDataExposure .

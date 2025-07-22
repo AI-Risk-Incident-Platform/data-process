@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacialRecognitionTechnology rdf:type airo:AISystem ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasStakeholder ex:RetailCustomers ;
+    airo:isDeployedBy ex:MajorRetailers ;
+    airo:usesTechnique ex:FacialRecognitionAlgorithm ;
+    airo:isAppliedWithinDomain ex:RetailIndustry .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedBiometricDataCollection ;
+    airo:isRiskSourceFor ex:CovertSurveillancePractices .
+
+ex:RetailCustomers rdf:type airo:Stakeholder ;
+    rdfs:label "Retail Customers"@en ;
+    rdfs:label "零售顾客"@zh .
+
+ex:MajorRetailers rdf:type airo:AIOperator ;
+    rdfs:label "Major Retailers"@en ;
+    rdfs:label "主要零售商"@zh .
+
+ex:UnauthorizedBiometricDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Biometric Data Collection"@en ;
+    rdfs:label "未经授权的生物特征数据收集"@zh ;
+    airo:hasImpact ex:LossOfPersonalPrivacy .
+
+ex:LossOfPersonalPrivacy rdf:type airo:Impact ;
+    rdfs:label "Loss of Personal Privacy"@en ;
+    rdfs:label "个人隐私丧失"@zh ;
+    airo:hasImpactOnStakeholder ex:RetailCustomers .
+
+ex:CovertSurveillancePractices rdf:type airo:RiskSource ;
+    rdfs:label "Covert Surveillance Practices"@en ;
+    rdfs:label "隐蔽监控行为"@zh .
+
+ex:FacialRecognitionAlgorithm rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Algorithm"@en ;
+    rdfs:label "面部识别算法"@zh .
+
+ex:RetailIndustry rdf:type airo:Domain ;
+    rdfs:label "Retail Industry"@en ;
+    rdfs:label "零售业"@zh .

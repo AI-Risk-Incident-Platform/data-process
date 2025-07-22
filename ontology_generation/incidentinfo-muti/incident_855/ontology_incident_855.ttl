@@ -1,0 +1,86 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:SmartTrafficCameraSystem rdf:type airo:AISystem ;
+    rdfs:label "Smart Traffic Camera System"@en ;
+    rdfs:label "智能交通摄像头系统"@zh ;
+    airo:hasRisk ex:FalseAccusationRisk ;
+    airo:hasAICapability ex:ImageRecognitionForTrafficViolations ;
+    airo:isDeployedBy ex:TrafficAuthority ;
+    airo:hasStakeholder ex:DriversSubjectToAIEnforcement ;
+    airo:hasAISubject ex:AIExpertFalselyAccused ;
+    airo:hasPurpose ex:TrafficViolationDetection ;
+    airo:isAppliedWithinDomain ex:TrafficEnforcement ;
+    airo:usesTechnique ex:ComputerVisionForBehaviorDetection .
+
+ex:FalseAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "False Accusation Risk"@en ;
+    rdfs:label "错误指控风险"@zh ;
+    airo:hasConsequence ex:UnjustFines ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInGestureRecognition .
+
+ex:UnjustFines rdf:type airo:Consequence ;
+    rdfs:label "Unjust Fines Consequence"@en ;
+    rdfs:label "不公正罚款后果"@zh ;
+    airo:hasImpact ex:FinancialLossAndReputationDamage .
+
+ex:ImageRecognitionForTrafficViolations rdf:type airo:AICapability ;
+    rdfs:label "Image Recognition for Traffic Violations Capability"@en ;
+    rdfs:label "交通违规图像识别能力"@zh .
+
+ex:TrafficAuthority rdf:type airo:AIOperator ;
+    rdfs:label "Traffic Authority"@en ;
+    rdfs:label "交通管理部门"@zh .
+
+ex:DriversSubjectToAIEnforcement rdf:type airo:Stakeholder ;
+    rdfs:label "Drivers Subject to AI Enforcement"@en ;
+    rdfs:label "接受AI执法的驾驶员"@zh .
+
+ex:AIExpertFalselyAccused rdf:type airo:AISubject ;
+    rdfs:label "AI Expert Falsely Accused"@en ;
+    rdfs:label "被错误指控的AI专家"@zh .
+
+ex:FinancialLossAndReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Financial Loss and Reputation Damage Impact"@en ;
+    rdfs:label "经济损失和声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:DriversSubjectToAIEnforcement , ex:AIExpertFalselyAccused .
+
+ex:TrafficViolationDetection rdf:type airo:Purpose ;
+    rdfs:label "Traffic Violation Detection Purpose"@en ;
+    rdfs:label "交通违规检测目的"@zh .
+
+ex:TrafficEnforcement rdf:type airo:Domain ;
+    rdfs:label "Traffic Enforcement Domain"@en ;
+    rdfs:label "交通执法领域"@zh .
+
+ex:ComputerVisionForBehaviorDetection rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Behavior Detection Technique"@en ;
+    rdfs:label "行为检测计算机视觉技术"@zh .
+
+ex:AlgorithmicBiasInGestureRecognition rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Gesture Recognition Risk Source"@en ;
+    rdfs:label "手势识别中的算法偏差风险源"@zh ;
+    airo:exploitsVulnerability ex:GestureMisinterpretation ;
+    airo:isThreatenedBy ex:AutomatedFalsePositives ;
+    airo:isHazardousDueTo ex:OverrelianceOnAIJudgment .
+
+ex:GestureMisinterpretation rdf:type airo:Vulnerability ;
+    rdfs:label "Gesture Misinterpretation Vulnerability"@en ;
+    rdfs:label "手势误判脆弱性"@zh .
+
+ex:AutomatedFalsePositives rdf:type airo:Threat ;
+    rdfs:label "Automated False Positives Threat"@en ;
+    rdfs:label "自动化误报威胁"@zh .
+
+ex:OverrelianceOnAIJudgment rdf:type airo:Hazard ;
+    rdfs:label "Overreliance on AI Judgment Hazard"@en ;
+    rdfs:label "过度依赖AI判断危害"@zh .

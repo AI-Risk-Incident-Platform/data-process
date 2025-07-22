@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingCar",
+      "中文名称": "Cruise自动驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "GM's Cruise Self-Driving Car Crash Injured Multiple People"
+    },
+    "Risk": {
+      "id": "TrafficCollisionRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Cruise self-driving crash in San Francisco resulted in injuries"
+    },
+    "Consequence": {
+      "id": "MultipleInjuries",
+      "中文名称": "多人受伤后果",
+      "英文名称": "Multiple Injuries Consequence",
+      "来源": "GM's Cruise Self-Driving Car Crash Injured Multiple People"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA investigating"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cruise self-driving crash in San Francisco resulted in injuries"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶汽车交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Report of a Traffic Collision Involving an Autonomous Vehicle"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车公司",
+      "英文名称": "General Motors",
+      "来源": "GM's Cruise Self-Driving Car Crash"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CruiseSelfDrivingCar",
+      "中文名称": "Cruise自动驾驶汽车",
+      "英文名称": "Cruise Autonomous Vehicles",
+      "来源": "GM's Cruise Self-Driving Car Crash Injured Multiple People"
+    },
+    "Risk": {
+      "id": "TrafficCollisionRisk",
+      "中文名称": "交通事故风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Cruise self-driving crash in San Francisco resulted in injuries"
+    },
+    "Consequence": {
+      "id": "MultipleInjuries",
+      "中文名称": "多人受伤后果",
+      "英文名称": "Multiple Injuries Consequence",
+      "来源": "GM's Cruise Self-Driving Car Crash Injured Multiple People"
+    },
+    "Stakeholder": {
+      "id": "NHTSA",
+      "中文名称": "美国国家公路交通安全管理局",
+      "英文名称": "National Highway Traffic Safety Administration",
+      "来源": "NHTSA investigating"
+    },
+    "Impact": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁影响",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "Cruise self-driving crash in San Francisco resulted in injuries"
+    },
+    "Domain": {
+      "id": "AutonomousVehicleTransportation",
+      "中文名称": "自动驾驶汽车交通领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Report of a Traffic Collision Involving an Autonomous Vehicle"
+    },
+    "AIOperator": {
+      "id": "GeneralMotors",
+      "中文名称": "通用汽车公司",
+      "英文名称": "General Motors",
+      "来源": "GM's Cruise Self-Driving Car Crash"
+    }
+  }
+}

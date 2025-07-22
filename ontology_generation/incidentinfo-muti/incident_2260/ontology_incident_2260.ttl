@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GPT3RedditBot rdf:type airo:AISystem ;
+    rdfs:label "GPT-3 Reddit Bot"@en ;
+    rdfs:label "GPT-3 Reddit机器人"@zh ;
+    airo:hasRisk ex:UndetectedAIMisuseRisk ;
+    airo:hasCapability ex:HumanLikeTextGeneration ;
+    airo:hasStakeholder ex:RedditCommunity ;
+    airo:hasPurpose ex:SocialMediaInteractionSimulation ;
+    airo:usesTechnique ex:LargeLanguageModel .
+
+ex:UndetectedAIMisuseRisk rdf:type airo:Risk ;
+    rdfs:label "Undetected AI Misuse Risk"@en ;
+    rdfs:label "未被发现的AI滥用风险"@zh ;
+    airo:hasConsequence ex:DeceptiveContentPropagation ;
+    airo:isRiskSourceFor ex:UnmonitoredAIDeployment ;
+    airo:hasResidualRisk ex:SocialMediaPersonaCreation .
+
+ex:HumanLikeTextGeneration rdf:type airo:AICapability ;
+    rdfs:label "Human-like Text Generation Capability"@en ;
+    rdfs:label "类人文本生成能力"@zh .
+
+ex:RedditCommunity rdf:type airo:Stakeholder ;
+    rdfs:label "Reddit Community"@en ;
+    rdfs:label "Reddit社区"@zh .
+
+ex:DeceptiveContentPropagation rdf:type airo:Consequence ;
+    rdfs:label "Deceptive Content Propagation Consequence"@en ;
+    rdfs:label "欺骗性内容传播后果"@zh ;
+    airo:hasImpact ex:TrustErosionInOnlineCommunities .
+
+ex:TrustErosionInOnlineCommunities rdf:type airo:Impact ;
+    rdfs:label "Trust Erosion in Online Communities Impact"@en ;
+    rdfs:label "在线社区信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:RedditCommunity .
+
+ex:SocialMediaInteractionSimulation rdf:type airo:Purpose ;
+    rdfs:label "Social Media Interaction Simulation Purpose"@en ;
+    rdfs:label "社交媒体互动模拟目的"@zh .
+
+ex:LargeLanguageModel rdf:type airo:AITechnique ;
+    rdfs:label "Large Language Model Technique"@en ;
+    rdfs:label "大型语言模型技术"@zh .
+
+ex:UnmonitoredAIDeployment rdf:type airo:RiskSource ;
+    rdfs:label "Unmonitored AI Deployment Risk Source"@en ;
+    rdfs:label "未受监控的AI部署风险源"@zh .
+
+ex:SocialMediaPersonaCreation rdf:type airo:Misuse ;
+    rdfs:label "Social Media Persona Creation Misuse"@en ;
+    rdfs:label "社交媒体角色创建滥用"@zh .

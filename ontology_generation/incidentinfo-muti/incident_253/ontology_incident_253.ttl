@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AmazonSearchAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Amazon Search Algorithm"@en ;
+    rdfs:label "亚马逊搜索算法"@zh ;
+    airo:hasRisk ex:UnfairCompetitionRisk ;
+    airo:isDeployedBy ex:AmazonInc ;
+    airo:hasPurpose ex:ProfitMaximization ;
+    airo:isAppliedWithinDomain ex:ECommerce .
+
+ex:UnfairCompetitionRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Competition Risk"@en ;
+    rdfs:label "不公平竞争风险"@zh ;
+    airo:hasConsequence ex:ConsumerHarm ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasForOwnProducts .
+
+ex:ConsumerHarm rdf:type airo:Consequence ;
+    rdfs:label "Consumer Harm Consequence"@en ;
+    rdfs:label "消费者损害后果"@zh ;
+    airo:hasImpact ex:MarketDistortion .
+
+ex:AmazonInc rdf:type airo:AIOperator ;
+    rdfs:label "Amazon Inc."@en ;
+    rdfs:label "亚马逊公司"@zh .
+
+ex:ProfitMaximization rdf:type airo:Purpose ;
+    rdfs:label "Profit Maximization Purpose"@en ;
+    rdfs:label "利润最大化目的"@zh .
+
+ex:ECommerce rdf:type airo:Domain ;
+    rdfs:label "E-Commerce Domain"@en ;
+    rdfs:label "电子商务领域"@zh .
+
+ex:AlgorithmicBiasForOwnProducts rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias for Own Products Risk Source"@en ;
+    rdfs:label "偏向自有产品的算法偏见风险源"@zh .
+
+ex:MarketDistortion rdf:type airo:Impact ;
+    rdfs:label "Market Distortion Impact"@en ;
+    rdfs:label "市场扭曲影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AmazonInc .

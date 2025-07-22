@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FacebookContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "Facebook Content Moderation System"@en ;
+    rdfs:label "Facebook内容审核系统"@zh ;
+    airo:hasRisk ex:ElectionWorkerThreatRisk ;
+    airo:hasAICapability ex:AutomatedContentReview ;
+    airo:hasStakeholder ex:USElectionWorkers ;
+    airo:hasStakeholder ex:MetaPlatformsInc ;
+    airo:isAppliedWithinDomain ex:SocialMediaPlatform ;
+    airo:hasVulnerability ex:ThreatDetectionGaps .
+
+ex:ElectionWorkerThreatRisk rdf:type airo:Risk ;
+    rdfs:label "Election Worker Threat Risk"@en ;
+    rdfs:label "选举工作人员威胁风险"@zh ;
+    airo:hasConsequence ex:ElectionWorkerSafetyThreat ;
+    airo:isRiskSourceFor ex:ContentModerationFailure .
+
+ex:ElectionWorkerSafetyThreat rdf:type airo:Consequence ;
+    rdfs:label "Election Worker Safety Threat Consequence"@en ;
+    rdfs:label "选举工作人员安全威胁后果"@zh ;
+    airo:hasImpact ex:DemocraticProcessUndermining .
+
+ex:USElectionWorkers rdf:type airo:Stakeholder ;
+    rdfs:label "US Election Workers"@en ;
+    rdfs:label "美国选举工作人员"@zh .
+
+ex:MetaPlatformsInc rdf:type airo:AIOperator ;
+    rdfs:label "Meta Platforms Inc."@en ;
+    rdfs:label "Meta平台公司"@zh .
+
+ex:ContentModerationFailure rdf:type airo:RiskSource ;
+    rdfs:label "Content Moderation Failure Risk Source"@en ;
+    rdfs:label "内容审核失败风险源"@zh .
+
+ex:DemocraticProcessUndermining rdf:type airo:Impact ;
+    rdfs:label "Democratic Process Undermining Impact"@en ;
+    rdfs:label "民主进程破坏影响"@zh ;
+    airo:hasImpactOnStakeholder ex:USElectionWorkers .
+
+ex:SocialMediaPlatform rdf:type airo:Domain ;
+    rdfs:label "Social Media Platform Domain"@en ;
+    rdfs:label "社交媒体平台领域"@zh .
+
+ex:AutomatedContentReview rdf:type airo:AICapability ;
+    rdfs:label "Automated Content Review Capability"@en ;
+    rdfs:label "自动化内容审核能力"@zh .
+
+ex:ThreatDetectionGaps rdf:type airo:Vulnerability ;
+    rdfs:label "Threat Detection Gaps Vulnerability"@en ;
+    rdfs:label "威胁检测漏洞"@zh .

@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "CognitiveAbilityAssessmentAlgorithm",
+      "中文名称": "认知能力评估算法",
+      "英文名称": "Cognitive Ability Assessment Algorithm",
+      "来源": "Black NFL players call for end of algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "Risk": {
+      "id": "RacialBiasInCognitiveAssessment",
+      "中文名称": "认知评估中的种族偏见风险",
+      "英文名称": "Racial Bias in Healthcare Risk",
+      "来源": "algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "AISubject": {
+      "id": "BlackNFLPlayers",
+      "中文名称": "黑人NFL球员",
+      "英文名称": "Black NFL Players",
+      "来源": "Black NFL players call for end of algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminatoryTreatment",
+      "中文名称": "歧视性待遇的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "assumes Black men have lower cognitive abilities"
+    },
+    "Stakeholder": {
+      "id": "NFLPlayersAssociation",
+      "中文名称": "NFL球员协会",
+      "英文名称": "NFL Players Association",
+      "来源": "Black NFL players call for end of algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "Consequence": {
+      "id": "UnfairEvaluationOutcomes",
+      "中文名称": "不公平评估结果的后果",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "assumes Black men have lower cognitive abilities"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "CognitiveAbilityAssessmentAlgorithm",
+      "中文名称": "认知能力评估算法",
+      "英文名称": "Cognitive Ability Assessment Algorithm",
+      "来源": "Black NFL players call for end of algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "Risk": {
+      "id": "RacialBiasInCognitiveAssessment",
+      "中文名称": "认知评估中的种族偏见风险",
+      "英文名称": "Racial Bias in Healthcare Risk",
+      "来源": "algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "AISubject": {
+      "id": "BlackNFLPlayers",
+      "中文名称": "黑人NFL球员",
+      "英文名称": "Black NFL Players",
+      "来源": "Black NFL players call for end of algorithm"
+    },
+    "Impact": {
+      "id": "DiscriminatoryTreatment",
+      "中文名称": "歧视性待遇的影响",
+      "英文名称": "Discrimination Impact",
+      "来源": "assumes Black men have lower cognitive abilities"
+    },
+    "Stakeholder": {
+      "id": "NFLPlayersAssociation",
+      "中文名称": "NFL球员协会",
+      "英文名称": "NFL Players Association",
+      "来源": "Black NFL players call for end of algorithm"
+    },
+    "RiskSource": {
+      "id": "BiasedTrainingData",
+      "中文名称": "有偏见的训练数据",
+      "英文名称": "Training and Content Data Risk",
+      "来源": "algorithm that assumes Black men have lower cognitive abilities"
+    },
+    "Consequence": {
+      "id": "UnfairEvaluationOutcomes",
+      "中文名称": "不公平评估结果的后果",
+      "英文名称": "Unfair Academic Consequence",
+      "来源": "assumes Black men have lower cognitive abilities"
+    }
+  }
+}

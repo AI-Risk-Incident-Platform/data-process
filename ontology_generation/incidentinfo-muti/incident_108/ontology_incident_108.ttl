@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:TeslaAutopilotSystem rdf:type airo:AISystem ;
+    rdfs:label "Tesla Autopilot System"@en ;
+    rdfs:label "特斯拉自动驾驶系统"@zh ;
+    airo:hasRisk ex:AutonomousVehicleFatalityRisk ;
+    airo:hasPurpose ex:VehicleSafetyEnhancement ;
+    airo:isAppliedWithinDomain ex:AutomotiveIndustry ;
+    airo:hasStakeholder ex:CrashVictimsFamilies ;
+    airo:isDeployedBy ex:TeslaInc .
+
+ex:AutonomousVehicleFatalityRisk rdf:type airo:Risk ;
+    rdfs:label "Autonomous Vehicle Fatality Risk"@en ;
+    rdfs:label "自动驾驶致命风险"@zh ;
+    airo:hasConsequence ex:FatalAccidents ;
+    airo:isRiskSourceFor ex:NascentAutopilotTechnology .
+
+ex:FatalAccidents rdf:type airo:Consequence ;
+    rdfs:label "Fatal Accidents Consequence"@en ;
+    rdfs:label "致命事故后果"@zh ;
+    airo:hasImpact ex:LossOfLife .
+
+ex:TeslaInc rdf:type airo:AIOperator ;
+    rdfs:label "Tesla Inc."@en ;
+    rdfs:label "特斯拉公司"@zh .
+
+ex:CrashVictimsFamilies rdf:type airo:Stakeholder ;
+    rdfs:label "Crash Victims' Families"@en ;
+    rdfs:label "事故受害者家属"@zh ;
+    airo:hasImpactOnStakeholder ex:LossOfLife .
+
+ex:LossOfLife rdf:type airo:Impact ;
+    rdfs:label "Loss of Life Impact"@en ;
+    rdfs:label "生命损失影响"@zh .
+
+ex:VehicleSafetyEnhancement rdf:type airo:Purpose ;
+    rdfs:label "Vehicle Safety Enhancement Purpose"@en ;
+    rdfs:label "车辆安全增强目的"@zh .
+
+ex:AutomotiveIndustry rdf:type airo:Domain ;
+    rdfs:label "Automotive Industry Domain"@en ;
+    rdfs:label "汽车工业领域"@zh .
+
+ex:NascentAutopilotTechnology rdf:type airo:RiskSource ;
+    rdfs:label "Nascent Autopilot Technology Risk Source"@en ;
+    rdfs:label "新兴自动驾驶技术风险源"@zh .

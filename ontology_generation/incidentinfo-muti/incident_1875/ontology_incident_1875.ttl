@@ -1,0 +1,61 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ChatGPT rdf:type airo:AISystem ;
+    rdfs:label "ChatGPT"@en ;
+    rdfs:label "ChatGPT"@zh ;
+    airo:hasRisk ex:IncorrectVotingInformationRisk ;
+    airo:hasAICapability ex:NaturalLanguageProcessingForVotingInformation ;
+    airo:isAppliedWithinDomain ex:ElectoralProcess ;
+    airo:hasPurpose ex:ProvidingVotingInformation ;
+    airo:hasStakeholder ex:VotersInBattlegroundStates .
+
+ex:IncorrectVotingInformationRisk rdf:type airo:Risk ;
+    rdfs:label "Incorrect Voting Information Risk"@en ;
+    rdfs:label "错误投票信息风险"@zh ;
+    airo:hasConsequence ex:VoterConfusion ;
+    airo:isRiskSourceFor ex:InaccurateTrainingData ;
+    airo:hasVulnerability ex:LackOfFactCheckingMechanism .
+
+ex:VoterConfusion rdf:type airo:Consequence ;
+    rdfs:label "Voter Confusion Consequence"@en ;
+    rdfs:label "选民困惑后果"@zh ;
+    airo:hasImpact ex:PotentialVoterSuppression .
+
+ex:PotentialVoterSuppression rdf:type airo:Impact ;
+    rdfs:label "Potential Voter Suppression Impact"@en ;
+    rdfs:label "潜在选民压制影响"@zh ;
+    airo:hasImpactOnStakeholder ex:VotersInBattlegroundStates .
+
+ex:ElectoralProcess rdf:type airo:Domain ;
+    rdfs:label "Electoral Process Domain"@en ;
+    rdfs:label "选举过程领域"@zh .
+
+ex:NaturalLanguageProcessingForVotingInformation rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Voting Information Capability"@en ;
+    rdfs:label "自然语言处理用于投票信息的能力"@zh .
+
+ex:InaccurateTrainingData rdf:type airo:RiskSource ;
+    rdfs:label "Inaccurate Training Data Risk Source"@en ;
+    rdfs:label "不准确训练数据的风险源"@zh .
+
+ex:LackOfFactCheckingMechanism rdf:type airo:Vulnerability ;
+    rdfs:label "Lack of Fact-Checking Mechanism Vulnerability"@en ;
+    rdfs:label "缺乏事实核查机制的脆弱性"@zh .
+
+ex:VotersInBattlegroundStates rdf:type airo:Stakeholder ;
+    rdfs:label "Voters in Battleground States"@en ;
+    rdfs:label "关键州选民"@zh .
+
+ex:ProvidingVotingInformation rdf:type airo:Purpose ;
+    rdfs:label "Providing Voting Information Purpose"@en ;
+    rdfs:label "提供投票信息的目的"@zh .

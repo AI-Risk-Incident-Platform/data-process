@@ -1,0 +1,41 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:StudentSuccessPredictionSystem rdf:type airo:AISystem ;
+    rdfs:label "Student Success Prediction System"@en ;
+    rdfs:label "学生成功预测系统"@zh ;
+    airo:hasRisk ex:RacialBiasInStudentSuccessPrediction ;
+    airo:hasAISubject ex:UniversityStudents ;
+    airo:isAppliedWithinDomain ex:HigherEducation .
+
+ex:RacialBiasInStudentSuccessPrediction rdf:type airo:Risk ;
+    rdfs:label "Racial Bias in Student Success Prediction Risk"@en ;
+    rdfs:label "学生成功预测中的种族偏见风险"@zh ;
+    airo:hasConsequence ex:EducationalInequality ;
+    airo:isRiskSourceFor ex:RaceAsPredictorVariable .
+
+ex:RaceAsPredictorVariable rdf:type airo:RiskSource ;
+    rdfs:label "Race as Predictor Variable"@en ;
+    rdfs:label "种族作为预测变量"@zh .
+
+ex:UniversityStudents rdf:type airo:AISubject ;
+    rdfs:label "University Students"@en ;
+    rdfs:label "大学生"@zh .
+
+ex:EducationalInequality rdf:type airo:Impact ;
+    rdfs:label "Educational Inequality"@en ;
+    rdfs:label "教育不平等"@zh ;
+    airo:hasImpactOnStakeholder ex:UniversityStudents .
+
+ex:HigherEducation rdf:type airo:Domain ;
+    rdfs:label "Higher Education"@en ;
+    rdfs:label "高等教育"@zh .

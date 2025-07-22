@@ -1,0 +1,90 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "从新闻标题中推断出涉及特斯拉自动驾驶系统"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "新闻标题中提到的'deadly Tesla Model S crash'和'deadly Texas crash'"
+    },
+    "Consequence": {
+      "id": "FatalAccident",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "新闻标题中多次提到的'deadly crash'"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "新闻标题中'Tesla claims'表明特斯拉公司是系统运营方"
+    },
+    "Stakeholder": {
+      "id": "VehicleOccupants",
+      "中文名称": "车辆乘员",
+      "英文名称": "Vehicle Pax",
+      "来源": "新闻标题中提到的'in the driver's seat'和'passenger behind the wheel'"
+    },
+    "Vulnerability": {
+      "id": "HumanOverrideFailure",
+      "中文名称": "人工接管失效漏洞",
+      "英文名称": "Human Override Failure Vulnerability",
+      "来源": "新闻标题中暗示可能存在驾驶员位置但系统仍发生事故"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemLimitations",
+      "中文名称": "自动驾驶系统局限性风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "从事故情况推断系统可能存在识别或控制缺陷"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaAutopilotSystem",
+      "中文名称": "特斯拉自动驾驶系统",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "从新闻标题中推断出涉及特斯拉自动驾驶系统"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleCrashRisk",
+      "中文名称": "自动驾驶车辆碰撞风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "新闻标题中提到的'deadly Tesla Model S crash'和'deadly Texas crash'"
+    },
+    "Consequence": {
+      "id": "FatalAccident",
+      "中文名称": "致命事故后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "新闻标题中多次提到的'deadly crash'"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "新闻标题中'Tesla claims'表明特斯拉公司是系统运营方"
+    },
+    "Stakeholder": {
+      "id": "VehicleOccupants",
+      "中文名称": "车辆乘员",
+      "英文名称": "Vehicle Pax",
+      "来源": "新闻标题中提到的'in the driver's seat'和'passenger behind the wheel'"
+    },
+    "Vulnerability": {
+      "id": "HumanOverrideFailure",
+      "中文名称": "人工接管失效漏洞",
+      "英文名称": "Human Override Failure Vulnerability",
+      "来源": "新闻标题中暗示可能存在驾驶员位置但系统仍发生事故"
+    },
+    "RiskSource": {
+      "id": "AutopilotSystemLimitations",
+      "中文名称": "自动驾驶系统局限性风险源",
+      "英文名称": "Autopilot Risk Source",
+      "来源": "从事故情况推断系统可能存在识别或控制缺陷"
+    }
+  }
+}

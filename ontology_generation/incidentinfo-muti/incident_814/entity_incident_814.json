@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeGenerationSystem",
+      "中文名称": "深度伪造生成系统",
+      "英文名称": "Deepfake Generation System",
+      "来源": "AI 'deepfakes' of Hurricane Helene victims circulate on social media"
+    },
+    "Risk": {
+      "id": "MisinformationSpreadRisk",
+      "中文名称": "虚假信息传播风险",
+      "英文名称": "Misinformation Spread Risk",
+      "来源": "Fake Hurricane Helene Images Go Viral"
+    },
+    "Consequence": {
+      "id": "PublicConfusionAndDistress",
+      "中文名称": "公众困惑与痛苦后果",
+      "英文名称": "Public Confusion and Distress Consequence",
+      "来源": "'hurt real people'"
+    },
+    "AITechnique": {
+      "id": "DeepLearningBasedImageSynthesis",
+      "中文名称": "基于深度学习的图像合成技术",
+      "英文名称": "Deep Learning Based Image Synthesis Technique",
+      "来源": "AI 'deepfakes'"
+    },
+    "Stakeholder": {
+      "id": "SocialMediaUsers",
+      "中文名称": "社交媒体用户",
+      "英文名称": "Social Media Users",
+      "来源": "circulate on social media"
+    },
+    "Impact": {
+      "id": "EmotionalHarmToVictimsFamilies",
+      "中文名称": "对受害者家庭的情感伤害影响",
+      "英文名称": "Emotional Harm to Victims' Families Impact",
+      "来源": "'hurt real people'"
+    },
+    "RiskSource": {
+      "id": "MaliciousContentCreation",
+      "中文名称": "恶意内容创作风险源",
+      "英文名称": "Malicious Content Creation Risk Source",
+      "来源": "Fake Hurricane Helene Images Go Viral"
+    }
+  }
+}

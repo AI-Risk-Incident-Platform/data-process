@@ -1,0 +1,64 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "BingAIChatbot",
+      "中文名称": "必应AI聊天机器人",
+      "英文名称": "Bing AI Chatbot",
+      "来源": "Microsoft's new AI chatbot search engine"
+    },
+    "Risk": {
+      "id": "UnreliableInformationRisk",
+      "中文名称": "不可靠信息风险",
+      "英文名称": "Unreliable Information Risk",
+      "来源": "some answers are uh-oh"
+    },
+    "Consequence": {
+      "id": "MisinformationSpread",
+      "中文名称": "错误信息传播后果",
+      "英文名称": "Misinformation Spread Consequence",
+      "来源": "Bing AI Is Lying"
+    },
+    "Impact": {
+      "id": "UserTrustErosion",
+      "中文名称": "用户信任侵蚀影响",
+      "英文名称": "User Trust Erosion Impact",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AICapability": {
+      "id": "ConversationalSearch",
+      "中文名称": "对话式搜索能力",
+      "英文名称": "Conversational Search Capability",
+      "来源": "Microsoft's new AI chatbot search engine"
+    },
+    "AIOperator": {
+      "id": "Microsoft",
+      "中文名称": "微软",
+      "英文名称": "Microsoft",
+      "来源": "Microsoft's new AI chatbot search engine"
+    },
+    "Stakeholder": {
+      "id": "SearchEngineUsers",
+      "中文名称": "搜索引擎用户",
+      "英文名称": "Search Engine Users",
+      "来源": "Users Report Microsoft's 'Unhinged' Bing AI Is Lying, Berating Them"
+    },
+    "AISubject": {
+      "id": "InformationSeekers",
+      "中文名称": "信息寻求者",
+      "英文名称": "Information Seekers",
+      "来源": "Microsoft's new AI chatbot search engine"
+    },
+    "RiskSource": {
+      "id": "EmotionalManipulation",
+      "中文名称": "情感操纵风险源",
+      "英文名称": "Emotional Manipulation Risk Source",
+      "来源": "Microsoft's Bing is an emotionally manipulative liar"
+    },
+    "Purpose": {
+      "id": "EnhancedSearchExperience",
+      "中文名称": "增强搜索体验目的",
+      "英文名称": "Enhanced Search Experience Purpose",
+      "来源": "Microsoft's new AI chatbot search engine"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook is blocking emergency warnings as wildfires roar through West"
+    },
+    "Risk": {
+      "id": "EmergencyInformationBlockingRisk",
+      "中文名称": "紧急信息屏蔽风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Facebook flagged and removed emergency wildfire information as 'spam'"
+    },
+    "Consequence": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "'It's life-threatening'"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook lands in hot water after marking vital wildfire safety warnings as spam"
+    },
+    "Stakeholder": {
+      "id": "WildfireAffectedCommunities",
+      "中文名称": "受野火影响的社区",
+      "英文名称": "Wildfire Affected Communities",
+      "来源": "wildfires roar through West"
+    },
+    "Impact": {
+      "id": "LifeThreateningSituation",
+      "中文名称": "危及生命的情况影响",
+      "英文名称": "Life-Threatening Situation Impact",
+      "来源": "'It's life-threatening'"
+    },
+    "Purpose": {
+      "id": "SpamContentPrevention",
+      "中文名称": "防止垃圾内容的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "flagged and removed emergency wildfire information as 'spam'"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook is blocking emergency warnings"
+    },
+    "AITechnique": {
+      "id": "AutomatedContentFiltering",
+      "中文名称": "自动内容过滤技术",
+      "英文名称": "Content Filtering Technique",
+      "来源": "flagged and removed emergency wildfire information as 'spam'"
+    },
+    "RiskSource": {
+      "id": "OverlyAggressiveSpamFilters",
+      "中文名称": "过于激进的垃圾邮件过滤器风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "Facebook flagged and removed emergency wildfire information as 'spam'"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "FacebookContentModerationSystem",
+      "中文名称": "Facebook内容审核系统",
+      "英文名称": "Facebook Content Moderation AI",
+      "来源": "Facebook is blocking emergency warnings as wildfires roar through West"
+    },
+    "Risk": {
+      "id": "EmergencyInformationBlockingRisk",
+      "中文名称": "紧急信息屏蔽风险",
+      "英文名称": "Traffic and Safety Risk",
+      "来源": "Facebook flagged and removed emergency wildfire information as 'spam'"
+    },
+    "Consequence": {
+      "id": "PublicSafetyThreat",
+      "中文名称": "公共安全威胁后果",
+      "英文名称": "Public Safety Concerns",
+      "来源": "'It's life-threatening'"
+    },
+    "AIOperator": {
+      "id": "FacebookInc",
+      "中文名称": "Facebook公司",
+      "英文名称": "Meta",
+      "来源": "Facebook lands in hot water after marking vital wildfire safety warnings as spam"
+    },
+    "Stakeholder": {
+      "id": "WildfireAffectedCommunities",
+      "中文名称": "受野火影响的社区",
+      "英文名称": "Wildfire Affected Communities",
+      "来源": "wildfires roar through West"
+    },
+    "Impact": {
+      "id": "LifeThreateningSituation",
+      "中文名称": "危及生命的情况影响",
+      "英文名称": "Life-Threatening Situation Impact",
+      "来源": "'It's life-threatening'"
+    },
+    "Purpose": {
+      "id": "SpamContentPrevention",
+      "中文名称": "防止垃圾内容的目的",
+      "英文名称": "Online Content Moderation",
+      "来源": "flagged and removed emergency wildfire information as 'spam'"
+    },
+    "Domain": {
+      "id": "SocialMediaPlatform",
+      "中文名称": "社交媒体平台领域",
+      "英文名称": "Social Media Domain",
+      "来源": "Facebook is blocking emergency warnings"
+    },
+    "AITechnique": {
+      "id": "AutomatedContentFiltering",
+      "中文名称": "自动内容过滤技术",
+      "英文名称": "Content Filtering Technique",
+      "来源": "flagged and removed emergency wildfire information as 'spam'"
+    },
+    "RiskSource": {
+      "id": "OverlyAggressiveSpamFilters",
+      "中文名称": "过于激进的垃圾邮件过滤器风险源",
+      "英文名称": "Excessive Filtering Risk Source",
+      "来源": "Facebook flagged and removed emergency wildfire information as 'spam'"
+    }
+  }
+}

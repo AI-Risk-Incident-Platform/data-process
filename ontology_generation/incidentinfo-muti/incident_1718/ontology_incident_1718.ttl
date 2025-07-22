@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:GoogleBard rdf:type airo:AISystem ;
+    rdfs:label "Google Bard"@en ;
+    rdfs:label "谷歌Bard"@zh ;
+    airo:hasRisk ex:FactualErrorRisk ;
+    airo:hasCapability ex:SearchTool .
+
+ex:FactualErrorRisk rdf:type airo:Risk ;
+    rdfs:label "Factual Error Risk"@en ;
+    rdfs:label "事实错误风险"@zh ;
+    airo:hasConsequence ex:MarketImpact .
+
+ex:MarketImpact rdf:type airo:Consequence ;
+    rdfs:label "Market Impact"@en ;
+    rdfs:label "市场影响"@zh ;
+    airo:hasImpactOnStakeholder ex:Alphabet .
+
+ex:Alphabet rdf:type airo:Stakeholder ;
+    rdfs:label "Alphabet"@en ;
+    rdfs:label "Alphabet公司"@zh .
+
+ex:SearchTool rdf:type airo:AICapability ;
+    rdfs:label "Search Tool"@en ;
+    rdfs:label "搜索工具"@zh .

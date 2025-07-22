@@ -1,0 +1,46 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VoiceMimickingAISystem rdf:type airo:AISystem ;
+    rdfs:label "Voice Mimicking AI System"@en ;
+    rdfs:label "语音模仿AI系统"@zh ;
+    airo:hasRisk ex:VoicePhishingRisk ;
+    airo:usesTechnique ex:VoiceSynthesisTechnology ;
+    airo:hasStakeholder ex:GeneralPublic .
+
+ex:VoicePhishingRisk rdf:type airo:Risk ;
+    rdfs:label "Voice Phishing Risk"@en ;
+    rdfs:label "语音钓鱼风险"@zh ;
+    airo:hasConsequence ex:FinancialFraud ;
+    airo:isRiskSourceFor ex:AIEnabledScam .
+
+ex:VoiceSynthesisTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Voice Synthesis Technology"@en ;
+    rdfs:label "语音合成技术"@zh .
+
+ex:FinancialFraud rdf:type airo:Consequence ;
+    rdfs:label "Financial Fraud Consequence"@en ;
+    rdfs:label "金融欺诈后果"@zh ;
+    airo:hasImpact ex:PublicTrustErosion .
+
+ex:PublicTrustErosion rdf:type airo:Impact ;
+    rdfs:label "Public Trust Erosion Impact"@en ;
+    rdfs:label "公众信任侵蚀影响"@zh ;
+    airo:hasImpactOnStakeholder ex:GeneralPublic .
+
+ex:AIEnabledScam rdf:type airo:RiskSource ;
+    rdfs:label "AI-Enabled Scam Risk Source"@en ;
+    rdfs:label "AI驱动的诈骗风险源"@zh .
+
+ex:GeneralPublic rdf:type airo:Stakeholder ;
+    rdfs:label "General Public"@en ;
+    rdfs:label "普通公众"@zh .

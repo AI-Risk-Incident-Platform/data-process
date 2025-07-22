@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "How deepfakes, AI and fake news impacted Pakistan’s elections 2024"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How deepfakes, AI and fake news impacted Pakistan’s elections 2024"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "Pakistan’s elections 2024"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "impacted Pakistan’s elections"
+    },
+    "Stakeholder": {
+      "id": "PakistaniVoters",
+      "中文名称": "巴基斯坦选民",
+      "英文名称": "Pakistani Voters",
+      "来源": "Pakistan’s elections 2024"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfakes"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "DeepfakeTechnology",
+      "中文名称": "深度伪造技术",
+      "英文名称": "Deepfake Technology",
+      "来源": "How deepfakes, AI and fake news impacted Pakistan’s elections 2024"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "How deepfakes, AI and fake news impacted Pakistan’s elections 2024"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举",
+      "英文名称": "Political Election Domain",
+      "来源": "Pakistan’s elections 2024"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀",
+      "英文名称": "Trust Erosion & Social Harm",
+      "来源": "impacted Pakistan’s elections"
+    },
+    "Stakeholder": {
+      "id": "PakistaniVoters",
+      "中文名称": "巴基斯坦选民",
+      "英文名称": "Pakistani Voters",
+      "来源": "Pakistan’s elections 2024"
+    },
+    "AITechnique": {
+      "id": "GenerativeAdversarialNetworks",
+      "中文名称": "生成对抗网络",
+      "英文名称": "Generative Adversarial Network",
+      "来源": "deepfakes"
+    }
+  }
+}

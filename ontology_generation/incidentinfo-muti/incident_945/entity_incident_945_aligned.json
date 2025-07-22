@@ -1,0 +1,78 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Risk": {
+      "id": "PhishingScamRisk",
+      "中文名称": "钓鱼诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Consequence": {
+      "id": "UserCredentialsTheft",
+      "中文名称": "用户凭证盗窃后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityCompromise",
+      "中文名称": "隐私和安全受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "RiskSource": {
+      "id": "FakePremiumService",
+      "中文名称": "虚假高级服务风险源",
+      "英文名称": "Fake Premium Service Risk Source",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Stakeholder": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "OpenAI Chatbot",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Risk": {
+      "id": "PhishingScamRisk",
+      "中文名称": "钓鱼诈骗风险",
+      "英文名称": "AI and Digital Risks",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Consequence": {
+      "id": "UserCredentialsTheft",
+      "中文名称": "用户凭证盗窃后果",
+      "英文名称": "Harmful Content & Legal Consequences",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Impact": {
+      "id": "PrivacyAndSecurityCompromise",
+      "中文名称": "隐私和安全受损影响",
+      "英文名称": "Privacy and Civil Rights Violation Impact",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "RiskSource": {
+      "id": "FakePremiumService",
+      "中文名称": "虚假高级服务风险源",
+      "英文名称": "Fake Premium Service Risk Source",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    },
+    "Stakeholder": {
+      "id": "ChatGPTUsers",
+      "中文名称": "ChatGPT用户",
+      "英文名称": "ChatGPT Users",
+      "来源": "Fake ChatGPT Premium Phishing Scam Spreads to Steal User Credentials"
+    }
+  }
+}

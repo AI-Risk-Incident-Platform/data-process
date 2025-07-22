@@ -1,0 +1,102 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Consequence": {
+      "id": "FatalVehicleCrash",
+      "中文名称": "致命车辆碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Tesla Employee Who Loved Elon Musk Reportedly Killed by Full Self-Driving"
+    },
+    "RiskSource": {
+      "id": "DriverAlcoholImpairment",
+      "中文名称": "驾驶员酒精影响风险源",
+      "英文名称": "Driver Alcohol Impairment Risk Source",
+      "来源": "Tesla worker died in horrible crash on Full Self-Driving beta, but he was also drunk"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    }
+  },
+  "实体对齐后事件属性": {
+    "AIsystem": {
+      "id": "TeslaFullSelfDrivingBeta",
+      "中文名称": "特斯拉全自动驾驶测试版",
+      "英文名称": "Tesla Self-Driving",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Risk": {
+      "id": "AutonomousVehicleFatalityRisk",
+      "中文名称": "自动驾驶车辆致命风险",
+      "英文名称": "Autonomous Vehicle Safety Risk",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Consequence": {
+      "id": "FatalVehicleCrash",
+      "中文名称": "致命车辆碰撞后果",
+      "英文名称": "Fatal and Injury Consequences",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Stakeholder": {
+      "id": "TeslaEmployee",
+      "中文名称": "特斯拉员工",
+      "英文名称": "Tesla Staff",
+      "来源": "Tesla Employee Who Loved Elon Musk Reportedly Killed by Full Self-Driving"
+    },
+    "RiskSource": {
+      "id": "DriverAlcoholImpairment",
+      "中文名称": "驾驶员酒精影响风险源",
+      "英文名称": "Driver Alcohol Impairment Risk Source",
+      "来源": "Tesla worker died in horrible crash on Full Self-Driving beta, but he was also drunk"
+    },
+    "Impact": {
+      "id": "LossOfHumanLife",
+      "中文名称": "人员死亡影响",
+      "英文名称": "Human Life Loss Impact",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "AIOperator": {
+      "id": "TeslaInc",
+      "中文名称": "特斯拉公司",
+      "英文名称": "Tesla",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    },
+    "Domain": {
+      "id": "AutonomousVehicles",
+      "中文名称": "自动驾驶汽车领域",
+      "英文名称": "Autonomous Vehicle Domain",
+      "来源": "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality"
+    }
+  }
+}

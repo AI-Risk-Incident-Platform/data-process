@@ -1,0 +1,35 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MilitaryDefenseChatbot rdf:type airo:AISystem ;
+    rdfs:label "Military Defense Chatbot"@en ;
+    rdfs:label "军事防御聊天机器人"@zh ;
+    airo:hasRisk ex:MilitaryAIApplicationRisk ;
+    airo:isDevelopedBy ex:ChineseMilitaryResearchers ;
+    airo:usesTechnique ex:MetaLlamaAI ;
+    airo:isAppliedWithinDomain ex:MilitaryDefense .
+
+ex:MilitaryAIApplicationRisk rdf:type airo:Risk ;
+    rdfs:label "Military AI Application Risk"@en ;
+    rdfs:label "军事AI应用风险"@zh .
+
+ex:ChineseMilitaryResearchers rdf:type airo:AIDeveloper ;
+    rdfs:label "Chinese Military Researchers"@en ;
+    rdfs:label "中国军事研究人员"@zh .
+
+ex:MetaLlamaAI rdf:type airo:AITechnique ;
+    rdfs:label "Meta Llama AI Technique"@en ;
+    rdfs:label "Meta Llama AI技术"@zh .
+
+ex:MilitaryDefense rdf:type airo:Domain ;
+    rdfs:label "Military Defense Domain"@en ;
+    rdfs:label "军事防御领域"@zh .

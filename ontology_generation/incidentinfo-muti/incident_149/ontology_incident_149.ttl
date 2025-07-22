@@ -1,0 +1,92 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:YouTubeContentModerationSystem rdf:type airo:AISystem ;
+    rdfs:label "YouTube Content Moderation System"@en ;
+    rdfs:label "YouTube内容审核系统"@zh ;
+    airo:hasRisk ex:MisinterpretationOfChessTerminology ;
+    airo:hasCapability ex:NaturalLanguageProcessingForContentModeration ;
+    airo:isDeployedBy ex:Google ;
+    airo:hasStakeholder ex:ChessContentCreators ;
+    airo:hasAISubject ex:ChessPlayers ;
+    airo:hasPurpose ex:PreventRacistContent ;
+    airo:isAppliedWithinDomain ex:OnlineContentPlatform ;
+    airo:usesTechnique ex:KeywordBasedFiltering .
+
+ex:MisinterpretationOfChessTerminology rdf:type airo:Risk ;
+    rdfs:label "Misinterpretation of Chess Terminology Risk"@en ;
+    rdfs:label "国际象棋术语误解风险"@zh ;
+    airo:hasConsequence ex:InappropriateContentBlocking ;
+    airo:isRiskSourceFor ex:LackOfDomainSpecificKnowledge .
+
+ex:InappropriateContentBlocking rdf:type airo:Consequence ;
+    rdfs:label "Inappropriate Content Blocking Consequence"@en ;
+    rdfs:label "不当内容屏蔽后果"@zh ;
+    airo:hasImpact ex:ContentAccessRestriction .
+
+ex:NaturalLanguageProcessingForContentModeration rdf:type airo:AICapability ;
+    rdfs:label "Natural Language Processing for Content Moderation Capability"@en ;
+    rdfs:label "自然语言处理用于内容审核的能力"@zh .
+
+ex:Google rdf:type airo:AIOperator ;
+    rdfs:label "Google"@en ;
+    rdfs:label "谷歌"@zh .
+
+ex:ChessContentCreators rdf:type airo:Stakeholder ;
+    rdfs:label "Chess Content Creators"@en ;
+    rdfs:label "国际象棋内容创作者"@zh .
+
+ex:ChessPlayers rdf:type airo:AISubject ;
+    rdfs:label "Chess Players"@en ;
+    rdfs:label "国际象棋玩家"@zh .
+
+ex:ContentAccessRestriction rdf:type airo:Impact ;
+    rdfs:label "Content Access Restriction Impact"@en ;
+    rdfs:label "内容访问限制的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ChessContentCreators .
+
+ex:PreventRacistContent rdf:type airo:Purpose ;
+    rdfs:label "Prevent Racist Content Purpose"@en ;
+    rdfs:label "防止种族主义内容的目的"@zh .
+
+ex:OnlineContentPlatform rdf:type airo:Domain ;
+    rdfs:label "Online Content Platform Domain"@en ;
+    rdfs:label "在线内容平台领域"@zh .
+
+ex:KeywordBasedFiltering rdf:type airo:AITechnique ;
+    rdfs:label "Keyword-Based Filtering Technique"@en ;
+    rdfs:label "基于关键词的过滤技术"@zh .
+
+ex:ContextInsensitivity rdf:type airo:Vulnerability ;
+    rdfs:label "Context Insensitivity Vulnerability"@en ;
+    rdfs:label "上下文不敏感的脆弱性"@zh ;
+    airo:isVulnerabilityOf ex:YouTubeContentModerationSystem .
+
+ex:OverzealousContentModeration rdf:type airo:Threat ;
+    rdfs:label "Overzealous Content Moderation Threat"@en ;
+    rdfs:label "过度内容审核的威胁"@zh ;
+    airo:isRiskSourceFor ex:MisinterpretationOfChessTerminology .
+
+ex:AmbiguousTerminology rdf:type airo:Hazard ;
+    rdfs:label "Ambiguous Terminology Hazard"@en ;
+    rdfs:label "模糊术语的危害"@zh ;
+    airo:isRiskSourceFor ex:MisinterpretationOfChessTerminology .
+
+ex:LackOfDomainSpecificKnowledge rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Domain-Specific Knowledge Risk Source"@en ;
+    rdfs:label "缺乏领域特定知识的风险源"@zh ;
+    airo:exploitsVulnerability ex:ContextInsensitivity .
+
+ex:FalsePositiveContentFlagging rdf:type airo:RiskConcept ;
+    rdfs:label "False Positive Content Flagging Risk Concept"@en ;
+    rdfs:label "错误内容标记的风险概念"@zh ;
+    airo:isRiskSourceFor ex:MisinterpretationOfChessTerminology .

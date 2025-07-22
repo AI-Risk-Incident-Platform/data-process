@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:CaliforniaBarExamAIProctoringSystem rdf:type airo:AISystem ;
+    rdfs:label "California Bar Exam AI Proctoring System"@en ;
+    rdfs:label "加州律师考试AI监考系统"@zh ;
+    airo:hasRisk ex:FalseCheatingAccusationRisk ;
+    airo:hasCapability ex:AutomatedBehaviorMonitoring ;
+    airo:hasStakeholder ex:BarExamApplicants .
+
+ex:FalseCheatingAccusationRisk rdf:type airo:Risk ;
+    rdfs:label "False Cheating Accusation Risk"@en ;
+    rdfs:label "虚假作弊指控风险"@zh ;
+    airo:hasConsequence ex:UnfairDisqualification .
+
+ex:UnfairDisqualification rdf:type airo:Consequence ;
+    rdfs:label "Unfair Disqualification Consequence"@en ;
+    rdfs:label "不公平取消资格后果"@zh ;
+    airo:hasImpactOnStakeholder ex:BarExamApplicants .
+
+ex:AutomatedBehaviorMonitoring rdf:type airo:AICapability ;
+    rdfs:label "Automated Behavior Monitoring Capability"@en ;
+    rdfs:label "自动行为监控能力"@zh .
+
+ex:BarExamApplicants rdf:type airo:Stakeholder ;
+    rdfs:label "Bar Exam Applicants"@en ;
+    rdfs:label "律师考试申请人"@zh .

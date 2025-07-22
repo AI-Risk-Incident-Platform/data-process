@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:MallSecurityRobot rdf:type airo:AISystem ;
+    rdfs:label "Mall Security Robot"@en ;
+    rdfs:label "商场安保机器人"@zh ;
+    airo:hasRisk ex:PhysicalHarmToChildrenRisk ;
+    airo:hasStakeholder ex:MallVisitors ;
+    airo:isDeployedBy ex:MallSecurity .
+
+ex:PhysicalHarmToChildrenRisk rdf:type airo:Risk ;
+    rdfs:label "Physical Harm to Children Risk"@en ;
+    rdfs:label "对儿童造成身体伤害的风险"@zh ;
+    airo:hasConsequence ex:ChildInjury ;
+    airo:isRiskSourceFor ex:LackOfSafetyMechanisms .
+
+ex:ChildInjury rdf:type airo:Consequence ;
+    rdfs:label "Child Injury Consequence"@en ;
+    rdfs:label "儿童受伤后果"@zh ;
+    airo:hasImpact ex:PublicSafetyConcern .
+
+ex:PublicSafetyConcern rdf:type airo:Impact ;
+    rdfs:label "Public Safety Concern Impact"@en ;
+    rdfs:label "公共安全担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:MallVisitors .
+
+ex:MallVisitors rdf:type airo:Stakeholder ;
+    rdfs:label "Mall Visitors"@en ;
+    rdfs:label "商场访客"@zh .
+
+ex:MallSecurity rdf:type airo:AIOperator ;
+    rdfs:label "Mall Security"@en ;
+    rdfs:label "商场安保部门"@zh .
+
+ex:HeavyRobotInPublicSpace rdf:type airo:Hazard ;
+    rdfs:label "Heavy Robot in Public Space Hazard"@en ;
+    rdfs:label "公共场所重型机器人的危害"@zh ;
+    airo:isRiskSourceFor ex:PhysicalHarmToChildrenRisk .
+
+ex:LackOfSafetyMechanisms rdf:type airo:RiskSource ;
+    rdfs:label "Lack of Safety Mechanisms Risk Source"@en ;
+    rdfs:label "缺乏安全机制的风险源"@zh ;
+    airo:isRiskSourceFor ex:PhysicalHarmToChildrenRisk .

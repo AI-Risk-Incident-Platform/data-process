@@ -1,0 +1,52 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GigWorkPlatformAI",
+      "中文名称": "零工工作平台AI",
+      "英文名称": "Gig Work Platform AI",
+      "来源": "Companies like Uber and Amazon use AI to pay people different wages for the same work"
+    },
+    "Risk": {
+      "id": "AlgorithmicWageDiscrimination",
+      "中文名称": "算法工资歧视风险",
+      "英文名称": "Algorithmic Wage Discrimination Risk",
+      "来源": "Algorithmic Wage Discrimination in Gig Work Platforms"
+    },
+    "Stakeholder": {
+      "id": "GigWorkers",
+      "中文名称": "零工工作者",
+      "英文名称": "Gig Workers",
+      "来源": "How companies get inside gig workers' heads with \"algorithmic wage discrimination\""
+    },
+    "AIOperator": {
+      "id": "UberAndAmazon",
+      "中文名称": "优步和亚马逊",
+      "英文名称": "Uber and Amazon",
+      "来源": "Companies like Uber and Amazon use AI to pay people different wages for the same work"
+    },
+    "Consequence": {
+      "id": "UnequalPayForSameWork",
+      "中文名称": "同工不同酬后果",
+      "英文名称": "Unequal Pay for Same Work Consequence",
+      "来源": "Companies like Uber and Amazon use AI to pay people different wages for the same work"
+    },
+    "Impact": {
+      "id": "EconomicInequality",
+      "中文名称": "经济不平等影响",
+      "英文名称": "Economic Inequality Impact",
+      "来源": "Algorithmic Wage Discrimination in Gig Work Platforms"
+    },
+    "Domain": {
+      "id": "GigEconomy",
+      "中文名称": "零工经济领域",
+      "英文名称": "Gig Economy Domain",
+      "来源": "Algorithmic Wage Discrimination in Gig Work Platforms"
+    },
+    "RiskSource": {
+      "id": "OpaquePricingAlgorithms",
+      "中文名称": "不透明的定价算法风险源",
+      "英文名称": "Opaque Pricing Algorithms Risk Source",
+      "来源": "How companies get inside gig workers' heads with \"algorithmic wage discrimination\""
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:RoombaVacuumCleaner rdf:type airo:AISystem ;
+    rdfs:label "Roomba Vacuum Cleaner"@en ;
+    rdfs:label "Roomba吸尘器"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:isDevelopedBy ex:IRobotCorporation ;
+    airo:usesTechnique ex:ComputerVisionForNavigation ;
+    airo:hasStakeholder ex:IRobotCorporation .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:PrivateImagesLeaked ;
+    airo:isRiskSourceFor ex:UnauthorizedDataSharing .
+
+ex:PrivateImagesLeaked rdf:type airo:Consequence ;
+    rdfs:label "Private Images Leaked Consequence"@en ;
+    rdfs:label "私人图像泄露后果"@zh ;
+    airo:hasImpact ex:PersonalPrivacyCompromised .
+
+ex:PersonalPrivacyCompromised rdf:type airo:Impact ;
+    rdfs:label "Personal Privacy Compromised Impact"@en ;
+    rdfs:label "个人隐私受损影响"@zh ;
+    airo:hasImpactOnStakeholder ex:IRobotCorporation .
+
+ex:IRobotCorporation rdf:type airo:AIOperator ;
+    rdfs:label "iRobot Corporation"@en ;
+    rdfs:label "iRobot公司"@zh .
+
+ex:ComputerVisionForNavigation rdf:type airo:AITechnique ;
+    rdfs:label "Computer Vision for Navigation Technique"@en ;
+    rdfs:label "用于导航的计算机视觉技术"@zh .
+
+ex:UnsecuredImageStorage rdf:type airo:Vulnerability ;
+    rdfs:label "Unsecured Image Storage Vulnerability"@en ;
+    rdfs:label "未加密的图像存储漏洞"@zh .
+
+ex:UnauthorizedDataSharing rdf:type airo:RiskSource ;
+    rdfs:label "Unauthorized Data Sharing Risk Source"@en ;
+    rdfs:label "未经授权的数据共享风险源"@zh ;
+    airo:exploitsVulnerability ex:UnsecuredImageStorage .

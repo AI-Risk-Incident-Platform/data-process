@@ -1,0 +1,56 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VendingMachineFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Vending Machine Facial Recognition System"@en ;
+    rdfs:label "自动售货机面部识别系统"@zh ;
+    airo:hasRisk ex:PrivacyViolationRisk ;
+    airo:hasAISubject ex:UniversityStudents ;
+    airo:hasPurpose ex:ConsumerBehaviorAnalysis ;
+    airo:isAppliedWithinDomain ex:RetailAutomation ;
+    airo:usesTechnique ex:FacialRecognitionTechnology ;
+    airo:hasStakeholder ex:UniversityOfWaterloo .
+
+ex:PrivacyViolationRisk rdf:type airo:Risk ;
+    rdfs:label "Privacy Violation Risk"@en ;
+    rdfs:label "隐私侵犯风险"@zh ;
+    airo:hasConsequence ex:UnauthorizedDataCollection .
+
+ex:UniversityStudents rdf:type airo:AISubject ;
+    rdfs:label "University Students"@en ;
+    rdfs:label "大学生"@zh .
+
+ex:UniversityOfWaterloo rdf:type airo:Stakeholder ;
+    rdfs:label "University of Waterloo"@en ;
+    rdfs:label "滑铁卢大学"@zh .
+
+ex:ConsumerBehaviorAnalysis rdf:type airo:Purpose ;
+    rdfs:label "Consumer Behavior Analysis Purpose"@en ;
+    rdfs:label "消费者行为分析"@zh .
+
+ex:RetailAutomation rdf:type airo:Domain ;
+    rdfs:label "Retail Automation Domain"@en ;
+    rdfs:label "零售自动化领域"@zh .
+
+ex:FacialRecognitionTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Facial Recognition Technology"@en ;
+    rdfs:label "面部识别技术"@zh .
+
+ex:UnauthorizedDataCollection rdf:type airo:Consequence ;
+    rdfs:label "Unauthorized Data Collection Consequence"@en ;
+    rdfs:label "未经授权的数据收集后果"@zh ;
+    airo:hasImpact ex:StudentPrivacyConcerns .
+
+ex:StudentPrivacyConcerns rdf:type airo:Impact ;
+    rdfs:label "Student Privacy Concerns Impact"@en ;
+    rdfs:label "学生隐私担忧的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:UniversityStudents .

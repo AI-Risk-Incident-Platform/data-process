@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:VideoManipulationAI rdf:type airo:AISystem ;
+    rdfs:label "Video Manipulation AI"@en ;
+    rdfs:label "视频篡改AI"@zh ;
+    airo:hasRisk ex:MisinformationRisk ;
+    airo:hasPurpose ex:PoliticalManipulation ;
+    airo:hasStakeholder ex:PoliticalFigures .
+
+ex:MisinformationRisk rdf:type airo:Risk ;
+    rdfs:label "Misinformation Risk"@en ;
+    rdfs:label "虚假信息风险"@zh ;
+    airo:hasImpact ex:ReputationDamage .
+
+ex:PoliticalFigures rdf:type airo:Stakeholder ;
+    rdfs:label "Political Figures"@en ;
+    rdfs:label "政治人物"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage"@en ;
+    rdfs:label "声誉损害"@zh ;
+    airo:hasImpactOnStakeholder ex:PoliticalFigures .
+
+ex:PoliticalManipulation rdf:type airo:Purpose ;
+    rdfs:label "Political Manipulation"@en ;
+    rdfs:label "政治操纵"@zh .

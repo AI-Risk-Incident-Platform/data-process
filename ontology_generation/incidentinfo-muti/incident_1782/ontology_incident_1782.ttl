@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:FoodinhoAlgorithmicManagementSystem rdf:type airo:AISystem ;
+    rdfs:label "Foodinho Algorithmic Management System"@en ;
+    rdfs:label "Foodinho算法管理系统"@zh ;
+    airo:hasRisk ex:AlgorithmicBiasInRiderManagement ;
+    airo:isDeployedBy ex:Glovo ;
+    airo:hasStakeholder ex:ItalianDataProtectionAuthority ;
+    airo:isAppliedWithinDomain ex:FoodDeliveryPlatform .
+
+ex:AlgorithmicBiasInRiderManagement rdf:type airo:Risk ;
+    rdfs:label "Algorithmic Bias in Rider Management Risk"@en ;
+    rdfs:label "骑手管理中的算法偏见风险"@zh ;
+    airo:hasConsequence ex:UnfairTreatmentOfRiders ;
+    airo:isRiskSourceFor ex:BiasedAlgorithmicDecisionMaking .
+
+ex:ItalianDataProtectionAuthority rdf:type airo:Stakeholder ;
+    rdfs:label "Italian Data Protection Authority"@en ;
+    rdfs:label "意大利数据保护局"@zh .
+
+ex:Glovo rdf:type airo:AIOperator ;
+    rdfs:label "Glovo"@en ;
+    rdfs:label "Glovo"@zh .
+
+ex:UnfairTreatmentOfRiders rdf:type airo:Consequence ;
+    rdfs:label "Unfair Treatment of Riders Consequence"@en ;
+    rdfs:label "骑手不公平待遇后果"@zh ;
+    airo:hasImpact ex:ViolationOfWorkerRights .
+
+ex:ViolationOfWorkerRights rdf:type airo:Impact ;
+    rdfs:label "Violation of Worker Rights Impact"@en ;
+    rdfs:label "工人权利侵犯的影响"@zh ;
+    airo:hasImpactOnStakeholder ex:ItalianDataProtectionAuthority .
+
+ex:FoodDeliveryPlatform rdf:type airo:Domain ;
+    rdfs:label "Food Delivery Platform Domain"@en ;
+    rdfs:label "食品配送平台领域"@zh .
+
+ex:BiasedAlgorithmicDecisionMaking rdf:type airo:RiskSource ;
+    rdfs:label "Biased Algorithmic Decision Making Risk Source"@en ;
+    rdfs:label "有偏见的算法决策风险源"@zh .

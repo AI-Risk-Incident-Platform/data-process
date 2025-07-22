@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:UberFacialRecognitionSystem rdf:type airo:AISystem ;
+    rdfs:label "Uber Facial Recognition System"@en ;
+    rdfs:label "优步面部识别系统"@zh ;
+    airo:hasRisk ex:JobLossDueToFaultyFaceDetection ;
+    airo:hasStakeholder ex:UberDrivers ;
+    airo:isDeployedBy ex:Uber .
+
+ex:JobLossDueToFaultyFaceDetection rdf:type airo:Risk ;
+    rdfs:label "Job Loss Due to Faulty Face Detection Risk"@en ;
+    rdfs:label "面部识别错误导致失业风险"@zh ;
+    airo:hasConsequence ex:UnjustTerminationOfEmployment .
+
+ex:UberDrivers rdf:type airo:Stakeholder ;
+    rdfs:label "Uber Drivers"@en ;
+    rdfs:label "优步司机"@zh .
+
+ex:Uber rdf:type airo:AIOperator ;
+    rdfs:label "Uber"@en ;
+    rdfs:label "优步"@zh .
+
+ex:UnjustTerminationOfEmployment rdf:type airo:Consequence ;
+    rdfs:label "Unjust Termination of Employment Consequence"@en ;
+    rdfs:label "不公正解雇后果"@zh ;
+    airo:hasImpactOnStakeholder ex:UberDrivers .

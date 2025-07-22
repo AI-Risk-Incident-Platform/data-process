@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "FakeNewsGenerationSystem",
+      "中文名称": "虚假新闻生成系统",
+      "英文名称": "Fake News Generation System",
+      "来源": "Honduras Shows How Fake News Is Changing Latin American Elections"
+    },
+    "Risk": {
+      "id": "ElectionInterferenceRisk",
+      "中文名称": "选举干预风险",
+      "英文名称": "Election Interference Risk",
+      "来源": "Honduras Shows How Fake News Is Changing Latin American Elections"
+    },
+    "Domain": {
+      "id": "PoliticalElections",
+      "中文名称": "政治选举领域",
+      "英文名称": "Political Elections Domain",
+      "来源": "Latin American Elections"
+    },
+    "Impact": {
+      "id": "DemocraticProcessUndermining",
+      "中文名称": "民主进程破坏影响",
+      "英文名称": "Democratic Process Undermining Impact",
+      "来源": "Changing Latin American Elections"
+    },
+    "Stakeholder": {
+      "id": "LatinAmericanVoters",
+      "中文名称": "拉丁美洲选民",
+      "英文名称": "Latin American Voters",
+      "来源": "Latin American Elections"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "GenerativeAI",
+      "中文名称": "生成式AI",
+      "英文名称": "Generative AI",
+      "来源": "Search the YouTube Videos Secretly Powering Generative AI"
+    },
+    "Risk": {
+      "id": "DataMisuseRisk",
+      "中文名称": "数据滥用风险",
+      "英文名称": "Data Misuse Risk",
+      "来源": "Big Tech Companies Used Thousands of Swiped YouTube Videos to Train AI"
+    },
+    "Stakeholder": {
+      "id": "TechCompanies",
+      "中文名称": "科技公司",
+      "英文名称": "Tech Companies",
+      "来源": "Apple, Anthropic, and other companies used YouTube videos to train AI"
+    },
+    "RiskSource": {
+      "id": "UnauthorizedDataCollection",
+      "中文名称": "未经授权的数据收集",
+      "英文名称": "Unauthorized Data Collection",
+      "来源": "Big Tech Companies Used Thousands of Swiped YouTube Videos to Train AI"
+    },
+    "Consequence": {
+      "id": "PrivacyViolation",
+      "中文名称": "隐私侵犯",
+      "英文名称": "Privacy Violation",
+      "来源": "Search the YouTube Videos Secretly Powering Generative AI"
+    }
+  }
+}

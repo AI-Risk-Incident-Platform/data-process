@@ -1,0 +1,55 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:DeepfakeNewsPresenters rdf:type airo:AISystem ;
+    rdfs:label "Deepfake News Presenters"@en ;
+    rdfs:label "深度伪造新闻主持人"@zh ;
+    airo:hasRisk ex:DisinformationSpreadRisk ;
+    airo:usesTechnique ex:DeepfakeTechnology ;
+    airo:hasPurpose ex:PropagandaDissemination ;
+    airo:isAppliedWithinDomain ex:MediaAndPropaganda ;
+    airo:hasStakeholder ex:VenezuelanGovernment .
+
+ex:DisinformationSpreadRisk rdf:type airo:Risk ;
+    rdfs:label "Disinformation Spread Risk"@en ;
+    rdfs:label "虚假信息传播风险"@zh ;
+    airo:hasConsequence ex:ErosionOfTrustInMedia ;
+    airo:isRiskSourceFor ex:StateSponsoredDisinformation .
+
+ex:VenezuelanGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "Venezuelan Government"@en ;
+    rdfs:label "委内瑞拉政府"@zh .
+
+ex:DeepfakeTechnology rdf:type airo:AITechnique ;
+    rdfs:label "Deepfake Technology"@en ;
+    rdfs:label "深度伪造技术"@zh .
+
+ex:PublicMisinformation rdf:type airo:Impact ;
+    rdfs:label "Public Misinformation Impact"@en ;
+    rdfs:label "公众误导影响"@zh .
+
+ex:PropagandaDissemination rdf:type airo:Purpose ;
+    rdfs:label "Propaganda Dissemination Purpose"@en ;
+    rdfs:label "宣传传播目的"@zh .
+
+ex:MediaAndPropaganda rdf:type airo:Domain ;
+    rdfs:label "Media and Propaganda Domain"@en ;
+    rdfs:label "媒体与宣传领域"@zh .
+
+ex:ErosionOfTrustInMedia rdf:type airo:Consequence ;
+    rdfs:label "Erosion of Trust in Media Consequence"@en ;
+    rdfs:label "媒体信任度下降后果"@zh ;
+    airo:hasImpact ex:PublicMisinformation .
+
+ex:StateSponsoredDisinformation rdf:type airo:RiskSource ;
+    rdfs:label "State-Sponsored Disinformation Risk Source"@en ;
+    rdfs:label "国家支持的虚假信息风险源"@zh .

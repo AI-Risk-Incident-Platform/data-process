@@ -1,0 +1,40 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:ESPN_AIRecapSystem rdf:type airo:AISystem ;
+    rdfs:label "ESPN AI Recap System"@en ;
+    rdfs:label "ESPN AI摘要系统"@zh ;
+    airo:hasRisk ex:IncompleteContentGenerationRisk ;
+    airo:hasCapability ex:SportsEventSummarization ;
+    airo:isAppliedWithinDomain ex:SportsMedia ;
+    airo:hasPurpose ex:AutomatedSportsEventSummarization .
+
+ex:IncompleteContentGenerationRisk rdf:type airo:Risk ;
+    rdfs:label "Incomplete Content Generation Risk"@en ;
+    rdfs:label "内容生成不完整风险"@zh ;
+    airo:hasConsequence ex:KeyInformationOmission .
+
+ex:KeyInformationOmission rdf:type airo:Consequence ;
+    rdfs:label "Key Information Omission Consequence"@en ;
+    rdfs:label "关键信息遗漏后果"@zh .
+
+ex:SportsEventSummarization rdf:type airo:AICapability ;
+    rdfs:label "Sports Event Summarization Capability"@en ;
+    rdfs:label "体育赛事摘要能力"@zh .
+
+ex:SportsMedia rdf:type airo:Domain ;
+    rdfs:label "Sports Media Domain"@en ;
+    rdfs:label "体育媒体领域"@zh .
+
+ex:AutomatedSportsEventSummarization rdf:type airo:Purpose ;
+    rdfs:label "Automated Sports Event Summarization Purpose"@en ;
+    rdfs:label "自动化体育赛事摘要目的"@zh .

@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "ChatGPT",
+      "中文名称": "ChatGPT",
+      "英文名称": "ChatGPT",
+      "来源": "FTC investigates OpenAI over data leak and ChatGPT's inaccuracy"
+    },
+    "Risk": {
+      "id": "ReputationalHarmRisk",
+      "中文名称": "声誉损害风险",
+      "英文名称": "Reputational Harm Risk",
+      "来源": "FTC reportedly looking into OpenAI over reputational harm caused by ChatGPT"
+    },
+    "Consequence": {
+      "id": "DataLeakConsequence",
+      "中文名称": "数据泄露后果",
+      "英文名称": "Data Leak Consequence",
+      "来源": "FTC investigates OpenAI over data leak and ChatGPT's inaccuracy"
+    },
+    "Stakeholder": {
+      "id": "FTC",
+      "中文名称": "联邦贸易委员会",
+      "英文名称": "Federal Trade Commission",
+      "来源": "FTC investigates OpenAI over data leak and ChatGPT's inaccuracy"
+    },
+    "AIOperator": {
+      "id": "OpenAI",
+      "中文名称": "OpenAI",
+      "英文名称": "OpenAI",
+      "来源": "FTC investigating OpenAI for possible 'reputational harm' caused by ChatGPT"
+    },
+    "Impact": {
+      "id": "PublicTrustErosion",
+      "中文名称": "公众信任侵蚀影响",
+      "英文名称": "Public Trust Erosion Impact",
+      "来源": "FTC reportedly looking into OpenAI over reputational harm caused by ChatGPT"
+    },
+    "RiskSource": {
+      "id": "InaccurateOutputs",
+      "中文名称": "不准确输出风险源",
+      "英文名称": "Inaccurate Outputs Risk Source",
+      "来源": "FTC investigates OpenAI over data leak and ChatGPT's inaccuracy"
+    }
+  }
+}

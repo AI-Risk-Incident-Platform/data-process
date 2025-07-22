@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "OtterAiTranscriptionService",
+      "中文名称": "Otter.ai转录服务",
+      "英文名称": "Otter.ai Transcription Service",
+      "来源": "This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private"
+    },
+    "Risk": {
+      "id": "PrivacyLeakRisk",
+      "中文名称": "隐私泄露风险",
+      "英文名称": "Privacy Leak Risk",
+      "来源": "cloud transcription isn’t completely private"
+    },
+    "Consequence": {
+      "id": "SensitiveInformationExposure",
+      "中文名称": "敏感信息暴露后果",
+      "英文名称": "Sensitive Information Exposure Consequence",
+      "来源": "spilling your company's secrets"
+    },
+    "AICapability": {
+      "id": "SpeechToTextConversion",
+      "中文名称": "语音转文本能力",
+      "英文名称": "Speech-to-Text Conversion Capability",
+      "来源": "cloud transcription service"
+    },
+    "Stakeholder": {
+      "id": "JournalistsAndCorporateUsers",
+      "中文名称": "记者和企业用户",
+      "英文名称": "Journalists and Corporate Users",
+      "来源": "journalist's scare and company secrets"
+    },
+    "Impact": {
+      "id": "ReputationalDamage",
+      "中文名称": "声誉损害影响",
+      "英文名称": "Reputational Damage Impact",
+      "来源": "spilling your company's secrets"
+    },
+    "RiskSource": {
+      "id": "CloudStorageVulnerability",
+      "中文名称": "云存储漏洞风险源",
+      "英文名称": "Cloud Storage Vulnerability Risk Source",
+      "来源": "cloud transcription isn’t completely private"
+    }
+  }
+}

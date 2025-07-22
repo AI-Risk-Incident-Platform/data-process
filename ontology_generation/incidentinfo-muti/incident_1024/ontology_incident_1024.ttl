@@ -1,0 +1,36 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AIPoweredImpersonationScam rdf:type airo:AISystem ;
+    rdfs:label "AI-Powered Impersonation Scam"@en ;
+    rdfs:label "AI驱动的冒充诈骗"@zh ;
+    airo:hasRisk ex:ImpersonationScamRisk ;
+    airo:hasAISubject ex:AustinBasedAspiringArtist ;
+    airo:usesTechnique ex:VoiceCloning .
+
+ex:ImpersonationScamRisk rdf:type airo:Risk ;
+    rdfs:label "Impersonation Scam Risk"@en ;
+    rdfs:label "冒充诈骗风险"@zh ;
+    airo:hasConsequence ex:ReputationDamage .
+
+ex:AustinBasedAspiringArtist rdf:type airo:AISubject ;
+    rdfs:label "Austin-based Aspiring Artist"@en ;
+    rdfs:label "奥斯汀的励志艺术家"@zh .
+
+ex:VoiceCloning rdf:type airo:AITechnique ;
+    rdfs:label "Voice Cloning Technique"@en ;
+    rdfs:label "语音克隆技术"@zh .
+
+ex:ReputationDamage rdf:type airo:Impact ;
+    rdfs:label "Reputation Damage Impact"@en ;
+    rdfs:label "声誉损害影响"@zh ;
+    airo:hasImpactOnStakeholder ex:AustinBasedAspiringArtist .

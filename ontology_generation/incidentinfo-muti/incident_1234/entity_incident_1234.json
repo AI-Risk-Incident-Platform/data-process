@@ -1,0 +1,46 @@
+{
+  "事件概念": {
+    "AIsystem": {
+      "id": "AIGeneratedTouristSpotArticles",
+      "中文名称": "AI生成旅游景点文章",
+      "英文名称": "AI Generated Tourist Spot Articles",
+      "来源": "AI-generated articles introduce nonexistent tourist spots on site promoting Fukuoka Pref."
+    },
+    "Risk": {
+      "id": "MisinformationRisk",
+      "中文名称": "虚假信息风险",
+      "英文名称": "Misinformation Risk",
+      "来源": "AI-generated articles introduce nonexistent tourist spots"
+    },
+    "Consequence": {
+      "id": "TouristDeception",
+      "中文名称": "游客欺骗后果",
+      "英文名称": "Tourist Deception Consequence",
+      "来源": "introduce nonexistent tourist spots"
+    },
+    "Impact": {
+      "id": "DamagedTourismReputation",
+      "中文名称": "旅游声誉受损影响",
+      "英文名称": "Damaged Tourism Reputation Impact",
+      "来源": "promoting Fukuoka Pref. with false information"
+    },
+    "Domain": {
+      "id": "TourismPromotion",
+      "中文名称": "旅游推广领域",
+      "英文名称": "Tourism Promotion Domain",
+      "来源": "site promoting Fukuoka Pref."
+    },
+    "Purpose": {
+      "id": "RegionalTourismPromotion",
+      "中文名称": "区域旅游推广目的",
+      "英文名称": "Regional Tourism Promotion Purpose",
+      "来源": "site promoting Fukuoka Pref."
+    },
+    "RiskSource": {
+      "id": "UnverifiedContentGeneration",
+      "中文名称": "未经核实的内容生成风险源",
+      "英文名称": "Unverified Content Generation Risk Source",
+      "来源": "AI-generated articles introduce nonexistent tourist spots"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:AISearchEngines rdf:type airo:AISystem ;
+    rdfs:label "AI搜索引擎"@zh ;
+    rdfs:label "AI Search Engines"@en ;
+    airo:hasRisk ex:PromotingScientificRacismRisk ;
+    airo:hasStakeholder ex:TechCompanies ;
+    airo:isDeployedBy ex:GoogleMicrosoftPerplexity ;
+    airo:isAppliedWithinDomain ex:InformationRetrieval .
+
+ex:PromotingScientificRacismRisk rdf:type airo:Risk ;
+    rdfs:label "传播科学种族主义风险"@zh ;
+    rdfs:label "Promoting Scientific Racism Risk"@en ;
+    airo:hasConsequence ex:SpreadOfDebunkedRaceScience ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInSearchResults .
+
+ex:TechCompanies rdf:type airo:Stakeholder ;
+    rdfs:label "科技公司"@zh ;
+    rdfs:label "Tech Companies"@en .
+
+ex:SpreadOfDebunkedRaceScience rdf:type airo:Consequence ;
+    rdfs:label "传播被证伪的种族科学后果"@zh ;
+    rdfs:label "Spread of Debunked Race Science Consequence"@en ;
+    airo:hasImpact ex:ReinforcementOfRacialStereotypes .
+
+ex:ReinforcementOfRacialStereotypes rdf:type airo:Impact ;
+    rdfs:label "强化种族刻板印象的影响"@zh ;
+    rdfs:label "Reinforcement of Racial Stereotypes Impact"@en ;
+    airo:hasImpactOnStakeholder ex:TechCompanies .
+
+ex:AlgorithmicBiasInSearchResults rdf:type airo:RiskSource ;
+    rdfs:label "搜索结果中的算法偏见风险源"@zh ;
+    rdfs:label "Algorithmic Bias in Search Results Risk Source"@en .
+
+ex:GoogleMicrosoftPerplexity rdf:type airo:AIOperator ;
+    rdfs:label "谷歌微软Perplexity"@zh ;
+    rdfs:label "Google Microsoft Perplexity"@en .
+
+ex:InformationRetrieval rdf:type airo:Domain ;
+    rdfs:label "信息检索领域"@zh ;
+    rdfs:label "Information Retrieval Domain"@en .

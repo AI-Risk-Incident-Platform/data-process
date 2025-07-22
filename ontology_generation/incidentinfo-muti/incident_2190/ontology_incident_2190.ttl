@@ -1,0 +1,50 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix : <https://w3id.org/airo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.com/aievents#> .
+@base <https://w3id.org/airo#> .
+
+ex:HousebuildingAlgorithm rdf:type airo:AISystem ;
+    rdfs:label "Housebuilding Algorithm"@en ;
+    rdfs:label "房屋建设算法"@zh ;
+    airo:hasRisk ex:UnfairUrbanDevelopmentRisk ;
+    airo:hasPurpose ex:HousingCrisisSolution ;
+    airo:isAppliedWithinDomain ex:UrbanPlanning ;
+    airo:hasStakeholder ex:UKGovernment .
+
+ex:UnfairUrbanDevelopmentRisk rdf:type airo:Risk ;
+    rdfs:label "Unfair Urban Development Risk"@en ;
+    rdfs:label "不公平城市发展风险"@zh ;
+    airo:hasConsequence ex:InequitableResourceAllocation ;
+    airo:isRiskSourceFor ex:AlgorithmicBiasInResourceDistribution .
+
+ex:InequitableResourceAllocation rdf:type airo:Consequence ;
+    rdfs:label "Inequitable Resource Allocation Consequence"@en ;
+    rdfs:label "资源分配不公后果"@zh ;
+    airo:hasImpact ex:RegionalDevelopmentImbalance .
+
+ex:UKGovernment rdf:type airo:Stakeholder ;
+    rdfs:label "UK Government"@en ;
+    rdfs:label "英国政府"@zh .
+
+ex:HousingCrisisSolution rdf:type airo:Purpose ;
+    rdfs:label "Housing Crisis Solution Purpose"@en ;
+    rdfs:label "住房危机解决方案"@zh .
+
+ex:UrbanPlanning rdf:type airo:Domain ;
+    rdfs:label "Urban Planning Domain"@en ;
+    rdfs:label "城市规划领域"@zh .
+
+ex:RegionalDevelopmentImbalance rdf:type airo:Impact ;
+    rdfs:label "Regional Development Imbalance Impact"@en ;
+    rdfs:label "区域发展不平衡影响"@zh .
+
+ex:AlgorithmicBiasInResourceDistribution rdf:type airo:RiskSource ;
+    rdfs:label "Algorithmic Bias in Resource Distribution Risk Source"@en ;
+    rdfs:label "资源分配中的算法偏见风险源"@zh .
