@@ -8,8 +8,7 @@ import json
 import webbrowser
 from typing import Dict, Set, Tuple, List, Optional
 
-# TODO：1. 令与AIsystem和与Risk相连的要素分别呈现两种颜色
-#       2. 调节图谱的位置和密度，优化显示效果
+
 class KnowledgeGraphVisualizer:
     """优化后的紧凑大字体中文知识图谱可视化器"""
 
