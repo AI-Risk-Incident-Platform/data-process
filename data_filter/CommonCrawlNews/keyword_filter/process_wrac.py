@@ -23,22 +23,49 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-
+import configparser
 # 初始化配置
-class Config:
-    WARC_FOLDER = "WARC_FOLDER"
-    OUTPUT_DIR = "OUTPUT_DIR"
-    LOG_FILE = "LOG_FILE"
-    KEYWORDS_FILE = "keywords.txt"
-    NLTK_DATA = ['punkt', 'stopwords', "punkt_tab", 'wordnet']
-    MAX_WORKERS = 32
+config = configparser.ConfigParser()
+config.read("config.ini")
+cc_config = config["CommonCrawl"]
 
+year = cc_config.get("year", "2022")
+months_str = cc_config.get("months", "1,2,3,4,5,6,7,8,9,10,11,12")
+months = [int(m.strip()) for m in months_str.split(",")]
+star_month = min(months)
+end_month = max(months)
+NLTK_DATA = cc_config.get("nltk_data", "punkt,stopwords,wordnet")
+NLTK_DATA = [data.strip() for data in NLTK_DATA.split(",")]
+WARC_FOLDER = cc_config.get("WARC_FOLDER")
+OUTPUT_DIR = cc_config.get("OUTPUT_DIR")
+LOG_FILE = cc_config.get("LOG_FILE")
+LOG_FILE =f"{LOG_FILE}_{year}_{star_month}-{end_month}.log"
+KEYWORDS_FILE = cc_config.get("KEYWORDS_FILE")
+MAX_WORKERS = cc_config.getint("max_workers", 32)
+#下载nltk数据
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
 # 初始化日志
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(process)d - %(message)s',
     handlers=[
-        logging.FileHandler(Config.LOG_FILE),
+        logging.FileHandler(LOG_FILE),
         logging.StreamHandler()
     ]
 )
@@ -46,15 +73,15 @@ logger = logging.getLogger(__name__)
 
 # 初始化NLTK
 def init_nltk():
-    for data in Config.NLTK_DATA:
+    for data in NLTK_DATA:
         try:
-            if data in ['punkt', 'punkt_tab']:
+            if data in ['punkt','punkt_tab']:
                 nltk.data.find(f'tokenizers/{data}')
             else:
                 nltk.data.find(f'corpora/{data}')
         except LookupError:
             nltk.download(data)
-
+            print(f"Downloaded NLTK data: {data}")
 init_nltk()
 
 # 关键词处理
@@ -66,7 +93,7 @@ class KeywordProcessor:
     
     def _load_keywords(self):
         try:
-            with open(Config.KEYWORDS_FILE, 'r', encoding='utf-8') as f:
+            with open(KEYWORDS_FILE, 'r', encoding='utf-8') as f:
                 return set(line.strip().lower() for line in f if line.strip())
         except Exception as e:
             logger.error(f"Failed to load keywords: {e}")
@@ -175,7 +202,7 @@ class WARCAnalyzer:
 # 主处理函数
 def process_warc_file(warc_path, year, month, stats):
     analyzer = WARCAnalyzer(
-        output_dir=os.path.join(Config.OUTPUT_DIR, year, month),
+        output_dir=os.path.join(OUTPUT_DIR, year, month),
         stats=stats
     )
     
@@ -202,10 +229,7 @@ def process_warc_file(warc_path, year, month, stats):
 
 def main():
     start_time = time.time()
-
-
-    year = "2022"
-    months = ["9","10","11","12"]  # 可扩展为多个月份
+        # 读取配置文件
     
     # 初始化共享统计
     manager = Manager()
@@ -221,7 +245,7 @@ def main():
         month = str(month)
         warc_files = [
             os.path.join(root, f) 
-            for root, _, files in os.walk(os.path.join(Config.WARC_FOLDER, year, month))
+            for root, _, files in os.walk(os.path.join(WARC_FOLDER, year, month))
             for f in files if f.endswith(".warc.gz")
         ]
         
@@ -232,10 +256,10 @@ def main():
         logger.info(f"Processing {len(warc_files)} files for {year}-{month}")
         
         # 准备输出目录
-        os.makedirs(os.path.join(Config.OUTPUT_DIR, year, month, "texts"), exist_ok=True)
+        os.makedirs(os.path.join(OUTPUT_DIR, year, month, "texts"), exist_ok=True)
         
         # 进程池处理
-        num_workers = min(Config.MAX_WORKERS, os.cpu_count(), len(warc_files))
+        num_workers = min(MAX_WORKERS, os.cpu_count(), len(warc_files))
         with Pool(num_workers) as pool:
             results = pool.imap_unordered(
                 partial(process_warc_file, year=year, month=month, stats=stats),
@@ -263,7 +287,7 @@ def main():
         f"Failed pages: {stats_dict['failed']}\n"
     )
     
-    with open(Config.LOG_FILE, 'a') as f:
+    with open(LOG_FILE, 'a') as f:
         f.write(summary)
     
     logger.info(summary)

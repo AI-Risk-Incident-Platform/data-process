@@ -1,0 +1,5 @@
+2025-07-28 18:07:24,039 - INFO - 643636 - 完成处理文件 /home/nlper/maxianlong/sft-qwen/Stander-Data/cases.jsonl，找到9131条AI相关新闻，430条非AI新闻
+2025-07-28 18:07:26,475 - INFO - 643636 - 结果已保存：ai_related_news_AIID_AIAAIC.json（9131条）和ai_unrelated_news_AIID_AIAAIC.json（430条）
+2025-07-28 18:07:26,476 - INFO - 643636 - 所有文件处理完成，总耗时：161.21秒
+2025-07-28 18:07:26,476 - INFO - 643636 - 总计发现AI相关新闻：9131条，非AI相关新闻：430条
+2025-07-28 18:07:26,476 - INFO - 643636 - AI相关新闻占比95.50%
